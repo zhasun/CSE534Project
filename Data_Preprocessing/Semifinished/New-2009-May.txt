@@ -1,0 +1,1073 @@
+###############################################################
+Equifax Outage: Root Cause Analysis.
+###############################################################
+  -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Outage start time: 4/26/2009 - 3:28pm EST
+ Outage end time: 4/29/2009 - 2:45am EST
+ It appears this outage was a result of a transformer failure within
+ their power distribution panel at their Alpharetta data center.
+ Root Cause:
+ Failure of a defective transformer in a UPS system B distribution panel
+ which resulted in a loss of power to certain critical system components
+ in the data center. Apparently the system did not automatically failover
+  to the redundant system A power as designed because system A power
+ distribution panel breaker was left in a non-redundant state for some
+ unknown reason. Consequently it took down their core network down
+ including their mainframe / midrange systems.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+inet-access mailing list?
+###############################################################
+ I tried to send something to the good old inet-access mailing list
+ (@inet-acces.net) and the server (duct.tape.net) has been rejecting SMTP
+ connections for at least a day and a half.  Does anybody know if this is
+ a temporary thing, or has another old useful resource disappeared?
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+ http://inet-access.net/pipermail/list/
+ November 2008 appears to be the last post?
+ Chris Adams wrote:
+ Chris Adams wrote:
+ Dunno the answer to your question, but SPAM-L just signed off, NANOG is 
+ a hostile wasteland.
+ Maybe the time to sign off email has arrived.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ I've hosted something called inet-ops at puck.nether.net which rarely if  
+ ever gets used.  Do not know if it would be of value to anyone.  The  
+ list is there either way.
+ 	- Jared
+ On May 5, 2009, at 6:55 PM, Larry Sheldon wrote:
+ Larry Sheldon wrote:
+ Damn shame SPAM-L is about to be shut down. Seems the archives are going
+ away too and my personal store only goes back to March 2005. Lots of
+ usefulness in there in spite of the reasons specified for its demise.
+ It's also a shame that everything is offtopic on NANOG. The last thing I
+ got from inet-access was Nov. 15, 2008.
+ What exactly is left? Does anyone know? Not really interested in web
+ forums. Are there any worthwhile groups on usenet that aren't a spam
+ magnet? Maybe it's time to fire up an NNTP server.
+ ~Seth
+ On May 5, 2009, at 6:37 PM, Chris Adams wrote:
+ It is down, "but coming back" according to Avi.
+ He didn't give an ETA.
+ -- 
+ TTFN,
+ patrick
+ 	<4A00CD38.40106@rollernet.us>
+ On Tue, May 05, 2009 at 04:35:20PM -0700, Seth Mattinen wrote:
+ [...]
+ It's *always* time to fire up an NNTP server if a web forum is
+ the alternative.
+ 	<4A00CD38.40106@rollernet.us>
+ 	<20090506000932.GL31239@jeeves.rigozsaurus.com>
+ Once upon a time, John Osmon <josmon at rigozsaurus.com> said:
+ <aol>me too!</aol>  Have trn and INN, will readnews and postnews!
+ Anyway, thanks to Patrick for checking with Avi.  I sent email to Avi
+ last night (since that's the address on the whois), but I doubt my name
+ is recognized like Patrick's. :-)
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+ 	<4A00CD38.40106@rollernet.us>
+ 	<20090506000932.GL31239@jeeves.rigozsaurus.com>
+ 	<20090506014335.GC1377179@hiwaay.net>
+ On May 5, 2009, at 9:43 PM, Chris Adams wrote:
+ I cheated, he is crashing at my place tonight so I didn't have to deal  
+ with e-mail.
+ He says new listserve is in testing, should be in production in 3 days.
+ -- 
+ TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+Wireshark dor org
+###############################################################
+ 	<4A00C3D2.7070207@cox.net>	<4A00CD38.40106@rollernet.us> <20090506000932.GL31239@jeeves.rigozsaurus.com> <20090506014335.GC1377179@hiwaay.net>
+ 	<07C7D3B5-7CB8-44FF-8477-0B80155442B9@ianai.net>
+ Anybody know where Wireshark.org went? A trace run to seattle-datacenter.com
+ [67.228.118.134] and dies.
+ http://downforeveryoneorjustme.com shows it down too!
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ Down for me as well.
+ Unrelated, but annoying: please do not start a new thread by replying to
+ an existing one and changing the Subject line.  Many mail clients (mutt,
+ for example) use some extra mail headers to track a thread.  What I'm
+ talking about:
+  102     05/05 Chris Adams        (0.6K) [outages] inet-access mailing list?
+  103     05/05 Charles Wyble      (0.5K) `->
+  104     05/05 Patrick W. Gilmore (0.6K) `->
+  105     05/05 Larry Sheldon      (1.0K) `->
+  106     05/05 Jared Mauch        (1.4K)   `->
+  107     05/05 Seth Mattinen      (1.1K)   `->
+  108     05/05 John Osmon         (0.5K)     `->
+  109     05/05 Chris Adams        (0.7K)       `->
+  110     05/05 Patrick W. Gilmore (0.8K)         `->
+  111     05/07 Robert D. Scott    (0.6K)           `->[outages] Wireshark dor org
+ Thanks!
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Thu, May 07, 2009 at 08:45:01AM -0400, Robert D. Scott wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Threading [was: Wireshark dor org - and other threads!]
+###############################################################
+ On May 7, 2009, at 9:01 AM, Jeremy Chadwick wrote:
+ What he said.
+ -- 
+ TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+4.2.2.x DNS?
+###############################################################
+ I have multiple clients and problems internally using 4.2.2.2 and 
+ 4.2.2.1 for DNS. My Nagios server was using these as well and has been 
+ throwing false postives since 5-8-2009.....
+ Anyone else having problems?....
+ --chris
+ On May 11, 2009, at 2:48 PM, ChrisSerafin wrote:
+ Works here.
+ However, we are downstream of Level 3 / as3356.  I heard a rumor they  
+ ACL'ed queries from sources outside their downstream cone.
+ -- 
+ TTFN,
+ patrick
+ I should clarify they work fine sometimes, so they are not down, but 
+ flapping......
+ ChrisSerafin wrote:
+ 	<DDEEFAE0-C4C4-46AD-8491-31DBC88022D4@ianai.net>
+ I can report that the 4.2.2.x DNS servers have been unreliable and
+ almost unusable for a few days from one location I maintain.  I'm
+ guessing they've grown tired of being the free-for-all recursive DNS
+ servers of choice.
+ Matt Whitted
+ Hosting Director
+ -- 
+ Pantek, Inc. - http://www.pantek.com/ - info at pantek.com
+ +1-877-LINUX-FIX - Expert Open Source Technical Support
+ 2008 Inductee to the prestigious Weatherhead 100
+ Patrick W. Gilmore wrote:
+ On Mon, May 11, 2009 at 01:48:54PM -0500, ChrisSerafin wrote:
+ I assume no one took the time to explain to you that using either
+ of the Level 3 public recursive nameservers for long-term use is
+ considered rude and can possibly get you blocked from using them?
+ Please consider running your own caching nameserver, use your uplink
+ provider's DNS servers, or both (caching nameserver + forwarders
+ feature).
+ Both 4.2.2.1 and 4.2.2.2 behave fine, tested from 4 different physical
+ locations (two regions in northern California, Arizona, and Virginia):
+ $ dig @4.2.2.1 a www.google.com.
+ ; <<>> DiG 9.4.3-P2 <<>> @4.2.2.1 a www.google.com.
+ ; (1 server found)
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60360
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;www.google.com.                        IN      A
+ ;; ANSWER SECTION:
+ www.google.com.         16742   IN      CNAME   www.l.google.com.
+ www.l.google.com.       21      IN      A       74.125.155.147
+ www.l.google.com.       21      IN      A       74.125.155.99
+ www.l.google.com.       21      IN      A       74.125.155.103
+ www.l.google.com.       21      IN      A       74.125.155.104
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ 	<4A0877BE.7000809@chrisserafin.com>
+ I have also been told that Level 3 was starting to ACL these off, so if your
+ connections are load balanced to where the route to these servers is
+ sometimes via Level 3 and sometimes not, that could be your issue.
+ Also while these servers have been around for some time and are great to use
+ in a pinch or for testing, they are not officially supported servers and are
+ not what Level 3 would ever give a direct customer to use, so you should
+ generally avoid using them for anything production, especially without other
+ resolvers in your list.
+ 	-Scott
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of ChrisSerafin
+ Sent: Monday, May 11, 2009 3:09 PM
+ Subject: Re: [outages] 4.2.2.x DNS?
+ I should clarify they work fine sometimes, so they are not down, but 
+ flapping......
+ ChrisSerafin wrote:
+ 05:52:00
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<DDEEFAE0-C4C4-46AD-8491-31DBC88022D4@ianai.net>
+ Patrick W. Gilmore wrote:
+ Based on some (relatively unscientific) experimentation, this does
+ appear to be true.  From sources that reach 4.2.2.1 via what appear to
+ be peering links (such as an XO / Level(3) interconnect) queries time
+ out, while sources that reach 4.2.2.1 via what appear to be transit
+ links have no problems with consistent resolution.
+ I can't really blame them, as a) open recursive DNS servers are rife for
+ DNS amplification abuse, and b) this must be an enormous resource
+ consumer for them.  Probably a boon for OpenDNS and any others in the
+ open/semi-open resolver space.
+ Regards,
+ Tim
+ -- 
+ Tim Wilde, Senior Software Engineer, Team Cymru, Inc.
+ twilde at cymru.com | +1-630-230-5433 | http://www.team-cymru.org/
+ 	<4A087ACB.7040200@cymru.com>
+ Tim Wilde wrote:
+ Just to throw some unscientific information in the mix, I can query them 
+ from AS11170 downstream of Sprint (best path) and SAVVIS. Only did two 
+ queries though, so it's not a good reliability test. ;)
+ ~Seth
+ ----- "Scott Berkman" <scott at sberkman.net> wrote:
+ Configuring anycast isn't the easiest thing to do; if they're *not* 
+ "officially supported" even for L3 customers (which, happily, I am), then why
+ *do* the still operate them?  Cause they have the coolest IP addresses on 
+ the Internet?
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ Which is why everyone I know uses them, and they have to be the single 
+ biggest self inflicted point of failure on the net!
+ Jay R. Ashworth wrote:
+ 	<4A088C58.8010501@chrisserafin.com>
+ On May 11, 2009, at 4:36 PM, ChrisSerafin wrote:
+ If by 'self inflicted' you mean "I used their resources without asking  
+ or permission, and now they took those resources away making me fail",  
+ then we agree.
+ BTW, setting up anycast NSes is trivial.  And Jay knows this. :)
+ -- 
+ TTFN,
+ patrick
+ >>> Also while these servers have been around for some time and are  
+ >>> great
+ >>> to use in a pinch or for testing, they are not officially  
+ >>> supported servers
+ >>> and are not what Level 3 would ever give a direct customer to use,  
+ >>> so you
+ >>> should generally avoid using them for anything production,  
+ >>> especially without
+ >>> other resolvers in your list.
+ >>>
+ 	<4A088C58.8010501@chrisserafin.com>
+ On Mon, 11 May 2009 15:36:40 CDT, ChrisSerafin said:
+ L3 took a hint from Randy Bush and encourages their competitors to....
+ No, it's just too easy, like shooting fish in a barrel. ;)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 226 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090512/dbd19681/attachment.bin>
+ ----- "ChrisSerafin" <chris at chrisserafin.com> wrote:
+ Well, nowhere is it written that you can't anycast those particular 6 IPs to
+ *your own* network's resolver servers, is it now?  :-)
+ Cheers,
+ -- jr 'yeah, I know it's evil, but it's a special case' a
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ On May 11, 2009, at 4:49 PM, Jay R. Ashworth wrote:
+ >>> Cause they have the coolest IP addresses on the Internet?
+ I don't know, isn't it written somewhere "thou shalt not use my IP  
+ space for your own equipment"?
+ I'm sure everyone who does something evil thinks that. :)
+ -- 
+ TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Issue
+###############################################################
+ We've been noticing issues for the past hour accessing Google's 
+ sites.  Sluggish responses mostly.
+ Other sites are fine.  We connect through Level3 and Bell Canada.
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ On Thu, 14 May 2009, Clayton Zekelman wrote:
+ Likewise.  Which of course affects the whole flipping world since everyone 
+ uses google analytics and stuff.
+ My path is also through level 3 - don't know if it's confined to them.
+ Jason
+ -- 
+ Jason Slagle - RHCE
+ /"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ \ /   ASCII Ribbon Campaign  .
+   X  - NO HTML/RTF in e-mail  .
+ / \ - NO Word docs in e-mail .
+ We are having the same issue in Louisiana via AT&T.
+ Sent from my iPhone
+ On May 14, 2009, at 11:03 AM, "Clayton Zekelman" <clayton at mnsi.net>  
+ wrote:
+ Google confirms the outage:
+ http://www.google.com/appsstatus#
+ We're aware of a problem with Google Mail affecting a small subset of
+ users. The affected users are unable to access Google Mail. We will
+ provide an update by May 14, 2009 1:00:00 PM UTC-4 detailing when we
+ expect to resolve the problem. Please note that this resolution time is
+ an estimate and may change.
+ *This may also be affecting other services 
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Clayton Zekelman
+ Sent: Thursday, May 14, 2009 11:56 AM
+ Subject: [outages] Google Issue
+ We've been noticing issues for the past hour accessing Google's sites.
+ Sluggish responses mostly.
+ Other sites are fine.  We connect through Level3 and Bell Canada.
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ---------------------------------------------------------------------
+ This transmission (including any attachments) may contain confidential information, privileged material (including material protected by the solicitor-client or other applicable privileges), or constitute non-public information. Any use of this information by anyone other than the intended recipient is prohibited. If you have received this transmission in error, please immediately reply to the sender and delete this information from your system. Use, dissemination, distribution, or reproduction of this transmission by unintended recipients is not authorized and may be unlawful.
+ There are some reports that it may actually be at AT&T outage.  The other possibility is that it hit only some Google data centers.  I never saw a problem here in Maryland.
+ See http://isc.sans.org/diary.html?storyid=6388.
+ --
+ Jim Goltz <jgoltz at mail.nih.gov>
+ CIT/DCSS/HSB/ASIG
+ 12/2216
+ FWIW, just had someone report they are unable to send E-Mail using Gmail
+ w/Thunderbird.  I investigated, discovered they cannot connect to
+ smtp.gmail.com (on either port 465 or 587).  This was using an AT&T DSL
+ connection near Atlanta, GA.  I am able to hit smtp.gmail.com from other
+ places just fine, though.
+ Possibly related?
+ On Thu, May 14, 2009 at 11:56 AM, Clayton Zekelman <clayton at mnsi.net> wrote:
+ -- 
+ Jeremy G. Gault, KD4NED
+ Network Administrator
+ WinWorld Corporation
+ (423) 473-8084 (voice)
+ (423) 790-0603 (fax)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/d28cf0dd/attachment.html>
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/ed333ffc/attachment.html>
+ 	<20090514120210.X59972@mail.tacorp.net>
+ Sounds like it is Level3 specific.
+ At 12:04 PM 5/14/2009, Jason Slagle wrote:
+ >On Thu, 14 May 2009, Clayton Zekelman wrote:
+ >>We've been noticing issues for the past hour accessing Google's 
+ >>sites. Sluggish responses mostly.
+ >>Other sites are fine.  We connect through Level3 and Bell Canada.
+ >Likewise.  Which of course affects the whole flipping world since 
+ >everyone uses google analytics and stuff.
+ >My path is also through level 3 - don't know if it's confined to them.
+ >Jason
+ >--
+ >Jason Slagle - RHCE
+ >/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ >\ /   ASCII Ribbon Campaign  .
+ >/ \ - NO Word docs in e-mail .
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.325 / Virus Database: 270.12.29/2114 - Release Date: 
+ >05/14/09 06:28:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ Noticing issues in Phoenix.  We're on Cogent and Carpathia. 
+ On Thu, 2009-05-14 at 11:56 -0400, Clayton Zekelman wrote:
+ -- 
+ "Prediction is very difficult, especially about the future." Niels Bohr
+ --
+ Ray Sanders
+ Linux Administrator
+ Village Voice Media
+ Office: 602-744-6547
+ Cell: 602-300-4344
+ We can't reach Google services from our level3 connection (T3) or our
+ Verizon Connection (50 Mbits)  Works fine from our Comcast Fiber and
+ from my home Comcast Cable modem even though it routes through Level 3.
+ Bob Roswell
+ System Source
+ broswell at syssrc.com
+ (410) 771-5544 ext 4336
+ We've been noticing issues for the past hour accessing Google's 
+ sites.  Sluggish responses mostly.
+ Other sites are fine.  We connect through Level3 and Bell Canada.
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Same here.
+ We tested through Level3 and through TransitRail.
+ I called the Google NOC and they told me they were having a problem,
+ but they didn't elaborate.
+ On Thu, May 14, 2009 at 10:56 AM, Clayton Zekelman <clayton at mnsi.net> wrote:
+ -- 
+ Byron L. Hicks
+ University of Texas System
+ 512-377-9857
+ AIM: byronhicks
+ On Behalf Of Clayton Zekelman
+ No complaints here. GMail, Google search, Maps, etc are all very snappy.
+ Accessing via Level3:
+ Tracing the route to google.ca (64.233.161.104)
+   1 ge-6-11-117.car1.Toronto2.Level3.net (4.59.180.17) [AS 3356] 152
+ msec 204 msec 8 msec
+   2 ae-11-11.car2.Toronto2.Level3.net (4.69.140.250) [AS 3356] 4 msec 8
+ msec 4 msec
+   3 ae-2-2.car2.Montreal2.Level3.net (4.69.140.254) [AS 3356] 12 msec 12
+ msec 12 msec
+   4 ae-11-11.car1.Montreal2.Level3.net (4.69.141.2) [AS 3356] 12 msec 12
+ msec 12 msec
+   5 ae-5-5.ebr4.NewYork1.Level3.net (4.69.141.6) [AS 3356] 20 msec 20
+ msec 20 msec
+   6 ae-84-84.csw3.NewYork1.Level3.net (4.69.134.122) [AS 3356] 20 msec
+     ae-94-94.csw4.NewYork1.Level3.net (4.69.134.126) [AS 3356] 28 msec
+     ae-74-74.csw2.NewYork1.Level3.net (4.69.134.118) [AS 3356] 32 msec
+   7 ae-81-81.ebr1.NewYork1.Level3.net (4.69.134.73) [AS 3356] 20 msec
+     ae-91-91.ebr1.NewYork1.Level3.net (4.69.134.77) [AS 3356] 20 msec
+     ae-61-61.ebr1.NewYork1.Level3.net (4.69.134.65) [AS 3356] 20 msec
+   8 ae-3-3.ebr4.Washington1.Level3.net (4.69.132.93) [AS 3356] 36 msec
+ 24 msec 32 msec
+   9 ae-94-94.csw4.Washington1.Level3.net (4.69.134.190) [AS 3356] 28
+ msec
+     ae-64-64.csw1.Washington1.Level3.net (4.69.134.178) [AS 3356] 28
+ msec
+     ae-74-74.csw2.Washington1.Level3.net (4.69.134.182) [AS 3356] 28
+ msec
+  10 ae-3-89.edge1.Washington1.Level3.net (4.68.17.144) [AS 3356] 24 msec
+     ae-4-99.edge1.Washington1.Level3.net (4.68.17.208) [AS 3356] 24 msec
+     ae-1-69.edge1.Washington1.Level3.net (4.68.17.16) [AS 3356] 88 msec
+  11 GOOGLE-INC.edge1.Washington1.Level3.net (4.79.22.38) [AS 3356] 24
+ msec
+     GOOGLE-INC.edge1.Washington1.Level3.net (4.79.228.38) [AS 3356] 28
+ msec 28 msec
+  12 209.85.240.136 [AS 15169] 24 msec
+     209.85.241.50 [AS 15169] 28 msec
+     209.85.240.136 [AS 15169] 24 msec
+  13 72.14.236.200 [AS 15169] 24 msec
+     64.233.175.219 [AS 15169] 24 msec
+     64.233.175.111 [AS 15169] 24 msec
+  14 216.239.49.214 [AS 15169] 48 msec
+     216.239.48.190 [AS 15169] 28 msec 28 msec
+  15 google.ca (64.233.161.104) [AS 15169] 28 msec 28 msec 24 msec
+ ---
+ Ross Halliday
+ Network Operations
+ WTC Communications
+ Office: 613-547-6939 x203
+ Helpdesk: 866-547-6939 option 2
+ http://www.wtccommunications.ca 
+ 	<930913da0905140916p7c5f9b75ka790cc2121d1a4c9@mail.gmail.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ pop.gmail.com wasn't responding 20 minutes back from LA region, I
+ thought it was our filters. Its up / running now.
+ Looking forward to the incident report from google.
+ regards,
+ /virendra
+ Jeremy G. Gault wrote:
+ 	<151BC03492E46E4CB8D479E42CEF78909A68C5@exchange.wtc.local>
+ No issues have been reported here (Philadelphia). L3 transit as well.
+ - Chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/4155409b/attachment.html>
+ 	<151BC03492E46E4CB8D479E42CEF78909A68C5@exchange.wtc.local>
+ 	<e13f4b7b0905141036j72e824d2k97c0e18153a6a20c@mail.gmail.com>
+ Hi,
+ Same for Level 3 Minneapolis: 
+ traceroute to www.l.google.com (72.14.205.103), 64 hops max, 44 byte packets
+ ...
+  4  ae-11-11.car1.Minneapolis1.Level3.net (4.69.136.101)  0.411 ms  0.383 ms  0.492 ms
+  5  ae-4-4.ebr1.Chicago1.Level3.net (4.69.136.106)  8.993 ms  16.052 ms  17.954 ms
+  6  ae-2-2.ebr2.NewYork2.Level3.net (4.69.132.66)  29.721 ms  29.572 ms  29.770 ms
+  7  ae-6-6.ebr4.NewYork1.Level3.net (4.69.141.21)  30.120 ms  34.887 ms  36.207 ms
+  8  ae-94-94.csw4.NewYork1.Level3.net (4.69.134.126)  40.179 ms  34.878 ms  35.866 ms
+  9  ae-1-69.edge1.NewYork1.Level3.net (4.68.16.14)  30.148 ms  30.198 ms  30.038 ms
+ 10  GOOGLE-INC.edge1.NewYork1.Level3.net (4.71.172.86)  30.600 ms GOOGLE-INC.edge1.NewYork1.Level3.net (4.71.172.82)  29.240 ms  29.159 ms
+ 11  209.85.255.68 (209.85.255.68)  29.509 ms  29.973 ms  29.795 ms
+ 12  216.239.43.146 (216.239.43.146)  49.621 ms  49.817 ms  49.480 ms
+ 13  66.249.94.90 (66.249.94.90)  45.374 ms 66.249.94.92 (66.249.94.92)  50.097 ms  49.688 ms
+ 14  72.14.232.66 (72.14.232.66)  49.797 ms  48.529 ms  54.174 ms
+ 15  qb-in-f103.google.com (72.14.205.103)  50.752 ms  50.131 ms  48.525 ms
+ Cheers,
+ Robert
+ I called Level 3 and they wouldn't provide or did not have a master 
+ ticket on it but they did confirm there was a 'major' outage but nothing 
+ more unfortunately.
+ That's what I know.
+ Seems fine from other carriers -> google.
+ Clayton Zekelman wroteth on 5/14/2009 8:56 AM:
+ 	<151BC03492E46E4CB8D479E42CEF78909A68C5@exchange.wtc.local>
+ 	<e13f4b7b0905141036j72e824d2k97c0e18153a6a20c@mail.gmail.com>
+ 	<20090514175338.GM1023@ismet.erje.net>
+ Robert, I live in Delaware, and I was out of service.
+ I don't think this was a network issue, (I have unconfirmed reports that say
+ it wasn't), and was on Google's infrastructure.  I think if you were
+ affected, it depended on what Google data center you were connected to.
+ J
+ On Thu, May 14, 2009 at 1:53 PM, Robert Joosten <robert at ml.erje.net> wrote:
+ -- 
+ joel esler | Sourcefire | gtalk: jesler at sourcefire.com | 302-223-5974 |
+ http://twitter.com/joelesler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/79d618f9/attachment.html>
+ On Thu, 14 May 2009, Clayton Zekelman wrote:
+ Non - L3 paths show no issues (well, at least a few of my non-L3 google paths show no issues.)
+ --
+ W. Kevin Hunt
+ CCIE #11841
+ Linux+ SME
+ I happened to have a traceroute to www.google.com at around 08:14 PDT.
+ It seems like we started seeing trouble on the boundary of AT&T and
+ Google. The traceroute originated from San Mateo, CA.
+ ]$ traceroute -I www.google.com
+ traceroute: Warning: www.google.com has multiple addresses; using
+ 74.125.65.104
+ traceroute to www.l.google.com (74.125.65.104), 64 hops max, 60 byte
+ packets
+  1  x.x.x.x                    0.456 ms  0.482 ms  0.469 ms
+  2  x.x.x.x                    1.819 ms  1.461 ms  1.314 ms
+  3  svl-core-02.inet.qwest.net (205.171.14.74)  1.308 ms  1.302 ms
+ 1.844 ms
+  4  sjp-brdr-03.inet.qwest.net (67.14.34.6)  2.718 ms  1.698 ms  1.747
+ ms
+  5  192.205.36.1 (192.205.36.1)  3.862 ms  3.764 ms  4.529 ms
+  6  cr2.sffca.ip.att.net (12.123.15.162)  68.652 ms  64.727 ms  64.703
+ ms
+  7  cr2.la2ca.ip.att.net (12.122.31.133)  65.914 ms  65.231 ms  65.678
+ ms
+  8  cr2.dlstx.ip.att.net (12.122.28.177)  65.753 ms  65.369 ms  65.352
+ ms
+  9  cr1.attga.ip.att.net (12.122.28.173)  66.036 ms  65.543 ms  65.158
+ ms
+ 10  12.123.22.5 (12.123.22.5)  64.126 ms  64.159 ms  64.212 ms
+ 11  * * *
+ 12  72.14.233.56 (72.14.233.56)  267.820 ms * *
+ 13  * * 209.85.254.247 (209.85.254.247)  270.569 ms
+ 14  209.85.253.209 (209.85.253.209)  287.797 ms *  276.602 ms
+ 15  * gx-in-f104.google.com (74.125.65.104)  283.802 ms *
+ $
+ $ whois 12.123.22.5
+ AT&T WorldNet Services ATT (NET-12-0-0-0-1)
+                                   12.0.0.0 - 12.255.255.255
+ AT&T Worldnet Services ATTSVI-12-122-0-0 (NET-12-122-0-0-1)
+                                   12.122.0.0 - 12.123.255.255
+ # ARIN WHOIS database, last updated 2009-05-13 19:10
+ # Enter ? for additional hints on searching ARIN's WHOIS database.
+ $
+ $ whois 72.14.233.56
+ OrgName:    Google Inc.
+ OrgID:      GOGL
+ Address:    1600 Amphitheatre Parkway
+ City:       Mountain View
+ StateProv:  CA
+ PostalCode: 94043
+ Country:    US
+ NetRange:   72.14.192.0 - 72.14.255.255
+ CIDR:       72.14.192.0/18
+ NetName:    GOOGLE
+ NetHandle:  NET-72-14-192-0-1
+ Parent:     NET-72-0-0-0-0
+ NetType:    Direct Allocation
+ NameServer: NS1.GOOGLE.COM
+ NameServer: NS2.GOOGLE.COM
+ NameServer: NS3.GOOGLE.COM
+ NameServer: NS4.GOOGLE.COM
+ Comment:
+ RegDate:    2004-11-10
+ Updated:    2007-04-10
+ RTechHandle: ZG39-ARIN
+ RTechName:   Google Inc.
+ RTechPhone:  +1-650-318-0200
+ RTechEmail:  arin-contact at google.com
+ OrgTechHandle: ZG39-ARIN
+ OrgTechName:   Google Inc.
+ OrgTechPhone:  +1-650-318-0200
+ OrgTechEmail:  arin-contact at google.com
+ # ARIN WHOIS database, last updated 2009-05-13 19:10
+ # Enter ? for additional hints on searching ARIN's WHOIS database.
+ $
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Clayton Zekelman
+ Sent: Thursday, May 14, 2009 09:20
+ Cc: outages at outages.org
+ Subject: Re: [outages] Google Issue
+ Sounds like it is Level3 specific.
+ At 12:04 PM 5/14/2009, Jason Slagle wrote:
+ >On Thu, 14 May 2009, Clayton Zekelman wrote:
+ >>We've been noticing issues for the past hour accessing Google's 
+ >>sites. Sluggish responses mostly.
+ >>Other sites are fine.  We connect through Level3 and Bell Canada.
+ >Likewise.  Which of course affects the whole flipping world since 
+ >everyone uses google analytics and stuff.
+ >My path is also through level 3 - don't know if it's confined to them.
+ >Jason
+ >--
+ >Jason Slagle - RHCE
+ >/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ .
+ >\ /   ASCII Ribbon Campaign  .
+ >/ \ - NO Word docs in e-mail .
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.325 / Virus Database: 270.12.29/2114 - Release Date: 
+ >05/14/09 06:28:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ So what does it look like when 5% of the Internet disappears on an otherwise
+ uneventful Thursday morning?
+ http://asert.arbornetworks.com/2009/05/the-great-googlelapse/
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/ccdc09a4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Peering issue between Level3 & Google in NYC area?
+###############################################################
+ Is anyone aware of any Level3 or Google outages in the NY area?   We have had to move our Google/Youtube traffic away from L3 this morning.
+ .
+ .
+ .
+ ? 4??? <1 ms??? <1 ms??? <1 ms? host251.eci.com [72.21.168.251]
+ ? 5??? <1 ms??? <1 ms??? <1 ms? 64.200.80.145
+ ? 6??? <1 ms??? <1 ms??? <1 ms? nycmny2wcx2-pos14-2.wcg.net [64.200.68.33]
+ ? 7??? <1 ms??? <1 ms??? <1 ms? 64.200.249.150
+ ? 8???? *??????? *??????? *???? Request timed out.
+ ? 9???? 5 ms??? <1 ms??? <1 ms? vlan89.csw3.newyork1.level3.net [4.68.16.190]
+ ?10??? <1 ms??? <1 ms??? <1 ms? ae-81-81.ebr1.newyork1.level3.net [4.69.134.73]
+ ?11??? ?6 ms??? 15 ms??? 18 ms? ae-3-3.ebr4.washington1.level3.net [4.69.132.93
+ ?12???? 6 ms??? 16 ms??? 17 ms? ae-94-94.csw4.washington1.level3.net [4.69.134.
+ 90]
+ ?13???? 6 ms???? 6 ms???? 6 ms? ae-4-99.edge1.washington1.level3.net [4.68.17.2
+ 8]
+ ?14???? *????? ??*??????? *???? Request timed out.
+ ?15???? *??????? *??????? *???? Request timed out.
+ ?16???? *????? 297 ms???? *???? 72.14.238.136
+ ?17???? *????? 286 ms?? 286 ms? 72.14.239.127
+ ?18?? 297 ms???? *??????? *???? 209.85.255.194
+ ?19???? *??????? *????? 292 ms? gw-in-f100.google.com [74.125.67.100]
+ William W. Tan
+ Chief Technology Officer
+ Eze Castle Integration, Inc.
+ One Federal Street, 9th Floor
+ Boston, MA 02110
+ (617) 217-3006
+ wtan at eci.com
+ NOTICE:  The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited.  If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies.  Thank you.
+ William,
+ See the thread below. It will probably explain your issues.
+ https://puck.nether.net/pipermail/outages/2009-May/001247.html
+ Thanks,
+ - Chris
+ On Thu, May 14, 2009 at 11:41 AM, Tan, William <wtan at ezecastle.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/b9f4eefc/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Deliverability problems to VZW BIS
+###############################################################
+ Any RIM or VZW contacts on this list?  Ping me offline; I'm having some odd 
+ troubles getting forwarded mail into blackberry.net, and the postmaster@
+ address *also* bounces, which is awfully stylish, and the tech support
+ department wants to charge me to tell them their mail system is broken...
+ which dog won't hunt.
+ Have 12 other subs working fine in the same setup, including one on VZW...
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Long latency in receiving email on this list/Other observations about today's Google Incident
+###############################################################
+ I am looking through the emails from the outages list from today's
+ Google incident and many of the posts have original time stamps.  I
+ received my copies of mailing lists posts over an hour after they were
+ sent.  For example, I posted a message today at 12:11PM EDT, and I
+ received my copy from the list at 1:20PM.  We were well into our
+ troubleshooting with Verizon and Level 3 when I saw the first post on
+ this list.  Is there anything we can do to speed the delivery of the
+ emails from this list?   We have had a better incident response had we
+ known sooner that this was a global issue.  And I was still receiving
+ hour old trouble reports long after the problem was resolved.
+ I also called two out of three of our upstream providers (Level 3 and
+ Verizon)  Neither had status messages on their web sites, nor for their
+ dispatch folks.  We had all of the relevant information (account #,
+ Circuit ID etc) but they insisted on going through a long ticket process
+ (Have you verified power, what are your IPS, what IPs are you trying to
+ reach, what are your contact hours, what type of equipment do you have
+ etc) instead of just taking the call.  At Verizon, (50 Mbit circuit) I
+ was on hold for about 15 minutes before I was even able to place a
+ trouble ticket.
+ I also saw speculation on the list that it was a Level 3 problem, and in
+ fact we could not reach Google with any reliability on our DS3 with
+ Level3 (On level3 IP Space)  But our Comcast line uses Level 3 for
+ transport and we had no issues reaching Google services from Comcast.
+ Bob Roswell
+ System Source
+ broswell at syssrc.com
+ (410) 771-5544 ext 4336
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090514/ea36ca85/attachment-0001.html>
+ Bob Roswell wrote:
+ I wouldn't fault any them for going through the long process since the
+ problem was purely a Google issue. Why would their dispatch folks even
+ care? Why would they put status messages up just because Google fails?
+ It's not like this is the first time it's ever happened, and it will
+ happen again. It's sad we assume that Google is a non-fault entity and
+ that it must be our transit providers.
+ As far as deliveries, yeah, I notice some posts to the list show up
+ hours later than others. Never tried to gather any data about it, though.
+ ~Seth
+ 	<4A0CF902.1050406@rollernet.us>
+ On Fri, May 15, 2009 at 1:09 AM, Seth Mattinen <sethm at rollernet.us> wrote:
+ Forgive me if this seems like plugging, I am just passing information,
+ sorry.
+ Yesterday, when it all happened, we covered it in realtime at the Internet
+ Storm Center at http://isc.sans.org.  As Gmail was down, Email may not have
+ been a good way to pass information, for instance yesterday, I used a
+ combination of the website and Twitter.  This turned out to be extremely
+ effective as we were able to isolate exactly where the outages were, who was
+ working, who wasn't working, and we were able to pass the reason for the
+ outage to our readers about an hour before Google said anything.  It was a
+ wild rollercoaster, as the tweets came in about 50 at a time, resulting in
+ many hundreds (if not over a thousand) tweets -- and sources of information.
+ -- 
+ joel esler | Sourcefire | gtalk: jesler at sourcefire.com | 302-223-5974 |
+ http://twitter.com/joelesler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090515/f135ae31/attachment.html>
+ 	<4A0CF902.1050406@rollernet.us>
+ Seth Mattinen wrote:
+ When I saw this topic come up, I chuckled to my self: "yaknow, it was 
+ not that long ago that we marveled that I could get an email from 
+ Sausalito to College Park and an answer back in less time than the same 
+ messages would take by US Mail."
+ When it got down to a roundtrip in the same day.....
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ 	<4A0CF902.1050406@rollernet.us> <4A0D79EB.9070708@cox.net>
+ On Fri, 15 May 2009 09:19:23 CDT, Larry Sheldon said:
+ bangpaths FTW! ;)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 226 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090515/a3523466/attachment.bin>
+###############################################################
+END
+###############################################################
+
+###############################################################
+did DTAG have issues around 6am pst?
+###############################################################
+ Has anyone experienced a traffic drop in their transatlantic links
+ specifically related to Deutsche Telekom AG?
+ Thanks in advance, John.
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion] Verizon slowdown between 1130 and 1330 each	day this week
+###############################################################
+ ----- "Scott Weeks" <surfer at mauigateway.com> wrote:
+ My read was just that he included the traceroute so the OP could see the
+ route in question, not that he was holding it up as an example of the problem.
+ Seems sensible to me, though he could have been more explicit.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Netsol
+###############################################################
+ Did anyone observe any issues with Netsol DNS today?
+ In what area?  I'm in Northeast Wisconsin and seeing some really weird email flow issues in and out of mine and my customers' networks.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of RL Vaughn
+ Sent: Friday, May 22, 2009 12:26 PM
+ Subject: [outages] Netsol
+ Did anyone observe any issues with Netsol DNS today?
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 in the Midwest
+###############################################################
+ I just got saw Level3 in the Wichita area get cut off from the greater 
+ part of Level3.  Anyone know what's going on?  We've received several 
+ maintenance notifications about fiber being moved in Missouri along a 
+ railroad but those were supposed to be completed last week, according to 
+ the GCRs.
+ Justin
+###############################################################
+END
+###############################################################
+
+###############################################################
+AboveNet Long Haul Issue
+###############################################################
+ Dear AboveNet Customer,
+ Abovenet has experienced a network event.
+ Start Date & Time: 05/23/2009 9:15AM EST
+ Event Description: Long Haul outage between Chicago and Denver. We are
+ currently working with our vendor to isolate the problem, there is no
+ Estimated time or resolution (ETR) at this time. We will send out
+ periodic updates as they become available.
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T cell phone outage in Boston area?
+###############################################################
+ I cannot seem to make or receive calls to/from any at&t cell phone in  
+ the Boston area.  However, I do not have access to a ton of phones  
+ right now, so it could be selection bias.  (Although it's not clear  
+ how AT&T would know who my friends are.)
+ Anyone else having issues?
+ -- 
+ TTFN,
+ patrick
+ After finding a few more friends, it seems the problem is isolated to  
+ a single tower.  Think I'll go to sleep and hope it's fixed when I  
+ wake up. :)
+ -- 
+ TTFN,
+ patrick
+ On May 24, 2009, at 2:16 AM, Patrick W. Gilmore wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+ Megapath/Covad outage - SoCal
+###############################################################
+ Megapath reports an outage to Covad users routing out of Southern California
+ area (Los Angeles and surrounding areas). This is due to a fiber cut. There
+ is no ETR. Megapath master ticket #3263505.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090527/8cb1404a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Telovations iTSP outage in Tampa FL
+###############################################################
+ We get outsourced telephone service from Telovations in Tampa, and at 0950EDT
+ today, they had *something* break.  Since I can still get to my voicemail
+ boxes from outside the building, I assume it's their data service to customer
+ sites, and not the voice service into them.
+ Since it's multiple sites, I assume it's some aggregated data facility of DS-3
+ level or higher.  I don't know if they get it directly from Verizon or from
+ some reseller -- though since it's clear-channel data, maybe not.
+ Anyone in Tampa heard anything today?  It appears to still be down now, an
+ hour later.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ Jay,
+ We lost a connection to one of our upstream providers. This then turned in to a BGP propagation problem on the back-up. We lost a few subnets because the advertising was not working for 3 subnets. All is resolved now.
+ Doug Knight
+ VP Engineering
+ Telovations, Inc.
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T data outage (05/29/2009)
+###############################################################
+ Currently experiencing an outage on the AT&T cellular data network (both
+ 3G and EDGE) on southern Oregon.  Reports from various friends say it's
+ also down in eastern Oregon, western Washington, and southern and
+ northern California.  Getting assigned IPs via DHCP, but no connectivity
+ beyond what appears to be the access edge.  AT&T tells me that they have
+ a "massive outage" going on right now, no ETR.
+ -- 
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+ I can confirm this in San Diego,CA
+ Same problem here.
+ Sent from my iPhone
+ On May 29, 2009, at 8:08 AM, Kameron Gasso <kgasso-lists at visp.net>  
+ wrote:
+ No problems here in San Diego.
+ On May 29, 2009, at 8:08 AM, Kameron Gasso wrote:
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ AT&T wireless in Phoenix is also affected. The phones I've tested all think they have a connection but can't get any data.
+ Voice service, even on the 3G network, seems not to be affected.
+ ----
+ Chris Lauretano
+ Sr. Network and Systems Administrator
+ McMurry, Inc.
+ 1010 E Missouri Ave
+ Phoenix AZ 85014
+ +1.602.395.5850
+ On 5/29/09 8:08 AM, "Kameron Gasso" <kgasso-lists at visp.net> wrote:
+ Currently experiencing an outage on the AT&T cellular data network (both
+ 3G and EDGE) on southern Oregon.  Reports from various friends say it's
+ also down in eastern Oregon, western Washington, and southern and
+ northern California.  Getting assigned IPs via DHCP, but no connectivity
+ beyond what appears to be the access edge.  AT&T tells me that they have
+ a "massive outage" going on right now, no ETR.
+ --
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I'm on AT&T here in sillicon valley, and my iPhone isn't having issues  
+ on 3G. I know this connects differently than other phones with the  
+ MediaNet plans, could that be a factor?
+ ---
+ <EoM>
+ Sent from my iPhone
+ On May 29, 2009, at 9:24 AM, Chris Lauretano <Chris.Lauretano at mcmurry.com 
+ I lost all my voicemail and so did five other people I know with iPhones
+ Sent from my iPhone
+ On May 29, 2009, at 9:24 AM, Chris Lauretano <Chris.Lauretano at mcmurry.com 
+###############################################################
+END
+###############################################################
+

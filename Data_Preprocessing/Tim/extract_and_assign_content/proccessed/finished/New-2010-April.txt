@@ -1,0 +1,731 @@
+###############################################################
+Windstream voice outage in Nebraska
+###############################################################
+  Windstream is currently experiencing significant landline outages across Lancaster, Butler, Cass, Saunders and other counties in the southeastern Nebraska area, as reported by KLIN, a local news radio station.
+ Anyone on this list know more?
+ Amateur radio operators are spreading throughout the city for communication assistance.
+ ---
+ Andy Ringsmuth
+ 1117 Saratoga Ave.
+ Lincoln, NE 68502
+ (402) 304-0083
+ andyring at inebraska.com
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Andy,
+ Nothing more than what you have stated.
+ Apparently both redundant links to the switch facility failed w/ no
+ estimated time for resolution.
+ 911 service for landlines has been restored but not to cell phones.
+ regards,
+ /virendra
+ Andy Ringsmuth wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+TW Telecom Issues affecting FL?
+###############################################################
+ Hey all -
+ Just passing along and I have no technical specifics, but one of our remote
+ network enginneers is reporting WAN issues that seem isolated to TWTelecom
+ Orlando, per their TWTC network reps: "2 DS3's down in the Orlando area."
+ We we've been experiencing increasing packet loss from/to WAN and company's
+ Florida office here over the last hour.
+ No ETR as of yet.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100406/6cc34a07/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Voice outages to WA?
+###############################################################
+ Anyone know of anything that would be blocking PSTN traffic in or out
+ of 206-397?  We have a call forwarding service there that's 
+ acting wonky today, and I'm not sure if it's the provider or
+ the carriers.  The target number's working fine, from at least 4
+ different networks.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ Do you have a number there I can test?
+ Thank you,
+ Mike Hoffman
+ IT Help Desk Analyst
+ Odyssey Logistics & Technology Corporation
+ 39 Old Ridgebury Rd
+ A-4
+ Danbury, CT? 06810
+ Phone: (203) 448-3872
+ Fax: (203) 448-3901
+ ?
+ ?
+ Odyssey Overland LLC
+ 1500 Rt 517
+ Hackettstown, NJ? 07840
+ Phone: (908) 850-4490
+ Fax: (908) 850-3852
+ ?
+ CONFIDENTIALITY NOTICE: 
+ This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jay R. Ashworth
+ Sent: Wednesday, April 07, 2010 3:51 PM
+ Subject: [outages] Voice outages to WA?
+ Anyone know of anything that would be blocking PSTN traffic in or out
+ of 206-397?  We have a call forwarding service there that's 
+ acting wonky today, and I'm not sure if it's the provider or
+ the carriers.  The target number's working fine, from at least 4
+ different networks.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ On Wed, 7 Apr 2010 15:51:17 -0400 (EDT)
+ "Jay R. Ashworth" <jra at baylink.com> wrote:
+ I have not had any reports of issues in the 206 or 425 area codes.
+ -- 
+ Bill Thompson
+ BillT at Mahagonny.com
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 572 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100407/cd6304f7/attachment.bin>
+ ----- "Bill Thompson" <Billt at mahagonny.com> wrote:
+ We did finally get confirmation last night that this is internal to our
+ vendor; thanks to you and the other gent, though.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Undersea cable cut?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Does anyone across the pond have any further insight into this cut?
+ Although SEA-ME-WE 3 and 4 are suppose to provide redundancy for
+ eachother, not sure what impact has SMW4 segment caused, maybe latency?
+ Any feedback will be appreciated.
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: Re: Undersea cable cut?
+ Date: Wed, 14 Apr 2010 14:18:49 -0400
+ From: Chris McDonald <copraphage at gmail.com>
+ <768FB653686AE54A9B4FB9A1503F03F51C9BFF502A at TENK7MVB.prod.travp.net>
+ There's a cut in SWM4
+ *SMW4 Segment 4.1 cable fault*
+ Cable shunt fault developed on SMW4 segment 4.1 (Egypt / Alexandria ?
+ Branching Unit #4A onward France / Marseilles) at 07:15GMT on 14-Apr. 2010.
+ However the shunt fault has further deteriorated and the cable segment was
+ down at 10:03GMT.  Only four unprotected Singapore ? London / Frankfurt
+ STM-4c IP trunks were being affected.
+ SMW4 NOC updated that there is a shunt fault in segment 4.1 between  Egypt /
+ Alexandria and France / Marseilles with cable fault on Fiber Pair #2 at
+ 1886.152 km from Alexandria towards Palermo.  The traffic landed at Palermo
+ onwards to Europe was being affected, while the traffic running between
+ Alexandria and Marseilles via Fiber Pair #1 is still maintained.
+ On Wed, Apr 14, 2010 at 2:13 PM, St. Onge,Adam <ASTONGE at travelers.com>wrote:
+ i'm not sure one necessarily fails to the other... if people don't subscribe
+ to the other for restoral or if they're supersmart--  to one of the
+ transrussia overland routes, they're out of luck.
+ i frankly don't believe enough capacity exists on the transrussia cables to
+ backup swm3 and swm4.
+ i work for a network based across the pond
+ On Wed, Apr 14, 2010 at 4:48 PM, virendra rode <virendra.rode at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100414/4d58bdc2/attachment.html>
+ 	<i2v25dbbe251004141421tab1e518dqbc264b1ca8771165@mail.gmail.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Maybe outages as such may spark some interest in routing more capacity
+ from europe and asia over the transrussia networks.
+ regards,
+ /virendra
+ Chris McDonald wrote:
+ >>>> wrote:
+ >>>> Seeing a serious uptick in latency to India from North America and am
+ >>>> hearing reports of an undersea cable cut in the Mediterranean? Has anyone
+ >>>> else heard something similar?
+ >>>>
+ >>>> Thanks,
+ >>>> Adam
+ >>>>
+ >>>>
+ >>>>
+ >>>> This communication, including attachments, is confidential, may be
+ >>>> to legal privileges, and is intended for the sole use of the addressee.
+ >>>> use, duplication, disclosure or dissemination of this communication,
+ >>>> than by the addressee, is prohibited. If you have received this
+ >>>> communication in error, please notify the sender immediately and delete
+ >>>> destroy this communication and all copies.
+ >>>>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ $quoted_author = "virendra rode" ;
+ We've had a London - Kolkata MPLS link go down and come back with twice it's
+ normal latency. Am still awaiting more explanation from the provider but
+ certainly looks like no capacity on similar paths leading to routing "the
+ other way" round the world.
+ cheers
+ Marty
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T outage in Chicago area
+###############################################################
+ Word on the street is that AT&T is currently experiencing an OC12 outage
+ in the Chicago area.  We've been getting reports of issues on both voice
+ (long distance) and data networks as far west as South Bend, IN and east
+ as Davenport, IA.
+ We're still trying to get an exact description of what happened as well
+ as an ETR.
+ -- 
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber  Outage in Sunnyvale, CA.
+###############################################################
+ >From NANOG
+ -------- Original Message --------
+ Subject: Fiber  Outage in Sunnyvale, CA.
+ Date: Thu, 15 Apr 2010 14:29:26 -0700
+ From: Shon Elliott <shon at unwiredbb.com>
+ I heard there is a fiber outage in Sunnyvale that has taken out most of
+ the city. Can someone from AT&T Provide any kind of clue on what's going
+ on? I'm being told by one of our partners that their entire building is
+ without service in Sunnyvale and apparently they've talked to other
+ businesses in the area that have fiber-based services who are also down.
+ Regards,
+ Shon Elliott
+ Senior Network Engineer
+ unWired Broadband, Inc.
+ Office: (559) 261-4444 x 511
+ Cell: (559) 917-6480
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber Outage in Sunnyvale, CA.
+###############################################################
+ Would it be possible for them to contact ATT or you on their behalf
+ rather then the list?
+ On 4/15/10, Seth Mattinen <sethm at rollernet.us> wrote:
+ -- 
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ ?Success is not final, failure is not fatal: it is the courage to
+ continue that counts.?
+ --- Winston Churchill
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet outages in Mediterranean.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Apparently Etisalat (UAE's) the local submarine cable?s local operator
+ is reporting the problem occurred when seawater penetrated the
+ insulation and caused a short-circuit. Not sure the extent of this
+ disruption.
+ In the meanwhile traffic is being rerouted to accommodate country's demand.
+ The operator did not say when normal internet service might resume.
+ regards,
+ /virendra
+ More here:
+ http://www.telegeography.com/cu/article.php?article_id=32857&email=html
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of virendra rode
+ Sent: Friday, April 16, 2010 1:10 PM
+ Subject: [outages] Internet outages in Mediterranean.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Apparently Etisalat (UAE's) the local submarine cable?s local operator
+ is reporting the problem occurred when seawater penetrated the
+ insulation and caused a short-circuit. Not sure the extent of this
+ disruption.
+ In the meanwhile traffic is being rerouted to accommodate country's demand.
+ The operator did not say when normal internet service might resume.
+ regards,
+ /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T CHCGILFR (chicago) Optiman Service
+###############################################################
+ AT&T is reporting some major service problems with their optiman fiber
+ product at CHCGILFR (Franklin CO in Chicago). Not sure if there is a
+ master ticket or global status. The last I heard was there was no ETA
+ for resolution.
+ -- 
+ http://www.sleepycatz.com
+ sjk at cupacoffee.net
+ fingerprint: 1024D/89420B8E 2001-09-16
+ No one can understand the truth until
+ he drinks of coffee's frothy goodness.
+ ~Sheik Abd-al-Kadir
+ Opiman was out in Sunnyvale yesterday, mmmm??
+ On Apr 16, 2010, at 22:28, sjk <sjk at cupacoffee.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+SourceForge Outage?
+###############################################################
+ It appears that SourceForge is down. I have tried from 3 different
+ locations and it is completely unresponsive. It gets as far as
+ das3-v3037.ch3.savvis.net (64.37.207.178), then drops off the face of
+ the Earth.
+ Any idea what is up?
+ THANKS!
+ Jon Kibler
+ -- 
+ Jon R. Kibler
+ Chief Technical Officer
+ A.S.E.T., Inc.
+ Charleston, SC  USA
+ o: 843-849-8214
+ Looks like they have an ongoing maintenance  ( http://twitter.com/sfnet_ops/)
+ Only few mirrors are up.   http://sitestatus.sourceforge.net/
+ On Sat, Apr 17, 2010 at 2:44 PM, Jon Kibler <jon.r.kibler at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100417/24659b3e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet outages in Mediterranean.]
+###############################################################
+ ----- "Frank Bulk" <frnkblk at iname.com> wrote:
+ We are *well* past the point where we need to go back to making Internet
+ backbone architecture design decisions on an engineering, rather than a
+ financial basis.
+ Public corporations clearly can be trusted only to do that which the 
+ business environment and laws demand: Maximize Shareholder Value.
+ That is almost *never* the same as Maximizing the Public Good.
+ Unless we fix the first, we must regulate to achieve the second.
+ This is a recording<tm>.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outage for Fiji
+###############################################################
+ Fiji just experienced and Internet outage at it's international gateway (AS 9241 ) on the Southern Cross Cable. It is recovering 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ http://www.facebook.com/Avonsys 
+ twitter: FranckMartin Avonsys 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100422/5aa6e456/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT dumps disco'd numbers back into their network ATL & MIA
+###############################################################
+ Just FYI we were having problems with receiving local calls from ATT into ATT numbers that were ported into our network. The callers are hearing a disco message and in the message ATT is offering up other numbers for similar companies.  ATT has come back with saying they have dumped 35K+ old dico'd numbers back into their network. No ETR from them.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100421/9ad0bc2e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+FB down?
+###############################################################
+ FB is down from Fiji: the connection to the server was reset 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ http://www.facebook.com/Avonsys 
+ twitter: FranckMartin Avonsys 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100424/5b8ee16e/attachment.html>
+ I'm seeing page timeouts and slow load times from the San Francisco
+ area as well.
+ On Fri, Apr 23, 2010 at 3:06 PM, Franck Martin <franck at avonsys.com> wrote:
+ Southeast is fine, I always get taken to Arkansas.
+ -----Original Message-----
+ From: Franck Martin <franck at avonsys.com>
+ Date: Sat, 24 Apr 2010 10:06:48 
+ Subject: [outages] FB down?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<u2o2b3d1cd31004231513oa93ce1e0z9cca2fcc865ee66@mail.gmail.com>
+ Working fine from Atlanta.
+ -Jim P.
+ On Fri, Apr 23, 2010 at 18:13, Paul McMillan <paul at mcmillan.ws> wrote:
+ 	<u2o2b3d1cd31004231513oa93ce1e0z9cca2fcc865ee66@mail.gmail.com> 
+ 	<r2zf971bab41004231517o9ab43e78h74cfbde922d0a015@mail.gmail.com>
+ Drama.
+ http://gigaom.com/2010/04/23/facebook-sees-major-outage-takes-out-partner-site-plugins-too/
+ On Fri, Apr 23, 2010 at 6:17 PM, Jim Popovitch <jimpop at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100423/64ab123d/attachment.html>
+ 	<u2o2b3d1cd31004231513oa93ce1e0z9cca2fcc865ee66@mail.gmail.com>
+ 	<r2zf971bab41004231517o9ab43e78h74cfbde922d0a015@mail.gmail.com>
+ 	<y2kffdf88d51004231535v624ffda7ke2e01d8b7dfea47c@mail.gmail.com>
+ Fine in KY.  News feed, chat, and profile updates all snappy.  Disruption
+ resolved?
+ Jason
+ On Fri, Apr 23, 2010 at 6:35 PM, Nathan Milford <nathan at outbrain.com> wrote:
+ -- 
+ Jason L. Sparks
+ 502.303.1925 - v
+ 502.896.9295 - f
+ jlsparks at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100423/6138e653/attachment-0001.html>
+ 	<OF546D3D34.D7FBE472-ON8525770E.007EDFF3-8525770E.007F187B@sungard.com>
+ On Fri, Apr 23, 2010 at 07:08:14PM -0400, Keegan.Holley at sungard.com wrote:
+ RSTs are sent by the OS (not the "webserver"; there is no TCP stack
+ inside a webserver) when the underlying userland application calls
+ close(2) on the descriptor (socket), the process exits, or otherwise
+ aborts/crashes in some way thus freeing the descriptor that handles the
+ network I/O.  Facebook's predominantly using Linux[1] which is why I
+ describe the above model.
+ Given Facebook's complexity, who knows what the problem was.  Load
+ balancer or layer 7 filter/re-writer (think F5) issues?  Back-end server
+ problems?  Software misconfiguration?  Doing burn-outs in an AMC Pacer
+ by sticking with PHP[2]?  Some developer deciding to just roll something
+ out in the middle of the day (as is quite common with social networking
+ sites these days)?  We'll probably never know.
+ If I had a nickel for every time I've seen FB's environment behave
+ erratically (easy to confirm with curl), close sockets abruptly, time
+ out during HTTP transactions, I'd own a series of small islands by now.
+ [1]: http://www.infoq.com/presentations/Facebook-Software-Stack 
+ [2]: http://developers.facebook.com/blog/post/358
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ Who cares?
+ </editorial>
+ Sydney, Australia was down.
+ Cleveland, OH and San Francisco, CA are both functioning.
+ On Sat, Apr 24, 2010 at 10:06:48AM +1200, Franck Martin wrote:
+ Same here but I see HTTP connections now. I got timeouts a few mins ago.
+ Zaid
+ On 4/23/10 3:06 PM, "Franck Martin" <franck at avonsys.com> wrote:
+ Correct me if I'm wrong but aren't RST's sent by the TCP stack in the 
+ webserver?  If you are recieving them it would imply that the network 
+ connection is fine, but you were sent to a server that is having issues. 
+ WIth the amount of traffic they recieve I would assume they use some sort 
+ of load balancing method.  Try clearing your DNS cache and closing your 
+ browser and trying again.
+ [outages] FB down?
+ Franck Martin 
+ to:
+ outages
+ 04/23/10 06:12 PM
+ Sent by:
+ <outages-bounces at outages.org>
+ FB is down from Fiji: the connection to the server was reset
+ Franck Martin
+ http://www.avonsys.com/
+ http://www.facebook.com/Avonsys
+ twitter: FranckMartin Avonsys
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100423/b6cac7a9/attachment.html>
+ By webserver I meant the box not the daemon running on it.  I wasn't 
+ trying to give everyone a lesson on TCP, I was just implying that the 
+ original post about the problem being based on a location were probably 
+ false.  I'm still curious if it was the entire site or just a few of the 
+ servers in a load-balanced pool
+ Re: [outages] FB down?
+ Jeremy Chadwick 
+ to:
+ outages
+ 04/23/10 07:48 PM
+ Sent by:
+ <outages-bounces at outages.org>
+ On Fri, Apr 23, 2010 at 07:08:14PM -0400, Keegan.Holley at sungard.com wrote:
+ sort 
+ RSTs are sent by the OS (not the "webserver"; there is no TCP stack
+ inside a webserver) when the underlying userland application calls
+ close(2) on the descriptor (socket), the process exits, or otherwise
+ aborts/crashes in some way thus freeing the descriptor that handles the
+ network I/O.  Facebook's predominantly using Linux[1] which is why I
+ describe the above model.
+ Given Facebook's complexity, who knows what the problem was.  Load
+ balancer or layer 7 filter/re-writer (think F5) issues?  Back-end server
+ problems?  Software misconfiguration?  Doing burn-outs in an AMC Pacer
+ by sticking with PHP[2]?  Some developer deciding to just roll something
+ out in the middle of the day (as is quite common with social networking
+ sites these days)?  We'll probably never know.
+ If I had a nickel for every time I've seen FB's environment behave
+ erratically (easy to confirm with curl), close sockets abruptly, time
+ out during HTTP transactions, I'd own a series of small islands by now.
+ [1]: http://www.infoq.com/presentations/Facebook-Software-Stack 
+ [2]: http://developers.facebook.com/blog/post/358
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100423/a9ac7f51/attachment.html>
+ People who get customer calls when they can't access social media?
+ </editorial>
+ ------Original Message------
+ From: Ravi Pina
+ Sender: outages-bounces at outages.org
+ Cc: outages at outages.org
+ Subject: Re: [outages] FB down?
+ Sent: Apr 23, 2010 6:30 PM
+ Who cares?
+ </editorial>
+ Sydney, Australia was down.
+ Cleveland, OH and San Francisco, CA are both functioning.
+ On Sat, Apr 24, 2010 at 10:06:48AM +1200, Franck Martin wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Sent from my Verizon Wireless BlackBerry
+ ----- jlsparks at gmail.com wrote:
+ <hat type="assistant moderator">
+ Exactly, and we've discussed this in the past.  Web service providers of
+ A Certain Size become valid fodder for this list, as many of our members
+ do eyeball-network support, and will get calls when their end user customers
+ can't access these service.
+ We realize that for some of you, that's not as important as INOC-DBA failures,
+ but that hasn't been the entirety of the Internet for some decades now.
+ Mail filters are pretty common these days, guys.
+ And everyone please remember to move discussions to outages-discuss; that's 
+ what's it's for.
+ <PINCH>
+ </hat>
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon caller-ID issue?
+###############################################################
+ Any Verizon Business customer's experiencing a problem where inbound calls aren't displaying the caller's name?
+ Thanks.
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+ Regional? National?
+ Southeast has no problems.
+ -----Original Message-----
+ From: Brad Beck <Brad.Beck at meritain.com>
+ Date: Tue, 27 Apr 2010 11:26:41 
+ Subject: [outages] Verizon caller-ID issue?
+ Any Verizon Business customer's experiencing a problem where inbound calls aren't displaying the caller's name?
+ Thanks.
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<620202425-1272384759-cardhu_decombobulator_blackberry.rim.net-824617458-@bda422.bisx.prod.on.blackberry>
+ We're good here.
+ David Hiers
+ CCIE (R/S, V), CISSP
+ ADP Dealer Services
+ 2525 SW 1st Ave.
+ Suite 300W
+ Portland, OR 97201
+ o: 503-205-4467
+ f: 503-402-3277
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of jon
+ Sent: Tuesday, April 27, 2010 9:13 AM
+ Subject: Re: [outages] Verizon caller-ID issue?
+ Regional? National?
+ Southeast has no problems.
+ -----Original Message-----
+ From: Brad Beck <Brad.Beck at meritain.com>
+ Date: Tue, 27 Apr 2010 11:26:41 
+ Subject: [outages] Verizon caller-ID issue?
+ Any Verizon Business customer's experiencing a problem where inbound calls aren't displaying the caller's name?
+ Thanks.
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+ Switched calls, dedicated calls, LD/Local only, etc... any other details?
+ On 4/27/2010 8:26 AM, Brad Beck wrote:
+ On 4/27/2010 08:26, Brad Beck wrote:
+ I received a call from Verizon about "your Verizon phone service" with
+ no CID. On my Sprint cell phone. Something is confused.
+ ~Seth
+ 	<4BD70C4A.5000202@mind.net>
+ The calls are from the Verizon SIP network in the NorthEast.  CID information is being passed into our network as "OUT OF SERVICE + Phone Number".  Very strange to be honest.  Called Verizon VoIP and they are baffled..
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Steve Ryan
+ Sent: Tuesday, April 27, 2010 12:10 PM
+ Subject: Re: [outages] Verizon caller-ID issue?
+ Switched calls, dedicated calls, LD/Local only, etc... any other details?
+ On 4/27/2010 8:26 AM, Brad Beck wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint billing
+###############################################################
+ Anybody with Sprint know why *3 and online billing are down? I don't feel like being late paying today when I can't even get anything to respond.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint SNPP not responding
+###############################################################
+ Does anyone else use SNPP for paging? I'm having trouble with Sprint's
+ SNPP server lately, i.e. it's not responding or takes way too long and
+ times out.
+ snpp.messaging.sprint.com port 444
+ Resolves to 64.41.153.7
+ ~Seth
+ Im wondering if there was some kind of widespread phone issue.  Don't know if it's related, but I had trouble dialing 908 numbers and a 603 number.  Kept getting a fast busy.  Whole thing lasted about 30 min, ended about 10-15 min ago.
+ Thank you,
+ Mike Hoffman
+ IT Help Desk Analyst
+ Odyssey Logistics & Technology Corporation
+ 39 Old Ridgebury Rd
+ A-4
+ Danbury, CT? 06810
+ Phone: (203) 448-3872
+ Fax: (203) 448-3901
+ ?
+ ?
+ Odyssey Overland LLC
+ 1500 Rt 517
+ Hackettstown, NJ? 07840
+ Phone: (908) 850-4490
+ Fax: (908) 850-3852
+ ?
+ CONFIDENTIALITY NOTICE: 
+ This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Seth Mattinen
+ Sent: Friday, April 30, 2010 3:48 PM
+ Subject: [outages] Sprint SNPP not responding
+ Does anyone else use SNPP for paging? I'm having trouble with Sprint's
+ SNPP server lately, i.e. it's not responding or takes way too long and
+ times out.
+ snpp.messaging.sprint.com port 444
+ Resolves to 64.41.153.7
+ ~Seth
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ On 4/30/2010 12:48, Seth Mattinen wrote:
+ Update: it appears this service has been discontinued as of April 30, 2010.
+ ~Seth
+###############################################################
+END
+###############################################################
+

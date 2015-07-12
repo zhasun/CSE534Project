@@ -1,0 +1,3447 @@
+From ramans  Mon Jul  2 18:34:15 2007
+From: ramans (Raman Sud)
+Date: Mon, 2 Jul 2007 15:34:15 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148519 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA059E9@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 02, 2007 3:32 PM
+To: helpdesk at bandcon.com; todd at bandcon.com; Networking;
+david at netdotsolutions.com
+Subject: Level(3) Service Affecting Maintenance - GCR#148519 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148519 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978646	
+GCR #:  CHG000000148519	
+Primary Dates: 18 Jul 2007 04:00:00 - 18 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  18 Jul 2007 11:00:00 - 18 Jul 2007 13:00:00	
+Location of Maintenance: Sacramento CA, San Jose CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBK13830 			Device : car2.sjo1
+GigabitEthernet6/8.164	 SA	
+BBBK13819	 		Device : car2.sjo1
+GigabitEthernet6/9.138	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070702/2a863eb5/attachment.htm 
+
+
+From ramans  Thu Jul  5 18:33:36 2007
+From: ramans (Raman Sud)
+Date: Thu, 5 Jul 2007 15:33:36 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148658 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05A85@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, July 05, 2007 3:21 PM
+To: Networking; steve.cordova at level3.com; todd at bandcon.com;
+helpdesk at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#148658 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148658 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980133	
+GCR #:  CHG000000148658	
+Primary Dates: 19 Jul 2007 04:00:00 - 19 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  19 Jul 2007 09:00:00 - 19 Jul 2007 11:00:00	
+Location of Maintenance: Dallas TX, Houston TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCZ5577	 car3.dal1	 GigabitEthernet6/13	 4.71.120.1
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070705/ff37d769/attachment.htm 
+
+
+From ramans  Fri Jul  6 11:40:50 2007
+From: ramans (Raman Sud)
+Date: Fri, 6 Jul 2007 08:40:50 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148661 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05A9C@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, July 06, 2007 8:04 AM
+To: helpdesk at bandcon.com; steve.cordova at level3.com; todd at bandcon.com;
+david at netdotsolutions.com; Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148661 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148661 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980143	
+GCR #:  CHG000000148661	
+Primary Dates: 19 Jul 2007 05:00:00 - 19 Jul 2007 06:00:00 Mountain	
+Primary Dates GMT:  19 Jul 2007 11:00:00 - 19 Jul 2007 12:00:00	
+Location of Maintenance: Phoenix AZ,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. **************** 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBL21068 			Device : car1.phx1 TenGigabitEthernet1/3
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070706/1d4fc10c/attachment-0001.htm 
+
+
+From ramans  Fri Jul  6 17:58:09 2007
+From: ramans (Raman Sud)
+Date: Fri, 6 Jul 2007 14:58:09 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148673 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05ABB@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, July 06, 2007 2:44 PM
+To: Networking; helpdesk at bandcon.com; Networking;
+david at netdotsolutions.com; todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#148673 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148673 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980265	
+GCR #:  CHG000000148673	
+Primary Dates: 20 Jul 2007 03:00:00 - 20 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  20 Jul 2007 07:00:00 - 20 Jul 2007 10:00:00	
+Location of Maintenance: Cincinnati OH, Tampa FL, Newark NJ, Washington
+DC,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. ****************	
+	
+CWIE,_LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBL05028	 		Device: car4.wdc1 TenGigabitEthernet8/2
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070706/b1574c19/attachment.htm 
+
+
+From virendra.rode  Sun Jul  8 23:00:29 2007
+From: virendra.rode (virendra rode //)
+Date: Sun, 08 Jul 2007 20:00:29 -0700
+Subject: [Outages] [Fwd: Yahoo outage summary]
+Message-ID: <4691A4CD.9040605@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -------- Original Message --------
+Subject: Yahoo outage summary
+Date: Sun, 8 Jul 2007 15:29:10 -0400
+From: Marcus H. Sachs <marc at sachsfamily.net>
+To: 'Nanog' <nanog at nanog.org>
+
+
+I put up a diary at the Storm Center
+(http://isc.sans.org/diary.html?storyid=3112) that summarizes what we know
+about the Yahoo outage on Friday.  If anybody has any additional info they
+want to share or comments about the write-up please let me know.
+
+Marc
+
+- --
+Marc Sachs
+SANS ISC
+marc at sans.org
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGkaTMpbZvCIJx1bcRArNKAJ9C4ynRvTtrXjf71zoAOnSpA37ChQCgr3rx
+5wnw4nf9IR5fu+xslZ8CwNw=
+=rH37
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Jul  9 09:23:34 2007
+From: virendra.rode (virendra rode //)
+Date: Mon, 09 Jul 2007 06:23:34 -0700
+Subject: [Outages] [Fwd: Re: Vericenter Denver Outtage]
+Message-ID: <469236D6.4060306@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Re: Vericenter Denver Outtage
+Date: Mon, 9 Jul 2007 02:23:55 -0500
+From: James Baldwin <jbaldwin at antinode.net>
+To: nanog at nanog.org
+References: <552E0B27-27AE-429C-9B89-1E767697557B at antinode.net>
+
+
+Outtage with the primary sprintlink connection. Still no ETR.
+
+James Baldwin
+
+On Jul 9, 2007, at 2:09 AM, James Baldwin wrote:
+
+> Does anyone have further information on the Vericenter Denver outtage?
+>
+> Support is aware of the issue, however, they could not feed me a  
+> problem description at the time of ticket creation or an ETR?
+>
+> James Baldwin
+>
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGkjbWpbZvCIJx1bcRAjxKAJ9R7QHEhMrC8tYyAbSbRHDAenUD6gCeKO5X
+8m1PaY1/vXcjo7dkmaw6MXc=
+=v0wl
+-----END PGP SIGNATURE-----
+
+
+From ramans  Mon Jul  9 12:30:19 2007
+From: ramans (Raman Sud)
+Date: Mon, 9 Jul 2007 09:30:19 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148674 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05AEB@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 09, 2007 9:27 AM
+To: Networking; david at netdotsolutions.com
+Subject: Level(3) Service Affecting Maintenance - GCR#148674 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148674 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980269	
+GCR #:  CHG000000148674	
+Primary Dates: 20 Jul 2007 04:00:00 - 20 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  20 Jul 2007 09:00:00 - 20 Jul 2007 11:00:00	
+Location of Maintenance: Chicago IL, Dallas TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage to customers and peers
+while unit reloads. ****************	
+	
+CWIE,_LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBL05016	 		Device : car3.chi1 TenGigabitEthernet3/4
+SA	
+BBBL05034	 		Device : car4.dal1 TenGigabitEthernet3/4
+SA	
+BBBL63407	 		Device : car4.dal1 GigabitEthernet6/4
+SA	
+BBBL56163	 		Device : car4.dal1 GigabitEthernet6/1
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070709/eb999409/attachment.htm 
+
+
+From ramans  Mon Jul  9 16:28:40 2007
+From: ramans (Raman Sud)
+Date: Mon, 9 Jul 2007 13:28:40 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148665 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05B14@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 09, 2007 1:28 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148665 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148665 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980166	
+GCR #:  CHG000000148665	
+Primary Dates: 19 Jul 2007 04:00:00 - 19 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  19 Jul 2007 11:00:00 - 19 Jul 2007 13:00:00	
+Location of Maintenance: Seattle WA, San Jose CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+Communications will perform router upgrade. IP non-redundant services
+will be impacted by an outage of up to 30 minutes.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBL13370	 		Device : car3.sjo1 GigabitEthernet6/18
+SA	
+BBBL42850	 		Device : car3.sjo1 TenGigabitEthernet9/3
+SA	
+BBBL15839	 		Device : car3.sea1 GigabitEthernet6/5
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070709/8a66eed3/attachment.htm 
+
+
+From ramans  Tue Jul 10 18:39:28 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Jul 2007 15:39:28 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148508 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05B80@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 10, 2007 2:38 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148508 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148508 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978592	
+GCR #:  CHG000000148508	
+Primary Dates: 18 Jul 2007 04:00:00 - 18 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  18 Jul 2007 09:00:00 - 18 Jul 2007 11:00:00	
+Location of Maintenance: Chicago IL, Houston TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDB1713	 car2.chi1	 GigabitEthernet3/1	 4.79.66.193
+SA	
+BBBK93148	 		Device : car2.chi1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070710/889b428b/attachment.htm 
+
+
+From ramans  Tue Jul 10 18:39:23 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Jul 2007 15:39:23 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148506 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05B7F@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 10, 2007 2:57 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148506 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148506 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978577	
+GCR #:  CHG000000148506	
+Primary Dates: 18 Jul 2007 03:00:00 - 18 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  18 Jul 2007 07:00:00 - 18 Jul 2007 10:00:00	
+Location of Maintenance: Tampa FL, Newark NJ, Orlando FL, Washington DC,
+
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCV1849	 car1.tmp1	 GigabitEthernet6/12.119
+4.79.144.129	 SA	
+BBCP1153	 car1.wdc1	 GigabitEthernet4/3.177	 4.79.16.97
+SA	
+BBCM5314	 car1.orl1	 GigabitEthernet6/2.261	 4.79.116.9
+SA	
+BBBH31439	 		Device : car1.orl1	 SA	
+BBBH75686	 		Device : car1.wdc1	 SA	
+BBBJ96960	 		Device : car1.tmp1 	SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070710/e8ba3611/attachment-0001.htm 
+
+
+From ramans  Thu Jul 12 10:33:39 2007
+From: ramans (Raman Sud)
+Date: Thu, 12 Jul 2007 07:33:39 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148677 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05BCD@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, July 12, 2007 7:04 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148677 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148677 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980310	
+GCR #:  CHG000000148677	
+Primary Dates: 20 Jul 2007 04:00:00 - 20 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  20 Jul 2007 11:00:00 - 20 Jul 2007 13:00:00	
+Location of Maintenance: Los Angeles CA, Seattle WA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBG53122	 		Device : car3.lax1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070712/0e869e48/attachment-0001.htm 
+
+
+From ramans  Thu Jul 12 10:33:33 2007
+From: ramans (Raman Sud)
+Date: Thu, 12 Jul 2007 07:33:33 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148708 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05BCC@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, July 12, 2007 7:05 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#148708 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148708 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1980528	
+GCR #:  CHG000000148708	
+Primary Dates: 23 Jul 2007 04:00:00 - 23 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  23 Jul 2007 11:00:00 - 23 Jul 2007 13:00:00	
+Location of Maintenance: San Jose CA, Sacramento CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCD4542	 car1.sac1	 GigabitEthernet6/2	 64.158.148.129
+SA	
+BBCF5666	 car1.sac1	 GigabitEthernet6/3	 64.158.148.9
+SA	
+BBBB37806	 		Device : car1.sac1	 SA	
+BBBJ21643	 		Device : car1.sac1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070712/70e03300/attachment-0001.htm 
+
+
+From ramans  Fri Jul 13 16:47:20 2007
+From: ramans (Raman Sud)
+Date: Fri, 13 Jul 2007 13:47:20 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#152204 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05C37@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, July 13, 2007 1:47 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#152204 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#152204 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000152204	
+Primary Dates: 27 Jul 2007 00:00:00 - 27 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  27 Jul 2007 04:00:00 - 27 Jul 2007 10:00:00	
+Location of Maintenance: Newark NJ,	
+Summary Description of Maintenance:  Splice - OSP Fiber -	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 6 hour	 Level 3 Communications
+will perform a cable relocation due to a major roadway highway
+improvment by the NJDOT. Protected services will be impacted by switch
+hits. This is the final occurrence to 152199.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3
+Communications will perform a cable relocation due to a major roadway
+highway improvment by the NJDOT. Protected services will be impacted by
+switch hits. This is the final occurrence to 152199.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070713/e516f007/attachment.htm 
+
+
+From jlk  Fri Jul 13 14:06:37 2007
+From: jlk (John Kinsella)
+Date: Fri, 13 Jul 2007 11:06:37 -0700
+Subject: [Outages] Covad issue in SF Bay area
+Message-ID: <20070713180635.GE1487@jkdt.thrashyour.com>
+
+My circuits going through Covad have been having issues for the last few
+hours, just called their leased line noc and got a recorded message
+saying wait an hour and power cycle routers.  Just a heads up, and
+curious if anybody knows more...
+
+John
+
+
+From francois.rousseau.tech  Mon Jul 16 11:19:16 2007
+From: francois.rousseau.tech (=?UTF-8?Q?Fran=C3=A7ois_Rousseau?=)
+Date: Mon, 16 Jul 2007 11:19:16 -0400
+Subject: [Outages] DSL outage in Montreal
+Message-ID: <89fae3950707160819lad16b7dvb112074092f0a721@mail.gmail.com>
+
+Here in Montreal we have a big outage with almost all DSL connections.
+
+It seems to be caused by a problem with an OC192 between Montreal and Ottawa.
+
+This issue affect all DSL internet providers in the Montreal area.
+
+Right now Bell Canada have no ETR.
+
+Fran?ois Rousseau,
+Network Administrator
+Digital Days
+
+
+From ramans  Mon Jul 16 13:29:43 2007
+From: ramans (Raman Sud)
+Date: Mon, 16 Jul 2007 10:29:43 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#153423 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05C77@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 16, 2007 10:29 AM
+To: Networking; helpdesk at bandcon.com; steve.cordova at level3.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#153423 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#153423 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000153423	
+Primary Dates: 26 Jul 2007 00:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 04:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070716/95e15cfc/attachment.htm 
+
+
+From ramans  Mon Jul 16 16:44:38 2007
+From: ramans (Raman Sud)
+Date: Mon, 16 Jul 2007 13:44:38 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149800 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05C9A@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 16, 2007 1:44 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#149800 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149800 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1991449	
+GCR #:  CHG000000149800	
+Primary Dates: 25 Jul 2007 03:00:00 - 25 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  25 Jul 2007 07:00:00 - 25 Jul 2007 10:00:00	
+Location of Maintenance: Cincinnati OH, Detroit MI, Miami FL, Washington
+DC,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. This GCR is to deploy code that contains fixes for
+bugs that have been impacting customers.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCN3745	 car2.det1	 GigabitEthernet6/11.262
+4.79.14.5	 SA	
+BBCN3745	 car2.det1	 GigabitEthernet6/11.262
+4.79.14.5	 SA	
+BBBH56942	 		Device : car2.det1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070716/cd1edd3b/attachment-0001.htm 
+
+
+From ramans  Mon Jul 16 18:17:51 2007
+From: ramans (Raman Sud)
+Date: Mon, 16 Jul 2007 15:17:51 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149805 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05CA6@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 16, 2007 3:05 PM
+To: todd at bandcon.com; Networking; helpdesk at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#149805 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149805 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1991471	
+GCR #:  CHG000000149805	
+Primary Dates: 26 Jul 2007 03:00:00 - 26 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  26 Jul 2007 10:00:00 - 26 Jul 2007 13:00:00	
+Location of Maintenance: Las Vegas NV, Oakland CA, San Diego CA, Tustin
+CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will perform a router upgrade. IP non-redundant services will be
+impacted by an outage up to 30 minutes. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDF4819	 car2.oak1	 GigabitEthernet6/1.122	 4.71.200.65
+SA	
+BBDF4819	 car2.oak1	 GigabitEthernet6/1.122	 4.71.200.65
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070716/fe77de33/attachment.htm 
+
+
+From ramans  Tue Jul 17 13:44:38 2007
+From: ramans (Raman Sud)
+Date: Tue, 17 Jul 2007 10:44:38 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149806 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05CD6@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 17, 2007 10:44 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#149806 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149806 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1991475	
+GCR #:  CHG000000149806	
+Primary Dates: 27 Jul 2007 03:00:00 - 27 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  27 Jul 2007 07:00:00 - 27 Jul 2007 10:00:00	
+Location of Maintenance: Cleveland OH, Miami FL, Philadelphia PA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will perform a router upgrade. IP non-redundant services will be
+impacted by an outage up to 30 minutes. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDF6686	 car3.mia1	 GigabitEthernet6/23	 4.71.208.9
+SA	
+BBDF6686	 car3.mia1	 GigabitEthernet6/23	 4.71.208.9
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070717/0a19961f/attachment.htm 
+
+
+From ramans  Tue Jul 17 17:07:33 2007
+From: ramans (Raman Sud)
+Date: Tue, 17 Jul 2007 14:07:33 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148658 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05D0A@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 17, 2007 2:04 PM
+To: todd at bandcon.com; Networking; helpdesk at bandcon.com;
+steve.cordova at level3.com
+Subject: Level(3) Service Affecting Maintenance - GCR#148658 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148658 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1980133	
+GCR #:  CHG000000148658	
+Primary Dates: 19 Jul 2007 04:00:00 - 19 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  19 Jul 2007 09:00:00 - 19 Jul 2007 11:00:00	
+Location of Maintenance: Dallas TX, Houston TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCZ5577	 car3.dal1	 GigabitEthernet6/13	 4.71.120.1
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070717/192cdf96/attachment-0001.htm 
+
+
+From jnavitsky  Fri Jul 20 15:08:08 2007
+From: jnavitsky (Jayson Navitsky)
+Date: Fri, 20 Jul 2007 15:08:08 -0400
+Subject: [Outages] XO TDM
+Message-ID: <d1be2cee0707201208o14ab7eefq20563c02d20589e3@mail.gmail.com>
+
+Anyone else seeing anything weird going on with XO p-to-p circuits?
+Support is just ringing to busy right now...
+
+-Jayson
+
+
+From ekagan  Fri Jul 20 15:09:56 2007
+From: ekagan (ekagan at axsne.com)
+Date: Fri, 20 Jul 2007 15:09:56 -0400
+Subject: [Outages] XO TDM
+In-Reply-To: <d1be2cee0707201208o14ab7eefq20563c02d20589e3@mail.gmail.com>
+References: <d1be2cee0707201208o14ab7eefq20563c02d20589e3@mail.gmail.com>
+Message-ID: <42F2995AD6FA0C4CA1EFBFD0CD3E9ABE1EADA1@exch01.axsdom.local>
+
+> -----Original Message-----
+> From: Jayson Navitsky [mailto:jnavitsky at gmail.com] 
+> Sent: Friday, July 20, 2007 3:08 PM
+> To: outages at isotf.org
+> Subject: [Outages] XO TDM
+> 
+> Anyone else seeing anything weird going on with XO p-to-p circuits?
+> Support is just ringing to busy right now...
+> 
+
+
+We just had several across the US bounce for a few minutes.  They appear
+to be back up now.
+
+Eric
+
+
+From fred.moses  Fri Jul 20 15:26:47 2007
+From: fred.moses (Fredric S. Moses)
+Date: Fri, 20 Jul 2007 15:26:47 -0400
+Subject: [Outages] XO TDM
+In-Reply-To: <42F2995AD6FA0C4CA1EFBFD0CD3E9ABE1EADA1@exch01.axsdom.local>
+Message-ID: <20070720193133.BA5FCC8F61@mail.amigostecnicos.net>
+
+We had DS3's up... but no IP from southfield...  All there 800's where
+down... Spoke to transport they had no idea things where down in till I
+called.  Where trying to find things out via IM as phones where not working.
+
+
+Fred
+
+-----Original Message-----
+From: ekagan at axsne.com [mailto:ekagan at axsne.com]
+Sent: Friday, July 20, 2007 3:10 PM
+To: jnavitsky at gmail.com; outages at isotf.org
+Subject: Re: [Outages] XO TDM
+
+
+
+
+From jnavitsky  Fri Jul 20 15:26:41 2007
+From: jnavitsky (Jayson Navitsky)
+Date: Fri, 20 Jul 2007 15:26:41 -0400
+Subject: [Outages] XO TDM
+In-Reply-To: <42F2995AD6FA0C4CA1EFBFD0CD3E9ABE1EADA1@exch01.axsdom.local>
+References: <d1be2cee0707201208o14ab7eefq20563c02d20589e3@mail.gmail.com>
+	<42F2995AD6FA0C4CA1EFBFD0CD3E9ABE1EADA1@exch01.axsdom.local>
+Message-ID: <d1be2cee0707201226x4ae96975iacf109d7e50da42f@mail.gmail.com>
+
+Just got word that it's Chicago & St. Louis, down hard no etr.
+
+-J
+
+On 7/20/07, ekagan at axsne.com <ekagan at axsne.com> wrote:
+> > -----Original Message-----
+> > From: Jayson Navitsky [mailto:jnavitsky at gmail.com]
+> > Sent: Friday, July 20, 2007 3:08 PM
+> > To: outages at isotf.org
+> > Subject: [Outages] XO TDM
+> >
+> > Anyone else seeing anything weird going on with XO p-to-p circuits?
+> > Support is just ringing to busy right now...
+> >
+>
+>
+> We just had several across the US bounce for a few minutes.  They appear
+> to be back up now.
+>
+> Eric
+>
+
+
+From jnavitsky  Fri Jul 20 17:13:26 2007
+From: jnavitsky (Jayson Navitsky)
+Date: Fri, 20 Jul 2007 17:13:26 -0400
+Subject: [Outages] XO TDM
+In-Reply-To: <20070720193133.BA5FCC8F61@mail.amigostecnicos.net>
+References: <42F2995AD6FA0C4CA1EFBFD0CD3E9ABE1EADA1@exch01.axsdom.local>
+	<20070720193133.BA5FCC8F61@mail.amigostecnicos.net>
+Message-ID: <d1be2cee0707201413u5f54146an1ed3891326fa3c9b@mail.gmail.com>
+
+Just lost everything again.
+
+-J
+
+On 7/20/07, Fredric S. Moses <fred.moses at tcwireless.us> wrote:
+> We had DS3's up... but no IP from southfield...  All there 800's where
+> down... Spoke to transport they had no idea things where down in till I
+> called.  Where trying to find things out via IM as phones where not working.
+>
+>
+> Fred
+>
+> -----Original Message-----
+> From: ekagan at axsne.com [mailto:ekagan at axsne.com]
+> Sent: Friday, July 20, 2007 3:10 PM
+> To: jnavitsky at gmail.com; outages at isotf.org
+> Subject: Re: [Outages] XO TDM
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From ramans  Mon Jul 23 12:25:24 2007
+From: ramans (Raman Sud)
+Date: Mon, 23 Jul 2007 09:25:24 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#153402 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05DF2@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 23, 2007 9:24 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#153402 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#153402 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 2027819	
+GCR #:  CHG000000153402	
+Primary Dates: 25 Jul 2007 00:00:00 - 25 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  25 Jul 2007 04:00:00 - 25 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070723/1b772b5c/attachment.htm 
+
+
+From ramans  Mon Jul 23 15:11:07 2007
+From: ramans (Raman Sud)
+Date: Mon, 23 Jul 2007 12:11:07 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149800 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E07@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, July 23, 2007 12:03 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#149800 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149800 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1991449	
+GCR #:  CHG000000149800	
+Primary Dates: 25 Jul 2007 03:00:00 - 25 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  25 Jul 2007 07:00:00 - 25 Jul 2007 10:00:00	
+Location of Maintenance: Cincinnati OH, Detroit MI, Miami FL, Washington
+DC,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads. This GCR is to deploy code that contains fixes for
+bugs that have been impacting customers.	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCN3745	 car2.det1	 GigabitEthernet6/11.262
+4.79.14.5	 SA	
+BBCN3745	 car2.det1	 GigabitEthernet6/11.262
+4.79.14.5	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070723/4603aa64/attachment.htm 
+
+
+From ramans  Tue Jul 24 12:27:17 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Jul 2007 09:27:17 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#153423 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E34@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 24, 2007 9:04 AM
+To: Networking; helpdesk at bandcon.com; steve.cordova at level3.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#153423 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#153423 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000153423	
+Primary Dates: 26 Jul 2007 00:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 04:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/d7b4935a/attachment-0001.htm 
+
+
+From ramans  Tue Jul 24 15:18:22 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Jul 2007 12:18:22 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#153423 -
+	Cancellation
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E3F@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 24, 2007 12:18 PM
+To: Networking; helpdesk at bandcon.com; steve.cordova at level3.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#153423 -
+Cancellation
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***REVISED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#153423 - Cancellation	
+This Maintenance has been CANCELLED. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000153423	
+Primary Dates: 26 Jul 2007 00:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 04:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. Dark
+fiber, Transport protected and unprotected services will be impacted by
+switch hits. Related GCR is 153402.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/a9a28359/attachment.htm 
+
+
+From ramans  Tue Jul 24 15:25:46 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Jul 2007 12:25:46 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149804 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E40@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 24, 2007 12:25 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#149804 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149804 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1991465	
+GCR #:  CHG000000149804	
+Primary Dates: 26 Jul 2007 03:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 07:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Charlotte NC, Miami FL, New York NY, Raleigh
+NC,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will perform a router upgrade. IP non-redundant services will be
+impacted by an outage up to 30 minutes. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCT5332	 car2.ral1	 GigabitEthernet6/3.224	 64.158.228.13
+SA	
+BBCT5332	 car2.ral1	 GigabitEthernet6/3.224	 64.158.228.13
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/03573828/attachment-0001.htm 
+
+
+From rusty  Tue Jul 24 17:20:02 2007
+From: rusty (Rusty Hodge)
+Date: Tue, 24 Jul 2007 14:20:02 -0700
+Subject: [Outages] 365main power interruption?
+Message-ID: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+
+My cabinet as well as some other customers I know over at 365Main  
+(SF, CA) had a power interruption at about 1:50pm pacific today.
+
+Power is back up now.
+
+
+From rusty  Tue Jul 24 18:21:45 2007
+From: rusty (Rusty Hodge)
+Date: Tue, 24 Jul 2007 15:21:45 -0700
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+	<79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+Message-ID: <19A3C894-D080-452E-B68F-4A5CB67F8070@hodge.com>
+
+There Is a line out the door to get access to 365main right now
+
+On Jul 24, 2007, at 3:16 PM, "Adam Kujawski" <adamkuj at gmail.com> wrote:
+
+> http://today.reuters.com/news/articleinvesting.aspx?type=bondsNews&storyID=2007-07-24T214600Z_01_N24247688_RTRIDST_0_UTILITIES-SANFRANCISCO-OUTAGES-UPDATE-1.XML
+>
+> SAN FRANCISCO, July 24 (Reuters) - Sporadic power outages hit San
+> Francisco on Tuesday afternoon, affecting widespread areas including
+> the city's downtown financial district.
+>
+> About 28,000 customers in San Francisco and an area south of the city
+> were affected, said Darlene Chiu, spokeswoman for Pacific Gas &
+> Electric Co., the main utility for the city. More than 20,000 of those
+> outages were in San Francisco, she said.
+>
+> "We are investigating the cause of it," said Chiu, adding that the
+> utility is having on-and-off success in reconnecting customers by
+> backup circuits.
+>
+> Traffic signals in much of downtown San Francisco were not working.
+> Bay Area Rapid Transit trains were moving, although some of the lights
+> in undergound stations were off, a BART spokesman told local radio.
+>
+> The outages began about 2 p.m. PDT, Chiu said.
+>
+> The utility is owned by PG&E Corp.
+>
+>
+>
+>
+> On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+>> My cabinet as well as some other customers I know over at 365Main
+>> (SF, CA) had a power interruption at about 1:50pm pacific today.
+>>
+>> Power is back up now.
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at isotf.org
+>> http://isotf.org/mailman/listinfo/outages
+>>
+>
+
+
+From adamkuj  Tue Jul 24 18:16:42 2007
+From: adamkuj (Adam Kujawski)
+Date: Tue, 24 Jul 2007 17:16:42 -0500
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+Message-ID: <79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+
+http://today.reuters.com/news/articleinvesting.aspx?type=bondsNews&storyID=2007-07-24T214600Z_01_N24247688_RTRIDST_0_UTILITIES-SANFRANCISCO-OUTAGES-UPDATE-1.XML
+
+SAN FRANCISCO, July 24 (Reuters) - Sporadic power outages hit San
+Francisco on Tuesday afternoon, affecting widespread areas including
+the city's downtown financial district.
+
+About 28,000 customers in San Francisco and an area south of the city
+were affected, said Darlene Chiu, spokeswoman for Pacific Gas &
+Electric Co., the main utility for the city. More than 20,000 of those
+outages were in San Francisco, she said.
+
+"We are investigating the cause of it," said Chiu, adding that the
+utility is having on-and-off success in reconnecting customers by
+backup circuits.
+
+Traffic signals in much of downtown San Francisco were not working.
+Bay Area Rapid Transit trains were moving, although some of the lights
+in undergound stations were off, a BART spokesman told local radio.
+
+The outages began about 2 p.m. PDT, Chiu said.
+
+The utility is owned by PG&E Corp.
+
+
+
+
+On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+> My cabinet as well as some other customers I know over at 365Main
+> (SF, CA) had a power interruption at about 1:50pm pacific today.
+>
+> Power is back up now.
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From mike.lyon  Tue Jul 24 18:26:29 2007
+From: mike.lyon (Mike Lyon)
+Date: Tue, 24 Jul 2007 15:26:29 -0700
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <19A3C894-D080-452E-B68F-4A5CB67F8070@hodge.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+	<79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+	<19A3C894-D080-452E-B68F-4A5CB67F8070@hodge.com>
+Message-ID: <1b5c1c150707241526w4adfa2ao89872daedb16b34d@mail.gmail.com>
+
+Gotta love it:
+
+http://valleywag.com/tech/breakdowns/a-drunk-employee-kills-all-of-the-websites-you-care-about-282021.php
+
+-Mike
+
+
+On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+> There Is a line out the door to get access to 365main right now
+>
+> On Jul 24, 2007, at 3:16 PM, "Adam Kujawski" <adamkuj at gmail.com> wrote:
+>
+> > http://today.reuters.com/news/articleinvesting.aspx?type=bondsNews&storyID=2007-07-24T214600Z_01_N24247688_RTRIDST_0_UTILITIES-SANFRANCISCO-OUTAGES-UPDATE-1.XML
+> >
+> > SAN FRANCISCO, July 24 (Reuters) - Sporadic power outages hit San
+> > Francisco on Tuesday afternoon, affecting widespread areas including
+> > the city's downtown financial district.
+> >
+> > About 28,000 customers in San Francisco and an area south of the city
+> > were affected, said Darlene Chiu, spokeswoman for Pacific Gas &
+> > Electric Co., the main utility for the city. More than 20,000 of those
+> > outages were in San Francisco, she said.
+> >
+> > "We are investigating the cause of it," said Chiu, adding that the
+> > utility is having on-and-off success in reconnecting customers by
+> > backup circuits.
+> >
+> > Traffic signals in much of downtown San Francisco were not working.
+> > Bay Area Rapid Transit trains were moving, although some of the lights
+> > in undergound stations were off, a BART spokesman told local radio.
+> >
+> > The outages began about 2 p.m. PDT, Chiu said.
+> >
+> > The utility is owned by PG&E Corp.
+> >
+> >
+> >
+> >
+> > On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+> >> My cabinet as well as some other customers I know over at 365Main
+> >> (SF, CA) had a power interruption at about 1:50pm pacific today.
+> >>
+> >> Power is back up now.
+> >> _______________________________________________
+> >> Outages mailing list
+> >> Outages at isotf.org
+> >> http://isotf.org/mailman/listinfo/outages
+> >>
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From ramans  Tue Jul 24 18:05:06 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Jul 2007 15:05:06 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149805 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E5B@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 24, 2007 3:04 PM
+To: Networking; david at netdotsolutions.com; todd at bandcon.com;
+helpdesk at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#149805 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149805 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1991471	
+GCR #:  CHG000000149805	
+Primary Dates: 26 Jul 2007 03:00:00 - 26 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  26 Jul 2007 10:00:00 - 26 Jul 2007 13:00:00	
+Location of Maintenance: Las Vegas NV, Oakland CA, San Diego CA, Tustin
+CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will perform a router upgrade. IP non-redundant services will be
+impacted by an outage up to 30 minutes. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDF4819	 car2.oak1	 GigabitEthernet6/1.122	 4.71.200.65
+SA	
+BBDF4819	 car2.oak1	 GigabitEthernet6/1.122	 4.71.200.65
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/69494860/attachment.htm 
+
+
+From ramans  Tue Jul 24 18:53:10 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Jul 2007 15:53:10 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#155178 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E5D@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, July 24, 2007 3:51 PM
+To: Networking; helpdesk at bandcon.com; steve.cordova at level3.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#155178 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#155178 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 2043797	
+GCR #:  CHG000000155178	
+Primary Dates: 26 Jul 2007 00:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 04:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. No
+impacted is expected to Dark fiber, Transport protected and unprotected
+services. This gcr replaces GCR 153423 that was sent as "Completed" in
+error due to system problems. Related GCR is 153402.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. No
+impacted is expected to Dark fiber, Transport protected and unprotected
+services. This gcr replaces GCR 153423 that was sent as "Completed" in
+error due to system problems. Related GCR is 153402.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/01c4c706/attachment-0001.htm 
+
+
+From lazlor  Tue Jul 24 19:02:31 2007
+From: lazlor (Allen K. Smith)
+Date: Tue, 24 Jul 2007 16:02:31 -0700
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <1b5c1c150707241526w4adfa2ao89872daedb16b34d@mail.gmail.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>	<79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>	<19A3C894-D080-452E-B68F-4A5CB67F8070@hodge.com>
+	<1b5c1c150707241526w4adfa2ao89872daedb16b34d@mail.gmail.com>
+Message-ID: <46A68507.5030604@bigboy.lotaris.org>
+
+
+Heh,
+
+They have pretty anal security people there, so I tend to disbelieve,
+but I guess anything is possible.
+
+We lost power to all circuits in one of the colo-rooms there, but not
+another, so it may just be more issues with their power distribution gear.
+
+They dropped us and a bunch of other customers for several hours in a
+different colo-room last year when a circuit breaker failed.
+
+-Allen
+
+Mike Lyon wrote:
+> Gotta love it:
+>
+> http://valleywag.com/tech/breakdowns/a-drunk-employee-kills-all-of-the-websites-you-care-about-282021.php
+>
+> -Mike
+>
+>
+> On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+>   
+>> There Is a line out the door to get access to 365main right now
+>>
+>> On Jul 24, 2007, at 3:16 PM, "Adam Kujawski" <adamkuj at gmail.com> wrote:
+>>
+>>     
+>>> http://today.reuters.com/news/articleinvesting.aspx?type=bondsNews&storyID=2007-07-24T214600Z_01_N24247688_RTRIDST_0_UTILITIES-SANFRANCISCO-OUTAGES-UPDATE-1.XML
+>>>
+>>> SAN FRANCISCO, July 24 (Reuters) - Sporadic power outages hit San
+>>> Francisco on Tuesday afternoon, affecting widespread areas including
+>>> the city's downtown financial district.
+>>>
+>>> About 28,000 customers in San Francisco and an area south of the city
+>>> were affected, said Darlene Chiu, spokeswoman for Pacific Gas &
+>>> Electric Co., the main utility for the city. More than 20,000 of those
+>>> outages were in San Francisco, she said.
+>>>
+>>> "We are investigating the cause of it," said Chiu, adding that the
+>>> utility is having on-and-off success in reconnecting customers by
+>>> backup circuits.
+>>>
+>>> Traffic signals in much of downtown San Francisco were not working.
+>>> Bay Area Rapid Transit trains were moving, although some of the lights
+>>> in undergound stations were off, a BART spokesman told local radio.
+>>>
+>>> The outages began about 2 p.m. PDT, Chiu said.
+>>>
+>>> The utility is owned by PG&E Corp.
+>>>
+>>>
+>>>
+>>>
+>>> On 7/24/07, Rusty Hodge <rusty at hodge.com> wrote:
+>>>       
+>>>> My cabinet as well as some other customers I know over at 365Main
+>>>> (SF, CA) had a power interruption at about 1:50pm pacific today.
+>>>>
+>>>> Power is back up now.
+>>>> _______________________________________________
+>>>> Outages mailing list
+>>>> Outages at isotf.org
+>>>> http://isotf.org/mailman/listinfo/outages
+>>>>
+>>>>         
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at isotf.org
+>> http://isotf.org/mailman/listinfo/outages
+>>
+>>     
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>   
+
+
+
+From sethm  Tue Jul 24 18:49:49 2007
+From: sethm (Seth Mattinen)
+Date: Tue, 24 Jul 2007 15:49:49 -0700
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+	<79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+Message-ID: <46A6820D.4070506@rollernet.us>
+
+Adam Kujawski wrote:
+> http://today.reuters.com/news/articleinvesting.aspx?type=bondsNews&storyID=2007-07-24T214600Z_01_N24247688_RTRIDST_0_UTILITIES-SANFRANCISCO-OUTAGES-UPDATE-1.XML
+> 
+> SAN FRANCISCO, July 24 (Reuters) - Sporadic power outages hit San
+> Francisco on Tuesday afternoon, affecting widespread areas including
+> the city's downtown financial district.
+> 
+> About 28,000 customers in San Francisco and an area south of the city
+> were affected, said Darlene Chiu, spokeswoman for Pacific Gas &
+> Electric Co., the main utility for the city. More than 20,000 of those
+> outages were in San Francisco, she said.
+> 
+> "We are investigating the cause of it," said Chiu, adding that the
+> utility is having on-and-off success in reconnecting customers by
+> backup circuits.
+> 
+> Traffic signals in much of downtown San Francisco were not working.
+> Bay Area Rapid Transit trains were moving, although some of the lights
+> in undergound stations were off, a BART spokesman told local radio.
+> 
+> The outages began about 2 p.m. PDT, Chiu said.
+> 
+> The utility is owned by PG&E Corp.
+> 
+
+Poor excuse. Aren't they supposed to have generators/batteries? Does 
+anybody seriously accept "power outages" as an excuse your servers went 
+offline? I wouldn't. What are you actually paying them for if you do?
+
+~Seth
+
+
+From rusty  Tue Jul 24 22:25:18 2007
+From: rusty (Rusty Hodge)
+Date: Tue, 24 Jul 2007 19:25:18 -0700
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <46A6820D.4070506@rollernet.us>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com>
+	<79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com>
+	<46A6820D.4070506@rollernet.us>
+Message-ID: <97C2D506-1238-4044-BE9D-B8236F386935@hodge.com>
+
+> Poor excuse. Aren't they supposed to have generators/batteries? Does
+> anybody seriously accept "power outages" as an excuse your servers  
+> went
+> offline? I wouldn't. What are you actually paying them for if you do?
+
+they do. my analysis of the events that led up to this failure:
+
+http://somafm.com/blogs/rusty/2007/07/san-francisco-power-outage- 
+somafm.html
+
+We (SomaFM.com) are in Colo 7.
+
+
+From alex  Tue Jul 24 22:56:03 2007
+From: alex (Alex Rubenstein)
+Date: Tue, 24 Jul 2007 22:56:03 -0400
+Subject: [Outages] 365main power interruption?
+In-Reply-To: <97C2D506-1238-4044-BE9D-B8236F386935@hodge.com>
+References: <89212BF8-7102-4A42-953F-5CCA9B1C554E@hodge.com><79c6e3020707241516r7c71848bg1b6022dc119579a8@mail.gmail.com><46A6820D.4070506@rollernet.us>
+	<97C2D506-1238-4044-BE9D-B8236F386935@hodge.com>
+Message-ID: <000301c7ce67$568ca640$03a5f2c0$@net>
+
+Quoted:
+
+	"It was reported there were several brief outages in a row before
+the power went out for good, so I bet the CPS (flywheel) systems weren't
+fully back up to speed when the next sequential outage occurred. Since
+several of these grid power interruption happened in a row, and were shorter
+than the time required to trigger generator startup, the generators were not
+automatically started, BUT the CPS didn't have time to get back up to full
+capacity. By the 6th power glitch, there wasn't enough energy stored in the
+flywheels to keep the system going long enough for the diesel generators to
+start up and come to speed before switching over."
+
+Ladies and Gentlemen, this is why you must program your power control
+systems and/or auto transfer switches to be committed to transfer, even if
+utility returns. This is almost ATS 101.
+
+This same situation can occur in typical UPS systems -- several small hits
+can cause a significant drain on batteries, but return quick enough to not
+transfer a to-generator event.
+
+You should:
+
+	a) ensure a generator start, no matter how short the outage duration
+	b) commit a transfer to generator even if utility has returned
+	c) stay on generator for a minimum of (some period of time) -- 15
+minutes, imho.
+
+
+> they do. my analysis of the events that led up to this failure:
+> 
+>
+http://somafm.com/blogs/rusty/2007/07/san-francisco-power-outage-somafm.html
+> 
+> We (SomaFM.com) are in Colo 7.
+
+
+
+From cmills  Tue Jul 24 14:59:44 2007
+From: cmills (Mills, Charles)
+Date: Tue, 24 Jul 2007 14:59:44 -0400
+Subject: [Outages] cogent outage
+Message-ID: <58E0B21FC367B24485855A1DBD96B0BB0953D0B6@adc-prd-exch1.internal.accessdc.com>
+
+ 
+
+>From Cogent's Website:
+
+ 
+
+Welcome to Cogent Communications' Network Status Message. Today is
+7/24/07 at 14:11 ET. At this time, some customers may be experiencing a
+service outage in Pittsburgh, PA. This is being caused by a possible
+fiber cut outside Pittsburgh. Cogent Network Operations is working with
+our vendor to restore as soon as possible. At this time, there is no
+estimated time of repair.
+
+ 
+
+ 
+
+Chuck
+
+ 
+
+ 
+
+Charles L. Mills
+
+Senior Network Engineer
+
+Access Data Corporation / Pittsburgh, PA 15238
+
+(412) 968-4024 FAX: (412) 967-9504
+
+cmills at accessdc.com / http://www.accessdc.com
+
+Hosting, Colocation, D-R and Managed Services
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070724/0ae32e55/attachment.htm 
+
+
+From rusty  Wed Jul 25 05:08:55 2007
+From: rusty (Rusty Hodge)
+Date: Wed, 25 Jul 2007 02:08:55 -0700
+Subject: [Outages] Any more details on 365 Main outage?
+In-Reply-To: <46A6E3C5.2070209@technorati.com>
+References: <407645010707241456x68f4ec4ie3224082a9cd2a65@mail.gmail.com>	
+	<46A68310.4070000@rollernet.us>	
+	<A145E6EA-6FCC-41E3-AD72-2E8C292E100C@zill.net>
+	<407645010707241810h4afd6d19j32716996b36b4891@mail.gmail.com>
+	<46A6E3C5.2070209@technorati.com>
+Message-ID: <9FEC48E0-A481-4352-9B31-98EBFB7A6861@hodge.com>
+
+365 Main hasn't announced much about Tuesday's outage.
+
+I saw this on the comments on Laughingsquid.com
+> comment by techman
+> on Tuesday, July 24th, 2007 at 6:07 pm
+>
+> 365Main is fully to blame for the outage in there colo. I was in  
+> colo 1 in 365Main when the power went out. It went up and down  
+> twice before going off for about 20 minutes before they got the  
+> generators going. This is not what we and every other customer in a  
+> datacenter pays for. They are supposed to be able to handle the  
+> outage without even a blip on the customers side. Needless to say  
+> they failed today. What bothers me is that there pushing blame to  
+> PG&E and not themselves. Granted PG&E did their share, but it  
+> should of not caused an issue with customers in there colo.
+
+My rack in Colo 7 lost power for 2 minutes. I heard someone else say  
+that they didn't lose power at all in Colo 7.
+
+Colo 4 supposedly lost power.
+
+Colo 1 lost power for 20 minutes according to this message.
+
+Colo 2, 3, 5, 6, 8  - any reports?
+
+
+From lazlor  Wed Jul 25 10:47:33 2007
+From: lazlor (Allen K. Smith)
+Date: Wed, 25 Jul 2007 07:47:33 -0700
+Subject: [Outages] Any more details on 365 Main outage?
+In-Reply-To: <9FEC48E0-A481-4352-9B31-98EBFB7A6861@hodge.com>
+References: <407645010707241456x68f4ec4ie3224082a9cd2a65@mail.gmail.com>		<46A68310.4070000@rollernet.us>		<A145E6EA-6FCC-41E3-AD72-2E8C292E100C@zill.net>	<407645010707241810h4afd6d19j32716996b36b4891@mail.gmail.com>	<46A6E3C5.2070209@technorati.com>
+	<9FEC48E0-A481-4352-9B31-98EBFB7A6861@hodge.com>
+Message-ID: <46A76285.20309@bigboy.lotaris.org>
+
+We lost power in colo 3 for 20 minutes or so, but not in colo 4.
+
+Rusty Hodge wrote:
+> 365 Main hasn't announced much about Tuesday's outage.
+>
+> I saw this on the comments on Laughingsquid.com
+>   
+>> comment by techman
+>> on Tuesday, July 24th, 2007 at 6:07 pm
+>>
+>> 365Main is fully to blame for the outage in there colo. I was in  
+>> colo 1 in 365Main when the power went out. It went up and down  
+>> twice before going off for about 20 minutes before they got the  
+>> generators going. This is not what we and every other customer in a  
+>> datacenter pays for. They are supposed to be able to handle the  
+>> outage without even a blip on the customers side. Needless to say  
+>> they failed today. What bothers me is that there pushing blame to  
+>> PG&E and not themselves. Granted PG&E did their share, but it  
+>> should of not caused an issue with customers in there colo.
+>>     
+>
+> My rack in Colo 7 lost power for 2 minutes. I heard someone else say  
+> that they didn't lose power at all in Colo 7.
+>
+> Colo 4 supposedly lost power.
+>
+> Colo 1 lost power for 20 minutes according to this message.
+>
+> Colo 2, 3, 5, 6, 8  - any reports?
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>   
+
+
+
+From lazlor  Wed Jul 25 12:00:57 2007
+From: lazlor (Allen K. Smith)
+Date: Wed, 25 Jul 2007 09:00:57 -0700
+Subject: [Outages] Any more details on 365 Main outage?
+In-Reply-To: <46A76285.20309@bigboy.lotaris.org>
+References: <407645010707241456x68f4ec4ie3224082a9cd2a65@mail.gmail.com>		<46A68310.4070000@rollernet.us>		<A145E6EA-6FCC-41E3-AD72-2E8C292E100C@zill.net>	<407645010707241810h4afd6d19j32716996b36b4891@mail.gmail.com>	<46A6E3C5.2070209@technorati.com>	<9FEC48E0-A481-4352-9B31-98EBFB7A6861@hodge.com>
+	<46A76285.20309@bigboy.lotaris.org>
+Message-ID: <46A773B9.3010904@bigboy.lotaris.org>
+
+Hmm, make that not in colo 6. 365 Main says:
+
+As a result of the incident, continuous power was interrupted for up to 45
+mins for certain customers.  We're certain colo rooms 1, 3 and 4 were
+directly affected, though other colocation rooms are still being
+investigated.  We are currently working with Hitec, Valley Power Systems,
+Cupertino Electric and PG&E to further investigate the incident and
+determine the root cause.
+
+Cheers,
+-Allen
+
+Allen K. Smith wrote:
+> We lost power in colo 3 for 20 minutes or so, but not in colo 4.
+>
+> Rusty Hodge wrote:
+>   
+>> 365 Main hasn't announced much about Tuesday's outage.
+>>
+>> I saw this on the comments on Laughingsquid.com
+>>   
+>>     
+>>> comment by techman
+>>> on Tuesday, July 24th, 2007 at 6:07 pm
+>>>
+>>> 365Main is fully to blame for the outage in there colo. I was in  
+>>> colo 1 in 365Main when the power went out. It went up and down  
+>>> twice before going off for about 20 minutes before they got the  
+>>> generators going. This is not what we and every other customer in a  
+>>> datacenter pays for. They are supposed to be able to handle the  
+>>> outage without even a blip on the customers side. Needless to say  
+>>> they failed today. What bothers me is that there pushing blame to  
+>>> PG&E and not themselves. Granted PG&E did their share, but it  
+>>> should of not caused an issue with customers in there colo.
+>>>     
+>>>       
+>> My rack in Colo 7 lost power for 2 minutes. I heard someone else say  
+>> that they didn't lose power at all in Colo 7.
+>>
+>> Colo 4 supposedly lost power.
+>>
+>> Colo 1 lost power for 20 minutes according to this message.
+>>
+>> Colo 2, 3, 5, 6, 8  - any reports?
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at isotf.org
+>> http://isotf.org/mailman/listinfo/outages
+>>   
+>>     
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>   
+
+
+
+From ramans  Wed Jul 25 13:16:15 2007
+From: ramans (Raman Sud)
+Date: Wed, 25 Jul 2007 10:16:15 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#155178 -
+	Cancellation
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E7C@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, July 25, 2007 10:15 AM
+To: Networking; helpdesk at bandcon.com; steve.cordova at level3.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#155178 -
+Cancellation
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***REVISED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#155178 - Cancellation	
+This Maintenance has been CANCELLED. 	
+________________________________
+
+Clarify Case#: 2043797	
+GCR #:  CHG000000155178	
+Primary Dates: 26 Jul 2007 00:00:00 - 26 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  26 Jul 2007 04:00:00 - 26 Jul 2007 10:00:00	
+Location of Maintenance: Washington DC,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. No
+impacted is expected to Dark fiber, Transport protected and unprotected
+services. This gcr replaces GCR 153423 that was sent as "Completed" in
+error due to system problems. Related GCR is 153402.	
+Transport - Protected	 None	 PSAH	 N/A	 Level 3 Communications
+will perform splicing work to bypass Nokes Blvd, Sterling VA. No
+impacted is expected to Dark fiber, Transport protected and unprotected
+services. This gcr replaces GCR 153423 that was sent as "Completed" in
+error due to system problems. Related GCR is 153402.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070725/7916ac6b/attachment.htm 
+
+
+From ramans  Wed Jul 25 15:23:06 2007
+From: ramans (Raman Sud)
+Date: Wed, 25 Jul 2007 12:23:06 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#149806 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05E91@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, July 25, 2007 12:22 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#149806 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#149806 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1991475	
+GCR #:  CHG000000149806	
+Primary Dates: 27 Jul 2007 03:00:00 - 27 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  27 Jul 2007 07:00:00 - 27 Jul 2007 10:00:00	
+Location of Maintenance: Cleveland OH, Miami FL, Philadelphia PA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will perform a router upgrade. IP non-redundant services will be
+impacted by an outage up to 30 minutes. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDF6686	 car3.mia1	 GigabitEthernet6/23	 4.71.208.9
+SA	
+BBDF6686	 car3.mia1	 GigabitEthernet6/23	 4.71.208.9
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070725/fd2edd02/attachment-0001.htm 
+
+
+From jlk  Tue Jul 24 17:17:33 2007
+From: jlk (John Kinsella)
+Date: Tue, 24 Jul 2007 14:17:33 -0700
+Subject: [Outages] power issues in San Francisco
+Message-ID: <20070724211731.GD3207@jkdt.thrashyour.com>
+
+I know of 3 sites in downtown San Francisco without power - apparently
+(this is secondhand) 365 Main just lost power.  Can anybody fill
+in the blanks? I'm not in SF today, but I see nothing on sfgate...
+
+John
+
+
+From cmills  Fri Jul 27 10:43:39 2007
+From: cmills (Mills, Charles)
+Date: Fri, 27 Jul 2007 10:43:39 -0400
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+Message-ID: <58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+
+
+Just saw an ETR of 11:00AM EDT from http://status.cogentco.com
+
+Chuck
+
+-----Original Message-----
+From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of
+Scott Francis
+Sent: Friday, July 27, 2007 10:40 AM
+To: nanog at merit.edu
+Subject: Cogent outage details?
+
+
+am receiving word that Cogent has been the victim of "hardware
+problems on our backbone causing latency and packet loss to customers
+on the east coast". I did manage to get a master ticket number
+(608503), but I'm curious if anybody out there (perhaps an actual
+Cogent customer) has more details - backhoe? operator error?
+evaporating subatomic black hole?
+-- 
+darkuncle@{gmail.com,darkuncle.net} || 0x5537F527
+    encrypted email to the latter address please
+    http://darkuncle.net/pubkey.asc for public key
+
+This e-mail message and any files transmitted with it contain confidential information intended only for the person(s) to whom this email message is addressed. If you have received this e-mail message in error, please notify the sender immediately by telephone or e-mail and destroy the original message without making a copy.  Thank you.
+Neither this information block, the typed name of the sender, nor anything else in this message is intended to constitute an electronic signature unless a specific statement to the contrary is included in this message.
+
+
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email 
+______________________________________________________________________
+
+
+From yahoo  Fri Jul 27 11:24:58 2007
+From: yahoo (Jim Popovitch)
+Date: Fri, 27 Jul 2007 11:24:58 -0400
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <46AA0AE4.10502@davidcoulson.net>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+	<58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+	<46AA087B.7070407@r337.com>  <46AA0AE4.10502@davidcoulson.net>
+Message-ID: <1185549898.10645.6.camel@localhost>
+
+On Fri, 2007-07-27 at 11:10 -0400, David Coulson wrote:
+> It still says 11:00am
+> 
+> *looks at watch*
+
+could you possibly be looking at cached data?  I see no current problems
+listed at http://status.cogentco.com (last updated at 11:10 EDT)
+
+
+-Jim P.
+
+
+
+
+
+From yahoo  Fri Jul 27 11:24:58 2007
+From: yahoo (Jim Popovitch)
+Date: Fri, 27 Jul 2007 11:24:58 -0400
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <46AA0AE4.10502@davidcoulson.net>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+	<58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+	<46AA087B.7070407@r337.com>  <46AA0AE4.10502@davidcoulson.net>
+Message-ID: <1185549898.10645.6.camel@localhost>
+
+
+On Fri, 2007-07-27 at 11:10 -0400, David Coulson wrote:
+> It still says 11:00am
+> 
+> *looks at watch*
+
+could you possibly be looking at cached data?  I see no current problems
+listed at http://status.cogentco.com (last updated at 11:10 EDT)
+
+
+-Jim P.
+
+
+
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email 
+______________________________________________________________________
+
+
+From mliotta  Fri Jul 27 11:07:43 2007
+From: mliotta (Matt Liotta)
+Date: Fri, 27 Jul 2007 15:07:43 -0000
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+	<58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+Message-ID: <46AA087B.7070407@r337.com>
+
+They have been updating that ETR every 40 minutes. The first ETR was 
+supposed to be 9:30.
+
+-Matt
+
+Mills, Charles wrote:
+> Just saw an ETR of 11:00AM EDT from http://status.cogentco.com
+>
+> Chuck
+>
+> -----Original Message-----
+> From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of
+> Scott Francis
+> Sent: Friday, July 27, 2007 10:40 AM
+> To: nanog at merit.edu
+> Subject: Cogent outage details?
+>
+>
+> am receiving word that Cogent has been the victim of "hardware
+> problems on our backbone causing latency and packet loss to customers
+> on the east coast". I did manage to get a master ticket number
+> (608503), but I'm curious if anybody out there (perhaps an actual
+> Cogent customer) has more details - backhoe? operator error?
+> evaporating subatomic black hole?
+>   
+
+
+
+From david  Fri Jul 27 11:24:53 2007
+From: david (David Coulson)
+Date: Fri, 27 Jul 2007 15:24:53 -0000
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <46AA087B.7070407@r337.com>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+	<58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+	<46AA087B.7070407@r337.com>
+Message-ID: <46AA0AE4.10502@davidcoulson.net>
+
+It still says 11:00am
+
+*looks at watch*
+
+Matt Liotta wrote:
+>
+> They have been updating that ETR every 40 minutes. The first ETR was 
+> supposed to be 9:30.
+>
+> -Matt
+>
+> Mills, Charles wrote:
+>> Just saw an ETR of 11:00AM EDT from http://status.cogentco.com
+>>
+>> Chuck
+>>
+>> -----Original Message-----
+>> From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of
+>> Scott Francis
+>> Sent: Friday, July 27, 2007 10:40 AM
+>> To: nanog at merit.edu
+>> Subject: Cogent outage details?
+>>
+>>
+>> am receiving word that Cogent has been the victim of "hardware
+>> problems on our backbone causing latency and packet loss to customers
+>> on the east coast". I did manage to get a master ticket number
+>> (608503), but I'm curious if anybody out there (perhaps an actual
+>> Cogent customer) has more details - backhoe? operator error?
+>> evaporating subatomic black hole?
+>>   
+
+
+From tme  Fri Jul 27 15:07:29 2007
+From: tme (Marshall Eubanks)
+Date: Fri, 27 Jul 2007 19:07:29 -0000
+Subject: [Outages] Cogent outage details?
+In-Reply-To: <46AA0AE4.10502@davidcoulson.net>
+References: <171423de0707270739m79392bbfj2b090ecb69ce3807@mail.gmail.com>
+	<58E0B21FC367B24485855A1DBD96B0BB0953D102@adc-prd-exch1.internal.accessdc.com>
+	<46AA087B.7070407@r337.com> <46AA0AE4.10502@davidcoulson.net>
+Message-ID: <83F06D28-3618-45E2-9A4C-4E5EB2D89664@multicasttech.com>
+
+My Gig-E Cogent link (Tyco Rd, Vienna Virginia) seems to be fine now.  
+There was scheduled maintenance 3:00 AM - 7:00 AM, followed by a lot  
+of ~ 5 second drops of packet transit. Haven't had any issues since ~  
+9:00 AM EDT.
+
+Regards
+Marshall
+
+On Jul 27, 2007, at 11:10 AM, David Coulson wrote:
+
+>
+> It still says 11:00am
+>
+> *looks at watch*
+>
+> Matt Liotta wrote:
+>>
+>> They have been updating that ETR every 40 minutes. The first ETR  
+>> was supposed to be 9:30.
+>>
+>> -Matt
+>>
+>> Mills, Charles wrote:
+>>> Just saw an ETR of 11:00AM EDT from http://status.cogentco.com
+>>>
+>>> Chuck
+>>>
+>>> -----Original Message-----
+>>> From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On  
+>>> Behalf Of
+>>> Scott Francis
+>>> Sent: Friday, July 27, 2007 10:40 AM
+>>> To: nanog at merit.edu
+>>> Subject: Cogent outage details?
+>>>
+>>>
+>>> am receiving word that Cogent has been the victim of "hardware
+>>> problems on our backbone causing latency and packet loss to  
+>>> customers
+>>> on the east coast". I did manage to get a master ticket number
+>>> (608503), but I'm curious if anybody out there (perhaps an actual
+>>> Cogent customer) has more details - backhoe? operator error?
+>>> evaporating subatomic black hole?
+>>>
+
+
+

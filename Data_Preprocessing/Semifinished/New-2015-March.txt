@@ -1,0 +1,839 @@
+###############################################################
+Ethernet access in chicago north suburbs.
+###############################################################
+  Anyone else seeing problems with at&t Ethernet access in Chicago far north suburbs. We are seeing problems with multiple carrier connection across multiple Cos. There are delivered on at&t ehternet. Specifically, we see total loss of traffic for 26 seconds to over 1 minute. This is occurring at 30-60 minute intervals.
+ Brian
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/8b88a4e8/attachment.html>
+ We had a service outage yesterday that rides across an AT&T circuit on the
+ last mile. Our site is west of Chicago.
+ Nothing conclusive this morning from AT&T about the reason for the outage.
+ On Wed, Mar 4, 2015 at 1:51 PM, Dantzig, Brian via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150305/8e58b9f4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 not reaching AWS / Netflix in Southwest with IPv6
+###############################################################
+ Folks,
+ I posted a ticket with Level3 on this issue, wondering if others are seeing
+ the same thing
+ Using the Level3 looking glass in Chicago i can ping the
+ www.netflix.com at 2620:108:700f::36f5:7e0f
+ -- which is hosted on AWS
+ See image https://imgur.com/cROsraJ
+ But i cannot ping the same IPv6 address from the Level3 Phoenix looking
+ glass site, which lines up with the issues i see in the southwest on Level3
+ IPv6
+ https://i.imgur.com/0AhUqnO.png
+ Hopefully someone at Level3 can resolve this issue soon.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/bf9bc874/attachment.html>
+ This Level3 outtage seems to be very broad
+ Here their LG can reach Wikipedia in Denver
+ https://imgur.com/gL4TEJX
+ But they cannot reach wikipedia in Miami
+ https://imgur.com/1FKP1tn
+ In Miami, Level3 also cannot reach www.he.net
+ https://imgur.com/jSjDScb
+ but they can reach www.he.net in NYC
+ https://imgur.com/o6hgU8Z
+ On Wed, Mar 4, 2015 at 1:17 PM, Ca By <cb.list6 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/6734505e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+gtt.net issues in NYC?
+###############################################################
+ Pinging from Toronto Canada:
+ Host                                       Loss%  Last   Avg  Best  Wrst
+ StDev
+ 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+ 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+ 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+ 4. ae1-128.tor10.ip4.gtt.net                0.0%   0.3   3.2   0.2  63.5
+ 10.6
+ 5. xe-10-3-6.nyc41.ip4.gtt.net              0.0%  22.1  21.7  16.3  27.1
+ 2.2
+ 6. nobis-gw.ip4.gtt.net                     3.8%  29.8  25.4  18.1  35.9
+ 4.1
+ 7. 23.105.128.30.rdns.as15003.net           1.9%  23.6  23.1  18.2  47.3
+ 3.3
+ 8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+ 0.9
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/a2a1241e/attachment.html>
+  <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+ I see 0% loss:
+ Remember, if the last hop has 0% loss and normal latency, intermediate hops are irrelevant.
+ From the former CTO of GTT:
+ https://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+ -- 
+ TTFN,
+ patrick
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/c40809f3/attachment-0001.html>
+  <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+  <379C4EDC-51F8-4C81-95AA-0FE0BCB814E5@ianai.net>
+ It looks like it had resolved itself, but then just re-appeared:
+ 5. xe-10-3-6.nyc41.ip4.gtt.net              3.0%  29.6  25.1  15.2  49.9
+ 4.3
+ 6. nobis-gw.ip4.gtt.net                     2.3%  14.2  24.7  14.2  43.5
+ 7.0
+ 7. 23.105.128.30.rdns.as15003.net           3.0%  32.2  26.4  16.5  66.0
+ 4.5
+ 8. 173.234.233.242.rdns.ubiquityservers.co  0.7%  31.2  19.0  14.1  32.6
+ 6.5
+ Best Regards,
+ Ivan Kovacevic
+ *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *Patrick
+ W. Gilmore via Outages
+ *Sent:* Friday, March 06, 2015 3:48 PM
+ *To:* outages at outages.org
+ *Subject:* Re: [outages] gtt.net issues in NYC?
+ I see 0% loss:
+ 8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+ 0.9
+ Remember, if the last hop has 0% loss and normal latency, intermediate hops
+ are irrelevant.
+ >From the former CTO of GTT:
+ https://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+ -- 
+ TTFN,
+ patrick
+ On Mar 06, 2015, at 15:43 , Ivan Kovacevic via Outages <outages at outages.org>
+ wrote:
+ Sorry, for clarity ? the issue = 2-3% packet loss.
+ *From:* Ivan Kovacevic [mailto:ivan.kovacevic at startelecom.ca]
+ *Sent:* Friday, March 06, 2015 3:43 PM
+ *To:* 'outages at outages.org'
+ *Subject:* gtt.net issues in NYC?
+ Pinging from Toronto Canada:
+ Host                                       Loss%  Last   Avg  Best  Wrst
+ StDev
+ 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+ 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+ 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+ 4. ae1-128.tor10.ip4.gtt.net                0.0%   0.3   3.2   0.2  63.5
+ 10.6
+ 5. xe-10-3-6.nyc41.ip4.gtt.net              0.0%  22.1  21.7  16.3  27.1
+ 2.2
+ 6. nobis-gw.ip4.gtt.net                     3.8%  29.8  25.4  18.1  35.9
+ 4.1
+ 7. 23.105.128.30.rdns.as15003.net           1.9%  23.6  23.1  18.2  47.3
+ 3.3
+ 8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+ 0.9
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/7d9ff3bd/attachment.html>
+ I?m not sure where you see a problem?
+ Paul
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+ Sent: Friday, March 6, 2015 3:43 PM
+ Pinging from Toronto Canada: 
+ Host                                       Loss%  Last   Avg  Best  Wrst StDev
+ 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+ 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+ 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+ 4. ae1-128.tor10.ip4.gtt.net <http://ae1-128.tor10.ip4.gtt.net>                 0.0%   0.3   3.2   0.2  63.5  10.6
+ 5. xe-10-3-6.nyc41.ip4.gtt.net <http://xe-10-3-6.nyc41.ip4.gtt.net>               0.0%  22.1  21.7  16.3  27.1   2.2
+ 6. nobis-gw.ip4.gtt.net <http://nobis-gw.ip4.gtt.net>                      3.8%  29.8  25.4  18.1  35.9   4.1
+ 7. 23.105.128.30.rdns.as15003.net <http://23.105.128.30.rdns.as15003.net>            1.9%  23.6  23.1  18.2  47.3   3.3
+ 8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co>   0.0%  14.8  15.0  14.1  18.6   0.9
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom |  <http://www.startelecom.ca/> www.startelecom.ca | SIP Based Services for Contact Centers 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/915d0970/attachment-0001.html>
+ I?m not sure if it?s any solace, but we saw IPv6 access to www.ntt.com <http://www.ntt.com>  (both AAAA?s), www.juniper.net <http://www.juniper.net> , www.att.com <http://www.att.com> , and www.cisco.com <http://www.cisco.com>  interrupted from 3:25 pm to 3:30 pm (U.S. Central).  All five hosts share the same second-last hop: ae2-169.cr2.ord1.ip6.gtt.net (2001:668:0:3::8000:3582)
+ Here?s a sample tracereoute:
+ root at nagios:~/bin# tcptraceroute6 www.juniper.net
+ traceroute to www.juniper.net (2001:590:1808:18c::720) from 2607:fe28:0:1000::5, port 80, from port 45112, 30 hops max, 60 bytes packets
+ 1  router-core.mtcnet.net (2607:fe28:0:1000::1)  0.508 ms  0.289 ms  0.207 ms
+ 2  sxct.spnc.mtcnet.net (2607:fe28:11:1002::194)  0.195 ms  0.122 ms  0.135 ms
+ 3  v6-premier.movl-mlx.fbnt.netins.net (2001:5f8:7f0a:1::1)  4.937 ms  4.889 ms  14.795 ms
+ 4  v6-ins-kb1-te-12-2-3031.kmrr.netins.net (2001:5f8:2:2::1)  9.766 ms  8.728 ms  8.720 ms
+ 5  v6-ins-kc1-et-9-3.kmrr.netins.net (2001:5f8::28:1)  8.930 ms  8.802 ms  8.911 ms
+ 6  2001:438:fffe::e99 (2001:438:fffe::e99)  19.498 ms  19.340 ms  19.339 ms
+ 7  ae5.cr1.ord2.us.zip.zayo.com (2001:438:ffff::407d:1e59)  28.562 ms  27.252 ms  30.071 ms
+ 8  ae0.cr2.ord2.us.zip.zayo.com (2001:438:ffff::407d:14f6)  27.709 ms  27.740 ms  27.693 ms
+ 9  ae6.cr2.lga5.us.zip.zayo.com (2001:438:ffff::407d:181d)  47.344 ms  47.428 ms  47.429 ms
+ 10  xe-0-3-1.er2.lga5.us.zip.zayo.com (2001:438:ffff::407d:1551)  43.846 ms  43.850 ms  43.844 ms
+ 11  2001:438:ffff::407d:e06 (2001:438:ffff::407d:e06)  43.477 ms  44.502 ms  45.333 ms
+ 12  2001:668:0:2:ffff:0:5995:bbba (2001:668:0:2:ffff:0:5995:bbba)  37.141 ms  37.465 ms  37.761 ms
+ 13  ae2-169.cr2.ord1.ip6.gtt.net (2001:668:0:3::8000:3582)  37.230 ms  37.203 ms  37.307 ms
+ 14  2001:590:1808:18c::720 (2001:590:1808:18c::720)  37.306 ms [open]  37.352 ms  37.346 ms
+ root at nagios:~/bin#
+ Regards,
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+ Sent: Friday, March 06, 2015 2:43 PM
+ Pinging from Toronto Canada: 
+ Host                                       Loss%  Last   Avg  Best  Wrst StDev
+ 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+ 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+ 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+ 4. ae1-128.tor10.ip4.gtt.net <http://ae1-128.tor10.ip4.gtt.net>                 0.0%   0.3   3.2   0.2  63.5  10.6
+ 5. xe-10-3-6.nyc41.ip4.gtt.net <http://xe-10-3-6.nyc41.ip4.gtt.net>               0.0%  22.1  21.7  16.3  27.1   2.2
+ 6. nobis-gw.ip4.gtt.net <http://nobis-gw.ip4.gtt.net>                      3.8%  29.8  25.4  18.1  35.9   4.1
+ 7. 23.105.128.30.rdns.as15003.net <http://23.105.128.30.rdns.as15003.net>            1.9%  23.6  23.1  18.2  47.3   3.3
+ 8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co>   0.0%  14.8  15.0  14.1  18.6   0.9
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom |  <http://www.startelecom.ca/> www.startelecom.ca | SIP Based Services for Contact Centers 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/2e4928cb/attachment-0001.html>
+ The destination has 0(zero) loss, what you are pointing out is hops prior to the destination showing loss. Most likely what you are seeing is some sort of ICMP deprioritization, which is a standard practice for many isp.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+ Sent: Friday, March 6, 2015 3:43 PM
+ Pinging from Toronto Canada:
+ Host                                       Loss%  Last   Avg  Best  Wrst StDev
+ 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+ 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+ 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+ 4. ae1-128.tor10.ip4.gtt.net<http://ae1-128.tor10.ip4.gtt.net>                0.0%   0.3   3.2   0.2  63.5  10.6
+ 5. xe-10-3-6.nyc41.ip4.gtt.net<http://xe-10-3-6.nyc41.ip4.gtt.net>              0.0%  22.1  21.7  16.3  27.1   2.2
+ 6. nobis-gw.ip4.gtt.net<http://nobis-gw.ip4.gtt.net>                     3.8%  29.8  25.4  18.1  35.9   4.1
+ 7. 23.105.128.30.rdns.as15003.net<http://23.105.128.30.rdns.as15003.net>           1.9%  23.6  23.1  18.2  47.3   3.3
+ 8. 173.234.233.242.rdns.ubiquityservers.co<http://173.234.233.242.rdns.ubiquityservers.co>  0.0%  14.8  15.0  14.1  18.6   0.9
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom | www.startelecom.ca<http://www.startelecom.ca/> | SIP Based Services for Contact Centers
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/198e8fe2/attachment.html>
+ -------------- next part --------------
+ An embedded and charset-unspecified text was scrubbed...
+ Name: ATT00001.txt
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/198e8fe2/attachment.txt>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ dns cache flush request
+###############################################################
+ can you please flush cache for sbc.voip.cabletel.net
+ Feby Francis
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150308/af49a973/attachment.html>
+  <001601d059a0$d1e157b0$75a40710$@iname.com>
+ On Sun, Mar 08, 2015 at 08:07:23AM -0500,
+  Frank Bulk (iname.com) via Outages <outages at outages.org> wrote 
+  a message of 145 lines which said:
+ And send email from a proper address. And fix half of your name
+ servers.
+ % check-soa -i cabletel.net
+ dns1.cabletel.net.
+ 	76.73.195.117: ERROR: Timeout
+ dns2.cabletel.net.
+ 	76.73.195.118: OK: 60 (101 ms)
+###############################################################
+END
+###############################################################
+
+###############################################################
+dns cache flush request
+###############################################################
+ Please provide the bad output and good, expected output.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Feby Francis via Outages
+ Sent: Saturday, March 07, 2015 11:06 PM
+ can you please flush cache for sbc.voip.cabletel.net <http://sbc.voip.cabletel.net>  
+ Feby Francis
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150308/b18e6d2e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Northern NJ
+###############################################################
+ We've had a lot of customers that are having problems with Verizon
+ FiOS and other IP services within the past 40 minutes. Mainly
+ concentrated in the northern New Jersey area. Are there any other
+ reports of this?
+ -James
+ I'm a Verizon customer and from home between 5:16pm to about 5:41pm I had no connection to various services 
+ HE.net and various other places. I'm in Media, PA.  All good now.
+ ? 
+ Dan Langille
+ http://langille.org/
+ This just got posted (Email seems delayed but the web archive[1] seems
+ fine): https://puck.nether.net/pipermail/outages/2015-March/007661.html
+ A colleague of mine on Verizon FiOS in NY reported to me the exact same
+ problems as being reported here.  In other words: it wasn't just you.
+ [1]: https://puck.nether.net/pipermail/outages/2015-March/thread.html
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Tue, Mar 10, 2015 at 05:48:26PM -0400, James Cornman via Outages wrote:
+ On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+ we have customer who can't reach us for there yeah.
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 243 bytes
+ Desc: OpenPGP digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150310/a6e1ef9d/attachment.sig>
+ Looks like there?s no intermediate between OOL and VZ either:
+  1  10.240.176.233 (10.240.176.233)  8.719 ms  7.099 ms  7.766 ms
+  2  67.59.225.220 (67.59.225.220)  8.379 ms  10.610 ms  7.925 ms
+  3  rtr2-ge1-10.mhe.prnynj.cv.net (67.83.242.5)  9.210 ms
+     ool-4353f20d.dyn.optonline.net (67.83.242.13)  9.598 ms  9.476 ms
+  4  64.15.7.49 (64.15.7.49)  9.244 ms
+     65.19.119.193 (65.19.119.193)  9.222 ms
+     64.15.7.41 (64.15.7.41)  8.662 ms
+  5  451be0d2.cst.lightpath.net (65.19.120.210)  11.150 ms
+     64.15.0.52 (64.15.0.52)  11.240 ms
+     451be0d2.cst.lightpath.net (65.19.120.210)  11.470 ms
+  6  0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  9.715 ms
+     0.TenGigE0-0-0-6.GW8.EWR6.ALTER.NET (152.179.61.85)  16.414 ms
+     0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  10.204 ms
+  7  * B400.PHLAPA-LCR-21.verizon-gni.net (130.81.163.133)  21.193 ms
+     P0-4-0-0.PHLAPA-LCR-22.verizon-gni.net (130.81.22.61)  19.623 ms
+  8  * * *
+  9  static-xxxx 25.310 ms  20.195 ms  24.948 ms
+ VZ has been having some interesting issues the past few months.  Maybe the last of the UUNet people finally left. :)
+ Charles
+ On Mar 10, 2015, at 7:16 PM, joel jaeggli via Outages <outages at outages.org> wrote:
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 495 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150310/0c3b93e8/attachment.sig>
+  <D6D46EA5-6D92-470D-A188-5A4C1DFCC90D@bway.net>
+ Has this cleared up for folks?  I have one customer who reported issues reaching Verizon Toronto via Level 3 around the time when it was first reported here (just after 5pm EDT).  I?m waiting for confirmation that the issue has cleared for them; I don?t see it myself from the same ASN as the customer who reported the problem, but I figured I?d ask anyway.
+ >>> OS and other IP services within the past 40 minutes. Mainly
+ >>> concentrated in the northern New Jersey area. Are there any other
+ >>> reports of this?
+ >>> -James
+###############################################################
+END
+###############################################################
+
+###############################################################
+Issues reaching Verion NJ/NY
+###############################################################
+ At about 5:06pm we completely lost connectivity to Verizon via Telia. We since routed Verizon through NTT and we are now seeing 70ms+ latency in Verizons network. One of our end users is reporting problems reaching twitter and other sites from their NJ FIOS. Anyone else seeing problems?
+ 4. ae-30.r06.nycmny01.us.bb.gin.ntt.net                                                                                                                                                           0.0%    15    3.0   2.4   1.9   3.0   0.3
+  5. 0.xe-7-1-0.BR3.NYC4.ALTER.NET                                                                                                                                                                  0.0%    15    1.6   2.9   1.4  12.1   3.2
+     xe-0.verizonbusiness.nycmny01.us.bb.gin.ntt.net
+     0.xe-11-3-0.BR3.NYC4.ALTER.NET
+     0.xe-11-3-0.BR3.NYC4.ALTER.NET
+  6. Bundle-Ether1100.NWRKNJ-LCR-22.verizon-gni.NET                                                                                                                                                 0.0%    15   78.5  81.1  78.2  84.5   2.1
+     Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+     Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+  7. ???
+  8. pool-173-70-118-168.nwrknj.fios.verizon.net                                                                                                                                                    0.0%    14   89.9  87.4  82.3  90.8   2.5
+ Daniel Spataro
+ Net Access Corporation
+ (v) 973-590-5144
+ (e) dspataro at corp.nac.net
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 82, Issue 6
+###############################################################
+ I work for a company that services VOIP phones in the Philly/South Jersey
+ area. We saw a various ammount of Verizon FioS/IDE connections lose the
+ ability to route to vendors on various places on the internet around this
+ time. We failed the ones we could over to a back up connection and
+ corrected issues. Suspected higher end routing change/issue.
+ On Wed, Mar 11, 2015 at 12:00 PM, <outages-request at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150311/9b7615b1/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Docs having issues
+###############################################################
+ Google Docs appears to be having issues.
+ http://www.isitdownrightnow.com/docs.google.com.html
+ -- 
+ Brian Christopher Raaen
+ Network Architect
+ Zcorum
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/d7a3dfa6/attachment.html>
+ Looks good in the PNW over Hurricane Elec.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Brian Christopher Raaen via Outages
+ Sent: Friday, March 13, 2015 7:58 AM
+ Google Docs appears to be having issues.
+ http://www.isitdownrightnow.com/docs.google.com.html
+ --
+ Brian Christopher Raaen
+ Network Architect
+ Zcorum
+ Attention: Information contained in this message and or attachments is intended only for the recipient(s) named above and may contain confidential and or privileged material that is protected under State or Federal law. If you are not the intended recipient, any disclosure, copying, distribution or action taken on it is prohibited. If you believe you have received this email in error, please contact the sender, delete this email and destroy all copies.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/a9b0f4c3/attachment.html>
+  <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+ Interesting, this is an AT&T connection in Metro Atlanta.  I am still
+ getting 502's
+ On Fri, Mar 13, 2015 at 11:00 AM, Tyler Applebaum <applebaumt at ochin.org>
+ wrote:
+ -- 
+ Brian Christopher Raaen
+ Network Architect
+ Zcorum
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/7105e128/attachment.html>
+  <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+ Not for me...I keep trying to access some of my google docs and I get 
+ the message below...I don't think it's an actually link connectivity 
+ problem, but an issue with google docs in general.
+ " You're offline.
+ This page isn't available offline. Connect to the Internet and refresh 
+ to view it online."
+ On 03/13/2015 11:00 AM, Tyler Applebaum via Outages wrote:
+ -- 
+ Bret Clark
+ Director of Global Network Architecture
+ Single Digits, Inc. <http://singledigits.com/>
+ Office: 603.580.1539 x7055
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/0dfde2fd/attachment.html>
+  <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+  <5502FC76.1060607@singledigits.com>
+ Confirmed per Google's App Dashboard:
+ http://www.google.com/appsstatus#hl=en&v=status
+ These issues tend to be sporadic and not necessarily affect everyone..
+ Signature
+ Robert Colon | Tier 3 Technical Support | EthoStream LLC | 
+ P: (877) 282-2519 x2114 | F: (414) 258-8307 | 
+ 20800 Swenson Dr. Suite 175 Milwaukee, WI 53226 | www.telkonet.com 
+ <http://www.telkonet.com/> | www.ethostream.com 
+ <http://www.ethostream.com/> | @Telkonet <https://twitter.com/telkonet>
+ On 3/13/2015 10:04 AM, Bret Clark via Outages wrote:
+ -- 
+ ------------------------------
+ <http://www.telkonet.com> <http://www.ethostream.com>
+ This e-mail and any files transmitted with it are private and confidential 
+ and are solely for the use of the addressee. It may contain material which 
+ is legally privileged. If you are not the addressee or the person 
+ responsible for delivering to the addressee, be advised that you have 
+ received this e-mail in error and that any use of it is strictly 
+ prohibited. If you have received this e-mail in error please contact us at 
+ (414) 223-0473.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/035ae8cd/attachment-0001.html>
+ Something listed here: 
+ https://www.google.com/appsstatus#hl=en <https://www.google.com/appsstatus#hl=en&v=issue&sid=6&iid=2cae931410c40766542f8253d9ef8275> &v=issue&sid=6&iid=2cae931410c40766542f8253d9ef8275
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Brian Christopher Raaen via Outages
+ Sent: Friday, March 13, 2015 9:58 AM
+ Google Docs appears to be having issues.
+ http://www.isitdownrightnow.com/docs.google.com.html
+ -- 
+ Brian Christopher Raaen
+ Network Architect
+ Zcorum
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/aae8f017/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream Total Outage - Nashville
+###############################################################
+ Windstream circuit dropped an hour ago. Alarm LED showing on the wall
+ panel. It was an old Nevox line back in the day.
+ Current hold times for support are 30min. Request for call forwarding to
+ working number still not implemented 20 minutes later.
+ -- 
+ John
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/943fbc2a/attachment.html>
+ ----- Original Message -----
+ To be clear, Windstream is totally out *for you*, not for Nashville?
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+ St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Little Rock to Memphis - Possible Fiber Cut
+###############################################################
+ We are seeing a wave down between 1950 Stemsons FWY, Dallas to 56 Marietta in Atlanta, GA. The waves goes thru Nashville.
+ XO is saying span failure between Little Rock, AR and Memphis, TN.
+ Assuming it's a fiber cut.
+ ________________________________
+ CONFIDENTIALITY NOTICE: This e-mail transmission, and any documents, files or previous e-mail messages attached to it may contain confidential information that is legally privileged. If you are not the intended recipient, or a person responsible for delivering it to the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of any of the information contained in or attached to this transmission is STRICTLY PROHIBITED. If you have received this transmission in error please notify the sender immediately by replying to this e-mail. You must destroy the original transmission and its attachments without reading or saving in any manner. Thank you.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150315/e3b175d9/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion]  dns cache flush request
+###############################################################
+ ----- Original Message -----
+ Which leads to an interesting question (that I wouldn't want to thread on
+ too long, but I can't set a Reply-To Discussions :-) --
+ How many eyeball networks are actually set up to execute that request 
+ without requiring manual Tier 3 intervention?  Any?
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+ St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion] dns cache flush request
+###############################################################
+  <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+ On Mon, Mar 16, 2015 at 10:02 AM, Jay Ashworth via Outages <
+ outages at outages.org> wrote:
+ While they aren't technically eyeball networks, applying a cache flush at
+ these two links will affect a double-digit percentage of eyeballs:
+   https://developers.google.com/speed/public-dns/cache
+   http://cachecheck.opendns.com/
+ Damian
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150316/2866d0ab/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent issue in Southern California?
+###############################################################
+ Seeing high latency (50+ ms) via cogent path? This has been intermittent, sorry I don't have mtr data to report but wanted to reach out to see if anyone else was experiencing the same?
+ /virendra  
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 82, Issue 12
+###############################################################
+ It is, I've been getting same results for the past couple of weeks. 
+ // Samer
+###############################################################
+END
+###############################################################
+
+###############################################################
+Problem between Level3 (TW Telecom) and ATT near Los Angeles?
+###############################################################
+ I've noticed an increase in latency and packet loss between two 
+ locations near the Los Angeles area.  One has a TW Telecom fiber based 
+ connection and the other an ATT DSL line.
+ The latency between two location used to be ~30ms and now is about 
+ ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the 
+ culprit for the packet loss issue.  If the traceroutes rDNS is accurate 
+ it seems TW Telecom use Level3 to reach ATT (as expected). However it 
+ seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I 
+ would assume Level3 and ATT would peered in Los Angeles.
+ Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas 
+ from ATT from the point of view of Level3's LA router.
+ MTRs:
+ http://pastebin.com/eg3AUhAn
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast Outage in Freedom East Region?
+###############################################################
+ Anyone know of an outage? I have 20+ customers with business cable within
+ somerset/mercer county (central NJ) down with no internet and traces to
+ their IP ranges from outside appear to die early in comcast's core in NYC
+ of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+ these nj customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment.html>
+ Yes, Seeing some high latency and packet loss to a few of our stores in the 
+ Somerset/Mercer county region.  Anyone else seeing this?
+ Ryan Abbott
+ Windows Server Administrator
+ Somerset Tire Service
+ 1-732-356-8500 x207
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via 
+ Outages
+ Sent: Tuesday, March 24, 2015 8:55 AM
+ Anyone know of an outage? I have 20+ customers with business cable within 
+ somerset/mercer county (central NJ) down with no internet and traces to their 
+ IP ranges from outside appear to die early in comcast's core in NYC of PHILA. 
+ >From one comcast circuit thats up in PA we cant even reach any of these nj 
+ customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6496 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment.p7s>
+  <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+ I see multiple customers coming up all simultaneously so I think issuemmau
+ be clearing we have about 50% back online
+ On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment.html>
+  <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+  <CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA@mail.gmail.com>
+ Just as an additional data point, in the Philadelphia Metro area I saw a 33 minute outage of Comcast Business Class,
+ earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+ Because of the precision of the start time, and duration, I assumed it might be some kind of maintenance activity.
+ Tony Patti
+ CIO
+ S. Walter Packaging Corp.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+ Sent: Tuesday, March 24, 2015 9:43 AM
+ Cc: outages at outages.org
+ I see multiple customers coming up all simultaneously so I think issuemmau be clearing we have about 50% back online
+ On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+ Yes, Seeing some high latency and packet loss to a few of our stores in the Somerset/Mercer county region.  Anyone else seeing this?
+ Ryan Abbott
+ Windows Server Administrator
+ Somerset Tire Service
+ 1-732-356-8500 x207 <tel:1-732-356-8500%20x207> 
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+ Sent: Tuesday, March 24, 2015 8:55 AM
+ Anyone know of an outage? I have 20+ customers with business cable within somerset/mercer county (central NJ) down with no internet and traces to their IP ranges from outside appear to die early in comcast's core in NYC of PHILA. From one comcast circuit thats up in PA we cant even reach any of these nj customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 82, Issue 14
+###############################################################
+ Is anyone experiencing a service outage in Atlanta today via Level 3?
+ On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+ -- 
+ All the best,
+ *Robert Castillo*
+ Cell:404-455-5558
+ Email: robcast52465 at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/51ebe634/attachment.html>
+ >From Level 3 awhile ago...?
+ *** CASCADED EXTERNAL NOTES 25-Mar-2015 23:15:29 GMT From CASE: 9045140 - Event
+ The IP NOC has reported that traffic transiting high speed links on a device in Cleveland, OH made an intermediate-hop routing change to use a low speed link instead, which created congestion and caused customers to become impacted. The low speed routing link was removed to correct the issue, and service restoral has been verified with affected customers. No further impact is anticipated, and the IP NOC is currently auditing the network to ensure that this condition does not exist elsewhere."
+ Sent from Yahoo Mail on Android
+ From:"Mike Bartz via Outages" <outages at outages.org>
+ Date:Wed, Mar 25, 2015 at 3:28 PM
+ Subject:Re: [outages] Outages Digest, Vol 82, Issue 14
+ Seeing traffic loss with Level 3 from one location in NYC.? I'm on hold trying to get through to their support to see what's up.? Unusually long hold time.
+ On Wed, Mar 25, 2015 at 3:24 PM, Starr, Steve via Outages <outages at outages.org> wrote:
+ We are seeing traffic loss with Level3 through Detroit.? To get around it we had to drop our peer who is directly connected to Level3.
+ :: Steve Starr
+ :: Daystarr Communications
+ ::?steve.starr at corp.daystarr.net
+ :: v - 989.720.6000
+ :: f - 989.720.6060
+ On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <outages at outages.org> wrote:
+ Is anyone experiencing a service outage in Atlanta today via Level 3?
+ On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+ Send Outages mailing list submissions to
+ ? ? ? ? outages at outages.org
+ To subscribe or unsubscribe via the World Wide Web, visit
+ ? ? ? ? https://puck.nether.net/mailman/listinfo/outages
+ or, via email, send a message with subject or body 'help' to
+ ? ? ? ? outages-request at outages.org
+ You can reach the person managing the list at
+ ? ? ? ? outages-owner at outages.org
+ When replying, please edit your Subject line so it is more specific
+ than "Re: Contents of Outages digest..."
+ Today's Topics:
+ ? ?1. Problem between Level3 (TW Telecom) and ATT near Los? ? ? Angeles? (ML)
+ ? ?2. Comcast Outage in Freedom East Region? (chris)
+ ? ?3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+ ? ?4. Re: Comcast Outage in Freedom East Region? (chris)
+ ? ?5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+ ----------------------------------------------------------------------
+ Message: 1
+ I've noticed an increase in latency and packet loss between two
+ locations near the Los Angeles area.? One has a TW Telecom fiber based
+ connection and the other an ATT DSL line.
+ The latency between two location used to be ~30ms and now is about
+ ~60ms.? Based on mtrs (See below) I'd say the ATT DSL line is the
+ culprit for the packet loss issue.? If the traceroutes rDNS is accurate
+ it seems TW Telecom use Level3 to reach ATT (as expected). However it
+ seems that Level3 goes to Dallas to reach ATT.? That seems strange.? I
+ would assume Level3 and ATT would peered in Los Angeles.
+ Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+ from ATT from the point of view of Level3's LA router.
+ MTRs:
+ http://pastebin.com/eg3AUhAn
+ ------------------------------
+ Message: 2
+ Anyone know of an outage? I have 20+ customers with business cable within
+ somerset/mercer county (central NJ) down with no internet and traces to
+ their IP ranges from outside appear to die early in comcast's core in NYC
+ of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+ these nj customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html>
+ ------------------------------
+ Message: 3
+ Yes, Seeing some high latency and packet loss to a few of our stores in the
+ Somerset/Mercer county region.? Anyone else seeing this?
+ Ryan Abbott
+ Windows Server Administrator
+ Somerset Tire Service
+ 1-732-356-8500 x207
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+ Outages
+ Sent: Tuesday, March 24, 2015 8:55 AM
+ Anyone know of an outage? I have 20+ customers with business cable within
+ somerset/mercer county (central NJ) down with no internet and traces to their
+ IP ranges from outside appear to die early in comcast's core in NYC of PHILA.
+ >From one comcast circuit thats up in PA we cant even reach any of these nj
+ customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6496 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s>
+ ------------------------------
+ Message: 4
+ I see multiple customers coming up all simultaneously so I think issuemmau
+ be clearing we have about 50% back online
+ On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html>
+ ------------------------------
+ Message: 5
+ Just as an additional data point, in the Philadelphia Metro area I saw a 33 minute outage of Comcast Business Class,
+ earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+ Because of the precision of the start time, and duration, I assumed it might be some kind of maintenance activity.
+ Tony Patti
+ CIO
+ S. Walter Packaging Corp.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+ Sent: Tuesday, March 24, 2015 9:43 AM
+ Cc: outages at outages.org
+ I see multiple customers coming up all simultaneously so I think issuemmau be clearing we have about 50% back online
+ On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+ Yes, Seeing some high latency and packet loss to a few of our stores in the Somerset/Mercer county region.? Anyone else seeing this?
+ Ryan Abbott
+ Windows Server Administrator
+ Somerset Tire Service
+ 1-732-356-8500 x207?<tel:1-732-356-8500%20x207>
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+ Sent: Tuesday, March 24, 2015 8:55 AM
+ Anyone know of an outage? I have 20+ customers with business cable within somerset/mercer county (central NJ) down with no internet and traces to their IP ranges from outside appear to die early in comcast's core in NYC of PHILA. From one comcast circuit thats up in PA we cant even reach any of these nj customers statics even within internal comcast <-> comcast routes.
+ chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html>
+ ------------------------------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ------------------------------
+ End of Outages Digest, Vol 82, Issue 14
+ ***************************************
+ -- 
+ All the best,
+ ?
+ Robert Castillo
+ Cell:404-455-5558
+ Email: robcast52465 at gmail.com
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -- 
+ Mike Bartz
+ mob at bartzfamily.net
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/5546770c/attachment-0001.html>
+###############################################################
+END
+###############################################################
+

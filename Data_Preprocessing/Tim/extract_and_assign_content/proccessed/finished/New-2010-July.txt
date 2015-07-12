@@ -1,0 +1,1784 @@
+###############################################################
+Qwest special circuit outage somewhere in the midwest
+###############################################################
+  There is apparently some kind of Qwest outage in the Midwest, with at least
+ some circuits in and out of Sioux City affected.
+ Frank
+ I forgot to add: we saw it happen around 9:19 am CT.
+ -----Original Message-----
+ From: Frank Bulk - iName.com [mailto:frnkblk at iname.com] 
+ Sent: Thursday, July 01, 2010 10:38 AM
+ Subject: Qwest special circuit outage somewhere in the midwest
+ There is apparently some kind of Qwest outage in the Midwest, with at least
+ some circuits in and out of Sioux City affected.
+ Frank
+ Western Michigan (Grand Rapids) DS3 - all is (and was) well.
+ -----Original Message-----
+ From: outages-bounces at outages.org On Behalf Of Frank Bulk - iName.com
+ Sent: Thursday, July 01, 2010 11:39 AM
+ I forgot to add: we saw it happen around 9:19 am CT.
+ -----Original Message-----
+ From: frnkblk at iname.com
+ Sent: Thursday, July 01, 2010 10:38 AM
+ There is apparently some kind of Qwest outage in the Midwest, with at least
+ some circuits in and out of Sioux City affected.
+ The alarms cleared around 11:03 am CT.  I never heard any more details about
+ the issue.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Frank Bulk - iName.com
+ Sent: Thursday, July 01, 2010 10:39 AM
+ Subject: Re: [outages] Qwest special circuit outage somewhere in the midwest
+ I forgot to add: we saw it happen around 9:19 am CT.
+ -----Original Message-----
+ From: Frank Bulk - iName.com [mailto:frnkblk at iname.com] 
+ Sent: Thursday, July 01, 2010 10:38 AM
+ Subject: Qwest special circuit outage somewhere in the midwest
+ There is apparently some kind of Qwest outage in the Midwest, with at least
+ some circuits in and out of Sioux City affected.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+No AT&T 3G-based internet metro Seattle WA?
+###############################################################
+ Attempts to ping from my iPhone by host name yields "Unable to find 
+ server" --  attempts to ping by IP address yields "No response from host"
+ Been this way for over an hour (7:00 am PDT - 8:30 am PDT).
+ Switch to WiFi and everything's back where it's supposed to be...
+ - John
+ -- 
+ John Sage
+ FinchHaven Digital Photography
+ Email: jsage at finchhaven.com
+    Web: http://www.finchhaven.com/
+ Seen this off and on in Michigan. Edge works in these cases.
+ Jared Mauch
+ On Jul 2, 2010, at 11:27 AM, John Sage <jsage at finchhaven.com> wrote:
+ 	<314D1B99-FE6B-4CA3-8951-AF10EF615326@newslink.com>
+ On 10-07-02 08:35 AM, Andy Ringsmuth wrote:
+ Yeah. Again this is all based upon my iPhone 3G S, iOS 4.0
+ When I switch over to WiFi (which is thus Comcast HSI) everything works 
+ normally: Ping, Nice Trace and Net Status, plus any user-space app
+ Just tried 3G again right now (9:20 am PDT) and ping by IP works 
+ although is slow (450ms), ping by host name works and is "faster" at 270ms.
+ Traceroute to google.com now works under 3G with the first hop being 
+ 172.26.236.2; a second try to an OpenDNS name server is showing 2-3% 
+ packet loss to first hop 172.26.236.2
+ Go back to WiFi and everything's quick as a bunny with no packet loss.
+ - John
+ -- 
+ John Sage
+ FinchHaven Digital Photography
+ Email: jsage at finchhaven.com
+    Web: http://www.finchhaven.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO
+###############################################################
+ Anyone experience an XO outage in the Metro DC area within the last 20 minutes? Appears to be resolving now.
+ Robert Dawson
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100708/3760a05a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ADMIN: Outages List FAQ/Monthly Post.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Please take 5 minutes to read it before you post [again].
+ General Information
+ ===================
+ About Outages & Mission statement:
+ http://wiki.outages.org/index.php/Main_Page
+ Credits:
+ Credit goes to the Debian / NANOG mailing list for FAQ, which served as
+ a model for the OUTAGES FAQ.
+ Outages lists and AUP:
+ ==========================================
+ Mailing List Charter
+ The OUTAGES mailing list is established to provide a forum for the
+ exchange of major outages discussion of Critical Internet
+ infrastructure, such as IXPs, DNS root servers, major carrier failures,
+ major data center, carrier hotel, COs, etc., that require cooperation
+ among network service providers, carriers and network operators around
+ the globe. In order to continue to provide a useful forum for discussion
+ of relevant outages issues, the list is governed by the following
+ guidelines:
+ Acceptable Use Policy (Code of Conduct)
+ 1. Discussion will focus on Internet / backbone related outages and
+ technical issues surrounding it as described in the charter of OUTAGES.
+ 2. Postings of issues inconsistent with the charter are prohibited.
+ 3. Cross posting is prohibited.
+ 4. Do not quote messages that were sent to you by other people in
+ private mail, unless agreed beforehand.
+ 5. Postings that include foul language, character assassination, and
+ lack of respect for other participants are prohibited.
+ 6. Product marketing is prohibited.
+ 7. Postings of political, philosophical, religious and legal nature are
+ prohibited.
+ 8. Using list as source for private marketing initiatives is prohibited.
+ 9. Autoresponders sending "out of office" or "vacation" mail either to
+ the list or to the poster are prohibited.
+ 10. Try not to  flame; it is not polite.
+ 11. Never send your messages in HTML; use plain text instead.
+ 12. Do not send "test" messages to determine whether your mail client is
+ working.
+ Individuals who violate these guidelines will be contacted and asked to
+ adhere to the guidelines.
+ If groups of individuals persist in introducing topics that are outside
+ the charter of OUTAGES, the moderator committee will send a request to
+ the entire mailing list requesting adherence to the guidelines.
+ OUTAGES List FAQ:
+ ===================================================
+ FAQ contributions are welcome -- please send email to admins at outages.org
+ About OUTAGES and the List
+ The primary goal of outages mailing list is for outages-reporting that
+ would apply to failures of major communications infrastructure
+ components having significant traffic-carrying capacity.
+ See the main OUTAGES web page at:
+ http://www.outages.org
+ The OUTAGES Volunteer Committee is made up of network operator community
+ members. You can reach the committee at admins at outages.org
+ Is the list moderated?
+ No, the outages mailing list is not moderated.
+ I am not getting any mail anymore from the list! Is it down or what?
+ * If for any reason your email address is unavailable, after some
+ retries you will be automatically unsubscribed.
+ * You may get unsubscribed because MTAs relaying traffic to you get
+ bounces for some reason.
+ * There are no major outages to report :-)
+ Subscribe / Unsubscribe to OUTAGES Mailing List
+ For more information, see the subscription web page at:
+ http://wiki.outages.org/index.php/Main_Page#Mailing_Lists
+ Disclaimer for the OUTAGES mailing lists
+ http://wiki.outages.org/index.php/Wiki:General_disclaimer
+ To contact the list's admins: admins at outages.org
+ Posting Policy
+ ==============
+ * The basic rule is to avoid asking questions that have been asked
+ before, or that are irrelevant to other list users, or that are off
+ topic. Please use your good sense.
+ * Network operational related topics / issues are not appropriate for
+ this forum.
+ * Please read the FAQ and AUP (code of conduct) policy before posting
+ for more details.
+ The following are specifically discouraged:
+ * Is a certain site down?
+ Please do your technical diligence before posting, use
+ http://downforeveryoneorjustme.com/ or check
+ http://wiki.outages.org/index.php/Dashboard for public dashboard prior
+ to querying the list.
+ Please also avoid
+ =============
+ * Sending posts to the list relevant to only one or two people on this
+ list,  such as tests or traceroute(s) in response to another post for
+ comparison to those originally posted.
+ * Jokes, Puns, amusing observations, spelling corrections.
+ * Network operations, and other non-outages related issues should be
+ discussed in the appropriate forums elsewhere.
+ Other OUTAGES related lists
+ ====================
+ * outages-discussion - Post outages related discussion, including
+ troubleshooting, analysis, post-mortem pertaining to ongoing and /or
+ post outages.
+ https://puck.nether.net/mailman/listinfo/outages-discussion
+ * outages-announce - Change management, future updates regarding the list.
+ https://puck.nether.net/mailman/listinfo/outages-announce
+ Please send your feedback, comments and /or recommendations on how we can
+ improve outages services further at admin at outages.org
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cablevision outage reported by BBR; 24hr+
+###############################################################
+ http://www.dslreports.com/shownews/Cablevision-Users-Having-Major-Connectivity-Issues-109404
+ Spotted by @CZ, Verizon policy-blogger/tweeter.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+phonepower outage
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Phonepower (voip provider) experienced network wide outage this am and
+ it appears the network is starting to come back up for certain
+ customers. It appears their support numbers were also unreachable :-)
+ Still waiting for a postmortem on this outage.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+WIKI.OUTAGES.ORG [CHANGE MANAGEMENT NOTIFICATION -
+###############################################################
+  07/16/10 16:00 PST]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ WIKI.OUTAGES.ORG Change Management Notification
+ Start Date / Time:       07/16/10 16:00 PST (23:00 GMT)
+ End Date / Time:         01/16/10 17:00 PST (00:00 GMT)
+ Est. Downtime:           wiki.outages.org will be down 30-45 minutes
+ during the above window.
+ Reason For Maintenance:
+ To address possible security hole with the current version of mediawiki,
+ being upgraded to the latest release.
+ WHY - wiki.outages.org was botched given it was page/password protected.
+###############################################################
+END
+###############################################################
+
+###############################################################
+VZN outages?
+###############################################################
+ Anyone having trouble with Verizon this morning?  We're seeing a few scattered completion issues.
+ Thanks,
+ David Hiers
+ CCIE (R/S, V), CISSP
+ ADP Dealer Services
+ 2525 SW 1st Ave.
+ Suite 300W
+ Portland, OR 97201
+ o: 503-205-4467
+ f: 503-402-3277
+ This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100719/23fd70d4/attachment.html>
+ On Mon, July 19, 2010 9:52 am, Hiers, David wrote:
+ We have reports one of their lines in the DC area got hit by a tree (and
+ then a train...).  Apparently there's backup routing in place, but we are
+ noticing slowness and completion issues as well.
+ Daniel T. Staal
+ ---------------------------------------------------------------
+ This email copyright the author.  Unless otherwise noted, you
+ are expressly allowed to retransmit, quote, or otherwise use
+ the contents for non-commercial purposes.  This copyright will
+ expire 5 years after the author's death, or in 30 years,
+ whichever is longer, unless such a period is in excess of
+ local copyright law.
+ ---------------------------------------------------------------
+###############################################################
+END
+###############################################################
+
+###############################################################
+phonepower outage this am.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Phonepower suffered another network wide outage this am with no ETR.
+ Phone service has been down for over 4 hours.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 fiber cut in GA
+###############################################################
+ >From a vendor...
+ -- Christopher Hunt
+ ReachONE Internet, Inc
+ 888-820-7559
+ Currently there is a  L3 fiber cut in the Georgia area. The cut was caused by the local power company doing construction work. There is no ETR at this time. We will update as progress is made.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100719/002d6d0b/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+mydomain.com blinked
+###############################################################
+ All
+ Any one see mydomain.com go off line for about an hour taking all their
+ registrants with them? As of now they seem to be back at least serving out
+ domains, but the control panel isn't working.
+ Seen from the UK and Australia.
+ -- 
+ Martin Hepworth
+ Oxford, UK
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100720/a3b4e593/attachment.html>
+ http://www.downforeveryoneorjustme.com/mydomain.com
+ Down for everyone, mate!  Including the West Coast of USA, where we are
+ located.
+ Regards,
+ Kirk Coviello
+ VP, Support Services
+ Digital West Networks, Inc
+ www.digitalwest.net 
+   _____  
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Martin Hepworth
+ Sent: Tuesday, July 20, 2010 8:19 AM
+ Subject: [outages] mydomain.com blinked
+ All
+ Any one see mydomain.com go off line for about an hour taking all their
+ registrants with them? As of now they seem to be back at least serving out
+ domains, but the control panel isn't working.
+ Seen from the UK and Australia.
+ -- 
+ Martin Hepworth
+ Oxford, UK
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100720/561a77c5/attachment.html>
+ 	<59C5355149C94C069A02EB70B830EDE0@digital5wz09ap>
+ On 7/20/10 9:29 AM, Kirk Coviello wrote:
+ I see two different AS numbers across several announcements, yet all
+ appear to be offline, or are at least unresponsive to me:
+ ns1.mydomain.com has address 64.94.117.222
+ ns1.mydomain.com has address 64.94.117.193
+ 64.94.112.0/20 AS14744
+ ns2.mydomain.com has address 64.94.31.67
+ 64.94.16.0/20 AS10913
+ ns3.mydomain.com has address 66.150.161.137
+ 66.150.160.0/20 AS14744
+ ns4.mydomain.com has address 63.251.83.74
+ 63.251.80.0/20 AS10913
+ ~Seth
+###############################################################
+END
+###############################################################
+
+###############################################################
+Chemong Road - Outage Again
+###############################################################
+ FYI?
+ Paul
+ From: Chris Bridge [mailto:cbridge at kawarthacu.com] 
+ Sent: Monday, July 19, 2010 9:10 AM
+ Subject: RE: Chemong Road - Outage Again
+ Everything back up at Chemong 
+ Chris Bridge 
+ Data Support Technician
+ Kawartha Credit Union
+ (705) 743 9966 ext 299
+ From: Eon Dalzell 
+ Sent: Monday, July 19, 2010 8:27 AM
+ Cc: Chris Bridge
+ Subject: Re: Chemong Road - Outage Again
+ Paul,
+ No, it's ok. I'll be checking my messages throughout my vacation.
+ I'll CC Chris as well as he's on the office.
+ Thanks
+ Eon
+ Sent from my iPhone
+ On Jul 19, 2010, at 7:10 AM, "Paul Stewart" <pstewart at nexicomgroup.net> wrote:
+ 	Hi Eon...
+ 	Should I be emailing someone else with you on holidays?  Sorry to keep bugging you...
+ 	Chemong Road dropped again this morning at 2AM ? still down.
+ 	This would be storm related/power related again I?m sure....
+ 	Thanks,
+ 	Paul
+ 	Paul Stewart
+ 	Senior Network Administrator
+ 	Nexicom
+ 	5 King St. E., Millbrook, ON, LOA 1GO
+ 	Phone: 705-932-4127
+ 	Web: http://www.nexicom.net
+ 	Nexicom - Connected. Naturally.
+ --------------------
+ This e-mail message (including attachments, if any) is intended for the use of the individual or entity to whom it is addressed and may contain information which is privileged, proprietary, and/or confidential. If you are not the intended recipient, dissemination, disclosure or copying of this communication is strictly prohibited. Instead, please notify the sender of their mistake, and delete this e-mail from your system immediately.
+ Kawartha Credit Union will never ask you for personal information, including passwords in an e-mail. If you ever receive an e-mail purporting to be from Kawartha Credit Union and asking for personal information, please report it immediately to 1-888-743-9966.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100719/a2341111/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bell Canada Threat Notification - CM126052 -July 21 -
+###############################################################
+ 	22, 2010
+ FYI...
+ Paul
+ From: Gail.Murdock at bell.ca [mailto:Gail.Murdock at bell.ca] On Behalf Of
+ service_CMC at bell.ca
+ Sent: Tuesday, July 20, 2010 9:59 AM
+ Subject: Bell Canada Threat Notification - CM126052 -July 21 - 22, 2010
+ Importance: High
+ Please be advised that the following maintenance activity will occur: 
+ Activity: SWITCH AND DATA SCHEDULED PRECAUTIONARY NOTICE  - OUR
+ PREVENTATIVE MAINTENANCE ACTIVITY ON THE POWER DISTRIBUTION UNIT HELPS
+ US ENSURE THE INTEGRITY OF OUR SITE TIME 23:00 TO 07:00 ET
+ Date of activity: July 21 - 22, 2010
+ Circuits impacted:
+ None
+ Location(s):   151 Front St, Toronto 
+ Start Time:   07/21/2010 23:00:00 ET
+ End Time:    07/22/2010 07:00:00 ET
+ Outage: None expected
+ Change Control: CM126052
+ No response is required. If you have any questions, please contact the
+ CMC at 1-705-431-2620 prior to the activity and the NOC at
+ 1-877-993-4237 during or after the activity.
+ Thanks Gail
+ Change Management Centre
+ Toronto, Ontario
+ (705) 431-2620 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100720/b3ba40a0/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+hosting7
+###############################################################
+ Hi there..
+ Working on hosting7 - should have update shortly ....  Currently
+ down....
+ Paul
+ Paul Stewart
+ Senior Network Administrator
+ Nexicom
+ 5 King St. E., Millbrook, ON, LOA 1GO
+ Phone: 705-932-4127
+ Web: http://www.nexicom.net
+ Nexicom - Connected. Naturally.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100720/c89a7ed6/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+OOPS - Sorry Folks
+###############################################################
+ It was just brought to my attention that I've been sending some messages
+ to outages at outages.org by mistake - my apologies folks.  We have an
+ internal outages at lists.nexicom.net where we distribute information
+ specific to our infrastructure and service related outages.  
+ Somehow in my outlook I was populating outages at outages.org instead of
+ the correct one - human error on my part.
+ Very sorry folks - thanks to a co-worker for bringing this to my
+ attention...
+ Paul
+ Paul Stewart
+ Senior Network Administrator
+ Nexicom
+ 5 King St. E., Millbrook, ON, LOA 1GO
+ Phone: 705-932-4127
+ Web: http://www.nexicom.net
+ Nexicom - Connected. Naturally.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100721/b87cfcf5/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+is anything going on within the AT&T/SBC network today?
+###############################################################
+ seeing better than 90% (approaching 100%) packet loss to a host within the
+ AT&T network today.  Seems to be the result of either a severed link or some
+ really munged up routing between AT&T and Verizon - from my traceroute, the
+ issue appears about 8 hops into the AT&T network.  Any insight into this is
+ greatly appreciated.
+ -- 
+ To him who is able to keep you from falling and to present you before his
+ glorious presence without fault and with great joy
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100722/5ca6295d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion] NYC T1's]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: [Outages-discussion] NYC T1's
+ Date: Mon, 26 Jul 2010 12:03:05 -0400
+ From: Jason Berenson <jason at pins.net>
+ Greetings,
+ Has anyone noticed any issues with VZ/VZB and ATT in the NYC area?  I've
+ got a bunch of DS1's that are down, and a few customers with DS3's that
+ are out as well.
+ - -Jason
+ _______________________________________________
+ Outages-discussion mailing list
+ Outages-discussion at outages.org
+ https://puck.nether.net/mailman/listinfo/outages-discussion
+ Yes, we've had a few T1s down all weekend. They are MCI/MFS local loops in  
+ Manhattan, riding an AT&T DS3 up to Connecticut. I know that the issue has  
+ been escalated within Verizon, but I haven't heard an ETR.
+ For what it's worth, we do also have circuits between MCI/MFS in New York  
+ city and AT&T in Connecticut which appear to be unaffected.
+ On Jul 26, 2010 9:08am, virendra rode <virendra.rode at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100726/6bd07793/attachment.html>
+ Same here.  I just got word that ATT reported a Level 5 outage, but no 
+ more details then that.
+ -Jason
+ On 7/26/2010 12:52 PM, amelton at gmail.com wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100726/24558a44/attachment.html>
+ 	<4C4DC0A3.7090605@pins.net>
+ I'm guessing that this DACS outage is the root of the problem:
+ http://online.wsj.com/article/SB10001424052748703700904575391260257717920.html
+ -J
+ On Mon, Jul 26, 2010 at 1:06 PM, Jason Berenson <jason at pins.net> wrote:
+ >> -----BEGIN PGP SIGNED MESSAGE-----
+ >>
+ >> Hash: SHA1
+ >>
+ >>
+ >>
+ >> - -------- Original Message --------
+ >>
+ >> Subject: [Outages-discussion] NYC T1's
+ >>
+ >> Date: Mon, 26 Jul 2010 12:03:05 -0400
+ >>
+ >> From: Jason Berenson jason at pins.net>
+ >>
+ >> To: outages-discussion at outages.org
+ >>
+ >>
+ >>
+ >> Greetings,
+ >>
+ >>
+ >>
+ >> Has anyone noticed any issues with VZ/VZB and ATT in the NYC area? ?I've
+ >>
+ >> got a bunch of DS1's that are down, and a few customers with DS3's that
+ >>
+ >> are out as well.
+ >>
+ >>
+ >>
+ >> - -Jason
+ >>
+ >> _______________________________________________
+ >>
+ >> Outages-discussion mailing list
+ >>
+ >> Outages-discussion at outages.org
+ >>
+ >> https://puck.nether.net/mailman/listinfo/outages-discussion
+ >>
+ >> -----BEGIN PGP SIGNATURE-----
+ >>
+ >> Version: GnuPG v1.4.6 (GNU/Linux)
+ >>
+ >> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+ >>
+ >>
+ >>
+ >> iD8DBQFMTbL+pbZvCIJx1bcRAlHGAKCM1cWhKLogL2AfyCQRyX538uovYgCfRTuv
+ >>
+ >> U5ZsRnUW463MyA/4Y1TUkk4=
+ >>
+ >> =VV/L
+ >>
+ >> -----END PGP SIGNATURE-----
+ >>
+ >> _______________________________________________
+ >>
+ >> Outages mailing list
+ >>
+ >> Outages at outages.org
+ >>
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ 	<4C4DC0A3.7090605@pins.net>
+ 	<AANLkTikGEObAHGM=8Xo4Oy3UFTwJct8DBjOj_+7b4dVT@mail.gmail.com>
+ Now I really want to know - a DACS shouldn't have anything that directly leaves the office (DS1s go through HDSL smartjacks, DS3s leave the building on fiber, and obviously anything fiber fed leaves the office on fiber.
+ The battery plant is filtered, and there's nothing crazier than telco grounding.
+ If it was a water leak, they wouldn't be working with the vendor to fix it, and they'd own up to that.
+ I'd be willing to bet this is like the rest of their ILEC network, wherein redundancy seems to just mean 'we don't have to address failures because there's a backup system'.
+ (I think it's pretty interesting that VZW knew better than to use VZ ILEC's network)
+ 	<AANLkTikGEObAHGM=8Xo4Oy3UFTwJct8DBjOj_+7b4dVT@mail.gmail.com>
+ More here:
+ http://www.totaltele.com/view.aspx?C=0&ID=457349
+ http://www.fiercetelecom.com/story/thunderstorms-cause-domino-outage-verizon
+ -t-mobility-manhattan/2010-07-26?utm_medium=nl&utm_source=internal
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jayson Navitsky
+ Sent: Monday, July 26, 2010 1:01 PM
+ Subject: Re: [outages] [Fwd: [Outages-discussion] NYC T1's]
+ I'm guessing that this DACS outage is the root of the problem:
+ http://online.wsj.com/article/SB10001424052748703700904575391260257717920.ht
+ ml
+ -J
+ On Mon, Jul 26, 2010 at 1:06 PM, Jason Berenson <jason at pins.net> wrote:
+ more
+ >> -----BEGIN PGP SIGNED MESSAGE-----
+ >>
+ >> Hash: SHA1
+ >>
+ >>
+ >>
+ >> - -------- Original Message --------
+ >>
+ >> Subject: [Outages-discussion] NYC T1's
+ >>
+ >> Date: Mon, 26 Jul 2010 12:03:05 -0400
+ >>
+ >> From: Jason Berenson jason at pins.net>
+ >>
+ >> To: outages-discussion at outages.org
+ >>
+ >>
+ >>
+ >> Greetings,
+ >>
+ >>
+ >>
+ >> Has anyone noticed any issues with VZ/VZB and ATT in the NYC area? ?I've
+ >>
+ >> got a bunch of DS1's that are down, and a few customers with DS3's that
+ >>
+ >> are out as well.
+ >>
+ >>
+ >>
+ >> - -Jason
+ >>
+ >> _______________________________________________
+ >>
+ >> Outages-discussion mailing list
+ >>
+ >> Outages-discussion at outages.org
+ >>
+ >> https://puck.nether.net/mailman/listinfo/outages-discussion
+ >>
+ >> -----BEGIN PGP SIGNATURE-----
+ >>
+ >> Version: GnuPG v1.4.6 (GNU/Linux)
+ >>
+ >> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+ >>
+ >>
+ >>
+ >> iD8DBQFMTbL+pbZvCIJx1bcRAlHGAKCM1cWhKLogL2AfyCQRyX538uovYgCfRTuv
+ >>
+ >> U5ZsRnUW463MyA/4Y1TUkk4=
+ >>
+ >> =VV/L
+ >>
+ >> -----END PGP SIGNATURE-----
+ >>
+ >> _______________________________________________
+ >>
+ >> Outages mailing list
+ >>
+ >> Outages at outages.org
+ >>
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<4C4DC0A3.7090605@pins.net>
+ 	<AANLkTikGEObAHGM=8Xo4Oy3UFTwJct8DBjOj_+7b4dVT@mail.gmail.com>
+ 	<DD9D6CFA501E424DB214385CBF643C031CE7D1A1@exchange1.corp.clearrate.net>
+ 	<AANLkTikTmNumTThvM8-6BNDy7+YsAAO5Dq+XCg+JFDR5@mail.gmail.com>
+ 	<AANLkTikOJAWEShUgmNnV-ypB0U7myM7_S43K52+exxwJ@mail.gmail.com>
+ 	<AANLkTimy=o=PkC6Vnm9TQXrYDsxaNHM72Fj9-nR8sxZr@mail.gmail.com>
+ 	<AANLkTikiY+X3drS+LOcD2sFkUbdRR9UL-==R4d56f=_V@mail.gmail.com>
+ This DACS outage is going on 5 days now.  Verizon seems to have contracted
+ BP to coordinate the repairs in New York.
+ On Jul 27, 2010 7:28 AM, "Network Operations" <noc at clearrate.com> wrote:
+ Now I really want to know - a DACS shouldn't have anything that directly
+ leaves the office (DS1s go through HDSL smartjacks, DS3s leave the building
+ on fiber, and obviously anything fiber fed leaves the office on fiber.
+ The battery plant is filtered, and there's nothing crazier than telco
+ grounding.
+ If it was a water leak, they wouldn't be working with the vendor to fix it,
+ and they'd own up to that.
+ I'd be willing to bet this is like the rest of their ILEC network, wherein
+ redundancy seems to just mean 'we don't have to address failures because
+ there's a backup system'.
+ (I think it's pretty interesting that VZW knew better than to use VZ ILEC's
+ network)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100727/9c7ab303/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ Rackspace DFW1 packetloss
+###############################################################
+ Greetings from the Pacific Northwest
+ I have no idea what I'm doing but Comcast tells me that they are incapable
+ of helping me solve all the internet connectivity issues I've been suffering
+ over the last month.  They recommend that I contact the companies that own
+ the offending servers in order to ask for help.  This is a very big for
+ someone like me; having virtually no technical skills or a vocabulary for
+ dealing with "issues" involving the internet. Still, I need to work and
+ simply cannot until the matter is resolve. Hence this email to You, whoever
+ you are :-)  
+ I have left a voicemail with the gentleman below because his name is
+ associated with one of the servers that has been plaguing my connections;
+ 75.149.230.242.  I do not know if You are affiliated with Mr. Howland or
+ not. (shrug)
+ Tim Howland
+ http://wdogsystems.com/
+ 978-225-8494
+ I am hoping you have the patience and willingness to help me navigate
+ options so that I can work with uninterrupted connections to my various
+ clients' servers.
+ Please and thank you.
+ ----------------___________________________
+ DLN Consulting Group Inc.
+ Deborah Nelson
+ T: 619.920.6074
+ E:  <mailto:dlnconsulting at comcast.net> dlnconsulting at comcast.net
+ Notice:  This e-mail message and any attachment to this e-mail message may
+ contain information that is confidential, proprietary, privileged, legally
+ privileged and/or exempt from disclosure under applicable law.  If you are
+ not the intended recipient, please accept this as notice that any
+ disclosure, copying, distribution or use of the information contained in
+ this transmission is strictly prohibited.  If you have received this e-mail
+ in error, please immediately contact the sender by return e-mail or by
+ telephone at 619.920.6074 and destroy the material in its entirety, whether
+ electronic or hard copy format. Thank you.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100727/ed9127d7/attachment.html>
+ We are not aware of any issues that could have lead to the packet loss. We are now working directly with Mrs. Nelson to help her resolve any issues she is experiencing.
+ Thank you,
+ Rackspace NOC
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Deborah Nelson
+ Sent: Tuesday, July 27, 2010 12:38 PM
+ Subject: [outages] Rackspace DFW1 packetloss
+ Greetings from the Pacific Northwest
+ I have no idea what I'm doing but Comcast tells me that they are incapable of helping me solve all the internet connectivity issues I've been suffering over the last month.  They recommend that I contact the companies that own the offending servers in order to ask for help.  This is a very big for someone like me; having virtually no technical skills or a vocabulary for dealing with "issues" involving the internet. Still, I need to work and simply cannot until the matter is resolve. Hence this email to You, whoever you are :)
+ I have left a voicemail with the gentleman below because his name is associated with one of the servers that has been plaguing my connections; 75.149.230.242.  I do not know if You are affiliated with Mr. Howland or not. (shrug)
+ Tim Howland
+ http://wdogsystems.com/
+ 978-225-8494
+ I am hoping you have the patience and willingness to help me navigate options so that I can work with uninterrupted connections to my various clients' servers.
+ Please and thank you.
+ ___________________________
+ DLN Consulting Group Inc.
+ Deborah Nelson
+ T: 619.920.6074
+ E: dlnconsulting at comcast.net<mailto:dlnconsulting at comcast.net>
+ Notice:  This e-mail message and any attachment to this e-mail message may contain information that is confidential, proprietary, privileged, legally privileged and/or exempt from disclosure under applicable law.  If you are not the intended recipient, please accept this as notice that any disclosure, copying, distribution or use of the information contained in this transmission is strictly prohibited.  If you have received this e-mail in error, please immediately contact the sender by return e-mail or by telephone at 619.920.6074 and destroy the material in its entirety, whether electronic or hard copy format. Thank you.
+ Confidentiality Notice: This e-mail message (including any attached or
+ embedded documents) is intended for the exclusive and confidential use of the
+ individual or entity to which this message is addressed, and unless otherwise
+ expressly indicated, is confidential and privileged information of Rackspace. 
+ Any dissemination, distribution or copying of the enclosed material is prohibited.
+ If you receive this transmission in error, please notify us immediately by e-mail
+ at abuse at rackspace.com, and delete the original message. 
+ Your cooperation is appreciated.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100727/6efa9fdb/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Rackspace DFW1 packetloss
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Oceanic: Severed Underwater Cable Caused Outage
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Being on vacation on Maui, I hardly even noticed the outage until I heard
+ about it later this evening. :-)
+ FYI:
+ [snip]
+ An Oceanic Time Warner Cable Internet service outage hit the entire state
+ for hours on Tuesday.
+ Viewers from the Big Island and Maui reported problems receiving television
+ cable reception and/or phone calls on Tuesday morning. Oceanic Time Warner
+ Cable said it had a problem with its fiber optic cable.
+ Oceanic Time Warner Cable Vice President Norman Santos said the cable
+ between the islands was severed about 30 miles south of Kihei. The cable is
+ about 3,000 feet below sea level, Santos said.
+ The outage began at 1:10 a.m. Service was lost to Kauai and Oahu for about
+ two hours, Oceanic said.
+ [snip]
+ More:
+ http://www.msnbc.msn.com/id/38433750
+ - - ferg
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+ ?Engineering Architecture for the Internet
+ ?fergdawgster(at)gmail.com
+ ?ferg's tech blog: http://fergdawg.blogspot.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+AP - Galway Harvey
+###############################################################
+ Was just on phone with Malachi - rebooted the AP and things seem normal
+ now...
+ Paul Stewart
+ Senior Network Administrator
+ Nexicom
+ 5 King St. E., Millbrook, ON, LOA 1GO
+ Phone: 705-932-4127
+ Web: http://www.nexicom.net
+ Nexicom - Connected. Naturally.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100728/75ef3760/attachment-0001.html>
+ WOW... I'm sorry ... AGAIN I posted to the wrong list... 
+ Sorry guys...
+ Paul
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Paul Stewart
+ Sent: Wednesday, July 28, 2010 9:12 AM
+ Subject: [outages] AP - Galway Harvey
+ Was just on phone with Malachi - rebooted the AP and things seem normal
+ now...
+ Paul Stewart
+ Senior Network Administrator
+ Nexicom
+ 5 King St. E., Millbrook, ON, LOA 1GO
+ Phone: 705-932-4127
+ Web: http://www.nexicom.net
+ Nexicom - Connected. Naturally.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100728/24af0236/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Network Extenders (femtocell) outage
+###############################################################
+ http://www.phonenews.com/verizon-network-extenders-experiencing-outage-natio
+ nwide-12006/ 
+ Looks like they were out on Tuesday, July 27.
+ Frank
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100728/bcf83c0d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+comcast dns issues today?
+###############################################################
+ Anyone else notice issues with comcast dns servers today?  It seems in the past 20 minutes their 'anycast' instances have started returning packets from the wrong source ip when querying the following:
+ nameserver 68.87.72.130
+ nameserver 68.87.77.130
+ 2010/07/28 12:41:47| WARNING: Reply from unknown nameserver 68.87.72.132:53
+ 2010/07/28 12:41:53| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...6<=60)
+ 2010/07/28 12:41:58| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ 2010/07/28 12:42:09| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...22<=60)
+ 2010/07/28 12:42:17| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...30<=60)
+ 2010/07/28 12:42:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...52<=60)
+ 2010/07/28 12:42:57| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ 2010/07/28 12:43:21| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...24<=60)
+ 2010/07/28 12:43:27| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...30<=60)
+ 2010/07/28 12:43:30| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...33<=60)
+ 2010/07/28 12:43:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...42<=60)
+ 2010/07/28 12:43:42| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...45<=60)
+ 2010/07/28 12:43:52| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...55<=60)
+ 2010/07/28 12:44:11| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ 2010/07/28 12:44:31| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...20<=60)
+ 2010/07/28 12:45:12| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ 2010/07/28 12:45:57| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...45<=60)
+ 2010/07/28 12:46:02| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...50<=60)
+ 2010/07/28 12:46:07| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...55<=60)
+ 2010/07/28 12:46:16| WARNING: Reply from unknown nameserver 68.87.77.132:53
+ 2010/07/28 12:46:27| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ 2010/07/28 12:46:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...31<=60)
+ 2010/07/28 12:46:49| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...33<=60)
+ 2010/07/28 12:46:55| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...39<=60)
+ 2010/07/28 12:47:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...44<=60)
+ 2010/07/28 12:47:07| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...51<=60)
+ 2010/07/28 12:47:10| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...54<=60)
+ 2010/07/28 12:47:20| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ 2010/07/28 12:47:40| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...20<=60)
+ 2010/07/28 12:47:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...27<=60)
+ 2010/07/28 12:48:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...40<=60)
+ 2010/07/28 12:48:40| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ Works for me.  Coming from 74.218.88.134
+ C:\Users\jluthman>dig google.com @68.87.72.130
+ ; <<>> DiG 9.3.2 <<>> google.com @68.87.72.130
+ ; (1 server found)
+ ;; global options:? printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1358
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;google.com.??????????????????? IN????? A
+ ;; ANSWER SECTION:
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.99
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.147
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.104
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.106
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.105
+ google.com.???????????? 178???? IN????? A?????? 74.125.95.103
+ ;; Query time: 25 msec
+ ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ ;; WHEN: Wed Jul 28 13:26:20 2010
+ ;; MSG SIZE? rcvd: 124
+ C:\Users\jluthman>dig google.com @68.87.7.130
+ ^C
+ C:\Users\jluthman>dig google.com @68.87.77.130
+ ; <<>> DiG 9.3.2 <<>> google.com @68.87.77.130
+ ; (1 server found)
+ ;; global options:? printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1226
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;google.com.??????????????????? IN????? A
+ ;; ANSWER SECTION:
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.103
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.99
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.104
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.147
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.106
+ google.com.???????????? 218???? IN????? A?????? 209.85.225.105
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jul 28, 2010 at 12:53 PM, Jared Mauch <jared at puck.nether.net> wrote:
+ 	<AANLkTimKYWny7jGHng3vVZxaG7afBpfuMWvjaKPpKyb-@mail.gmail.com>
+ I'm finding certain dns queries result in them responding from the "wrong" address on their (apparently) anycasted load-balancer nodes.
+ take for example: www.thruway.ny.gov
+ - Jared
+ On Jul 28, 2010, at 1:27 PM, Josh Luthman wrote:
+ >> 
+ >> Anyone else notice issues with comcast dns servers today?  It seems in the past 20 minutes their 'anycast' instances have started returning packets from the wrong source ip when querying the following:
+ >> 
+ >> nameserver 68.87.72.130
+ >> nameserver 68.87.77.130
+ >> 
+ >> 2010/07/28 12:41:47| WARNING: Reply from unknown nameserver 68.87.72.132:53
+ >> 2010/07/28 12:41:53| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...6<=60)
+ >> 2010/07/28 12:41:58| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >> 2010/07/28 12:42:09| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...22<=60)
+ >> 2010/07/28 12:42:17| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...30<=60)
+ >> 2010/07/28 12:42:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...52<=60)
+ >> 2010/07/28 12:42:57| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >> 2010/07/28 12:43:21| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...24<=60)
+ >> 2010/07/28 12:43:27| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...30<=60)
+ >> 2010/07/28 12:43:30| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...33<=60)
+ >> 2010/07/28 12:43:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...42<=60)
+ >> 2010/07/28 12:43:42| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...45<=60)
+ >> 2010/07/28 12:43:52| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...55<=60)
+ >> 2010/07/28 12:44:11| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >> 2010/07/28 12:44:31| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...20<=60)
+ >> 2010/07/28 12:45:12| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >> 2010/07/28 12:45:57| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...45<=60)
+ >> 2010/07/28 12:46:02| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...50<=60)
+ >> 2010/07/28 12:46:07| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...55<=60)
+ >> 2010/07/28 12:46:16| WARNING: Reply from unknown nameserver 68.87.77.132:53
+ >> 2010/07/28 12:46:27| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >> 2010/07/28 12:46:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...31<=60)
+ >> 2010/07/28 12:46:49| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...33<=60)
+ >> 2010/07/28 12:46:55| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...39<=60)
+ >> 2010/07/28 12:47:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...44<=60)
+ >> 2010/07/28 12:47:07| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...51<=60)
+ >> 2010/07/28 12:47:10| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...54<=60)
+ >> 2010/07/28 12:47:20| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >> 2010/07/28 12:47:40| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...20<=60)
+ >> 2010/07/28 12:47:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...27<=60)
+ >> 2010/07/28 12:48:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...40<=60)
+ >> 2010/07/28 12:48:40| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >> 
+ >> 
+ >> 
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ 	<AANLkTimKYWny7jGHng3vVZxaG7afBpfuMWvjaKPpKyb-@mail.gmail.com> 
+ 	<0707C10A-6F95-461A-9F25-62FAD4FF6E2A@puck.nether.net>
+ Note that 68.87.72.130 took several seconds to respond.
+ C:\Users\jluthman>dig www.thruway.ny.gov @68.87.77.130
+ ; <<>> DiG 9.3.2 <<>> www.thruway.ny.gov @68.87.77.130
+ ; (1 server found)
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1343
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;www.thruway.ny.gov.            IN      A
+ ;; ANSWER SECTION:
+ www.thruway.ny.gov.     38400   IN      CNAME   www.wip.thruway.ny.gov.
+ www.wip.thruway.ny.gov. 30      IN      A       208.105.158.48
+ ;; Query time: 274 msec
+ ;; SERVER: 68.87.77.130#53(68.87.77.130)
+ ;; WHEN: Wed Jul 28 13:30:53 2010
+ ;; MSG SIZE  rcvd: 74
+ C:\Users\jluthman>dig www.thruway.ny.gov @68.87.72.130
+ ; <<>> DiG 9.3.2 <<>> www.thruway.ny.gov @68.87.72.130
+ ; (1 server found)
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1500
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;www.thruway.ny.gov.            IN      A
+ ;; ANSWER SECTION:
+ www.thruway.ny.gov.     37594   IN      CNAME   www.wip.thruway.ny.gov.
+ www.wip.thruway.ny.gov. 30      IN      A       161.11.122.48
+ ;; Query time: 209 msec
+ ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ ;; WHEN: Wed Jul 28 13:31:23 2010
+ ;; MSG SIZE  rcvd: 74
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jul 28, 2010 at 1:29 PM, Jared Mauch <jared at puck.nether.net> wrote:
+ >> Works for me. ?Coming from 74.218.88.134
+ >>
+ >> C:\Users\jluthman>dig google.com @68.87.72.130
+ >>
+ >> ; <<>> DiG 9.3.2 <<>> google.com @68.87.72.130
+ >> ; (1 server found)
+ >> ;; global options: ?printcmd
+ >> ;; Got answer:
+ >> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1358
+ >> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >>
+ >> ;; QUESTION SECTION:
+ >> ;google.com. ? ? ? ? ? ? ? ? ? ?IN ? ? ?A
+ >>
+ >> ;; ANSWER SECTION:
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.99
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.147
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.104
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.106
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.105
+ >> google.com. ? ? ? ? ? ? 178 ? ? IN ? ? ?A ? ? ? 74.125.95.103
+ >>
+ >> ;; Query time: 25 msec
+ >> ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ >> ;; WHEN: Wed Jul 28 13:26:20 2010
+ >> ;; MSG SIZE ?rcvd: 124
+ >>
+ >>
+ >> C:\Users\jluthman>dig google.com @68.87.7.130
+ >> ^C
+ >> C:\Users\jluthman>dig google.com @68.87.77.130
+ >>
+ >> ; <<>> DiG 9.3.2 <<>> google.com @68.87.77.130
+ >> ; (1 server found)
+ >> ;; global options: ?printcmd
+ >> ;; Got answer:
+ >> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1226
+ >> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >>
+ >> ;; QUESTION SECTION:
+ >> ;google.com. ? ? ? ? ? ? ? ? ? ?IN ? ? ?A
+ >>
+ >> ;; ANSWER SECTION:
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.103
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.99
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.104
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.147
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.106
+ >> google.com. ? ? ? ? ? ? 218 ? ? IN ? ? ?A ? ? ? 209.85.225.105
+ >>
+ >> Josh Luthman
+ >> Office: 937-552-2340
+ >> Direct: 937-552-2343
+ >> 1100 Wayne St
+ >> Suite 1337
+ >> Troy, OH 45373
+ >>
+ >>
+ >> On Wed, Jul 28, 2010 at 12:53 PM, Jared Mauch <jared at puck.nether.net> wrote:
+ >>>
+ >>> Anyone else notice issues with comcast dns servers today? ?It seems in the past 20 minutes their 'anycast' instances have started returning packets from the wrong source ip when querying the following:
+ >>>
+ >>> nameserver 68.87.72.130
+ >>> nameserver 68.87.77.130
+ >>>
+ >>> 2010/07/28 12:41:47| WARNING: Reply from unknown nameserver 68.87.72.132:53
+ >>> 2010/07/28 12:41:53| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...6<=60)
+ >>> 2010/07/28 12:41:58| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >>> 2010/07/28 12:42:09| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...22<=60)
+ >>> 2010/07/28 12:42:17| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...30<=60)
+ >>> 2010/07/28 12:42:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...52<=60)
+ >>> 2010/07/28 12:42:57| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >>> 2010/07/28 12:43:21| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...24<=60)
+ >>> 2010/07/28 12:43:27| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...30<=60)
+ >>> 2010/07/28 12:43:30| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...33<=60)
+ >>> 2010/07/28 12:43:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...42<=60)
+ >>> 2010/07/28 12:43:42| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...45<=60)
+ >>> 2010/07/28 12:43:52| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...55<=60)
+ >>> 2010/07/28 12:44:11| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>> 2010/07/28 12:44:31| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...20<=60)
+ >>> 2010/07/28 12:45:12| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>> 2010/07/28 12:45:57| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...45<=60)
+ >>> 2010/07/28 12:46:02| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...50<=60)
+ >>> 2010/07/28 12:46:07| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...55<=60)
+ >>> 2010/07/28 12:46:16| WARNING: Reply from unknown nameserver 68.87.77.132:53
+ >>> 2010/07/28 12:46:27| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >>> 2010/07/28 12:46:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...31<=60)
+ >>> 2010/07/28 12:46:49| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...33<=60)
+ >>> 2010/07/28 12:46:55| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...39<=60)
+ >>> 2010/07/28 12:47:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...44<=60)
+ >>> 2010/07/28 12:47:07| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...51<=60)
+ >>> 2010/07/28 12:47:10| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...54<=60)
+ >>> 2010/07/28 12:47:20| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >>> 2010/07/28 12:47:40| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...20<=60)
+ >>> 2010/07/28 12:47:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...27<=60)
+ >>> 2010/07/28 12:48:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...40<=60)
+ >>> 2010/07/28 12:48:40| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>>
+ >>>
+ >>>
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ 	<AANLkTimKYWny7jGHng3vVZxaG7afBpfuMWvjaKPpKyb-@mail.gmail.com>
+ 	<0707C10A-6F95-461A-9F25-62FAD4FF6E2A@puck.nether.net>
+ 	<AANLkTinozV_g0urGnpq6QH+XEWs_1c0_2eR711rfwE=r@mail.gmail.com>
+ Yeah, what I'm seeing is if you query for AAAA the 77 or 72.130 ips, you get back the ServFail from the .131 or .132 IP instead of the .130 IP.
+ *sigh*
+ Thanks for looking.
+ - Jared
+ On Jul 28, 2010, at 1:31 PM, Josh Luthman wrote:
+ >> I'm finding certain dns queries result in them responding from the "wrong" address on their (apparently) anycasted load-balancer nodes.
+ >> 
+ >> take for example: www.thruway.ny.gov
+ >> 
+ >> - Jared
+ >> 
+ >> On Jul 28, 2010, at 1:27 PM, Josh Luthman wrote:
+ >> 
+ >>> Works for me.  Coming from 74.218.88.134
+ >>> 
+ >>> C:\Users\jluthman>dig google.com @68.87.72.130
+ >>> 
+ >>> ; <<>> DiG 9.3.2 <<>> google.com @68.87.72.130
+ >>> ; (1 server found)
+ >>> ;; global options:  printcmd
+ >>> ;; Got answer:
+ >>> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1358
+ >>> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >>> 
+ >>> ;; QUESTION SECTION:
+ >>> ;google.com.                    IN      A
+ >>> 
+ >>> ;; ANSWER SECTION:
+ >>> google.com.             178     IN      A       74.125.95.99
+ >>> google.com.             178     IN      A       74.125.95.147
+ >>> google.com.             178     IN      A       74.125.95.104
+ >>> google.com.             178     IN      A       74.125.95.106
+ >>> google.com.             178     IN      A       74.125.95.105
+ >>> google.com.             178     IN      A       74.125.95.103
+ >>> 
+ >>> ;; Query time: 25 msec
+ >>> ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ >>> ;; WHEN: Wed Jul 28 13:26:20 2010
+ >>> ;; MSG SIZE  rcvd: 124
+ >>> 
+ >>> 
+ >>> C:\Users\jluthman>dig google.com @68.87.7.130
+ >>> ^C
+ >>> C:\Users\jluthman>dig google.com @68.87.77.130
+ >>> 
+ >>> ; <<>> DiG 9.3.2 <<>> google.com @68.87.77.130
+ >>> ; (1 server found)
+ >>> ;; global options:  printcmd
+ >>> ;; Got answer:
+ >>> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1226
+ >>> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >>> 
+ >>> ;; QUESTION SECTION:
+ >>> ;google.com.                    IN      A
+ >>> 
+ >>> ;; ANSWER SECTION:
+ >>> google.com.             218     IN      A       209.85.225.103
+ >>> google.com.             218     IN      A       209.85.225.99
+ >>> google.com.             218     IN      A       209.85.225.104
+ >>> google.com.             218     IN      A       209.85.225.147
+ >>> google.com.             218     IN      A       209.85.225.106
+ >>> google.com.             218     IN      A       209.85.225.105
+ >>> 
+ >>> Josh Luthman
+ >>> Office: 937-552-2340
+ >>> Direct: 937-552-2343
+ >>> 1100 Wayne St
+ >>> Suite 1337
+ >>> Troy, OH 45373
+ >>> 
+ >>> 
+ >>> On Wed, Jul 28, 2010 at 12:53 PM, Jared Mauch <jared at puck.nether.net> wrote:
+ >>>> 
+ >>>> Anyone else notice issues with comcast dns servers today?  It seems in the past 20 minutes their 'anycast' instances have started returning packets from the wrong source ip when querying the following:
+ >>>> 
+ >>>> nameserver 68.87.72.130
+ >>>> nameserver 68.87.77.130
+ >>>> 
+ >>>> 2010/07/28 12:41:47| WARNING: Reply from unknown nameserver 68.87.72.132:53
+ >>>> 2010/07/28 12:41:53| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...6<=60)
+ >>>> 2010/07/28 12:41:58| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >>>> 2010/07/28 12:42:09| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...22<=60)
+ >>>> 2010/07/28 12:42:17| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...30<=60)
+ >>>> 2010/07/28 12:42:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...52<=60)
+ >>>> 2010/07/28 12:42:57| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >>>> 2010/07/28 12:43:21| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...24<=60)
+ >>>> 2010/07/28 12:43:27| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...30<=60)
+ >>>> 2010/07/28 12:43:30| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...33<=60)
+ >>>> 2010/07/28 12:43:39| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...42<=60)
+ >>>> 2010/07/28 12:43:42| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...45<=60)
+ >>>> 2010/07/28 12:43:52| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...55<=60)
+ >>>> 2010/07/28 12:44:11| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>>> 2010/07/28 12:44:31| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...20<=60)
+ >>>> 2010/07/28 12:45:12| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>>> 2010/07/28 12:45:57| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...45<=60)
+ >>>> 2010/07/28 12:46:02| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...50<=60)
+ >>>> 2010/07/28 12:46:07| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...55<=60)
+ >>>> 2010/07/28 12:46:16| WARNING: Reply from unknown nameserver 68.87.77.132:53
+ >>>> 2010/07/28 12:46:27| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...11<=60)
+ >>>> 2010/07/28 12:46:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...31<=60)
+ >>>> 2010/07/28 12:46:49| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...33<=60)
+ >>>> 2010/07/28 12:46:55| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...39<=60)
+ >>>> 2010/07/28 12:47:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...44<=60)
+ >>>> 2010/07/28 12:47:07| WARNING: Reply from unknown nameserver 68.87.72.131:53 (retrying...51<=60)
+ >>>> 2010/07/28 12:47:10| WARNING: Reply from unknown nameserver 68.87.77.132:53 (retrying...54<=60)
+ >>>> 2010/07/28 12:47:20| WARNING: Reply from unknown nameserver 68.87.72.131:53
+ >>>> 2010/07/28 12:47:40| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...20<=60)
+ >>>> 2010/07/28 12:47:47| WARNING: Reply from unknown nameserver 68.87.77.131:53 (retrying...27<=60)
+ >>>> 2010/07/28 12:48:00| WARNING: Reply from unknown nameserver 68.87.72.132:53 (retrying...40<=60)
+ >>>> 2010/07/28 12:48:40| WARNING: Reply from unknown nameserver 68.87.77.131:53
+ >>>> 
+ >>>> 
+ >>>> 
+ >>>> _______________________________________________
+ >>>> Outages mailing list
+ >>>> Outages at outages.org
+ >>>> https://puck.nether.net/mailman/listinfo/outages
+ >> 
+ >> 
+ 	<AANLkTimKYWny7jGHng3vVZxaG7afBpfuMWvjaKPpKyb-@mail.gmail.com>
+ 	<0707C10A-6F95-461A-9F25-62FAD4FF6E2A@puck.nether.net>
+ 	<AANLkTinozV_g0urGnpq6QH+XEWs_1c0_2eR711rfwE=r@mail.gmail.com>
+ 	<44E293B4-EDDC-4552-AA28-0F2785D37F35@puck.nether.net>
+ I agree with Jared.  Looks like broken Anycast. It seems that the anycast
+ loopback is properly configured on the machines, but I suspect the
+ bind/nameserver config is borked and causing it to bind to the wrong
+ interface.
+ On Wed, Jul 28, 2010 at 10:37 AM, Jared Mauch <jared at puck.nether.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100728/8c86a2b1/attachment.html>
+ 	<AANLkTimKYWny7jGHng3vVZxaG7afBpfuMWvjaKPpKyb-@mail.gmail.com>
+ 	<0707C10A-6F95-461A-9F25-62FAD4FF6E2A@puck.nether.net>
+ 	<AANLkTinozV_g0urGnpq6QH+XEWs_1c0_2eR711rfwE=r@mail.gmail.com>
+ 	<44E293B4-EDDC-4552-AA28-0F2785D37F35@puck.nether.net>
+ 	<AANLkTi=a0vD_FkNUwxcwxc=qgOPrts2uU_H3Oics=M+R@mail.gmail.com>
+ relayed to lead at Comcast.  Thanks, -ren
+ On Wed, Jul 28, 2010 at 1:58 PM, Robin Pimentel <robin.pimentel at gmail.com>wrote:
+ >> Yeah, what I'm seeing is if you query for AAAA the 77 or 72.130 ips, you
+ >> get back the ServFail from the .131 or .132 IP instead of the .130 IP.
+ >>
+ >> *sigh*
+ >>
+ >> Thanks for looking.
+ >>
+ >> - Jared
+ >>
+ >> On Jul 28, 2010, at 1:31 PM, Josh Luthman wrote:
+ >>
+ >> > Note that 68.87.72.130 took several seconds to respond.
+ >> >
+ >> > C:\Users\jluthman>dig www.thruway.ny.gov @68.87.77.130
+ >> >
+ >> > ; <<>> DiG 9.3.2 <<>> www.thruway.ny.gov @68.87.77.130
+ >> > ; (1 server found)
+ >> > ;; global options:  printcmd
+ >> > ;; Got answer:
+ >> > ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1343
+ >> > ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ >> >
+ >> > ;; QUESTION SECTION:
+ >> > ;www.thruway.ny.gov.            IN      A
+ >> >
+ >> > ;; ANSWER SECTION:
+ >> > www.thruway.ny.gov.     38400   IN      CNAME   www.wip.thruway.ny.gov.
+ >> > www.wip.thruway.ny.gov. 30      IN      A       208.105.158.48
+ >> >
+ >> > ;; Query time: 274 msec
+ >> > ;; SERVER: 68.87.77.130#53(68.87.77.130)
+ >> > ;; WHEN: Wed Jul 28 13:30:53 2010
+ >> > ;; MSG SIZE  rcvd: 74
+ >> >
+ >> >
+ >> > C:\Users\jluthman>dig www.thruway.ny.gov @68.87.72.130
+ >> >
+ >> > ; <<>> DiG 9.3.2 <<>> www.thruway.ny.gov @68.87.72.130
+ >> > ; (1 server found)
+ >> > ;; global options:  printcmd
+ >> > ;; Got answer:
+ >> > ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1500
+ >> > ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ >> >
+ >> > ;; QUESTION SECTION:
+ >> > ;www.thruway.ny.gov.            IN      A
+ >> >
+ >> > ;; ANSWER SECTION:
+ >> > www.thruway.ny.gov.     37594   IN      CNAME   www.wip.thruway.ny.gov.
+ >> > www.wip.thruway.ny.gov. 30      IN      A       161.11.122.48
+ >> >
+ >> > ;; Query time: 209 msec
+ >> > ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ >> > ;; WHEN: Wed Jul 28 13:31:23 2010
+ >> > ;; MSG SIZE  rcvd: 74
+ >> >
+ >> > Josh Luthman
+ >> > Office: 937-552-2340
+ >> > Direct: 937-552-2343
+ >> > 1100 Wayne St
+ >> > Suite 1337
+ >> > Troy, OH 45373
+ >> >
+ >> >
+ >> >
+ >> > On Wed, Jul 28, 2010 at 1:29 PM, Jared Mauch <jared at puck.nether.net>
+ >> wrote:
+ >> >> I'm finding certain dns queries result in them responding from the
+ >> "wrong" address on their (apparently) anycasted load-balancer nodes.
+ >> >>
+ >> >> take for example: www.thruway.ny.gov
+ >> >>
+ >> >> - Jared
+ >> >>
+ >> >> On Jul 28, 2010, at 1:27 PM, Josh Luthman wrote:
+ >> >>
+ >> >>> Works for me.  Coming from 74.218.88.134
+ >> >>>
+ >> >>> C:\Users\jluthman>dig google.com @68.87.72.130
+ >> >>>
+ >> >>> ; <<>> DiG 9.3.2 <<>> google.com @68.87.72.130
+ >> >>> ; (1 server found)
+ >> >>> ;; global options:  printcmd
+ >> >>> ;; Got answer:
+ >> >>> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1358
+ >> >>> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >> >>>
+ >> >>> ;; QUESTION SECTION:
+ >> >>> ;google.com.                    IN      A
+ >> >>>
+ >> >>> ;; ANSWER SECTION:
+ >> >>> google.com.             178     IN      A       74.125.95.99
+ >> >>> google.com.             178     IN      A       74.125.95.147
+ >> >>> google.com.             178     IN      A       74.125.95.104
+ >> >>> google.com.             178     IN      A       74.125.95.106
+ >> >>> google.com.             178     IN      A       74.125.95.105
+ >> >>> google.com.             178     IN      A       74.125.95.103
+ >> >>>
+ >> >>> ;; Query time: 25 msec
+ >> >>> ;; SERVER: 68.87.72.130#53(68.87.72.130)
+ >> >>> ;; WHEN: Wed Jul 28 13:26:20 2010
+ >> >>> ;; MSG SIZE  rcvd: 124
+ >> >>>
+ >> >>>
+ >> >>> C:\Users\jluthman>dig google.com @68.87.7.130
+ >> >>> ^C
+ >> >>> C:\Users\jluthman>dig google.com @68.87.77.130
+ >> >>>
+ >> >>> ; <<>> DiG 9.3.2 <<>> google.com @68.87.77.130
+ >> >>> ; (1 server found)
+ >> >>> ;; global options:  printcmd
+ >> >>> ;; Got answer:
+ >> >>> ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1226
+ >> >>> ;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+ >> >>>
+ >> >>> ;; QUESTION SECTION:
+ >> >>> ;google.com.                    IN      A
+ >> >>>
+ >> >>> ;; ANSWER SECTION:
+ >> >>> google.com.             218     IN      A       209.85.225.103
+ >> >>> google.com.             218     IN      A       209.85.225.99
+ >> >>> google.com.             218     IN      A       209.85.225.104
+ >> >>> google.com.             218     IN      A       209.85.225.147
+ >> >>> google.com.             218     IN      A       209.85.225.106
+ >> >>> google.com.             218     IN      A       209.85.225.105
+ >> >>>
+ >> >>> Josh Luthman
+ >> >>> Office: 937-552-2340
+ >> >>> Direct: 937-552-2343
+ >> >>> 1100 Wayne St
+ >> >>> Suite 1337
+ >> >>> Troy, OH 45373
+ >> >>>
+ >> >>>
+ >> >>> On Wed, Jul 28, 2010 at 12:53 PM, Jared Mauch <jared at puck.nether.net>
+ >> wrote:
+ >> >>>>
+ >> >>>> Anyone else notice issues with comcast dns servers today?  It seems
+ >> in the past 20 minutes their 'anycast' instances have started returning
+ >> packets from the wrong source ip when querying the following:
+ >> >>>>
+ >> >>>> nameserver 68.87.72.130
+ >> >>>> nameserver 68.87.77.130
+ >> >>>>
+ >> >>>> 2010/07/28 12:41:47| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53
+ >> >>>> 2010/07/28 12:41:53| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...6<=60)
+ >> >>>> 2010/07/28 12:41:58| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...11<=60)
+ >> >>>> 2010/07/28 12:42:09| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53 (retrying...22<=60)
+ >> >>>> 2010/07/28 12:42:17| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...30<=60)
+ >> >>>> 2010/07/28 12:42:39| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...52<=60)
+ >> >>>> 2010/07/28 12:42:57| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53
+ >> >>>> 2010/07/28 12:43:21| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...24<=60)
+ >> >>>> 2010/07/28 12:43:27| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53 (retrying...30<=60)
+ >> >>>> 2010/07/28 12:43:30| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...33<=60)
+ >> >>>> 2010/07/28 12:43:39| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...42<=60)
+ >> >>>> 2010/07/28 12:43:42| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...45<=60)
+ >> >>>> 2010/07/28 12:43:52| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...55<=60)
+ >> >>>> 2010/07/28 12:44:11| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53
+ >> >>>> 2010/07/28 12:44:31| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...20<=60)
+ >> >>>> 2010/07/28 12:45:12| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53
+ >> >>>> 2010/07/28 12:45:57| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...45<=60)
+ >> >>>> 2010/07/28 12:46:02| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53 (retrying...50<=60)
+ >> >>>> 2010/07/28 12:46:07| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...55<=60)
+ >> >>>> 2010/07/28 12:46:16| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53
+ >> >>>> 2010/07/28 12:46:27| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...11<=60)
+ >> >>>> 2010/07/28 12:46:47| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...31<=60)
+ >> >>>> 2010/07/28 12:46:49| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...33<=60)
+ >> >>>> 2010/07/28 12:46:55| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53 (retrying...39<=60)
+ >> >>>> 2010/07/28 12:47:00| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...44<=60)
+ >> >>>> 2010/07/28 12:47:07| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53 (retrying...51<=60)
+ >> >>>> 2010/07/28 12:47:10| WARNING: Reply from unknown nameserver
+ >> 68.87.77.132:53 (retrying...54<=60)
+ >> >>>> 2010/07/28 12:47:20| WARNING: Reply from unknown nameserver
+ >> 68.87.72.131:53
+ >> >>>> 2010/07/28 12:47:40| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...20<=60)
+ >> >>>> 2010/07/28 12:47:47| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53 (retrying...27<=60)
+ >> >>>> 2010/07/28 12:48:00| WARNING: Reply from unknown nameserver
+ >> 68.87.72.132:53 (retrying...40<=60)
+ >> >>>> 2010/07/28 12:48:40| WARNING: Reply from unknown nameserver
+ >> 68.87.77.131:53
+ >> >>>>
+ >> >>>>
+ >> >>>>
+ >> >>>> _______________________________________________
+ >> >>>> Outages mailing list
+ >> >>>> Outages at outages.org
+ >> >>>> https://puck.nether.net/mailman/listinfo/outages
+ >> >>
+ >> >>
+ >>
+ >>
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100728/c599c130/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Apps Google Talk service
+###############################################################
+ The person I spoke with at Google  said they were aware of the issue
+ and are working on it.
+ I'm kind of irritated with the fact that is has been 3 hours and
+ wasn't posted on their very own status board:
+ http://www.google.com/appsstatus
+ But hey, Don't be evil.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On 7/28/2010 19:43, Josh Luthman wrote:
+ Still nothing that I can see. What is the issue?
+ ~Seth
+ 	<4C50F3E4.7000009@rollernet.us>
+ It wouldn't allow login on either Firefox or Chrome (never bothered
+ with IE) on either of my PCs and my Android phone was complaining the
+ login wasn't valid and that I should see if Chat was enabled on the
+ Google Apps account.
+ It is resolved on my two PCs but my phone has been "Signing in..." for
+ about 15 minutes since I killed the ps.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jul 28, 2010 at 11:22 PM, Seth Mattinen <sethm at rollernet.us> wrote:
+ >> The person I spoke with at Google ?said they were aware of the issue
+ >> and are working on it.
+ >>
+ >> I'm kind of irritated with the fact that is has been 3 hours and
+ >> wasn't posted on their very own status board:
+ >>
+ >> http://www.google.com/appsstatus
+ >>
+ >> But hey, Don't be evil.
+ >>
+ 	<4C50F3E4.7000009@rollernet.us>
+ 	<AANLkTi=i8v29qWw6VTg6eBSajJJBa0ryAEQnBAkwDHXd@mail.gmail.com>
+ It is working on my phone now.  I just power cycled it (maybe DNS changes?)
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jul 28, 2010 at 11:45 PM, Josh Luthman
+ <josh at imaginenetworksllc.com> wrote:
+ >> On 7/28/2010 19:43, Josh Luthman wrote:
+ >>> The person I spoke with at Google ?said they were aware of the issue
+ >>> and are working on it.
+ >>>
+ >>> I'm kind of irritated with the fact that is has been 3 hours and
+ >>> wasn't posted on their very own status board:
+ >>>
+ >>> http://www.google.com/appsstatus
+ >>>
+ >>> But hey, Don't be evil.
+ >>>
+ >>
+ >>
+ >> Still nothing that I can see. What is the issue?
+ >>
+ >> ~Seth
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ 	<4C50F3E4.7000009@rollernet.us>
+ 	<AANLkTi=i8v29qWw6VTg6eBSajJJBa0ryAEQnBAkwDHXd@mail.gmail.com>
+ It is working on my phone now.  I just power cycled it (maybe DNS changes?)
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jul 28, 2010 at 11:45 PM, Josh Luthman
+ <josh at imaginenetworksllc.com> wrote:
+ >> On 7/28/2010 19:43, Josh Luthman wrote:
+ >>> The person I spoke with at Google ?said they were aware of the issue
+ >>> and are working on it.
+ >>>
+ >>> I'm kind of irritated with the fact that is has been 3 hours and
+ >>> wasn't posted on their very own status board:
+ >>>
+ >>> http://www.google.com/appsstatus
+ >>>
+ >>> But hey, Don't be evil.
+ >>>
+ >>
+ >>
+ >> Still nothing that I can see. What is the issue?
+ >>
+ >> ~Seth
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ On Wed, Jul 28, 2010 at 10:43 PM, Josh Luthman
+ <josh at imaginenetworksllc.com> wrote:
+ I think they have some kind of cutoff re: the number of people
+ affected.  I find that when I'm having a problem google admits they're
+ having; if I ask my friends if they're having the problem, and they're
+ not -- it doesn't show up on the appstatus.  I think it's like this:
+ I find that at the ISP where I work, if I describe a problem to tech
+ support or customers then every problem they have (no matter how ill
+ suited to the problem description) quickly becomes the problem I
+ described.  All debugging and troubleshooting halts and it's pretty
+ much the rare thing I described.
+ My hunch is that they don't include smaller outages on the appsstatus
+ board to avoid inference issues.
+ -Paul
+ -- 
+ If riding in an airplane is flying, then riding in a boat is swimming.
+ 116 jumps, 48.6 minutes of freefall, 92.9 freefall miles.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Tidal Takeout Of Hawaiian TV Signal
+###############################################################
+ http://www.worldtvpc.com/blog/tidal-takeout-hawaiian-signal/ 
+ How did they route around the problem?
+ Frank
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100730/d7e40145/attachment.html>
+ --- frnkblk at iname.com wrote:
+ From: "Frank Bulk - iName.com" <frnkblk at iname.com>
+ http://www.worldtvpc.com/blog/tidal-takeout-hawaiian-signal/ 
+ How did they route around the problem?
+ ---------------------------------------------
+ They probably bought temp service from another provider, such as Hawaiian Telcom or Wavecom.  Hawaiian Telcom has interisland microwave backup in case of things like this.  I don't think Oceanic does, but I am not positive on that.
+ scott
+ ------------------
+ -------------------
+ --------------------
+ SONET would be ideal. =)
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Weeks
+ Sent: Friday, July 30, 2010 5:15 PM
+ Subject: Re: [outages] Tidal Takeout Of Hawaiian TV Signal
+ --- frnkblk at iname.com wrote:
+ From: "Frank Bulk - iName.com" <frnkblk at iname.com>
+ http://www.worldtvpc.com/blog/tidal-takeout-hawaiian-signal/ 
+ How did they route around the problem?
+ ---------------------------------------------
+ They probably bought temp service from another provider, such as Hawaiian
+ Telcom or Wavecom.  Hawaiian Telcom has interisland microwave backup in case
+ of things like this.  I don't think Oceanic does, but I am not positive on
+ that.
+ scott
+ ------------------
+ -------------------
+ --------------------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -----Original Message-----
+ --- frnkblk at iname.com wrote:
+ From: "Frank Bulk - iName.com" <frnkblk at iname.com>
+ http://www.worldtvpc.com/blog/tidal-takeout-hawaiian-signal/ 
+ How did they route around the problem?
+ ---------------------------------------------
+ They probably bought temp service from another provider, such as Hawaiian
+ Telcom or Wavecom.  Hawaiian Telcom has interisland microwave backup in case
+ of things like this.  I don't think Oceanic does, but I am not positive on
+ that.
+ --- frnkblk at iname.com wrote:
+ From: "Frank Bulk - iName.com" <frnkblk at iname.com>
+ SONET would be ideal. =)
+ ---------------------------------------------
+ The problem is laying diverse undersea fiber and still have an expectation of a ROI.  That is crazy expensive to lay and maintain.  It's all a mix of WDM and SONET transport.
+ It looks like both Wavecom and Oceanic were down and they have an agreement of some sort with HT in the case of situations like these.  So, it's all going over HT's fiber at this time. 
+ I'm going to miss all the excitement now that I don't work for Hawaiian Telcom any more.  I start a new position on Kauai at the PMRF (http://en.wikipedia.org/wiki/Pacific_Missile_Range_Facility) Monday..  ;-)
+ scott
+ ------------------
+ -------------------
+ --------------------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T Visual Voicemail Outage
+###############################################################
+ We're seeing a Visual Voicemail outage (no indicator) in the Boise Idaho area at least. Calling AT&T you get a message saying they can't take any calls at this time.
+ -J
+ --------
+ Jason J. W. Williams, COO/CTO
+ DigiTar
+ williamsjj at digitar.com
+ V: 208.343.8520
+ F: 208.322.8522
+ M: 208.863.0727
+ www.digitar.com
+###############################################################
+END
+###############################################################
+

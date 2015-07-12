@@ -1,0 +1,2703 @@
+From Brad.Beck at meritain.com  Mon Feb  1 10:28:59 2010
+From: Brad.Beck at meritain.com (Brad Beck)
+Date: Mon, 1 Feb 2010 10:28:59 -0500
+Subject: [outages] Minneapolis Verizon outage?
+Message-ID: <330978F411B1E04FA5870873EB0863030EAFAB4DBC@bufamhmail02.ad.meritain.com>
+
+Anyone seeing an outage of Verizon Business services in the Minneapolis area?  We've got a VZB DS3 down there, and have been told that "a ton" of circuits in Minneapolis are down.
+
+
+________________________________
+Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100201/bf1f6a53/attachment.html>
+
+From Robert.MacDonald at Haworth.com  Mon Feb  1 14:38:48 2010
+From: Robert.MacDonald at Haworth.com (Robert MacDonald)
+Date: Mon, 1 Feb 2010 14:38:48 -0500
+Subject: [outages] Minneapolis Verizon outage?
+In-Reply-To: <330978F411B1E04FA5870873EB0863030EAFAB4DBC@bufamhmail02.ad.meritain.com>
+References: <330978F411B1E04FA5870873EB0863030EAFAB4DBC@bufamhmail02.ad.meritain.com>
+Message-ID: <EC21B128897B714B82C10CC6703CA1B303869B2CF1@nahollex12.NA.Haworthinc.com>
+
+I have a T1 thats currently operational and without downtime. We're located at 100 N 6th Street.
+________________________________
+From: outages-bounces at outages.org [outages-bounces at outages.org] On Behalf Of Brad Beck [Brad.Beck at meritain.com]
+Sent: Monday, February 01, 2010 10:28 AM
+To: outages at outages.org
+
+Anyone seeing an outage of Verizon Business services in the Minneapolis area?  We?ve got a VZB DS3 down there, and have been told that ?a ton? of circuits in Minneapolis are down.
+
+From su1droot at gmail.com  Tue Feb  9 17:02:55 2010
+From: su1droot at gmail.com (Ben Mason)
+Date: Tue, 9 Feb 2010 17:02:55 -0500
+Subject: [outages] Cogent is having issues in the Michigan area
+Message-ID: <f83dffc81002091402o4e34e8c6nb3929e1e69d29c2c@mail.gmail.com>
+
+Hello,
+Cogent is having issues in the Michigan area the master ticket number is 2095899
+
+--
+Ben
+email: locutus at the-collective.net
+web: http://locutus.the-collective.net/
+irc: su1droot; aim: su1droot; y!: su1droot
+
+From jdshoemaker at gmail.com  Sun Feb 14 01:05:09 2010
+From: jdshoemaker at gmail.com (Jason Shoemaker)
+Date: Sun, 14 Feb 2010 01:05:09 -0500
+Subject: [outages] Fiber cut in NYC metro area affecting AboveNet dark fiber
+Message-ID: <81ecd7701002132205t57436d5bne17a2b42515d184a@mail.gmail.com>
+
+We have a dark fiber line from AboveNet between downtown Manhattan and
+Newark, NJ that went down as of 9:37 PM EST.  According to AboveNet's NMC,
+they are aware of a fiber cut affecting multiple customers in the NYC metro
+area.  Tickets have already been generated for affected customers.  A third
+party is currently working in the location of the cut, and AboveNet is
+currently waiting on the third party for access to the site in order to
+diagnose and repair the issue.
+
+-Jason
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100214/519a2d01/attachment.html>
+
+From Bino.Gopal at citrix.com  Tue Feb 16 12:48:13 2010
+From: Bino.Gopal at citrix.com (Bino Gopal)
+Date: Tue, 16 Feb 2010 09:48:13 -0800
+Subject: [outages] Hotmail.com down?
+Message-ID: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+
+Has anyone else noticed that hotmail.com is down?  I checked downforeveryoneorjustme.com and it said it wasn't just me... :P
+
+I'm on Verizon DSL in SoCal (LA) and it dies at the Verizon peering point as per:
+
+C:\>tracert hotmail.com
+
+Tracing route to hotmail.com [64.4.33.7] over a maximum of 30 hops:
+
+  1     1 ms     1 ms     2 ms  192.168.0.1
+  2    25 ms    23 ms    24 ms  L100.LSANCA-DSL-55.verizon-gni.net [96.247.118.1]
+  3    23 ms    24 ms    22 ms  9-2-2955.LSANCA-LCR-09.verizon-gni.net [130.81.46.20]
+  4    25 ms    24 ms    26 ms  so-4-0-0-0.LAX01-BB-RTR1.verizon-gni.net [130.81.28.72]
+  5    34 ms    40 ms    33 ms  so-5-3-0-0.SJC01-BB-RTR1.verizon-gni.net [130.81.19.10]
+  6    34 ms    45 ms    34 ms  so-6-0-0-0.SJC80-PEER-RTR1-re1.verizon-gni.net [130.81.17.133]
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+  10     *        *       *    Request timed out.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100216/f7024942/attachment.html>
+
+From paul at paulstewart.org  Tue Feb 16 12:54:08 2010
+From: paul at paulstewart.org (Paul Stewart)
+Date: Tue, 16 Feb 2010 12:54:08 -0500
+Subject: [outages] Hotmail.com down?
+In-Reply-To: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+References: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+Message-ID: <002101caaf31$09bd9c40$1d38d4c0$@org>
+
+Nope. not just you - we just noticed this here..  Get "service unavailable"
+from their web servers.. Traceroute die out too.  We are peered with
+Microsoft directly at multiple locations.
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Bino Gopal
+Sent: Tuesday, February 16, 2010 12:48 PM
+To: outages at outages.org
+
+ 
+
+Has anyone else noticed that hotmail.com is down?  I checked
+downforeveryoneorjustme.com and it said it wasn't just me. :P
+
+ 
+
+I'm on Verizon DSL in SoCal (LA) and it dies at the Verizon peering point as
+per:
+
+ 
+
+C:\>tracert hotmail.com
+
+ 
+
+Tracing route to hotmail.com [64.4.33.7] over a maximum of 30 hops:
+
+ 
+
+  1     1 ms     1 ms     2 ms  192.168.0.1
+
+  2    25 ms    23 ms    24 ms  L100.LSANCA-DSL-55.verizon-gni.net
+[96.247.118.1]
+
+  3    23 ms    24 ms    22 ms  9-2-2955.LSANCA-LCR-09.verizon-gni.net
+[130.81.46.20]
+
+  4    25 ms    24 ms    26 ms  so-4-0-0-0.LAX01-BB-RTR1.verizon-gni.net
+[130.81.28.72]
+
+  5    34 ms    40 ms    33 ms  so-5-3-0-0.SJC01-BB-RTR1.verizon-gni.net
+[130.81.19.10]
+
+  6    34 ms    45 ms    34 ms
+so-6-0-0-0.SJC80-PEER-RTR1-re1.verizon-gni.net [130.81.17.133]
+
+  7     *        *        *     Request timed out.
+
+  8     *        *        *     Request timed out.
+
+  9     *        *        *     Request timed out.
+
+  10     *        *       *    Request timed out.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100216/79919873/attachment.html>
+
+From dave at thegeo.net  Tue Feb 16 13:23:36 2010
+From: dave at thegeo.net (Dave Davis)
+Date: Tue, 16 Feb 2010 10:23:36 -0800
+Subject: [outages] Hotmail.com down?
+References: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+	<002101caaf31$09bd9c40$1d38d4c0$@org>
+Message-ID: <4823A96AFDC94067943869FEBC4F0351@davepc>
+
+Looks OK now
+=-=-=-=-=-==-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=
+Regards,
+Dave Davis
+++++++++++++++++++++++++++++++++++++
+Davis Computer Services Inc. 
+dave at davispc.com
+====================================
+The Greater Eastern Oregon Network
+dave at thegeo.net
+++++++++++++++++++++++++++++++++++++
+541 523 0270
+
+  ----- Original Message ----- 
+  From: Paul Stewart 
+  To: 'Bino Gopal' ; outages at outages.org 
+  Sent: Tuesday, February 16, 2010 9:54 AM
+
+
+  Nope. not just you - we just noticed this here..  Get "service unavailable" from their web servers.. Traceroute die out too.  We are peered with Microsoft directly at multiple locations.
+
+   
+
+  Paul
+
+   
+
+   
+
+  From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Bino Gopal
+  Sent: Tuesday, February 16, 2010 12:48 PM
+  To: outages at outages.org
+
+   
+
+  Has anyone else noticed that hotmail.com is down?  I checked downforeveryoneorjustme.com and it said it wasn't just me. :P
+
+   
+
+  I'm on Verizon DSL in SoCal (LA) and it dies at the Verizon peering point as per:
+
+   
+
+  C:\>tracert hotmail.com
+
+   
+
+  Tracing route to hotmail.com [64.4.33.7] over a maximum of 30 hops:
+
+   
+
+    1     1 ms     1 ms     2 ms  192.168.0.1
+
+    2    25 ms    23 ms    24 ms  L100.LSANCA-DSL-55.verizon-gni.net [96.247.118.1]
+
+    3    23 ms    24 ms    22 ms  9-2-2955.LSANCA-LCR-09.verizon-gni.net [130.81.46.20]
+
+    4    25 ms    24 ms    26 ms  so-4-0-0-0.LAX01-BB-RTR1.verizon-gni.net [130.81.28.72]
+
+    5    34 ms    40 ms    33 ms  so-5-3-0-0.SJC01-BB-RTR1.verizon-gni.net [130.81.19.10]
+
+    6    34 ms    45 ms    34 ms  so-6-0-0-0.SJC80-PEER-RTR1-re1.verizon-gni.net [130.81.17.133]
+
+    7     *        *        *     Request timed out.
+
+    8     *        *        *     Request timed out.
+
+    9     *        *        *     Request timed out.
+
+    10     *        *       *    Request timed out.
+
+
+
+------------------------------------------------------------------------------
+
+
+  _______________________________________________
+  outages mailing list
+  outages at outages.org
+  https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100216/1c04d5a6/attachment.html>
+
+From mikehoffman at odysseylogistics.com  Tue Feb 16 12:58:05 2010
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Tue, 16 Feb 2010 12:58:05 -0500
+Subject: [outages] Hotmail.com down?
+In-Reply-To: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+References: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+Message-ID: <36E0EB159193B54A90D743B0F8DB1ED01A324D37BE@p10-exchg.odysseylogistics.com>
+
+When I try to get to the site from here in Danbury, CT, it tries to forward to login.live.com/tonsmorecharachtershere/andso-on-and-so-on, it just gives me a "Service Unavailable"
+
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+39 Old Ridgebury Rd
+A-4
+Danbury, CT  06810
+Phone: (203) 448-3872
+Fax: (203) 448-3901
+
+
+Odyssey Overland LLC
+1500 Rt 517
+Hackettstown, NJ  07840
+Phone: (908) 850-4490 x207
+Fax: (908) 850-3852
+
+CONFIDENTIALITY NOTICE:
+This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Bino Gopal
+Sent: Tuesday, February 16, 2010 12:48 PM
+To: outages at outages.org
+
+Has anyone else noticed that hotmail.com is down?  I checked downforeveryoneorjustme.com and it said it wasn't just me... :P
+
+I'm on Verizon DSL in SoCal (LA) and it dies at the Verizon peering point as per:
+
+C:\>tracert hotmail.com
+
+Tracing route to hotmail.com [64.4.33.7] over a maximum of 30 hops:
+
+  1     1 ms     1 ms     2 ms  192.168.0.1
+  2    25 ms    23 ms    24 ms  L100.LSANCA-DSL-55.verizon-gni.net [96.247.118.1]
+  3    23 ms    24 ms    22 ms  9-2-2955.LSANCA-LCR-09.verizon-gni.net [130.81.46.20]
+  4    25 ms    24 ms    26 ms  so-4-0-0-0.LAX01-BB-RTR1.verizon-gni.net [130.81.28.72]
+  5    34 ms    40 ms    33 ms  so-5-3-0-0.SJC01-BB-RTR1.verizon-gni.net [130.81.19.10]
+  6    34 ms    45 ms    34 ms  so-6-0-0-0.SJC80-PEER-RTR1-re1.verizon-gni.net [130.81.17.133]
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+  10     *        *       *    Request timed out.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100216/ba77631c/attachment-0001.html>
+
+From dave at stayonline.com  Tue Feb 16 13:06:54 2010
+From: dave at stayonline.com (Dave Larter)
+Date: Tue, 16 Feb 2010 13:06:54 -0500
+Subject: [outages] Hotmail.com down?
+In-Reply-To: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+References: <031222CBCF33214AB2EB4ABA279428A333661CDC45@SJCPMAILBOX01.citrite.net>
+Message-ID: <8B79B73777E7D544A24BEB8FC50D35DB8B817A@MERCURY.socrdu.com>
+
+Seems mine was accepted... not in my ob queue.
+
+Delivered To  Delivery Time 
+65.55.37.88   Tuesday, Feb 16, 2010 12:56:01 PM EST  
+
+But I got this too:
+It's not just you! http://hotmail.com looks down from here
+
+A few weeks back they were accepting my emails but seemed to have some
+queue problems because someone that I fire back/fourth with was not
+seeing them arrive.  Also I have no responses from this person for
+almost 1 hour now which is unusual.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Bino Gopal
+Sent: Tuesday, February 16, 2010 12:48 PM
+To: outages at outages.org
+
+Has anyone else noticed that hotmail.com is down?  I checked
+downforeveryoneorjustme.com and it said it wasn't just me... :P
+
+ 
+
+I'm on Verizon DSL in SoCal (LA) and it dies at the Verizon peering
+point as per:
+
+ 
+
+C:\>tracert hotmail.com
+
+ 
+
+Tracing route to hotmail.com [64.4.33.7] over a maximum of 30 hops:
+
+ 
+
+  1     1 ms     1 ms     2 ms  192.168.0.1
+
+  2    25 ms    23 ms    24 ms  L100.LSANCA-DSL-55.verizon-gni.net
+[96.247.118.1]
+
+  3    23 ms    24 ms    22 ms  9-2-2955.LSANCA-LCR-09.verizon-gni.net
+[130.81.46.20]
+
+  4    25 ms    24 ms    26 ms  so-4-0-0-0.LAX01-BB-RTR1.verizon-gni.net
+[130.81.28.72]
+
+  5    34 ms    40 ms    33 ms  so-5-3-0-0.SJC01-BB-RTR1.verizon-gni.net
+[130.81.19.10]
+
+  6    34 ms    45 ms    34 ms
+so-6-0-0-0.SJC80-PEER-RTR1-re1.verizon-gni.net [130.81.17.133]
+
+  7     *        *        *     Request timed out.
+
+  8     *        *        *     Request timed out.
+
+  9     *        *        *     Request timed out.
+
+  10     *        *       *    Request timed out.
+
+
+From gert at greenie.muc.de  Fri Feb 19 03:45:17 2010
+From: gert at greenie.muc.de (Gert Doering)
+Date: Fri, 19 Feb 2010 09:45:17 +0100
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+Message-ID: <20100219084517.GA8215@greenie.muc.de>
+
+Hi,
+
+one of my collagues complained about selfhtml.org unreachability, so I
+checked, and what I found is disturbing:
+
+;; ANSWER SECTION:
+selfhtml.org.           82408   IN      NS      ns12.verio.de.
+selfhtml.org.           82408   IN      NS      ns13.verio.de.
+
+;; ADDITIONAL SECTION:
+ns12.verio.de.          86259   IN      A       213.198.55.91
+ns13.verio.de.          86259   IN      A       213.198.65.162
+
+Cisco-M-XXX>sh ip b 213.198.55.91
+% Network not in table
+Cisco-M-XXX>sh ip b 213.198.65.192
+% Network not in table
+
+Verified at route-views.oregon-ix.net, so it's not a local problem in .DE
+
+Does anybody know more?
+
+gert
+
+-- 
+USENET is *not* the non-clickable part of WWW!
+                                                           //www.muc.de/~gert/
+Gert Doering - Munich, Germany                             gert at greenie.muc.de
+fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+From gert at greenie.muc.de  Fri Feb 19 03:48:19 2010
+From: gert at greenie.muc.de (Gert Doering)
+Date: Fri, 19 Feb 2010 09:48:19 +0100
+Subject: [outages] ns12/ns13.verio.DE (not .NET) fallen off the net?
+In-Reply-To: <20100219084517.GA8215@greenie.muc.de>
+References: <20100219084517.GA8215@greenie.muc.de>
+Message-ID: <20100219084819.GB8215@greenie.muc.de>
+
+Hi,
+
+ugh, sorry for the typo in the subject.  That should have been "versio.*DE*".
+
+gert
+
+
+On Fri, Feb 19, 2010 at 09:45:17AM +0100, Gert Doering wrote:
+> Hi,
+> 
+> one of my collagues complained about selfhtml.org unreachability, so I
+> checked, and what I found is disturbing:
+> 
+> ;; ANSWER SECTION:
+> selfhtml.org.           82408   IN      NS      ns12.verio.de.
+> selfhtml.org.           82408   IN      NS      ns13.verio.de.
+> 
+> ;; ADDITIONAL SECTION:
+> ns12.verio.de.          86259   IN      A       213.198.55.91
+> ns13.verio.de.          86259   IN      A       213.198.65.162
+> 
+> Cisco-M-XXX>sh ip b 213.198.55.91
+> % Network not in table
+> Cisco-M-XXX>sh ip b 213.198.65.192
+> % Network not in table
+> 
+> Verified at route-views.oregon-ix.net, so it's not a local problem in .DE
+> 
+> Does anybody know more?
+> 
+> gert
+> 
+> -- 
+> USENET is *not* the non-clickable part of WWW!
+>                                                            //www.muc.de/~gert/
+> Gert Doering - Munich, Germany                             gert at greenie.muc.de
+> fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+-- 
+USENET is *not* the non-clickable part of WWW!
+                                                           //www.muc.de/~gert/
+Gert Doering - Munich, Germany                             gert at greenie.muc.de
+fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+From caperry at edolnx.net  Fri Feb 19 08:08:22 2010
+From: caperry at edolnx.net (Carl Perry)
+Date: Fri, 19 Feb 2010 07:08:22 -0600
+Subject: [outages] Connectivity problems between US and India
+Message-ID: <4B7E8D46.3090007@edolnx.net>
+
+We've been seeing a lot of customers call in with reports of slow access
+to their servers in the US.  Traceroutes back to them all yield
+round-trip times of 300ms once the connection gets across the ocean. 
+Anyone have any leads on a root cause?
+
+ 4.
+12.87.122.245                                                                          
+0%    9    9     9    9   10     11
+ 5.
+cr2.hs1tx.ip.att.net                                                                   
+0%    9    9    46   46   46     46
+ 6.
+cr1.dlstx.ip.att.net                                                                   
+0%    9    9    47   46   47     47
+ 7.
+cr2.dlstx.ip.att.net                                                                   
+0%    9    9    47   46   47     47
+ 8.
+cr2.la2ca.ip.att.net                                                                   
+0%    9    9    46   45   46     46
+ 9.
+gar4.lsrca.ip.att.net                                                                  
+0%    9    9    47   47   47     48
+10.
+12.86.240.10                                                                           
+0%    9    9    46   45   46     49
+11.
+segment-124-7.sify.net                                                                 
+0%    8    9   269  268  269    269
+12.
+segment-119-227.sify.net                                                               
+0%    8    9   268  267  268    271
+13.
+segment-119-227.sify.net                                                               
+0%    8    8   269  267  268    271
+14.
+segment-119-227.sify.net                                                               
+0%    8    8   270  269  271    274
+15.
+segment-119-227.sify.net                                                               
+0%    8    8   270  268  270    276
+16.
+segment-119-227.sify.net                                                               
+0%    8    8   271  269  270    271
+17.
+210.18.13.233.sify.net                                                                 
+0%    8    8   268  268  268    269
+18.
+segment-124-30.sify.net                                                                
+0%    8    8   294  284  292    299
+
+
+ 4.
+12.87.122.245                                                                          
+0%   11   11    10    9   10     11
+ 5.
+cr2.hs1tx.ip.att.net                                                                   
+0%   11   11    16   16   16     17
+ 6.
+cr1.dlstx.ip.att.net                                                                   
+0%   11   11    16   16   16     17
+ 7.
+ggr7.dlstx.ip.att.net                                                                  
+0%   11   11   170   15   56    170
+ 8.
+192.205.36.42                                                                          
+0%   11   11    15   15   22     75
+ 9.
+customer-side-bharti-4-pal6.pal.seabone.net                                            
+0%   10   11   286  286  287    287
+10.
+125.21.167.114                                                                         
+0%   10   10   285  285  285    285
+11.
+61.95.240.130                                                                          
+0%   10   10   283  283  283    286
+12.
+abts-tn-static-248.253.246.61.airtelbroadband.in                                       
+0%   10   10   290  287  290    294
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 251 bytes
+Desc: OpenPGP digital signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/44c2a30c/attachment.bin>
+
+From caperry at edolnx.net  Fri Feb 19 09:04:39 2010
+From: caperry at edolnx.net (Carl Perry)
+Date: Fri, 19 Feb 2010 08:04:39 -0600
+Subject: [outages] Trans-Atlantic connectivity outages?
+Message-ID: <4B7E9A77.1080204@edolnx.net>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+We've been seeing a lot of customers call in with reports of slow access
+to their servers in the US.  Traceroutes back to them all yield
+round-trip times of 300ms once the connection gets across the ocean.
+Anyone have any leads on a root cause?
+
+ 4.
+12.87.122.245                                                                      
+ 
+ 
+0%    9    9     9    9   10     11
+ 5.
+cr2.hs1tx.ip.att.net                                                               
+ 
+ 
+0%    9    9    46   46   46     46
+ 6.
+cr1.dlstx.ip.att.net                                                               
+ 
+ 
+0%    9    9    47   46   47     47
+ 7.
+cr2.dlstx.ip.att.net                                                               
+ 
+ 
+0%    9    9    47   46   47     47
+ 8.
+cr2.la2ca.ip.att.net                                                               
+ 
+ 
+0%    9    9    46   45   46     46
+ 9.
+gar4.lsrca.ip.att.net                                                              
+ 
+ 
+0%    9    9    47   47   47     48
+10.
+12.86.240.10                                                                       
+ 
+ 
+0%    9    9    46   45   46     49
+11.
+segment-124-7.sify.net                                                             
+ 
+ 
+0%    8    9   269  268  269    269
+12.
+segment-119-227.sify.net                                                           
+ 
+ 
+0%    8    9   268  267  268    271
+13.
+segment-119-227.sify.net                                                           
+ 
+ 
+0%    8    8   269  267  268    271
+14.
+segment-119-227.sify.net                                                           
+ 
+ 
+0%    8    8   270  269  271    274
+15.
+segment-119-227.sify.net                                                           
+ 
+ 
+0%    8    8   270  268  270    276
+16.
+segment-119-227.sify.net                                                           
+ 
+ 
+0%    8    8   271  269  270    271
+17.
+210.18.13.233.sify.net                                                             
+ 
+ 
+0%    8    8   268  268  268    269
+18.
+segment-124-30.sify.net                                                            
+ 
+ 
+0%    8    8   294  284  292    299
+
+
+ 4.
+12.87.122.245                                                                      
+ 
+ 
+0%   11   11    10    9   10     11
+ 5.
+cr2.hs1tx.ip.att.net                                                               
+ 
+ 
+0%   11   11    16   16   16     17
+ 6.
+cr1.dlstx.ip.att.net                                                               
+ 
+ 
+0%   11   11    16   16   16     17
+ 7.
+ggr7.dlstx.ip.att.net                                                              
+ 
+ 
+0%   11   11   170   15   56    170
+ 8.
+192.205.36.42                                                                      
+ 
+ 
+0%   11   11    15   15   22     75
+ 9.
+customer-side-bharti-4-pal6.pal.seabone.net                                        
+ 
+ 
+0%   10   11   286  286  287    287
+10.
+125.21.167.114                                                                     
+ 
+ 
+0%   10   10   285  285  285    285
+11.
+61.95.240.130                                                                      
+ 
+ 
+0%   10   10   283  283  283    286
+12.
+abts-tn-static-248.253.246.61.airtelbroadband.in                                   
+ 
+ 
+0%   10   10   290  287  290    294
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.10 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iD8DBQFLfpp3UL2zshtaNRYRAsw5AKC0sFPOx9EdHW4xGGdecVhszefU2QCeJp5X
+OHcp23ocM0UK7HiY9Oe5B4o=
+=XCoD
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/a4118f80/attachment.html>
+
+From tsands at rackspace.com  Fri Feb 19 09:10:57 2010
+From: tsands at rackspace.com (Tom Sands)
+Date: Fri, 19 Feb 2010 08:10:57 -0600
+Subject: [outages] Connectivity problems between US and India
+In-Reply-To: <4B7E8D46.3090007@edolnx.net>
+References: <4B7E8D46.3090007@edolnx.net>
+Message-ID: <4126_1266588661_o1JEAt0s010498_4B7E9BF1.5020504@rackspace.com>
+
+We've had a lot of reports of the same.  40+% packet loss from different 
+providers in India, with no one specific transit/hand-off showing to be 
+the problem.
+
+
+--------------------------------------------------------------------------------
+Tom Sands			  				
+Chief Network Engineer				
+Rackspace 	    	
+(210)312-4391	   	
+--------------------------------------------------------------------------------
+
+Carl Perry wrote:
+> We've been seeing a lot of customers call in with reports of slow access
+> to their servers in the US.  Traceroutes back to them all yield
+> round-trip times of 300ms once the connection gets across the ocean. 
+> Anyone have any leads on a root cause?
+> 
+>  4.
+> 12.87.122.245                                                                          
+> 0%    9    9     9    9   10     11
+>  5.
+> cr2.hs1tx.ip.att.net                                                                   
+> 0%    9    9    46   46   46     46
+>  6.
+> cr1.dlstx.ip.att.net                                                                   
+> 0%    9    9    47   46   47     47
+>  7.
+> cr2.dlstx.ip.att.net                                                                   
+> 0%    9    9    47   46   47     47
+>  8.
+> cr2.la2ca.ip.att.net                                                                   
+> 0%    9    9    46   45   46     46
+>  9.
+> gar4.lsrca.ip.att.net                                                                  
+> 0%    9    9    47   47   47     48
+> 10.
+> 12.86.240.10                                                                           
+> 0%    9    9    46   45   46     49
+> 11.
+> segment-124-7.sify.net                                                                 
+> 0%    8    9   269  268  269    269
+> 12.
+> segment-119-227.sify.net                                                               
+> 0%    8    9   268  267  268    271
+> 13.
+> segment-119-227.sify.net                                                               
+> 0%    8    8   269  267  268    271
+> 14.
+> segment-119-227.sify.net                                                               
+> 0%    8    8   270  269  271    274
+> 15.
+> segment-119-227.sify.net                                                               
+> 0%    8    8   270  268  270    276
+> 16.
+> segment-119-227.sify.net                                                               
+> 0%    8    8   271  269  270    271
+> 17.
+> 210.18.13.233.sify.net                                                                 
+> 0%    8    8   268  268  268    269
+> 18.
+> segment-124-30.sify.net                                                                
+> 0%    8    8   294  284  292    299
+> 
+> 
+>  4.
+> 12.87.122.245                                                                          
+> 0%   11   11    10    9   10     11
+>  5.
+> cr2.hs1tx.ip.att.net                                                                   
+> 0%   11   11    16   16   16     17
+>  6.
+> cr1.dlstx.ip.att.net                                                                   
+> 0%   11   11    16   16   16     17
+>  7.
+> ggr7.dlstx.ip.att.net                                                                  
+> 0%   11   11   170   15   56    170
+>  8.
+> 192.205.36.42                                                                          
+> 0%   11   11    15   15   22     75
+>  9.
+> customer-side-bharti-4-pal6.pal.seabone.net                                            
+> 0%   10   11   286  286  287    287
+> 10.
+> 125.21.167.114                                                                         
+> 0%   10   10   285  285  285    285
+> 11.
+> 61.95.240.130                                                                          
+> 0%   10   10   283  283  283    286
+> 12.
+> abts-tn-static-248.253.246.61.airtelbroadband.in                                       
+> 0%   10   10   290  287  290    294
+> 
+> 
+> 
+
+
+Confidentiality Notice: This e-mail message (including any attached or
+embedded documents) is intended for the exclusive and confidential use of the
+individual or entity to which this message is addressed, and unless otherwise
+expressly indicated, is confidential and privileged information of Rackspace. 
+Any dissemination, distribution or copying of the enclosed material is prohibited.
+If you receive this transmission in error, please notify us immediately by e-mail
+at abuse at rackspace.com, and delete the original message. 
+Your cooperation is appreciated.
+
+
+From caperry at edolnx.net  Fri Feb 19 09:34:11 2010
+From: caperry at edolnx.net (Carl Perry)
+Date: Fri, 19 Feb 2010 08:34:11 -0600
+Subject: [outages] Trans-Atlantic connectivity outages?
+In-Reply-To: <C7A40A0A.DF0C%bradley.bopp@nationalnet.com>
+References: <C7A40A0A.DF0C%bradley.bopp@nationalnet.com>
+Message-ID: <4B7EA163.7040700@edolnx.net>
+
+It doesn't look isolated to India any more either.  Our internal links
+between our US Data Centers and out London Data Centers are showing a
+120ms increase in latency as well.  Mind you, the latency to India is as
+high as 300ms so I'm wondering if there are two outages...
+
+On 2/19/10 8:27 AM, Bradley Bopp wrote:
+> Re: [outages] Trans-Atlantic connectivity outages? Hello Carl,
+>
+> I take a slightly different path than you but we have had tickets
+> since yesterday regarding this.  We have a major customer with
+> operations in India that have been unable to RDP or VPN to there
+> systems here for about 24 hours.
+>
+> This is were it seems to break;
+>
+>  13. xe-11-2-0-xcr1.fra.cw.net     0.0%    10  116.6 127.2 116.6
+> 174.4  18.3
+>  14. ge-2-0-0-dcr2.fra.cw.net      0.0%    10  115.9 151.2 115.9
+> 314.2  63.7
+>  15. bharti-gw2.fra.cw.net        10.0%    10  292.3 291.6 287.8
+> 301.8   4.5
+>  16. 59.145.7.134                 10.0%    10  289.0 293.7 289.0
+> 303.8   4.5
+>  17. 61.95.240.130                10.0%    10  288.0 294.5 288.0
+> 298.2   3.3
+>  18. ABTS-TN-Static-248.253.246.6 10.0%    10  306.9 295.8 290.8
+> 306.9   4.7
+> M
+>
+> I am not sure who the Fiber Carrier is out to this point I checked
+> with HA and it's not there fiber.  I doubt CW built this leg.
+>
+> If we can determine the carrier perhaps we can find out if there is
+> a Trans-Atlantic issue.
+>
+>
+>
+>
+> On 2/19/10 9:04 AM, "Carl Perry" <caperry at edolnx.net> wrote:
+>
+> We've been seeing a lot of customers call in with reports of
+> slow access
+> to their servers in the US.  Traceroutes back to them all yield
+> round-trip times of 300ms once the connection gets across the ocean.
+> Anyone have any leads on a root cause?
+>
+>  4.
+> 12.87.122.245                                                                    
+>  
+>  
+>  
+> 0%    9    9     9    9   10     11
+>  5.
+> cr2.hs1tx.ip.att.net                                                             
+>  
+>  
+>  
+> 0%    9    9    46   46   46     46
+>  6.
+> cr1.dlstx.ip.att.net                                                             
+>  
+>  
+>  
+> 0%    9    9    47   46   47     47
+>  7.
+> cr2.dlstx.ip.att.net                                                             
+>  
+>  
+>  
+> 0%    9    9    47   46   47     47
+>  8.
+> cr2.la2ca.ip.att.net                                                             
+>  
+>  
+>  
+> 0%    9    9    46   45   46     46
+>  9.
+> gar4.lsrca.ip.att.net                                                            
+>  
+>  
+>  
+> 0%    9    9    47   47   47     48
+> 10.
+> 12.86.240.10                                                                     
+>  
+>  
+>  
+> 0%    9    9    46   45   46     49
+> 11.
+> segment-124-7.sify.net                                                           
+>  
+>  
+>  
+> 0%    8    9   269  268  269    269
+> 12.
+> segment-119-227.sify.net                                                         
+>  
+>  
+>  
+> 0%    8    9   268  267  268    271
+> 13.
+> segment-119-227.sify.net                                                         
+>  
+>  
+>  
+> 0%    8    8   269  267  268    271
+> 14.
+> segment-119-227.sify.net                                                         
+>  
+>  
+>  
+> 0%    8    8   270  269  271    274
+> 15.
+> segment-119-227.sify.net                                                         
+>  
+>  
+>  
+> 0%    8    8   270  268  270    276
+> 16.
+> segment-119-227.sify.net                                                         
+>  
+>  
+>  
+> 0%    8    8   271  269  270    271
+> 17.
+> 210.18.13.233.sify.net                                                           
+>  
+>  
+>  
+> 0%    8    8   268  268  268    269
+> 18.
+> segment-124-30.sify.net                                                          
+>  
+>  
+>  
+> 0%    8    8   294  284  292    299
+>
+>
+>  4.
+> 12.87.122.245                                                                    
+>  
+>  
+>  
+> 0%   11   11    10    9   10     11
+>  5.
+> cr2.hs1tx.ip.att.net                                                             
+>  
+>  
+>  
+> 0%   11   11    16   16   16     17
+>  6.
+> cr1.dlstx.ip.att.net                                                             
+>  
+>  
+>  
+> 0%   11   11    16   16   16     17
+>  7.
+> ggr7.dlstx.ip.att.net                                                            
+>  
+>  
+>  
+> 0%   11   11   170   15   56    170
+>  8.
+> 192.205.36.42                                                                    
+>  
+>  
+>  
+> 0%   11   11    15   15   22     75
+>  9.
+> customer-side-bharti-4-pal6.pal.seabone.net                                      
+>  
+>  
+>  
+> 0%   10   11   286  286  287    287
+> 10.
+> 125.21.167.114                                                                   
+>  
+>  
+>  
+> 0%   10   10   285  285  285    285
+> 11.
+> 61.95.240.130                                                                    
+>  
+>  
+>  
+> 0%   10   10   283  283  283    286
+> 12.
+> abts-tn-static-248.253.246.61.airtelbroadband.in                                 
+>  
+>  
+>  
+> 0%   10   10   290  287  290    294
+>
+>
+   
+----------------------------------------------------------------------
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+> Bradley D. Bopp
+> Director Of  Engineering
+> http://www.nationalnet.com
+> http://as22384.peeringdb.net
+
+> NationalNet is committed to the highest level of Customer Service
+> available in the Web Hosting business.  If you have any questions,
+> comments or concerns feel free to contact us at 678-247-7000 ext 1
+> (or toll-free, 888-4-NATNET).
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/9029d80e/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 251 bytes
+Desc: OpenPGP digital signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/9029d80e/attachment.bin>
+
+From assid at assid.com  Fri Feb 19 09:35:58 2010
+From: assid at assid.com (Satish Alwani)
+Date: Fri, 19 Feb 2010 20:05:58 +0530
+Subject: [outages] Connectivity problems between US and India
+In-Reply-To: <4126_1266588661_o1JEAt0s010498_4B7E9BF1.5020504@rackspace.com>
+References: <4B7E8D46.3090007@edolnx.net>
+	<4126_1266588661_o1JEAt0s010498_4B7E9BF1.5020504@rackspace.com>
+Message-ID: <8d7bf55e-036c-4e2f-acf6-ee4fbb937af6@email.android.com>
+
+300ms is normal when you hit cross Atlantic. At least ever since I have had a net connection
+
+-- 
+Satish Alwani
+
+"Tom Sands" <tsands at rackspace.com> wrote:
+
+>We've had a lot of reports of the same.  40+% packet loss from different 
+>providers in India, with no one specific transit/hand-off showing to be 
+>the problem.
+>
+>
+>--------------------------------------------------------------------------------
+>Tom Sands			  				
+>Chief Network Engineer				
+>Rackspace 	    	
+>(210)312-4391	   	
+>--------------------------------------------------------------------------------
+>
+>Carl Perry wrote:
+>> We've been seeing a lot of customers call in with reports of slow access
+>> to their servers in the US.  Traceroutes back to them all yield
+>> round-trip times of 300ms once the connection gets across the ocean. 
+>> Anyone have any leads on a root cause?
+>> 
+>>  4.
+>> 12.87.122.245                                                                          
+>> 0%    9    9     9    9   10     11
+>>  5.
+>> cr2.hs1tx.ip.att.net                                                                   
+>> 0%    9    9    46   46   46     46
+>>  6.
+>> cr1.dlstx.ip.att.net                                                                   
+>> 0%    9    9    47   46   47     47
+>>  7.
+>> cr2.dlstx.ip.att.net                                                                   
+>> 0%    9    9    47   46   47     47
+>>  8.
+>> cr2.la2ca.ip.att.net                                                                   
+>> 0%    9    9    46   45   46     46
+>>  9.
+>> gar4.lsrca.ip.att.net                                                                  
+>> 0%    9    9    47   47   47     48
+>> 10.
+>> 12.86.240.10                                                                           
+>> 0%    9    9    46   45   46     49
+>> 11.
+>> segment-124-7.sify.net                                                                 
+>> 0%    8    9   269  268  269    269
+>> 12.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    9   268  267  268    271
+>> 13.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   269  267  268    271
+>> 14.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   270  269  271    274
+>> 15.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   270  268  270    276
+>> 16.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   271  269  270    271
+>> 17.
+>> 210.18.13.233.sify.net                                                                 
+>> 0%    8    8   268  268  268    269
+>> 18.
+>> segment-124-30.sify.net                                                                
+>> 0%    8    8   294  284  292    299
+>> 
+>> 
+>>  4.
+>> 12.87.122.245                                                                          
+>> 0%   11   11    10    9   10     11
+>>  5.
+>> cr2.hs1tx.ip.att.net                                                                   
+>> 0%   11   11    16   16   16     17
+>>  6.
+>> cr1.dlstx.ip.att.net                                                                   
+>> 0%   11   11    16   16   16     17
+>>  7.
+>> ggr7.dlstx.ip.att.net                                                                  
+>> 0%   11   11   170   15   56    170
+>>  8.
+>> 192.205.36.42                                                                          
+>> 0%   11   11    15   15   22     75
+>>  9.
+>> customer-side-bharti-4-pal6.pal.seabone.net                                            
+>> 0%   10   11   286  286  287    287
+>> 10.
+>> 125.21.167.114                                                                         
+>> 0%   10   10   285  285  285    285
+>> 11.
+>> 61.95.240.130                                                                          
+>> 0%   10   10   283  283  283    286
+>> 12.
+>> abts-tn-static-248.253.246.61.airtelbroadband.in                                       
+>> 0%   10   10   290  287  290    294
+>> 
+>> 
+>> 
+>
+>
+>Confidentiality Notice: This e-mail message (including any attached or
+>embedded documents) is intended for the exclusive and confidential use of the
+>individual or entity to which this message is addressed, and unless otherwise
+>expressly indicated, is confidential and privileged information of Rackspace. 
+>Any dissemination, distribution or copying of the enclosed material is prohibited.
+>If you receive this transmission in error, please notify us immediately by e-mail
+>at abuse at rackspace.com, and delete the original message. 
+>Your cooperation is appreciated.
+>
+>_______________________________________________
+>outages mailing list
+>outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+From jlsparks at gmail.com  Fri Feb 19 09:47:12 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Fri, 19 Feb 2010 14:47:12 +0000
+Subject: [outages] Connectivity problems between US and India
+In-Reply-To: <8d7bf55e-036c-4e2f-acf6-ee4fbb937af6@email.android.com>
+References: <4B7E8D46.3090007@edolnx.net><4126_1266588661_o1JEAt0s010498_4B7E9BF1.5020504@rackspace.com><8d7bf55e-036c-4e2f-acf6-ee4fbb937af6@email.android.com>
+Message-ID: <2006200036-1266590832-cardhu_decombobulator_blackberry.rim.net-781923480-@bda081.bisx.prod.on.blackberry>
+
+I concur, but to UK shouldn't be @ 300ms..
+@sparksjls
+Sent from my Verizon Wireless BlackBerry
+
+-----Original Message-----
+From: Satish Alwani <assid at assid.com>
+Date: Fri, 19 Feb 2010 20:05:58 
+To: Tom Sands<tsands at rackspace.com>; Carl Perry<caperry at edolnx.net>
+Cc: outages at outages.org<outages at outages.org>
+
+300ms is normal when you hit cross Atlantic. At least ever since I have had a net connection
+
+-- 
+Satish Alwani
+
+"Tom Sands" <tsands at rackspace.com> wrote:
+
+>We've had a lot of reports of the same.  40+% packet loss from different 
+>providers in India, with no one specific transit/hand-off showing to be 
+>the problem.
+>
+>
+>--------------------------------------------------------------------------------
+>Tom Sands			  				
+>Chief Network Engineer				
+>Rackspace 	    	
+>(210)312-4391	   	
+>--------------------------------------------------------------------------------
+>
+>Carl Perry wrote:
+>> We've been seeing a lot of customers call in with reports of slow access
+>> to their servers in the US.  Traceroutes back to them all yield
+>> round-trip times of 300ms once the connection gets across the ocean. 
+>> Anyone have any leads on a root cause?
+>> 
+>>  4.
+>> 12.87.122.245                                                                          
+>> 0%    9    9     9    9   10     11
+>>  5.
+>> cr2.hs1tx.ip.att.net                                                                   
+>> 0%    9    9    46   46   46     46
+>>  6.
+>> cr1.dlstx.ip.att.net                                                                   
+>> 0%    9    9    47   46   47     47
+>>  7.
+>> cr2.dlstx.ip.att.net                                                                   
+>> 0%    9    9    47   46   47     47
+>>  8.
+>> cr2.la2ca.ip.att.net                                                                   
+>> 0%    9    9    46   45   46     46
+>>  9.
+>> gar4.lsrca.ip.att.net                                                                  
+>> 0%    9    9    47   47   47     48
+>> 10.
+>> 12.86.240.10                                                                           
+>> 0%    9    9    46   45   46     49
+>> 11.
+>> segment-124-7.sify.net                                                                 
+>> 0%    8    9   269  268  269    269
+>> 12.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    9   268  267  268    271
+>> 13.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   269  267  268    271
+>> 14.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   270  269  271    274
+>> 15.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   270  268  270    276
+>> 16.
+>> segment-119-227.sify.net                                                               
+>> 0%    8    8   271  269  270    271
+>> 17.
+>> 210.18.13.233.sify.net                                                                 
+>> 0%    8    8   268  268  268    269
+>> 18.
+>> segment-124-30.sify.net                                                                
+>> 0%    8    8   294  284  292    299
+>> 
+>> 
+>>  4.
+>> 12.87.122.245                                                                          
+>> 0%   11   11    10    9   10     11
+>>  5.
+>> cr2.hs1tx.ip.att.net                                                                   
+>> 0%   11   11    16   16   16     17
+>>  6.
+>> cr1.dlstx.ip.att.net                                                                   
+>> 0%   11   11    16   16   16     17
+>>  7.
+>> ggr7.dlstx.ip.att.net                                                                  
+>> 0%   11   11   170   15   56    170
+>>  8.
+>> 192.205.36.42                                                                          
+>> 0%   11   11    15   15   22     75
+>>  9.
+>> customer-side-bharti-4-pal6.pal.seabone.net                                            
+>> 0%   10   11   286  286  287    287
+>> 10.
+>> 125.21.167.114                                                                         
+>> 0%   10   10   285  285  285    285
+>> 11.
+>> 61.95.240.130                                                                          
+>> 0%   10   10   283  283  283    286
+>> 12.
+>> abts-tn-static-248.253.246.61.airtelbroadband.in                                       
+>> 0%   10   10   290  287  290    294
+>> 
+>> 
+>> 
+>
+>
+>Confidentiality Notice: This e-mail message (including any attached or
+>embedded documents) is intended for the exclusive and confidential use of the
+>individual or entity to which this message is addressed, and unless otherwise
+>expressly indicated, is confidential and privileged information of Rackspace. 
+>Any dissemination, distribution or copying of the enclosed material is prohibited.
+>If you receive this transmission in error, please notify us immediately by e-mail
+>at abuse at rackspace.com, and delete the original message. 
+>Your cooperation is appreciated.
+>
+>_______________________________________________
+>outages mailing list
+>outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+From nuno.vieira at nfsi.pt  Fri Feb 19 09:45:16 2010
+From: nuno.vieira at nfsi.pt (Nuno Vieira - nfsi telecom)
+Date: Fri, 19 Feb 2010 14:45:16 +0000 (WET)
+Subject: [outages] Trans-Atlantic connectivity outages?
+In-Reply-To: <4B7EA163.7040700@edolnx.net>
+Message-ID: <527781700.13415.1266590716631.JavaMail.root@zimbra.nfsi.pt>
+
+Hi, 
+
+>From Portugal, i don't see that behaviour. 
+
+Probably is problem that is only affecting a few carriers/isps. 
+
+>From Portugal > USA all good 
+
+traceroute to www.nyiix.net (209.137.140.21), 30 hops max, 40 byte packets 
+1 xe13-10GE.xmr1.as25137.net (81.92.200.254) 0.587 ms 0.670 ms 0.707 ms 
+2 if-5-1-2.core1.PV9-Lisbon.as6453.net (195.219.186.9) 0.149 ms 0.145 ms if-5-1-1.core1.PV9-Lisbon.as6453.net (195.219.187.49) 0.138 ms 
+3 if-14-0-0.mcore3.NJY-Newark.as6453.net (209.58.124.9) 90.439 ms 90.529 ms 90.524 ms 
+4 if-4-0.core1.NYT-NewYork.as6453.net (216.6.57.26) 91.009 ms 91.148 ms 91.338 ms 
+5 Vlan3.msfc1.NYT-NewYork.as6453.net (64.86.113.9) 90.821 ms 90.911 ms 90.957 ms 
+6 Vlan151.msfc1.NYT-NewYork.as6453.net (64.86.113.18) 91.299 ms 91.253 ms 91.237 ms 
+7 ert10-04-gi5-1.kdd.net (209.137.129.42) 91.220 ms 91.075 ms 90.905 ms 
+8 209.137.137.130 (209.137.137.130) 91.541 ms 93.110 ms 93.300 ms 
+9 ns3.nyiix.net (209.137.140.21) 91.592 ms 91.589 ms 91.582 ms 
+
+traceroute to us1.nfsi.pt (209.239.114.141), 30 hops max, 40 byte packets 
+1 xe13-10GE.xmr1.as25137.net (81.92.200.254) 0.202 ms 0.288 ms 0.376 ms 
+2 mad-b1-link.telia.net (213.248.99.9) 20.328 ms 20.325 ms 20.318 ms 
+3 prs-bb1-link.telia.net (80.91.248.128) 48.797 ms 48.791 ms 48.784 ms 
+4 ash-bb1-link.telia.net (80.91.252.36) 126.969 ms 126.957 ms 126.999 ms 
+5 level3-113898-ash-bb1.telia.net (213.248.88.86) 126.983 ms 126.979 ms 127.017 ms 
+6 vlan69.csw1.Washington1.Level3.net (4.68.17.62) 131.694 ms vlan99.csw4.Washington1.Level3.net (4.68.17.254) 131.747 ms vlan69.csw1.Washington1.Level3.net (4.68.17.62) 131.346 ms 
+7 ae-72-72.ebr2.Washington1.Level3.net (4.69.134.149) 124.595 ms 123.890 ms ae-62-62.ebr2.Washington1.Level3.net (4.69.134.145) 129.071 ms 
+8 ae-2-2.ebr2.Chicago2.Level3.net (4.69.132.69) 144.928 ms 144.752 ms 144.739 ms 
+9 ae-5-5.ebr2.Chicago1.Level3.net (4.69.140.193) 146.378 ms 143.611 ms 148.210 ms 
+10 ae-4-4.car2.StLouis1.Level3.net (4.69.132.189) 148.101 ms 148.050 ms 147.788 ms 
+11 MESH-SOLUTI.car2.StLouis1.Level3.net (4.53.162.78) 234.974 ms 234.967 ms 234.950 ms 
+12 static-ip-69-64-45-140.inaddr.intergenia.de (69.64.45.140) 152.641 ms 152.637 ms 152.631 ms 
+13 usloft1147.serverloft.eu (209.239.114.141) 157.553 ms 156.899 ms 156.576 ms 
+
+>From Portugal > India all good aswell. 
+
+traceroute to www.tatacommunications.com (121.243.66.50), 30 hops max, 40 byte packets 
+1 xe13-10GE.xmr1.as25137.net (81.92.200.254) 0.225 ms 0.303 ms 0.340 ms 
+2 if-5-1-1.core1.PV9-Lisbon.as6453.net (195.219.187.49) 0.182 ms if-5-1-2.core1.PV9-Lisbon.as6453.net (195.219.186.9) 0.178 ms if-5-1-1.core1.PV9-Lisbon.as6453.net (195.219.187.49) 0.171 ms 
+3 if-1-0-0-469.core4.LDN-London.as6453.net (80.231.76.9) 38.134 ms 38.126 ms 38.119 ms 
+4 Vlan1707.icore1.LDN-London.as6453.net (195.219.83.45) 34.810 ms 34.805 ms 34.843 ms 
+5 ix-13-4.icore1.LDN-London.as6453.net (195.219.48.162) 33.376 ms 33.372 ms ix-13-43.icore1.LDN-London.as6453.net (195.219.48.178) 27.370 ms 
+6 59.163.55.149.static.vsnl.net.in (59.163.55.149) 159.716 ms 159.659 ms * 
+7 203.197.33.200.static.vsnl.net.in (203.197.33.200) 159.738 ms 159.732 ms 159.934 ms 
+8 * * * 
+9 121.243.64.138 (121.243.64.138) 160.621 ms 161.432 ms 161.671 ms 
+10 * * * 
+11 * * * 
+12 * * * 
+
+cheers, 
+--nvieira 
+
+
+----- "Carl Perry" <caperry at edolnx.net> wrote: 
+> It doesn't look isolated to India any more either. Our internal links between our US Data Centers and out London Data Centers are showing a 120ms increase in latency as well. Mind you, the latency to India is as high as 300ms so I'm wondering if there are two outages... 
+> 
+> On 2/19/10 8:27 AM, Bradley Bopp wrote: 
+> > Re: [outages] Trans-Atlantic connectivity outages? Hello Carl, 
+> > 
+> > I take a slightly different path than you but we have had tickets 
+> > since yesterday regarding this. We have a major customer with 
+> > operations in India that have been unable to RDP or VPN to there 
+> > systems here for about 24 hours. 
+> > 
+> > This is were it seems to break; 
+> > 
+> > 13. xe-11-2-0-xcr1.fra.cw.net 0.0% 10 116.6 127.2 116.6 
+> > 174.4 18.3 
+> > 14. ge-2-0-0-dcr2.fra.cw.net 0.0% 10 115.9 151.2 115.9 
+> > 314.2 63.7 
+> > 15. bharti-gw2.fra.cw.net 10.0% 10 292.3 291.6 287.8 
+> > 301.8 4.5 
+> > 16. 59.145.7.134 10.0% 10 289.0 293.7 289.0 
+> > 303.8 4.5 
+> > 17. 61.95.240.130 10.0% 10 288.0 294.5 288.0 
+> > 298.2 3.3 
+> > 18. ABTS-TN-Static-248.253.246.6 10.0% 10 306.9 295.8 290.8 
+> > 306.9 4.7 
+> > M 
+> > 
+> > I am not sure who the Fiber Carrier is out to this point I checked 
+> > with HA and it?s not there fiber. I doubt CW built this leg. 
+> > 
+> > If we can determine the carrier perhaps we can find out if there is 
+> > a Trans-Atlantic issue. 
+> > 
+> > 
+> > 
+> > 
+> > On 2/19/10 9:04 AM, "Carl Perry" <caperry at edolnx.net> wrote: 
+> > 
+> 
+
+We've been seeing a lot of customers call in with reports of 
+> slow access 
+> to their servers in the US. Traceroutes back to them all yield 
+> round-trip times of 300ms once the connection gets across the ocean. 
+> Anyone have any leads on a root cause? 
+> 
+> 4. 
+> 12.87.122.245 
+> 
+> 
+> 0% 9 9 9 9 10 11 
+> 5. 
+> cr2.hs1tx.ip.att.net 
+> 
+> 
+> 0% 9 9 46 46 46 46 
+> 6. 
+> cr1.dlstx.ip.att.net 
+> 
+> 
+> 0% 9 9 47 46 47 47 
+> 7. 
+> cr2.dlstx.ip.att.net 
+> 
+> 
+> 0% 9 9 47 46 47 47 
+> 8. 
+> cr2.la2ca.ip.att.net 
+> 
+> 
+> 0% 9 9 46 45 46 46 
+> 9. 
+> gar4.lsrca.ip.att.net 
+> 
+> 
+> 0% 9 9 47 47 47 48 
+> 10. 
+> 12.86.240.10 
+> 
+> 
+> 0% 9 9 46 45 46 49 
+> 11. 
+> segment-124-7.sify.net 
+> 
+> 
+> 0% 8 9 269 268 269 269 
+> 12. 
+> segment-119-227.sify.net 
+> 
+> 
+> 0% 8 9 268 267 268 271 
+> 13. 
+> segment-119-227.sify.net 
+> 
+> 
+> 0% 8 8 269 267 268 271 
+> 14. 
+> segment-119-227.sify.net 
+> 
+> 
+> 0% 8 8 270 269 271 274 
+> 15. 
+> segment-119-227.sify.net 
+> 
+> 
+> 0% 8 8 270 268 270 276 
+> 16. 
+> segment-119-227.sify.net 
+> 
+> 
+> 0% 8 8 271 269 270 271 
+> 17. 
+> 210.18.13.233.sify.net 
+> 
+> 
+> 0% 8 8 268 268 268 269 
+> 18. 
+> segment-124-30.sify.net 
+> 
+> 
+> 0% 8 8 294 284 292 299 
+> 
+> 
+> 4. 
+> 12.87.122.245 
+> 
+> 
+> 0% 11 11 10 9 10 11 
+> 5. 
+> cr2.hs1tx.ip.att.net 
+> 
+> 
+> 0% 11 11 16 16 16 17 
+> 6. 
+> cr1.dlstx.ip.att.net 
+> 
+> 
+> 0% 11 11 16 16 16 17 
+> 7. 
+> ggr7.dlstx.ip.att.net 
+> 
+> 
+> 0% 11 11 170 15 56 170 
+> 8. 
+> 192.205.36.42 
+> 
+> 
+> 0% 11 11 15 15 22 75 
+> 9. 
+> customer-side-bharti-4-pal6.pal.seabone.net 
+> 
+> 
+> 0% 10 11 286 286 287 287 
+> 10. 
+> 125.21.167.114 
+> 
+> 
+> 0% 10 10 285 285 285 285 
+> 11. 
+> 61.95.240.130 
+> 
+> 
+> 0% 10 10 283 283 283 286 
+> 12. 
+> abts-tn-static-248.253.246.61.airtelbroadband.in 
+> 
+> 
+> 0% 10 10 290 287 290 294 
+> 
+> 
+> 
+> ---------------------------------------------------------------------- 
+> _______________________________________________ 
+> outages mailing list 
+> outages at outages.org 
+> https://puck.nether.net/mailman/listinfo/outages 
+> 
+> 
+> 
+> > Bradley D. Bopp 
+> > Director Of Engineering 
+> > http://www.nationalnet.com 
+> > http://as22384.peeringdb.net 
+> 
+> > NationalNet is committed to the highest level of Customer Service 
+> > available in the Web Hosting business. If you have any questions, 
+> > comments or concerns feel free to contact us at 678-247-7000 ext 1 
+> > (or toll-free, 888-4-NATNET). 
+> 
+> 
+> 
+> 
+> _______________________________________________ 
+> outages mailing list 
+> outages at outages.org 
+> https://puck.nether.net/mailman/listinfo/outages 
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/79e74ab3/attachment-0001.html>
+
+From LarrySheldon at cox.net  Fri Feb 19 10:54:04 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Fri, 19 Feb 2010 09:54:04 -0600
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+In-Reply-To: <20100219084517.GA8215@greenie.muc.de>
+References: <20100219084517.GA8215@greenie.muc.de>
+Message-ID: <4B7EB41C.3020800@cox.net>
+
+On 2/19/2010 2:45 AM, Gert Doering wrote:
+> Hi,
+> 
+> one of my collagues complained about selfhtml.org unreachability, so I
+> checked, and what I found is disturbing:
+> 
+> ;; ANSWER SECTION:
+> selfhtml.org.           82408   IN      NS      ns12.verio.de.
+> selfhtml.org.           82408   IN      NS      ns13.verio.de.
+> 
+> ;; ADDITIONAL SECTION:
+> ns12.verio.de.          86259   IN      A       213.198.55.91
+> ns13.verio.de.          86259   IN      A       213.198.65.162
+> 
+> Cisco-M-XXX>sh ip b 213.198.55.91
+> % Network not in table
+> Cisco-M-XXX>sh ip b 213.198.65.192
+> % Network not in table
+> 
+> Verified at route-views.oregon-ix.net, so it's not a local problem in .DE
+> 
+> Does anybody know more?
+
+I'm a little confused, not that that matters much.
+
+In some places you say "verio.net", in others "verio.de"
+
+Similarly, you are looking, in one place, at "213.198.65.162", another,
+"213.198.65.192".
+
+I wonder if part of the problem is a general sloppiness in the
+trouble-shooting.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+
+From LarrySheldon at cox.net  Fri Feb 19 10:58:11 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Fri, 19 Feb 2010 09:58:11 -0600
+Subject: [outages] ns12/ns13.verio.DE (not .NET) fallen off the net?
+In-Reply-To: <20100219084819.GB8215@greenie.muc.de>
+References: <20100219084517.GA8215@greenie.muc.de>
+	<20100219084819.GB8215@greenie.muc.de>
+Message-ID: <4B7EB513.30305@cox.net>
+
+On 2/19/2010 2:48 AM, Gert Doering wrote:
+
+> ugh, sorry for the typo in the subject.  That should have been "versio.*DE*".
+
+I think you must type as I do--not well.
+
+Just checking--"verio" or "versio"?
+
+I like this:
+
+>> USENET is *not* the non-clickable part of WWW!
+
+FWIIW, I can reach selfhtml.org from here.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+
+From jlsparks at gmail.com  Fri Feb 19 11:01:56 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Fri, 19 Feb 2010 16:01:56 +0000
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+Message-ID: <1636521139-1266595316-cardhu_decombobulator_blackberry.rim.net-475618387-@bda081.bisx.prod.on.blackberry>
+
+Long week?  
+------Original Message------
+From: Larry Sheldon
+Sender: outages-bounces at outages.org
+To: outages at outages.org
+Subject: Re: [outages] ns12/ns13.verio.net fallen off the net?
+Sent: Feb 19, 2010 10:54 AM
+
+On 2/19/2010 2:45 AM, Gert Doering wrote:
+> Hi,
+> 
+> one of my collagues complained about selfhtml.org unreachability, so I
+> checked, and what I found is disturbing:
+> 
+> ;; ANSWER SECTION:
+> selfhtml.org.           82408   IN      NS      ns12.verio.de.
+> selfhtml.org.           82408   IN      NS      ns13.verio.de.
+> 
+> ;; ADDITIONAL SECTION:
+> ns12.verio.de.          86259   IN      A       213.198.55.91
+> ns13.verio.de.          86259   IN      A       213.198.65.162
+> 
+> Cisco-M-XXX>sh ip b 213.198.55.91
+> % Network not in table
+> Cisco-M-XXX>sh ip b 213.198.65.192
+> % Network not in table
+> 
+> Verified at route-views.oregon-ix.net, so it's not a local problem in .DE
+> 
+> Does anybody know more?
+
+I'm a little confused, not that that matters much.
+
+In some places you say "verio.net", in others "verio.de"
+
+Similarly, you are looking, in one place, at "213.198.65.162", another,
+"213.198.65.192".
+
+I wonder if part of the problem is a general sloppiness in the
+trouble-shooting.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+Sent from my Verizon Wireless BlackBerry
+
+From gert at greenie.muc.de  Fri Feb 19 11:22:31 2010
+From: gert at greenie.muc.de (Gert Doering)
+Date: Fri, 19 Feb 2010 17:22:31 +0100
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+In-Reply-To: <4B7EB41C.3020800@cox.net>
+References: <20100219084517.GA8215@greenie.muc.de> <4B7EB41C.3020800@cox.net>
+Message-ID: <20100219162231.GV9556@greenie.muc.de>
+
+Hi,
+
+On Fri, Feb 19, 2010 at 09:54:04AM -0600, Larry Sheldon wrote:
+> On 2/19/2010 2:45 AM, Gert Doering wrote:
+> > one of my collagues complained about selfhtml.org unreachability, so I
+> > checked, and what I found is disturbing:
+> > 
+> > ;; ANSWER SECTION:
+> > selfhtml.org.           82408   IN      NS      ns12.verio.de.
+> > selfhtml.org.           82408   IN      NS      ns13.verio.de.
+> > 
+> > ;; ADDITIONAL SECTION:
+> > ns12.verio.de.          86259   IN      A       213.198.55.91
+> > ns13.verio.de.          86259   IN      A       213.198.65.162
+> > 
+> > Cisco-M-XXX>sh ip b 213.198.55.91
+> > % Network not in table
+> > Cisco-M-XXX>sh ip b 213.198.65.192
+> > % Network not in table
+> > 
+> > Verified at route-views.oregon-ix.net, so it's not a local problem in .DE
+> > 
+> > Does anybody know more?
+> 
+> I'm a little confused, not that that matters much.
+> 
+> In some places you say "verio.net", in others "verio.de"
+
+I corrected that about two minutes later in a followup e-mail.
+
+
+> Similarly, you are looking, in one place, at "213.198.65.162", another,
+> "213.198.65.192".
+
+Since both addresses are from the same /24, and people don't do 
+longer-than-/24 announcements, it doesn't really make a difference
+(actually the whole /17 was missing from the BGP system, but came
+back in the meantime).
+
+But indeed, I was not looking closely enough when I wrote that e-mail
+(the BGP output in question was done after the initial diagnosis to
+have something to cut-and-paste).  Sorry for that.  
+
+Didn't change the problem, though, and people actually interested in 
+the *issue* have been able to figure out what I was talking about.
+
+> I wonder if part of the problem is a general sloppiness in the
+> trouble-shooting.
+
+... but some folks seem to be more interested in pointing out that I
+make mistakes every now and then.  Yes, I'm aware of that.
+
+But since the original problem has been solved many hours ago, this is
+all sort of moot, and we should close the thread or take it off-list.
+
+gert
+-- 
+USENET is *not* the non-clickable part of WWW!
+                                                           //www.muc.de/~gert/
+Gert Doering - Munich, Germany                             gert at greenie.muc.de
+fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+From maxsec at gmail.com  Fri Feb 19 11:37:17 2010
+From: maxsec at gmail.com (Martin Hepworth)
+Date: Fri, 19 Feb 2010 16:37:17 +0000
+Subject: [outages] Connectivity problems between US and India
+In-Reply-To: <2006200036-1266590832-cardhu_decombobulator_blackberry.rim.net-781923480-@bda081.bisx.prod.on.blackberry>
+References: <4B7E8D46.3090007@edolnx.net>
+	<4126_1266588661_o1JEAt0s010498_4B7E9BF1.5020504@rackspace.com>
+	<8d7bf55e-036c-4e2f-acf6-ee4fbb937af6@email.android.com>
+	<2006200036-1266590832-cardhu_decombobulator_blackberry.rim.net-781923480-@bda081.bisx.prod.on.blackberry>
+Message-ID: <72cf361e1002190837y893faedvb64b3c3d5352bc38@mail.gmail.com>
+
+LA-London should be around the 170ms mark FWIW
+
+-- 
+Martin Hepworth
+Oxford, UK
+
+On 19 February 2010 14:47, Jason L. Sparks <jlsparks at gmail.com> wrote:
+
+> I concur, but to UK shouldn't be @ 300ms..
+> @sparksjls
+> Sent from my Verizon Wireless BlackBerry
+>
+> -----Original Message-----
+> From: Satish Alwani <assid at assid.com>
+> Date: Fri, 19 Feb 2010 20:05:58
+> To: Tom Sands<tsands at rackspace.com>; Carl Perry<caperry at edolnx.net>
+> Cc: outages at outages.org<outages at outages.org>
+> Subject: Re: [outages] Connectivity problems between US and India
+>
+> 300ms is normal when you hit cross Atlantic. At least ever since I have had
+> a net connection
+>
+> --
+> Satish Alwani
+>
+> "Tom Sands" <tsands at rackspace.com> wrote:
+>
+> >We've had a lot of reports of the same.  40+% packet loss from different
+> >providers in India, with no one specific transit/hand-off showing to be
+> >the problem.
+> >
+> >
+>
+> >--------------------------------------------------------------------------------
+> >Tom Sands
+> >Chief Network Engineer
+> >Rackspace
+> >(210)312-4391
+>
+> >--------------------------------------------------------------------------------
+> >
+> >Carl Perry wrote:
+> >> We've been seeing a lot of customers call in with reports of slow access
+> >> to their servers in the US.  Traceroutes back to them all yield
+> >> round-trip times of 300ms once the connection gets across the ocean.
+> >> Anyone have any leads on a root cause?
+> >>
+> >>  4.
+> >> 12.87.122.245
+> >> 0%    9    9     9    9   10     11
+> >>  5.
+> >> cr2.hs1tx.ip.att.net
+> >> 0%    9    9    46   46   46     46
+> >>  6.
+> >> cr1.dlstx.ip.att.net
+> >> 0%    9    9    47   46   47     47
+> >>  7.
+> >> cr2.dlstx.ip.att.net
+> >> 0%    9    9    47   46   47     47
+> >>  8.
+> >> cr2.la2ca.ip.att.net
+> >> 0%    9    9    46   45   46     46
+> >>  9.
+> >> gar4.lsrca.ip.att.net
+> >> 0%    9    9    47   47   47     48
+> >> 10.
+> >> 12.86.240.10
+> >> 0%    9    9    46   45   46     49
+> >> 11.
+> >> segment-124-7.sify.net
+> >> 0%    8    9   269  268  269    269
+> >> 12.
+> >> segment-119-227.sify.net
+> >> 0%    8    9   268  267  268    271
+> >> 13.
+> >> segment-119-227.sify.net
+> >> 0%    8    8   269  267  268    271
+> >> 14.
+> >> segment-119-227.sify.net
+> >> 0%    8    8   270  269  271    274
+> >> 15.
+> >> segment-119-227.sify.net
+> >> 0%    8    8   270  268  270    276
+> >> 16.
+> >> segment-119-227.sify.net
+> >> 0%    8    8   271  269  270    271
+> >> 17.
+> >> 210.18.13.233.sify.net
+> >> 0%    8    8   268  268  268    269
+> >> 18.
+> >> segment-124-30.sify.net
+> >> 0%    8    8   294  284  292    299
+> >>
+> >>
+> >>  4.
+> >> 12.87.122.245
+> >> 0%   11   11    10    9   10     11
+> >>  5.
+> >> cr2.hs1tx.ip.att.net
+> >> 0%   11   11    16   16   16     17
+> >>  6.
+> >> cr1.dlstx.ip.att.net
+> >> 0%   11   11    16   16   16     17
+> >>  7.
+> >> ggr7.dlstx.ip.att.net
+> >> 0%   11   11   170   15   56    170
+> >>  8.
+> >> 192.205.36.42
+> >> 0%   11   11    15   15   22     75
+> >>  9.
+> >> customer-side-bharti-4-pal6.pal.seabone.net
+> >> 0%   10   11   286  286  287    287
+> >> 10.
+> >> 125.21.167.114
+> >> 0%   10   10   285  285  285    285
+> >> 11.
+> >> 61.95.240.130
+> >> 0%   10   10   283  283  283    286
+> >> 12.
+> >> abts-tn-static-248.253.246.61.airtelbroadband.in
+> >> 0%   10   10   290  287  290    294
+> >>
+> >>
+> >>
+> >
+> >
+> >Confidentiality Notice: This e-mail message (including any attached or
+> >embedded documents) is intended for the exclusive and confidential use of
+> the
+> >individual or entity to which this message is addressed, and unless
+> otherwise
+> >expressly indicated, is confidential and privileged information of
+> Rackspace.
+> >Any dissemination, distribution or copying of the enclosed material is
+> prohibited.
+> >If you receive this transmission in error, please notify us immediately by
+> e-mail
+> >at abuse at rackspace.com, and delete the original message.
+> >Your cooperation is appreciated.
+> >
+> >_______________________________________________
+> >outages mailing list
+> >outages at outages.org
+> >https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100219/61ca50fe/attachment-0001.html>
+
+From LarrySheldon at cox.net  Fri Feb 19 12:19:30 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Fri, 19 Feb 2010 11:19:30 -0600
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+In-Reply-To: <20100219162231.GV9556@greenie.muc.de>
+References: <20100219084517.GA8215@greenie.muc.de> <4B7EB41C.3020800@cox.net>
+	<20100219162231.GV9556@greenie.muc.de>
+Message-ID: <4B7EC822.6080602@cox.net>
+
+On 2/19/2010 10:22 AM, Gert Doering (in private email) wrote:
+[discussion about an outage, and my ham-handed response to typos....]
+
+> But indeed, I was not looking closely enough when I wrote that e-mail
+> (the BGP output in question was done after the initial diagnosis to
+> have something to cut-and-paste).  Sorry for that.  
+> 
+> Didn't change the problem, though, and people actually interested in 
+> the *issue* have been able to figure out what I was talking about.
+> 
+>> I wonder if part of the problem is a general sloppiness in the
+>> trouble-shooting.
+> 
+> ... but some folks seem to be more interested in pointing out that I
+> make mistakes every now and then.  Yes, I'm aware of that.
+
+I was actually trying to be helpful, although I'm not sure anybody would
+be able to tell that.
+
+I may be the king of typo's.
+
+> But since the original problem has been solved many hours ago, this is
+> all sort of moot, and we should close the thread or take it off-list.
+
+And I didn't pay attention to the time.
+
+And yes, it is past due being dropped, but I feel a need to publicly
+publish an apology for my boorish behaviour.  Lot of stress fractures
+here, but that is not your problem.
+
+I'm sorry.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+
+From mikehoffman at odysseylogistics.com  Fri Feb 19 12:39:29 2010
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Fri, 19 Feb 2010 12:39:29 -0500
+Subject: [outages] ns12/ns13.verio.net fallen off the net?
+In-Reply-To: <4B7EC822.6080602@cox.net>
+References: <20100219084517.GA8215@greenie.muc.de>
+	<4B7EB41C.3020800@cox.net>	<20100219162231.GV9556@greenie.muc.de>
+	<4B7EC822.6080602@cox.net>
+Message-ID: <36E0EB159193B54A90D743B0F8DB1ED01A324D3FFD@p10-exchg.odysseylogistics.com>
+
+I think that part of the problem is that sometimes these emails arrive out of chronological order.  It's confused me before.  Glad we're all a happy community again.  =)
+
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+39 Old Ridgebury Rd
+A-4
+Danbury, CT? 06810
+Phone: (203) 448-3872
+Fax: (203) 448-3901
+?
+?
+Odyssey Overland LLC
+1500 Rt 517
+Hackettstown, NJ? 07840
+Phone: (908) 850-4490 x207
+Fax: (908) 850-3852
+?
+CONFIDENTIALITY NOTICE: 
+This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Larry Sheldon
+Sent: Friday, February 19, 2010 12:20 PM
+To: Gert Doering
+Cc: outages at outages.org
+
+On 2/19/2010 10:22 AM, Gert Doering (in private email) wrote:
+[discussion about an outage, and my ham-handed response to typos....]
+
+> But indeed, I was not looking closely enough when I wrote that e-mail
+> (the BGP output in question was done after the initial diagnosis to
+> have something to cut-and-paste).  Sorry for that.  
+> 
+> Didn't change the problem, though, and people actually interested in 
+> the *issue* have been able to figure out what I was talking about.
+> 
+>> I wonder if part of the problem is a general sloppiness in the
+>> trouble-shooting.
+> 
+> ... but some folks seem to be more interested in pointing out that I
+> make mistakes every now and then.  Yes, I'm aware of that.
+
+I was actually trying to be helpful, although I'm not sure anybody would
+be able to tell that.
+
+I may be the king of typo's.
+
+> But since the original problem has been solved many hours ago, this is
+> all sort of moot, and we should close the thread or take it off-list.
+
+And I didn't pay attention to the time.
+
+And yes, it is past due being dropped, but I feel a need to publicly
+publish an apology for my boorish behaviour.  Lot of stress fractures
+here, but that is not your problem.
+
+I'm sorry.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From wcyoung at buffalo.edu  Sat Feb 20 11:26:56 2010
+From: wcyoung at buffalo.edu (Wes Young)
+Date: Sat, 20 Feb 2010 11:26:56 -0500
+Subject: [outages] facebook issues
+Message-ID: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+
+http://twitter.com/#search?q=facebook -- 200 tweets / min describing a  
+face-book outage.
+
+[it's kinda phunny]
+--
+Wes
+http://claimid.com/wesyoung
+
+
+From bpfankuch at cpgreeley.com  Sat Feb 20 11:41:15 2010
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sat, 20 Feb 2010 09:41:15 -0700
+Subject: [outages] facebook issues
+In-Reply-To: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+References: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7578FFAC3A2@CPExchange1.cpgreeley.com>
+
+Seems to be working for me, just exceptionally slow.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Wes Young
+Sent: Saturday, February 20, 2010 9:27 AM
+To: outages at outages.org
+
+http://twitter.com/#search?q=facebook -- 200 tweets / min describing a face-book outage.
+
+[it's kinda phunny]
+--
+Wes
+http://claimid.com/wesyoung
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From cstone at axint.net  Sat Feb 20 12:10:39 2010
+From: cstone at axint.net (Chris Stone)
+Date: Sat, 20 Feb 2010 10:10:39 -0700
+Subject: [outages] facebook issues
+In-Reply-To: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+References: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+Message-ID: <4B80178F.3070604@axint.net>
+
+On 02/20/2010 09:26 AM, Wes Young wrote:
+> http://twitter.com/#search?q=facebook -- 200 tweets / min describing a
+> face-book outage.
+
+I don't tweet or use facebook, but....
+
+Seeing DNS resolution failures from here (Denver on Cogent) for
+facebookmail.com - success on facebook.com:
+
+$ dig mx facebookmail.com +trace
+
+; <<>> DiG 9.6.1-P3 <<>> mx facebookmail.com +trace
+;; global options: +cmd
+.                       151474  IN      NS      J.ROOT-SERVERS.NET.
+.                       151474  IN      NS      C.ROOT-SERVERS.NET.
+.                       151474  IN      NS      D.ROOT-SERVERS.NET.
+.                       151474  IN      NS      B.ROOT-SERVERS.NET.
+.                       151474  IN      NS      A.ROOT-SERVERS.NET.
+.                       151474  IN      NS      I.ROOT-SERVERS.NET.
+.                       151474  IN      NS      M.ROOT-SERVERS.NET.
+.                       151474  IN      NS      E.ROOT-SERVERS.NET.
+.                       151474  IN      NS      L.ROOT-SERVERS.NET.
+.                       151474  IN      NS      H.ROOT-SERVERS.NET.
+.                       151474  IN      NS      F.ROOT-SERVERS.NET.
+.                       151474  IN      NS      K.ROOT-SERVERS.NET.
+.                       151474  IN      NS      G.ROOT-SERVERS.NET.
+;; Received 360 bytes from 127.0.0.1#53(127.0.0.1) in 0 ms
+
+com.                    172800  IN      NS      a.gtld-servers.net.
+com.                    172800  IN      NS      b.gtld-servers.net.
+com.                    172800  IN      NS      c.gtld-servers.net.
+com.                    172800  IN      NS      d.gtld-servers.net.
+com.                    172800  IN      NS      e.gtld-servers.net.
+com.                    172800  IN      NS      f.gtld-servers.net.
+com.                    172800  IN      NS      g.gtld-servers.net.
+com.                    172800  IN      NS      h.gtld-servers.net.
+com.                    172800  IN      NS      i.gtld-servers.net.
+com.                    172800  IN      NS      j.gtld-servers.net.
+com.                    172800  IN      NS      k.gtld-servers.net.
+com.                    172800  IN      NS      l.gtld-servers.net.
+com.                    172800  IN      NS      m.gtld-servers.net.
+;; Received 497 bytes from 128.63.2.53#53(H.ROOT-SERVERS.NET) in 139 ms
+
+facebookmail.com.       172800  IN      NS      dns04.sf2p.tfbnw.net.
+facebookmail.com.       172800  IN      NS      dns05.sf2p.tfbnw.net.
+;; Received 120 bytes from 192.35.51.30#53(f.gtld-servers.net) in 97 ms
+
+;; connection timed out; no servers could be reached
+
+
+$ dig mx facebook.com +trace
+
+; <<>> DiG 9.6.1-P3 <<>> mx facebook.com +trace
+;; global options: +cmd
+.                       151352  IN      NS      J.ROOT-SERVERS.NET.
+.                       151352  IN      NS      B.ROOT-SERVERS.NET.
+.                       151352  IN      NS      G.ROOT-SERVERS.NET.
+.                       151352  IN      NS      C.ROOT-SERVERS.NET.
+.                       151352  IN      NS      K.ROOT-SERVERS.NET.
+.                       151352  IN      NS      M.ROOT-SERVERS.NET.
+.                       151352  IN      NS      A.ROOT-SERVERS.NET.
+.                       151352  IN      NS      L.ROOT-SERVERS.NET.
+.                       151352  IN      NS      H.ROOT-SERVERS.NET.
+.                       151352  IN      NS      D.ROOT-SERVERS.NET.
+.                       151352  IN      NS      F.ROOT-SERVERS.NET.
+.                       151352  IN      NS      I.ROOT-SERVERS.NET.
+.                       151352  IN      NS      E.ROOT-SERVERS.NET.
+;; Received 480 bytes from 127.0.0.1#53(127.0.0.1) in 0 ms
+
+com.                    172800  IN      NS      H.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      I.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      K.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      C.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      B.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      E.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      F.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      A.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      D.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      G.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      J.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      L.GTLD-SERVERS.NET.
+com.                    172800  IN      NS      M.GTLD-SERVERS.NET.
+;; Received 490 bytes from 192.112.36.4#53(G.ROOT-SERVERS.NET) in 137 ms
+
+facebook.com.           172800  IN      NS      dns04.sf2p.tfbnw.net.
+facebook.com.           172800  IN      NS      dns05.sf2p.tfbnw.net.
+facebook.com.           172800  IN      NS      ns1.facebook.com.
+facebook.com.           172800  IN      NS      ns2.facebook.com.
+;; Received 184 bytes from 192.55.83.30#53(M.GTLD-SERVERS.NET) in 269 ms
+
+facebook.com.           1200    IN      MX      10 mx.snc1.tfbnw.net.
+facebook.com.           1200    IN      MX      10 mx.sf2p.tfbnw.net.
+facebook.com.           172800  IN      NS      ns2.facebook.com.
+facebook.com.           172800  IN      NS      dns05.sf2p.tfbnw.net.
+facebook.com.           172800  IN      NS      dns04.sf2p.tfbnw.net.
+facebook.com.           172800  IN      NS      ns1.facebook.com.
+;; Received 195 bytes from 204.74.66.132#53(ns1.facebook.com) in 109 ms
+
+Trying to 'talk' to dns04.sf2p.tfbnw.net and dns05.sf2p.tfbnw.net fails with
+a timeout. Am able to resolve them OK 69.63.176.8 and 69.63.176.9 but traces
+to them and pings fail:
+
+HOST: csmdv.highmtnsoftware.com   Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 10.10.100.254                 0.0%     5    0.9   1.0   0.9   1.5   0.2
+  2. 192.168.0.1                  20.0%     5    1.5   1.5   1.5   1.6   0.0
+  3. 38.116.136.1                  0.0%     5   53.5  55.9  53.0  66.5   6.0
+  4. 38.112.6.145                  0.0%     5   53.4  53.6  53.4  53.9   0.2
+  5. 66.250.10.217                 0.0%     5   53.7  53.7  53.4  54.1   0.3
+  6. 154.54.24.82                  0.0%     5   65.6  67.2  65.1  74.6   4.1
+  7. 154.54.5.217                  0.0%     5   76.5  76.4  75.6  78.3   1.1
+  8. 154.54.6.94                   0.0%     5   76.5  81.5  75.9  93.8   7.9
+  9. 154.54.12.138                40.0%     5   75.7  75.8  75.7  75.9   0.1
+ 10. 129.250.2.173                 0.0%     5   80.1  77.2  76.2  80.1   1.6
+ 11. 129.250.4.25                 20.0%     5  100.7 105.2 100.1 118.9   9.2
+ 12. 129.250.5.55                 20.0%     5   99.3  99.6  99.3  99.8   0.3
+ 13. 128.241.219.126               0.0%     5  120.3 111.9  99.1 127.4  12.5
+ 14. 74.119.76.21                  0.0%     5  115.0 104.1 101.0 115.0   6.1
+ 15. 74.119.76.26                  0.0%     5  101.3 105.0 101.3 117.9   7.2
+ 16. 204.15.23.253                 0.0%     5  102.0 102.8 102.0 104.0   0.7
+ 17. ???                          100.0     5    0.0   0.0   0.0   0.0   0.0
+
+
+Chris
+
+
+From cburwell at gmail.com  Sat Feb 20 15:36:44 2010
+From: cburwell at gmail.com (Chris Burwell)
+Date: Sat, 20 Feb 2010 15:36:44 -0500
+Subject: [outages] facebook issues
+In-Reply-To: <4B80178F.3070604@axint.net>
+References: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+	<4B80178F.3070604@axint.net>
+Message-ID: <e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+
+I always laugh when I see Facebook and Twitter outages appear on this
+list! The first thought that comes to my mind is usually "who cares".
+
+No offense intended to anyone. I do realize that there are some
+companies that have legitimate uses for these services, I just come
+from the opposite end of the spectrum where we block them.
+
+- Chris
+
+From LarrySheldon at cox.net  Sat Feb 20 15:44:34 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Sat, 20 Feb 2010 14:44:34 -0600
+Subject: [outages] facebook issues
+In-Reply-To: <e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+References: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>	<4B80178F.3070604@axint.net>
+	<e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+Message-ID: <4B8049B2.6050501@cox.net>
+
+On 2/20/2010 2:36 PM, Chris Burwell wrote:
+> I always laugh when I see Facebook and Twitter outages appear on this
+> list! The first thought that comes to my mind is usually "who cares".
+> 
+> No offense intended to anyone. I do realize that there are some
+> companies that have legitimate uses for these services, I just come
+> from the opposite end of the spectrum where we block them.
+
+Some people have "customers" (write if you need help with the concept)
+who pay for the use of such things.
+
+-- 
+"Government big enough to supply everything you need is big enough to
+take everything you have."
+
+Remember:  The Ark was built by amateurs, the Titanic by professionals.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+	
+
+From scott at sberkman.net  Sat Feb 20 15:49:21 2010
+From: scott at sberkman.net (Scott Berkman)
+Date: Sat, 20 Feb 2010 15:49:21 -0500
+Subject: [outages] facebook issues
+In-Reply-To: <e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+Message-ID: <20100220204906.3632C80D20@spaceymail-a1.g.dreamhost.com>
+
+I agree.
+
+The only reason I like to see a notice on this type of thing is that as an ISP I want to know that an issue reported by a user isn't our fault. ?It's relevant on outages but certainly not worth lengthy discussion and debate.
+
+??-Scott
+
+-- Sent from my Palm Pre
+Chris Burwell wrote:
+
+I always laugh when I see Facebook and Twitter outages appear on this
+
+list! The first thought that comes to my mind is usually "who cares".
+
+
+
+No offense intended to anyone. I do realize that there are some
+
+companies that have legitimate uses for these services, I just come
+
+from the opposite end of the spectrum where we block them.
+
+
+
+- Chris
+
+_______________________________________________
+
+outages mailing list
+
+outages at outages.org
+
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100220/69b35aab/attachment.html>
+
+From mysidia at gmail.com  Sat Feb 20 18:22:57 2010
+From: mysidia at gmail.com (James Hess)
+Date: Sat, 20 Feb 2010 17:22:57 -0600
+Subject: [outages] facebook issues
+In-Reply-To: <e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+References: <025D298D-3834-4923-9E59-75D3F1A6265C@buffalo.edu>
+	<4B80178F.3070604@axint.net>
+	<e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com>
+Message-ID: <6eb799ab1002201522j52497342y1cd1ef6492f82ce7@mail.gmail.com>
+
+On Sat, Feb 20, 2010 at 2:36 PM, Chris Burwell <cburwell at gmail.com> wrote:
+> I always laugh when I see Facebook and Twitter outages appear on this
+> list! The first thought that comes to my mind is usually "who cares".
+> No offense intended to anyone. I do realize that there are some
+> companies that have legitimate uses for these services, I just come
+> from the opposite end of the spectrum where we block them.
+
+According to Alexa rankings,  facebook.com has a reach of  30% of the
+Internet users,   Google web search has a reach of 40%.
+And yes,  companies have legitimate uses for facebook and twitter,  in
+terms of marketing their wares, and finding/communicating with
+vendors, it would be insane to ignore opportunities for free marketing
+and PR  channels there.
+
+Facebook, Wikipedia, MSN,  Myspace, Twitter,  Youtube, Yahoo,  Google
+ _are_  the internet,  as far as joe sixpack knows.
+
+
+Blocking any of those is almost unthinkable,  but  your network, your rules.
+An outage of any of these is still likely to result in a report of
+"issues"  from  end-users.
+
+If you are an ISP,  people are buying your services so they can access these.
+It is good for you to know if the sites themselves are actually having issues,
+so you can prove their issues are not due to your network.
+
+--
+-J
+
+From jlsparks at gmail.com  Sat Feb 20 18:21:17 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Sat, 20 Feb 2010 23:21:17 +0000
+Subject: [outages] facebook issues
+In-Reply-To: <20100220204906.3632C80D20@spaceymail-a1.g.dreamhost.com>
+References: <e13f4b7b1002201236v45244b0as273fe296833f41df@mail.gmail.com><20100220204906.3632C80D20@spaceymail-a1.g.dreamhost.com>
+Message-ID: <658110630-1266708078-cardhu_decombobulator_blackberry.rim.net-1614240583-@bda081.bisx.prod.on.blackberry>
+
+It is most certainly relevent when some of us get lit up by consumers (without whom we wouldn't be in business) who want to know why they can't use social networking products important to them. 
+Sent from my Verizon Wireless BlackBerry
+
+-----Original Message-----
+From: "Scott Berkman" <scott at sberkman.net>
+Date: Sat, 20 Feb 2010 15:49:21 
+To: Chris Burwell<cburwell at gmail.com>; outages at outages.org<outages at outages.org>
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From josh at imaginenetworksllc.com  Sat Feb 20 19:32:40 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sat, 20 Feb 2010 19:32:40 -0500
+Subject: [outages] Time Warner Cable Dayton Ohio outage
+Message-ID: <961092e11002201632i53c3bc4du4ba675844bbd9a7c@mail.gmail.com>
+
+Customers with Time Warner Cable on dedicated access (fiber) in the
+Dayton area are all down.  No ETR.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+From josh at imaginenetworksllc.com  Sat Feb 20 20:02:13 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sat, 20 Feb 2010 20:02:13 -0500
+Subject: [outages] Time Warner Cable Dayton Ohio outage
+In-Reply-To: <961092e11002201632i53c3bc4du4ba675844bbd9a7c@mail.gmail.com>
+References: <961092e11002201632i53c3bc4du4ba675844bbd9a7c@mail.gmail.com>
+Message-ID: <961092e11002201702s78cbbb05r56683c93b26e6089@mail.gmail.com>
+
+This is resolved.  Cisco router rebooted in to recovery mode.  Tech
+had to drive to the router and reboot it once again.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Sat, Feb 20, 2010 at 7:32 PM, Josh Luthman
+<josh at imaginenetworksllc.com> wrote:
+> Customers with Time Warner Cable on dedicated access (fiber) in the
+> Dayton area are all down. ?No ETR.
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+> ?Success is not final, failure is not fatal: it is the courage to
+> continue that counts.?
+> --- Winston Churchill
+>
+
+From colinj at mx5.org.uk  Sun Feb 21 09:06:57 2010
+From: colinj at mx5.org.uk (Colin Johnston)
+Date: Sun, 21 Feb 2010 14:06:57 +0000
+Subject: [outages] Rapidswitch as 29131  AC prob
+In-Reply-To: <81ecd7701002132205t57436d5bne17a2b42515d184a@mail.gmail.com>
+References: <81ecd7701002132205t57436d5bne17a2b42515d184a@mail.gmail.com>
+Message-ID: <6279AF5C-BB01-4B3B-A5AC-B556812B0FA0@mx5.org.uk>
+
+After having to deal with a VM hosted inside RapidSwitch today it became apparent network information phone numbers are out of date.
+How can this be enforced for DR purposes as it actually caused problems for resolution debugging for a application 'Comms Satellite dish alignment checking for disaster folks using a web page for functionality'.
+
+Colin Johnston
+mx5 owners
+
+
+From surfer at mauigateway.com  Mon Feb 22 20:50:12 2010
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Mon, 22 Feb 2010 17:50:12 -0800
+Subject: [outages] AT&T issues?
+Message-ID: <20100222175012.B5C32BE1@resin17.mta.everyone.net>
+
+
+
+Seeing major issues with AT&T in Hawaii.  Anyone out there seeing it too?  42 routes instead of the full table.  voice, etc...
+
+scott
+
+From manufauji at yahoo.com  Mon Feb 22 21:39:04 2010
+From: manufauji at yahoo.com (fauji manu)
+Date: Mon, 22 Feb 2010 18:39:04 -0800 (PST)
+Subject: [outages] AT&T issues?
+In-Reply-To: <20100222175012.B5C32BE1@resin17.mta.everyone.net>
+References: <20100222175012.B5C32BE1@resin17.mta.everyone.net>
+Message-ID: <792353.12793.qm@web36107.mail.mud.yahoo.com>
+
+Yes indeed, AT&T is reporting a Fiber cut but no ETR.
+
+
+
+----- Original Message ----
+From: Scott Weeks <surfer at mauigateway.com>
+To: outages at outages.org
+Sent: Mon, February 22, 2010 5:50:12 PM
+
+
+
+Seeing major issues with AT&T in Hawaii.? Anyone out there seeing it too?? 42 routes instead of the full table.? voice, etc...
+
+scott
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+      
+
+From surfer at mauigateway.com  Mon Feb 22 22:02:23 2010
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Mon, 22 Feb 2010 19:02:23 -0800
+Subject: [outages] RESOLVED Re:  AT&T issues?
+Message-ID: <20100222190223.B5C57082@resin14.mta.everyone.net>
+
+
+
+
+----- Original Message ----
+From: Scott Weeks <surfer at mauigateway.com>
+
+Seeing major issues with AT&T in Hawaii.? Anyone out there seeing it too?? 42 routes instead of the full table.? voice, etc...
+--------------------------------------
+
+
+It turns out that is within the State of Hawaii only.
+
+scott
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------
+---------------
+----------------
+
+
+
+
+
+
+From surfer at mauigateway.com  Mon Feb 22 22:24:13 2010
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Mon, 22 Feb 2010 19:24:13 -0800
+Subject: [outages] RESOLVED Re:  AT&T issues?
+Message-ID: <20100222192413.B5C57437@resin14.mta.everyone.net>
+
+
+
+----- Original Message ----
+Seeing major issues with AT&T in Hawaii.? Anyone out there seeing it too?? 42 routes instead of the full table.? voice, etc...
+--------------------------------------
+It turns out that is within the State of Hawaii only.
+-----------------------------------------------
+
+
+One last post as it turns out that there're some folks here asking.  It's just a couple of Gbps down:
+
+"AT&T fiber cut between Makaha & Pearl City, 43 DS3s down. Splicer's are onsite working on 23 of the DS3s according to priority. No ETR at this time."
+
+scott
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------
+---------------
+----------------
+
+
+
+
+
+
+
+

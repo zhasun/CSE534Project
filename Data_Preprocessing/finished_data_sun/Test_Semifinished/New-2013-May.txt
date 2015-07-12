@@ -1,0 +1,2822 @@
+###############################################################
+Issues with Earthlink/STS in Florida
+###############################################################
+  Anyone know what the issues are with Earthlink/STS in Florida? I have
+ multiple circuits down, and the only info I've been able to get out of
+ Earthlink is that "hundreds of customers" have been affected and they have
+ no ETR. I haven't been able to get a master ticket number or a conference
+ bridge number out of anyone.  I just was on hold for over 30 minutes trying
+ to get a hold of someone to talk to.
+ This is affecting both my legacy and data circuits.
+ Thanks folks, and sorry for the noise.
+ -Eric
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130506/ce409f08/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anonymous attack set for Tuesday
+###############################################################
+ Just saw this come by:
+ http://m.usatoday.com/article/news/2139349
+ Banks, CUs, over 100 targets.
+ Or maybe this is a reverse Diabolique.
+ Cheers,
+ - jra
+ -- 
+ Sent from my Android phone with K-9 Mail. Please excuse my brevity.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/e4f26857/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Centurylink nationwide outage
+###############################################################
+ Saw our Centurylink Ethernet circuit lose L3 connectivity in SWFL around 0400 EDT. 
+ ANS/ABS states it's a nationwide routing issue. No ETR.
+ >From what I've heard its about 10 states affected, mostly legacy
+ Centurylink/embarq
+ Seems to be affecting DSL, T1 on our end, and from what you've said
+ ethernet as well.
+ On Tue, May 7, 2013 at 8:33 AM, Marco Prechel <marcoprechel at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/d0e417b8/attachment.html>
+ Same issue in Tallahasee and Orlando FL. CenturyLink's outage has virtually
+ crippled the Florida State Capital.
+ http://cdn.l2net.com/content/video/CTLFL-Outage-BGP-05072013.mp4
+ Kraig Beahn, CEO
+ L2Networks Corp.
+ Office 850.701.4999
+ Operations 888.695.5905
+ Fax 877.734.3843
+ On May 7, 2013 8:43 AM, "Marco Prechel" <marcoprechel at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/671cde60/attachment.html>
+  <CAEgjJMRN64GU_bH3N8kt5T9V6AN7gm62juxn6a8335xuewy6Uw@mail.gmail.com>
+ Centurylink Ethernet up and running in there hometown of Monroe LA as of
+ 8:00 AM.
+ On Tuesday, May 7, 2013, Kraig Beahn wrote:
+ -- 
+ Jeremie Chism
+ Triton Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/3aa4b84f/attachment.html>
+  <CAEgjJMRN64GU_bH3N8kt5T9V6AN7gm62juxn6a8335xuewy6Uw@mail.gmail.com>
+ Have a number of customer DSL sites down as well, southern US. Help Desk is telling me they can't get a ticket number from CL for this -- anyone have a master ticket from CL? 
+ ---------------------------
+ Tom Mackintosh 
+ Sent from my iPhone
+ On May 7, 2013, at 8:53 AM, Kraig Beahn <kraig at l2net.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/51c98a68/attachment-0001.html>
+  <CAEgjJMRN64GU_bH3N8kt5T9V6AN7gm62juxn6a8335xuewy6Uw@mail.gmail.com>,
+  <CAG-pSShKZakHCJ63g_F5gpQok1ksOEMFH2_NMtLp9D01YJJ4ww@mail.gmail.com>
+ Tons of latency in VA on IQ Enhanced
+ Bryan Riley
+ OnCall Telecom
+ ________________________________
+ From: Outages [outages-bounces at outages.org] On Behalf Of Jeremie Chism [jchism2 at gmail.com]
+ Sent: Tuesday, May 07, 2013 9:03 AM
+ Cc: outages at outages.org
+ Centurylink Ethernet up and running in there hometown of Monroe LA as of 8:00 AM.
+ On Tuesday, May 7, 2013, Kraig Beahn wrote:
+ Same issue in Tallahasee and Orlando FL. CenturyLink's outage has virtually crippled the Florida State Capital.
+ http://cdn.l2net.com/content/video/CTLFL-Outage-BGP-05072013.mp4
+ Kraig Beahn, CEO
+ L2Networks Corp.
+ Office 850.701.4999
+ Operations 888.695.5905
+ Fax 877.734.3843
+ On May 7, 2013 8:43 AM, "Marco Prechel" <marcoprechel at gmail.com<https://webmail.geeksoncall.com/owa/UrlBlockedError.aspx>> wrote:
+ Saw our Centurylink Ethernet circuit lose L3 connectivity in SWFL around 0400 EDT.
+ ANS/ABS states it's a nationwide routing issue. No ETR.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<https://webmail.geeksoncall.com/owa/UrlBlockedError.aspx>
+ https://puck.nether.net/mailman/listinfo/outages
+ --
+ Jeremie Chism
+ Triton Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/5ee15f39/attachment.html>
+  <CAEgjJMRN64GU_bH3N8kt5T9V6AN7gm62juxn6a8335xuewy6Uw@mail.gmail.com>
+  <CAG-pSShKZakHCJ63g_F5gpQok1ksOEMFH2_NMtLp9D01YJJ4ww@mail.gmail.com>
+ Been down and out for the count here in Kansas City on AS22186 (Legacy 
+ Embarq/Sprint) / 76.7.0.0/19 since around 3AM central time. The routing 
+ within CenturyLinks' network still appears to be functional (DSL 
+ customers), but anything outside of a local region with CenturyLink 
+ appears to not function.
+ Unfortunately, I've not much more to say than that. =/
+ Regards,
+ Brett
+ On 5/7/2013 8:03 AM, Jeremie Chism wrote:
+  <CAPC+kK4TC6t7nM96fM5fC77Hb6q2BopepMichYPNQJ+WypOgqQ@mail.gmail.com>
+ DSL seems fine in Ohio.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On May 7, 2013 8:49 AM, "Mitch" <mitpatterson at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/3f375016/attachment.html>
+ I first saw timeouts with www.qwest.com over IPv6 at 3:08 am Central -- I
+ was wondering why, now I know. =)
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Marco
+ Prechel
+ Sent: Tuesday, May 07, 2013 7:33 AM
+ Saw our Centurylink Ethernet circuit lose L3 connectivity in SWFL around
+ 0400 EDT. 
+ ANS/ABS states it's a nationwide routing issue. No ETR.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <001a01ce4b26$e47e83a0$ad7b8ae0$@iname.com>
+ Sounds like it was scheduled maintenance gone bad:
+ 	"Perrine said he spoke with CenturyLink at 6 a.m. 
+ 	where they advised him the company was doing scheduled
+ 	maintenance. At 7:35 a.m. they told him something
+ 	had gone wrong during the maintenance and it was
+ 	affecting customers in 13 states."
+ http://www.tallahassee.com/article/20130507/NEWS/130507010/Centurylink-outag
+ e-affecting-local-internet-provider?nclick_check=1
+ I bite my tongue in regards to Network Tallahasee's singlehomedness and
+ Perrine's comment on his questioning of the timing of the update. 
+ I encourage all my competitors to stay single homed and to do their
+ maintenance Sunday morning, while their vendors are at their lowest staffing
+ levels.
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Tuesday, May 07, 2013 8:29 AM
+ I first saw timeouts with www.qwest.com over IPv6 at 3:08 am Central -- I
+ was wondering why, now I know. =)
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Marco
+ Prechel
+ Sent: Tuesday, May 07, 2013 7:33 AM
+ Saw our Centurylink Ethernet circuit lose L3 connectivity in SWFL around
+ 0400 EDT. 
+ ANS/ABS states it's a nationwide routing issue. No ETR.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <001a01ce4b26$e47e83a0$ad7b8ae0$@iname.com>
+  <CAFPFpmUiNWnEWe_cOkWcwdie5GHcHUw6JXr0QwiPtCMz64vU3Q@mail.gmail.com>
+ All of our IP space is routing again, as of 11:57 EDT , in SWFL. Seeing
+ reports of local DSL connections back up as well.
+ On Tue, May 7, 2013 at 9:41 AM, Ryan Gelobter <
+ ryan.g at andthenwegotpaycuts.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/447410e9/attachment.html>
+  <001a01ce4b26$e47e83a0$ad7b8ae0$@iname.com>
+  <002f01ce4b40$8abf3520$a03d9f60$@iname.com>
+ Same thing happened in Monroe LA that took down all of north Louisiana. It
+ was an update that went bad and the switch had to be manually checked line
+ by line. No backup was done before the maintenance. 16 hours of downtime
+ about 45 days ago.
+ On Tuesday, May 7, 2013, Frank Bulk wrote:
+ -- 
+ Jeremie Chism
+ Triton Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/1ad8faf3/attachment.html>
+  <001a01ce4b26$e47e83a0$ad7b8ae0$@iname.com>
+  <002f01ce4b40$8abf3520$a03d9f60$@iname.com>
+ While going over some of our BGP data I noticed significant instability
+ for AS5668 CenturyTel Internet Holdings, Inc.
+ See for example:
+ http://portal.bgpmon.net/data/AS5668-outages-may7-2013.png
+ Clearly visible are the routes flapping (few minute outages) between
+ 08:06 UTC and 15:34.
+ Below an example for 98.125.0.0/16 (CenturyTel Service Group, LLC)
+ down for 3 minutes	 2013-05-07 08:06 - 2013-05-07 08:09
+ down for 3 minutes	 2013-05-07 08:25 - 2013-05-07 08:28
+ down for 3 minutes	 2013-05-07 08:53 - 2013-05-07 08:56
+ down for 4 minutes	 2013-05-07 09:04 - 2013-05-07 09:08
+ down for 4 minutes	 2013-05-07 09:20 - 2013-05-07 09:24
+ down for 3 minutes	 2013-05-07 10:05 - 2013-05-07 10:08
+ down for 5 minutes	 2013-05-07 10:11 - 2013-05-07 10:16
+ down for 3 minutes	 2013-05-07 10:56 - 2013-05-07 10:59
+ down for 3 minutes	 2013-05-07 12:14 - 2013-05-07 12:17
+ down for 3 minutes	 2013-05-07 12:34 - 2013-05-07 12:37
+ down for 4 minutes	 2013-05-07 13:02 - 2013-05-07 13:06
+ down for 3 minutes	 2013-05-07 13:12 - 2013-05-07 13:15
+ down for 3 minutes	 2013-05-07 14:11 - 2013-05-07 14:14
+ down for 9 minutes	 2013-05-07 14:24 - 2013-05-07 14:33
+ down for 3 minutes	 2013-05-07 14:45 - 2013-05-07 14:48
+ down for 3 minutes	 2013-05-07 14:55 - 2013-05-07 14:58
+ down for 3 minutes	 2013-05-07 15:24 - 2013-05-07 15:27
+ down for 3 minutes	 2013-05-07 15:31 - 2013-05-07 15:34
+ Cheers,
+  Andree
+ .-- My secret spy satellite informs me that at 2013-05-07 9:33 AM  Frank
+ Bulk wrote:
+  <001a01ce4b26$e47e83a0$ad7b8ae0$@iname.com>
+  <002f01ce4b40$8abf3520$a03d9f60$@iname.com> <51893777.8040306@toonk.nl>
+ Thanks for sharing that info.  That lines up with us seeing HTTPv6 alarms
+ clearing at 10:31 am Central, too.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Andree Toonk
+ Sent: Tuesday, May 07, 2013 12:19 PM
+ While going over some of our BGP data I noticed significant instability
+ for AS5668 CenturyTel Internet Holdings, Inc.
+ See for example:
+ http://portal.bgpmon.net/data/AS5668-outages-may7-2013.png
+ Clearly visible are the routes flapping (few minute outages) between
+ 08:06 UTC and 15:34.
+ Below an example for 98.125.0.0/16 (CenturyTel Service Group, LLC)
+ down for 3 minutes	 2013-05-07 08:06 - 2013-05-07 08:09
+ down for 3 minutes	 2013-05-07 08:25 - 2013-05-07 08:28
+ down for 3 minutes	 2013-05-07 08:53 - 2013-05-07 08:56
+ down for 4 minutes	 2013-05-07 09:04 - 2013-05-07 09:08
+ down for 4 minutes	 2013-05-07 09:20 - 2013-05-07 09:24
+ down for 3 minutes	 2013-05-07 10:05 - 2013-05-07 10:08
+ down for 5 minutes	 2013-05-07 10:11 - 2013-05-07 10:16
+ down for 3 minutes	 2013-05-07 10:56 - 2013-05-07 10:59
+ down for 3 minutes	 2013-05-07 12:14 - 2013-05-07 12:17
+ down for 3 minutes	 2013-05-07 12:34 - 2013-05-07 12:37
+ down for 4 minutes	 2013-05-07 13:02 - 2013-05-07 13:06
+ down for 3 minutes	 2013-05-07 13:12 - 2013-05-07 13:15
+ down for 3 minutes	 2013-05-07 14:11 - 2013-05-07 14:14
+ down for 9 minutes	 2013-05-07 14:24 - 2013-05-07 14:33
+ down for 3 minutes	 2013-05-07 14:45 - 2013-05-07 14:48
+ down for 3 minutes	 2013-05-07 14:55 - 2013-05-07 14:58
+ down for 3 minutes	 2013-05-07 15:24 - 2013-05-07 15:27
+ down for 3 minutes	 2013-05-07 15:31 - 2013-05-07 15:34
+ Cheers,
+  Andree
+ .-- My secret spy satellite informs me that at 2013-05-07 9:33 AM  Frank
+ Bulk wrote:
+ http://www.tallahassee.com/article/20130507/NEWS/130507010/Centurylink-outag
+ staffing
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Open Resolver Project
+###############################################################
+ The Open Resolver Project made a mistake in the automation process of the weekly data import.  If you're unaware of what it is, I suggest looking at the website - openresolverproject.org
+ If you operate a DNS server, or are a network operator, you should check your IP space for Open Resolvers.  These are used in DDoS attacks and pose a significant risk to the global network.
+ The website has been restored to operation, but please take a moment and check your IPv4 space.
+ If you want a report based on your ASN, please e-mail dns-scan at puck.nether.net from a corporate e-mail address or something matching the RIR database entry.
+ Thanks,
+ - jared
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon outage?
+###############################################################
+ Is anyone else out there having issues with their Verizon Internet 
+ connection? If so have you seen any official postings from Verizon?
+ --
+ Brenton M
+ Viviotech
+ Support Team
+ Might be good if you clarified what type of issues you are having
+ On Tue, May 7, 2013 at 11:21 AM, Brenton M <brenton at viviotech.net> wrote:
+ On May 7, 2013, at 11:21 AM, Brenton M <brenton at viviotech.net> wrote:
+ "Doctor, doctor, sometimes something somewhere hurts. Please tell me what's wrong?"
+ This is about as useful?
+ W
+ --
+ "Working the ICANN process is like being nibbled to death by ducks,
+ it takes forever, it doesn't make sense, and in the end we're still dead in the water." 
+     -- Tom Galvin, VeriSign's vice president for government relations.
+ Is it possible you can give more details [I am having problems with $thing,
+ here's my $traceroute, here's my $mtr, and am located in $area]?
+ I have Verizon DSL to my house and I can see it (Wisconsin).
+ On Tue, May 7, 2013 at 10:21 AM, Brenton M <brenton at viviotech.net> wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/f28ad1a9/attachment.html>
+ Anonymous had issued a warning to attack a large number of banks today?
+ Not sure if this could be related.  I haven't heard of any of my Banks
+ being attacked as of yet.
+ On Tue, May 7, 2013 at 10:21 AM, Brenton M <brenton at viviotech.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/be25ccc0/attachment.html>
+  <5814B452-FCA0-4BFB-840B-0B74564FCB74@kumari.net>
+ My car makes a funny noise....
+ Richey
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Warren
+ Kumari
+ Sent: Tuesday, May 07, 2013 11:36 AM
+ Cc: outages at outages.org
+ On May 7, 2013, at 11:21 AM, Brenton M <brenton at viviotech.net> wrote:
+ connection? If so have you seen any official postings from Verizon?
+ "Doctor, doctor, sometimes something somewhere hurts. Please tell me what's
+ wrong."
+ This is about as useful.
+ W
+ --
+ "Working the ICANN process is like being nibbled to death by ducks, it takes
+ forever, it doesn't make sense, and in the end we're still dead in the
+ water." 
+     -- Tom Galvin, VeriSign's vice president for government relations.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+ Verizon outage?
+###############################################################
+  <CAAdV5S45u47P+foiq7mD=Up4DXt=6iWDnUmW9AGjnMYpmmuvaA@mail.gmail.com>
+  <518931E8.4050900@viviotech.net>
+ I think it was a miss-reply, but here's more infos.
+ ---------- Forwarded message ----------
+ From: Brenton M <brenton at viviotech.net>
+ Date: Tue, May 7, 2013 at 11:55 AM
+ Subject: Re: [outages] Verizon outage?
+  Sorry to everyone, I should have had more info for you from the start.
+ The locations that we were getting reports from seam to be mostly on the
+ east coast (Virginia, New Jersey, New York).  This was not a complete
+ internet outage for them, it seams that there was a route that was down
+ somewhere in between them and us in Walla Walla, Washington.  As of right
+ now everyone has reported back saying that the issue has been resolved. I
+ would post some trace routes but they are all going through now.
+ Again sorry for the lack of information on my first post.
+ On 5/7/2013 8:38 AM, Anthony Hook wrote:
+ Is it possible you can give more details [I am having problems with $thing,
+ here's my $traceroute, here's my $mtr, and am located in $area]?
+  I have Verizon DSL to my house and I can see it (Wisconsin).
+ On Tue, May 7, 2013 at 10:21 AM, Brenton M <brenton at viviotech.net> wrote:
+  --
+ - Anthony Hook
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130507/0e9e6e72/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+CenturyLink Unplanned Event - Ticket #12105487 Resolved
+###############################################################
+ CL is closing their master ticket for the Florida issues.
+ Robert D. Scott            Robert at ufl.edu
+ Senior Network Engineer    352-273-0113 Phone
+ UF Information Technology  352-392-2061 CNS Phone Tree
+ CNS - Network Services     352-273-0743 FAX
+ University of Florida      352-294-3571 FLR NOC
+ Florida Lambda Rail        321-663-0421 Cell
+ Gainesville, FL  32611     3216630421 at messaging.sprintpcs.com
+ -----Original Message-----
+ From: EventNotice at centurylinkservices.net [mailto:EventNotice at centurylinkservices.net] 
+ Sent: Tuesday, May 07, 2013 1:28 PM
+  CenturyLink Logo<http://www.centurylinkservices.net/images/logo.gif> 
+ Outage Ticket Number: 	12105487	
+ Entity: 	CTL-NMC	
+ Event Start Date/Time: 	2013/05/07 08:30 CENTRAL	
+ Event ETR Date/Time: 	Not Provided	
+ Event End Date/Time: 	2013/05/07 11:15 CENTRAL	
+ Outage Description: 	CenturyLink technicians have resolved a software issue in the listed market and all customers should now be back in service.	
+ Facility/Services Impacted: 	ETHERNET	
+ Locations Impacted: 	TALLAHASSEE, FL	
+ You can view open events and modify your subscription rules at http://www.centurylinkservices.net/events. <http://www.centurylinkservices.net/events> 
+ Thank you,
+ CenturyLink Network Operations 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Frontier.com homepage unaccessible
+###############################################################
+ It's seems Frontier Communications home page has been down over IPv4 and
+ IPv6 since 12:34 pm Central.  Port 80 is open over v4 and v6, just the page
+ doesn't load.
+ ===========================================================
+ nagios:/# wget -4 www.frontier.com
+ --2013-05-09 13:24:53--  http://www.frontier.com/
+ Resolving www.frontier.com... 66.133.172.205
+ Connecting to www.frontier.com|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... ^C
+ ===========================================================
+ nagios:/# wget -6 www.frontier.com
+ --2013-05-09 13:25:07--  http://www.frontier.com/
+ Resolving www.frontier.com... 2001:1960:21:1::92
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-05-09 13:25:08--  (try: 2)  http://www.frontier.com/
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-05-09 13:25:10--  (try: 3)  http://www.frontier.com/
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying. ^C
+ ===========================================================
+ nagios:/# tcptraceroute www.frontier.com
+ Selected device eth0.3, address 96.31.0.5, port 50820 for outgoing packets
+ Tracing the path to www.frontier.com (66.133.172.205) on TCP port 80 (www),
+ 30 hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.248 ms  0.194 ms  0.184
+ ms
+  2  sxct.movl.mtcnet.net (167.142.156.194)  0.195 ms  0.131 ms  0.116 ms
+  3  premier.movl-mlx.fbnt.netins.net (173.215.60.1)  1.932 ms  1.914 ms
+ 1.922 ms
+  4  ins-kb1-te-13-2-220.kmrr.netins.net (167.142.64.253)  7.582 ms  7.513 ms
+ 7.483 ms
+  5  ins-kc2-et-8-3.kmrr.netins.net (167.142.67.37)  9.148 ms  9.180 ms
+ 9.126 ms
+  6  ins-dc1-po20.desm.netins.net (167.142.67.29)  9.327 ms  9.437 ms  9.139
+ ms
+  7  te-3-3.car2.KansasCity1.Level3.net (4.53.34.113)  15.643 ms  15.800 ms
+ 15.647 ms
+  8  ae-11-11.car1.KansasCity1.Level3.net (4.69.135.233)  44.503 ms  44.517
+ ms  44.595 ms
+  9  ae-5-5.ebr2.Dallas1.Level3.net (4.69.135.230)  44.475 ms  44.443 ms
+ 44.420 ms
+ 10  ae-62-62.csw1.Dallas1.Level3.net (4.69.151.129)  56.816 ms  50.240 ms
+ 44.854 ms
+ 11  ae-63-63.ebr3.Dallas1.Level3.net (4.69.151.134)  44.511 ms  44.640 ms
+ 44.660 ms
+ 12  ae-7-7.ebr3.Atlanta2.Level3.net (4.69.134.22)  44.635 ms  44.603 ms
+ 44.463 ms
+ 13  ae-73-73.ebr2.Atlanta2.Level3.net (4.69.148.254)  44.559 ms  44.565 ms
+ 44.595 ms
+ 14  ae-2-52.edge1.Atlanta4.Level3.net (4.69.150.79)  44.627 ms  44.418 ms
+ 44.442 ms
+ 15  4.53.232.34  44.695 ms  76.316 ms  44.644 ms
+ 16  ae2---0.cor02.atln.ga.frontiernet.net (74.40.2.81)  44.794 ms  44.675 ms
+ 44.624 ms
+ 17  ae1---0.cor02.asbn.va.frontiernet.net (74.40.2.198)  58.282 ms  144.739
+ ms  58.297 ms
+ 18  ae3---0.cor01.roch.ny.frontiernet.net (74.40.5.17)  71.606 ms  71.562 ms
+ 71.494 ms
+ 19  ge--0-0-0---0.car01.roch.ny.frontiernet.net (74.40.5.74)  70.920 ms
+ 70.830 ms  70.909 ms
+ 20  te5-4.br5.roch.ny.frontiernet.net (74.45.102.6)  404.081 ms  71.598 ms
+ 71.562 ms
+ 21  * frontier.com (66.133.172.205) [open] 68.823 ms  71.625 ms
+ nagios:/#
+ ===========================================================
+ nagios:/# tcptraceroute6 www.frontier.com
+ traceroute to frontier.com (2001:1960:21:1::92) from 2607:fe28:0:1000::5,
+ port 80, from port 59200, 30 hops max, 60 bytes packets
+  1  router-core.mtcnet.net (2607:fe28:0:1000::1)  0.250 ms  0.194 ms  0.201
+ ms
+  2  sxct.movl.mtcnet.net (2607:fe28:11:1002::194)  0.181 ms  0.125 ms  0.130
+ ms
+  3  v6-premier.movl-mlx.fbnt.netins.net (2001:5f8:7f0a:1::1)  1.967 ms
+ 1.887 ms  1.909 ms
+  4  v6-ins-kb1-te-13-2-220.kmrr.netins.net (2001:5f8:2:2::1)  7.595 ms
+ 7.477 ms  7.512 ms
+  5  v6-ins-kc2-te-8-3.kmrr.netins.net (2001:5f8::11:1)  7.568 ms  7.494 ms
+ 7.584 ms
+  6  v6-ins-dc1-po20.desm.netins.net (2001:5f8::8:1)  9.210 ms  9.202 ms
+ 9.148 ms
+  7  te-3-3.car2.KansasCity1.Level3.net (2001:1900:2100::e2d)  15.738 ms
+ 15.912 ms  15.657 ms
+  8  vl-11.car1.KansasCity1.Level3.net (2001:1900:4:1::37d)  15.632 ms
+ 15.751 ms  15.632 ms
+  9  vl-4049.edge2.Dallas1.Level3.net (2001:1900:4:1::379)  24.750 ms  24.706
+ ms  24.654 ms
+ 10  vl-4080.edge3.Dallas1.Level3.net (2001:1900:4:1::82)  24.780 ms  24.713
+ ms  24.751 ms
+ 11  vl-4061.car1.Atlanta2.Level3.net (2001:1900:4:1::96)  44.731 ms  44.774
+ ms  44.759 ms
+ 12  vl-51.edge1.Atlanta4.Level3.net (2001:1900:1c:1::10)  44.866 ms  44.896
+ ms  44.806 ms
+ 13  2001:1900:2100::1a (2001:1900:2100::1a)  71.300 ms  44.481 ms  44.571 ms
+ 14  ae2---0.cor02.atln.ga.frontiernet.net (2001:1960:c:1f::)  52.316 ms
+ 44.854 ms  44.776 ms
+ 15  ae1---0.cor02.asbn.va.frontiernet.net (2001:1960:c:3c::1)  58.473 ms
+ 58.343 ms  58.461 ms
+ 16  ae3---0.cor01.roch.ny.frontiernet.net (2001:1960:c:3d::)  124.867 ms
+ 71.000 ms  70.933 ms
+ 17  ge--0-1-0---0.car02.roch.ny.frontiernet.net (2001:1960:c:28::1)  69.445
+ ms  69.408 ms  69.299 ms
+ 18  frontier.com (2001:1960:21:1::92)  69.200 ms [open]  69.149 ms  69.079
+ ms
+ nagios:/#
+ ===========================================================
+ Frank
+ Also confirmed in:
+ Tallahassee, Florida
+ Atlanta, Georgia
+ Washington, DC
+ from multiple peering points and IP transit providers.
+ Thanks,
+ Kraig Beahn
+ L2Networks Corp.
+ On Thu, May 9, 2013 at 2:32 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130509/8b2a8407/attachment.html>
+ As a Frontier client, I can confirm this.
+ $ traceroute frontier.com
+ traceroute to frontier.com (66.133.172.205), 30 hops max, 60 byte packets
+  1  gatekeeper.anthonyrhook.com (192.168.1.1)  0.181 ms  0.249 ms  0.331 ms
+  2  drr01.waus.wi.frontiernet.net (74.42.148.129)  40.373 ms  40.552 ms
+  40.803 ms
+  3  static-50-50-0-13.snpr.wi.frontiernet.net (50.50.0.13)  40.916 ms
+  41.124 ms  41.355 ms
+  4  xe--5-2-0---0.car01.waus.wi.frontiernet.net (74.40.4.25)  42.838 ms
+  43.808 ms  45.248 ms
+  5  xe--10-1-0---0.cor02.chcg.il.frontiernet.net (74.40.4.29)  118.653 ms
+  118.858 ms  119.097 ms
+  6  ae0---0.cor01.chcg.il.frontiernet.net (74.40.3.241)  62.185 ms  63.218
+ ms  82.711 ms
+  7  ae1---0.cor02.roch.ny.ny.frontiernet.net (74.40.5.21)  80.444 ms
+  58.359 ms  58.133 ms
+  8  ge--0-1-0---0.car01.roch.ny.frontiernet.net (74.40.5.182)  59.569 ms
+  60.732 ms  62.668 ms
+  9  te5-4.br5.roch.ny.frontiernet.net (74.45.102.6)  64.162 ms  65.605 ms
+  67.067 ms
+ ...
+ $ wget -4 frontier.com
+ --2013-05-09 13:48:15--  http://frontier.com/
+ Resolving frontier.com (frontier.com)... 66.133.172.205
+ Connecting to frontier.com (frontier.com)|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-05-09 13:48:16--  (try: 2)  http://frontier.com/
+ Connecting to frontier.com (frontier.com)|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-05-09 13:48:18--  (try: 3)  http://frontier.com/
+ Connecting to frontier.com (frontier.com)|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ ^C
+ On Thu, May 9, 2013 at 1:32 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130509/e02c4b46/attachment-0001.html>
+ Works fine from VZW FiOS NYC:
+ $ wget www.frontier.com
+ --2013-05-09 14:53:39--  http://www.frontier.com/
+ Resolving www.frontier.com... 66.133.172.205, 2001:1960:21:1::92
+ Connecting to www.frontier.com|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: 59798 (58K) [text/html]
+ -Mike
+ On Thu, May 9, 2013 at 2:32 PM, Frank Bulk <frnkblk at iname.com> wrote:
+  <CAMerE0rCXprCyPMqBKkqc2XtEsm5YC==gjOStLWipVpfgc2iKg@mail.gmail.com>
+ Yes, it's up now, as of 1:48 pm Central or so.
+ Thanks,
+ Frank
+ -----Original Message-----
+ From: Mike [mailto:miketheman at gmail.com] 
+ Sent: Thursday, May 09, 2013 1:55 PM
+ Cc: outages
+ Works fine from VZW FiOS NYC:
+ $ wget www.frontier.com
+ --2013-05-09 14:53:39--  http://www.frontier.com/
+ Resolving www.frontier.com... 66.133.172.205, 2001:1960:21:1::92
+ Connecting to www.frontier.com|66.133.172.205|:80... connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: 59798 (58K) [text/html]
+ -Mike
+ On Thu, May 9, 2013 at 2:32 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ page
+ (www),
+ ms
+ 9.139
+ ms
+ 144.739
+ ms
+ 0.201
+ 0.130
+ 24.706
+ 24.713
+ 44.774
+ 44.896
+ ms
+ 69.445
+  <CAAdV5S7W1yeH2_NyQmCBzYFyTPiHU-cB1_qKPC_PQ2TT9L3_Kg@mail.gmail.com>
+ Confirmed from inside and outside Frontier in Rochester, NY and San
+ Francisco, CA.
+ On Thu, May 9, 2013 at 2:47 PM, Anthony Hook <anthony.hook3 at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130509/38973910/attachment-0001.html>
+ I'm seeing intermittent behaviour -- sometimes it works, sometimes it
+ doesn't.
+ "Doesn't" means HTTP headers get returned, but actual content does not,
+ despite Content-Length saying so.  The TCP socket gets abruptly closed
+ before actual content can be returned.  Proof:
+ $ curl -i -I -s -v http://www.frontier.com/
+ * About to connect() to www.frontier.com port 80 (#0)
+ *   Trying 66.133.172.205...
+ * connected
+ * Connected to www.frontier.com (66.133.172.205) port 80 (#0)
+ < HTTP/1.1 200 OK
+ HTTP/1.1 200 OK
+ < Cache-Control: no-cache
+ Cache-Control: no-cache
+ < Pragma: no-cache
+ Pragma: no-cache
+ < Content-Length: 59799
+ Content-Length: 59799
+ < Content-Type: text/html; charset=utf-8
+ Content-Type: text/html; charset=utf-8
+ < Expires: -1
+ Expires: -1
+ < Server: Microsoft-IIS/7.5
+ Server: Microsoft-IIS/7.5
+ < Set-Cookie: ASP.NET_SessionId=bx4tltftpwbvydqg3kvrvl3p; path=/; HttpOnly
+ Set-Cookie: ASP.NET_SessionId=bx4tltftpwbvydqg3kvrvl3p; path=/; HttpOnly
+ < Set-Cookie: MyNPANXX=; expires=Sat, 08-Jun-2013 18:55:17 GMT; path=/
+ Set-Cookie: MyNPANXX=; expires=Sat, 08-Jun-2013 18:55:17 GMT; path=/
+ < Set-Cookie: UEnpanxx=False; expires=Sat, 08-Jun-2013 18:55:17 GMT; path=/
+ Set-Cookie: UEnpanxx=False; expires=Sat, 08-Jun-2013 18:55:17 GMT; path=/
+ < X-AspNet-Version: 4.0.30319
+ X-AspNet-Version: 4.0.30319
+ < X-Powered-By: ASP.NET
+ X-Powered-By: ASP.NET
+ < Date: Thu, 09 May 2013 18:55:20 GMT
+ Date: Thu, 09 May 2013 18:55:20 GMT
+ < Set-Cookie: BIGipServerfrontier.com-http=1047962122.20480.0000; path=/
+ Set-Cookie: BIGipServerfrontier.com-http=1047962122.20480.0000; path=/
+ <
+ * Connection #0 to host www.frontier.com left intact
+ * Closing connection #0
+ I would say this is a webserver/host problem on Frontier's side.  Maybe
+ someone should introduce them to IIS's /REBOOTONERROR flag.  ;-)
+ http://technet.microsoft.com/en-us/library/bb742502.aspx
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Thu, May 09, 2013 at 01:32:24PM -0500, Frank Bulk wrote:
+  <CAMerE0rCXprCyPMqBKkqc2XtEsm5YC==gjOStLWipVpfgc2iKg@mail.gmail.com>
+ Back up from Rochester and SF.
+ On Thu, May 9, 2013 at 2:54 PM, Mike <miketheman at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130509/7c9d0ef0/attachment-0001.html>
+  <CAMerE0rCXprCyPMqBKkqc2XtEsm5YC==gjOStLWipVpfgc2iKg@mail.gmail.com>
+ Works fine in Birmingham, AL on Level3 and Sprint connections.
+ On 05/09/2013 01:54 PM, Mike wrote:
+ works fine from PHX. Webpage loads fine 
+ [posiedon at hoppoint ~]$ traceroute frontier.com 
+ traceroute to frontier.com (66.133.172.205), 30 hops max, 60 byte packets 
+ 1 172.16.8.1 (172.16.8.1) 1.871 ms 1.977 ms 1.639 ms 
+ 2 ar1.as54049.com (199.66.112.129) 2.493 ms 2.462 ms 2.398 ms 
+ 3 * * * 
+ 4 bb2.cwie.10.2.phx0.cwie.net (64.38.200.2) 5.131 ms 5.086 ms 5.023 ms 
+ 5 * * * 
+ 6 ae-4-4.ebr2.LosAngeles1.Level3.net (4.69.133.38) 22.704 ms 23.707 ms 22.150 ms 
+ 7 ae-6-6.ebr2.SanJose5.Level3.net (4.69.148.202) 21.076 ms 20.947 ms 20.932 ms 
+ 8 ae-2-2.ebr2.SanJose1.Level3.net (4.69.148.142) 21.977 ms 21.808 ms ae-1-100.ebr1.SanJose5.Level3.net (4.69.148.109) 21.770 ms 
+ 9 ae-5-5.ebr1.SanJose1.Level3.net (4.69.148.138) 23.361 ms ae-92-92.csw4.SanJose1.Level3.net (4.69.153.30) 23.262 ms ae-5-5.ebr1.sanjose1.level3.net (4.69.148.138) 24.610 ms 
+ 10 ae-32-90.car2.SanJose2.Level3.net (4.69.152.204) 23.192 ms ae-12-70.car2.SanJose2.Level3.net (4.69.152.76) 21.582 ms ae-81-81.csw3.SanJose1.Level3.net (4.69.153.10) 21.547 ms 
+ 11 ae-42-80.car2.SanJose2.Level3.net (4.69.152.140) 21.742 ms CITIZENS-CO.car2.SanJose2.Level3.net (4.59.4.82) 21.798 ms 22.806 ms 
+ 12 citizens-co.car2.sanjose2.level3.net (4.59.4.82) 21.725 ms ae2---0.cor02.plal.ca.frontiernet.net (74.40.3.169) 22.009 ms 21.975 ms 
+ 13 ae1---0.cor01.slkc.ut.frontiernet.net (74.40.5.62) 38.597 ms 48.070 ms 38.278 ms 
+ 14 ae3---0.cor02.chcg.il.frontiernet.net (74.40.5.57) 62.738 ms ae1---0.cor01.slkc.ut.frontiernet.net (74.40.5.62) 38.070 ms ae3---0.cor02.chcg.il.frontiernet.net (74.40.5.57) 118.283 ms 
+ 15 ae3---0.cor02.chcg.il.frontiernet.net (74.40.5.57) 61.473 ms ae0---0.cor01.chcg.il.frontiernet.net (74.40.3.241) 83.100 ms 59.357 ms 
+ 16 ae0---0.cor01.chcg.il.frontiernet.net (74.40.3.241) 59.320 ms 65.324 ms ae1---0.cor02.roch.ny.ny.frontiernet.net (74.40.5.21) 79.708 ms 
+ 17 ge--0-1-0---0.car01.roch.ny.frontiernet.net (74.40.5.182) 81.659 ms ae1---0.cor02.roch.ny.ny.frontiernet.net (74.40.5.21) 79.755 ms 81.272 ms 
+ 18 te5-4.br5.roch.ny.frontiernet.net (74.45.102.6) 80.355 ms 80.236 ms ge--0-1-0---0.car01.roch.ny.frontiernet.net (74.40.5.182) 79.578 ms 
+ 19 * te5-4.br5.roch.ny.frontiernet.net (74.45.102.6) 79.570 ms 79.473 ms 
+ 20 * * * 
+ 21 * * * 
+ 22 * * * 
+ 23 * * * 
+ 24 * * * 
+ 25 * * * 
+ 26 * * * 
+ ============= 
+ Best Regards 
+ Raman Sud 
+ Sr. VP of Engineering 
+ Mojohost 
+ Toll Free: 888-345-MOJO x808 
+ Cell: +1 480.206.0211 
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x26BDA015F2DCF135 
+ THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY DESTROYED. 
+ ----- Original Message -----
+ From: "Mike" <miketheman at gmail.com> 
+ Cc: "outages" <outages at outages.org> 
+ Sent: Thursday, May 9, 2013 11:54:45 AM 
+ Works fine from VZW FiOS NYC: 
+ $ wget www.frontier.com 
+ --2013-05-09 14:53:39-- http://www.frontier.com/ 
+ Resolving www.frontier.com... 66.133.172.205, 2001:1960:21:1::92 
+ Connecting to www.frontier.com|66.133.172.205|:80... connected. 
+ HTTP request sent, awaiting response... 200 OK 
+ Length: 59798 (58K) [text/html] 
+ -Mike 
+ On Thu, May 9, 2013 at 2:32 PM, Frank Bulk <frnkblk at iname.com> wrote: 
+ _______________________________________________ 
+ Outages mailing list 
+ Outages at outages.org 
+ https://puck.nether.net/mailman/listinfo/outages 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130509/a5a303f2/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+L2networks
+###############################################################
+ Whomever was phoning me: leave a voicemail next time.  
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream
+###############################################################
+ Is anyone experiencing Windstream service outages in Georgia?
+ All the best,
+ Robert Castillo | Sr. Network Engineer
+ Direct: 678-951-3188
+ Email:? robert.castillo at tig.com
+ Office?: 770-300-0256
+ 6649 Peachtree Industrial Blvd?  Norcross, GA 30092
+ Website: www.tig.com
+ Periodically TIG will update our valued industry contacts and clients through email in an effort to inform them of the latest developments in computer system integration.? TIG is concerned about your privacy.? We do not rent, sell or exchange email addresses and respect the wishes of individuals who do not wish to receive email updates.? To be removed from TIG's distribution list kindly forward this email to remove at tig.com with the word "unsubscribe" in the subject line.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Jay Ashworth
+ Sent: Thursday, May 09, 2013 3:31 PM
+ Whomever was phoning me: leave a voicemail next time.  
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ All of our Atlanta area circuits are good.
+ ------------------
+ Aubrey Wells
+ Director | Network Services
+ VocalCloud
+ 678.248.2637
+ support at vocalcloud.com
+ www.vocalcloud.com
+ On Fri, May 10, 2013 at 10:03 AM, Robert Castillo
+ <Robert.Castillo at tig.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130510/87eba2d1/attachment.html>
+  <CAA9NU+t_4xtjLa2Q99FqAYj3FA-=FxGERDj8FrH9nq52QRW96g@mail.gmail.com>
+ All of our circuits in Atlanta and Savannah are ok.
+ Mike Winstead
+ Lead Infrastructure Engineer
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Aubrey Wells
+ Sent: Friday, May 10, 2013 9:09 AM
+ Cc: outages at outages.org
+ All of our Atlanta area circuits are good.
+ ------------------
+ Aubrey Wells
+ Director | Network Services
+ VocalCloud
+ 678.248.2637
+ support at vocalcloud.com<mailto:support at vocalcloud.com>
+ www.vocalcloud.com<http://www.vocalcloud.com>
+ On Fri, May 10, 2013 at 10:03 AM, Robert Castillo <Robert.Castillo at tig.com<mailto:Robert.Castillo at tig.com>> wrote:
+ Is anyone experiencing Windstream service outages in Georgia?
+ All the best,
+ Robert Castillo | Sr. Network Engineer
+ Direct: 678-951-3188<tel:678-951-3188>
+ Email:  robert.castillo at tig.com<mailto:robert.castillo at tig.com>
+ Office : 770-300-0256<tel:770-300-0256>
+ 6649 Peachtree Industrial Blvd   Norcross, GA 30092
+ Website: www.tig.com<http://www.tig.com>
+ Periodically TIG will update our valued industry contacts and clients through email in an effort to inform them of the latest developments in computer system integration.  TIG is concerned about your privacy.  We do not rent, sell or exchange email addresses and respect the wishes of individuals who do not wish to receive email updates.  To be removed from TIG's distribution list kindly forward this email to remove at tig.com<mailto:remove at tig.com> with the word "unsubscribe" in the subject line.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org<mailto:outages-bounces at outages.org>] On Behalf Of Jay Ashworth
+ Sent: Thursday, May 09, 2013 3:31 PM
+ Whomever was phoning me: leave a voicemail next time.
+ Cheers,
+ -- jra
+ --
+ Jay R. Ashworth                  Baylink                       jra at baylink.com<mailto:jra at baylink.com>
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274<tel:%2B1%20727%20647%201274>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ ________________________________
+ **************************************************************************************************
+ Sterne Agee Group, Inc. and its subsidiaries request that you do not transmit orders
+ and instructions regarding your Sterne Agee account by e-mail. Transactional details
+ do not supersede normal trade confirmations or statements. The information contained
+ in this transmission is privileged and confidential. It is intended for the use of the
+ individual or entity named above. The information contained herein is based on sources
+ we believe reliable but is not considered all-inclusive. Opinions are our current
+ opinions only and are subject to change without notice. Offerings are subject to prior
+ sale and/or change in price. Prices, quotes, rates and yields are subject to change
+ without notice. Sterne Agee & Leach, Inc. member FINRA and SIPC, is a registered
+ broker-dealer subsidiary of Sterne Agee Group, Inc. Generally, investments are NOT
+ FDIC INSURED, NOT BANK GUARANTEED, and MAY LOSE VALUE. Please contact
+ your Financial Advisor with information regarding specific investments. Sterne Agee
+ reserves the right to monitor all electronic correspondence.
+ **************************************************************************************************
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130510/0a11b011/attachment.html>
+ We are having LD connection issues from our PRIs in the Tampa Bay area. 
+ Local calling seems to be OK, but LD calls hit dead air.
+ ----- Original Message ----- 
+ From: "Robert Castillo" <Robert.Castillo at tig.com>
+ Sent: Friday, May 10, 2013 10:03 AM
+ Is anyone experiencing Windstream service outages in Georgia?
+ All the best,
+ Robert Castillo | Sr. Network Engineer
+ Direct: 678-951-3188
+ Email: robert.castillo at tig.com
+ Office : 770-300-0256
+ 6649 Peachtree Industrial Blvd   Norcross, GA 30092
+ Website: www.tig.com
+ Periodically TIG will update our valued industry contacts and clients 
+ through email in an effort to inform them of the latest developments in 
+ computer system integration. TIG is concerned about your privacy. We do not 
+ rent, sell or exchange email addresses and respect the wishes of individuals 
+ who do not wish to receive email updates. To be removed from TIG's 
+ distribution list kindly forward this email to remove at tig.com with the word 
+ "unsubscribe" in the subject line.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Jay Ashworth
+ Sent: Thursday, May 09, 2013 3:31 PM
+ Whomever was phoning me: leave a voicemail next time.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink 
+ jra at baylink.com
+ Designer                     The Things I Think                       RFC 
+ 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover 
+ DII
+ St Petersburg FL USA               #natog                      +1 727 647 
+ 1274
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages 
+###############################################################
+END
+###############################################################
+
+###############################################################
+trouble at AWS US-EAST-1a?
+###############################################################
+ I've had major network connectivity issues with about 10 to 15% of my
+ instances in zone "A" at Amazon's US-EAST-1 region this morning.
+ The instances are trucking away, but the networking is
+ down/flapping/unreliable like crazy on that minority percentage.
+ Anyone else seeing anything like this?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/0c02051f/attachment.html>
+ That status board doesn't show any problems (http://status.aws.amazon.com/).
+  Keep in mind that the zone letters differ between accounts so zone A for
+ you could be zone C for someone else.
+ -Grant
+ On Mon, May 13, 2013 at 11:12 AM, Blair Trosper <blair.trosper at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/1dbe2fab/attachment.html>
+ Currently connected to an instance in us-east-1 with a PPTP VPN endpoint
+ running on the instance, no problems.
+ I'd provide the availability zone, but my understanding is that they don't
+ correlate across AWS accounts.
+ Brandon
+ On Mon, May 13, 2013 at 11:12 AM, Blair Trosper <blair.trosper at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/48dc5808/attachment.html>
+ Hi Blair,
+ I am not observing any issues in US East.
+ FYI your 1a, may not be 1a for others.
+ --
+ Aditya Patawari
+ http://blog.adityapatawari.com/
+ India
+ On Mon, May 13, 2013 at 9:42 PM, Blair Trosper <blair.trosper at gmail.com> wrote:
+  <CALXqHYVkFUiNB9NUrg1mKQtzqJHFSRvYFW+gZPbjjU1b=ym7Mg@mail.gmail.com>
+ Right.  And I have a question about that.  To wit:
+ When AWS posts outages, like the one around this time last year that
+ affected to AZs, they named them by letter (b and d if memory serves).  But
+ I was viewing that page from a friend's computer who doesn't use AWS, and I
+ wasn't signed in.  So how do we know which "B" is "B" and which "D" is "D"
+ when they give AZ outage reports?
+ Anyone have any insight into this?
+ On Mon, May 13, 2013 at 9:32 AM, Aditya Patawari
+ <aditya at adityapatawari.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/8b984ad6/attachment.html>
+ Not seeing anything like this at this time and I have instances in ALL EAST AZ?s.
+ However, it?s quite common to see networking hiccoughs on some instances in an AZ that mysteriously come and go lasting from seconds to tens of minutes..
+ ____________________________________________
+ [cid:ED8C7A09-1402-4856-A933-5FE0B2AE67AA]
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ From: Brandon Galbraith <brandon.galbraith at gmail.com<mailto:brandon.galbraith at gmail.com>>
+ Date: Monday, May 13, 2013 12:28 PM
+ Cc: "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+ Currently connected to an instance in us-east-1 with a PPTP VPN endpoint running on the instance, no problems.
+ I'd provide the availability zone, but my understanding is that they don't correlate across AWS accounts.
+ Brandon
+ On Mon, May 13, 2013 at 11:12 AM, Blair Trosper <blair.trosper at gmail.com<mailto:blair.trosper at gmail.com>> wrote:
+ I've had major network connectivity issues with about 10 to 15% of my instances in zone "A" at Amazon's US-EAST-1 region this morning.
+ The instances are trucking away, but the networking is down/flapping/unreliable like crazy on that minority percentage.
+ Anyone else seeing anything like this?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/88f42a7e/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[68].png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[68].png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/88f42a7e/attachment-0001.png>
+ It's not Amazon. There are large internet instability issues this morning affecting NTT, XO, Verizon, Level 3, and Cogent. Everyone is suffering a little today.
+ --tc
+ On May 13, 2013, at 9:38 AM, Michael R. Self <michael.self at Phonefusion.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130513/334a85d0/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Charter - Cleveland, TN
+###############################################################
+ Good Morning!
+ Any other providers seeing any outages with Charter Communications? We have
+ a significant portion of our Charter originated customer base that can't
+ reach our cloud network/datacenter/pops nationally.
+ Doesn't appear as though any of our clients, specifically tested in the
+ Cleveland, TN region have internet access and all of the toll-free numbers
+ are currently ringing busy.
+ Our customers are also reporting that their online portals are stating
+ "Session Expired - please re-authenticate" and "Charter eOnline is
+ currently unavailable. We are working to restore access. You may try again
+ later or if you would like to make a payment now, click here to chat with a
+ live Agent or call 1-888-438-2427. We appreciate your patience.", in a
+ vicious cycle...With, again, that specific toll-free number responding with
+ a busy signal and the live Agent chat application not loading at any
+ customer's sites from alternate internet connections...
+ Kindly,
+ Kraig Beahn
+ L2Networks Corp.
+ Office 850.701.4999
+ Operations 888.695.5905
+ Fax 877.734.3843
+ E-Mail kraig at l2net.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130514/a5524361/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+IPv6 tunnels in FRA1 on HE.net down?
+###############################################################
+  <20130424022850.GA19274@lxr.su>
+ This just happened again:  all IPv6 tunnels on tserv1.fra1.he.net.
+ were inaccessible; from within a tunnel, cannot access any IPv6
+ resource, other than ordns.he.net, which runs on the tunnel server
+ itself.
+ Why does FRA1 loses IPv6 connectivity so often?
+ Update: Seems like it has been resolved as I've been writing this
+ email, but this would seem to happen a few times too many.
+ C.
+ On 23 April 2013 19:28, Constantine A. Murenin <mureninc at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+WorldNIC/Network Solutions DNS or network issues?
+###############################################################
+ Came across this one right now (21:48 PDT (UTC-0700)) while trying to
+ look up some tracking information on an Ontrac package I have.  Ontrac
+ uses WorldNIC/Netsol as their authoritative nameservers.
+ I wasn't able to resolve www.ontrac.com from my Comcast connection at
+ home (Mountain View, CA), while I saw intermittent DNS failures when
+ trying to do resolution from my VPS (Sylmar, CA), so I poked at things a
+ bit.  First from my VPS:
+ $ host www.ontrac.com
+ www.ontrac.com has address 12.38.237.1
+ Host www.ontrac.com not found: 3(NXDOMAIN)
+ And now from home:
+ $ host www.ontrac.com
+ ;; connection timed out; no servers could be reached
+ $ dig @a.gtld-servers.net ns ontrac.com
+ ; <<>> DiG 9.8.4-P2 <<>> @a.gtld-servers.net ns ontrac.com
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33697
+ ;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 2, ADDITIONAL: 2
+ ;; WARNING: recursion requested but not available
+ ;; QUESTION SECTION:
+ ;ontrac.com.                    IN      NS
+ ;; AUTHORITY SECTION:
+ ontrac.com.             172800  IN      NS      ns89.worldnic.com.
+ ontrac.com.             172800  IN      NS      ns90.worldnic.com.
+ ;; ADDITIONAL SECTION:
+ ns89.worldnic.com.      172800  IN      A       205.178.190.45
+ ns90.worldnic.com.      172800  IN      A       206.188.198.45
+ ;; Query time: 97 msec
+ ;; SERVER: 192.5.6.30#53(192.5.6.30)
+ ;; WHEN: Wed May 15 21:38:12 2013
+ ;; MSG SIZE  rcvd: 107
+ $ dig @205.178.190.45 any www.ontrac.com
+ ; <<>> DiG 9.8.4-P2 <<>> @205.178.190.45 any www.ontrac.com
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ $ dig @205.188.198.45 any www.ontrac.com
+ ; <<>> DiG 9.8.4-P2 <<>> @205.188.198.45 any www.ontrac.com
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ $ mtr 205.178.190.45
+                                                   Packets               Pings
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%    11    11   0.3   0.3   0.2   0.4
+  2. c-67-180-84-1.hsd1.ca.comcast.net            0.0%    11    11  30.1  22.8  14.0  30.1
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%    11    11   9.3  10.3   9.3  11.2
+  4. te-1-1-0-13-ar01.sfsutro.ca.sfba.comcast.ne  0.0%    11    11  15.2  13.3  10.6  15.8
+  5. he-1-5-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%    11    11  21.0  21.7  20.5  23.6
+  6. er1-tengig2-4.sanjoseequinix.savvis.net      0.0%    11    11  12.9  13.0  11.9  14.1
+  7. 206.28.98.70                                 0.0%    11    11  14.5  19.2  11.8  80.0
+  8. cr2-tengig0-7-3-0.sanfrancisco.savvis.net    0.0%    11    11  14.7  21.6  14.7  63.0
+  9. cr1-ten-0-13-1-0.dck.savvis.net              0.0%    11    11  91.6  91.6  90.0  94.1
+ 10. hr1-tengig-2-0-0.sterling2dc2.savvis.net     0.0%    11    11  92.1  90.9  90.2  92.1
+ 11. ???
+ $ mtr 205.188.198.45
+                                                   Packets               Pings
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%    11    11   0.4   0.3   0.2   0.4
+  2. c-67-180-84-1.hsd1.ca.comcast.net            0.0%    11    11  31.3  26.8  16.3  39.3
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%    11    11  15.4  12.5   9.8  15.6
+  4. te-1-1-0-1-ar01.sfsutro.ca.sfba.comcast.net  0.0%    11    11  14.7  15.2  11.4  28.3
+  5. he-1-7-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%    11    11  21.6  19.8  16.2  24.1
+  6. be-10-pe02.11greatoaks.ca.ibone.comcast.net  0.0%    11    11  16.4  16.7  15.1  19.4
+  7. 66.185.150.117                               0.0%    11    11  16.7  17.2  14.2  32.7
+  8. bb1-sjg-xe-1-2-0.atdn.net                    0.0%    11    11  16.5  16.0  14.5  17.5
+  9. bb2-ash-xe-0-0-3.atdn.net                    0.0%    11    11  86.9  86.8  85.1  90.3
+ 10. pop1-ash-xe-1-0-0.atdn.net                   0.0%    11    11  89.0  86.2  84.7  89.0
+ 11. dar1-dtc-xe-1-2-0.atdn.net                   0.0%    11    11  87.6  90.0  84.4 105.7
+ 12. gear1-dtc-lag0.net.aol.com                   0.0%    11    11  86.0  86.2  84.8  90.1
+ 13. edge4-dtc-ae0-staging.net.aol.com            0.0%    11    11  86.0  90.7  85.1 133.3
+ 14. ???
+ Obviously I don't have return path traces.
+ I repeated the digs from my VPS, and they work but only intermittently.
+ So I'm guessing some kind of GSLB or network interface round-robining
+ may be impacting things, but only via some routes/paths.
+ Sorry if I've forgotten some information or a step, doing too many
+ things at once right now... :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ This seems to have resolved itself in some manner of speaking; things
+ this morning seem fine.
+ Also, I embarrassingly made an octet typo when testing against one of
+ the nameservers (205 != 206); I have a tendency to type things in
+ manually rather than copy-paste (old habits die hard):
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, May 15, 2013 at 09:50:39PM -0700, Jeremy Chadwick wrote:
+  <f3650836-e98a-4f49-ad60-9fa25cceace1@zmail.mojohost.com>
+ Circe North cable is cut since 2 days ago. This is Viatel owned, Hibernia's
+ network also uses this ...
+ On 16 May 2013 21:57, Raman Sud <raman at mojohost.com> wrote:
+ -- 
+ Director / Founder
+ IX Reach Ltd
+ E: steve.wilcox at ixreach.com
+ M: +44 7966 048633
+ Tempus Court, Bellfield Road, High Wycombe, HP13 5HA, UK.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/f9ad6e31/attachment.html>
+  <f3650836-e98a-4f49-ad60-9fa25cceace1@zmail.mojohost.com>
+ Can I ask what your post has to do with my thread about Netsol?  You
+ chose to "Reply" to my thread + change the Subject, thinking it would
+ start an new thread.  With many (most) mail clients, it doesn't -- note
+ the In-Reply-To: header:
+ TL;DR -- in the future, please be sure to actually start a brand new
+ Email and not reply to an existing thread + change the Subject.  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Thu, May 16, 2013 at 04:57:32PM -0400, Raman Sud wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+fibercut
+###############################################################
+ does anyone have information on the fibercut that happened today in the North Sea? 
+ Thank you 
+ ============= 
+ Best Regards 
+ Raman Sud 
+ Sr. VP of Engineering 
+ Mojohost 
+ Toll Free: 888-345-MOJO x808 
+ Cell: +1 480.206.0211 
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x26BDA015F2DCF135 
+ THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY DESTROYED. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/ade0a816/attachment.html>
+ sorry about that.. 
+ ============= 
+ Best Regards 
+ Raman Sud 
+ Sr. VP of Engineering 
+ Mojohost 
+ Toll Free: 888-345-MOJO x808 
+ Cell: +1 480.206.0211 
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x26BDA015F2DCF135 
+ THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY DESTROYED. 
+ ----- Original Message -----
+ From: "Jeremy Chadwick" <jdc at koitsu.org> 
+ Cc: outages at outages.org 
+ Sent: Thursday, May 16, 2013 2:11:04 PM 
+ Can I ask what your post has to do with my thread about Netsol? You 
+ chose to "Reply" to my thread + change the Subject, thinking it would 
+ start an new thread. With many (most) mail clients, it doesn't -- note 
+ the In-Reply-To: header: 
+ TL;DR -- in the future, please be sure to actually start a brand new 
+ Email and not reply to an existing thread + change the Subject. :-) 
+ -- 
+ | Jeremy Chadwick jdc at koitsu.org | 
+ | UNIX Systems Administrator http://jdc.koitsu.org/ | 
+ | Mountain View, CA, US | 
+ | Making life hard for others since 1977. PGP 4BD6C0CB | 
+ On Thu, May 16, 2013 at 04:57:32PM -0400, Raman Sud wrote: 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/496cf5f4/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast Outage in DesPlaines, IL Area
+###############################################################
+ Anyone seeing any Comcast Outages in the DesPlaines, IL Area. We had three docsis 3 business class modems go down?
+ Michael  Peterman
+ President
+ Small Business Technology Solutions
+ "You worry about running your business; we will worry about the technology"
+ Main Office
+ 7513 7th Avenue  Suite 3
+ Kenosha, WI 53143
+ Phone: (262) 671-4898 ext. 202
+ www.seeus4it.com<http://www.seeus4it.com/>
+ Michael at seeus4it.com<mailto:Michael at seeus4it.com>
+ [Description: Facebook]<http://www.facebook.com/seeus4it>[Description: Twitter]<http://www.twitter.com/seeus4it>[Description: Linkedin]<http://www.linkedin.com/companies/263975>[Description: RSS]<http://blog.seeus4it.com/?feed=rss2>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/3e3b489e/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 1095 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/3e3b489e/attachment.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.jpg
+ Type: image/jpeg
+ Size: 1074 bytes
+ Desc: image002.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/3e3b489e/attachment-0001.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.jpg
+ Type: image/jpeg
+ Size: 1177 bytes
+ Desc: image003.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/3e3b489e/attachment-0002.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.jpg
+ Type: image/jpeg
+ Size: 1143 bytes
+ Desc: image004.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/3e3b489e/attachment-0003.jpg>
+ Looks like a Comcast Interconnect issue.  Out of Chicago, seeing Outages 
+ to a Comcast circuit in Atlantic City via Telia (at a Chicago handoff), 
+ but Fine to Dekalb, Il, via Global crossing, and Northern Indiana via 
+ savvis.
+ On 5/16/2013 5:23 PM, Michael Peterman wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/cd426360/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 1095 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/cd426360/attachment-0004.jpe>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 1074 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/cd426360/attachment-0005.jpe>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 1177 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/cd426360/attachment-0006.jpe>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 1143 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/cd426360/attachment-0007.jpe>
+ I heard that there was a 288-count fiber cut this afternoon thanks to a
+ Fedex truck in Chicago. That might be related, but I'm not sure. I don't
+ have any more details than that, unfortunately.
+ John
+ On Thu, May 16, 2013 at 4:23 PM, Michael Peterman <Michael at seeus4it.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/6960ca3b/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.jpg
+ Type: image/jpeg
+ Size: 1177 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/6960ca3b/attachment.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 1095 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/6960ca3b/attachment-0001.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.jpg
+ Type: image/jpeg
+ Size: 1074 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/6960ca3b/attachment-0002.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.jpg
+ Type: image/jpeg
+ Size: 1143 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130516/6960ca3b/attachment-0003.jpg>
+###############################################################
+END
+###############################################################
+
+###############################################################
+fb.me is down
+###############################################################
+ I've noticed it didn't work yesterday, either.
+ Tested from two locations.
+ California:
+ li16x-xxx:~# telnet fb.me http
+ Trying 2a03:2880:2110:df01:face:b00c:0:8...
+ ^C
+ li16x-xxx:~# traceroute6 fb.me
+ traceroute to fb.me (2a03:2880:2110:df01:face:b00c:0:8), 30 hops max, 80 byte packets
+  1  2600:3c01:ffff:0:ca4c:75ff:fef5:d63f (2600:3c01:ffff:0:ca4c:75ff:fef5:d63f)  206.674 ms  206.681 ms  206.639 ms
+  2  10gigabitethernet2-3.core1.fmt1.he.net (2001:470:1:1db::1)  0.668 ms  0.660 ms  0.653 ms
+  3  10gigabitethernet1-2.core1.sjc2.he.net (2001:470:0:2f::2)  0.850 ms  0.842 ms  0.973 ms
+  4  2001:504:0:1:0:3:2934:2 (2001:504:0:1:0:3:2934:2)  1.758 ms  51.504 ms 2001:470:0:14a::2 (2001:470:0:14a::2)  0.907 ms
+  5  ae0.bb01.sjc1.tfbnw.net (2620:0:1cff:dead:beef::9)  1.065 ms ae1.bb01.sjc1.tfbnw.net (2620:0:1cff:dead:beef::15)  1.953 ms  1.454 ms
+  6  ae6.bb01.frc1.tfbnw.net (2620:0:1cff:dead:beef::aa)  69.617 ms  69.712 ms  69.723 ms
+  7  ae1.dr02.frc1.tfbnw.net (2620:0:1cff:dead:beef::93)  67.326 ms ae2.dr04.frc1.tfbnw.net (2620:0:1cff:dead:beef::1de)  66.698 ms ae2.dr02.frc1.tfbnw.net (2620:0:1cff:dead:beef::9b)  66.627 ms
+  8  po1019.csw13b.frc1.tfbnw.net (2620:0:1cff:dead:beef::12bd)  68.058 ms  67.433 ms  67.786 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ Europe:
+ Cns# telnet -6 fb.me http
+ Trying 2a03:2880:2110:df01:face:b00c:0:8...
+ ^C
+ Cns# traceroute6 fb.me
+ traceroute6 to fb.me (2a03:2880:2110:df01:face:b00c:0:8) from 2001:470:XXXX::, 64 hops max, 12 byte packets
+  1  cnst-3.tunnel.tserv6.fra1.ipv6.he.net  9.78 ms  9.188 ms  8.916 ms
+  2  gige-g2-20.core1.fra1.he.net  10.158 ms  6.491 ms  6.453 ms
+  3  ae1.br01.fra1.tfbnw.net  29.037 ms  7.278 ms  6.869 ms
+  4  ae1.bb01.fra2.tfbnw.net  7.048 ms  6.844 ms  6.812 ms
+  5  ae11.bb02.iad2.tfbnw.net  94.231 ms  93.68 ms  94.441 ms
+  6  ae4.bb02.frc1.tfbnw.net  107.464 ms  107.978 ms  116.968 ms
+  7  ae2.dr01.frc1.tfbnw.net  104.31 ms ae40.dr01.frc1.tfbnw.net  103.572 ms ae40.dr02.frc1.tfbnw.net  124.374 ms
+  8  ae2.dr02.frc1.tfbnw.net  103.912 ms po1021.csw13b.frc1.tfbnw.net  104.85 ms  105.569 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ I have no explanation how they could possibly be down for more than a day, 
+ even if only on IPv6; perhaps only he.net is affected?
+ C.
+ On 18 May 2013 21:45, Constantine A. Murenin <mureninc at gmail.com> wrote:
+ li16x-xxx:~# telnet www.facebook.com http
+ Trying 2a03:2880:2050:1f01:face:b00c:0:9...
+ Connected to star.c10r.facebook.com.
+ Escape character is '^]'.
+ ^CConnection closed by foreign host.
+ li16x-xxx:~# telnet fb.me http
+ Trying 2a03:2880:2110:df01:face:b00c:0:8...
+ ^C
+ So, this is only fb.me that's affected, not www.facebook.com.
+ Doubtful that only he.net customers are affected, probably a
+ world-wide issue.
+ C.
+  <CAPKkNb4U0U3tTfZemzM8Hi1gtGq67W+vCeYWLUFKd8=yZzZ8SQ@mail.gmail.com>
+ On Sat, 2013-05-18 at 21:51 -0700, Constantine A. Murenin wrote:
+ tried a server in UK and US, facebooks ipv6 issue 4 works fine
+ telnet fb.me http
+ Trying 173.252.110.27...
+ Connected to fb.me.
+ Escape character is '^]'.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/2ef9eba1/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: This is a digitally signed message part
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/2ef9eba1/attachment.sig>
+ On Sat, May 18, 2013 at 09:45:18PM -0700, Constantine A. Murenin wrote:
+ Taken from my home machine (Mountain View, CA; Comcast connection); only
+ IPv4, sorry:
+ $ telnet fb.me 80
+ Trying 173.252.110.27...
+ Connected to fb.me.
+ Escape character is '^]'.
+ GET / HTTP/1.0
+ Host: fb.me
+ HTTP/1.0 301 Moved Permanently
+ Location: http://www.facebook.com/
+ Content-Type: text/html; charset=utf-8
+ X-FB-Debug: QataDVOUSq+vNlfgI3enUcTGQ86k+aJ3APJ2ledddJw=
+ Date: Sun, 19 May 2013 05:17:48 GMT
+ Connection: close
+ Content-Length: 0
+ Connection closed by foreign host.
+ $ mtr fb.me
+                                                   Packets               Pings
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%    11    11   0.4   0.3   0.2   0.4
+  2. c-67-180-84-1.hsd1.ca.comcast.net            0.0%    11    11  16.6  24.6   9.2  40.0
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%    11    11   9.2  10.2   9.2  11.7
+  4. te-1-1-0-6-ar01.sfsutro.ca.sfba.comcast.net  0.0%    10    10  13.5  14.7  11.9  24.9
+  5. he-1-8-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%    10    10  13.7  16.6  13.7  23.0
+  6. xe-10-2-0.edge1.SanJose1.Level3.net          0.0%    10    10  43.3  37.2  22.3  54.7
+  7. vlan70.csw2.SanJose1.Level3.net              0.0%    10    10  79.6  81.6  79.4  91.4
+  8. ae-72-72.ebr2.SanJose1.Level3.net            0.0%    10    10  81.3  81.0  79.5  81.7
+  9. ae-2-2.ebr2.SanJose5.Level3.net              0.0%    10    10  81.9  81.0  79.4  82.6
+ 10. ae-6-6.ebr2.LosAngeles1.Level3.net           0.0%    10    10  80.2  80.7  79.9  81.4
+ 11. ae-3-3.ebr3.Dallas1.Level3.net               0.0%    10    10  81.6  81.1  79.8  81.6
+ 12. ae-73-73.csw2.Dallas1.Level3.net             0.0%    10    10  80.6  80.9  80.0  83.0
+ 13. ae-71-71.ebr1.Dallas1.Level3.net             0.0%    10    10  80.0  82.4  80.0  92.0
+ 14. ae-2-2.ebr1.Miami1.Level3.net                0.0%    10    10  81.8  84.0  80.0  95.2
+ 15. ae-1-51.edge4.Miami1.Level3.net              0.0%    10    10  79.8  89.5  79.8 130.2
+ 16. TRINITY-COM.edge4.Miami1.Level3.net          0.0%    10    10  87.9  88.3  87.0  92.3
+ 17. ???
+ 18. 24.244.158.2                                 0.0%    10    10  87.8  88.2  86.6  90.0
+ 19. 208-87-35-103.securehost.com                 0.0%    10    10  87.4  87.7  86.8  88.3
+ Seems ICMP traceroute should work to them, at least for IPv4.
+ I can try from another destination if needed.
+ Can you determine if this is a IPv6 vs. IPv4 thing?
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ Works fine over v4, just fails on v6.  I connect to the same IPv6 address.
+ nagios:/# wget -6 fb.me
+ --2013-05-19 00:31:42--  http://fb.me/
+ Resolving fb.me... 2a03:2880:2110:df01:face:b00c:0:8
+ Connecting to fb.me|2a03:2880:2110:df01:face:b00c:0:8|:80... failed:
+ Connection timed out.
+ Retrying.
+ --2013-05-19 00:32:04--  (try: 2)  http://fb.me/
+ Connecting to fb.me|2a03:2880:2110:df01:face:b00c:0:8|:80... failed:
+ Connection timed out.
+ Retrying.
+ --2013-05-19 00:32:27--  (try: 3)  http://fb.me/
+ Connecting to fb.me|2a03:2880:2110:df01:face:b00c:0:8|:80... failed:
+ Connection timed out.
+ Retrying.
+ nagios:/# tcptraceroute6 fb.me
+ traceroute to edge-star6-ecmp-13-frc1.facebook.com
+ (2a03:2880:2110:df01:face:b00c:0:8) from 2607:fe28:0:1000::5, port 80, from
+ port 57831, 30 hops max, 60 bytes packets
+  1  router-core.mtcnet.net (2607:fe28:0:1000::1)  0.256 ms  0.213 ms  0.218
+ ms
+  2  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  0.224 ms  0.134 ms  0.136
+ ms
+  3  v6-premier.sxcy-mlx.fbnt.netins.net (2001:5f8:7f0a:2::1)  1.582 ms
+ 1.556 ms  1.538 ms
+  4  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  5.657 ms
+ 5.532 ms  5.569 ms
+  5  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  7.362 ms  7.364 ms
+ 7.473 ms
+  6  v6-ins-kc2-po20.kmrr.netins.net (2001:5f8::8:2)  7.388 ms  7.356 ms
+ 7.345 ms
+  7  v6-ins-kc1-po21.kmrr.netins.net (2001:5f8::14:1)  15.680 ms  7.440 ms
+ 7.346 ms
+  8  sl-crs2-chi-te1-2-0-1.v6.sprintlink.net (2600:4::6)  16.969 ms  16.930
+ ms  16.850 ms
+  9  sl-st31-chi-bu-20.v6.sprintlink.net (2600:0:2:1239:144:232:1:104)
+ 17.616 ms  17.489 ms  17.590 ms
+ 10  2600:4:2000::f (2600:4:2000::f)  17.292 ms  17.340 ms  17.377 ms
+ 11  ae1.bb02.ord1.tfbnw.net (2620:0:1cff:dead:beee::452)  17.565 ms  17.476
+ ms  17.524 ms
+ 12  ae24.bb02.iad2.tfbnw.net (2620:0:1cff:dead:beef::1499)  38.345 ms
+ 51.348 ms  35.481 ms
+ 13  ae4.bb02.frc1.tfbnw.net (2620:0:1cff:dead:beef::c2)  49.026 ms  48.936
+ ms  48.869 ms
+ 14  ae2.dr02.frc1.tfbnw.net (2620:0:1cff:dead:beef::9b)  62.555 ms  45.535
+ ms  45.502 ms
+ 15  po1022.csw13c.frc1.tfbnw.net (2620:0:1cff:dead:beef::12c1)  46.482 ms
+ 46.301 ms  46.364 ms
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ 19  * * *
+ 20  * * *
+ ^C70% completed...
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Constantine
+ A. Murenin
+ Sent: Saturday, May 18, 2013 11:45 PM
+ I've noticed it didn't work yesterday, either.
+ Tested from two locations.
+ California:
+ li16x-xxx:~# telnet fb.me http
+ Trying 2a03:2880:2110:df01:face:b00c:0:8...
+ ^C
+ li16x-xxx:~# traceroute6 fb.me
+ traceroute to fb.me (2a03:2880:2110:df01:face:b00c:0:8), 30 hops max, 80
+ byte packets
+  1  2600:3c01:ffff:0:ca4c:75ff:fef5:d63f
+ (2600:3c01:ffff:0:ca4c:75ff:fef5:d63f)  206.674 ms  206.681 ms  206.639 ms
+  2  10gigabitethernet2-3.core1.fmt1.he.net (2001:470:1:1db::1)  0.668 ms
+ 0.660 ms  0.653 ms
+  3  10gigabitethernet1-2.core1.sjc2.he.net (2001:470:0:2f::2)  0.850 ms
+ 0.842 ms  0.973 ms
+  4  2001:504:0:1:0:3:2934:2 (2001:504:0:1:0:3:2934:2)  1.758 ms  51.504 ms
+ 2001:470:0:14a::2 (2001:470:0:14a::2)  0.907 ms
+  5  ae0.bb01.sjc1.tfbnw.net (2620:0:1cff:dead:beef::9)  1.065 ms
+ ae1.bb01.sjc1.tfbnw.net (2620:0:1cff:dead:beef::15)  1.953 ms  1.454 ms
+  6  ae6.bb01.frc1.tfbnw.net (2620:0:1cff:dead:beef::aa)  69.617 ms  69.712
+ ms  69.723 ms
+  7  ae1.dr02.frc1.tfbnw.net (2620:0:1cff:dead:beef::93)  67.326 ms
+ ae2.dr04.frc1.tfbnw.net (2620:0:1cff:dead:beef::1de)  66.698 ms
+ ae2.dr02.frc1.tfbnw.net (2620:0:1cff:dead:beef::9b)  66.627 ms
+  8  po1019.csw13b.frc1.tfbnw.net (2620:0:1cff:dead:beef::12bd)  68.058 ms
+ 67.433 ms  67.786 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ Europe:
+ Cns# telnet -6 fb.me http
+ Trying 2a03:2880:2110:df01:face:b00c:0:8...
+ ^C
+ Cns# traceroute6 fb.me
+ traceroute6 to fb.me (2a03:2880:2110:df01:face:b00c:0:8) from
+ 2001:470:XXXX::, 64 hops max, 12 byte packets
+  1  cnst-3.tunnel.tserv6.fra1.ipv6.he.net  9.78 ms  9.188 ms  8.916 ms
+  2  gige-g2-20.core1.fra1.he.net  10.158 ms  6.491 ms  6.453 ms
+  3  ae1.br01.fra1.tfbnw.net  29.037 ms  7.278 ms  6.869 ms
+  4  ae1.bb01.fra2.tfbnw.net  7.048 ms  6.844 ms  6.812 ms
+  5  ae11.bb02.iad2.tfbnw.net  94.231 ms  93.68 ms  94.441 ms
+  6  ae4.bb02.frc1.tfbnw.net  107.464 ms  107.978 ms  116.968 ms
+  7  ae2.dr01.frc1.tfbnw.net  104.31 ms ae40.dr01.frc1.tfbnw.net  103.572 ms
+ ae40.dr02.frc1.tfbnw.net  124.374 ms
+  8  ae2.dr02.frc1.tfbnw.net  103.912 ms po1021.csw13b.frc1.tfbnw.net  104.85
+ ms  105.569 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ I have no explanation how they could possibly be down for more than a day, 
+ even if only on IPv6; perhaps only he.net is affected?
+ C.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20130519052002.GA22750@icarus.home.lan>
+ On 18 May 2013 22:20, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ Obviously IPv6.  And it's still down.
+ C.
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+ On 18 May 2013 22:34, Frank Bulk <frnkblk at iname.com> wrote:
+ Dunno about you, but my non-happy-eyeballs browser takes a couple of
+ minutes before an fb.me link completes.  I vaguely recall the same
+ issue yesterday, which, if true, would be quite amusing for a site so
+ prevalent to be down for so long. :-)
+ Since becoming IPv6-enabled, this is by far not the first site that's
+ stopped working at some point in time for me, due to my browser being
+ IPv6-aware.
+ People talk about publishers not turning on IPv6 for their domains,
+ since there are misconfigured clients; I'd say IPv6 clients face a
+ bigger problem, in the face of so many misconfigured servers.
+ And fb.me is still down, BTW.
+ C.
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+ On Sat, 2013-05-18 at 22:55 -0700, Constantine A. Murenin wrote:
+ 8  2620:0:1cff:dead:beef::12b5  286.407 ms 2620:0:1cff:dead:beef::12d1
+ 289.605 ms 2620:0:1cff:dead:beef::105f  289.441 ms
+  9  * * *
+ 10  * * *
+ kinda the right addressing at least :)
+ not that I care, given I dont facebook as i value my privacy
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/f7010db9/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: face-smile.png
+ Type: image/png
+ Size: 873 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/f7010db9/attachment.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: This is a digitally signed message part
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/f7010db9/attachment.sig>
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+ On 19 May 2013 00:32, Noel Butler <noel.butler at ausics.net> wrote:
+ I use twitter, and people use fb.me links on twitter, which didn't work.
+ Heh, finally someone must have noticed, and instead of fixing it for
+ IPv6, they've just removed the AAAA record:
+ li16x-xxx:~# telnet fb.me http
+ Trying 173.252.110.27...
+ Connected to fb.me.
+ Escape character is '^]'.
+ ^CConnection closed by foreign host.
+ li16x-xxx:~# telnet -6 fb.me http
+ telnet: could not resolve fb.me/http: Name or service not known
+ But it's still amusing that it's been down for so long.  I wonder how
+ many hours (or possibly even days) it's been down for. :-)
+ C.
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+  <CAPKkNb5HSY5yDsyrB5TXy4GmsE=TrR+Viz1HRm2hCTExeCsOqQ@mail.gmail.com>
+ On Sun, 2013-05-19 at 09:46 -0700, Constantine A. Murenin wrote:
+ I must be lucky, none of my shorteners have failed, so they cant post
+ via fb ;)
+ its facebook, its too hard to fix, like their (lack of) privacy.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130520/1d14d9c2/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: face-wink.png
+ Type: image/png
+ Size: 876 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130520/1d14d9c2/attachment.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: This is a digitally signed message part
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130520/1d14d9c2/attachment.sig>
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+  <CAPKkNb5HSY5yDsyrB5TXy4GmsE=TrR+Viz1HRm2hCTExeCsOqQ@mail.gmail.com>
+  <1369008786.4375.6.camel@tardis>
+ Wait, a site that's dedicated to sharing your life isn't privacy oriented?
+ You don't say.
+ On May 19, 2013 5:20 PM, "Noel Butler" <noel.butler at ausics.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/03bffa6a/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: face-wink.png
+ Type: image/png
+ Size: 876 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/03bffa6a/attachment.png>
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+  <CAPKkNb5HSY5yDsyrB5TXy4GmsE=TrR+Viz1HRm2hCTExeCsOqQ@mail.gmail.com>
+  <1369008786.4375.6.camel@tardis>
+  <CAN3um4ySZpW6sxZmR7sNMzHZte=ajxm=tj_MWXvsNBQKz-6xtA@mail.gmail.com>
+ Actually, my own reason for not joining facebook is that, back in the
+ day, they seemed to have required a registration to use any portion of
+ the site whatsoever, and I didn't want to impose such contagious and
+ exclusive conditions onto the people I want to share my content with.
+ Their privacy problems come from having been providing too much
+ privacy to start with (for whichever reasons), and then gradually
+ reducing said privacy (as market conditions and priorities or
+ philosophies have changed).
+ C.
+ On 19 May 2013 17:31, Mike Hale <eyeronic.design at gmail.com> wrote:
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+  <CAPKkNb5HSY5yDsyrB5TXy4GmsE=TrR+Viz1HRm2hCTExeCsOqQ@mail.gmail.com>
+  <1369008786.4375.6.camel@tardis>
+  <CAN3um4ySZpW6sxZmR7sNMzHZte=ajxm=tj_MWXvsNBQKz-6xtA@mail.gmail.com>
+  <CAPKkNb6xyA_vC7E6maao8Eui9CQocZt8gmXts-hLK+UzQXDCcw@mail.gmail.com>
+ Not trying to rain on anyone's parade (honest!), but: could you guys
+ move this over to outages-discussion ?  That list is better-suited for
+ where this conversation is going.
+ Respectfully,
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sun, May 19, 2013 at 05:45:36PM -0700, Constantine A. Murenin wrote:
+  <000601ce5452$8c6d2e20$a5478a60$@iname.com>
+  <CAPKkNb5kLgfYz4uz60daGPBhjdD2BrfDwu0Xah1XTzZvi9VHjw@mail.gmail.com>
+  <1368948727.8562.5.camel@tardis>
+  <CAPKkNb5HSY5yDsyrB5TXy4GmsE=TrR+Viz1HRm2hCTExeCsOqQ@mail.gmail.com>
+  <1369008786.4375.6.camel@tardis>
+  <CAN3um4ySZpW6sxZmR7sNMzHZte=ajxm=tj_MWXvsNBQKz-6xtA@mail.gmail.com>
+  <CAPKkNb6xyA_vC7E6maao8Eui9CQocZt8gmXts-hLK+UzQXDCcw@mail.gmail.com>
+ This is the outages list, not the discussion list guys =)
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Sun, May 19, 2013 at 8:45 PM, Constantine A. Murenin
+ <mureninc at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130519/6164376d/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Telus - Northern British Columbia - Prince George.
+###############################################################
+ Never thought I'd post here, but we have a gige via telus and get
+ transit through it via Shaw.
+ The circuit went down about noon PDT today and have not been able to
+ get much info except for a master ticket number. There have been very
+ little news coming out of Telus as this point.
+ Does anyone have info about an outage affecting, from the sounds of it,
+ a fairly significant outage for Telus in this part of the province.
+ We do have a second gige with Telus directly and that has taken the traffic
+ so I guess we have some diversity within telus for that one to remain up.
+ Thanks,
+ Keith
+ The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please notify the sender and delete the material from your computer.
+###############################################################
+END
+###############################################################
+
+###############################################################
+worldnic.com / Network Solutions DNS outage
+###############################################################
+ Clients with domains registered at Network Solutions are reporting their sites are inaccessible. The issue looks to be related to worldnic.com DNS services.
+ http://dnscheck.pingdom.com/ shows the following errors:
+ * Delegation not found at parent:
+ 	No delegation could be found at the parent, making your zone unreachable from the Internet
+ * Not enough nameserver information was found to test the zone www.<domain>.com, but an IP address lookup succeeded in spite of that.
+ The issue looks to be resolved now, but did anyone here notice similar issues?
+ Thanks,
+ David
+ On Tue, May 21, 2013 at 09:54:02PM -0700, Oneiric Lists wrote:
+ I saw something similar to this on May 15th, and it started roughly
+ around the same time as your mail tonight.  See my list post:
+ https://puck.nether.net/pipermail/outages/2013-May/005561.html
+ The issue was gone by morning.
+ https://puck.nether.net/pipermail/outages/2013-May/005562.html
+ I would not be surprised if this was some kind of Netsol maintenance
+ that they just don't bother announcing.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+just testing
+###############################################################
+ Haven't seen anything here all week
+ -Keith
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/eec5c949/attachment.html>
+ On 2013-05-24, at 11:32, Wallace Keith <kwallace at pcconnection.com> wrote:
+ outage outage?
+ Nothing here all week either.
+ Perhaps nobody is changing critical configurations due to the long holiday
+ weekend ;)
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Wallace
+ Keith
+ Sent: Friday, May 24, 2013 11:33 AM
+ Haven't seen anything here all week
+ -Keith
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/764539b2/attachment.html>
+ Seems to be working now.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On May 24, 2013 11:47 AM, "Wallace Keith" <kwallace at pcconnection.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/b5034a57/attachment.html>
+  <007101ce5895$bac58000$30508000$@c4.net>
+ Then I propose making every weekend a holiday weekend. 
+ On May 24, 2013, at 11:45 AM, "Tim Rutherford" <timrutherford at c4.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/d778edff/attachment.html>
+  <007101ce5895$bac58000$30508000$@c4.net>
+  <65C9CC66-34FC-4C16-AFA0-9181EA32F4C5@gmail.com>
+ Then I better get this big migration done right today...
+ *furiously drinks coffee, wanders off*
+ On Fri, May 24, 2013 at 11:10 AM, Michael Cannon <m.cannon9802 at gmail.com>wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/44753c0c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+FYI StartCom / StartSSL Down
+###############################################################
+ http://www.downforeveryoneorjustme.com/http://www.startcom.org/
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/1347b15d/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6118 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/1347b15d/attachment.p7s>
+ http://www.startcom.org/ is working for us here in Toronto, Canada (via AS812)
+ davinci#telnet www.startcom.org 80
+ Trying www.startcom.org (192.116.242.10, 80)... Open
+ GET / HTTP/1.0
+ HTTP/1.1 200 OK
+ Date: Fri, 24 May 2013 16:21:26 GMT
+ Server: Apache/2.2.3 (StartCom)
+ X-Powered-By: PHP/5.1.6
+ Cache-Control: max-age=0, must-revalidate, max-age=3600, must-revalidate
+ Content-Type: text/html; charset=utf-8
+ Expires: Fri, 24 May 2013 17:21:31 GMT
+ Vary: Accept-Encoding
+ Connection: close
+ Thanks,
+ --
+ Mike Jackson
+ Network Analyst - Toronto Transit Commission
+ Inbox: mike.jackson at ttc.ca <mailto:mike.jackson at ttc.ca> 
+ ASN 40884 / MMJ6-ARIN
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Jason Hellenthal
+ Sent: May-24-13 12:09 PM
+ http://www.downforeveryoneorjustme.com/http://www.startcom.org/ <http://www.downforeveryoneorjustme.com/http:/www.startcom.org/> 
+ The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material.  Any review retransmission dissemination or other use of or taking any action in reliance upon this information by persons or entities other than the intended recipient or delegate is strictly prohibited.  If you received this in error please contact the sender and delete the material from any computer.  The integrity and security of this message cannot be guaranteed on the Internet.  The sender accepts no liability for the content of this e-mail or for the consequences of any actions taken on the basis of information provided.  The recipient should check this e-mail and any attachments for the presence of viruses.  The sender accepts no liability for any damage caused by any virus transmitted by this e-mail.  This disclaimer is property of the TTC and must not be altered or circumvented in any manner.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/b48d0ded/attachment-0001.html>
+  <E6B2ED4F3884B84EBBCA90B715C5C5190E208E20@power.INT.TTC.CA>
+ I just noticed its back up here. Michigan
+ On May 24, 2013, at 12:22, <Mike.Jackson at ttc.ca> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/5b5ce1e2/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6118 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/5b5ce1e2/attachment.p7s>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ FYI StartCom / StartSSL Down [AR]
+###############################################################
+ Could list admin unsub this...
+ It seems permanently down.
+ Begin forwarded message:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/7c3544f6/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6118 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130524/7c3544f6/attachment-0001.p7s>
+ A list sub was an employee who left Qwest, and they set his address to
+ bounce, using a bouncer that didn't say who he was.  All posters to the
+ list got that direct bounce, so we were trying to clean it up, and now
+ we have.
+ Cheers,
+ -- jra
+ ----- Original Message -----
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+PINCH Outages test
+###############################################################
+ Reminder: look to see if such tests have one reply before posting your
+ own *to the list*; if you want to reply on -discuss or off-list that's
+ fine (though I understand that not everyone subscribes to -discuss).
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Ignore this message please
+###############################################################
+ Bounce Return.
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 6118 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130525/3d996496/attachment.p7s>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Remote Hands List from NANOG
+###############################################################
+ The NANOG list also maintains a wiki, and on that site is a list of
+ people with datacenter experience whom you might use as Remote Hands if
+ you have an outage in a place where you don't have people.
+ If you find yourself in that situation, the list is here:
+   http://nanog.cluepon.net/index.php/Hands
+ and there is, of course, other interesting material on the site as well; 
+ NANOG 55 is coming up shortly in New Orleans.
+ As always, followups to -discussion
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+western washington outage
+###############################################################
+ If anyone cares, several carriers are reporting major issues around
+ Olympia WA.  A fiber cut is suspected, but has not been confirmed to me. 
+ -Chris
+###############################################################
+END
+###############################################################
+
+###############################################################
+Chronic packet loss/latency in LAX (4 providers potentially involved)
+###############################################################
+ Hi folks,
+ For the past 3-4 weeks (likely longer), there has been a peering point
+ in Los Angeles that has been repeatedly overtaxed every night for
+ roughly 5-6 hours.  Specifically high latency and packet loss.
+ It tends to start at roughly the same time every day (1800 PDT), and
+ tends to dissipate around the same time as well (2300 PDT or so) -- i.e.
+ prime-time.  This is not ICMP prioritisation -- this is real packet loss
+ (I can tell via SSH, fetching mail (IMAP), etc.).  However in recent
+ days (past week or so), the issue has persisted even until hours as late
+ as 0100 PDT, and today (for example) has existed since as early as 1500
+ PDT.  So the situation as I said is getting worse.
+ Because of asymmetrical routing, it's impossible for me to tell where
+ peering-wise the actual issue is:
+ a) between Comcast and GTT/nLayer
+ b) between Comcast and Tata/AS6453
+ c) between NTT/Verio and Tata/AS6453
+ Of those 4 providers I've only a relationship with one; me getting all
+ four to talk simultaneously, while the issue is happening, is virtually
+ impossible.  However it happens every night like clockwork, for a long
+ period of time, so resolution shouldn't be all that difficult.
+ I do periodic mtrs (think traceroute + ping combined) between my home
+ connection and my VPS.  Probe durations are 40 seconds, at intervals of
+ 60 seconds.  I store roughly 2-3 months of data, and I can make all this
+ data available.
+ Here's examples taken from tonight, both directions.  Source and
+ destination IPs are provided.
+ Source IP: 67.180.84.87    (Comcast; Mountain View, CA)
+ Dest IP:   206.125.172.42  (ARP Networks; Sylmar, CA)
+ === Mon May 27 19:36:00 PDT 2013  (1369708560)
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1.|-- 192.168.1.1                0.0%    40    40   0.3   0.3   0.2   0.4
+   2.|-- 67.180.84.1                0.0%    40    40  11.4  24.9  10.1  61.7
+   3.|-- 68.85.191.249              0.0%    40    40  11.3  11.7   8.9  27.7
+   4.|-- 69.139.199.106             0.0%    40    40  14.6  13.3  10.4  16.1
+   5.|-- 68.86.91.45                0.0%    40    40  15.9  19.6  13.1  34.3
+   6.|-- 68.86.88.58                0.0%    40    40  25.0  22.8  20.0  27.2
+   7.|-- 68.86.88.190               0.0%    40    40  21.5  21.9  19.6  38.2
+   8.|-- 173.167.57.138            10.0%    40    36  68.5  79.4  54.1  92.3
+   9.|-- 69.31.127.141              0.0%    40    40  81.4  95.1  64.5 128.8
+  10.|-- 69.31.127.130             35.0%    40    26  69.5  69.6  43.0  96.1
+  11.|-- 69.174.121.73              0.0%    40    40  67.0  72.3  39.6  90.4
+  12.|-- 67.199.135.102            10.0%    40    36  39.1  49.2  36.7 249.8
+  13.|-- 206.125.172.42             5.0%    40    38  37.1  36.0  34.2  49.9
+ === END
+ DNS resolution for relevant hops:
+ $ host 68.86.88.190
+ 190.88.86.68.in-addr.arpa domain name pointer pos-0-4-0-0-pe01.600wseventh.ca.ibone.comcast.net.
+ $ host 173.167.57.138
+ Host 138.57.167.173.in-addr.arpa. not found: 3(NXDOMAIN)
+ $ host 69.31.127.141
+ 141.127.31.69.in-addr.arpa domain name pointer ae0-110g.cr1.lax1.us.nlayer.net.
+ Source IP: 206.125.172.42  (ARP Networks; Sylmar, CA)
+ Dest IP:   67.180.84.87    (Comcast; Mountain View, CA)
+ === Mon May 27 19:37:00 PDT 2013  (1369708620)
+ HOST: omake.koitsu.org            Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1.|-- 206.125.172.41             0.0%    40    40   1.5  12.8   0.9 181.8
+   2.|-- 208.79.88.135              0.0%    40    40   0.6   1.0   0.5  11.6
+   3.|-- 129.250.198.185            0.0%    40    40   0.8   0.9   0.7   1.4
+   4.|-- 129.250.2.221              0.0%    40    40   1.0   1.0   0.9   1.5
+   5.|-- 64.86.252.65              32.5%    40    27   0.5   0.8   0.5   8.6
+     |  `|-- 216.6.84.65
+   6.|-- 173.167.59.185            55.0%    40    18  19.6  19.3  15.7  75.1
+   7.|-- 68.86.82.61               40.0%    40    24  17.9  17.5  15.9  19.5
+   8.|-- 68.86.88.57                5.0%    40    38  25.2  25.7  24.1  27.5
+   9.|-- 68.86.90.94                7.5%    40    37  25.8  26.6  24.7  28.7
+  10.|-- 69.139.198.81              5.0%    40    38  26.6  26.6  26.3  27.0
+  11.|-- 68.85.191.254              7.5%    40    37  47.9  46.0  30.5  50.5
+  12.|-- 67.180.84.87               7.5%    40    37  36.0  36.1  34.0  50.3
+ === END
+ DNS resolution for relevant hops (hop #5 indicates round-robin'ing
+ between two different interfaces presumably on the same Tata/AS6453
+ router):
+ $ host 129.250.2.221
+ 221.2.250.129.in-addr.arpa domain name pointer ae-3.r05.lsanca03.us.bb.gin.ntt.net.
+ $ host 64.86.252.65
+ 65.252.86.64.in-addr.arpa domain name pointer ix-11-2-1-0.tcore2.LVW-LosAngeles.as6453.net.
+ $ host 216.6.84.65
+ 65.84.6.216.in-addr.arpa domain name pointer ix-9-1-2-0.tcore2.LVW-LosAngeles.as6453.net.
+ $ host 173.167.59.185
+ 185.59.167.173.in-addr.arpa domain name pointer xe-1-2-0-0-pe01.onewilshire.ca.ibone.comcast.net.
+ If relevant providers are on this list and can respond, that would
+ be awesome.  If they can't respond but can instead start the ball
+ rolling on rectifying this, I think myself and many other 'netizens
+ would really appreciate it.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ Oh yes, I've been seeing this for some time, probably since mid-April.
+ At times we've seen Comcast prepending their AS multiple times on 
+ announcements through Level3, causing outbound to Comcast traffic 
+ via congested routes with Tata, rather than what would otherwise be the 
+ shorter, uncongested route via Level3. (Return traffic from Comcast in my 
+ case returns via Level3.)
+ For traffic from a server in San Francisco connected via Level3 and XO, 
+ connecting to two Comcast cable modems in San Francisco, I see traffic go 
+ out via XO, Tata, Comcast via LA, with what looks like major congestion, 
+ then back up to SF.  With the appearance of major congestion on the 
+ Tata<->Comcast link.
+ I don't have any traffic which visiblity traverses NTT or nLayer, so I 
+ couldn't say if the scope goes beyond the Tata-Comcast link.
+ It's particularly annoying receiving LA latency + 5-6% packet loss going 
+ to/from well connected locations a couple miles apart in SF. I'm 
+ experiencing it now composing this message over ssh.
+ Server in SF to Comcast in SF:
+ ...
+   5. te1-0-0d0.mcr1.fremont-ca.xo.net    0.0%   1.4   5.9   1.2  82.0  15.8
+   6. vb1500.rar3.sanjose-ca.us.xo.net    0.0%  11.1   8.4   1.5  13.3   3.5
+   7. 207.88.14.226.ptr.us.xo.net         6.0%  25.3   8.0   1.8  41.9  12.9
+   8. if-10-12.icore1.SQN-SanJose.as6453 44.9%   6.0   7.0   2.0  14.9   4.3
+   9. Vlan3260.icore2.SQN-SanJose.as6453  0.0%   3.1   6.6   2.3  13.5   3.4
+ 10. if-4-2145.tcore1.SQN-SanJose.as645  0.0%   3.4   3.7   2.7   8.0   0.9
+ 11. if-3-2.tcore2.LVW-LosAngeles.as645  0.0%  32.4  27.9  14.7  57.1   9.7
+ 12. xe-0-2-0-0-pe01.onewilshire.ca.ibo  8.2%  39.4  30.3  28.3  72.3   7.1
+ 13. te-2-0-0-6-cr01.losangeles.ca.ibon  6.1%  32.2  30.7  28.6  32.6   1.2
+ 14. he-0-11-0-0-cr01.sacramento.ca.ibo  4.1%  30.6  31.5  29.6  33.3   1.0
+ 15. he-0-4-0-0-ar01.oakland.ca.sfba.co 10.2%  30.5  32.3  30.4  34.3   1.1
+ 16. te-8-4-ur04.santaclara.ca.sfba.com  8.2%  32.6  33.0  32.5  41.9   1.4
+ 17. te-17-10-cdn08.sf19th.ca.sfba.comc  8.2%  43.0  60.5  31.2 830.2 117.4
+ ...
+ The ComcastSF -> ServerInSF goes out via Level3 and sees no loss until 
+ the final hop, suggesting the problem is with the reverse path, above. 
+ (Most of the time, sometimes the first Comcast hops going out are very 
+ congested too, though that's not usually the case).
+ And here's two smokepings of the issue, in which you can clearly see the 
+ timing of the issue you mentioned. SF server to SF cable modem, 2mi apart.
+ http://cl.ly/image/040U3O2F0810 (last 30 hours)
+ http://cl.ly/image/1D053a0T1k2I (last 10 days)
+  <alpine.LRH.2.02.1305272109340.12602@leaf.lumiere.net>
+ I don't think the issue is limited to just the providers listed.
+ Over the last several days we have been getting reports of long load 
+ times of sites hosted with us in Washington State. One specific customer 
+ is Just north of SF and is a comcast customer. Here is a traceroute from 
+ here before we worked with one of our upsteams today to route around 
+ cogent and currently the traffic is going over level 3 and it is better. 
+ I also had taken down that provider Last night for a while and Comcast 
+ took the traffic up to Seattle to my other provider were it was handed 
+ off. That link also worked very well. However Comcast to Cogent in 
+ Southern CA seems to be having issues best I can tell.
+ Sorry I don't think I have a MTR feed. I don't think any of my techs 
+ saved one yet going from us back down to my customers location.
+ Also i took out the beginning and ending of this for privacy. But the 
+ bulk of the traceroute is here. I find the hope from 68.86.87.6 to 
+ 154.54.11.109 interesting in that is seems like there seems to be a good 
+ jump in latency there.
+ 3 te-7-3-ur01.novato.ca.sfba.comcast.net (68.87.196.201) 26.191 ms
+ 12.109 ms 10.970 ms
+ 4 te-8-2-ur02.sanrafael.ca.sfba.comcast.net (68.87.192.145) 10.665 ms
+ 14.917 ms 10.483 ms
+ 5 te-9-3-ur01.sanrafael.ca.sfba.comcast.net (68.87.192.141) 24.769 ms
+ 10.678 ms 10.807 ms
+ 6 te-1-10-0-13-ar01.sfsutro.ca.sfba.comcast.net (68.87.226.122) 16.090
+ ms 18.981 ms 16.005 ms
+ 7 he-1-7-0-0-cr01.sanjose.ca.ibone.comcast.net (68.86.90.153) 24.986 ms
+ 16.506 ms 48.016 ms
+ 8 pos-0-2-0-0-pe01.529bryant.ca.ibone.comcast.net (68.86.87.6) 14.379 ms
+ 14.265 ms 13.569 ms
+ 9 te0-7-0-12.ccr21.sjc04.atlas.cogentco.com (154.54.11.109) 59.591 ms
+ 63.475 ms 63.213 ms
+ 10 be2018.mpd22.sfo01.atlas.cogentco.com (154.54.28.81) 59.691 ms
+ be2015.ccr21.sfo01.atlas.cogentco.com (154.54.7.173) 65.196 ms
+ be2018.mpd22.sfo01.atlas.cogentco.com (154.54.28.81) 66.781 ms
+ 11 te0-7-0-6.ccr22.sea01.atlas.cogentco.com (154.54.86.41) 74.862 ms
+ te0-7-0-0.ccr22.sea01.atlas.cogentco.com (154.54.86.37) 74.722 ms
+ te0-7-0-6.ccr22.sea01.atlas.cogentco.com (154.54.86.41) 74.747 ms
+ 12 te0-6-0-4.ccr21.sea02.atlas.cogentco.com (154.54.85.182) 75.177 ms
+ te0-1-0-4.ccr21.sea02.atlas.cogentco.com (154.54.85.186) 75.314 ms
+ te0-1-0-5.ccr21.sea02.atlas.cogentco.com (154.54.85.178) 76.532 ms
+ 13 te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213) 146.612 ms
+ te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209) 116.713 ms
+ te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213) 146.250 ms
+ 14 38.104.127.10 (38.104.127.10) 74.407 ms 73.262 ms 75.154 ms
+ 15 core01-grassi-eth1-6.net.pocketinet.com (64.185.97.125) 80.996 ms
+ 80.480 ms 80.905 ms
+ I hope this info is helpful. I have more data I can provide. Been trying 
+ to work up some evidence on what is happening. And to try to pin point 
+ the problem that is causing issues. It seems to be intermittent. But 
+ like you said I think it does tend to be worse "Prime Time"
+ Sincerely,
+ Mark
+  <alpine.LRH.2.02.1305272109340.12602@leaf.lumiere.net>
+  <51A4347C.7030601@viviotech.net>
+ This isn't surprising at all. Comcast is notorious for running their
+ links into the ground.
+ The Comcast<->TATA links have been congested for a while now. Some
+ graphs from late 2010:
+ http://kornholi.net/lol/ntoday.gif
+ http://kornholi.net/lol/sqnday.gif
+ http://kornholi.net/lol/ntomonth.gif
+ Pretty sure they do this so content providers have no other choice but
+ to pay them...
+ -Kornelijus
+  <alpine.LRH.2.02.1305272109340.12602@leaf.lumiere.net>
+  <51A4347C.7030601@viviotech.net>
+ Adding to the collective troubleshooting below (which mirrors my
+ recent observations), I'd offer Tata being congested to various
+ US-based peers as an additional "x factor".  That is to say, even if
+ Tata-Comcast isn't congested in a given market, there is a possibility
+ that Tata-[provider x] might be.
+ Welcome to an era in which Buster Poindexter's hit song "Hot, Hot,
+ Hot" is popular listening music for capacity planning sessions.
+ $0.02,
+ -a
+ On Tue, May 28, 2013 at 12:37 AM, Mark Keymer <mark at viviotech.net> wrote:
+ A follow-up to this:
+ I received *many* off-list mails about this, but nothing official.  Lots
+ of (justified) speculation about which peering points and/or providers
+ it is, to which I did respond to some, but nothing conclusive.
+ Without going into details (respecting folks' privacy), I can say that
+ the NTT/Verio<->Tata peering point has been ruled out as the cause.
+ I should also note that the ingress path (Comcast-->ARP) has changed due
+ to what appears to be some peering adjustments done by Comcast last
+ night (specifically May 27th at 23:22 PDT or thereabouts).
+ This will be obvious below in a pair of live mtrs done by me manually,
+ with DNS resolution enabled.  (Someone off-list asked for this)
+ My gut feeling right now is that the issue is at the Comcast<->Tata
+ peering point (hops #5 and #6 in the 2nd mtr), or a Comcast router at
+ One Wilshire is overwhelmed (hop #6 in the 2nd mtr).
+ The reason I'm wanting to rule out ingress (Comcast->ARP) is because the
+ path today looks different than it did yesterday (Comcast<->GTT/nLayer
+ is no longer involved) yet the issue remains, thus something on the
+ return path looks more likely.
+ Anyway, here are the mtrs, taken about 10 minutes ago:
+ Source IP: 67.180.84.87    (Comcast; Mountain View, CA)
+ Dest IP:   206.125.172.42  (ARP Networks; Sylmar, CA)
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%   128   128   0.2   0.2   0.2   0.5
+  2. c-67-180-84-1.hsd1.ca.comcast.net            0.0%   128   128  25.6  25.9  10.5  66.4
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%   128   128  10.6  11.4   8.8  15.6
+  4. te-1-1-0-13-ar01.sfsutro.ca.sfba.comcast.ne  0.0%   128   128  11.3  14.8  10.2  19.7
+  5. he-3-9-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%   128   128  20.3  20.7  12.4  40.6
+  6. be-13-pe02.11greatoaks.ca.ibone.comcast.net  0.0%   127   127  20.7  18.6  14.5  68.8
+  7. 173.167.59.82                                0.0%   127   127  19.2  23.8  14.3 194.4
+  8. 63-218-212-14.static.pccwglobal.net          0.0%   127   127  24.8  27.1  23.1  78.8
+  9. cxa.r6.lax2.trit.net                         0.0%   127   127  24.4  25.8  22.6  31.3
+ 10. arpnetworks-lax2-gw.cust.trit.net            1.6%   127   125  40.9  55.1  37.2 210.4
+ 11. omake.koitsu.org                            10.2%   127   114  41.8  39.3  35.6  52.5
+ Source IP: 206.125.172.42  (ARP Networks; Sylmar, CA)
+ Dest IP:   67.180.84.87    (Comcast; Mountain View, CA)
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. 206.125.172.41                               0.0%   116   116   7.4  10.0   1.0 111.1
+  2. s7.lax.arpnetworks.com                       0.0%   116   116   0.7   8.0   0.4 168.3
+  3. ge-0-7-0-24.r04.lsanca03.us.bb.gin.ntt.net   0.0%   116   116   0.7   0.8   0.6   1.5
+  4. ae-3.r05.lsanca03.us.bb.gin.ntt.net          0.0%   116   116   1.1   1.0   0.8   2.3
+  5. ix-9-1-2-0.tcore2.LVW-LosAngeles.as6453.net  0.0%   116   116   0.5   2.1   0.4  52.0
+     ix-11-2-1-0.tcore2.LVW-LosAngeles.as6453.net
+  6. xe-1-2-0-0-pe01.onewilshire.ca.ibone.comcas  4.3%   116   111  15.7  16.4  15.5  42.9
+  7. te-2-0-0-7-cr01.losangeles.ca.ibone.comcast  6.0%   116   109  17.8  17.6  15.7  19.9
+  8. pos-2-9-0-0-cr01.sanjose.ca.ibone.comcast.n  5.2%   116   110  28.8  27.9  25.8  29.9
+  9. he-0-4-0-0-ar01.sfsutro.ca.sfba.comcast.net  3.4%   116   112  28.0  28.2  25.9  30.0
+ 10. te-0-6-0-0-ur05.santaclara.ca.sfba.comcast.  5.2%   116   110  29.9  29.7  29.1  37.0
+ 11. te-18-10-cdn31.santaclara.ca.sfba.comcast.n  3.4%   116   112  41.7  47.9  31.2  54.3
+ 12. c-67-180-84-87.hsd1.ca.comcast.net           3.4%   116   112  38.1  37.4  35.1  72.2
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Mon, May 27, 2013 at 07:53:35PM -0700, Jeremy Chadwick wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+FYI StartCom / StartSSL Down [AR]
+###############################################################
+  <934DD250-306F-4566-907A-CE13E20F2260@DataIX.net>
+ The right folks are aware and looking into it.
+ Jay posted something to -discussion crossposted to some other lists; you
+ can view it in the archive here:
+ https://puck.nether.net/pipermail/outages-discussion/2013-May/000814.html
+ On Fri, May 24, 2013 at 9:53 AM, Jason Hellenthal <jhellenthal at dataix.net>wrote:
+ -- 
+ Michael Acosta
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130529/7c9e0583/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut in SC coast
+###############################################################
+ Any word on the fiber/cable cut impacting (at least) Comcast in the
+ Charledton/Goose Creek area?
+ Thanks.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130529/ebadb247/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+IL Comcast Outage
+###############################################################
+ I just was a few of the Comcast modems go down. Anyone else seeing an outages in the CHI area?
+ Michael  Peterman
+ President
+ Small Business Technology Solutions
+ "You worry about running your business; we will worry about the technology"
+ Main Office
+ 7513 7th Avenue  Suite 3
+ Kenosha, WI 53143
+ Phone: (262) 671-4898 ext. 202
+ Cell:     (262) 496-3306
+ www.seeus4it.com<http://www.seeus4it.com/>
+ Michael at seeus4it.com<mailto:Michael at seeus4it.com>
+ [Description: Facebook]<http://www.facebook.com/seeus4it>[Description: Twitter]<http://www.twitter.com/seeus4it>[Description: Linkedin]<http://www.linkedin.com/companies/263975>[Description: RSS]<http://blog.seeus4it.com/?feed=rss2>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/49390040/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 1095 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/49390040/attachment-0004.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.jpg
+ Type: image/jpeg
+ Size: 1074 bytes
+ Desc: image002.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/49390040/attachment-0005.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.jpg
+ Type: image/jpeg
+ Size: 1177 bytes
+ Desc: image003.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/49390040/attachment-0006.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.jpg
+ Type: image/jpeg
+ Size: 1143 bytes
+ Desc: image004.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/49390040/attachment-0007.jpg>
+ I'm not seeing any down, only ones i have down due to an outage are in MI
+ and SC. we have about 20-30 in the Chicago area and am not seeing any
+ issues there.
+ On Thu, May 30, 2013 at 3:08 AM, Michael Peterman <Michael at seeus4it.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/19f88b47/attachment.html>
+  <CAPC+kK5XNrU2Y-bDOoqygumeQ6N7RSJ=wvVgsx=bT312sgXt0w@mail.gmail.com>
+ Ok Thanks.
+ Michael Peterman
+ From: Mitch [mailto:mitpatterson at gmail.com]
+ Sent: Thursday, May 30, 2013 2:31 AM
+ Cc: outages at outages.org
+ I'm not seeing any down, only ones i have down due to an outage are in MI and SC. we have about 20-30 in the Chicago area and am not seeing any issues there.
+ On Thu, May 30, 2013 at 3:08 AM, Michael Peterman <Michael at seeus4it.com<mailto:Michael at seeus4it.com>> wrote:
+ I just was a few of the Comcast modems go down. Anyone else seeing an outages in the CHI area?
+ Michael  Peterman
+ President
+ Small Business Technology Solutions
+ "You worry about running your business; we will worry about the technology"
+ Main Office
+ 7513 7th Avenue  Suite 3
+ Kenosha, WI 53143
+ Phone: (262) 671-4898 ext. 202
+ Cell:     (262) 496-3306
+ www.seeus4it.com<http://www.seeus4it.com/>
+ Michael at seeus4it.com<mailto:Michael at seeus4it.com>
+ <http://www.facebook.com/seeus4it>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <http://www.facebook.com/seeus4it>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/ac28c6de/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outage with TWCBC in the Chicago Area
+###############################################################
+ Boy, what a day. So I just saw some strange routes die. I am connected to a time warner cable connection and I guess from my side I can't get around anything that is in the Chicago area.
+ My route times out at 66.109.6.206 at ae-6-0.cr0.Chi30.tbone.rr.com And I can't even get to google.com Anyone else seeing this issue?
+ Michael Peterman
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/971c3e04/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Earthlink/STS issues in Miami (again!)
+###############################################################
+ Earthlink/STS apparently had a VLX2020 fail last night in south Florida.
+ No ETR, but have been told it's a major outage, and when I pressed for an
+ ETR I was told they'd get back to me.
+ I showed it went down last night around 20:15 Eastern Time, and it kind of
+ came back up at 8:13 Eastern, but I've been told to expect it to bounce
+ until it's resolved.
+ Not sure if anyone else is affected by this, but figuring it's a VLX2020,
+ I'm sure there are.  If anyone else who has been affected by this outage
+ and the one on 5-6-13 can give me a jingle, let me know.  Trying to figure
+ out if we can coordinate DR plans or something here.
+ Thanks folks,
+ -Eric
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/e9b79161/attachment.html>
+ The VLX2020 is White Rock gear (purchased by Turin who merged with Force10),
+ and is End of Sale and I'm not sure if Turin is supporting it anymore.
+ A neighboring network is migrating off of it now, as they've been plagued
+ with issues over the years.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Eric
+ Whitehill
+ Sent: Thursday, May 30, 2013 8:57 AM
+ Earthlink/STS apparently had a VLX2020 fail last night in south Florida.  
+ No ETR, but have been told it's a major outage, and when I pressed for an
+ ETR I was told they'd get back to me. 
+ I showed it went down last night around 20:15 Eastern Time, and it kind of
+ came back up at 8:13 Eastern, but I've been told to expect it to bounce
+ until it's resolved. 
+ Not sure if anyone else is affected by this, but figuring it's a VLX2020,
+ I'm sure there are.  If anyone else who has been affected by this outage and
+ the one on 5-6-13 can give me a jingle, let me know.  Trying to figure out
+ if we can coordinate DR plans or something here. 
+ Thanks folks, 
+ -Eric 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/2f6f4807/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+IPv6 access to Hurricane Electric's home page down?
+###############################################################
+ I noticed that IPv4 and IPv6 access to www.he.net went down at 5:30 pm
+ Central.
+ Traceroutes show different things, but basically it's getting stuck
+ somewhere in HE's core.
+ nagios:# tcptraceroute www.he.net
+ Selected device eth0.3, address 96.31.0.5, port 36642 for outgoing packets
+ Tracing the path to www.he.net (216.218.186.2) on TCP port 80 (www), 30 hops
+ max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.240 ms  0.201 ms  0.179
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.208 ms  0.136 ms  0.127 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.939 ms  1.920 ms
+ 1.904 ms
+  4  ins-db1-te-13-2-219.desm.netins.net (167.142.60.157)  7.886 ms  7.835 ms
+ 7.957 ms
+  5  ins-dc2-et-8-3.desm.netins.net (167.142.67.25)  7.795 ms  7.759 ms
+ 7.803 ms
+  6  ins-db3-te-0-7-0-0.desm.netins.net (167.142.67.182)  8.190 ms  7.977 ms
+ 7.973 ms
+  7  ord1.ins.indatelservices.com (216.176.4.29)  23.014 ms  23.230 ms
+ 22.932 ms
+  8  10gigabitethernet4-1.core1.chi1.he.NET (206.223.119.37)  22.819 ms
+ 22.835 ms  22.776 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ 12  * * *
+ nagios:# tcptraceroute6 www.he.net
+ traceroute to he.net (2001:470:0:76::2) from 2607:fe28:0:1000::5, port 80,
+ from port 60791, 30 hops max, 60 bytes packets
+  1  router-core.mtcnet.net (2607:fe28:0:1000::1)  0.240 ms  0.200 ms  0.181
+ ms
+  2  sxct.movl.mtcnet.net (2607:fe28:11:1002::194)  0.226 ms  0.856 ms  0.139
+ ms
+  3  v6-premier.movl-mlx.fbnt.netins.net (2001:5f8:7f0a:1::1)  1.962 ms
+ 1.923 ms  1.888 ms
+  4  v6-ins-kb1-te-13-2-220.kmrr.netins.net (2001:5f8:2:2::1)  6.315 ms
+ 6.354 ms  6.399 ms
+  5  v6-ins-kc1-te-9-2.kmrr.netins.net (2001:5f8::10:1)  6.360 ms  6.412 ms
+ 6.306 ms
+  6  sl-crs2-chi-te1-2-0-1.v6.sprintlink.net (2600:4::6)  16.130 ms  15.853
+ ms  15.736 ms
+  7  sl-crs1-chi-po0-0-0-3.v6.sprintlink.net (2600:0:2:1239:144:232:26:8)
+ 17.236 ms  16.344 ms  16.133 ms
+  8  sl-st30-chi-bu-20.v6.sprintlink.net (2600:0:2:1239:144:232:1:102)
+ 17.649 ms  17.857 ms  17.544 ms
+  9  10gigabitethernet4-1.core1.chi1.he.net (2001:504:0:4::6939:1)  25.946 ms
+ 16.488 ms  16.484 ms
+ 10  10gigabitethernet5-7.core1.mci3.he.net (2001:470:0:270::2)  28.448 ms
+ 38.399 ms  28.468 ms
+ 11  10gigabitethernet5-1.core1.den1.he.net (2001:470:0:240::1)  40.525 ms
+ 48.500 ms  48.141 ms
+ 12  10gigabitethernet13-5.core1.sjc2.he.net (2001:470:0:1b4::1)  75.170 ms
+ 74.256 ms  72.699 ms
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ [fbulk at puck /]$ traceroute www.he.net
+ traceroute to www.he.net (216.218.186.2), 30 hops max, 60 byte packets
+  1  ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net (204.42.253.5)  0.738 ms
+ 0.650 ms  0.610 ms
+  2  ae-0.teliasonera.chcgil09.us.bb.gin.ntt.net (129.250.8.178)  0.219 ms
+ 0.194 ms  0.172 ms
+  3  chi-bb1-link.telia.net (80.91.246.168)  0.290 ms chi-bb1-link.telia.net
+ (80.91.246.116)  31.168 ms chi-bb1-link.telia.net (80.91.246.118)  31.363 ms
+  4  sjo-bb1-link.telia.net (213.248.80.25)  51.322 ms sjo-bb1-link.telia.net
+ (213.155.132.180)  51.297 ms  51.275 ms
+  5  * * *
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ [fbulk at puck /]$ traceroute6 www.he.net
+ traceroute to www.he.net (2001:470:0:76::2), 30 hops max, 80 byte packets
+  1  ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net (2001:418:3f4::1)  0.725 ms
+ 0.622 ms  0.666 ms
+  2  ae-6.r20.chcgil09.us.bb.gin.ntt.net (2001:418:0:2000::29)  80.228 ms
+ 0.395 ms  0.446 ms
+  3  10gigabitethernet4-1.core1.chi1.he.net (2001:504:0:4::6939:1)  0.267 ms
+ 0.402 ms  0.299 ms
+  4  10gigabitethernet5-7.core1.mci3.he.net (2001:470:0:270::2)  12.659 ms
+ 10gigabitethernet4-1.core1.den1.he.net (2001:470:0:293::2)  24.342 ms
+ 24.299 ms
+  5  10gigabitethernet13-5.core1.sjc2.he.net (2001:470:0:1b4::1)  59.785 ms
+ 59.189 ms  59.450 ms
+  6  10gigabitethernet13-5.core1.sjc2.he.net (2001:470:0:1b4::1)  59.539 ms
+ 58.630 ms *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ Incidentally, I noticed that ipv6.cablelabs.com went down at the same time,
+ too.
+ Frank
+ Works for me, from a HE tunnel.
+ $ wget http://www.he.net/
+ --2013-05-30 16:13:49--  http://www.he.net/
+ Resolving www.he.net... 2001:470:0:76::2, 216.218.186.2
+ Connecting to www.he.net|2001:470:0:76::2|:80... connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: unspecified [text/html]
+ Saving to: ?index.html?
+ $ traceroute -6 www.he.net
+ traceroute to www.he.net (2001:470:0:76::2), 30 hops max, 80 byte packets
+ [...snip...]
+  3  gige-g5-19.core1.fmt2.he.net (2001:470:0:45::1)  29.444 ms  39.297 ms
+  38.985 ms
+  4  gige-g1-19.core2.fmt1.he.net (2001:470:0:1bc::2)  31.169 ms  31.359 ms
+  31.543 ms
+  5  10gigabitethernet2-2.core1.fmt1.he.net (2001:470:0:1a7::1)  29.571 ms
+  29.769 ms  29.962 ms
+  6  he.net (2001:470:0:76::2)  29.132 ms  15.385 ms  19.978 ms
+   Scott
+ On Thu, May 30, 2013 at 4:07 PM, Frank Bulk (iname.com)
+ <frnkblk at iname.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/7a333591/attachment-0001.html>
+  <CACnPsNW6-ieEX86zmsiFu+HCg2kQhvKcMG9KdyVoDy0-Z2_k2Q@mail.gmail.com>
+ Thanks.  By the time you checked it was already back up.  Outage time was
+ about 35 to 40 minutes.
+ A contact offline confirmed that ipv6.cablelabs.com was singlehomed (in
+ terms of IPv6) to HE, so that explains the concurrence of events.  
+ I suspect HE had an internal issue.
+ Frank
+ From: Scott Howard [mailto:scott at doc.net.au] 
+ Sent: Thursday, May 30, 2013 6:16 PM
+ Cc: Outages Mailing List
+ Works for me, from a HE tunnel.
+ $ wget http://www.he.net/
+ --2013-05-30 16:13:49--  http://www.he.net/
+ Resolving www.he.net <http://www.he.net> ... 2001:470:0:76::2, 216.218.186.2
+ Connecting to www.he.net <http://www.he.net> |2001:470:0:76::2|:80...
+ connected.
+ HTTP request sent, awaiting response... 200 OK
+ Length: unspecified [text/html]
+ Saving to: ?index.html?
+ $ traceroute -6 www.he.net <http://www.he.net> 
+ traceroute to www.he.net <http://www.he.net>  (2001:470:0:76::2), 30 hops
+ max, 80 byte packets
+ [...snip...]
+  3  gige-g5-19.core1.fmt2.he.net <http://gige-g5-19.core1.fmt2.he.net>
+ (2001:470:0:45::1)  29.444 ms  39.297 ms  38.985 ms
+  4  gige-g1-19.core2.fmt1.he.net <http://gige-g1-19.core2.fmt1.he.net>
+ (2001:470:0:1bc::2)  31.169 ms  31.359 ms  31.543 ms
+  5  10gigabitethernet2-2.core1.fmt1.he.net
+ <http://10gigabitethernet2-2.core1.fmt1.he.net>  (2001:470:0:1a7::1)  29.571
+ ms  29.769 ms  29.962 ms
+  6  he.net <http://he.net>  (2001:470:0:76::2)  29.132 ms  15.385 ms  19.978
+ ms
+   Scott
+ On Thu, May 30, 2013 at 4:07 PM, Frank Bulk (iname.com <http://iname.com> )
+ <frnkblk at iname.com <mailto:frnkblk at iname.com> > wrote:
+ I noticed that IPv4 and IPv6 access to www.he.net <http://www.he.net>  went
+ down at 5:30 pm
+ Central.
+ Traceroutes show different things, but basically it's getting stuck
+ somewhere in HE's core.
+ nagios:# tcptraceroute www.he.net <http://www.he.net> 
+ Selected device eth0.3, address 96.31.0.5, port 36642 for outgoing packets
+ Tracing the path to www.he.net <http://www.he.net>  (216.218.186.2
+ <tel:%28216.218.186.2> ) on TCP port 80 (www), 30 hops
+ max
+  1  router-core-inside.mtcnet.net <http://router-core-inside.mtcnet.net>
+ (96.31.0.254)  0.240 ms  0.201 ms  0.179
+ ms
+  2  sxct.sxcy.mtcnet.net <http://sxct.sxcy.mtcnet.net>  (167.142.156.197)
+ 0.208 ms  0.136 ms  0.127 ms
+  3  premier.sxcy-mlx.fbnt.netins.net
+ <http://premier.sxcy-mlx.fbnt.netins.net>  (173.215.60.5)  1.939 ms  1.920
+ ms
+ 1.904 ms
+  4  ins-db1-te-13-2-219.desm.netins.net
+ <http://ins-db1-te-13-2-219.desm.netins.net>  (167.142.60.157)  7.886 ms
+ 7.835 ms
+ 7.957 ms
+  5  ins-dc2-et-8-3.desm.netins.net <http://ins-dc2-et-8-3.desm.netins.net>
+ (167.142.67.25)  7.795 ms  7.759 ms
+ 7.803 ms
+  6  ins-db3-te-0-7-0-0.desm.netins.net
+ <http://ins-db3-te-0-7-0-0.desm.netins.net>  (167.142.67.182)  8.190 ms
+ 7.977 ms
+ 7.973 ms
+  7  ord1.ins.indatelservices.com <http://ord1.ins.indatelservices.com>
+ (216.176.4.29)  23.014 ms  23.230 ms
+ 22.932 ms
+  8  10gigabitethernet4-1.core1.chi1.he.NET
+ <http://10gigabitethernet4-1.core1.chi1.he.NET>  (206.223.119.37)  22.819 ms
+ 22.835 ms  22.776 ms
+  9  * * *
+ 10  * * *
+ 11  * * *
+ 12  * * *
+ nagios:# tcptraceroute6 www.he.net <http://www.he.net> 
+ traceroute to he.net <http://he.net>  (2001:470:0:76::2) from
+ 2607:fe28:0:1000::5, port 80,
+ from port 60791, 30 hops max, 60 bytes packets
+  1  router-core.mtcnet.net <http://router-core.mtcnet.net>
+ (2607:fe28:0:1000::1)  0.240 ms  0.200 ms  0.181
+ ms
+  2  sxct.movl.mtcnet.net <http://sxct.movl.mtcnet.net>
+ (2607:fe28:11:1002::194)  0.226 ms  0.856 ms  0.139
+ ms
+  3  v6-premier.movl-mlx.fbnt.netins.net
+ <http://v6-premier.movl-mlx.fbnt.netins.net>  (2001:5f8:7f0a:1::1)  1.962 ms
+ 1.923 ms  1.888 ms
+  4  v6-ins-kb1-te-13-2-220.kmrr.netins.net
+ <http://v6-ins-kb1-te-13-2-220.kmrr.netins.net>  (2001:5f8:2:2::1)  6.315 ms
+ 6.354 ms  6.399 ms
+  5  v6-ins-kc1-te-9-2.kmrr.netins.net
+ <http://v6-ins-kc1-te-9-2.kmrr.netins.net>  (2001:5f8::10:1)  6.360 ms
+ 6.412 ms
+ 6.306 ms
+  6  sl-crs2-chi-te1-2-0-1.v6.sprintlink.net
+ <http://sl-crs2-chi-te1-2-0-1.v6.sprintlink.net>  (2600:4::6)  16.130 ms
+ 15.853
+ ms  15.736 ms
+  7  sl-crs1-chi-po0-0-0-3.v6.sprintlink.net
+ <http://sl-crs1-chi-po0-0-0-3.v6.sprintlink.net>
+ (2600:0:2:1239:144:232:26:8)
+ 17.236 ms  16.344 ms  16.133 ms
+  8  sl-st30-chi-bu-20.v6.sprintlink.net
+ <http://sl-st30-chi-bu-20.v6.sprintlink.net>  (2600:0:2:1239:144:232:1:102)
+ 17.649 ms  17.857 ms  17.544 ms
+  9  10gigabitethernet4-1.core1.chi1.he.net
+ <http://10gigabitethernet4-1.core1.chi1.he.net>  (2001:504:0:4::6939:1)
+ 25.946 ms
+ 16.488 ms  16.484 ms
+ 10  10gigabitethernet5-7.core1.mci3.he.net
+ <http://10gigabitethernet5-7.core1.mci3.he.net>  (2001:470:0:270::2)  28.448
+ ms
+ 38.399 ms  28.468 ms
+ 11  10gigabitethernet5-1.core1.den1.he.net
+ <http://10gigabitethernet5-1.core1.den1.he.net>  (2001:470:0:240::1)  40.525
+ ms
+ 48.500 ms  48.141 ms
+ 12  10gigabitethernet13-5.core1.sjc2.he.net
+ <http://10gigabitethernet13-5.core1.sjc2.he.net>  (2001:470:0:1b4::1)
+ 75.170 ms
+ 74.256 ms  72.699 ms
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ [fbulk at puck /]$ traceroute www.he.net <http://www.he.net> 
+ traceroute to www.he.net <http://www.he.net>  (216.218.186.2
+ <tel:%28216.218.186.2> ), 30 hops max, 60 byte packets
+  1  ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net
+ <http://ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net>  (204.42.253.5)  0.738
+ ms
+ 0.650 ms  0.610 ms
+  2  ae-0.teliasonera.chcgil09.us.bb.gin.ntt.net
+ <http://ae-0.teliasonera.chcgil09.us.bb.gin.ntt.net>  (129.250.8.178)  0.219
+ ms
+ 0.194 ms  0.172 ms
+  3  chi-bb1-link.telia.net <http://chi-bb1-link.telia.net>  (80.91.246.168)
+ 0.290 ms chi-bb1-link.telia.net <http://chi-bb1-link.telia.net> 
+ (80.91.246.116)  31.168 ms chi-bb1-link.telia.net
+ <http://chi-bb1-link.telia.net>  (80.91.246.118)  31.363 ms
+  4  sjo-bb1-link.telia.net <http://sjo-bb1-link.telia.net>  (213.248.80.25
+ <tel:%28213.248.80.25> )  51.322 ms sjo-bb1-link.telia.net
+ <http://sjo-bb1-link.telia.net> 
+ (213.155.132.180)  51.297 ms  51.275 ms
+  5  * * *
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ [fbulk at puck /]$ traceroute6 www.he.net <http://www.he.net> 
+ traceroute to www.he.net <http://www.he.net>  (2001:470:0:76::2), 30 hops
+ max, 80 byte packets
+  1  ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net
+ <http://ge-0-7-0-22.r05.chcgil09.us.bb.gin.ntt.net>  (2001:418:3f4::1)
+ 0.725 ms
+ 0.622 ms  0.666 ms
+  2  ae-6.r20.chcgil09.us.bb.gin.ntt.net
+ <http://ae-6.r20.chcgil09.us.bb.gin.ntt.net>  (2001:418:0:2000::29)  80.228
+ ms
+ 0.395 ms  0.446 ms
+  3  10gigabitethernet4-1.core1.chi1.he.net
+ <http://10gigabitethernet4-1.core1.chi1.he.net>  (2001:504:0:4::6939:1)
+ 0.267 ms
+ 0.402 ms  0.299 ms
+  4  10gigabitethernet5-7.core1.mci3.he.net
+ <http://10gigabitethernet5-7.core1.mci3.he.net>  (2001:470:0:270::2)  12.659
+ ms
+ 10gigabitethernet4-1.core1.den1.he.net
+ <http://10gigabitethernet4-1.core1.den1.he.net>  (2001:470:0:293::2)  24.342
+ ms
+ 24.299 ms
+  5  10gigabitethernet13-5.core1.sjc2.he.net
+ <http://10gigabitethernet13-5.core1.sjc2.he.net>  (2001:470:0:1b4::1)
+ 59.785 ms
+ 59.189 ms  59.450 ms
+  6  10gigabitethernet13-5.core1.sjc2.he.net
+ <http://10gigabitethernet13-5.core1.sjc2.he.net>  (2001:470:0:1b4::1)
+ 59.539 ms
+ 58.630 ms *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ Incidentally, I noticed that ipv6.cablelabs.com <http://ipv6.cablelabs.com>
+ went down at the same time,
+ too.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/197aab46/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Hurricane Electric down - Bay Area
+###############################################################
+ My session with Hurricane Electric is down in the Bay Area and LA - One Wilshire, CA.  Can't get to their website right now either.
+ Blaine M Reeve | Vice President of Operations
+ O1 Communications
+ 5190 Golden Foothill Pkwy
+ El Dorado Hills, CA 95762
+ office: 916.235.2005 | cell: 916.396.5992
+ email: breeve at o1.com<mailto:breeve at o1.com> | web: www.o1.com<http://www.o1.com/>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/05d5dc5d/attachment.html>
+ Works for me via direct peering at PAIX Palo Alto.
+ Cheers,
+ jof
+ On Thu, May 30, 2013 at 4:14 PM, Blaine Reeve <breeve at o1.com> wrote:
+  <CAHsqw9tCriD8LMeQFhBHFO0b28qWTXWzqPA6dwyv80Sq2jCoYg@mail.gmail.com>
+ They are reporting that some folks have  been restored, up to 1hr for the rest of us.  Fremont router died.
+ -----Original Message-----
+ From: Jonathan Lassoff [mailto:jof at thejof.com] 
+ Sent: Thursday, May 30, 2013 4:24 PM
+ Cc: outages at outages.org
+ Works for me via direct peering at PAIX Palo Alto.
+ Cheers,
+ jof
+ On Thu, May 30, 2013 at 4:14 PM, Blaine Reeve <breeve at o1.com> wrote:
+ On 05/30/2013 04:14 PM, Blaine Reeve wrote:
+ Website (www.he.net) is accessible from SF Bay Area via Cogent.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130530/99f28194/attachment.html>
+  <CAHsqw9tCriD8LMeQFhBHFO0b28qWTXWzqPA6dwyv80Sq2jCoYg@mail.gmail.com>
+  <AB720837D56E024BAB9FE9E8931E0523482E7F50@o1-exch02.o1.com>
+ I have a Linode at FMT2, it's up, and haven't noticed it being down (I
+ have had a session open since a couple of days ago).
+ C.
+ On 30 May 2013 16:25, Blaine Reeve <breeve at o1.com> wrote:
+###############################################################
+END
+###############################################################
+

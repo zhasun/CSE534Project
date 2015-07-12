@@ -1,0 +1,1492 @@
+From bduross at mediaspangroup.com  Wed Nov  5 15:06:23 2008
+From: bduross at mediaspangroup.com (Brian DuRoss)
+Date: Wed, 5 Nov 2008 15:06:23 -0500
+Subject: [outages] Level 3 Detroit Issues
+Message-ID: <3D068050-FBF5-43A0-9251-C5F8EE5CB1EE@mediaspangroup.com>
+
+We are seeing packet loss over Level 3 in Detroit. Level 3 is aware of  
+the issue but I do not have a master ticket number.
+
+
+From bduross at mediaspangroup.com  Wed Nov  5 18:39:46 2008
+From: bduross at mediaspangroup.com (Brian DuRoss)
+Date: Wed, 5 Nov 2008 18:39:46 -0500
+Subject: [outages] Level 3 Detroit Outage - Information
+References: <1a72e01c93f99$6dad4d30$6c0610ac@northamerica.switchanddata.org>
+Message-ID: <56A56309-086E-4003-8FDC-D2A5F763AB9F@mediaspangroup.com>
+
+FYI
+
+Level 3 Detroit Service Outage
+
+> Deena from Level3 said there is was a fiber cut and no ETA when it  
+> will be repaired. Level 3 ticket # 2940692.
+
+
+
+From billw at waveform.net  Thu Nov  6 14:09:05 2008
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Nov 2008 14:09:05 -0500
+Subject: [outages] Level 3 Detroit Outage - Information
+In-Reply-To: <56A56309-086E-4003-8FDC-D2A5F763AB9F@mediaspangroup.com>
+References: <1a72e01c93f99$6dad4d30$6c0610ac@northamerica.switchanddata.org>
+	<56A56309-086E-4003-8FDC-D2A5F763AB9F@mediaspangroup.com>
+Message-ID: <E0C2A35E0BD02644ADA456D5EB9B82942D7EFF@server1.WaveformTechnology.local>
+
+I saw this splice get completed around at about 17 minutes past midnight
+Eastern, but we just started to see a lot of packet loss on Level(3)
+again. Does anyone know if there are further issues with Level(3) in
+Detroit (or elsewhere), or possible if the night's fiber splice failed
+again?
+
+   -Bill
+
+> FYI
+> 
+> Level 3 Detroit Service Outage
+> 
+> > Deena from Level3 said there is was a fiber cut and no ETA when it
+> > will be repaired. Level 3 ticket # 2940692.
+> 
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From bduross at mediaspangroup.com  Thu Nov  6 17:14:41 2008
+From: bduross at mediaspangroup.com (Brian DuRoss)
+Date: Thu, 6 Nov 2008 17:14:41 -0500
+Subject: [outages] Level 3 Detroit Outage - Information
+In-Reply-To: <E0C2A35E0BD02644ADA456D5EB9B82942D7EFF@server1.WaveformTechnology.local>
+References: <1a72e01c93f99$6dad4d30$6c0610ac@northamerica.switchanddata.org>
+	<56A56309-086E-4003-8FDC-D2A5F763AB9F@mediaspangroup.com>
+	<E0C2A35E0BD02644ADA456D5EB9B82942D7EFF@server1.WaveformTechnology.local>
+Message-ID: <0EC57034-C222-454C-9D23-58D8D0DC0B1B@mediaspangroup.com>
+
+Bill,
+
+This is what I got last night before the cut was repaired. I was  
+notified at 1:00AM that the splice had been completed. I still saw  
+some packet loss after the repair but I'm guessing I was still on the  
+alternate path.
+
+Hope this helps,
+
+-Brian
+
+> I received an update from level 3 stating that there is a fiber
+> cut in Kalamazoo, MI which is affecting Level 3 traffic due to traffic
+> taking an alternate path. The alternate path had a card failure
+> compounding the issues. At this time, the traffic may be slow and
+> intermittent at times until the fiber cut is fully restored. The  
+> current
+> ETR is 2 - 4 hours for the fiber to be repaired.  Please let us know  
+> if
+> you have further questions.
+
+
+On Nov 6, 2008, at 2:09 PM, Bill Wichers wrote:
+
+> I saw this splice get completed around at about 17 minutes past  
+> midnight
+> Eastern, but we just started to see a lot of packet loss on Level(3)
+> again. Does anyone know if there are further issues with Level(3) in
+> Detroit (or elsewhere), or possible if the night's fiber splice failed
+> again?
+>
+>   -Bill
+>
+>> FYI
+>>
+>> Level 3 Detroit Service Outage
+>>
+>>> Deena from Level3 said there is was a fiber cut and no ETA when it
+>>> will be repaired. Level 3 ticket # 2940692.
+>>
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+--
+Brian DuRoss
+bduross at mediaspangroup.com
+Network & Systems Administrator
+Information Technology
+MediaSpan Group
+333 Jackson Plaza
+Ann Arbor MI 48103
+phone: 734.887.4400 Ext. 1141
+cell: 734.546.0734 fax:  734.887.4401
+pager: 800.200.8589
+
+
+From billw at waveform.net  Thu Nov  6 17:57:55 2008
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Nov 2008 17:57:55 -0500
+Subject: [outages] Level 3 Detroit Outage - Information
+In-Reply-To: <0EC57034-C222-454C-9D23-58D8D0DC0B1B@mediaspangroup.com>
+References: <1a72e01c93f99$6dad4d30$6c0610ac@northamerica.switchanddata.org>
+	<56A56309-086E-4003-8FDC-D2A5F763AB9F@mediaspangroup.com>
+	<E0C2A35E0BD02644ADA456D5EB9B82942D7EFF@server1.WaveformTechnology.local>
+	<0EC57034-C222-454C-9D23-58D8D0DC0B1B@mediaspangroup.com>
+Message-ID: <E0C2A35E0BD02644ADA456D5EB9B82942D7F0E@server1.WaveformTechnology.local>
+
+One of my carriers tells me that last night a "temporary fix" was put in
+place but that a permanent repair of the cut fiber is supposed to happen
+at midnight tonight (Thursday night). There was some guessing that the
+problems earlier today may have been due to trouble with the "temporary
+fix". No one seems to have much detail as to what has been happening.
+
+  -Bill
+
+> -----Original Message-----
+> From: Brian DuRoss [mailto:bduross at mediaspangroup.com]
+> Sent: Thursday, November 06, 2008 5:15 PM
+> To: Bill Wichers
+> Cc: outages at outages.org
+> Subject: Re: [outages] Level 3 Detroit Outage - Information
+> 
+> Bill,
+> 
+> This is what I got last night before the cut was repaired. I was
+> notified at 1:00AM that the splice had been completed. I still saw
+> some packet loss after the repair but I'm guessing I was still on the
+> alternate path.
+> 
+> Hope this helps,
+> 
+> -Brian
+> 
+> > I received an update from level 3 stating that there is a fiber
+> > cut in Kalamazoo, MI which is affecting Level 3 traffic due to
+traffic
+> > taking an alternate path. The alternate path had a card failure
+> > compounding the issues. At this time, the traffic may be slow and
+> > intermittent at times until the fiber cut is fully restored. The
+> > current
+> > ETR is 2 - 4 hours for the fiber to be repaired.  Please let us know
+> > if
+> > you have further questions.
+> 
+[snip]
+
+From sharp at sharpone.net  Fri Nov  7 11:31:53 2008
+From: sharp at sharpone.net (Justin Sharp)
+Date: Fri, 07 Nov 2008 09:31:53 -0700
+Subject: [outages] peering in LA between XO and Savvis
+Message-ID: <49146D79.2060506@sharpone.net>
+
+We are seeing large (20-30%) packet loss in the forward and reverse path 
+from XO to Savvis in the Los Angeles peering point. This was happening 
+yesterday for about 2 hours, and has picked back up this morning. This 
+has made some sites hosted in Savvis unusable for us (like Netsuite).
+
+Appropriate traces (some hops stripped to protect the innocent):
+
+ From Draper UT to Savvis SC4 datacenter
+
+HOST: amds-mon                    Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. stipped  0.0%    50    0.5   1.0   0.4   3.5   0.9
+  2. stripped      0.0%    50   29.1  10.7   0.2  38.6  13.9
+  3. stripped  0.0%    50   35.1  12.7   1.1  40.8  14.5
+  4. stripped  0.0%    50   43.1  21.8   2.9  48.9  15.8
+  5. p6-0-0d0.mar2.saltlake-ut.us  0.0%    50   40.0  25.2   3.1 155.9  25.8
+  6. p3-2-0d0.rar2.la-ca.us.xo.ne  0.0%    50   21.1  41.2  17.1 128.8  24.1
+  7. 207.88.12.157.ptr.us.xo.net   4.0%    50   26.6  34.9  17.8  60.9  15.7
+  8. 207.88.12.158.ptr.us.xo.net   0.0%    50   25.4  34.1  17.0  65.2  16.4
+  9. bpr2-so-6-1-0.losangeles.sav 30.0%    50   72.3  81.3  54.1 161.9  25.5
+ 10. cr2-gig-0-7-5-2.losangeles.s 32.0%    50   86.1  80.3  57.0 107.8  17.0
+ 11. cr2-pos0-0-0-0.sanfrancisco. 26.0%    50   76.7  90.9  65.5 116.8  16.3
+ 12. er1-te-2-0-1.sanjose3equinix 44.0%    50   70.7  86.6  66.2 112.8  16.6
+ 13. hr1-te-2-0-0.santaclarasc5.s 38.0%    50   70.8  86.2  66.6 116.5  16.8
+ 14. 216.34.2.226                 34.0%    50   92.1 174.0  66.8 823.9 203.2
+ 15. stripped                36.0%    50  109.1  90.3  66.1 118.5  17.4
+ 16. end-point  44.0%    50  107.1  89.7  66.8 115.6  18.9
+
+ 
+
+>From  SC4 to same Draper UT network (reverse path, hop 16 is firewalled):
+
+HOST: prod-monitor                Loss%   Snt   Last   Avg  Best  Wrst StDev
+
+  1. stripped                  0.0%    50    0.4   0.4   0.3   0.5   0.1
+  2. stripped                 0.0%    50  318.4  52.4   0.6 683.9 150.8
+  3. hr1-ge-7-47.santaclarasc5.sa  0.0%    50    0.9   3.3   0.6 128.2  18.0
+  4. hr1-te-1-0-1.santaclarasc4.s  0.0%    50    1.0   0.9   0.6   9.4   1.2
+  5. hr1-te-2-0-0.santaclarasc9.s  0.0%    50    1.1   1.8   0.6  28.6   4.1
+  6. pr1-ge-4-0-0.SanJoseEquinix.  0.0%    50    1.3   7.1   1.0 128.2  22.7
+  7. pr2-so-0-0-0.PaloAltoPaix.sa  0.0%    50   10.5   5.7   2.2  81.6  12.5
+  8. p2-2.IR1.PaloAlto-CA.us.xo.n  0.0%    50    2.7   2.3   2.0   3.1   0.2
+  9. 65.106.1.66.ptr.us.xo.net     0.0%    50    3.7   3.8   3.1  13.0   1.4
+ 10. 65.106.1.65.ptr.us.xo.net     0.0%    50   15.7   6.1   3.0  35.9   7.8
+ 11. p6-0-0.RAR1.LA-CA.us.xo.net  30.0%    50   56.4  57.8  49.9  91.1   8.7
+ 12. p0-0-0d0.rar2.la-ca.us.xo.ne 34.0%    50   55.1  63.6  43.9 157.8  25.7
+ 13. p1-0-0d0.mar2.saltlake-ut.us 42.0%    50   68.8  74.0  59.1 151.4  16.8
+ 14. p15-0.chr1.saltlake-ut.us.xo 36.0%    50   72.8  68.2  60.6  76.3   3.6
+ 15. stripped    36.0%    50   73.7  72.7  62.8  81.7   3.7
+ 16. ???                          100.0    50    0.0   0.0   0.0   0.0   0.0
+
+
+--Justin
+
+
+From sharp at sharpone.net  Fri Nov  7 14:36:15 2008
+From: sharp at sharpone.net (Justin Sharp)
+Date: Fri, 07 Nov 2008 12:36:15 -0700
+Subject: [outages] peering in LA between XO and Savvis
+In-Reply-To: <49146D79.2060506@sharpone.net>
+References: <49146D79.2060506@sharpone.net>
+Message-ID: <491498AF.5050905@sharpone.net>
+
+After working with both vendors, it seems that a DDoS attack, aimed else 
+where, which transited XO's peering router in LA was the root cause of 
+this issue.
+
+Seems to be cleared up now.
+
+Justin Sharp wrote:
+> We are seeing large (20-30%) packet loss in the forward and reverse 
+> path from XO to Savvis in the Los Angeles peering point. This was 
+> happening yesterday for about 2 hours, and has picked back up this 
+> morning. This has made some sites hosted in Savvis unusable for us 
+> (like Netsuite).
+>
+> Appropriate traces (some hops stripped to protect the innocent):
+>
+> From Draper UT to Savvis SC4 datacenter
+>
+> HOST: amds-mon                    Loss%   Snt   Last   Avg  Best  Wrst 
+> StDev
+>  1. stipped  0.0%    50    0.5   1.0   0.4   3.5   0.9
+>  2. stripped      0.0%    50   29.1  10.7   0.2  38.6  13.9
+>  3. stripped  0.0%    50   35.1  12.7   1.1  40.8  14.5
+>  4. stripped  0.0%    50   43.1  21.8   2.9  48.9  15.8
+>  5. p6-0-0d0.mar2.saltlake-ut.us  0.0%    50   40.0  25.2   3.1 155.9  
+> 25.8
+>  6. p3-2-0d0.rar2.la-ca.us.xo.ne  0.0%    50   21.1  41.2  17.1 128.8  
+> 24.1
+>  7. 207.88.12.157.ptr.us.xo.net   4.0%    50   26.6  34.9  17.8  60.9  
+> 15.7
+>  8. 207.88.12.158.ptr.us.xo.net   0.0%    50   25.4  34.1  17.0  65.2  
+> 16.4
+>  9. bpr2-so-6-1-0.losangeles.sav 30.0%    50   72.3  81.3  54.1 161.9  
+> 25.5
+> 10. cr2-gig-0-7-5-2.losangeles.s 32.0%    50   86.1  80.3  57.0 107.8  
+> 17.0
+> 11. cr2-pos0-0-0-0.sanfrancisco. 26.0%    50   76.7  90.9  65.5 116.8  
+> 16.3
+> 12. er1-te-2-0-1.sanjose3equinix 44.0%    50   70.7  86.6  66.2 112.8  
+> 16.6
+> 13. hr1-te-2-0-0.santaclarasc5.s 38.0%    50   70.8  86.2  66.6 116.5  
+> 16.8
+> 14. 216.34.2.226                 34.0%    50   92.1 174.0  66.8 823.9 
+> 203.2
+> 15. stripped                36.0%    50  109.1  90.3  66.1 118.5  17.4
+> 16. end-point  44.0%    50  107.1  89.7  66.8 115.6  18.9
+>
+>
+>
+>> From  SC4 to same Draper UT network (reverse path, hop 16 is 
+>> firewalled):
+>
+> HOST: prod-monitor                Loss%   Snt   Last   Avg  Best  Wrst 
+> StDev
+>
+>  1. stripped                  0.0%    50    0.4   0.4   0.3   0.5   0.1
+>  2. stripped                 0.0%    50  318.4  52.4   0.6 683.9 150.8
+>  3. hr1-ge-7-47.santaclarasc5.sa  0.0%    50    0.9   3.3   0.6 128.2  
+> 18.0
+>  4. hr1-te-1-0-1.santaclarasc4.s  0.0%    50    1.0   0.9   0.6   
+> 9.4   1.2
+>  5. hr1-te-2-0-0.santaclarasc9.s  0.0%    50    1.1   1.8   0.6  
+> 28.6   4.1
+>  6. pr1-ge-4-0-0.SanJoseEquinix.  0.0%    50    1.3   7.1   1.0 128.2  
+> 22.7
+>  7. pr2-so-0-0-0.PaloAltoPaix.sa  0.0%    50   10.5   5.7   2.2  81.6  
+> 12.5
+>  8. p2-2.IR1.PaloAlto-CA.us.xo.n  0.0%    50    2.7   2.3   2.0   
+> 3.1   0.2
+>  9. 65.106.1.66.ptr.us.xo.net     0.0%    50    3.7   3.8   3.1  
+> 13.0   1.4
+> 10. 65.106.1.65.ptr.us.xo.net     0.0%    50   15.7   6.1   3.0  
+> 35.9   7.8
+> 11. p6-0-0.RAR1.LA-CA.us.xo.net  30.0%    50   56.4  57.8  49.9  
+> 91.1   8.7
+> 12. p0-0-0d0.rar2.la-ca.us.xo.ne 34.0%    50   55.1  63.6  43.9 157.8  
+> 25.7
+> 13. p1-0-0d0.mar2.saltlake-ut.us 42.0%    50   68.8  74.0  59.1 151.4  
+> 16.8
+> 14. p15-0.chr1.saltlake-ut.us.xo 36.0%    50   72.8  68.2  60.6  
+> 76.3   3.6
+> 15. stripped    36.0%    50   73.7  72.7  62.8  81.7   3.7
+> 16. ???                          100.0    50    0.0   0.0   0.0   
+> 0.0   0.0
+>
+>
+> --Justin
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From sdhillon at decarta.com  Tue Nov 11 16:25:30 2008
+From: sdhillon at decarta.com (Sargun Dhillon)
+Date: Tue, 11 Nov 2008 13:25:30 -0800
+Subject: [outages] Xmission Down
+Message-ID: <4919F84A.1010004@decarta.com>
+
+Xmission (Utah ISP) is down. Does anyone have further details about this?
+
+-- 
++1.925.202.9485
+Sargun Dhillon
+deCarta
+sdhillon at decarta.com
+www.decarta.com
+
+
+
+
+From mloftis at wgops.com  Tue Nov 11 17:52:47 2008
+From: mloftis at wgops.com (Michael Loftis)
+Date: Tue, 11 Nov 2008 15:52:47 -0700
+Subject: [outages] Xmission Down
+In-Reply-To: <4919F84A.1010004@decarta.com>
+References: <4919F84A.1010004@decarta.com>
+Message-ID: <819696163EE8128D2FB40E7F@ZOP-MACTEL.local>
+
+I know a few people who work there.  One of their guys is onsite.  No 
+further details at all, I imagine his hands are full (and he's probably 
+called in help by now).
+
+I'm not going to speculate what's going on though.
+
+--On November 11, 2008 1:25:30 PM -0800 Sargun Dhillon 
+<sdhillon at decarta.com> wrote:
+
+> Xmission (Utah ISP) is down. Does anyone have further details about this?
+>
+> --
+> +1.925.202.9485
+> Sargun Dhillon
+> deCarta
+> sdhillon at decarta.com
+> www.decarta.com
+>
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+-- 
+"Genius might be described as a supreme capacity for getting its possessors
+into trouble of all kinds."
+-- Samuel Butler
+
+From mloftis at wgops.com  Tue Nov 11 18:07:11 2008
+From: mloftis at wgops.com (Michael Loftis)
+Date: Tue, 11 Nov 2008 16:07:11 -0700
+Subject: [outages] Xmission Down
+In-Reply-To: <819696163EE8128D2FB40E7F@ZOP-MACTEL.local>
+References: <4919F84A.1010004@decarta.com>
+	<819696163EE8128D2FB40E7F@ZOP-MACTEL.local>
+Message-ID: <6ACB281D612B0BDA15CA5EE4@ZOP-MACTEL.local>
+
+Word is brownout, battery backups didn't kick in and a core router went 
+down.  No word on recovery time or anything else at this point.
+
+(Speaking as merely as a friend of XM)
+
+-- 
+"Genius might be described as a supreme capacity for getting its possessors
+into trouble of all kinds."
+-- Samuel Butler
+
+From jfuller at square-enix-usa.com  Wed Nov 12 09:36:24 2008
+From: jfuller at square-enix-usa.com (Jesse Fuller)
+Date: Wed, 12 Nov 2008 06:36:24 -0800
+Subject: [outages] Verizon Issues?
+Message-ID: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+
+Hello,
+
+ 
+
+We have been getting a lot of players who cannot connect to Final Fantasy XI from Verizon since about 6pm PST yesterday (11/12). I checked the Internet Health Report and found that there are Warning levels between Sprint, AT&T, and Verizon. Anyone have any clues as to what is going on?
+
+ 
+
+Jesse W. Fuller
+
+ジェシー・フラー
+
+Operations Support Agent
+
+jfuller at square-enix-usa.com
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081112/1fb33785/attachment.html>
+
+From shartmann at fujifilmesys.com  Wed Nov 12 16:59:19 2008
+From: shartmann at fujifilmesys.com (Seamus Hartmann)
+Date: Wed, 12 Nov 2008 16:59:19 -0500
+Subject: [outages] Verizon Issues?
+In-Reply-To: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+Message-ID: <24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+
+Hey,
+
+ 
+
+Just took a major hit to all connections using Verizon to all peers except Level3 and Qwest connections. Issue started at 4:33 PM EST and went to 4:53 PM EST.
+
+ 
+
+On phone call with Verizon to find out what happened.
+
+ 
+
+Seamus Hartmann
+
+Senior Network Engineer
+
+Fujicolor Processing
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jesse Fuller
+Sent: Wednesday, November 12, 2008 9:36 AM
+To: outages at outages.org
+Subject: [outages] Verizon Issues?
+
+ 
+
+Hello,
+
+ 
+
+We have been getting a lot of players who cannot connect to Final Fantasy XI from Verizon since about 6pm PST yesterday (11/12). I checked the Internet Health Report and found that there are Warning levels between Sprint, AT&T, and Verizon. Anyone have any clues as to what is going on?
+
+ 
+
+Jesse W. Fuller
+
+ジェシー・フラー
+
+Operations Support Agent
+
+jfuller at square-enix-usa.com
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081112/d3b995e9/attachment.html>
+
+From patrick.wills at answernet.com  Wed Nov 12 17:46:09 2008
+From: patrick.wills at answernet.com (patrick.wills at answernet.com)
+Date: Wed, 12 Nov 2008 22:46:09 +0000
+Subject: [outages] Verizon Issues?
+In-Reply-To: <24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com><24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+Message-ID: <2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+
+Check this out, major outage http://www.internetpulse.net/
+
+
+Patrick Wills
+AnswerNet Network
+Sent from my BlackBerry? smartphone with SprintSpeed
+
+-----Original Message-----
+From: "Seamus Hartmann" <shartmann at fujifilmesys.com>
+
+Date: Wed, 12 Nov 2008 16:59:19 
+To: Jesse Fuller<jfuller at square-enix-usa.com>; <outages at outages.org>
+Subject: Re: [outages] Verizon Issues?
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From cjwright at gmail.com  Wed Nov 12 19:45:37 2008
+From: cjwright at gmail.com (Chris Wright)
+Date: Wed, 12 Nov 2008 16:45:37 -0800
+Subject: [outages] Verizon Issues?
+In-Reply-To: <2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+	<24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+	<2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+Message-ID: <34f5fe1d0811121645u5aa4b3ach2cb7e5f982d923bb@mail.gmail.com>
+
+Did anyone get details from Verizon?
+
+Thanks,
+
+-Chris
+
+
+On Wed, Nov 12, 2008 at 2:46 PM, <patrick.wills at answernet.com> wrote:
+
+> Check this out, major outage http://www.internetpulse.net/
+>
+>
+> Patrick Wills
+> AnswerNet Network
+> Sent from my BlackBerry(R) smartphone with SprintSpeed
+>
+> -----Original Message-----
+> From: "Seamus Hartmann" <shartmann at fujifilmesys.com>
+>
+> Date: Wed, 12 Nov 2008 16:59:19
+> To: Jesse Fuller<jfuller at square-enix-usa.com>; <outages at outages.org>
+> Subject: Re: [outages] Verizon Issues?
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081112/d77e03e2/attachment.html>
+
+From shartmann at fujifilmesys.com  Thu Nov 13 10:55:58 2008
+From: shartmann at fujifilmesys.com (Seamus Hartmann)
+Date: Thu, 13 Nov 2008 10:55:58 -0500
+Subject: [outages] Verizon Issues?
+In-Reply-To: <34f5fe1d0811121645u5aa4b3ach2cb7e5f982d923bb@mail.gmail.com>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+	<24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+	<2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+	<34f5fe1d0811121645u5aa4b3ach2cb7e5f982d923bb@mail.gmail.com>
+Message-ID: <24177BAABBBEA3499F56E08E16484AAC02700409@exchange01.fujiesystems.com>
+
+So far the only data that I have from them was that they were trying to
+make a change with Level3 and "something happened."
+
+ 
+
+I have progressed this to my sales team in an effort to get more
+information.
+
+ 
+
+Seamus
+
+ 
+
+From: Chris Wright [mailto:cjwright at gmail.com] 
+Sent: Wednesday, November 12, 2008 7:46 PM
+To: patrick.wills at answernet.com
+Cc: Seamus Hartmann; outages-bounces at outages.org; Jesse Fuller;
+outages at outages.org
+Subject: Re: [outages] Verizon Issues?
+
+ 
+
+Did anyone get details from Verizon?
+
+Thanks,
+
+-Chris
+
+
+
+On Wed, Nov 12, 2008 at 2:46 PM, <patrick.wills at answernet.com> wrote:
+
+Check this out, major outage http://www.internetpulse.net/
+
+
+Patrick Wills
+AnswerNet Network
+Sent from my BlackBerry(r) smartphone with SprintSpeed
+
+-----Original Message-----
+From: "Seamus Hartmann" <shartmann at fujifilmesys.com>
+
+Date: Wed, 12 Nov 2008 16:59:19
+To: Jesse Fuller<jfuller at square-enix-usa.com>; <outages at outages.org>
+Subject: Re: [outages] Verizon Issues?
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081113/289b0ad8/attachment.html>
+
+From ccrites at aninetworks.net  Wed Nov 12 17:28:54 2008
+From: ccrites at aninetworks.net (Chris Crites)
+Date: Wed, 12 Nov 2008 14:28:54 -0800
+Subject: [outages] Verizon Issues?
+In-Reply-To: <24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+	<24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+Message-ID: <21491048083DE3439BC16B9FB180317F219EEDA54A@EXMBX04.exchhosting.com>
+
+Seamus,
+
+We also took several hits in multiple markets; LAX, Dallas, and NYC over our Verizon connections. It started at 1:29pm pacific and seemed to be intermittent until ~2pm. Some major packet loss was reported: http://www.internetpulse.net/Main.aspx?Metric=PL
+
+Chris Crites
+Network Switching
+ANI Networks
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Seamus Hartmann
+Sent: Wednesday, November 12, 2008 1:59 PM
+To: Jesse Fuller; outages at outages.org
+Subject: Re: [outages] Verizon Issues?
+
+Hey,
+
+Just took a major hit to all connections using Verizon to all peers except Level3 and Qwest connections. Issue started at 4:33 PM EST and went to 4:53 PM EST.
+
+On phone call with Verizon to find out what happened.
+
+Seamus Hartmann
+Senior Network Engineer
+Fujicolor Processing
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jesse Fuller
+Sent: Wednesday, November 12, 2008 9:36 AM
+To: outages at outages.org
+Subject: [outages] Verizon Issues?
+
+Hello,
+
+We have been getting a lot of players who cannot connect to Final Fantasy XI from Verizon since about 6pm PST yesterday (11/12). I checked the Internet Health Report and found that there are Warning levels between Sprint, AT&T, and Verizon. Anyone have any clues as to what is going on?
+
+Jesse W. Fuller
+ジェシー・フラー
+Operations Support Agent
+jfuller at square-enix-usa.com<mailto:jfuller at square-enix-usa.com>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081112/c62ec22c/attachment.html>
+
+From jmkeller at houseofzen.org  Fri Nov 14 14:12:57 2008
+From: jmkeller at houseofzen.org (James Michael Keller)
+Date: Fri, 14 Nov 2008 14:12:57 -0500
+Subject: [outages] Speakeasy - Network outage in Washington DC region
+Message-ID: <491DCDB9.3070903@houseofzen.org>
+
+Getting reports of network and voip outages around DC from speakeasy.net 
+folks:
+
+"11/14/08 10:25:14 AM  Network outage in Washington DC region
+Region : Washington D.C
+E.T.A. : (none)
+Services Affected : All Broadband connectivity & Voice Services
+We are currently experiencing connectivity issues in the Washington, DC 
+region. We appreciate your patience while we work to resolve this issue. 
+At this time there is no estimated time of repair. "
+
+-- 
+James Michael Keller
+
+
+
+
+From jlavacca at hotmail.com  Fri Nov 14 06:20:30 2008
+From: jlavacca at hotmail.com (James La Vacca)
+Date: Fri, 14 Nov 2008 05:20:30 -0600
+Subject: [outages] XO Long Hual National Fiber Cut
+Message-ID: <BAY136-W25533F6A0A2550C569A466DE160@phx.gbl>
+
+
+XO is reporting a long hual non-DIA fiber cut in Memphis, TN. 
+Thank You, Jim La Vacca
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081114/1ea46a6e/attachment.html>
+
+From riegersteve at gmail.com  Fri Nov 14 15:02:14 2008
+From: riegersteve at gmail.com (Chaim Rieger)
+Date: Fri, 14 Nov 2008 12:02:14 -0800
+Subject: [outages] (ot) rss feed of outages ?
+Message-ID: <491DD946.5090509@up-south.com>
+
+is there one ?
+
+From virendra.rode at gmail.com  Sat Nov 15 02:12:34 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Fri, 14 Nov 2008 23:12:34 -0800
+Subject: [outages] (ot) rss feed of outages ?
+In-Reply-To: <491DD946.5090509@up-south.com>
+References: <491DD946.5090509@up-south.com>
+Message-ID: <491E7662.6070609@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Chaim Rieger wrote:
+> is there one ?
+- ----------------------------
+Not yet but its on our todo list.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJHnZipbZvCIJx1bcRAoneAKCQCjnV5g8n91DjDJN0TLCSByxdPQCgqJcx
+PaoqrFVaYW92F+5ZOjixaFk=
+=2Ll3
+-----END PGP SIGNATURE-----
+
+From blackham at gmail.com  Sat Nov 15 09:22:11 2008
+From: blackham at gmail.com (Kevin Blackham)
+Date: Sat, 15 Nov 2008 07:22:11 -0700
+Subject: [outages] Xmission Down
+In-Reply-To: <6ACB281D612B0BDA15CA5EE4@ZOP-MACTEL.local>
+References: <4919F84A.1010004@decarta.com>
+	<819696163EE8128D2FB40E7F@ZOP-MACTEL.local>
+	<6ACB281D612B0BDA15CA5EE4@ZOP-MACTEL.local>
+Message-ID: <2BBB8431-BBDB-439B-9A6D-41B5F91A531D@gmail.com>
+
+Human error.  They were bypassing UPS A for maintenance and there was  
+a mislabeled breaker.
+
+
+
+On Nov 11, 2008, at 16:07, Michael Loftis <mloftis at wgops.com> wrote:
+
+> Word is brownout, battery backups didn't kick in and a core router  
+> went down.  No word on recovery time or anything else at this point.
+>
+> (Speaking as merely as a friend of XM)
+>
+> -- 
+> "Genius might be described as a supreme capacity for getting its  
+> possessors
+> into trouble of all kinds."
+> -- Samuel Butler
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From rparrish at freightlogistics.com  Mon Nov 17 08:38:08 2008
+From: rparrish at freightlogistics.com (Ryan Parrish)
+Date: Mon, 17 Nov 2008 08:38:08 -0500
+Subject: [outages] (ot) rss feed of outages ?
+In-Reply-To: <491DD946.5090509@up-south.com>
+References: <491DD946.5090509@up-south.com>
+Message-ID: <5E7FAB43-FFE5-4BEC-841F-E693F6B3F6D7@freightlogistics.com>
+
+
+
+On Nov 14, 2008, at 3:02 PM, Chaim Rieger wrote:
+
+> is there one ?
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+You could get a RSS feed for the list at gmane, http://dir.gmane.org/gmane.org.operators.isotf.outages
+
+Ryan Parrish
+
+From rparrish at freightlogistics.com  Mon Nov 17 15:04:45 2008
+From: rparrish at freightlogistics.com (Ryan Parrish)
+Date: Mon, 17 Nov 2008 15:04:45 -0500
+Subject: [outages] Nuvox voice service down for state of FL.
+Message-ID: <C7AB75CD-31A3-4AF6-ADFD-05289F24FD70@freightlogistics.com>
+
+Just got off the phone with support and apparently voice service for  
+all nuvox customers (and I would assume FDN customers that where  
+absorbed in the merger, as I was one of them and I'm down) in the  
+state of Florida.
+
+Master case: 1111708
+Ticket: 1292
+
+
+Ryan Parrish
+
+
+
+
+From rparrish at freightlogistics.com  Mon Nov 17 15:05:38 2008
+From: rparrish at freightlogistics.com (Ryan Parrish)
+Date: Mon, 17 Nov 2008 15:05:38 -0500
+Subject: [outages] Nuvox voice service down for state of FL.
+In-Reply-To: <C7AB75CD-31A3-4AF6-ADFD-05289F24FD70@freightlogistics.com>
+References: <C7AB75CD-31A3-4AF6-ADFD-05289F24FD70@freightlogistics.com>
+Message-ID: <1D5AACE6-B3CD-4CB1-B623-7B7E3325D80A@freightlogistics.com>
+
+
+
+On Nov 17, 2008, at 3:04 PM, Ryan Parrish wrote:
+
+> Just got off the phone with support and apparently voice service for  
+> all nuvox customers (and I would assume FDN customers that where  
+> absorbed in the merger, as I was one of them and I'm down) in the  
+> state of Florida.
+>
+> Master case: 1111708
+> Ticket: 1292
+>
+>
+> Ryan Parrish
+>
+
+Sorry, no ETA.
+
+
+From keithchristian at yahoo.com  Thu Nov 20 10:18:27 2008
+From: keithchristian at yahoo.com (Keith Christian)
+Date: Thu, 20 Nov 2008 07:18:27 -0800 (PST)
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+Message-ID: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+
+We've received word about this Level3 outage, anyone else noticing this?
+
+No other info at this time, and no ETA as of yet.
+
+From dwighternest at gmail.com  Thu Nov 20 10:21:52 2008
+From: dwighternest at gmail.com (Dwight A. Ernest)
+Date: Thu, 20 Nov 2008 10:21:52 -0500
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+Message-ID: <5f66bff30811200721k6e55ef17l9fd46fc946988f89@mail.gmail.com>
+
+Dis the word you received include _anything_ more specific?
+
+On Thu, Nov 20, 2008 at 10:18, Keith Christian <keithchristian at yahoo.com>wrote:
+
+> We've received word about this Level3 outage, anyone else noticing this?
+>
+> No other info at this time, and no ETA as of yet.
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081120/d4d39dcf/attachment.html>
+
+From mhuff at ox.com  Thu Nov 20 10:23:09 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Thu, 20 Nov 2008 10:23:09 -0500
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F91432284A88@PUR-EXCH07.ox.com>
+
+Yes, we have had an outage on our DS3 in downtown sanfran since yesterday evening.
+
+We have had no luck dealing with level3, they claim it's part of an OC12 outage, but they have no details, won't callback and no ETR.
+
+>From the little info I have, I suspect it was a grooming of legacy broadwing customers that went bad. They appear to be having troubles putting it back where it was yesterday. If anyone else has any info, I'd love to hear from you.
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Keith Christian
+Sent: Thursday, November 20, 2008 10:18 AM
+To: outages at outages.org
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+
+We've received word about this Level3 outage, anyone else noticing this?
+
+No other info at this time, and no ETA as of yet.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From dwighternest at gmail.com  Thu Nov 20 10:25:52 2008
+From: dwighternest at gmail.com (Dwight A. Ernest)
+Date: Thu, 20 Nov 2008 10:25:52 -0500
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <483E6B0272B0284BA86D7596C40D29F91432284A88@PUR-EXCH07.ox.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+	<483E6B0272B0284BA86D7596C40D29F91432284A88@PUR-EXCH07.ox.com>
+Message-ID: <5f66bff30811200725ua439cf9y19c492c4b567f239@mail.gmail.com>
+
+It doesn't sound like we're talking about the same incident here; one is in
+SF, the other "east of the Mississippi."
+
+On Thu, Nov 20, 2008 at 10:23, Matthew Huff <mhuff at ox.com> wrote:
+
+> Yes, we have had an outage on our DS3 in downtown sanfran since yesterday
+> evening.
+>
+> We have had no luck dealing with level3, they claim it's part of an OC12
+> outage, but they have no details, won't callback and no ETR.
+>
+> >From the little info I have, I suspect it was a grooming of legacy
+> broadwing customers that went bad. They appear to be having troubles putting
+> it back where it was yesterday. If anyone else has any info, I'd love to
+> hear from you.
+>
+>
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Keith Christian
+> Sent: Thursday, November 20, 2008 10:18 AM
+> To: outages at outages.org
+> Subject: [outages] Intermittent Level3 outage east of the Mississippi
+>
+> We've received word about this Level3 outage, anyone else noticing this?
+>
+> No other info at this time, and no ETA as of yet.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081120/d142f555/attachment.html>
+
+From mhuff at ox.com  Thu Nov 20 10:26:16 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Thu, 20 Nov 2008 10:26:16 -0500
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <5f66bff30811200721k6e55ef17l9fd46fc946988f89@mail.gmail.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+	<5f66bff30811200721k6e55ef17l9fd46fc946988f89@mail.gmail.com>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F91432284A89@PUR-EXCH07.ox.com>
+
+The parent ticket is #3020259. Other than that, just some very non-specific info. Something about a "missing cross-connect", which they have been stating for over 12 hours now. If it was just missing, dispatch a tech and fix it already.
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Dwight A. Ernest
+Sent: Thursday, November 20, 2008 10:22 AM
+To: keithchristian at yahoo.com
+Cc: outages at outages.org
+Subject: Re: [outages] Intermittent Level3 outage east of the Mississippi
+
+Dis the word you received include _anything_ more specific?
+On Thu, Nov 20, 2008 at 10:18, Keith Christian <keithchristian at yahoo.com<mailto:keithchristian at yahoo.com>> wrote:
+We've received word about this Level3 outage, anyone else noticing this?
+
+No other info at this time, and no ETA as of yet.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081120/1a9b71ff/attachment.html>
+
+From outages at jdc.parodius.com  Thu Nov 20 10:26:22 2008
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 20 Nov 2008 07:26:22 -0800
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+Message-ID: <20081120152622.GA29693@icarus.home.lan>
+
+This could be completely unrelated (especially given that this is west
+of Mississippi), but there was a Abovenet and Level 3-confirmed fibre
+cut near Houston yesterday afternoon (~1300 PST), which was affecting
+eastward traffic (e.g. Houston-->Atlanta).  That fibre was repaired at
+approximately 2100 PST.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Thu, Nov 20, 2008 at 07:18:27AM -0800, Keith Christian wrote:
+> We've received word about this Level3 outage, anyone else noticing this?
+> 
+> No other info at this time, and no ETA as of yet.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From mhuff at ox.com  Thu Nov 20 10:27:42 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Thu, 20 Nov 2008 10:27:42 -0500
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+In-Reply-To: <5f66bff30811200725ua439cf9y19c492c4b567f239@mail.gmail.com>
+References: <99859.5372.qm@web55902.mail.re3.yahoo.com>
+	<483E6B0272B0284BA86D7596C40D29F91432284A88@PUR-EXCH07.ox.com>
+	<5f66bff30811200725ua439cf9y19c492c4b567f239@mail.gmail.com>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F91432284A8A@PUR-EXCH07.ox.com>
+
+Quite possibly a different issue, or part of some planned migration. Since I haven't been able to get any details, I have no clue. There is someone else on the Nanog list who was given the same explanation  as us and he is in Wyoming.
+
+
+
+From: Dwight A. Ernest [mailto:dwighternest at gmail.com]
+Sent: Thursday, November 20, 2008 10:26 AM
+To: Matthew Huff
+Cc: keithchristian at yahoo.com; outages at outages.org
+Subject: Re: [outages] Intermittent Level3 outage east of the Mississippi
+
+It doesn't sound like we're talking about the same incident here; one is in SF, the other "east of the Mississippi."
+On Thu, Nov 20, 2008 at 10:23, Matthew Huff <mhuff at ox.com<mailto:mhuff at ox.com>> wrote:
+Yes, we have had an outage on our DS3 in downtown sanfran since yesterday evening.
+
+We have had no luck dealing with level3, they claim it's part of an OC12 outage, but they have no details, won't callback and no ETR.
+
+>From the little info I have, I suspect it was a grooming of legacy broadwing customers that went bad. They appear to be having troubles putting it back where it was yesterday. If anyone else has any info, I'd love to hear from you.
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org<mailto:outages-bounces at outages.org>] On Behalf Of Keith Christian
+Sent: Thursday, November 20, 2008 10:18 AM
+To: outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] Intermittent Level3 outage east of the Mississippi
+
+We've received word about this Level3 outage, anyone else noticing this?
+
+No other info at this time, and no ETA as of yet.
+_______________________________________________
+outages mailing list
+outages at outages.org<mailto:outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org<mailto:outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081120/8aa7c064/attachment.html>
+
+From allen.kitchen at earthlink.net  Fri Nov 21 14:52:30 2008
+From: allen.kitchen at earthlink.net (Allen Kitchen)
+Date: Fri, 21 Nov 2008 14:52:30 -0500 (GMT-05:00)
+Subject: [outages] Line Systems Inc LD handoff problems...
+Message-ID: <25548766.1227297150912.JavaMail.root@elwamui-muscovy.atl.sa.earthlink.net>
+
+Have several PRIs with this vendor as well as some POTS lines PIC'd to same. Outbound LD attempts result in either fast busy (reorder) or "All Ckts Busy" recording. Broker verified with vendor, who claims that there is a large-scale handoff problem with this vendor's outbound traffic. Inbound LD (toll-free calls) apparently unaffected. No ETTR. Our ticket was opened a little after 10a EST.
+
+Allen Kitchen
+allen.kitchen at earthlink.net -- Pittsburgh PA
+
+From jay at west.net  Fri Nov 21 15:10:03 2008
+From: jay at west.net (Jay Hennigan)
+Date: Fri, 21 Nov 2008 12:10:03 -0800
+Subject: [outages] Line Systems Inc LD handoff problems...
+In-Reply-To: <25548766.1227297150912.JavaMail.root@elwamui-muscovy.atl.sa.earthlink.net>
+References: <25548766.1227297150912.JavaMail.root@elwamui-muscovy.atl.sa.earthlink.net>
+Message-ID: <4927159B.4030805@west.net>
+
+Allen Kitchen wrote:
+> Have several PRIs with this vendor as well as some POTS lines PIC'd to same. Outbound LD attempts result in either fast busy (reorder) or "All Ckts Busy" recording. Broker verified with vendor, who claims that there is a large-scale handoff problem with this vendor's outbound traffic. Inbound LD (toll-free calls) apparently unaffected. No ETTR. Our ticket was opened a little after 10a EST.
+
+We're seeing the same thing on our SIP trunks through NGT, has been 
+going on for the last day intermittently.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From frnkblk at iname.com  Fri Nov 21 23:18:02 2008
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 21 Nov 2008 22:18:02 -0600
+Subject: [outages] Sprint issue in Chicago?
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+
+It was reported to me that there's a BGP issue in Sprint's Chicago POP.  Can
+anyone confirm or deny?  The issues affecting us started around 3:40 pm CT.
+
+Frank
+
+
+From jgoltz at mail.nih.gov  Mon Nov 24 17:02:37 2008
+From: jgoltz at mail.nih.gov (Goltz, Jim (NIH/CIT) [E])
+Date: Mon, 24 Nov 2008 17:02:37 -0500
+Subject: [outages] Sprint issue in Chicago?
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+Message-ID: <E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+
+> It was reported to me that there's a BGP issue in Sprint's Chicago POP.
+> Can
+> anyone confirm or deny?  The issues affecting us started around 3:40 pm
+> CT.
+
+This is fourth-hand, but this was posted on the NANOG list:
+
+> Found out from an upstream provider that Sprint might be having some
+> major backbone issues right now.
+
+> A number of their backbone routers are down.  This is third hand
+> information but would seem to make sense considering what we're seeing
+> here.  We dropped our sprint connection until this clears up but
+> reachability to any site that is on their network or uses them for
+> transit is iffy at best.
+
+There are also reports they are advertising routes they don't have, possibly because of the backbone outage.
+
+The Internet Health Report (http://www.internetpulse.net/) definitely sees some flakiness.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+DCSS Firewall group on-call: 240-338-2103
+
+From sethm at rollernet.us  Mon Nov 24 17:04:17 2008
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Mon, 24 Nov 2008 14:04:17 -0800
+Subject: [outages] Sprint issue in Chicago?
+In-Reply-To: <E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+	<E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+Message-ID: <492B24E1.4080604@rollernet.us>
+
+Goltz, Jim (NIH/CIT) [E] wrote:
+>> It was reported to me that there's a BGP issue in Sprint's Chicago POP.
+>> Can
+>> anyone confirm or deny?  The issues affecting us started around 3:40 pm
+>> CT.
+> 
+> This is fourth-hand, but this was posted on the NANOG list:
+> 
+>> Found out from an upstream provider that Sprint might be having some
+>> major backbone issues right now.
+> 
+>> A number of their backbone routers are down.  This is third hand
+>> information but would seem to make sense considering what we're seeing
+>> here.  We dropped our sprint connection until this clears up but
+>> reachability to any site that is on their network or uses them for
+>> transit is iffy at best.
+> 
+> There are also reports they are advertising routes they don't have, possibly because of the backbone outage.
+> 
+> The Internet Health Report (http://www.internetpulse.net/) definitely sees some flakiness.
+> 
+
+
+Sprint's own performance map is showing 7% to 8% packet loss out of St. 
+Louis.
+
+https://www.sprint.net/performance/
+
+
+~Seth
+
+From frnkblk at iname.com  Mon Nov 24 17:08:42 2008
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 24 Nov 2008 16:08:42 -0600
+Subject: [outages] Sprint issue in Chicago?
+In-Reply-To: <E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+	<E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABIsYEw9T8wR5OVsiclvg+rAQAAAAA=@iname.com>
+
+Jim:
+
+My posting about Sprint was from Friday.  Our upstream provider re-peered
+with them Sunday at 1 am.
+
+Frank
+
+-----Original Message-----
+From: Goltz, Jim (NIH/CIT) [E] [mailto:jgoltz at mail.nih.gov] 
+Sent: Monday, November 24, 2008 4:03 PM
+To: 'Frank Bulk'; outages at outages.org
+Subject: RE: [outages] Sprint issue in Chicago?
+
+> It was reported to me that there's a BGP issue in Sprint's Chicago POP.
+> Can
+> anyone confirm or deny?  The issues affecting us started around 3:40 pm
+> CT.
+
+This is fourth-hand, but this was posted on the NANOG list:
+
+> Found out from an upstream provider that Sprint might be having some
+> major backbone issues right now.
+
+> A number of their backbone routers are down.  This is third hand
+> information but would seem to make sense considering what we're seeing
+> here.  We dropped our sprint connection until this clears up but
+> reachability to any site that is on their network or uses them for
+> transit is iffy at best.
+
+There are also reports they are advertising routes they don't have, possibly
+because of the backbone outage.
+
+The Internet Health Report (http://www.internetpulse.net/) definitely sees
+some flakiness.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+DCSS Firewall group on-call: 240-338-2103
+
+
+From frnkblk at iname.com  Mon Nov 24 17:11:40 2008
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 24 Nov 2008 16:11:40 -0600
+Subject: [outages] Sprint issue in Chicago?
+In-Reply-To: <E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABAUl2j7ulPTbCHPvIHrCz8AQAAAAA=@iname.com>
+	<E8D01DC8BEAC2D43A099811746BA9DAE29B0523C@NIHMLBX01.nih.gov>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAC/hEaiLRkYRpLvuJoj+SSJAQAAAAA=@iname.com>
+
+Funny how when you look at:
+https://www.sprint.net/performance/
+everything seems OK, but IHR reports differently. ;)
+
+Frank
+
+-----Original Message-----
+From: Goltz, Jim (NIH/CIT) [E] [mailto:jgoltz at mail.nih.gov] 
+Sent: Monday, November 24, 2008 4:03 PM
+To: 'Frank Bulk'; outages at outages.org
+Subject: RE: [outages] Sprint issue in Chicago?
+
+> It was reported to me that there's a BGP issue in Sprint's Chicago POP.
+> Can
+> anyone confirm or deny?  The issues affecting us started around 3:40 pm
+> CT.
+
+This is fourth-hand, but this was posted on the NANOG list:
+
+> Found out from an upstream provider that Sprint might be having some
+> major backbone issues right now.
+
+> A number of their backbone routers are down.  This is third hand
+> information but would seem to make sense considering what we're seeing
+> here.  We dropped our sprint connection until this clears up but
+> reachability to any site that is on their network or uses them for
+> transit is iffy at best.
+
+There are also reports they are advertising routes they don't have, possibly
+because of the backbone outage.
+
+The Internet Health Report (http://www.internetpulse.net/) definitely sees
+some flakiness.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+DCSS Firewall group on-call: 240-338-2103
+
+
+From surfer at mauigateway.com  Mon Nov 24 17:30:50 2008
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Mon, 24 Nov 2008 14:30:50 -0800
+Subject: [outages] Sprint issue in Chicago?
+Message-ID: <20081124143050.B4662913@resin09.mta.everyone.net>
+
+
+
+--- frnkblk at iname.com wrote:
+Funny how when you look at:
+https://www.sprint.net/performance/
+everything seems OK, but IHR reports differently. ;)
+------------------------------------
+
+
+It's coming and going.  Here's a traceroute from my border router to sprint.net from Hawaii across Qwest.  But right afterward the site was reachable.  
+
+A:WPHU7710# traceroute router 1500 208.24.22.50
+traceroute to 208.24.22.50, 30 hops max, 40 byte packets
+  1  67.129.94.17 (67.129.94.17)    <10 ms  <10 ms  <10 ms
+  2  205.171.14.181 (205.171.14.181)    70 ms  70 ms  70 ms
+  3  67.14.34.18 (67.14.34.18)    70 ms  70 ms  90 ms
+  4  205.171.233.30 (205.171.233.30)    100 ms  70 ms  70 ms
+  5  0.0.0.0 (0.0.0.0)  * * *
+  6  0.0.0.0 (0.0.0.0)  * * *
+  7  0.0.0.0 (0.0.0.0)  * * *
+  8  0.0.0.0 (0.0.0.0)  * * *
+  9  0.0.0.0 (0.0.0.0)  * * *
+ 10  144.232.0.108 (144.232.0.108)    150 ms  160 ms  160 ms
+ 11  144.223.33.34 (144.223.33.34)    140 ms  150 ms  130 ms
+ 12  0.0.0.0 (0.0.0.0)  * * *
+ 13  0.0.0.0 (0.0.0.0)  * * *
+ 14  0.0.0.0 (0.0.0.0)  * * *
+ 15  0.0.0.0 (0.0.0.0)  * * *
+ 16  0.0.0.0 (0.0.0.0)  * * *
+ 17  0.0.0.0 (0.0.0.0)  * * *
+ 18  0.0.0.0 (0.0.0.0)  * ^C
+
+
+
+Eventhough the site's now reachable, I can't traceroute to it:
+
+A:WPHU7710# traceroute router 1500 208.24.22.50
+traceroute to 208.24.22.50, 30 hops max, 40 byte packets
+  1  67.129.94.17 (67.129.94.17)    10 ms  <10 ms  <10 ms
+  2  205.171.14.181 (205.171.14.181)    70 ms  70 ms  80 ms
+  3  67.14.34.18 (67.14.34.18)    70 ms  90 ms  70 ms
+  4  205.171.233.30 (205.171.233.30)    80 ms  70 ms  70 ms
+  5  63.146.26.194 (63.146.26.194)    70 ms  70 ms  100 ms
+  6  144.232.9.59 (144.232.9.59)    80 ms  90 ms  70 ms
+  7  0.0.0.0 (0.0.0.0)  * * *
+  8  144.232.9.65 (144.232.9.65)    100 ms  100 ms  100 ms
+  9  144.232.20.147 (144.232.20.147)    130 ms  130 ms  130 ms
+ 10  144.232.0.108 (144.232.0.108)    130 ms  130 ms  130 ms
+ 11  144.223.33.34 (144.223.33.34)    130 ms  130 ms  130 ms
+ 12  0.0.0.0 (0.0.0.0)  * * *
+ 13  0.0.0.0 (0.0.0.0)  * * *
+ 14  0.0.0.0 (0.0.0.0)  * * *
+ 15  0.0.0.0 (0.0.0.0)  * * *
+ 16  0.0.0.0 (0.0.0.0)  * * *
+ 17  0.0.0.0 (0.0.0.0)  * ^C
+
+
+scott
+
+From sethm at rollernet.us  Mon Nov 24 17:41:57 2008
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Mon, 24 Nov 2008 14:41:57 -0800
+Subject: [outages] Sprint
+Message-ID: <492B2DB5.7050703@rollernet.us>
+
+I gave Sprint a call regarding today's problems and it seems they have 
+more than one thing going on; there's some kind of DNS issue and 
+"multiple BGP issues on core routers" after I mentioned I was a 
+multihomed customer and their DNS problems wouldn't impact me. I wasn't 
+able to coerce any other details out of them.
+
+~Seth
+
+From frnkblk at iname.com  Mon Nov 24 17:59:59 2008
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 24 Nov 2008 16:59:59 -0600
+Subject: [outages] Sprint
+In-Reply-To: <492B2DB5.7050703@rollernet.us>
+References: <492B2DB5.7050703@rollernet.us>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACiJnh1CH0KR41UZWhgh1obAQAAAAA=@iname.com>
+
+Our upstream provider also mentioned Sprint DNS issues in addition to
+Sprint's routing issues.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Seth Mattinen
+Sent: Monday, November 24, 2008 4:42 PM
+To: outages at outages.org
+Subject: [outages] Sprint
+
+I gave Sprint a call regarding today's problems and it seems they have
+more than one thing going on; there's some kind of DNS issue and
+"multiple BGP issues on core routers" after I mentioned I was a
+multihomed customer and their DNS problems wouldn't impact me. I wasn't
+able to coerce any other details out of them.
+
+~Seth
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From kmedcalf at dessus.com  Thu Nov 20 13:43:49 2008
+From: kmedcalf at dessus.com (Keith Medcalf)
+Date: Thu, 20 Nov 2008 13:43:49 -0500
+Subject: [outages] PSTN Outage for Telus in Toronto
+Message-ID: <e04a0596740c714fa7e1db0af6ef5365@mail.dessus.com>
+
+
+Telus PSTN routing in Ontario/Toronto appears to be out since 12:00 EST today.  No further information or confirmation.
+
+If anyone has any pointers to where one can find PSTN monitoring/outage data would be appreciated.
+
+
+
+
+
+From kmedcalf at dessus.com  Thu Nov 20 17:06:00 2008
+From: kmedcalf at dessus.com (Keith Medcalf)
+Date: Thu, 20 Nov 2008 17:06:00 -0500
+Subject: [outages] Telus PSTN service restored
+Message-ID: <4b437d3bd90d4d449b5e3ad832b5ed2f@mail.dessus.com>
+
+
+Problem was a failed DMS100 toll switch.  No further details at this time.
+
+
+
+
+
+From ralphw at interworld.net  Wed Nov 26 05:20:06 2008
+From: ralphw at interworld.net (Ralph E. Whitmore, III)
+Date: Wed, 26 Nov 2008 02:20:06 -0800
+Subject: [outages] Time Warner Los Angles returns
+Message-ID: <B20F7C4FB72FFC4FA9D4187905385B6AD2ADF9@w2k3srvr2.torrance.interworld.net>
+
+BGP advertiements returned at 02:15 on 11/26/08.  Guess they lost
+something big.
+
+ 
+
+Ralph
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081126/bf30ee8f/attachment.html>
+
+From ralphw at interworld.net  Wed Nov 26 05:10:06 2008
+From: ralphw at interworld.net (Ralph E. Whitmore, III)
+Date: Wed, 26 Nov 2008 02:10:06 -0800
+Subject: [outages] Time Warner Cable disappears from Internet in Los Angeles
+Message-ID: <B20F7C4FB72FFC4FA9D4187905385B6AD2ADF8@w2k3srvr2.torrance.interworld.net>
+
+As of 1126PM 11/25/08 AS20005 and AS20001  Time Warner Cable appears to
+have totally disappeared from the internet. We no longer see any
+advertisements from the Los Angeles Area  67.52.0.0/15 and others
+
+ 
+
+Ralph
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081126/26f481ad/attachment.html>
+

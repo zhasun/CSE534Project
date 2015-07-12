@@ -1,0 +1,830 @@
+From fergdawg  Sat Mar  1 14:05:39 2008
+From: fergdawg (Paul Ferguson)
+Date: Sat, 1 Mar 2008 19:05:39 GMT
+Subject: [Outages] Follow-up: Human Error Responsible for Massive Florida Power Outage
+Message-ID: <20080301.110539.12169.3@webmail04.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Via The Herald Tribune.
+
+[snip]
+
+Florida Power & Light said that a preliminary investigation has found that
+human error was responsible for the massive power outage on Tuesday that
+affected more than 584,000 customers.
+
+A field engineer was diagnosing a switch that had malfunctioned at FPL?s
+Flagami substation in west Miami. Without authorization, the engineer
+disabled two levels of relay protection ? something contrary to the Juno
+Beach-based company?s procedures.
+
+During the diagnostic process, a fault occurred. With both levels of relay
+protection removed, the outage affected 26 transmission lines and 38
+substations.
+
+One of the substations served three of the generation units at the
+company?s Turkey Point nuclear plant, which was designed to automatically
+shut down if there is a lack of enough power. Also affected were two other
+generation plants in FPL?s system. The system lost 3,400 megawatts of
+generating capacity.
+
+[snip]
+
+More:
+http://www.heraldtribune.com/article/20080229/BREAKING06/231939561
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHyaj+q1pz9mNUZTMRAvqfAKCT2Wmr4FC/2R1eif2cmyOmAe+6twCbBQvp
+Hx0ybYZPuwdfYwdSGzjX4EA=
+=sdm4
+-----END PGP SIGNATURE-----
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From ramans  Wed Mar  5 12:29:26 2008
+From: ramans (Raman Sud)
+Date: Wed, 5 Mar 2008 10:29:26 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#182990 - Scheduled
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC2015675729A5@EXCH07-MB.ccbill-hq.local>
+
+
+________________________________
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com]
+Sent: Wednesday, March 05, 2008 10:29 AM
+To: Networking
+
+Level (3) Communications - Network Change Control (NCC)
+
+***SCHEDULED MAINTENANCE ADVISEMENT***
+
+Level(3) Service Affecting Maintenance - GCR#182990 - Scheduled
+
+
+
+________________________________
+
+
+
+Clarify Case#:
+
+GCR #:  CHG000000182990
+
+Primary Dates: 20 Mar 2008 00:00:00 - 20 Mar 2008 06:00:00 Eastern
+
+Primary Dates GMT:  20 Mar 2008 04:00:00 - 20 Mar 2008 10:00:00
+
+Location of Maintenance: Detroit MI,
+
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)
+
+
+
+Customer Impact:
+
+Service
+
+Expected Impact
+
+Classification
+
+Duration
+
+Additional Notes
+
+Transport - Unprotected
+
+Outage
+
+SA
+
+1 hour
+
+Level 3 will be splicing Metro fiber and long haul fiber that has been temporary relocated due to Michigan Department of Transportation road construction. Unprotected and dark fiber services will be down up to 1 hour. THIS GCR 182990 IS AN RELATED GCRS ARE 180264, 182988, 182989, 182990
+
+Transport - Protected
+
+Switch Hits
+
+PSAH
+
+50 ms
+
+Level 3 will be splicing Metro fiber and long haul fiber that has been temporary relocated due to Michigan Department of Transportation road construction. Protected services will be impacted by switch hits. THIS GCR 182990 IS AN OCCURRENCE OF GCR 180264,
+
+
+
+
+CWIE, LLC - - Services Impacted:
+
+Transport :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Circuit ID
+
+Bandwidth
+
+Classification
+
+
+
+
+
+
+
+
+
+
+
+ASBNVACY-CHCGILDT-00003
+
+10GE
+
+SA
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+
+If you have any questions or concerns about this network maintenance notification, please call or email the Service Management Center on the appropriate national toll-free/freephone number or email address below. Additionally, if you wish to modify your contact information for maintenance notification, please communicate those changes to a SMC representative.
+
+US Toll-Free: 877 4Level3
+
+UK: 80800 0927729
+
+Eire: 1 800441053
+
+France: 0800 913180
+
+Germany: 0800 2538353
+
+Belgium: 0800 76216
+
+Netherlands: 0800 0226108
+
+Italy: 0800 0226108
+
+Sweden: 0200 285 581
+
+Spain: 900 938 973
+
+Denmark: 80881479
+
+Estonia: 8000044139
+
+Austria: 0800291594
+
+Poland: 00800 441 2409
+
+Switzerland: 0800 564 151
+
+US International: 1 720 888 0025
+
+EU International: 44 20 7864 4599
+
+EU Support<mailto:usupport at level3.com> - (24x7) or
+
+Technical Support<mailto:technicalsupport at level3.com> - (24x7)
+
+
+
+Thank you for your cooperation,
+
+Level (3) Communications
+
+Customer Network Operations
+
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail communication and any attached documents may be privileged, confidential or otherwise protected from disclosure and is intended only for the use of the designated recipient(s). If the reader is neither the intended recipient nor an employee or agent thereof who is responsible for delivering it to the intended recipient, you are hereby notified that any review, dissemination, distribution, copying or other use of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by return e-mail and promptly delete the original electronic e-mail communication and any attached documentation. Receipt by anyone other than the intended recipient is not a waiver of any attorney-client or work-product privilege.
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20080305/d3390708/attachment-0001.htm 
+
+
+From virendra.rode  Tue Mar 11 13:13:26 2008
+From: virendra.rode (virendra rode //)
+Date: Tue, 11 Mar 2008 10:13:26 -0700
+Subject: [Outages] [Fwd: Teleglobe instabilities?] Message-ID: <47D6BDB6.6010903@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+does anyone have any insight into this?
+
+
+- -------- Original Message --------
+Subject: Teleglobe instabilities?
+Date: Tue, 11 Mar 2008 12:17:11 +0100
+From: Bernhard Schmidt <berni at birkenwald.de>
+To: ipv6-ops at lists.cluenet.de
+
+Hi,
+
+does anyone else see instabilities with Teleglobe in Amsterdam? I see
+massive flapping of all paths through Teleglobe from several upstreams
+(C&W and GBLX) and Tiscali seems to have shutdown the peering and going
+through Equinix Ashburn now.
+
+Started at about 8pm GMT yesterday evening.
+
+Bernhard
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFH1r22pbZvCIJx1bcRAvURAKC5kyYOBGWOjnbF32LtT4KusgUOUwCeN92n
+HZCq45CaLHOrtRey5ZAyum4=
+=WKke
+-----END PGP SIGNATURE-----
+
+
+From jlk  Wed Mar 12 02:26:36 2008
+From: jlk (John Kinsella)
+Date: Tue, 11 Mar 2008 23:26:36 -0700
+Subject: [Outages] internet is broke! Message-ID: <20080312062636.GA12707@jkfw.thrashyour.com>
+
+Haven't fully determined what yet, guessing one of the distribution
+networks is down...can't bring up sfgate, cnn, yahoo mail...
+
+Anybody have hints?
+
+John
+
+
+From eric.spagna  Wed Mar 12 02:35:51 2008
+From: eric.spagna (Eric Spagna US)
+Date: Wed, 12 Mar 2008 02:35:51 -0400
+Subject: [Outages] internet is broke! In-Reply-To: <20080312062636.GA12707@jkfw.thrashyour.com>
+References: <20080312062636.GA12707@jkfw.thrashyour.com>
+Message-ID: <3D2A9A1D2B2F0E49B70E6E882E89890B094E28AE@usbossvex01.na.didata.local>
+
+Someone turned off the interweb. Try one of the other interwebs.
+
+-----------------------
+Eric Spagna
+GSC IPCC Engineer
+CCNA/MCSA/Sec+/Lin+
+Dimension Data
+Framingham, MA
+D: 508-424-3375
+C: 413-627-5485
+Sun - Th, 11pm - 7am EST
+
+
+-----Original Message-----
+From: John Kinsella [mailto:jlk at thrashyour.com] 
+Sent: Wednesday, March 12, 2008 2:27 AM
+To: outages at isotf.org
+
+Haven't fully determined what yet, guessing one of the distribution
+networks is down...can't bring up sfgate, cnn, yahoo mail...
+
+Anybody have hints?
+
+John
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----------------------------------------
+Disclaimer:
+
+This e-mail communication and any attachments may contain
+confidential and privileged information and is for use by the
+designated addressee(s) named above only.  If you are not the
+intended addressee, you are hereby notified that you have received
+this communication in error and that any use or reproduction of
+this email or its contents is strictly prohibited and may be
+unlawful.  If you have received this communication in error, please
+notify us immediately by replying to this message and deleting it
+from your computer. Thank you.
+
+
+From bpfankuch  Wed Mar 12 09:07:59 2008
+From: bpfankuch (Blake Pfankuch)
+Date: Wed, 12 Mar 2008 07:07:59 -0600
+Subject: [Outages] internet is broke! In-Reply-To: <20080312062636.GA12707@jkfw.thrashyour.com>
+References: <20080312062636.GA12707@jkfw.thrashyour.com>
+Message-ID: <97E08945C0C1024FA818C68D6F252D6501EB11C0@exserver.cpgreeley.com>
+
+Did you power cycle your dsl modem?  Oh wait not tech support anymore.
+
+-----Original Message-----
+From: John Kinsella [mailto:jlk at thrashyour.com] 
+Sent: Wednesday, March 12, 2008 12:27 AM
+To: outages at isotf.org
+
+Haven't fully determined what yet, guessing one of the distribution
+networks is down...can't bring up sfgate, cnn, yahoo mail...
+
+Anybody have hints?
+
+John
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From LarrySheldon  Thu Mar 13 10:03:22 2008
+From: LarrySheldon (Laurence F. Sheldon, Jr.)
+Date: Thu, 13 Mar 2008 09:03:22 -0500
+Subject: [Outages] internet is broke! In-Reply-To: <97E08945C0C1024FA818C68D6F252D6501EB11C0@exserver.cpgreeley.com>
+References: <20080312062636.GA12707@jkfw.thrashyour.com>
+	<97E08945C0C1024FA818C68D6F252D6501EB11C0@exserver.cpgreeley.com>
+Message-ID: <47D9342A.20503@cox.net>
+
+Blake Pfankuch wrote:
+> Did you power cycle your dsl modem?  Oh wait not tech support anymore.
+
+Whenever I see one of these "the Intartubes are broke" things in 
+Internet email, I am reminded of an event eons ago when I answered an 
+alarm on a TJ Radio station (Microwave link) order wire to discover that 
+it was the PBX repairman at the distant end announcing that pursuant to 
+Circuit Order mumble he had shut down the station there.
+
+I had to convince him that the order wire rode the radio link, and that 
+the battery pack in the radio case would keep the station on the air for 
+  quite a while after the plug had been pulled from the wall socket.
+-- 
+Requiescas in pace o email              Two identifying characteristics
+                                              of System Administrators:
+Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                              learn from their mistakes.
+http://members.cox.net/larrysheldon/      (Adapted from Stephen Pinker)
+
+
+From ge  Thu Mar 13 10:14:22 2008
+From: ge (Gadi Evron)
+Date: Thu, 13 Mar 2008 09:14:22 -0500 (CDT)
+Subject: [Outages] internet is broke! In-Reply-To: <47D9342A.20503@cox.net>
+References: <20080312062636.GA12707@jkfw.thrashyour.com>
+	<97E08945C0C1024FA818C68D6F252D6501EB11C0@exserver.cpgreeley.com>
+	<47D9342A.20503@cox.net>
+Message-ID: <Pine.LNX.4.62.0803130913430.6123@linuxbox.org>
+
+On Thu, 13 Mar 2008, Laurence F. Sheldon, Jr. wrote:
+> Blake Pfankuch wrote:
+>> Did you power cycle your dsl modem?  Oh wait not tech support anymore.
+>
+> Whenever I see one of these "the Intartubes are broke" things in
+> Internet email, I am reminded of an event eons ago when I answered an
+> alarm on a TJ Radio station (Microwave link) order wire to discover that
+> it was the PBX repairman at the distant end announcing that pursuant to
+> Circuit Order mumble he had shut down the station there.
+>
+> I had to convince him that the order wire rode the radio link, and that
+> the battery pack in the radio case would keep the station on the air for
+>  quite a while after the plug had been pulled from the wall socket.
+
+I was sitting down at the IETF yesterday, obviously bored. Then the 
+wireless went down.
+
+I was considering emailing to outages@
+:)
+
+ 	Gadi.
+
+
+From ramans  Mon Mar 17 13:41:24 2008
+From: ramans (Raman Sud)
+Date: Mon, 17 Mar 2008 10:41:24 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#184167 - 36 Hours
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC2031C658EBEA@EXCH07-MB.ccbill-hq.local>
+
+
+
+Raman Sud
+Director,
+Network Engineering and Operations
+
+
+CWIE Holding Company
+2353 West University Drive
+Tempe AZ 85281
+Cell: 602.821.0088
+Office: 480.449.7750 Ext 157
+Toll Free: 1.888.906.0666
+Fax: 480.682.3236
+http://www.cavecreek.net/
+
+PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+NOTICE: This message is intended only for the use of the individual or entity to which it is addressed. If the reader of this message is not the intended recipient, or the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this message is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the sender of this E-Mail or by telephone.
+
+________________________________
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com]
+Sent: Monday, March 17, 2008 10:41 AM
+To: helpdesk at bandcon.com; todd at bandcon.com; Networking
+
+Level (3) Communications - Network Change Control (NCC)
+
+***MAINTENANCE ADVISEMENT***
+
+Level(3) Service Affecting Maintenance - GCR#184167 - 36 Hours
+
+This Maintenance is scheduled to occur within 36 hours.
+
+________________________________
+
+
+
+Clarify Case#:
+
+GCR #:  CHG000000184167
+
+Primary Dates: 19 Mar 2008 00:00:00 - 19 Mar 2008 06:00:00 Eastern
+
+Primary Dates GMT:  19 Mar 2008 04:00:00 - 19 Mar 2008 10:00:00
+
+Location of Maintenance: Detroit MI,
+
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)
+
+
+
+Customer Impact:
+
+Service
+
+Expected Impact
+
+Classification
+
+Duration
+
+Additional Notes
+
+Transport - Unprotected
+
+Outage
+
+SA
+
+1 hour
+
+Level 3 will splice Metro fiber and long haul fiber that has been temporary relocated due to MDOT work. This is an occurrence to 184165 a reschedule of GCR 180264 an it's occurrences.
+
+Transport - Protected
+
+Switch Hits
+
+PSAH
+
+50 ms
+
+Level 3 will splice Metro fiber and long haul fiber that has been temporary relocated due to MDOT work. This is an occurrence to 184165 a reschedule of GCR 180264 an it's occurrences.
+
+
+
+
+CWIE, LLC - - Services Impacted:
+
+Transport :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Circuit ID
+
+Bandwidth
+
+Classification
+
+
+
+
+
+
+
+
+
+
+
+ASBNVACY-CHCGILDT-00003
+
+10GE
+
+SA
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+
+If you have any questions or concerns about this network maintenance notification, please call or email the Service Management Center on the appropriate national toll-free/freephone number or email address below. Additionally, if you wish to modify your contact information for maintenance notification, please communicate those changes to a SMC representative.
+
+US Toll-Free: 877 4Level3
+
+UK: 80800 0927729
+
+Eire: 1 800441053
+
+France: 0800 913180
+
+Germany: 0800 2538353
+
+Belgium: 0800 76216
+
+Netherlands: 0800 0226108
+
+Italy: 0800 0226108
+
+Sweden: 0200 285 581
+
+Spain: 900 938 973
+
+Denmark: 80881479
+
+Estonia: 8000044139
+
+Austria: 0800291594
+
+Poland: 00800 441 2409
+
+Switzerland: 0800 564 151
+
+US International: 1 720 888 0025
+
+EU International: 44 20 7864 4599
+
+EU Support<mailto:usupport at level3.com> - (24x7) or
+
+Technical Support<mailto:technicalsupport at level3.com> - (24x7)
+
+
+
+Thank you for your cooperation,
+
+Level (3) Communications
+
+Customer Network Operations
+
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail communication and any attached documents may be privileged, confidential or otherwise protected from disclosure and is intended only for the use of the designated recipient(s). If the reader is neither the intended recipient nor an employee or agent thereof who is responsible for delivering it to the intended recipient, you are hereby notified that any review, dissemination, distribution, copying or other use of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by return e-mail and promptly delete the original electronic e-mail communication and any attached documentation. Receipt by anyone other than the intended recipient is not a waiver of any attorney-client or work-product privilege.
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20080317/6e9a74d4/attachment-0001.htm 
+
+
+From ramans  Tue Mar 18 13:19:31 2008
+From: ramans (Raman Sud)
+Date: Tue, 18 Mar 2008 10:19:31 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#184168 - 36 Hours
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC2031C658EC28@EXCH07-MB.ccbill-hq.local>
+
+
+
+Raman Sud
+Director,
+Network Engineering and Operations
+
+
+CWIE Holding Company
+2353 West University Drive
+Tempe AZ 85281
+Cell: 602.821.0088
+Office: 480.449.7750 Ext 157
+Toll Free: 1.888.906.0666
+Fax: 480.682.3236
+http://www.cavecreek.net/
+
+PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+NOTICE: This message is intended only for the use of the individual or entity to which it is addressed. If the reader of this message is not the intended recipient, or the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this message is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the sender of this E-Mail or by telephone.
+
+________________________________
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com]
+Sent: Tuesday, March 18, 2008 10:19 AM
+To: Networking
+
+Level (3) Communications - Network Change Control (NCC)
+
+***MAINTENANCE ADVISEMENT***
+
+Level(3) Service Affecting Maintenance - GCR#184168 - 36 Hours
+
+This Maintenance is scheduled to occur within 36 hours.
+
+________________________________
+
+
+
+Clarify Case#:
+
+GCR #:  CHG000000184168
+
+Primary Dates: 20 Mar 2008 00:00:00 - 20 Mar 2008 06:00:00 Eastern
+
+Primary Dates GMT:  20 Mar 2008 04:00:00 - 20 Mar 2008 10:00:00
+
+Location of Maintenance: Detroit MI,
+
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)
+
+
+
+Customer Impact:
+
+Service
+
+Expected Impact
+
+Classification
+
+Duration
+
+Additional Notes
+
+Transport - Unprotected
+
+Outage
+
+SA
+
+1 hour
+
+Level 3 will splice Metro fiber and long haul fiber that has been temporary relocated due to MDOT work. This is an occurrence to 184165 a reschedule of GCR 180264 an it's occurrences.
+
+Transport - Protected
+
+Switch Hits
+
+PSAH
+
+50 ms
+
+Level 3 will splice Metro fiber and long haul fiber that has been temporary relocated due to MDOT work. This is an occurrence to 184165 a reschedule of GCR 180264 an it's occurrences.
+
+
+
+
+CWIE, LLC - - Services Impacted:
+
+Transport :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Circuit ID
+
+Bandwidth
+
+Classification
+
+
+
+
+
+
+
+
+
+
+
+ASBNVACY-CHCGILDT-00003
+
+10GE
+
+SA
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________
+
+If you have any questions or concerns about this network maintenance notification, please call or email the Service Management Center on the appropriate national toll-free/freephone number or email address below. Additionally, if you wish to modify your contact information for maintenance notification, please communicate those changes to a SMC representative.
+
+US Toll-Free: 877 4Level3
+
+UK: 80800 0927729
+
+Eire: 1 800441053
+
+France: 0800 913180
+
+Germany: 0800 2538353
+
+Belgium: 0800 76216
+
+Netherlands: 0800 0226108
+
+Italy: 0800 0226108
+
+Sweden: 0200 285 581
+
+Spain: 900 938 973
+
+Denmark: 80881479
+
+Estonia: 8000044139
+
+Austria: 0800291594
+
+Poland: 00800 441 2409
+
+Switzerland: 0800 564 151
+
+US International: 1 720 888 0025
+
+EU International: 44 20 7864 4599
+
+EU Support<mailto:usupport at level3.com> - (24x7) or
+
+Technical Support<mailto:technicalsupport at level3.com> - (24x7)
+
+
+
+Thank you for your cooperation,
+
+Level (3) Communications
+
+Customer Network Operations
+
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail communication and any attached documents may be privileged, confidential or otherwise protected from disclosure and is intended only for the use of the designated recipient(s). If the reader is neither the intended recipient nor an employee or agent thereof who is responsible for delivering it to the intended recipient, you are hereby notified that any review, dissemination, distribution, copying or other use of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by return e-mail and promptly delete the original electronic e-mail communication and any attached documentation. Receipt by anyone other than the intended recipient is not a waiver of any attorney-client or work-product privilege.
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20080318/5e740885/attachment-0001.htm 
+
+

@@ -1,0 +1,660 @@
+###############################################################
+TWTelecom and SoCal
+###############################################################
+  Anyone else seeing slowness on TWTelecom routes?
+ My colocation confirmed that TWTelecom is having some issues on some of their routes today.  Confirmed issues between ATT Business DSL customers in SoCal and TWTelecom SoCal nodes (207.114.222.94 for example).
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ We are seeing issues as well. 
+ Chris Kleban
+ Manager of Network Engineering
+ Citrix Online
+ Email: chris.kleban at citrix.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Paul Norton
+ Sent: Thursday, January 06, 2011 4:53 PM
+ Subject: [outages] TWTelecom and SoCal
+ Anyone else seeing slowness on TWTelecom routes?
+ My colocation confirmed that TWTelecom is having some issues on some of their routes today.  Confirmed issues between ATT Business DSL customers in SoCal and TWTelecom SoCal nodes (207.114.222.94 for example).
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <A89B962023CACD42B6A09485E67ABCF522374F83@sbapmail02.ad.corp.expertcity.com>
+ Thanks Chris.
+ I've had clients that are ATT customers contact me just in the last 10 minutes about issues.
+ On Jan 6, 2011, at 5:03 PM, Chris Kleban wrote:
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ Traceroutes to 207.114.222.94 fail from HE and GBLX upon leaving their respective networks.
+ -RR
+ ------Original Message------
+ From: Paul Norton
+ Sender: outages-bounces at outages.org
+ Subject: [outages] TWTelecom and SoCal
+ Sent: Jan 6, 2011 4:52 PM
+ Anyone else seeing slowness on TWTelecom routes?
+ My colocation confirmed that TWTelecom is having some issues on some of their routes today.  Confirmed issues between ATT Business DSL customers in SoCal and TWTelecom SoCal nodes (207.114.222.94 for example).
+ --
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Sent via BlackBerry by AT&T
+###############################################################
+END
+###############################################################
+
+###############################################################
+EXCEL SIP
+###############################################################
+ Is anyone aware of any issues which would be impacting SIP traffic 
+ to/from Excel Telecommunications (www.excel.com) in the NYC area? We 
+ have a customer reporting callers being unable to hear them, only on 
+ calls they receive (i.e. calls inbound to the customer).
+###############################################################
+END
+###############################################################
+
+###############################################################
+PA Verizon Fiber cut
+###############################################################
+ Verizon has a ticket regarding a fiber break in the greater Pittsburgh
+ area. Reported at approx 11:30 EST. Verizon ticket is PAES015710. Does
+ anyone have any information as to where this is or how large the outage
+ is?
+ ________________________________
+ Barry J McCall
+ Network Administrator
+ CCENT, Network+
+ Pittsburgh, PA
+ ________________________________
+###############################################################
+END
+###############################################################
+
+###############################################################
+Australia: Floods take out AAPT datacentre
+###############################################################
+ Looks like a lot of outages are beginning  to occur in Queensland as
+ the flooding continues to get worse.
+ [snip]
+ The Queensland floods have claimed their first datacentre victim, with
+ AAPT's facility at 167 Eagle St in Brisbane confirmed to have powered
+ down. A number of other facilities may be about to follow, as the
+ statewide disaster continues to trouble technology providers.
+ [snip]
+ More:
+ http://www.zdnet.com.au/floods-take-out-aapt-datacentre-339308533.htm
+ FYI,
+ - ferg
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+ ?Engineering Architecture for the Internet
+ ?fergdawgster(at)gmail.com
+ ?ferg's tech blog: http://fergdawg.blogspot.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Some mobile phone base towers in Queensland are currently running on backup batteries
+###############################################################
+ FYI:
+ http://www.zdnet.com.au/nbn-batteries-pose-disaster-issue-experts-339308546.htm
+ - ferg
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+ ?Engineering Architecture for the Internet
+ ?fergdawgster(at)gmail.com
+ ?ferg's tech blog: http://fergdawg.blogspot.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-announce] Australia: Floods take out AAPT datacentre
+###############################################################
+ I'm informed that the National Relay Service for the Deaf and Hearing
+ impaired has gone to minimal service.
+ "Due to the emergency flood situation in Brisbane, ordinary relay
+ calls through the NRS are not available at present. Until further
+ notice the NRS can only relay Emergency 106 calls from TTYs."
+ This means that Oz-wide, Deaf and Hearing impared are unable to use
+ public relay services to voice only devices, such as social services
+ and scheduled medical support.
+ Eric
+###############################################################
+END
+###############################################################
+
+###############################################################
+Flooding in QLD, AU
+###############################################################
+ You may not be aware, but there is major flooding in QLD, AU. 
+ It has taken down already a data center (AAPT, I think). APNIC online services are not affected tho. 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ http://www.facebook.com/Avonsys 
+ twitter: FranckMartin Avonsys 
+ Check your domain reputation: http://gurl.im/b69d4o 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110113/5f6cfb75/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ZoneEdit Issues
+###############################################################
+ Good morning everyone,
+ We're trying to track down some stuff, and it appears that DNS
+ wouldn't resolve.  Has anyone seen any issues with ZoneEdit's DNS
+ services this morning?  We cannot see anything wrong with it right
+ now, but wanted to have more data points to rule it out completely.
+ Thanks!
+ Neil
+ I'm not sure if I'm interpreting this page correctly, but it's possible that
+ some key DNS entries changed today:
+ http://dnshistory.org/browsedomains/zoneedit.com.
+ DNS reports also complains about "No NS A records at nameservers" at each of
+ their five NS records:
+ http://www.dnsstuff.com/tools/dnsreport?domain=zoneedit.com&format=raw&loadr
+ esults=true&token=16a105ed77611ac826142a1b15f3501b
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Neil Ticktin
+ Sent: Thursday, January 13, 2011 7:51 AM
+ Subject: [outages] ZoneEdit Issues
+ Good morning everyone,
+ We're trying to track down some stuff, and it appears that DNS
+ wouldn't resolve.  Has anyone seen any issues with ZoneEdit's DNS
+ services this morning?  We cannot see anything wrong with it right
+ now, but wanted to have more data points to rule it out completely.
+ Thanks!
+ Neil
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <001c01cbb32d$a6c464a0$f44d2de0$@iname.com>
+ Twitter confirms the issue:
+ http://www.google.com/search?tbs=mbl:1&hl=en&source=hp&biw=1280&bih=877&q=zo
+ needit&btnG=Search&safe=active
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Frank Bulk
+ Sent: Thursday, January 13, 2011 8:25 AM
+ Subject: Re: [outages] ZoneEdit Issues
+ I'm not sure if I'm interpreting this page correctly, but it's possible that
+ some key DNS entries changed today:
+ http://dnshistory.org/browsedomains/zoneedit.com.
+ DNS reports also complains about "No NS A records at nameservers" at each of
+ their five NS records:
+ http://www.dnsstuff.com/tools/dnsreport?domain=zoneedit.com&format=raw&loadr
+ esults=true&token=16a105ed77611ac826142a1b15f3501b
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Neil Ticktin
+ Sent: Thursday, January 13, 2011 7:51 AM
+ Subject: [outages] ZoneEdit Issues
+ Good morning everyone,
+ We're trying to track down some stuff, and it appears that DNS
+ wouldn't resolve.  Has anyone seen any issues with ZoneEdit's DNS
+ services this morning?  We cannot see anything wrong with it right
+ now, but wanted to have more data points to rule it out completely.
+ Thanks!
+ Neil
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <001c01cbb32d$a6c464a0$f44d2de0$@iname.com>
+  <001d01cbb32f$67426370$35c72a50$@iname.com>
+ Thanks Frank.  It's starting to come back up -- but we're unable to
+ add additional name servers, and we're still seeing issues with ns9
+ and 13.
+ On Thu, Jan 13, 2011 at 6:37 AM, Frank Bulk <frnkblk at iname.com> wrote:
+  <AANLkTimK6jeYt0AVwefndm5kfUDKbj4mJX7jnJsx_yK5@mail.gmail.com>
+ More here:
+ http://www.macnews.com/2011/01/13/dns-provider-zoneedits-ns9-ns13-go-down
+ Frank
+ -----Original Message-----
+ From: neilticktin.lists at gmail.com [mailto:neilticktin.lists at gmail.com] On
+ Behalf Of Neil Ticktin
+ Sent: Thursday, January 13, 2011 9:19 AM
+ Cc: outages at outages.org
+ Subject: Re: [outages] ZoneEdit Issues
+ Thanks Frank.  It's starting to come back up -- but we're unable to
+ add additional name servers, and we're still seeing issues with ns9
+ and 13.
+ On Thu, Jan 13, 2011 at 6:37 AM, Frank Bulk <frnkblk at iname.com> wrote:
+ http://www.google.com/search?tbs=mbl:1&hl=en&source=hp&biw=1280&bih=877&q=zo
+ that
+ of
+ http://www.dnsstuff.com/tools/dnsreport?domain=zoneedit.com&format=raw&loadr
+###############################################################
+END
+###############################################################
+
+###############################################################
+OC 192 Outage in OR/WA
+###############################################################
+ I have customers down in OR, being told an OC 192 in OR/WA is affected by a
+ flood. No ETTR.
+ Going on 20 hours now.
+ Anybody else have any word on this?
+ Thanks,
+ ML
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/f6bbd7c4/attachment.html>
+ You didn't mention which carrier/company...  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP 4BD6C0CB |
+ On Mon, Jan 17, 2011 at 07:46:32AM -0600, Mauricio Lizano wrote:
+  <20110117143157.GA85841@icarus.home.lan>
+  <AANLkTimdefQ1u9iHeb5XbbapuknOTBj0pForO9OjVDwY@mail.gmail.com>
+  <AANLkTimnRQtAY4GmPbu4sENuX_kRMc4PRxmeoPKNfBHA@mail.gmail.com>
+ I have Verizon T1s affected in Spokane - they're blaming a 360 Networks fiber cut between Spokane and Seattle.  I have a Sprint T1 about 2 miles away (Airway Heights, WA) that is not affected.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Mauricio Lizano
+ Sent: Monday, January 17, 2011 10:30 AM
+ Subject: [outages] Fwd: OC 192 Outage in OR/WA
+ duh! Sorry. I have customer's on different carriers affected (Covad, Qwest), they are pointing the finger at the Sprint fiber being affected by floods.
+ Thanks,
+ ML
+ On Mon, Jan 17, 2011 at 8:31 AM, Jeremy Chadwick <outages at jdc.parodius.com<mailto:outages at jdc.parodius.com>> wrote:
+ You didn't mention which carrier/company...  :-)
+ --
+ | Jeremy Chadwick                                   jdc at parodius.com<mailto:jdc at parodius.com> |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP 4BD6C0CB |
+ On Mon, Jan 17, 2011 at 07:46:32AM -0600, Mauricio Lizano wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/e5b7f883/attachment.html>
+  <20110117143157.GA85841@icarus.home.lan>
+  <AANLkTimdefQ1u9iHeb5XbbapuknOTBj0pForO9OjVDwY@mail.gmail.com>
+  <AANLkTimnRQtAY4GmPbu4sENuX_kRMc4PRxmeoPKNfBHA@mail.gmail.com>
+  <0CFF54003CD92945994CF0C0F90D81B66D067E@EXCH1-FWA1.zenetra.local>
+ I am seeing services restored at this point.
+ On Mon, Jan 17, 2011 at 11:27 AM, R. Benjamin Kessler <
+ Ben.Kessler at zenetra.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/cf51fa03/attachment.html>
+  <20110117143157.GA85841@icarus.home.lan>
+  <AANLkTimdefQ1u9iHeb5XbbapuknOTBj0pForO9OjVDwY@mail.gmail.com>
+  <AANLkTimnRQtAY4GmPbu4sENuX_kRMc4PRxmeoPKNfBHA@mail.gmail.com>
+  <0CFF54003CD92945994CF0C0F90D81B66D067E@EXCH1-FWA1.zenetra.local>
+  <AANLkTi=_er0076CnJ7XiaC5KUWFrPg8Z_HwyBHXmdydW@mail.gmail.com>
+ Our circuits are still down but the last update says that services are in the process of being restored.
+ From: Mauricio Lizano [mailto:mauricio.lizano at gmail.com]
+ Sent: Monday, January 17, 2011 3:51 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Fwd: OC 192 Outage in OR/WA
+ I am seeing services restored at this point.
+ On Mon, Jan 17, 2011 at 11:27 AM, R. Benjamin Kessler <Ben.Kessler at zenetra.com<mailto:Ben.Kessler at zenetra.com>> wrote:
+ I have Verizon T1s affected in Spokane - they're blaming a 360 Networks fiber cut between Spokane and Seattle.  I have a Sprint T1 about 2 miles away (Airway Heights, WA) that is not affected.
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org<mailto:outages-bounces at outages.org>] On Behalf Of Mauricio Lizano
+ Sent: Monday, January 17, 2011 10:30 AM
+ Subject: [outages] Fwd: OC 192 Outage in OR/WA
+ duh! Sorry. I have customer's on different carriers affected (Covad, Qwest), they are pointing the finger at the Sprint fiber being affected by floods.
+ Thanks,
+ ML
+ On Mon, Jan 17, 2011 at 8:31 AM, Jeremy Chadwick <outages at jdc.parodius.com<mailto:outages at jdc.parodius.com>> wrote:
+ You didn't mention which carrier/company...  :-)
+ --
+ | Jeremy Chadwick                                   jdc at parodius.com<mailto:jdc at parodius.com> |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP 4BD6C0CB |
+ On Mon, Jan 17, 2011 at 07:46:32AM -0600, Mauricio Lizano wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/a3c782d6/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ OC 192 Outage in OR/WA
+###############################################################
+  <20110117143157.GA85841@icarus.home.lan>
+  <AANLkTimdefQ1u9iHeb5XbbapuknOTBj0pForO9OjVDwY@mail.gmail.com>
+ duh! Sorry. I have customer's on different carriers affected (Covad, Qwest),
+ they are pointing the finger at the Sprint fiber being affected by floods.
+ Thanks,
+ ML
+ On Mon, Jan 17, 2011 at 8:31 AM, Jeremy Chadwick
+ <outages at jdc.parodius.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/108abd11/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Reliance Communications - Philadelphia
+###############################################################
+ We are having issues with our reliance ring connections outside of
+ Philafelphia. Reliance NOC has confirmed alarms in the area.
+ This issue seems to be impacting both sides of the ring from our perspective.
+ Reliance just gave us an update saying the issue was caused by a
+ broadcast storm. This issue impacted all Philadelphia area customers.
+ The issue has been resolved with a RCA under way.
+ On Monday, January 17, 2011, Chris Burwell <cburwell at gmail.com> wrote:
+ Sorry I'm not on the outages list but I can confirm this is a Reliance Issue
+ - they claimed it was a broadcast storm and assured me that it was over
+ (Philly only).  Master Ticket number is 104793.  I work for FCCC in NE
+ Philly and we lost all of our Yipes/RelGlob hosted EPL circuits.
+ -- 
+ Jonathan Gaynor
+ jon at gaynor.org
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110117/c8751a08/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Latency/errors on multiple DS3/OC near Syracuse, NY, Verizon LD/VZB
+###############################################################
+ All,
+ We're seeing excessive latency and errors into Syracuse, NY on
+ LD circuits on Verizon Business.
+ Anyone else seeing similar in the region?
+ -cjp
+ On Tue, Jan 18, 2011 at 11:04 AM, Christopher J. Pilkington <cjp at 0x1.net> wrote:
+ OC192 port at NGRNNY (North Greenbush, across river from Albany) went
+ to protect, explaining the latency, no explanation for errors (unless
+ maybe it was flapping), but we are back up on the working side, all
+ clear.
+ -cjp
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber Cut in Cincinnati, OH
+###############################################################
+ According to my sprint tech a "major" fiber was cut in Cincinnati.  No
+ ETA, as of yet.
+ Ian
+ -- 
+ Ian Wilson
+ ian.m.wilson at gmail.com
+ Solving site load issues with database replication is a lot like
+ solving your own personal problems with heroin -- at first, it sorta
+ works, but after a while things just get out of hand.
+ I usually route from here (west Ohio) to Cincinnati to Atlanta.  Going
+ through Chicago at this time.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Jan 19, 2011 at 4:40 PM, Ian Wilson <ian.m.wilson at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110119/9b460999/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Wireless experienced BIS outage sometime yesterday
+###############################################################
+ http://n4bb.com/3272/verizon-wireless-experiencing-bis-outage-should-be-fixe
+ d-soon
+ Didn't see it mentioned elsewhere, so mentioning it here.
+ Frank
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fw: Connectivity status for Egypt
+###############################################################
+ ----- Forwarded Message -----
+ From:Danny O'Brien <danny at spesh.com>
+ To:NANOG Operators' Group <nanog at nanog.org>
+ Cc:
+ Sent:Thursday, 27 January 2011, 23:47
+ Subject:Connectivity status for Egypt
+ Around 2236 UCT, we lost all Internet connectivity with our contacts in
+ Egypt, and I'm hearing reports of (in declining order of confirmability):
+ 1) Internet connectivity loss on major (broadband) ISPs
+ 2) No SMS
+ 4) Intermittent connectivity with smaller (dialup?) ISPs
+ 5) No mobile service in major cities -- Cairo, Alexandria
+ The working assumption here is that the Egyptian government has made the
+ decision to shut down all external, and perhaps internal electronic
+ communication as a reaction to the ongoing protests in that country.
+ If anyone can provide more details as to what they're seeing, the extent,
+ plus times and dates, it would be very useful. In moments like this there
+ are often many unconfirmed rumors: I'm seeking concrete reliable
+ confirmation which I can pass onto the press and those working to bring some
+ communications back up (if you have a ham radio license, there is some very
+ early work to provide emergency connectivity. Info at:
+ http://pastebin.com/fHHBqZ7Q )
+ Thank you,
+ -- 
+ dobrien at cpj.org
+ Danny O'Brien, Committee to Protect Journalists
+ gpg key: http://www.spesh.com/danny/crypto/dannyobrien-key20091106.txt
+ Some news coverage here:
+ http://www.3news.co.nz/Egypt-enforces-internet-access-block--reports/tabid/4
+ 17/articleID/196288/Default.aspx
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of andrew.wallace
+ Sent: Thursday, January 27, 2011 6:47 PM
+ Subject: [outages] Fw: Connectivity status for Egypt
+ ----- Forwarded Message -----
+ From:Danny O'Brien <danny at spesh.com>
+ To:NANOG Operators' Group <nanog at nanog.org>
+ Cc:
+ Sent:Thursday, 27 January 2011, 23:47
+ Subject:Connectivity status for Egypt
+ Around 2236 UCT, we lost all Internet connectivity with our contacts in
+ Egypt, and I'm hearing reports of (in declining order of confirmability):
+ 1) Internet connectivity loss on major (broadband) ISPs
+ 2) No SMS
+ 4) Intermittent connectivity with smaller (dialup?) ISPs
+ 5) No mobile service in major cities -- Cairo, Alexandria
+ The working assumption here is that the Egyptian government has made the
+ decision to shut down all external, and perhaps internal electronic
+ communication as a reaction to the ongoing protests in that country.
+ If anyone can provide more details as to what they're seeing, the extent,
+ plus times and dates, it would be very useful. In moments like this there
+ are often many unconfirmed rumors: I'm seeking concrete reliable
+ confirmation which I can pass onto the press and those working to bring some
+ communications back up (if you have a ham radio license, there is some very
+ early work to provide emergency connectivity. Info at:
+ http://pastebin.com/fHHBqZ7Q )
+ Thank you,
+ -- 
+ dobrien at cpj.org
+ Danny O'Brien, Committee to Protect Journalists
+ gpg key: http://www.spesh.com/danny/crypto/dannyobrien-key20091106.txt
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ http://www.renesys.com/blog/2011/01/egypt-leaves-the-internet.shtml
+ Franck Martin 
+ http://www.avonsys.com/ 
+ http://www.facebook.com/Avonsys 
+ twitter: FranckMartin Avonsys 
+ Check your domain reputation: http://gurl.im/b69d4o 
+ ----- Original Message -----
+ From: "Frank Bulk" <frnkblk at iname.com>
+ Sent: Friday, 28 January, 2011 3:20:42 PM
+ Subject: Re: [outages] Fw: Connectivity status for Egypt
+ Some news coverage here:
+ http://www.3news.co.nz/Egypt-enforces-internet-access-block--reports/tabid/4
+ 17/articleID/196288/Default.aspx
+ Frank
+###############################################################
+END
+###############################################################
+
+###############################################################
+Yahoo down
+###############################################################
+ We have some users in the Miami area that have been having issues 
+ connecting to www.yahoo.com and mail.yahoo.com. I have verified this 
+ over both Level3 and Globalcrossing. Anyone else seeing any issues?
+ I am in miami and looks good to me
+ Raman Sud
+ (Dir. Network Infrastructure)
+ -----Original Message-----
+ From: chk [mailinglists.chk at gmail.com]
+ Received: Monday, 31 Jan 2011, 4:30pm
+ Subject: [outages] Yahoo down
+ We have some users in the Miami area that have been having issues
+ connecting to www.yahoo.com<http://www.yahoo.com> and mail.yahoo.com. I have verified this
+ over both Level3 and Globalcrossing. Anyone else seeing any issues?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110131/271d63a3/attachment.html>
+ Working fine in RTP,NC via TWC and TWT.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of chk
+ Sent: Monday, January 31, 2011 4:28 PM
+ Subject: [outages] Yahoo down
+ We have some users in the Miami area that have been having issues 
+ connecting to www.yahoo.com and mail.yahoo.com. I have verified this 
+ over both Level3 and Globalcrossing. Anyone else seeing any issues?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Yes.  Over Cogent and Level 3 from the Northeast USA.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of chk
+ Sent: Monday, January 31, 2011 4:28 PM
+ Subject: [outages] Yahoo down
+ We have some users in the Miami area that have been having issues 
+ connecting to www.yahoo.com and mail.yahoo.com. I have verified this 
+ over both Level3 and Globalcrossing. Anyone else seeing any issues?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ NOTICE: The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited. If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies. Thank you.
+ yahoo works in Denver. 
+ -Michael
+ On Jan 31, 2011, at 2:27 PM, chk wrote:
+ On Mon, Jan 31, 2011 at 1:27 PM, chk <mailinglists.chk at gmail.com> wrote:
+ If you have specific info you can share, I'd be happy to dig
+ in and see if there's anything about them that can be identified
+ as problematic.
+ Thanks!
+ Matt
+  <AANLkTikWc8EWX9Ckt+Rq3sjZ7HwoRtAyS3F7zhu+4kRm@mail.gmail.com>
+ I'm getting a west coast VIP for www (out of MIA) but working great; with
+ remarkably low latency.
+ On Mon, Jan 31, 2011 at 2:14 PM, Matthew Petach <mpetach at netflight.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20110131/a85a4828/attachment.html>
+  <E10C7302D634FD49AB59FBB5C1CE196B189E852B00@ecimail.eci.corp>
+ I think this may be bigger than just yahoo.com and Cogent/Level3, as several carriers are reporting high latency according to:
+ http://www.internetpulse.net/
+ Regards,
+ Kirk Coviello
+ Digital West Networks, Inc
+ www.digitalwest.net
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tan, William
+ Sent: Monday, January 31, 2011 1:34 PM
+ Subject: Re: [outages] Yahoo down
+ Yes.  Over Cogent and Level 3 from the Northeast USA.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of chk
+ Sent: Monday, January 31, 2011 4:28 PM
+ Subject: [outages] Yahoo down
+ We have some users in the Miami area that have been having issues connecting to www.yahoo.com and mail.yahoo.com. I have verified this over both Level3 and Globalcrossing. Anyone else seeing any issues?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ NOTICE: The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited. If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies. Thank you.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <E10C7302D634FD49AB59FBB5C1CE196B189E852B00@ecimail.eci.corp>
+  <2B43424F66F03F4482C2CBB1E691656E05077510@exch-be.sbp1.ad.digitalwest.lan>
+ NTT has been showing high latency like that for at least a few days -- I
+ had someone notice that and ask about it last week. I think that NTT
+ latency is probably an unrelated issue to the 'Yahoo down' problem.
+    -Bill
+  <AANLkTikWc8EWX9Ckt+Rq3sjZ7HwoRtAyS3F7zhu+4kRm@mail.gmail.com>
+ I've heard rumors of a fibercut affecting at least XO in the Miami area.
+ I don't have better details, unfortunately.
+ However, that might be relevant.
+ Owen
+ On Jan 31, 2011, at 2:14 PM, Matthew Petach wrote:
+  <AANLkTikWc8EWX9Ckt+Rq3sjZ7HwoRtAyS3F7zhu+4kRm@mail.gmail.com>
+ Everything seems to be working now, but during the outage www.yahoo.com 
+ was loading very slowly and only displaying text and they were getting 
+ connection timeouts to items loaded on http://l.yimg.com. Traceroutes 
+ showed no packetloss.
+ On 1/31/11 2:14 PM, Matthew Petach wrote:
+  <E10C7302D634FD49AB59FBB5C1CE196B189E852B00@ecimail.eci.corp>
+  <2B43424F66F03F4482C2CBB1E691656E05077510@exch-be.sbp1.ad.digitalwest.lan>
+  <EE3A1AFB71A1E54BA3D302718EA382F939AD19@server1.WaveformTechnology.local>
+ D'oh.
+ Alright then, let me share some possibly useful information:
+ We have a 10GB lightwave from Qwest northbound to San Jose, and a 10GB lightwave from Level3 southbound to 1 Wilshire in LAX.  We peer with many IP networks in those locations.  Yahoo is working fine for us here in San Luis Obipso...  ;)
+ Regards,
+ Kirk Coviello
+ Digital West Networks, Inc
+ www.digitalwest.net
+###############################################################
+END
+###############################################################
+

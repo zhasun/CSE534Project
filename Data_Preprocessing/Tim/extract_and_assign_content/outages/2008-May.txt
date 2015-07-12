@@ -1,0 +1,1723 @@
+From virendra.rode  Thu May 22 23:20:25 2008
+From: virendra.rode (virendra rode //)
+Date: Thu, 22 May 2008 20:20:25 -0700
+Subject: [Outages] test - please ignore.
+Message-ID: <483637F9.1010802@gmail.com>
+
+
+
+From virendra.rode  Thu May 22 23:49:17 2008
+From: virendra.rode (virendra rode //)
+Date: Thu, 22 May 2008 20:49:17 -0700
+Subject: [Outages] outages mailing test.
+Message-ID: <48363EBD.8020009@gmail.com>
+
+
+
+From virendra.rode  Thu May 22 23:57:35 2008
+From: virendra.rode (virendra rode //)
+Date: Thu, 22 May 2008 20:57:35 -0700
+Subject: [Outages] outages mailing test.
+In-Reply-To: <695277448C537A469D28FF68D0938C836E58D971B8@EXMBX04.exchhosting.com>
+References: <48363EBD.8020009@gmail.com>
+	<695277448C537A469D28FF68D0938C836E58D971B8@EXMBX04.exchhosting.com>
+Message-ID: <483640AF.9000606@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Joseph Jackson wrote:
+> What are you testing?
+- -------------------------
+just mail the delivery to mailman in general.
+
+
+regards,
+/virendra
+
+> 
+> -----Original Message-----
+> From: outages-bounces at isotf.org [mailto:outages-bounces at isotf.org] On Behalf Of virendra rode //
+> Sent: Thursday, May 22, 2008 10:49 PM
+> To: 'outages at isotf.org'
+> Subject: [Outages] outages mailing test.
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFINkCvpbZvCIJx1bcRArtXAJ9atXv7tBobbCnisOiVdiMFRhxLqQCgqi45
+noD61mxW34OYcU92hKX/Msw=
+=Q9pe
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri May 23 00:14:08 2008
+From: virendra.rode (virendra rode //)
+Date: Thu, 22 May 2008 21:14:08 -0700
+Subject: [Outages] qwest los angeles?
+Message-ID: <48364490.9000305@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Showing very high (>180ms)  latency.
+
+
+Does anyone have any insight?
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFINkSQpbZvCIJx1bcRAnd+AKDw/Mo87D020OuNPsaGUBuACiYVrgCfZ1b1
+waTYUcw8zizjwNqNPfn57sk=
+=OKlQ
+-----END PGP SIGNATURE-----
+
+
+From yahoo  Fri May 23 00:28:24 2008
+From: yahoo (Jim Popovitch)
+Date: Fri, 23 May 2008 00:28:24 -0400
+Subject: [Outages] qwest los angeles?
+In-Reply-To: <48364490.9000305@gmail.com>
+References: <48364490.9000305@gmail.com>
+Message-ID: <7ff145960805222128g64006520j178ec4458c597caa@mail.gmail.com>
+
+On Fri, May 23, 2008 at 12:14 AM, virendra rode //
+<virendra.rode at gmail.com> wrote:
+> Does anyone have any insight?
+
+Perhaps it's all those test emails?  :-P
+
+-Jim P.  (apologies, couldn't resist)
+
+
+From virendra.rode  Fri May 23 08:48:14 2008
+From: virendra.rode (virendra rode //)
+Date: Fri, 23 May 2008 05:48:14 -0700
+Subject: [Outages] qwest los angeles?
+In-Reply-To: <7ff145960805222128g64006520j178ec4458c597caa@mail.gmail.com>
+References: <48364490.9000305@gmail.com>
+	<7ff145960805222128g64006520j178ec4458c597caa@mail.gmail.com>
+Message-ID: <4836BD0E.1070402@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jim Popovitch wrote:
+> On Fri, May 23, 2008 at 12:14 AM, virendra rode //
+> <virendra.rode at gmail.com> wrote:
+>> Does anyone have any insight?
+> 
+> Perhaps it's all those test emails?  :-P
+> 
+> -Jim P.  (apologies, couldn't resist)
+> _______________________________________________
+
+i noticed it last night between quest / level3.....
+
+11  qwest-level3-te.LosAngeles1.Level3.net (4.68.63.66)  230.251 ms
+250.894 ms  45.161 ms
+12  los-core-01.inet.qwest.net (205.171.32.65)  26.778 ms  20.384 ms
+15.176 ms
+13  * * *
+
+its now back to normal.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFINr0OpbZvCIJx1bcRAtsGAJ9VLDboojZia86fuFV7GYzCY95V4ACaA5oY
+70QWvQd5r5ZlBqAeO9keJ2w=
+=FUn9
+-----END PGP SIGNATURE-----
+
+
+From Michael.Washington  Fri May 23 13:50:19 2008
+From: Michael.Washington (Michael.Washington at fitchratings.com)
+Date: Fri, 23 May 2008 12:50:19 -0500
+Subject: [Outages] Level-3 in state of Wyoming....
+Message-ID: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+
+
+Anyone hearing of statewide outage with Level-3 or other providers and
+source of problem?
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+
+From bpfankuch  Fri May 23 13:57:53 2008
+From: bpfankuch (Blake Pfankuch)
+Date: Fri, 23 May 2008 11:57:53 -0600
+Subject: [Outages] Level-3 in state of Wyoming....
+In-Reply-To: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+References: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D73C8CA67047@CPExchange1.cpgreeley.com>
+
+Given the recent weather there are lots of outages in northern Colorado and southern Wyoming.  Viawest has some regional issues, and I have heard of qwest issues.  Laramie was hit by some tornadoes yesterday so....
+
+-----Original Message-----
+From: Michael.Washington at fitchratings.com [mailto:Michael.Washington at fitchratings.com]
+Sent: Friday, May 23, 2008 11:50 AM
+To: outages at isotf.org
+Subject: [Outages] Level-3 in state of Wyoming....
+
+
+Anyone hearing of statewide outage with Level-3 or other providers and
+source of problem?
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From virendra.rode  Fri May 23 14:19:01 2008
+From: virendra.rode (virendra rode //)
+Date: Fri, 23 May 2008 11:19:01 -0700
+Subject: [Outages] Level-3 in state of Wyoming....
+In-Reply-To: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+References: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+Message-ID: <48370A95.2070208@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Michael.Washington at fitchratings.com wrote:
+> Anyone hearing of statewide outage with Level-3 or other providers and
+> source of problem?
+- ----------------------------
+Weather related that hit denver, co , I hear level3 are working with
+electric company regarding cable cut issue.
+
+I hear that level3 NY had some issues with their oc circuit. Not sure
+what the status is?
+
+Anyone else have any further insight?
+
+
+regards,
+/virendra
+
+
+
+
+> 
+> 
+> ______________________________________________________________________
+> Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+> 
+> This email has been scanned by the MessageLabs Email Security System.
+> For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFINwqVpbZvCIJx1bcRAgKQAJ0W2HW1KCKgbK3yH4s9j1vsh90HdACguHCS
+SWT1B9EglprL61QqghDotzs=
+=OMUV
+-----END PGP SIGNATURE-----
+
+
+From kwallace  Fri May 23 14:34:50 2008
+From: kwallace (Wallace Keith)
+Date: Fri, 23 May 2008 14:34:50 -0400
+Subject: [Outages] Level-3 in state of Wyoming....
+In-Reply-To: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+References: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1023C3F9E@MKA134.pcc.int>
+
+There is a story on an apparently non storm related outage, here:
+
+http://www.trib.com/articles/2008/05/23/news/breaking/doc4836db0c4900b03
+9779220.txt
+
+
+-----Original Message-----
+From: Michael.Washington at fitchratings.com
+[mailto:Michael.Washington at fitchratings.com] 
+Sent: Friday, May 23, 2008 1:50 PM
+To: outages at isotf.org
+Subject: [Outages] Level-3 in state of Wyoming....
+
+
+Anyone hearing of statewide outage with Level-3 or other providers and
+source of problem?
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any
+attachment(s) is confidential and for the use of the addressee(s) only.
+If you have received this e-mail in error, please delete this e-mail.
+Unauthorized use, reliance, disclosure or copying of the contents of
+this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email
+______________________________________________________________________
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From amon  Fri May 23 14:49:03 2008
+From: amon (Dale Amon)
+Date: Fri, 23 May 2008 14:49:03 -0400
+Subject: [Outages] Level-3 in state of Wyoming....
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D73C8CA67047@CPExchange1.cpgreeley.com>
+References: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+	<01759D50DC387C45A018FE1817CE27D73C8CA67047@CPExchange1.cpgreeley.com>
+Message-ID: <20080523184903.GD7125@vnl.com>
+
+On Fri, May 23, 2008 at 11:57:53AM -0600, Blake Pfankuch wrote:
+> Given the recent weather there are lots of outages in northern Colorado and southern Wyoming.  Viawest has some regional issues, and I have heard of qwest issues.  Laramie was hit by some tornadoes yesterday so....
+
+I have a server in Laramie and it was only unreachable for
+a couple hours yesterday.
+
+
+
+From tpugh  Fri May 23 15:07:35 2008
+From: tpugh (Travis Pugh)
+Date: Fri, 23 May 2008 12:07:35 -0700
+Subject: [Outages] Level-3 in state of Wyoming....
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB1023C3F9E@MKA134.pcc.int>
+References: <OF323DDD14.C15309B1-ON86257452.0061DF07-86257452.0061F7A8@fitchratings.com>
+	<0E8773C725A1674E9F7B35EABB5EEEB1023C3F9E@MKA134.pcc.int>
+Message-ID: <0FCF1DAC85A3A5489C2D5183E2C4B2E3F9E6C398@mbx01.citservers.local>
+
+Qwest was reporting flood-related cable damage, with several OC48s out of service affecting Colorado, Utah, and Wyoming.  Rerouting and splicing are underway, last I heard.  I haven't seen any Level3 outage reports.
+
+> -----Original Message-----
+> From: Wallace Keith [mailto:kwallace at pcconnection.com]
+> Sent: Friday, May 23, 2008 12:35 PM
+> To: outages at isotf.org
+> Subject: Re: [Outages] Level-3 in state of Wyoming....
+>
+> There is a story on an apparently non storm related outage, here:
+>
+> http://www.trib.com/articles/2008/05/23/news/breaking/doc4836db0c
+> 4900b03
+> 9779220.txt
+
+
+
+From virendra.rode  Fri May 23 17:09:43 2008
+From: virendra.rode (virendra rode //)
+Date: Fri, 23 May 2008 14:09:43 -0700
+Subject: [Outages] outages mailing list is back online!
+Message-ID: <48373297.8070403@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+[ Apologies to those of you who receive this note in multiple forums. ]
+
+Hello all,
+
+I wanted to drop a quick note to everyone and explain how/why things
+took so long and I deeply apologize for the service interruption.
+
+Apparently the machine hosting outages mailing list went belly
+up during the package upgrade (postfix/mailman/apache) in order to bring
+the system up to date. This was suppose to be a planned upgrade which
+unfortunately turned out to be sysadmin's nightmare. During the headless
+chicken syndrome it led into further issues and from there on murphy
+took over that led to a prolonged outage.
+
+We are working towards a cluster setup (active-active cluster) where we
+will be able to pull the host out of operation without affecting the
+service in the future. Something we are also looking into is a separate
+instance in availability zones (multi-site) in order to protect
+applications/ host availability from failure of a single location.
+
+We deeply regret the delay this caused the mailing list to be off the air.
+
+Many thanks to Gadi Evron / Randy Vanghn / James Eastman / Larry Vaden /
+Joe St Sauver and other members of the team who work effortlessly to
+resurrect this list. Without there help and direction outages list
+wouldn't exist today. I'm indebted to them.
+
+
+Suggestions, comments are welcome.
+
+
+If interested, you can subscribe to the list at,
+http://isotf.org/mailman/listinfo/outages
+
+
+
+respectfully,
+/virendra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFINzKXpbZvCIJx1bcRAv0lAJ46sBa9/uZ/lbl54ehE7tgNZiySZgCghKsq
+AjuiEP7kwKGXSsJqDBBe08w=
+=1OV7
+-----END PGP SIGNATURE-----
+
+
+From mike.acosta  Tue May 27 16:30:27 2008
+From: mike.acosta (Michael Acosta)
+Date: Tue, 27 May 2008 13:30:27 -0700
+Subject: [Outages] Oregon/Washington Comcast outage
+In-Reply-To: <483C6D40.60907@visp.net>
+References: <483C6D40.60907@visp.net>
+Message-ID: <4d4f439c0805271330o12cfcb48x9dbf0b3884a764e2@mail.gmail.com>
+
+As a Comcast customer in the NW, I see the same thing outbound.
+Traceroute to some sites die in glbx, and other sites work via other
+transit providers.
+
+On Tue, May 27, 2008 at 1:21 PM, Kameron Gasso <kgasso-lists at visp.net> wrote:
+> Looks like I can't reach several of Comcast's fiber/coax customers in Oregon
+> and Washington:
+>
+> grps-edge-rtr-1#trace 75.145.64.XXX
+>
+> Type escape sequence to abort.
+> Tracing the route to 75-145-64-XXX-Oregon.hfc.comcastbusiness.net
+> (75.145.64.XXX)
+>
+>  1 fa-6-0.grps-edge-rtr-2.visp.net (208.74.128.9) 0 msec 4 msec 0 msec
+>  2 c1-mdfd-s40-visp.mind.net (69.9.134.65) [AS 6296] 0 msec 4 msec 0 msec
+>  3 so-2-1-0.ar2.SEA1.gblx.net (64.212.109.181) [AS 3549] 12 msec 12 msec 12
+> msec
+>  4 pos10-0-2488M.cr1.SEA1.gblx.net (67.17.71.182) [AS 3549] !H  *  !H
+>
+> Our NOC has had several calls from folks using Comcast who weren't able to
+> reach us, and we then confirmed that they had no network connectivity
+> whatsoever...
+>
+> --
+> Kameron Gasso | Senior Systems Administrator | visp.net
+> Direct: 541-955-6903 | Fax: 541-471-0821
+>
+>
+
+
+
+-- 
+Michael Acosta
+
+
+From kgasso-lists  Tue May 27 16:21:20 2008
+From: kgasso-lists (Kameron Gasso)
+Date: Tue, 27 May 2008 13:21:20 -0700
+Subject: [Outages] Oregon/Washington Comcast outage
+Message-ID: <483C6D40.60907@visp.net>
+
+Looks like I can't reach several of Comcast's fiber/coax customers in 
+Oregon and Washington:
+
+grps-edge-rtr-1#trace 75.145.64.XXX
+
+Type escape sequence to abort.
+Tracing the route to 75-145-64-XXX-Oregon.hfc.comcastbusiness.net 
+(75.145.64.XXX)
+
+   1 fa-6-0.grps-edge-rtr-2.visp.net (208.74.128.9) 0 msec 4 msec 0 msec
+   2 c1-mdfd-s40-visp.mind.net (69.9.134.65) [AS 6296] 0 msec 4 msec 0 msec
+   3 so-2-1-0.ar2.SEA1.gblx.net (64.212.109.181) [AS 3549] 12 msec 12 
+msec 12 msec
+   4 pos10-0-2488M.cr1.SEA1.gblx.net (67.17.71.182) [AS 3549] !H  *  !H
+
+Our NOC has had several calls from folks using Comcast who weren't able 
+to reach us, and we then confirmed that they had no network connectivity 
+whatsoever...
+
+-- 
+Kameron Gasso | Senior Systems Administrator | visp.net
+Direct: 541-955-6903 | Fax: 541-471-0821
+
+
+From kgasso-lists  Tue May 27 18:56:13 2008
+From: kgasso-lists (Kameron Gasso)
+Date: Tue, 27 May 2008 15:56:13 -0700
+Subject: [Outages] Oregon/Washington Comcast outage
+In-Reply-To: <4d4f439c0805271330o12cfcb48x9dbf0b3884a764e2@mail.gmail.com>
+References: <483C6D40.60907@visp.net>
+	<4d4f439c0805271330o12cfcb48x9dbf0b3884a764e2@mail.gmail.com>
+Message-ID: <483C918D.3020507@visp.net>
+
+Michael Acosta wrote:
+> As a Comcast customer in the NW, I see the same thing outbound.
+> Traceroute to some sites die in glbx, and other sites work via other
+> transit providers.
+
+Looks like whatever the SNAFU between Comcast and GLBX was, it's been 
+resolved for some time now... :)
+
+Cheers,
+-- 
+Kameron Gasso | Senior Systems Administrator | visp.net
+Direct: 541-955-6903 | Fax: 541-471-0821
+
+
+
+> On Tue, May 27, 2008 at 1:21 PM, Kameron Gasso <kgasso-lists at visp.net> wrote:
+>> Looks like I can't reach several of Comcast's fiber/coax customers in Oregon
+>> and Washington:
+>>
+>> grps-edge-rtr-1#trace 75.145.64.XXX
+>>
+>> Type escape sequence to abort.
+>> Tracing the route to 75-145-64-XXX-Oregon.hfc.comcastbusiness.net
+>> (75.145.64.XXX)
+>>
+>>  1 fa-6-0.grps-edge-rtr-2.visp.net (208.74.128.9) 0 msec 4 msec 0 msec
+>>  2 c1-mdfd-s40-visp.mind.net (69.9.134.65) [AS 6296] 0 msec 4 msec 0 msec
+>>  3 so-2-1-0.ar2.SEA1.gblx.net (64.212.109.181) [AS 3549] 12 msec 12 msec 12
+>> msec
+>>  4 pos10-0-2488M.cr1.SEA1.gblx.net (67.17.71.182) [AS 3549] !H  *  !H
+>>
+>> Our NOC has had several calls from folks using Comcast who weren't able to
+>> reach us, and we then confirmed that they had no network connectivity
+>> whatsoever...
+>>
+>> --
+>> Kameron Gasso | Senior Systems Administrator | visp.net
+>> Direct: 541-955-6903 | Fax: 541-471-0821
+>>
+>>
+> 
+> 
+> 
+
+
+
+From ml  Wed May 28 22:23:31 2008
+From: ml (Tuc at T-B-O-H)
+Date: Wed, 28 May 2008 22:23:31 -0400 (EDT)
+Subject: [Outages] Network meltdowns anywhere in US?
+In-Reply-To: <889fd8b20805281815r600522cdrcc233f057f9f69e3@mail.gmail.com>
+	from "virendra rode" at May 28, 2008 06:15:43 PM
+Message-ID: <200805290223.m4T2NWl0056135@vjofn.tucs-beachin-obx-house.com>
+
+> On Wed, May 28, 2008 at 4:05 PM, Tuc at T-B-O-H.NET <ml at t-b-o-h.net> wrote:
+> 
+> > Hi,
+> >
+> >        Sorry, would have posted this elsewhere, but I can't get
+> > to alot of places...
+> >
+> >        I originally started chasing not being able to get to
+> > 71.74.56.243 (RR Mail server). I then found out neither L3 nor
+> > my other connection saw it in the table. I checked a few other
+> > router servers, some had it, some didn't.
+> >
+> >        Now, though, I'm trying to get a few other places and
+> > most of them oddly seem to hang off L3.... (Like the outages
+> > list. :) )
+> >
+> >        Any ideas of there is some meltdown happening
+> > in L3 or elsewhere?
+> >
+> >                Thanks, Tuc
+> >
+> > --------------------------------
+> >From a cursory glance seems to be ok from where I'm currently looking from
+> (at&t), then again I haven't done my technical diligence. Will need to look
+> further and I'm sure someone will pipe up.
+> 
+> Do you have any traceroutes, route stats, etc to give us as to what you are
+> experiencing?
+> 
+
+	A bit more "clue"... :)
+
+	1) If its been discussed before, I was out that day... But it seems
+that CERF NET route-server isn't quite authoritative:
+
+route-server>sho ip bgp 204.107.90.128
+% Network not in table
+
+route-server>sho ip bgp
+
+route-server>
+
+
+	2) The other route-server it wasn't showing up in is my "backup"
+provider. I'm trying to get clarification, but I think my backup provider
+relies too heavily on my primary provider. So yea, it would make sense, if
+Level3 had an issue, that the provider USING L3 would have an issue.
+
+	3) I've gotten zip from L3 about any of this.
+
+
+
+	Can anyone atleast, once again, despite a certain list members
+contentions, tell me I'm not crazy. That someone else SOMEWHERE saw it?
+(Or more DIDN'T see RR. :) )
+
+		Thanks, Tuc
+
+
+From ml  Wed May 28 21:24:28 2008
+From: ml (Tuc at T-B-O-H.NET)
+Date: Wed, 28 May 2008 21:24:28 -0400 (EDT)
+Subject: [Outages] Network meltdowns anywhere in US?
+In-Reply-To: <889fd8b20805281815r600522cdrcc233f057f9f69e3@mail.gmail.com>
+Message-ID: <200805290124.m4T1OSAR094050@himinbjorg.tucs-beachin-obx-house.com>
+
+> On Wed, May 28, 2008 at 4:05 PM, Tuc at T-B-O-H.NET <ml at t-b-o-h.net> wrote:
+> 
+> > Hi,
+> >
+> >        Sorry, would have posted this elsewhere, but I can't get
+> > to alot of places...
+> >
+> >        I originally started chasing not being able to get to
+> > 71.74.56.243 (RR Mail server). I then found out neither L3 nor
+> > my other connection saw it in the table. I checked a few other
+> > router servers, some had it, some didn't.
+> >
+> >        Now, though, I'm trying to get a few other places and
+> > most of them oddly seem to hang off L3.... (Like the outages
+> > list. :) )
+> >
+> >        Any ideas of there is some meltdown happening
+> > in L3 or elsewhere?
+> >
+> >                Thanks, Tuc
+> >
+> > --------------------------------
+> >From a cursory glance seems to be ok from where I'm currently looking from
+> (at&t), then again I haven't done my technical diligence. Will need to look
+> further and I'm sure someone will pipe up.
+> 
+> Do you have any traceroutes, route stats, etc to give us as to what you are
+> experiencing?
+> 
+	No, no traceroutes since when I'd query BGP, it just said that the network
+didn't exist in the table like :
+
+***route-server***>sho ip bgp 71.74.56.243
+% Network not in table
+***route-server***>sho ip route 71.74.56.243
+% Subnet not in table
+
+
+	(Only output I captured... But I know that Cerfnet did this too.)
+
+		Tuc
+
+
+From ml  Wed May 28 18:44:54 2008
+From: ml (Tuc at T-B-O-H.NET)
+Date: Wed, 28 May 2008 18:44:54 -0400 (EDT)
+Subject: [Outages] RR spotty connectivity?
+Message-ID: <200805282244.m4SMisNf091560@himinbjorg.tucs-beachin-obx-house.com>
+
+Hi,
+
+	Is anyone else seeing issues with RR, especially via L3? I 
+can't see from my L3 or GNAPS connections. Via another server I
+have access to, it does see it via Telia, Abovenet, then RR.
+
+		Thanks, Tuc
+
+
+From virendra.rode  Wed May 28 21:15:43 2008
+From: virendra.rode (virendra rode)
+Date: Wed, 28 May 2008 18:15:43 -0700
+Subject: [Outages] Network meltdowns anywhere in US?
+In-Reply-To: <200805282305.m4SN5gdT091976@himinbjorg.tucs-beachin-obx-house.com>
+References: <200805282305.m4SN5gdT091976@himinbjorg.tucs-beachin-obx-house.com>
+Message-ID: <889fd8b20805281815r600522cdrcc233f057f9f69e3@mail.gmail.com>
+
+On Wed, May 28, 2008 at 4:05 PM, Tuc at T-B-O-H.NET <ml at t-b-o-h.net> wrote:
+
+> Hi,
+>
+>        Sorry, would have posted this elsewhere, but I can't get
+> to alot of places...
+>
+>        I originally started chasing not being able to get to
+> 71.74.56.243 (RR Mail server). I then found out neither L3 nor
+> my other connection saw it in the table. I checked a few other
+> router servers, some had it, some didn't.
+>
+>        Now, though, I'm trying to get a few other places and
+> most of them oddly seem to hang off L3.... (Like the outages
+> list. :) )
+>
+>        Any ideas of there is some meltdown happening
+> in L3 or elsewhere?
+>
+>                Thanks, Tuc
+>
+> --------------------------------
+>From a cursory glance seems to be ok from where I'm currently looking from
+(at&t), then again I haven't done my technical diligence. Will need to look
+further and I'm sure someone will pipe up.
+
+Do you have any traceroutes, route stats, etc to give us as to what you are
+experiencing?
+
+
+
+regards,
+/virendra
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://isotf.org/pipermail/outages/attachments/20080528/8fd05a40/attachment.html>
+
+
+From shaun  Wed May 28 23:50:18 2008
+From: shaun (Shaun)
+Date: Wed, 28 May 2008 22:50:18 -0500
+Subject: [Outages] Network meltdowns anywhere in US?
+In-Reply-To: <200805290124.m4T1OSAR094050@himinbjorg.tucs-beachin-obx-house.com>
+References: <889fd8b20805281815r600522cdrcc233f057f9f69e3@mail.gmail.com>
+	<200805290124.m4T1OSAR094050@himinbjorg.tucs-beachin-obx-house.com>
+Message-ID: <20080528223604.43BD.SHAUN@shaunc.com>
+
+On Wed, May 28, 2008 at 4:05 PM, Tuc at T-B-O-H.NET <ml at t-b-o-h.net> wrote:
+
+> Hi,
+>
+>        Sorry, would have posted this elsewhere, but I can't get
+> to alot of places...
+>
+>        I originally started chasing not being able to get to
+> 71.74.56.243 (RR Mail server). I then found out neither L3 nor
+> my other connection saw it in the table. I checked a few other
+> router servers, some had it, some didn't.
+>
+>        Now, though, I'm trying to get a few other places and
+> most of them oddly seem to hang off L3.... (Like the outages
+> list. :) )
+>
+>        Any ideas of there is some meltdown happening
+> in L3 or elsewhere?
+
+Looks like Level3 has trouble in Atlanta.
+
+I'm in Memphis, with servers in Atlanta and Dallas. I'm currently seeing
+transit from my residential connection to Atlanta through PCCW instead
+of L3. Never would have noticed had I not seen your post, but PCCW is
+not my normal route.
+
+
+From virendra.rode  Thu May 29 00:18:12 2008
+From: virendra.rode (virendra rode //)
+Date: Wed, 28 May 2008 21:18:12 -0700
+Subject: [Outages] Network meltdowns anywhere in US?
+In-Reply-To: <200805290223.m4T2NWl0056135@vjofn.tucs-beachin-obx-house.com>
+References: <200805290223.m4T2NWl0056135@vjofn.tucs-beachin-obx-house.com>
+Message-ID: <483E2E84.1020300@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Tuc at T-B-O-H wrote:
+>> On Wed, May 28, 2008 at 4:05 PM, Tuc at T-B-O-H.NET <ml at t-b-o-h.net> wrote:
+>>
+>>> Hi,
+>>>
+>>>        Sorry, would have posted this elsewhere, but I can't get
+>>> to alot of places...
+>>>
+>>>        I originally started chasing not being able to get to
+>>> 71.74.56.243 (RR Mail server). I then found out neither L3 nor
+>>> my other connection saw it in the table. I checked a few other
+>>> router servers, some had it, some didn't.
+>>>
+>>>        Now, though, I'm trying to get a few other places and
+>>> most of them oddly seem to hang off L3.... (Like the outages
+>>> list. :) )
+>>>
+>>>        Any ideas of there is some meltdown happening
+>>> in L3 or elsewhere?
+>>>
+>>>                Thanks, Tuc
+>>>
+>>> --------------------------------
+>> >From a cursory glance seems to be ok from where I'm currently looking from
+>> (at&t), then again I haven't done my technical diligence. Will need to look
+>> further and I'm sure someone will pipe up.
+>>
+>> Do you have any traceroutes, route stats, etc to give us as to what you are
+>> experiencing?
+>>
+> 
+> 	A bit more "clue"... :)
+> 
+> 	1) If its been discussed before, I was out that day... But it seems
+> that CERF NET route-server isn't quite authoritative:
+> 
+> route-server>sho ip bgp 204.107.90.128
+> % Network not in table
+> 
+> route-server>sho ip bgp
+> 
+> route-server>
+- ---------------------------------
+you could also try,
+
+route-views.oregon-ix.net>sho ip bgp 204.107.90.128
+BGP routing table entry for 204.107.90.0/24, version 201333
+Paths: (35 available, best #32, table Default-IP-Routing-Table)
+  Not advertised to any peer
+  3303 3356 1784 35954
+    164.128.32.11 from 164.128.32.11 (164.128.32.11)
+      Origin IGP, localpref 100, valid, external
+      Community: 3303:5004
+  3277 3267 9002 1784 35954
+    194.85.4.55 from 194.85.4.55 (194.85.4.16)
+      Origin IGP, localpref 100, valid, external
+      Community: 3277:3267 3277:65100 3277:65320 3277:65326
+  812 6461 3356 7911 35954
+    64.71.255.61 from 64.71.255.61 (64.71.255.61)
+      Origin IGP, localpref 100, valid, external
+  293 3356 7911 35954
+    134.55.200.1 from 134.55.200.1 (134.55.200.1)
+      Origin IGP, localpref 100, valid, external
+      Community: 293:14 293:41
+  2905 701 3356 1784 35954
+    196.7.106.245 from 196.7.106.245 (196.7.106.245)
+      Origin IGP, metric 0, localpref 100, valid, external
+  4513 13789 22212 1784 35954
+    209.10.12.125 from 209.10.12.125 (209.10.12.125)
+      Origin IGP, metric 4103, localpref 100, valid, external
+  4513 12182 3356 7911 35954
+    209.10.12.156 from 209.10.12.156 (209.10.12.156)
+      Origin IGP, metric 7002, localpref 100, valid, external
+  2497 1784 35954
+    202.232.0.2 from 202.232.0.2 (202.232.0.2)
+      Origin IGP, localpref 100, valid, external
+  5511 3356 1784 35954
+    193.251.245.6 from 193.251.245.6 (193.251.245.6)
+      Origin IGP, localpref 100, valid, external
+  3257 3356 7911 35954
+    89.149.178.10 from 89.149.178.10 (213.200.87.40)
+      Origin IGP, metric 10, localpref 100, valid, external
+      Community: 3257:3150 3257:3152 3257:5010
+  6079 1784 35954
+    207.172.6.162 from 207.172.6.162 (207.172.6.162)
+      Origin IGP, metric 6, localpref 100, valid, external
+  6539 1784 35954
+    66.59.190.221 from 66.59.190.221 (66.59.190.221)
+      Origin IGP, localpref 100, valid, external
+  6453 3356 1784 35954
+    195.219.96.239 from 195.219.96.239 (195.219.96.239)
+      Origin IGP, localpref 100, valid, external
+  1221 4637 3356 7911 35954
+    203.62.252.186 from 203.62.252.186 (203.62.252.186)
+      Origin IGP, localpref 100, valid, external
+  7500 2516 1784 35954
+    202.249.2.86 from 202.249.2.86 (203.178.133.115)
+      Origin IGP, localpref 100, valid, external
+  7660 2516 1784 35954
+    203.181.248.168 from 203.181.248.168 (203.181.248.168)
+      Origin IGP, localpref 100, valid, external
+      Community: 2516:1030
+  2914 3356 7911 35954
+    129.250.0.171 from 129.250.0.171 (129.250.0.12)
+      Origin IGP, metric 1, localpref 100, valid, external
+      Community: 2914:420 2914:2000 2914:3000 65504:3356
+  6079 1784 35954
+    207.172.6.20 from 207.172.6.20 (207.172.6.20)
+      Origin IGP, metric 0, localpref 100, valid, external
+  701 3356 7911 35954
+    157.130.10.233 from 157.130.10.233 (137.39.3.60)
+      Origin IGP, localpref 100, valid, external
+  1668 3356 7911 35954
+    66.185.128.48 from 66.185.128.48 (66.185.128.48)
+      Origin IGP, metric 504, localpref 100, valid, external
+  3549 3356 7911 35954
+    208.51.134.254 from 208.51.134.254 (67.17.81.162)
+      Origin IGP, metric 53, localpref 100, valid, external
+      Community: 3549:2142 3549:30840
+  852 1239 3356 7911 35954
+    154.11.11.113 from 154.11.11.113 (154.11.11.113)
+      Origin IGP, metric 0, localpref 100, valid, external
+      Community: 852:180
+  3333 3356 1784 35954
+    193.0.0.56 from 193.0.0.56 (193.0.0.56)
+      Origin IGP, localpref 100, valid, external
+  3356 7911 35954
+    4.68.1.166 from 4.68.1.166 (4.68.1.166)
+      Origin IGP, metric 0, localpref 100, valid, external
+      Community: 3356:3 3356:22 3356:100 3356:123 3356:575 3356:2008
+7911:777 7911:7707 35954:5000
+  852 1239 3356 7911 35954
+    154.11.98.225 from 154.11.98.225 (154.11.98.225)
+      Origin IGP, metric 0, localpref 100, valid, external
+      Community: 852:180
+  7018 3356 1784 35954
+    12.0.1.63 from 12.0.1.63 (12.0.1.63)
+      Origin IGP, localpref 100, valid, external
+      Community: 7018:5000
+  3561 3356 7911 35954
+    206.24.210.100 from 206.24.210.100 (206.24.210.100)
+      Origin IGP, localpref 100, valid, external
+  6453 3356 7911 35954
+    207.45.223.244 from 207.45.223.244 (207.45.196.93)
+      Origin IGP, localpref 100, valid, external
+  12956 3356 7911 35954
+    213.140.32.146 from 213.140.32.146 (213.140.32.146)
+      Origin IGP, localpref 100, valid, external
+      Community: 3356:3 3356:22 3356:100 3356:123 3356:575 3356:2008
+7911:777 7911:7707 12956:321 12956:4003 12956:4030 12956:4303
+12956:18300 12956:26570 12956:26571 35954:5000
+  1239 3356 7911 35954
+    144.228.241.81 from 144.228.241.81 (144.228.241.81)
+      Origin IGP, metric 4294967294, localpref 100, valid, external
+      Community: 1239:321 1239:1000 1239:1011
+  2828 3356 7911 35954
+    65.106.7.139 from 65.106.7.139 (66.239.189.139)
+      Origin IGP, metric 3, localpref 100, valid, external
+  8075 1784 35954
+    207.46.32.34 from 207.46.32.34 (207.46.32.34)
+      Origin IGP, localpref 100, valid, external, best
+  6939 1784 35954
+    216.218.252.164 from 216.218.252.164 (216.218.252.164)
+      Origin IGP, localpref 100, valid, external
+  6461 3356 7911 35954
+    64.125.0.137 from 64.125.0.137 (64.125.0.137)
+      Origin IGP, metric 124, localpref 100, valid, external
+      Community: 6461:5997
+  2914 3356 7911 35954
+    129.250.0.11 from 129.250.0.11 (129.250.0.51)
+      Origin IGP, metric 4, localpref 100, valid, external
+      Community: 2914:420 2914:2000 2914:3000 65504:3356
+
+
+> 
+> 
+> 	2) The other route-server it wasn't showing up in is my "backup"
+> provider. I'm trying to get clarification, but I think my backup provider
+> relies too heavily on my primary provider. So yea, it would make sense, if
+> Level3 had an issue, that the provider USING L3 would have an issue.
+> 
+> 	3) I've gotten zip from L3 about any of this.
+- -------------------
+I will try and look deeper into this and get back with you tomorrow.
+
+
+> 
+> 
+> 
+> 	Can anyone atleast, once again, despite a certain list members
+> contentions, tell me I'm not crazy. That someone else SOMEWHERE saw it?
+> (Or more DIDN'T see RR. :) )
+- -----------------------
+
+Level 3 (Cleveland, OH) BGP routes for 204.107.90.128
+
+BGP routing table entry for 204.107.90.0/24
+Paths: (2 available, best #1)
+  7911 35954
+  AS-path translation: { WCG TBOH-SwitchData }
+    car4.Washington1 (metric 50748)
+      Origin IGP, metric 0, localpref 100, valid, internal, best
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+Washington_DC 7911:777 7911:7707 35954:5000
+      Originator: car4.Washington1
+  7911 35954
+  AS-path translation: { WCG TBOH-SwitchData }
+    car4.Washington1 (metric 50748)
+      Origin IGP, metric 0, localpref 100, valid, internal
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+Washington_DC 7911:777 7911:7707 35954:5000
+      Originator: car4.Washington1
+
+
+
+regards,
+/virendra
+
+
+
+> 
+> 		Thanks, Tuc
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFIPi6EpbZvCIJx1bcRAqJ/AJ0c8vNHCnRbWAs6cX/GPa1tAuiocwCfXDx2
+U0se0Anjo5GfttXFOkC/6DI=
+=M5RR
+-----END PGP SIGNATURE-----
+
+
+From rsk  Thu May 29 14:49:50 2008
+From: rsk (Rich Kulawiec)
+Date: Thu, 29 May 2008 14:49:50 -0400
+Subject: [Outages] Possible comcast.net DNS botch?
+Message-ID: <20080529184950.GA6256@gsp.org>
+
+It appears to me that at the moment (2:45 PM EDT) that comcast.net is
+not resolving.  (I noticed this while checking a mail queue; oldest
+entry in that queue outbound for Comcast is from 1:40 AM today.)
+A very preliminary (and thus likely inaccurate) check of DNS suggests
+to me that perhaps the glue records are missing at Verisign; neither
+ns21.worldnic.com nor ns22.worldnic.com seems to know anything about
+comcast.net at the moment.
+
+I'd like to request that someone check my observations and reasoning
+on this (doubly so since I've been awake for quite some time and am thus
+particularly error-prone).
+
+---Rsk
+
+
+From ramans  Thu May 29 18:26:56 2008
+From: ramans (Raman Sud)
+Date: Thu, 29 May 2008 15:26:56 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#197416 -
+	Scheduled
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC207F34AB0B4B@EXCH07-MB.ccbill-hq.local>
+
+
+
+Raman Sud
+Director,
+Network Engineering and Operations
+
+
+CWIE Holding Company
+2353 West University Drive
+Tempe AZ 85281
+Fax: 480.682.3236
+http://www.cavecreek.net/
+
+PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+NOTICE: This message is intended only for the use of the individual or entity to which it is addressed. If the reader of this message is not the intended recipient, or the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this message is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the sender of this E-Mail or by telephone.
+
+________________________________
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com]
+Sent: Thursday, May 29, 2008 3:26 PM
+To: Networking; todd at bandcon.com; helpdesk at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#197416 - Scheduled
+
+Level (3) Communications - Network Change Control (NCC)
+
+***SCHEDULED MAINTENANCE ADVISEMENT***
+
+Level(3) Service Affecting Maintenance - GCR#197416 - Scheduled
+
+
+
+________________________________
+
+
+
+Clarify Case#: 2584868
+
+GCR #:  CHG000000197416
+
+Primary Dates: 19 Jun 2008 03:00:00 - 19 Jun 2008 04:00:00 Central
+
+Primary Dates GMT:  19 Jun 2008 08:00:00 - 19 Jun 2008 09:00:00
+
+Location of Maintenance: Dallas TX,
+
+Summary Description of Maintenance:  Upgrade - Code - Router
+
+
+
+Customer Impact:
+
+Service
+
+Expected Impact
+
+Classification
+
+Duration
+
+Additional Notes
+
+IP - Non-Redundant
+
+Outage
+
+SA
+
+Up to 5 minutes
+
+Level 3 to upgrade edge3.dal1 to debug code to troubleshoot errors on the router.
+
+
+
+
+CWIE, LLC - - Services Impacted:
+
+IP:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PIID
+
+Device Name
+
+Interface Name
+
+IP Address
+
+Classification
+
+
+
+
+
+
+
+BBDL1481
+
+edge3.dal1
+
+xe-7/1/0
+
+4.71.198.29
+
+SA
+
+
+
+
+
+
+
+BBDL1481
+
+edge3.dal1
+
+xe-7/1/0.0
+
+4.71.198.29
+
+SA
+
+
+
+
+
+
+
+
+________________________________
+
+If you have any questions or concerns about this network maintenance notification, please call or email the Service Management Center on the appropriate national toll-free/freephone number or email address below. Additionally, if you wish to modify your contact information for maintenance notification, please communicate those changes to a SMC representative.
+
+US Toll-Free: 877 4Level3
+
+UK: 80800 0927729
+
+Eire: 1 800441053
+
+France: 0800 913180
+
+Germany: 0800 2538353
+
+Belgium: 0800 76216
+
+Netherlands: 0800 0226108
+
+Italy: 0800 0226108
+
+Sweden: 0200 285 581
+
+Spain: 900 938 973
+
+Denmark: 80881479
+
+Estonia: 8000044139
+
+Austria: 0800291594
+
+Poland: 00800 441 2409
+
+Switzerland: 0800 564 151
+
+US International: 1 720 888 0025
+
+EU International: 44 20 7864 4599
+
+EU Support<mailto:usupport at level3.com> - (24x7) or
+
+Technical Support<mailto:technicalsupport at level3.com> - (24x7)
+
+
+
+Thank you for your cooperation,
+
+Level (3) Communications
+
+Customer Network Operations
+
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail communication and any attached documents may be privileged, confidential or otherwise protected from disclosure and is intended only for the use of the designated recipient(s). If the reader is neither the intended recipient nor an employee or agent thereof who is responsible for delivering it to the intended recipient, you are hereby notified that any review, dissemination, distribution, copying or other use of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by return e-mail and promptly delete the original electronic e-mail communication and any attached documentation. Receipt by anyone other than the intended recipient is not a waiver of any attorney-client or work-product privilege.
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://isotf.org/pipermail/outages/attachments/20080529/9f2b7739/attachment-0001.html>
+
+
+From cstone  Thu May 29 20:43:08 2008
+From: cstone (Chris Stone)
+Date: Thu, 29 May 2008 18:43:08 -0600
+Subject: [Outages] Possible comcast.net DNS botch?
+In-Reply-To: <20080529184950.GA6256@gsp.org>
+References: <20080529184950.GA6256@gsp.org>
+Message-ID: <483F4D9C.80401@axint.net>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Rich Kulawiec wrote:
+> It appears to me that at the moment (2:45 PM EDT) that comcast.net is
+> not resolving.  (I noticed this while checking a mail queue; oldest
+> entry in that queue outbound for Comcast is from 1:40 AM today.)
+> A very preliminary (and thus likely inaccurate) check of DNS suggests
+> to me that perhaps the glue records are missing at Verisign; neither
+> ns21.worldnic.com nor ns22.worldnic.com seems to know anything about
+> comcast.net at the moment.
+
+Domain was hijacked:
+
+http://www.theregister.co.uk/2008/05/29/comcast_domain_hijacked/
+
+
+
+- --
+Chris Stone, MCSE
+Vice President, CTO
+AxisInternet, Inc.
+http://www.axint.net
+DSL, dialup, hosting, email filtering, co-location, online backup
+Phone: +1 303 592 2947 x302 (office)  +1 303 570 6947 (cell)
+- -------------------------------------------------------------------------
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mandriva - http://enigmail.mozdev.org
+
+iEYEAREKAAYFAkg/TZgACgkQnSVip47FEdPNegCfZG6k0dr/q3ncFGI7OGqNnlNY
+WcMAnj++fke3TDmaducK7qT+di6x0c3K
+=fY3w
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Thu May 29 20:47:38 2008
+From: fergdawg (Paul Ferguson)
+Date: Fri, 30 May 2008 00:47:38 GMT
+Subject: [Outages] Possible comcast.net DNS botch?
+Message-ID: <20080529.174738.18635.0@webmail21.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -- Rich Kulawiec <rsk at gsp.org> wrote:
+
+>It appears to me that at the moment (2:45 PM EDT) that comcast.net is
+>not resolving.  (I noticed this while checking a mail queue; oldest
+>entry in that queue outbound for Comcast is from 1:40 AM today.)
+>A very preliminary (and thus likely inaccurate) check of DNS suggests
+>to me that perhaps the glue records are missing at Verisign; neither
+>ns21.worldnic.com nor ns22.worldnic.com seems to know anything about
+>comcast.net at the moment.
+>
+>I'd like to request that someone check my observations and reasoning
+>on this (doubly so since I've been awake for quite some time and am thus
+>particularly error-prone).
+>
+
+There may have been a "quick fix" of some kind, just to get
+comcast.net to resolve properly (caveat: I haven't checked).
+
+As an aside, a couple of teenagers are about to spanked over
+this little stunt:
+
+http://blog.wired.com/27bstroke6/2008/05/comcast-hijacke.html
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFIP06lq1pz9mNUZTMRAhePAKCGSJ+64idvRXEYZLX1aifRRZj2ZgCg+3CE
+Ho1vHlqGgKV6L0nsD6CnSXY=
+=cUgs
+-----END PGP SIGNATURE-----
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From AOsgood  Thu May 29 14:09:30 2008
+From: AOsgood (Aaron D. Osgood)
+Date: Thu, 29 May 2008 14:09:30 -0400
+Subject: [Outages] ATT SMTP?
+Message-ID: <04c801c8c1b7$2537d0d0$6fa77270$@net>
+
+Suppose the L3 issue is affecting ATT's cellular traffic for SMTP messaging?
+
+ 
+
+10digit at txt.att.net  seems down
+
+ 
+
+Aaron D. Osgood
+
+ 
+
+Streamline Solutions L.L.C
+
+ 
+
+P.O. Box 6115
+
+Falmouth, ME 04105 
+
+ 
+
+TEL: 207-781-5561
+
+FAX: 207-781-8067
+
+MOBILE: 207-831-5829
+
+PAGE: 2078315829 at vtext.com
+
+AOLIM: OzCom1
+
+ICQ: 206889374
+
+ 
+
+AOsgood at Streamline-Solutions.net
+
+Blog: http://streamlinesolutionsllc.blogspot.com/
+
+http://www.streamline-solutions.net
+
+http://www.WMDaWARe.com
+
+ 
+
+Introducing Efficiency to Business since 1986.
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://isotf.org/pipermail/outages/attachments/20080529/17b0da5a/attachment.htm>
+
+
+From bduross  Thu May 29 21:21:09 2008
+From: bduross (Brian S. DuRoss)
+Date: Thu, 29 May 2008 21:21:09 -0400
+Subject: [Outages] ATT SMTP?
+In-Reply-To: <04c801c8c1b7$2537d0d0$6fa77270$@net>
+Message-ID: <C464CEC5.469D%bduross@mediaspangroup.com>
+
+I confirmed with ATT at 1400EST that indeed 10digit at txt.att.net is down. At
+that time they didn?t have an ETR.
+
+-B
+
+--  
+Brian S. DuRoss
+Systems Administrator, Information Technology
+MediaSpan Group
+333 Jackson Plaza
+Ann Arbor MI 48103
+p: 734.887.4400 Ext. 1141
+c: 734.546.0734 f:  734.887.4401
+
+
+
+
+From: "Aaron D. Osgood" <AOsgood at Streamline-Solutions.net>
+Organization: Streamline Solutions, LLC
+Reply-To: <AOsgood at Streamline-Solutions.net>
+Date: Thu, 29 May 2008 14:09:30 -0400
+To: <Outages at isotf.org>
+Subject: [Outages] ATT SMTP?
+
+Suppose the L3 issue is affecting ATT?s cellular traffic for SMTP messaging?
+ 
+10digit at txt.att.net  seems down
+ 
+Aaron D. Osgood
+ 
+Streamline Solutions L.L.C
+ 
+P.O. Box 6115
+Falmouth, ME 04105 
+ 
+TEL: 207-781-5561
+FAX: 207-781-8067
+MOBILE: 207-831-5829
+PAGE: 2078315829 at vtext.com
+AOLIM: OzCom1
+ICQ: 206889374
+ 
+AOsgood at Streamline-Solutions.net
+Blog: http://streamlinesolutionsllc.blogspot.com/
+http://www.streamline-solutions.net
+http://www.WMDaWARe.com
+ 
+Introducing Efficiency to Business since 1986.
+ 
+
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://isotf.org/pipermail/outages/attachments/20080529/1578eb6e/attachment.htm>
+
+
+From nanog  Thu May 29 22:27:01 2008
+From: nanog (Nate Carlson)
+Date: Thu, 29 May 2008 21:27:01 -0500 (CDT)
+Subject: [Outages] ATT SMTP?
+In-Reply-To: <C464CEC5.469D%bduross@mediaspangroup.com>
+References: <C464CEC5.469D%bduross@mediaspangroup.com>
+Message-ID: <alpine.DEB.1.10.0805292126310.10381@iron.msp.technicality.org>
+
+On Thu, 29 May 2008, Brian S. DuRoss wrote:
+> I confirmed with ATT at 1400EST that indeed 10digit at txt.att.net is down. 
+> At that time they didn?t have an ETR.
+
+Just tested now - appears to be working again.
+
+-nc
+
+
+From alamedadad  Fri May 30 01:10:03 2008
+From: alamedadad (Michael Hyman)
+Date: Thu, 29 May 2008 22:10:03 -0700
+Subject: [Outages] ATT SMTP?
+In-Reply-To: <alpine.DEB.1.10.0805292126310.10381@iron.msp.technicality.org>
+References: <C464CEC5.469D%bduross@mediaspangroup.com>
+	<alpine.DEB.1.10.0805292126310.10381@iron.msp.technicality.org>
+Message-ID: <123cfed0805292210h34c98f8dya533d32e39f1eef2@mail.gmail.com>
+
+Is anyone aware of a major outage at ENOM.com? I have a client using them
+for e-mail and DNS and they have had no e-mail for over 48 hours. They're a
+small company, so an outside e-mail provider made sense, but at this point,
+I can't even make DNS changes so I can't move their e-mail anywhere.
+
+Thanks...Michael
+
+On Thu, May 29, 2008 at 7:27 PM, Nate Carlson <nanog at natecarlson.com> wrote:
+
+> On Thu, 29 May 2008, Brian S. DuRoss wrote:
+>
+>> I confirmed with ATT at 1400EST that indeed 10digit at txt.att.net is down.
+>> At that time they didn?t have an ETR.
+>>
+>
+> Just tested now - appears to be working again.
+>
+> -nc
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+
+-- 
+Michael Hyman
+Cell/Business (510) 907-0169
+E-mail Address: AlamedaDad at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://isotf.org/pipermail/outages/attachments/20080529/acb381dc/attachment.html>
+
+
+From yahoo  Fri May 30 16:09:15 2008
+From: yahoo (Jim Popovitch)
+Date: Fri, 30 May 2008 16:09:15 -0400
+Subject: [Outages] ATT SMTP?
+In-Reply-To: <7ff145960805292030yfb97a34tecdae435d6374b3e@mail.gmail.com>
+References: <C464CEC5.469D%bduross@mediaspangroup.com>
+	<alpine.DEB.1.10.0805292126310.10381@iron.msp.technicality.org>
+	<7ff145960805292030yfb97a34tecdae435d6374b3e@mail.gmail.com>
+Message-ID: <7ff145960805301309o7b2fca9fw42293086228db33d@mail.gmail.com>
+
+On Thu, May 29, 2008 at 11:30 PM, Jim Popovitch <yahoo at jimpop.com> wrote:
+> On Thu, May 29, 2008 at 10:27 PM, Nate Carlson <nanog at natecarlson.com> wrote:
+>> On Thu, 29 May 2008, Brian S. DuRoss wrote:
+>>>
+>>> I confirmed with ATT at 1400EST that indeed 10digit at txt.att.net is down.
+>>> At that time they didn?t have an ETR.
+>>
+>> Just tested now - appears to be working again.
+>
+> and somewhat differently too.
+>
+> last week:
+>   ~$ dig mx txt.att.net
+>   10 atlsmtp.cingularme.net
+>
+> Tonight:
+>   ~$ dig mx txt.att.com
+>   10 cluster7.us.messagelabs.com.
+>   20 cluster7a.us.messagelabs.com.
+>   30 cluster7b.us.messagelabs.com.
+
+today:
+    ~$ dig mx txt.att.net
+   10 atlsmtp.cingularme.net
+
+:-) I guess they can't make up their mind...
+
+-Jim P.
+
+
+From virendra.rode  Fri May 30 17:32:08 2008
+From: virendra.rode (virendra rode //)
+Date: Fri, 30 May 2008 14:32:08 -0700
+Subject: [Outages] telecity london
+In-Reply-To: <mailman.23.1212179400.10202.outages@isotf.org>
+References: <mailman.23.1212179400.10202.outages@isotf.org>
+Message-ID: <48407258.4070705@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+on behalf of Joseph.
+
+
+Subject: telecity london
+From: Joseph Jackson <jjackson at aninetworks.net>
+Date:Fri, 30 May 2008 13:25:23 -0700
+To: "'outages at isotf.org'" <outages at isotf.org>
+
+
+
+Anyone know of any outages at the telecity location on the isle of dogs?
+ I'm unable to ping my router over there.  Guess I'll have to open up a
+ticket.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFIQHJYpbZvCIJx1bcRAhpXAKCDwtJuppA897xvt0zhZYAS8uDJmwCgqXbO
+o3qaQ4pKDwR/CFaaLdYoDo4=
+=uO9J
+-----END PGP SIGNATURE-----
+
+
+From ivang  Fri May 30 19:07:44 2008
+From: ivang (Ivan Groenewald)
+Date: Sat, 31 May 2008 00:07:44 +0100
+Subject: [Outages] telecity london
+In-Reply-To: <48407258.4070705@gmail.com>
+References: <mailman.23.1212179400.10202.outages@isotf.org>
+	<48407258.4070705@gmail.com>
+Message-ID: <A1E51688-4AC9-4A89-B45D-3567B87F2741@xtrahost.co.uk>
+
+We are OK on the third floor.
+Not seen any BGP sessions to LINX or anyone else in the building drop.
+
+
+Ivan Groenewald <ivang at xtrahost.co.uk>
+Tel: 0845 345 0919
+Xtraordinary Networks Ltd.
+http://www.xtrahost.co.uk
+Offices in London and Edinburgh
+
+On 30 May 2008, at 22:32, virendra rode // wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> on behalf of Joseph.
+>
+>
+> Subject: telecity london
+> From: Joseph Jackson <jjackson at aninetworks.net>
+> Date:Fri, 30 May 2008 13:25:23 -0700
+> To: "'outages at isotf.org'" <outages at isotf.org>
+>
+>
+>
+> Anyone know of any outages at the telecity location on the isle of  
+> dogs?
+> I'm unable to ping my router over there.  Guess I'll have to open up a
+> ticket.
+>
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFIQHJYpbZvCIJx1bcRAhpXAKCDwtJuppA897xvt0zhZYAS8uDJmwCgqXbO
+> o3qaQ4pKDwR/CFaaLdYoDo4=
+> =uO9J
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+
+
+
+From jjackson  Fri May 30 19:10:01 2008
+From: jjackson (Joseph Jackson)
+Date: Fri, 30 May 2008 16:10:01 -0700
+Subject: [Outages] telecity london
+In-Reply-To: <A1E51688-4AC9-4A89-B45D-3567B87F2741@xtrahost.co.uk>
+References: <mailman.23.1212179400.10202.outages@isotf.org>
+	<48407258.4070705@gmail.com>
+	<A1E51688-4AC9-4A89-B45D-3567B87F2741@xtrahost.co.uk>
+Message-ID: <695277448C537A469D28FF68D0938C836E59413A77@EXMBX04.exchhosting.com>
+
+A remote power cycle of our firewall solved the issue.  Thanks everyone!
+
+Joseph
+
+-----Original Message-----
+From: Ivan Groenewald [mailto:ivang at xtrahost.co.uk]
+Sent: Friday, May 30, 2008 6:08 PM
+To: virendra.rode at gmail.com
+Cc: outages at isotf.org; Joseph Jackson
+Subject: Re: [Outages] telecity london
+
+We are OK on the third floor.
+Not seen any BGP sessions to LINX or anyone else in the building drop.
+
+
+Ivan Groenewald <ivang at xtrahost.co.uk>
+Tel: 0845 345 0919
+Xtraordinary Networks Ltd.
+http://www.xtrahost.co.uk
+Offices in London and Edinburgh
+
+On 30 May 2008, at 22:32, virendra rode // wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> on behalf of Joseph.
+>
+>
+> Subject: telecity london
+> From: Joseph Jackson <jjackson at aninetworks.net>
+> Date:Fri, 30 May 2008 13:25:23 -0700
+> To: "'outages at isotf.org'" <outages at isotf.org>
+>
+>
+>
+> Anyone know of any outages at the telecity location on the isle of
+> dogs?
+> I'm unable to ping my router over there.  Guess I'll have to open up a
+> ticket.
+>
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFIQHJYpbZvCIJx1bcRAhpXAKCDwtJuppA897xvt0zhZYAS8uDJmwCgqXbO
+> o3qaQ4pKDwR/CFaaLdYoDo4=
+> =uO9J
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+
+
+

@@ -1,0 +1,1629 @@
+From raistlin  Sat Jun  2 17:45:58 2007
+From: raistlin (Jason Slagle)
+Date: Sat, 2 Jun 2007 17:45:58 -0400 (EDT)
+Subject: [Outages] Tunnel fire between Philly and NYC? Message-ID: <20070602174415.G21764@mail.tacorp.net>
+
+
+We have a DS3 outage on A MPLS circuit, and I'm hearing there was a 
+railway fire affecting 600 feet of fiber between NYC and Philly.
+
+Anyone else here anything about this?
+
+Thanks,
+
+Jason
+
+-- 
+Jason Slagle
+/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+\ /   ASCII Ribbon Campaign  .
+  X  - NO HTML/RTF in e-mail  .
+/ \ - NO Word docs in e-mail .
+
+
+
+From virendra.rode  Sun Jun  3 02:11:26 2007
+From: virendra.rode (virendra rode //)
+Date: Sat, 02 Jun 2007 23:11:26 -0700
+Subject: [Outages] at&t (san diego) pop? Message-ID: <46625B8E.9070606@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Is anyone experiencing any reachability issues?
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYluOpbZvCIJx1bcRAlVgAKCrrV8vGAhwfmqBxv7JUje5ITd9oACfc3/B
+kOTxn1foapVm6qo247rsvqY=
+=n2Tz
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Sun Jun  3 02:25:50 2007
+From: virendra.rode (virendra rode //)
+Date: Sat, 02 Jun 2007 23:25:50 -0700
+Subject: [Outages] Theoretical vs real-world speed limit of Ping Message-ID: <46625EEE.3060307@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I thought some of you might be interested in this stats.
+
+
+credit: pingdom
+
+
+Theoretical response time limits of Ping
+
+So, if we assume that a ?ping? travels with the speed of light, which
+are the best possible response times we can get?
+
+10 km -> 0,067 milliseconds
+100 km -> 0,67 milliseconds
+1,000 km -> 6,7 milliseconds
+10,000 km -> 67 milliseconds
+
+(Note that Ping shows the time for a roundtrip, i.e. 2 x the distance.)
+Pinging between Europe and USA
+
+The distance between New York and Paris is 5,839 km. For light to travel
+from New York to Paris and then back again would take 40 milliseconds.
+
+Maximum distance between two places on Earth
+
+If you choose the shortest route, the maximum distance between two
+locations will never be more than halfway around the planet. Halfway
+around Earth is about 20,000 km.
+
+Considering that Ping goes to a destination and then back again, the
+packet sent by Ping would travel 40,000 km, the equivalent of a trip
+around Earth.
+
+That is 133 milliseconds.
+
+Anyone who has tried to ping various servers across the world will know
+that this is a way better response time than what you can realistically
+get. So why is ping so slow?
+
+Why Ping is slower in the real world
+
+The examples above take place under ideal conditions that don?t exist in
+the real world.
+
+   1. The actual distance traveled will be longer, more like zig zag
+than a straight line.
+   2. Repeaters, switches and routers will slow down transfer speeds.
+The more equipment the signal has to pass through (for example routers),
+the longer it will take to reach its target.
+   3. The actual speed of the signal will never quite match the speed of
+light. Even with fiber optics (glass) the speed of light is about 30%
+slower than through vacuum or air, and most of the distance covered will
+be through fiber.
+   4. A beam of light bounces around like a pinball when it travels
+along the thin (admittedly extremely thin) fiber, and that will of
+course make the distance traveled even longer.
+
+With all this in mind, you should probably double the ?ideal? response
+times shown above for a more realistic target to aim at. It?s useful to
+know when there is room to push for better network performance, and when
+the actual physical limits set in.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGYl7tpbZvCIJx1bcRAm84AJwMc7QLMEoNu8KKj5nO0YWIJLfJuQCg4eNe
+8xugB0Mk7w+fj4+QGgFBDn8=
+=PNc8
+-----END PGP SIGNATURE-----
+
+
+From peter  Sun Jun  3 07:19:11 2007
+From: peter (Peter Dambier)
+Date: Sun, 03 Jun 2007 13:19:11 +0200
+Subject: [Outages] Theoretical vs real-world speed limit of Ping In-Reply-To: <46625EEE.3060307@gmail.com>
+References: <46625EEE.3060307@gmail.com>
+Message-ID: <4662A3AF.5010500@peter-dambier.de>
+
+Let us add analog and digital times:
+
+My DSL-modem says 1 Meg uplink, 5 Meg downlink. Real speed is slower but
+that is mostly artificial.
+
+My router needs to assemble a complete packet before routing.
+
+uplink   1480 bits 0.676 milliseconds
+downlink 1480 bits 0.135 milliseconds
+
+The DSLAM side should not add to this timing because it is the same
+analog circuit. But my own switch should add 0.067 milliseconds for
+10 Meg or 0.006 milliseconds for 100 Meg ports
+
+Here is traceroute
+
+traceroute iason.site.voila.fr
+traceroute to star.site.voila.fr.wanadoo.fr (193.252.158.3), 30 hops max, 40 byte packets
+
+  1  krzach.peter-dambier.de (192.168.48.2)  3 ms  2 ms  2 ms
+
+my router and workstation add above the expected 0.9 ms
+
+  2  * * *
+
+DSLAM does not ICMP?
+
+  3  217.0.81.118 (217.0.81.118)  46 ms (ttl=252!)  48 ms (ttl=252!)  47 ms (ttl=252!)
+
+more than 1000 kilometers? I guess it should be some 160 kilometers over there and back.
+
+  4  f-eb7.F.DE.net.DTAG.DE (62.154.16.222)  49 ms (ttl=250!)
+     f-eb7.F.DE.net.DTAG.DE (62.154.16.218)  50 ms (ttl=250!)
+     f-eb7.F.DE.net.DTAG.DE (62.154.16.222)  49 ms (ttl=250!)
+
+  5  * * *
+  6  * * *
+
+  7  po6-0.ntaub201.Aubervilliers.francetelecom.net (193.251.126.153)  212 ms  202 ms  166 ms
+
+That suggests a link via a geosyncronous satellite (72 000 kilometers including return path) :)
+
+
+Well looking up routing tables in memory does take time.
+Interleaving packets to stabilize medium speed for VoIP might
+add another constant.
+
+Both (3) and (4) are rather big routers with big tables.
+
+Maybe I should get and try paris traceroute.
+
+
+Cheers
+Peter and Karin
+
+
+virendra rode // wrote:
+> I thought some of you might be interested in this stats.
+> 
+> 
+> credit: pingdom
+> 
+> 
+> Theoretical response time limits of Ping
+> 
+> So, if we assume that a ?ping? travels with the speed of light, which
+> are the best possible response times we can get?
+> 
+> 10 km -> 0,067 milliseconds
+> 100 km -> 0,67 milliseconds
+> 1,000 km -> 6,7 milliseconds
+> 10,000 km -> 67 milliseconds
+> 
+> (Note that Ping shows the time for a roundtrip, i.e. 2 x the distance.)
+> Pinging between Europe and USA
+> 
+> The distance between New York and Paris is 5,839 km. For light to travel
+>>from New York to Paris and then back again would take 40 milliseconds.
+> 
+> Maximum distance between two places on Earth
+> 
+> If you choose the shortest route, the maximum distance between two
+> locations will never be more than halfway around the planet. Halfway
+> around Earth is about 20,000 km.
+> 
+> Considering that Ping goes to a destination and then back again, the
+> packet sent by Ping would travel 40,000 km, the equivalent of a trip
+> around Earth.
+> 
+> That is 133 milliseconds.
+> 
+> Anyone who has tried to ping various servers across the world will know
+> that this is a way better response time than what you can realistically
+> get. So why is ping so slow?
+> 
+> Why Ping is slower in the real world
+> 
+> The examples above take place under ideal conditions that don?t exist in
+> the real world.
+> 
+>    1. The actual distance traveled will be longer, more like zig zag
+> than a straight line.
+>    2. Repeaters, switches and routers will slow down transfer speeds.
+> The more equipment the signal has to pass through (for example routers),
+> the longer it will take to reach its target.
+>    3. The actual speed of the signal will never quite match the speed of
+> light. Even with fiber optics (glass) the speed of light is about 30%
+> slower than through vacuum or air, and most of the distance covered will
+> be through fiber.
+>    4. A beam of light bounces around like a pinball when it travels
+> along the thin (admittedly extremely thin) fiber, and that will of
+> course make the distance traveled even longer.
+> 
+> With all this in mind, you should probably double the ?ideal? response
+> times shown above for a more realistic target to aim at. It?s useful to
+> know when there is room to push for better network performance, and when
+> the actual physical limits set in.
+
+-- 
+Peter and Karin Dambier
+Cesidian Root - Radice Cesidiana
+Rimbacher Strasse 16
+D-69509 Moerlenbach-Bonsweiher
++49(6209)795-816 (Telekom)
++49(6252)750-308 (VoIP: sipgate.de)
+mail: peter at peter-dambier.de
+mail: peter at echnaton.arl.pirates
+http://iason.site.voila.fr/
+https://sourceforge.net/projects/iason/
+http://www.cesidianroot.com/
+
+
+
+From DHyde  Sat Jun  2 20:59:05 2007
+From: DHyde (Darrell Hyde)
+Date: Sat, 2 Jun 2007 20:59:05 -0400
+Subject: [Outages] Tunnel fire between Philly and NYC? References: <20070602174415.G21764@mail.tacorp.net>
+Message-ID: <8E3A4B11F5261E4AB2AAC551BB4A276D046411@hmsexch.corp.safesecureweb.com>
+
+Local news in Philly isn't reporting anything of the kind. I have a number of circuits terminating in the philly area and all are up and running. If there is a fire, let's hope its not like that tunnel fire they had around DC 5 or 6 years ago.
+
+-----Original Message-----
+From: Jason Slagle [mailto:raistlin at tacorp.net]
+Sent: Sat 6/2/2007 5:45 PM
+To: outages at isotf.org
+Subject: [Outages] Tunnel fire between Philly and NYC?
+ 
+
+We have a DS3 outage on A MPLS circuit, and I'm hearing there was a 
+railway fire affecting 600 feet of fiber between NYC and Philly.
+
+Anyone else here anything about this?
+
+Thanks,
+
+Jason
+
+-- 
+Jason Slagle
+/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+\ /   ASCII Ribbon Campaign  .
+  X  - NO HTML/RTF in e-mail  .
+/ \ - NO Word docs in e-mail .
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+
+
+From ekagan  Mon Jun  4 10:14:44 2007
+From: ekagan (Eric Kagan)
+Date: Mon, 4 Jun 2007 10:14:44 -0400
+Subject: [Outages] Tunnel fire between Philly and NYC? In-Reply-To: <8E3A4B11F5261E4AB2AAC551BB4A276D046411@hmsexch.corp.safesecureweb.com>
+References: <20070602174415.G21764@mail.tacorp.net>
+	<8E3A4B11F5261E4AB2AAC551BB4A276D046411@hmsexch.corp.safesecureweb.com>
+Message-ID: <11b601c7a6b2$b36579f0$760da8c0@axsdom.local>
+
+We had an XO T1 in Philly down for a few hours Saturday due to a "fiber
+cut", but we know how everyone uses that general term.  Circuit was back up
+at some point yesterday.
+
+Eric
+ 
+
+> -----Original Message-----
+> From: Darrell Hyde [mailto:DHyde at HostMySite.com] 
+> Sent: Saturday, June 02, 2007 8:59 PM
+> To: Jason Slagle; outages at isotf.org
+> Subject: Re: [Outages] Tunnel fire between Philly and NYC?
+> 
+> Local news in Philly isn't reporting anything of the kind. I 
+> have a number of circuits terminating in the philly area and 
+> all are up and running. If there is a fire, let's hope its 
+> not like that tunnel fire they had around DC 5 or 6 years ago.
+> 
+> -----Original Message-----
+> From: Jason Slagle [mailto:raistlin at tacorp.net]
+> Sent: Sat 6/2/2007 5:45 PM
+> To: outages at isotf.org
+> Subject: [Outages] Tunnel fire between Philly and NYC?
+>  
+> 
+> We have a DS3 outage on A MPLS circuit, and I'm hearing there was a 
+> railway fire affecting 600 feet of fiber between NYC and Philly.
+> 
+> Anyone else here anything about this?
+> 
+> Thanks,
+> 
+> Jason
+> 
+> -- 
+> Jason Slagle
+> /"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+> . . . . . .
+> \ /   ASCII Ribbon Campaign  .
+>   X  - NO HTML/RTF in e-mail  .
+> / \ - NO Word docs in e-mail .
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+
+
+
+
+From raistlin  Mon Jun  4 10:24:21 2007
+From: raistlin (Jason Slagle)
+Date: Mon, 4 Jun 2007 10:24:21 -0400 (EDT)
+Subject: [Outages] Tunnel fire between Philly and NYC? In-Reply-To: <11b601c7a6b2$b36579f0$760da8c0@axsdom.local>
+References: <20070602174415.G21764@mail.tacorp.net>
+	<8E3A4B11F5261E4AB2AAC551BB4A276D046411@hmsexch.corp.safesecureweb.com>
+	<11b601c7a6b2$b36579f0$760da8c0@axsdom.local>
+Message-ID: <20070604102326.C21764@mail.tacorp.net>
+
+
+Yes - apparently this was affecting XO as well.  Mine dropped Friday at 
+8:45PM and restored almost 24 hours later.
+
+If this was indeed a railway fire (I can't find any news supporting that), 
+I thought we all learned a lesson in 01 after the Howard tunnel fire.
+
+Jason
+
+-- 
+Jason Slagle
+/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+\ /   ASCII Ribbon Campaign  .
+  X  - NO HTML/RTF in e-mail  .
+/ \ - NO Word docs in e-mail .
+
+
+On Mon, 4 Jun 2007, Eric Kagan wrote:
+
+> We had an XO T1 in Philly down for a few hours Saturday due to a "fiber
+> cut", but we know how everyone uses that general term.  Circuit was back up
+> at some point yesterday.
+>
+> Eric
+>
+>
+>> -----Original Message-----
+>> From: Darrell Hyde [mailto:DHyde at HostMySite.com]
+>> Sent: Saturday, June 02, 2007 8:59 PM
+>> To: Jason Slagle; outages at isotf.org
+>> Subject: Re: [Outages] Tunnel fire between Philly and NYC?
+>>
+>> Local news in Philly isn't reporting anything of the kind. I
+>> have a number of circuits terminating in the philly area and
+>> all are up and running. If there is a fire, let's hope its
+>> not like that tunnel fire they had around DC 5 or 6 years ago.
+>>
+>> -----Original Message-----
+>> From: Jason Slagle [mailto:raistlin at tacorp.net]
+>> Sent: Sat 6/2/2007 5:45 PM
+>> To: outages at isotf.org
+>> Subject: [Outages] Tunnel fire between Philly and NYC?
+>>
+>>
+>> We have a DS3 outage on A MPLS circuit, and I'm hearing there was a
+>> railway fire affecting 600 feet of fiber between NYC and Philly.
+>>
+>> Anyone else here anything about this?
+>>
+>> Thanks,
+>>
+>> Jason
+>>
+>> --
+>> Jason Slagle
+>> /"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+>> . . . . . .
+>> \ /   ASCII Ribbon Campaign  .
+>>   X  - NO HTML/RTF in e-mail  .
+>> / \ - NO Word docs in e-mail .
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at isotf.org
+>> http://isotf.org/mailman/listinfo/outages
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at isotf.org
+>> http://isotf.org/mailman/listinfo/outages
+>>
+>
+>
+
+
+From vrode  Tue Jun  5 12:38:08 2007
+From: vrode (virendra rode //)
+Date: Tue, 05 Jun 2007 09:38:08 -0700
+Subject: [Outages] sunrocket service maintenance on June 6, 2007. Message-ID: <46659170.4050302@riverdomain.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Sunrocket will be performing upgrades on wednesday June 6 between 4-6 AM
+EDT.
+
+As a result, their might be a short service interruptions during this
+time.  If you do experience any problem, please try your call again in a
+few minutes.
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZZFwpbZvCIJx1bcRAt3CAKD1RMwIpOEohGYTdDmTFcKfEE4vzQCg2S3V
++zZfNDsnKpH3o8tXEtKxqI0=
+=eypu
+-----END PGP SIGNATURE-----
+
+
+From favila  Wed Jun  6 10:00:41 2007
+From: favila (Fernando Avila Mora San Antonio, TX)
+Date: Wed, 6 Jun 2007 09:00:41 -0500 
+Subject: [Outages] Outage in Dallas/Broadwing Message-ID: <8234580B851BDA11ABE40002A564F65E05FC53@MTY01>
+
+
+Does anyone knows anything about the problem of broadwing in Dallas...
+
+Regards
+
+
+
+From favila  Wed Jun  6 09:55:47 2007
+From: favila (Fernando Avila Mora San Antonio, TX)
+Date: Wed, 6 Jun 2007 08:55:47 -0500 
+Subject: [Outages] Outage in Dallas/Broadwing Message-ID: <8234580B851BDA11ABE40002A564F65E05FC52@MTY01>
+
+
+Does anyone knows anything about the problem of broadwing in Dallas...
+
+Regards
+
+
+From virendra.rode  Wed Jun  6 12:14:07 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 06 Jun 2007 09:14:07 -0700
+Subject: [Outages] Outage in Dallas/Broadwing In-Reply-To: <8234580B851BDA11ABE40002A564F65E05FC52@MTY01>
+References: <8234580B851BDA11ABE40002A564F65E05FC52@MTY01>
+Message-ID: <4666DD4F.6090707@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Fernando Avila Mora (San Antonio, TX) wrote:
+> Does anyone knows anything about the problem of broadwing in Dallas...
+> 
+> Regards
+- -------------------
+Unless I'm looking elsewhere, I'm not seeing any problems w/ L3 in Dallas.
+
+
+Level 3 (Dallas, TX) BGP routes for 66.27.146.220
+
+BGP routing table entry for 66.27.0.0/16
+Bestpath Modifiers: deterministic-med
+Paths: (2 available, best #2)
+  20001
+  AS-path translation: { ROADRUNNER-WEST }
+    lo-22.car1.Tustin1 (metric 12333) from lo-22.err2.Dallas1
+(lo-22.err2.Dallas1)
+      Origin IGP, metric 0, localpref 100, valid, internal
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+fGENU_Dial_DSL_Migration8 Prepend_4_to_AS2914
+      Originator: lo-22.car1.Tustin1
+  20001
+  AS-path translation: { ROADRUNNER-WEST }
+    lo-22.car1.Tustin1 (metric 12333) from lo-22.err1.Dallas1
+(lo-22.err1.Dallas1)
+      Origin IGP, metric 0, localpref 100, valid, internal, best
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+fGENU_Dial_DSL_Migration8 Prepend_4_to_AS2914
+      Originator: lo-22.car1.Tustin1
+
+
+
+Level 3 (Dallas, TX (IPv6)) Traceroute to 2001:5c0:8fff:ffff::125
+
+  1 2001:1900:4:1::5 232 msec 32 msec 32 msec
+  2 2001:1900:4:3::26 36 msec 32 msec 36 msec
+  3 2001:5A0:600::6 32 msec 36 msec 32 msec
+  4 2001:5A0:600:100::2 228 msec 188 msec 204 msec
+  5 if-5-0.mcore4.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300:200::5)
+44 msec 44 msec 48 msec
+  6 if-3-0.mcore3.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300:200::2)
+44 msec 44 msec 48 msec
+  7 gin-mtt-6bb1.ipv6.teleglobe.net (2001:5A0:300::1) 48 msec 44 msec 48
+msec
+  8 ix-5-0-1.6bb1.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300::6) 48
+msec 48 msec 48 msec
+  9 broker.freenet6.net (2001:5C0:0:5::117) 48 msec 48 msec 48 msec
+ 10 2001:5C0:8FFF:FFFF::125 140 msec 136 msec 144 msec
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZt1PpbZvCIJx1bcRApCKAKCxcPLL306a1UN8YXT+qZDGiIvtSwCgpoKM
+D8BEtBDuG0EpdypC+lqZJgQ=
+=U+OC
+-----END PGP SIGNATURE-----
+
+
+From favila  Wed Jun  6 12:23:27 2007
+From: favila (Fernando Avila Mora San Antonio, TX)
+Date: Wed, 6 Jun 2007 11:23:27 -0500 
+Subject: [Outages] Outage in Dallas/Broadwing Message-ID: <8234580B851BDA11ABE40002A564F65E05FC57@MTY01>
+
+Yeap..the problem is in Austin,....
+
+-----Mensaje original-----
+De: virendra rode // [mailto:virendra.rode at gmail.com]
+Enviado el: Wednesday, June 06, 2007 11:14 AM
+Para: Fernando Avila Mora (San Antonio, TX)
+CC: 'outages at isotf.org'
+Asunto: Re: [Outages] Outage in Dallas/Broadwing
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Fernando Avila Mora (San Antonio, TX) wrote:
+> Does anyone knows anything about the problem of broadwing in Dallas...
+> 
+> Regards
+- -------------------
+Unless I'm looking elsewhere, I'm not seeing any problems w/ L3 in Dallas.
+
+
+Level 3 (Dallas, TX) BGP routes for 66.27.146.220
+
+BGP routing table entry for 66.27.0.0/16
+Bestpath Modifiers: deterministic-med
+Paths: (2 available, best #2)
+  20001
+  AS-path translation: { ROADRUNNER-WEST }
+    lo-22.car1.Tustin1 (metric 12333) from lo-22.err2.Dallas1
+(lo-22.err2.Dallas1)
+      Origin IGP, metric 0, localpref 100, valid, internal
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+fGENU_Dial_DSL_Migration8 Prepend_4_to_AS2914
+      Originator: lo-22.car1.Tustin1
+  20001
+  AS-path translation: { ROADRUNNER-WEST }
+    lo-22.car1.Tustin1 (metric 12333) from lo-22.err1.Dallas1
+(lo-22.err1.Dallas1)
+      Origin IGP, metric 0, localpref 100, valid, internal, best
+      Community: North_America  Lclprf_100 Level3_Customer United_States
+fGENU_Dial_DSL_Migration8 Prepend_4_to_AS2914
+      Originator: lo-22.car1.Tustin1
+
+
+
+Level 3 (Dallas, TX (IPv6)) Traceroute to 2001:5c0:8fff:ffff::125
+
+  1 2001:1900:4:1::5 232 msec 32 msec 32 msec
+  2 2001:1900:4:3::26 36 msec 32 msec 36 msec
+  3 2001:5A0:600::6 32 msec 36 msec 32 msec
+  4 2001:5A0:600:100::2 228 msec 188 msec 204 msec
+  5 if-5-0.mcore4.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300:200::5)
+44 msec 44 msec 48 msec
+  6 if-3-0.mcore3.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300:200::2)
+44 msec 44 msec 48 msec
+  7 gin-mtt-6bb1.ipv6.teleglobe.net (2001:5A0:300::1) 48 msec 44 msec 48
+msec
+  8 ix-5-0-1.6bb1.mtt-montreal.ipv6.teleglobe.net (2001:5A0:300::6) 48
+msec 48 msec 48 msec
+  9 broker.freenet6.net (2001:5C0:0:5::117) 48 msec 48 msec 48 msec
+ 10 2001:5C0:8FFF:FFFF::125 140 msec 136 msec 144 msec
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGZt1PpbZvCIJx1bcRApCKAKCxcPLL306a1UN8YXT+qZDGiIvtSwCgpoKM
+D8BEtBDuG0EpdypC+lqZJgQ=
+=U+OC
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri Jun 15 09:49:45 2007
+From: virendra.rode (virendra rode //)
+Date: Fri, 15 Jun 2007 06:49:45 -0700
+Subject: [Outages] [Fwd: [SANOG] FW: SMW3 Upgradation Work Expectedly on 24 Jun'07 time 0400PST till 0700PST.]
+Message-ID: <467298F9.7050308@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -------- Original Message --------
+Subject: [SANOG] FW: SMW3 Upgradation Work Expectedly on 24 Jun'07 time
+0400PST till 0700PST.
+Date: Fri, 15 Jun 2007 14:03:29 +0500
+From: Haris Shamsi <h.shamsi at cyber.net.pk>
+To: sanog at sanog.org
+
+
+
+From: Flag VPoP [mailto:servdesk at ptcl.net.pk]
+Sent: Tuesday, June 12, 2007 3:41 PM
+To: shabbir.utero at ptcl.net.pk
+Cc: servdesk at ptcl.net.pk
+Subject: SMW3 Upgradation Work Expectedly on 24 Jun'07 time 0400PST till
+0700PST.
+
+
+
+
+Dear All IP-T Customers,
+                                                Please be intimated that
+SMW3 is carrying out above mention Upgradation due to which our two(2) STM-1
+BB will be affected that resulted in the Honkong traffic to go from our one
+of two LONDON trunk and you will face traffic congestion or LATENCY  as 1 of
+3 STM-1 will be alive that carry the whole traffic. The expected time and
+date are as follows:
+
+Date :- 24th June 2007.
+
+Start Time :- 0400PST.
+End Time :-  0700PST.
+
+These are the expected time. This end will communicate any change that may
+take place in the schedule.
+We regret any inconvenience that may cause due to this work, to you and your
+customer.
+
+S.M.Hashim,ADE VPoP Karachi.
+Service Desk FLAG VPOP,
+ITI Karachi
+PTCL
+servdesk at ptcl.net.pk
++92-21-2761852
++92-21-2751144
+Fax # +92 21 2751829
+
+
+
+- --
+This is the SANOG (http://www.sanog.org/) mailing list.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGcpj5pbZvCIJx1bcRAozmAKCeVchE24Cv5dYcaIyUO0gfmZg2YQCg7JCo
+zSFXOlTd/O84R1OlpCBKWao=
+=mGwj
+-----END PGP SIGNATURE-----
+
+
+From ramans  Tue Jun 19 12:54:30 2007
+From: ramans (Raman Sud)
+Date: Tue, 19 Jun 2007 09:54:30 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148489 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB9425C5@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, June 19, 2007 9:51 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148489 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978457	
+GCR #:  CHG000000148489	
+Primary Dates: 16 Jul 2007 03:00:00 - 16 Jul 2007 05:00:00 Pacific	
+Primary Dates GMT:  16 Jul 2007 10:00:00 - 16 Jul 2007 12:00:00	
+Location of Maintenance: Los Angeles CA, Seattle WA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCW9061	 car4.lax1	 GigabitEthernet6/23	 63.209.80.221
+SA	
+BBCX3703	 car4.lax1	 GigabitEthernet6/5	 4.71.128.1
+SA	
+BBCW9589	 car2.sea1	 GigabitEthernet6/23	 66.36.224.201
+SA	
+BBBK29304 			Device : car4.lax1	 SA	
+BBBK30309	 		Device : car2.sea1	 SA	
+BBBK38079 			Device : car4.lax1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070619/87072b94/attachment.htm 
+
+
+From ramans  Wed Jun 20 13:31:35 2007
+From: ramans (Raman Sud)
+Date: Wed, 20 Jun 2007 10:31:35 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148485 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB94263D@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, June 20, 2007 10:30 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148485 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978438	
+GCR #:  CHG000000148485	
+Primary Dates: 16 Jul 2007 03:00:00 - 16 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  16 Jul 2007 07:00:00 - 16 Jul 2007 10:00:00	
+Location of Maintenance: New York NY, Orlando FL, Tampa FL, Washington
+DC,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCY4319	 car3.wdc1	 GigabitEthernet3/1	 4.79.168.213
+SA	
+BBCQ6955	 car3.wdc1	 GigabitEthernet6/20	 4.79.18.81
+SA	
+BBCM5303	 car3.wdc1	 GigabitEthernet6/5	 4.79.168.248
+SA	
+BBBH31421	 		Device : car3.wdc1	 SA	
+BBBJ22626	 		Device : car3.wdc1	 SA	
+BBBK48801	 		Device : car3.wdc1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070620/106f4f90/attachment.htm 
+
+
+From ramans  Wed Jun 20 13:33:53 2007
+From: ramans (Raman Sud)
+Date: Wed, 20 Jun 2007 10:33:53 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148488 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB94263F@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, June 20, 2007 10:32 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148488 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978450	
+GCR #:  CHG000000148488	
+Primary Dates: 16 Jul 2007 04:00:00 - 16 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  16 Jul 2007 09:00:00 - 16 Jul 2007 11:00:00	
+Location of Maintenance: Chicago IL, Dallas TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCX9599	 car1.dal1	 GigabitEthernet6/8.191	 4.71.12.229
+SA	
+BBCX5176	 car4.chi1	 GigabitEthernet6/12	 4.71.102.1
+SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070620/76703ae6/attachment-0001.htm 
+
+
+From virendra.rode  Thu Jun 21 10:06:59 2007
+From: virendra.rode (virendra rode //)
+Date: Thu, 21 Jun 2007 07:06:59 -0700
+Subject: [Outages] [Fwd: [SANOG] FW: SMW3 Upgradation Work Expectedly on 24 Jun'07 time 0400PST till 0700PST.]
+Message-ID: <467A8603.1030203@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: [SANOG] FW: SMW3 Upgradation Work Expectedly on 24 Jun'07 time
+0400PST till 0700PST.
+Date: Thu, 21 Jun 2007 11:28:28 +0500
+From: Haris Shamsi <h.shamsi at cyber.net.pk>
+To: sanog at sanog.org
+
+
+
+From: Flag VPoP [mailto:servdesk at ptcl.net.pk]
+Sent: Thursday, June 21, 2007 11:09 AM
+To: Flag VPoP
+Cc: shabbir.utero at ptcl.net.pk
+Subject: Re: SMW3 Upgradation Work Expectedly on 24 Jun'07 time 0400PST till
+0700PST.
+Importance: High
+
+
+
+
+Dear IP-T Customers,
+
+In continuation of previous email, it is intimated that Maintenance Activity
+of SMW-3 scheduled at Dated: June 24,2007 has been postponed. As soon as we
+receive any new update from SMW-3 C/S. We will inform u accordingly.
+
+Feel free to contact Service Desk-Karachi for any information.
+
+Thanks
+
+
+Service Desk FLAG VPOP,
+ITI Karachi
+PTCL
+servdesk at ptcl.net.pk
++92-21-2761852
++92-21-2751144
+Fax # +92 21 2751829
+
+
+
+
+Flag VPoP/PTCL
+
+06/12/2007 03:41 PM
+
+
+To
+
+shabbir.utero at ptcl.net.pk
+
+
+cc
+
+servdesk at ptcl.net.pk
+
+
+Subject
+
+SMW3 Upgradation Work Expectedly on 24 Jun'07 time 0400PST till 0700PST.
+
+
+
+		
+
+
+
+Dear All IP-T Customers,
+                                                Please be intimated that
+SMW3 is carrying out above mention Upgradation due to which our two(2) STM-1
+BB will be affected that resulted in the Honkong traffic to go from our one
+of two LONDON trunk and you will face traffic congestion or LATENCY  as 1 of
+3 STM-1 will be alive that carry the whole traffic. The expected time and
+date are as follows:
+
+Date :- 24th June 2007.
+
+Start Time :- 0400PST.
+End Time :-  0700PST.
+
+These are the expected time. This end will communicate any change that may
+take place in the schedule.
+We regret any inconvenience that may cause due to this work, to you and your
+customer.
+
+S.M.Hashim,ADE VPoP Karachi.
+Service Desk FLAG VPOP,
+ITI Karachi
+PTCL
+servdesk at ptcl.net.pk
++92-21-2761852
++92-21-2751144
+Fax # +92 21 2751829
+
+
+
+- --
+This is the SANOG (http://www.sanog.org/) mailing list.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGeoYCpbZvCIJx1bcRAkTMAJ41H18a7uYP/vTIuCTmjvikyv8xWACfRzBC
+q55wAPV7yY8WIpqCoB4qNoE=
+=k5nO
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri Jun 22 10:23:22 2007
+From: virendra.rode (virendra rode //)
+Date: Fri, 22 Jun 2007 07:23:22 -0700
+Subject: [Outages] [Fwd: MEDIA: Ruptured Cable Disrupts Internet Service in 5 Latin American Nations]
+Message-ID: <467BDB5A.2030600@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: MEDIA: Ruptured Cable Disrupts Internet Service in 5 Latin
+American Nations
+Date: Thu, 21 Jun 2007 23:00:32 -0700 (PDT)
+From: william(at)elan.net <william at elan.net>
+To: nanog at nanog.org
+
+
+
+http://biz.yahoo.com/ap/070621/colombia_internet_disrupted.html?.v=1
+- ---
+AP - Internet Fails in 5 Latin Countries - Thursday June 21, 6:31 pm ET
+Ruptured Cable Disrupts Internet Service in 5 Latin American Nations
+
+BOGOTA, Colombia (AP) -- Accidental damage to an undersea fiber-optics
+cable left millions of people without Internet service in five Latin
+American countries, the cable's owner said Thursday.
+
+In Colombia, as many as 45 percent of Internet users were left with
+limited or no connection. Problems were also reported in Panama,
+Venezuela, Costa Rica and Nicaragua.
+
+In a statement, Columbus said repair ships set sail from Mexico and
+the company hoped the cable would be fixed on Friday.
+
+The statement did not say what damaged the underwater cable. The company
+said it would investigate the cause.
+
+The general secretary of the Colombian phone company, Empresa Telefonica
+de Bogota, Andres Perez, told The Associated Press that nearly half of
+this South American country's 5 million Internet users were left without
+service.
+
+The Nicaraguan Internet service-provider Cablenet said a backup system
+kicked in after the cable's rupture delivering limited but slower service.
+
+Costa Rica's state-run Instituto Costarricense de Electricidad also
+reported a slowing down of Internet service.
+
+It is the second problem to befall the Arcos network this month. On June
+5, a cable off the coast of Venezuela was cut causing no interruption to
+service.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGe9tapbZvCIJx1bcRAmdeAJ99zOdU/KOqjygx+ajiFC0RZlQ6igCglX5Y
+TvnqaaXiPmmtYrZnmZxIrk4=
+=4g5w
+-----END PGP SIGNATURE-----
+
+
+From ramans  Fri Jun 22 13:33:19 2007
+From: ramans (Raman Sud)
+Date: Fri, 22 Jun 2007 10:33:19 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148496 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA0576B@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, June 22, 2007 10:25 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148496 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978508	
+GCR #:  CHG000000148496	
+Primary Dates: 17 Jul 2007 03:00:00 - 17 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  17 Jul 2007 07:00:00 - 17 Jul 2007 10:00:00	
+Location of Maintenance: Atlanta GA, Boston MA, Weehawken NJ, Tampa FL,
+
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCY5499	 car1.atl1	 GigabitEthernet7/1.163	 4.79.213.65
+SA	
+BBBK61533	 		Device : car1.atl1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070622/7be0b077/attachment.htm 
+
+
+From kyle  Sat Jun 23 21:30:21 2007
+From: kyle (Kyle Duren)
+Date: Sat, 23 Jun 2007 18:30:21 -0700 (PDT)
+Subject: [Outages] Charter Fiber Cut Message-ID: <56907.192.168.1.12.1182648621.squirrel@192.168.1.12>
+
+Appears to be a rather major NW outage for charter communications
+customers (business, and residential cable internet) because of a cut
+fiber line in Oregon.
+
+
+1    <1 ms    <1 ms    <1 ms  192.168.1.254
+2    55 ms    55 ms    55 ms  207.xxx.xxx.xxx
+3    57 ms    55 ms    55 ms  spkn-agw1.inet.qwest.net [207.225.41.93]
+4    54 ms    55 ms    55 ms  spk-core-01.inet.qwest.net [205.171.153.33]
+5    64 ms    69 ms    72 ms  tuk-core-01.inet.qwest.net [205.171.5.54]
+6    82 ms    80 ms    80 ms  svl-core-02.inet.qwest.net [67.14.12.54]
+7    81 ms    80 ms    80 ms  svl-edge-09.inet.qwest.net [205.171.14.98]
+8    90 ms    89 ms    89 ms  65.113.33.110
+9    88 ms    90 ms    89 ms  gx-x.cr01.mdfd.or.charter.com [68.116.79.10]
+10     *        *        *     Request timed out.
+
+Thats from a qwest dsl looking into charter.
+
+  1     1 ms     1 ms     1 ms  192.168.1.1
+  2    30 ms    27 ms    27 ms  71.93.xxx.xxx
+  3    33 ms    29 ms    30 ms  71-93-19-33.wa.charter.com [71.93.19.33]
+  4    59 ms    29 ms    29 ms  68.186.73.21
+  5    35 ms    30 ms    29 ms  172.29.32.2
+  6    35 ms    35 ms    34 ms  12.87.58.5
+  7    59 ms    60 ms    59 ms  tbr1.st6wa.ip.att.net [12.122.111.14]
+  8    57 ms    57 ms    57 ms  tbr2.sffca.ip.att.net [12.122.12.113]
+  9    55 ms    55 ms    54 ms  ggr2.sffca.ip.att.net [12.123.13.185]
+ 10     *        *        *     Request timed out.
+
+Thats from charter looking out.
+
+The info I have from charter NOC says no ETA on fix, but they are aware.
+Traffic coming from Oregon "has been rerouted, but we are unable to
+redirect the Washington Traffic"
+
+-Kyle
+
+
+
+From ramans  Tue Jun 26 18:07:04 2007
+From: ramans (Raman Sud)
+Date: Tue, 26 Jun 2007 15:07:04 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148506 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA058B5@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, June 26, 2007 3:07 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148506 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978577	
+GCR #:  CHG000000148506	
+Primary Dates: 18 Jul 2007 03:00:00 - 18 Jul 2007 06:00:00 Eastern	
+Primary Dates GMT:  18 Jul 2007 07:00:00 - 18 Jul 2007 10:00:00	
+Location of Maintenance: Tampa FL, Newark NJ, Orlando FL, Washington DC,
+
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCM5314	 car1.orl1	 GigabitEthernet6/2.261	 4.79.116.9
+SA	
+BBCV1849	 car1.tmp1	 GigabitEthernet6/12.119
+4.79.144.129	 SA	
+BBCP1153	 car1.wdc1	 GigabitEthernet4/3.177	 4.79.16.97
+SA	
+BBBH31439	 		Device : car1.orl1	 SA	
+BBBH75686	 		Device : car1.wdc1	 SA	
+BBBJ96960	 		Device : car1.tmp1 	SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070626/36106e17/attachment.htm 
+
+
+From ramans  Fri Jun 29 16:52:17 2007
+From: ramans (Raman Sud)
+Date: Fri, 29 Jun 2007 13:52:17 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148508 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA05994@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, June 29, 2007 12:40 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148508 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978592	
+GCR #:  CHG000000148508	
+Primary Dates: 18 Jul 2007 04:00:00 - 18 Jul 2007 06:00:00 Central	
+Primary Dates GMT:  18 Jul 2007 09:00:00 - 18 Jul 2007 11:00:00	
+Location of Maintenance: Chicago IL, Houston TX,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage customers and peers
+while unit reloads.	
+	
+CWIE, LLC - CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBDB1713	 car2.chi1	 GigabitEthernet3/1	 4.79.66.193
+SA	
+BBBK93148	 		Device : car2.chi1	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070629/1af985eb/attachment.htm 
+
+
+From ramans  Fri Jun 29 18:01:31 2007
+From: ramans (Raman Sud)
+Date: Fri, 29 Jun 2007 15:01:31 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#148500 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBA0599B@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, June 29, 2007 2:44 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#148500 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1978530	
+GCR #:  CHG000000148500	
+Primary Dates: 17 Jul 2007 04:00:00 - 17 Jul 2007 06:00:00 Pacific	
+Primary Dates GMT:  17 Jul 2007 11:00:00 - 17 Jul 2007 13:00:00	
+Location of Maintenance: Seattle WA, San Jose CA,	
+Summary Description of Maintenance:  Upgrade - Code - Edge Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3 will
+upgrade routers which will cause an outage to customers and peers while
+the unit reloads. Impact to IP redundant and non-redundat services will
+be up to 30 minutes.	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage to customers and peers
+while the unit reloads. Impact to IP redundant and non-redundat services
+will be up to 30 minutes.	
+	
+CWIE, LLC - Lightsurf Communications - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCX3449	 car1.sjo1	 GigabitEthernet6/5	 8.6.4.1
+SA	
+BBCZ3058	 car1.sjo1	 GigabitEthernet6/8.113	 4.79.219.129
+SA	
+BBCT8701	 car1.sjo1	 GigabitEthernet6/9.135	 4.79.40.53
+SA	
+BBBJ14074	 		Device : car1.sjo1 	SA	
+BBBJ89999	 		Device : car1.sjo1 	SA	
+BBBJ35337	 		Device : car1.sjo1 	SA	
+BBBK76244	 		Device : car1.sjo1 	SA	
+BBBK79208	 		Device : car1.sjo1 	SA	
+BBBK37640	 		Device : car1.sjo1	 SA	
+BBBK31061	 		Device : car1.sjo1 	SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070629/62733155/attachment-0001.htm 
+
+

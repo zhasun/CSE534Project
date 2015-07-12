@@ -1,0 +1,919 @@
+###############################################################
+Frontier fiber cut, Mid-Michigan circuits affected
+###############################################################
+  A fiber cut is affecting many circuits across Mid-Michigan.
+    http://www.mlive.com/news/saginaw/index.ssf/2014/07/car_crash_disrupts_911_landlin.html
+ Michigan is dealing with all sorts of fallout after overnight severe storms.
+    http://www.mlive.com/weather/index.ssf/2014/06/two_lines_of_severe_storms_in.html
+    http://www.wlns.com/story/25912488/911-lines-down-power-out-damage-as-storm-hits-mid-michigan
+    http://woodtv.com/2014/07/01/989-area-code-911-not-availabe-by-land-line/
+  - - Mitchell
+###############################################################
+END
+###############################################################
+
+###############################################################
+Charter (AS 20115)
+###############################################################
+ We were getting complaints about reachability of our site and some of my teammates believe they've narrowed it down to customer sites that were trying to reach us via Charter.  We're connected to Charter's head-end in Fitchburg, WI (near Madison).
+ Has anyone else noticed any reachability troubles over Charter this afternoon?
+ ===
+ Jeremy Charles, jcharles at epic.com
+ Epic's Computer and Technology Services Division
+ Phone:  608-271-9000, Fax 608-271-7237
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140703/0143cae1/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 74, Issue 2
+###############################################################
+ We saw a few modems in whitewater go down and then come back 2 hours later.
+ Sent from my Sprint phone.
+ ----- Reply message -----
+ From: "outages-request at outages.org" <outages-request at outages.org>
+ Subject: Outages Digest, Vol 74, Issue 2
+ Date: Fri, Jul 4, 2014 11:07 AM
+ Send Outages mailing list submissions to
+         outages at outages.org
+ To subscribe or unsubscribe via the World Wide Web, visit
+         https://puck.nether.net/mailman/listinfo/outages
+ or, via email, send a message with subject or body 'help' to
+         outages-request at outages.org
+ You can reach the person managing the list at
+         outages-owner at outages.org
+ When replying, please edit your Subject line so it is more specific
+ than "Re: Contents of Outages digest..."
+ Today's Topics:
+    1. Charter (AS 20115) (Jeremy Charles)
+ ----------------------------------------------------------------------
+ Message: 1
+ Date: Thu, 3 Jul 2014 20:27:05 +0000
+ From: Jeremy Charles <JCharles at epic.com>
+ Subject: [outages] Charter (AS 20115)
+ Content-Type: text/plain; charset="us-ascii"
+ We were getting complaints about reachability of our site and some of my teammates believe they've narrowed it down to customer sites that were trying to reach us via Charter.  We're connected to Charter's head-end in Fitchburg, WI (near Madison).
+ Has anyone else noticed any reachability troubles over Charter this afternoon?
+ ===
+ Jeremy Charles, jcharles at epic.com
+ Epic's Computer and Technology Services Division
+ Phone:  608-271-9000, Fax 608-271-7237
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140703/0143cae1/attachment-0001.html>
+ ------------------------------
+ Subject: Digest Footer
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ------------------------------
+ End of Outages Digest, Vol 74, Issue 2
+ **************************************
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140704/338f28e2/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+TWC NY
+###############################################################
+ Looks like there are several locations that are out after the high winds.
+  Few businesses on the COAX side are down but our fiber optic is running
+ well.  Anyone have anymore information on this?
+ --kfarmer
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140709/c5c9cba8/attachment.html>
+ Been seeing quite a few reports from customers mainly in Texas who are
+ having issues with TWTC clients.  Wonder if there is a general issue
+ with TWTC today.  Haven't seen anything confirmed as of yet.
+ -DC
+ On Wed, Jul 9, 2014 at 3:15 PM, Kyle Farmer via Outages
+ <outages at outages.org> wrote:
+ -- 
+ - Dennis
+###############################################################
+END
+###############################################################
+
+###############################################################
+Recent Verizon Issues
+###############################################################
+ Is anyone else experiencing issues with return traffic to the Verizon FIOS
+ network?
+ I've noticed that return traffic from our network destined for Verizon FIOS
+ customers either hits 0.xe-3-1-1-XL4.CHI13.ALTER.NET or
+ TenGigE0-2-0-1.GW5.CHI13.ALTER.net and dies off completely or continues on
+ through the Verizon network and experiences issues in the Dallas TX, Newark
+ NJ, or New York FIOS network portions.  I've attempted to route traffic out
+ different providers and this appears to alleviate the issues but I have
+ noticed the issue occasionally cropping back up and it appears to be at the
+ point where the other provider hands off to the Verizon network. I've
+ reached out to Verizon and they've been somewhat quiet with occasional
+ replies that they've identified a 'bad path" or replaced a "provider edge
+ card" on a device. I've recently received an influx of complaints with
+ Verizon FIOS support claiming no issues on their network and that it's
+ other networks experiencing issues.
+ Found a couple recent threads that appear to be experiencing similar issues.
+ http://arstechnica.com/civis/viewtopic.php?f=3&t=1247379
+ http://www.gossamer-threads.com/lists/nsp/outages/51139
+ Possibly affected Verizon prefixes
+ 173.57.0.0/16
+ 173.71.0.0/18
+ 70.104.26.0/20
+ 71.97.0.0/17
+ 72.91.0.0/16
+ 108.30.0.0/16
+ 108.34.128.0/17
+ 108.35.0.0/16
+ 108.5.0.0/16
+ 98.113.0.0/16
+ 96.225.0.0/17
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140709/8635873e/attachment.html>
+ Hi,
+ Is anyone seeing a partial outage of podcasts using iTunes on a Mac?
+ Several of my subscriptions have not updated since the day before
+ yesterday and the subscription shows an explanation point inside the
+ circle by the podcast name in list view. Running Wireshark and doing a
+ "refresh podcast" on those individual podcasts, I see a successful TLS
+ connection followed by a series of HTTP RSTs and the connection being
+ torn down. Examples of podcasts not updating include:
+ 	*KQED's Forum	*NPR Topics: Technology Podcast	*60-Second Science  
+ (SciAm)	*Discovery    (BBC)
+ 	My other dozen or so podcasts are updating normally.
+ Any ideas?
+ TIA!
+ JK
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140711/8e9382bf/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Parital iTunes Podcast Outage?
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+fiber cut WA-OR, again
+###############################################################
+ 144 strand fiber, complete cut-- 7 GE10's down hard multiple GE1's
+ Affecting metroE, 911 etc.  Same as 3.5 weeks ago.
+ I'm a sad panda
+ -chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140711/b1fe1a2c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Network Issues?
+###############################################################
+ We had major packet loss to anything utilizing Verizon's network this
+ morning from about 8:10am Central time to 8:54am.
+ Anyone else see any issues, we were seeing it through Zayo and GTT/Nlayer.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140713/c5b6a415/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ILEC/CLEC translations update notice
+###############################################################
+ If you do translations work for a carrier, wireline or wireless (Sprint,
+ I'm talkin' to *you*, *my* phone can't hit it from 727-647), you might check
+ and make sure you can get to 217-777(-0001), a new CLEC reported as widely 
+ unreachable on the voiceops list (for whose readers, apologies for the
+ duplication).
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+ St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 74, Issue 8
+###############################################################
+ This is not a request line.
+ On Jul 15, 2014 12:01 PM, <outages-request at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140715/75373b76/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Qwest/Centurylink outage in Sunnyvale
+###############################################################
+ Sounds like the same issue as a few months ago. My local circuit is up but the BGP peer is not pinging.
+ -- 
+  0x8486EDA8
+  http://spodder.com/
+ On Fri, Jul 18, 2014 at 11:43:00AM +0100, Charlie Allom via Outages <outages at outages.org> wrote:
+ resolved.
+ -- 
+  0x8486EDA8
+  http://spodder.com/
+ Level3 10G DWDM Ckt from Detroit to Chicago currently out of service 
+ (down at 6:15am EDT).
+ Possibly related to some sort of transport failure in Dexter, MI that 
+ happened around the same time.
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 3363 Tecumseh Rd. E
+ Windsor, Ontario
+ N8W 1H4
+ tel. 519-985-8410
+ fax. 519-985-8409        
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 10G DWDM Ckt Detroit to Chicago
+###############################################################
+ Looks like our circuit came back up a few minutes ago.
+ We took a couple of brief hits on 2 1Gig DIAs out of Southfield, MI 
+ though - not sure if that was related.
+ At 06:48 AM 19/07/2014, Clayton Zekelman wrote:
+ >Level3 10G DWDM Ckt from Detroit to Chicago currently out of service 
+ >(down at 6:15am EDT).
+ >Possibly related to some sort of transport failure in Dexter, MI 
+ >that happened around the same time.
+ >---
+ >Clayton Zekelman
+ >Managed Network Systems Inc. (MNSi)
+ >3363 Tecumseh Rd. E
+ >Windsor, Ontario
+ >N8W 1H4
+ >tel. 519-985-8410
+ >fax. 519-985-8409
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 3363 Tecumseh Rd. E
+ Windsor, Ontario
+ N8W 1H4
+ tel. 519-985-8410
+ fax. 519-985-8409        
+###############################################################
+END
+###############################################################
+
+###############################################################
+Megapath DNS down
+###############################################################
+ Looks like Megapath DNS server are non-responsive:
+ 64.105.172.26
+ 64.105.172.27
+ This same issue occured back in January..
+ We have a lot of end-users down..  Any from Megapath around today?  We
+ have contacted Megapath through the normal channels, no response (ya ya
+ I know it's Sunday).
+ Sincerely,
+ Bobby Glover
+ Director of Information Services
+ SVI Incorporated
+###############################################################
+END
+###############################################################
+
+###############################################################
+wiki.outage.org outage?
+###############################################################
+ Is the wiki site supposed to be down?
+ (Can't contact the database server: Can't connect to local MySQL server
+ through socket '/var/run/mysqld/mysqld.sock' (111) (localhost))
+ Apologies in advance for sending this to the entire group - I do not have
+ the admins' email address.
+ -- 
+ -------------------------------------------------------------------
+ On the Internet, you can be anything you want.
+ It's strange so many people choose to be stupid.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140721/26bc441f/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+VoIP Innovations
+###############################################################
+ SIP not completing calls, anyone know why?
+ Just got this from them a few minutes ago - likely related:
+   * *TicketID : */93198/
+   * *Opened : */7/22/2014 5:56:00 PM/
+   * *Created by : */IanH/
+   * *Original Issue : *
+       o VI had experienced a brief disruption wherein inbound and outbound
+         traffic was being rejected at approximately 530pm Eastern. While
+         this issue has since resolved itself our engineering team is aware
+         of this and investigating this matter further. We will continue to
+         advise as we receive updated information from our engineering team.
+         Thank you
+ On 07/22/2014 03:57 PM, Plexicomm Admin via Outages wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140722/8176143d/attachment.html>
+ There's a public ticket open for this, #93198. No cause identified but they're looking into it.
+ Calls are flowing for me.
+ Patrick
+ Sent from my iPhone
+ anyone else with 10Gbps DWDM and Transit links down around SF? Wondering
+ how widespread it is, while I wait for progress on the ticket...
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140723/72e8f80b/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+multiple XO circuits down in SF area
+###############################################################
+ Our link from Detroit to Los Angeles is up. 
+ Sent from my iPhone
+ On Jul 23, 2014, at 6:53 PM, "Ray Wong via Outages" <outages at outages.org> wrote:
+ We also have some XO circuits down in the bay area..
+ Peter Kranz
+ www.UnwiredLtd.com <http://www.unwiredltd.com/> 
+ Desk: 510-868-1614 x100
+ Mobile: 510-207-0000
+ pkranz at unwiredltd.com <mailto:pkranz at unwiredltd.com> 
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ray Wong via Outages
+ Sent: Wednesday, July 23, 2014 3:51 PM
+ Subject: [outages] multiple XO circuits down in SF area
+ anyone else with 10Gbps DWDM and Transit links down around SF? Wondering how widespread it is, while I wait for progress on the ticket...
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140723/76d447a3/attachment.html>
+ http://www.itnews.com.au/News/390220,telstra-announces-closure-of-2g-network
+ .aspx
+ This is going to be hard for the companies that use GSM diallers for alarms
+ and things like that
+ Ruff, Ruff...!
+ Network IPdog
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ Quote of the Day: "I have not failed. I've just found 10,000 ways that won't
+ work." ~ Thomas Edison
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140724/5beee9cf/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Telstra announces closure of 2G network
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone else seeing www.ebay.com down?
+###############################################################
+ Anyone else seeing www.ebay.com down?
+ Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ same.
+ root at nagios:/home/fbulk# wget -4 www.ebay.com
+ --2014-07-28 10:12:09--  http://www.ebay.com/
+ Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ ...
+ Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ HTTP request sent, awaiting response... 500 Internal Server Error
+ 2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.265 ms  0.198 ms  0.198
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.192 ms  0.138 ms  0.124 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.649 ms  1.607 ms
+ 1.555 ms
+  4  38.104.184.26  7.006 ms  6.794 ms  6.604 ms
+  5  te0-0-1-1.rcr11.dsm01.atlas.cogentco.com (38.104.184.25)  5.877 ms
+ 5.849 ms  5.790 ms
+  6  te0-2-0-0.ccr41.ord01.atlas.cogentco.com (154.54.46.237)  13.036 ms
+ 13.190 ms  13.134 ms
+  7  be2098.ccr41.atl01.atlas.cogentco.com (154.54.29.98)  30.992 ms  30.916
+ ms  30.948 ms
+  8  be2050.ccr21.atl02.atlas.cogentco.com (154.54.0.166)  31.088 ms  31.071
+ ms  31.552 ms
+  9  qwest.atl02.atlas.cogentco.com (154.54.13.30)  30.773 ms  30.765 ms
+ 30.690 ms
+ 10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms  47.390
+ ms
+ 11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089 ms
+ 47.661 ms
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ root at nagios:/home/fbulk#
+ Frank
+ Seeing same issue from here (Toronto, ON) - error 500
+ On 2014-07-28, 11:15 AM, "Frank Bulk via Outages" <outages at outages.org>
+ wrote:
+ >Anyone else seeing www.ebay.com down?
+ >Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ >same.
+ >root at nagios:/home/fbulk# wget -4 www.ebay.com
+ >--2014-07-28 10:12:09--  http://www.ebay.com/
+ >Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ >...
+ >Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ >HTTP request sent, awaiting response... 500 Internal Server Error
+ >2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ >root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ >Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ >Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30
+ >hops max
+ >ms
+ >1.555 ms
+ >5.849 ms  5.790 ms
+ >13.190 ms  13.134 ms
+ >30.916
+ >ms  30.948 ms
+ >31.071
+ >ms  31.552 ms
+ >30.690 ms
+ >10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms  47.390
+ >ms
+ >11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089 ms
+ >47.661 ms
+ >12  * * *
+ >13  * * *
+ >14  * * *
+ >15  * * *
+ >16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ >root at nagios:/home/fbulk#
+ >Frank
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ >From the IND area (looks down to me).
+ [root at copper ~]# traceroute www.ebay.com
+ traceroute to www.ebay.com (66.135.210.181), 30 hops max, 40 byte packets
+  1  host1.indianafiber.net (64.184.1.1)  0.594 ms  0.531 ms  0.468 ms
+  2  208.103.3.185 (208.103.3.185)  1.010 ms  0.952 ms  0.896 ms
+  3   (69.160.211.29)  1.223 ms  1.888 ms  1.078 ms
+  4  xe-10-3-0.bar2.Cincinnati1.Level3.net (4.59.42.17)  3.622 ms  3.592 ms
+  3.708 ms
+  5  ae-0-11.bar1.Cincinnati1.Level3.net (4.69.136.209)  3.724 ms  4.040 ms
+  3.880 ms
+  6  ae-10-10.ebr2.Chicago1.Level3.net (4.69.136.214)  10.051 ms  9.985 ms
+ 9.911 ms
+  7  ae-5-5.ebr2.Chicago2.Level3.net (4.69.140.194)  9.844 ms  9.780 ms
+ 10.369 ms
+  8  ae-2-52.edge3.Chicago3.Level3.net (4.69.138.168)  10.311 ms  10.249 ms
+  10.136 ms
+  9  sl-st20-chi-10-0-0.sprintlink.net (144.232.8.113)  9.989 ms
+ sl-st20-chi-14-0-0.sprintlink.net (144.232.19.173)  10.251 ms  10.186 ms
+ 10  sl-crs2-chi-0-12-2-0.sprintlink.net (144.232.19.145)  15.594 ms
+ 13.142 ms  12.631 ms
+ 11  144.232.11.234 (144.232.11.234)  22.400 ms  21.405 ms  22.623 ms
+ 12  144.232.12.139 (144.232.12.139)  38.565 ms  38.472 ms  37.537 ms
+ 13  144.232.11.178 (144.232.11.178)  37.476 ms  37.420 ms  37.206 ms
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ 19  *
+ [root at copper ~]# ping www.ebay.com
+ PING www.g.ebay.com (66.135.210.61) 56(84) bytes of data.
+ --- www.g.ebay.com ping statistics ---
+ 23 packets transmitted, 0 received, 100% packet loss, time 22103ms
+ [root at copper ~]# 
+ -- 
+ Jim Wininger
+ -----Original Message-----
+ From: Frank Bulk via Outages <outages at outages.org>
+ Reply-To: Frank Bulk <frnkblk at iname.com>
+ Date: Monday, July 28, 2014 at 11:15 AM
+ Subject: [outages] Anyone else seeing www.ebay.com down?
+ Anyone else seeing www.ebay.com down?
+ Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ same.
+ root at nagios:/home/fbulk# wget -4 www.ebay.com
+ --2014-07-28 10:12:09--  http://www.ebay.com/
+ Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ ...
+ Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ HTTP request sent, awaiting response... 500 Internal Server Error
+ 2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.265 ms  0.198 ms  0.198
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.192 ms  0.138 ms  0.124 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.649 ms  1.607 ms
+ 1.555 ms
+  4  38.104.184.26  7.006 ms  6.794 ms  6.604 ms
+  5  te0-0-1-1.rcr11.dsm01.atlas.cogentco.com (38.104.184.25)  5.877 ms
+ 5.849 ms  5.790 ms
+  6  te0-2-0-0.ccr41.ord01.atlas.cogentco.com (154.54.46.237)  13.036 ms
+ 13.190 ms  13.134 ms
+  7  be2098.ccr41.atl01.atlas.cogentco.com (154.54.29.98)  30.992 ms  30.916
+ ms  30.948 ms
+  8  be2050.ccr21.atl02.atlas.cogentco.com (154.54.0.166)  31.088 ms  31.071
+ ms  31.552 ms
+  9  qwest.atl02.atlas.cogentco.com (154.54.13.30)  30.773 ms  30.765 ms
+ 30.690 ms
+ 10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms  47.390
+ ms
+ 11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089 ms
+ 47.661 ms
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ root at nagios:/home/fbulk#
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Yes, I do also, it's just sitting at Waiting ... for me.
+ it loaded after 2 or 3 minutes.
+ On 7/28/2014 8:15 AM, Frank Bulk via Outages wrote:
+  <CFFBE292.7C404%paul@paulstewart.org>
+ Same from Texas. Although it just loaded after a long time on a refresh. Losing tracert after Ashburn (via AS19754 LiveAir to AS6939 HE)
+ C:\Users\jwb_000>tracert www.ebay.com
+ Tracing route to www.g.ebay.com [66.135.210.61]
+ over a maximum of 30 hops:
+   1    <1 ms    <1 ms    <1 ms  172.24.130.1
+   2    13 ms     8 ms    11 ms  172.24.128.1
+   3    18 ms    15 ms    22 ms  1825a-cloud-cv60-gw.1825a-rtr0.austin-tx.as19754.liveair.net [199.66.152.129]
+   4    14 ms    13 ms    18 ms  1825a-q303-10g.1950stemmons-rtr0.dallas-tx.as19754.liveair.net [199.66.153.86]
+   5    23 ms    22 ms    23 ms  ge6-16.core1.dal1.he.net [184.105.17.81]
+   6    33 ms    48 ms    35 ms  10ge5-4.core1.atl1.he.net [184.105.213.114]
+   7    53 ms    48 ms    46 ms  10ge16-5.core1.ash1.he.net [184.105.213.109]
+   8     *        *        *     Request timed out.
+   9     *        *        *     Request timed out.
+  10     *        *        *     Request timed out.
+  11     *        *        *     Request timed out.
+  12     *        *        *     Request timed out.
+  13     *        *        *     Request timed out.
+  14     *        *
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Paul Stewart via Outages
+ Sent: Monday, July 28, 2014 10:21 AM
+ Subject: Re: [outages] Anyone else seeing www.ebay.com down?
+ Seeing same issue from here (Toronto, ON) - error 500
+ On 2014-07-28, 11:15 AM, "Frank Bulk via Outages" <outages at outages.org>
+ wrote:
+ >Anyone else seeing www.ebay.com down?
+ >Here's a wget showing a hit to 66.135.210.181 and also a traceroute to
+ >the same.
+ >root at nagios:/home/fbulk# wget -4 www.ebay.com
+ >--2014-07-28 10:12:09--  http://www.ebay.com/ Resolving www.ebay.com...
+ >66.135.210.181, 66.211.181.161, 66.211.181.181, ...
+ >Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ >HTTP request sent, awaiting response... 500 Internal Server Error
+ >2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ >root at nagios:/home/fbulk# tcptraceroute www.ebay.com Selected device
+ >eth0.3, address 96.31.0.5, port 40467 for outgoing packets Tracing the
+ >path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30 hops max
+ >0.198 ms
+ >ms
+ >1.555 ms
+ >5.849 ms  5.790 ms
+ >13.190 ms  13.134 ms
+ >30.916
+ >ms  30.948 ms
+ >31.071
+ >ms  31.552 ms
+ >30.690 ms
+ >10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms
+ >47.390 ms
+ >11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089
+ >ms
+ >47.661 ms
+ >12  * * *
+ >13  * * *
+ >14  * * *
+ >15  * * *
+ >16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259
+ >ms root at nagios:/home/fbulk#
+ >Frank
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Proprietary Information Notice: This message may contain proprietary information that is the property of LiveAir Networks or its clients. Such information may not be shared with outside entities without the prior written consent of LiveAir Networks. If you have received this message in error please destroy it immediately.
+ * Frank Bulk via Outages (outages at outages.org) wrote:
+ Yup, looks pretty unhappy.  I don't think it's a network issue but
+ rather something internal..
+ ... wget www.ebay.com
+ --2014-07-28 11:23:41--  http://www.ebay.com/
+ Resolving www.ebay.com (www.ebay.com)... 66.135.210.181, 66.211.181.161, 66.211.181.181, ...
+ Connecting to www.ebay.com (www.ebay.com)|66.135.210.181|:80... connected.
+ HTTP request sent, awaiting response... 503 Service Unavailable
+ 2014-07-28 11:26:15 ERROR 503: Service Unavailable.
+ 	Thanks,
+ 		Stephen
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 819 bytes
+ Desc: Digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140728/e29b6a76/attachment.sig>
+  <CFFBE302.9D41E%jwininger@ifncom.net>
+ See no issues from here in the Denver area. Can't ping or trace to it
+ either, but figure that is by design. Site is coming up here fine though...
+ Chris
+ On 07/28/2014 09:23 AM, James Wininger via Outages wrote:
+ Our monitoring system says it's back up.
+ If anyone sees a posting from eBay or other authoritative source today,
+ please post to this thread, otherwise post on -discussion. 
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ via Outages
+ Sent: Monday, July 28, 2014 10:15 AM
+ Subject: [outages] Anyone else seeing www.ebay.com down?
+ Anyone else seeing www.ebay.com down?
+ Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ same.
+ root at nagios:/home/fbulk# wget -4 www.ebay.com
+ --2014-07-28 10:12:09--  http://www.ebay.com/
+ Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ ...
+ Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ HTTP request sent, awaiting response... 500 Internal Server Error
+ 2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.265 ms  0.198 ms  0.198
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.192 ms  0.138 ms  0.124 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.649 ms  1.607 ms
+ 1.555 ms
+  4  38.104.184.26  7.006 ms  6.794 ms  6.604 ms
+  5  te0-0-1-1.rcr11.dsm01.atlas.cogentco.com (38.104.184.25)  5.877 ms
+ 5.849 ms  5.790 ms
+  6  te0-2-0-0.ccr41.ord01.atlas.cogentco.com (154.54.46.237)  13.036 ms
+ 13.190 ms  13.134 ms
+  7  be2098.ccr41.atl01.atlas.cogentco.com (154.54.29.98)  30.992 ms  30.916
+ ms  30.948 ms
+  8  be2050.ccr21.atl02.atlas.cogentco.com (154.54.0.166)  31.088 ms  31.071
+ ms  31.552 ms
+  9  qwest.atl02.atlas.cogentco.com (154.54.13.30)  30.773 ms  30.765 ms
+ 30.690 ms
+ 10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms  47.390
+ ms
+ 11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089 ms
+ 47.661 ms
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ root at nagios:/home/fbulk#
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <CFFBE292.7C404%paul@paulstewart.org>
+ wget gives a 503, but I can pull it up just fine in Chrome.
+ --John
+ On 07/28/2014 10:21 AM, Paul Stewart via Outages wrote:
+ >> Anyone else seeing www.ebay.com down?
+ >>
+ >> Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ >> same.
+ >>
+ >> root at nagios:/home/fbulk# wget -4 www.ebay.com
+ >> --2014-07-28 10:12:09--  http://www.ebay.com/
+ >> Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ >> ...
+ >> Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ >> HTTP request sent, awaiting response... 500 Internal Server Error
+ >> 2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ >>
+ >> root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ >> Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ >> Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www), 30
+ >> hops max
+ >> 1  router-core-inside.mtcnet.net (96.31.0.254)  0.265 ms  0.198 ms  0.198
+ >> ms
+ >> 2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.192 ms  0.138 ms  0.124 ms
+ >> 3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.649 ms  1.607 ms
+ >> 1.555 ms
+ >> 4  38.104.184.26  7.006 ms  6.794 ms  6.604 ms
+ >> 5  te0-0-1-1.rcr11.dsm01.atlas.cogentco.com (38.104.184.25)  5.877 ms
+ >> 5.849 ms  5.790 ms
+ >> 6  te0-2-0-0.ccr41.ord01.atlas.cogentco.com (154.54.46.237)  13.036 ms
+ >> 13.190 ms  13.134 ms
+ >> 7  be2098.ccr41.atl01.atlas.cogentco.com (154.54.29.98)  30.992 ms
+ >> 30.916
+ >> ms  30.948 ms
+ >> 8  be2050.ccr21.atl02.atlas.cogentco.com (154.54.0.166)  31.088 ms
+ >> 31.071
+ >> ms  31.552 ms
+ >> 9  qwest.atl02.atlas.cogentco.com (154.54.13.30)  30.773 ms  30.765 ms
+ >> 30.690 ms
+ >> 10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms  47.390
+ >> ms
+ >> 11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089 ms
+ >> 47.661 ms
+ >> 12  * * *
+ >> 13  * * *
+ >> 14  * * *
+ >> 15  * * *
+ >> 16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ >> root at nagios:/home/fbulk#
+ >>
+ >>
+ >> Frank
+ >>
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+  <53D66BA6.6050800@boldnetworks.net>
+ Working OK from Oregon on Sprit.
+ On Jul 28, 2014 8:44 AM, "jd via Outages" <outages at outages.org> wrote:
+ >> Anyone else seeing www.ebay.com down?
+ >>
+ >> Here's a wget showing a hit to 66.135.210.181 and also a traceroute to the
+ >> same.
+ >>
+ >> root at nagios:/home/fbulk# wget -4 www.ebay.com
+ >> --2014-07-28 10:12:09--  http://www.ebay.com/
+ >> Resolving www.ebay.com... 66.135.210.181, 66.211.181.161, 66.211.181.181,
+ >> ...
+ >> Connecting to www.ebay.com|66.135.210.181|:80... connected.
+ >> HTTP request sent, awaiting response... 500 Internal Server Error
+ >> 2014-07-28 10:13:09 ERROR 500: Internal Server Error.
+ >>
+ >> root at nagios:/home/fbulk# tcptraceroute www.ebay.com
+ >> Selected device eth0.3, address 96.31.0.5, port 40467 for outgoing packets
+ >> Tracing the path to www.ebay.com (66.135.210.181) on TCP port 80 (www),
+ >> 30
+ >> hops max
+ >>   1  router-core-inside.mtcnet.net (96.31.0.254)  0.265 ms  0.198 ms
+ >>  0.198
+ >> ms
+ >>   2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.192 ms  0.138 ms  0.124 ms
+ >>   3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.649 ms  1.607 ms
+ >> 1.555 ms
+ >>   4  38.104.184.26  7.006 ms  6.794 ms  6.604 ms
+ >>   5  te0-0-1-1.rcr11.dsm01.atlas.cogentco.com (38.104.184.25)  5.877 ms
+ >> 5.849 ms  5.790 ms
+ >>   6  te0-2-0-0.ccr41.ord01.atlas.cogentco.com (154.54.46.237)  13.036 ms
+ >> 13.190 ms  13.134 ms
+ >>   7  be2098.ccr41.atl01.atlas.cogentco.com (154.54.29.98)  30.992 ms
+ >>  30.916
+ >> ms  30.948 ms
+ >>   8  be2050.ccr21.atl02.atlas.cogentco.com (154.54.0.166)  31.088 ms
+ >>  31.071
+ >> ms  31.552 ms
+ >>   9  qwest.atl02.atlas.cogentco.com (154.54.13.30)  30.773 ms  30.765 ms
+ >> 30.690 ms
+ >> 10  dvr-edge-13.inet.qwest.net (67.14.24.93)  46.902 ms  47.658 ms
+ >>  47.390
+ >> ms
+ >> 11  67-148-54-10.dia.static.qwest.net (67.148.54.10)  47.381 ms  48.089
+ >> ms
+ >> 47.661 ms
+ >> 12  * * *
+ >> 13  * * *
+ >> 14  * * *
+ >> 15  * * *
+ >> 16  www.ebay.com (66.135.210.181) [open]  76.083 ms  72.986 ms  72.259 ms
+ >> root at nagios:/home/fbulk#
+ >>
+ >>
+ >> Frank
+ >>
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ >>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140728/1493f156/attachment.html>
+  <1405784320_392285@surgemail.mnsi.net>
+ Well, the same 10 Gig DWDM is down again - 10:53am.  Level3 reports a 
+ fibre cut this time - near the same location as the card failure on the 19th...
+ At 11:38 AM 19/07/2014, Clayton Zekelman via Outages wrote:
+ >Looks like our circuit came back up a few minutes ago.
+ >We took a couple of brief hits on 2 1Gig DIAs out of Southfield, MI 
+ >though - not sure if that was related.
+ >At 06:48 AM 19/07/2014, Clayton Zekelman wrote:
+ >>Level3 10G DWDM Ckt from Detroit to Chicago currently out of 
+ >>service (down at 6:15am EDT).
+ >>
+ >>Possibly related to some sort of transport failure in Dexter, MI 
+ >>that happened around the same time.
+ >>
+ >>
+ >>---
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 3363 Tecumseh Rd. E
+ Windsor, Ontario
+ N8W 1H4
+ tel. 519-985-8410
+ fax. 519-985-8409        
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T SMS outage?
+###############################################################
+ Is anyone else experiencing an AT&T outage?  I have clients stating they
+ have not received any sms/text messages since 5pm last night all with aT&T
+ phones.
+ We have an AT&T SMS modem that seems to be working, at least to other
+ carriers.
+ Verizon phone is receiving texts, MetroPCS phones are receiving texts, but
+ AT&T phones are not
+ These symptoms are being seen in messages originating from the Tampa, FL
+ area
+ Aaron D. Osgood 
+ Streamline Solutions L.L.C
+ 274 E. Eau Gallie Blvd. #336
+ Indian Harbour Beach, FL 32937
+ TEL: 207-518-8455
+ MOBILE: 207-831-5829
+ GTalk: aaron.osgood
+  <mailto:AOsgood at Streamline-Solutions.net> AOsgood at Streamline-Solutions.net
+  <http://www.streamline-solutions.net/> http://www.streamline-solutions.net
+ Introducing Efficiency to Business since 1986. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140731/a3bf84d4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+More on AT&T
+###############################################################
+ Apparently this is reasonably widespread: http://downdetector.com/status/att
+ Aaron D. Osgood 
+ Streamline Solutions L.L.C
+ 274 E. Eau Gallie Blvd. #336
+ Indian Harbour Beach, FL 32937
+ TEL: 207-518-8455
+ MOBILE: 207-831-5829
+ GTalk: aaron.osgood
+  <mailto:AOsgood at Streamline-Solutions.net> AOsgood at Streamline-Solutions.net
+  <http://www.streamline-solutions.net/> http://www.streamline-solutions.net
+ Introducing Efficiency to Business since 1986. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140731/2cd0c42a/attachment.html>
+###############################################################
+END
+###############################################################
+

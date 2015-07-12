@@ -1,0 +1,1216 @@
+###############################################################
+Verizon west coast outage?
+###############################################################
+  Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the west coast only.
+ Joseph
+ We just opened a ticket with Verizon and were informed of outages for Verizon on East Coast.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Joseph Jackson
+ Sent: Friday, October 02, 2009 3:46 PM
+ Subject: [outages] Verizon west coast outage?
+ Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the west coast only.
+ Joseph
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Had a customer call in 10 minutes ago about inability to get VPN access to
+ one of our sites...their traceroute was also stuck at alter.net (in NYC, I
+ believe), they told me over the phone.  But it came back 4 minutes, before I
+ could get my own traceroute in.  When I was running my ping (before the
+ traceroute) I was seeing some pings of over 1 second.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Joseph Jackson
+ Sent: Friday, October 02, 2009 2:46 PM
+ Subject: [outages] Verizon west coast outage?
+ Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for
+ hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the west
+ coast only.
+ Joseph
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I can confirm that something is going on with Vz/MCI/UUnet/Alternet on
+ the west coast; there's a large number of route denouncements and
+ announcements being witnessed causing all kinds of (broken)
+ reconvergence with packets destined to the east coast as well as the
+ south.
+ I don't have any other information.  BGPlay might come in handy.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Fri, Oct 02, 2009 at 12:45:53PM -0700, Joseph Jackson wrote:
+ 	<B354A4727CF98340AA3E9ACE7906419662E9EC2FD1@AUSP01VMBX08.collaborationhost.net>
+ seeing similar on the east coast; somewhere between alter.net (vzb)  
+ and level3 in nyc just before the chi hop.
+ at least that's what my traceroute is telling me.
+ On Oct 2, 2009, at 3:54 PM, Jake VanDewater wrote:
+ --
+ Wes
+ http://claimid.com/wesyoung
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 2444 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091002/aec992da/attachment.bin>
+ 	<B354A4727CF98340AA3E9ACE7906419662E9EC2FD1@AUSP01VMBX08.collaborationhost.net>
+ This also seemed to have effected Europe connecting to Verizon routes in
+ Denver and Sydney...  and a Circuit we have on VZB in New York reaching
+ much of the internet...
+ Looks to be stable again now...
+ Lee
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Jake VanDewater
+ Sent: 02 October 2009 20:55
+ Subject: Re: [outages] Verizon west coast outage?
+ We just opened a ticket with Verizon and were informed of outages for
+ Verizon on East Coast.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Joseph Jackson
+ Sent: Friday, October 02, 2009 3:46 PM
+ Subject: [outages] Verizon west coast outage?
+ Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for
+ hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the
+ west coast only.
+ Joseph
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ______________________________________________________________________
+ This email has been scanned by the MessageLabs Email Security System.
+ For more information please visit http://www.messagelabs.com/email 
+ ______________________________________________________________________
+ ______________________________________________________________________
+ This email has been scanned by the MessageLabs Email Security System.
+ For more information please visit http://www.messagelabs.com/email 
+ ______________________________________________________________________
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABBtNA6duyyQbRa3aPMMtewAQAAAAA=@iname.com>
+ I'll add here that NANOG also has a couple threads going on about
+ this which appear quite relevant, but it's hard to tell what's broken
+ and why at this point.
+ http://www.merit.edu/mail.archives/nanog/msg00678.html
+ http://www.merit.edu/mail.archives/nanog/msg00676.html
+ http://www.merit.edu/mail.archives/nanog/msg00679.html
+ http://www.merit.edu/mail.archives/nanog/msg00677.html
+ http://www.merit.edu/mail.archives/nanog/msg00680.html
+ http://www.merit.edu/mail.archives/nanog/msg00681.html
+ And possibly related, but unsure given that this report is significantly
+ earlier than the others (AS7132 = AT&T).
+ http://www.merit.edu/mail.archives/nanog/msg00671.html
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Fri, Oct 02, 2009 at 03:00:05PM -0500, Frank Bulk - iName.com wrote:
+ 	<B354A4727CF98340AA3E9ACE7906419662E9EC2FD1@AUSP01VMBX08.collaborationhost.net>
+ 	<FA4DDE8EE575F042BAF0FD1FD6C6A15503787F30@mlbrn2exc003.messagelabs.com>
+ I'll be very interested to know what the root cause of this was.
+ All the discussion indicates there is a single point of failure
+ somewhere within Verizon's network out east; route propagation and
+ reconvergence should have mitigated things, so the question is why it
+ didn't.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Fri, Oct 02, 2009 at 09:12:47PM +0100, Lee Hetherington wrote:
+ 	<20091002201716.GA51952@icarus.home.lan>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ There appears to be a major outage on VZB Internet facing side of the
+ switch (east coast).
+ VZB west coast seems to be ok, at least for AS701 (uunet).
+ regards,
+ /virendra
+ Jeremy Chadwick wrote:
+ Lost east coast as well.
+ Issue started 3:13:58 PM, ended 3:50:11 PM EST.
+ Seamus
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Joseph Jackson
+ Sent: Friday, October 02, 2009 3:46 PM
+ Subject: [outages] Verizon west coast outage?
+ Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for
+ hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the
+ west coast only.
+ Joseph
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<24177BAABBBEA3499F56E08E16484AAC03119591@exchange01.fujiesystems.com>
+ This was posted on VZ's website as an explanation for the outage
+ !
+ Original Link:
+ http://forums.verizon.com/t5/Verizon-at-Home/Northeast-Router-Failure/ba
+ -p/87001
+ !
+ "As many of you may know, a router failed in the Verizon network this
+ afternoon causing problems for some Verizon FiOS and High Speed Internet
+ users. Here's what happened.
+ The router in question is in New York City and handles traffic from the
+ Verizon network to the larger Internet. It is one of a number of such
+ routers in our network.
+ When routers have problems, they are designed to report that they are
+ sick. Internet traffic is rerouted to adjacent routers automatically and
+ sent around the trouble spot. In this case, that didn't happen. The
+ router went into a hung state and did not appear to the rest of the
+ network as though it was having problems.
+ That meant that some user traffic from the northeast continued to flow
+ to the stalled router, but couldn't be processed. Presto - an outage for
+ those users.  Verizon FiOS, High Speed Internet and small business
+ customers were affected.
+ The problem occurred at approximately 3:15 EDT and was detected and
+ resolved :40 minutes later. Traffic began to flow normally and customers
+ returned to service at that point. 
+ Currently, we're monitoring the router and the network watching for any
+ other problems."
+ !
+ Andre
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Seamus Hartmann
+ Sent: Friday, October 02, 2009 3:55 PM
+ Subject: Re: [outages] Verizon west coast outage?
+ Lost east coast as well.
+ Issue started 3:13:58 PM, ended 3:50:11 PM EST.
+ Seamus
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Joseph Jackson
+ Sent: Friday, October 02, 2009 3:46 PM
+ Subject: [outages] Verizon west coast outage?
+ Anyone seeing packet loss going through .so-6-0-0.xt1.lax7.alter.net for
+ hosts on Verizon but on the East Coast dying?  
+ Have a prefix that isn't available if data comes into Verizon on the
+ west coast only.
+ Joseph
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ This message is intended only for the personal and confidential use of the recipients named above. 
+ If the reader of this email is not the intended recipient, you have received this email in error and any review, 
+ dissemination, distribution or copying is strictly prohibited. If you have received this email in error, 
+ please notify the sender immediately by return email and permanently delete the copy you received. 
+ This message is provided for informational purposes and should not be construed as a solicitation or offer 
+ to buy or sell any securities or related financial instruments. Wolverine is not responsible for any 
+ recommendation, solicitation, offer or agreement or any information about any transaction, customer account 
+ or account activity that may be attached to or contained in this communication. Wolverine accepts no 
+ liability for any content contained in the email, or any errors or omissions arising as a result of 
+ email transmission. Any opinions contained in this email constitute the sender's best judgment at this 
+ time and are subject to change without notice.
+ On Fri, 2009-10-02 at 12:45 -0700, Joseph Jackson wrote:
+ FYI, there was a power outage in downtown LA about that time.  None of
+ my stuff dropped (carrier center, 600 hope), no diesel fumes from
+ generators, etc. (including one Wilshire)
+ -- 
+ Christopher McCrory
+  "The guy that keeps the servers running"
+ chrismcc at pricegrabber.com
+  http://www.pricegrabber.com
+ Let's face it, there's no Hollow Earth, no robots, and
+ no 'mute rays.' And even if there were, waxed paper is
+ no defense.  I tried it.  Only tinfoil works.
+ 	<24177BAABBBEA3499F56E08E16484AAC03119591@exchange01.fujiesystems.com>
+ 	<6BCBFA220A7F4F49BD5A8EEA0A0F770926F24C1E@WOLVE-MAILBOX.wolve.com>
+ On Fri, Oct 02, 2009 at 04:55:30PM -0500, Forestal, Andre Jr. wrote:
+ It appears BFD is a protocol foreign to Verizon.  And why didn't hold
+ timers expire on associated iBGP peers?  Questions, questions...
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ Oh yeah....  Pretty bad.  Any insider info?  I am seeing issues at
+ 0.ge-1-3-0.xl4.nyc4.alter.net [152.63.20.54]
+ On 10/2/09 3:45 PM, "Joseph Jackson" <jjackson at aninetworks.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Busines issues?
+###############################################################
+ Most outbound traffic is dying at nyc4.alter.net. 
+ Keith Wallace
+ Director, Telecommunications
+ PC Connection Services
+ IT Solutions for Business
+ kwallace at pcconnection.com
+ Phone: 603-683-2290 Fax: 603-683-2355
+ www.pcconnection.com <http://www.pcconnection.com/> 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091002/5f4b4723/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Business Outage
+###############################################################
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABBtNA6duyyQbRa3aPMMtewAQAAAAA=@iname.com>
+ Over 1000 calls in the VZ queue.  They know they're broken.  No idea  
+ why or ETR yet.
+ -- 
+ TTFN,
+ patrick
+ http://twitter.com/verizon
+ On 10/2/09 4:12 PM, "Patrick W. Gilmore" <patrick at ianai.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Business (as701) issues in North East USA
+###############################################################
+ Verizon Business is having some issues with unreachability to various  
+ destinations.
+ For instance, I cannot reach OpenDNS right now.  A colleague on FiOS  
+ is having issues reaching a great number of places.  Etc.
+ Is anyone seeing the problem in other geographic areas?
+ -- 
+ TTFN,
+ patrick
+ I have FiOS in North NJ and it was flapping on and off, but recently  
+ has seemed to fully recover.
+ -Matt Dodd
+ On Oct 2, 2009, at 3:53 PM, Patrick W. Gilmore wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon does not see the complete IPv6 backbone
+###############################################################
+ http://www.rollernet.us/wordpress/2009/10/verizon-refuses-to-provide-complete-ipv6/ 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ twitter: FranckMartin 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091005/102a7256/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Above Net Issue?
+###############################################################
+ Hello
+ Does any one if AboveNet had a issue at slightly before 12AM 10-10-2009?
+ We had some connection issues which last a few minutes.
+ -Ed
+ 0000 hours in what timezone?
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Sat, Oct 10, 2009 at 10:04:24PM -0700, Ed Ramon wrote:
+ 	<20091011171643.GA59397@icarus.home.lan>
+ Ah yes my apologize the event was just before 12AM eastern.
+ Ed
+ ----------------
+ contact info: http://edramon.tel
+ On Oct 11, 2009, at 10:16 AM, Jeremy Chadwick  
+ <outages at jdc.parodius.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+routing is all messed up in Fiji
+###############################################################
+ ISPs in Fiji do not see the same part of the Internet at the moment. 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ twitter: FranckMartin 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091014/fbcb470d/attachment.html>
+ Franck Martin wrote:
+ You might try being a little more specific and include something to 
+ support the statement :)
+ That statement sounds like something an end user would say when they 
+ dont know what is happening.
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 6672 bytes
+ Desc: S/MIME Cryptographic Signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091013/dd4151a9/attachment.bin>
+ 	<4AD52048.2040201@maxqe.com>
+ On one ISP you can ping some sites that you cannot ping on the other  
+ and vice versa.
+ Toute connaissance est une r?ponse ? une question
+ On 14/10/2009, at 12:50, Larry Brower <larry-lists at maxqe.com> wrote:
+ 	<4AD52048.2040201@maxqe.com>
+ 	<A934C6F5-B10B-4B12-A5D2-90AD774A0BEC@avonsys.com>
+ For info
+ Fiji is covered by only one AS registered with FINTEL
+ FINTEL is conected to the Southern Cross Cable
+ Fintel then distribute Internet to Connect/TFL, Kidanet and Unwired
+ Vodafone is under Kidanet
+ Toute connaissance est une r?ponse ? une question
+ On 14/10/2009, at 12:54, Franck Martin <franck at avonsys.com> wrote:
+ >>> ISPs in Fiji do not see the same part of the Internet at the moment.
+ >>>
+ >>>
+ 	<4AD52048.2040201@maxqe.com>
+ 	<A934C6F5-B10B-4B12-A5D2-90AD774A0BEC@avonsys.com>
+ Franck Martin wrote:
+ Specific examples would be useful :)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 6672 bytes
+ Desc: S/MIME Cryptographic Signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091013/471762b2/attachment-0001.bin>
+ 	<4AD52048.2040201@maxqe.com>	<A934C6F5-B10B-4B12-A5D2-90AD774A0BEC@avonsys.com>
+ 	<81F680B2-0CF2-438F-BC98-87142FA0C941@avonsys.com>
+ Have you tried resetting your cable modem?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091014/e3e106c0/attachment.html>
+ I just got that from one of the ISPs in Fiji.
+ ----
+ This is to inform you that Fiji International Telecommunications Limited (FINTEL) has issued a public notice advising its customers that a segment of the Southern Cross Cable is under technical maintenance until 2300UTC 14th October, 2009. They have also advised that this timeline may change due to circumstances beyond their control (e.g. weather).
+ During this time FINTEL has advised that there should be minimum disruptions to all Fiji traffic bound for this segment however they have also stated that during this time, the Southern Cross Cable Network will be considered in a hazardous state.
+ ---
+ Franck Martin 
+ http://www.avonsys.com/ 
+ twitter: FranckMartin 
+ ----- Original Message -----
+ From: "Larry Brower" <larry-lists at maxqe.com>
+ Cc: outages at outages.org
+ Sent: Wednesday, 14 October, 2009 1:08:06 PM GMT +12:00 Fiji
+ Subject: Re: [outages] routing is all messed up in Fiji
+ Franck Martin wrote:
+ Specific examples would be useful :)
+###############################################################
+END
+###############################################################
+
+###############################################################
+Charter Communications in Medford, OR
+###############################################################
+ Charter Communications is currently having an outage in Medford, OR.
+ Best I can confirm is that it is affecting many fiber, and possibly some
+ coax customers.
+ Our BGP session has been down since 6:45 PM PDT.  No ETR yet from the NOC.
+ Regards,
+ -- 
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+ Kameron Gasso wrote:
+ BGP peer came back up at 12:55 AM PDT this morning.  Don't have an RFO
+ yet, but did receive a maintenance notification this morning, scheduled
+ for 10/22 for "network expansion". :)
+ Thanks!
+ -- 
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+ Have you tried reseting your cable modem?
+ Franck Martin 
+ http://www.avonsys.com/ 
+ twitter: FranckMartin 
+ ----- Original Message -----
+ From: "Kameron Gasso" <kgasso-lists at visp.net>
+ Sent: Thursday, 15 October, 2009 4:36:37 PM GMT +12:00 Fiji
+ Subject: [outages] Charter Communications in Medford, OR
+ Charter Communications is currently having an outage in Medford, OR.
+ Best I can confirm is that it is affecting many fiber, and possibly some
+ coax customers.
+ Our BGP session has been down since 6:45 PM PDT.  No ETR yet from the NOC.
+ Regards,
+ -- 
+ Kameron Gasso | Senior Systems Administrator | visp.net
+ Direct: 541-955-6903 | Fax: 541-471-0821
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ On Thu, 15 Oct 2009 19:39:35 +1200, Franck Martin said:
+ Umm... given this:
+ I'm pretty sure *nobody* is clueless enough to run BGP over a cablemodem. ;)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 227 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091015/a7b1bdf4/attachment.bin>
+###############################################################
+END
+###############################################################
+
+###############################################################
+time.nist.gov down
+###############################################################
+ 192.43.244.18, time.nist.gov seems down for me.  Tried from 3 separate  
+ points, 3 separate carriers.
+ Hi,
+ On Fri, Oct 16, 2009 at 06:00:15PM -0700, Cord MacLeod wrote:
+ http://tf.nist.gov/tf-cgi/servers.cgi
+ currently lists only one server for me, where there are usually many
+ to chose from. I also noticed that the status column is missing.
+ I'm unable to determine if this is a scheduled maintenance.
+ -andreas
+ Same here.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Cord MacLeod
+ Sent: Friday, October 16, 2009 8:00 PM
+ Subject: [outages] time.nist.gov down
+ 192.43.244.18, time.nist.gov seems down for me.  Tried from 3 separate  
+ points, 3 separate carriers.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Looks like time.nist.gov is down for us as well.
+ However time-nw.nist.gov, time-a.nist.gov, & time-b.nist.gov are all working.
+ Dan English
+ Plexicomm - Internet Solutions
+ dan at plexicomm.net | 1.866.759.4678 x103
+ Fax: 1.866.852.4688 | Emergency Support: 1.866.759.9713
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 down in Atlanta
+###############################################################
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/7f15a739/attachment.html>
+ I saw our BGP peer to them bounce at 11:00:21 EST as well.  It came back at
+ 11:00:55 and the link stayed up.
+                 -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Howard
+ Sent: Tuesday, October 20, 2009 11:20 AM
+ Subject: [outages] Level 3 down in Atlanta
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/6dd0b30f/attachment.html>
+ 	<00e601ca519b$2206c450$66144cf0$@net>
+ We saw the level 3 peering bounce, but it looked like after it came back up,
+ there was some traffic being blackholed between level3 and regional
+ providers.
+ Things have recovered in the last 10-15 minutes.
+  - Gaurav
+ On Tue, Oct 20, 2009 at 9:36 AM, Scott Berkman <scott at sberkman.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/62a2c018/attachment.html>
+ 	<00e601ca519b$2206c450$66144cf0$@net>
+ If you are a Level3 customer, check the Portal. The only Atlanta issue I see
+ was earlier, but someone could have flipped a wrong switch working on this:
+ 3720051  Atlanta, GA ~ Voice / IP Outage ~ Dial Interfaces Down    Atlanta,
+ GA    10/20/09 2:38:00 PM GMT    Open    10/20/09 3:43:03 PM GMT    
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Berkman
+ Sent: Tuesday, October 20, 2009 11:37 AM
+ Subject: Re: [outages] Level 3 down in Atlanta
+ I saw our BGP peer to them bounce at 11:00:21 EST as well.  It came back at
+ 11:00:55 and the link stayed up.
+                 -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Howard
+ Sent: Tuesday, October 20, 2009 11:20 AM
+ Subject: [outages] Level 3 down in Atlanta
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott. 
+ 	<00e601ca519b$2206c450$66144cf0$@net>
+ 	<e812c41b0910200859y40944d5bt95d2559cbd582429@mail.gmail.com>
+ We seem to be back to normal now as well.
+ David Hiers
+ CCIE (R/S, V), CISSP
+ ADP Dealer Services
+ 2525 SW 1st Ave.
+ Suite 300W
+ Portland, OR 97201
+ o: 503-205-4467
+ f: 503-402-3277
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Gaurav Taparia
+ Sent: Tuesday, October 20, 2009 8:59 AM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Level 3 down in Atlanta
+ We saw the level 3 peering bounce, but it looked like after it came back up, there was some traffic being blackholed between level3 and regional providers.
+ Things have recovered in the last 10-15 minutes.
+  - Gaurav
+ On Tue, Oct 20, 2009 at 9:36 AM, Scott Berkman <scott at sberkman.net<mailto:scott at sberkman.net>> wrote:
+ I saw our BGP peer to them bounce at 11:00:21 EST as well.  It came back at 11:00:55 and the link stayed up.
+                 -Scott
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org<mailto:outages-bounces at outages.org>] On Behalf Of Scott Howard
+ Sent: Tuesday, October 20, 2009 11:20 AM
+ Subject: [outages] Level 3 down in Atlanta
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org<mailto:outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/5973b1b8/attachment.html>
+ Looks like it's all back up as of about 30 mins ago.
+ Apparently either a core switch or router failed, which took down much of
+ their network in Atlanta, as well as Memphis and Nashville.
+ Thanks,
+   Scott.
+ On Tue, Oct 20, 2009 at 8:19 AM, Scott Howard <scott at doc.net.au> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/e665e22e/attachment.html>
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com>
+ Just joined the list for this exact case!
+ We are in 56 Marietta and are operating currently (second time since 11AM).
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ "When you have eliminated the impossible, that which remains, however
+ improbable, must be the truth."
+ --- Sir Arthur Conan Doyle
+ On Tue, Oct 20, 2009 at 12:28 PM, Scott Howard <scott at doc.net.au> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/c50e02b1/attachment.html>
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com>
+ On Tue, Oct 20, 2009 at 09:28:21AM -0700, Scott Howard wrote:
+ Level 3 has a single router or switch handling packets at a major POP?
+ I doubt this, but the outage is confirmation something bad happened.
+ That said: where's the redundancy, and why didn't it kick in?
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com>
+ FWIW, here in Nashville on (3), we never saw any real problems, except
+ with reachability to Atlanta...
+ --
+ Tim
+ On Tue, Oct 20, 2009 at 11:28 AM, Scott Howard <scott at doc.net.au> wrote:
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com> 
+ 	<20091020170009.GA34345@icarus.home.lan>
+ There are four routes into Atlanta, I believe.
+ Getting to Atlanta wasn't a problem.
+ Between the Atlanta hub and the customers was the problem.  Can't give every
+ customer two connections for the price of one =/
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ "When you have eliminated the impossible, that which remains, however
+ improbable, must be the truth."
+ --- Sir Arthur Conan Doyle
+ On Tue, Oct 20, 2009 at 1:00 PM, Jeremy Chadwick
+ <outages at jdc.parodius.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/2fe73481/attachment.html>
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com>
+ 	<20091020170009.GA34345@icarus.home.lan>
+ 	<961092e10910201012l72ba1a55v32fcec16756286a0@mail.gmail.com>
+ Just got an RFO from Level 3...
+ A Core router in Atlanta crashed and failed over. But the redundant router didn't pass any traffic so they had to reload the router that crashed. They have opened a ticket with their hardware vendor. My tech that called wasn't as nosey as I wanted him to be so he didn't get any device and node information. But this sounds like Cisco Cisco and more Cisco issues. The GSR's are EOL so I bet it was one of them.
+ Sean
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Josh Luthman
+ Sent: Tuesday, October 20, 2009 1:13 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Level 3 down in Atlanta
+ There are four routes into Atlanta, I believe.
+ Getting to Atlanta wasn't a problem.
+ Between the Atlanta hub and the customers was the problem.  Can't give every customer two connections for the price of one =/
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ "When you have eliminated the impossible, that which remains, however improbable, must be the truth."
+ --- Sir Arthur Conan Doyle
+ On Tue, Oct 20, 2009 at 1:00 PM, Jeremy Chadwick <outages at jdc.parodius.com<mailto:outages at jdc.parodius.com>> wrote:
+ On Tue, Oct 20, 2009 at 09:28:21AM -0700, Scott Howard wrote:
+ Level 3 has a single router or switch handling packets at a major POP?
+ I doubt this, but the outage is confirmation something bad happened.
+ That said: where's the redundancy, and why didn't it kick in?
+ --
+ | Jeremy Chadwick                                   jdc at parodius.com<mailto:jdc at parodius.com> |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ _______________________________________________
+ outages mailing list
+ outages at outages.org<mailto:outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/8ece883e/attachment.html>
+ 	<f1dedf9c0910200928r729c0902u9f9207c0a571c3e@mail.gmail.com>
+ 	<20091020170009.GA34345@icarus.home.lan>
+ There are multiple devices there handling intra and inter-pop traffic. 
+ NOC still investigating with vendor. 
+ Redundancy won't kick in if soft or silent failures occur and 
+ the control plane keeps protocols up but forwarding is affected.
+ Unfortunately these types of failures still happen from time to
+ time especially with multi-member LAG groups.
+ No details on this specific event however.
+ * Jeremy Chadwick was thought to have said:
+ 	<4DD515BCA4BBC74992D4B712D0813C5BD927EE39@CBYMBX01.corp.cbeyond.net>
+ Sean Clark wrote:
+ No they aren't.  The original three chassis are EOL (12008, 12012, and 
+ the five-rail 12016), but the other nine chassis (three in the 12000 
+ series, four in the 12400 series, and two in the 12800 series) do appear 
+ to be alive and kicking.
+ pt
+ 	<20091020170009.GA34345@icarus.home.lan>
+ 	<20091020184230.GB2881@eagle.deardorff.com>
+ I have a peering with them in Atlanta which bounced during the outage. Per 
+ their noc the switch just froze and began eating (my term) packets without 
+ actually causing peerings to go down.  They rebooted it which is when our 
+ peerings were reset.  They are monitoring and have been stable since the 
+ issue.
+ From:
+ Craig Pierantozzi <tozz at tozz.net>
+ outages at outages.org
+ Date:
+ 10/20/2009 03:29 PM
+ Subject:
+ Re: [outages] Level 3 down in Atlanta
+ Sent by:
+ <outages-bounces at outages.org>
+ There are multiple devices there handling intra and inter-pop traffic. 
+ NOC still investigating with vendor. 
+ Redundancy won't kick in if soft or silent failures occur and 
+ the control plane keeps protocols up but forwarding is affected.
+ Unfortunately these types of failures still happen from time to
+ time especially with multi-member LAG groups.
+ No details on this specific event however.
+ * Jeremy Chadwick was thought to have said:
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/faf9626a/attachment.html>
+ Looks like they are having problem again, as of about 3-4 minutes ago.
+   Scott.
+ On Tue, Oct 20, 2009 at 8:19 AM, Scott Howard <scott at doc.net.au> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/e4dd5ac3/attachment.html>
+ 	<f1dedf9c0910201400u7a3836c5i98ea43bbfc56dae0@mail.gmail.com>
+ Same here.
+ David Hiers
+ CCIE (R/S, V), CISSP
+ ADP Dealer Services
+ 2525 SW 1st Ave.
+ Suite 300W
+ Portland, OR 97201
+ o: 503-205-4467
+ f: 503-402-3277
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Scott Howard
+ Sent: Tuesday, October 20, 2009 2:01 PM
+ Subject: Re: [outages] Level 3 down in Atlanta
+ Looks like they are having problem again, as of about 3-4 minutes ago.
+   Scott.
+ On Tue, Oct 20, 2009 at 8:19 AM, Scott Howard <scott at doc.net.au<mailto:scott at doc.net.au>> wrote:
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott.
+ This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/70651acd/attachment-0001.html>
+ 	<81CDFC77FB2DC54DB875D4F8FFC36CE00F01B708B7@DSMAIL2HE.ds.ad.adp.com>
+ Yep.
+ From:
+ "Hiers, David" <David_Hiers at adp.com>
+ Scott Howard <scott at doc.net.au>, "outages at outages.org" 
+ <outages at outages.org>
+ Date:
+ 10/20/2009 05:21 PM
+ Subject:
+ Re: [outages] Level 3 down in Atlanta
+ Sent by:
+ <outages-bounces at outages.org>
+ Same here.
+ David Hiers
+ CCIE (R/S, V), CISSP
+ ADP Dealer Services
+ 2525 SW 1st Ave.
+ Suite 300W
+ Portland, OR 97201
+ o: 503-205-4467
+ f: 503-402-3277
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On 
+ Behalf Of Scott Howard
+ Sent: Tuesday, October 20, 2009 2:01 PM
+ Subject: Re: [outages] Level 3 down in Atlanta
+ Looks like they are having problem again, as of about 3-4 minutes ago.
+   Scott.
+ On Tue, Oct 20, 2009 at 8:19 AM, Scott Howard <scott at doc.net.au> wrote:
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+  Scott. 
+ This message and any attachments are intended only for the use of the 
+ addressee and may contain information that is privileged and confidential. 
+ If the reader of the message is not the intended recipient or an 
+ authorized representative of the intended recipient, you are hereby 
+ notified that any dissemination of this communication is strictly 
+ prohibited. If you have received this communication in error, please 
+ notify us immediately by e-mail and delete the message and any attachments 
+ from your system. _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/a3fc574e/attachment.html>
+ 	<f1dedf9c0910201400u7a3836c5i98ea43bbfc56dae0@mail.gmail.com>
+ 	<81CDFC77FB2DC54DB875D4F8FFC36CE00F01B708B7@DSMAIL2HE.ds.ad.adp.com>
+ 	<OF9A0BFF31.89BA1BCB-ON85257655.007651ED-85257655.007669BE@sas.sungardrs.com>
+ Same here. Changed my forward path away from Atlanta and I can now get to
+ alot of sites I could not before.
+ On Tue, Oct 20, 2009 at 4:33 PM, <Keegan.Holley at sungard.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/38b77128/attachment.html>
+ 	<f1dedf9c0910201400u7a3836c5i98ea43bbfc56dae0@mail.gmail.com> 
+ 	<81CDFC77FB2DC54DB875D4F8FFC36CE00F01B708B7@DSMAIL2HE.ds.ad.adp.com> 
+ 	<OF9A0BFF31.89BA1BCB-ON85257655.007651ED-85257655.007669BE@sas.sungardrs.com>
+ 	<580af3b90910201503p105cc0b2yceba9fc435663909@mail.gmail.com>
+ Looks like it's starting to come back for me.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ "When you have eliminated the impossible, that which remains, however
+ improbable, must be the truth."
+ --- Sir Arthur Conan Doyle
+ On Tue, Oct 20, 2009 at 6:03 PM, Clue Store <cluestore at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/926d3ac7/attachment.html>
+ 	<f1dedf9c0910201400u7a3836c5i98ea43bbfc56dae0@mail.gmail.com>
+ They claim it should be back up now. Same router failed that the majority of
+ the traffic was flowing through. L3 tech told me they've powered it down
+ now. I haven't verified this for myself yet.
+ -Will
+ On Tue, Oct 20, 2009 at 5:00 PM, Scott Howard <scott at doc.net.au> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/f9c64c2a/attachment-0001.html>
+ Cogent's got a backbone issue on the east coast.  It is possibly related.
+  Take a look at http://www.internethealthreport.com/.
+ ------------------------------
+ *From:* outages-bounces at outages.org on behalf of Scott Howard
+ *Sent:* Tue 10/20/2009 11:19 AM
+ *To:* outages at outages.org
+ *Subject:* [outages] Level 3 down in Atlanta
+ Went down about 35 minutes ago.
+ Anyone know what's going on?
+ ? Scott.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/b850ebb3/attachment.html>
+ It's possible the faulty device was an aggregation router and only those
+ customers connected to it saw the outage. Redundancy within Level(3)'s
+ network would not have helped customers with only a single connection
+ off the affected device. At some point it becomes the customer's
+ responsibility to redundantly connect to their upstreams (as in buy two
+ connections on different aggregation routers :-).
+ I didn't see any L3 issues up here in Detroit, so whatever outage L3 had
+ was apparently contained within that one POP or region. No cascade
+ failures I can see...
+   -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/516db527/attachment.html>
+ We saw the problem and we have redundant connections to Level 3 in  
+ Atlanta..........
+ On Oct 20, 2009, at 1:31 PM, Bill Wichers wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091020/7cd7a775/attachment-0001.html>
+ ----- "Jeremy Chadwick" <outages at jdc.parodius.com> wrote:
+ Oh; you're *always* asking that.
+ :-)
+ The Internet Backbone<tm> has been a commercial, rather than an engineering,
+ construct for over 15 years now.  
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+bandwidth.com outage
+###############################################################
+ Seems like Bandwidth.com is having an outage ... anyone have any news? 
+ SIP trunks down, no ETA for resolution
+###############################################################
+END
+###############################################################
+
+###############################################################
+Primary Radianz Circuit is down...
+###############################################################
+ The Primary Radianz DS3 is currenly down.  Traffic is being routed over
+ secondary circuit.  Ticket has been opened with Radianz
+ Andre Forestal Jr. 
+ Network Engineer
+ Wolverine Trading, LLC
+ 111 Broadway
+ New York, NY 10006
+ Office (646)485-6686 
+ Cell    (646)696-0298
+ Fax    (646)485-7101
+ This message is intended only for the personal and confidential use of the recipients named above. 
+ If the reader of this email is not the intended recipient, you have received this email in error and any review, 
+ dissemination, distribution or copying is strictly prohibited. If you have received this email in error, 
+ please notify the sender immediately by return email and permanently delete the copy you received. 
+ This message is provided for informational purposes and should not be construed as a solicitation or offer 
+ to buy or sell any securities or related financial instruments. Wolverine is not responsible for any 
+ recommendation, solicitation, offer or agreement or any information about any transaction, customer account 
+ or account activity that may be attached to or contained in this communication. Wolverine accepts no 
+ liability for any content contained in the email, or any errors or omissions arising as a result of 
+ email transmission. Any opinions contained in this email constitute the sender's best judgment at this 
+ time and are subject to change without notice.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091021/08120737/attachment.html>
+ Apologies for this email.  This has been sent to this address by
+ accident.
+ This message is intended only for the personal and confidential use of the recipients named above. 
+ If the reader of this email is not the intended recipient, you have received this email in error and any review, 
+ dissemination, distribution or copying is strictly prohibited. If you have received this email in error, 
+ please notify the sender immediately by return email and permanently delete the copy you received. 
+ This message is provided for informational purposes and should not be construed as a solicitation or offer 
+ to buy or sell any securities or related financial instruments. Wolverine is not responsible for any 
+ recommendation, solicitation, offer or agreement or any information about any transaction, customer account 
+ or account activity that may be attached to or contained in this communication. Wolverine accepts no 
+ liability for any content contained in the email, or any errors or omissions arising as a result of 
+ email transmission. Any opinions contained in this email constitute the sender's best judgment at this 
+ time and are subject to change without notice.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091021/b157d5a7/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 Problem in London
+###############################################################
+ Level 3 is experiencing heavy packet loss (>60%) out of 6 Braham St, London
+ UK.  They claim one of their devices is having routing problems.  Techs have
+ been dispatched to the facility.
+ Parent ticket is 3724603
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091022/970f96db/attachment.html>
+ This is resolved.  One of their customers in the facility was under a denial
+ of service attack.  I imagine some sort of mitigation technique was
+ employed.  No further details were available.
+ On Thu, Oct 22, 2009 at 6:10 AM, Jason Dearborn <jasondearborn at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091022/9a440bca/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut in WhiteRock TX - near dallas....
+###############################################################
+ affecting our site in Little Rock, AR on Verizon.  Stand by for an update
+ -- 
+ To him who is able to keep you from falling and to present you before his
+ glorious presence without fault and with great joy
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091023/ea5e58ea/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bell Canada outage in Ontario?
+###############################################################
+ Anyone else getting whacked?  Multiple circuits only getting one-way traffic.  (seeing mac addresses but not getting connectivity)
+ Denis Bazinet
+ Senior Manager, Network Operations
+ Blink Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091023/9b2cc954/attachment.html>
+ Yes.. Apparently issues in downtown Toronto - various reports coming out
+ effecting LanEX, HAS/GAS services..
+ Paul
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Denis Bazinet
+ Sent: October 23, 2009 2:50 PM
+ Subject: [outages] Bell Canada outage in Ontario?
+ Anyone else getting whacked?  Multiple circuits only getting one-way
+ traffic.  (seeing mac addresses but not getting connectivity)
+ Denis Bazinet
+ Senior Manager, Network Operations
+ Blink Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091023/db029c46/attachment.html>
+ Yes there is some issue on the core  they are working on it, already. Call
+ for report if you need more info.
+   _____  
+ De : outages-bounces at outages.org [mailto:outages-bounces at outages.org] De la
+ part de Paul Stewart
+ Envoy? : October 23, 2009 3:29 PM
+ ? : 'Denis Bazinet'; outages at outages.org
+ Objet : Re: [outages] Bell Canada outage in Ontario?
+ Yes
+ . Apparently issues in downtown Toronto ? various reports coming out
+ effecting LanEX, HAS/GAS services
+ .
+ Paul
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Denis Bazinet
+ Sent: October 23, 2009 2:50 PM
+ Subject: [outages] Bell Canada outage in Ontario?
+ Anyone else getting whacked?  Multiple circuits only getting one-way
+ traffic.  (seeing mac addresses but not getting connectivity)
+ Denis Bazinet
+ Senior Manager, Network Operations
+ Blink Communications
+ ______________________________________________________________________
+ This email has been scanned by the MessageLabs Email Security System.
+ For more information please visit http://www.messagelabs.com/email 
+ ______________________________________________________________________
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091023/d38b898f/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 issues in Dallas?
+###############################################################
+ We are seeing consistent issues with connectivity which appear to 
+ originate at Level3 in Dallas ...
+ Don't think it's related to our particular route announcements from ASN 
+ 20208 ....
+ please see below
+ :traceroute smithbarney.com *from 64.72.86.254*
+ traceroute: Warning: smithbarney.com has multiple addresses; using 
+ 192.193.224.16
+ traceroute to smithbarney.com (192.193.224.16), 64 hops max, 40 byte packets
+  1  64-72-86-249 (64.72.86.249)  0.550 ms  0.554 ms  0.452 ms
+  2  204-15-4-241-static (204.15.4.241)  2.598 ms  3.343 ms  2.202 ms
+  3  webjog-hvdn.customer.hvdata.net (64.72.65.249)  5.099 ms  4.866 ms  
+ 5.199 ms
+  4  nwbrnynwj91-ge-7-1-7.lightower.net (72.22.160.199)  4.725 ms  5.016 
+ ms  4.458 ms
+  5  hpjtnyxbj21-xe-2-3-0.lightower.net (72.22.160.103)  5.721 ms  3.679 
+ ms  4.323 ms
+  6  pghknyshj91-xe-7-3-0.lightower.net (72.22.160.104)  5.973 ms  6.148 
+ ms  5.320 ms
+  7  pghknyshj41-ae0-66.lightower.net (72.22.160.159)  5.719 ms  10.005 
+ ms  5.828 ms
+  8  bstpmallj42-xe-0-2-0.lightower.net (72.22.160.149)  12.092 ms  
+ 12.879 ms  12.094 ms
+  9  xe-10-1-0.bar2.Boston1.Level3.net (4.53.54.5)  15.814 ms  11.628 ms  
+ 11.824 ms
+ 10  ae-8-8.ebr1.NewYork1.Level3.net (4.69.140.98)  16.216 ms  17.513 ms  
+ 20.181 ms
+ 11  ae-91-91.csw4.NewYork1.Level3.net (4.69.134.78)  24.959 ms  18.505 
+ ms  16.826 ms
+ 12  ae-74-74.ebr4.NewYork1.Level3.net (4.69.134.117)  22.706 ms
+     ae-84-84.ebr4.NewYork1.Level3.net (4.69.134.121)  23.061 ms
+     ae-94-94.ebr4.NewYork1.Level3.net (4.69.134.125)  35.255 ms
+ 13  ae-3.ebr2.Dallas1.Level3.net (4.69.137.121)  57.115 ms  68.668 ms  
+ 58.914 ms
+ 14  ge-7-0-70.ipcolo1.Dallas1.Level3.net (4.69.145.110)  53.817 ms
+     ge-6-0-60.ipcolo1.Dallas1.Level3.net (4.69.145.46)  54.425 ms  53.667 ms
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ 19  * * *
+ Tracing route to 174-143-170-178.static.cloud-ips.com [174.143.170.178] 
+ *from 204.15.4.2*
+ over a maximum of 30 hops:
+   1     1 ms     1 ms     1 ms  204-15-4-1-static.webjogger.net [204.15.4.1]
+   2     1 ms     1 ms     1 ms  172.20.5.1
+   3    31 ms     3 ms     3 ms  204-15-4-241-static.webjogger.net 
+ [204.15.4.241]
+   4     5 ms     5 ms     4 ms  webjog-hvdn.customer.hvdata.net 
+ [64.72.65.249]
+   5     4 ms     6 ms     4 ms  nwbrnynwj91-ge-7-1-7.lightower.net 
+ [72.22.160.199]
+   6     5 ms     5 ms     5 ms  hpjtnyxbj21-xe-2-3-0.lightower.net 
+ [72.22.160.103]
+   7     7 ms     6 ms     6 ms  pghknyshj91-xe-7-3-0.lightower.net 
+ [72.22.160.104]
+   8     7 ms     6 ms     7 ms  pghknyshj41-ae0-66.lightower.net 
+ [72.22.160.159]
+   9    12 ms    13 ms    39 ms  bstpmallj42-xe-0-2-0.lightower.net 
+ [72.22.160.149]
+  10    19 ms    14 ms    12 ms  xe-10-1-0.bar2.Boston1.Level3.net 
+ [4.53.54.5]
+  11    16 ms    18 ms    17 ms  ae-8-8.ebr1.NewYork1.Level3.net 
+ [4.69.140.98]
+  12    17 ms    17 ms    18 ms  ae-71-71.csw2.NewYork1.Level3.net 
+ [4.69.134.70]
+  13     *        *        *     Request timed out.
+  14    64 ms    66 ms    63 ms  ae-3.ebr2.Dallas1.Level3.net [4.69.137.121]
+  15     *       54 ms    54 ms  ae-4-90.edge2.Dallas3.Level3.net 
+ [4.69.145.204]
+  16     *        *        *     Request timed out.
+  17     *        *        *     Request timed out.
+  18     *        *        *     Request timed out.
+ Adam
+ --
+ Adam Greene
+ Webjogger Internet Services
+ http://www.webjogger.net
+ (845) 757-4000
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20091029/54fad2b4/attachment.html>
+ The site is up and functional on both of their IP's.     Appears their 
+ firewall is blocking traceroute and icmp. Their IP responds to port 80 
+ requests. I am able to access using a web browser as well, using the IP 
+ address.
+ smithbarney.com has address 192.193.224.16
+ smithbarney.com has address 192.193.20.105
+ Interesting ports on salomonsmithbarney.com (192.193.224.16):
+ PORT   STATE SERVICE
+ 80/tcp open  http
+ Interesting ports on salomonsmithbarney.com (192.193.20.105):
+ PORT   STATE SERVICE
+ 80/tcp open  http
+ -- Matthew
+ Adam Greene wrote:
+ Yes, it seems that as of ~1:30pm or so things were more or less back to 
+ normal ...
+ On 10/29/2009 1:38 PM, Matthew Walker wrote:
+ In a recent screed (which I have since deleted here) I made sarcastic
+ remarks that Matthew Walker thought were directed at him.
+ They were not and I apologize.  Quoting now from my response to him:
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+###############################################################
+END
+###############################################################
+
+###############################################################
+Off Topic Requezt
+###############################################################
+ Would all of the people on this list using the "from address" of 
+ drinking.coffee at gmail.com
+ please respond off-list.
+ Thanks.
+ -- 
+ Larry
+###############################################################
+END
+###############################################################
+
+###############################################################
+Rack Space DFW Connectivity
+###############################################################
+ Hello
+ I was wondering if I could pose a general question to all out there
+ who watch and or interact with RackSapce specifically their DFW data
+ center.
+ It "feels" as if since the beginning of October our testing results
+ which we hit Rack Space with at a interval of one minute have been
+ coming back all over the place. Specifically we test out from Huston,
+ DC and Chicago
+ When I have called into them and chatted with their back bone teams I
+ hear the same answer of "everything looks good." Interesting enough I
+ now also hear some how Equinix being stated into their responses.
+ So questions for anyone out there is:
+ 1. Has anyone else seen the same oddities for Rack Space DFW?
+ 2. Does anyone know if Rack Space DFW recently peered their traffic
+ through Equinix DFW
+ 3. The most recent alert/blip we received was 10-23-2009 at 2:49AM Eastern
+ Thanks for your time and assistance,
+ Ed
+###############################################################
+END
+###############################################################
+

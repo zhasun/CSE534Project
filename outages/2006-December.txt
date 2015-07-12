@@ -1,0 +1,3213 @@
+From virendra.rode  Fri Dec  1 10:28:42 2006
+From: virendra.rode (virendra rode //)
+Date: Fri, 01 Dec 2006 07:28:42 -0800
+Subject: [Outages] [Fwd: Sprint BGP Outage for 11/28 and 11/29/06]
+Message-ID: <45704A2A.50809@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Sprint BGP Outage for 11/28 and 11/29/06
+Date: Fri, 1 Dec 2006 08:40:51 -0500
+From: Audie Onibala <onibala at gmail.com>
+To: nanog at merit.edu
+
+Sprint technician informed us that there was a power outage in the Baltimore
+site on 11/28/06 between 2-3:00 PM EST.  During this outage, several our
+clients could access our network.  This incident re-occured again the next
+day between 1:45-4:15 PM.
+
+Does anyone have further info?
+
+thanks,
+Audie Onibala
+703-292-5316
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFcEoqpbZvCIJx1bcRAtdgAJ4w2olas/gWg/fpPHaDCKVw9jircgCg9ZnG
+qdePWQmcBLiJK3xP+ZC3Lvo=
+=XrQ6
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri Dec  1 10:29:09 2006
+From: virendra.rode (virendra rode //)
+Date: Fri, 01 Dec 2006 07:29:09 -0800
+Subject: [Outages] [Fwd: Re: Sprint BGP Outage for 11/28 and 11/29/06]
+Message-ID: <45704A45.2040908@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Re: Sprint BGP Outage for 11/28 and 11/29/06
+Date: Fri, 1 Dec 2006 09:57:56 -0500
+From: Audie Onibala <onibala at gmail.com>
+To: Eric Gauthier <eric at roxanne.org>
+CC: nanog at merit.edu
+References:
+<faafffcf0612010540va4205d7p223142831071f853 at mail.gmail.com>	
+<20061201140210.GB20145 at roxanne.org>
+
+On 12/1/06, Eric Gauthier <eric at roxanne.org> wrote:
+
+> Audie,
+>
+> > Sprint technician informed us that there was a power outage in the
+> Baltimore
+> > site on 11/28/06 between 2-3:00 PM EST.  During this outage, several our
+> > clients could access our network.  This incident re-occured again the
+> next
+> > day between 1:45-4:15 PM.
+>
+> We peer with Sprint in Boston and saw our BGP tables from them drop by
+> about
+> 20k routes on Tuesday and 60k routes on Wednesday at those times.  We
+> haven't
+> asked Sprint about it, but something definitely happened on their as we
+> didn't
+> see equivalent drops from our other providers.
+>
+> Eric :)
+>
+
+
+ My other ISP is Qwest, which have been experiencing problem also.  Here is
+blog about Federal Reserve recent outages:
+http://blog.washingtonpost.com/securityfix/
+
+
+Audie
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFcEpFpbZvCIJx1bcRAngqAKCg7XQT6wzan1R3ysoXMnd9G+4mEgCfcwfC
+zVsUYD3oTv825VM281v6lbo=
+=Ltce
+-----END PGP SIGNATURE-----
+
+
+From drais  Fri Dec  1 16:41:25 2006
+From: drais (david raistrick)
+Date: Fri, 1 Dec 2006 16:41:25 -0500 (EST)
+Subject: [Outages] EveryDNS.net down? (fwd)
+Message-ID: <20061201164106.N95834@xpc.icantclick.org>
+
+
+fwiw
+
+On Fri, 1 Dec 2006, Nate Carlson wrote:
+
+> 
+> Anyone here know someone who works on EveryDNS.net? None of their four DNS 
+> servers are responding for me from multiple locations; I'm guessing a 
+> wide-spread DoS?
+
+got off the phone with davidu just a second ago.  DoS.  they're working on 
+it..
+
+
+---
+david raistrick        http://www.netmeister.org/news/learn2quote.html
+drais at atlasta.net             http://www.expita.com/nomime.html
+
+
+
+From virendra.rode  Fri Dec  1 17:20:15 2006
+From: virendra.rode (virendra rode //)
+Date: Fri, 01 Dec 2006 14:20:15 -0800
+Subject: [Outages] [Fwd: Re: EveryDNS.net down?]
+Message-ID: <4570AA9F.9030106@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Re: EveryDNS.net down?
+Date: Fri, 1 Dec 2006 16:25:04 -0500 (EST)
+From: david raistrick <drais at atlasta.net>
+To: Nate Carlson <nanog at natecarlson.com>
+CC: nanog at merit.edu
+References:
+<Pine.LNX.4.63.0612011458160.20310 at tungsten.msp.technicality.org>
+
+
+On Fri, 1 Dec 2006, Nate Carlson wrote:
+
+>
+> Anyone here know someone who works on EveryDNS.net? None of their four DNS 
+> servers are responding for me from multiple locations; I'm guessing a 
+> wide-spread DoS?
+
+
+
+got off the phone with davidu just a second ago.  DoS.  they're working on
+it,.
+
+
+- ---
+david raistrick        http://www.netmeister.org/news/learn2quote.html
+drais at atlasta.net             http://www.expita.com/nomime.html
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFcKqfpbZvCIJx1bcRAuR9AKD0UCN5YBR4v9Hqbubf/36koIkE6wCfXE5V
+Kn3ZG8WUXmBaMDKXsz53+bg=
+=/Tbp
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri Dec  1 17:22:24 2006
+From: virendra.rode (virendra rode //)
+Date: Fri, 01 Dec 2006 14:22:24 -0800
+Subject: [Outages] EveryDNS.net down? (fwd)
+In-Reply-To: <20061201164106.N95834@xpc.icantclick.org>
+References: <20061201164106.N95834@xpc.icantclick.org>
+Message-ID: <4570AB20.9000208@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+david raistrick wrote:
+> fwiw
+> 
+> On Fri, 1 Dec 2006, Nate Carlson wrote:
+> 
+>> Anyone here know someone who works on EveryDNS.net? None of their four DNS 
+>> servers are responding for me from multiple locations; I'm guessing a 
+>> wide-spread DoS?
+> 
+> got off the phone with davidu just a second ago.  DoS.  they're working on 
+> it..
+> 
+> 
+> ---
+> david raistrick        http://www.netmeister.org/news/learn2quote.html
+> drais at atlasta.net             http://www.expita.com/nomime.html
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+- -------------------------
+
+Thanks David, I just forwarded your nanog thread to outages as well.
+
+
+Sorry about the dup.
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFcKsgpbZvCIJx1bcRAhuQAKD35NUEHETwnc4gb2wOUqgP0CsqWgCeNToV
+TYbR8avD0p9CviBTkWJlawg=
+=vQX4
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Fri Dec  1 22:17:15 2006
+From: fergdawg (Fergie)
+Date: Sat, 2 Dec 2006 03:17:15 GMT
+Subject: [Outages] OpenDNS.com website down briefly;
+	no impact to core DNS service
+Message-ID: <20061201.191809.808.720725@webmail07.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20061202/ae4599ad/attachment.diff 
+
+
+From virendra.rode  Sat Dec  2 12:09:28 2006
+From: virendra.rode (virendra rode //)
+Date: Sat, 02 Dec 2006 09:09:28 -0800
+Subject: [Outages] [Fwd: RE: Power issue at Telx NYC?]
+Message-ID: <4571B348.8020009@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: RE: Power issue at Telx NYC?
+Date: Sat, 2 Dec 2006 01:46:44 -0500
+From: Randy Epstein <repstein at chello.at>
+To: 'Drew Linsalata' <drew at gothambus.com>, <nanog at merit.edu>
+
+
+Drew,
+
+There is definitely a power outage at telx/60 Hudson.  According to telx,
+this was a scheduled maintenance gone bad.  I have someone onsite and he is
+reporting that power should be restored shortly.
+
+Note, those with redundant feeds within the facility should only see a
+partial outage.
+
+Regards,
+
+Randy
+
+> -----Original Message-----
+> From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of
+> Drew Linsalata
+> Sent: Saturday, December 02, 2006 1:09 AM
+> To: nanog at merit.edu
+> Subject: Power issue at Telx NYC?
+> 
+> 
+> 
+> One of our transits is reporting a power outage at Telx in NYC tonight.
+>   Does anyone else have any reports of a power problem in that facility?
+>   We're trying to get some word from Telx now too, but they're slow to
+> respond.
+> 
+> 
+> 
+> 
+> 
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFcbNIpbZvCIJx1bcRAp5IAKC+xcmwHnVszrp66qs5iCBLBfXWYACfTGxm
+neWUBUN+WgRmWtI3MxkSdvQ=
+=8bnm
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Dec  4 12:24:25 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 04 Dec 2006 09:24:25 -0800
+Subject: [Outages] Savvis Global Backbone Maintenance Notifications
+Message-ID: <457459C9.1020802@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+DCx = Denver
+DA1 = Dallas Fort Worth (LT)
+BOx = Boston
+LAx = Los Angeles
+SCx = Santa Clara
+NJx = New Jersey
+CHx= Chicago
+STL= St. Louis
+LOx= London
+
+Dear Savvis Customer,
+
+In order to serve you better, Savvis is listing all upgrades and changes
+to the Savvis network for our IDCs nationwide. Maintenance in other
+Savvis Data Centers does not necessarily mean that your IDC facility
+will be affected. All pertinent information can be found in the
+description for each maintenance action to be performed.
+
+Maintenance Scheduled for DL1 IDC:
+Maintenance Time: 0001- 0500 CST Sat Dec 2
+Maintenance Action: CSR maintenance
+Site Affected: DL1
+Savvis Activity Ticket: 48xxx
+
+In this window, Savvis engineers will be performing configuration
+maintenance on a local Customer Service Router ("CSR"). As this work is
+performed, customers may experience service outages, latency, or other
+connectivity issues.
+
+This action has been scheduled to occur between 0001 and 0500 CST on Sat
+Dec 2.
+
+Maintenance Scheduled for NJ1 IDC:
+Maintenance Time: 0001- 0500 EST Sat Dec 2
+Maintenance Action: Backbone circuit migration
+Site Affected: NJ1
+Savvis Activity Ticket: 482310
+
+
+In this window, Savvis engineers will be replacing moving a regional
+backbone circuit to new infrastructure. As this work is performed,
+customers may experience latency or other connectivity issues.
+
+
+This action has been rescheduled to occur between 0001 and 0500 EST on
+Sat Dec 2.
+
+Maintenance Scheduled for LO4 IDC:
+Maintenance Time: 0200- 0600 GMT Sat Dec 2
+Maintenance Action: Hosting Router hardware replacement
+Site Affected: LO1
+Savvis Activity Ticket: 482321
+
+
+In this window, Savvis engineers will be replacing defective hardware on
+a local Hosting Router ("HR"). As this work is performed, customers may
+experience minor latency or other connectivity issues when traffic
+shifts to and from redundant connectivity.
+
+
+This action has been scheduled to occur between 0200 and 0600 GMT on Sat
+Dec 2.
+
+Maintenance Scheduled for LA1 IDC:
+Maintenance Time: 0001- 0500 PST Sat Dec 2
+Maintenance Action: CSR maintenance
+Site Affected: LA1
+Savvis Activity Ticket: 482xxx
+
+
+In this window, Savvis engineers will be replacing defective hardware on
+a local Customer Service Router ("CSR"). As this work is performed,
+customers may experience service outages, latency, or other connectivity
+issues.
+
+
+This action has been scheduled to occur between 0001 and 0500 PST on Sat
+Dec 2.
+
+Maintenance Scheduled for BO1, BO2 IDCs:
+Maintenance Time: 0001-0500 EST Sat Dec 2
+Maintenance Action: Backbone circuit maintenance
+Site Affected: BO1, BO2
+Savvis Activity Ticket: 482xxx
+
+
+In this window, Savvis engineers will be troubleshooting errors on a
+regional backbone circuit. As this work is performed, customers may
+experience latency or other connectivity issues, as well as reduced
+backbone redundancy.
+
+This action has been scheduled to occur between 0001-0500 EST on Sat Dec
+2.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFdFnJpbZvCIJx1bcRAupBAKCyUTydgpviEJ4p0030HPcev3Fm0QCg6kv+
+yiqRNOBsc5vSzNDqs7KMgUo=
+=gx/E
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Dec  4 12:26:30 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 04 Dec 2006 09:26:30 -0800
+Subject: [Outages] Savvis Global Backbone Maintenance Notifications for Dec
+	9, 2006.
+Message-ID: <45745A46.8010306@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+DCx = Denver
+DA1 = Dallas Fort Worth (LT)
+BOx = Boston
+LAx = Los Angeles
+SCx = Santa Clara
+NJx = New Jersey
+CHx= Chicago
+STL= St. Louis
+LOx= London
+
+
+Maintenance Scheduled for DC2 IDC:
+Maintenance Time: 0001- 0500 EST Sat Dec 9
+Maintenance Action: CSR maintenance
+Site Affected: DC2
+Savvis Activity Ticket: 48xxxx
+
+In this window, Savvis engineers will be adding new hardware to several
+local Customer Service Routers ("CSRs"). As this work is performed,
+customers may experience service outages, latency, or other connectivity
+issues.
+
+This action has been scheduled to occur between 0001 and 0500 EST on Sat
+Dec 9.
+
+
+Maintenance Scheduled for CH3 IDC:
+Maintenance Time: 0001- 0500 CST Sun Dec 10
+Maintenance Action: Backbone router configuration maintenance
+Site Affected: CH3
+Savvis Activity Ticket: 48xxx
+
+In this window, Savvis engineers will be enabling new functionality on
+several local backbone routers. As this work is performed, customers
+may experience latency or other connectivity issues.
+
+
+This action has been scheduled to occur between 0001 and 0500 CST on Sun
+Dec 10.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFdFpGpbZvCIJx1bcRAlAQAKCWcchW7O+vmJPV0CEuCXl2GDjqUgCdFPor
+K3ku1BgFknX+RpJUpcYvfPs=
+=RrM/
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Dec  4 12:30:51 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 04 Dec 2006 09:30:51 -0800
+Subject: [Outages] CrystalTech DDoS'd
+Message-ID: <45745B4B.9060503@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://news.netcraft.com/archives/2006/12/01/crystaltech_hit_by_cyber_monday_ddos.html
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFdFtLpbZvCIJx1bcRAnZxAKDFE5Wc+vyFoyoGLoblPic2Mb/KDQCgo+lI
+qnT9yJHOr/sRLyy/UYBzNY0=
+=rcT3
+-----END PGP SIGNATURE-----
+
+
+From outageslist  Mon Dec  4 13:28:21 2006
+From: outageslist (outageslist outages)
+Date: Mon, 4 Dec 2006 19:28:21 +0100
+Subject: [Outages] EveryDNS.net down again ?
+Message-ID: <932dad310612041028s41753091k3daee6370782d337@mail.gmail.com>
+
+DOS again?
+anyone knows?
+
+Lior
+
+
+From virendra.rode  Mon Dec  4 16:39:48 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 04 Dec 2006 13:39:48 -0800
+Subject: [Outages] EveryDNS.net down again ?
+In-Reply-To: <932dad310612041028s41753091k3daee6370782d337@mail.gmail.com>
+References: <932dad310612041028s41753091k3daee6370782d337@mail.gmail.com>
+Message-ID: <457495A4.8000301@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+outageslist outages wrote:
+> DOS again?
+> anyone knows?
+> 
+> Lior
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+- ---------------------
+They appear to be having intermittent outages from what I last I read.
+
+
+David any insight.
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFdJWkpbZvCIJx1bcRAqQTAKCfx62XQ7vWHJvpEZlEhQ+MQxoafwCfQbFk
+CDH7IYYkg+7+ESNIeA4iSWY=
+=xAQ3
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Dec  4 23:02:49 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 04 Dec 2006 20:02:49 -0800
+Subject: [Outages] [Fwd: Re:  EveryDNS.net down again ?]
+Message-ID: <4574EF69.5070607@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -------- Original Message --------
+Subject: Re: [Outages] EveryDNS.net down again ?
+Date: Mon, 04 Dec 2006 13:39:48 -0800
+From: virendra rode // <virendra.rode at gmail.com>
+Reply-To: virendra.rode at gmail.com
+To: outageslist outages <outageslist at gmail.com>
+CC: outages at isotf.org, david at ulevitch.com, davidu at everydns.net
+References: <932dad310612041028s41753091k3daee6370782d337 at mail.gmail.com>
+
+outageslist outages wrote:
+> DOS again?
+> anyone knows?
+>
+> Lior
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+- ---------------------
+They appear to be having intermittent outages from what I last I read.
+
+
+David any insight.
+
+
+
+regards,
+/virendra
+- -----------------------------
+
+According to David Ulevitch reported @ 2:00pm.
+
+"Everything should be working. Please use my personal email address,
+davidu [at] everydns.net if you are still experiencing issues. The issue
+this morning was resolved in about 30 minutes."
+
+No further explanation was given for the interruption.
+
+*sigh*
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFdO9KpbZvCIJx1bcRAnsKAKDVyobAD6I7tc19UkH9ZnrXJxHHagCcChv5
+tqHk1XzZu/5V9xZrKvskaqU=
+=Jal3
+-----END PGP SIGNATURE-----
+
+
+From outageslist  Tue Dec  5 02:28:16 2006
+From: outageslist (outageslist outages)
+Date: Tue, 5 Dec 2006 08:28:16 +0100
+Subject: [Outages] FYI, GLOBIX London outage this morning
+Message-ID: <932dad310612042328w1619b6cw9fbb66b4ccf6e099@mail.gmail.com>
+
+GLOBIX London had a maintenance this morning(approx 3:00AM GMT)
+they were back at 5:45 AM GMT.
+Globix has informed that they experienced difficulties during the
+maintenance and they had to revert back to the original configuration.
+
+Lior
+
+
+From kevink  Wed Dec  6 09:17:04 2006
+From: kevink (kevink)
+Date: Wed, 6 Dec 2006 09:17:04 -0500 
+Subject: [Outages] Any known issues that would have effected FL Last night ?
+Message-ID: <DB43F516702AAF4392AA45573F18181902044B3C@vicimail.vicimarketinggroup.com>
+
+ Last night, Dec 5, our call center was experiencing intermittent issues
+with outbound calling. A neighboring call center was having similar issues.
+We are covered by multiple providers and all of our providers were having
+similar issues with call connections. 
+
+Kevin Kelley 
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
+From kwallace  Wed Dec  6 18:13:37 2006
+From: kwallace (Wallace Keith)
+Date: Wed, 6 Dec 2006 18:13:37 -0500
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+
+Did anyone have any brief alarms from GPS receivers around 19:32 UTC?
+Wondering if this might have been related to a solar event.
+-Keith
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061206/123caeb2/attachment.htm 
+
+
+From dave.j.moore  Wed Dec  6 18:24:14 2006
+From: dave.j.moore (Dave Moore)
+Date: Wed, 6 Dec 2006 17:24:14 -0600
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+References: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+Message-ID: <fcb90ceb0612061524v327abd2we6f11ea3530a528f@mail.gmail.com>
+
+> Did anyone have any brief alarms from GPS receivers around 19:32 UTC?
+> Wondering if this might have been related to a solar event.
+
+This doesn't answer your question, but I got curious..
+
+excerpted from http://www.sec.noaa.gov/ftpdir/indices/events/yesterday.txt --
+
+2740       1903   1957      2305  HOL  3   FLA  S05E75    1F      ERU       0930
+
+I am not an expert, but I believe this indicates that an "Optical
+flare observed in H-alpha" took place between 1903 and 1957 UTC
+
+Dave
+
+
+From LarrySheldon  Wed Dec  6 18:25:28 2006
+From: LarrySheldon (Laurence F. Sheldon, Jr.)
+Date: Wed, 06 Dec 2006 17:25:28 -0600
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+References: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+Message-ID: <45775168.8040904@cox.net>
+
+Wallace Keith wrote:
+
+> Did anyone have any brief alarms from GPS receivers around 19:32 UTC?
+> Wondering if this might have been related to a solar event.
+
+Could be.
+
+http://www.n3kl.com/sun/noaa.html
+
+
+-- 
+Requiescas in pace o email
+
+Ex turpi causa non oritur actio
+
+http://members.cox.net/larrysheldon/
+
+
+
+
+From fergdawg  Wed Dec  6 18:50:44 2006
+From: fergdawg (Fergie)
+Date: Wed, 6 Dec 2006 23:50:44 GMT
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <20061206.155135.4392.1628494@webmail38.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20061206/256e7ce0/attachment.diff 
+
+
+From kwallace  Thu Dec  7 11:06:11 2006
+From: kwallace (Wallace Keith)
+Date: Thu, 7 Dec 2006 11:06:11 -0500
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <153C7BD7A0BE5E4C82C46650FEA9413006CCE55D@MKA46.pcc.int>
+
+Just some further info on this- 2 receivers, different mfg.,  40 miles
+away from each other had issues in the same 10 minute period.
+The alarm was "not enough satellites visible", but usually they both see
+a minimum of 8-11 birds , which is more than enough. So perhaps the
+solar flare was to blame.  It was not service affecting, since both have
+rubidium oscillators. Just scary since we had never rec'd the alarm
+before (with nightmarish  visions of network collapse :)
+Thanks all for the input. 
+
+
+
+From mike.lyon  Thu Dec  7 11:17:33 2006
+From: mike.lyon (Mike Lyon)
+Date: Thu, 7 Dec 2006 08:17:33 -0800
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <153C7BD7A0BE5E4C82C46650FEA9413006CCE55D@MKA46.pcc.int>
+References: <153C7BD7A0BE5E4C82C46650FEA9413006CCE55D@MKA46.pcc.int>
+Message-ID: <1b5c1c150612070817q2df2e0b5vae4a825ea9d85143@mail.gmail.com>
+
+In addition to that solar flare, there is also a mild geomagnetic
+storm in progress. With the solar flare, it was on the opposite side
+of the sun from that of earth. With x-rays being rather directional, I
+am thinking the solar flares may not be to blame.
+
+Anyways, cool space weather website:
+
+http://www.spaceweather.com/
+
+
+-Mike
+
+
+
+
+On 12/7/06, Wallace Keith <kwallace at pcconnection.com> wrote:
+> Just some further info on this- 2 receivers, different mfg.,  40 miles
+> away from each other had issues in the same 10 minute period.
+> The alarm was "not enough satellites visible", but usually they both see
+> a minimum of 8-11 birds , which is more than enough. So perhaps the
+> solar flare was to blame.  It was not service affecting, since both have
+> rubidium oscillators. Just scary since we had never rec'd the alarm
+> before (with nightmarish  visions of network collapse :)
+> Thanks all for the input.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From jimpop  Thu Dec  7 15:08:13 2006
+From: jimpop (Jim Popovitch)
+Date: Thu, 07 Dec 2006 15:08:13 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <45775168.8040904@cox.net>
+References: <153C7BD7A0BE5E4C82C46650FEA9413006CCE556@MKA46.pcc.int>
+	<45775168.8040904@cox.net>
+Message-ID: <1165522093.19871.2.camel@localhost>
+
+On Wed, 2006-12-06 at 17:25 -0600, Laurence F. Sheldon, Jr. wrote:
+> Wallace Keith wrote:
+> 
+> > Did anyone have any brief alarms from GPS receivers around 19:32 UTC?
+> > Wondering if this might have been related to a solar event.
+> 
+> Could be.
+> 
+> http://www.n3kl.com/sun/noaa.html
+
+I don't know a thing abt solar events, but the graphs on that page
+suggest that something out of the ordinary is happening right now (see
+the Proton Flux graph).  Very interesting.
+
+Thanks,
+
+-Jim P.
+
+
+
+From ge  Thu Dec  7 15:14:57 2006
+From: ge (Gadi Evron)
+Date: Thu, 7 Dec 2006 14:14:57 -0600 (CST)
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1165522093.19871.2.camel@localhost>
+Message-ID: <Pine.LNX.4.21.0612071414310.1965-100000@linuxbox.org>
+
+On Thu, 7 Dec 2006, Jim Popovitch wrote:
+> On Wed, 2006-12-06 at 17:25 -0600, Laurence F. Sheldon, Jr. wrote:
+> > Wallace Keith wrote:
+> > 
+> > > Did anyone have any brief alarms from GPS receivers around 19:32 UTC?
+> > > Wondering if this might have been related to a solar event.
+> > 
+> > Could be.
+> > 
+> > http://www.n3kl.com/sun/noaa.html
+> 
+> I don't know a thing abt solar events, but the graphs on that page
+> suggest that something out of the ordinary is happening right now (see
+> the Proton Flux graph).  Very interesting.
+
+>From http://sec.noaa.gov/today.html :
+
+3-day Solar-Geophysical Forecast issued Dec 6 at 22:00 UTC
+Solar Activity Forecast: Solar activity is expected to be high. Region 930
+is expected to produce M-class flares and there is a good chance for
+further X-class activity.
+
+Geophysical Activity Forecast: The geomagnetic field is expected to be
+unsettled to active on 07 - 08 December with a chance for periods of minor
+or major storm conditions due to the recurrent coronal hole high speed
+stream. Quiet to unsettled conditions are expected on 09 December. The
+greater than 10 MeV proton event is expected to continue for at least
+another 24 hours. 
+
+
+
+From fergdawg  Thu Dec  7 15:21:35 2006
+From: fergdawg (Fergie)
+Date: Thu, 7 Dec 2006 20:21:35 GMT
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <20061207.122140.776.1324064@webmail15.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20061207/0ef7d440/attachment.diff 
+
+
+From fergdawg  Thu Dec  7 15:52:16 2006
+From: fergdawg (Fergie)
+Date: Thu, 7 Dec 2006 20:52:16 GMT
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <20061207.125227.776.1324420@webmail15.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20061207/64f289aa/attachment.diff 
+
+
+From mike.lyon  Thu Dec  7 16:02:24 2006
+From: mike.lyon (Mike Lyon)
+Date: Thu, 7 Dec 2006 13:02:24 -0800
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207.125227.776.1324420@webmail15.lax.untd.com>
+References: <20061207.125227.776.1324420@webmail15.lax.untd.com>
+Message-ID: <1b5c1c150612071302w9c9aedfm780338e20bbfc070@mail.gmail.com>
+
+Interesting read. Thanks Fergie.
+
+-Mike
+
+
+On 12/7/06, Fergie <fergdawg at netzero.net> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> - -- "Fergie" <fergdawg at netzero.net> wrote:
+>
+> >-- Jim Popovitch <jimpop at yahoo.com> wrote:
+> >
+> >>
+> >>I don't know a thing abt solar events, but the graphs on that page
+> >>suggest that something out of the ordinary is happening right now (see
+> >>the Proton Flux graph).  Very interesting.
+> >>
+> >
+> >Although the Sun is just past its low-point in an 11-year cycle of
+> >activity:
+> >
+> >http://www.space.com/scienceastronomy/061205_solar_flare.html
+> >
+>
+> Interestingly enough, this just popped up my my radar.
+>
+> Via UPI.
+>
+> [snip]
+>
+> Russian scientists warned Wednesday that U.S. and other satellites could be
+> damaged by a new wave of intense solar flares.
+>
+> Russia's geophysical forecast center said in a statement reported by the
+> RIA Novosti news agency that it predicted "powerful solar flares, vast
+> explosions in the sun's atmosphere around sunspots, to occur in the near
+> future."
+>
+> "Solar flares can expel billion-ton clouds of electrified gas or plasma
+> into space at a speed of 1 million miles per hour. Eruptions from the sun
+> can damage satellites and disrupt electrical and communications systems on
+> Earth, RIA Novosti said.
+>
+> "An X9 solar flare was registered last Tuesday. Over 30 years of regular
+> X-ray observations of the sun, only about 25 powerful flares have been
+> registered, and they had never previously been observed in the solar
+> minimum [the lowest point of the sun's 11-year activity cycle]. This is
+> surprising, because normally such flares occur at the peak of the sun's
+> activity," the center said according to the RIA Novosti report.
+>
+> [snip]
+>
+> Link:
+> http://www.upi.com/SecurityTerrorism/view.php?StoryID=20061206-110126-1426r
+>
+> - - ferg
+>
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: PGP Desktop 9.5.1 (Build 1557)
+>
+> wj8DBQFFeH7uq1pz9mNUZTMRAmaUAKC11QpBj5ARuz2qvKwdsGtKVTVQfgCfYDWb
+> X+658kQNnnoDhtIXjM/lY7o=
+> =MfND
+> -----END PGP SIGNATURE-----
+>
+> --
+> "Fergie", a.k.a. Paul Ferguson
+>  Engineering Architecture for the Internet
+>  fergdawg(at)netzero.net
+>  ferg's tech blog: http://fergdawg.blogspot.com/
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From jsdy  Thu Dec  7 16:35:49 2006
+From: jsdy (Joseph S D Yao)
+Date: Thu, 7 Dec 2006 16:35:49 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207.122140.776.1324064@webmail15.lax.untd.com>
+References: <20061207.122140.776.1324064@webmail15.lax.untd.com>
+Message-ID: <20061207213549.GA32039@core.center.osis.gov>
+
+On Thu, Dec 07, 2006 at 08:21:35PM +0000, Fergie wrote:
+...
+> Although the Sun is just past its low-point in an 11-year cycle of
+> activity:
+...
+
+
+>From a NASA Web page:
+
+"Hathaway notes a widespread misconception that solar activity varies
+every 11 years "like a pure sinusoid." In fact, he says, solar activity
+is chaotic; there is more than one period."
+
+-- 
+Joe Yao
+-----------------------------------------------------------------------
+   This message is not an official statement of OSIS Center policies.
+
+
+From ge  Thu Dec  7 17:17:02 2006
+From: ge (Gadi Evron)
+Date: Thu, 7 Dec 2006 16:17:02 -0600 (CST)
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207.125227.776.1324420@webmail15.lax.untd.com>
+Message-ID: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+
+On Thu, 7 Dec 2006, Fergie wrote:
+> 
+> Russian scientists warned Wednesday that U.S. and other satellites could be
+> damaged by a new wave of intense solar flares.
+
+This is getting a bit off-topic, but we have a space weather center for a
+reason. Such solar flares can even cause the power grid to black
+out. Think EMP on satelites, as well. There is a monitoring satelite
+half-way between earth and the Sun to give just such warnings.
+
+	Gadi.
+
+
+
+From conrad  Thu Dec  7 17:24:09 2006
+From: conrad (Conrad Golightly)
+Date: Thu, 7 Dec 2006 16:24:09 -0600
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+Message-ID: <1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+
+I feel like the last 48 hours on this mailing list are a real-life
+rehash of the first 15 minutes of a movie like Armageddon or Deep
+Impact.  
+
+Random scientist #1: Hey, did you see this reading?
+Random scientist #2: Yeah, that's pretty high.  Well within spec,
+though.  Maybe.  *shrug*
+
+... two days pass ...
+
+The planet is destroyed by an asteroid.
+
+Fin.
+
+(Not that I am complaining.)
+
+-----Original Message-----
+From: Gadi Evron [mailto:ge at linuxbox.org] 
+Sent: Thursday, December 07, 2006 4:17 PM
+To: Fergie
+Cc: outages at isotf.org
+Subject: Re: [Outages] GPS Receiver Issues?
+
+On Thu, 7 Dec 2006, Fergie wrote:
+> 
+> Russian scientists warned Wednesday that U.S. and other satellites 
+> could be damaged by a new wave of intense solar flares.
+
+This is getting a bit off-topic, but we have a space weather center for
+a reason. Such solar flares can even cause the power grid to black out.
+Think EMP on satelites, as well. There is a monitoring satelite half-way
+between earth and the Sun to give just such warnings.
+
+	Gadi.
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From JJackson  Thu Dec  7 17:25:13 2006
+From: JJackson (Joseph Jackson)
+Date: Thu, 7 Dec 2006 14:25:13 -0800
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <B9843A4B77B5AD46AF1C1756FB565E2C02B0D1D4@mcmail01.ad.local>
+
+Ahaha I love this list. 
+
+-----Original Message-----
+From: Conrad Golightly [mailto:conrad at nashvillewraps.com] 
+Sent: Thursday, December 07, 2006 2:24 PM
+To: Gadi Evron; Fergie
+Cc: outages at isotf.org
+Subject: Re: [Outages] GPS Receiver Issues?
+
+I feel like the last 48 hours on this mailing list are a real-life
+rehash of the first 15 minutes of a movie like Armageddon or Deep
+Impact.  
+
+Random scientist #1: Hey, did you see this reading?
+Random scientist #2: Yeah, that's pretty high.  Well within spec,
+though.  Maybe.  *shrug*
+
+... two days pass ...
+
+The planet is destroyed by an asteroid.
+
+Fin.
+
+(Not that I am complaining.)
+
+-----Original Message-----
+From: Gadi Evron [mailto:ge at linuxbox.org] 
+Sent: Thursday, December 07, 2006 4:17 PM
+To: Fergie
+Cc: outages at isotf.org
+Subject: Re: [Outages] GPS Receiver Issues?
+
+On Thu, 7 Dec 2006, Fergie wrote:
+> 
+> Russian scientists warned Wednesday that U.S. and other satellites 
+> could be damaged by a new wave of intense solar flares.
+
+This is getting a bit off-topic, but we have a space weather center for
+a reason. Such solar flares can even cause the power grid to black out.
+Think EMP on satelites, as well. There is a monitoring satelite half-way
+between earth and the Sun to give just such warnings.
+
+	Gadi.
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From jsdy  Thu Dec  7 17:38:01 2006
+From: jsdy (Joseph S D Yao)
+Date: Thu, 7 Dec 2006 17:38:01 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+Message-ID: <20061207223801.GE32039@core.center.osis.gov>
+
+On Thu, Dec 07, 2006 at 04:24:09PM -0600, Conrad Golightly wrote:
+> I feel like the last 48 hours on this mailing list are a real-life
+> rehash of the first 15 minutes of a movie like Armageddon or Deep
+> Impact.  
+> 
+> Random scientist #1: Hey, did you see this reading?
+> Random scientist #2: Yeah, that's pretty high.  Well within spec,
+> though.  Maybe.  *shrug*
+> 
+> ... two days pass ...
+> 
+> The planet is destroyed by an asteroid.
+> 
+> Fin.
+> 
+> (Not that I am complaining.)
+
+
+If my planet were destroyed, I might complain.  Especially if I didn't
+have a spare.
+
+
+-- 
+Joe Yao
+-----------------------------------------------------------------------
+   This message is not an official statement of OSIS Center policies.
+
+
+From mike.lyon  Thu Dec  7 17:45:43 2006
+From: mike.lyon (Mike Lyon)
+Date: Thu, 7 Dec 2006 14:45:43 -0800
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207223801.GE32039@core.center.osis.gov>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+	<20061207223801.GE32039@core.center.osis.gov>
+Message-ID: <1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+
+Where are the nazis to tell us we are offtopic?
+
+-Mike
+
+
+On 12/7/06, Joseph S D Yao <jsdy at center.osis.gov> wrote:
+> On Thu, Dec 07, 2006 at 04:24:09PM -0600, Conrad Golightly wrote:
+> > I feel like the last 48 hours on this mailing list are a real-life
+> > rehash of the first 15 minutes of a movie like Armageddon or Deep
+> > Impact.
+> >
+> > Random scientist #1: Hey, did you see this reading?
+> > Random scientist #2: Yeah, that's pretty high.  Well within spec,
+> > though.  Maybe.  *shrug*
+> >
+> > ... two days pass ...
+> >
+> > The planet is destroyed by an asteroid.
+> >
+> > Fin.
+> >
+> > (Not that I am complaining.)
+>
+>
+> If my planet were destroyed, I might complain.  Especially if I didn't
+> have a spare.
+>
+>
+> --
+> Joe Yao
+> -----------------------------------------------------------------------
+>    This message is not an official statement of OSIS Center policies.
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From virendra.rode  Thu Dec  7 17:46:38 2006
+From: virendra.rode (virendra rode //)
+Date: Thu, 07 Dec 2006 14:46:38 -0800
+Subject: [Outages] wireless outage notifications
+Message-ID: <457899CE.5000205@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+JFYI /-
+
+We are trying to establish wireless (paging companies, cellular
+operators, etc) outage notifications.
+The inclusion of the wireless outages which would be immensely helpful
+for the Telephone Answering Service sector of the Call Center industry
+as well as the Emergency Dispatch / Public Safety world.
+
+Many thanks to Aaron D. Osgood for his assistance in establishing this feed.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFeJnOpbZvCIJx1bcRApsMAJ4ueFQI02zPetzAEoE+8uodBZVmTgCfcXHI
+WRih5/Zjlr405XAgdtV3LFM=
+=h9VF
+-----END PGP SIGNATURE-----
+
+
+From jsdy  Thu Dec  7 17:50:31 2006
+From: jsdy (Joseph S D Yao)
+Date: Thu, 7 Dec 2006 17:50:31 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+	<20061207223801.GE32039@core.center.osis.gov>
+	<1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+Message-ID: <20061207225031.GI32039@core.center.osis.gov>
+
+On Thu, Dec 07, 2006 at 02:45:43PM -0800, Mike Lyon wrote:
+> Where are the nazis to tell us we are offtopic?
+
+
+Wrong mailing list.
+
+But we should stop.  <STOP>
+
+
+-- 
+Joe Yao
+-----------------------------------------------------------------------
+   This message is not an official statement of OSIS Center policies.
+
+
+From LarrySheldon  Thu Dec  7 17:51:12 2006
+From: LarrySheldon (Laurence F. Sheldon, Jr.)
+Date: Thu, 07 Dec 2006 16:51:12 -0600
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>	<20061207223801.GE32039@core.center.osis.gov>
+	<1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+Message-ID: <45789AE0.40605@cox.net>
+
+Mike Lyon wrote:
+
+> Where are the nazis to tell us we are offtopic?
+
+NANOG is that way ---------------------|
+                                        |
+      <---------------------------------|
+
+
+
+-- 
+
+Requiescas in pace o email
+
+Ex turpi causa non oritur actio
+
+http://members.cox.net/larrysheldon/
+
+
+
+
+From alex-nanog  Thu Dec  7 17:53:10 2006
+From: alex-nanog (Alex Campbell)
+Date: Fri, 8 Dec 2006 09:53:10 +1100
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+Message-ID: <000d01c71a52$77ac75e0$f514000a@7bsv96zpd>
+
+
+> Where are the nazis to tell us we are offtopic?
+
+NANOG.
+
+
+-----Original Message-----
+From: Mike Lyon [mailto:mike.lyon at gmail.com] 
+Sent: Friday, 8 December 2006 9:46 AM
+To: Joseph S D Yao
+Cc: outages at isotf.org
+Subject: Re: [Outages] GPS Receiver Issues?
+
+Where are the nazis to tell us we are offtopic?
+
+-Mike
+
+
+On 12/7/06, Joseph S D Yao <jsdy at center.osis.gov> wrote:
+> On Thu, Dec 07, 2006 at 04:24:09PM -0600, Conrad Golightly wrote:
+> > I feel like the last 48 hours on this mailing list are a real-life 
+> > rehash of the first 15 minutes of a movie like Armageddon or Deep 
+> > Impact.
+> >
+> > Random scientist #1: Hey, did you see this reading?
+> > Random scientist #2: Yeah, that's pretty high.  Well within spec, 
+> > though.  Maybe.  *shrug*
+> >
+> > ... two days pass ...
+> >
+> > The planet is destroyed by an asteroid.
+> >
+> > Fin.
+> >
+> > (Not that I am complaining.)
+>
+>
+> If my planet were destroyed, I might complain.  Especially if I didn't 
+> have a spare.
+>
+>
+> --
+> Joe Yao
+> -----------------------------------------------------------------------
+>    This message is not an official statement of OSIS Center policies.
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+
+
+
+From mike.lyon  Thu Dec  7 17:56:37 2006
+From: mike.lyon (Mike Lyon)
+Date: Thu, 7 Dec 2006 14:56:37 -0800
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <000d01c71a52$77ac75e0$f514000a@7bsv96zpd>
+References: <1b5c1c150612071445s491498a4o869720c23846e2a2@mail.gmail.com>
+	<000d01c71a52$77ac75e0$f514000a@7bsv96zpd>
+Message-ID: <1b5c1c150612071456y4c9a86awd00010f535080519@mail.gmail.com>
+
+Yeah, I know. I was joking.
+
+-Mike
+
+On 12/7/06, Alex Campbell <alex-nanog at dtdesign.com.au> wrote:
+>
+> > Where are the nazis to tell us we are offtopic?
+>
+> NANOG.
+>
+>
+> -----Original Message-----
+> From: Mike Lyon [mailto:mike.lyon at gmail.com]
+> Sent: Friday, 8 December 2006 9:46 AM
+> To: Joseph S D Yao
+> Cc: outages at isotf.org
+> Subject: Re: [Outages] GPS Receiver Issues?
+>
+> Where are the nazis to tell us we are offtopic?
+>
+> -Mike
+>
+>
+> On 12/7/06, Joseph S D Yao <jsdy at center.osis.gov> wrote:
+> > On Thu, Dec 07, 2006 at 04:24:09PM -0600, Conrad Golightly wrote:
+> > > I feel like the last 48 hours on this mailing list are a real-life
+> > > rehash of the first 15 minutes of a movie like Armageddon or Deep
+> > > Impact.
+> > >
+> > > Random scientist #1: Hey, did you see this reading?
+> > > Random scientist #2: Yeah, that's pretty high.  Well within spec,
+> > > though.  Maybe.  *shrug*
+> > >
+> > > ... two days pass ...
+> > >
+> > > The planet is destroyed by an asteroid.
+> > >
+> > > Fin.
+> > >
+> > > (Not that I am complaining.)
+> >
+> >
+> > If my planet were destroyed, I might complain.  Especially if I didn't
+> > have a spare.
+> >
+> >
+> > --
+> > Joe Yao
+> > -----------------------------------------------------------------------
+> >    This message is not an official statement of OSIS Center policies.
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at isotf.org
+> > http://isotf.org/mailman/listinfo/outages
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From fergdawg  Thu Dec  7 17:59:21 2006
+From: fergdawg (Fergie)
+Date: Thu, 7 Dec 2006 22:59:21 GMT
+Subject: [Outages] GPS Receiver Issues?
+Message-ID: <20061207.145933.717.1154615@webmail53.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20061207/e125d21b/attachment.diff 
+
+
+From eravin  Thu Dec  7 18:12:39 2006
+From: eravin (Ed Ravin)
+Date: Thu, 7 Dec 2006 18:12:39 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207223801.GE32039@core.center.osis.gov>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+	<20061207223801.GE32039@core.center.osis.gov>
+Message-ID: <20061207231239.GA2453@panix.com>
+
+On Thu, Dec 07, 2006 at 05:38:01PM -0500, Joseph S D Yao wrote:
+> > 
+> > ... two days pass ...
+> > 
+> > The planet is destroyed by an asteroid.
+> > 
+> > Fin.
+> > 
+> > (Not that I am complaining.)
+> 
+> 
+> If my planet were destroyed, I might complain.  Especially if I didn't
+> have a spare.
+
+Getting back on topic, if you were using HSRP (Hot Standby Replacement
+Planet) on your gear, this would be a non-issue.
+
+   -- Ed "but did you test it in the lab first?"
+
+
+From ge  Thu Dec  7 18:19:29 2006
+From: ge (Gadi Evron)
+Date: Thu, 7 Dec 2006 17:19:29 -0600 (CST)
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <1b5c1c150612071456y4c9a86awd00010f535080519@mail.gmail.com>
+Message-ID: <Pine.LNX.4.21.0612071719060.1965-100000@linuxbox.org>
+
+On Thu, 7 Dec 2006, Mike Lyon wrote:
+> Yeah, I know. I was joking.
+> 
+> -Mike
+
+And now we are not in meta-discussion, we are off topic. Next please.
+
+:)
+
+> 
+> On 12/7/06, Alex Campbell <alex-nanog at dtdesign.com.au> wrote:
+> >
+> > > Where are the nazis to tell us we are offtopic?
+> >
+> > NANOG.
+> >
+> >
+> > -----Original Message-----
+> > From: Mike Lyon [mailto:mike.lyon at gmail.com]
+> > Sent: Friday, 8 December 2006 9:46 AM
+> > To: Joseph S D Yao
+> > Cc: outages at isotf.org
+> > Subject: Re: [Outages] GPS Receiver Issues?
+> >
+> > Where are the nazis to tell us we are offtopic?
+> >
+> > -Mike
+> >
+> >
+> > On 12/7/06, Joseph S D Yao <jsdy at center.osis.gov> wrote:
+> > > On Thu, Dec 07, 2006 at 04:24:09PM -0600, Conrad Golightly wrote:
+> > > > I feel like the last 48 hours on this mailing list are a real-life
+> > > > rehash of the first 15 minutes of a movie like Armageddon or Deep
+> > > > Impact.
+> > > >
+> > > > Random scientist #1: Hey, did you see this reading?
+> > > > Random scientist #2: Yeah, that's pretty high.  Well within spec,
+> > > > though.  Maybe.  *shrug*
+> > > >
+> > > > ... two days pass ...
+> > > >
+> > > > The planet is destroyed by an asteroid.
+> > > >
+> > > > Fin.
+> > > >
+> > > > (Not that I am complaining.)
+> > >
+> > >
+> > > If my planet were destroyed, I might complain.  Especially if I didn't
+> > > have a spare.
+> > >
+> > >
+> > > --
+> > > Joe Yao
+> > > -----------------------------------------------------------------------
+> > >    This message is not an official statement of OSIS Center policies.
+> > > _______________________________________________
+> > > Outages mailing list
+> > > Outages at isotf.org
+> > > http://isotf.org/mailman/listinfo/outages
+> > >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at isotf.org
+> > http://isotf.org/mailman/listinfo/outages
+> >
+> >
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at isotf.org
+> > http://isotf.org/mailman/listinfo/outages
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+
+
+
+From ge  Thu Dec  7 18:27:12 2006
+From: ge (Gadi Evron)
+Date: Thu, 7 Dec 2006 17:27:12 -0600 (CST)
+Subject: [Outages] thread closed -Re:  GPS Receiver Issues?
+In-Reply-To: <Pine.LNX.4.21.0612071719060.1965-100000@linuxbox.org>
+Message-ID: <Pine.LNX.4.21.0612071723560.1965-100000@linuxbox.org>
+
+On Thu, 7 Dec 2006, Gadi Evron wrote:
+> On Thu, 7 Dec 2006, Mike Lyon wrote:
+> > Yeah, I know. I was joking.
+> > 
+> > -Mike
+> 
+> And now we are not in meta-discussion, we are off topic. Next please.
+> 
+> :)
+
+Apologies, to clarify:
+
+Here we may have peer-moderation, but we also have active (yet very low
+key admins). Meaning, as this list is about operational announcements,
+these announcements need to take precedent.
+
+This is not a discussion list.
+
+Some discussion is encouraged when issues are happening, and the whole
+Sun issue is relevant, despite sounding far-fetched, and was indeed 
+enlightening. NANOG moderation is off-topic, as it takes attention away
+from announcements which is what we are about.
+
+Thanks guys, let's please move on.
+
+	Gadi.
+
+
+
+From jsdy  Thu Dec  7 18:53:06 2006
+From: jsdy (Joseph S D Yao)
+Date: Thu, 7 Dec 2006 18:53:06 -0500
+Subject: [Outages] GPS Receiver Issues?
+In-Reply-To: <20061207231239.GA2453@panix.com>
+References: <Pine.LNX.4.21.0612071615500.1965-100000@linuxbox.org>
+	<1C76EEA91A4C39488E0324F0A065720951CB4B@exchange3.madison1.nashvillewraps.com>
+	<20061207223801.GE32039@core.center.osis.gov>
+	<20061207231239.GA2453@panix.com>
+Message-ID: <20061207235306.GL32039@core.center.osis.gov>
+
+On Thu, Dec 07, 2006 at 06:12:39PM -0500, Ed Ravin wrote:
+> On Thu, Dec 07, 2006 at 05:38:01PM -0500, Joseph S D Yao wrote:
+> > > 
+> > > ... two days pass ...
+> > > 
+> > > The planet is destroyed by an asteroid.
+> > > 
+> > > Fin.
+> > > 
+> > > (Not that I am complaining.)
+> > 
+> > 
+> > If my planet were destroyed, I might complain.  Especially if I didn't
+> > have a spare.
+> 
+> Getting back on topic, if you were using HSRP (Hot Standby Replacement
+> Planet) on your gear, this would be a non-issue.
+> 
+>    -- Ed "but did you test it in the lab first?"
+
+
+*sigh* bad me for ignoring my <STOP>, but ...
+
+being standards-conforming, rather than proprietary protocol players, we
+use VRRP (Very Reliable Redundant Planet).  you DID note that I spoke in
+the subjunctive, didn't you?
+
+[What ARE they teaching in the schools, these days?  - Prof. C S Lewis]
+
+
+-- 
+Joe Yao
+-----------------------------------------------------------------------
+   This message is not an official statement of OSIS Center policies.
+
+
+From aosgood  Fri Dec  8 08:26:22 2006
+From: aosgood (Aaron D. Osgood)
+Date: Fri, 8 Dec 2006 08:26:22 -0500
+Subject: [Outages] FW: NOC Alert: New[Remedy - 362847 ][ID - 44030]
+Message-ID: <025b01c71acc$74dcdab0$800101df@AOThinkpadG40>
+
+ 
+
+ 
+
+Aaron D. Osgood
+
+Streamline Solutions L.L.C
+
+P.O. Box 6115
+Falmouth, ME 04105
+
+TEL: 207-781-5561
+FAX: 207-781-8067
+MOBILE: 207-831-5829
+PAGE: 2078315829 at vtext.com
+AOLIM: OzCom1
+ICQ: 206889374
+
+AOsgood at Streamline-Solutions.net
+http://www.streamline-solutions.net
+
+Introducing Efficiency to Business since 1986.
+  
+
+  _____  
+
+From: CERT at usamobility.com [mailto:CERT at usamobility.com] 
+Sent: Friday, December 08, 2006 07:29
+To: SYC-outages at arch.com
+Subject: NOC Alert: New[Remedy - 362847 ][ID - 44030]
+
+ 
+
+
+
+Outage Notification 
+
+
+Outage ID#:   44030 
+
+Status:   Existing 
+
+
+  
+
+ 
+
+
+ONS Submitted By   
+
+
+Name:
+
+John Nabors
+
+
+E-Mail Address:   
+
+CERT at usamobility.com 
+
+
+Outage Details 
+
+
+Outage Type(s): 
+
+Paging Terminals
+
+
+Areas Affected:
+
+Nationwide / Corp 
+
+
+Severity:
+
+Minor 
+
+
+Coverage Impact:
+
+Partial Outage
+
+
+Paging Delays > 5 minutes?:  No
+
+
+NOC Bridge open?: 
+
+Yes
+
+
+Location Information   
+
+
+   TCOE / Plano, TX 
+
+
+
+ 
+
+Outage Description:   
+   Legacy Metrocall 1-way customers sending pages via SMTP
+(page.metrocal.com) may experience delays. 
+
+
+ 
+
+Current Status:   
+   Local engineers are currently troubleshooting the issue. No ETR. 
+
+
+ 
+
+Affected Customers:   
+   Legacy Metrocall 1-way customers sending pages via SMTP
+(page.metrocal.com) 
+
+
+ 
+
+Number of Subscribers Affected:      Unknown 
+
+
+ 
+
+Paging Terminals Affected:   
+
+
+ 
+
+1-way Frequencies Affected:   
+
+
+ 
+
+Other 1-way Frequencies Affected:   
+
+
+ 
+
+2-way Zones Affected:   
+    
+
+
+ 
+
+States Affected:   
+   ALL 
+
+
+ 
+
+System Barcode:      N/A 
+
+
+ 
+
+Remedy Ticket Number:      362847 
+
+
+Dates & Times   
+
+
+ 
+
+Date
+
+Time
+
+
+Date & Time of Outage:   
+
+Fri 12/08/2006 
+
+5:30 AM CT 
+
+
+Estimated Date & Time of Repair:   
+
+Fri 12/08/2006 
+
+2:00 PM CT 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061208/5f92caac/attachment-0001.htm 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ONS.VCS
+Type: text/x-vcalendar
+Size: 1138 bytes
+Desc: not available
+Url : http://isotf.org/pipermail/outages/attachments/20061208/5f92caac/attachment-0001.vcs 
+
+
+From ado  Fri Dec  8 10:35:01 2006
+From: ado (Aaron Osgood)
+Date: Fri, 08 Dec 2006 10:35:01 -0500
+Subject: [Outages] Fwd: NOC Alert: Closed[Remedy - 362847 ][ID - 44030]
+Message-ID: <s5793ffa.005@smtp.portlandmaine.gov>
+
+ 
+-------------- next part --------------
+An embedded message was scrubbed...
+From: CERT at usamobility.com
+Subject: NOC Alert: Closed[Remedy - 362847 ][ID - 44030]
+Date: Fri, 8 Dec 2006 07:47:40 -0600 (CST)
+Size: 8849
+Url: http://isotf.org/pipermail/outages/attachments/20061208/56fa56c4/attachment.eml 
+
+
+From aosgood  Fri Dec  8 12:02:46 2006
+From: aosgood (Aaron D. Osgood)
+Date: Fri, 8 Dec 2006 12:02:46 -0500
+Subject: [Outages] FW: NOC Alert: New[Remedy - 360694][ID - 44037]
+Message-ID: <009001c71aea$afd9bb60$800101df@AOThinkpadG40>
+
+ 
+
+ 
+
+Aaron D. Osgood
+
+Streamline Solutions L.L.C
+
+P.O. Box 6115
+Falmouth, ME 04105
+
+TEL: 207-781-5561
+FAX: 207-781-8067
+MOBILE: 207-831-5829
+PAGE: 2078315829 at vtext.com
+AOLIM: OzCom1
+ICQ: 206889374
+
+AOsgood at Streamline-Solutions.net
+http://www.streamline-solutions.net
+
+Introducing Efficiency to Business since 1986.
+  
+
+  _____  
+
+From: CERT at usamobility.com [mailto:CERT at usamobility.com] 
+Sent: Friday, December 08, 2006 11:57
+To: Aby-outages at usamobility.com
+Subject: NOC Alert: New[Remedy - 360694][ID - 44037]
+
+ 
+
+
+
+Outage Notification 
+
+
+Outage ID#:   44037 
+
+Status:   Existing 
+
+
+  
+
+ 
+
+
+ONS Submitted By   
+
+
+Name:
+
+Mark Wenholz
+
+
+E-Mail Address:   
+
+CERT at usamobility.com 
+
+
+Outage Details 
+
+
+Outage Type(s): 
+
+Paging Terminals
+
+
+Areas Affected:
+
+Nationwide / Corp, Eastern U.S. 
+
+
+Severity:
+
+Minor 
+
+
+Coverage Impact:
+
+Partial Outage
+
+
+Paging Delays > 5 minutes?:  No
+
+
+NOC Bridge open?: 
+
+No
+
+
+Location Information   
+
+
+   Plano, TX (TCOE) 
+
+
+
+ 
+
+Outage Description:   
+   Legacy Metrocall 1-way WCTP, SMTP (page.metrocall.com) and customers with
+direct connections to the following paging terminals, BF1 Buffalo NY Arch GL
+- CT0 Hartford CT Pagenet - CTH Newington CT GL3000 - DYG Dayton Arch GL -
+EMY Elmira NY Arch GL - ERI Erie Arch GL - GAC Garden City NY GL - GIB
+Gibsonia Arch GL - GSH Goshen Arch GL3000 - JMT Jamestown Arch GL - LN1
+Lansing MI GL3000 - NJL Atlantic City NJ GL3 - NK1 Newark, NJ (7digit) - NMK
+Niagra Mohawk Arch - NY2 New York ( 10 digit) - NYN Monsey NY GL3000 - PAH
+Lancaster,PA (10dig) - RCH Rochester,NY Arch GL - ROC Rochester, NY(10dig) -
+SPR Springfield MAGL3000 - SY0 Syracuse, NY (7 dig) - SYC Syracuse Arch
+GL3000 - WPN White Plains Arch GL. may experience intermittent paging. 
+
+
+ 
+
+Current Status:   
+   Engineers are currently working with Verzion to resolve the issue. No
+ETR. 
+
+
+ 
+
+Affected Customers:   
+   Legacy Metrocall 1-way WCTP, SMTP (page.metrocall.com) and customers with
+direct connections to the following paging terminals, BF1 Buffalo NY Arch GL
+- CT0 Hartford CT Pagenet - CTH Newington CT GL3000 - DYG Dayton Arch GL -
+EMY Elmira NY Arch GL - ERI Erie Arch GL - GAC Garden City NY GL - GIB
+Gibsonia Arch GL - GSH Goshen Arch GL3000 - JMT Jamestown Arch GL - LN1
+Lansing MI GL3000 - NJL Atlantic City NJ GL3 - NK1 Newark, NJ (7digit) - NMK
+Niagra Mohawk Arch - NY2 New York ( 10 digit) - NYN Monsey NY GL3000 - PAH
+Lancaster,PA (10dig) - RCH Rochester,NY Arch GL - ROC Rochester, NY(10dig) -
+SPR Springfield MAGL3000 - SY0 Syracuse, NY (7 dig) - SYC Syracuse Arch
+GL3000 - WPN White Plains Arch GL. 
+
+
+ 
+
+Number of Subscribers Affected:      N/A 
+
+
+ 
+
+Paging Terminals Affected:   
+   BF1 Buffalo NY Arch GL - CT0 Hartford CT Pagenet - CTH Newington CT
+GL3000 - DYG Dayton Arch GL - EMY Elmira NY Arch GL - ERI Erie Arch GL - GAC
+Garden City NY GL - GIB Gibsonia Arch GL - GSH Goshen Arch GL3000 - JMT
+Jamestown Arch GL - LN1 Lansing MI GL3000 - NJL Atlantic City NJ GL3 - NK1
+Newark, NJ (7digit) - NMK Niagra Mohawk Arch - NY2 New York ( 10 digit) -
+NYN Monsey NY GL3000 - PAH Lancaster,PA (10dig) - RCH Rochester,NY Arch GL -
+ROC Rochester, NY(10dig) - SPR Springfield MAGL3000 - SY0 Syracuse, NY (7
+dig) - SYC Syracuse Arch GL3000 - WPN White Plains Arch GL - 
+
+
+ 
+
+1-way Frequencies Affected:   
+
+
+ 
+
+Other 1-way Frequencies Affected:   
+
+
+ 
+
+2-way Zones Affected:   
+    
+
+
+ 
+
+States Affected:   
+   CT, DE, MA, MI, NH, NJ, NY, OH, PA 
+
+
+ 
+
+System Barcode:      N/A 
+
+
+ 
+
+Remedy Ticket Number:      360694 
+
+
+Dates & Times   
+
+
+ 
+
+Date
+
+Time
+
+
+Date & Time of Outage:   
+
+Fri 12/08/2006 
+
+10:40 AM CT 
+
+
+Estimated Date & Time of Repair:   
+
+Fri 12/08/2006 
+
+6:00 PM CT 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061208/aedab845/attachment-0001.htm 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: ONS.VCS
+Type: text/x-vcalendar
+Size: 3055 bytes
+Desc: not available
+Url : http://isotf.org/pipermail/outages/attachments/20061208/aedab845/attachment-0001.vcs 
+
+
+From eric  Wed Dec 13 04:19:18 2006
+From: eric (Eric Stockwell)
+Date: Wed, 13 Dec 2006 01:19:18 -0800
+Subject: [Outages] GLBX outage
+Message-ID: <457FC596.9040504@opticfusion.net>
+
+Seeing major packet loss (50% - 70%) through Global Crossing, epecially 
+in San Jose. Opened trouble ticket, no updates so far. Anyone else 
+seeing anything?
+
+
+Eric Stockwell
+Optic Fusion
+
+
+From tdonahue  Wed Dec 13 15:37:19 2006
+From: tdonahue (Tim Donahue)
+Date: Wed, 13 Dec 2006 15:37:19 -0500
+Subject: [Outages] GLBX outage
+In-Reply-To: <457FC596.9040504@opticfusion.net>
+References: <457FC596.9040504@opticfusion.net>
+Message-ID: <20061213153719.c8254349.tdonahue@vonmail.vonworldwide.com>
+
+We had router issues with GBLX in NY this morning, still waiting on a
+RFO at this point unfortuntely. 
+
+Tim Donahue
+
+On Wed, 13 Dec 2006 01:19:18 -0800
+Eric Stockwell <eric at opticfusion.net> wrote:
+
+> Seeing major packet loss (50% - 70%) through Global Crossing, epecially 
+> in San Jose. Opened trouble ticket, no updates so far. Anyone else 
+> seeing anything?
+> 
+> 
+> Eric Stockwell
+> Optic Fusion
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+
+
+From aosgood  Thu Dec 14 09:54:06 2006
+From: aosgood (Aaron D. Osgood)
+Date: Thu, 14 Dec 2006 09:54:06 -0500
+Subject: [Outages] FW: [callcentertechs] Geomagnetic Storm Warning
+Message-ID: <02d901c71f8f$b51e8890$800101df@AOThinkpadG40>
+
+ 
+
+
+  
+
+  _____  
+
+From: callcentertechs at yahoogroups.com
+[mailto:callcentertechs at yahoogroups.com] On Behalf Of Aaron D. Osgood
+Sent: Thursday, December 14, 2006 09:38
+To: callcentertechs at yahoogroups.com
+Subject: [callcentertechs] Geomagnetic Storm Warning
+
+ 
+
+To us - this means expect disruptions with wireless systems (including
+cellular - ALL cell towers use GPS for clocking purposes)
+
+Geomagnetic Storm Warning
+14.12.2006 15:24 
+
+WARNING: Geomagnetic K-Index of 6 expected
+
+Issue Time: 2006 Dec 14 1404 UTC
+Valid From: 2006 Dec 14 1405 UTC
+Valid To: 2006 Dec 14 2359 UTC
+Warning Condition: Onset
+NOAA Scale: G2 - Moderate
+
+ 
+
+Magnetic storm approaching Earth
+14.12.2006 15:43 
+
+Russian weather scientists expect increase of geomagnetic activity and a
+very powerful magnetic storm to happen between December, 14 and 15.
+
+The third outburst was detected on the Sun, which resulted in the increase
+of wave absorption on the illuminated surface of our planet in a day or two,
+the research press release from the Institute of Earth's Magnetism said. The
+scientist said storm to be the strongest magnetic storm for the year 2006.
+The storm is predicted to be even stronger than the one detected in April.
+Radio communications, satellites and power grids could face potential
+interruptions or damage, however.
+
+
+
+Aaron D. Osgood
+
+Streamline Solutions L.L.C
+
+P.O. Box 6115
+Falmouth, ME 04105
+
+TEL: 207-781-5561
+FAX: 207-781-8067
+MOBILE: 207-831-5829
+PAGE: 2078315829 at vtext. <mailto:2078315829%40vtext.com> com
+AOLIM: OzCom1
+ICQ: 206889374
+
+AOsgood at Streamline- <mailto:AOsgood%40Streamline-Solutions.net>
+Solutions.net
+http://www.streamli <http://www.streamline-solutions.net> ne-solutions.net
+
+Introducing Efficiency to Business since 1986.
+
+
+
+__._,_.___ 
+
+Messages
+<http://groups.yahoo.com/group/callcentertechs/message/13826;_ylc=X3oDMTM2cj
+E1ZmhnBF9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BG1zZ0lkAz
+EzODI2BHNlYwNmdHIEc2xrA3Z0cGMEc3RpbWUDMTE2NjEwNzQzMQR0cGNJZAMxMzgyNg-->  in
+this topic (1)
+<http://groups.yahoo.com/group/callcentertechs/post;_ylc=X3oDMTJxY3Q1NWhjBF9
+TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BG1zZ0lkAzEzODI2BHN
+lYwNmdHIEc2xrA3JwbHkEc3RpbWUDMTE2NjEwNzQzMQ--?act=reply&messageNum=13826>
+Reply (via web post) | Start
+<http://groups.yahoo.com/group/callcentertechs/post;_ylc=X3oDMTJlaG9sdTVtBF9
+TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA25
+0cGMEc3RpbWUDMTE2NjEwNzQzMQ-->  a new topic 
+
+Messages
+<http://groups.yahoo.com/group/callcentertechs/messages;_ylc=X3oDMTJlMWk3M2M
+4BF9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2x
+rA21zZ3MEc3RpbWUDMTE2NjEwNzQzMQ-->  | Files
+<http://groups.yahoo.com/group/callcentertechs/files;_ylc=X3oDMTJmcDNscWl0BF
+9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA2
+ZpbGVzBHN0aW1lAzExNjYxMDc0MzE->  | Photos
+<http://groups.yahoo.com/group/callcentertechs/photos;_ylc=X3oDMTJlYTdzYmVqB
+F9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA
+3Bob3QEc3RpbWUDMTE2NjEwNzQzMQ-->  | Links
+<http://groups.yahoo.com/group/callcentertechs/links;_ylc=X3oDMTJmcGhnams2BF
+9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA2
+xpbmtzBHN0aW1lAzExNjYxMDc0MzE->  | Database
+<http://groups.yahoo.com/group/callcentertechs/database;_ylc=X3oDMTJjZGU2Nm9
+hBF9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2x
+rA2RiBHN0aW1lAzExNjYxMDc0MzE->  | Polls
+<http://groups.yahoo.com/group/callcentertechs/polls;_ylc=X3oDMTJmdHU5aDJyBF
+9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA3
+BvbGxzBHN0aW1lAzExNjYxMDc0MzE->  | Calendar
+<http://groups.yahoo.com/group/callcentertechs/calendar;_ylc=X3oDMTJkZHZ2MnE
+5BF9TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2x
+rA2NhbARzdGltZQMxMTY2MTA3NDMx>  
+
+ 
+<http://groups.yahoo.com/;_ylc=X3oDMTJkdTQ1YWZiBF9TAzk3MzU5NzE0BGdycElkAzQyN
+DcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA2dmcARzdGltZQMxMTY2MTA3NDMx>
+Yahoo! Groups
+Change
+<http://groups.yahoo.com/group/callcentertechs/join;_ylc=X3oDMTJmcXAyaDlvBF9
+TAzk3MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA3N
+0bmdzBHN0aW1lAzExNjYxMDc0MzE->  settings via the Web (Yahoo! ID required) 
+Change settings via email: Switch
+<mailto:callcentertechs-digest at yahoogroups.com?subject=Email%20Delivery:%20D
+igest>  delivery to Daily Digest | Switch
+<mailto:callcentertechs-traditional at yahoogroups.com?subject=Change%20Deliver
+y%20Format:%20Traditional>  format to Traditional 
+Visit
+<http://groups.yahoo.com/group/callcentertechs;_ylc=X3oDMTJkYmJqZDA4BF9TAzk3
+MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwNmdHIEc2xrA2hwZgRz
+dGltZQMxMTY2MTA3NDMx>  Your Group | Yahoo! Groups
+<http://docs.yahoo.com/info/terms/>  Terms of Use | Unsubscribe
+<mailto:callcentertechs-unsubscribe at yahoogroups.com?subject=> 
+
+Visit
+<http://groups.yahoo.com/group/callcentertechs;_ylc=X3oDMTJlY201dm1nBF9TAzk3
+MzU5NzE0BGdycElkAzQyNDcxNDYEZ3Jwc3BJZAMxNzA1MTE1Mzg2BHNlYwN2dGwEc2xrA3ZnaHAE
+c3RpbWUDMTE2NjEwNzQzMQ-->  Your Group 
+
+SPONSORED LINKS
+
+*	Computer
+<http://groups.yahoo.com/gads;_ylc=X3oDMTJjNm4yODhhBF9TAzk3MzU5NzE0BF9wAzEEZ
+3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA3NsbW9kBHN0aW1lAzExNjYxMDc0M
+zE-?t=ms&k=Computer+telephony&w1=Computer+telephony&w2=Portable+computer&w3=
+Technical+support+software&w4=Technical+support&w5=Computer+telephony+integr
+ation&c=5&s=138&g=2&.sig=K2fkziACQASatLiNyCW3bw>  telephony
+*	Portable
+<http://groups.yahoo.com/gads;_ylc=X3oDMTJjazFyNGxoBF9TAzk3MzU5NzE0BF9wAzIEZ
+3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA3NsbW9kBHN0aW1lAzExNjYxMDc0M
+zE-?t=ms&k=Portable+computer&w1=Computer+telephony&w2=Portable+computer&w3=T
+echnical+support+software&w4=Technical+support&w5=Computer+telephony+integra
+tion&c=5&s=138&g=2&.sig=t_irHVBt3GCJpXAARgKOmA>  computer
+*	Technical
+<http://groups.yahoo.com/gads;_ylc=X3oDMTJjcDQ3dTI3BF9TAzk3MzU5NzE0BF9wAzMEZ
+3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA3NsbW9kBHN0aW1lAzExNjYxMDc0M
+zE-?t=ms&k=Technical+support+software&w1=Computer+telephony&w2=Portable+comp
+uter&w3=Technical+support+software&w4=Technical+support&w5=Computer+telephon
+y+integration&c=5&s=138&g=2&.sig=rgJfmO4shVdh_5aLYTXxTQ>  support software
+*	Technical
+<http://groups.yahoo.com/gads;_ylc=X3oDMTJjZTA0dGE0BF9TAzk3MzU5NzE0BF9wAzQEZ
+3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA3NsbW9kBHN0aW1lAzExNjYxMDc0M
+zE-?t=ms&k=Technical+support&w1=Computer+telephony&w2=Portable+computer&w3=T
+echnical+support+software&w4=Technical+support&w5=Computer+telephony+integra
+tion&c=5&s=138&g=2&.sig=D9ZYqTRXSI38PrPcv9bDSA>  support
+*	Computer
+<http://groups.yahoo.com/gads;_ylc=X3oDMTJjOHRpaHJrBF9TAzk3MzU5NzE0BF9wAzUEZ
+3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA3NsbW9kBHN0aW1lAzExNjYxMDc0M
+zE-?t=ms&k=Computer+telephony+integration&w1=Computer+telephony&w2=Portable+
+computer&w3=Technical+support+software&w4=Technical+support&w5=Computer+tele
+phony+integration&c=5&s=138&g=2&.sig=qIsM5N4VmTSGcElPEs9V1w>  telephony
+integration
+
+Need traffic?
+
+Drive
+<http://us.ard.yahoo.com/SIG=12hiupfnl/M=493064.8985663.9760769.8674578/D=gr
+oups/S=1705115386:NC/Y=YAHOO/EXP=1166114631/A=3848644/R=0/SIG=131l83flq/*htt
+p:/searchmarketing.yahoo.com/arp/srchv2.php?o=US2006&cmp=Yahoo&ctv=Groups5&s
+=Y&s2=&s3=&b=50>  customers
+
+With search ads
+
+on Yahoo!
+
+Business News
+
+Hot
+<http://us.ard.yahoo.com/SIG=12iof7kvf/M=493064.9337501.10154278.8674578/D=g
+roups/S=1705115386:NC/Y=YAHOO/EXP=1166114631/A=4025325/R=0/SIG=12a352npd/*ht
+tp:/us.rd.yahoo.com/evt=44092/*http:/smallbusiness.yahoo.com/r-index>
+Headlines
+
+Get localized news
+
+for your area.
+
+Yahoo! Groups
+
+Start
+<http://groups.yahoo.com/start;_ylc=X3oDMTJvaWNzdWpzBF9TAzk3MzU5NzE0BF9wAzME
+Z3JwSWQDNDI0NzE0NgRncnBzcElkAzE3MDUxMTUzODYEc2VjA25jbW9kBHNsawNncm91cHMyBHN0
+aW1lAzExNjYxMDc0MzE->  a group
+
+in 3 easy steps.
+
+Connect with others.
+
+.
+
+ 
+<http://geo.yahoo.com/serv?s=97359714/grpId=4247146/grpspId=1705115386/msgId
+=13826/stime=1166107431/nc1=3848644/nc2=4025325/nc3=3> 
+__,_._,___ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061214/7d443971/attachment-0001.htm 
+
+
+From cjwright  Thu Dec 14 16:09:07 2006
+From: cjwright (Chris Wright)
+Date: Thu, 14 Dec 2006 16:09:07 -0500
+Subject: [Outages] L3 anyone
+Message-ID: <34f5fe1d0612141309h2696939co903b98ce4b48e8ae@mail.gmail.com>
+
+Seems L3 is having some reachability issues.
+
+Anyone have details?
+
+-Chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061214/e706f518/attachment.htm 
+
+
+From asr+outages  Thu Dec 14 16:50:29 2006
+From: asr+outages (Adam Rothschild)
+Date: Thu, 14 Dec 2006 16:50:29 -0500
+Subject: [Outages] L3 anyone
+In-Reply-To: <34f5fe1d0612141309h2696939co903b98ce4b48e8ae@mail.gmail.com>
+References: <34f5fe1d0612141309h2696939co903b98ce4b48e8ae@mail.gmail.com>
+Message-ID: <20061214215029.GI37478@latency.net>
+
+On 2006-12-14-16:09:07, Chris Wright <cjwright at gmail.com> wrote:
+> Anyone have details?
+
+I'd ask the same of you... 
+
+-a
+
+
+From outages  Wed Dec 20 13:29:03 2006
+From: outages (Jeremy Chadwick)
+Date: Wed, 20 Dec 2006 10:29:03 -0800
+Subject: [Outages] Abovenet fibre cut; Washington D.C.
+Message-ID: <20061220182903.GA65316@icarus.home.lan>
+
+At around 09:57 PST, we saw heavy amounts of packet loss via our
+Abovenet connection via the Fort Worth/Dallas area.
+
+Abovenet's IP group has stated that there's a fibre cut in the
+Washington D.C. area which is affecting their "southern route",
+and peering between Chicago<->DC, FTW/Dallas<->DC, and northern
+Virginia<->DC was affected.
+
+Reconvergence took place (for the west coast) in San Jose, going
+out of four OC48s destined to Chicago, but those became saturated.
+
+I don't have any other details, other than an RFO will be provided.
+
+-- 
+| Jeremy Chadwick                                 jdc at parodius.com |
+| Parodius Networking                        http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, USA |
+| Making life hard for others since 1977.               PGP: 4BD6C0CB |
+
+
+
+From john  Wed Dec 20 15:14:04 2006
+From: john (John A. Kilpatrick)
+Date: Wed, 20 Dec 2006 12:14:04 -0800 (PST)
+Subject: [Outages] Abovenet fibre cut; Washington D.C.
+In-Reply-To: <20061220182903.GA65316@icarus.home.lan>
+References: <20061220182903.GA65316@icarus.home.lan>
+Message-ID: <20061220121302.M46938@iama.hypergeek.net>
+
+On Wed, 20 Dec 2006, Jeremy Chadwick wrote:
+
+> Abovenet's IP group has stated that there's a fibre cut in the
+> Washington D.C. area which is affecting their "southern route",
+> and peering between Chicago<->DC, FTW/Dallas<->DC, and northern
+> Virginia<->DC was affected.
+
+The email I got from AboveNet about the "network event" in the DC area 
+said that their core routers rebooted.  They haven't mentioned a fiber cut 
+to me.
+
+-- 
+                                John A. Kilpatrick
+john at hypergeek.net                Email|     http://www.hypergeek.net/
+john-page at hypergeek.net      Text pages|          ICQ: 19147504
+                  remember:  no obstacles/only challenges
+
+
+
+
+From outages  Wed Dec 20 15:49:14 2006
+From: outages (Jeremy Chadwick)
+Date: Wed, 20 Dec 2006 12:49:14 -0800
+Subject: [Outages] Abovenet fibre cut; Washington D.C.
+In-Reply-To: <20061220121302.M46938@iama.hypergeek.net>
+References: <20061220182903.GA65316@icarus.home.lan>
+	<20061220121302.M46938@iama.hypergeek.net>
+Message-ID: <20061220204914.GA67460@icarus.home.lan>
+
+On Wed, Dec 20, 2006 at 12:14:04PM -0800, John A. Kilpatrick wrote:
+> On Wed, 20 Dec 2006, Jeremy Chadwick wrote:
+> 
+> >Abovenet's IP group has stated that there's a fibre cut in the
+> >Washington D.C. area which is affecting their "southern route",
+> >and peering between Chicago<->DC, FTW/Dallas<->DC, and northern
+> >Virginia<->DC was affected.
+> 
+> The email I got from AboveNet about the "network event" in the DC area 
+> said that their core routers rebooted.  They haven't mentioned a fiber cut 
+> to me.
+
+I've gotten three statements -- one from their IP NOC via phone,
+(which is who told us there was a fibre cut in the DC area), then
+a few minutes later an Email stating that a "networking event had
+occured", then another one about core routers rebooting.
+
+Whoever I spoke to in their NOC was coherent and seemed to know
+a bit about what was going on and was very helpful.  So if there
+was not a fibre cut, I was simply told the wrong thing by Abovenet.
+
+-- 
+| Jeremy Chadwick                                 jdc at parodius.com |
+| Parodius Networking                        http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, USA |
+| Making life hard for others since 1977.               PGP: 4BD6C0CB |
+
+
+
+From rsawarka  Tue Dec 26 22:51:55 2006
+From: rsawarka (Sawarkar, Rahul)
+Date: Wed, 27 Dec 2006 09:21:55 +0530
+Subject: [Outages] Are there multiple  outages in APAC ?
+Message-ID: <C7BEF98CF3CF88429AB2C264FA7E68B61DD5EB@INVS2.bangalore.corp.akamai.com>
+
+
+I think the earthquake resulted in a few cable cuts. 
+
+Any updates folks?
+
+Regards,
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061227/32cd4e7f/attachment.htm 
+
+
+From dan.oliver  Tue Dec 26 23:13:45 2006
+From: dan.oliver (Dan Oliver US)
+Date: Tue, 26 Dec 2006 23:13:45 -0500
+Subject: [Outages] Are there multiple  outages in APAC ?
+Message-ID: <3D2A9A1D2B2F0E49B70E6E882E89890B04920596@usbossvex01.na.didata.local>
+
+We just lost visibility to sites in APAC for no less than 4 of our
+customers, across multiple carriers (Singtel primarily).  That explains
+a lot.
+
+ 
+
+Dan
+
+ 
+
+________________________________
+
+From: Sawarkar, Rahul [mailto:rsawarka at akamai.com] 
+Sent: Tuesday, December 26, 2006 10:52 PM
+To: outages at isotf.org
+Subject: [Outages] Are there multiple outages in APAC ?
+
+ 
+
+ 
+
+I think the earthquake resulted in a few cable cuts. 
+
+Any updates folks? 
+
+Regards,
+
+
+
+
+-----------------------------------------
+Disclaimer:
+
+This e-mail communication and any attachments may contain
+confidential and privileged information and is for use by the
+designated addressee(s) named above only.  If you are not the
+intended addressee, you are hereby notified that you have received
+this communication in error and that any use or reproduction of
+this email or its contents is strictly prohibited and may be
+unlawful.  If you have received this communication in error, please
+notify us immediately by replying to this message and deleting it
+from your computer. Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061226/6f9d032b/attachment.htm 
+
+
+From virendra.rode  Wed Dec 27 00:56:54 2006
+From: virendra.rode (virendra rode //)
+Date: Tue, 26 Dec 2006 21:56:54 -0800
+Subject: [Outages] Are there multiple  outages in APAC ?
+In-Reply-To: <C7BEF98CF3CF88429AB2C264FA7E68B61DD5EB@INVS2.bangalore.corp.akamai.com>
+References: <C7BEF98CF3CF88429AB2C264FA7E68B61DD5EB@INVS2.bangalore.corp.akamai.com>
+Message-ID: <45920B26.5060408@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Sawarkar, Rahul wrote:
+> I think the earthquake resulted in a few cable cuts. 
+> 
+> Any updates folks?
+> 
+> Regards,
+- ------------------------------
+6 Submarine cables down in Taiwan..
+
+http://www.alertnet.org/thenews/newsdesk/TP172793.htm
+
+
+regards,
+/virendra
+
+> 
+> 
+> 
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFkgsmpbZvCIJx1bcRAq6VAJ9wKWlF77mz/SBO61lOnKRaiqcQWgCginwS
+/spOdgZJuo3zzI759SzlSRg=
+=/yKz
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Dec 27 10:06:26 2006
+From: virendra.rode (virendra rode //)
+Date: Wed, 27 Dec 2006 07:06:26 -0800
+Subject: [Outages] UPDATE on damage cables
+Message-ID: <45928BF2.2000806@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://today.reuters.com/news/articlebusiness.aspx?type=tnBusinessNews&storyID=nSP140905&imageid=&cap=&from=business
+
+
+It appears that it won't be fully resolved in a week. All functional
+oversea lines are jammed.
+
+
+
+regards,
+/virendra
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFkovypbZvCIJx1bcRAp+uAKDdLfTuu140O3s3ySCfW3oKjuUBNACg2sRz
+6zEcV7/XlCNrISGKvNq7g4s=
+=NkbE
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Dec 27 10:10:56 2006
+From: virendra.rode (virendra rode //)
+Date: Wed, 27 Dec 2006 07:10:56 -0800
+Subject: [Outages] Taiwan quake cuts off much of Asia Internet - 30 min ago
+Message-ID: <45928D00.7070109@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.channelnewsasia.com/stories/afp_asiapacific/view/249389/1/.html
+
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFko0ApbZvCIJx1bcRAhsjAKDL8cCj70iuhg3JyqPGTVqsvfI2vwCg99t0
+4qguf4PUSr1GvWiDWMD+6g4=
+=CZLN
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Dec 27 12:38:22 2006
+From: virendra.rode (virendra rode //)
+Date: Wed, 27 Dec 2006 09:38:22 -0800
+Subject: [Outages] Asian Internet,
+	Phone Services Hit by Taiwan Quakes (Update2)
+Message-ID: <4592AF8E.6070806@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.bloomberg.com/apps/news?pid=20601087&sid=aFQUj_CM458c
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFkq+OpbZvCIJx1bcRAlyIAJ4t1JyN9h0eCip4OuIRYlxaAPYbogCgmBUA
+CMfbk4WpoI0p8o4VY1j3kgo=
+=Erbf
+-----END PGP SIGNATURE-----
+
+
+From jnavitsky  Thu Dec 28 16:06:30 2006
+From: jnavitsky (Jayson Navitsky)
+Date: Thu, 28 Dec 2006 16:06:30 -0500
+Subject: [Outages] CO Outage - New York City
+Message-ID: <d1be2cee0612281306g4f661e4bnc2cde9b8ceef1dd0@mail.gmail.com>
+
+Looks like there's some type of outage at the Verizon West Street CO
+(New York City) any one else see anything funny going on?  Having
+problems making calls outside the CO as well as issues with private
+lines. I'm on hold right now, seeing if I can find anything out.
+
+CLLI: NYCMNYWS
+140 West St.
+New York, NY
+
+Thanks,
+Jayson Navitsky
+
+
+From jnavitsky  Thu Dec 28 18:10:23 2006
+From: jnavitsky (Jayson Navitsky)
+Date: Thu, 28 Dec 2006 18:10:23 -0500
+Subject: [Outages] CO Outage - New York City
+In-Reply-To: <d1be2cee0612281306g4f661e4bnc2cde9b8ceef1dd0@mail.gmail.com>
+References: <d1be2cee0612281306g4f661e4bnc2cde9b8ceef1dd0@mail.gmail.com>
+Message-ID: <d1be2cee0612281510r18ebf824h8608534dde3de8e2@mail.gmail.com>
+
+Service was restored for a bit now it's back down, Verizon has no further
+information other than "it's a major problem and we're working on it."
+
+
+-Jayson
+
+
+From virendra.rode  Thu Dec 28 19:23:17 2006
+From: virendra.rode (virendra rode //)
+Date: Thu, 28 Dec 2006 16:23:17 -0800
+Subject: [Outages] Copper Thieves Cause Phone Outage
+Message-ID: <45945FF5.90108@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.thekansascitychannel.com/news/10621822/detail.html
+
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFlF/1pbZvCIJx1bcRApe2AKDISQG92A6PRu5ku/OzFw11TViGwQCcD+Mr
+B8U9aRB/hTNC4pIDhj/negE=
+=qwAI
+-----END PGP SIGNATURE-----
+
+
+From eric.spagna  Thu Dec 28 19:58:07 2006
+From: eric.spagna (Eric Spagna)
+Date: Thu, 28 Dec 2006 19:58:07 -0500
+Subject: [Outages] CO Outage - New York City
+In-Reply-To: <d1be2cee0612281510r18ebf824h8608534dde3de8e2@mail.gmail.com>
+References: <d1be2cee0612281306g4f661e4bnc2cde9b8ceef1dd0@mail.gmail.com>
+	<d1be2cee0612281510r18ebf824h8608534dde3de8e2@mail.gmail.com>
+Message-ID: <9eb6632e0612281658p63b10e3egea3bc1eea6b9a700@mail.gmail.com>
+
+I called Verizon, as we are anxiously awaiting our customers' networks
+to come back on-line. They are still working a cross connect issue,
+but no estimated time of repair.
+
+ - Spags -
+
+
+From jsdy  Thu Dec 28 20:17:35 2006
+From: jsdy (Joseph S D Yao)
+Date: Thu, 28 Dec 2006 20:17:35 -0500
+Subject: [Outages] Copper Thieves Cause Phone Outage
+In-Reply-To: <45945FF5.90108@gmail.com>
+References: <45945FF5.90108@gmail.com>
+Message-ID: <20061229011735.GA20632@core.center.osis.gov>
+
+Again???
+
+*sigh*
+
+-- 
+Joe Yao
+-----------------------------------------------------------------------
+   This message is not an official statement of OSIS Center policies.
+
+
+From virendra.rode  Fri Dec 29 00:06:24 2006
+From: virendra.rode (virendra rode //)
+Date: Thu, 28 Dec 2006 21:06:24 -0800
+Subject: [Outages] Copper Thieves Cause Phone Outage
+In-Reply-To: <20061229011735.GA20632@core.center.osis.gov>
+References: <45945FF5.90108@gmail.com>
+	<20061229011735.GA20632@core.center.osis.gov>
+Message-ID: <4594A250.6070107@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Joseph S D Yao wrote:
+> Again???
+> 
+> *sigh*
+> 
+- -----------------
+Yup, an ongoing issue. I guess why do anything
+when.....http://www.vvdailypress.com/node/368
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFlKJQpbZvCIJx1bcRAkw9AKC8omcfIzHC/VSdUlwFWUg9yf1zvgCfZPSt
+iRV5D6zGbJPM1NLCk4AtKVg=
+=n3Da
+-----END PGP SIGNATURE-----
+
+
+From bipin.gautam  Fri Dec 29 03:51:36 2006
+From: bipin.gautam (Bipin Gautam)
+Date: Fri, 29 Dec 2006 14:36:36 +0545
+Subject: [Outages] Copper Thieves Cause Phone Outage
+In-Reply-To: <4594A250.6070107@gmail.com>
+References: <45945FF5.90108@gmail.com>
+	<20061229011735.GA20632@core.center.osis.gov>
+	<4594A250.6070107@gmail.com>
+Message-ID: <754924960612290051x12499df7n5bfcbf571503c05e@mail.gmail.com>
+
+haha, that happens all the time here in NEPAL!
+
+even more attractive to the thief copper price rose by 300% since last 1 year.
+
+-bipin
+
+On 12/29/06, virendra rode // <virendra.rode at gmail.com> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+>
+> Joseph S D Yao wrote:
+> > Again???
+> >
+> > *sigh*
+> >
+> - -----------------
+> Yup, an ongoing issue. I guess why do anything
+> when.....http://www.vvdailypress.com/node/368
+>
+>
+> regards,
+> /virendra
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFFlKJQpbZvCIJx1bcRAkw9AKC8omcfIzHC/VSdUlwFWUg9yf1zvgCfZPSt
+> iRV5D6zGbJPM1NLCk4AtKVg=
+> =n3Da
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From rsawarka  Fri Dec 29 20:08:38 2006
+From: rsawarka (Sawarkar, Rahul)
+Date: Sat, 30 Dec 2006 06:38:38 +0530
+Subject: [Outages] Quake affected cable repair
+Message-ID: <C7BEF98CF3CF88429AB2C264FA7E68B61DD7E5@INVS2.bangalore.corp.akamai.com>
+
+Some 2nd hand info I got. 
+
+*****
+
+Update from Equinix on the status of some of the undersea cables:
+
+Cable Repair Status:
+
+Summary:
+
+1) Hong Kong <-> Busan & Hong Kong <-> Toucheng
+
+- expected to be fixed in 5 days
+
+2) APCN System 1 Segment B17
+
+- ship mobilized; no ETA
+
+3) APCN System 2 Segment B5
+
+- will fix after #2
+
+4) SMW3 S1.8 (Fangshan - BU4) and S1.7 (BU3 - BU4)
+
+- ship mobilized; no ETA
+
+5) Tanshui <-> Shantou & Hong Kong <-> ChongMing
+
+- no plans to repair yet
+
+6) APCN2 S3 & S7
+
+- plans to mobilize ship
+
+7) Hong Kong <-> Shanghai <-> Korea
+
+- no plans at this time
+
+Details:
+
+RNAL Segment (Hong Kong - Busan) & Segment (Hong Kong - Toucheng) :
+
+- The RNAL cable path between Busan and TongFuk was down at 1243utc
+26-Dec. The other cable path, Hong Kong - Toucheng Taiwan was also down
+at 1942UTC. It caused the Hong Kong being isolated from the cable
+system. The fault point of segment HKG - Toucheng is about 731km from
+Tong Fuk cable station. 
+
+- Cable Ship Lodbrog arrived at the repair ground in the afternoon of
+28-Dec. Plan-of-Work is not yet available but expected to complete in 5
+days if everything goes smooth. 
+
+APCN System 1 Segment B17 (Hong Kong branch) :
+
+- The traffic on APCN system 1 was down since 1815utc 26-Dec. The fault
+is in the segment B17 (Hong Kong Branch). Power reconfiguration was
+completed on 27-Dec evening hence the Korea - Japan and Taiwan were back
+to service. 
+
+- Cable ship Asean Restorer, who is now in Singapore, is mobilized for
+the APCN SYS1 & SYS2 repair. 
+
+APCN System 2 Segment B5 (Taiwan Branch) :
+
+- The traffic on APCN system 2 B5 (Taiwan branch) was also down at
+2044utc 26-Dec. It made the Taiwan node being isolated from APCN system.
+The fault location is about 920km from Toucheng cable station. 
+
+- The segment will be repaired after the System 1 work. 
+
+SMW3 S1.8 (Fangshan - BU4) and S1.7 (BU3 - BU4) :
+
+- SMW3 reported that the traffic to Fangshan was lost since 1225utc
+26-Dec. It was due to two faults appeared in SMW3 S1.8 and S1.7. The
+fault point of S1.8 is about 44km from FangShan cable station, whilst
+the fault point of S1.7 is 459km from Shantou cable station. 
+
+- Cable ship Retriever, who is now in Philippine, is mobilized for the
+
+SMW3 repair. 
+
+APCN2 Segment 7 (Tanshui - Shantou) & Segment 3 (Hong Kong - ChongMing)
+
+:
+
+- The APCN2 S7 (Tanshui - Shantou) was reported down at 1606UTC 26-Dec
+whilst the S3 (Hong Kong -
+
+ChongMing) was also down at 1801utc. It caused the traffic isolation
+between Southern Asia (Hong Kong/Singapore/ Malaysia/Philippine) to
+Northern Asia (Japan/Taiwan/Korea). 
+
+- The HKG to Singapore/Malaysia/Philippine traffic was still working
+fine in the southern Asia region. 
+
+- The fault point of S7 is about 905km from Tanshui cable station,
+whilst that of S3 is about 2091km from ChongMing cable station. 
+
+CS KPL (Japan) will be mobilized for the repair of APCN2 S3 & S7 :
+
+- China-US segment W1 (Shantou - ChongMing) & Segment S1 (Shantou -
+
+Okinawa/SLO)
+
+- China-US segment W2 (Spur to Fangshan) was isolated since 1227utc
+26-Dec. Fault point is about 9.7km from FangShan
+
+- At 1859UTC, another cable fault developed on China-US segment S1,
+502km from Shantou cable station. 
+
+- At 0207utc 27-Dec, the segment W1 (Shantou - ChongMing) was also down
+that made the Shantou node being isolated from China-US cable system.
+
+The fault point is about 452km from Shantou cable station. 
+
+CS KDD Ocean Link (KOL) will be mobilized for the repair of CHUS. 
+
+ 
+
+FLAG FEA Sub-System 8 (Hong Kong - Shanghai - Korea) :
+
+- FLAG FEA reported that the Sub-system 8 had suffered cable fault at
+2056UTC. The fault point is between Repeater 9 and Repeater 10 near Hong
+Kong. 
+
+- Currently no any repair schedule for the FEA repair.
+
+****
+
+ 
+Hope this helps
+ 
+
+Regards,
+
+
+
+
+
+From virendra.rode  Sat Dec 30 14:53:29 2006
+From: virendra.rode (virendra rode //)
+Date: Sat, 30 Dec 2006 11:53:29 -0800
+Subject: [Outages] Quake affected cable repair
+In-Reply-To: <C7BEF98CF3CF88429AB2C264FA7E68B61DD7E5@INVS2.bangalore.corp.akamai.com>
+References: <C7BEF98CF3CF88429AB2C264FA7E68B61DD7E5@INVS2.bangalore.corp.akamai.com>
+Message-ID: <4596C3B9.6070806@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Sawarkar, Rahul wrote:
+> Some 2nd hand info I got. 
+- -------------------------
+thanks Rahul!
+
+
+
+regards,
+/virendra
+
+> 
+> *****
+> 
+> Update from Equinix on the status of some of the undersea cables:
+> 
+> Cable Repair Status:
+> 
+> Summary:
+> 
+> 1) Hong Kong <-> Busan & Hong Kong <-> Toucheng
+> 
+> - expected to be fixed in 5 days
+> 
+> 2) APCN System 1 Segment B17
+> 
+> - ship mobilized; no ETA
+> 
+> 3) APCN System 2 Segment B5
+> 
+> - will fix after #2
+> 
+> 4) SMW3 S1.8 (Fangshan - BU4) and S1.7 (BU3 - BU4)
+> 
+> - ship mobilized; no ETA
+> 
+> 5) Tanshui <-> Shantou & Hong Kong <-> ChongMing
+> 
+> - no plans to repair yet
+> 
+> 6) APCN2 S3 & S7
+> 
+> - plans to mobilize ship
+> 
+> 7) Hong Kong <-> Shanghai <-> Korea
+> 
+> - no plans at this time
+> 
+> Details:
+> 
+> RNAL Segment (Hong Kong - Busan) & Segment (Hong Kong - Toucheng) :
+> 
+> - The RNAL cable path between Busan and TongFuk was down at 1243utc
+> 26-Dec. The other cable path, Hong Kong - Toucheng Taiwan was also down
+> at 1942UTC. It caused the Hong Kong being isolated from the cable
+> system. The fault point of segment HKG - Toucheng is about 731km from
+> Tong Fuk cable station. 
+> 
+> - Cable Ship Lodbrog arrived at the repair ground in the afternoon of
+> 28-Dec. Plan-of-Work is not yet available but expected to complete in 5
+> days if everything goes smooth. 
+> 
+> APCN System 1 Segment B17 (Hong Kong branch) :
+> 
+> - The traffic on APCN system 1 was down since 1815utc 26-Dec. The fault
+> is in the segment B17 (Hong Kong Branch). Power reconfiguration was
+> completed on 27-Dec evening hence the Korea - Japan and Taiwan were back
+> to service. 
+> 
+> - Cable ship Asean Restorer, who is now in Singapore, is mobilized for
+> the APCN SYS1 & SYS2 repair. 
+> 
+> APCN System 2 Segment B5 (Taiwan Branch) :
+> 
+> - The traffic on APCN system 2 B5 (Taiwan branch) was also down at
+> 2044utc 26-Dec. It made the Taiwan node being isolated from APCN system.
+> The fault location is about 920km from Toucheng cable station. 
+> 
+> - The segment will be repaired after the System 1 work. 
+> 
+> SMW3 S1.8 (Fangshan - BU4) and S1.7 (BU3 - BU4) :
+> 
+> - SMW3 reported that the traffic to Fangshan was lost since 1225utc
+> 26-Dec. It was due to two faults appeared in SMW3 S1.8 and S1.7. The
+> fault point of S1.8 is about 44km from FangShan cable station, whilst
+> the fault point of S1.7 is 459km from Shantou cable station. 
+> 
+> - Cable ship Retriever, who is now in Philippine, is mobilized for the
+> 
+> SMW3 repair. 
+> 
+> APCN2 Segment 7 (Tanshui - Shantou) & Segment 3 (Hong Kong - ChongMing)
+> 
+> :
+> 
+> - The APCN2 S7 (Tanshui - Shantou) was reported down at 1606UTC 26-Dec
+> whilst the S3 (Hong Kong -
+> 
+> ChongMing) was also down at 1801utc. It caused the traffic isolation
+> between Southern Asia (Hong Kong/Singapore/ Malaysia/Philippine) to
+> Northern Asia (Japan/Taiwan/Korea). 
+> 
+> - The HKG to Singapore/Malaysia/Philippine traffic was still working
+> fine in the southern Asia region. 
+> 
+> - The fault point of S7 is about 905km from Tanshui cable station,
+> whilst that of S3 is about 2091km from ChongMing cable station. 
+> 
+> CS KPL (Japan) will be mobilized for the repair of APCN2 S3 & S7 :
+> 
+> - China-US segment W1 (Shantou - ChongMing) & Segment S1 (Shantou -
+> 
+> Okinawa/SLO)
+> 
+> - China-US segment W2 (Spur to Fangshan) was isolated since 1227utc
+> 26-Dec. Fault point is about 9.7km from FangShan
+> 
+> - At 1859UTC, another cable fault developed on China-US segment S1,
+> 502km from Shantou cable station. 
+> 
+> - At 0207utc 27-Dec, the segment W1 (Shantou - ChongMing) was also down
+> that made the Shantou node being isolated from China-US cable system.
+> 
+> The fault point is about 452km from Shantou cable station. 
+> 
+> CS KDD Ocean Link (KOL) will be mobilized for the repair of CHUS. 
+> 
+>  
+> 
+> FLAG FEA Sub-System 8 (Hong Kong - Shanghai - Korea) :
+> 
+> - FLAG FEA reported that the Sub-system 8 had suffered cable fault at
+> 2056UTC. The fault point is between Repeater 9 and Repeater 10 near Hong
+> Kong. 
+> 
+> - Currently no any repair schedule for the FEA repair.
+> 
+> ****
+> 
+>  
+> Hope this helps
+>  
+> 
+> Regards,
+> 
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFlsO5pbZvCIJx1bcRAm6VAJ4jjT9yaVy88J9S1shqJBYBu2JG5QCg9BtN
+tiCQ3PYOooeUcwqKdsyDW0Y=
+=iz9I
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Sun Dec 31 12:38:39 2006
+From: virendra.rode (virendra rode //)
+Date: Sun, 31 Dec 2006 09:38:39 -0800
+Subject: [Outages] Qwest outage aggravates customers
+Message-ID: <4597F59F.2000408@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Not sure how many of you got impacted by quest outage.
+
+http://www.daily-times.com/ci_4926735
+
+Hopefully someday (wishful thinking) ISPs can be more proactive in
+reporting their planned & unplanned outages to public forum(s) such as
+outages mailing list <grin>. Similar to security advisory reporting
+which is now a standard practice.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFl/WepbZvCIJx1bcRAkOaAKDdG8gVTeFWweMgaIeQ23zYr7uXGACgmJHw
+u/QiqNrRHks744uw8mTtxGo=
+=OaOO
+-----END PGP SIGNATURE-----
+
+

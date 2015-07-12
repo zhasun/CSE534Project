@@ -1,0 +1,2674 @@
+From itdirector at gmail.com  Thu Mar  4 17:17:41 2010
+From: itdirector at gmail.com (Lori Barfield)
+Date: Thu, 4 Mar 2010 14:17:41 -0800
+Subject: [outages] yahoo mx backlog
+Message-ID: <c0fc3ae81003041417i10b0bc92j1bc0849049ab69b3@mail.gmail.com>
+
+just fyi.  secondhand but credible:
+
+   http://www.strongmail.com/resources/blogs/maximizing_deliverability/2010/03/yahoo-issues-34.php
+
+...lori
+
+From th at wdogsystems.com  Sat Mar  6 11:08:07 2010
+From: th at wdogsystems.com (Tim Howland)
+Date: Sat, 6 Mar 2010 11:08:07 -0500
+Subject: [outages] slicehost DFW1 having high packet loss, slow ping times
+Message-ID: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+
+Looks like slicehost's DFW1 facility is having high packet loss and
+extremely slow pings as of 11:00 AM EST on 2010-03-06.
+
+We're seeing 60% packet loss and 500ms+ ping times when they aren't dropped.
+
+-- 
+Tim Howland
+http://wdogsystems.com/
+978-225-8494
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100306/6904f0bd/attachment.html>
+
+From th at wdogsystems.com  Sat Mar  6 11:14:16 2010
+From: th at wdogsystems.com (Tim Howland)
+Date: Sat, 6 Mar 2010 11:14:16 -0500
+Subject: [outages] slicehost DFW1 having high packet loss,
+	slow ping times
+In-Reply-To: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+References: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+Message-ID: <63f82c661003060814j601ec69eqfe49c2b120a3d2b4@mail.gmail.com>
+
+Slicehost DFW1 seems to have recovered as of 11:15 AM EST on 2010-03-06. No
+word as to root cause, looked like it was in their network.
+
+On Sat, Mar 6, 2010 at 11:08 AM, Tim Howland <th at wdogsystems.com> wrote:
+
+> Looks like slicehost's DFW1 facility is having high packet loss and
+> extremely slow pings as of 11:00 AM EST on 2010-03-06.
+>
+> We're seeing 60% packet loss and 500ms+ ping times when they aren't
+> dropped.
+>
+> --
+> Tim Howland
+> http://wdogsystems.com/
+> 978-225-8494
+>
+
+
+
+-- 
+Tim Howland
+http://wdogsystems.com/
+978-225-8494
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100306/160c43de/attachment.html>
+
+From william.mccall at gmail.com  Sat Mar  6 11:24:39 2010
+From: william.mccall at gmail.com (William McCall)
+Date: Sat, 6 Mar 2010 10:24:39 -0600
+Subject: [outages] slicehost DFW1 having high packet loss,
+	slow ping times
+In-Reply-To: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+References: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+Message-ID: <f9a8f301003060824g69e8f17co11e2c63a9b377a7@mail.gmail.com>
+
+Not seeing this issue via AT&T (legacy SBC) DSL service nor from AT&T
+commercial services.
+
+On Sat, Mar 6, 2010 at 10:08 AM, Tim Howland <th at wdogsystems.com> wrote:
+> Looks like slicehost's DFW1 facility is having high packet loss and
+> extremely slow pings as of 11:00 AM EST on 2010-03-06.
+> We're seeing 60% packet loss and 500ms+ ping times when they aren't dropped.
+>
+> --
+> Tim Howland
+> http://wdogsystems.com/
+> 978-225-8494
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+William McCall, CCIE #25044
+
+From tsands at rackspace.com  Sat Mar  6 12:24:52 2010
+From: tsands at rackspace.com (Tom Sands)
+Date: Sat, 6 Mar 2010 11:24:52 -0600
+Subject: [outages] slicehost DFW1 having high packet loss,
+	slow ping times
+In-Reply-To: <63f82c661003060814j601ec69eqfe49c2b120a3d2b4@mail.gmail.com>
+References: <63f82c661003060808i7eeda19ardc1ed253fdc9ddcb@mail.gmail.com>
+	<63f82c661003060814j601ec69eqfe49c2b120a3d2b4@mail.gmail.com>
+Message-ID: <23605_1267896302_o26HOvQK026950_4B928FE4.705@rackspace.com>
+
+Hey Tim,
+
+   Do you have any traceroutes during the time of the problem?  We 
+didn't see any internal latency or packet loss problems for SliceHost or 
+Rackspace in DFW.
+
+Thank you,
+
+--------------------------------------------------------------------------------
+Tom Sands			  				
+Chief Network Engineer				
+Rackspace 	    	
+--------------------------------------------------------------------------------
+
+Tim Howland wrote:
+> Slicehost DFW1 seems to have recovered as of 11:15 AM EST on 2010-03-06. 
+> No word as to root cause, looked like it was in their network.
+> 
+> On Sat, Mar 6, 2010 at 11:08 AM, Tim Howland <th at wdogsystems.com 
+> <mailto:th at wdogsystems.com>> wrote:
+> 
+>     Looks like slicehost's DFW1 facility is having high packet loss and
+>     extremely slow pings as of 11:00 AM EST on 2010-03-06.
+> 
+>     We're seeing 60% packet loss and 500ms+ ping times when they aren't
+>     dropped.
+> 
+>     -- 
+>     Tim Howland
+>     http://wdogsystems.com/
+>     978-225-8494
+> 
+> 
+> 
+> 
+> -- 
+> Tim Howland
+> http://wdogsystems.com/
+> 978-225-8494
+> 
+
+
+Confidentiality Notice: This e-mail message (including any attached or
+embedded documents) is intended for the exclusive and confidential use of the
+individual or entity to which this message is addressed, and unless otherwise
+expressly indicated, is confidential and privileged information of Rackspace.
+Any dissemination, distribution or copying of the enclosed material is prohibited.
+If you receive this transmission in error, please notify us immediately by e-mail
+at abuse at rackspace.com, and delete the original message.
+Your cooperation is appreciated.
+
+
+From mwmoeller at gmail.com  Mon Mar  8 12:51:48 2010
+From: mwmoeller at gmail.com (Michael Moeller)
+Date: Mon, 8 Mar 2010 12:51:48 -0500
+Subject: [outages] Salesforce Outage
+Message-ID: <847bb5371003080951p2045e79ap3efc37acfe7b99fa@mail.gmail.com>
+
+I had been seeing nearly 50% packet loss to na4.salesforce.com starting at
+around 11:20 EST on 2010-03-08 for roughly 20-30 minutes.  I only have a
+route to 14340 through 2914.  Packets appeared to be dropped between
+128.241.219.22
+and 204.14.234.134.  The path appears stable now though.
+
+Does anyone have any additional information on 14340's issue?  It appears
+that this is happening more and more.  Growing pains?  Calls to SF Level 1
+support are less than productive and requests to escalate to someone with
+clue are fruitless.
+
+I know this is a single site outage and not a provider outage, but I'm
+hoping somone clueful might have more information.
+
+Thanks in advance for any additional information.
+
+Mike
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100308/75418c88/attachment.html>
+
+From zaid at genius.com  Mon Mar  8 13:45:31 2010
+From: zaid at genius.com (Zaid Ali)
+Date: Mon, 08 Mar 2010 10:45:31 -0800
+Subject: [outages] Salesforce Outage
+In-Reply-To: <847bb5371003080951p2045e79ap3efc37acfe7b99fa@mail.gmail.com>
+Message-ID: <C7BA85CB.1BCF3%zaid@genius.com>
+
+I experienced this and saw socket timeouts with AppExchange. Seems stable by
+the time I got to checking my network path.
+
+Not sure if we have anyone from Saleforce on Outages.
+
+Zaid
+
+
+On 3/8/10 9:51 AM, "Michael Moeller" <mwmoeller at gmail.com> wrote:
+
+> I had been seeing nearly 50% packet loss to na4.salesforce.com starting at
+> around 11:20 EST on 2010-03-08 for roughly 20-30 minutes.  I only have a
+> route to 14340 through 2914.  Packets appeared to be dropped between
+> 128.241.219.22
+> and 204.14.234.134.  The path appears stable now though.
+> 
+> Does anyone have any additional information on 14340's issue?  It appears
+> that this is happening more and more.  Growing pains?  Calls to SF Level 1
+> support are less than productive and requests to escalate to someone with
+> clue are fruitless.
+> 
+> I know this is a single site outage and not a provider outage, but I'm
+> hoping somone clueful might have more information.
+> 
+> Thanks in advance for any additional information.
+> 
+> Mike
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From bpfankuch at cpgreeley.com  Mon Mar  8 15:25:14 2010
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Mon, 8 Mar 2010 13:25:14 -0700
+Subject: [outages] Salesforce Outage
+In-Reply-To: <C7BA85CB.1BCF3%zaid@genius.com>
+References: <847bb5371003080951p2045e79ap3efc37acfe7b99fa@mail.gmail.com>
+	<C7BA85CB.1BCF3%zaid@genius.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D757918D7BDC@CPExchange1.cpgreeley.com>
+
+I saw issues while generating a ticket with a vendor who uses salesforce, as well as customers complaining of salesforce "weirdness" this morning.  Seems to have cleared up for me.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Zaid Ali
+Sent: Monday, March 08, 2010 11:46 AM
+To: Michael Moeller; outages at outages.org
+Subject: Re: [outages] Salesforce Outage
+
+I experienced this and saw socket timeouts with AppExchange. Seems stable by the time I got to checking my network path.
+
+Not sure if we have anyone from Saleforce on Outages.
+
+Zaid
+
+
+On 3/8/10 9:51 AM, "Michael Moeller" <mwmoeller at gmail.com> wrote:
+
+> I had been seeing nearly 50% packet loss to na4.salesforce.com 
+> starting at around 11:20 EST on 2010-03-08 for roughly 20-30 minutes.  
+> I only have a route to 14340 through 2914.  Packets appeared to be 
+> dropped between
+> 128.241.219.22
+> and 204.14.234.134.  The path appears stable now though.
+> 
+> Does anyone have any additional information on 14340's issue?  It 
+> appears that this is happening more and more.  Growing pains?  Calls 
+> to SF Level 1 support are less than productive and requests to 
+> escalate to someone with clue are fruitless.
+> 
+> I know this is a single site outage and not a provider outage, but I'm 
+> hoping somone clueful might have more information.
+> 
+> Thanks in advance for any additional information.
+> 
+> Mike
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From bigwavedave at gmail.com  Mon Mar  8 15:53:18 2010
+From: bigwavedave at gmail.com (Big Wave Dave)
+Date: Mon, 8 Mar 2010 12:53:18 -0800
+Subject: [outages] Salesforce Outage
+In-Reply-To: <847bb5371003080951p2045e79ap3efc37acfe7b99fa@mail.gmail.com>
+References: <847bb5371003080951p2045e79ap3efc37acfe7b99fa@mail.gmail.com>
+Message-ID: <8e124f161003081253mdd6edc6j1740288d4932f22@mail.gmail.com>
+
+On Mon, Mar 8, 2010 at 9:51 AM, Michael Moeller <mwmoeller at gmail.com> wrote:
+> I had been seeing nearly 50% packet loss to na4.salesforce.com starting at
+> around 11:20 EST on 2010-03-08 for roughly 20-30 minutes.? I only have a
+> route to 14340?through 2914.? Packets appeared to be dropped between
+> 128.241.219.22 and?204.14.234.134.? The path appears stable now though.
+>
+> Does anyone have any additional information on 14340's issue?? It appears
+> that this is happening more and more.? Growing pains?? Calls to SF Level 1
+> support are less than productive and requests to escalate to someone with
+> clue are fruitless.
+>
+> I know this is a single site outage and not a provider outage, but I'm
+> hoping somone clueful might have more information.
+>
+> Thanks in advance for any additional information.
+>
+> Mike
+
+http://trust.salesforce.com/trust/status/
+
+At the top of the page they have some additional information.
+
+Dave
+
+
+From mwmoeller at gmail.com  Mon Mar  8 15:59:24 2010
+From: mwmoeller at gmail.com (mwmoeller at gmail.com)
+Date: Mon, 08 Mar 2010 20:59:24 +0000
+Subject: [outages] Salesforce Outage
+In-Reply-To: <8e124f161003081253mdd6edc6j1740288d4932f22@mail.gmail.com>
+Message-ID: <0016e646554c03d4f204815057c9@google.com>
+
+On Mar 8, 2010 3:53pm, Big Wave Dave <bigwavedave at gmail.com> wrote:
+
+> http://trust.salesforce.com/trust/status/
+
+> At the top of the page they have some additional information.
+
+
+> Dave
+
+
+Dave,
+
+Thanks. I'd fogotten to mention in my first post that I checked Trust  
+earlier - but was hoping that perhaps someone had more specifics.
+
+Thank you, though.
+
+Mike
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100308/5b3a65b2/attachment.html>
+
+From mwmoeller at gmail.com  Mon Mar  8 16:01:29 2010
+From: mwmoeller at gmail.com (mwmoeller at gmail.com)
+Date: Mon, 08 Mar 2010 21:01:29 +0000
+Subject: [outages] Salesforce Outage
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D757918D7BDC@CPExchange1.cpgreeley.com>
+Message-ID: <00151757437c7fb0990481505e80@google.com>
+
+On Mar 8, 2010 3:25pm, Blake Pfankuch <bpfankuch at cpgreeley.com> wrote:
+> I saw issues while generating a ticket with a vendor who uses salesforce,  
+> as well as customers complaining of salesforce "weirdness" this morning.  
+> Seems to have cleared up for me.
+
+
+
+It looks like it cleared up around 17:14 UTC, I haven't heard any more  
+complaints from my users. I'm just curious as to what is going on. It  
+appears this is happening much more often lately.
+
+Mike
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100308/21cc9d23/attachment.html>
+
+From jra at baylink.com  Thu Mar 11 09:56:36 2010
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 11 Mar 2010 09:56:36 -0500 (EST)
+Subject: [outages] Salesforce Outage
+In-Reply-To: <8e124f161003081253mdd6edc6j1740288d4932f22@mail.gmail.com>
+Message-ID: <30659227.34352.1268319396410.JavaMail.root@benjamin>
+
+----- "Big Wave Dave" <bigwavedave at gmail.com> wrote:
+> http://trust.salesforce.com/trust/status/
+> 
+> At the top of the page they have some additional information.
+
+Added to the Outages.org Dashboard page of status page links; thanks.
+
+Oh, and I'm sure Ken Levine would be pleased to know he has a fan.  :-)
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From mwmoeller at gmail.com  Thu Mar 11 11:01:13 2010
+From: mwmoeller at gmail.com (Michael Moeller)
+Date: Thu, 11 Mar 2010 11:01:13 -0500
+Subject: [outages] Salesforce Outage
+In-Reply-To: <30659227.34352.1268319396410.JavaMail.root@benjamin>
+References: <8e124f161003081253mdd6edc6j1740288d4932f22@mail.gmail.com>
+	<30659227.34352.1268319396410.JavaMail.root@benjamin>
+Message-ID: <847bb5371003110801s48c1b11ds602e27594fd5270f@mail.gmail.com>
+
+On Thu, Mar 11, 2010 at 9:56 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+> ----- "Big Wave Dave" <bigwavedave at gmail.com> wrote:
+>> http://trust.salesforce.com/trust/status/
+>>
+>> At the top of the page they have some additional information.
+>
+> Added to the Outages.org Dashboard page of status page links; thanks.
+>
+> Oh, and I'm sure Ken Levine would be pleased to know he has a fan. ?:-)
+>
+> Cheers,
+> -- jra
+
+Jay, Thanks for adding that to the dashboard page.  Unfortunately,
+today trust.salesforce.com was down - as were the rest of their
+services.
+
+Did anyone else using Salesforce just experience a 35 minute outage?
+Support is stating that the issue is now resolved.  However, it seems
+like their infrastructure is suffering some major brain damage.
+
+Best,
+Mike
+
+
+From frnkblk at iname.com  Thu Mar 11 11:06:32 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Thu, 11 Mar 2010 10:06:32 -0600
+Subject: [outages] FW: RoadRunner outage is upper NY occured
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACtFljKFja1QZaPDXC2ZEOYAQAAAAA=@iname.com>
+
+>From a private listserv...
+
+-----Original Message-----
+Sent: Thursday, March 11, 2010 9:51 AM
+
+This is an update message for the Alert/Notification titled: connect issues with roadrunner
+Problem Resolution:
+
+As of 10:30am 3/11/2010 - The problems users were experiencing with using RoadRunner have been resolved.
+
+Time Warner Cable says thousands of its Digital Phone and Roadrunner customers were without service from about 7am -10am Thursday morning.
+ 
+Time Warner Spokesperson Jeff Unitias says the outage was due to a technical problem with a router in Rochester.
+ 
+The outage affected people in both the Syracuse and Rochester area.
+
+Service has been restored.
+****************************
+Original Problem Description:
+As of 8:00am on 3/11/2010 - Users are reporting problems using RoadRunner to connect to <snip> Resources.  Time Warner Cable is aware of the problem and is currently working to a resolution.  No estimated time of resolution is known at this time.  This alert will be updated as information becomes available.
+****************************
+
+
+
+From zaid at genius.com  Thu Mar 11 11:08:53 2010
+From: zaid at genius.com (Zaid Ali)
+Date: Thu, 11 Mar 2010 08:08:53 -0800
+Subject: [outages] Salesforce Outage
+In-Reply-To: <847bb5371003110801s48c1b11ds602e27594fd5270f@mail.gmail.com>
+Message-ID: <C7BE5595.1C1E9%zaid@genius.com>
+
+I am experiencing problems, Our sync queue is backed up !
+
+Zaid
+
+
+On 3/11/10 8:01 AM, "Michael Moeller" <mwmoeller at gmail.com> wrote:
+
+> On Thu, Mar 11, 2010 at 9:56 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+>> ----- "Big Wave Dave" <bigwavedave at gmail.com> wrote:
+>>> http://trust.salesforce.com/trust/status/
+>>> 
+>>> At the top of the page they have some additional information.
+>> 
+>> Added to the Outages.org Dashboard page of status page links; thanks.
+>> 
+>> Oh, and I'm sure Ken Levine would be pleased to know he has a fan. ?:-)
+>> 
+>> Cheers,
+>> -- jra
+> 
+> Jay, Thanks for adding that to the dashboard page.  Unfortunately,
+> today trust.salesforce.com was down - as were the rest of their
+> services.
+> 
+> Did anyone else using Salesforce just experience a 35 minute outage?
+> Support is stating that the issue is now resolved.  However, it seems
+> like their infrastructure is suffering some major brain damage.
+> 
+> Best,
+> Mike
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From zaid at genius.com  Thu Mar 11 11:18:49 2010
+From: zaid at genius.com (Zaid Ali)
+Date: Thu, 11 Mar 2010 08:18:49 -0800
+Subject: [outages] Salesforce Outage
+In-Reply-To: <C7BE5595.1C1E9%zaid@genius.com>
+Message-ID: <C7BE57E9.1C1F6%zaid@genius.com>
+
+We experienced timeouts, network path seemed fine to me so wondering if its
+something else inside the network. I see things picking up now and events
+being uploaded.
+
+Zaid
+
+
+On 3/11/10 8:08 AM, "Zaid Ali" <zaid at genius.com> wrote:
+
+> I am experiencing problems, Our sync queue is backed up !
+> 
+> Zaid
+> 
+> 
+> On 3/11/10 8:01 AM, "Michael Moeller" <mwmoeller at gmail.com> wrote:
+> 
+>> On Thu, Mar 11, 2010 at 9:56 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+>>> ----- "Big Wave Dave" <bigwavedave at gmail.com> wrote:
+>>>> http://trust.salesforce.com/trust/status/
+>>>> 
+>>>> At the top of the page they have some additional information.
+>>> 
+>>> Added to the Outages.org Dashboard page of status page links; thanks.
+>>> 
+>>> Oh, and I'm sure Ken Levine would be pleased to know he has a fan. ?:-)
+>>> 
+>>> Cheers,
+>>> -- jra
+>> 
+>> Jay, Thanks for adding that to the dashboard page.  Unfortunately,
+>> today trust.salesforce.com was down - as were the rest of their
+>> services.
+>> 
+>> Did anyone else using Salesforce just experience a 35 minute outage?
+>> Support is stating that the issue is now resolved.  However, it seems
+>> like their infrastructure is suffering some major brain damage.
+>> 
+>> Best,
+>> Mike
+>> 
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From KaeglerM at tessco.com  Thu Mar 11 11:56:03 2010
+From: KaeglerM at tessco.com (Kaegler, Mike)
+Date: Thu, 11 Mar 2010 11:56:03 -0500
+Subject: [outages] Salesforce Outage
+In-Reply-To: <847bb5371003110801s48c1b11ds602e27594fd5270f@mail.gmail.com>
+References: <8e124f161003081253mdd6edc6j1740288d4932f22@mail.gmail.com>
+	<30659227.34352.1268319396410.JavaMail.root@benjamin>
+	<847bb5371003110801s48c1b11ds602e27594fd5270f@mail.gmail.com>
+Message-ID: <10A696EC3BCC3C488C2205A17507128C01D233CD@EXCHANGE-1.tessco.com>
+
+> Did anyone else using Salesforce just experience a 35 minute outage?
+
+Aye. Packet loss around 90%, latency on surviving packets in the  1.8
+second range. Traceroute seemed to indicate fine (during normal
+operation it doesn't go past ae-44-99.car4.sanjose1.level3.net for me).
+
+Cleared up now. We're pre-production over here, just integration people
+working with SFDC. I have the feeling the crazed "WHATS WRONG WITH THE
+INTERNET!" I got was a taste of the future. I'm imagining every phone in
+engineering/helpdesk starts ringing simultaneously...
+
+What are you folks doing to gather stats/inform helpdesk when the cloud
+fails? Any IPSLA monitors help?
+
+Thanks,
+-porkchop
+
+
+From twinders at southplainscollege.edu  Thu Mar 11 11:05:54 2010
+From: twinders at southplainscollege.edu (Winders, Timothy A)
+Date: Thu, 11 Mar 2010 10:05:54 -0600
+Subject: [outages] Salesforce Outage
+Message-ID: <049501cac134$b2ba0ebb$077075d8@southplainscollege.edu>
+
+
+
+Sent from my HTC
+
+-----Original Message-----
+From: Jay R. Ashworth <jra at baylink.com>
+Sent: Thursday, March 11, 2010 9:50 AM
+To: outages <outages at outages.org>
+Subject: Re: [outages] Salesforce Outage
+
+----- "Big Wave Dave" <bigwavedave at gmail.com> wrote:
+> http://trust.salesforce.com/trust/status/
+> 
+> At the top of the page they have some additional information.
+
+Added to the Outages.org Dashboard page of status page links; thanks.
+
+Oh, and I'm sure Ken Levine would be pleased to know he has a fan.  :-)
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From zaid at genius.com  Thu Mar 11 13:42:24 2010
+From: zaid at genius.com (Zaid Ali)
+Date: Thu, 11 Mar 2010 10:42:24 -0800
+Subject: [outages] Salesforce Outage
+In-Reply-To: <10A696EC3BCC3C488C2205A17507128C01D233CD@EXCHANGE-1.tessco.com>
+Message-ID: <C7BE7990.1C240%zaid@genius.com>
+
+
+On 3/11/10 8:56 AM, "Kaegler, Mike" <KaeglerM at tessco.com> wrote:
+
+>> Did anyone else using Salesforce just experience a 35 minute outage?
+> 
+> Aye. Packet loss around 90%, latency on surviving packets in the  1.8
+> second range. Traceroute seemed to indicate fine (during normal
+> operation it doesn't go past ae-44-99.car4.sanjose1.level3.net for me).
+> 
+> Cleared up now. We're pre-production over here, just integration people
+> working with SFDC. I have the feeling the crazed "WHATS WRONG WITH THE
+> INTERNET!" I got was a taste of the future. I'm imagining every phone in
+> engineering/helpdesk starts ringing simultaneously...
+> 
+> What are you folks doing to gather stats/inform helpdesk when the cloud
+> fails? Any IPSLA monitors help?
+> 
+
+Looks like they have their hands full with some upper level management
+explaining to do.
+
+http://www.networkworld.com/news/2010/031110-salesforce-outage.html
+
+Zaid
+
+
+From bduross at learningcaregroup.com  Fri Mar 12 10:48:25 2010
+From: bduross at learningcaregroup.com (Brian DuRoss)
+Date: Fri, 12 Mar 2010 09:48:25 -0600
+Subject: [outages] AT&T Audio Conferencing Outage
+Message-ID: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDC11@LCGEXOAK1.cttlc.com>
+
+Currently impacting all of our AT&T tele-conferencing services. Ticket follows...
+
+All Times are Network Time (GMT-6)
+Current Network Time: 9:38 AM  03/12/2010
+
+
+Event Managed by:
+
+CNOC
+
+AT&T Network/Region:
+
+U.S. Network
+
+Event:
+
+System
+
+
+Location:
+
+NSDNET/RUBY Automation/BVOIP
+
+Event Description:
+
+NSDNET is experiencing an outage impacting all RUBY Automation as well as BVOIP customers.
+
+Customer Impact:
+
+Trouble Reports:0
+
+Tracking Ticket:
+
+Tool:  AOTS
+
+Ticket:  121572568
+
+Event Start:
+
+At: 8:00 AM
+
+On: 03/12/2010
+
+Duration:
+
+1 Hours 38 Minutes
+
+Estimated Time to Repair:
+
+Unknown
+
+CNOC Study Code:
+
+3A12US1    FX:  FX1      TCB/MCB:
+
+Sensitive
+
+AOTS Ticket:
+
+121575115
+
+
+Alert#
+
+Date/Time
+
+Status
+
+3
+
+03/12/2010 9:12 A
+
+Technicians continue to investigate the suspected router issue in Denver, CO located in the NSDNET network area. There is also BVOIP customer impact due to this outage. There is no ETTR available at this time.
+
+
+2
+
+03/12/2010 9:02 A
+
+The trouble is suspected to be due to a router issue in Denver, CO located in the NSDNET network area. Teams continue to investigate the trouble. There is no ETTR available at this time.
+
+1
+
+03/12/2010 8:48 A
+
+NSDNET is experiencing an outage impacting all RUBY Automation. Support teams are currently investigating the trouble. There is no ETTR available at this time.
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100312/92a37cae/attachment.html>
+
+From bduross at learningcaregroup.com  Fri Mar 12 11:29:13 2010
+From: bduross at learningcaregroup.com (Brian DuRoss)
+Date: Fri, 12 Mar 2010 10:29:13 -0600
+Subject: [outages] AT&T Conferencing Outage - Update
+Message-ID: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDCAA@LCGEXOAK1.cttlc.com>
+
+4
+
+03/12/2010 9:56 A
+
+NSDNET technical teams continue to investigate the trouble. Teams are currently focused on one of the Denver campus routers, specifically one of the high speed slots may be failing. There is no ETTR available at this time.
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100312/49a477f4/attachment-0001.html>
+
+From dniesen at gmail.com  Fri Mar 12 13:23:48 2010
+From: dniesen at gmail.com (Donovan)
+Date: Fri, 12 Mar 2010 12:23:48 -0600
+Subject: [outages] AT&T Conferencing Outage - Update
+In-Reply-To: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDCAA@LCGEXOAK1.cttlc.com>
+References: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDCAA@LCGEXOAK1.cttlc.com>
+Message-ID: <47f4d5e71003121023v5e81e901n159b9d5974b361f7@mail.gmail.com>
+
+Our BVOIP service in Troy, MI seems to be mostly working now.  Getting an
+occasional "call cannot be completed" for some DIDs but I would say 90% of
+DIDs are ringing through to us now.  This outage seemed to only affect our
+DIDs inbound.
+
+On Fri, Mar 12, 2010 at 10:29 AM, Brian DuRoss <
+bduross at learningcaregroup.com> wrote:
+
+> 4
+>
+> 03/12/2010 9:56 A
+>
+> NSDNET technical teams continue to investigate the trouble. Teams are
+> currently focused on one of the Denver campus routers, specifically one of
+> the high speed slots may be failing. There is no ETTR available at this
+> time.
+>
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+Donovan Niesen
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100312/edce1ce1/attachment.html>
+
+From ray.sanders at villagevoicemedia.com  Fri Mar 12 13:48:11 2010
+From: ray.sanders at villagevoicemedia.com (Ray Sanders)
+Date: Fri, 12 Mar 2010 11:48:11 -0700
+Subject: [outages] XO issues in Southwestern U.S
+Message-ID: <4B9A8C6B.9070501@villagevoicemedia.com>
+
+Are there any reported outages with XO in the South/Southwestern United 
+States?
+
+We're seeing some issues in Phoenix and Houston Tx.
+
+
+
+Thanks.
+
+-- 
+-"Prediction is very difficult, especially about the future."
+-Niels Bohr
+--
+Ray Sanders
+Linux Administrator
+Village Voice Media
+Office: 602-744-6547
+Cell: 602-300-4344
+
+
+From bduross at learningcaregroup.com  Fri Mar 12 14:25:21 2010
+From: bduross at learningcaregroup.com (Brian DuRoss)
+Date: Fri, 12 Mar 2010 13:25:21 -0600
+Subject: [outages] AT&T Conferencing Outage - More Updates
+Message-ID: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDEE1@LCGEXOAK1.cttlc.com>
+
+
+Alert#
+
+Date/Time
+
+Status
+
+
+5
+
+03/12/2010 10:56 A
+
+The NSDNET technicians are still working to isolate the trouble. The NSDNET technicians tried bringing down the r2dnvr100 router to force the traffic to the r2dnvr101 router. However, this did not resolve the issue. The r2dnvr100 router was brought back up. There is no ETTR available at this time.
+
+6
+
+03/12/2010 12:31 P
+
+Technical teams continue to segment and test the various links and platforms in Denver. The BVoIP team re-pointed the Call Control Element from Atlanta to Philadelphia. Call completing has improved, however some blocked calls are still occurring.
+
+The issue appears to be related to a message storm in the EIGRP protocol, which is used by the various routers to communicate between themselves and the various external end points (centers and elements).
+
+Web conferencing services continue to have impacts due to heavy backups at the top and bottoms of the hours for both ATT Connect and ATT Web Meeting services. Customers may be experiencing delays and synchronization issues.
+
+
+
+
+
+
+--
+Brian DuRoss
+Learning Care Group
+Systems Coordinator
+o: 248.697.9202
+m: 248.767.3783
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Donovan
+Sent: Friday, March 12, 2010 1:24 PM
+To: outages at outages.org
+Subject: Re: [outages] AT&T Conferencing Outage - Update
+
+Our BVOIP service in Troy, MI seems to be mostly working now.  Getting an occasional "call cannot be completed" for some DIDs but I would say 90% of DIDs are ringing through to us now.  This outage seemed to only affect our DIDs inbound.
+On Fri, Mar 12, 2010 at 10:29 AM, Brian DuRoss <bduross at learningcaregroup.com<mailto:bduross at learningcaregroup.com>> wrote:
+4
+
+03/12/2010 9:56 A
+
+NSDNET technical teams continue to investigate the trouble. Teams are currently focused on one of the Denver campus routers, specifically one of the high speed slots may be failing. There is no ETTR available at this time.
+
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org<mailto:outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+--
+Donovan Niesen
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100312/e445b836/attachment.html>
+
+From bduross at learningcaregroup.com  Fri Mar 12 16:22:42 2010
+From: bduross at learningcaregroup.com (Brian DuRoss)
+Date: Fri, 12 Mar 2010 15:22:42 -0600
+Subject: [outages] AT&T Conferencing Outage - Update
+In-Reply-To: <47f4d5e71003121023v5e81e901n159b9d5974b361f7@mail.gmail.com>
+References: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CDCAA@LCGEXOAK1.cttlc.com>
+	<47f4d5e71003121023v5e81e901n159b9d5974b361f7@mail.gmail.com>
+Message-ID: <C72A59B7ABF4B344A6AF56446F57BCAD09CD6CE178@LCGEXOAK1.cttlc.com>
+
+9
+
+03/12/2010 2:47 P
+
+The BVoIP network has been largely recovered. There are some residual effects due to traffic spikes in traffic, affecting a small number of calls. The next phase of recovery is directed at recovering the many systems that monitor and control the network elements and some of the features in the network. Some of the services (such as teleconference join and transfer connect) which allow the customer to make changes in the feature directly or through an agent continue to be unavailable.
+
+Efforts continue to diagnose the problem with NSDNet, however, they are proceeding with great caution as not to damage the BVoIP platform.
+
+The Birmingham Teleconference center systems are now restored, however, they may still continue to experience extremely high call volumes. Continued sporadic issues to voice conferencing on some bridges, with periodic dead air, are continuing. However, conditions continue to improve. Web Meeting services are stable, ATT Connect services are available but with limited feature availability including impacts to synchronization.
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100312/f64498ed/attachment-0001.html>
+
+From besquivel at immense.net  Sat Mar 13 11:56:42 2010
+From: besquivel at immense.net (Bret Esquivel)
+Date: Sat, 13 Mar 2010 10:56:42 -0600
+Subject: [outages] .ORG Whois
+Message-ID: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+
+Anyone else having issues doing WHOIS on the .ORG TLD?
+
+Looks like whois.publicinterestregistry.net<http://whois.publicinterestregistry.net/> is down.
+
+
+
+
+Bret Esquivel
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100313/c6900125/attachment.html>
+
+From sethm at rollernet.us  Sat Mar 13 12:39:47 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Sat, 13 Mar 2010 09:39:47 -0800
+Subject: [outages] .ORG Whois
+In-Reply-To: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+Message-ID: <4B9BCDE3.9060001@rollernet.us>
+
+On 3/13/10 8:56 AM, Bret Esquivel wrote:
+> Anyone else having issues doing WHOIS on the .ORG TLD?
+> 
+
+I can confirm this. I get a connection reset by peer when I try to use
+whois. (command line, I don't use web browser whois)
+
+~Seth
+
+From virendra.rode at gmail.com  Sat Mar 13 12:37:38 2010
+From: virendra.rode at gmail.com (virendra rode)
+Date: Sat, 13 Mar 2010 09:37:38 -0800
+Subject: [outages] .ORG Whois
+In-Reply-To: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+Message-ID: <4B9BCD62.4000503@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Appears to be unreachable from where I'm located (socal).
+
+
+regards,
+/virendra
+
+
+Bret Esquivel wrote:
+> Anyone else having issues doing WHOIS on the .ORG TLD?
+> 
+> Looks like whois.publicinterestregistry.net<http://whois.publicinterestregistry.net/> is down.
+> 
+> 
+> 
+> 
+> Bret Esquivel
+> 
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLm81ipbZvCIJx1bcRArLMAJ0cvceCnIxdyzGIquykXNNFV2ZdjQCgpMSX
+Fjqy/ivccba1whDqQE3DYT0=
+=u1VD
+-----END PGP SIGNATURE-----
+
+From sethm at rollernet.us  Sat Mar 13 12:56:33 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Sat, 13 Mar 2010 09:56:33 -0800
+Subject: [outages] .ORG Whois
+In-Reply-To: <8AB62D11-15E8-4379-9CC4-F9045882E7EF@tiemann.org>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+	<4B9BCDE3.9060001@rollernet.us>
+	<8AB62D11-15E8-4379-9CC4-F9045882E7EF@tiemann.org>
+Message-ID: <4B9BD1D1.2040701@rollernet.us>
+
+On 3/13/10 9:46 AM, Billy Tiemann wrote:
+> Working for me from Comcast in California - time to do some debugging rather then asking if 'its down for you'.
+> 
+
+It works now, but didn't when I tried at 09:93 UTC-8.
+
+~Seth
+
+From jim at tgasolutions.com  Sat Mar 13 13:02:38 2010
+From: jim at tgasolutions.com (Jim McBurnett)
+Date: Sat, 13 Mar 2010 13:02:38 -0500
+Subject: [outages] .ORG Whois
+In-Reply-To: <4B9BD1D1.2040701@rollernet.us>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+	<4B9BCDE3.9060001@rollernet.us>
+	<8AB62D11-15E8-4379-9CC4-F9045882E7EF@tiemann.org>
+	<4B9BD1D1.2040701@rollernet.us>
+Message-ID: <CCD4153D830F584982521DFC986BFF31535332ABED@tgainf06.TGASolutions.local>
+
+Still down here in WNC but up from Atlanta
+
+Jim
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Seth Mattinen
+Sent: Saturday, March 13, 2010 12:57 PM
+To: outages at outages.org
+Subject: Re: [outages] .ORG Whois
+
+On 3/13/10 9:46 AM, Billy Tiemann wrote:
+> Working for me from Comcast in California - time to do some debugging rather then asking if 'its down for you'.
+> 
+
+It works now, but didn't when I tried at 09:93 UTC-8.
+
+~Seth
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From sethm at rollernet.us  Sat Mar 13 13:15:07 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Sat, 13 Mar 2010 10:15:07 -0800
+Subject: [outages] .ORG Whois
+In-Reply-To: <CCD4153D830F584982521DFC986BFF31535332ABED@tgainf06.TGASolutions.local>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>	<4B9BCDE3.9060001@rollernet.us>	<8AB62D11-15E8-4379-9CC4-F9045882E7EF@tiemann.org>
+	<4B9BD1D1.2040701@rollernet.us>
+	<CCD4153D830F584982521DFC986BFF31535332ABED@tgainf06.TGASolutions.local>
+Message-ID: <4B9BD62B.2030508@rollernet.us>
+
+On 3/13/10 10:02 AM, Jim McBurnett wrote:
+> Still down here in WNC but up from Atlanta
+> 
+> Jim
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Seth Mattinen
+> Sent: Saturday, March 13, 2010 12:57 PM
+> To: outages at outages.org
+> Subject: Re: [outages] .ORG Whois
+> 
+> On 3/13/10 9:46 AM, Billy Tiemann wrote:
+>> Working for me from Comcast in California - time to do some debugging rather then asking if 'its down for you'.
+>>
+> 
+> It works now, but didn't when I tried at 09:93 UTC-8.
+> 
+
+
+For me, the *website* is down but *whois* works just fine.
+
+~Seth
+
+From netadmin at xplain.com  Sat Mar 13 12:48:10 2010
+From: netadmin at xplain.com (Neil Ticktin)
+Date: Sat, 13 Mar 2010 09:48:10 -0800
+Subject: [outages] AOL Bouncing mail referring to non-existing SORBS DNSBL
+	Entries
+Message-ID: <p06240816c7c17fd2e240@[192.168.1.107]>
+
+Since yesterday, we're getting reports from AOL users (only) that mail is
+bouncing to some of our domains.  The reply from AOL to them talks about
+SORBS DNSBL listings for our domains that, when checked, are not there.
+
+Anyone else seeing this?
+
+Thanks!
+
+Neil
+
+
+
+From billy at tiemann.org  Sat Mar 13 12:46:20 2010
+From: billy at tiemann.org (Billy Tiemann)
+Date: Sat, 13 Mar 2010 09:46:20 -0800
+Subject: [outages] .ORG Whois
+In-Reply-To: <4B9BCDE3.9060001@rollernet.us>
+References: <994AF069-C9F5-47F7-97D7-631755040522@immense.net>
+	<4B9BCDE3.9060001@rollernet.us>
+Message-ID: <8AB62D11-15E8-4379-9CC4-F9045882E7EF@tiemann.org>
+
+Working for me from Comcast in California - time to do some debugging rather then asking if 'its down for you'.
+
+MaxBook:~ maxinux$ whois tiemann.org
+NOTICE: Access to .ORG WHOIS information is provided to assist persons in
+determining the contents of a domain name registration record in the Public Interest Registry
+registry database. The data in this record is provided by Public Interest Registry
+for informational purposes only, and Public Interest Registry does not guarantee its
+
+...
+Domain ID:D98158694-LROR
+Domain Name:TIEMANN.ORG
+Created On:14-May-2003 05:58:11 UTC
+Last Updated On:27-Sep-2008 01:49:26 UTC
+Expiration Date:14-May-2010 05:58:11 UTC
+Sponsoring Registrar:CSL Computer Service Langenbach GmbH d/b/a joker.com a German GmbH (R25-LROR)
+Status:CLIENT TRANSFER PROHIBITED
+
+...
+
+Billy
+On Mar 13, 2010, at 09:39 , Seth Mattinen wrote:
+
+> On 3/13/10 8:56 AM, Bret Esquivel wrote:
+>> Anyone else having issues doing WHOIS on the .ORG TLD?
+>> 
+> 
+> I can confirm this. I get a connection reset by peer when I try to use
+> whois. (command line, I don't use web browser whois)
+> 
+> ~Seth
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jradel at vantage.com  Mon Mar 15 16:28:04 2010
+From: jradel at vantage.com (Jon Radel)
+Date: Mon, 15 Mar 2010 16:28:04 -0400
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+Message-ID: <4B9E9854.4020509@vantage.com>
+
+We're having real trouble getting Verizon Business to pick up routine T1 
+outage tickets and actually work them, and the general temperature of 
+the techs is frosty.  We've now heard rumors of massive (5 figures) 
+layoffs coming down the pike from 2 sources, but nothing firm.  Anybody 
+know if they've got a formal work slowdown going on and / or any 
+forecasts as to where this is going?
+
+-- 
+Jon Radel
+Sr. Director of Engineering
+VANTAGE COMMUNICATIONS
+
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 3648 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100315/585e36ad/attachment.bin>
+
+From sethm at rollernet.us  Mon Mar 15 17:33:07 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Mon, 15 Mar 2010 14:33:07 -0700
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+In-Reply-To: <4B9E9854.4020509@vantage.com>
+References: <4B9E9854.4020509@vantage.com>
+Message-ID: <4B9EA793.2090404@rollernet.us>
+
+On 3/15/2010 13:28, Jon Radel wrote:
+> We're having real trouble getting Verizon Business to pick up routine T1
+> outage tickets and actually work them, and the general temperature of
+> the techs is frosty.  We've now heard rumors of massive (5 figures)
+> layoffs coming down the pike from 2 sources, but nothing firm.  Anybody
+> know if they've got a formal work slowdown going on and / or any
+> forecasts as to where this is going?
+> 
+
+I've been waiting 11 months for a lit building fiber to be provisioned,
+so it seems that would be business as usual.
+
+~Seth
+
+From vaden at texoma.net  Mon Mar 15 17:45:54 2010
+From: vaden at texoma.net (Larry Vaden)
+Date: Mon, 15 Mar 2010 15:45:54 -0600
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+In-Reply-To: <4B9E9854.4020509@vantage.com>
+References: <4B9E9854.4020509@vantage.com>
+Message-ID: <c41c77a91003151445o7babd39bvd8d6625b3bc6ecdd@mail.gmail.com>
+
+On Mon, Mar 15, 2010 at 2:28 PM, Jon Radel <jradel at vantage.com> wrote:
+> We're having real trouble getting Verizon Business to pick up routine T1
+> outage tickets and actually work them, and the general temperature of the
+> techs is frosty. ?We've now heard rumors of massive (5 figures) layoffs
+> coming down the pike from 2 sources, but nothing firm. ?Anybody know if
+> they've got a formal work slowdown going on and / or any forecasts as to
+> where this is going?
+
+Perhaps unrelated, perhaps not, the following email was just received
+from our Verizon salesperson:
+
+"I will be out of the office starting 03/15/2010 and will not return
+until 12/31/2010.
+
+Please refer all your future emails to: wholesaleinquiry at verizon.com
+or call 877-288-6453"
+
+kind regards/ldv
+
+
+From virendra.rode at gmail.com  Mon Mar 15 17:49:10 2010
+From: virendra.rode at gmail.com (virendra rode)
+Date: Mon, 15 Mar 2010 14:49:10 -0700
+Subject: [outages] [Fwd: [slightly OT] Verizon Business repairs slowdown???]
+Message-ID: <4B9EAB56.1090206@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Please move this thread to outages-discussion@
+
+Thanks for your kind attention.
+
+
+regards,
+/virendra
+
+- -------- Original Message --------
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+Date: Mon, 15 Mar 2010 16:28:04 -0400
+From: Jon Radel <jradel at vantage.com>
+To: Outages <outages at outages.org>
+
+We're having real trouble getting Verizon Business to pick up routine T1
+outage tickets and actually work them, and the general temperature of
+the techs is frosty.  We've now heard rumors of massive (5 figures)
+layoffs coming down the pike from 2 sources, but nothing firm.  Anybody
+know if they've got a formal work slowdown going on and / or any
+forecasts as to where this is going?
+
+- --
+Jon Radel
+Sr. Director of Engineering
+VANTAGE COMMUNICATIONS
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLnqtWpbZvCIJx1bcRAvwFAJ91a+hnBZFlBNp+QNhOXGMQ44rxuACeKfAD
+Gvz/WL7w5Gt+UQym3iodw0s=
+=LhjZ
+-----END PGP SIGNATURE-----
+
+From brandon at netsville.com  Mon Mar 15 17:48:35 2010
+From: brandon at netsville.com (Micah Brandon)
+Date: Mon, 15 Mar 2010 17:48:35 -0400
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+In-Reply-To: <4B9E9854.4020509@vantage.com>
+References: <4B9E9854.4020509@vantage.com>
+Message-ID: <4B9EAB33.1010003@netsville.com>
+
+Jon Radel wrote:
+> We're having real trouble getting Verizon Business to pick up routine T1
+> outage tickets and actually work them, and the general temperature of
+> the techs is frosty.  We've now heard rumors of massive (5 figures)
+> layoffs coming down the pike from 2 sources, but nothing firm.  Anybody
+> know if they've got a formal work slowdown going on and / or any
+> forecasts as to where this is going?
+
+I can't substantiate this with anything written, but I have had several Verizon Biz
+techs tell me about "big changes" coming.  And I know there were high-level meetings
+around the holidays.  I'm surprised we haven't heard anything yet.
+
+-MB
+
+From David_Hiers at adp.com  Tue Mar 16 11:07:57 2010
+From: David_Hiers at adp.com (Hiers, David)
+Date: Tue, 16 Mar 2010 10:07:57 -0500
+Subject: [outages] [slightly OT] Verizon Business repairs slowdown???
+In-Reply-To: <4B9EAB33.1010003@netsville.com>
+References: <4B9E9854.4020509@vantage.com> <4B9EAB33.1010003@netsville.com>
+Message-ID: <81CDFC77FB2DC54DB875D4F8FFC36CE00F0CAE9D61@DSMAIL2HE.ds.ad.adp.com>
+
+
+
+
+http://www.google.com/search?q=verizon+layoff
+
+
+
+
+
+
+
+
+David Hiers
+
+CCIE (R/S, V), CISSP
+ADP Dealer Services
+2525 SW 1st Ave.
+Suite 300W
+Portland, OR 97201
+o: 503-205-4467
+f: 503-402-3277
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Micah Brandon
+Sent: Monday, March 15, 2010 2:49 PM
+To: Jon Radel
+Cc: Outages
+Subject: Re: [outages] [slightly OT] Verizon Business repairs slowdown???
+
+Jon Radel wrote:
+> We're having real trouble getting Verizon Business to pick up routine T1
+> outage tickets and actually work them, and the general temperature of
+> the techs is frosty.  We've now heard rumors of massive (5 figures)
+> layoffs coming down the pike from 2 sources, but nothing firm.  Anybody
+> know if they've got a formal work slowdown going on and / or any
+> forecasts as to where this is going?
+
+I can't substantiate this with anything written, but I have had several Verizon Biz
+techs tell me about "big changes" coming.  And I know there were high-level meetings
+around the holidays.  I'm surprised we haven't heard anything yet.
+
+-MB
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+
+
+From jay at west.net  Tue Mar 16 16:40:20 2010
+From: jay at west.net (Jay Hennigan)
+Date: Tue, 16 Mar 2010 13:40:20 -0700
+Subject: [outages] Qwest issues in Southern California?
+Message-ID: <4B9FECB4.1030304@west.net>
+
+We're seeing several T1s bouncing.  On the phone to Qwest NOC now but
+nothing definitive yet.
+
+Just us?
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From giesen at snickers.org  Tue Mar 16 18:05:54 2010
+From: giesen at snickers.org (Gary T. Giesen)
+Date: Tue, 16 Mar 2010 18:05:54 -0400
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <4B9FECB4.1030304@west.net>
+References: <4B9FECB4.1030304@west.net>
+Message-ID: <9a9d0c6a1003161505o383624edn35e66e49fe316fa1@mail.gmail.com>
+
+I know Verizon has a big copper bundle that was severed in Sante Fe
+Springs, and are in the process of pulling new cable with an ETA of
+6pm EDT. It took out a couple of customer T1. I doubt it's related
+though.
+
+GG
+
+On 3/16/10, Jay Hennigan <jay at west.net> wrote:
+> We're seeing several T1s bouncing.  On the phone to Qwest NOC now but
+> nothing definitive yet.
+>
+> Just us?
+>
+> --
+> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+> Impulse Internet Service  -  http://www.impulse.net/
+> Your local telephone and internet company - 805 884-6323 - WB6RDV
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+From LarrySheldon at cox.net  Tue Mar 16 18:16:46 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Tue, 16 Mar 2010 17:16:46 -0500
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <9a9d0c6a1003161505o383624edn35e66e49fe316fa1@mail.gmail.com>
+References: <4B9FECB4.1030304@west.net>
+	<9a9d0c6a1003161505o383624edn35e66e49fe316fa1@mail.gmail.com>
+Message-ID: <4BA0034E.7000404@cox.net>
+
+On 3/16/2010 17:05, Gary T. Giesen wrote:
+> I know Verizon has a big copper bundle that was severed in Sante Fe
+> Springs, and are in the process of pulling new cable with an ETA of
+> 6pm EDT. It took out a couple of customer T1. I doubt it's related
+> though.
+
+They held a 4.4 earthquake out there his morning.
+
+-- 
+Democracy: Three wolves and a sheep voting on the dinner menu.
+(A republic, using parliamentary law, protects the minority.)
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+
+	
+
+From mkollander at epiknetworks.com  Tue Mar 16 17:40:04 2010
+From: mkollander at epiknetworks.com (Matthew Kollander)
+Date: Tue, 16 Mar 2010 17:40:04 -0400
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <4B9FECB4.1030304@west.net>
+References: <4B9FECB4.1030304@west.net>
+Message-ID: <9213AE66-167A-4B11-9732-357AEA600509@epiknetworks.com>
+
+We've seen this as well.  Might be coincidental, but worth mentioning.  Particular client is in the SF Bay area.
+
+Matthew Kollander
+Epik Networks Care Desk
+
+- - - - - - - - - - - - - - - - - - - - -
+mkollander at epiknetworks.com
+support.epikip.net
+866-353-9333
+- - - - - - - - - - - - - - - - - - - - -
+
+On Mar 16, 2010, at 4:40 PM, Jay Hennigan wrote:
+
+> We're seeing several T1s bouncing.  On the phone to Qwest NOC now but
+> nothing definitive yet.
+> 
+> Just us?
+> 
+> --
+> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+> Impulse Internet Service  -  http://www.impulse.net/
+> Your local telephone and internet company - 805 884-6323 - WB6RDV
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100316/1a11611a/attachment.html>
+
+From jay at west.net  Tue Mar 16 17:44:22 2010
+From: jay at west.net (Jay Hennigan)
+Date: Tue, 16 Mar 2010 14:44:22 -0700
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <9213AE66-167A-4B11-9732-357AEA600509@epiknetworks.com>
+References: <4B9FECB4.1030304@west.net>
+	<9213AE66-167A-4B11-9732-357AEA600509@epiknetworks.com>
+Message-ID: <4B9FFBB6.5060206@west.net>
+
+On 3/16/10 2:40 PM, Matthew Kollander wrote:
+> We've seen this as well.  Might be coincidental, but worth mentioning.
+>  Particular client is in the SF Bay area.
+
+> On Mar 16, 2010, at 4:40 PM, Jay Hennigan wrote:
+> 
+>> We're seeing several T1s bouncing.  On the phone to Qwest NOC now but
+>> nothing definitive yet.
+
+Fixed now.  Qwest acknowledged a hardware failure.  Circuits came back
+at 14:30 PDT.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From bmanning at vacation.karoshi.com  Tue Mar 16 18:28:20 2010
+From: bmanning at vacation.karoshi.com (bmanning at vacation.karoshi.com)
+Date: Tue, 16 Mar 2010 22:28:20 +0000
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <4BA0034E.7000404@cox.net>
+References: <4B9FECB4.1030304@west.net>
+	<9a9d0c6a1003161505o383624edn35e66e49fe316fa1@mail.gmail.com>
+	<4BA0034E.7000404@cox.net>
+Message-ID: <20100316222820.GB22991@vacation.karoshi.com.>
+
+On Tue, Mar 16, 2010 at 05:16:46PM -0500, Larry Sheldon wrote:
+> On 3/16/2010 17:05, Gary T. Giesen wrote:
+> > I know Verizon has a big copper bundle that was severed in Sante Fe
+> > Springs, and are in the process of pulling new cable with an ETA of
+> > 6pm EDT. It took out a couple of customer T1. I doubt it's related
+> > though.
+> 
+> They held a 4.4 earthquake out there his morning.
+
+	and nobody came...
+
+
+--bill
+
+From jra at baylink.com  Tue Mar 16 22:40:41 2010
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Tue, 16 Mar 2010 22:40:41 -0400 (EDT)
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <20100316222820.GB22991@vacation.karoshi.com.>
+Message-ID: <21759349.44386.1268793641226.JavaMail.root@benjamin>
+
+----- bmanning at vacation.karoshi.com wrote:
+> On Tue, Mar 16, 2010 at 05:16:46PM -0500, Larry Sheldon wrote:
+> > On 3/16/2010 17:05, Gary T. Giesen wrote:
+> > > I know Verizon has a big copper bundle that was severed in Sante Fe
+> > > Springs, and are in the process of pulling new cable with an ETA of
+> > > 6pm EDT. It took out a couple of customer T1. I doubt it's related
+> > > though.
+> > 
+> > They held a 4.4 earthquake out there his morning.
+> 
+> 	and nobody came...
+
+That's not what she said.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From jlsparks at gmail.com  Tue Mar 16 22:51:43 2010
+From: jlsparks at gmail.com (jlsparks at gmail.com)
+Date: Wed, 17 Mar 2010 02:51:43 +0000
+Subject: [outages] Qwest issues in Southern California?
+Message-ID: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+
+Definitely a slow night on the interwebs...
+
+~jason
+------Original Message------
+From: Jay R. Ashworth
+Sender: outages-bounces at outages.org
+To: outages
+Subject: Re: [outages] Qwest issues in Southern California?
+Sent: Mar 16, 2010 10:40 PM
+
+----- bmanning at vacation.karoshi.com wrote:
+> On Tue, Mar 16, 2010 at 05:16:46PM -0500, Larry Sheldon wrote:
+> > On 3/16/2010 17:05, Gary T. Giesen wrote:
+> > > I know Verizon has a big copper bundle that was severed in Sante Fe
+> > > Springs, and are in the process of pulling new cable with an ETA of
+> > > 6pm EDT. It took out a couple of customer T1. I doubt it's related
+> > > though.
+> > 
+> > They held a 4.4 earthquake out there his morning.
+> 
+> 	and nobody came...
+
+That's not what she said.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+Sent from my Verizon Wireless BlackBerry
+
+
+From jay at west.net  Tue Mar 16 22:58:19 2010
+From: jay at west.net (Jay Hennigan)
+Date: Tue, 16 Mar 2010 19:58:19 -0700
+Subject: [outages] Qwest issues in Southern California?
+In-Reply-To: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+Message-ID: <4BA0454B.2050304@west.net>
+
+On 3/16/10 7:51 PM, jlsparks at gmail.com wrote:
+> Definitely a slow night on the interwebs...
+
+And bringing it back on topic, the Qwest circuits are going crazy again.
+ They're working on it, ETR 2100 PDT.  Qwest ticket # 4587105.
+
+> ~jason
+> ------Original Message------
+> From: Jay R. Ashworth
+> Sender: outages-bounces at outages.org
+> To: outages
+> Subject: Re: [outages] Qwest issues in Southern California?
+> Sent: Mar 16, 2010 10:40 PM
+> 
+> ----- bmanning at vacation.karoshi.com wrote:
+>> On Tue, Mar 16, 2010 at 05:16:46PM -0500, Larry Sheldon wrote:
+>>> On 3/16/2010 17:05, Gary T. Giesen wrote:
+>>>> I know Verizon has a big copper bundle that was severed in Sante Fe
+>>>> Springs, and are in the process of pulling new cable with an ETA of
+>>>> 6pm EDT. It took out a couple of customer T1. I doubt it's related
+>>>> though.
+>>>
+>>> They held a 4.4 earthquake out there his morning.
+>>
+>> 	and nobody came...
+> 
+> That's not what she said.
+> 
+> Cheers,
+> -- jra
+
+
+-- 
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From admin at isoc.net  Thu Mar 18 08:50:40 2010
+From: admin at isoc.net (John M. Troher)
+Date: Thu, 18 Mar 2010 08:50:40 -0400
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <4BA0454B.2050304@west.net>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+	<4BA0454B.2050304@west.net>
+Message-ID: <03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+
+I am seeing connection issues to hotmail MX servers
+
+delivery temporarily suspended: connect to
+mx4.hotmail.com[65.55.37.120]:25: Connection refused
+
+delivery temporarily suspended: connect to
+mx3.hotmail.com[65.55.37.88]:25: Connection refused
+
+It just started a few minutes ago.
+
+John Troher
+
+
+From admin at isoc.net  Thu Mar 18 08:54:36 2010
+From: admin at isoc.net (John M. Troher)
+Date: Thu, 18 Mar 2010 08:54:36 -0400
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry><4BA0454B
+	.2050304@west.net>
+	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+Message-ID: <03ADEF74C4B1444AAA3BD445EACB4DFA01303715@isoc-svr.florence.isoc.net>
+
+Sorry folks, wrong list, was meant for the mailop list, I have not met
+my normal morning caffeine levels yet.
+
+John Troher 
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of John M. Troher
+Sent: Thursday, March 18, 2010 8:51 AM
+To: outages at outages.org
+Subject: [outages] Hotmail Connection Issues
+
+I am seeing connection issues to hotmail MX servers
+
+delivery temporarily suspended: connect to
+mx4.hotmail.com[65.55.37.120]:25: Connection refused
+
+delivery temporarily suspended: connect to
+mx3.hotmail.com[65.55.37.88]:25: Connection refused
+
+It just started a few minutes ago.
+
+John Troher
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From baldwinmathew at gmail.com  Thu Mar 18 09:59:30 2010
+From: baldwinmathew at gmail.com (Matt Baldwin)
+Date: Thu, 18 Mar 2010 06:59:30 -0700
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+	<4BA0454B.2050304@west.net>
+	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+Message-ID: <5c0303b01003180659n48b1bb90la0d1c7684e45a237@mail.gmail.com>
+
+We're seeing the same issues.
+
+On Thu, Mar 18, 2010 at 5:50 AM, John M. Troher <admin at isoc.net> wrote:
+> I am seeing connection issues to hotmail MX servers
+>
+> delivery temporarily suspended: connect to
+> mx4.hotmail.com[65.55.37.120]:25: Connection refused
+>
+> delivery temporarily suspended: connect to
+> mx3.hotmail.com[65.55.37.88]:25: Connection refused
+>
+> It just started a few minutes ago.
+>
+> John Troher
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From frnkblk at iname.com  Thu Mar 18 09:33:08 2010
+From: frnkblk at iname.com (Frank Bulk)
+Date: Thu, 18 Mar 2010 08:33:08 -0500
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>	<4BA0454B.2050304@west.net>
+	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+
+I've seen the same here...
+
+Deferred: <aaaaaa at msn.com>: connect to mx2.hotmail.com[65.55.37.104]:
+Connection refused
+
+According to our email queue monitoring system, it has been going on since
+before 7:15 am Central.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of John M. Troher
+Sent: Thursday, March 18, 2010 7:51 AM
+To: outages at outages.org
+Subject: [outages] Hotmail Connection Issues
+
+I am seeing connection issues to hotmail MX servers
+
+delivery temporarily suspended: connect to
+mx4.hotmail.com[65.55.37.120]:25: Connection refused
+
+delivery temporarily suspended: connect to
+mx3.hotmail.com[65.55.37.88]:25: Connection refused
+
+It just started a few minutes ago.
+
+John Troher
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From baldwinmathew at gmail.com  Thu Mar 18 10:13:02 2010
+From: baldwinmathew at gmail.com (Matt Baldwin)
+Date: Thu, 18 Mar 2010 07:13:02 -0700
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+	<4BA0454B.2050304@west.net>
+	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+Message-ID: <5c0303b01003180713o7a0a8dbq242ffbd61037c287@mail.gmail.com>
+
+Via twitter, it looks like hotmail support is saying hotmail will be
+down for the next 8 hours or so.
+
+On Thu, Mar 18, 2010 at 6:33 AM, Frank Bulk <frnkblk at iname.com> wrote:
+> I've seen the same here...
+>
+> Deferred: <aaaaaa at msn.com>: connect to mx2.hotmail.com[65.55.37.104]:
+> Connection refused
+>
+> According to our email queue monitoring system, it has been going on since
+> before 7:15 am Central.
+>
+> Frank
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of John M. Troher
+> Sent: Thursday, March 18, 2010 7:51 AM
+> To: outages at outages.org
+> Subject: [outages] Hotmail Connection Issues
+>
+> I am seeing connection issues to hotmail MX servers
+>
+> delivery temporarily suspended: connect to
+> mx4.hotmail.com[65.55.37.120]:25: Connection refused
+>
+> delivery temporarily suspended: connect to
+> mx3.hotmail.com[65.55.37.88]:25: Connection refused
+>
+> It just started a few minutes ago.
+>
+> John Troher
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From sethm at rollernet.us  Thu Mar 18 10:19:09 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 18 Mar 2010 07:19:09 -0700
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>	<4BA0454B.2050304@west.net>	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+Message-ID: <4BA2365D.9070809@rollernet.us>
+
+On 3/18/10 6:33 AM, Frank Bulk wrote:
+> I've seen the same here...
+> 
+> Deferred: <aaaaaa at msn.com>: connect to mx2.hotmail.com[65.55.37.104]:
+> Connection refused
+> 
+> According to our email queue monitoring system, it has been going on since
+> before 7:15 am Central.
+> 
+
+
+Same here.
+
+lost connection with mx2.hotmail.com[65.54.188.110] while receiving the
+initial server greeting
+
+connect to mx4.hotmail.com[65.55.37.104]:25: Connection refused
+
+Is it just me, or are hotmail problems becoming rather frequent lately?
+
+~Seth
+
+From sethm at rollernet.us  Thu Mar 18 10:24:06 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 18 Mar 2010 07:24:06 -0700
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <5c0303b01003180713o7a0a8dbq242ffbd61037c287@mail.gmail.com>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>	<4BA0454B.2050304@west.net>	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+	<5c0303b01003180713o7a0a8dbq242ffbd61037c287@mail.gmail.com>
+Message-ID: <4BA23786.6060403@rollernet.us>
+
+On 3/18/10 7:13 AM, Matt Baldwin wrote:
+> Via twitter, it looks like hotmail support is saying hotmail will be
+> down for the next 8 hours or so.
+> 
+
+Do you have a link for that info? (I don't use twitter)
+
+~Seth
+
+From admin at isoc.net  Thu Mar 18 10:26:48 2010
+From: admin at isoc.net (John M. Troher)
+Date: Thu, 18 Mar 2010 10:26:48 -0400
+Subject: [outages] Hotmail Connection Issues
+In-Reply-To: <5c0303b01003180713o7a0a8dbq242ffbd61037c287@mail.gmail.com>
+References: <1346377066-1268794303-cardhu_decombobulator_blackberry.rim.net-1979378059-@bda2079.bisx.prod.on.blackberry>
+	<4BA0454B.2050304@west.net>
+	<03ADEF74C4B1444AAA3BD445EACB4DFA01303713@isoc-svr.florence.isoc.net>
+	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD0kllIL7LzS6fVnecK5FrXAQAAAAA=@iname.com>
+	<5c0303b01003180713o7a0a8dbq242ffbd61037c287@mail.gmail.com>
+Message-ID: <03ADEF74C4B1444AAA3BD445EACB4DFA01303742@isoc-svr.florence.isoc.net>
+
+Well I don't feel so bad about posting to the outages group, 8 hours
+constitutes an outage in any book :)
+
+John
+
+-----Original Message-----
+From: Matt Baldwin [mailto:baldwinmathew at gmail.com] 
+Sent: Thursday, March 18, 2010 10:13 AM
+To: frnkblk at iname.com
+Cc: John M. Troher; outages at outages.org
+Subject: Re: [outages] Hotmail Connection Issues
+
+Via twitter, it looks like hotmail support is saying hotmail will be
+down for the next 8 hours or so.
+
+On Thu, Mar 18, 2010 at 6:33 AM, Frank Bulk <frnkblk at iname.com> wrote:
+> I've seen the same here...
+>
+> Deferred: <aaaaaa at msn.com>: connect to mx2.hotmail.com[65.55.37.104]:
+> Connection refused
+>
+> According to our email queue monitoring system, it has been going on
+since
+> before 7:15 am Central.
+>
+> Frank
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On
+> Behalf Of John M. Troher
+> Sent: Thursday, March 18, 2010 7:51 AM
+> To: outages at outages.org
+> Subject: [outages] Hotmail Connection Issues
+>
+> I am seeing connection issues to hotmail MX servers
+>
+> delivery temporarily suspended: connect to
+> mx4.hotmail.com[65.55.37.120]:25: Connection refused
+>
+> delivery temporarily suspended: connect to
+> mx3.hotmail.com[65.55.37.88]:25: Connection refused
+>
+> It just started a few minutes ago.
+>
+> John Troher
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From virendra.rode at gmail.com  Wed Mar 24 17:23:57 2010
+From: virendra.rode at gmail.com (virendra rode)
+Date: Wed, 24 Mar 2010 14:23:57 -0700
+Subject: [outages] Wikipedia suffers global outage.
+Message-ID: <4BAA82ED.5050309@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://techblog.wikimedia.org/2010/03/global-outage-cooling-failure-and-dns/
+
+or
+
+Text version:
+
+Due to an overheating problem in our European data center many of our
+servers turned off to protect themselves. As this impacted all Wikipedia
+and other projects access from European users, we were forced to move
+all user traffic to our Florida cluster, for which we have a standard
+quick failover procedure in place, that changes our DNS entries.
+
+However, shortly after we did this failover switch, it turned out that
+this failover mechanism was now broken, causing the DNS resolution of
+Wikimedia sites to stop working globally. This problem was quickly
+resolved, but unfortunately it may take up to an hour before access is
+restored for everyone, due to caching effects.
+
+We apologize for the inconvenience this has caused.
+
+Update: Unfortunately, for many, this outage seems to have lasted longer
+than an hour. It appears that many ISPs? DNS resolvers do not honor the
+so-called Negative Cache TTL that we send (1 hour), and instead use a
+longer value. We have circumvented this problem by renaming the affected
+DNS record to something else.
+
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLqoKPpbZvCIJx1bcRAsEMAJ45YWISm+0lPQNuEUT3mLkzSrDn6gCeNZBZ
+GpGEHc45ATzP+OVuekugSCY=
+=p3AM
+-----END PGP SIGNATURE-----
+
+From jra at baylink.com  Thu Mar 25 09:51:44 2010
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 25 Mar 2010 09:51:44 -0400 (EDT)
+Subject: [outages] [Outages-discussion] Wikipedia suffers global outage.
+In-Reply-To: <20100325032533.6821BC3DC21@scatha.remote.dragon.net>
+Message-ID: <7047312.58391.1269525104348.JavaMail.root@benjamin>
+
+----- "paul e" <list-outages at dragon.net> wrote:
+> >> Update: Unfortunately, for many, this outage seems to have lasted
+> >> longer than an hour. It appears that many ISPs=92 DNS resolvers do
+> >> not honor the so-called Negative Cache TTL that we send (1 hour), and
+> >> instead use a longer value. We have circumvented this problem by
+> >> renaming the affected DNS record to something else.
+> 
+> cmadams> I'm curious: what software/settings are these "many ISPs" using
+> cmadams> that does this?  I've seen this mentioned before, but BIND for
+> cmadams> example doesn't have an option to do this IIRC.
+> 
+> ncache is set on the auth server for the zone, in the SOA record. It's
+> the 'minimum' timer, the last of the 4 timers after serial number. See
+> RFC 2308 for how negative caching works.
+> 
+> Any RFC compliant resolver should deal with this correctly. BIND does
+> the correct thing, both on the auth server side and as a recursive
+> resolver.
+
+Is it possible that the condition being discussed -- which I have also heard
+alleged before, without citation, has something to do with section 14.5.7, 
+at:
+
+http://docstore.mik.ua/orelly/networking_2ndEd/dns/ch14_05.htm
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From sethm at rollernet.us  Thu Mar 25 12:14:28 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 25 Mar 2010 09:14:28 -0700
+Subject: [outages] Hotmail down again?
+Message-ID: <4BAB8BE4.7090306@rollernet.us>
+
+Is anyone else seeing "connection refused" from hotmail?
+
+~Seth
+
+From isabeldias1 at yahoo.com  Thu Mar 25 12:18:13 2010
+From: isabeldias1 at yahoo.com (isabel dias)
+Date: Thu, 25 Mar 2010 09:18:13 -0700 (PDT)
+Subject: [outages] Hotmail down again?
+In-Reply-To: <4BAB8BE4.7090306@rollernet.us>
+References: <4BAB8BE4.7090306@rollernet.us>
+Message-ID: <7998.35576.qm@web52606.mail.re2.yahoo.com>
+
+no
+
+
+
+----- Original Message ----
+From: Seth Mattinen <sethm at rollernet.us>
+To: "outages at outages.org" <outages at outages.org>
+Sent: Thu, March 25, 2010 4:14:28 PM
+Subject: [outages] Hotmail down again?
+
+Is anyone else seeing "connection refused" from hotmail?
+
+~Seth
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+      
+
+From erikerik at gmail.com  Thu Mar 25 12:22:40 2010
+From: erikerik at gmail.com (Erik Anderson)
+Date: Thu, 25 Mar 2010 10:22:40 -0600
+Subject: [outages] Hotmail down again?
+In-Reply-To: <4BAB8BE4.7090306@rollernet.us>
+References: <4BAB8BE4.7090306@rollernet.us>
+Message-ID: <fc40260f1003250922p4f7a2969uf7a73d78045740d9@mail.gmail.com>
+
+On Thu, Mar 25, 2010 at 10:14 AM, Seth Mattinen <sethm at rollernet.us> wrote:
+> Is anyone else seeing "connection refused" from hotmail?
+
+Yes, we're seeing the same for the hotmail.com, msn.com, and live.com
+domains from the Twin Cities, MN via Onvoy.
+
+-Erik
+
+From erikerik at gmail.com  Thu Mar 25 12:28:40 2010
+From: erikerik at gmail.com (Erik Anderson)
+Date: Thu, 25 Mar 2010 10:28:40 -0600
+Subject: [outages] Hotmail down again?
+In-Reply-To: <fc40260f1003250922p4f7a2969uf7a73d78045740d9@mail.gmail.com>
+References: <4BAB8BE4.7090306@rollernet.us>
+	<fc40260f1003250922p4f7a2969uf7a73d78045740d9@mail.gmail.com>
+Message-ID: <fc40260f1003250928t442cbeeas6640958cbc37d0f4@mail.gmail.com>
+
+On Thu, Mar 25, 2010 at 10:22 AM, Erik Anderson <erikerik at gmail.com> wrote:
+> On Thu, Mar 25, 2010 at 10:14 AM, Seth Mattinen <sethm at rollernet.us> wrote:
+>> Is anyone else seeing "connection refused" from hotmail?
+>
+> Yes, we're seeing the same for the hotmail.com, msn.com, and live.com
+> domains from the Twin Cities, MN via Onvoy.
+
+Looks like it's working again now (at least temporarliy). Our MS-bound
+outbound queues emptied out just a couple of minutes ago.
+
+From sethm at rollernet.us  Thu Mar 25 12:39:41 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 25 Mar 2010 09:39:41 -0700
+Subject: [outages] Hotmail down again?
+In-Reply-To: <fc40260f1003250928t442cbeeas6640958cbc37d0f4@mail.gmail.com>
+References: <4BAB8BE4.7090306@rollernet.us>	<fc40260f1003250922p4f7a2969uf7a73d78045740d9@mail.gmail.com>
+	<fc40260f1003250928t442cbeeas6640958cbc37d0f4@mail.gmail.com>
+Message-ID: <4BAB91CD.30100@rollernet.us>
+
+On 3/25/10 9:28 AM, Erik Anderson wrote:
+> On Thu, Mar 25, 2010 at 10:22 AM, Erik Anderson <erikerik at gmail.com> wrote:
+>> On Thu, Mar 25, 2010 at 10:14 AM, Seth Mattinen <sethm at rollernet.us> wrote:
+>>> Is anyone else seeing "connection refused" from hotmail?
+>>
+>> Yes, we're seeing the same for the hotmail.com, msn.com, and live.com
+>> domains from the Twin Cities, MN via Onvoy.
+> 
+> Looks like it's working again now (at least temporarliy). Our MS-bound
+> outbound queues emptied out just a couple of minutes ago.
+
+
+Yeah my queue just dropped below the high water mark shortly after I
+sent my original email. I was seeing a mix of:
+
+lost connection with mx3.hotmail.com[65.54.188.72] while receiving the
+initial server greeting
+
+connect to mx3.hotmail.com[65.55.37.72]:25: Connection refused
+
+~Seth
+
+From alex at mediacorpplc.com  Thu Mar 25 12:27:07 2010
+From: alex at mediacorpplc.com (Alex Smith)
+Date: Thu, 25 Mar 2010 16:27:07 +0000
+Subject: [outages] Hotmail down again?
+In-Reply-To: <4BAB8BE4.7090306@rollernet.us>
+References: <4BAB8BE4.7090306@rollernet.us>
+Message-ID: <E071D2617AFBAF449EE5BB8101E3F7C057D8BCE783@mail.corp.local>
+
+Nope, not from here.
+
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Seth Mattinen
+> Sent: 25 March 2010 16:14
+> To: outages at outages.org
+> Subject: [outages] Hotmail down again?
+> 
+> Is anyone else seeing "connection refused" from hotmail?
+> 
+> ~Seth
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From frnkblk at iname.com  Thu Mar 25 12:28:50 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Thu, 25 Mar 2010 11:28:50 -0500
+Subject: [outages] Hotmail down again?
+In-Reply-To: <4BAB8BE4.7090306@rollernet.us>
+References: <4BAB8BE4.7090306@rollernet.us>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAB7GBHHDB9lTZTPGOqK5BM7AQAAAAA=@iname.com>
+
+We're seeing e-mail to them build up in our outbound queue....
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Seth Mattinen
+Sent: Thursday, March 25, 2010 11:14 AM
+To: outages at outages.org
+Subject: [outages] Hotmail down again?
+
+Is anyone else seeing "connection refused" from hotmail?
+
+~Seth
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From cstone at axint.net  Thu Mar 25 12:20:46 2010
+From: cstone at axint.net (Chris Stone)
+Date: Thu, 25 Mar 2010 10:20:46 -0600
+Subject: [outages] Hotmail down again?
+In-Reply-To: <4BAB8BE4.7090306@rollernet.us>
+References: <4BAB8BE4.7090306@rollernet.us>
+Message-ID: <4BAB8D5E.2020703@axint.net>
+
+Seth,
+
+On 03/25/2010 10:14 AM, Seth Mattinen wrote:
+> Is anyone else seeing "connection refused" from hotmail?
+
+Not seeing connections refused, but am just starting now to see mail backup
+in the queues here for Hotmail addresses with read errors at, at least,
+mx1.hotmail.com, mx2.hotmail.com, mx3.hotmail.com, and mx4.hotmail.com.
+
+
+
+Chris
+
+From dparsons at nyip.net  Thu Mar 25 16:33:16 2010
+From: dparsons at nyip.net (Dan Parsons)
+Date: Thu, 25 Mar 2010 13:33:16 -0700
+Subject: [outages] AT&T wireless outage in Southern California?
+Message-ID: <7354d3831003251333r6875c121vc4a069c8a9ee2443@mail.gmail.com>
+
+Is anyone experiencing an AT&T wireless outage in Southern California?
+Possibly only with 3G phones. I am experiencing a complete lack of
+usable service (though phone shows full signal strength) in one
+particular neighborhood of San Diego. If I drive a few miles away, it
+works fine. However when I called AT&T, they told me it was an issue
+effecting all of Southern California, so I wanted to see if anyone
+else was experiencing it.
+
+The ticket number I was given for the whole socal issue is 13628506.
+
+Dan
+
+From virendra.rode at gmail.com  Thu Mar 25 16:52:23 2010
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 25 Mar 2010 13:52:23 -0700
+Subject: [outages] AT&T wireless outage in Southern California?
+In-Reply-To: <7354d3831003251333r6875c121vc4a069c8a9ee2443@mail.gmail.com>
+References: <7354d3831003251333r6875c121vc4a069c8a9ee2443@mail.gmail.com>
+Message-ID: <4BABCD07.40103@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Dan,
+
+No issues reported in Orange County, CA.
+
+
+regards,
+/virendra
+
+
+Dan Parsons wrote:
+> Is anyone experiencing an AT&T wireless outage in Southern California?
+> Possibly only with 3G phones. I am experiencing a complete lack of
+> usable service (though phone shows full signal strength) in one
+> particular neighborhood of San Diego. If I drive a few miles away, it
+> works fine. However when I called AT&T, they told me it was an issue
+> effecting all of Southern California, so I wanted to see if anyone
+> else was experiencing it.
+> 
+> The ticket number I was given for the whole socal issue is 13628506.
+> 
+> Dan
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLq80HpbZvCIJx1bcRAvk1AKC05buGuWwW5mn9q8uMGW0kWOtjUACcDXDU
+0/1VfGYAGZDuTboxM4eOwEs=
+=h2b8
+-----END PGP SIGNATURE-----
+
+From wkern at pixelgate.net  Thu Mar 25 17:06:30 2010
+From: wkern at pixelgate.net (William Kern)
+Date: Thu, 25 Mar 2010 14:06:30 -0700
+Subject: [outages] AT&T wireless outage in Southern California?
+In-Reply-To: <4BABCD07.40103@gmail.com>
+References: <7354d3831003251333r6875c121vc4a069c8a9ee2443@mail.gmail.com>
+	<4BABCD07.40103@gmail.com>
+Message-ID: <4BABD056.5060403@pixelgate.net>
+
+We have iPhone customers complaining they can't reach our servers.
+
+We are in Thousand Oaks.
+
+-bill
+pixelgate networks
+
+virendra rode wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Dan,
+>
+> No issues reported in Orange County, CA.
+>
+>
+> regards,
+> /virendra
+>
+>
+> Dan Parsons wrote:
+>   
+>> Is anyone experiencing an AT&T wireless outage in Southern California?
+>> Possibly only with 3G phones. I am experiencing a complete lack of
+>> usable service (though phone shows full signal strength) in one
+>> particular neighborhood of San Diego. If I drive a few miles away, it
+>> works fine. However when I called AT&T, they told me it was an issue
+>> effecting all of Southern California, so I wanted to see if anyone
+>> else was experiencing it.
+>>
+>> The ticket number I was given for the whole socal issue is 13628506.
+>>
+>> Dan
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>     
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFLq80HpbZvCIJx1bcRAvk1AKC05buGuWwW5mn9q8uMGW0kWOtjUACcDXDU
+> 0/1VfGYAGZDuTboxM4eOwEs=
+> =h2b8
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>   
+
+
+From mikehoffman at odysseylogistics.com  Fri Mar 26 14:13:20 2010
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Fri, 26 Mar 2010 14:13:20 -0400
+Subject: [outages] Cablevision's LightPath has major outage
+Message-ID: <36E0EB159193B54A90D743B0F8DB1ED01B80878E58@p10-exchg.odysseylogistics.com>
+
+One of my branch offices in Hackettstown, NJ (north NJ near PA) uses a small ISP that gets their feed from Cablevision's Lightpath.  He's told me that Lightpath has reported multiple fiber rings down, and theyre dealing with a significant systemwide outage.  We first got report of the outage at 1:17PM Eastern Daylight Time.
+
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+39 Old Ridgebury Rd
+A-4
+Danbury, CT? 06810
+Phone: (203) 448-3872
+Fax: (203) 448-3901
+?
+?
+Odyssey Overland LLC
+1500 Rt 517
+Hackettstown, NJ? 07840
+Phone: (908) 850-4490
+Fax: (908) 850-3852
+?
+CONFIDENTIALITY NOTICE: 
+This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+
+
+
+
+From josh at imaginenetworksllc.com  Tue Mar 30 00:27:20 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Tue, 30 Mar 2010 00:27:20 -0400
+Subject: [outages] Time Warner Cable Ohio outage - Cable Internet
+Message-ID: <961092e11003292127m6f960970qb18b7622835e990d@mail.gmail.com>
+
+This effects Troy and Sidney areas for certain.  First notice was at 12:04.
+
+Fairborn is definitely working.
+
+-- 
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+From josh at imaginenetworksllc.com  Tue Mar 30 10:09:55 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Tue, 30 Mar 2010 10:09:55 -0400
+Subject: [outages] Time Warner Cable Ohio outage - Cable Internet
+In-Reply-To: <961092e11003292127m6f960970qb18b7622835e990d@mail.gmail.com>
+References: <961092e11003292127m6f960970qb18b7622835e990d@mail.gmail.com>
+Message-ID: <961092e11003300709t2b71dfb2j84493f8d453c3e34@mail.gmail.com>
+
+This was a planned maintenance period.  At 4:16AM things looked to
+have been finished.  Some should have been notified - I was not.
+
+On 3/30/10, Josh Luthman <josh at imaginenetworksllc.com> wrote:
+> This effects Troy and Sidney areas for certain.  First notice was at 12:04.
+>
+> Fairborn is definitely working.
+>
+> --
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+> ?Success is not final, failure is not fatal: it is the courage to
+> continue that counts.?
+> --- Winston Churchill
+>
+
+
+-- 
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+From maillist at webjogger.net  Tue Mar 30 10:50:14 2010
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 30 Mar 2010 10:50:14 -0400
+Subject: [outages] TWC issues in NY
+Message-ID: <4BB20FA6.3090101@webjogger.net>
+
+Time Warner Cable has confirmed some kind of routing issues in NY.
+
+Not sure what problem is yet.
+
+We seem to have problems specifically from customers in Frontier 
+territory trying to access our resources at ASN20208 / 204.8.80.0/22, 
+however, issues do not seem to be limited to routing with Frontier.
+
+--
+Adam Greene
+Webjogger Internet Services
+(845) 757-4000
+
+ 
+
+From maillist at webjogger.net  Tue Mar 30 11:51:43 2010
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 30 Mar 2010 11:51:43 -0400
+Subject: [outages] TWC issues in NY
+In-Reply-To: <4BB20FA6.3090101@webjogger.net>
+References: <4BB20FA6.3090101@webjogger.net>
+Message-ID: <4BB21E0F.7030502@webjogger.net>
+
+Issues appear resolved as of a few minutes ago. Not sure yet what cause 
+of issue was.
+
+
+On 3/30/2010 10:50 AM, Adam Greene wrote:
+> Time Warner Cable has confirmed some kind of routing issues in NY.
+>
+> Not sure what problem is yet.
+>
+> We seem to have problems specifically from customers in Frontier 
+> territory trying to access our resources at ASN20208 / 204.8.80.0/22, 
+> however, issues do not seem to be limited to routing with Frontier.
+>
+> -- 
+> Adam Greene
+> Webjogger Internet Services
+> (845) 757-4000
+>
+
+
+From virendra.rode at gmail.com  Wed Mar 31 14:31:51 2010
+From: virendra.rode at gmail.com (virendra rode)
+Date: Wed, 31 Mar 2010 11:31:51 -0700
+Subject: [outages] BT Broadband outage effects thousands.
+Message-ID: <4BB39517.5090806@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Apparently due to flood and fire at North West London exchange
+(Paddington) has left people w/o broadband and phone service.
+
+Outages as far as the East Midlands have been reported.
+
+More from BT service status page:
+http://btbusiness.custhelp.com/app/service_status_consumer/ss_cat/2468,2470
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFLs5UXpbZvCIJx1bcRAnVuAJ9pO7lxba6Ojx94smAg93++cEnpDwCg7v/W
+YCi9YXnvcCJR3xVZymx9vOs=
+=jbvC
+-----END PGP SIGNATURE-----
+
+From rand at meridian-enviro.com  Wed Mar 31 14:50:53 2010
+From: rand at meridian-enviro.com (Douglas K. Rand)
+Date: Wed, 31 Mar 2010 13:50:53 -0500
+Subject: [outages] Verizon SMS gateway (vtext.com) problems?
+Message-ID: <8739zgmik2.wl%rand@meridian-enviro.com>
+
+About an hour ago (17:45 UTC) was the last time we were able to route
+a SMS text message through Verizon's gateway vtext.com. The vtext.com
+site and servers seem to be up, but attemptes to deliver text messages
+via number at vtext.com, using http://vtext.com, or TAP modem delivery
+all silently fail, and are never delivered.  (Messages from phone to
+phone work fine.)
+
+From rand at meridian-enviro.com  Wed Mar 31 15:23:29 2010
+From: rand at meridian-enviro.com (Douglas K. Rand)
+Date: Wed, 31 Mar 2010 14:23:29 -0500
+Subject: [outages] Verizon SMS gateway (vtext.com) problems?
+In-Reply-To: <8739zgmik2.wl%rand@meridian-enviro.com>
+References: <8739zgmik2.wl%rand@meridian-enviro.com>
+Message-ID: <871vf0mh1q.wl%rand@meridian-enviro.com>
+
+And to reply to my own email:
+
+Doug> About an hour ago (17:45 UTC) was the last time we were able to
+Doug> route a SMS text message through Verizon's gateway vtext.com.
+
+At just after 19:00 UTC somebody found the problem and all of our
+outstanding messages were delivered.
+
+From josh at imaginenetworksllc.com  Wed Mar 31 15:34:10 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 31 Mar 2010 15:34:10 -0400
+Subject: [outages] Verizon SMS gateway (vtext.com) problems?
+In-Reply-To: <871vf0mh1q.wl%rand@meridian-enviro.com>
+References: <8739zgmik2.wl%rand@meridian-enviro.com>
+	<871vf0mh1q.wl%rand@meridian-enviro.com>
+Message-ID: <t2l961092e11003311234rcc760347s301f86a49e096951@mail.gmail.com>
+
+Was this a problem on your end or on Verizon Wireless'?
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Wed, Mar 31, 2010 at 3:23 PM, Douglas K. Rand
+<rand at meridian-enviro.com> wrote:
+> And to reply to my own email:
+>
+> Doug> About an hour ago (17:45 UTC) was the last time we were able to
+> Doug> route a SMS text message through Verizon's gateway vtext.com.
+>
+> At just after 19:00 UTC somebody found the problem and all of our
+> outstanding messages were delivered.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From kcoviello at digitalwest.net  Wed Mar 31 15:49:39 2010
+From: kcoviello at digitalwest.net (Kirk Coviello)
+Date: Wed, 31 Mar 2010 12:49:39 -0700
+Subject: [outages] Verizon SMS gateway (vtext.com) problems?
+In-Reply-To: <871vf0mh1q.wl%rand@meridian-enviro.com>
+References: <8739zgmik2.wl%rand@meridian-enviro.com>
+	<871vf0mh1q.wl%rand@meridian-enviro.com>
+Message-ID: <5C1EFAE4357D425C9FC3CF3FFBDF1F26@329E4C8A53E>
+
+We are on the Central Coast of California and suffered no delays using
+number at vtext.com...
+
+
+Regards,
+
+Kirk Coviello
+Digital West Networks, Inc.
+805.781.9378
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Douglas K. Rand
+Sent: Wednesday, March 31, 2010 12:23 PM
+To: outages at outages.org
+Subject: Re: [outages] Verizon SMS gateway (vtext.com) problems?
+
+And to reply to my own email:
+
+Doug> About an hour ago (17:45 UTC) was the last time we were able to 
+Doug> route a SMS text message through Verizon's gateway vtext.com.
+
+At just after 19:00 UTC somebody found the problem and all of our
+outstanding messages were delivered.
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+

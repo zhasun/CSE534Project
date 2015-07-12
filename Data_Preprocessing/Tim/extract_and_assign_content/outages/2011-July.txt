@@ -1,0 +1,3852 @@
+From jeroen at mompl.net  Fri Jul  1 17:37:46 2011
+From: jeroen at mompl.net (Jeroen van Aart)
+Date: Fri, 01 Jul 2011 14:37:46 -0700
+Subject: [outages] HE fremont IPv6 tunnel down
+Message-ID: <4E0E3E2A.6030502@mompl.net>
+
+I noticed I had no IPv6 connectivity and according to 
+http://tunnelbroker.net/status.php the IPv6 tunnel tserv3.fmt2 in 
+Fremont, CA is down.
+
+Does anyone have an idea when it went down and when it's expected to be 
+up again?
+
+Thanks,
+Jeroen
+
+-- 
+Earthquake Magnitude: 2.1
+Date: Friday, July  1, 2011 20:59:37 UTC
+Location: Southern California
+Latitude: 33.9810; Longitude: -116.0797
+Depth: 12.80 km
+
+From scott at doc.net.au  Fri Jul  1 17:46:45 2011
+From: scott at doc.net.au (Scott Howard)
+Date: Fri, 1 Jul 2011 14:46:45 -0700
+Subject: [outages] HE fremont IPv6 tunnel down
+In-Reply-To: <4E0E3E2A.6030502@mompl.net>
+References: <4E0E3E2A.6030502@mompl.net>
+Message-ID: <BANLkTinU79gcY68QYVg3bx+S0PxXqZwJTg@mail.gmail.com>
+
+Status is showing as up now, and my tunnel through that same tunnel server
+is up and working fine.
+
+  Scott.
+
+
+On Fri, Jul 1, 2011 at 2:37 PM, Jeroen van Aart <jeroen at mompl.net> wrote:
+
+> I noticed I had no IPv6 connectivity and according to
+> http://tunnelbroker.net/**status.php <http://tunnelbroker.net/status.php>the IPv6 tunnel tserv3.fmt2 in Fremont, CA is down.
+>
+> Does anyone have an idea when it went down and when it's expected to be up
+> again?
+>
+> Thanks,
+> Jeroen
+>
+> --
+> Earthquake Magnitude: 2.1
+> Date: Friday, July  1, 2011 20:59:37 UTC
+> Location: Southern California
+> Latitude: 33.9810; Longitude: -116.0797
+> Depth: 12.80 km
+> ______________________________**_________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/**mailman/listinfo/outages<https://puck.nether.net/mailman/listinfo/outages>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110701/be3e4889/attachment.html>
+
+From jimb at jsbc.cc  Fri Jul  1 17:54:32 2011
+From: jimb at jsbc.cc (Jim Burwell)
+Date: Fri, 01 Jul 2011 14:54:32 -0700
+Subject: [outages] HE fremont IPv6 tunnel down
+In-Reply-To: <4E0E3E2A.6030502@mompl.net>
+References: <4E0E3E2A.6030502@mompl.net>
+Message-ID: <4E0E4218.2080907@jsbc.cc>
+
+They're having hardware issues with that tserv, according to a post on
+the forum.  They've been working on it.
+
+On 7/1/2011 14:37, Jeroen van Aart wrote:
+> I noticed I had no IPv6 connectivity and according to
+> http://tunnelbroker.net/status.php the IPv6 tunnel tserv3.fmt2 in
+> Fremont, CA is down.
+>
+> Does anyone have an idea when it went down and when it's expected to
+> be up again?
+>
+> Thanks,
+> Jeroen
+>
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 3731 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110701/6a634bad/attachment.bin>
+
+From jeroen at mompl.net  Fri Jul  1 18:46:51 2011
+From: jeroen at mompl.net (Jeroen van Aart)
+Date: Fri, 01 Jul 2011 15:46:51 -0700
+Subject: [outages] HE fremont IPv6 tunnel down
+In-Reply-To: <4E0E4218.2080907@jsbc.cc>
+References: <4E0E3E2A.6030502@mompl.net> <4E0E4218.2080907@jsbc.cc>
+Message-ID: <4E0E4E5B.5010700@mompl.net>
+
+Jim Burwell wrote:
+> They're having hardware issues with that tserv, according to a post on
+> the forum.  They've been working on it.
+
+Thanks.
+It was up for a while, then went down again. Accordingly the status went 
+back to up and is now down again. I'll just wait and see.
+
+-- 
+Earthquake Magnitude: 1.3
+Date: Friday, July  1, 2011 22:32:33 UTC
+Location: Central California
+Latitude: 37.0360; Longitude: -121.1017
+Depth: 1.50 km
+
+From alex.cf at netsumo.com  Wed Jul  6 05:58:30 2011
+From: alex.cf at netsumo.com (Alex Cruz Farmer)
+Date: Wed, 06 Jul 2011 10:58:30 +0100
+Subject: [outages] Power outage Telecity LON (HEX6+7)
+Message-ID: <4E1431C6.6010202@netsumo.com>
+
+Hi,
+
+Telecity Harbour Exchange 6+7, London, E14 had a power outage at 10:40,
+still on-going. DC has confirmed it's power related.
+
+Kind regards,
+
+-- 
+
+	*Alex Cruz Farmer*
+*Managing Director,* *NetSumo Limited*
+13 Hanover Crescent, Brighton, BN2 9SB
+Tel: +44 (0)20 7993 1701
+DDI: +44 (0)20 7993 1703
+Fax: +44 (0)20 7993 1709
+E-mail: alex.cf at netsumo.com <mailto:alex.cf at netsumo.com>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/7dbaa0f1/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: email.jpg
+Type: image/jpeg
+Size: 20463 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/7dbaa0f1/attachment-0001.jpg>
+
+From lhetherington at messagelabs.com  Wed Jul  6 06:15:01 2011
+From: lhetherington at messagelabs.com (Lee Hetherington)
+Date: Wed, 6 Jul 2011 11:15:01 +0100
+Subject: [outages] Power outage Telecity LON (HEX6+7)
+In-Reply-To: <4E1431C6.6010202@netsumo.com>
+References: <4E1431C6.6010202@netsumo.com>
+Message-ID: <5298C7651C8C894ABF04D35ECB3D02C3062CBFEE@mlbrn2exc002.messagelabs.com>
+
+Looks like 7th floor only.
+
+ 
+
+We have kit on the 8th which is still running on mains at the moment.
+
+ 
+
+--Lee
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Alex Cruz Farmer
+Sent: 06 July 2011 10:59
+To: outages at outages.org
+Subject: [outages] Power outage Telecity LON (HEX6+7)
+
+ 
+
+Hi,
+
+Telecity Harbour Exchange 6+7, London, E14 had a power outage at 10:40,
+still on-going. DC has confirmed it's power related.
+
+Kind regards,
+
+-- 
+
+ 
+
+Alex Cruz Farmer
+Managing Director, NetSumo Limited
+13 Hanover Crescent, Brighton, BN2 9SB
+Tel: +44 (0)20 7993 1701
+DDI: +44 (0)20 7993 1703
+Fax: +44 (0)20 7993 1709
+E-mail: alex.cf at netsumo.com <mailto:alex.cf at netsumo.com> 
+
+
+
+ 
+
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email 
+______________________________________________________________________
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/8a32c18b/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 20463 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/8a32c18b/attachment-0001.jpg>
+
+From virendra.rode at outages.org  Wed Jul  6 17:23:28 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Wed, 06 Jul 2011 14:23:28 -0700
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+Message-ID: <4E14D250.4060400@outages.org>
+
+Hi -
+
+Not sure if anyone is hosted at this DC but it appears corelink has 
+switched to gas generator and so far no issues at least for our services.
+
+
+regards,
+/virendra
+
+From jayson at peakinter.net  Wed Jul  6 17:34:26 2011
+From: jayson at peakinter.net (Jayson Baker)
+Date: Wed, 6 Jul 2011 15:34:26 -0600
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <4E14D250.4060400@outages.org>
+References: <4E14D250.4060400@outages.org>
+Message-ID: <3222131808748351169@unknownmsgid>
+
+Which Corelink facility? Which city?
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+Sent from my iPhone4
+
+On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org> wrote:
+
+> Hi -
+>
+> Not sure if anyone is hosted at this DC but it appears corelink has switched to gas generator and so far no issues at least for our services.
+>
+>
+> regards,
+> /virendra
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From sethm at rollernet.us  Wed Jul  6 17:36:15 2011
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Wed, 06 Jul 2011 14:36:15 -0700
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <3222131808748351169@unknownmsgid>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+Message-ID: <4E14D54F.2000009@rollernet.us>
+
+On 7/6/2011 14:34, Jayson Baker wrote:
+> Which Corelink facility? Which city?
+> 
+
+Subject says Vegas. ;)
+
+~Seth
+
+
+From josh at imaginenetworksllc.com  Wed Jul  6 17:37:40 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 6 Jul 2011 17:37:40 -0400
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <3222131808748351169@unknownmsgid>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+Message-ID: <CAN9qwJ-QfYXrQtFnxZ5+6MNgZ6JSZy8EiuLv3naGz45AND=LHw@mail.gmail.com>
+
+Subject.  Las Vegas.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Wed, Jul 6, 2011 at 5:34 PM, Jayson Baker <jayson at peakinter.net> wrote:
+
+> Which Corelink facility? Which city?
+>
+> Best Wishes,
+> Jayson A. Baker
+> Peak Internet
+>
+> Sent from my iPhone4
+>
+> On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org>
+> wrote:
+>
+> > Hi -
+> >
+> > Not sure if anyone is hosted at this DC but it appears corelink has
+> switched to gas generator and so far no issues at least for our services.
+> >
+> >
+> > regards,
+> > /virendra
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/c7f5d714/attachment.html>
+
+From patrick at ianai.net  Wed Jul  6 17:39:02 2011
+From: patrick at ianai.net (Patrick W. Gilmore)
+Date: Wed, 6 Jul 2011 17:39:02 -0400
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <3222131808748351169@unknownmsgid>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+Message-ID: <63EDC322-93BA-4314-ACF0-019F13908142@ianai.net>
+
+On Jul 6, 2011, at 5:34 PM, Jayson Baker wrote:
+
+> Which Corelink facility? Which city?
+
+My guess is "Las Vegas", like it says in the Subject line. :)
+
+-- 
+TTFN,
+patrick
+
+
+> On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org> wrote:
+> 
+>> Hi -
+>> 
+>> Not sure if anyone is hosted at this DC but it appears corelink has switched to gas generator and so far no issues at least for our services.
+>> 
+>> 
+>> regards,
+>> /virendra
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+
+
+From ramans at cwie.net  Wed Jul  6 17:42:55 2011
+From: ramans at cwie.net (Raman Sud)
+Date: Wed, 6 Jul 2011 21:42:55 +0000
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <3222131808748351169@unknownmsgid>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+Message-ID: <3C527D72DFFFC14F8CAA9FC442D08FB940F35F00@exch10-mb2.ccbill-hq.local>
+
+Anyone down?
+
+Raman Sud
+Director,
+Network Infrastructure
+
+?
+PhoenixNAP LLC
+3402 East University Drive
+Phoenix AZ 85034
+Phone: 480.449.8834
+Fax: 480.682.3236
+http://www.phoenixnap.com
+PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE ?INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION ?THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE ?LAW. ?IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR ?COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND ?ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY ?DESTROYED. 
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jayson Baker
+Sent: Wednesday, July 06, 2011 2:34 PM
+To: virendra.rode at outages.org
+Cc: outages at outages.org
+Subject: Re: [outages] Power outage at Corelink (Las Vegas) DC.
+
+Which Corelink facility? Which city?
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+Sent from my iPhone4
+
+On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org> wrote:
+
+> Hi -
+>
+> Not sure if anyone is hosted at this DC but it appears corelink has switched to gas generator and so far no issues at least for our services.
+>
+>
+> regards,
+> /virendra
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jayson at peakinter.net  Wed Jul  6 17:49:40 2011
+From: jayson at peakinter.net (Jayson Baker)
+Date: Wed, 6 Jul 2011 15:49:40 -0600
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <CAN9qwJ-QfYXrQtFnxZ5+6MNgZ6JSZy8EiuLv3naGz45AND=LHw@mail.gmail.com>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+ <CAN9qwJ-QfYXrQtFnxZ5+6MNgZ6JSZy8EiuLv3naGz45AND=LHw@mail.gmail.com>
+Message-ID: <CAD+v3ZQDCuFqx18NmYSFEObX6xsmHAWdWmv3dTDdV+PbAL+8bQ@mail.gmail.com>
+
+Hah, oops.  Sorry -- my iPhone cut it off.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+
+On Wed, Jul 6, 2011 at 3:37 PM, Josh Luthman <josh at imaginenetworksllc.com>wrote:
+
+> Subject.  Las Vegas.
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+>
+>
+> On Wed, Jul 6, 2011 at 5:34 PM, Jayson Baker <jayson at peakinter.net> wrote:
+>
+>> Which Corelink facility? Which city?
+>>
+>> Best Wishes,
+>> Jayson A. Baker
+>> Peak Internet
+>>
+>> Sent from my iPhone4
+>>
+>> On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org>
+>> wrote:
+>>
+>> > Hi -
+>> >
+>> > Not sure if anyone is hosted at this DC but it appears corelink has
+>> switched to gas generator and so far no issues at least for our services.
+>> >
+>> >
+>> > regards,
+>> > /virendra
+>> > _______________________________________________
+>> > Outages mailing list
+>> > Outages at outages.org
+>> > https://puck.nether.net/mailman/listinfo/outages
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/5f2ba380/attachment.html>
+
+From josh at imaginenetworksllc.com  Wed Jul  6 17:50:03 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 6 Jul 2011 17:50:03 -0400
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <CAD+v3ZQDCuFqx18NmYSFEObX6xsmHAWdWmv3dTDdV+PbAL+8bQ@mail.gmail.com>
+References: <4E14D250.4060400@outages.org> <3222131808748351169@unknownmsgid>
+ <CAN9qwJ-QfYXrQtFnxZ5+6MNgZ6JSZy8EiuLv3naGz45AND=LHw@mail.gmail.com>
+ <CAD+v3ZQDCuFqx18NmYSFEObX6xsmHAWdWmv3dTDdV+PbAL+8bQ@mail.gmail.com>
+Message-ID: <CAN9qwJ9ExqK2kgK6hDAASXE3VOgvEPGJAfY=jK0Vw+9R8iH_Vw@mail.gmail.com>
+
+Odd there isn't an app for reading the subject =P
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Wed, Jul 6, 2011 at 5:49 PM, Jayson Baker <jayson at peakinter.net> wrote:
+
+> Hah, oops.  Sorry -- my iPhone cut it off.
+>
+>
+> Best Wishes,
+> Jayson A. Baker
+> Peak Internet
+>
+>
+> On Wed, Jul 6, 2011 at 3:37 PM, Josh Luthman <josh at imaginenetworksllc.com>wrote:
+>
+>> Subject.  Las Vegas.
+>>
+>> Josh Luthman
+>> Office: 937-552-2340
+>> Direct: 937-552-2343
+>> 1100 Wayne St
+>> Suite 1337
+>> Troy, OH 45373
+>>
+>>
+>>
+>> On Wed, Jul 6, 2011 at 5:34 PM, Jayson Baker <jayson at peakinter.net>wrote:
+>>
+>>> Which Corelink facility? Which city?
+>>>
+>>> Best Wishes,
+>>> Jayson A. Baker
+>>> Peak Internet
+>>>
+>>> Sent from my iPhone4
+>>>
+>>> On Jul 6, 2011, at 3:30 PM, virendra rode <virendra.rode at outages.org>
+>>> wrote:
+>>>
+>>> > Hi -
+>>> >
+>>> > Not sure if anyone is hosted at this DC but it appears corelink has
+>>> switched to gas generator and so far no issues at least for our services.
+>>> >
+>>> >
+>>> > regards,
+>>> > /virendra
+>>> > _______________________________________________
+>>> > Outages mailing list
+>>> > Outages at outages.org
+>>> > https://puck.nether.net/mailman/listinfo/outages
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110706/00f0d461/attachment-0001.html>
+
+From jra at baylink.com  Wed Jul  6 19:04:12 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Wed, 6 Jul 2011 19:04:12 -0400 (EDT)
+Subject: [outages] Power outage at Corelink (Las Vegas) DC.
+In-Reply-To: <CAD+v3ZQDCuFqx18NmYSFEObX6xsmHAWdWmv3dTDdV+PbAL+8bQ@mail.gmail.com>
+Message-ID: <21440609.909.1309993452159.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> Hah, oops. Sorry -- my iPhone cut it off.
+
+There's an app for that? :-)
+
+Cheers,
+-- jr 'Reminder: smart-ass replies to outages-discuss, please' a
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From alan at gtekcommunications.com  Sat Jul  9 10:27:49 2011
+From: alan at gtekcommunications.com (Alan Bryant)
+Date: Sat, 9 Jul 2011 09:27:49 -0500
+Subject: [outages] Level 3 Houston Outage
+Message-ID: <CAEE6-BR2hcfef=yJVvmmVimfQBxZ1Fko7LkLAQsX_wCbZus4Aw@mail.gmail.com>
+
+It appears that Level 3 has a major fiber cut in the Houston area.
+Possibly affecting an entire OC-48.
+
+-- 
+Alan Bryant
+Gtek Computers & Wireless L.L.C.
+Office: 361-777-1400 | Fax: 361-777-1405
+alan at gtekcommunications.com | www.gtek.biz
+
+CONFIDENTIALITY NOTICE: This communication (including any attachments)
+may contain privileged or confidential information intended for a
+specific individual and purpose, and is protected by law. If you are
+not the intended recipient, you should delete this communication
+and/or shred the materials and any attachments and are hereby notified
+that any disclosure, copying, or distribution of this communication,
+or the taking of any action based on it, is strictly prohibited. Thank
+you.
+
+From paul at neoverve.com  Mon Jul 11 11:48:19 2011
+From: paul at neoverve.com (Paul Norton)
+Date: Mon, 11 Jul 2011 08:48:19 -0700
+Subject: [outages] TWTelecom
+Message-ID: <4E1B1B43.4080604@neoverve.com>
+
+A heads up -
+
+There is currently a TWTelecom outage since 7AM Pacific time.  I was 
+told by my co-location ISP that this issue is national.
+
+If you have more information, please share.
+
+Thanks,
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+From williamsjj at digitar.com  Mon Jul 11 12:14:02 2011
+From: williamsjj at digitar.com (Jason J. W. Williams)
+Date: Mon, 11 Jul 2011 12:14:02 -0400
+Subject: [outages] TWTelecom
+In-Reply-To: <4E1B1B43.4080604@neoverve.com>
+Message-ID: <CA407D5C.2FE58%williamsjj@digitar.com>
+
+Our TWT routes seem to be working.
+
+-J
+
+On 7/11/11 9:48 AM, "Paul Norton" <paul at neoverve.com> wrote:
+
+>
+>A heads up -
+>
+>There is currently a TWTelecom outage since 7AM Pacific time.  I was
+>told by my co-location ISP that this issue is national.
+>
+>If you have more information, please share.
+>
+>Thanks,
+>-- 
+>Paul Norton
+>Systems Administrator
+>Neoverve - www.neoverve.com
+>Neoverve Blog - http://blog.neoverve.com/
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+>
+>!SIG:4e1b1d3b241131585517993!
+>
+
+
+
+From virendra.rode at outages.org  Mon Jul 11 12:24:20 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 11 Jul 2011 09:24:20 -0700
+Subject: [outages] TWTelecom
+In-Reply-To: <4E1B1B43.4080604@neoverve.com>
+References: <4E1B1B43.4080604@neoverve.com>
+Message-ID: <4E1B23B4.6020604@outages.org>
+
+On 07/11/2011 08:48 AM, Paul Norton wrote:
+> A heads up -
+>
+> There is currently a TWTelecom outage since 7AM Pacific time. I was told
+> by my co-location ISP that this issue is national.
+>
+> If you have more information, please share.
+>
+> Thanks,
+--------------------
+Our peer connection to TW Telecom (AS4323) in Irvine, CA seems to be up 
+and we are sending/receiving routes with no issue.
+
+
+regards,
+/virendra
+
+
+
+From sil at infiltrated.net  Wed Jul 13 10:01:17 2011
+From: sil at infiltrated.net (J. Oquendo)
+Date: Wed, 13 Jul 2011 10:01:17 -0400
+Subject: [outages] Global Crossing JFK
+Message-ID: <4E1DA52D.2060701@infiltrated.net>
+
+
+Anyone traversing Global Crossing's JFK1.gblx.net interchange seeing any
+packet loss, I'm getting losses from 6 different geographic areas (GA,
+VT, CA, CO, TX, FL) all getting 6-11% packet loss when
+hitting/traversing that area.
+
+ 
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+
+
+From robert at ufl.edu  Sun Jul 17 18:38:02 2011
+From: robert at ufl.edu (Scott, Robert D.)
+Date: Sun, 17 Jul 2011 22:38:02 +0000
+Subject: [outages] NetFlix Outage
+Message-ID: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+
+There appears to be a login issue at Netflix.  Calls to their 1-866-579-7113 number only yields a recording that they are experiencing a higher than normal call volume, try again later.  Widespread?
+
+
+Robert D. Scott          Robert at ufl.edu
+Senior Network Engineer  352-273-0113 Phone
+CNS - Network Services   352-392-2061 CNS Phone Tree
+University of Florida    352-273-0743 FAX
+Florida Lambda Rail      352-294-3571 FLR NOC
+Gainesville, FL  32611   321-663-0421 Cell
+                         3216630421 at messaging.sprintpcs.com
+
+From mloftis at wgops.com  Sun Jul 17 18:50:11 2011
+From: mloftis at wgops.com (Michael Loftis)
+Date: Sun, 17 Jul 2011 16:50:11 -0600
+Subject: [outages] NetFlix Outage
+In-Reply-To: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+Message-ID: <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+
+On Jul 17, 2011 4:43 PM, "Scott, Robert D." <robert at ufl.edu> wrote:
+>
+> There appears to be a login issue at Netflix.  Calls to their
+1-866-579-7113 number only yields a recording that they are experiencing a
+higher than normal call volume, try again later.  Widespread?
+>
+
+Same here. Page loads authentication fails.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110717/d8cdbd57/attachment.html>
+
+From josh at imaginenetworksllc.com  Sun Jul 17 19:01:25 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sun, 17 Jul 2011 19:01:25 -0400
+Subject: [outages] NetFlix Outage
+In-Reply-To: <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+ <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+Message-ID: <CAN9qwJ_LVb7+o1i5QwJGxdMYqO6R39-zBF+6GTHpYAzHpEyong@mail.gmail.com>
+
+Looks like they fixed it in the last 30 seconds to me.  Home page was timing
+out but is now operating normally (though a bit slow).
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Sun, Jul 17, 2011 at 6:50 PM, Michael Loftis <mloftis at wgops.com> wrote:
+
+>
+> On Jul 17, 2011 4:43 PM, "Scott, Robert D." <robert at ufl.edu> wrote:
+> >
+> > There appears to be a login issue at Netflix.  Calls to their
+> 1-866-579-7113 number only yields a recording that they are experiencing a
+> higher than normal call volume, try again later.  Widespread?
+> >
+>
+> Same here. Page loads authentication fails.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110717/110a39f2/attachment.html>
+
+From bpfankuch at cpgreeley.com  Sun Jul 17 19:05:21 2011
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sun, 17 Jul 2011 23:05:21 +0000
+Subject: [outages] NetFlix Outage
+In-Reply-To: <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+ <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+Message-ID: <FFBD8D4174CD6C4A9AEF17B77064427237159BD4@cpmail1.cpgreeley.com>
+
+I can authenticate from my xbox, however its not displaying recent watched, or searching.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Michael Loftis
+Sent: Sunday, July 17, 2011 4:50 PM
+To: Scott, Robert D.
+Cc: outages at outages.org
+Subject: Re: [outages] NetFlix Outage
+
+
+On Jul 17, 2011 4:43 PM, "Scott, Robert D." <robert at ufl.edu<mailto:robert at ufl.edu>> wrote:
+>
+> There appears to be a login issue at Netflix.  Calls to their 1-866-579-7113 number only yields a recording that they are experiencing a higher than normal call volume, try again later.  Widespread?
+>
+
+Same here. Page loads authentication fails.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110717/7333784d/attachment.html>
+
+From outages at jdc.parodius.com  Sun Jul 17 19:06:27 2011
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Sun, 17 Jul 2011 16:06:27 -0700
+Subject: [outages] NetFlix Outage
+In-Reply-To: <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+ <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+Message-ID: <20110717230627.GA82775@icarus.home.lan>
+
+I'm not having any issues myself -- however, I cache my authentication
+credentials in a cookie, so I'm not prompted for authentication when
+visiting the site.  I imagine if I logged out / nuked the cookie then
+tried to log in I'd see the failure.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, US |
+| Making life hard for others since 1977.               PGP 4BD6C0CB |
+
+On Sun, Jul 17, 2011 at 04:50:11PM -0600, Michael Loftis wrote:
+> On Jul 17, 2011 4:43 PM, "Scott, Robert D." <robert at ufl.edu> wrote:
+> >
+> > There appears to be a login issue at Netflix.  Calls to their
+> 1-866-579-7113 number only yields a recording that they are experiencing a
+> higher than normal call volume, try again later.  Widespread?
+> >
+> 
+> Same here. Page loads authentication fails.
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From josh at imaginenetworksllc.com  Sun Jul 17 19:29:28 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sun, 17 Jul 2011 19:29:28 -0400
+Subject: [outages] NetFlix Outage
+In-Reply-To: <20110717230627.GA82775@icarus.home.lan>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+ <CAHDg04sEysWy5QE1bnKNJPnG+GF0rir9LoCDTEH1w+uSgFgK1A@mail.gmail.com>
+ <20110717230627.GA82775@icarus.home.lan>
+Message-ID: <CAN9qwJ_Akzx7Uhw0KTUcefW28ZafFmGTWysGE-v68Nc9_EhgEA@mail.gmail.com>
+
+New PC that has no cookie with Netflix is unable to log in.  I'm not 100%
+sure that I have the correct password but I am confident enough to say there
+looks to be an authentication issue.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Sun, Jul 17, 2011 at 7:06 PM, Jeremy Chadwick
+<outages at jdc.parodius.com>wrote:
+
+> I'm not having any issues myself -- however, I cache my authentication
+> credentials in a cookie, so I'm not prompted for authentication when
+> visiting the site.  I imagine if I logged out / nuked the cookie then
+> tried to log in I'd see the failure.
+>
+> --
+> | Jeremy Chadwick                                jdc at parodius.com |
+> | Parodius Networking                       http://www.parodius.com/ |
+> | UNIX Systems Administrator                   Mountain View, CA, US |
+> | Making life hard for others since 1977.               PGP 4BD6C0CB |
+>
+> On Sun, Jul 17, 2011 at 04:50:11PM -0600, Michael Loftis wrote:
+> > On Jul 17, 2011 4:43 PM, "Scott, Robert D." <robert at ufl.edu> wrote:
+> > >
+> > > There appears to be a login issue at Netflix.  Calls to their
+> > 1-866-579-7113 number only yields a recording that they are experiencing
+> a
+> > higher than normal call volume, try again later.  Widespread?
+> > >
+> >
+> > Same here. Page loads authentication fails.
+>
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110717/43ea759e/attachment.html>
+
+From michael at simplesignal.com  Sun Jul 17 19:32:00 2011
+From: michael at simplesignal.com (Michael Sterl)
+Date: Sun, 17 Jul 2011 17:32:00 -0600
+Subject: [outages] NetFlix Outage
+In-Reply-To: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+Message-ID: <955085536863379221@unknownmsgid>
+
+Same issue in Denver, CO.
+
+Michael Sterl
+Vice President
+Anywhere: 303.242.8614
+www.SimpleSignal.com
+(sent from the local ski lift)
+
+On Jul 17, 2011, at 4:43 PM, "Scott, Robert D." <robert at ufl.edu> wrote:
+
+> There appears to be a login issue at Netflix.  Calls to their 1-866-579-7113 number only yields a recording that they are experiencing a higher than normal call volume, try again later.  Widespread?
+>
+>
+> Robert D. Scott          Robert at ufl.edu
+> Senior Network Engineer  352-273-0113 Phone
+> CNS - Network Services   352-392-2061 CNS Phone Tree
+> University of Florida    352-273-0743 FAX
+> Florida Lambda Rail      352-294-3571 FLR NOC
+> Gainesville, FL  32611   321-663-0421 Cell
+>                         3216630421 at messaging.sprintpcs.com
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From frnkblk at iname.com  Sun Jul 17 21:06:52 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Sun, 17 Jul 2011 20:06:52 -0500
+Subject: [outages] NetFlix Outage
+In-Reply-To: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+References: <14384A642243C34495DE884D7E13C83EB922FF@UFEXCH-MBXN02.ad.ufl.edu>
+Message-ID: <003c01cc44e6$faa47330$efed5990$@iname.com>
+
+Not sure if it's related, but access to the website ipv6.netflix.com timed
+out around 7:36, 7:41, and 8:02 pm, which is atypical.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Scott, Robert D.
+Sent: Sunday, July 17, 2011 5:38 PM
+To: outages at outages.org
+Subject: [outages] NetFlix Outage
+
+There appears to be a login issue at Netflix.  Calls to their 1-866-579-7113
+number only yields a recording that they are experiencing a higher than
+normal call volume, try again later.  Widespread?
+
+
+Robert D. Scott          Robert at ufl.edu
+Senior Network Engineer  352-273-0113 Phone
+CNS - Network Services   352-392-2061 CNS Phone Tree
+University of Florida    352-273-0743 FAX
+Florida Lambda Rail      352-294-3571 FLR NOC
+Gainesville, FL  32611   321-663-0421 Cell
+                         3216630421 at messaging.sprintpcs.com
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From rl_vaughn at baylor.edu  Mon Jul 18 20:17:09 2011
+From: rl_vaughn at baylor.edu (RL Vaughn)
+Date: Mon, 18 Jul 2011 19:17:09 -0500
+Subject: [outages] AS34846 143.252.80.0/22  ?
+Message-ID: <4E24CD05.6060108@baylor.edu>
+
+Anyone having issues reaching 143.252.80.0/22 ?
+
+
+From paul at paulstewart.org  Mon Jul 18 20:19:56 2011
+From: paul at paulstewart.org (Paul Stewart)
+Date: Mon, 18 Jul 2011 20:19:56 -0400
+Subject: [outages] AS34846 143.252.80.0/22  ?
+In-Reply-To: <4E24CD05.6060108@baylor.edu>
+References: <4E24CD05.6060108@baylor.edu>
+Message-ID: <000701cc45a9$96efa8a0$c4cef9e0$@org>
+
+>From Toronto, ON it doesn't hit any of our routing tables....
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of RL Vaughn
+Sent: July-18-11 8:17 PM
+To: outages at outages.org
+Subject: [outages] AS34846 143.252.80.0/22 ?
+
+Anyone having issues reaching 143.252.80.0/22 ?
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From vaden at texoma.net  Mon Jul 18 20:30:56 2011
+From: vaden at texoma.net (Larry Vaden)
+Date: Mon, 18 Jul 2011 19:30:56 -0500
+Subject: [outages] AS34846 143.252.80.0/22 ?
+In-Reply-To: <4E24CD05.6060108@baylor.edu>
+References: <4E24CD05.6060108@baylor.edu>
+Message-ID: <CAGhSBjApvMANfqwY_i0LcBKqnmCAHH=R1bxfY+e=P=ro99+nkA@mail.gmail.com>
+
+On Mon, Jul 18, 2011 at 7:17 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+> Anyone having issues reaching 143.252.80.0/22 ?
+
+I don't see a route for it here in Texomaland (upstream is Level 3)
+nor do I see a route for it at route-views.routeviews.org.
+
+From sjk at cupacoffee.net  Mon Jul 18 20:45:16 2011
+From: sjk at cupacoffee.net (sjk)
+Date: Mon, 18 Jul 2011 19:45:16 -0500
+Subject: [outages] AS34846 143.252.80.0/22 ?
+In-Reply-To: <CAGhSBjApvMANfqwY_i0LcBKqnmCAHH=R1bxfY+e=P=ro99+nkA@mail.gmail.com>
+References: <4E24CD05.6060108@baylor.edu>
+ <CAGhSBjApvMANfqwY_i0LcBKqnmCAHH=R1bxfY+e=P=ro99+nkA@mail.gmail.com>
+Message-ID: <4E24D39C.4010807@cupacoffee.net>
+
+No sign of it across any of our transit peers...
+
+sh ip bgp 143.252.80.0
+% Network not in table
+
+
+On 07/18/2011 07:30 PM, Larry Vaden wrote:
+> On Mon, Jul 18, 2011 at 7:17 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+>> Anyone having issues reaching 143.252.80.0/22 ?
+> 
+> I don't see a route for it here in Texomaland (upstream is Level 3)
+> nor do I see a route for it at route-views.routeviews.org.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+sjk at cupacoffee.net
+fingerprint: 1024D/89420B8E 2001-09-16
+
+From outages at jdc.parodius.com  Mon Jul 18 21:01:00 2011
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Mon, 18 Jul 2011 18:01:00 -0700
+Subject: [outages] AS34846 143.252.80.0/22  ?
+In-Reply-To: <4E24CD05.6060108@baylor.edu>
+References: <4E24CD05.6060108@baylor.edu>
+Message-ID: <20110719010059.GA6986@icarus.home.lan>
+
+Not seeing the advertisement at all from any peering partner I've
+examined (Abovenet, SAVVIS, Internap, and Verizon).  Route Views also
+doesn't show anything.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, US |
+| Making life hard for others since 1977.               PGP 4BD6C0CB |
+
+On Mon, Jul 18, 2011 at 07:17:09PM -0500, RL Vaughn wrote:
+> Anyone having issues reaching 143.252.80.0/22 ?
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From rl_vaughn at baylor.edu  Mon Jul 18 21:05:41 2011
+From: rl_vaughn at baylor.edu (RL Vaughn)
+Date: Mon, 18 Jul 2011 20:05:41 -0500
+Subject: [outages] AS34846 143.252.80.0/22 ?
+In-Reply-To: <4E24D39C.4010807@cupacoffee.net>
+References: <4E24CD05.6060108@baylor.edu>
+ <CAGhSBjApvMANfqwY_i0LcBKqnmCAHH=R1bxfY+e=P=ro99+nkA@mail.gmail.com>
+ <4E24D39C.4010807@cupacoffee.net>
+Message-ID: <4E24D865.8060304@baylor.edu>
+
+Thanks everyone.  This is/was where Rupert keeps/kept thesun .co.uk.
+
+On 7/18/11 7:45 PM, sjk wrote:
+> No sign of it across any of our transit peers...
+> 
+> sh ip bgp 143.252.80.0
+> % Network not in table
+> 
+> 
+> On 07/18/2011 07:30 PM, Larry Vaden wrote:
+>> On Mon, Jul 18, 2011 at 7:17 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+>>> Anyone having issues reaching 143.252.80.0/22 ?
+>>
+>> I don't see a route for it here in Texomaland (upstream is Level 3)
+>> nor do I see a route for it at route-views.routeviews.org.
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+
+From nlopez at gmail.com  Mon Jul 18 21:20:36 2011
+From: nlopez at gmail.com (Nick Lopez)
+Date: Mon, 18 Jul 2011 21:20:36 -0400
+Subject: [outages] AS34846 143.252.80.0/22 ?
+In-Reply-To: <4E24D865.8060304@baylor.edu>
+References: <4E24CD05.6060108@baylor.edu>
+ <CAGhSBjApvMANfqwY_i0LcBKqnmCAHH=R1bxfY+e=P=ro99+nkA@mail.gmail.com>
+ <4E24D39C.4010807@cupacoffee.net> <4E24D865.8060304@baylor.edu>
+Message-ID: <CAOzxVnNOZD7cHHz6W1FmqOQvqJiCEcx1EAhmZKoE98Xr4NXdaA@mail.gmail.com>
+
+Probably related to this:
+
+http://arstechnica.com/tech-policy/news/2011/07/lulzsec-takes-on-the-murdoch-empire-with-sun-hack-fake-death-claim.ars
+
+On Mon, Jul 18, 2011 at 9:05 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+> Thanks everyone. ?This is/was where Rupert keeps/kept thesun .co.uk.
+>
+> On 7/18/11 7:45 PM, sjk wrote:
+>> No sign of it across any of our transit peers...
+>>
+>> sh ip bgp 143.252.80.0
+>> % Network not in table
+>>
+>>
+>> On 07/18/2011 07:30 PM, Larry Vaden wrote:
+>>> On Mon, Jul 18, 2011 at 7:17 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+>>>> Anyone having issues reaching 143.252.80.0/22 ?
+>>>
+>>> I don't see a route for it here in Texomaland (upstream is Level 3)
+>>> nor do I see a route for it at route-views.routeviews.org.
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From shawn.clemens at mho.com  Thu Jul 21 16:46:47 2011
+From: shawn.clemens at mho.com (Shawn Clemens)
+Date: Thu, 21 Jul 2011 14:46:47 -0600
+Subject: [outages] Level3 Denver Outage?
+Message-ID: <04c601cc47e7$4f5e7670$ee1b6350$@clemens@mho.com>
+
+Did anyone just experience a 6-8 minute outage on their Level3 Service in
+the Denver market? This was from 13:54 to 14:02 (20:54 to 21:02 UTC)
+according to my traffic monitoring. I called customer care, and got someone
+that could barely speak English, who just told me "No problem".
+
+ 
+
+Shawn Clemens
+
+MHO Networks
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110721/b5f7e4c8/attachment.html>
+
+From drew.linsalata at gmail.com  Mon Jul 25 07:26:18 2011
+From: drew.linsalata at gmail.com (Drew Linsalata)
+Date: Mon, 25 Jul 2011 07:26:18 -0400
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+Message-ID: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+
+It appears that AT&T is having an email to SMS gateway outage this morning.
+ No messages sent to xxxxxxxxxx at txt.att.net are being delivered to our
+handsets.  Can anyone else confirm this?  We're in the NYC metro area.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/7f4fc3eb/attachment.html>
+
+From mswier at harpercollege.edu  Mon Jul 25 07:36:50 2011
+From: mswier at harpercollege.edu (Mike Swier)
+Date: Mon, 25 Jul 2011 06:36:50 -0500
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+Message-ID: <3E7B329687F1C541A9F1251B3A2A201E0A8A85F9@admexchs1.admdom.harpercollege.edu>
+
+this looks correct.  (in nw burb of Chicago).
+
+mms.att.net seems to be working.
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Drew Linsalata
+Sent: Monday, July 25, 2011 6:26 AM
+To: outages at outages.org
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+
+ 
+
+It appears that AT&T is having an email to SMS gateway outage this
+morning.  No messages sent to xxxxxxxxxx at txt.att.net are being delivered
+to our handsets.  Can anyone else confirm this?  We're in the NYC metro
+area.
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/bab6fb04/attachment.html>
+
+From williamsjj at digitar.com  Mon Jul 25 13:39:32 2011
+From: williamsjj at digitar.com (Jason J. W. Williams)
+Date: Mon, 25 Jul 2011 13:39:32 -0400
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+Message-ID: <CA530651.3081E%williamsjj@digitar.com>
+
+We saw the same thing this morning in Boise. Alerts sent around 7am MT weren't delivered until 9am MT.
+
+-J
+
+From: Drew Linsalata <drew.linsalata at gmail.com<mailto:drew.linsalata at gmail.com>>
+Date: Mon, 25 Jul 2011 07:26:18 -0400
+To: "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+
+It appears that AT&T is having an email to SMS gateway outage this morning.  No messages sent to xxxxxxxxxx at txt.att.net<mailto:xxxxxxxxxx at txt.att.net> are being delivered to our handsets.  Can anyone else confirm this?  We're in the NYC metro area.
+
+
+!SIG:4e2d546d241132276411805!
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/2b61ea6d/attachment.html>
+
+From dave at teamunify.com  Mon Jul 25 14:09:41 2011
+From: dave at teamunify.com (Dave Owens)
+Date: Mon, 25 Jul 2011 11:09:41 -0700
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CA530651.3081E%williamsjj@digitar.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+Message-ID: <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+
+We regularly (not consistently) see 20-45 minute delivery delays with their
+smtp > sms service using txt.att.net.
+
+Dave Owens
+TeamUnify, LLC
+
+
+
+On Mon, Jul 25, 2011 at 10:39 AM, Jason J. W. Williams <
+williamsjj at digitar.com> wrote:
+
+> We saw the same thing this morning in Boise. Alerts sent around 7am MT
+> weren't delivered until 9am MT.
+>
+> -J
+>
+> From: Drew Linsalata <drew.linsalata at gmail.com>
+> Date: Mon, 25 Jul 2011 07:26:18 -0400
+> To: "outages at outages.org" <outages at outages.org>
+>
+> Subject: [outages] AT&T Email - SMS Gateway Outage?
+>
+> It appears that AT&T is having an email to SMS gateway outage this morning.
+>  No messages sent to xxxxxxxxxx at txt.att.net are being delivered to our
+> handsets.  Can anyone else confirm this?  We're in the NYC metro area.
+>
+>
+> !SIG:4e2d546d241132276411805!
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/7560096c/attachment.html>
+
+From jtrooney at nexdlevel.com  Mon Jul 25 14:49:17 2011
+From: jtrooney at nexdlevel.com (Jeff Rooney)
+Date: Mon, 25 Jul 2011 13:49:17 -0500
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+ <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+Message-ID: <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+
+We saw the same outage with txt.att.net, but using page.att.net has been
+stable.
+
+Jeff Rooney
+jtrooney at nexdlevel.com
+
+
+On Mon, Jul 25, 2011 at 1:09 PM, Dave Owens <dave at teamunify.com> wrote:
+
+> We regularly (not consistently) see 20-45 minute delivery delays with their
+> smtp > sms service using txt.att.net.
+>
+> Dave Owens
+> TeamUnify, LLC
+>
+>
+>
+> On Mon, Jul 25, 2011 at 10:39 AM, Jason J. W. Williams <
+> williamsjj at digitar.com> wrote:
+>
+>> We saw the same thing this morning in Boise. Alerts sent around 7am MT
+>> weren't delivered until 9am MT.
+>>
+>> -J
+>>
+>> From: Drew Linsalata <drew.linsalata at gmail.com>
+>> Date: Mon, 25 Jul 2011 07:26:18 -0400
+>> To: "outages at outages.org" <outages at outages.org>
+>>
+>> Subject: [outages] AT&T Email - SMS Gateway Outage?
+>>
+>> It appears that AT&T is having an email to SMS gateway outage this
+>> morning.  No messages sent to xxxxxxxxxx at txt.att.net are being delivered
+>> to our handsets.  Can anyone else confirm this?  We're in the NYC metro
+>> area.
+>>
+>>
+>> !SIG:4e2d546d241132276411805!
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/81674f3d/attachment.html>
+
+From tlyons at ivenue.com  Mon Jul 25 15:07:01 2011
+From: tlyons at ivenue.com (Todd Lyons)
+Date: Mon, 25 Jul 2011 12:07:01 -0700
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+ <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+ <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+Message-ID: <CAFG21ogzvR6D2Svd-Odap7yA5mS1pW3GrU84Jc9MtW0=P14VoQ@mail.gmail.com>
+
+On Mon, Jul 25, 2011 at 11:49 AM, Jeff Rooney <jtrooney at nexdlevel.com> wrote:
+> We saw the same outage with txt.att.net, but using page.att.net has been
+> stable.
+
+Have only ever used txt.att.net, didn't know about page.att.net.
+
+>> On Mon, Jul 25, 2011 at 10:39 AM, Jason J. W. Williams
+>> <williamsjj at digitar.com> wrote:
+>>>
+>>> We saw the same thing this morning in Boise. Alerts sent around 7am MT
+>>> weren't delivered until 9am MT.
+
+Same here in L.A.  We had a backup system that hiccup'd this morning
+so I brought it down manually to do some work on it.  I brought it
+back up and a warning page saying that it had recovered hit my phone
+at 7:15 AM PDT, but the initial page (from 2 hours earlier) saying
+that it was down didn't show up until 8:00 AM PDT.  I will test and
+see if the page.att.net funnel has a different level of service.
+
+...Todd
+-- 
+If Americans could eliminate sugary beverages, potatoes, white bread,
+pasta, white rice and sugary snacks, we would wipe out almost all the
+problems we have with weight and diabetes and other metabolic
+diseases. -- Dr. Walter Willett, Harvard School of Public Health
+
+From maxsec at gmail.com  Mon Jul 25 15:51:22 2011
+From: maxsec at gmail.com (Martin Hepworth)
+Date: Mon, 25 Jul 2011 20:51:22 +0100
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CAFG21ogzvR6D2Svd-Odap7yA5mS1pW3GrU84Jc9MtW0=P14VoQ@mail.gmail.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+ <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+ <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+ <CAFG21ogzvR6D2Svd-Odap7yA5mS1pW3GrU84Jc9MtW0=P14VoQ@mail.gmail.com>
+Message-ID: <CAGDKorJyzj8Bn5hTYoC1F8eTS7Mp3V3c03VO1h0f4TqHS7ZEVw@mail.gmail.com>
+
+No guaranteed or timely delivery of SMS, just like email. In the uk
+getting the a txt many hours after it was sent isn't that uncommon
+
+Martin
+
+On Monday, 25 July 2011, Todd Lyons <tlyons at ivenue.com> wrote:
+> On Mon, Jul 25, 2011 at 11:49 AM, Jeff Rooney <jtrooney at nexdlevel.com> wrote:
+>> We saw the same outage with txt.att.net, but using page.att.net has been
+>> stable.
+>
+> Have only ever used txt.att.net, didn't know about page.att.net.
+>
+>>> On Mon, Jul 25, 2011 at 10:39 AM, Jason J. W. Williams
+>>> <williamsjj at digitar.com> wrote:
+>>>>
+>>>> We saw the same thing this morning in Boise. Alerts sent around 7am MT
+>>>> weren't delivered until 9am MT.
+>
+> Same here in L.A. ?We had a backup system that hiccup'd this morning
+> so I brought it down manually to do some work on it. ?I brought it
+> back up and a warning page saying that it had recovered hit my phone
+> at 7:15 AM PDT, but the initial page (from 2 hours earlier) saying
+> that it was down didn't show up until 8:00 AM PDT. ?I will test and
+> see if the page.att.net funnel has a different level of service.
+>
+> ...Todd
+> --
+> If Americans could eliminate sugary beverages, potatoes, white bread,
+> pasta, white rice and sugary snacks, we would wipe out almost all the
+> problems we have with weight and diabetes and other metabolic
+> diseases. -- Dr. Walter Willett, Harvard School of Public Health
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+-- 
+-- 
+Martin Hepworth
+Oxford, UK
+
+
+From cmadams at hiwaay.net  Mon Jul 25 16:12:08 2011
+From: cmadams at hiwaay.net (Chris Adams)
+Date: Mon, 25 Jul 2011 15:12:08 -0500
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <CAGDKorJyzj8Bn5hTYoC1F8eTS7Mp3V3c03VO1h0f4TqHS7ZEVw@mail.gmail.com>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+ <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+ <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+ <CAFG21ogzvR6D2Svd-Odap7yA5mS1pW3GrU84Jc9MtW0=P14VoQ@mail.gmail.com>
+ <CAGDKorJyzj8Bn5hTYoC1F8eTS7Mp3V3c03VO1h0f4TqHS7ZEVw@mail.gmail.com>
+Message-ID: <20110725201208.GA10659@hiwaay.net>
+
+Once upon a time, Martin Hepworth <maxsec at gmail.com> said:
+> No guaranteed or timely delivery of SMS, just like email. In the uk
+> getting the a txt many hours after it was sent isn't that uncommon
+
+There's no guarantee, but we've found that sending SMS via a cell modem
+is much more reliable than the various email gateways (and still works
+when the problem is the local switch or router and SMTP can't get out).
+-- 
+Chris Adams <cmadams at hiwaay.net>
+Systems and Network Administrator - HiWAAY Internet Services
+I don't speak for anybody but myself - that's enough trouble.
+
+From korvus at comcast.net  Mon Jul 25 16:43:58 2011
+From: korvus at comcast.net (Steve Polyack)
+Date: Mon, 25 Jul 2011 16:43:58 -0400
+Subject: [outages] AT&T Email - SMS Gateway Outage?
+In-Reply-To: <20110725201208.GA10659@hiwaay.net>
+References: <CAO0o49EMrfmQZHKaW5kn-X0bL43EqN_vhX8QyFgrX6LFx5ODeQ@mail.gmail.com>
+ <CA530651.3081E%williamsjj@digitar.com>
+ <CA+OQrzgioiU+cDiO=JJU41Loph9U3jgZ=uUrfSNUXWcaJucAmw@mail.gmail.com>
+ <CAMaTcxUbMLERTdAgp4AC-ghZcgsbQ3OoP5PeTJewaSFXoD4V+g@mail.gmail.com>
+ <CAFG21ogzvR6D2Svd-Odap7yA5mS1pW3GrU84Jc9MtW0=P14VoQ@mail.gmail.com>
+ <CAGDKorJyzj8Bn5hTYoC1F8eTS7Mp3V3c03VO1h0f4TqHS7ZEVw@mail.gmail.com>
+ <20110725201208.GA10659@hiwaay.net>
+Message-ID: <4E2DD58E.9070103@comcast.net>
+
+On 07/25/2011 04:12 PM, Chris Adams wrote:
+> Once upon a time, Martin Hepworth<maxsec at gmail.com>  said:
+>> No guaranteed or timely delivery of SMS, just like email. In the uk
+>> getting the a txt many hours after it was sent isn't that uncommon
+> There's no guarantee, but we've found that sending SMS via a cell modem
+> is much more reliable than the various email gateways (and still works
+> when the problem is the local switch or router and SMTP can't get out).
+Agreed.  The small monthly fee you'll pay for a SMS or data-only plan 
+and the cost of a serial/USB cell modem are well worth it.  You don't 
+even have to worry about who has what cell provider when sending from an 
+SMS-capable device.  All of the email-to-SMS provider gateways are 
+pretty much garbage with varying restrictions on length and content.  We 
+even ran into providers which provided multiple SMS gateways (by 
+multiple A records, for example), each having slightly different policies.
+
+From andrew.wallace at rocketmail.com  Mon Jul 25 16:49:31 2011
+From: andrew.wallace at rocketmail.com (andrew.wallace)
+Date: Mon, 25 Jul 2011 13:49:31 -0700 (PDT)
+Subject: [outages] Facebook Pages
+Message-ID: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+
+I'm having a problem reaching any Facebook Pages.
+
+Personal profiles are fine.
+
+
+Andrew
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/13395746/attachment.html>
+
+From paul at paulstewart.org  Mon Jul 25 16:53:30 2011
+From: paul at paulstewart.org (Paul Stewart)
+Date: Mon, 25 Jul 2011 16:53:30 -0400
+Subject: [outages] Facebook Pages
+In-Reply-To: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+Message-ID: <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+
+Get to it fine from Toronto area.
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of andrew.wallace
+Sent: Monday, July 25, 2011 4:50 PM
+To: outages at outages.org
+Subject: [outages] Facebook Pages
+
+ 
+
+I'm having a problem reaching any Facebook Pages.
+
+ 
+
+Personal profiles are fine.
+
+ 
+
+Andrew
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/2497f6dd/attachment.html>
+
+From Zeek_Bower at medco.com  Mon Jul 25 17:01:53 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Mon, 25 Jul 2011 17:01:53 -0400
+Subject: [outages] Facebook Pages
+In-Reply-To: <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+
+What browser are you using? I noticed someone saying that some users
+have issues seeing facebook with Google chrome. 
+
+ 
+
+Zeek Bower
+
+Medco Work @ Home Solutions Center
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Paul Stewart
+Sent: Monday, July 25, 2011 4:54 PM
+To: 'andrew.wallace'; outages at outages.org
+Subject: Re: [outages] Facebook Pages
+
+ 
+
+Get to it fine from Toronto area...
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of andrew.wallace
+Sent: Monday, July 25, 2011 4:50 PM
+To: outages at outages.org
+Subject: [outages] Facebook Pages
+
+ 
+
+I'm having a problem reaching any Facebook Pages.
+
+ 
+
+Personal profiles are fine.
+
+ 
+
+Andrew
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/c52470c4/attachment.html>
+
+From ramans at cwie.net  Mon Jul 25 17:57:38 2011
+From: ramans at cwie.net (Raman Sud)
+Date: Mon, 25 Jul 2011 21:57:38 +0000
+Subject: [outages] Facebook Pages
+In-Reply-To: <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+Message-ID: <3C527D72DFFFC14F8CAA9FC442D08FB941040B2C@exch10-mb1.ccbill-hq.local>
+
+Works from PHX
+
+Raman Sud
+Director,
+Network Infrastructure
+
+
+PhoenixNAP LLC
+3402 East University Drive
+Phoenix AZ 85034
+Phone: 480.449.8834
+Fax: 480.682.3236
+http://www.phoenixnap.com
+PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE  INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION  THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE  LAW.  IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR  COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND  ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY  DESTROYED.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Paul Stewart
+Sent: Monday, July 25, 2011 1:54 PM
+To: 'andrew.wallace'; outages at outages.org
+Subject: Re: [outages] Facebook Pages
+
+Get to it fine from Toronto area...
+
+Paul
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of andrew.wallace
+Sent: Monday, July 25, 2011 4:50 PM
+To: outages at outages.org
+Subject: [outages] Facebook Pages
+
+I'm having a problem reaching any Facebook Pages.
+
+Personal profiles are fine.
+
+Andrew
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/9aeb6343/attachment-0001.html>
+
+From teile1 at gmail.com  Mon Jul 25 18:57:22 2011
+From: teile1 at gmail.com (Jason Kline)
+Date: Mon, 25 Jul 2011 17:57:22 -0500
+Subject: [outages] Facebook Pages
+In-Reply-To: <3C527D72DFFFC14F8CAA9FC442D08FB941040B2C@exch10-mb1.ccbill-hq.local>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <3C527D72DFFFC14F8CAA9FC442D08FB941040B2C@exch10-mb1.ccbill-hq.local>
+Message-ID: <CANQGOvAGOBX_BnMS_-rGu4-ectt-rCgXwjg-bJ=Rn7-2NwissQ@mail.gmail.com>
+
+Its all good here in Houston.
+
+On Mon, Jul 25, 2011 at 4:57 PM, Raman Sud <ramans at cwie.net> wrote:
+
+>  Works from PHX****
+>
+> ** **
+>
+> Raman Sud****
+>
+> Director,****
+>
+> Network Infrastructure****
+>
+> ** **
+>
+>  ****
+>
+> PhoenixNAP LLC****
+>
+> 3402 East University Drive****
+>
+> Phoenix AZ 85034****
+>
+> Phone: 480.449.8834****
+>
+> Fax: 480.682.3236****
+>
+> http://www.phoenixnap.com****
+>
+> PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2****
+>
+> ** **
+>
+> *THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE  INDIVIDUAL OR ENTITY TO
+> WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION  THAT IS PRIVILEGED,
+> CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE  LAW.  IF THE
+> READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY
+> NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR  COPYING OF THIS
+> COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND  ALL COPIES
+> AND ATTACHMENTS SHOULD BE IMMEDIATELY  DESTROYED. *****
+>
+> ** **
+>
+> *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+> Behalf Of *Paul Stewart
+> *Sent:* Monday, July 25, 2011 1:54 PM
+> *To:* 'andrew.wallace'; outages at outages.org
+> *Subject:* Re: [outages] Facebook Pages****
+>
+> ** **
+>
+> Get to it fine from Toronto area?****
+>
+> ** **
+>
+> Paul****
+>
+> ** **
+>
+> ** **
+>
+> *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+> Behalf Of *andrew.wallace
+> *Sent:* Monday, July 25, 2011 4:50 PM
+> *To:* outages at outages.org
+> *Subject:* [outages] Facebook Pages****
+>
+> ** **
+>
+> I'm having a problem reaching any Facebook Pages.****
+>
+> ** **
+>
+> Personal profiles are fine.****
+>
+> ** **
+>
+> Andrew****
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110725/a1bdb2a2/attachment.html>
+
+From jsage at finchhaven.com  Mon Jul 25 19:08:27 2011
+From: jsage at finchhaven.com (John Sage)
+Date: Mon, 25 Jul 2011 16:08:27 -0700
+Subject: [outages] Facebook Pages
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+Message-ID: <4E2DF76B.1040207@finchhaven.com>
+
+On 11-07-25 02:01 PM, Bower, Zeek wrote:
+> What browser are you using? I noticed someone saying that some users
+> have issues seeing facebook with Google chrome.
+
+um.. What?
+
+Google says maybe back in 2008-2009.
+
+What year is it where you are?
+
+I've been using Chrome (on Ubuntu) on Facebook forever with no issues 
+whatsoever.
+
+
+- John
+-- 
+
+From jra at baylink.com  Mon Jul 25 19:14:34 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 25 Jul 2011 19:14:34 -0400 (EDT)
+Subject: [outages] Facebook Pages
+In-Reply-To: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+Message-ID: <17010920.2197.1311635674403.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "andrew.wallace" <andrew.wallace at rocketmail.com>
+
+> I'm having a problem reaching any Facebook Pages.
+> 
+> Personal profiles are fine.
+
+Presently not having any troubles reaching profiles/pages/Newgroups/PopoutChat
+from Tampa Bay Roadrunner.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From sil at infiltrated.net  Tue Jul 26 10:34:08 2011
+From: sil at infiltrated.net (J. Oquendo)
+Date: Tue, 26 Jul 2011 10:34:08 -0400
+Subject: [outages] GBLX slash XO issues?
+Message-ID: <4E2ED060.7050506@infiltrated.net>
+
+
+Anyone seeing hiccups on while traversing po2-20G.ar2.dca3 or
+po3-20G-ar1.mia2 I'm getting bucket loads of TTL exceeded errors:
+
+>From 67.16.142.209 icmp_seq=1177 Time to live exceeded
+>From 67.16.142.209 icmp_seq=1181 Time to live exceeded
+>From 67.16.142.209 icmp_seq=1184 Time to live exceeded
+64 bytes from 8.20.18x.xxx: icmp_seq=1187 ttl=118 time=94.5 ms
+64 bytes from 8.20.18x.xxx: icmp_seq=1188 ttl=118 time=91.5 ms
+64 bytes from 8.20.18x.xxx: icmp_seq=1189 ttl=118 time=92.0 ms
+64 bytes from 8.20.18x.xxx: icmp_seq=1190 ttl=118 time=91.0 ms
+
+...
+
+1259 packets transmitted, 1098 received, +34 errors, 12% packet loss,
+time 1259563ms
+rtt min/avg/max/mdev = 8.192/156.007/8703.504/684.907 ms, pipe 10
+
+Whenever I cross a peering between the two (XO + Global) I am seeing
+nothing but errors.
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+
+
+From outages at jdc.parodius.com  Tue Jul 26 10:56:00 2011
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Tue, 26 Jul 2011 07:56:00 -0700
+Subject: [outages] GBLX slash XO issues?
+In-Reply-To: <4E2ED060.7050506@infiltrated.net>
+References: <4E2ED060.7050506@infiltrated.net>
+Message-ID: <20110726145600.GA90092@icarus.home.lan>
+
+A traceroute would be more useful than ping in this situation,
+especially since the TTL is reaching 118 (!!!).  Routing loop anyone?
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, US |
+| Making life hard for others since 1977.               PGP 4BD6C0CB |
+
+On Tue, Jul 26, 2011 at 10:34:08AM -0400, J. Oquendo wrote:
+> 
+> Anyone seeing hiccups on while traversing po2-20G.ar2.dca3 or
+> po3-20G-ar1.mia2 I'm getting bucket loads of TTL exceeded errors:
+> 
+> >From 67.16.142.209 icmp_seq=1177 Time to live exceeded
+> >From 67.16.142.209 icmp_seq=1181 Time to live exceeded
+> >From 67.16.142.209 icmp_seq=1184 Time to live exceeded
+> 64 bytes from 8.20.18x.xxx: icmp_seq=1187 ttl=118 time=94.5 ms
+> 64 bytes from 8.20.18x.xxx: icmp_seq=1188 ttl=118 time=91.5 ms
+> 64 bytes from 8.20.18x.xxx: icmp_seq=1189 ttl=118 time=92.0 ms
+> 64 bytes from 8.20.18x.xxx: icmp_seq=1190 ttl=118 time=91.0 ms
+> 
+> ...
+> 
+> 1259 packets transmitted, 1098 received, +34 errors, 12% packet loss,
+> time 1259563ms
+> rtt min/avg/max/mdev = 8.192/156.007/8703.504/684.907 ms, pipe 10
+> 
+> Whenever I cross a peering between the two (XO + Global) I am seeing
+> nothing but errors.
+> 
+> -- 
+> 
+> =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+> J. Oquendo
+> SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+> 
+> "It takes 20 years to build a reputation and five minutes to
+> ruin it. If you think about that, you'll do things
+> differently." - Warren Buffett
+> 
+> 42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+> http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From Zeek_Bower at medco.com  Tue Jul 26 10:58:26 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Tue, 26 Jul 2011 10:58:26 -0400
+Subject: [outages] Facebook Pages
+In-Reply-To: <4E2DF76B.1040207@finchhaven.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+ <4E2DF76B.1040207@finchhaven.com>
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+
+http://www.google.com/support/forum/p/Chrome/thread?tid=7987b1bb710e6672
+&hl=en
+
+
+Zeek Bower
+Medco Work @ Home Solutions Center
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of John Sage
+Sent: Monday, July 25, 2011 7:08 PM
+To: outages at outages.org
+Subject: Re: [outages] Facebook Pages
+
+On 11-07-25 02:01 PM, Bower, Zeek wrote:
+> What browser are you using? I noticed someone saying that some users
+> have issues seeing facebook with Google chrome.
+
+um.. What?
+
+Google says maybe back in 2008-2009.
+
+What year is it where you are?
+
+I've been using Chrome (on Ubuntu) on Facebook forever with no issues 
+whatsoever.
+
+
+- John
+-- 
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+
+
+From sil at infiltrated.net  Tue Jul 26 11:02:12 2011
+From: sil at infiltrated.net (J. Oquendo)
+Date: Tue, 26 Jul 2011 11:02:12 -0400
+Subject: [outages] GBLX slash XO issues?
+In-Reply-To: <20110726145600.GA90092@icarus.home.lan>
+References: <4E2ED060.7050506@infiltrated.net>
+ <20110726145600.GA90092@icarus.home.lan>
+Message-ID: <4E2ED6F4.9060409@infiltrated.net>
+
+On 7/26/2011 10:56 AM, Jeremy Chadwick wrote:
+> A traceroute would be more useful than ping in this situation,
+> especially since the TTL is reaching 118 (!!!).  Routing loop anyone?
+>
+
+Mea culpa. Gave up swapped it to another carrier (Level3 + Global) Here
+are the tcptraceroutes though. All was fine minus any XO <-> Global
+interchanging
+
+
+ 1  10.4.4.1  0.429 ms  0.208 ms  0.441 ms
+ 2  * * *
+ 3  xxx.xxx.50.208.in-addr.arpa (208.50.xxx.xxx)  0.892 ms  1.248 ms 
+1.445 ms
+ 4  so-1-3-1.585.ar1.JFK1.gblx.net (208.48.236.105)  26.094 ms  7.754
+ms  3.396 ms
+ 5  po2-40G.ar4.LAX2.gblx.net (67.16.141.106)  272.340 ms  408.428 ms 
+213.929 ms
+ 6  64.212.107.86  86.400 ms  91.754 ms  102.334 ms
+ 7  207.88.14.217.ptr.us.xo.net (207.88.14.217)  98.406 ms  102.749 ms 
+108.363 ms
+ 8  te0-5-4-0.rar3.denver-co.us.xo.net (207.88.12.85)  198.858 ms 
+187.735 ms  153.920 ms
+ 9  te-4-1-0.rar3.chicago-il.us.xo.net (207.88.12.21)  160.243 ms 
+166.748 ms  157.301 ms
+10  ae0d0.mcr2.cambridge-ma.us.xo.net (216.156.0.30)  147.353 ms 
+149.747 ms  213.827 ms
+11  216.55.6.34  78.842 ms  79.318 ms  79.400 ms
+12  8.20.18x.xxx [open]  79.334 ms  79.311 ms  88.861 ms
+
+
+
+ 1  10.4.4.1  0.470 ms  0.304 ms  0.458 ms
+ 2  * * *
+ 3  xxx.xxx.50.208.in-addr.arpa (208.50.xxx.xxx)  1.417 ms  0.850 ms 
+1.339 ms
+ 4  so-1-3-1.585.ar1.JFK1.gblx.net (208.48.236.105)  3.961 ms  3.777 ms 
+3.466 ms
+ 5  po2-40G.ar4.LAX2.gblx.net (67.16.141.106)  113.414 ms  114.206 ms 
+114.273 ms
+ 6  * * xo-1.ar2.MIA2.gblx.net (64.208.110.234) 84.169 ms
+ 7  vb2000d1.rar3.miami-fl.us.xo.net (207.88.13.166)  93.217 ms  87.463
+ms  87.703 ms
+ 8  te-3-2-0.rar3.atlanta-ga.us.xo.net (207.88.12.5)  110.833 ms 
+118.756 ms  119.866 ms
+ 9  te-11-0-0.rar3.washington-dc.us.xo.net (207.88.12.10)  129.374 ms 
+114.274 ms  113.421 ms
+10  te-3-0-0.rar3.nyc-ny.us.xo.net (207.88.12.73)  114.339 ms  112.781
+ms  111.387 ms
+11  ae0d0.mcr1.cambridge-ma.us.xo.net (216.156.0.26)  109.319 ms 
+109.276 ms  108.853 ms
+12  ae1d0.mcr2.cambridge-ma.us.xo.net (216.156.1.14)  108.874 ms 
+108.764 ms  108.872 ms
+13  216.55.6.34  41.419 ms  41.825 ms  41.410 ms
+14  8.20.18x.xxx [open]  41.420 ms  41.338 ms  42.700 ms
+
+
+
+ 1  10.4.4.1  0.511 ms  0.269 ms  0.459 ms
+ 2  * * *
+ 3  xxx.xxx.50.208.in-addr.arpa (208.50.xxx.xxx)  1.315 ms  0.842 ms 
+1.949 ms
+ 4  so-1-3-1.585.ar1.JFK1.gblx.net (208.48.236.105)  3.464 ms  3.280 ms 
+3.461 ms
+ 5  * po5.ar2.DAL2.gblx.net (67.17.105.38) 69.282 ms  42.726 ms
+ 6  64.212.107.86  73.376 ms * 67.667 ms
+ 7  207.88.14.217.ptr.us.xo.net (207.88.14.217)  71.871 ms  70.278 ms 
+68.393 ms
+ 8  te0-5-4-0.rar3.denver-co.us.xo.net (207.88.12.85)  157.331 ms 
+151.758 ms  150.367 ms
+ 9  te-4-1-0.rar3.chicago-il.us.xo.net (207.88.12.21)  148.830 ms 
+155.745 ms  158.350 ms
+10  ae0d0.mcr2.cambridge-ma.us.xo.net (216.156.0.30)  145.921 ms 
+145.745 ms  145.854 ms
+11  216.55.6.34  77.404 ms  77.826 ms  77.347 ms
+12  8.20.18x.xxx [open]  77.393 ms  77.310 ms  77.865 ms
+
+
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+
+
+From jsage at finchhaven.com  Tue Jul 26 12:31:46 2011
+From: jsage at finchhaven.com (John Sage)
+Date: Tue, 26 Jul 2011 09:31:46 -0700
+Subject: [outages] Facebook Pages
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+ <4E2DF76B.1040207@finchhaven.com>
+ <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+Message-ID: <4E2EEBF2.2020600@finchhaven.com>
+
+On 11-07-26 07:58 AM, Bower, Zeek wrote:
+> http://www.google.com/support/forum/p/Chrome/thread?tid=7987b1bb710e6672
+> &hl=en
+
+ From farther down in that thread:
+
+http://www.google.com/support/forum/p/Chrome/user?userid=11476886719776514924&hl=en
+
+ > This has been going on for over 3 months now!!!!  And now, it is not
+ > just with Google Chrome!  It seems to have something to do with my
+ > particular computer.   Facebook works only on my work computer and
+ > only in IE.
+ >
+ > But now, on my particular computer, the problem has now cascaded to
+ > ALL OF MY BROWSERS!  Firefox, Google Chrome, and IE!
+ >
+ > As long as I am on my home PC,  I cannot get use FB using any of the
+ > 3 browsers.
+
+
+
+And this is a Chrome problem exactly how?
+
+And of course, Facebook is such a widely-accepted baseline standard for 
+web browser performance and compatibility.
+
+
+
+- John
+-- 
+
+
+From shoemakerp at vectordatasystems.com  Tue Jul 26 12:42:33 2011
+From: shoemakerp at vectordatasystems.com (Patrick Shoemaker)
+Date: Tue, 26 Jul 2011 16:42:33 +0000
+Subject: [outages] Facebook Pages
+In-Reply-To: <4E2EEBF2.2020600@finchhaven.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+ <4E2DF76B.1040207@finchhaven.com>
+ <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+ <4E2EEBF2.2020600@finchhaven.com>
+Message-ID: <9773E53FF98E9449BCE326302EBCDF9C5F1F61@FOURIER.edmonston.local>
+
+A friendly reminder that the outages list is for reporting of problems with "major communications infrastructure components having significant traffic-carrying capacity." The current discussion probably belongs on another list.
+
+Many of us forward this list traffic to our phones and appreciate keeping messages to a minimum.
+
+--?
+Patrick Shoemaker
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of John Sage
+Sent: Tuesday, July 26, 2011 12:32
+To: Bower, Zeek
+Cc: outages at outages.org
+Subject: Re: [outages] Facebook Pages
+
+On 11-07-26 07:58 AM, Bower, Zeek wrote:
+> http://www.google.com/support/forum/p/Chrome/thread?tid=7987b1bb710e66
+> 72
+> &hl=en
+
+ From farther down in that thread:
+
+http://www.google.com/support/forum/p/Chrome/user?userid=11476886719776514924&hl=en
+
+ > This has been going on for over 3 months now!!!!  And now, it is not  > just with Google Chrome!  It seems to have something to do with my
+ > particular computer.   Facebook works only on my work computer and
+ > only in IE.
+ >
+ > But now, on my particular computer, the problem has now cascaded to  > ALL OF MY BROWSERS!  Firefox, Google Chrome, and IE!
+ >
+ > As long as I am on my home PC,  I cannot get use FB using any of the  > 3 browsers.
+
+
+
+And this is a Chrome problem exactly how?
+
+And of course, Facebook is such a widely-accepted baseline standard for web browser performance and compatibility.
+
+
+
+- John
+-- 
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From gert at greenie.muc.de  Tue Jul 26 16:23:42 2011
+From: gert at greenie.muc.de (Gert Doering)
+Date: Tue, 26 Jul 2011 22:23:42 +0200
+Subject: [outages] Facebook Pages
+In-Reply-To: <9773E53FF98E9449BCE326302EBCDF9C5F1F61@FOURIER.edmonston.local>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+ <4E2DF76B.1040207@finchhaven.com>
+ <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+ <4E2EEBF2.2020600@finchhaven.com>
+ <9773E53FF98E9449BCE326302EBCDF9C5F1F61@FOURIER.edmonston.local>
+Message-ID: <20110726202342.GI8496@greenie.muc.de>
+
+Hi,
+
+On Tue, Jul 26, 2011 at 04:42:33PM +0000, Patrick Shoemaker wrote:
+> A friendly reminder that the outages list is for reporting of problems with "major communications infrastructure components having significant traffic-carrying capacity." The current discussion probably belongs on another list.
+> 
+> Many of us forward this list traffic to our phones and appreciate keeping messages to a minimum.
+
+Is it already time for the monthly discussion?
+
+gert
+-- 
+USENET is *not* the non-clickable part of WWW!
+                                                           //www.muc.de/~gert/
+Gert Doering - Munich, Germany                             gert at greenie.muc.de
+fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+From jra at baylink.com  Tue Jul 26 21:02:52 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Tue, 26 Jul 2011 21:02:52 -0400 (EDT)
+Subject: [outages] The Monthly Discussion :-)
+In-Reply-To: <20110726202342.GI8496@greenie.muc.de>
+Message-ID: <20682637.2259.1311728572859.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Gert Doering" <gert at greenie.muc.de>
+
+> > Many of us forward this list traffic to our phones and appreciate
+> > keeping messages to a minimum.
+> 
+> Is it already time for the monthly discussion?
+
+Yes.  :-)
+
+REMINDER: when responding to messages posted to outages@, please try to keep
+your replies limited to "Yes, I'm seeing that too", "No, working fine here",
+and other things similarly suitable to being sent to 10,000 cellphones.
+
+If you need to expand, move the thread to outages-discussion@ (which, I
+understand, is easier with some mailers than others; Zimbra won't let
+me put in a reply-to header manually at all, so I feel your pain).
+
+Thank you; this was a recording.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From maxsec at gmail.com  Wed Jul 27 06:56:19 2011
+From: maxsec at gmail.com (Martin Hepworth)
+Date: Wed, 27 Jul 2011 11:56:19 +0100
+Subject: [outages] Telecity London power problems
+Message-ID: <CAGDKorKG+bzs1uawjJUhzWBHj0JCF2neGvKU_Zrkb=T0UJwF1A@mail.gmail.com>
+
+http://www.theregister.co.uk/2011/07/27/telecity_power_problems_again/
+
+Noticed a 1 minute blip in certain networks this am but can't see any issues
+myself at the moment
+
+-- 
+Martin Hepworth
+Oxford, UK
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/52df0e44/attachment.html>
+
+From virendra.rode at outages.org  Wed Jul 27 14:22:51 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Wed, 27 Jul 2011 11:22:51 -0700
+Subject: [outages] ADMIN:Outages List FAQ/Monthly Post.
+Message-ID: <4E30577B.3000505@outages.org>
+
+Please take 5 minutes to read it before you post [again].
+
+http://wiki.outages.org/index.php/Code_of_Conduct#OUTAGES_List_FAQ
+
+Your adherence to the guidelines is appreciated.
+
+
+regards,
+/virendra
+
+From billw at waveform.net  Wed Jul 27 15:51:08 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Wed, 27 Jul 2011 15:51:08 -0400
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+
+Can anyone confirm/deny that this subnet is unreachable? I'm not showing
+it in my BGP tables from XO or Level(3), and Routeviews also seems to be
+showing no entries (one entry only, very unusual). I have one report
+from a customer that it's reachable from Comcast though so I'm looking
+for some other opinions.
+
+ 
+
+   -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/82a9fbdd/attachment.html>
+
+From bryan.riley at oncalltelecom.com  Wed Jul 27 15:54:31 2011
+From: bryan.riley at oncalltelecom.com (Bryan Riley)
+Date: Wed, 27 Jul 2011 15:54:31 -0400
+Subject: [outages] Five9 Hosted PBX
+Message-ID: <0DA85DCC419B2E43906955706AF2B7F602B59E0330@GOC-EX1.geeksoncall.com>
+
+Five9 hosted PBX vendor is apparently down hard. Been about 2 hours anybody else experienced this?
+
+[cid:image001.jpg at 01CC4C75.7848E6F0]
+Bryan Riley
+Operations Manager
+757.802.4991 (office)
+757.351.4115 (fax)
+757.805.4955 (main)
+www.oncalltelecom.com<http://www.oncalltelecom.com>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/3011ea01/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 1888 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/3011ea01/attachment.jpg>
+
+From feldman at twincreeks.net  Wed Jul 27 15:59:52 2011
+From: feldman at twincreeks.net (Steve Feldman)
+Date: Wed, 27 Jul 2011 12:59:52 -0700
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <C1943FB1-7B75-4A28-92DC-6AF2C4A58F0F@twincreeks.net>
+
+$dayjob router shows it from Level3:
+
+81.26.208.0/20     *[BGP/170] 1w1d 11:47:04, MED 0, localpref 100
+                      AS path: 3356 3549 38930 39556 39556 I
+                    > to 4.53.x.x via xe-0/0/1.0
+
+    Steve
+
+On Jul 27, 2011, at 12:51 PM, Bill Wichers wrote:
+
+> Can anyone confirm/deny that this subnet is unreachable? I?m not showing it in my BGP tables from XO or Level(3), and Routeviews also seems to be showing no entries (one entry only, very unusual). I have one report from a customer that it?s reachable from Comcast though so I?m looking for some other opinions.
+>  
+>    -Bill
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From joelm at gofreewire.com  Wed Jul 27 16:01:50 2011
+From: joelm at gofreewire.com (Joel Mulkey)
+Date: Wed, 27 Jul 2011 13:01:50 -0700
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <6469ABCE-A289-4F43-9D4E-FCF9CF8D80F0@gofreewire.com>
+
+I'm seeing it via Cogent, XO, and Abovenet. .1 is pingable. End of AS path is: 38930 39556 39556
+
+Joel Mulkey
+CIO
+Freewire
+Direct: 503-616-2557 | Support: 503-614-8282
+http://www.gofreewire.com
+http://twitter.com/FreewireNetwork
+
+On Jul 27, 2011, at 12:51 PM, Bill Wichers wrote:
+
+> Can anyone confirm/deny that this subnet is unreachable? I?m not showing it in my BGP tables from XO or Level(3), and Routeviews also seems to be showing no entries (one entry only, very unusual). I have one report from a customer that it?s reachable from Comcast though so I?m looking for some other opinions.
+>  
+>    -Bill
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/e1a22540/attachment-0001.html>
+
+From brandon at netsville.com  Wed Jul 27 16:06:56 2011
+From: brandon at netsville.com (Micah Brandon)
+Date: Wed, 27 Jul 2011 16:06:56 -0400
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <4E306FE0.3000508@netsville.com>
+
+On 07/27/11 15:51, Bill Wichers wrote:
+> Can anyone confirm/deny that this subnet is unreachable? I?m not showing it in my BGP tables from XO or Level(3), and Routeviews also seems to be showing no entries (one entry only, very unusual). I have one report from a customer that it?s reachable from Comcast though so I?m looking for some other opinions.
+
+Reachable by me.  I see routes from XO and GBLX.  The XO path is preferred from my perspective (via Chicago).  I'm in western NY.  I traced to 81.26.208.1 as a test without a problem.
+
+From paul at paulstewart.org  Wed Jul 27 16:07:12 2011
+From: paul at paulstewart.org (Paul Stewart)
+Date: Wed, 27 Jul 2011 16:07:12 -0400
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <009601cc4c98$c5a66c60$50f34520$@org>
+
+We see it fine from here via multiple upstreams/peering connections
+(AS11666/Toronto area) - but not specifically through Level(3)
+
+ 
+
+http://www.traceroute.org/ is your friend ;)
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Bill Wichers
+Sent: Wednesday, July 27, 2011 3:51 PM
+To: outages at outages.org
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+
+ 
+
+Can anyone confirm/deny that this subnet is unreachable? I'm not showing it
+in my BGP tables from XO or Level(3), and Routeviews also seems to be
+showing no entries (one entry only, very unusual). I have one report from a
+customer that it's reachable from Comcast though so I'm looking for some
+other opinions.
+
+ 
+
+   -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/7089d1e5/attachment.html>
+
+From billw at waveform.net  Wed Jul 27 16:07:21 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Wed, 27 Jul 2011 16:07:21 -0400
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F939BA57@server1.WaveformTechnology.local>
+
+Thanks to everyone who responded (there were lots, and very fast!).
+Looks like we have some goofy filters that seem to have caught this so
+now I know what I need to look at.
+
+ 
+
+  -Bill
+
+ 
+
+________________________________
+
+From: Bill Wichers [mailto:billw at waveform.net] 
+Sent: Wednesday, July 27, 2011 3:51 PM
+To: outages at outages.org
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+
+ 
+
+Can anyone confirm/deny that this subnet is unreachable? I'm not showing
+it in my BGP tables from XO or Level(3), and Routeviews also seems to be
+showing no entries (one entry only, very unusual). I have one report
+from a customer that it's reachable from Comcast though so I'm looking
+for some other opinions.
+
+ 
+
+   -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/90d81ff8/attachment.html>
+
+From teun at teun.tv  Wed Jul 27 16:08:10 2011
+From: teun at teun.tv (Teun Vink)
+Date: Wed, 27 Jul 2011 22:08:10 +0200
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <925AEBDC-E673-4474-A507-555D3C060D1E@teun.tv>
+
+
+On Jul 27, 2011, at 21:51 , Bill Wichers wrote:
+
+> Can anyone confirm/deny that this subnet is unreachable? I?m not showing it in my BGP tables from XO or Level(3), and Routeviews also seems to be showing no entries (one entry only, very unusual). I have one report from a customer that it?s reachable from Comcast though so I?m looking for some other opinions.
+> 
+
+No problems here (AS12859), I see many paths via several IX'es and transits, IP's in the subnet are pingable. 28 boxes in ring.nlnog.net say it's reachable as well.
+
+HTH,
+
+ -- Teun
+
+
+
+From jayson at corp.peakinter.net  Tue Jul 26 11:04:09 2011
+From: jayson at corp.peakinter.net (Jayson Baker)
+Date: Tue, 26 Jul 2011 09:04:09 -0600
+Subject: [outages] Facebook Pages
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+References: <1311626971.5313.YahooMailNeo@web59608.mail.ac4.yahoo.com>
+ <00c301cc4b0c$e89dfae0$b9d9f0a0$@org>
+ <B27F93338DD3E9498CC81AE96907D24B088F04BB@FL1-MX-USR02P.medco.com>
+ <4E2DF76B.1040207@finchhaven.com>
+ <B27F93338DD3E9498CC81AE96907D24B0893759A@FL1-MX-USR02P.medco.com>
+Message-ID: <CABNKB=fwSLc+uKsRyiLi7GXpr6Zz7cNCqaN+3uDfeS4j6vfyAg@mail.gmail.com>
+
+If it's not an outage, please take it off-list.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+Like Us On Facebook: http://www.facebook.com/peakinternetco
+
+
+
+On Tue, Jul 26, 2011 at 8:58 AM, Bower, Zeek <Zeek_Bower at medco.com> wrote:
+
+> http://www.google.com/support/forum/p/Chrome/thread?tid=7987b1bb710e6672
+> &hl=en
+>
+>
+> Zeek Bower
+> Medco Work @ Home Solutions Center
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of John Sage
+> Sent: Monday, July 25, 2011 7:08 PM
+> To: outages at outages.org
+> Subject: Re: [outages] Facebook Pages
+>
+> On 11-07-25 02:01 PM, Bower, Zeek wrote:
+> > What browser are you using? I noticed someone saying that some users
+> > have issues seeing facebook with Google chrome.
+>
+> um.. What?
+>
+> Google says maybe back in 2008-2009.
+>
+> What year is it where you are?
+>
+> I've been using Chrome (on Ubuntu) on Facebook forever with no issues
+> whatsoever.
+>
+>
+> - John
+> --
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> **********************************************************************
+> This e-mail message and any attachments contain confidential information
+> from Medco. If you are not the intended recipient, you are hereby notified
+> that disclosure, printing, copying, distribution, or the taking of any
+> action in reliance on the contents of this electronic information is
+> strictly prohibited. If you have received this e-mail message in error,
+> please immediately notify the sender by reply message and then delete the
+> electronic message and any attachments.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110726/d7fe19ed/attachment-0001.html>
+
+From jayson at corp.peakinter.net  Wed Jul 27 15:56:19 2011
+From: jayson at corp.peakinter.net (Jayson Baker)
+Date: Wed, 27 Jul 2011 13:56:19 -0600
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <CABNKB=cjS9jo9ZD8w09BvcS0mTtVccsMS9nX88nHYaMHGyn7oA@mail.gmail.com>
+
+I can reach it from Colorado via Cogent.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+Like Us On Facebook: http://www.facebook.com/peakinternetco
+See Our Fiber Deployment: http://on.fb.me/niVGvp
+
+
+
+On Wed, Jul 27, 2011 at 1:51 PM, Bill Wichers <billw at waveform.net> wrote:
+
+>  Can anyone confirm/deny that this subnet is unreachable? I?m not showing
+> it in my BGP tables from XO or Level(3), and Routeviews also seems to be
+> showing no entries (one entry only, very unusual). I have one report from a
+> customer that it?s reachable from Comcast though so I?m looking for some
+> other opinions.****
+>
+> ** **
+>
+>    -Bill****
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110727/eccdf068/attachment-0001.html>
+
+From jeroen at easyhosting.nl  Thu Jul 28 03:30:39 2011
+From: jeroen at easyhosting.nl (Jeroen Wunnink)
+Date: Thu, 28 Jul 2011 09:30:39 +0200
+Subject: [outages] 81.26.208.0/20 not in BGP table?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F939BA51@server1.WaveformTechnology.local>
+Message-ID: <4E31101F.1090708@easyhosting.nl>
+
+That'd be one of our subnets, you can mail me directly if you need to do 
+some direct troubleshooting.
+I have no outages reported by our customers
+
+On 7/27/11 9:51 PM, Bill Wichers wrote:
+>
+> Can anyone confirm/deny that this subnet is unreachable? I'm not 
+> showing it in my BGP tables from XO or Level(3), and Routeviews also 
+> seems to be showing no entries (one entry only, very unusual). I have 
+> one report from a customer that it's reachable from Comcast though so 
+> I'm looking for some other opinions.
+>
+>    -Bill
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+
+Met vriendelijke groet,
+
+Jeroen Wunnink,
+EasyHosting B.V. Systeembeheerder
+systeembeheer at easyhosting.nl
+
+telefoon:+31 (035) 6285455              Postbus 48
+fax: +31 (035) 6838242                  3755 ZG Eemnes
+
+http://www.easyhosting.nl
+http://www.easycolocate.nl
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110728/3fbea602/attachment.html>
+
+From frnkblk at iname.com  Fri Jul 29 10:57:41 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jul 2011 09:57:41 -0500
+Subject: [outages] Several IPv6 sites down?
+Message-ID: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+
+Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+inaccessible:
+
+ipv6.cnn.com (IPv6-only)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+ 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+www.charter.com (IPv4 is fine, just not IPv6)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+ipv6.weather.yahoo.com (there's three AAAA records, just
+2a00:1288:f006:1fe::1000 is not working)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+ 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+ 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+ 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+ 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+ 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+Can anyone else confirm?  It's like our /32 stopped propagating to some
+networks.
+
+Frank
+
+
+From frnkblk at iname.com  Fri Jul 29 11:43:32 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jul 2011 10:43:32 -0500
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+Message-ID: <00d301cc4e06$457d6d80$d0784880$@iname.com>
+
+Sounds like it could just be my AS, as everyone else (on and offlist) is
+getting success.
+
+I will open a ticket with my upstream provider.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Friday, July 29, 2011 9:58 AM
+To: outages at outages.org
+Subject: [outages] Several IPv6 sites down?
+
+Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+inaccessible:
+
+ipv6.cnn.com (IPv6-only)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+ 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+www.charter.com (IPv4 is fine, just not IPv6)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+ipv6.weather.yahoo.com (there's three AAAA records, just
+2a00:1288:f006:1fe::1000 is not working)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+ 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+ 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+ 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+ 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+ 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+Can anyone else confirm?  It's like our /32 stopped propagating to some
+networks.
+
+Frank
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From frnkblk at iname.com  Fri Jul 29 16:52:33 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jul 2011 15:52:33 -0500
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+Message-ID: <00e801cc4e31$709b4610$51d1d230$@iname.com>
+
+Our upstream provider withdrew our prefixes from Qwest and connectivity is
+good again.  We're waiting for Qwest's QControl to investigate. 
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Friday, July 29, 2011 9:58 AM
+To: outages at outages.org
+Subject: [outages] Several IPv6 sites down?
+
+Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+inaccessible:
+
+ipv6.cnn.com (IPv6-only)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+ 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+www.charter.com (IPv4 is fine, just not IPv6)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+ipv6.weather.yahoo.com (there's three AAAA records, just
+2a00:1288:f006:1fe::1000 is not working)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+ 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+ 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+ 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+ 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+ 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+Can anyone else confirm?  It's like our /32 stopped propagating to some
+networks.
+
+Frank
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From ryan at u13.net  Fri Jul 29 17:42:12 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 29 Jul 2011 17:42:12 -0400
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00e801cc4e31$709b4610$51d1d230$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+Message-ID: <63DB31BC-3ECC-426E-BC7F-28793CFEC4B3@u13.net>
+
+If anyone has a touch point with qwest, it looks like rackspace's IPv6 is largely broken due to what I suspect is the same issue.  We are unable to reach www.rackspace.com and apps.rackspace.com from locations in the Ashburn, VA area which transit Qwest (which is one of Rackspace's upstreams).
+
+
+
+On Jul 29, 2011, at 4:52 PM, Frank Bulk wrote:
+
+> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+> good again.  We're waiting for Qwest's QControl to investigate. 
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 9:58 AM
+> To: outages at outages.org
+> Subject: [outages] Several IPv6 sites down?
+> 
+> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+> inaccessible:
+> 
+> ipv6.cnn.com (IPv6-only)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+> 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> www.charter.com (IPv4 is fine, just not IPv6)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> ipv6.weather.yahoo.com (there's three AAAA records, just
+> 2a00:1288:f006:1fe::1000 is not working)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+>  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+> 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> Can anyone else confirm?  It's like our /32 stopped propagating to some
+> networks.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From frnkblk at iname.com  Fri Jul 29 17:57:03 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jul 2011 16:57:03 -0500
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <63DB31BC-3ECC-426E-BC7F-28793CFEC4B3@u13.net>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+ <63DB31BC-3ECC-426E-BC7F-28793CFEC4B3@u13.net>
+Message-ID: <00ec01cc4e3a$73709710$5a51c530$@iname.com>
+
+Too bad you didn't tell me before our prefixes were withdrawn from Qwest,
+else we could have checked the same. (BCCing some rackspace.com folk).
+
+Frank
+
+-----Original Message-----
+From: Ryan Rawdon [mailto:ryan at u13.net] 
+Sent: Friday, July 29, 2011 4:42 PM
+To: frnkblk at iname.com
+Cc: outages at outages.org
+Subject: Re: [outages] Several IPv6 sites down?
+
+If anyone has a touch point with qwest, it looks like rackspace's IPv6 is
+largely broken due to what I suspect is the same issue.  We are unable to
+reach www.rackspace.com and apps.rackspace.com from locations in the
+Ashburn, VA area which transit Qwest (which is one of Rackspace's
+upstreams).
+
+On Jul 29, 2011, at 4:52 PM, Frank Bulk wrote:
+
+> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+> good again.  We're waiting for Qwest's QControl to investigate. 
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 9:58 AM
+> To: outages at outages.org
+> Subject: [outages] Several IPv6 sites down?
+> 
+> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+> inaccessible:
+> 
+> ipv6.cnn.com (IPv6-only)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4
+0.4
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8
+0.3
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1
+0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6
+0.7
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6
+3.6
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9
+0.1
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8
+14.2
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+>  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7
+23.8
+> 10. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> www.charter.com (IPv4 is fine, just not IPv6)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2
+0.0
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4
+0.1
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0
+0.0
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7
+0.6
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5
+0.1
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5
+48.3
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5
+8.8
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> ipv6.weather.yahoo.com (there's three AAAA records, just
+> 2a00:1288:f006:1fe::1000 is not working)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3
+16.8
+>  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7
+0.2
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1
+0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3
+1.1
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9
+2.3
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8
+10.2
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9
+29.1
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+>  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5
+0.1
+> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8
+1.9
+> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3
+0.3
+> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7
+12.7
+> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1
+0.3
+> 14. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> Can anyone else confirm?  It's like our /32 stopped propagating to some
+> networks.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From ryan at u13.net  Fri Jul 29 18:03:30 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 29 Jul 2011 18:03:30 -0400
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00ec01cc4e3a$73709710$5a51c530$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+ <63DB31BC-3ECC-426E-BC7F-28793CFEC4B3@u13.net>
+ <00ec01cc4e3a$73709710$5a51c530$@iname.com>
+Message-ID: <CA1D50C7-267E-4977-B137-6A732DA88178@u13.net>
+
+yeah, I realized it significantly after my e-mail to you earlier.  Rackspace's frontline has so far been hesitant to accept this as an issue they should be bringing up with Qwest instead saying we should be contacting our ISPs.
+
+Further impeding troubleshooting is the fact that the nameservers listed as authoritative for 2001:4801::/32 are timing out:
+
+nova-dhcp-host111:~ ryan$ dig +trace -x 2001:4801:821:c020::100
+
+; <<>> DiG 9.6.0-APPLE-P2 <<>> +trace -x 2001:4801:821:c020::100
+;; global options: +cmd
+.			518345	IN	NS	d.root-servers.net.
+.			518345	IN	NS	m.root-servers.net.
+.			518345	IN	NS	k.root-servers.net.
+.			518345	IN	NS	b.root-servers.net.
+.			518345	IN	NS	g.root-servers.net.
+.			518345	IN	NS	i.root-servers.net.
+.			518345	IN	NS	e.root-servers.net.
+.			518345	IN	NS	a.root-servers.net.
+.			518345	IN	NS	h.root-servers.net.
+.			518345	IN	NS	l.root-servers.net.
+.			518345	IN	NS	c.root-servers.net.
+.			518345	IN	NS	j.root-servers.net.
+.			518345	IN	NS	f.root-servers.net.
+;; Received 244 bytes from 172.25.254.253#53(172.25.254.253) in 10 ms
+
+ip6.arpa.		172800	IN	NS	a.ip6-servers.arpa.
+ip6.arpa.		172800	IN	NS	b.ip6-servers.arpa.
+ip6.arpa.		172800	IN	NS	c.ip6-servers.arpa.
+ip6.arpa.		172800	IN	NS	d.ip6-servers.arpa.
+ip6.arpa.		172800	IN	NS	e.ip6-servers.arpa.
+ip6.arpa.		172800	IN	NS	f.ip6-servers.arpa.
+;; Received 470 bytes from 2001:500:3::42#53(l.root-servers.net) in 74 ms
+
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	u.arin.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	v.arin.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	w.arin.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	x.arin.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	z.arin.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	ns2.lacnic.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	sec1.apnic.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	sec1.authdns.ripe.net.
+8.4.1.0.0.2.ip6.arpa.	86400	IN	NS	sec3.apnic.net.
+;; Received 299 bytes from 2001:500:86::86#53(b.ip6-servers.arpa) in 74 ms
+
+1.0.8.4.1.0.0.2.ip6.arpa. 10800	IN	NS	NS2.RACKSPACE.COM.
+1.0.8.4.1.0.0.2.ip6.arpa. 10800	IN	NS	NS.RACKSPACE.COM.
+;; Received 138 bytes from 2001:500:31::63#53(x.arin.net) in 79 ms
+
+;; connection timed out; no servers could be reached
+
+
+
+On Jul 29, 2011, at 5:57 PM, Frank Bulk wrote:
+
+> Too bad you didn't tell me before our prefixes were withdrawn from Qwest,
+> else we could have checked the same. (BCCing some rackspace.com folk).
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: Ryan Rawdon [mailto:ryan at u13.net] 
+> Sent: Friday, July 29, 2011 4:42 PM
+> To: frnkblk at iname.com
+> Cc: outages at outages.org
+> Subject: Re: [outages] Several IPv6 sites down?
+> 
+> If anyone has a touch point with qwest, it looks like rackspace's IPv6 is
+> largely broken due to what I suspect is the same issue.  We are unable to
+> reach www.rackspace.com and apps.rackspace.com from locations in the
+> Ashburn, VA area which transit Qwest (which is one of Rackspace's
+> upstreams).
+> 
+> On Jul 29, 2011, at 4:52 PM, Frank Bulk wrote:
+> 
+>> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+>> good again.  We're waiting for Qwest's QControl to investigate. 
+>> 
+>> Frank
+>> 
+>> -----Original Message-----
+>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+>> Behalf Of Frank Bulk
+>> Sent: Friday, July 29, 2011 9:58 AM
+>> To: outages at outages.org
+>> Subject: [outages] Several IPv6 sites down?
+>> 
+>> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+>> inaccessible:
+>> 
+>> ipv6.cnn.com (IPv6-only)
+>> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+> StDev
+>> 1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4
+> 0.4
+>> 2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8
+> 0.3
+>> 3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1
+> 0.1
+>> 4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6
+> 0.7
+>> 5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6
+> 3.6
+>> 6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9
+> 0.1
+>> 7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8
+> 14.2
+>> 8. ???                          100.0    10    0.0   0.0   0.0   0.0
+> 0.0
+>> 9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7
+> 23.8
+>> 10. ???                          100.0    10    0.0   0.0   0.0   0.0
+> 0.0
+>> 
+>> www.charter.com (IPv4 is fine, just not IPv6)
+>> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+> StDev
+>> 1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2
+> 0.0
+>> 2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4
+> 0.1
+>> 3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0
+> 0.0
+>> 4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7
+> 0.6
+>> 5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5
+> 0.1
+>> 6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5
+> 48.3
+>> 7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5
+> 8.8
+>> 8. ???                          100.0    10    0.0   0.0   0.0   0.0
+> 0.0
+>> 
+>> ipv6.weather.yahoo.com (there's three AAAA records, just
+>> 2a00:1288:f006:1fe::1000 is not working)
+>> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+> StDev
+>> 1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3
+> 16.8
+>> 2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7
+> 0.2
+>> 3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1
+> 0.1
+>> 4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3
+> 1.1
+>> 5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9
+> 2.3
+>> 6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8
+> 10.2
+>> 7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9
+> 29.1
+>> 8. ???                          100.0    10    0.0   0.0   0.0   0.0
+> 0.0
+>> 9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5
+> 0.1
+>> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8
+> 1.9
+>> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3
+> 0.3
+>> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7
+> 12.7
+>> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1
+> 0.3
+>> 14. ???                          100.0    10    0.0   0.0   0.0   0.0
+> 0.0
+>> 
+>> Can anyone else confirm?  It's like our /32 stopped propagating to some
+>> networks.
+>> 
+>> Frank
+>> 
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>> 
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+
+
+
+From frnkblk at iname.com  Fri Jul 29 18:20:40 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jul 2011 17:20:40 -0500
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00e801cc4e31$709b4610$51d1d230$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+Message-ID: <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+
+Someone else shared with me offlist that HE tunnels from Ashburn see the
+Qwest brokenness when tracing to me or Rackspace...
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Friday, July 29, 2011 3:53 PM
+To: outages at outages.org
+Subject: Re: [outages] Several IPv6 sites down?
+
+Our upstream provider withdrew our prefixes from Qwest and connectivity is
+good again.  We're waiting for Qwest's QControl to investigate. 
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Friday, July 29, 2011 9:58 AM
+To: outages at outages.org
+Subject: [outages] Several IPv6 sites down?
+
+Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+inaccessible:
+
+ipv6.cnn.com (IPv6-only)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+ 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+www.charter.com (IPv4 is fine, just not IPv6)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+ipv6.weather.yahoo.com (there's three AAAA records, just
+2a00:1288:f006:1fe::1000 is not working)
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+ 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+ 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+ 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+ 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+ 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+Can anyone else confirm?  It's like our /32 stopped propagating to some
+networks.
+
+Frank
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From ryan at u13.net  Fri Jul 29 19:06:48 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 29 Jul 2011 19:06:48 -0400
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+ <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+Message-ID: <72DD9857-7440-4865-A809-0EF8D6BC65EE@u13.net>
+
+Indeed - the two locations I have seen the broknness to Rackspace from are Hurricane Electric and TWTC in the Ashburn area (Reston and Falls Church, respectively).  These are also where I observed issues reaching your prefix earlier but no other problems have yet been observed.
+
+
+
+
+On Jul 29, 2011, at 6:20 PM, Frank Bulk wrote:
+
+> Someone else shared with me offlist that HE tunnels from Ashburn see the
+> Qwest brokenness when tracing to me or Rackspace...
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 3:53 PM
+> To: outages at outages.org
+> Subject: Re: [outages] Several IPv6 sites down?
+> 
+> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+> good again.  We're waiting for Qwest's QControl to investigate. 
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 9:58 AM
+> To: outages at outages.org
+> Subject: [outages] Several IPv6 sites down?
+> 
+> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+> inaccessible:
+> 
+> ipv6.cnn.com (IPv6-only)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+> 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> www.charter.com (IPv4 is fine, just not IPv6)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> ipv6.weather.yahoo.com (there's three AAAA records, just
+> 2a00:1288:f006:1fe::1000 is not working)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+>  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+> 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> Can anyone else confirm?  It's like our /32 stopped propagating to some
+> networks.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From dramirez at rackspace.com  Fri Jul 29 19:42:51 2011
+From: dramirez at rackspace.com (David Ramirez)
+Date: Fri, 29 Jul 2011 23:42:51 +0000
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+ <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+Message-ID: <0B7069BB-266E-4F29-93F1-22EC30902E15@rackspace.com>
+
+Yes, there's definitely some issues with our IPv6 transit traffic through Qwest.  We've filtered off announcements to/from Qwest.  Hurricane Electric was still using Qwest though, with Qwest (attempting to) use Internap to get to us.  So, we've had tofilter off Internap as well.
+
+This definitely points to an issue within Qwest's network, so we've opened a ticket with them to get this resolved.
+
+David Ramirez
+Network Engineer
+Rackspace Hosting
+
+
+
+On Jul 29, 2011, at 5:20 PM, Frank Bulk wrote:
+
+> Someone else shared with me offlist that HE tunnels from Ashburn see the
+> Qwest brokenness when tracing to me or Rackspace...
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 3:53 PM
+> To: outages at outages.org
+> Subject: Re: [outages] Several IPv6 sites down?
+> 
+> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+> good again.  We're waiting for Qwest's QControl to investigate. 
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 9:58 AM
+> To: outages at outages.org
+> Subject: [outages] Several IPv6 sites down?
+> 
+> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+> inaccessible:
+> 
+> ipv6.cnn.com (IPv6-only)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4   0.4
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8   0.3
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6   0.7
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6   3.6
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9   0.1
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8  14.2
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7  23.8
+> 10. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> www.charter.com (IPv4 is fine, just not IPv6)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2   0.0
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4   0.1
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0   0.0
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7   0.6
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5   0.1
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5  48.3
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5   8.8
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> ipv6.weather.yahoo.com (there's three AAAA records, just
+> 2a00:1288:f006:1fe::1000 is not working)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3  16.8
+>  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7   0.2
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1   0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3   1.1
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9   2.3
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8  10.2
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9  29.1
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+>  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5   0.1
+> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8   1.9
+> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3   0.3
+> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7  12.7
+> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1   0.3
+> 14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+> 
+> Can anyone else confirm?  It's like our /32 stopped propagating to some
+> networks.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+This email may include confidential information. If you received it in error, please delete it.
+
+
+
+From virendra.rode at outages.org  Sun Jul 31 17:06:22 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Sun, 31 Jul 2011 14:06:22 -0700
+Subject: [outages] Fwd: Re: Internet Blip in San Diego at 1pm?
+Message-ID: <4E35C3CE.3080905@outages.org>
+
+FYI -/
+
+
+regards,
+/virendra
+
+-------- Original Message --------
+Subject: Re: Internet Blip in San Diego at 1pm?
+Date: Sun, 31 Jul 2011 14:05:15 -0700
+From: Joe Renwick <joe at gonetforward.com>
+To: virendra.rode at gmail.com
+CC: nanog at nanog.org
+
+Level3 had an issue between LA and Dallas at 1pm.  Apparently large amounts
+of traffic from San Diego head through Dallas so it appeared at a whole
+Internet drop.
+
+Joe
+
+On Sun, Jul 31, 2011 at 1:54 PM, virendra rode 
+<virendra.rode at gmail.com>wrote:
+
+> On 07/31/2011 01:35 PM, Joe Renwick wrote:
+>
+>> Several of my customers in San Diego noticed large drops in traffic at 1pm
+>> today.  Note it was not a total loss in connectivity.  Anyone else notice
+>> this?
+>>
+>>  -------------------
+> Several of our east coat/overseas customers called in about reachability
+> issues towards our SD pop. I believe this was LEVEL3 peering (?) related.
+>
+> Hopefully transparency will follow.
+>
+> regards,
+> /virendra
+>
+>
+
+
+From jjackson at aninetworks.net  Sun Jul 31 18:46:50 2011
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Sun, 31 Jul 2011 15:46:50 -0700
+Subject: [outages] Fwd: Re: Internet Blip in San Diego at 1pm?
+In-Reply-To: <4E35C3CE.3080905@outages.org>
+References: <4E35C3CE.3080905@outages.org>
+Message-ID: <6D497FE8AFD83E49AFADD9114C569F8F0A08F2E4D4@EXMBX10.exchhosting.com>
+
+We saw issues sending to destinations in LA and DFW over level3.
+
+Appears to have cleared now.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of virendra rode
+Sent: Sunday, July 31, 2011 4:06 PM
+To: outages at outages.org
+Subject: [outages] Fwd: Re: Internet Blip in San Diego at 1pm?
+
+FYI -/
+
+
+regards,
+/virendra
+
+-------- Original Message --------
+Subject: Re: Internet Blip in San Diego at 1pm?
+Date: Sun, 31 Jul 2011 14:05:15 -0700
+From: Joe Renwick <joe at gonetforward.com>
+To: virendra.rode at gmail.com
+CC: nanog at nanog.org
+
+Level3 had an issue between LA and Dallas at 1pm.  Apparently large amounts
+of traffic from San Diego head through Dallas so it appeared at a whole
+Internet drop.
+
+Joe
+
+On Sun, Jul 31, 2011 at 1:54 PM, virendra rode 
+<virendra.rode at gmail.com>wrote:
+
+> On 07/31/2011 01:35 PM, Joe Renwick wrote:
+>
+>> Several of my customers in San Diego noticed large drops in traffic at 1pm
+>> today.  Note it was not a total loss in connectivity.  Anyone else notice
+>> this?
+>>
+>>  -------------------
+> Several of our east coat/overseas customers called in about reachability
+> issues towards our SD pop. I believe this was LEVEL3 peering (?) related.
+>
+> Hopefully transparency will follow.
+>
+> regards,
+> /virendra
+>
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From bbridges at ifbyphone.com  Sun Jul 31 18:59:51 2011
+From: bbridges at ifbyphone.com (Brooks Bridges)
+Date: Sun, 31 Jul 2011 17:59:51 -0500
+Subject: [outages] Fwd: Re: Internet Blip in San Diego at 1pm?
+In-Reply-To: <6D497FE8AFD83E49AFADD9114C569F8F0A08F2E4D4@EXMBX10.exchhosting.com>
+References: <4E35C3CE.3080905@outages.org>
+ <6D497FE8AFD83E49AFADD9114C569F8F0A08F2E4D4@EXMBX10.exchhosting.com>
+Message-ID: <4E35DE67.8060403@ifbyphone.com>
+
+We saw a core router drop out around 3 Central here in Chicago.  
+Couldn't get anywhere beyond it from multiple providers.
+
+Brooks R. Bridges
+Telecommunications Manager
+Ifbyphone, Inc.
+Phone: (847) 983-3000
+Fax: (847) 676-6553
+bbridges at ifbyphone.com
+http://www.ifbyphone.com
+
+
+On 7/31/2011 5:46 PM, Joseph Jackson wrote:
+> We saw issues sending to destinations in LA and DFW over level3.
+>
+> Appears to have cleared now.
+>
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of virendra rode
+> Sent: Sunday, July 31, 2011 4:06 PM
+> To: outages at outages.org
+> Subject: [outages] Fwd: Re: Internet Blip in San Diego at 1pm?
+>
+> FYI -/
+>
+>
+> regards,
+> /virendra
+>
+> -------- Original Message --------
+> Subject: Re: Internet Blip in San Diego at 1pm?
+> Date: Sun, 31 Jul 2011 14:05:15 -0700
+> From: Joe Renwick<joe at gonetforward.com>
+> To: virendra.rode at gmail.com
+> CC: nanog at nanog.org
+>
+> Level3 had an issue between LA and Dallas at 1pm.  Apparently large amounts
+> of traffic from San Diego head through Dallas so it appeared at a whole
+> Internet drop.
+>
+> Joe
+>
+> On Sun, Jul 31, 2011 at 1:54 PM, virendra rode
+> <virendra.rode at gmail.com>wrote:
+>
+>> On 07/31/2011 01:35 PM, Joe Renwick wrote:
+>>
+>>> Several of my customers in San Diego noticed large drops in traffic at 1pm
+>>> today.  Note it was not a total loss in connectivity.  Anyone else notice
+>>> this?
+>>>
+>>>   -------------------
+>> Several of our east coat/overseas customers called in about reachability
+>> issues towards our SD pop. I believe this was LEVEL3 peering (?) related.
+>>
+>> Hopefully transparency will follow.
+>>
+>> regards,
+>> /virendra
+>>
+>>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+

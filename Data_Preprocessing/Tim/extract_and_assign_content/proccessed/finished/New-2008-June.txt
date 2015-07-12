@@ -1,0 +1,958 @@
+###############################################################
+list up
+###############################################################
+  	You can post to outages at isotf.org now, still working on
+ one last detail, but let me know if there's anything odd you see.
+ 	- jared
+ -- 
+ Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+ clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Boston (Comcast NY) handoff packet loss since 11AM EST
+###############################################################
+###############################################################
+END
+###############################################################
+
+###############################################################
+QWEST SCHEDULED MAINTENANCE NOTIFICATION
+###############################################################
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Mailing List Update.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hello All,
+ First off I would like to thank everyone for their patience during the
+ transition period of isotf.org over to Jared's host (puck) and his
+ willingness to even help after repeatedly nagging and trying his
+ patience primarily by me.
+ As Jared mentioned there are still a couple more things that needs to be
+ hashed out (behind the scenes) while outages mailing list function to
+ operate normally.
+ We will give outages mailing list a few more weeks to operate under
+ isotf.org after which we will be looking at making one final transition
+ (in parallel) to outages.org domain as mentioned in my earlier e-mail.
+ Along w/ its new identity we will be looking at setting WIKI for
+ documentation purposes as discussed earlier.
+ Once again, we will be counting on the network operator community for
+ help in order to make outages wiki resourceful and meaningful so
+ everyone can benefit from the outcome. We will be communicating more on
+ this in the weeks to come.
+ Like always, I'm open for suggestions / feedback.
+ Many thanks to Jared Mauch, Gadi Evron and Randy Vaughn for their
+ relentless help during this migration.
+ regards,
+ /virendra
+ It occurs to me that this list may in the future be better served by two 
+ lists - one for outage announcements, and one for discussion.  However, 
+ as this is currently the only list, I'll begin here.
+ One of the topics I would like to see on an outages wiki would be a list 
+   of sites one could check for outages.  See 
+ http://www.bgp4.net/wiki/doku.php?id=links:network_status for an old 
+ example that never really got off the ground.   I don't really care 
+ where such a list lives - but I've wanted one more than once.  Does 
+ anyone have any good links?
+ What other kinds of topics would be good for an outages wiki?  At first 
+ I was thinking that major outages (undersea cables, etc.) could be 
+ posted & available via RSS, but I don't see that being kept up to date 
+ well in the long run.  Point being, someone would need to keep it up to 
+ date, and when things are really, really fubar, I imagine most of the 
+ people here will be busy with other things. ;-)
+ What about good, old-fashioned IRC for live discussion of outages, 
+ sharing of tracerts etc? The mailing list could then be used for planned 
+ outage announcements, updates of current outage status and other 
+ announcement-style posts.
+ The wiki could host less volatile information - tools, techniques, 
+ public NOC contacts, etc.
+ CP
+ Janet Sullivan wrote:
+ 	<48609173.2010303@gmail.com>
+ On Mon, 23 Jun 2008, CunningPike wrote:
+ We have a mailing list, maybe soon a wiki. No IRC right now (yet) or our 
+ community would die.
+  	Gadi.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hello All,
+ First off I would like to thank everyone for their patience during the
+ transition period of isotf.org over to Jared's host (puck) and his
+ willingness to even help after repeatedly nagging and trying his
+ patience primarily by me.
+ As Jared mentioned there are still a couple more things that needs to be
+ hashed out (behind the scenes) while outages mailing list function to
+ operate normally.
+ We will give outages mailing list a few more weeks to operate under
+ isotf.org after which we will be looking at making one final transition
+ (in parallel) to outages.org domain as mentioned in my earlier e-mail.
+ Along w/ its new identity we will be looking at setting WIKI for
+ documentation purposes as discussed earlier.
+ Once again, we will be counting on the network operator community for
+ help in order to make outages wiki resourceful and meaningful so
+ everyone can benefit from the outcome. We will be communicating more on
+ this in the weeks to come.
+ Like always, I'm open for suggestions / feedback.
+ Many thanks to Jared Mauch, Gadi Evron and Randy Vaughn for their
+ relentless help during this migration.
+ regards,
+ /virendra
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ 	<20080624022049.GA58094@eos.sc1.parodius.com>
+ Going through GLBX I get right to 205.232.34.1....
+   7  64.209.107.158 (64.209.107.158)  69.120 ms  73.124 ms  67.318 ms
+   8  66.152.112.10 (66.152.112.10)  161.185 ms  69.324 ms  70.008 ms
+   9  66.152.113.44 (66.152.113.44)  70.924 ms  68.378 ms  71.077 ms
+ 10  bond0b.lightlink.com (216.7.9.33)  80.011 ms  81.825 ms  80.691 ms
+ 11  fw1.lightlink.com (205.232.89.2)  75.907 ms  73.856 ms  91.166 ms
+ 12  205.232.34.1.lightlink.com (205.232.34.1)  94.835 ms  89.494 ms   
+ 93.681 ms
+ The problem seems closer to the zloc rather than cogent.
+   9  sl-finlak-43408-0.sprintlink.net (144.223.155.22)  83.742 ms   
+ 83.892 ms  84.122 ms
+ 10  66.152.112.2 (66.152.112.2)  65.979 ms  66.193 ms  65.723 ms
+ 11  66.152.113.44 (66.152.113.44)  65.945 ms  65.999 ms  66.152 ms
+ 12  bond0b.lightlink.com (216.7.9.33)  72.074 ms  72.370 ms  68.521 ms
+ 13  fw1.lightlink.com (205.232.89.2)  81.403 ms  81.144 ms  70.914 ms
+ 14  * * *
+ ...
+ Both routes go through 66.152.113.44 ,,,,   Maybe local firewall/acl  
+ rule @FINGER LAKES TECHNOLOGIES GROUP, INC.?
+ Sorry for the caps but cut/pasted from rwhois :-)
+ Correct me if you see different results :-)
+ HTH
+ G
+ On Jun 23, 2008, at 21:20 , Jeremy Chadwick wrote:
+ It occurs to me that this list may in the future be better served by two 
+ lists - one for outage announcements, and one for discussion.  However, 
+ as this is currently the only list, I'll begin here.
+ One of the topics I would like to see on an outages wiki would be a list 
+   of sites one could check for outages.  See 
+ http://www.bgp4.net/wiki/doku.php?id=links:network_status for an old 
+ example that never really got off the ground.   I don't really care 
+ where such a list lives - but I've wanted one more than once.  Does 
+ anyone have any good links?
+ What other kinds of topics would be good for an outages wiki?  At first 
+ I was thinking that major outages (undersea cables, etc.) could be 
+ posted & available via RSS, but I don't see that being kept up to date 
+ well in the long run.  Point being, someone would need to keep it up to 
+ date, and when things are really, really fubar, I imagine most of the 
+ people here will be busy with other things. ;-)
+ What about good, old-fashioned IRC for live discussion of outages, 
+ sharing of tracerts etc? The mailing list could then be used for planned 
+ outage announcements, updates of current outage status and other 
+ announcement-style posts.
+ The wiki could host less volatile information - tools, techniques, 
+ public NOC contacts, etc.
+ CP
+ Janet Sullivan wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages] Fisher Plaza Power Outage
+###############################################################
+###############################################################
+END
+###############################################################
+
+###############################################################
+routing loop in cogent?
+###############################################################
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/7c75c278/attachment.html>
+ You should have kept the traceroute running.  They might be passing  
+ packets back and fourth a couple of dozen times as a practical joke  
+ before eventually delivering the traffic to the next hop.
+ Cogent = WIN
+ On Jun 23, 2008, at 6:3911 000PM, Josh Fiske wrote:
+ Are you able to share what IP you're tracing to?
+ ________________________________________
+ From: outages-bounces at isotf.org [outages-bounces at isotf.org] On Behalf Of Josh Fiske [jfiske at clarkson.edu]
+ Sent: Monday, June 23, 2008 9:39 PM
+ Subject: [outages] routing loop in cogent?
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ On 23 Jun 2008, at 21:47, Darrell Hyde wrote:
+ I don't know much about cogent's naming scheme, but that traceroute  
+ could be packets following a customer-announced aggregate and, lacking  
+ a more-specific in the IGP, following a default back out to cogentland.
+ Joe
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ Complete traceroute for the interested...  (FWIW, 205.232.34.1 is the DNS for a small ISP in central NY.)  At this point, I cannot determine whether they have dropped off the map or whether Cogent is just mis-routing traffic...I don't have another host on the other side of Cogent's cloud to trace to.
+ $ traceroute 205.232.34.1
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  192.168.1.1 (192.168.1.1)  1.205 ms  0.899 ms  0.744 ms
+  2  10.101.32.1 (10.101.32.1)  9.872 ms  12.886 ms  8.218 ms
+  3  gig0-0.syrcnypth-rtr01.nyroc.rr.com (24.92.227.102)  8.842 ms  7.082 ms  7.968 ms
+  4  gig6-3.syrcnypth-rtr02.nyroc.rr.com (24.92.230.74)  8.523 ms  8.358 ms  22.373 ms
+  5  gig1-0-7.syrcnyflk-rtr02.nyroc.rr.com (24.92.227.42)  12.746 ms  12.645 ms  13.085 ms
+  6  * ge-4-3-0.albynywav-rtr03.nyroc.rr.com (24.24.7.53)  22.296 ms  23.362 ms
+  7  ae-5-0.cr0.nyc30.tbone.rr.com (66.109.6.74)  24.973 ms  25.460 ms  25.236 ms
+  8  ae-1-0.pr0.nyc20.tbone.rr.com (66.109.6.163)  26.920 ms  27.645 ms  28.417 ms
+  9  te2-1.mpd01.jfk05.atlas.cogentco.com (154.54.13.185)  27.786 ms  28.297 ms  28.696 ms
+ 10  vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  28.706 ms vl3491.ccr04.jfk02.atlas.cogentco.com (154.54.7.9)  29.195 ms vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  30.475 ms
+ 11  te4-1.ccr01.jfk07.atlas.cogentco.com (154.54.7.30)  28.199 ms  27.434 ms  28.647 ms
+ 12  paetec_communications_inc.dmarc.cogentco.com (38.112.26.90)  29.272 ms  30.293 ms  28.723 ms
+ 13  gi-1-0-1-13.core01.nycmny01.paetec.net (66.155.218.97)  28.767 ms  30.290 ms  29.108 ms
+ 14  64.80.253.234 (64.80.253.234)  27.571 ms  29.827 ms  28.415 ms
+ 15  ge-1-3-0.core02.nycmny03.paetec.net (64.80.253.98)  29.724 ms  27.800 ms  28.632 ms
+ 16  as1.core02.asbnva01.paetec.net (169.130.81.230)  37.043 ms  44.398 ms  86.877 ms
+ 17  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  36.541 ms  36.753 ms  35.901 ms
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.438 ms  34.282 ms  33.746 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.553 ms  35.728 ms  38.174 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.176 ms  33.785 ms  33.844 ms
+ 21  uslec.iad01.atlas.cogentco.com (154.54.11.214)  102.015 ms  37.123 ms  37.943 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.138 ms  34.589 ms  34.388 ms
+ 23  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.982 ms  37.857 ms
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  36.449 ms  35.107 ms  34.794 ms
+ 25  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.972 ms  36.947 ms  38.100 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.736 ms  33.483 ms *
+ 27  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.605 ms  37.762 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  37.073 ms  34.558 ms  36.043 ms
+ 29  *^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ -----Original Message-----
+ From: outages-bounces at isotf.org on behalf of Darrell Hyde
+ Sent: Mon 6/23/2008 9:47 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Are you able to share what IP you're tracing to?
+ ________________________________________
+ From: outages-bounces at isotf.org [outages-bounces at isotf.org] On Behalf Of Josh Fiske [jfiske at clarkson.edu]
+ Sent: Monday, June 23, 2008 9:39 PM
+ Subject: [outages] routing loop in cogent?
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ _______________________________________________
+ outages mailing list
+ outages at isotf.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/d847d193/attachment.html>
+ 	<D06F2BE9-43FF-4C8A-AE81-E0A4FAF976D0@gmail.com>
+ Also call USLEC, it seems it might be a problem on their side, because  
+ it reaches cogent's uslec edge obviously.
+ On Jun 23, 2008, at 6:4317 000PM, Daniel Corbe wrote:
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ Josh Fiske wrote:
+ It's reachable from here, but not through Cogent.
+   3  f0-0.border2.sba1.netlojix.net (207.71.192.51)  41.404 ms  323.870 
+ ms  330.528 ms
+   4  so-1-0.ipcolo1.losangeles1.level3.net (64.156.173.57)  36.368 ms 
+ 39.335 ms  34.199 ms
+   5  vlan51.csw1.losangeles1.level3.net (4.68.102.30)  35.790 ms  37.564 
+ ms  38.921 ms
+   6  ae-14-69.car4.losangeles1.level3.net (4.68.20.6)  37.759 ms  36.463 
+ ms  39.010 ms
+   7  globalcrossing-level3-10ge.losangeles1.level3.net (4.68.110.66) 
+ 41.986 ms  43.080 ms  35.000 ms
+   8  64.209.107.158 (64.209.107.158)  118.865 ms  123.881 ms  120.093 ms
+   9  66.152.112.10 (66.152.112.10)  121.595 ms  119.958 ms  121.811 ms
+ 10  66.152.113.44 (66.152.113.44)  123.470 ms  122.608 ms  122.927 ms
+ 11  bond0b.lightlink.com (216.7.9.33)  130.447 ms  128.141 ms  131.083 ms
+ 12  fw1.lightlink.com (205.232.89.2)  142.068 ms  139.863 ms  139.027 ms
+ 13  205.232.34.1.lightlink.com (205.232.34.1)  129.275 ms  137.171 ms 
+ 149.257 ms
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ Might helpful to call the ISP (http://www.lightlink.com/light.html) and ask
+ the person to trace back to you and see if they seem the same thing.
+ If 205.232.34.1 is their DNS server, it doesn't match what's in the DNS for
+ lightlink.com.  They also might considering renaming the reverse for this
+ DNS server to something that makes a bit more sense than
+ 205.232.34.1.lightlink.com. 
+ Frank
+ From: outages-bounces at isotf.org [mailto:outages-bounces at isotf.org] On Behalf
+ Of Josh Fiske
+ Sent: Monday, June 23, 2008 9:04 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Complete traceroute for the interested...  (FWIW, 205.232.34.1 is the DNS
+ for a small ISP in central NY.)  At this point, I cannot determine whether
+ they have dropped off the map or whether Cogent is just mis-routing
+ traffic...I don't have another host on the other side of Cogent's cloud to
+ trace to.
+ $ traceroute 205.232.34.1
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  192.168.1.1 (192.168.1.1)  1.205 ms  0.899 ms  0.744 ms
+  2  10.101.32.1 (10.101.32.1)  9.872 ms  12.886 ms  8.218 ms
+  3  gig0-0.syrcnypth-rtr01.nyroc.rr.com (24.92.227.102)  8.842 ms  7.082 ms
+ 7.968 ms
+  4  gig6-3.syrcnypth-rtr02.nyroc.rr.com (24.92.230.74)  8.523 ms  8.358 ms
+ 22.373 ms
+  5  gig1-0-7.syrcnyflk-rtr02.nyroc.rr.com (24.92.227.42)  12.746 ms  12.645
+ ms  13.085 ms
+  6  * ge-4-3-0.albynywav-rtr03.nyroc.rr.com (24.24.7.53)  22.296 ms  23.362
+ ms
+  7  ae-5-0.cr0.nyc30.tbone.rr.com (66.109.6.74)  24.973 ms  25.460 ms
+ 25.236 ms
+  8  ae-1-0.pr0.nyc20.tbone.rr.com (66.109.6.163)  26.920 ms  27.645 ms
+ 28.417 ms
+  9  te2-1.mpd01.jfk05.atlas.cogentco.com (154.54.13.185)  27.786 ms  28.297
+ ms  28.696 ms
+ 10  vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  28.706 ms
+ vl3491.ccr04.jfk02.atlas.cogentco.com (154.54.7.9)  29.195 ms
+ vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  30.475 ms
+ 11  te4-1.ccr01.jfk07.atlas.cogentco.com (154.54.7.30)  28.199 ms  27.434 ms
+ 28.647 ms
+ 12  paetec_communications_inc.dmarc.cogentco.com (38.112.26.90)  29.272 ms
+ 30.293 ms  28.723 ms
+ 13  gi-1-0-1-13.core01.nycmny01.paetec.net (66.155.218.97)  28.767 ms
+ 30.290 ms  29.108 ms
+ 14  64.80.253.234 (64.80.253.234)  27.571 ms  29.827 ms  28.415 ms
+ 15  ge-1-3-0.core02.nycmny03.paetec.net (64.80.253.98)  29.724 ms  27.800 ms
+ 28.632 ms
+ 16  as1.core02.asbnva01.paetec.net (169.130.81.230)  37.043 ms  44.398 ms
+ 86.877 ms
+ 17  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  36.541 ms  36.753
+ ms  35.901 ms
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.438 ms  34.282
+ ms  33.746 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.553 ms  35.728 ms
+ 38.174 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.176 ms  33.785
+ ms  33.844 ms
+ 21  uslec.iad01.atlas.cogentco.com (154.54.11.214)  102.015 ms  37.123 ms
+ 37.943 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.138 ms  34.589
+ ms  34.388 ms
+ 23  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.982 ms  37.857 ms
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  36.449 ms  35.107
+ ms  34.794 ms
+ 25  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.972 ms  36.947 ms
+ 38.100 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.736 ms  33.483
+ ms *
+ 27  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.605 ms  37.762 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  37.073 ms  34.558
+ ms  36.043 ms
+ 29  *^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain
+ confidential, proprietary and privileged information, and unauthorized
+ disclosure or use is prohibited.  If you received this e-mail in error,
+ please notify the sender and delete this e-mail from your system.
+ -----Original Message-----
+ From: outages-bounces at isotf.org on behalf of Darrell Hyde
+ Sent: Mon 6/23/2008 9:47 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Are you able to share what IP you're tracing to?
+ ________________________________________
+ From: outages-bounces at isotf.org [outages-bounces at isotf.org] On Behalf Of
+ Josh Fiske [jfiske at clarkson.edu]
+ Sent: Monday, June 23, 2008 9:39 PM
+ Subject: [outages] routing loop in cogent?
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336
+ ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms
+ 37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066
+ ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120
+ ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994
+ ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317
+ ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms
+ 39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451
+ ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms
+ 40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726
+ ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms
+ 49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988
+ ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain
+ confidential, proprietary and privileged information, and unauthorized
+ disclosure or use is prohibited.  If you received this e-mail in error,
+ please notify the sender and delete this e-mail from your system.
+ _______________________________________________
+ outages mailing list
+ outages at isotf.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/7c1cb9fb/attachment-0001.html>
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ On Mon, Jun 23, 2008 at 10:03:39PM -0400, Josh Fiske wrote:
+ FWIW, I see the same thing from a different source (72.20.106.2):
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  72.20.106.1 (72.20.106.1)  0.617 ms  0.612 ms  0.407 ms
+  2  er0sc1-g2-0.bayarea.net (209.128.116.90)  0.395 ms  0.283 ms  0.239 ms
+  3  er0sc1-g2-1.BAYAREA.NET (209.128.95.91)  0.398 ms  0.290 ms  0.240 ms
+  4  ge-7-19.car1.SanJose1.Level3.net (4.79.219.105)  6.478 ms  1.069 ms  0.864 ms
+  5  vlan69.csw1.SanJose1.Level3.net (4.68.18.62)  12.565 ms  1.067 ms  0.865 ms
+  6  ae-64-64.ebr4.SanJose1.Level3.net (4.69.134.241)  5.855 ms  8.256 ms  1.335 ms
+  7  ae-2.ebr4.NewYork1.Level3.net (4.69.135.186)  120.723 ms  121.408 ms  127.543 ms
+  8  ae-74-74.csw2.NewYork1.Level3.net (4.69.134.118)  124.579 ms  126.670 ms  126.923 ms
+  9  ae-21-79.car1.NewYork1.Level3.net (4.68.16.67)  80.583 ms
+     ae-31-89.car1.NewYork1.Level3.net (4.68.16.131)  80.788 ms  80.472 ms
+ 10  unknown.Level3.net (63.208.174.2)  135.902 ms  129.309 ms  126.605 ms
+ 11  as1.core02.asbnva01.paetec.net (169.130.81.230)  80.898 ms  80.953 ms  81.211 ms
+ 12  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  80.587 ms  80.496 ms  80.741 ms
+ 13  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  80.585 ms  80.604 ms  80.744 ms
+ 14  uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.052 ms  80.858 ms  80.914 ms
+ 15  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  80.936 ms  80.741 ms  80.902 ms
+ 16  * * uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.039 ms
+ 17  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.092 ms  80.618 ms  80.787 ms
+ 18  uslec.iad01.atlas.cogentco.com (154.54.11.214)  80.897 ms  81.551 ms  81.051 ms
+ 19  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.050 ms  81.082 ms  81.523 ms
+ 20  * * *
+ 21  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.833 ms  81.716 ms  81.744 ms
+ 22  uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.564 ms  81.462 ms  81.992 ms
+ 23  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.364 ms  81.866 ms  82.318 ms
+ ^C
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ 	<20080624022049.GA58094@eos.sc1.parodius.com>
+ Going through GLBX I get right to 205.232.34.1....
+   7  64.209.107.158 (64.209.107.158)  69.120 ms  73.124 ms  67.318 ms
+   8  66.152.112.10 (66.152.112.10)  161.185 ms  69.324 ms  70.008 ms
+   9  66.152.113.44 (66.152.113.44)  70.924 ms  68.378 ms  71.077 ms
+ 10  bond0b.lightlink.com (216.7.9.33)  80.011 ms  81.825 ms  80.691 ms
+ 11  fw1.lightlink.com (205.232.89.2)  75.907 ms  73.856 ms  91.166 ms
+ 12  205.232.34.1.lightlink.com (205.232.34.1)  94.835 ms  89.494 ms   
+ 93.681 ms
+ The problem seems closer to the zloc rather than cogent.
+   9  sl-finlak-43408-0.sprintlink.net (144.223.155.22)  83.742 ms   
+ 83.892 ms  84.122 ms
+ 10  66.152.112.2 (66.152.112.2)  65.979 ms  66.193 ms  65.723 ms
+ 11  66.152.113.44 (66.152.113.44)  65.945 ms  65.999 ms  66.152 ms
+ 12  bond0b.lightlink.com (216.7.9.33)  72.074 ms  72.370 ms  68.521 ms
+ 13  fw1.lightlink.com (205.232.89.2)  81.403 ms  81.144 ms  70.914 ms
+ 14  * * *
+ ...
+ Both routes go through 66.152.113.44 ,,,,   Maybe local firewall/acl  
+ rule @FINGER LAKES TECHNOLOGIES GROUP, INC.?
+ Sorry for the caps but cut/pasted from rwhois :-)
+ Correct me if you see different results :-)
+ HTH
+ G
+ On Jun 23, 2008, at 21:20 , Jeremy Chadwick wrote:
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/7c75c278/attachment-0002.html>
+ You should have kept the traceroute running.  They might be passing  
+ packets back and fourth a couple of dozen times as a practical joke  
+ before eventually delivering the traffic to the next hop.
+ Cogent = WIN
+ On Jun 23, 2008, at 6:3911 000PM, Josh Fiske wrote:
+ Are you able to share what IP you're tracing to?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ On 23 Jun 2008, at 21:47, Darrell Hyde wrote:
+ I don't know much about cogent's naming scheme, but that traceroute  
+ could be packets following a customer-announced aggregate and, lacking  
+ a more-specific in the IGP, following a default back out to cogentland.
+ Joe
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ Complete traceroute for the interested...  (FWIW, 205.232.34.1 is the DNS for a small ISP in central NY.)  At this point, I cannot determine whether they have dropped off the map or whether Cogent is just mis-routing traffic...I don't have another host on the other side of Cogent's cloud to trace to.
+ $ traceroute 205.232.34.1
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  192.168.1.1 (192.168.1.1)  1.205 ms  0.899 ms  0.744 ms
+  2  10.101.32.1 (10.101.32.1)  9.872 ms  12.886 ms  8.218 ms
+  3  gig0-0.syrcnypth-rtr01.nyroc.rr.com (24.92.227.102)  8.842 ms  7.082 ms  7.968 ms
+  4  gig6-3.syrcnypth-rtr02.nyroc.rr.com (24.92.230.74)  8.523 ms  8.358 ms  22.373 ms
+  5  gig1-0-7.syrcnyflk-rtr02.nyroc.rr.com (24.92.227.42)  12.746 ms  12.645 ms  13.085 ms
+  6  * ge-4-3-0.albynywav-rtr03.nyroc.rr.com (24.24.7.53)  22.296 ms  23.362 ms
+  7  ae-5-0.cr0.nyc30.tbone.rr.com (66.109.6.74)  24.973 ms  25.460 ms  25.236 ms
+  8  ae-1-0.pr0.nyc20.tbone.rr.com (66.109.6.163)  26.920 ms  27.645 ms  28.417 ms
+  9  te2-1.mpd01.jfk05.atlas.cogentco.com (154.54.13.185)  27.786 ms  28.297 ms  28.696 ms
+ 10  vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  28.706 ms vl3491.ccr04.jfk02.atlas.cogentco.com (154.54.7.9)  29.195 ms vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  30.475 ms
+ 11  te4-1.ccr01.jfk07.atlas.cogentco.com (154.54.7.30)  28.199 ms  27.434 ms  28.647 ms
+ 12  paetec_communications_inc.dmarc.cogentco.com (38.112.26.90)  29.272 ms  30.293 ms  28.723 ms
+ 13  gi-1-0-1-13.core01.nycmny01.paetec.net (66.155.218.97)  28.767 ms  30.290 ms  29.108 ms
+ 14  64.80.253.234 (64.80.253.234)  27.571 ms  29.827 ms  28.415 ms
+ 15  ge-1-3-0.core02.nycmny03.paetec.net (64.80.253.98)  29.724 ms  27.800 ms  28.632 ms
+ 16  as1.core02.asbnva01.paetec.net (169.130.81.230)  37.043 ms  44.398 ms  86.877 ms
+ 17  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  36.541 ms  36.753 ms  35.901 ms
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.438 ms  34.282 ms  33.746 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.553 ms  35.728 ms  38.174 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.176 ms  33.785 ms  33.844 ms
+ 21  uslec.iad01.atlas.cogentco.com (154.54.11.214)  102.015 ms  37.123 ms  37.943 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.138 ms  34.589 ms  34.388 ms
+ 23  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.982 ms  37.857 ms
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  36.449 ms  35.107 ms  34.794 ms
+ 25  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.972 ms  36.947 ms  38.100 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.736 ms  33.483 ms *
+ 27  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.605 ms  37.762 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  37.073 ms  34.558 ms  36.043 ms
+ 29  *^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ -----Original Message-----
+ From: outages-bounces at isotf.org on behalf of Darrell Hyde
+ Sent: Mon 6/23/2008 9:47 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Are you able to share what IP you're tracing to?
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336 ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms  37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066 ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120 ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994 ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317 ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms  39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451 ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms  40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726 ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms  49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988 ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain confidential, proprietary and privileged information, and unauthorized disclosure or use is prohibited.  If you received this e-mail in error, please notify the sender and delete this e-mail from your system.
+ _______________________________________________
+ outages mailing list
+ outages at isotf.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/d847d193/attachment-0002.html>
+ 	<D06F2BE9-43FF-4C8A-AE81-E0A4FAF976D0@gmail.com>
+ Also call USLEC, it seems it might be a problem on their side, because  
+ it reaches cogent's uslec edge obviously.
+ On Jun 23, 2008, at 6:4317 000PM, Daniel Corbe wrote:
+ We can keep this list usable if used sparingly.
+ We don't need everyone's traceroute.
+ Hardly useful for others anyway unless they're your roommate.
+ Post your outage. Move on with your day.
+ Leave the traceroutes for off list interchange.
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ Might helpful to call the ISP (http://www.lightlink.com/light.html) and ask
+ the person to trace back to you and see if they seem the same thing.
+ If 205.232.34.1 is their DNS server, it doesn't match what's in the DNS for
+ lightlink.com.  They also might considering renaming the reverse for this
+ DNS server to something that makes a bit more sense than
+ 205.232.34.1.lightlink.com. 
+ Frank
+ From: outages-bounces at isotf.org [mailto:outages-bounces at isotf.org] On Behalf
+ Of Josh Fiske
+ Sent: Monday, June 23, 2008 9:04 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Complete traceroute for the interested...  (FWIW, 205.232.34.1 is the DNS
+ for a small ISP in central NY.)  At this point, I cannot determine whether
+ they have dropped off the map or whether Cogent is just mis-routing
+ traffic...I don't have another host on the other side of Cogent's cloud to
+ trace to.
+ $ traceroute 205.232.34.1
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  192.168.1.1 (192.168.1.1)  1.205 ms  0.899 ms  0.744 ms
+  2  10.101.32.1 (10.101.32.1)  9.872 ms  12.886 ms  8.218 ms
+  3  gig0-0.syrcnypth-rtr01.nyroc.rr.com (24.92.227.102)  8.842 ms  7.082 ms
+ 7.968 ms
+  4  gig6-3.syrcnypth-rtr02.nyroc.rr.com (24.92.230.74)  8.523 ms  8.358 ms
+ 22.373 ms
+  5  gig1-0-7.syrcnyflk-rtr02.nyroc.rr.com (24.92.227.42)  12.746 ms  12.645
+ ms  13.085 ms
+  6  * ge-4-3-0.albynywav-rtr03.nyroc.rr.com (24.24.7.53)  22.296 ms  23.362
+ ms
+  7  ae-5-0.cr0.nyc30.tbone.rr.com (66.109.6.74)  24.973 ms  25.460 ms
+ 25.236 ms
+  8  ae-1-0.pr0.nyc20.tbone.rr.com (66.109.6.163)  26.920 ms  27.645 ms
+ 28.417 ms
+  9  te2-1.mpd01.jfk05.atlas.cogentco.com (154.54.13.185)  27.786 ms  28.297
+ ms  28.696 ms
+ 10  vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  28.706 ms
+ vl3491.ccr04.jfk02.atlas.cogentco.com (154.54.7.9)  29.195 ms
+ vl3496.mpd03.jfk02.atlas.cogentco.com (154.54.6.49)  30.475 ms
+ 11  te4-1.ccr01.jfk07.atlas.cogentco.com (154.54.7.30)  28.199 ms  27.434 ms
+ 28.647 ms
+ 12  paetec_communications_inc.dmarc.cogentco.com (38.112.26.90)  29.272 ms
+ 30.293 ms  28.723 ms
+ 13  gi-1-0-1-13.core01.nycmny01.paetec.net (66.155.218.97)  28.767 ms
+ 30.290 ms  29.108 ms
+ 14  64.80.253.234 (64.80.253.234)  27.571 ms  29.827 ms  28.415 ms
+ 15  ge-1-3-0.core02.nycmny03.paetec.net (64.80.253.98)  29.724 ms  27.800 ms
+ 28.632 ms
+ 16  as1.core02.asbnva01.paetec.net (169.130.81.230)  37.043 ms  44.398 ms
+ 86.877 ms
+ 17  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  36.541 ms  36.753
+ ms  35.901 ms
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.438 ms  34.282
+ ms  33.746 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.553 ms  35.728 ms
+ 38.174 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.176 ms  33.785
+ ms  33.844 ms
+ 21  uslec.iad01.atlas.cogentco.com (154.54.11.214)  102.015 ms  37.123 ms
+ 37.943 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.138 ms  34.589
+ ms  34.388 ms
+ 23  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.982 ms  37.857 ms
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  36.449 ms  35.107
+ ms  34.794 ms
+ 25  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.972 ms  36.947 ms
+ 38.100 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.736 ms  33.483
+ ms *
+ 27  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.605 ms  37.762 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  37.073 ms  34.558
+ ms  36.043 ms
+ 29  *^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain
+ confidential, proprietary and privileged information, and unauthorized
+ disclosure or use is prohibited.  If you received this e-mail in error,
+ please notify the sender and delete this e-mail from your system.
+ -----Original Message-----
+ From: outages-bounces at isotf.org on behalf of Darrell Hyde
+ Sent: Mon 6/23/2008 9:47 PM
+ Subject: Re: [outages] routing loop in cogent?
+ Are you able to share what IP you're tracing to?
+ Is anyone else seeing some routing loops in Cogent's network?
+ ala:
+ ...
+ 18  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.475 ms  36.336
+ ms  34.087 ms
+ 19  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.286 ms  38.188 ms
+ 37.530 ms
+ 20  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  33.148 ms  37.066
+ ms  35.823 ms
+ 21  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.403 ms  37.534 ms
+ 22  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.051 ms  33.120
+ ms  34.209 ms
+ 23  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.112 ms * *
+ 24  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.603 ms  34.994
+ ms  34.119 ms
+ 25  * uslec.iad01.atlas.cogentco.com (154.54.11.214)  36.929 ms  38.443 ms
+ 26  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  34.784 ms  35.317
+ ms  33.839 ms
+ 27  uslec.iad01.atlas.cogentco.com (154.54.11.214)  37.185 ms  38.327 ms
+ 39.863 ms
+ 28  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.362 ms  36.451
+ ms  34.788 ms
+ 29  uslec.iad01.atlas.cogentco.com (154.54.11.214)  38.600 ms  39.782 ms
+ 40.031 ms
+ 30  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  38.156 ms  39.726
+ ms  35.726 ms
+ 31  uslec.iad01.atlas.cogentco.com (154.54.11.214)  47.281 ms  37.617 ms
+ 49.460 ms
+ 32  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  35.389 ms  35.988
+ ms  35.609 ms
+ 33  uslec.iad01.atlas.cogentco.com (154.54.11.214)  39.162 ms  121.744 ms^C
+ - - - -
+ Joshua Fiske '03, '04
+ Network and Security Engineer
+ Clarkson University, Office of Information Technology
+ (315) 268-6722 -- Fax:  (315) 268-6570
+ GPG Key:  http://clarkson.edu/~jfiske/jfiske_pub.asc
+ jfiske at clarkson.edu
+ CONFIDENTIALITY:  This e-mail (including any attachments) may contain
+ confidential, proprietary and privileged information, and unauthorized
+ disclosure or use is prohibited.  If you received this e-mail in error,
+ please notify the sender and delete this e-mail from your system.
+ _______________________________________________
+ outages mailing list
+ outages at isotf.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080623/7c1cb9fb/attachment-0002.html>
+ 	<A020FB4C57CEE249BD8F80C96590AC9619F6225287@MBX01.corp.safesecureweb.com>
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ On Mon, Jun 23, 2008 at 10:03:39PM -0400, Josh Fiske wrote:
+ FWIW, I see the same thing from a different source (72.20.106.2):
+ traceroute to 205.232.34.1 (205.232.34.1), 64 hops max, 40 byte packets
+  1  72.20.106.1 (72.20.106.1)  0.617 ms  0.612 ms  0.407 ms
+  2  er0sc1-g2-0.bayarea.net (209.128.116.90)  0.395 ms  0.283 ms  0.239 ms
+  3  er0sc1-g2-1.BAYAREA.NET (209.128.95.91)  0.398 ms  0.290 ms  0.240 ms
+  4  ge-7-19.car1.SanJose1.Level3.net (4.79.219.105)  6.478 ms  1.069 ms  0.864 ms
+  5  vlan69.csw1.SanJose1.Level3.net (4.68.18.62)  12.565 ms  1.067 ms  0.865 ms
+  6  ae-64-64.ebr4.SanJose1.Level3.net (4.69.134.241)  5.855 ms  8.256 ms  1.335 ms
+  7  ae-2.ebr4.NewYork1.Level3.net (4.69.135.186)  120.723 ms  121.408 ms  127.543 ms
+  8  ae-74-74.csw2.NewYork1.Level3.net (4.69.134.118)  124.579 ms  126.670 ms  126.923 ms
+  9  ae-21-79.car1.NewYork1.Level3.net (4.68.16.67)  80.583 ms
+     ae-31-89.car1.NewYork1.Level3.net (4.68.16.131)  80.788 ms  80.472 ms
+ 10  unknown.Level3.net (63.208.174.2)  135.902 ms  129.309 ms  126.605 ms
+ 11  as1.core02.asbnva01.paetec.net (169.130.81.230)  80.898 ms  80.953 ms  81.211 ms
+ 12  so-0-1-0.core01.asbnva01.paetec.net (169.130.81.85)  80.587 ms  80.496 ms  80.741 ms
+ 13  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  80.585 ms  80.604 ms  80.744 ms
+ 14  uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.052 ms  80.858 ms  80.914 ms
+ 15  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  80.936 ms  80.741 ms  80.902 ms
+ 16  * * uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.039 ms
+ 17  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.092 ms  80.618 ms  80.787 ms
+ 18  uslec.iad01.atlas.cogentco.com (154.54.11.214)  80.897 ms  81.551 ms  81.051 ms
+ 19  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.050 ms  81.082 ms  81.523 ms
+ 20  * * *
+ 21  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.833 ms  81.716 ms  81.744 ms
+ 22  uslec.iad01.atlas.cogentco.com (154.54.11.214)  81.564 ms  81.462 ms  81.992 ms
+ 23  gi9-16.mpd01.iad01.atlas.cogentco.com (154.54.11.213)  81.364 ms  81.866 ms  82.318 ms
+ ^C
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ 	<6708B7A5C8087B4AA393C1CDD1D5620029E2@mbox1.ad.clarkson.edu>
+ Josh Fiske wrote:
+ It's reachable from here, but not through Cogent.
+   3  f0-0.border2.sba1.netlojix.net (207.71.192.51)  41.404 ms  323.870 
+ ms  330.528 ms
+   4  so-1-0.ipcolo1.losangeles1.level3.net (64.156.173.57)  36.368 ms 
+ 39.335 ms  34.199 ms
+   5  vlan51.csw1.losangeles1.level3.net (4.68.102.30)  35.790 ms  37.564 
+ ms  38.921 ms
+   6  ae-14-69.car4.losangeles1.level3.net (4.68.20.6)  37.759 ms  36.463 
+ ms  39.010 ms
+   7  globalcrossing-level3-10ge.losangeles1.level3.net (4.68.110.66) 
+ 41.986 ms  43.080 ms  35.000 ms
+   8  64.209.107.158 (64.209.107.158)  118.865 ms  123.881 ms  120.093 ms
+   9  66.152.112.10 (66.152.112.10)  121.595 ms  119.958 ms  121.811 ms
+ 10  66.152.113.44 (66.152.113.44)  123.470 ms  122.608 ms  122.927 ms
+ 11  bond0b.lightlink.com (216.7.9.33)  130.447 ms  128.141 ms  131.083 ms
+ 12  fw1.lightlink.com (205.232.89.2)  142.068 ms  139.863 ms  139.027 ms
+ 13  205.232.34.1.lightlink.com (205.232.34.1)  129.275 ms  137.171 ms 
+ 149.257 ms
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+###############################################################
+END
+###############################################################
+
+###############################################################
+List comment
+###############################################################
+###############################################################
+END
+###############################################################
+
+###############################################################
+Problems @ Finger Lakes/Lightlink? was routing loop in cogent?
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Wiki stuff
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Notice/discussion
+###############################################################
+###############################################################
+END
+###############################################################
+
+###############################################################
+back to business please..
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Service Affecting Maintenance - GCR# 201002 - SCHEDULED MAINTENANCE ADVISEMENT, CWIE, LLC
+###############################################################
+###############################################################
+END
+###############################################################
+

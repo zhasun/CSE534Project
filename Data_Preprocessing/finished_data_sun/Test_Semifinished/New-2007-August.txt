@@ -1,0 +1,482 @@
+###############################################################
+XO Long Distance -- Northern NJ
+###############################################################
+  XO is experiencing an outage affecting outbound long distance in
+ Northern NJ, I know it affects at least lines provisioned out of their
+ Newark switch.  When dialing LD numbers it goes straight to busy. So
+ far though it looks like it isn't affecting inbound out of area calls.
+ -Jay
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#155793 -
+###############################################################
+ 	Scheduled
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Wednesday, August 01, 2007 8:22 AM
+ steve.cordova at level3.com
+ Subject: Level(3) Service Affecting Maintenance - GCR#155793 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#155793 - Scheduled	
+ ________________________________
+ Clarify Case#: 2049312	
+ GCR #:  CHG000000155793	
+ Primary Dates: 21 Aug 2007 00:00:00 - 21 Aug 2007 06:00:00 Mountain	
+ Primary Dates GMT:  21 Aug 2007 06:00:00 - 21 Aug 2007 12:00:00	
+ Location of Maintenance: Phoenix AZ	
+ Summary Description of Maintenance:  Replace - Card - Traffic Bearing
+ Shelf - ADM	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 will replace
+ network equipment in the Phoenix Gateway.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ LSANCAJW-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070801/2abc1976/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+fiber cut in Santa Clara, ca
+###############################################################
+ Would have sent this out earlier but had email issues...
+ As of around 15:30 Pacific, Quest has had a fiber cut down in Santa
+ Clara, CA.  I've got MCI circuits down in the bay area as a result,
+ ATT seems to be OK...MCI doesn't have an eta currently, but I can't
+ imagine more than a few hours at this point...
+ John
+ Qwest, even. :)
+ On Thu, Aug 09, 2007 at 10:39:23PM -0700, John Kinsella wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 issues in Santa Clara???
+###############################################################
+ Anyone seeing any weird routing issues with Level3 in Santa Clara? Or
+ am I the only one?
+ -Mike
+ AS16855
+ On Fri, Aug 10, 2007 at 04:26:00PM -0700, Mike Lyon wrote:
+ Got any traceroutes to help clarify "weird routing"?  :-)
+ Maybe you're talking about something completely different (if so please
+ state such, as no one needs improper correlation of two separate
+ issues), but for the past 2, possibly 3 weeks I've seen sporadic
+ problems (increased packet loss, but no latency) specific to the San
+ Jose area of L3's network.
+ I checked on this issue a few minutes ago, and it looks like the most
+ recent example I have of it is from 15:26 PDT today, and lasted about 4
+ minutes.  I have to remove the preceeding hops for security purposes,
+ sorry.  Loss starts here:
+   8. 4.68.18.126                   6.7%    60   14.7  21.0   3.6  45.4  11.5
+   9. 4.69.134.213                  5.0%    60   12.9  30.2   3.6  58.2  19.1
+  10. 4.69.132.14                   5.0%    60   53.0  43.9  14.8  70.1  14.4
+  11. 4.69.132.78                   6.7%    60   57.5  51.0  44.2  92.6   7.8
+  12. 4.69.135.1                    5.0%    60   46.8  61.9  44.2 233.6  41.1
+ -- 
+ | Jeremy Chadwick                                    jdc at parodius.com |
+ | Parodius Networking                           http://www.parodius.com/ |
+ | UNIX Systems Administrator                      Mountain View, CA, USA |
+ | Making life hard for others since 1977.                  PGP: 4BD6C0CB |
+ 	<20070810235627.GA14084@eos.sc1.parodius.com>
+ [mlyon at www sbin]$ ./traceroute 192.216.90.195
+ traceroute to 192.216.90.195 (192.216.90.195), 30 hops max, 38 byte packets
+  1  h-67-100-114-25.snvacaid.covad.net (67.100.114.25)  0.346 ms
+ 0.308 ms  0.352 ms
+  2  172.31.255.253 (172.31.255.253)  12.541 ms  7.742 ms  7.863 ms
+  3  192.168.26.41 (192.168.26.41)  156.963 ms  178.098 ms  6.584 ms
+  4  unknown.Level3.net (63.209.0.173)  5.676 ms  6.052 ms  6.169 ms
+  5  vlan69.csw1.SanJose1.Level3.net (4.68.18.62)  15.222 ms  9.731 ms  17.718 ms
+  6  * * *
+  7  * *
+ And well, it's back working now!
+ [mlyon at www sbin]$ ./traceroute 192.216.90.195
+ traceroute to 192.216.90.195 (192.216.90.195), 30 hops max, 38 byte packets
+  1  h-67-100-114-25.snvacaid.covad.net (67.100.114.25)  0.379 ms
+ 0.409 ms  0.355 ms
+  2  172.31.255.253 (172.31.255.253)  13.771 ms  7.993 ms  7.879 ms
+  3  192.168.26.41 (192.168.26.41)  6.127 ms  6.264 ms  6.362 ms
+  4  unknown.Level3.net (63.209.0.173)  6.408 ms  6.055 ms  5.637 ms
+  5  vlan69.csw1.SanJose1.Level3.net (4.68.18.62)  6.871 ms *  8.405 ms
+  6  ge-7-0.ipcolo1.SanJose1.Level3.net (4.68.123.9)  6.564 ms  6.261
+ ms  6.404 ms
+  7  CHORDIANT-S.ipcolo1.SanJose1.Level3.net (4.79.220.78)  7.099 ms
+ 7.510 ms  6.866 ms
+ We'll see for how long...
+ W00t!
+ -Mike
+ On 8/10/07, Jeremy Chadwick <outages at jdc.parodius.com> wrote:
+ At 4:26 PM -0700 2007/8/10, Mike Lyon wrote:
+ >Anyone seeing any weird routing issues with Level3 in Santa Clara? Or
+ >am I the only one?
+ >-Mike
+ >AS16855
+ Yes, we're seeing first-hop failures on our connection in Equinix. 
+ We were still getting a full table from our Equinix Direct peer 
+ before we shut it off.  I'm uncertain if it's a L3 or an ED problem - 
+ are you on ED or L3 direct?
+ AS11663
+ JT
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 outage in Philadelphia
+###############################################################
+ Is anyone experiencing any issues with Level3 in the outer philadelphia 
+ area?  I'm experiencing intermittent ingoing and outgoing traffic.  
+ Major dropoffs.
+ -- 
+ This e-mail, and any attachments thereto, is intended only for use by the addressee(s) named herein and may contain legally privileged and/or confidential information.  If you are not the intended recipient of this e-mail (or the person responsible for delivering this document to the intended recipient), you are hereby notified that any dissemination, distribution, printing or copying of this e-mail, and any attachment thereto, is strictly prohibited.  If you have received this e-mail in error, please respond to the individual sending the message, and permanently delete the original and any copy of any e-mail and printout thereof.
+ We are being told that there is a fiber cut somewhere between DC and PA,
+ but nothing more specific than that.
+ -evt
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Emergency Maintenance on car1.dal1 ticket
+###############################################################
+ 	2075015
+ ________________________________
+ From: Evens, Matt [mailto:Matt.Evens at Level3.com] 
+ Sent: Monday, August 13, 2007 11:57 PM
+ Subject: Level 3 Emergency Maintenance on car1.dal1 ticket 2075015
+ LEVEL (3) COMMUNICATIONS - NETWORK CHANGE CONTROL (NCC)
+ *** EMERGENCY MAINTENANCE ADVISEMENT ***
+ YOUR SERVICE WITH LEVEL (3) COMMUNICATIONS WILL BE AFFECTED 
+ Clarify Case #: 2075015
+ Primary Dates: August 14, 2007  12:30am - 1:30am MDT  
+ Location of Maintenance:  Dallas, TX
+ Summary Description of Maintenance: Level 3 will perform an Emergency
+ Maintenance to reload the car1.dallas1 device per vendor recommendation.
+ Customer Impact: This is Service Affecting maintenance. Customers that
+ have redundant connections may see switch hits when maintenance begins.
+ Customers that do not have redundant connections may be down for the
+ duration of the maintenance.  Maintenance may take up to 30 minutes to
+ complete but is not expected to last the entire timeframe.
+ If you have any questions or concerns about this network maintenance
+ advisement, please call the Service Management Center at 877-4LEVEL3 for
+ prompt assistance. If you have any changes in the personnel contacts for
+ these maintenance advisements, please also communicate those changes to
+ a SMC representative. Once you have contacted the SMC, a customer ticket
+ will be opened for your inquiry, and a representative will address your
+ concerns.
+ Thank you,
+ Level (3) Communications
+ Service Management Center
+ US Toll-free: 877 4LEVEL3
+ UK freephone: 0800 0927729
+ French freephone: 0800 913180
+ German freephone: 0800 253 8353
+ Belgian freephone: 0800  76216
+ Dutch freephone: 0800  0229759
+ mailto:eutcam at level3.com (9am-6pm GMT, Mon-Fri)
+ or mailto:eusupport at level3.com (24x7)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070814/4b6297af/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T experiencing coast-to-coast data service outages...
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ I was wondering why I wasn't receiving SMS messages a little
+ while ago - now I know:
+  http://consumerist.com/consumer/rumors/-289413.php
+ So, I can at least confirm that there is a problem in the
+ SF Bay Area.
+ - - ferg
+ --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outage in Dallas/Ft. Worth area?
+###############################################################
+ Anyone aware of fibre cuts or power interruptions of any kind in the
+ Dallas/Fort Worth area, at approx. 09:35 PDT?
+ I'm getting reports of brief service interruptions in IP connectivity
+ from multiple peers (Level 3, SAVVIS, and Sprint have been confirmed by
+ myself, but there may be others).
+ -- 
+ | Jeremy Chadwick                                    jdc at parodius.com |
+ | Parodius Networking                           http://www.parodius.com/ |
+ | UNIX Systems Administrator                      Mountain View, CA, USA |
+ | Making life hard for others since 1977.                  PGP: 4BD6C0CB |
+ Jeremy Chadwick wrote:
+ I had a transport OC3 drop at 1136CDT and restore at 1142CDT - it rides 
+ Telwest via Telx at 2323 Bryan where it hands off to Looking Glass/Level 3.
+ Granted, the same circuits went down one week ago:
+ From: Michael Terlizzi [mailto:michaelt at telx.com]
+ Sent: Friday, August 10, 2007 5:15 PM
+ Subject: telx MMR - 2323 Bryan
+ Dear Valued Customer,
+ On August 9 at approximately 5:30pm CST, telx experienced a temporary 
+ loss of power on the MMR DC plant at 2323 Bryan.  Since that time, telx 
+ Operations along with the Engineering team of our service provider 
+ Digital Realty Trust (DRT), have been working to ensure the 
+ functionality of the system and determine the reason for outage.  At 
+ this time, telx and DRT have confirmed that all systems are functioning 
+ properly and continue to investigate the reason for the power 
+ interruption.  Upon completion of the investigation, a full post mortem 
+ will be distributed to affected customers.
+ telx has 24x7 coverage at 2323 Bryan to support our customer needs.
+ Michael Terlizzi
+ Executive Vice President, Operations
+ The telx Group, Inc.
+ www.telx.com
+ 	<46C488FF.90204@templin.org>
+ On Thu, Aug 16, 2007 at 12:27:27PM -0500, Pete Templin wrote:
+ I've gotten word from a couple sources that that's the exact provider
+ (Telx) who's responsible for this today.  One of the sources is seeing
+ problems on the 24th floor of some Telx facility in Dallas.  It will be
+ interesting to see how this pans out.
+ Thanks for passing along this information, it's very helpful.
+ -- 
+ | Jeremy Chadwick                                    jdc at parodius.com |
+ | Parodius Networking                           http://www.parodius.com/ |
+ | UNIX Systems Administrator                      Mountain View, CA, USA |
+ | Making life hard for others since 1977.                  PGP: 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+Flagtel Outage in West Pacific?
+###############################################################
+ Hi,
+ I am seeing 30% packet loss on the Flagtel links from Singapore.  Any 
+ news?  ETR?  Any place I can check status of Flagtel?
+ -- 
+ Sanjeev Gupta      +65 98551208                                       eSys 
+ Technologies Pte Ltd, Singapore
+ Prediction is very difficult, especially about the future ? Niels Bohr 
+ !~!~!    The future will be better tomorrow ? Dan Quayle
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070821/e5993b4b/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#154792 -
+###############################################################
+ 	Scheduled
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, August 23, 2007 2:54 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#154792 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#154792 - Scheduled	
+ ________________________________
+ Clarify Case#: 2039848	
+ GCR #:  CHG000000154792	
+ Primary Dates: 10 Sep 2007 00:00:00 - 10 Sep 2007 06:00:00 Eastern	
+ Primary Dates GMT:  10 Sep 2007 04:00:00 - 10 Sep 2007 10:00:00	
+ Location of Maintenance: Newark NJ,	
+ Summary Description of Maintenance:  Splice - OSP Fiber -	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 :This relocation is due
+ to a major roadway highway improvment by the NJDOT. We are splicing over
+ the Princeton to Newark 156 LH cable to the new relocated cable.
+ Reschedule of GCR Replacement for GCRs 152199. Transport unprotected and
+ Dark Fiber services will be down up to 2 hours.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 :This
+ relocation is due to a major roadway highway improvment by the NJDOT. We
+ are splicing over the Princeton to Newark 156 LH cable to the new
+ relocated cable. Reschedule of GCR Replacement for GCRs 152199.
+ Protected services will experiecnes switch hits.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070823/b2bd4dde/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 / Yipes
+###############################################################
+ I'm seeing some entertaining routes to sites on Yipes/Level3,
+ according to Yipes! support Level3 just lost an OC48 between NY &
+ Chicago.
+ (This is to a site on Yipes)
+   1   137 ms   134 ms   159 ms  5.sub-66-174-22.myvzw.com [66.174.22.5]
+   2     *        *        *     Request timed out.
+   3    98 ms   131 ms   132 ms  113.sub-66-174-120.myvzw.com [66.174.120.113]
+   4   169 ms   130 ms   133 ms  65.sub-66-174-22.myvzw.com [66.174.22.65]
+   5   147 ms   155 ms   131 ms  98.sub-66-174-22.myvzw.com [66.174.22.98]
+   6     *        *        *     Request timed out.
+   7   173 ms   133 ms   290 ms  64.200.80.25
+   8   426 ms   133 ms    76 ms  nwrknj1wcx1-pos6-0.wcg.net [64.200.68.138]
+   9   111 ms   131 ms   131 ms  nycmny2wcx3-pos11-1.wcg.net [64.200.240.233]
+  10   130 ms   157 ms   134 ms  64.200.249.154
+  11   134 ms   144 ms   139 ms  64.200.249.149
+  12     *      158 ms     *     64.200.249.150
+  13     *      144 ms   162 ms  64.200.249.149
+  14     *      181 ms     *     64.200.249.150
+  15     *        *      163 ms  64.200.249.149
+  16   204 ms     *      178 ms  64.200.249.150
+  17     *        *      198 ms  64.200.249.149
+  18     *        *        *     Request timed out.
+  19     *      194 ms   185 ms  64.200.249.149
+  20     *      334 ms     *     64.200.249.150
+  21     *        *        *     Request timed out.
+ -J
+ I've seen several Emergency Maintenance notifications from Level3 last
+ night, from all across their network -- apparently they were rebooting
+ a bunch (all?) of their routers:
+ "Demand maintenance is needed to revert router code to a previous
+ version to prevent possible network outages. This change should only
+ take a few minutes while the router reloads, and service impact will
+ be minimal."
+ >From where I sit, I saw a bunch of route instability and loss of
+ reachability across their network for up to 30 minutes. When I finally
+ got ahold of Level3 around 12:30AM, they said they were just about to
+ start on the west coast, doing one router at a time.
+ -Adam
+ On 8/30/07, Jayson Navitsky <jnavitsky at gmail.com> wrote:
+ 	<79c6e3020708310732l793b7ff2o58da5aaa47d383d3@mail.gmail.com>
+ Yeah I was seeing weird stuff, routing loops, path from NYC to Seattle
+ was via TX, etc.  Maybe it was the annual Internet Cleaning...
+ -Jay
+ On 8/31/07, Adam Kujawski <adamkuj at gmail.com> wrote:
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Primary Dates: 31 Aug 2007 00:00:00 - 31 Aug 2007 06:00:00 Eastern
+ Primary Dates GMT:  31 Aug 2007 04:00:00 - 31 Aug 2007 10:00:00
+ Location of Maintenance: East Coast
+ Summary Description of Maintenance:  Upgrade - Code - Edge Router
+ Customer Impact:
+ Service 	Expected Impact 	Classification 	Duration 	Additional Notes
+ IP - Non-Redundant 	Outage 	SA 	Up to 30 minutes 	Summary
+ Description of Maintenance: Demand maintenance is needed to revert
+ router code to a previous version to prevent possible network outages.
+ This change should only take a few minutes while the router reloads, and
+ service impact will be minimal. Below is the list of services that will
+ be affected during the reload.
+ May be related?
+ Jayson Navitsky wrote:
+ - --
+ Paul Fleming
+ Network Operations
+ Hostdime.com Inc
+ Cell:407.468.4646
+###############################################################
+END
+###############################################################
+

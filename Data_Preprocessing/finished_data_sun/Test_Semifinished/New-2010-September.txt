@@ -1,0 +1,2094 @@
+###############################################################
+Anyone else seeing BGP sessions over HE IPv6 tunnels go up and down?
+###############################################################
+  NOC responded later that there was one BGP peer on that router that was
+ causing havoc for other BGP sessions.
+ Frank
+ Anyone else seeing BGP sessions over HE IPv6 tunnels go up and down?  It's
+ been happening since 7:36 pm Central.  I open a ticket with the NOC via
+ e-mail, but since I've received no response I can only presume that they're
+ in the midst of working through the issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Business OC-48 in Philly, S. New Jersey down
+###############################################################
+   Or so goes the claim for why a bunch of our DS1s in that area all went 
+ away ~16:21 UTC.  No ETR supplied to us; actually getting any hard data 
+ out of them right now is proving difficult.
+ -- 
+ Jon Radel
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 3648 bytes
+ Desc: S/MIME Cryptographic Signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100903/724920d2/attachment.bin>
+   Confirmed fiber cut of a OC-48, still dead, Philadelphia metro area, 
+ and the current status report is:
+ "Michael(20:43:14): Your circuit is impacted by a cable cut. Technicians 
+ are still at work. In the North Pit, they have excavating the damage and 
+ they are prepping the cable for splicing. In the South Pit, they are 
+ still excavating the damage."
+ No hint as to how much more was cut at the same time or ETR.  But I was 
+ thanked for choosing Verizon.  :-)
+ On 9/3/10 2:03 PM, Jon Radel wrote:
+ -- 
+ Jon Radel
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 3648 bytes
+ Desc: S/MIME Cryptographic Signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100903/9f8dec10/attachment.bin>
+ This is very similar to an XO OC-48 fiber cut that happened back in July. 
+ Same areas were effected, South Jersey and Phila. XO was down for 27 
+ hours. The OC-48 may well have been Verizon - wonder whats going in Jersey 
+ with these OC-48 cuts? 
+ -John
+ ----------------------------------------------------
+ >From : Jon Radel <jradel at vantage.com>
+ To : outages at outages.org <outages at outages.org>
+ Subject : Re: [outages] Verizon Business OC-48 in Philly, S. New Jersey 
+ down 
+ Date : Fri, 03 Sep 2010 20:52:51 -0400
+ went 
+ data 
+ I've seen plenty of SONET "rings" where both sides are in the same cable. Not too much protection when doing things that way...
+ I think the southern cross cable system had some customers that discovered several years back that running production traffic on both sides of your ring can seem like a great way to double capacity until a major storm goes through and blows away one of the cables and you don't have any capacity left for protection on the remaining side of the ring.
+ [Sent using Blackberry Messaging]
+ ----- Original Message -----
+ From: outages-bounces at outages.org <outages-bounces at outages.org>
+ Sent: Sat Sep 04 06:55:37 2010
+ Subject: Re: [outages] Verizon Business OC-48 in Philly, S. New Jersey down
+ Mr. SONET is having tea with the tooth fairy and a unicorn....
+ ----------------------------------------------------
+ >From : Frank Bulk <fbulk at mypremieronline.com>
+ To : john at quonix.net <john at quonix.net>, outages at outages.org 
+ <outages at outages.org> 
+ Subject : RE: Re: [outages] Verizon Business OC-48 in Philly, S. New 
+ Jersey down 
+ Date : Fri, 3 Sep 2010 21:26:08 -0500
+ On Behalf Of john at quonix.net 
+ down 
+ July. 
+ Jersey 
+ Technicians 
+ and 
+ was 
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100904/b1cfec28/attachment.html>
+ On 9/4/2010 21:52, Bill Wichers wrote:
+ A problem probably as old as chariots.
+ Management does not understand the notion of "spares".  They understand
+ paying for stuff in revenue service, and does not understand paying for
+ stuff not in revenue service.
+ -- 
+ Somebody should have said:
+ A democracy is two wolves and a lamb voting on what to have for dinner.
+ Freedom under a constitutional republic is a well armed lamb contesting
+ the vote.
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ Eppure si rinfresca
+ ICBM Targeting Information:  http://tinyurl.com/4sqczs
+ http://tinyurl.com/7tp8ml
+  <4C8310B5.3090004@cox.net>
+ Then management wasn't charging appropriately.  It wouldn't be seen as a
+ 'spare', then.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Larry Sheldon
+ Sent: Saturday, September 04, 2010 10:38 PM
+ Subject: Re: [outages] Verizon Business OC-48 in Philly, S. New Jersey down
+ On 9/4/2010 21:52, Bill Wichers wrote:
+ A problem probably as old as chariots.
+ Management does not understand the notion of "spares".  They understand
+ paying for stuff in revenue service, and does not understand paying for
+ stuff not in revenue service.
+ -- 
+ Somebody should have said:
+ A democracy is two wolves and a lamb voting on what to have for dinner.
+ Freedom under a constitutional republic is a well armed lamb contesting
+ the vote.
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ Eppure si rinfresca
+ ICBM Targeting Information:  http://tinyurl.com/4sqczs
+ http://tinyurl.com/7tp8ml
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+TW Telecom Copper- East Coast Central Florida
+###############################################################
+ We've got Voice PRI's down in Cocoa, Confirmed with a colleague in 
+ Melbourne who has loss on both voice and data PRI/T1's. Seems pretty wide 
+ spread on TW Telecom's Network here. Ethernet based internet is doing fine 
+ however...
+ Nick Olsen
+ Network Operations
+ (877) 804-3001  x106
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100913/9ba09193/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Xo in Philly Area
+###############################################################
+ Did anyone see excessive outages in the Philadelphia area on Friday  
+ 9/10? Many of my EoC circuits were down for several hours. Xo claims  
+ it was a routing problem and not equipment failure.
+ -John
+###############################################################
+END
+###############################################################
+
+###############################################################
+Broadviewnet.com down
+###############################################################
+ Yo All!
+ Since about 9:35am PDT.  I can not seem to get to broadviewnet.com.  Not
+ to my customer on broadview or even to the broadviewnet.com web site.
+ Not from Sprint, not from Level3, not from Alternet.
+ I assume they are just down hard?
+ RGDS
+ GARY
+ ---------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+         gem at rellim.com  Tel:+1(541)382-8588
+ Have you tried http://www.broadviewnet.com instead?  It seems to me they
+ simply don't have broadviewnet.com going to the same place as
+ www.broadviewnet.com:
+ ; <<>> DiG 9.3.2 <<>> @4.2.2.2 broadviewnet.com
+ ;; QUESTION SECTION:
+ ;broadviewnet.com.              IN      A
+ ;; ANSWER SECTION:
+ broadviewnet.com.       3600    IN      A       64.115.132.16
+ ; <<>> DiG 9.3.2 <<>> @4.2.2.2 www.broadviewnet.com
+ ;; QUESTION SECTION:
+ ;www.broadviewnet.com.          IN      A
+ ;; ANSWER SECTION:
+ www.broadviewnet.com.   3600    IN      A       68.202.11.42
+ 	-Scott
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Gary E. Miller
+ Sent: Tuesday, September 14, 2010 1:48 PM
+ Subject: [outages] Broadviewnet.com down
+ Yo All!
+ Since about 9:35am PDT.  I can not seem to get to broadviewnet.com.  Not
+ to my customer on broadview or even to the broadviewnet.com web site.
+ Not from Sprint, not from Level3, not from Alternet.
+ I assume they are just down hard?
+ RGDS
+ GARY
+ ---------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+         gem at rellim.com  Tel:+1(541)382-8588
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <027501cb5462$bafb4a30$30f1de90$@net>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Yo Scott!
+ On Tue, 14 Sep 2010, Scott Berkman wrote:
+ I just used their web site as a convenient test handle.  My customers
+ did not want me to publish their nets to broadview that were down.
+ The major part of the outage was 4 hours long. outages.org took 6 hours
+ to send my message, so by the time you got my alert the event had
+ mostly passed.
+ How do I report on outage  ofoutages.org?
+ At 4:30pm PDT Broadview has an ACD answering the phones again but is
+ reporting continuing network stability issues and I can still not get
+ a human on the line.
+ RGDS
+ GARY
+ - ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+  <027501cb5462$bafb4a30$30f1de90$@net>
+  <alpine.LNX.2.01.1009141637130.9164@catbert.rellim.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hi,
+ On 09/14/2010 04:43 PM, Gary E. Miller wrote:
+ - --------------------
+ In the future you can either contact me directly and /or
+ admins at outages.org. Same has been noted in monthly list faq.
+ JFYI, puck is also busy hosting 'cisco-nsp' list which is a very busy
+ list and maybe the filesystem burped, not sure. This is still no excuse.
+ Will look into it.
+ regards,
+ /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Broadviewnet.com
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Yo All!
+ Since about 9:35am PDT.  I can not seem to get to broadviewnet.com.  Not
+ to my customer on broadview or even to the broadviewnet.com web site.
+ Not from Sprint, not from Level3, not from Alternet.
+ I assume they are just down hard?
+ RGDS
+ GARY
+ - ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+ Is it just their website thats down, or do you have BVN circuits that are 
+ down? If circuits, which market? Most of Broadview's markets are 
+ acquisition, so if BVN circuits in Phila, PA area are down, its the old 
+ ATX network, and so on. I know alot of people from the old ATX so if its 
+ Philly area (south jersey, delaware), I could probably find out whats 
+ going on. 
+ -John
+ ----------------------------------------------------
+ >From : Gary E. Miller <gem at rellim.com>
+ To : outages <outages at outages.org>
+ Subject : [outages] Broadviewnet.com
+ Date : Tue, 14 Sep 2010 10:30:06 -0700 (PDT)
+ --------------------------------------------------------------------------- 
+  <201009142346.o8ENk72x027030@blondie.quonix.net>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Yo John!
+ On Tue, 14 Sep 2010, john at quonix.net wrote:
+ I have circuits that are down, but their website (and phones) were down for
+ about 4 hours.
+ Just got through after 45 mins to a support person. They are releasing
+ very little info.  Seems like the circuits in the NYC area that
+ Broadview resells from Covad and Verizon are the ones that have been
+ having problems.  Just had another blip here, so the event is now 9 hours
+ old.
+ No ETA on a final fix.
+ RGDS
+ GARY
+ - ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+  <201009142346.o8ENk72x027030@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141739480.9164@catbert.rellim.com>
+ Where are the circuits located though? NYC Metro, Phila Metro, Virgian 
+ area, etc.,. 
+ John
+ ----------------------------------------------------
+ >From : Gary E. Miller <gem at rellim.com>
+ To : john at quonix.net
+ Subject : Re: [outages] Broadviewnet.com
+ Date : Tue, 14 Sep 2010 17:45:07 -0700 (PDT)
+ are 
+ for 
+ hours 
+ --------------------------------------------------------------------------- 
+  <201009142346.o8ENk72x027030@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141739480.9164@catbert.rellim.com>
+  <201009150116.o8F1GHhS027294@blondie.quonix.net>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Yo John!
+ Mine are NYC metro (NYC/verizon), no confirmation from Broadview or anyone
+ else on the full extent.
+ RGDS
+ GARY
+ - ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+ On Tue, 14 Sep 2010, john at quonix.net wrote:
+  <201009142346.o8ENk72x027030@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141739480.9164@catbert.rellim.com>
+  <201009150116.o8F1GHhS027294@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141824240.9164@catbert.rellim.com>
+ For what its worth, Philly appears to be fine.
+ I have a switch in Broadview's Philadelphia POP - its actually in their 
+ core Telco room. The switch itself is for some Zayo fiber bridging for a 
+ private IP wireless application, but the switch has a plain old public 
+ GigE fiber link from Broadview's core for IP access. I can hit it now from 
+ home (Comcast), getting 8ms latency, hitting the following hops: 
+ **hidden**
+  5  te2-2.ccr01.jfk07.atlas.cogentco.com (154.54.1.218)  3.347 ms 
+ te2-7.ccr01.jfk07.atlas.cogentco.com (154.54.1.134)  12.666 ms 
+ te7-1.ccr01.jfk07.atlas.cogentco.com (154.54.27.206)  3.349 ms 
+  6  38.104.190.46 (38.104.190.46)  3.147 ms  3.158 ms  3.250 ms
+  7  static-64-61-112-181.isp.broadviewnet.net (64.61.112.181)  3.490 ms  
+ 3.306 ms  3.318 ms 
+  8  sw1.phla0.g14-2.atx.net (72.44.165.165)  6.613 ms  6.653 ms  6.461 ms
+  9  146.145.78.24 (146.145.78.24)  6.630 ms  6.697 ms  6.795 ms
+      MPLS Label=14707 CoS=0 TTL=1 S=1
+ 10  146.145.78.87 (146.145.78.87)  6.779 ms  6.723 ms  6.649 ms
+ **hidden***
+ I'm hitting BVN from a Cogent peer in NYC (JFK), then its BVN onnet down 
+ to phila as the next hop is the old ATX switch. BVN bought ATX in 2007. 
+ -John
+ ----------------------------------------------------
+ >From : Gary E. Miller <gem at rellim.com>
+ To : john at quonix.net
+ Subject : Re: [outages] Broadviewnet.com
+ Date : Tue, 14 Sep 2010 18:25:19 -0700 (PDT)
+ anyone 
+ --------------------------------------------------------------------------- 
+ that 
+ down 
+ releasing 
+ --------------------------------------------------------------------------- 
+ 97701 
+  <201009142346.o8ENk72x027030@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141739480.9164@catbert.rellim.com>
+  <201009150116.o8F1GHhS027294@blondie.quonix.net>
+  <alpine.LNX.2.01.1009141824240.9164@catbert.rellim.com>
+  <201009150140.o8F1eQls027393@blondie.quonix.net>
+ Fabric card in large distribution router was dropping lots of packets. Took a while to reroute around it.
+ Major effect was in NYC and to a lesser extent some intercity Internet transit
+ Was mostly restored by 8:30 PM EDT
+ On Sep 14, 2010, at 9:40 PM, john at quonix.net wrote:
+ >>> Date: Tue, 14 Sep 2010 14:16:17
+ >>> From: john at quonix.net
+ >>> To: outages at outages.org
+ >>> Subject: Re: [outages] Broadviewnet.com
+ >>> 
+ >>> Where are the circuits located though? NYC Metro, Phila Metro, Virgian
+ >>> area, etc.,.
+ >>> 
+ >>> John
+ >>> 
+ >>> ----------------------------------------------------
+ >>>> From : Gary E. Miller <gem at rellim.com>
+ >>> To : john at quonix.net
+ >>> Subject : Re: [outages] Broadviewnet.com
+ >>> Date : Tue, 14 Sep 2010 17:45:07 -0700 (PDT)
+ >>>> -----BEGIN PGP SIGNED MESSAGE-----
+ >>>> Hash: SHA1
+ >>>> 
+ >>>> Yo John!
+ >>>> 
+ >>>> On Tue, 14 Sep 2010, john at quonix.net wrote:
+ >>>> 
+ >>>>> Is it just their website thats down, or do you have BVN circuits 
+ >>> are
+ >>>>> down?
+ >>>> 
+ >>>> I have circuits that are down, but their website (and phones) were 
+ >>> for
+ >>>> about 4 hours.
+ >>>> 
+ >>>> Just got through after 45 mins to a support person. They are 
+ >>>> very little info.  Seems like the circuits in the NYC area that
+ >>>> Broadview resells from Covad and Verizon are the ones that have been
+ >>>> having problems.  Just had another blip here, so the event is now 9
+ >>> hours
+ >>>> old.
+ >>>> 
+ >>>> No ETA on a final fix.
+ >>>> 
+ >>>> RGDS
+ >>>> GARY
+ >>>> -
+ >>> 
+ >>>> Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 
+ >>>> 	gem at rellim.com  Tel:+1(541)382-8588
+ >>>> 
+ >>>> -----BEGIN PGP SIGNATURE-----
+ >>>> Version: GnuPG v1.4.3 (GNU/Linux)
+ >>>> 
+ >>>> iD8DBQFMkBcVBmnRqz71OvMRAi2QAJ43LSTdFC+tVThcKnaxEdhrztFdpwCbBvtb
+ >>>> 5FAj2fsr3vFaVPNX7UdmhYY=
+ >>>> =QPXZ
+ >>>> -----END PGP SIGNATURE-----
+ >>> 
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>> 
+ >>> 
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 3198 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100915/465ac2b3/attachment.bin>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Major XO issues?
+###############################################################
+ Has anyone been able to find out what is going on with XO? We're showing
+ spotty connectivity all over their network, and I got disconnected from
+ their PNA support number with a "technical difficulties" message. I'm
+ hoping maybe someone on here knows something?
+   -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/3f61c7c8/attachment.html>
+ Website is down/not pingable. The phone lines for XO all say its a DNS  
+ resolving issue.
+ A few of my DS-1 circuits are down, and a few have serious packet  
+ loss. But some are up?!
+ -John
+ On Sep 16, 2010, at 11:26 AM, Bill Wichers wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/8fa7ff6e/attachment.html>
+ Wish I did.. I am also hearing it's a widespread issue affecting ATT as
+ well.
+ -Mike
+ On Thu, Sep 16, 2010 at 8:26 AM, Bill Wichers <billw at waveform.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/18d05da6/attachment.html>
+ I am currently seeing a lot of issues with (currently) unknown carriers and
+ our VoIP calls.  We use Bandwidth.com for outbound calls, and I know that XO
+ is one of their upstream providers.  We are seeing dropped calls, garbled
+ audio.  I have a ticket opened with them, but I don't think they have
+ identified the issue yet.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Bill Wichers
+ Sent: Thursday, September 16, 2010 11:27 AM
+ Subject: [outages] Major XO issues?
+ Has anyone been able to find out what is going on with XO? We're showing
+ spotty connectivity all over their network, and I got disconnected from
+ their PNA support number with a "technical difficulties" message. I'm hoping
+ maybe someone on here knows something?
+   -Bill
+ No virus found in this incoming message.
+ Checked by AVG - www.avg.com
+ Version: 8.5.445 / Virus Database: 271.1.1/3135 - Release Date: 09/16/10
+ 06:34:00
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/80153b51/attachment.html>
+ I'd also be curious if anyone has any information.
+ Our data was completely down for almost an hour (returned at 1055 CDT)
+ .  We're in the Dallas area (Plano).  Things are working now (though
+ it seems as at least a few XO peers we do business with are still
+ routing through other upstreams).
+ No issues with Voice, other than what you mentioned, being
+ disconnected from the PNA number.
+ -Ed
+ On Thu, Sep 16, 2010 at 10:26 AM, Bill Wichers <billw at waveform.net> wrote:
+ Seeing this here  as well, of course XO in their usual fashion has no outage
+ notices posted on their site.  We saw the issues starting at 10:56 AM EST,
+ and although they are better now we still have at least 1 customer in NY
+ complaining.
+                 -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Bill Wichers
+ Sent: Thursday, September 16, 2010 11:27 AM
+ Subject: [outages] Major XO issues?
+ Has anyone been able to find out what is going on with XO? We're showing
+ spotty connectivity all over their network, and I got disconnected from
+ their PNA support number with a "technical difficulties" message. I'm hoping
+ maybe someone on here knows something?
+   -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/3d97bc04/attachment-0001.html>
+ Repost from NANOG for everyone's benefit:
+ "XO Engineers are telling us that they are aware of packet loss across their
+ network and are looking into it. We're experiencing slow/degraded
+ connectivity out of St. Louis and Nashville but Atlanta and Dallas are
+ problem free."
+ William Collier-Byrd
+ will at collier-byrd.net
+ On Thu, Sep 16, 2010 at 11:26 AM, Bill Wichers <billw at waveform.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/b50907cb/attachment.html>
+ We are experiencing intermittent issues with their voip orig and voip term products.
+ **************************
+ This email composed on my iPhone 4 whilst driving at 90 MPH with my knees.
+ Please excuse typo's and brevity due to accidents, cops and other mishaps.
+ Cheers,
+ Michael Self
+ PhoneFusion
+ 954.343.5500 (home/office/cell/fax/SMS)
+ On Sep 16, 2010, at 11:57, "Bill Wichers" <billw at waveform.net<mailto:billw at waveform.net>> wrote:
+ Has anyone been able to find out what is going on with XO? We?re showing spotty connectivity all over their network, and I got disconnected from their PNA support number with a ?technical difficulties? message. I?m hoping maybe someone on here knows something?
+   -Bill
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/1b5cb246/attachment.html>
+  <C13B1D01-4E9F-4373-A220-7D2D18F6DD35@quonix.net>
+ On 9/16/10 8:55 AM, John Von Essen wrote:
+ I can get to the website (assuming xo.com) fine; I'm connected through
+ Sprint and Global Crossing.
+ ~Seth
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ On 09/16/2010 08:26 AM, Bill Wichers wrote:
+ - ----------------------
+ Apparently the person I spoke to within XO said they were having
+ headless chicken syndrome and that they were in the midst of bringing up
+ sessions and that was the extend of the information I received.
+ Hopefully we'll see some sort of lesson learned from this.
+ regards,
+ /virendra
+  <0d9401cb55b8$1f79f1e0$5e6dd5a0$@com>
+ Our datacenter in Salt Lake City forwarded us this message from XO:
+ "I wanted to give notice in case you were having issues connecting to
+ various websites today.  There is a problem with a peering router which
+ allows XO's network to connect to outside networks.  Impact appears to
+ be pretty broad due to the volume of routes that egress/ingress that
+ peer.   Our Engineering is working to correct.  We don't have an
+ estimated time for resolution just yet, but this our top priority issue
+ right now and all levels of our repair organization are engaged."
+ Philip Holmes 
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Geoff Mina
+ Sent: Thursday, September 16, 2010 9:59 AM
+ Subject: Re: [outages] Major XO issues?
+ I am currently seeing a lot of issues with (currently) unknown carriers
+ and our VoIP calls.  We use Bandwidth.com for outbound calls, and I know
+ that XO is one of their upstream providers.  We are seeing dropped
+ calls, garbled audio.  I have a ticket opened with them, but I don't
+ think they have identified the issue yet.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Bill Wichers
+ Sent: Thursday, September 16, 2010 11:27 AM
+ Subject: [outages] Major XO issues?
+ Has anyone been able to find out what is going on with XO? We're showing
+ spotty connectivity all over their network, and I got disconnected from
+ their PNA support number with a "technical difficulties" message. I'm
+ hoping maybe someone on here knows something?
+   -Bill
+ No virus found in this incoming message.
+ Checked by AVG - www.avg.com
+ Version: 8.5.445 / Virus Database: 271.1.1/3135 - Release Date: 09/16/10
+ 06:34:00
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/8b782817/attachment-0001.html>
+  <001501cb55b9$c6ccc390$54664ab0$@net>
+ Dead to the world via XO in Herndon, VA.  Coincidentally (or not?) a few
+ miles from Ashburn.
+ Jason
+ On Thu, Sep 16, 2010 at 12:11 PM, Scott Berkman <scott at sberkman.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/41c41acc/attachment.html>
+  <AANLkTi=XnbVSejKnvzn+F86gd2HSDW4+o=bqg15d0jNd@mail.gmail.com>
+ I've been told that there were "peering issues" and that there has not been an official "all clear" issued internally yet.
+ The thing that most concerned be about this issue is that when we figure out XO was having issues, we dropped our peering session with them but they appear to have continued to announce our routes -- at least in some areas. We haven't brought that up with them yet but will soon.
+   -Bill
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Ed W
+ Sent: Thursday, September 16, 2010 12:10 PM
+ Subject: Re: [outages] Major XO issues?
+ I'd also be curious if anyone has any information.
+ Our data was completely down for almost an hour (returned at 1055 CDT)
+ .  We're in the Dallas area (Plano).  Things are working now (though
+ it seems as at least a few XO peers we do business with are still
+ routing through other upstreams).
+ No issues with Voice, other than what you mentioned, being
+ disconnected from the PNA number.
+ -Ed
+ On Thu, Sep 16, 2010 at 10:26 AM, Bill Wichers <billw at waveform.net> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <AANLkTi=_2y144oCJTPVJ2LbuA_f_+SLvGR5q5M6Ah5Kn@mail.gmail.com>
+ XO supposedly leaked a bunch of routes (2nd hand info), had at least one internal routing loop between NYC & DC (1st hand info).  They had massive reachability problems across the USA (1st hand info).
+ They supposedly fixed the problem(s) starting at 12:14 EDT today, and reachability should return to normal (info from XO).  But we are still seeing at least some locations having issues at 12:38 EDT.
+ -- 
+ TTFN,
+ patrick
+ On Sep 16, 2010, at 11:58 AM, Mike Lyon wrote:
+  <001501cb55b9$c6ccc390$54664ab0$@net>
+ I am on the West Coast and noticed a huge drop in our traffic this morning.
+ Starting to pick backup.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Berkman
+ Sent: Thursday, September 16, 2010 9:11 AM
+ Subject: Re: [outages] Major XO issues?
+ Seeing this here  as well, of course XO in their usual fashion has no outage
+ notices posted on their site.  We saw the issues starting at 10:56 AM EST,
+ and although they are better now we still have at least 1 customer in NY
+ complaining.
+                 -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Bill Wichers
+ Sent: Thursday, September 16, 2010 11:27 AM
+ Subject: [outages] Major XO issues?
+ Has anyone been able to find out what is going on with XO? We're showing
+ spotty connectivity all over their network, and I got disconnected from
+ their PNA support number with a "technical difficulties" message. I'm hoping
+ maybe someone on here knows something?
+   -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/ff0264ed/attachment-0001.html>
+  <001501cb55b9$c6ccc390$54664ab0$@net>
+  <018001cb55d6$b1f7f210$15e7d630$@excaliburfilms.com>
+ On 9/16/2010 12:38, Jacob wrote:
+ I saw an abnormal increase in traffic since I do a lot of secondary MX
+ and DNS type services. Traffic is starting to go back to normal now.
+ ~Seth
+ Both my XO and ATT peering are fine, I did have odd routing issues about an
+ hour ago though. I am in the SF Bay area.
+ Zaid
+ On 9/16/10 8:58 AM, "Mike Lyon" <mike.lyon at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO Issues?
+###############################################################
+ Anyone having slowness through XO? Just looked at internetpulse.net, and they're pretty much red across the board. We are having serious packet loss through their network.
+ Tim Huffman
+ Director of Engineering
+ BOB - Business Only Broadband, LLC
+ O (630) 590-6012
+ C (630) 340-1925
+ tim at bobbroadband.com<mailto:tim at bobbroadband.com>
+ www.bobbroadband.com<http://www.bobbroadband.com/>
+ [cid:image001.jpg at 01CB5587.8D9047A0]
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/7c27800a/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 3972 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/7c27800a/attachment.jpg>
+ Huge problems here - mostly seems to be resolved in the metro DC area right now. No RFO yet.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tim Huffman
+ Sent: Thursday, September 16, 2010 11:36 AM
+ Subject: [outages] XO Issues?
+ Anyone having slowness through XO? Just looked at internetpulse.net, and they're pretty much red across the board. We are having serious packet loss through their network.
+ Tim Huffman
+ Director of Engineering
+ BOB - Business Only Broadband, LLC
+ O (630) 590-6012
+ C (630) 340-1925
+ tim at bobbroadband.com<mailto:tim at bobbroadband.com>
+ www.bobbroadband.com<http://www.bobbroadband.com/>
+ [cid:image001.jpg at 01CB5597.B575A5C0]
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/1d03216b/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 3972 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/1d03216b/attachment.jpg>
+   Internap reports that they've just shut off BGP peering with XO all 
+ over the east coast but didn't yet have details from XO on root cause.
+ --Jon Radel
+ On 9/16/10 11:35 AM, Tim Huffman wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/20510c89/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 3972 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/20510c89/attachment.jpe>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 3648 bytes
+ Desc: S/MIME Cryptographic Signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/20510c89/attachment.bin>
+ Ditto. Sporadic packet loss.
+ **************************
+ This email composed on my iPhone 4 whilst driving at 90 MPH with my knees.
+ Please excuse typo's and brevity due to accidents, cops and other mishaps.
+ Cheers,
+ Michael Self
+ PhoneFusion
+ 954.343.5500 (home/office/cell/fax/SMS)
+ On Sep 16, 2010, at 12:06, "Tim Huffman" <Tim at bobbroadband.com<mailto:Tim at bobbroadband.com>> wrote:
+ Anyone having slowness through XO? Just looked at internetpulse.net<http://internetpulse.net>, and they?re pretty much red across the board. We are having serious packet loss through their network.
+ Tim Huffman
+ Director of Engineering
+ BOB - Business Only Broadband, LLC
+ O (630) 590-6012
+ C (630) 340-1925
+ tim at bobbroadband.com<mailto:tim at bobbroadband.com>
+ www.bobbroadband.com<http://www.bobbroadband.com/>
+ <image001.jpg>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/a060aaa4/attachment.html>
+  <A698DCD31CE2C745AFD1AD4362297DE65DF723D880@MSTVSEX033573.MSCRM.CRM.Local>
+ We are mostly clean now and were told it was/is a BGP peering issue.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Dawson, Robert
+ Sent: Thursday, September 16, 2010 12:07 PM
+ Subject: Re: [outages] XO Issues?
+ Huge problems here - mostly seems to be resolved in the metro DC area right now. No RFO yet.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tim Huffman
+ Sent: Thursday, September 16, 2010 11:36 AM
+ Subject: [outages] XO Issues?
+ Anyone having slowness through XO? Just looked at internetpulse.net, and they're pretty much red across the board. We are having serious packet loss through their network.
+ Tim Huffman
+ Director of Engineering
+ BOB - Business Only Broadband, LLC
+ O (630) 590-6012
+ C (630) 340-1925
+ tim at bobbroadband.com<mailto:tim at bobbroadband.com>
+ www.bobbroadband.com<http://www.bobbroadband.com/>
+ [cid:image001.jpg at 01CB559E.33C7D8C0]
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/3c16321f/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 3972 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/3c16321f/attachment.jpg>
+ On 09/16/10 11:35, Tim Huffman wrote:
+ Yes, we received a call from a customer in Atlanta on Covad.  They go through XO
+ to reach us and they are dropping their VPN connections.
+ -- 
+ micah brandon
+ netsville.com
+ p585.232.5670
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut somewhere in SF Bay Area?
+###############################################################
+ Howdy folks,
+ Anyone aware of a large fiber cut in Norcal affecting ATT, XO and I am sure
+ many others?
+ Thanks,
+ Mike
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/fa64a646/attachment-0001.html>
+ I had strange network routing issues but both my XO and ATT BGP peers have
+ been up. My traffic shifted to ATT, XO seems problematic somewhere?
+ Zaid
+ On 9/16/10 8:37 AM, "Mike Lyon" <mike.lyon at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO....
+###############################################################
+ www.xo.com appears to be down.
+ Several of my XO circuits in Philly are down or dropping alot of  
+ packets.
+ -John
+  We also saw a lot of packet loss on our XO circuit and their support
+ phones did not answer, nor was their website available. 
+ A separate vendor, who peers with XO says that the put a limit on the
+ number or routes accepted from peers this morning.  Our issues were
+ resolved at approximately 08:45am Pacific time.
+ Christopher Hunt
+ ReachONE Internet, Inc.
+ (360)456-5640
+ www.reachone.com
+ On 9/16/2010 8:44 AM, John Von Essen wrote:
+ XO has confirmed they are experiencing a "national IP outage". Very few details available from their repair groups at this time. XO master ticket is 2165336.
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO Routing instability?
+###############################################################
+ I have gig service to XO in Minneapolis.  I'm having problems with some websites, and no problems with others.  www.internetpulse.net shows major latency from XO to several other providers.
+ Anyone have any additional detail?  Master ticket?  Estimated repair time?
+ Thanks,
+ Mark Mayfield
+ City of Roseville
+ Network Systems Engineer
+ 2660 Civic Center Drive
+ Roseville, MN 55113
+ 651-792-7098    Office
+ Confidentiality Statement: The documents accompanying this transmission contain confidential information that is legally privileged.  This information is intended only for the use of the individuals or entities listed above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or action taken in reliance on the contents of these documents is strictly prohibited.  If you have received this information in error, please notify the sender immediately and arrange for the return or destruction of these documents.
+ My Philly circuits appear to be coming back up.
+ I'm on the phone with Xo now. There systems are so jammed up, they  
+ can't even create my ticket - computer locks up, I've been on hold for  
+ 30 minutes just waiting for the ticket number to be created so I can  
+ reference later for credit.
+ -John
+ On Sep 16, 2010, at 10:59 AM, Mark Mayfield wrote:
+ >From NANOG:
+ XO began advertising way too many prefixes, a few hours ago.  Most likely tripping most of their peers max-prefix limits. Filters are your friends.
+ ~mark
+ Dylan Ebner, Network Engineer
+ Consulting Radiologists, Ltd.
+ 1221 Nicollet Mall, Minneapolis, MN 55403
+ ph. 612.573.2236     fax. 612.573.2250
+ dylan.ebner at crlmed.com
+ www.consultingradiologists.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Mark Mayfield
+ Sent: Thursday, September 16, 2010 9:59 AM
+ Subject: [outages] XO Routing instability?
+ I have gig service to XO in Minneapolis.  I'm having problems with some websites, and no problems with others.  www.internetpulse.net shows major latency from XO to several other providers.
+ Anyone have any additional detail?  Master ticket?  Estimated repair time?
+ Thanks,
+ Mark Mayfield
+ City of Roseville
+ Network Systems Engineer
+ 2660 Civic Center Drive
+ Roseville, MN 55113
+ 651-792-7098    Office
+ Confidentiality Statement: The documents accompanying this transmission contain confidential information that is legally privileged.  This information is intended only for the use of the individuals or entities listed above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or action taken in reliance on the contents of these documents is strictly prohibited.  If you have received this information in error, please notify the sender immediately and arrange for the return or destruction of these documents.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Called XO.  Got to support queue, got message:
+ "Thank you for calling XO.  We are currently experiencing technical difficulties, and are unable to take your call."
+ Then it hung up on me.
+ Fantastic.
+ Mark
+ -----Original Message-----
+ From: Mark Mayfield
+ Sent: Thursday, September 16, 2010 9:59 AM
+ Subject: XO Routing instability?
+ I have gig service to XO in Minneapolis.  I'm having problems with some websites, and no problems with others.  www.internetpulse.net shows major latency from XO to several other providers.
+ Anyone have any additional detail?  Master ticket?  Estimated repair time?
+ Thanks,
+ Mark Mayfield
+ City of Roseville
+ Network Systems Engineer
+ 2660 Civic Center Drive
+ Roseville, MN 55113
+ 651-792-7098    Office
+ Confidentiality Statement: The documents accompanying this transmission contain confidential information that is legally privileged.  This information is intended only for the use of the individuals or entities listed above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or action taken in reliance on the contents of these documents is strictly prohibited.  If you have received this information in error, please notify the sender immediately and arrange for the return or destruction of these documents.
+ >From NANOG again:
+ Looks like XO has stopped advertising its peer's prefixes.  Sessions coming back up and stable.
+ They are hanging up on people. too many calling.
+ looks like this is calming down and should resolve in the near future.
+ Dylan Ebner, Network Engineer
+ Consulting Radiologists, Ltd.
+ 1221 Nicollet Mall, Minneapolis, MN 55403
+ ph. 612.573.2236     fax. 612.573.2250
+ dylan.ebner at crlmed.com
+ www.consultingradiologists.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Mark Mayfield
+ Sent: Thursday, September 16, 2010 10:05 AM
+ Subject: Re: [outages] XO Routing instability?
+ Called XO.  Got to support queue, got message:
+ "Thank you for calling XO.  We are currently experiencing technical difficulties, and are unable to take your call."
+ Then it hung up on me.
+ Fantastic.
+ Mark
+ -----Original Message-----
+ From: Mark Mayfield
+ Sent: Thursday, September 16, 2010 9:59 AM
+ Subject: XO Routing instability?
+ I have gig service to XO in Minneapolis.  I'm having problems with some websites, and no problems with others.  www.internetpulse.net shows major latency from XO to several other providers.
+ Anyone have any additional detail?  Master ticket?  Estimated repair time?
+ Thanks,
+ Mark Mayfield
+ City of Roseville
+ Network Systems Engineer
+ 2660 Civic Center Drive
+ Roseville, MN 55113
+ 651-792-7098    Office
+ Confidentiality Statement: The documents accompanying this transmission contain confidential information that is legally privileged.  This information is intended only for the use of the individuals or entities listed above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or action taken in reliance on the contents of these documents is strictly prohibited.  If you have received this information in error, please notify the sender immediately and arrange for the return or destruction of these documents.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Only further solidifies my long lasting belief that XO is singularly  
+ the worst carrier in the USA.
+ -John
+ On Sep 16, 2010, at 11:05 AM, Mark Mayfield wrote:
+  <28481777-811D-45E5-A877-25488B54FCE9@quonix.net>
+ HERE HERE!!  XO is the new Broadwing.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of John Von Essen
+ Sent: Thursday, September 16, 2010 12:37 PM
+ Subject: Re: [outages] XO Routing instability?
+ Only further solidifies my long lasting belief that XO is singularly the worst carrier in the USA.
+ -John
+ On Sep 16, 2010, at 11:05 AM, Mark Mayfield wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+NYC issues?
+###############################################################
+ Did anyone just experience a loss of connectivity thru NYC?  11:50-11:55
+ EDT
+ Seemed to be dying at Level 3.    Could not reach multiple hosts in
+ Texas and NH.
+ -Keith
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/adf8ae5c/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO issues in Chicago?
+###############################################################
+ Anyone having issues with circuits in Chicago??
+ Jim Bayer
+ Director, Operations Center
+ 350 North Orleans Street, Suite 900, Chicago, IL 60654
+ Vox: 312-881-2034 | Em: mailto:jbayer at springcm.com
+ [cid:image001.gif at 01CB5583.64E33640]        [cid:image002.jpg at 01CB5583.64E33640]
+                                                                             On-Demand Document Management and Workflow
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/037c4c13/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.gif
+ Type: image/gif
+ Size: 2973 bytes
+ Desc: image001.gif
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/037c4c13/attachment-0001.gif>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.jpg
+ Type: image/jpeg
+ Size: 1737 bytes
+ Desc: image002.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/037c4c13/attachment-0001.jpg>
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO on the east coast
+###############################################################
+ I just had to shut all my BGP peers down with XO in atl, bos, den, hou, dal, lax, mia... Anyone having the same issues?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/6eafcbf9/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO snafu
+###############################################################
+ This morning we're experiencing timeouts to and from a lot of sites.
+ I heard through the grapevine that XO instituted some new route limits
+ on their peers.  Their site at http://businesscenter.xo.com is down,
+ their phone number 800-424-0583 is fast busy and their Premier
+ National Accounts 866-295-9696 reports "we are currently experiencing
+ technical difficulties and cannot take your call" then DISCONNECT.
+ UPDATE
+ One of my other vendors says that they have resolved it and it seems
+ to have improved.  According to them, It was indeed a cap on the
+ number of routes accepted by XO from their peers.
+ Cheers,
+ Chris
+ Is there any chance that you guys can please try and look at the existing
+ threads on the list before posting a question that has already been posted?
+ If you have information to add that will help people you can reply to one of
+ the existing threads, but having 15 different threads on the same topic is
+ really annoying.
+ 	Thanks,
+ 	-Scott
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Christopher Hunt
+ Sent: Thursday, September 16, 2010 11:41 AM
+ Subject: [outages] XO snafu
+ This morning we're experiencing timeouts to and from a lot of sites.
+ I heard through the grapevine that XO instituted some new route limits
+ on their peers.  Their site at http://businesscenter.xo.com is down,
+ their phone number 800-424-0583 is fast busy and their Premier
+ National Accounts 866-295-9696 reports "we are currently experiencing
+ technical difficulties and cannot take your call" then DISCONNECT.
+ UPDATE
+ One of my other vendors says that they have resolved it and it seems
+ to have improved.  According to them, It was indeed a cap on the
+ number of routes accepted by XO from their peers.
+ Cheers,
+ Chris
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <00bc01cb55c7$611f5f90$235e1eb0$@net>
+ It appears the outages mailing list is running upto 30 min. behind from the time people post. People were most likely thinking they were the first ones to notice and start a thread. I don't know if this was caused by the volume of messages regarding the XO issue or if outages.org possibly was affected by xo. I have seen in the past the outages list run behind.
+ Dylan Ebner, Network Engineer
+ Consulting Radiologists, Ltd.
+ 1221 Nicollet Mall, Minneapolis, MN 55403
+ ph. 612.573.2236     fax. 612.573.2250
+ dylan.ebner at crlmed.com
+ www.consultingradiologists.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Scott Berkman
+ Sent: Thursday, September 16, 2010 12:49 PM
+ Subject: Re: [outages] XO snafu
+ Is there any chance that you guys can please try and look at the existing
+ threads on the list before posting a question that has already been posted?
+ If you have information to add that will help people you can reply to one of
+ the existing threads, but having 15 different threads on the same topic is
+ really annoying.
+ 	Thanks,
+ 	-Scott
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Christopher Hunt
+ Sent: Thursday, September 16, 2010 11:41 AM
+ Subject: [outages] XO snafu
+ This morning we're experiencing timeouts to and from a lot of sites.
+ I heard through the grapevine that XO instituted some new route limits
+ on their peers.  Their site at http://businesscenter.xo.com is down,
+ their phone number 800-424-0583 is fast busy and their Premier
+ National Accounts 866-295-9696 reports "we are currently experiencing
+ technical difficulties and cannot take your call" then DISCONNECT.
+ UPDATE
+ One of my other vendors says that they have resolved it and it seems
+ to have improved.  According to them, It was indeed a cap on the
+ number of routes accepted by XO from their peers.
+ Cheers,
+ Chris
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <00bc01cb55c7$611f5f90$235e1eb0$@net>
+  <017265BF3B9640499754DD48777C3D20691E4C682F@MBX9.EXCHPROD.USA.NET>
+ I think perhaps it is people's mail servers that are behind, I've been
+ getting these in seemingly real time all along.  Anyway, please excuse my
+ comments if anyone that started a new thread really did not know there were
+ already multiple.
+ 	-Scott
+ -----Original Message-----
+ From: Dylan Ebner [mailto:dylan.ebner at crlmed.com] 
+ Sent: Thursday, September 16, 2010 2:05 PM
+ Subject: RE: [outages] XO snafu
+ It appears the outages mailing list is running upto 30 min. behind from the
+ time people post. People were most likely thinking they were the first ones
+ to notice and start a thread. I don't know if this was caused by the volume
+ of messages regarding the XO issue or if outages.org possibly was affected
+ by xo. I have seen in the past the outages list run behind.
+ Dylan Ebner, Network Engineer
+ Consulting Radiologists, Ltd.
+ 1221 Nicollet Mall, Minneapolis, MN 55403
+ ph. 612.573.2236     fax. 612.573.2250
+ dylan.ebner at crlmed.com
+ www.consultingradiologists.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Scott Berkman
+ Sent: Thursday, September 16, 2010 12:49 PM
+ Subject: Re: [outages] XO snafu
+ Is there any chance that you guys can please try and look at the existing
+ threads on the list before posting a question that has already been posted?
+ If you have information to add that will help people you can reply to one of
+ the existing threads, but having 15 different threads on the same topic is
+ really annoying.
+ 	Thanks,
+ 	-Scott
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Christopher Hunt
+ Sent: Thursday, September 16, 2010 11:41 AM
+ Subject: [outages] XO snafu
+ This morning we're experiencing timeouts to and from a lot of sites.
+ I heard through the grapevine that XO instituted some new route limits
+ on their peers.  Their site at http://businesscenter.xo.com is down,
+ their phone number 800-424-0583 is fast busy and their Premier
+ National Accounts 866-295-9696 reports "we are currently experiencing
+ technical difficulties and cannot take your call" then DISCONNECT.
+ UPDATE
+ One of my other vendors says that they have resolved it and it seems
+ to have improved.  According to them, It was indeed a cap on the
+ number of routes accepted by XO from their peers.
+ Cheers,
+ Chris
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <00bc01cb55c7$611f5f90$235e1eb0$@net>
+  I agree and apologize.  Apparently the list serve is lagging these
+ messages and I didn't receive most threads until just recently.
+ -Chris
+ On 9/16/2010 10:48 AM, Scott Berkman wrote:
+  <00bc01cb55c7$611f5f90$235e1eb0$@net>
+  <017265BF3B9640499754DD48777C3D20691E4C682F@MBX9.EXCHPROD.USA.NET>
+  <00fd01cb55ca$4888c9f0$d99a5dd0$@net>
+ Some people don't post regularly and were being held by milter-greylist.
+ I've now exempted @outages.org from greylist.
+ Please direct hate mail at me.
+ - Jared
+ On Sep 16, 2010, at 2:09 PM, Scott Berkman wrote:
+  <00bc01cb55c7$611f5f90$235e1eb0$@net> <4C92594D.4000003@gmail.com>
+ Interestingly-- some messages are coming in with 1 to 2 min lag.. 
+ (I checked some headers) and
+ I see some that are 30 min delayed....
+ Jim
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Christopher Hunt
+ Sent: Thursday, September 16, 2010 1:52 PM
+ Cc: outages at outages.org; 'Christopher Hunt'
+ Subject: Re: [outages] XO snafu
+  I agree and apologize.  Apparently the list serve is lagging these
+ messages and I didn't receive most threads until just recently.
+ -Chris
+ On 9/16/2010 10:48 AM, Scott Berkman wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <00bc01cb55c7$611f5f90$235e1eb0$@net>
+  <017265BF3B9640499754DD48777C3D20691E4C682F@MBX9.EXCHPROD.USA.NET>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hi,
+ On 09/16/2010 11:04 AM, Dylan Ebner wrote:
+ - ---------------------
+ You are correct in pointing this delay and Jared just addressed this
+ issue similar to what others have reported in the past.
+ Apparently the messages slowness was due to anti-spam greylist filtering
+ and this should be fixed starting now. Then again please let us know if
+ you notice it again.
+ Sorry about that.
+ regards,
+ /virendra
+  <00bc01cb55c7$611f5f90$235e1eb0$@net> <4C92594D.4000003@gmail.com>
+  <CCD4153D830F584982521DFC986BFF3153608CEC92@tgainf06.TGASolutions.local>
+   Anyone else notice a recurrence of XO issues today at about 11:58 GMT-4?
+ Traces during blip:
+   1  r1 (216.187.0.1)  0.720 ms  1.282 ms  1.542 ms
+   2  98.124.133.241 (98.124.133.241)  2.327 ms  15.476 ms  2.370 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  2.830 ms  2.489 ms  2.135 ms
+   4  64.209.110.37 (64.209.110.37)  2.869 ms  2.464 ms  3.097 ms
+   5  * * *
+   6  * * *
+   7  * * *
+   1  r1 (216.187.0.1)  1.179 ms  0.708 ms  0.715 ms
+   2  98.124.133.241 (98.124.133.241)  2.131 ms  13.152 ms  2.367 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  2.820 ms  2.482 ms  2.100 ms
+   4  64.209.110.37 (64.209.110.37)  3.013 ms  2.462 ms  3.001 ms
+   5  * * *
+   6  * * *
+   7  * * *
+   1  r1 (216.187.0.1)  1.714 ms  1.240 ms  1.073 ms
+   2  98.124.133.241 (98.124.133.241)  1.951 ms  13.566 ms  2.469 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  2.802 ms  2.983 ms  2.066 ms
+   4  64.209.110.37 (64.209.110.37)  3.366 ms  2.215 ms  2.738 ms
+   5  * * *
+   6  * * *
+   7  * * *
+ Traces after blip:
+ 1  r1 (216.187.0.1)  0.890 ms  0.949 ms  1.079 ms
+   2  98.124.133.241 (98.124.133.241)  1.450 ms  2.248 ms  2.811 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  3.487 ms  2.725 ms  2.698 ms
+   4  64.209.110.37 (64.209.110.37)  2.240 ms  2.322 ms  2.507 ms
+   5  te2-1-0d0.cir1.nyc-ny.us.xo.net (206.111.13.53)  2.231 ms  3.890 ms  67.921 ms
+   6  207.88.15.22.ptr.us.xo.net (207.88.15.22)  2.400 ms  2.232 ms  2.903 ms
+   7  te5-0-0.cvr3.nyc-ny.us.xo.net (207.88.86.194)  3.656 ms  9.213 ms  3.198 ms
+   8  207.88.182.10.ptr.us.xo.net (207.88.182.10)  3.564 ms  2.559 ms  2.739 ms
+   1  r1 (216.187.0.1)  1.009 ms  1.061 ms  0.967 ms
+   2  98.124.133.241 (98.124.133.241)  2.260 ms  1.843 ms  1.736 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  2.528 ms  3.096 ms  2.825 ms
+   4  64.209.110.37 (64.209.110.37)  2.544 ms  2.062 ms  2.708 ms
+   5  te2-1-0d0.cir1.nyc-ny.us.xo.net (206.111.13.53)  2.836 ms  69.511 ms  2.188 ms
+   6  207.88.15.22.ptr.us.xo.net (207.88.15.22)  2.375 ms  2.955 ms  3.108 ms
+   7  te5-0-0.cvr3.nyc-ny.us.xo.net (207.88.86.194)  2.458 ms  8.728 ms  3.686 ms
+   8  207.88.182.6.ptr.us.xo.net (207.88.182.6)  4.207 ms  4.449 ms  3.012 ms
+   1  r1 (216.187.0.1)  0.545 ms  0.966 ms  1.565 ms
+   2  98.124.133.241 (98.124.133.241)  2.129 ms  2.374 ms  2.036 ms
+   3  te-1-1.bmf1.nyc1.gt-t.net (208.81.84.5)  3.513 ms  2.732 ms  2.872 ms
+   4  64.209.110.37 (64.209.110.37)  2.323 ms  2.447 ms  2.425 ms
+   5  te2-1-0d0.cir1.nyc-ny.us.xo.net (206.111.13.53)  3.481 ms  68.279 ms  2.201 ms
+   6  207.88.15.22.ptr.us.xo.net (207.88.15.22)  2.476 ms  2.940 ms  3.108 ms
+   7  te5-0-0.cvr3.nyc-ny.us.xo.net (207.88.86.194)  2.304 ms  8.964 ms  3.195 ms
+   8  207.88.182.10.ptr.us.xo.net (207.88.182.10)  3.523 ms  2.656 ms  2.714 ms
+ On 9/16/2010 2:19 PM, Jim McBurnett wrote:
+ ----- Original Message -----
+ From: "Christopher Hunt" <dharmachris at gmail.com>
+ I heard through the grapevine that XO instituted some new route limits
+ on their peers.  Their site at http://businesscenter.xo.com is down,
+ their phone number 800-424-0583 is fast busy and their Premier
+ National Accounts 866-295-9696 reports "we are currently experiencing
+ technical difficulties and cannot take your call" then DISCONNECT.
+ to have improved.  According to them, It was indeed a cap on the
+ number of routes accepted by XO from their peers.
+ Other reports here in the last hour suggest it was the opposite: XO suddenly 
+ started *sending* a vastly increased number of presumably bogus routes to 
+ their peers, many of whom tripped filter rules, and either shut the sessions
+ down, or limited them and picked the wrong routes to drop.
+ I expect it will be tomorrow before we assemble a coherent picture of what
+ the actual outage was.  Anyone check Renesys' blog yet?
+ Cheers,
+ -- jra
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 -> XO issues?
+###############################################################
+ Seeing all kinds of instability with XO on the west coast (SFO and Irvine, CA specifically). Interface /30s are intermittently unreachable and appear to be intermittently in and out of BGP based on L3's LG. Internetpulse.net looks pretty bad for XO as well. Anyone have any details?
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO Outages Today - Explanation.
+###############################################################
+       XO Emergency Maintenance Notification - 902165336
+       Below are details regarding Emergency maintenance 902165336. If you have any questions please contact the SNA Repair Team at 800.422.5303 or snarepair at xo.com .
+       Maintenance ID:
+      902165336
+       Location:
+      XO Collocation site: Washington DC
+       Service Impact:
+      Routing of traffic across multiple XO markets
+       Event Window:
+      Network Alert
+       Event Details:
+      Attention XO Strategic Customer,
+       XO is currently experiencing a large scale network issue impacting the routing of traffic across multiple markets. XO Engineers have identified the cause and are working to restore now as soon as possible. As a result, we are experiencing abnormally high call volumes into our Care center impacting your ability to contact us via your standard toll free number.
+       We will continue to keep you updated with information via email.
+       Thank you,
+       XO Strategic and National Accounts
+       Affected Circuits:
+      Routing of traffic across multiple XO markets
+      XO Network Outage
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/7648d55b/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+level3 bgp routes churn.
+###############################################################
+ Hey all,
+ We are seeing lots of route churn on our level3 bgp uplinks in Dallas and LA. Networks we are seeing being withdrawn and announced back look to be XO, Global Crossing and HE.
+ Anyone else seeing similar?
+ Thanks!
+ Joseph
+###############################################################
+END
+###############################################################
+
+###############################################################
+[admin] Delayed messages (fixed).
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hello All,
+ First of all, I thank everyone for being patient during this morning
+ drill when messages were being delayed as this may have caused further
+ duplication of messages.
+ The delayed messages issue has been addressed (credit, Jared), it was
+ caused due to anti-spam greylist filtering for outages.org which was
+ temporarily holding email(s) from senders it did not recognize. As puck
+ went through the process of approving mail and releasing them, this
+ caused delays.
+ This was causing disruption to the near-instantaneous nature of email
+ people have come to expect.
+ Like always, please feel free to contact us if you see any further issues.
+ grateful thanks,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+test to outages
+###############################################################
+ Not seeing my emails hit the list.  Please reply.
+ Sent 11:44am CST
+ Reply.
+ On Sep 16, 2010 4:47 PM, "Joseph Jackson" <jjackson at aninetworks.net> wrote:
+ Not seeing my emails hit the list.  Please reply.
+ Sent 11:44am CST
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100916/92d1226b/attachment.html>
+ reply
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Joseph Jackson
+ Sent: 16 September 2010 17:45
+ Subject: [outages] test to outages
+ Not seeing my emails hit the list.  Please reply.
+ Sent 11:44am CST
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T iPhone and iPad customers hit by data outage
+###############################################################
+ 	(Houston and parks of Texas)
+ http://www.victoriaadvocate.com/weblogs/digital-babble/2010/sep/17/att-iphon
+ e-and-ipad-customers-hit-by-data-outage/
+ Thought this might be interesting.
+ Frank
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100918/2a54e91f/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogeco mail issues?
+###############################################################
+ Howdy,
+ Since about 6:50 AM EDT (GMT -04:00) all of our outbound mail hosts have
+ been getting a mix between timeouts and the following back from
+ mx.cogeco.ca (216.221.81.26):
+ 	421 #4.4.5 Too many connections to this listener.
+ I tried from a few IPs in subnets that have no previous reputation (that
+ I know of, anyway) and am getting the same thing. Is anyone else
+ experiencing this?
+ Thanks
+ ---
+ Ross Halliday
+ Network Operations
+ WTC Communications
+ Office: 613-547-6939 x203
+ Helpdesk: 866-547-6939 option 2
+ http://www.wtccommunications.ca
+ Yes - we have the same issues here.... currently about 12,000 messages
+ queued for delivery to them.
+ Sep 22 09:50:02 smtp sendmail[17357]: o8MDo03o017357:
+ from=<xxxxx at nexicom.net>, size=3737, class=0, nrcpts=1,
+ msgid=<A27A1D26E08E4654B8BD5AB5B38D4F54 at xxxxxxxxxxx>, proto=SMTP,
+ daemon=MTA, relay=xxxxxxxxxxxxxx.nexicom.net [xx.xxx.25.206]
+ Sep 22 09:50:02 smtp sendmail[17364]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=00:00:00, xdelay=00:00:00,
+ mailer=esmtp, pri=123737, relay=mx.cogeco.ca. [216.221.81.26],
+ dsn=4.0.0, stat=Deferred: 421 #4.4.5 Too many connections to this
+ listener.
+ Sep 22 10:17:40 smtp sendmail[18252]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=00:27:38, xdelay=00:00:00,
+ mailer=esmtp, pri=213737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred
+ Sep 22 10:20:25 smtp sendmail[20657]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=00:30:23, xdelay=00:00:00,
+ mailer=esmtp, pri=303737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred
+ Sep 22 10:22:30 smtp sendmail[19609]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=00:32:28, xdelay=00:00:00,
+ mailer=esmtp, pri=393737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred:
+ Connection timed out with mx.cogeco.ca.
+ Sep 22 10:41:20 smtp sendmail[22028]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=00:51:18, xdelay=00:00:00,
+ mailer=esmtp, pri=483737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred
+ Sep 22 11:02:24 smtp sendmail[23753]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=01:12:22, xdelay=00:00:00,
+ mailer=esmtp, pri=573737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred
+ Sep 22 11:15:15 smtp sendmail[25693]: o8MDo03o017357:
+ to=<xxxxxxxxxx at cogeco.ca>, delay=01:25:13, xdelay=00:00:00,
+ mailer=esmtp, pri=663737, relay=mx.cogeco.ca., dsn=4.0.0, stat=Deferred
+ Paul
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Ross Halliday
+ Sent: Wednesday, September 22, 2010 11:04 AM
+ Subject: [outages] Cogeco mail issues?
+ Howdy,
+ Since about 6:50 AM EDT (GMT -04:00) all of our outbound mail hosts have
+ been getting a mix between timeouts and the following back from
+ mx.cogeco.ca (216.221.81.26):
+ 	421 #4.4.5 Too many connections to this listener.
+ I tried from a few IPs in subnets that have no previous reputation (that
+ I know of, anyway) and am getting the same thing. Is anyone else
+ experiencing this?
+ Thanks
+ ---
+ Ross Halliday
+ Network Operations
+ WTC Communications
+ Office: 613-547-6939 x203
+ Helpdesk: 866-547-6939 option 2
+ http://www.wtccommunications.ca
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+=?utf-8?q?Cogeco_mail_issues=3F?=
+###############################################################
+  <C0A98BB6DAFAAB46A78BBA2C51B98F3E01B6F3F0@nexus.nexicomgroup.net>
+ Passed this on to the proper people, it's being looked into.
+ On Wed, 22 Sep 2010 11:20:33 -0400, "Paul Stewart"
+ <pstewart at nexicomgroup.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Qwest WA iQ outage
+###############################################################
+  I've just learned of an area outage of iQ services in the western
+ Washington state area. 
+ One of our T1s is down and their IVR acknowledges the outage.  Awaiting
+ further info...
+ -- 
+ Christopher Hunt
+ ReachONE Internet, Inc.
+ (360)456-5640
+ www.reachone.com
+  Service seems to have been restored.  Qwest Master ticket #NB141070 .
+ -- 
+ Christopher Hunt
+ ReachONE Internet, Inc.
+ (360)456-5640
+ www.reachone.com
+  It looks like I spoke too soon.  Qwest is still experiencing a
+ "transport issue" in western WA. 
+ -- 
+ Christopher Hunt
+ ReachONE Internet, Inc.
+ (360)456-5640
+ www.reachone.com
+ On Thu, Sep 23, 2010 at 12:01 PM, Christopher Hunt <chunt at reachone.com>wrote:
+ We had a circuit bounce in Chicago and lost all BGP peers (to MPLS cloud).
+  Called their support they mentioned a fiber cut from CHI to indiana.  I'm
+ still waiting for more info
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/15799baa/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Facebook
+###############################################################
+ Its been around 30 minutes. Is this the same result from less than 20 hours
+ ago?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/0bb9d965/attachment.html>
+ Yes, it is down.  Let's get back to work!
+ http://downforeveryoneorjustme.com/facebook.com
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Thu, Sep 23, 2010 at 3:21 PM, jon <relicwr at gmail.com> wrote:
+  <AANLkTinykHM-ykeLRmrtuR=+cHg-OBJ=VL50NWzBMdmo@mail.gmail.com>
+ On 9/23/2010 12:28, Josh Luthman wrote:
+ I didn't even notice since I *was* working. ;)
+ ~Seth
+ Seems that is the case. 
+ Via Facebook:
+ http://developers.facebook.com/live_status/
+ -Matt Dodd
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/c32bc547/attachment.html>
+  <AANLkTinykHM-ykeLRmrtuR=+cHg-OBJ=VL50NWzBMdmo@mail.gmail.com>
+ On Thu, 23 Sep 2010, Josh Luthman wrote:
+ Funny, facebook being down == cant work for some of us. ;)
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+ Once upon a time, jon <relicwr at gmail.com> said:
+ Interesting, www.facebook.com switched to an Akamai IP for me at about
+ 19:30 UTC.
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+  <20100923201843.GE15387@hiwaay.net>
+ Seeing different things from different places, hasn't fully propagated yet.
+ dig www.facebook.com @8.8.8.8 soa |grep -P '[0-9]{10}'
+ g.akamai.net.		471	IN	SOA	n0g.akamai.net. hostmaster.akamai.com. 1285274188 1000 1000 1000 1800
+ dig www.facebook.com @4.2.2.1 soa |grep -P '[0-9]{10}'
+ x.akamai.net.		900	IN	SOA	n0x.akamai.net. hostmaster.akamai.com. 1285274726 1000 1000 1000 1800
+ So 8.8.8.8 is definitely the older version, and it shows their IP:
+ dig www.facebook.com @8.8.8.8 +short 
+ 69.63.189.11
+ And 4.2.2.1 is fresher and appears to show a switch to akamai:
+ dig www.facebook.com @4.2.2.1 +short 
+ wwws.ak.facebook.com.edgesuite.net.
+ a1254.x.akamai.net.
+ 66.160.206.18
+ 65.49.92.113
+ Somebody dun goofed.
+ -wil
+ On Sep 23, 2010, at 1:18 PM, Chris Adams wrote:
+  <20100923201843.GE15387@hiwaay.net>
+ On 9/23/2010 15:18, Chris Adams wrote:
+ I thought FB always ran throuhg Akamai.
+ I'm now getting
+ quote
+ Service Unavailable - DNS failure
+ The server is temporarily unable to service your request. Please try
+ again later.
+ Reference #11.8397a746.1285274927.3ef1e4f0
+ unquote.
+ I think that is an Akamai error, isn't it?
+ The browser address is:  http://www.facebook.com/home.php?#!/?ref=home
+ -- 
+ Somebody should have said:
+ A democracy is two wolves and a lamb voting on what to have for dinner.
+ Freedom under a constitutional republic is a well armed lamb contesting
+ the vote.
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ Eppure si rinfresca
+ ICBM Targeting Information:  http://tinyurl.com/4sqczs
+ http://tinyurl.com/7tp8ml
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+ http://developers.facebook.com/live_status
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Larry Sheldon
+ Sent: Thursday, September 23, 2010 1:54 PM
+ Subject: Re: [outages] Facebook
+ On 9/23/2010 15:18, Chris Adams wrote:
+ I thought FB always ran throuhg Akamai.
+ I'm now getting
+ quote
+ Service Unavailable - DNS failure
+ The server is temporarily unable to service your request. Please try again later.
+ Reference #11.8397a746.1285274927.3ef1e4f0 unquote.
+ I think that is an Akamai error, isn't it?
+ The browser address is:  http://www.facebook.com/home.php?#!/?ref=home
+ --
+ Somebody should have said:
+ A democracy is two wolves and a lamb voting on what to have for dinner.
+ Freedom under a constitutional republic is a well armed lamb contesting the vote.
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ Eppure si rinfresca
+ ICBM Targeting Information:  http://tinyurl.com/4sqczs http://tinyurl.com/7tp8ml
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+ On 9/23/2010 15:53, Larry Sheldon wrote:
+ >>> Its been around 30 minutes. Is this the same result from less than 20 hours
+ >>> ago?
+ Daughter in KCMO sez it (FB) was down, now up to her.
+ Still down to me.
+ Trace www.facebook.com goes to
+ a-70-183-191-122.deploy.akamaitechnologies.com [
+ 70.183.191.122]
+ -- 
+ Somebody should have said:
+ A democracy is two wolves and a lamb voting on what to have for dinner.
+ Freedom under a constitutional republic is a well armed lamb contesting
+ the vote.
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ Eppure si rinfresca
+ ICBM Targeting Information:  http://tinyurl.com/4sqczs
+ http://tinyurl.com/7tp8ml
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+ Once upon a time, Larry Sheldon <LarrySheldon at cox.net> said:
+ Well, it changed from an external host to our local Akamai servers.  Now
+ that it is back up, it is back to external servers.
+ Looks like this might have been an Akamai problem then.
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+  <4C9BBFCA.9000107@cox.net>
+ Works for me 5:16PM EST
+ C:\Users\jluthman>dig facebook.com
+ ; <<>> DiG 9.3.2 <<>> facebook.com
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1929
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;facebook.com.                  IN      A
+ ;; ANSWER SECTION:
+ facebook.com.           3166    IN      A       69.63.189.11
+ facebook.com.           3166    IN      A       69.63.189.16
+ facebook.com.           3166    IN      A       69.63.181.12
+ ;; Query time: 4 msec
+ ;; SERVER: 192.168.21.1#53(192.168.21.1)
+ ;; WHEN: Thu Sep 23 17:16:12 2010
+ ;; MSG SIZE  rcvd: 78
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Thu, Sep 23, 2010 at 4:59 PM, Larry Sheldon <LarrySheldon at cox.net> wrote:
+ >>> Once upon a time, jon <relicwr at gmail.com> said:
+ >>>> Its been around 30 minutes. Is this the same result from less than 20 hours
+ >>>> ago?
+ >>>
+ >>> Interesting, www.facebook.com switched to an Akamai IP for me at about
+ >>> 19:30 UTC.
+  <AANLkTinykHM-ykeLRmrtuR=+cHg-OBJ=VL50NWzBMdmo@mail.gmail.com>
+  <alpine.BSF.2.00.1009231559520.64117@murf.icantclick.org>
+ The length of the outage could actually affect Sept productivity. Scary how
+ many need their Farmville.
+ On Sep 23, 2010 4:09 PM, "david raistrick" <drais at icantclick.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/429fe9f2/attachment.html>
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+  <4C9BBFCA.9000107@cox.net>
+  <AANLkTikVWcTZiWXa-LBQuYPd3a9RDco8vyj70ug6n40J@mail.gmail.com>
+ DItto as of 2 min ago:
+  <<>> DiG 9.6.0-APPLE-P2 <<>> facebook.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22921
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;facebook.com. IN A
+ ;; ANSWER SECTION:
+ facebook.com. 3427 IN A 69.63.189.16
+ facebook.com. 3427 IN A 69.63.189.11
+ facebook.com. 3427 IN A 69.63.181.12
+ ;; Query time: 106 msec
+ ;; SERVER: 208.67.220.220#53(208.67.220.220)
+ ;; WHEN: Thu Sep 23 17:33:42 2010
+ ;; MSG SIZE  rcvd: 78
+ ~jason
+ On Thu, Sep 23, 2010 at 5:16 PM, Josh Luthman
+ <josh at imaginenetworksllc.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/a572a6a1/attachment-0001.html>
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+  <4C9BBFCA.9000107@cox.net>
+  <AANLkTikVWcTZiWXa-LBQuYPd3a9RDco8vyj70ug6n40J@mail.gmail.com>
+  <AANLkTim_yctGDYD5aQuW=8ULckaFGY8RqKvEv6fGiwLb@mail.gmail.com>
+ Its worth noting that facebook.com and www.facebook.com are handled
+ differently.  facebook.com is a limited set of RR IPs that redirect to www.
+  www is a gslb'ed domain.
+ On Thu, Sep 23, 2010 at 2:34 PM, Jason L. Sparks <jlsparks at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/3417962a/attachment.html>
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+  <4C9BBFCA.9000107@cox.net>
+  <AANLkTikVWcTZiWXa-LBQuYPd3a9RDco8vyj70ug6n40J@mail.gmail.com>
+ Also up for me in Central Oregon:
+ root at oem-desktop:~# dig facebook.com
+ ; <<>> DiG 9.5.1-P2.1 <<>> facebook.com
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55496
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 5, ADDITIONAL: 5
+ ;; QUESTION SECTION:
+ ;facebook.com. IN A
+ ;; ANSWER SECTION:
+ facebook.com. 890 IN A 69.63.189.11
+ facebook.com. 890 IN A 69.63.189.16
+ facebook.com. 890 IN A 69.63.181.12
+ ;; AUTHORITY SECTION:
+ facebook.com. 130293 IN NS ns1.facebook.com.
+ facebook.com. 130293 IN NS ns2.facebook.com.
+ facebook.com. 130293 IN NS ns4.facebook.com.
+ facebook.com. 130293 IN NS ns3.facebook.com.
+ facebook.com. 130293 IN NS ns5.facebook.com.
+ ;; ADDITIONAL SECTION:
+ ns1.facebook.com. 1436 IN A 204.74.66.132
+ ns2.facebook.com. 1436 IN A 204.74.67.132
+ ns3.facebook.com. 1436 IN A 69.63.178.21
+ ns4.facebook.com. 1436 IN A 69.63.186.49
+ ns5.facebook.com. 1436 IN A 69.63.176.200
+ ;; Query time: 8 msec
+ ;; SERVER: 216.228.160.6#53(216.228.160.6)
+ ;; WHEN: Thu Sep 23 14:46:44 2010
+ ;; MSG SIZE  rcvd: 248
+ Plus, haven't heard any gripes from over the cube walls, all day.
+ Dave Owens
+ On Thu, Sep 23, 2010 at 2:16 PM, Josh Luthman
+ <josh at imaginenetworksllc.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/44581ee7/attachment-0001.html>
+ Details of the outage case are at
+ http://www.facebook.com/notes/facebook-engineering/more-details-on-todays-outage/431441338919
+ In short, code problem which required them "turn off" the site to resolve.
+ Nothing to do with Akamai/etc.
+   Scott.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/5ede9b23/attachment.html>
+  <AANLkTi=rPkyBQuKuw_-sPSMS__VHXW-9f89q2LAz=d3z@mail.gmail.com>
+ Yeah all is well. Thanks for everything.
+ Thread closed.
+ On Sep 23, 2010 11:22 PM, "L.T. Easterly" <corqpub at gmail.com> wrote:
+ hours
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/af3bd5d7/attachment.html>
+ ---- Original Message -----
+ From: "jon" <relicwr at gmail.com>
+ ago?
+ Based on Pete Cashmore's comments at Mashable, I think not, but we'll see.  
+ It's just come back up and is slowly rolling out, both vertically and
+ horizontally.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ --- josh at imaginenetworksllc.com wrote:
+ From: Josh Luthman <josh at imaginenetworksllc.com>
+ Yes, it is down.  Let's get back to work!
+ ----------------------------------------------
+ Ewwww, that's dripping with manager-itis.  Quick, wipe it off!  ;-)
+ scott
+ ----------------------
+ -----------------------
+ ----------------------
+ ---- Original Message -----
+ From: "Seth Mattinen" <sethm at rollernet.us>
+ Sent: Thursday, September 23, 2010 3:29:41 PM
+ Subject: Re: [outages] Facebook
+ Just to provide the customary reminder: for some of us, "taking calls about 
+ why customers can't get to Facebook" *is* working.
+ Cheers,
+ -- jr 'but being snarky *is* fun, ain't it?' a
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ Maybe Facebook uses XO for connectivity, and thats why they are down!
+ Just had a through an XO dig in there....
+ -John
+ On Sep 23, 2010, at 3:40 PM, Jay R. Ashworth wrote:
+ >>> Yes, it is down.  Let's get back to work!
+ >>> http://downforeveryoneorjustme.com/facebook.com
+ Facebook appears to be having some issues.  Unreachable from multiple
+ providers in this neck of the woods, unreachable from
+ downforeveryoneorjustme.com, but reachable via AT&T mobile.  I'm sure
+ customers are going to start bitching soon if they can't get to their
+ Farmville.
+ -- 
+ William S. Duncanson
+ caesar at starkreality.com
+###############################################################
+END
+###############################################################
+
+###############################################################
+Facebook (IPv4 down, IPv6 up)
+###############################################################
+ On 9/23/2010 12:40, Jay R. Ashworth wrote:
+ >>> Yes, it is down.  Let's get back to work!
+ >>> http://downforeveryoneorjustme.com/facebook.com
+ It used to be a long time ago, but after a few years I wanted to stab
+ people over the phone. I paid my dues on the front line. This was long
+ before the social networking era so I can only imagine how much worse it
+ could be now.
+ The most awesome call I ever witnessed was someone arguing to one of my
+ coworkers over speakerphone for 45 minutes that the O'Reilly Factor
+ website had to have the ' in the URL because "it is in his name". The
+ customer absolutely refused to remove the apostrophe, claimed we were
+ censoring, etc. At one point he hit mute, picked up the monitor, pointed
+ it at the phone, and yelled "look! the site works fine!"
+ FWIW I can't reach facebook either as of right now (13:10 PDT) either at
+ work or on my Android via IPv4. However, I *can* access it just fine via
+ IPv6 at www.v6.facebook.com
+ ~Seth
+###############################################################
+END
+###############################################################
+
+###############################################################
+SUBSCRIBE
+###############################################################
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/8d56e508/attachment-0001.html>
+ Heh.. what?
+ On Sep 23, 2010 5:09 PM, <Kevin.Smith at dca.state.fl.us> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100923/aa8f7aab/attachment.html>
+  <AANLkTinZa0fqc8WBeMo+4cy3vs5tWJ9gp+iCwxADUQe7@mail.gmail.com>
+ I think he said "fail".
+ On 9/23/10, jon <relicwr at gmail.com> wrote:
+ -- 
+ Jeremy L. Gaddis
+ http://evilrouters.net/
+  <AANLkTinZa0fqc8WBeMo+4cy3vs5tWJ9gp+iCwxADUQe7@mail.gmail.com>
+  <AANLkTikTFyWFHHepNHbt3O7Vf81mP3Kvg_2rx4Utm3_2@mail.gmail.com>
+ No, no, I think he said: Per Curiam DENIED!
+ On Sep 23, 2010, at 5:35 PM, "Jeremy L. Gaddis" <jeremy at evilrouters.net> wrote:
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Newark Verizon Issues....
+###############################################################
+  <20100923201843.GE15387@hiwaay.net> <4C9BBE52.6060307@cox.net>
+  <4C9BBFCA.9000107@cox.net>
+  <AANLkTikVWcTZiWXa-LBQuYPd3a9RDco8vyj70ug6n40J@mail.gmail.com>
+  <AANLkTim8PqNotMcvRBTzJdb6e-wbV1YEJ=Em9=NU7QSu@mail.gmail.com>
+ Many of my customers cant reach me from behind FioS. Traceroute shows a 
+ problem spot in Newark in Verizon backbone. 256ms latency at the last hop, 
+ then dies. 
+ It several hops within Verizon, so it cant be an Abovenet peering issue.
+ If anyone from Verizon is listening out there, please look into this. Fios 
+ support refuses to troubleshoot. I know at least 20 people who have called 
+ in to complain, there are Verizon (DSL or Fios) through Jersey and 
+ Delaware. 
+  1  gw-238-225.quonix.net (208.72.238.225)  0.256 ms   0.268 ms   0.270 ms
+  2  ge-11-1-2.mpr3.phl2.us.above.net (209.249.122.165)  0.174 ms   0.195 
+ ms   0. 
+ 166 ms
+  3  xe-2-3-0.cr1.lga5.us.above.net (64.125.31.34)  2.422 ms   2.357 ms   
+ 2.412 m 
+ s
+  4  xe-0-1-0.er1.lga5.us.above.net (64.125.27.61)  2.222 ms   2.200 ms   
+ 2.228 m 
+ s
+  5  0.ge-3-2-0.BR3.NYC4.ALTER.NET (204.255.168.25)  2.254 ms   2.297 ms   
+ 2.264 
+ ms
+  6  0.ge-4-2-0.NY5030-BB-RTR2.verizon-gni.net (152.63.10.54)  2.573 ms   
+ 2.605 m 
+ s   2.566 ms
+  7  P15-0-0.NWRKNJ-LCR-04.verizon-gni.net (130.81.29.195)  4.767 ms   
+ 4.701 ms 
+  4.714 ms
+  8  P12-0-0.NWRKNJ-LCR-06.verizon-gni.net (130.81.27.7)  5.717 ms   5.348 
+ ms   5 
+ .262 ms
+  9  P14-0.NWRKNJ-LCR-08.verizon-gni.net (130.81.30.95)  5.265 ms   5.202 
+ ms   5. 
+ 259 ms
+ 10  * * *
+ 11  * * *
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ On Thu, Sep 23, 2010 at 06:24:03PM +0000, john at quonix.net wrote:
+ This isn't to say there's not a problem, but where is the "256ms latency
+ at the last hop" evidence?  All that's shown here is 3 probes at hop #9
+ with RTTs of 5.265, 5.202, and 5.259ms.  The copy-paste was done poorly
+ so the output is formatted badly.
+ You're going to need to provide traceroutes from both directions
+ (src->dst and dst->src), and should probably try UDP, TCP, and
+ ICMP-based traceroutes to rule out filtering at the endpoints.  Some
+ traceroute implementations also offer a flag (on BSD it's -e, to be used
+ alongside -p) which causes UDP and TCP destination packets to *not*
+ increment their port number per probe, which can help if the destination
+ uses a firewall (and the user has control over it).
+ When dealing with Verizon, you should probably also indicate if all
+ forms of packets are being filtered (meaning provide actual packet
+ traces on both the source and destination ends showing something like
+ the results of an telnet x.x.x.x yyyy towards you, where yyyy should be
+ a port you're definitely listening on + have permitted on your firewall
+ and/or port forwarded).  Basically you want to confirm if the remote end
+ receives a SYN+ACK response (from you) to their initial SYN.
+ Good luck.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+Facebook Engineering on today's outage
+###############################################################
+ http://www.facebook.com/notes/facebook-engineering/more-details-on-todays-outage/431441338919
+ Apparently, our surmise about Akamai notwithstanding, the problem was actually
+ internal to their app-specific caching facilities, which went into Sorcerer's
+ Apprentice mode, and they had to kill them all and let ghod sort them out.
+ More if I get it; hope that posting's public. 
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ Agreed; my reading of this suggests database caching issues (i.e. all the frontend/middleware clients hitting the main sql cluster at once instead of the memcached farm they normally use), not HTTP/CDN caching issues.
+ -C
+ On Sep 23, 2010, at 7:17 12PM, Jay R. Ashworth wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+peeringdb.com down?
+###############################################################
+ Peeringdb.com seems to be down for me. I'm resolving www.peeringdb.com
+ and peeringdb.com to 205.234.211.82, and connections to that IP on
+ TCP/80 immediately close, and TCP/443 never sees a ServerHello message
+ in response to a ClientHello.
+ Oh well, I can evaluate this peer tomorrow instead... :)
+ Cheers,
+ jof
+ Same thing here.... happened a few times lately...
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jonathan Lassoff
+ Sent: Friday, September 24, 2010 2:39 PM
+ Subject: [outages] peeringdb.com down?
+ Peeringdb.com seems to be down for me. I'm resolving www.peeringdb.com
+ and peeringdb.com to 205.234.211.82, and connections to that IP on
+ TCP/80 immediately close, and TCP/443 never sees a ServerHello message
+ in response to a ClientHello.
+ Oh well, I can evaluate this peer tomorrow instead... :)
+ Cheers,
+ jof
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <008701cb5c18$2478ad10$6d6a0730$@org>
+  <AANLkTimQ2VwmNDj3NFAOpD3vGsAY2U=rT2UOwbqLARAx@mail.gmail.com>
+ Yup - working here now. someone must be listening ;)
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of jon
+ Sent: Friday, September 24, 2010 3:06 PM
+ Subject: [outages] peeringdb.com down?
+ Works in Mid GA.
+ On Sep 24, 2010 3:03 PM, "Paul Stewart" <paul at paulstewart.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100924/4216d223/attachment.html>
+  <008701cb5c18$2478ad10$6d6a0730$@org>
+  <AANLkTimQ2VwmNDj3NFAOpD3vGsAY2U=rT2UOwbqLARAx@mail.gmail.com>
+ Works in PHX AZ
+ Raman Sud
+ Director,
+ Network Infrastructure
+ PhoenixNAP LLC
+ 3402 East University Drive
+ Phoenix AZ 85034
+ Phone: 480.449.7750 Ext 157
+ Fax: 480.682.3236
+ http://www.phoenixnap.com
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+ THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE  INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION  THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE  LAW.  IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR  COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND  ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY  DESTROYED.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of jon
+ Sent: Friday, September 24, 2010 12:06 PM
+ Subject: [outages] peeringdb.com down?
+ Works in Mid GA.
+ On Sep 24, 2010 3:03 PM, "Paul Stewart" <paul at paulstewart.org<mailto:paul at paulstewart.org>> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100924/1133c097/attachment-0001.html>
+  <008701cb5c18$2478ad10$6d6a0730$@org>
+  <AANLkTimQ2VwmNDj3NFAOpD3vGsAY2U=rT2UOwbqLARAx@mail.gmail.com>
+  <3C527D72DFFFC14F8CAA9FC442D08FB921A6EC@exch10-mb1.ccbill-hq.local>
+ Sorry, the HTTP process has given us some problems of late. 
+ We are working on "v2.0" of the system, but other things got in the way and it is over six months past due.  We will hopefully have some movement soon. 
+ -- 
+ TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+ peeringdb.com down?
+###############################################################
+  <008701cb5c18$2478ad10$6d6a0730$@org>
+ Works in Mid GA.
+ On Sep 24, 2010 3:03 PM, "Paul Stewart" <paul at paulstewart.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100924/d58d5790/attachment.html>
+###############################################################
+END
+###############################################################
+

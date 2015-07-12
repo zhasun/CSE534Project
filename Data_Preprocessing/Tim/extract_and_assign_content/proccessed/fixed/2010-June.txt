@@ -1,0 +1,1644 @@
+From alan at gtekcommunications.com  Tue Jun  1 13:44:50 2010
+From: alan at gtekcommunications.com (Alan Bryant)
+Date: Tue, 1 Jun 2010 12:44:50 -0500
+Subject: [outages] Problems Getting to Successwareasp.com
+Message-ID: <AANLkTil0MJJJ_25QsDSWqwrG3fPtUQbRms5x-DIzbxfE@mail.gmail.com>
+
+I have a couple customers trying to get to
+http://login.successwareasp.com/. I can do a traceroute all the way to
+the customers network then it drops off.
+
+I can get to it via my phone (T-Mobile) and a co-workers phone (AT&T),
+but not our network. It gets to the initial page that tries to
+redirect you, but the redirect never happens. I've tried in multiple
+browsers as well.
+
+Ping times earlier today were steady around 100ms, but now have
+leveled off at around 60ms.
+
+Just wanted to see if anyone else is having issues with this
+particular site or network?
+
+-- 
+Alan Bryant | Systems Administrator
+Gtek Computers & Wireless, LLC.
+alan at gtekcommunications.com | www.gtek.biz
+O 361-777-1400 | F 361-777-1405
+
+From josh at imaginenetworksllc.com  Tue Jun  1 13:59:25 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Tue, 1 Jun 2010 13:59:25 -0400
+Subject: [outages] Problems Getting to Successwareasp.com
+In-Reply-To: <AANLkTil0MJJJ_25QsDSWqwrG3fPtUQbRms5x-DIzbxfE@mail.gmail.com>
+References: <AANLkTil0MJJJ_25QsDSWqwrG3fPtUQbRms5x-DIzbxfE@mail.gmail.com>
+Message-ID: <AANLkTikAaOtgTxjokMuFHXpymuDFUiM_KNpTGXFAKHqF@mail.gmail.com>
+
+Works fine for me, but just so you know...
+
+http://downforeveryoneorjustme.com/login.successwareasp.com
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Tue, Jun 1, 2010 at 1:44 PM, Alan Bryant <alan at gtekcommunications.com> wrote:
+> I have a couple customers trying to get to
+> http://login.successwareasp.com/. I can do a traceroute all the way to
+> the customers network then it drops off.
+>
+> I can get to it via my phone (T-Mobile) and a co-workers phone (AT&T),
+> but not our network. It gets to the initial page that tries to
+> redirect you, but the redirect never happens. I've tried in multiple
+> browsers as well.
+>
+> Ping times earlier today were steady around 100ms, but now have
+> leveled off at around 60ms.
+>
+> Just wanted to see if anyone else is having issues with this
+> particular site or network?
+>
+> --
+> Alan Bryant | Systems Administrator
+> Gtek Computers & Wireless, LLC.
+> alan at gtekcommunications.com | www.gtek.biz
+> O 361-777-1400 | F 361-777-1405
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From virendra.rode at outages.org  Tue Jun  1 16:38:51 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Tue, 01 Jun 2010 13:38:51 -0700
+Subject: [outages] ADMIN: Outages List FAQ/Monthly Post.
+Message-ID: <4C056FDB.60200@outages.org>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Please take 5 minutes to read it before you post [again].
+
+
+General Information
+===================
+
+About Outages & Mission statement:
+http://wiki.outages.org/index.php/Main_Page
+
+
+Credits:
+Credit goes to the Debian / NANOG mailing list for FAQ, which served as
+a model for the OUTAGES FAQ.
+
+
+Outages lists and AUP:
+==========================================
+Mailing List Charter
+
+The OUTAGES mailing list is established to provide a forum for the
+exchange of major outages discussion of Critical Internet
+infrastructure, such as IXPs, DNS root servers, major carrier failures,
+major data center, carrier hotel, COs, etc., that require cooperation
+among network service providers, carriers and network operators around
+the globe. In order to continue to provide a useful forum for discussion
+of relevant outages issues, the list is governed by the following
+guidelines:
+
+
+Acceptable Use Policy (Code of Conduct)
+
+1. Discussion will focus on Internet / backbone related outages and
+technical issues surrounding it as described in the charter of OUTAGES.
+2. Postings of issues inconsistent with the charter are prohibited.
+3. Cross posting is prohibited.
+4. Do not quote messages that were sent to you by other people in
+private mail, unless agreed beforehand.
+5. Postings that include foul language, character assassination, and
+lack of respect for other participants are prohibited.
+6. Product marketing is prohibited.
+7. Postings of political, philosophical, religious and legal nature are
+prohibited.
+8. Using list as source for private marketing initiatives is prohibited.
+9. Autoresponders sending "out of office" or "vacation" mail either to
+the list or to the poster are prohibited.
+10. Try not to  flame; it is not polite.
+11. Never send your messages in HTML; use plain text instead.
+12. Do not send "test" messages to determine whether your mail client is
+working.
+
+Individuals who violate these guidelines will be contacted and asked to
+adhere to the guidelines.
+
+If groups of individuals persist in introducing topics that are outside
+the charter of OUTAGES, the moderator committee will send a request to
+the entire mailing list requesting adherence to the guidelines.
+
+
+OUTAGES List FAQ:
+===================================================
+FAQ contributions are welcome -- please send email to admins at outages.org
+
+About OUTAGES and the List
+
+The primary goal of outages mailing list is for outages-reporting that
+would apply to failures of major communications infrastructure
+components having significant traffic-carrying capacity.
+
+See the main OUTAGES web page at:
+http://www.outages.org
+
+The OUTAGES Volunteer Committee is made up of network operator community
+members. You can reach the committee at admins at outages.org
+
+
+Is the list moderated?
+No, the outages mailing list is not moderated.
+
+I am not getting any mail anymore from the list! Is it down or what?
+
+* If for any reason your email address is unavailable, after some
+retries you will be automatically unsubscribed.
+* You may get unsubscribed because MTAs relaying traffic to you get
+bounces for some reason.
+* There are no major outages to report :-)
+
+
+Subscribe / Unsubscribe to OUTAGES Mailing List
+
+For more information, see the subscription web page at:
+http://wiki.outages.org/index.php/Main_Page#Mailing_Lists
+
+
+Disclaimer for the OUTAGES mailing lists
+http://wiki.outages.org/index.php/Wiki:General_disclaimer
+
+
+To contact the list's admins: admins at outages.org
+
+
+Posting Policy
+==============
+
+* The basic rule is to avoid asking questions that have been asked
+before, or that are irrelevant to other list users, or that are off
+topic. Please use your good sense.
+
+* Network operational related topics / issues are not appropriate for
+this forum.
+
+* Please read the FAQ and AUP (code of conduct) policy before posting
+for more details.
+
+
+The following are specifically discouraged:
+
+* Is a certain site down?
+
+Please do your technical diligence before posting, use
+http://downforeveryoneorjustme.com/ or check
+http://wiki.outages.org/index.php/Dashboard for public dashboards prior
+to querying the list.
+
+
+Please also avoid
+=============
+
+* Sending posts to the list relevant to only one or two people on this
+list,  such as tests or traceroute(s) in response to another post for
+comparison to those originally posted.
+
+* Jokes, Puns, amusing observations, spelling corrections.
+
+* Network operations, and other non-outages related issues should be
+discussed in the appropriate forums elsewhere.
+
+
+Other OUTAGES related lists
+====================
+
+* outages-discussion - Post outages related discussion, including
+troubleshooting, analysis, post-mortem pertaining to ongoing and /or
+post outages.
+
+https://puck.nether.net/mailman/listinfo/outages-discussion
+
+* outages-announce - Change management, future updates regarding the list.
+
+https://puck.nether.net/mailman/listinfo/outages-announce
+
+
+Please send your feedback, comments and /or recommendations on how we can
+improve outages services further at admin at outages.org
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFMBW/apbZvCIJx1bcRAjviAJ9tSXwHVLwqF5TNwaohsXqyhSVeogCgvrbM
+ejsP1UzVpgfaVqb/ZgVET1o=
+=b3Ik
+-----END PGP SIGNATURE-----
+
+From brandon.galbraith at gmail.com  Tue Jun  1 17:19:14 2010
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Tue, 1 Jun 2010 16:19:14 -0500
+Subject: [outages] Amazon S3 US outage
+Message-ID: <AANLkTilJOAMrqaXe7YMlFuxsrTgUqWAOMVS0kmagoC8N@mail.gmail.com>
+
+Amazon S3 in the US is apparently down (or intermittent, depending on your
+view):
+
+http://status.aws.amazon.com/
+
+<http://status.aws.amazon.com/>
+
+-- 
+Brandon Galbraith
+Voice: 630.492.0464
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100601/df4cf689/attachment.html>
+
+From jchism2 at gmail.com  Wed Jun  2 16:24:22 2010
+From: jchism2 at gmail.com (Jeremie Chism)
+Date: Wed, 2 Jun 2010 15:24:22 -0500
+Subject: [outages] AT&T outbound issues
+Message-ID: <1F9593DB-296D-4A8A-A646-97B0794DC79C@gmail.com>
+
+I am having problems with AT&T calls terminating to anything other  
+that AT&T customers. Calls from landlines and cellphones in north  
+Louisiana are being dropped.  This is happening on a pretty broad scale.
+
+Sent from my iPhone
+
+From jon.r.kibler at gmail.com  Thu Jun  3 00:26:00 2010
+From: jon.r.kibler at gmail.com (Jon Kibler)
+Date: Thu, 3 Jun 2010 00:26:00 -0400
+Subject: [outages] whois.apnic.net?
+Message-ID: <AANLkTilqhZXvaOvc6wORR9h2V1lFs_QvQTRY2VVu11d-@mail.gmail.com>
+
+Anyone else seeing intermittent issues with whois.apnic.net?
+
+I can get some queries to respond -- often with a minute or more
+delay, but others return no response, such as:
+     $ whois 122.195.134.142 at whois.apnic.net
+which I have had hang for over 5 minutes before I killed it. I have
+also tried that query from three different networks, all with the same
+result.
+
+Any ideas what is going on?
+
+THANK!
+
+Jon Kibler
+-- 
+Jon R. Kibler
+Chief Technical Officer
+A.S.E.T., Inc.
+Charleston, SC  USA
+o: 843-849-8214
+
+From pstewart at nexicomgroup.net  Tue Jun  8 12:11:50 2010
+From: pstewart at nexicomgroup.net (Paul Stewart)
+Date: Tue, 8 Jun 2010 12:11:50 -0400
+Subject: [outages] Equinix NOC Outage?
+Message-ID: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+
+Anyone else having issues reaching Equinix NOC?  Just getting dead air
+and we have an issue that needs attention....
+
+ 
+
+Have tried the toll free number and also direct ... both from a landline
+and from a cell phone.
+
+ 
+
+Thanks,
+
+ 
+
+Paul
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100608/30f4a667/attachment.html>
+
+From paul at paulstewart.org  Tue Jun  8 12:59:42 2010
+From: paul at paulstewart.org (Paul Stewart)
+Date: Tue, 8 Jun 2010 12:59:42 -0400
+Subject: [outages] Equinix NOC Outage?
+In-Reply-To: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+References: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+Message-ID: <001601cb072b$fe2050f0$fa60f2d0$@org>
+
+Sorry, just got through - weird.. They claimed they were not having any
+issues so must have been a carrier issue somewhere..
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Paul Stewart
+Sent: Tuesday, June 08, 2010 12:12 PM
+To: outages at outages.org
+
+ 
+
+Anyone else having issues reaching Equinix NOC?  Just getting dead air and
+we have an issue that needs attention..
+
+ 
+
+Have tried the toll free number and also direct . both from a landline and
+from a cell phone.
+
+ 
+
+Thanks,
+
+ 
+
+Paul
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100608/2f3fd3aa/attachment.html>
+
+From josh at imaginenetworksllc.com  Tue Jun  8 13:17:32 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Tue, 8 Jun 2010 13:17:32 -0400
+Subject: [outages] Equinix NOC Outage?
+In-Reply-To: <001601cb072b$fe2050f0$fa60f2d0$@org>
+References: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net> 
+	<001601cb072b$fe2050f0$fa60f2d0$@org>
+Message-ID: <AANLkTilrZyI5T-6HyZ1VmCiWw9F3R56smM3wX5OqmQdq@mail.gmail.com>
+
+We had a BGP issue with L3 down in Atlanta that cause our voice to
+have air calls/fast busy.  From about 8 to noon Eastern.
+
+Maybe you're on our MSX?
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Tue, Jun 8, 2010 at 12:59 PM, Paul Stewart <paul at paulstewart.org> wrote:
+> Sorry, just got through ? weird?. They claimed they were not having any
+> issues so must have been a carrier issue somewhere?.
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Paul Stewart
+> Sent: Tuesday, June 08, 2010 12:12 PM
+> To: outages at outages.org
+> Subject: [outages] Equinix NOC Outage?
+>
+>
+>
+> Anyone else having issues reaching Equinix NOC?? Just getting dead air and
+> we have an issue that needs attention?.
+>
+>
+>
+> Have tried the toll free number and also direct ? both from a landline and
+> from a cell phone.
+>
+>
+>
+> Thanks,
+>
+>
+>
+> Paul
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+From paul at paulstewart.org  Tue Jun  8 13:23:26 2010
+From: paul at paulstewart.org (Paul Stewart)
+Date: Tue, 8 Jun 2010 13:23:26 -0400
+Subject: [outages] Equinix NOC Outage?
+In-Reply-To: <AANLkTilrZyI5T-6HyZ1VmCiWw9F3R56smM3wX5OqmQdq@mail.gmail.com>
+References: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+	<001601cb072b$fe2050f0$fa60f2d0$@org>
+	<AANLkTilrZyI5T-6HyZ1VmCiWw9F3R56smM3wX5OqmQdq@mail.gmail.com>
+Message-ID: <003501cb072f$4eb938d0$ec2baa70$@org>
+
+Thanks - no, I was trying to call in from Bell Canada long distance trunks
+in Canada....
+
+They did confirm they are having some Oracle CRM issues that are effecting
+internal calls but that reaching them shouldn't be a problem - I'm presuming
+this was a long distance trunk problem possibly...
+
+Paul
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Josh Luthman
+Sent: Tuesday, June 08, 2010 1:18 PM
+To: outages at outages.org
+
+We had a BGP issue with L3 down in Atlanta that cause our voice to
+have air calls/fast busy.  From about 8 to noon Eastern.
+
+Maybe you're on our MSX?
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Tue, Jun 8, 2010 at 12:59 PM, Paul Stewart <paul at paulstewart.org> wrote:
+> Sorry, just got through ? weird
+. They claimed they were not having any
+> issues so must have been a carrier issue somewhere
+.
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Paul Stewart
+> Sent: Tuesday, June 08, 2010 12:12 PM
+> To: outages at outages.org
+> Subject: [outages] Equinix NOC Outage?
+>
+>
+>
+> Anyone else having issues reaching Equinix NOC?? Just getting dead air and
+> we have an issue that needs attention
+.
+>
+>
+>
+> Have tried the toll free number and also direct 
+ both from a landline and
+> from a cell phone.
+>
+>
+>
+> Thanks,
+>
+>
+>
+> Paul
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From DHyde at hosting.com  Tue Jun  8 13:07:45 2010
+From: DHyde at hosting.com (Darrell Hyde)
+Date: Tue, 8 Jun 2010 13:07:45 -0400
+Subject: [outages] Equinix NOC Outage?
+In-Reply-To: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+References: <C0A98BB6DAFAAB46A78BBA2C51B98F3E0152A76D@nexus.nexicomgroup.net>
+Message-ID: <6897D46F12DB9244B0BBDDE86BE561D0260741FEB5@MBX03.corp.safesecureweb.com>
+
+I get right through when I call. Calling from ATT mobile in Delaware.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Paul Stewart
+Sent: Tuesday, June 08, 2010 12:12 PM
+To: outages at outages.org
+
+Anyone else having issues reaching Equinix NOC?  Just getting dead air and we have an issue that needs attention....
+
+Have tried the toll free number and also direct ... both from a landline and from a cell phone.
+
+Thanks,
+
+Paul
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100608/5a757f4d/attachment.html>
+
+From jalove at citationair.com  Tue Jun  8 22:13:17 2010
+From: jalove at citationair.com (Love, John)
+Date: Tue, 8 Jun 2010 22:13:17 -0400
+Subject: [outages] Verizon outage?
+Message-ID: <3C8FC1720F232446AF53A4215B860CE42310E152EA@EXCHMAIL01.citationair.com>
+
+Is anyone else experiencing issues with Verizon Facilities in Greenwich, CT / Westchester County NY area??
+
+I've got 3 PRI and 4 MIS T1s with AT&T (using Verizon facilities) all down as well as many Verizon copper trunks.
+Circuits all went down at 07:32 PM
+
+Thanks,
+John
+
+John A. Love
+Manager,
+Systems Administration
+CitationAirTM
+
+Tel:  203-542-3070
+Cell: 203-496-2265
+Fax: 203-542-3166
+
+Five American Lane
+Greenwich, CT 06831
+www.citationair.com
+
+CitationAir is Where You Belong.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100608/6eae68eb/attachment-0001.html>
+
+From cjp at 0x1.net  Wed Jun  9 09:24:49 2010
+From: cjp at 0x1.net (Christopher J. Pilkington)
+Date: Wed, 9 Jun 2010 09:24:49 -0400
+Subject: [outages] NY metro Cablevision
+Message-ID: <20100609132449.GB6749@0x1.net>
+
+We are getting a barrage of calls from clients claiming our site
+is down, with the common thread that they all use Cablevision.
+
+Anything wonky going on this morning with Cablevision?
+
+In the small amount of troubleshooting we've done, it seems as
+if CV's DNS resolver is failing to reach certain sites.  (It is
+hard to find clueful users to test with.)
+
+-cjp
+
+From devon at noved.org  Thu Jun 10 14:36:59 2010
+From: devon at noved.org (Devon True)
+Date: Thu, 10 Jun 2010 14:36:59 -0400
+Subject: [outages] VPN Issues Between Level3 and RR.com Around Atlanta?
+Message-ID: <4C1130CB.2060405@noved.org>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+All:
+
+Anyone experiencing VPN issues between Level3 and RR.com around the
+Atlanta area? When customers try to connect from their office (using
+RR.com for Internet) to their firewall at our center (using Level3), VPN
+sessions fail to establish. All traceroutes appear to go through the
+following hops:
+
+6 12 ms 12 ms 14 ms ae-3-0.cr0.atl20.tbone.rr.com [66.109.6.82]
+7 15 ms 12 ms 12 ms ae-0-0.pr0.atl20.tbone.rr.com [66.109.6.171]
+8 15 ms 12 ms 13 ms xe-7-0-0.edge4.Atlanta2.Level3.net [4.59.12.25]
+9 20 ms 17 ms 18 ms ae-71-52.ebr1.Atlanta2.Level3.net [4.68.103.60]
+
+- --
+Devon
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.12 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkwRMMsACgkQWP2WrBTHBS/2fQCgiMOOdeGDHffD6X2MNQfrBy+F
+qywAn2F0/YOYC5BOe+k2vGDcchPJ7gLR
+=aT1+
+-----END PGP SIGNATURE-----
+
+From josh at imaginenetworksllc.com  Thu Jun 10 15:41:24 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 10 Jun 2010 15:41:24 -0400
+Subject: [outages] VPN Issues Between Level3 and RR.com Around Atlanta?
+In-Reply-To: <4C1130CB.2060405@noved.org>
+References: <4C1130CB.2060405@noved.org>
+Message-ID: <AANLkTin81Ylwrnb1keTkeFwheIhn06Eg8ESLo1supA9_@mail.gmail.com>
+
+>From RR in south west Ohio to voice services in Atlanta (56 Marietta).
+ Services are operational, not a single complaint.
+
+  8    19 ms    17 ms    19 ms  ae-4-0.cr0.chi30.tbone.rr.com [66.109.6.68]
+  9    18 ms    19 ms    18 ms  ae-1-0.pr0.chi10.tbone.rr.com [66.109.6.155]
+ 10    19 ms    18 ms    19 ms  xe-11-2-0.edge2.Chicago2.Level3.net [4.59.28.11]
+ 11    21 ms    18 ms    19 ms  vlan52.ebr2.Chicago2.Level3.net [4.69.138.190]
+ 12    20 ms    19 ms    19 ms  ae-5-5.ebr2.Chicago1.Level3.net [4.69.140.193]
+ 13    47 ms    36 ms    36 ms  ae-3-3.ebr2.Atlanta2.Level3.net [4.69.132.74]
+ 14    36 ms    35 ms     *     ae-11-51.car1.Atlanta1.Level3.net [4.68.103.2]
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+
+On Thu, Jun 10, 2010 at 2:36 PM, Devon True <devon at noved.org> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> All:
+>
+> Anyone experiencing VPN issues between Level3 and RR.com around the
+> Atlanta area? When customers try to connect from their office (using
+> RR.com for Internet) to their firewall at our center (using Level3), VPN
+> sessions fail to establish. All traceroutes appear to go through the
+> following hops:
+>
+> 6 12 ms 12 ms 14 ms ae-3-0.cr0.atl20.tbone.rr.com [66.109.6.82]
+> 7 15 ms 12 ms 12 ms ae-0-0.pr0.atl20.tbone.rr.com [66.109.6.171]
+> 8 15 ms 12 ms 13 ms xe-7-0-0.edge4.Atlanta2.Level3.net [4.59.12.25]
+> 9 20 ms 17 ms 18 ms ae-71-52.ebr1.Atlanta2.Level3.net [4.68.103.60]
+>
+> - --
+> Devon
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2.0.12 (MingW32)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+>
+> iEYEARECAAYFAkwRMMsACgkQWP2WrBTHBS/2fQCgiMOOdeGDHffD6X2MNQfrBy+F
+> qywAn2F0/YOYC5BOe+k2vGDcchPJ7gLR
+> =aT1+
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From michael.self at Phonefusion.com  Thu Jun 10 17:38:17 2010
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Thu, 10 Jun 2010 17:38:17 -0400
+Subject: [outages] Level 3 ATL
+Message-ID: <87DF57F1-7491-4151-ACE9-2BFF963E5E0D@Phonefusion.com>
+
+Anyone noticing persistent packet loss in ATL between Level(3) and UUNET (Verizon/alter.net) or others?
+
+We seem to be getting upwards of 2% packet loss in L3/UUNET handoff.
+11  4.68.62.122 (4.68.62.122)  26.217 ms  23.108 ms *
+12  0.ge-5-0-0.xt1.atl4.alter.net (152.63.82.74)  24.185 ms  22.447 ms
+    0.ge-6-2-0.xt1.atl4.alter.net (152.63.82.10)  24.421 ms
+13  0.so-5-1-0.xl3.mia4.alter.net (152.63.80.38)  39.659 ms  53.411 ms  38.219 ms
+
+
+10  ae-1-51.edge4.atlanta2.level3.net (4.68.103.14)  87.460 ms  41.143 ms  23.457 ms
+11  * 4.68.62.22 (4.68.62.22)  23.187 ms  22.883 ms
+12  0.ge-5-0-0.xt1.atl4.alter.net (152.63.82.74)  24.215 ms
+    0.ge-6-2-0.xt1.atl4.alter.net (152.63.82.10)  23.197 ms
+    0.ge-5-0-0.xt1.atl4.alter.net (152.63.82.74)  23.735 ms
+13  0.so-5-1-0.xl3.mia4.alter.net (152.63.80.38)  38.955 ms  40.421 ms  40.709 ms
+
+
+Michael R Self
+My PhoneFusion ONE number - 954.343.5500 (office/home/fax/mobile/SMS/VoIP)
+Disclaimer: If this email isn't for you, get rid of it.
+
+
+
+
+
+
+From LarrySheldon at cox.net  Thu Jun 10 21:33:59 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Thu, 10 Jun 2010 20:33:59 -0500
+Subject: [outages] Wordpress
+Message-ID: <4C119287.8020100@cox.net>
+
+This may be of no interest--let it die unremarked-upon if it is.
+
+I watch a large number of blogs every day--a lot of them run on WordPress.
+
+For several hours now all the WordPress blogs return only:
+
+"WordPress.com will be back in a minute!"
+-- 
+Somebody should have said:
+A democracy is two wolves and a lamb voting on what to have for dinner.
+
+Freedom under a constitutional republic is a well armed lamb contesting
+the vote.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+
+	
+
+From josh at imaginenetworksllc.com  Thu Jun 10 21:50:52 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 10 Jun 2010 21:50:52 -0400
+Subject: [outages] Wordpress
+In-Reply-To: <4C119287.8020100@cox.net>
+References: <4C119287.8020100@cox.net>
+Message-ID: <AANLkTildX7WNPSWbkASZTifbcotdAKpCepGbsYpQox7G@mail.gmail.com>
+
+Twitter account said they've isolated the issue and are working on it.
+
+On 6/10/10, Larry Sheldon <LarrySheldon at cox.net> wrote:
+> This may be of no interest--let it die unremarked-upon if it is.
+>
+> I watch a large number of blogs every day--a lot of them run on WordPress.
+>
+> For several hours now all the WordPress blogs return only:
+>
+> "WordPress.com will be back in a minute!"
+> --
+> Somebody should have said:
+> A democracy is two wolves and a lamb voting on what to have for dinner.
+>
+> Freedom under a constitutional republic is a well armed lamb contesting
+> the vote.
+>
+> Requiescas in pace o email
+> Ex turpi causa non oritur actio
+> Eppure si rinfresca
+>
+> ICBM Targeting Information:  http://tinyurl.com/4sqczs
+> http://tinyurl.com/7tp8ml
+>
+> 	
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+-- 
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+?Success is not final, failure is not fatal: it is the courage to
+continue that counts.?
+--- Winston Churchill
+
+
+From bpfankuch at cpgreeley.com  Thu Jun 10 21:52:33 2010
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Thu, 10 Jun 2010 19:52:33 -0600
+Subject: [outages] Wordpress
+In-Reply-To: <4C119287.8020100@cox.net>
+References: <4C119287.8020100@cox.net>
+Message-ID: <01759D50DC387C45A018FE1817CE27D76BC3D0FE51@CPExchange1.cpgreeley.com>
+
+http://mashable.com/2010/06/10/wordpress-com-goes-down-takes-thousands-of-blogs-with-it/
+
+shows "all hands are on deck to restore service" however their twitter account shows "The vast majority of blogs are back up, bringing up the rest over the next few minutes after we verify them."
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Larry Sheldon
+Sent: Thursday, June 10, 2010 7:34 PM
+To: outages at outages.org
+
+This may be of no interest--let it die unremarked-upon if it is.
+
+I watch a large number of blogs every day--a lot of them run on WordPress.
+
+For several hours now all the WordPress blogs return only:
+
+"WordPress.com will be back in a minute!"
+--
+Somebody should have said:
+A democracy is two wolves and a lamb voting on what to have for dinner.
+
+Freedom under a constitutional republic is a well armed lamb contesting the vote.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs http://tinyurl.com/7tp8ml
+
+	
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From LarrySheldon at cox.net  Thu Jun 10 23:14:56 2010
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Thu, 10 Jun 2010 22:14:56 -0500
+Subject: [outages] Wordpress
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D76BC3D0FE51@CPExchange1.cpgreeley.com>
+References: <4C119287.8020100@cox.net>
+	<01759D50DC387C45A018FE1817CE27D76BC3D0FE51@CPExchange1.cpgreeley.com>
+Message-ID: <4C11AA30.1050608@cox.net>
+
+On 6/10/2010 20:52, Blake Pfankuch wrote:
+> http://mashable.com/2010/06/10/wordpress-com-goes-down-takes-thousands-of-blogs-with-it/
+>
+>  shows "all hands are on deck to restore service" however their
+> twitter account shows "The vast majority of blogs are back up,
+> bringing up the rest over the next few minutes after we verify
+> them."
+
+Interesting.
+
+Really interesting in light of the recent NANOG discussion and the
+number of operational uses of WordPress facilities that I think (but do
+not have facts for) exist.
+
+-- 
+Somebody should have said:
+A democracy is two wolves and a lamb voting on what to have for dinner.
+
+Freedom under a constitutional republic is a well armed lamb contesting
+the vote.
+
+Requiescas in pace o email
+Ex turpi causa non oritur actio
+Eppure si rinfresca
+
+ICBM Targeting Information:  http://tinyurl.com/4sqczs
+http://tinyurl.com/7tp8ml
+
+	
+
+From outages-list at bedrox.com  Thu Jun 10 21:51:37 2010
+From: outages-list at bedrox.com (JW)
+Date: Thu, 10 Jun 2010 21:51:37 -0400
+Subject: [outages] VPN Issues Between Level3 and RR.com Around Atlanta?
+References: <4C1130CB.2060405@noved.org>
+Message-ID: <770E1D0A87014F5998A9289AD83CEE43@blackdog>
+
+Since early Tuesday morning, we have been suffering with the same issues 
+attempting to connect VPNs between hosts on Verizon FIOS Business class 
+(Tampa market) and hosts homed on Level3.  We are hearing similar complaints 
+from other FIOS users, both residential and business, in the Tampa Bay 
+region.
+
+I'm also seeing noticeably slower throughput between our Road Runner and 
+FIOS endpoints.  The path outbound from Tampa Road Runner toward Verizon is 
+via Level3 in Atlanta.  (return path is via RR's tbone network through DFW)
+
+VPN connections hang and never fully connect.  FTP sessions are dying 
+mid-session, DNS queries randomly fail to complete, and other badness.
+
+It's bad enough we've had to statically route VPN and FTP traffic through 
+another provider to the destinations we need to hit.
+
+
+----- Original Message ----- 
+From: "Devon True" <devon at noved.org>
+To: <outages at outages.org>
+Sent: Thursday, June 10, 2010 2:36 PM
+
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> All:
+>
+> Anyone experiencing VPN issues between Level3 and RR.com around the
+> Atlanta area? When customers try to connect from their office (using
+> RR.com for Internet) to their firewall at our center (using Level3), VPN
+> sessions fail to establish. All traceroutes appear to go through the
+> following hops:
+
+
+
+From outages-list at bedrox.com  Thu Jun 10 21:59:15 2010
+From: outages-list at bedrox.com (JW)
+Date: Thu, 10 Jun 2010 21:59:15 -0400
+Subject: [outages] Level 3 ATL
+Message-ID: <856F74F496A74E548BFA63BBBEBC1CB4@blackdog>
+
+----- Original Message ----- 
+From: "Michael R. Self" <michael.self at phonefusion.com>
+To: <outages at outages.org>
+Sent: Thursday, June 10, 2010 5:38 PM
+
+
+> Anyone noticing persistent packet loss in ATL between Level(3) and UUNET
+> (Verizon/alter.net) or others?
+
+As I mentioned in a separate thread, we are seeing frequent problems when
+attempting to connect VPN endpoints on Verizon FIOS and hosts on Level3.
+Traceroutes show we're reaching those hosts by VZ/UUnet ---> Level3 in
+Atlanta.   VPN connections are mostly dying before the connection is fully
+negotiated.  FTP sessions are also dying-- some never get fully logged in,
+while others are dying mid-transfer.  We're also seeing DNS queries fail to
+complete.
+
+I am not 100% sure it's limited only to peering between VZ/UUnet and Level3,
+but that's the situation we're having the most problems with at this point.
+
+This has been going on since at least 5:00 a.m. Eastern on Tuesday.
+
+
+
+From besquivel at immense.net  Fri Jun 11 14:42:19 2010
+From: besquivel at immense.net (Bret Esquivel)
+Date: Fri, 11 Jun 2010 18:42:19 +0000
+Subject: [outages] AT&T Cell data in Baton Rouge
+Message-ID: <01E0613C808ECF479E314C6BC54D49E71A8BBA76@EXCHINT.in.local>
+
+We have confirmed cell phones around Baton Rouge and New Orleans, AT&T EDGE/3G not working.
+
+Anyone having similar issues?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100611/dc8e8110/attachment.html>
+
+From kyle at pinkley.org  Fri Jun 11 15:21:46 2010
+From: kyle at pinkley.org (Kyle Pinkley)
+Date: Fri, 11 Jun 2010 14:21:46 -0500
+Subject: [outages] AT&T Cell data in Baton Rouge
+In-Reply-To: <01E0613C808ECF479E314C6BC54D49E71A8BBA76@EXCHINT.in.local>
+References: <01E0613C808ECF479E314C6BC54D49E71A8BBA76@EXCHINT.in.local>
+Message-ID: <AANLkTimvxxhO3yRpkOUQrhP1r_PbuwU9AD3Qs7F7BnEj@mail.gmail.com>
+
+Yes with 3G data in Lafayette, LA through ATT.   EDGE works.
+
+On Jun 11, 2010 2:13 PM, "Bret Esquivel" <besquivel at immense.net> wrote:
+
+ We have confirmed cell phones around Baton Rouge and New Orleans, AT&T
+EDGE/3G not working.
+
+
+
+Anyone having similar issues?
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100611/7a217354/attachment.html>
+
+From virendra.rode at outages.org  Fri Jun 11 16:12:51 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Fri, 11 Jun 2010 13:12:51 -0700
+Subject: [outages] [Fwd: Verizon OC12 outage in Dallas, TX]
+Message-ID: <4C1298C3.7060207@outages.org>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://ipsla.savvis.net/Matrix.jsp?report=L&region=US-US&refresh=60
+
+Anyone has any further insight into on these circuits?
+
+
+regards,
+/virendra
+
+- -------- Original Message --------
+Subject: Verizon OC12 outage in Dallas, TX
+Date: Fri, 11 Jun 2010 14:05:13 -0500
+From: Tim Connolly <tim.connolly at farecompare.com>
+To: Nanog <nanog at nanog.org>
+
+	I don't know whether this is bigger or smaller, but Savvis seems to
+suggest there are 11 other DS3's involved in an outage that took us out
+around 11am. Anyone else have details? Verizon supposedly dispatched a
+tech to the Bryan St. pop.	
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFMEpjDpbZvCIJx1bcRAuCDAKCISYwXXu8eo+l4bEcKCkM8d/7XKQCgkYG6
+MZ63mF6OYC8TmO3GgRPTQTw=
+=rvYZ
+-----END PGP SIGNATURE-----
+
+From netadmin at xplain.com  Fri Jun 11 19:35:21 2010
+From: netadmin at xplain.com (Network Administrator)
+Date: Fri, 11 Jun 2010 16:35:21 -0700
+Subject: [outages] AT&T Cell data in Baton Rouge
+In-Reply-To: <01E0613C808ECF479E314C6BC54D49E71A8BBA76@EXCHINT.in.local>
+References: <01E0613C808ECF479E314C6BC54D49E71A8BBA76@EXCHINT.in.local>
+Message-ID: <p06240810c838786c0592@[192.168.1.3]>
+
+Interestingly, AT&T is having voice and data problems around LAX (Los
+Angeles International Airport).  No service, dropped calls, no 3G, etc...
+It appears to be localized to the area and better once away from the
+airport.
+
+At 6:42 PM +0000 6/11/10, Bret Esquivel wrote:
+>Content-Language: en-US
+>Content-Type: multipart/alternative;
+>	boundary="_000_01E0613C808ECF479E314C6BC54D49E71A8BBA76EXCHINTinlocal_"
+>
+>We have confirmed cell phones around Baton Rouge and New Orleans, AT&T
+>EDGE/3G not working.
+>
+>Anyone having similar issues?
+>
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100611/569858fa/attachment.html>
+
+From paul at mcmillan.ws  Fri Jun 11 20:43:55 2010
+From: paul at mcmillan.ws (Paul McMillan)
+Date: Fri, 11 Jun 2010 17:43:55 -0700
+Subject: [outages] Mediatemple DNS out again
+Message-ID: <AANLkTilqkfOFf0wT6w2N4JCm8eKm64U3QxTZaFQ8sbcc@mail.gmail.com>
+
+Media Temple's DNS service was out today for around an hour.
+Apparently there were severe network latency issues even for sites not
+served by their DNS. Everything seems to be working now.
+
+-Paul
+
+From williamsjj at digitar.com  Mon Jun 14 13:24:09 2010
+From: williamsjj at digitar.com (Jason J. W. Williams)
+Date: Mon, 14 Jun 2010 11:24:09 -0600
+Subject: [outages] Mediatemple DNS out again
+In-Reply-To: <AANLkTilqkfOFf0wT6w2N4JCm8eKm64U3QxTZaFQ8sbcc@mail.gmail.com>
+References: <AANLkTilqkfOFf0wT6w2N4JCm8eKm64U3QxTZaFQ8sbcc@mail.gmail.com>
+Message-ID: <82A9B015-A07B-4466-AFFC-68390A8BB8C6@digitar.com>
+
+Yeah...Plesk healthchecks on MT instances were failing at the same time.
+
+-J
+--------
+Jason J. W. Williams, COO/CTO
+DigiTar
+williamsjj at digitar.com
+
+V: 208.343.8520
+F: 208.322.8522
+M: 208.863.0727
+
+www.digitar.com
+
+On Jun 11, 2010, at 6:43 PM, Paul McMillan wrote:
+
+> 
+> Media Temple's DNS service was out today for around an hour.
+> Apparently there were severe network latency issues even for sites not
+> served by their DNS. Everything seems to be working now.
+> 
+> -Paul
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> !SIG:4c12d8fb162728424018713!
+> 
+
+From dylan.ebner at crlmed.com  Tue Jun 15 16:21:34 2010
+From: dylan.ebner at crlmed.com (Dylan Ebner)
+Date: Tue, 15 Jun 2010 20:21:34 +0000
+Subject: [outages] CenturyLink / EMBARQ Outage in Minnesota
+Message-ID: <017265BF3B9640499754DD48777C3D20690666EA39@MBX9.EXCHPROD.USA.NET>
+
+CenturyLink/EMBARQ is having  a near statewide outage in Minnesota. No ETR
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100615/13102487/attachment.html>
+
+From andy at mbrez.com  Wed Jun 16 11:53:01 2010
+From: andy at mbrez.com (Andy Brezinsky)
+Date: Wed, 16 Jun 2010 10:53:01 -0500
+Subject: [outages] Intuit / Quickbooks Down
+Message-ID: <1276703581.3016.46.camel@zener>
+
+All Intuit properties including QuickBooks online have been down since
+7pm last night.  Official word from their twitter feed is that they had
+a power outage at their datacenter.
+
+This is also affecting desktop Quickbook users who utilize the QB credit
+card gateways.
+
+-- 
+~Andy Brezinsky
+
+
+From bpfankuch at cpgreeley.com  Wed Jun 16 12:43:17 2010
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Wed, 16 Jun 2010 10:43:17 -0600
+Subject: [outages] Intuit / Quickbooks Down
+In-Reply-To: <1276703581.3016.46.camel@zener>
+References: <1276703581.3016.46.camel@zener>
+Message-ID: <01759D50DC387C45A018FE1817CE27D76BC3E27BA8@CPExchange1.cpgreeley.com>
+
+This also is affecting any users who use email forms from quickbooks.  I spent about 30 minutes trying to troubleshoot this with a client this morning until I got this email...
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Andy Brezinsky
+Sent: Wednesday, June 16, 2010 9:53 AM
+To: outages at outages.org
+
+All Intuit properties including QuickBooks online have been down since 7pm last night.  Official word from their twitter feed is that they had a power outage at their datacenter.
+
+This is also affecting desktop Quickbook users who utilize the QB credit card gateways.
+
+--
+~Andy Brezinsky
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From frnkblk at iname.com  Mon Jun 28 19:13:58 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Mon, 28 Jun 2010 18:13:58 -0500
+Subject: [outages] CenturyLink Outage
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAXoM3WpBUFS7iK5A6Rlj7YAQAAAAA=@iname.com>
+
+>From the voiceops listserv.
+
+-----Original Message-----
+Sent: Monday, June 28, 2010 11:27 AM
+To: voiceops at voiceops.org
+
+We seem to be experiencing an outage with CenturyLink in the 308 area
+code, seeing backup DSL as well as T1 circuits all down.  Trying to
+call their NOC and we just get a fast busy.  Curious if anyone else is
+seeing issues with CenturyLink right now.
+
+Thanks,
+
+Nick Colton
+Allo Communications
+_______________________________________________
+VoiceOps mailing list
+VoiceOps at voiceops.org
+https://puck.nether.net/mailman/listinfo/voiceops
+
+
+From frnkblk at iname.com  Mon Jun 28 22:02:41 2010
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 28 Jun 2010 21:02:41 -0500
+Subject: [outages] verizon.net having SMTP issues?
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA6IgT/xdLySJml3NWvHtD4AQAAAAA=@iname.com>
+
+Verizon.net seems to be having SMTP issues.  Our e-mail queue is backing up
+for that domain, and manual connections close by themselves without a SMTP
+banner.
+
+Verizon's site
+	
+https://www.verizon.net/central/vzc.portal?_nfpb=true&_pageLabel=vzc_help_sy
+stemStatus&status_type=Mail
+doesn't indicate any issue.
+
+Frank
+
+
+From outages at jdc.parodius.com  Tue Jun 29 02:37:11 2010
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Mon, 28 Jun 2010 23:37:11 -0700
+Subject: [outages] verizon.net having SMTP issues?
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA6IgT/xdLySJml3NWvHtD4AQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA6IgT/xdLySJml3NWvHtD4AQAAAAA=@iname.com>
+Message-ID: <20100629063711.GA16008@icarus.home.lan>
+
+http://www.dslreports.com/forum/r24449579-Verizon-Webmail-Down
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Mon, Jun 28, 2010 at 09:02:41PM -0500, Frank Bulk wrote:
+> Verizon.net seems to be having SMTP issues.  Our e-mail queue is backing up
+> for that domain, and manual connections close by themselves without a SMTP
+> banner.
+> 
+> Verizon's site
+> 	
+> https://www.verizon.net/central/vzc.portal?_nfpb=true&_pageLabel=vzc_help_sy
+> stemStatus&status_type=Mail
+> doesn't indicate any issue.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From frnkblk at iname.com  Tue Jun 29 08:15:33 2010
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 29 Jun 2010 07:15:33 -0500
+Subject: [outages] verizon.net having SMTP issues?
+In-Reply-To: <20100629063711.GA16008@icarus.home.lan>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA6IgT/xdLySJml3NWvHtD4AQAAAAA=@iname.com>
+	<20100629063711.GA16008@icarus.home.lan>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAN9Ys7iyA6Qq2jPVs0034CAQAAAAA=@iname.com>
+
+Thanks for that link and also to the off-list confirmation I received from
+another ISP.
+
+Frank
+
+-----Original Message-----
+From: Jeremy Chadwick [mailto:outages at jdc.parodius.com] 
+Sent: Tuesday, June 29, 2010 1:37 AM
+To: Frank Bulk
+Cc: outages at outages.org
+
+http://www.dslreports.com/forum/r24449579-Verizon-Webmail-Down
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Mon, Jun 28, 2010 at 09:02:41PM -0500, Frank Bulk wrote:
+> Verizon.net seems to be having SMTP issues.  Our e-mail queue is backing
+up
+> for that domain, and manual connections close by themselves without a SMTP
+> banner.
+> 
+> Verizon's site
+>   
+>
+https://www.verizon.net/central/vzc.portal?_nfpb=true&_pageLabel=vzc_help_sy
+> stemStatus&status_type=Mail
+> doesn't indicate any issue.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From mhuff at ox.com  Tue Jun 29 11:16:54 2010
+From: mhuff at ox.com (Matthew Huff)
+Date: Tue, 29 Jun 2010 11:16:54 -0400
+Subject: [outages] RCN Metro fiber cut north of NYC
+Message-ID: <483E6B0272B0284BA86D7596C40D29F9E2C2061E39@PUR-EXCH07.ox.com>
+
+Apparently RCN is showing a fiber cut of their 10GB ring in the White Plains / Harrison area. We have a number of circuits impacted.
+
+The master case number is: 45961-062910
+
+----
+Matthew Huff?????? | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+http://www.ox.com  | Phone: 914-460-4039
+aim: matthewbhuff? | Fax:?? 914-460-4139
+
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Matthew Huff.vcf
+Type: text/x-vcard
+Size: 1612 bytes
+Desc: Matthew Huff.vcf
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100629/d6ddc836/attachment.vcf>
+
+From keith1christian at gmail.com  Tue Jun 29 13:31:06 2010
+From: keith1christian at gmail.com (Keith Christian)
+Date: Tue, 29 Jun 2010 11:31:06 -0600
+Subject: [outages] Covad experiencing a major outage in the Denver area
+Message-ID: <AANLkTinVatDAh4pg7uPAGXGI5ITH0EvG1bTnJPRQBN9Q@mail.gmail.com>
+
+Should be fixed within the next two hours, (according to a recorded
+announcment.)
+
+From chunt at reachone.com  Tue Jun 29 16:49:22 2010
+From: chunt at reachone.com (Christopher Hunt)
+Date: Tue, 29 Jun 2010 13:49:22 -0700
+Subject: [outages] Fwd: LEC Outage notification, 06/29/2010
+Message-ID: <4C2A5C52.6030803@reachone.com>
+
+ From one of our SPs:
+
+Christopher Hunt
+ReachONE Internet, Inc.
+(360)456-5640
+www.reachone.com
+
+
+
+-------- Original Message --------
+Subject: 	LEC Outage notification, 06/29/2010
+Date: 	Tue, 29 Jun 2010 13:34:26 -0600 (MDT)
+
+	
+To: 	noc at reachone.com
+
+
+
+This is an outage notification for Local Exchange Carrier.
+
+Date: 06/29/2010
+Start time: 8:30 AM PST
+Estimated End time: 3:00 PM PST
+Affected: Walla, Walla WA
+Detail:
+
+There was a fiber bundle cut in Walla, Walla WA.  The cut is affecting Qwest services including POTS lines, DSL lines, T1 lines&  higher facility services.  Qwest is working on splicing and repairing the damaged fiber cable, customers will come up as their splicing is done, estimated repair is currently showing 3:00 PM Pacific time zone.
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100629/8888cb8c/attachment.html>
+
+From michael.self at Phonefusion.com  Tue Jun 29 17:07:06 2010
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Tue, 29 Jun 2010 17:07:06 -0400
+Subject: [outages] Apple APNS (push notification) servers
+Message-ID: <F0D6D470-9802-4B78-BBD6-F48E14CC9F25@Phonefusion.com>
+
+We are seeing Apple's APNS  (push notification) services are down.  Does anyone else see this?
+
+gateway.push.apple.com:2195
+
+Thanks,
+Mike.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100629/75dbbf8e/attachment.html>
+
+From frnkblk at iname.com  Wed Jun 30 12:14:28 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Wed, 30 Jun 2010 11:14:28 -0500
+Subject: [outages] Anyone else seeing suddenlink.net e-mail issues?
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+
+Anyone else seeing suddenlink.net e-mail issues?  Our outbound queue is
+backing up to them and when I manually connect to port 25 the connection
+drops.
+
+Frank
+
+
+From ken.gilmour at gmail.com  Wed Jun 30 13:52:31 2010
+From: ken.gilmour at gmail.com (Ken Gilmour)
+Date: Wed, 30 Jun 2010 11:52:31 -0600
+Subject: [outages] Anyone else seeing suddenlink.net e-mail issues?
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+Message-ID: <AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+
+I don't have any mails backed up for them but I am not able to telnet to
+them either
+
+[root at mta1 ~]# telnet suddenlink.net 25
+Trying 208.180.42.11...
+^C (after about 2 minutes)
+
+On 30 June 2010 10:14, Frank Bulk - iName.com <frnkblk at iname.com> wrote:
+
+> Anyone else seeing suddenlink.net e-mail issues?  Our outbound queue is
+> backing up to them and when I manually connect to port 25 the connection
+> drops.
+>
+> Frank
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100630/504a267c/attachment.html>
+
+From douglas.j.schmidt at gmail.com  Wed Jun 30 14:50:07 2010
+From: douglas.j.schmidt at gmail.com (doug schmidt)
+Date: Wed, 30 Jun 2010 14:50:07 -0400
+Subject: [outages] Anyone else seeing suddenlink.net e-mail issues?
+In-Reply-To: <AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+	<AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+Message-ID: <AANLkTikD3OChgHqKKmpNKUvwHycoWn1r9Xs90ejsIEyY@mail.gmail.com>
+
+On Wed, Jun 30, 2010 at 1:52 PM, Ken Gilmour <ken.gilmour at gmail.com> wrote:
+> I don't have any mails backed up for them but I am not able to telnet to
+> them either
+>
+> [root at mta1 ~]# telnet suddenlink.net 25
+> Trying 208.180.42.11...
+> ^C (after about 2 minutes)
+
+[...]
+;; QUESTION SECTION:
+;suddenlink.net.                        IN      MX
+
+;; ANSWER SECTION:
+suddenlink.net.         81176   IN      MX      10 mx.suddenlink.net.
+
+$ telnet mx.suddenlink.net 25
+Trying 208.180.40.132...
+telnet: connect to address 208.180.40.132: Connection refused
+telnet: Unable to connect to remote host
+
+
+>
+> On 30 June 2010 10:14, Frank Bulk - iName.com <frnkblk at iname.com> wrote:
+>>
+>> Anyone else seeing suddenlink.net e-mail issues? ?Our outbound queue is
+>> backing up to them and when I manually connect to port 25 the connection
+>> drops.
+>>
+>> Frank
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+From shaun at shaunc.com  Wed Jun 30 14:38:33 2010
+From: shaun at shaunc.com (Shaun)
+Date: Wed, 30 Jun 2010 13:38:33 -0500
+Subject: [outages] Anyone else seeing suddenlink.net e-mail issues?
+In-Reply-To: <AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+	<AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+Message-ID: <20100630133352.6220.5922242B@shaunc.com>
+
+You're probably looking for mx.suddenlink.net, but 25 is being refused
+there. An ISP that size with only one MX record? Ouch.
+
+-s
+
+On Wed, 30 Jun 2010 11:52:31 -0600
+Ken Gilmour <ken.gilmour at gmail.com> wrote:
+
+> I don't have any mails backed up for them but I am not able to telnet to
+> them either
+> 
+> [root at mta1 ~]# telnet suddenlink.net 25
+> Trying 208.180.42.11...
+> ^C (after about 2 minutes)
+> 
+> On 30 June 2010 10:14, Frank Bulk - iName.com <frnkblk at iname.com> wrote:
+> 
+> > Anyone else seeing suddenlink.net e-mail issues?  Our outbound queue is
+> > backing up to them and when I manually connect to port 25 the connection
+> > drops.
+> >
+> > Frank
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+
+
+
+From douglas.j.schmidt at gmail.com  Wed Jun 30 14:53:59 2010
+From: douglas.j.schmidt at gmail.com (doug schmidt)
+Date: Wed, 30 Jun 2010 14:53:59 -0400
+Subject: [outages] Anyone else seeing suddenlink.net e-mail issues?
+In-Reply-To: <AANLkTikD3OChgHqKKmpNKUvwHycoWn1r9Xs90ejsIEyY@mail.gmail.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABDvETAo8P2QKZPA7jvYxqWAQAAAAA=@iname.com>
+	<AANLkTin1OjTXhxQYP7wX8fZb1C-ObnkGFcClqBY1CZYo@mail.gmail.com>
+	<AANLkTikD3OChgHqKKmpNKUvwHycoWn1r9Xs90ejsIEyY@mail.gmail.com>
+Message-ID: <AANLkTilEO2-c3_Vjw9teD4FuCqkxjP2Ha0ehac5Rh9ZD@mail.gmail.com>
+
+On Wed, Jun 30, 2010 at 2:50 PM, doug schmidt
+<douglas.j.schmidt at gmail.com> wrote:
+> On Wed, Jun 30, 2010 at 1:52 PM, Ken Gilmour <ken.gilmour at gmail.com> wrote:
+>> I don't have any mails backed up for them but I am not able to telnet to
+>> them either
+>>
+>> [root at mta1 ~]# telnet suddenlink.net 25
+>> Trying 208.180.42.11...
+>> ^C (after about 2 minutes)
+>
+> [...]
+> ;; QUESTION SECTION:
+> ;suddenlink.net. ? ? ? ? ? ? ? ? ? ? ? ?IN ? ? ?MX
+>
+> ;; ANSWER SECTION:
+> suddenlink.net. ? ? ? ? 81176 ? IN ? ? ?MX ? ? ?10 mx.suddenlink.net.
+>
+> $ telnet mx.suddenlink.net 25
+> Trying 208.180.40.132...
+> telnet: connect to address 208.180.40.132: Connection refused
+> telnet: Unable to connect to remote host
+>
+
+Works occasionally;
+
+$ telnet mx.suddenlink.net 25
+Trying 208.180.40.132...
+Connected to mx.suddenlink.net.
+Escape character is '^]'.
+220 edge07.suddenlink.net ESMTP server (InterMail vG.3.00.03.00
+201-2196-126-20070720) ready Wed, 30 Jun 2010 13:52:04 -0500
+quit
+221 edge07.suddenlink.net ESMTP server closing connection
+Connection closed by foreign host.
+
+
+
+>
+>>
+>> On 30 June 2010 10:14, Frank Bulk - iName.com <frnkblk at iname.com> wrote:
+>>>
+>>> Anyone else seeing suddenlink.net e-mail issues? ?Our outbound queue is
+>>> backing up to them and when I manually connect to port 25 the connection
+>>> drops.
+>>>
+>>> Frank
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+
+

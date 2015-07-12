@@ -1,0 +1,3889 @@
+From tim.connolly at farecompare.com  Sun Jun  3 11:38:55 2012
+From: tim.connolly at farecompare.com (Tim Connolly (FC))
+Date: Sun, 3 Jun 2012 10:38:55 -0500
+Subject: [outages] Anyone know about the openbl.org outage?
+Message-ID: <A84F62CC-ADE0-4F5D-A415-A9A0D3E1FD46@farecompare.com>
+
+Seems like their upstream cut them off. Their first NS and their website are in the same subnet, neither are reachable. This website has the public list of known IPs to block due to excessive login attempts and whatnot. We use it to build a db in our cpanel boxes (cphulkd) blacklist. http://www.openbl.org/lists/base.txt
+
+traceroute to 80.237.253.233 (80.237.253.233), 30 hops max, 60 byte packets
+ 1  <removed>
+ 2  <removed>
+ 3  xe-5-3-0.core4.dllstx01.corexchange.com (208.78.216.162)  26.774 ms  26.750 ms  26.721 ms
+ 4  tengigabitethernet2-2.asr1.dal2.gblx.net (208.48.236.129)  9.544 ms  9.516 ms  9.482 ms
+ 5  xe-1-2-0.cr-antares.ams1.hosteurope.de (206.165.75.2)  132.227 ms  131.102 ms  131.074 ms
+ 6  xe-11-3-0.cr-pollux.cgn3.hosteurope.de (80.237.129.117)  129.283 ms  120.593 ms  119.461 ms
+ 7  xe-0-0-0.dr-master.r2.cgn3.hosteurope.de (176.28.4.42)  122.862 ms  122.763 ms  122.782 ms
+ 8  * * *
+ 9  * * *
+
+
+
+From frnkblk at iname.com  Sun Jun  3 20:49:45 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Sun, 3 Jun 2012 19:49:45 -0500
+Subject: [outages] Blackberry web services
+Message-ID: <00a701cd41eb$efb4dca0$cf1e95e0$@iname.com>
+
+I learned from our regional cellular provider at 5 pm Central that the
+BlackBerry Network Operations Center received reports about no or sluggish
+web browsing.  At 6:50 pm we were informed the issue cleared.
+
+Frank
+
+
+From kwallace at pcconnection.com  Thu Jun  7 12:10:20 2012
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Thu, 7 Jun 2012 12:10:20 -0400
+Subject: [outages] Verizon Business - Boston/Charlton
+Message-ID: <B92E4A692F0F6B419EE79045D420F72A2F44A9CD49@MKA176.pcc.int>
+
+Did anyone see any issues around 11:14 EDT?  Had a BGP hold timer expire.
+Not sure if this was a transport or router issue
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120607/0258da71/attachment.html>
+
+From Vinny_Abello at Dell.com  Fri Jun  8 11:39:11 2012
+From: Vinny_Abello at Dell.com (Vinny_Abello at Dell.com)
+Date: Fri, 8 Jun 2012 15:39:11 +0000
+Subject: [outages] Peeringdb down?
+Message-ID: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+
+I already sent an email to support at peeringdb.com<mailto:support at peeringdb.com> about this, but I'm uncertain they are receiving email properly, so I'll mention it here as well. I hadn't seen mention of it already anywhere.
+
+I'm seeing MySQL errors when attempting to query peeringdb.com this morning. I'm assuming the admins or friends of admins lurk here. :)
+
+IE:
+
+Database error: Invalid SQL: .....<edited>
+MySQL Error: 1030 (Got error 28 from storage engine)
+Session halted.
+
+-Vinny
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120608/9334c2ee/attachment.html>
+
+From outages at jdc.parodius.com  Fri Jun  8 11:55:39 2012
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Fri, 8 Jun 2012 08:55:39 -0700
+Subject: [outages] Peeringdb down?
+In-Reply-To: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+References: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+Message-ID: <20120608155539.GA22649@icarus.home.lan>
+
+FWIW, errno 28 = ENOSPC = No space left on device
+
+peeringdb needs better monitoring.  ;-)
+
+-- 
+| Jeremy Chadwick                                   jdc at koitsu.org |
+| UNIX Systems Administrator                http://jdc.koitsu.org/ |
+| Mountain View, CA, US                                            |
+| Making life hard for others since 1977.             PGP 4BD6C0CB |
+
+On Fri, Jun 08, 2012 at 03:39:11PM +0000, Vinny_Abello at Dell.com wrote:
+> I already sent an email to support at peeringdb.com<mailto:support at peeringdb.com> about this, but I'm uncertain they are receiving email properly, so I'll mention it here as well. I hadn't seen mention of it already anywhere.
+> 
+> I'm seeing MySQL errors when attempting to query peeringdb.com this morning. I'm assuming the admins or friends of admins lurk here. :)
+> 
+> IE:
+> 
+> Database error: Invalid SQL: .....<edited>
+> MySQL Error: 1030 (Got error 28 from storage engine)
+> Session halted.
+> 
+> -Vinny
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From djahandarie at gmail.com  Fri Jun  8 12:03:00 2012
+From: djahandarie at gmail.com (Darius Jahandarie)
+Date: Fri, 8 Jun 2012 12:03:00 -0400
+Subject: [outages] Peeringdb down?
+In-Reply-To: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+References: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+Message-ID: <CAFANWtVz4MhHzXo79gxaYphNNPvsKM4bACUQ=MytDna7g3YWvA@mail.gmail.com>
+
+On Fri, Jun 8, 2012 at 11:39 AM,  <Vinny_Abello at dell.com> wrote:
+> I already sent an email to support at peeringdb.com<mailto:support at peeringdb.com> about this, but I'm uncertain they are receiving email properly, so I'll mention it here as well. I hadn't seen mention of it already anywhere.
+>
+> I'm seeing MySQL errors when attempting to query peeringdb.com this morning. I'm assuming the admins or friends of admins lurk here. :)
+>
+> IE:
+>
+> Database error: Invalid SQL: .....<edited>
+> MySQL Error: 1030 (Got error 28 from storage engine)
+> Session halted.
+>
+> -Vinny
+
+The box that peeringDB is on is old and cranky. People are working on
+moving it to a better box.
+
+
+However, when the web interface goes down, usually you can still get
+information with the whois and finger interfaces:
+
+
+d82h214:~ Darius$ whois -h whois.peeringdb.com AS4436
+
+General Network Information
+---------------------------
+Network Name         : nLayer Communications
+Name Aliases         :
+Primary ASN          : 4436
+Website              : http://www.nlayer.net/
+IRR AS-SET           : AS-NLAYER
+Network Type         : NSP
+Approx BGP Prefixes  : 10000
+Traffic Levels       : 1 Tbps+
+Traffic Ratios       : Mostly Outbound
+Geographic Scope     : Global
+Supported Protocols  : Coming Soon
+Looking Glass URL    : http://lg.nlayer.net/
+Route Server URL     : telnet://route-server.nlayer.net
+Public Notes         :
+Record Created Date  : 2004-07-28 00:00:00
+Last Updated Date    : 2012-05-31 01:25:53
+
+[...]
+
+
+
+d82h214:~ Darius$ whois -h whois.peeringdb.com AS4436
+
+General Network Information
+---------------------------
+Network Name         : nLayer Communications
+Name Aliases         :
+Primary ASN          : 4436
+Website              : http://www.nlayer.net/
+IRR AS-SET           : AS-NLAYER
+Network Type         : NSP
+Approx BGP Prefixes  : 10000
+Traffic Levels       : 1 Tbps+
+Traffic Ratios       : Mostly Outbound
+Geographic Scope     : Global
+Supported Protocols  : Coming Soon
+Looking Glass URL    : http://lg.nlayer.net/
+Route Server URL     : telnet://route-server.nlayer.net
+Public Notes         :
+Record Created Date  : 2004-07-28 00:00:00
+Last Updated Date    : 2012-05-31 01:25:53
+
+[...]
+
+
+
+All the best.
+
+-- 
+Darius Jahandarie
+
+From djahandarie at gmail.com  Fri Jun  8 12:04:27 2012
+From: djahandarie at gmail.com (Darius Jahandarie)
+Date: Fri, 8 Jun 2012 12:04:27 -0400
+Subject: [outages] Peeringdb down?
+In-Reply-To: <CAFANWtVz4MhHzXo79gxaYphNNPvsKM4bACUQ=MytDna7g3YWvA@mail.gmail.com>
+References: <FD9B2CB2B33E394FAE3B74669547605712BC4B2E@DFWX10HMPTC01.AMER.DELL.COM>
+ <CAFANWtVz4MhHzXo79gxaYphNNPvsKM4bACUQ=MytDna7g3YWvA@mail.gmail.com>
+Message-ID: <CAFANWtWSCNiPTRGHSgYiNAH54n6=oFUFLmeupoOk6BimRo=eLA@mail.gmail.com>
+
+On Fri, Jun 8, 2012 at 12:03 PM, Darius Jahandarie
+<djahandarie at gmail.com> wrote:
+> However, when the web interface goes down, usually you can still get
+> information with the whois and finger interfaces:
+
+And of course, this is what I meant by the finger interface:
+
+d82h214:~ Darius$ finger as4436 at peeringdb.com
+
+
+
+Still early.
+
+-- 
+Darius Jahandarie
+
+From bdantzig at medline.com  Tue Jun 12 12:27:22 2012
+From: bdantzig at medline.com (Dantzig, Brian)
+Date: Tue, 12 Jun 2012 11:27:22 -0500
+Subject: [outages] Dubuque IA CO Problems
+Message-ID: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+
+From frnkblk at iname.com  Tue Jun 12 13:05:24 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 12 Jun 2012 12:05:24 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+Message-ID: <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that at
+11:25 am Central the wireless carrier we're associated with notified us of
+an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm not sure
+if that cell site is fed out or through Dubuque, but considering the timing
+and relative location, the two could be connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From frnkblk at iname.com  Tue Jun 12 13:10:30 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 12 Jun 2012 12:10:30 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <0C6A4A8DD60DBF4A99C300DDA771BFAB02E93721F893@server3.MUTUALTEL.MTCNET.NET>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <0C6A4A8DD60DBF4A99C300DDA771BFAB02E93721F893@server3.MUTUALTEL.MTCNET.NET>
+Message-ID: <001c01cd48be$4585b8b0$d0912a10$@iname.com>
+
+Update received from the wireless carrier while I was composing this
+previous message:
+
+	We've been notified of an issue w/ our customers calling to 
+	CenturyLink customers in Dubuque:
+
+	Calls to and from CenturyLink in the Dubuque area will likely 
+	fail until this issue is resolved.  We are not seeing any 
+	affected cell sites at this time. <redacted> went off the air at 
+	around the same time, so it could be related.
+
+	The NOC is working w/ CenturyLink to get this restored as quickly 
+	as possible. CenturyLink has dispatched a tech to the site.
+
+The redacted site (in addition to Scales Mound) is within 20 miles of
+Dubuque.
+
+Frank
+
+-----Original Message-----
+From: Frank Bulk [mailto:frnkblk at iname.com] 
+Sent: Tuesday, June 12, 2012 12:05 PM
+To: 'Dantzig, Brian'; 'outages at outages.org'
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that at
+11:25 am Central the wireless carrier we're associated with notified us of
+an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm not sure
+if that cell site is fed out or through Dubuque, but considering the timing
+and relative location, the two could be connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From bdantzig at medline.com  Tue Jun 12 13:10:47 2012
+From: bdantzig at medline.com (Dantzig, Brian)
+Date: Tue, 12 Jun 2012 12:10:47 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+Message-ID: <1F26704905C4804AAF98B0AE6BE0295109A69EB3@MUNEXBE1.medline.com>
+
+Yes, Iowa. Sorry about that.
+Sprint is telling us it is a fiber cut and DS3s to Clinton, IA are down.
+But residential dialtone seems to be down and the 911 center has
+rerouted calls to Cedar Falls. City is telling locals that 911 can be
+reached via cell phones.
+
+From:
+Brian Dantzig
+Senior Network Engineer
+Medline Industries, Inc.
+phone: 847.837.2795
+bdantzig at medline.com
+
+
+
+
+-----Original Message-----
+From: Frank Bulk [mailto:frnkblk at iname.com] 
+Sent: Tuesday, June 12, 2012 12:05 PM
+To: Dantzig, Brian; outages at outages.org
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that
+at
+11:25 am Central the wireless carrier we're associated with notified us
+of an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm
+not sure if that cell site is fed out or through Dubuque, but
+considering the timing and relative location, the two could be
+connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From toasty at dragondata.com  Tue Jun 12 13:12:29 2012
+From: toasty at dragondata.com (Kevin Day)
+Date: Tue, 12 Jun 2012 12:12:29 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+Message-ID: <3C15B917-80CC-4F99-A86C-1A67676FA374@dragondata.com>
+
+Appears to be a city wide outage:
+
+
+http://www.kcrg.com/news/local/Landline-Phone-Service-Outage-Reported-in-Dubuque-Affecting-911-Service-158589405.html
+
+
+On Jun 12, 2012, at 12:05 PM, Frank Bulk wrote:
+
+> I assume this Dubuque, Iowa?  The only thing I've seen thus far is that at
+> 11:25 am Central the wireless carrier we're associated with notified us of
+> an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm not sure
+> if that cell site is fed out or through Dubuque, but considering the timing
+> and relative location, the two could be connected.
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Dantzig, Brian
+> Sent: Tuesday, June 12, 2012 11:27 AM
+> To: outages at outages.org
+> Subject: [outages] Dubuque IA CO Problems
+> 
+> We lost voice and data circuits coming out of the Dubuque CO. Both
+> copper T1s and our Fiber node are down. I tried calling a few local
+> businesses in Dubuque and I get fast busy's. Nothing yet from my
+> carriers.
+> Anyone have any other information.
+> 
+> Brian Dantzig
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From frnkblk at iname.com  Tue Jun 12 13:13:14 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 12 Jun 2012 12:13:14 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <1F26704905C4804AAF98B0AE6BE0295109A69EB3@MUNEXBE1.medline.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+ <1F26704905C4804AAF98B0AE6BE0295109A69EB3@MUNEXBE1.medline.com>
+Message-ID: <001d01cd48be$a6e5b330$f4b11990$@iname.com>
+
+I learned more from the wireless carrier's NOC: CenturyLink's Dubuque switch
+is isolated due to an OC-192 outage.
+
+Already in the news:
+http://www.kcrg.com/news/local/Landline-Phone-Service-Outage-Reported-in-Dub
+uque-Affecting-911-Service-158589405.html
+
+Frank
+
+-----Original Message-----
+From: Dantzig, Brian [mailto:bdantzig at medline.com] 
+Sent: Tuesday, June 12, 2012 12:11 PM
+To: frnkblk at iname.com; outages at outages.org
+
+Yes, Iowa. Sorry about that.
+Sprint is telling us it is a fiber cut and DS3s to Clinton, IA are down.
+But residential dialtone seems to be down and the 911 center has
+rerouted calls to Cedar Falls. City is telling locals that 911 can be
+reached via cell phones.
+
+From:
+Brian Dantzig
+Senior Network Engineer
+Medline Industries, Inc.
+phone: 847.837.2795
+bdantzig at medline.com
+
+
+
+
+-----Original Message-----
+From: Frank Bulk [mailto:frnkblk at iname.com] 
+Sent: Tuesday, June 12, 2012 12:05 PM
+To: Dantzig, Brian; outages at outages.org
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that
+at
+11:25 am Central the wireless carrier we're associated with notified us
+of an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm
+not sure if that cell site is fed out or through Dubuque, but
+considering the timing and relative location, the two could be
+connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+
+From frnkblk at iname.com  Tue Jun 12 15:07:25 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 12 Jun 2012 14:07:25 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <001d01cd48be$a6e5b330$f4b11990$@iname.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+ <1F26704905C4804AAF98B0AE6BE0295109A69EB3@MUNEXBE1.medline.com>
+ <001d01cd48be$a6e5b330$f4b11990$@iname.com>
+Message-ID: <002301cd48ce$9a3e2800$ceba7800$@iname.com>
+
+>From twitter: 
+KWWL UPDATE: CenturyLink says phone, internet and 911 should be back by 3:30
+this afternoon. Fiber line was damaged.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Tuesday, June 12, 2012 12:13 PM
+To: 'Dantzig, Brian'; outages at outages.org
+
+I learned more from the wireless carrier's NOC: CenturyLink's Dubuque switch
+is isolated due to an OC-192 outage.
+
+Already in the news:
+http://www.kcrg.com/news/local/Landline-Phone-Service-Outage-Reported-in-Dub
+uque-Affecting-911-Service-158589405.html
+
+Frank
+
+-----Original Message-----
+From: Dantzig, Brian [mailto:bdantzig at medline.com] 
+Sent: Tuesday, June 12, 2012 12:11 PM
+To: frnkblk at iname.com; outages at outages.org
+
+Yes, Iowa. Sorry about that.
+Sprint is telling us it is a fiber cut and DS3s to Clinton, IA are down.
+But residential dialtone seems to be down and the 911 center has
+rerouted calls to Cedar Falls. City is telling locals that 911 can be
+reached via cell phones.
+
+From:
+Brian Dantzig
+Senior Network Engineer
+Medline Industries, Inc.
+phone: 847.837.2795
+bdantzig at medline.com
+
+
+
+
+-----Original Message-----
+From: Frank Bulk [mailto:frnkblk at iname.com] 
+Sent: Tuesday, June 12, 2012 12:05 PM
+To: Dantzig, Brian; outages at outages.org
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that
+at
+11:25 am Central the wireless carrier we're associated with notified us
+of an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm
+not sure if that cell site is fed out or through Dubuque, but
+considering the timing and relative location, the two could be
+connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From bdantzig at medline.com  Tue Jun 12 16:12:00 2012
+From: bdantzig at medline.com (Dantzig, Brian)
+Date: Tue, 12 Jun 2012 15:12:00 -0500
+Subject: [outages] Dubuque IA CO Problems
+In-Reply-To: <002301cd48ce$9a3e2800$ceba7800$@iname.com>
+References: <1F26704905C4804AAF98B0AE6BE0295109A69E32@MUNEXBE1.medline.com>
+ <001b01cd48bd$8edf9a90$ac9ecfb0$@iname.com>
+ <1F26704905C4804AAF98B0AE6BE0295109A69EB3@MUNEXBE1.medline.com>
+ <001d01cd48be$a6e5b330$f4b11990$@iname.com>
+ <002301cd48ce$9a3e2800$ceba7800$@iname.com>
+Message-ID: <1F26704905C4804AAF98B0AE6BE0295109AA9FFA@MUNEXBE1.medline.com>
+
+My circuits came back up a few minutes ago. 
+
+From:
+Brian Dantzig
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Frank Bulk
+Sent: Tuesday, June 12, 2012 2:07 PM
+To: outages at outages.org
+
+>From twitter: 
+KWWL UPDATE: CenturyLink says phone, internet and 911 should be back by
+3:30 this afternoon. Fiber line was damaged.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Frank Bulk
+Sent: Tuesday, June 12, 2012 12:13 PM
+To: 'Dantzig, Brian'; outages at outages.org
+
+I learned more from the wireless carrier's NOC: CenturyLink's Dubuque
+switch is isolated due to an OC-192 outage.
+
+Already in the news:
+http://www.kcrg.com/news/local/Landline-Phone-Service-Outage-Reported-in
+-Dub
+uque-Affecting-911-Service-158589405.html
+
+Frank
+
+-----Original Message-----
+From: Dantzig, Brian [mailto:bdantzig at medline.com]
+Sent: Tuesday, June 12, 2012 12:11 PM
+To: frnkblk at iname.com; outages at outages.org
+
+Yes, Iowa. Sorry about that.
+Sprint is telling us it is a fiber cut and DS3s to Clinton, IA are down.
+But residential dialtone seems to be down and the 911 center has
+rerouted calls to Cedar Falls. City is telling locals that 911 can be
+reached via cell phones.
+
+From:
+Brian Dantzig
+Senior Network Engineer
+Medline Industries, Inc.
+phone: 847.837.2795
+bdantzig at medline.com
+
+
+
+
+-----Original Message-----
+From: Frank Bulk [mailto:frnkblk at iname.com]
+Sent: Tuesday, June 12, 2012 12:05 PM
+To: Dantzig, Brian; outages at outages.org
+
+I assume this Dubuque, Iowa?  The only thing I've seen thus far is that
+at
+11:25 am Central the wireless carrier we're associated with notified us
+of an outage in Scales Mound, IL, which 30 miles east of Dubuque.  I'm
+not sure if that cell site is fed out or through Dubuque, but
+considering the timing and relative location, the two could be
+connected.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Dantzig, Brian
+Sent: Tuesday, June 12, 2012 11:27 AM
+To: outages at outages.org
+
+We lost voice and data circuits coming out of the Dubuque CO. Both
+copper T1s and our Fiber node are down. I tried calling a few local
+businesses in Dubuque and I get fast busy's. Nothing yet from my
+carriers.
+Anyone have any other information.
+
+Brian Dantzig
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jra at baylink.com  Thu Jun 14 23:46:49 2012
+From: jra at baylink.com (Jay Ashworth)
+Date: Thu, 14 Jun 2012 23:46:49 -0400 (EDT)
+Subject: [outages] Ookla/Speedtest.net - various symptoms
+In-Reply-To: <17718381.9314.1339731792428.JavaMail.root@benjamin.baylink.com>
+Message-ID: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+
+I'm having trouble getting their speedtest.net site to load tonight, from
+Road Runner Tampa Bay, on three separate browsers on two separate laptops.
+
+Same symptom: it gets to "Loading 100%", and then, on a netbook on FF13 or
+Chrome, it hangs there; on my Linux ThinkPad, I get a red message saying 
+something about the configuration file not loading - I can't give exact 
+language cause now the session is resetting on me.  New problem in this 
+location and with this ThinkPad; never seen this before.
+
+speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+
+Trace:
+
+HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 65-35-160-1.res.bhn.net    0.0%    20   27.4  26.0   9.1  54.4   8.5
+  2.|-- ten0-0-0-4.tamp11-ser1.bh 40.0%    20   10.2  10.1   8.7  12.3   1.2
+  3.|-- ten0-5-0-1.tamp05-car1.bh 40.0%    20   16.9  19.3  13.7  43.3   7.8
+  4.|-- ten0-14-0-3.tamp20-car1.b 40.0%    20   18.4  18.9  12.8  25.8   4.0
+  5.|-- hun0-1-0-0.tamp20-cbr3.bh 40.0%    20   19.1  18.3  11.9  44.7   8.6
+  6.|-- ae-11-11.cr0.dfw10.tbone. 35.0%    20   36.2  42.8  35.7  75.3  14.2
+  7.|-- 107.14.19.154             35.0%    20   42.1  41.9  37.6  49.0   3.3
+  8.|-- ae-3-0.pr0.dfw10.tbone.rr 40.0%    20   39.4  38.1  37.2  39.4   0.8
+  9.|-- fe1-0.ar02.dal01.pccwbtn. 45.0%    20   38.2  41.4  37.1  57.3   7.3
+ 10.|-- netriver.ge2-16.br01.sea0 42.1%    19   99.9 102.4  98.9 120.0   6.0
+ 11.|-- static-74-209-160-12.lynn 52.6%    19  100.4 101.2  98.9 104.4   1.5
+
+HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 65.35.160.1                0.0%    20   26.2  26.4  12.6  50.1   8.4
+  2.|-- 71.44.3.70                30.0%    20   10.4  19.9   9.0  76.4  20.3
+  3.|-- 72.31.117.144             35.0%    20   16.3  15.7  11.9  18.4   1.7
+  4.|-- 72.31.211.106             40.0%    20   21.1  28.9  13.3 110.0  26.9
+  5.|-- 72.31.117.158             45.0%    20   17.8  24.8  13.3 102.9  26.0
+  6.|-- 66.109.10.12              45.0%    20   37.1  45.8  34.9 125.1  26.4
+  7.|-- 107.14.19.154             45.0%    20   42.7  43.5  38.1  59.4   6.1
+  8.|-- 66.109.6.209              40.0%    20   37.3  50.3  37.2 112.4  23.9
+  9.|-- 63.218.23.13              33.3%    18   49.2  57.9  36.4 224.8  53.8
+ 10.|-- 63.216.14.162             50.0%    18  101.6 100.9  98.6 104.1   1.6
+ 11.|-- 74.209.160.12             33.3%    18   98.8 103.5  98.3 143.5  12.7
+
+
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From josh at imaginenetworksllc.com  Fri Jun 15 00:14:12 2012
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Fri, 15 Jun 2012 00:14:12 -0400
+Subject: [outages] Ookla/Speedtest.net - various symptoms
+In-Reply-To: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+References: <17718381.9314.1339731792428.JavaMail.root@benjamin.baylink.com>
+ <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAN9qwJ-YkT7XUUXA-E=G0At54vczvaySYEMaD2jeUMTre+FW3w@mail.gmail.com>
+
+Chrome is complaining with this error the first time.
+
+Error 101 (net::ERR_CONNECTION_RESET): The connection was reset.
+
+Second attempt I can replicate the results.
+
+C:\Users\jluthman>tracert -4 -d speedtest.net
+
+Tracing route to speedtest.net [74.209.160.12]
+over a maximum of 30 hops:
+
+  1    <1 ms     2 ms     1 ms  192.168.21.1
+  2     2 ms     1 ms     7 ms  74.218.208.209
+  3     2 ms     3 ms     3 ms  74.218.88.133
+  4    24 ms     4 ms     4 ms  74.218.88.129
+  5    10 ms    12 ms    12 ms  65.189.140.144
+  6    21 ms    23 ms    25 ms  66.109.6.70
+  7    19 ms    21 ms    20 ms  66.109.6.165
+  8    21 ms    39 ms    20 ms  63.218.92.77
+  9   112 ms   112 ms   113 ms  63.216.14.162
+ 10   112 ms     *      115 ms  74.209.160.12
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Thu, Jun 14, 2012 at 11:46 PM, Jay Ashworth <jra at baylink.com> wrote:
+> I'm having trouble getting their speedtest.net site to load tonight, from
+> Road Runner Tampa Bay, on three separate browsers on two separate laptops.
+>
+> Same symptom: it gets to "Loading 100%", and then, on a netbook on FF13 or
+> Chrome, it hangs there; on my Linux ThinkPad, I get a red message saying
+> something about the configuration file not loading - I can't give exact
+> language cause now the session is resetting on me. ?New problem in this
+> location and with this ThinkPad; never seen this before.
+>
+> speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+> RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+>
+> Trace:
+>
+> HOST: elphaba.baylink.com ? ? ? ? Loss% ? Snt ? Last ? Avg ?Best ?Wrst StDev
+> ?1.|-- 65-35-160-1.res.bhn.net ? ?0.0% ? ?20 ? 27.4 ?26.0 ? 9.1 ?54.4 ? 8.5
+> ?2.|-- ten0-0-0-4.tamp11-ser1.bh 40.0% ? ?20 ? 10.2 ?10.1 ? 8.7 ?12.3 ? 1.2
+> ?3.|-- ten0-5-0-1.tamp05-car1.bh 40.0% ? ?20 ? 16.9 ?19.3 ?13.7 ?43.3 ? 7.8
+> ?4.|-- ten0-14-0-3.tamp20-car1.b 40.0% ? ?20 ? 18.4 ?18.9 ?12.8 ?25.8 ? 4.0
+> ?5.|-- hun0-1-0-0.tamp20-cbr3.bh 40.0% ? ?20 ? 19.1 ?18.3 ?11.9 ?44.7 ? 8.6
+> ?6.|-- ae-11-11.cr0.dfw10.tbone. 35.0% ? ?20 ? 36.2 ?42.8 ?35.7 ?75.3 ?14.2
+> ?7.|-- 107.14.19.154 ? ? ? ? ? ? 35.0% ? ?20 ? 42.1 ?41.9 ?37.6 ?49.0 ? 3.3
+> ?8.|-- ae-3-0.pr0.dfw10.tbone.rr 40.0% ? ?20 ? 39.4 ?38.1 ?37.2 ?39.4 ? 0.8
+> ?9.|-- fe1-0.ar02.dal01.pccwbtn. 45.0% ? ?20 ? 38.2 ?41.4 ?37.1 ?57.3 ? 7.3
+> ?10.|-- netriver.ge2-16.br01.sea0 42.1% ? ?19 ? 99.9 102.4 ?98.9 120.0 ? 6.0
+> ?11.|-- static-74-209-160-12.lynn 52.6% ? ?19 ?100.4 101.2 ?98.9 104.4 ? 1.5
+>
+> HOST: elphaba.baylink.com ? ? ? ? Loss% ? Snt ? Last ? Avg ?Best ?Wrst StDev
+> ?1.|-- 65.35.160.1 ? ? ? ? ? ? ? ?0.0% ? ?20 ? 26.2 ?26.4 ?12.6 ?50.1 ? 8.4
+> ?2.|-- 71.44.3.70 ? ? ? ? ? ? ? ?30.0% ? ?20 ? 10.4 ?19.9 ? 9.0 ?76.4 ?20.3
+> ?3.|-- 72.31.117.144 ? ? ? ? ? ? 35.0% ? ?20 ? 16.3 ?15.7 ?11.9 ?18.4 ? 1.7
+> ?4.|-- 72.31.211.106 ? ? ? ? ? ? 40.0% ? ?20 ? 21.1 ?28.9 ?13.3 110.0 ?26.9
+> ?5.|-- 72.31.117.158 ? ? ? ? ? ? 45.0% ? ?20 ? 17.8 ?24.8 ?13.3 102.9 ?26.0
+> ?6.|-- 66.109.10.12 ? ? ? ? ? ? ?45.0% ? ?20 ? 37.1 ?45.8 ?34.9 125.1 ?26.4
+> ?7.|-- 107.14.19.154 ? ? ? ? ? ? 45.0% ? ?20 ? 42.7 ?43.5 ?38.1 ?59.4 ? 6.1
+> ?8.|-- 66.109.6.209 ? ? ? ? ? ? ?40.0% ? ?20 ? 37.3 ?50.3 ?37.2 112.4 ?23.9
+> ?9.|-- 63.218.23.13 ? ? ? ? ? ? ?33.3% ? ?18 ? 49.2 ?57.9 ?36.4 224.8 ?53.8
+> ?10.|-- 63.216.14.162 ? ? ? ? ? ? 50.0% ? ?18 ?101.6 100.9 ?98.6 104.1 ? 1.6
+> ?11.|-- 74.209.160.12 ? ? ? ? ? ? 33.3% ? ?18 ? 98.8 103.5 ?98.3 143.5 ?12.7
+>
+>
+> --
+> Jay R. Ashworth ? ? ? ? ? ? ? ? ?Baylink ? ? ? ? ? ? ? ? ? ? ? jra at baylink.com
+> Designer ? ? ? ? ? ? ? ? ? ? The Things I Think ? ? ? ? ? ? ? ? ? ? ? RFC 2100
+> Ashworth & Associates ? ? http://baylink.pitas.com ? ? ? ? 2000 Land Rover DII
+> St Petersburg FL USA ? ? ?http://photo.imageinc.us ? ? ? ? ? ? +1 727 647 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From graham.freeman at cernio.com  Fri Jun 15 00:15:37 2012
+From: graham.freeman at cernio.com (Graham Freeman)
+Date: Thu, 14 Jun 2012 21:15:37 -0700
+Subject: [outages] Ookla/Speedtest.net - various symptoms
+In-Reply-To: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+References: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+Message-ID: <FA3AA442-1EC5-4FC9-BCC5-2349ADD299E0@cernio.com>
+
+AWS us-east is having problems with EBS services.  could be related.
+
+-Graham
+
+On 02012-14-Jun, at 20:46 -0700, Jay Ashworth wrote:
+
+> I'm having trouble getting their speedtest.net site to load tonight, from
+> Road Runner Tampa Bay, on three separate browsers on two separate laptops.
+> 
+> Same symptom: it gets to "Loading 100%", and then, on a netbook on FF13 or
+> Chrome, it hangs there; on my Linux ThinkPad, I get a red message saying 
+> something about the configuration file not loading - I can't give exact 
+> language cause now the session is resetting on me.  New problem in this 
+> location and with this ThinkPad; never seen this before.
+> 
+> speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+> RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+> 
+> Trace:
+> 
+> HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1.|-- 65-35-160-1.res.bhn.net    0.0%    20   27.4  26.0   9.1  54.4   8.5
+>  2.|-- ten0-0-0-4.tamp11-ser1.bh 40.0%    20   10.2  10.1   8.7  12.3   1.2
+>  3.|-- ten0-5-0-1.tamp05-car1.bh 40.0%    20   16.9  19.3  13.7  43.3   7.8
+>  4.|-- ten0-14-0-3.tamp20-car1.b 40.0%    20   18.4  18.9  12.8  25.8   4.0
+>  5.|-- hun0-1-0-0.tamp20-cbr3.bh 40.0%    20   19.1  18.3  11.9  44.7   8.6
+>  6.|-- ae-11-11.cr0.dfw10.tbone. 35.0%    20   36.2  42.8  35.7  75.3  14.2
+>  7.|-- 107.14.19.154             35.0%    20   42.1  41.9  37.6  49.0   3.3
+>  8.|-- ae-3-0.pr0.dfw10.tbone.rr 40.0%    20   39.4  38.1  37.2  39.4   0.8
+>  9.|-- fe1-0.ar02.dal01.pccwbtn. 45.0%    20   38.2  41.4  37.1  57.3   7.3
+> 10.|-- netriver.ge2-16.br01.sea0 42.1%    19   99.9 102.4  98.9 120.0   6.0
+> 11.|-- static-74-209-160-12.lynn 52.6%    19  100.4 101.2  98.9 104.4   1.5
+> 
+> HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1.|-- 65.35.160.1                0.0%    20   26.2  26.4  12.6  50.1   8.4
+>  2.|-- 71.44.3.70                30.0%    20   10.4  19.9   9.0  76.4  20.3
+>  3.|-- 72.31.117.144             35.0%    20   16.3  15.7  11.9  18.4   1.7
+>  4.|-- 72.31.211.106             40.0%    20   21.1  28.9  13.3 110.0  26.9
+>  5.|-- 72.31.117.158             45.0%    20   17.8  24.8  13.3 102.9  26.0
+>  6.|-- 66.109.10.12              45.0%    20   37.1  45.8  34.9 125.1  26.4
+>  7.|-- 107.14.19.154             45.0%    20   42.7  43.5  38.1  59.4   6.1
+>  8.|-- 66.109.6.209              40.0%    20   37.3  50.3  37.2 112.4  23.9
+>  9.|-- 63.218.23.13              33.3%    18   49.2  57.9  36.4 224.8  53.8
+> 10.|-- 63.216.14.162             50.0%    18  101.6 100.9  98.6 104.1   1.6
+> 11.|-- 74.209.160.12             33.3%    18   98.8 103.5  98.3 143.5  12.7
+> 
+> 
+> -- 
+> Jay R. Ashworth                  Baylink                       jra at baylink.com
+> Designer                     The Things I Think                       RFC 2100
+> Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jra at baylink.com  Fri Jun 15 00:15:47 2012
+From: jra at baylink.com (Jay Ashworth)
+Date: Fri, 15 Jun 2012 00:15:47 -0400 (EDT)
+Subject: [outages] Ookla/Speedtest.net - looks like last mile
+In-Reply-To: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+Message-ID: <27804665.9320.1339733747090.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Jay Ashworth" <jra at baylink.com>
+
+> I'm having trouble getting their speedtest.net site to load tonight,
+> from Road Runner Tampa Bay, on three separate browsers on two separate
+> laptops.
+[ ... ]
+> speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+> RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+
+Odd that that did work; this is starting to look like a last mile problem
+at my end; I'm seeing lossage to lots of other sites, fading in and out.  Apologies for the noise.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From josh at imaginenetworksllc.com  Fri Jun 15 00:20:08 2012
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Fri, 15 Jun 2012 00:20:08 -0400
+Subject: [outages] Ookla/Speedtest.net - looks like last mile
+In-Reply-To: <27804665.9320.1339733747090.JavaMail.root@benjamin.baylink.com>
+References: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+ <27804665.9320.1339733747090.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAN9qwJ9+jZhXDdpGmDa1dN4R88-fk=yxBJNRV4+k5Re8jOwRVw@mail.gmail.com>
+
+I have the same problems, still.  In addition, I've had it complain
+Flash Player wasn't of insufficient version.
+
+On a side note even specifying a subdomain isn't getting past the red
+configuration error, it's as if the embeded flash is broken.
+
+http://inxwireless.speedtest.net/
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Fri, Jun 15, 2012 at 12:15 AM, Jay Ashworth <jra at baylink.com> wrote:
+> ----- Original Message -----
+>> From: "Jay Ashworth" <jra at baylink.com>
+>
+>> I'm having trouble getting their speedtest.net site to load tonight,
+>> from Road Runner Tampa Bay, on three separate browsers on two separate
+>> laptops.
+> [ ... ]
+>> speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+>> RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+>
+> Odd that that did work; this is starting to look like a last mile problem
+> at my end; I'm seeing lossage to lots of other sites, fading in and out. ?Apologies for the noise.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth ? ? ? ? ? ? ? ? ?Baylink ? ? ? ? ? ? ? ? ? ? ? jra at baylink.com
+> Designer ? ? ? ? ? ? ? ? ? ? The Things I Think ? ? ? ? ? ? ? ? ? ? ? RFC 2100
+> Ashworth & Associates ? ? http://baylink.pitas.com ? ? ? ? 2000 Land Rover DII
+> St Petersburg FL USA ? ? ?http://photo.imageinc.us ? ? ? ? ? ? +1 727 647 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From hello at codatory.com  Fri Jun 15 00:23:54 2012
+From: hello at codatory.com (Alex Conner)
+Date: Fri, 15 Jun 2012 00:23:54 -0400
+Subject: [outages] Ookla/Speedtest.net - various symptoms
+In-Reply-To: <FA3AA442-1EC5-4FC9-BCC5-2349ADD299E0@cernio.com>
+References: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+ <FA3AA442-1EC5-4FC9-BCC5-2349ADD299E0@cernio.com>
+Message-ID: <07BA98D1-511F-4D73-8A63-05D3739C9E81@codatory.com>
+
+Monitoring Twitter I'm seeing a lot of reports of various outages, so perhaps
+this could simply be some global BGP re-convergence. Also seeing some Level3
+routing issues and lots of route changes.
+
+On Jun 15, 2012, at 12:15 AM, Graham Freeman wrote:
+
+> AWS us-east is having problems with EBS services.  could be related.
+> 
+> -Graham
+> 
+> On 02012-14-Jun, at 20:46 -0700, Jay Ashworth wrote:
+> 
+>> I'm having trouble getting their speedtest.net site to load tonight, from
+>> Road Runner Tampa Bay, on three separate browsers on two separate laptops.
+>> 
+>> Same symptom: it gets to "Loading 100%", and then, on a netbook on FF13 or
+>> Chrome, it hangs there; on my Linux ThinkPad, I get a red message saying 
+>> something about the configuration file not loading - I can't give exact 
+>> language cause now the session is resetting on me.  New problem in this 
+>> location and with this ThinkPad; never seen this before.
+>> 
+>> speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than the
+>> RR Lightning line here (40-50Mbps) would lead me to expect, testing to ATL.
+>> 
+>> Trace:
+>> 
+>> HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+>> 1.|-- 65-35-160-1.res.bhn.net    0.0%    20   27.4  26.0   9.1  54.4   8.5
+>> 2.|-- ten0-0-0-4.tamp11-ser1.bh 40.0%    20   10.2  10.1   8.7  12.3   1.2
+>> 3.|-- ten0-5-0-1.tamp05-car1.bh 40.0%    20   16.9  19.3  13.7  43.3   7.8
+>> 4.|-- ten0-14-0-3.tamp20-car1.b 40.0%    20   18.4  18.9  12.8  25.8   4.0
+>> 5.|-- hun0-1-0-0.tamp20-cbr3.bh 40.0%    20   19.1  18.3  11.9  44.7   8.6
+>> 6.|-- ae-11-11.cr0.dfw10.tbone. 35.0%    20   36.2  42.8  35.7  75.3  14.2
+>> 7.|-- 107.14.19.154             35.0%    20   42.1  41.9  37.6  49.0   3.3
+>> 8.|-- ae-3-0.pr0.dfw10.tbone.rr 40.0%    20   39.4  38.1  37.2  39.4   0.8
+>> 9.|-- fe1-0.ar02.dal01.pccwbtn. 45.0%    20   38.2  41.4  37.1  57.3   7.3
+>> 10.|-- netriver.ge2-16.br01.sea0 42.1%    19   99.9 102.4  98.9 120.0   6.0
+>> 11.|-- static-74-209-160-12.lynn 52.6%    19  100.4 101.2  98.9 104.4   1.5
+>> 
+>> HOST: elphaba.baylink.com         Loss%   Snt   Last   Avg  Best  Wrst StDev
+>> 1.|-- 65.35.160.1                0.0%    20   26.2  26.4  12.6  50.1   8.4
+>> 2.|-- 71.44.3.70                30.0%    20   10.4  19.9   9.0  76.4  20.3
+>> 3.|-- 72.31.117.144             35.0%    20   16.3  15.7  11.9  18.4   1.7
+>> 4.|-- 72.31.211.106             40.0%    20   21.1  28.9  13.3 110.0  26.9
+>> 5.|-- 72.31.117.158             45.0%    20   17.8  24.8  13.3 102.9  26.0
+>> 6.|-- 66.109.10.12              45.0%    20   37.1  45.8  34.9 125.1  26.4
+>> 7.|-- 107.14.19.154             45.0%    20   42.7  43.5  38.1  59.4   6.1
+>> 8.|-- 66.109.6.209              40.0%    20   37.3  50.3  37.2 112.4  23.9
+>> 9.|-- 63.218.23.13              33.3%    18   49.2  57.9  36.4 224.8  53.8
+>> 10.|-- 63.216.14.162             50.0%    18  101.6 100.9  98.6 104.1   1.6
+>> 11.|-- 74.209.160.12             33.3%    18   98.8 103.5  98.3 143.5  12.7
+>> 
+>> 
+>> -- 
+>> Jay R. Ashworth                  Baylink                       jra at baylink.com
+>> Designer                     The Things I Think                       RFC 2100
+>> Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+>> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From vicidial at gmail.com  Fri Jun 15 00:28:41 2012
+From: vicidial at gmail.com (VICIDIAL)
+Date: Fri, 15 Jun 2012 00:28:41 -0400
+Subject: [outages] Ookla/Speedtest.net - looks like last mile
+In-Reply-To: <27804665.9320.1339733747090.JavaMail.root@benjamin.baylink.com>
+References: <32448183.9318.1339732009833.JavaMail.root@benjamin.baylink.com>
+ <27804665.9320.1339733747090.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAC0DYj=dg5VC0-0EDEurPjwBHjxNXzPfksJ2uVQtG2h6F7wb8w@mail.gmail.com>
+
+I think it's more than just last mile, I've been having horrible dropped
+packets problems on BrightHouse cable near downtown St Petersburg for the
+last hour, switched to my backup connection a little bit ago, still having
+significant dropped packets(40%) when on roadrunner both here and at the
+office 5 miles north of here through a different roadrunner connection.
+
+--- google.com ping statistics ---
+57 packets transmitted, 34 received, 40% packet loss, time 56109ms
+rtt min/avg/max/mdev = 52.397/54.663/77.355/4.163 ms
+
+Matt Florell
+Vicidial Group
+
+
+
+On Fri, Jun 15, 2012 at 12:15 AM, Jay Ashworth <jra at baylink.com> wrote:
+
+> ----- Original Message -----
+> > From: "Jay Ashworth" <jra at baylink.com>
+>
+> > I'm having trouble getting their speedtest.net site to load tonight,
+> > from Road Runner Tampa Bay, on three separate browsers on two separate
+> > laptops.
+> [ ... ]
+> > speedtest.speakeasy.net works fine, but is much slower (1-2Mbps) than
+> the
+> > RR Lightning line here (40-50Mbps) would lead me to expect, testing to
+> ATL.
+>
+> Odd that that did work; this is starting to look like a last mile problem
+> at my end; I'm seeing lossage to lots of other sites, fading in and out.
+>  Apologies for the noise.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth                  Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com         2000 Land
+> Rover DII
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+
+-- 
+MATT---
+
+ViciDial Open Source Call Center Suite
+http://www.vicidial.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/1b64e675/attachment-0001.html>
+
+From Marco.Prechel at millicorp.com  Fri Jun 15 16:40:42 2012
+From: Marco.Prechel at millicorp.com (Marco Prechel)
+Date: Fri, 15 Jun 2012 20:40:42 +0000
+Subject: [outages] Elavon Payment gateway timing out when processing
+Message-ID: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+
+Is anyone else seeing issues processing payments through Elavon/VirtualMerchant? Their gateway is timing out when processing payments, can't process through merchant portal either.
+All numbers we have for Elavon are ringing busy/disco. Anyone seeing similar?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/1655ef93/attachment.html>
+
+From afreivogel at intelligentsiacoffee.com  Fri Jun 15 16:46:08 2012
+From: afreivogel at intelligentsiacoffee.com (Andy Freivogel)
+Date: Fri, 15 Jun 2012 15:46:08 -0500
+Subject: [outages] Elavon Payment gateway timing out when processing
+In-Reply-To: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+References: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+Message-ID: <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+
+It's a national outage... we use Elavon and all related sites are down.
+ Our POS vendor has confirmed this is a national issue with no ETR.
+
+Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee & Tea, Inc.
+1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+Angeles CA 90065
+Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+
+check out our new website:
+http://www.intelligentsiacoffee.com
+
+
+
+On Fri, Jun 15, 2012 at 3:40 PM, Marco Prechel
+<Marco.Prechel at millicorp.com>wrote:
+
+>  Is anyone else seeing issues processing payments through
+> Elavon/VirtualMerchant? Their gateway is timing out when processing
+> payments, can?t process through merchant portal either.****
+>
+> All numbers we have for Elavon are ringing busy/disco. Anyone seeing
+> similar?****
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/daf2674b/attachment.html>
+
+From frnkblk at iname.com  Fri Jun 15 16:57:26 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 15 Jun 2012 15:57:26 -0500
+Subject: [outages] Elavon Payment gateway timing out when processing
+In-Reply-To: <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+References: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+ <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+Message-ID: <009601cd4b39$78690520$693b0f60$@iname.com>
+
+Confirmed again on twitter.
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Andy Freivogel
+Sent: Friday, June 15, 2012 3:46 PM
+To: Marco Prechel
+Cc: outages at outages.org
+
+ 
+
+It's a national outage... we use Elavon and all related sites are down.  Our
+POS vendor has confirmed this is a national issue with no ETR.
+
+
+Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee & Tea, Inc.
+1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+Angeles CA 90065
+Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+
+ 
+
+check out our new website:
+
+http://www.intelligentsiacoffee.com
+
+
+
+
+
+On Fri, Jun 15, 2012 at 3:40 PM, Marco Prechel <Marco.Prechel at millicorp.com>
+wrote:
+
+Is anyone else seeing issues processing payments through
+Elavon/VirtualMerchant? Their gateway is timing out when processing
+payments, can't process through merchant portal either.
+
+All numbers we have for Elavon are ringing busy/disco. Anyone seeing
+similar?
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/fcbb4cd4/attachment.html>
+
+From rdekema at gmail.com  Fri Jun 15 17:03:22 2012
+From: rdekema at gmail.com (Rusty Dekema)
+Date: Fri, 15 Jun 2012 17:03:22 -0400
+Subject: [outages] Elavon Payment gateway timing out when processing
+In-Reply-To: <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+References: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+ <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+Message-ID: <CAJxVgBL+gi873dtkihTeQkoZhSR6Cp+93F1yrgzt=qGsRk-QTA@mail.gmail.com>
+
+>From elavon.com: "Elavon has built back-up systems and the latest fraud
+monitoring and risk management features into every system, which ensures
+100% uptime and true peace of mind."
+
+Now... Is that a contractual promise? ;)
+
+-Rusty
+
+
+On Fri, Jun 15, 2012 at 4:46 PM, Andy Freivogel <
+afreivogel at intelligentsiacoffee.com> wrote:
+
+> It's a national outage... we use Elavon and all related sites are down.
+>  Our POS vendor has confirmed this is a national issue with no ETR.
+>
+> Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee & Tea, Inc.
+> 1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+> Angeles CA 90065
+> Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+>
+> check out our new website:
+> http://www.intelligentsiacoffee.com
+>
+>
+>
+> On Fri, Jun 15, 2012 at 3:40 PM, Marco Prechel <
+> Marco.Prechel at millicorp.com> wrote:
+>
+>>  Is anyone else seeing issues processing payments through
+>> Elavon/VirtualMerchant? Their gateway is timing out when processing
+>> payments, can?t process through merchant portal either.****
+>>
+>> All numbers we have for Elavon are ringing busy/disco. Anyone seeing
+>> similar?****
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/3fe2f486/attachment.html>
+
+From frnkblk at iname.com  Fri Jun 15 17:04:37 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 15 Jun 2012 16:04:37 -0500
+Subject: [outages] Elavon Payment gateway timing out when processing
+In-Reply-To: <009601cd4b39$78690520$693b0f60$@iname.com>
+References: <366BB09A5691AE4DBA436A94BB6CA7FCC5BB2B@MAILBOX.millicorp.com>
+ <CAJcw1eTYCyrSm8URzN5xrdWFj6PkhzufA-OCJf397ajxh18WeA@mail.gmail.com>
+ <009601cd4b39$78690520$693b0f60$@iname.com>
+Message-ID: <009b01cd4b3a$79493680$6bdba380$@iname.com>
+
+Tweets are saying it was back up two minutes ago.
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Friday, June 15, 2012 3:57 PM
+To: 'Andy Freivogel'; Marco Prechel
+Cc: outages at outages.org
+
+ 
+
+Confirmed again on twitter.
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Andy Freivogel
+Sent: Friday, June 15, 2012 3:46 PM
+To: Marco Prechel
+Cc: outages at outages.org
+
+ 
+
+It's a national outage... we use Elavon and all related sites are down.  Our
+POS vendor has confirmed this is a national issue with no ETR.
+
+
+Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee & Tea, Inc.
+1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+Angeles CA 90065
+Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+
+ 
+
+check out our new website:
+
+http://www.intelligentsiacoffee.com
+
+ 
+
+On Fri, Jun 15, 2012 at 3:40 PM, Marco Prechel <Marco.Prechel at millicorp.com>
+wrote:
+
+Is anyone else seeing issues processing payments through
+Elavon/VirtualMerchant? Their gateway is timing out when processing
+payments, can't process through merchant portal either.
+
+All numbers we have for Elavon are ringing busy/disco. Anyone seeing
+similar?
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120615/f9980c04/attachment-0001.html>
+
+From miketheman at gmail.com  Mon Jun 18 11:28:29 2012
+From: miketheman at gmail.com (Mike)
+Date: Mon, 18 Jun 2012 11:28:29 -0400
+Subject: [outages] w3.org dtd files really slow?
+Message-ID: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+
+We're running web apps that require the use of W3's dtd files.
+
+We're getting some serious timeouts.
+
+$ time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 15:27:20 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 15:27:20 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+
+real	0m29.297s
+user	0m0.007s
+sys	0m0.005s
+
+As well as when we try caching the file locally, we're getting a ton
+of app errors when it tries to consume it.
+
+Anyone else?
+
+-Michael
+
+From jhellenthal at dataix.net  Mon Jun 18 11:43:36 2012
+From: jhellenthal at dataix.net (Jason Hellenthal)
+Date: Mon, 18 Jun 2012 11:43:36 -0400
+Subject: [outages] w3.org dtd files really slow?
+In-Reply-To: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+References: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+Message-ID: <20120618154336.GA85212@DataIX.net>
+
+
+
+On Mon, Jun 18, 2012 at 11:28:29AM -0400, Mike wrote:
+> We're running web apps that require the use of W3's dtd files.
+> 
+> We're getting some serious timeouts.
+> 
+> $ time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+> HTTP/1.1 200 OK
+> Date: Mon, 18 Jun 2012 15:27:20 GMT
+> Server: Apache/2
+> Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+> ETag: "2eb4-35c73f0bc5200"
+> Accept-Ranges: bytes
+> Content-Length: 11956
+> Cache-Control: max-age=7776000
+> Expires: Sun, 16 Sep 2012 15:27:20 GMT
+> P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+> Connection: close
+> Content-Type: application/xml-external-parsed-entity
+> 
+> 
+> real	0m29.297s
+> user	0m0.007s
+> sys	0m0.005s
+> 
+> As well as when we try caching the file locally, we're getting a ton
+> of app errors when it tries to consume it.
+> 
+> Anyone else?
+> 
+
+Same here coming from Charter in West Michigan
+
+% /usr/bin/time -p curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 15:42:46 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 15:42:46 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+real 29.38
+user 0.04
+sys 0.00
+
+
+-- 
+
+ - (2^(N-1))
+
+From mickey at srtdata.com  Mon Jun 18 11:46:11 2012
+From: mickey at srtdata.com (Mickey Panayiotakis)
+Date: Mon, 18 Jun 2012 11:46:11 -0400
+Subject: [outages] w3.org dtd files really slow?
+In-Reply-To: <20120618154336.GA85212@DataIX.net>
+References: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+ <20120618154336.GA85212@DataIX.net>
+Message-ID: <CAPZNwe2uLy6s+aFri42TnfYq7hLp4K28bWcAn+-Q_3kwd39Q-Q@mail.gmail.com>
+
+Verizon FIOS in MD:
+time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 15:45:33 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 15:45:33 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+
+real 0m29.435s
+user 0m0.008s
+sys 0m0.006s
+
+
+--
+
+Mickey Panayiotakis
+Managing Partner
+800.270.5170 x512
+ <http://www.infamia.com/>
+
+
+
+On Mon, Jun 18, 2012 at 11:43 AM, Jason Hellenthal
+<jhellenthal at dataix.net>wrote:
+
+>
+>
+> On Mon, Jun 18, 2012 at 11:28:29AM -0400, Mike wrote:
+> > We're running web apps that require the use of W3's dtd files.
+> >
+> > We're getting some serious timeouts.
+> >
+> > $ time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+> > HTTP/1.1 200 OK
+> > Date: Mon, 18 Jun 2012 15:27:20 GMT
+> > Server: Apache/2
+> > Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+> > ETag: "2eb4-35c73f0bc5200"
+> > Accept-Ranges: bytes
+> > Content-Length: 11956
+> > Cache-Control: max-age=7776000
+> > Expires: Sun, 16 Sep 2012 15:27:20 GMT
+> > P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+> > Connection: close
+> > Content-Type: application/xml-external-parsed-entity
+> >
+> >
+> > real  0m29.297s
+> > user  0m0.007s
+> > sys   0m0.005s
+> >
+> > As well as when we try caching the file locally, we're getting a ton
+> > of app errors when it tries to consume it.
+> >
+> > Anyone else?
+> >
+>
+> Same here coming from Charter in West Michigan
+>
+> % /usr/bin/time -p curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+> HTTP/1.1 200 OK
+> Date: Mon, 18 Jun 2012 15:42:46 GMT
+> Server: Apache/2
+> Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+> ETag: "2eb4-35c73f0bc5200"
+> Accept-Ranges: bytes
+> Content-Length: 11956
+> Cache-Control: max-age=7776000
+> Expires: Sun, 16 Sep 2012 15:42:46 GMT
+> P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+> Connection: close
+> Content-Type: application/xml-external-parsed-entity
+>
+> real 29.38
+> user 0.04
+> sys 0.00
+>
+>
+> --
+>
+>  - (2^(N-1))
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120618/1a15c3e0/attachment.html>
+
+From frnkblk at iname.com  Mon Jun 18 12:13:11 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 18 Jun 2012 11:13:11 -0500
+Subject: [outages] w3.org dtd files really slow?
+In-Reply-To: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+References: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+Message-ID: <00b401cd4d6d$41fc7310$c5f55930$@iname.com>
+
+Same here:
+
+nagios:/etc/nagios3# time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 15:44:48 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 15:44:48 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+
+real    0m29.363s
+user    0m0.000s
+sys     0m0.004s
+nagios:/etc/nagios3#
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Mike
+Sent: Monday, June 18, 2012 10:28 AM
+To: outages
+
+We're running web apps that require the use of W3's dtd files.
+
+We're getting some serious timeouts.
+
+$ time curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 15:27:20 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 15:27:20 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+
+real	0m29.297s
+user	0m0.007s
+sys	0m0.005s
+
+As well as when we try caching the file locally, we're getting a ton
+of app errors when it tries to consume it.
+
+Anyone else?
+
+-Michael
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From cabo at tzi.org  Mon Jun 18 12:47:28 2012
+From: cabo at tzi.org (Carsten Bormann)
+Date: Mon, 18 Jun 2012 18:47:28 +0200
+Subject: [outages] w3.org dtd files really slow?
+In-Reply-To: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+References: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+Message-ID: <68CD3C40-0083-4FAD-A653-0B9A9707B77D@tzi.org>
+
+On Jun 18, 2012, at 17:28, Mike wrote:
+
+> We're running web apps that require the use of W3's dtd files.
+
+Not an outage.
+
+http://www.w3.org/Help/Webmaster.html#slowdtd
+
+It is time to fix those apps.
+
+(It has been since about 2008.
+http://www.w3.org/blog/systeam/2008/02/08/w3c_s_excessive_dtd_traffic/
+)
+
+Gr??e, Carsten
+
+
+
+From jra at baylink.com  Mon Jun 18 13:17:52 2012
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 18 Jun 2012 13:17:52 -0400 (EDT)
+Subject: [outages] w3.org dtd files really slow?
+In-Reply-To: <CAMerE0rEMa4pR2pPuBr-xtGW-X3+1-QY-hsMp8iRnSjxeKHsiA@mail.gmail.com>
+Message-ID: <3414315.9860.1340039872119.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Mike" <miketheman at gmail.com>
+
+> We're running web apps that require the use of W3's dtd files.
+> 
+> We're getting some serious timeouts.
+
+Slow here, too; Road Runner Lightning Tampa Bay:
+
+jra at elphaba:/appl/downloads> time -p curl -I http://www.w3.org/TR/html4/HTMLlat1.ent
+HTTP/1.1 200 OK
+Date: Mon, 18 Jun 2012 17:15:14 GMT
+Server: Apache/2
+Last-Modified: Fri, 24 Dec 1999 23:26:00 GMT
+ETag: "2eb4-35c73f0bc5200"
+Accept-Ranges: bytes
+Content-Length: 11956
+Cache-Control: max-age=7776000
+Expires: Sun, 16 Sep 2012 17:15:14 GMT
+P3P: policyref="http://www.w3.org/2001/05/P3P/p3p.xml"
+Connection: close
+Content-Type: application/xml-external-parsed-entity
+
+real 30.60
+user 0.00
+sys 0.00
+$
+
+Just for giggles, I checked the DNS resolve; 15ms on the second hit, but 
+a second curl was still slow.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From brandon at burn.net  Fri Jun 22 13:54:01 2012
+From: brandon at burn.net (Brandon Applegate)
+Date: Fri, 22 Jun 2012 13:54:01 -0400 (EDT)
+Subject: [outages] Comcast - East Coast issues ?
+Message-ID: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+
+Hello,
+
+Having multiple customers call in about reachability - common thread is 
+their side users are all on Comcast.  Not to mention the fact that we 
+can't even hit www.comcast.com from our network currently.
+
+We have Level3 (Cincinnati) and Qwest (Chicago).  Traceroutes from us 
+outbound seem to prefer Qwest and then die in Comcast.
+
+I can post traceroutes if need be - just wanted to see if anyone knew 
+anything before I call my upstreams and wade through phone tree hell.
+
+--
+Brandon Applegate - CCIE 10273
+PGP Key fingerprint:
+8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+"SH1-0151.  This is the serial number, of our orbital gun."
+
+
+From jneiberger at gmail.com  Fri Jun 22 13:58:49 2012
+From: jneiberger at gmail.com (John Neiberger)
+Date: Fri, 22 Jun 2012 11:58:49 -0600
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+Message-ID: <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+
+Yes, please post a traceroute.
+
+Thanks,
+John
+
+On Fri, Jun 22, 2012 at 11:54 AM, Brandon Applegate <brandon at burn.net> wrote:
+> Hello,
+>
+> Having multiple customers call in about reachability - common thread is
+> their side users are all on Comcast. ?Not to mention the fact that we can't
+> even hit www.comcast.com from our network currently.
+>
+> We have Level3 (Cincinnati) and Qwest (Chicago). ?Traceroutes from us
+> outbound seem to prefer Qwest and then die in Comcast.
+>
+> I can post traceroutes if need be - just wanted to see if anyone knew
+> anything before I call my upstreams and wade through phone tree hell.
+>
+> --
+> Brandon Applegate - CCIE 10273
+> PGP Key fingerprint:
+> 8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+> "SH1-0151. ?This is the serial number, of our orbital gun."
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From jneiberger at gmail.com  Fri Jun 22 14:03:11 2012
+From: jneiberger at gmail.com (John Neiberger)
+Date: Fri, 22 Jun 2012 12:03:11 -0600
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+Message-ID: <CAOQYbjogXayHAU=3Zn_m-Mt4OvZcY9M9LhRNL2E5mqjXvzr3Zw@mail.gmail.com>
+
+I meant to say that I'm not aware of any outages, but I'm not on the
+backbone team. I can take a look at the traceroute and get it to the
+right people.
+
+Thanks again,
+John
+
+On Fri, Jun 22, 2012 at 11:58 AM, John Neiberger <jneiberger at gmail.com> wrote:
+> Yes, please post a traceroute.
+>
+> Thanks,
+> John
+>
+> On Fri, Jun 22, 2012 at 11:54 AM, Brandon Applegate <brandon at burn.net> wrote:
+>> Hello,
+>>
+>> Having multiple customers call in about reachability - common thread is
+>> their side users are all on Comcast. ?Not to mention the fact that we can't
+>> even hit www.comcast.com from our network currently.
+>>
+>> We have Level3 (Cincinnati) and Qwest (Chicago). ?Traceroutes from us
+>> outbound seem to prefer Qwest and then die in Comcast.
+>>
+>> I can post traceroutes if need be - just wanted to see if anyone knew
+>> anything before I call my upstreams and wade through phone tree hell.
+>>
+>> --
+>> Brandon Applegate - CCIE 10273
+>> PGP Key fingerprint:
+>> 8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+>> "SH1-0151. ?This is the serial number, of our orbital gun."
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+
+
+From andyring at inebraska.com  Fri Jun 22 14:05:44 2012
+From: andyring at inebraska.com (Andy Ringsmuth)
+Date: Fri, 22 Jun 2012 13:05:44 -0500
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+Message-ID: <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+
+Traceroute from Lincoln, Nebraska:
+
+(My connection is via Unite Private Networks fiber)
+
+Last login: Thu Jun 21 20:52:10 on console
+618-Andy-Ringsmuth:~ andyring$ traceroute comcast.com
+traceroute: Warning: comcast.com has multiple addresses; using 69.241.45.4
+traceroute to comcast.com (69.241.45.4), 64 hops max, 52 byte packets
+ 1  192.168.1.2 (192.168.1.2)  0.494 ms  0.209 ms  0.219 ms
+ 2  ge1/2.224_ne_lnk_off_7606.upnllc.com (208.82.104.193)  0.662 ms  0.566 ms  0.582 ms
+ 3  65.125.9.33 (65.125.9.33)  1.995 ms  2.543 ms  2.488 ms
+ 4  chp-brdr-04.inet.qwest.net (67.14.8.234)  19.505 ms  19.259 ms  19.527 ms
+ 5  63.146.26.14 (63.146.26.14)  19.556 ms  19.500 ms  19.514 ms
+ 6  64.86.79.1 (64.86.79.1)  19.617 ms *  19.643 ms
+ 7  173.167.59.149 (173.167.59.149)  26.930 ms
+    173.167.59.165 (173.167.59.165)  27.209 ms
+    173.167.59.169 (173.167.59.169)  31.145 ms
+ 8  * * *
+ 9  * * *
+10  * * *
+
+Won't pull up in a Web browser either.
+
+---
+Andy Ringsmuth
+(402) 304-0083
+andyring at inebraska.com
+
+On Jun 22, 2012, at 12:58 PM, John Neiberger wrote:
+
+> Yes, please post a traceroute.
+> 
+> Thanks,
+> John
+> 
+> On Fri, Jun 22, 2012 at 11:54 AM, Brandon Applegate <brandon at burn.net> wrote:
+>> Hello,
+>> 
+>> Having multiple customers call in about reachability - common thread is
+>> their side users are all on Comcast.  Not to mention the fact that we can't
+>> even hit www.comcast.com from our network currently.
+>> 
+>> We have Level3 (Cincinnati) and Qwest (Chicago).  Traceroutes from us
+>> outbound seem to prefer Qwest and then die in Comcast.
+>> 
+>> I can post traceroutes if need be - just wanted to see if anyone knew
+>> anything before I call my upstreams and wade through phone tree hell.
+>> 
+>> --
+>> Brandon Applegate - CCIE 10273
+>> PGP Key fingerprint:
+>> 8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+>> "SH1-0151.  This is the serial number, of our orbital gun."
+>> 
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From billw at waveform.net  Fri Jun 22 14:21:24 2012
+From: billw at waveform.net (Bill Wichers)
+Date: Fri, 22 Jun 2012 14:21:24 -0400
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+ <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F956A56E@server1.WaveformTechnology.local>
+
+Their site comes up for me but Comcast is one of our direct peers (and
+we are transiting them to reach their site). Our traffic levels on our
+link to them appear normal for the past 24 hours too.
+
+This is what I see from my Comcast edge router:
+
+Concast-Edge>traceroute comcast.com
+
+Type escape sequence to abort.
+Tracing the route to comcast.com (69.241.45.20)
+
+  1 107.1.83.229 [AS 7922] 24 msec 0 msec 0 msec
+  2 te-0-11-0-7-ar01.taylor.mi.michigan.comcast.net (69.139.254.77) [AS
+33668] 12 msec 12 msec 12 msec
+  3 pos-1-14-0-0-cr01.chicago.il.ibone.comcast.net (68.86.90.181) [AS
+7922] 16 msec 16 msec 16 msec
+  4 pos-0-7-0-0-ar01.westchester.pa.bo.comcast.net (68.86.91.214) [AS
+7922] 20 msec 20 msec
+    pos-1-8-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.88.50) [AS
+7922] 20 msec
+  5 pos-4-6-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.88.153) [AS
+7922] 28 msec 32 msec 32 msec
+  6 te-7-1-ar01.philadelphia.pa.bo.comcast.net (68.86.93.14) [AS 7922]
+28 msec 32 msec
+    ext-ssl02.westchester.pa.bo.comcast.net (76.96.69.6) [AS 7922] 20
+msec
+  7 te-1-1-ar02.philadelphia.pa.bo.comcast.net (68.85.215.178) [AS 7922]
+32 msec 28 msec 32 msec
+  8  *  *  *
+  9 te-0-3-0-2-ar01.westchester.pa.bo.comcast.net (68.86.228.110) [AS
+7922] 28 msec 32 msec 28 msec
+ 10  *  *
+    te-4-1-ur07.westchester.pa.bo.comcast.net (68.85.215.146) [AS 7922]
+28 msec
+ 11 ext-ssl02.westchester.pa.bo.comcast.net (76.96.69.6) [AS 7922] 32
+msec *  !H
+Concast-Edge>
+
+   -Bill
+
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On
+> Behalf Of Andy Ringsmuth
+> Sent: Friday, June 22, 2012 2:06 PM
+> To: John Neiberger
+> Cc: outages at outages.org
+> Subject: Re: [outages] Comcast - East Coast issues ?
+> 
+> Traceroute from Lincoln, Nebraska:
+> 
+> (My connection is via Unite Private Networks fiber)
+> 
+> Last login: Thu Jun 21 20:52:10 on console
+> 618-Andy-Ringsmuth:~ andyring$ traceroute comcast.com
+> traceroute: Warning: comcast.com has multiple addresses; using
+69.241.45.4
+> traceroute to comcast.com (69.241.45.4), 64 hops max, 52 byte packets
+>  1  192.168.1.2 (192.168.1.2)  0.494 ms  0.209 ms  0.219 ms
+>  2  ge1/2.224_ne_lnk_off_7606.upnllc.com (208.82.104.193)  0.662 ms
+0.566
+> ms  0.582 ms
+>  3  65.125.9.33 (65.125.9.33)  1.995 ms  2.543 ms  2.488 ms
+>  4  chp-brdr-04.inet.qwest.net (67.14.8.234)  19.505 ms  19.259 ms
+19.527
+> ms
+>  5  63.146.26.14 (63.146.26.14)  19.556 ms  19.500 ms  19.514 ms
+>  6  64.86.79.1 (64.86.79.1)  19.617 ms *  19.643 ms
+>  7  173.167.59.149 (173.167.59.149)  26.930 ms
+>     173.167.59.165 (173.167.59.165)  27.209 ms
+>     173.167.59.169 (173.167.59.169)  31.145 ms
+>  8  * * *
+>  9  * * *
+> 10  * * *
+> 
+> Won't pull up in a Web browser either.
+> 
+
+
+From jneiberger at gmail.com  Fri Jun 22 14:28:16 2012
+From: jneiberger at gmail.com (John Neiberger)
+Date: Fri, 22 Jun 2012 12:28:16 -0600
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F956A56E@server1.WaveformTechnology.local>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+ <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+ <EE3A1AFB71A1E54BA3D302718EA382F956A56E@server1.WaveformTechnology.local>
+Message-ID: <CAOQYbjo=A1N6x0CyjoeFp-1uLbk88ENWjzQTYms0WycdHfbjwg@mail.gmail.com>
+
+Thanks, all. We're checking into it.
+
+John
+
+On Fri, Jun 22, 2012 at 12:21 PM, Bill Wichers <billw at waveform.net> wrote:
+> Type escape sequence to abort.
+> Tracing the route to comcast.com (69.241.45.20)
+>
+> ?1 107.1.83.229 [AS 7922] 24 msec 0 msec 0 msec
+> ?2 te-0-11-0-7-ar01.taylor.mi.michigan.comcast.net (69.139.254.77) [AS
+> 33668] 12 msec 12 msec 12 msec
+> ?3 pos-1-14-0-0-cr01.chicago.il.ibone.comcast.net (68.86.90.181) [AS
+> 7922] 16 msec 16 msec 16 msec
+> ?4 pos-0-7-0-0-ar01.westchester.pa.bo.comcast.net (68.86.91.214) [AS
+> 7922] 20 msec 20 msec
+> ? ?pos-1-8-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.88.50) [AS
+> 7922] 20 msec
+> ?5 pos-4-6-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.88.153) [AS
+> 7922] 28 msec 32 msec 32 msec
+> ?6 te-7-1-ar01.philadelphia.pa.bo.comcast.net (68.86.93.14) [AS 7922]
+> 28 msec 32 msec
+> ? ?ext-ssl02.westchester.pa.bo.comcast.net (76.96.69.6) [AS 7922] 20
+> msec
+> ?7 te-1-1-ar02.philadelphia.pa.bo.comcast.net (68.85.215.178) [AS 7922]
+> 32 msec 28 msec 32 msec
+> ?8 ?* ?* ?*
+> ?9 te-0-3-0-2-ar01.westchester.pa.bo.comcast.net (68.86.228.110) [AS
+> 7922] 28 msec 32 msec 28 msec
+> ?10 ?* ?*
+> ? ?te-4-1-ur07.westchester.pa.bo.comcast.net (68.85.215.146) [AS 7922]
+> 28 msec
+> ?11 ext-ssl02.westchester.pa.bo.comcast.net (76.96.69.6) [AS 7922] 32
+> msec * ?!H
+
+
+From frnkblk at iname.com  Fri Jun 22 14:30:30 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 22 Jun 2012 13:30:30 -0500
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+Message-ID: <009801cd50a5$211802a0$634807e0$@iname.com>
+
+Looks good from AS53347, going through Sprint.
+
+Tracing route to 69.241.45.20 [www.wcprdf2.comcast.com] on port 80
+Over a maximum of 30 hops.
+1       48 ms   46 ms   51 ms   199.120.69.254
+[router-core-inside.mtcnet.net]
+2       48 ms   47 ms   47 ms   167.142.156.194 [sxct.movl.mtcnet.net]
+3       52 ms   53 ms   *       173.215.60.1
+[premier.movl-mlx.fbnt.netins.net]
+4       54 ms   78 ms   89 ms   167.142.64.253
+[ins-kb1-te-13-2-220.kmrr.netins.net]
+5       73 ms   75 ms   54 ms   167.142.67.53
+[ins-kc1-et-9-2.kmrr.netins.net]
+6       69 ms   68 ms   62 ms   144.223.35.225
+[sl-crs2-chi-lc1-.sprintlink.net]
+7       *       *       1979 ms 144.232.8.186
+[sl-st31-chi-0-4-0-0.sprintlink.net]
+8       64 ms   68 ms   64 ms   144.232.6.102
+9       *       *       774 ms  68.86.84.189
+[be-12-cr01.350ecermak.il.ibone.comcast.net]
+10      99 ms   97 ms   119 ms  68.86.88.169
+[pos-4-10-0-0-cr01.newyork.ny.ibone.comcast.net]
+11      *       *       *       Request timed out.
+12      *       *       *       Request timed out.
+13      *       *       *       Request timed out.
+14      *       2596 ms 98 ms   69.139.244.58
+[te-0-4-0-5-ar01.westchester.pa.bo.comcast.net]
+15      *       *       *       Request timed out.
+16      Destination Reached in 2355 ms. Connection established to
+69.241.45.20
+Trace Complete.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Brandon Applegate
+Sent: Friday, June 22, 2012 12:54 PM
+To: outages at outages.org
+
+Hello,
+
+Having multiple customers call in about reachability - common thread is 
+their side users are all on Comcast.  Not to mention the fact that we 
+can't even hit www.comcast.com from our network currently.
+
+We have Level3 (Cincinnati) and Qwest (Chicago).  Traceroutes from us 
+outbound seem to prefer Qwest and then die in Comcast.
+
+I can post traceroutes if need be - just wanted to see if anyone knew 
+anything before I call my upstreams and wade through phone tree hell.
+
+--
+Brandon Applegate - CCIE 10273
+PGP Key fingerprint:
+8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+"SH1-0151.  This is the serial number, of our orbital gun."
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From brandon at netsville.com  Fri Jun 22 14:41:42 2012
+From: brandon at netsville.com (Micah Brandon)
+Date: Fri, 22 Jun 2012 14:41:42 -0400
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+ <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+Message-ID: <4FE4BC66.7040508@netsville.com>
+
+We've also received a call from customer on Comcast that can't reach us.  We come in from XO and our trace ends at the same point.
+
+traceroute to www.g.comcast.com (69.241.45.20), 64 hops max, 40 byte packets
+ 1  roc-core3 (69.55.64.3)  0.537 ms  0.337 ms  0.308 ms
+ 2  roc-edge2 (69.55.64.2)  0.522 ms  0.553 ms  0.377 ms
+ 3  roc-edge4 (69.55.64.4)  0.475 ms  0.415 ms  0.441 ms
+ 4  nysys-gw (69.55.69.36)  1.980 ms  1.905 ms  2.286 ms
+ 5  66.238.116.197.ptr.us.xo.net (66.238.116.197)  8.049 ms  7.548 ms  9.537 ms
+ 6  216.156.8.13.ptr.us.xo.net (216.156.8.13)  8.689 ms  7.299 ms  6.940 ms
+ 7  vb1111.rar3.chicago-il.us.xo.net (216.156.0.53)  20.504 ms  22.675 ms  19.280 ms
+ 8  * 207.88.14.194.ptr.us.xo.net (207.88.14.194)  25.729 ms  17.183 ms
+ 9  206.111.2.206.ptr.us.xo.net (206.111.2.206)  17.062 ms  18.956 ms  16.786 ms
+10  64.86.79.1 (64.86.79.1)  16.639 ms  23.481 ms  21.564 ms
+11  173.167.59.161 (173.167.59.161)  27.794 ms
+    173.167.59.153 (173.167.59.153)  27.395 ms  34.985 ms
+12  * * *
+
+
+On 06/22/2012 02:05 PM, Andy Ringsmuth wrote:
+> Traceroute from Lincoln, Nebraska:
+> 
+> (My connection is via Unite Private Networks fiber)
+> 
+> Last login: Thu Jun 21 20:52:10 on console
+> 618-Andy-Ringsmuth:~ andyring$ traceroute comcast.com
+> traceroute: Warning: comcast.com has multiple addresses; using 69.241.45.4
+> traceroute to comcast.com (69.241.45.4), 64 hops max, 52 byte packets
+>  1  192.168.1.2 (192.168.1.2)  0.494 ms  0.209 ms  0.219 ms
+>  2  ge1/2.224_ne_lnk_off_7606.upnllc.com (208.82.104.193)  0.662 ms  0.566 ms  0.582 ms
+>  3  65.125.9.33 (65.125.9.33)  1.995 ms  2.543 ms  2.488 ms
+>  4  chp-brdr-04.inet.qwest.net (67.14.8.234)  19.505 ms  19.259 ms  19.527 ms
+>  5  63.146.26.14 (63.146.26.14)  19.556 ms  19.500 ms  19.514 ms
+>  6  64.86.79.1 (64.86.79.1)  19.617 ms *  19.643 ms
+>  7  173.167.59.149 (173.167.59.149)  26.930 ms
+>     173.167.59.165 (173.167.59.165)  27.209 ms
+>     173.167.59.169 (173.167.59.169)  31.145 ms
+>  8  * * *
+>  9  * * *
+> 10  * * *
+> 
+> Won't pull up in a Web browser either.
+> 
+> ---
+> Andy Ringsmuth
+> (402) 304-0083
+> andyring at inebraska.com
+> 
+> On Jun 22, 2012, at 12:58 PM, John Neiberger wrote:
+> 
+>> Yes, please post a traceroute.
+>>
+>> Thanks,
+>> John
+>>
+>> On Fri, Jun 22, 2012 at 11:54 AM, Brandon Applegate <brandon at burn.net> wrote:
+>>> Hello,
+>>>
+>>> Having multiple customers call in about reachability - common thread is
+>>> their side users are all on Comcast.  Not to mention the fact that we can't
+>>> even hit www.comcast.com from our network currently.
+>>>
+>>> We have Level3 (Cincinnati) and Qwest (Chicago).  Traceroutes from us
+>>> outbound seem to prefer Qwest and then die in Comcast.
+>>>
+>>> I can post traceroutes if need be - just wanted to see if anyone knew
+>>> anything before I call my upstreams and wade through phone tree hell.
+>>>
+>>> --
+>>> Brandon Applegate - CCIE 10273
+>>> PGP Key fingerprint:
+>>> 8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+>>> "SH1-0151.  This is the serial number, of our orbital gun."
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+micah brandon
+netsville.com
+p585.232.5670
+
+From brandon at burn.net  Fri Jun 22 14:45:00 2012
+From: brandon at burn.net (Brandon Applegate)
+Date: Fri, 22 Jun 2012 14:45:00 -0400 (EDT)
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <CAOQYbjos1KMHdhBR1UHnsCFSTbuc+xNQJ2wju=mzdz9wn09CPQ@mail.gmail.com>
+ <015B1C2E-BFDD-4EA0-A580-8A5C85F39078@inebraska.com>
+Message-ID: <alpine.DEB.2.00.1206221442260.9946@orbital.burn.net>
+
+I think it's Qwest in Chicago -> Comcast.  Looks like that's what Andy is 
+using as well (edit: same router - chp-brdr-04.inet.qwest.net 
+(67.14.8.234))   I think we are going to give Qwest a call.
+
+Here's a before:
+
+traceroute to www.comcast.com (69.241.45.20), 30 hops max, 60 byte packets
+  1  216.143.11.114 (216.143.11.114)  0.529 ms  0.571 ms  0.635 ms
+  2  G-4-8.core1-5.cncndc.net (67.208.157.69)  0.327 ms  0.382 ms  0.435 ms
+  3  tenG-1-1.core0-ev.cncndc.net (67.208.157.6)  0.806 ms  0.858 ms  0.895 
+ms
+  4  tenG-1-0-0.transit0-ch.cncndc.net (67.208.157.182)  8.516 ms  8.522 ms 
+8.522 ms
+  5  cer-edge-17.inet.qwest.net (63.148.112.17)  8.623 ms  8.627 ms  8.668 
+ms
+  6  chp-brdr-04.inet.qwest.net (67.14.8.234)  8.667 ms  8.630 ms  8.625 ms
+  7  63.146.26.14 (63.146.26.14)  7.800 ms  7.821 ms  7.804 ms
+  8  64.86.79.1 (64.86.79.1)  7.815 ms  7.837 ms *
+  9  * * *
+10  * * *
+
+The I denied _7922_ inbound on Qwest, and now:
+
+traceroute to www.comcast.com (69.241.45.4), 30 hops max, 60 byte packets
+  1  216.143.11.114 (216.143.11.114)  0.358 ms  0.597 ms  0.676 ms
+  2  G-4-8.core1-5.cncndc.net (67.208.157.69)  0.339 ms  0.391 ms  0.458 ms
+  3  tenG-0-2-0.transit1-5.cncndc.net (67.208.157.194)  0.208 ms  0.215 ms 
+0.214 ms
+  4  xe-8-1-0.bar2.Cincinnati1.Level3.net (4.59.42.9)  0.379 ms  0.432 ms 
+0.430 ms
+  5  ae-7-7.ebr2.Atlanta2.Level3.net (4.69.136.218)  13.782 ms  13.955 ms 
+14.021 ms
+  6  ae-2-52.edge5.Atlanta2.Level3.net (4.69.150.78)  13.200 ms  13.207 ms 
+13.203 ms
+  7  4.71.252.6 (4.71.252.6)  14.621 ms  14.248 ms  14.240 ms
+  8  pos-4-7-0-0-cr01.ashburn.va.ibone.comcast.net (68.86.87.85)  27.095 ms 
+27.092 ms  27.085 ms
+  9  pos-0-7-0-0-ar01.westchester.pa.bo.comcast.net (68.86.91.214)  29.653 
+ms  29.687 ms  29.674 ms
+10  te-4-1-ur07.westchester.pa.bo.comcast.net (68.85.215.146)  29.651 ms 
+29.637 ms  29.570 ms
+11  wwwcomcast-vip.westchester.pa.bo.comcast.net (69.241.45.4)  29.884 ms 
+29.725 ms  29.539 ms
+
+
+--
+Brandon Applegate - CCIE 10273
+PGP Key fingerprint:
+8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+"SH1-0151.  This is the serial number, of our orbital gun."
+
+
+On Fri, 22 Jun 2012, Andy Ringsmuth wrote:
+
+> Traceroute from Lincoln, Nebraska:
+>
+> (My connection is via Unite Private Networks fiber)
+>
+> Last login: Thu Jun 21 20:52:10 on console
+> 618-Andy-Ringsmuth:~ andyring$ traceroute comcast.com
+> traceroute: Warning: comcast.com has multiple addresses; using 69.241.45.4
+> traceroute to comcast.com (69.241.45.4), 64 hops max, 52 byte packets
+> 1  192.168.1.2 (192.168.1.2)  0.494 ms  0.209 ms  0.219 ms
+> 2  ge1/2.224_ne_lnk_off_7606.upnllc.com (208.82.104.193)  0.662 ms  0.566 ms  0.582 ms
+> 3  65.125.9.33 (65.125.9.33)  1.995 ms  2.543 ms  2.488 ms
+> 4  chp-brdr-04.inet.qwest.net (67.14.8.234)  19.505 ms  19.259 ms  19.527 ms
+> 5  63.146.26.14 (63.146.26.14)  19.556 ms  19.500 ms  19.514 ms
+> 6  64.86.79.1 (64.86.79.1)  19.617 ms *  19.643 ms
+> 7  173.167.59.149 (173.167.59.149)  26.930 ms
+>    173.167.59.165 (173.167.59.165)  27.209 ms
+>    173.167.59.169 (173.167.59.169)  31.145 ms
+> 8  * * *
+> 9  * * *
+> 10  * * *
+>
+> Won't pull up in a Web browser either.
+>
+> ---
+> Andy Ringsmuth
+> (402) 304-0083
+> andyring at inebraska.com
+>
+> On Jun 22, 2012, at 12:58 PM, John Neiberger wrote:
+>
+>> Yes, please post a traceroute.
+>>
+>> Thanks,
+>> John
+>>
+>> On Fri, Jun 22, 2012 at 11:54 AM, Brandon Applegate <brandon at burn.net> wrote:
+>>> Hello,
+>>>
+>>> Having multiple customers call in about reachability - common thread is
+>>> their side users are all on Comcast.  Not to mention the fact that we can't
+>>> even hit www.comcast.com from our network currently.
+>>>
+>>> We have Level3 (Cincinnati) and Qwest (Chicago).  Traceroutes from us
+>>> outbound seem to prefer Qwest and then die in Comcast.
+>>>
+>>> I can post traceroutes if need be - just wanted to see if anyone knew
+>>> anything before I call my upstreams and wade through phone tree hell.
+>>>
+>>> --
+>>> Brandon Applegate - CCIE 10273
+>>> PGP Key fingerprint:
+>>> 8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+>>> "SH1-0151.  This is the serial number, of our orbital gun."
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+From eric at spaethco.com  Fri Jun 22 14:47:58 2012
+From: eric at spaethco.com (Eric Spaeth)
+Date: Fri, 22 Jun 2012 13:47:58 -0500 (CDT)
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+Message-ID: <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+
+
+
+We have transit through AS209(Qwest/CL), AS701(VZ), and
+AS7018(ATT).??  While AS7018 peers directly with Comcast, AS209
+and AS701 are only  reachable from Comcast via TATA (formerly Teleglobe)
+AS6453.
+ 
+ We are unable to reach any of our prefixes that have
+to transit AS6453.
+ 
+ 
+ Reachable via AS209 or AS701:
+
+==============================================================
+
+traceroute to www.exantebankbis.com (168.183.130.50), 30 hops max, 40 byte
+packets
+ ?1? leviathan (192.168.0.1)? 0.177 ms?
+0.212 ms? 0.211 ms
+ ?2?
+173-8-x-x-Minnesota.hfc.comcastbusiness.net (173.8.x.x)? 0.685
+ms? 1.092 ms? 1.424 ms
+ ?3? 73.205.28.1
+(73.205.28.1)? 8.518 ms? 9.500 ms? 11.392 ms
+
+?4? te-4-2-ur02.brooklynpark.mn.minn.comcast.net
+(68.85.165.181)? 14.241 ms? 14.593 ms? 14.899 ms
+
+?5? te-8-3-ur01.brooklynpark.mn.minn.comcast.net
+(68.87.174.25)? 13.253 ms? 14.487 ms? 14.692 ms
+
+?6? te-0-2-0-7-ar01.crosstown.mn.minn.comcast.net
+(68.87.174.245)? 20.913 ms? 21.416 ms? 21.523 ms
+
+?7? te-0-1-0-2-ar01.roseville.mn.minn.comcast.net
+(69.139.176.174)? 17.644 ms? 18.191 ms? 18.185 ms
+
+?8? pos-0-13-0-0-cr01.350ecermak.il.ibone.comcast.net
+(68.86.94.73)? 27.098 ms? 22.970 ms? 25.999 ms
+
+?9? * * *
+ 10? * * *
+ 11? * * *
+
+12? * * *
+ 13? * * *
+ 14? * * *
+ 15? *
+* *
+ 16? * * *
+
+==============================================================
+ 
+ Reachable via AS7018:
+
+==============================================================
+
+traceroute to custinst3.exantebankbis.com (168.183.144.100), 30 hops max,
+40 byte packets
+ ?1? leviathan (192.168.0.1)? 0.167
+ms? 0.162 ms? 0.200 ms
+ ?2?
+173-8-x-x-Minnesota.hfc.comcastbusiness.net (173.8.x.x)? 0.764
+ms? 1.179 ms? 1.407 ms
+ ?3? 73.205.28.1
+(73.205.28.1)? 10.048 ms? 11.169 ms? 11.384 ms
+
+?4? te-4-2-ur01.brooklynpark.mn.minn.comcast.net
+(68.85.165.177)? 11.570 ms? 11.699 ms? 11.823 ms
+
+?5? te-0-2-0-6-ar01.crosstown.mn.minn.comcast.net
+(68.87.174.21)? 20.859 ms? 21.068 ms? 21.203 ms
+
+?6? te-0-1-0-0-ar01.roseville.mn.minn.comcast.net
+(68.87.174.2)? 14.887 ms? 18.349 ms? 19.320 ms
+
+?7? pos-0-13-0-0-cr01.350ecermak.il.ibone.comcast.net
+(68.86.94.73)? 26.212 ms? 26.568 ms? 26.501 ms
+
+?8? pos-1-2-0-0-pe01.350ecermak.il.ibone.comcast.net
+(68.86.86.78)? 26.531 ms? 66.968 ms? 67.172 ms
+
+?9? 192.205.37.21 (192.205.37.21)? 66.352 ms? 66.284
+ms? 66.546 ms
+ 10? cr2.cgcil.ip.att.net
+(12.122.132.158)? 67.642 ms? 67.747 ms? 68.009 ms
+
+11? cr1.n54ny.ip.att.net (12.122.1.1)? 68.480 ms? 68.365
+ms? 68.535 ms
+ 12? cr83.n54ny.ip.att.net
+(12.122.105.50)? 66.645 ms? 66.430 ms? 66.512 ms
+
+13? gar20.n54ny.ip.att.net (12.122.131.249)? 67.271 ms?
+67.009 ms? 42.918 ms
+ 14? 12.88.161.114
+(12.88.161.114)? 46.082 ms? 46.853 ms? 46.850 ms
+
+15? 168.183.148.29 (168.183.148.29)? 46.618 ms? 46.778 ms
+*
+ 16? * * *
+ 17? * * *
+ 18? * * *
+
+19? * * *
+ 20? * custinst3.exantebankbis.com
+(168.183.144.100)? 40.997 ms? 46.641 ms
+
+==============================================================
+ 
+ My strong suspicion at this time is that it's an issue with AS6453, or
+at least the peering between AS7922 and AS6453.
+ 
+ -Eric
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120622/a2880666/attachment.html>
+
+From eric at spaethco.com  Fri Jun 22 15:25:00 2012
+From: eric at spaethco.com (Eric Spaeth)
+Date: Fri, 22 Jun 2012 14:25:00 -0500 (CDT)
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+Message-ID: <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+
+
+
+Looks like we have connectivity again as of 14:08 CDT, although it looks
+like Comcast/TATA peering is now shutdown in Chicago.
+
+Traffic
+is now routing through Ashburn, but with 15-20% packet loss.
+
+Take the bad with the good, I guess.
+
+-Eric
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120622/0f277e17/attachment.html>
+
+From jneiberger at gmail.com  Fri Jun 22 15:40:39 2012
+From: jneiberger at gmail.com (John Neiberger)
+Date: Fri, 22 Jun 2012 13:40:39 -0600
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+Message-ID: <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+
+Thanks for the update. Can you send me a trace of the path with packet loss?
+
+John
+
+On Fri, Jun 22, 2012 at 1:25 PM, Eric Spaeth <eric at spaethco.com> wrote:
+> Looks like we have connectivity again as of 14:08 CDT, although it looks
+> like Comcast/TATA peering is now shutdown in Chicago.
+>
+> Traffic is now routing through Ashburn, but with 15-20% packet loss.
+>
+> Take the bad with the good, I guess.
+>
+> -Eric
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From ser at layer42.net  Fri Jun 22 18:54:56 2012
+From: ser at layer42.net (Steve Rubin)
+Date: Fri, 22 Jun 2012 15:54:56 -0700
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+Message-ID: <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+
+
+
+http://web.hostleasing.net/~repstein/traceroutes.jpg
+
+--
+Steve Rubin                                                                  ser at layer42.net
+Layer42 Networks                                                       http://www.layer42.net/
+Expect More from A Web Solutions Provider         (408)450-5742 
+
+
+
+
+
+
+
+
+
+
+From jneiberger at gmail.com  Fri Jun 22 20:53:52 2012
+From: jneiberger at gmail.com (John Neiberger)
+Date: Fri, 22 Jun 2012 18:53:52 -0600
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+Message-ID: <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+
+Wise words!  :)
+
+On Fri, Jun 22, 2012 at 4:54 PM, Steve Rubin <ser at layer42.net> wrote:
+>
+>
+> http://web.hostleasing.net/~repstein/traceroutes.jpg
+>
+> --
+> Steve Rubin ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?ser at layer42.net
+> Layer42 Networks ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? http://www.layer42.net/
+> Expect More from A Web Solutions Provider ? ? ? ? (408)450-5742
+>
+>
+>
+>
+>
+>
+>
+>
+
+
+From cb.list6 at gmail.com  Tue Jun 26 22:41:06 2012
+From: cb.list6 at gmail.com (Cameron Byrne)
+Date: Tue, 26 Jun 2012 19:41:06 -0700
+Subject: [outages] www.justice.gov down on ipv6?
+Message-ID: <CAD6AjGQm0h7r88bViN_t5D0MH0=CJ9DR8g5RpJxgUf3HCruRog@mail.gmail.com>
+
+It looks like www.justice.gov is down on IPv6.
+
+This is likely causing some heart burn for dual stack network that
+don't have happy eyeballs
+
+If you know someone at DOJ, you may want to give them a heads up to
+fix it (pull the AAAA DNS record until the servers are ready)
+
+
+ wget -6 www.justice.gov
+--2012-06-26 19:27:19--  http://www.justice.gov/
+Resolving www.justice.gov (www.justice.gov)... 2607:f330:8400:100::50
+Connecting to www.justice.gov
+(www.justice.gov)|2607:f330:8400:100::50|:80... failed: Operation
+timed out.
+Retrying.
+
+--2012-06-26 19:29:31--  (try: 2)  http://www.justice.gov/
+Connecting to www.justice.gov
+(www.justice.gov)|2607:f330:8400:100::50|:80... failed: Operation
+timed out.
+Retrying.
+
+--2012-06-26 19:31:45--  (try: 3)  http://www.justice.gov/
+Connecting to www.justice.gov
+(www.justice.gov)|2607:f330:8400:100::50|:80... failed: Operation
+timed out.
+Retrying.
+
+--2012-06-26 19:34:01--  (try: 4)  http://www.justice.gov/
+
+From mi.netops at gmail.com  Wed Jun 27 07:52:42 2012
+From: mi.netops at gmail.com (Metro-Inet Netops)
+Date: Wed, 27 Jun 2012 06:52:42 -0500
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+ <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+Message-ID: <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+
+The routing issues appear to be back... At least between XO and comcast.
+Anyone else seeing this?
+
+
+
+On Fri, Jun 22, 2012 at 7:53 PM, John Neiberger <jneiberger at gmail.com>wrote:
+
+> Wise words!  :)
+>
+> On Fri, Jun 22, 2012 at 4:54 PM, Steve Rubin <ser at layer42.net> wrote:
+> >
+> >
+> > http://web.hostleasing.net/~repstein/traceroutes.jpg
+> >
+> > --
+> > Steve Rubin
+>      ser at layer42.net
+> > Layer42 Networks
+> http://www.layer42.net/
+> > Expect More from A Web Solutions Provider         (408)450-5742
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+> >
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120627/dedb7a9c/attachment.html>
+
+From dylan.ebner at crlmed.com  Wed Jun 27 08:05:59 2012
+From: dylan.ebner at crlmed.com (Dylan Ebner)
+Date: Wed, 27 Jun 2012 12:05:59 +0000
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+ <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+ <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+Message-ID: <017265BF3B9640499754DD48777C3D2075C10B32B6@MBX9.EXCHPROD.USA.NET>
+
+Yes. We are having reachability issues from Century Link in Mpls to Comcast sites. TwTelco in Mpls seems to be working.
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Metro-Inet Netops
+Sent: Wednesday, June 27, 2012 6:53 AM
+To: John Neiberger
+Cc: outages at outages.org
+
+The routing issues appear to be back... At least between XO and comcast. Anyone else seeing this?
+
+
+
+On Fri, Jun 22, 2012 at 7:53 PM, John Neiberger <jneiberger at gmail.com<mailto:jneiberger at gmail.com>> wrote:
+Wise words!  :)
+
+On Fri, Jun 22, 2012 at 4:54 PM, Steve Rubin <ser at layer42.net<mailto:ser at layer42.net>> wrote:
+>
+>
+> http://web.hostleasing.net/~repstein/traceroutes.jpg
+>
+> --
+> Steve Rubin                                                                  ser at layer42.net<mailto:ser at layer42.net>
+> Layer42 Networks                                                       http://www.layer42.net/
+> Expect More from A Web Solutions Provider         (408)450-5742<tel:%28408%29450-5742>
+>
+>
+>
+>
+>
+>
+>
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org<mailto:Outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120627/50312c19/attachment.html>
+
+From frnkblk at iname.com  Wed Jun 27 08:10:01 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 27 Jun 2012 07:10:01 -0500
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+ <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+ <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+Message-ID: <012701cd545d$c7439840$55cac8c0$@iname.com>
+
+Could you share an MTR or something similar with this group?
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Metro-Inet Netops
+Sent: Wednesday, June 27, 2012 6:53 AM
+To: John Neiberger
+Cc: outages at outages.org
+
+ 
+
+The routing issues appear to be back... At least between XO and comcast.
+Anyone else seeing this?
+
+
+
+ 
+
+On Fri, Jun 22, 2012 at 7:53 PM, John Neiberger <jneiberger at gmail.com>
+wrote:
+
+Wise words!  :)
+
+
+On Fri, Jun 22, 2012 at 4:54 PM, Steve Rubin <ser at layer42.net> wrote:
+>
+>
+> http://web.hostleasing.net/~repstein/traceroutes.jpg
+>
+> --
+> Steve Rubin
+ser at layer42.net
+> Layer42 Networks
+http://www.layer42.net/
+> Expect More from A Web Solutions Provider         (408)450-5742
+<tel:%28408%29450-5742> 
+>
+>
+>
+>
+>
+>
+>
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120627/4c431d82/attachment.html>
+
+From dylan.ebner at crlmed.com  Wed Jun 27 08:16:53 2012
+From: dylan.ebner at crlmed.com (Dylan Ebner)
+Date: Wed, 27 Jun 2012 12:16:53 +0000
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <012701cd545d$c7439840$55cac8c0$@iname.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+ <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+ <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+ <012701cd545d$c7439840$55cac8c0$@iname.com>
+Message-ID: <017265BF3B9640499754DD48777C3D2075C10B32C6@MBX9.EXCHPROD.USA.NET>
+
+>From Minneapolis:
+
+  5    61 ms    63 ms    85 ms  67.134.59.197
+  6    70 ms    73 ms    73 ms  67.14.8.238
+  7    67 ms    73 ms    73 ms  63.146.26.14
+  8    71 ms    74 ms    73 ms  64.86.79.1
+  9    77 ms    70 ms    83 ms  173.167.59.157
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+Sent: Wednesday, June 27, 2012 7:10 AM
+To: 'Metro-Inet Netops'
+Cc: outages at outages.org
+
+Could you share an MTR or something similar with this group?
+
+Frank
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Metro-Inet Netops
+Sent: Wednesday, June 27, 2012 6:53 AM
+To: John Neiberger
+Cc: outages at outages.org
+
+The routing issues appear to be back... At least between XO and comcast. Anyone else seeing this?
+
+
+
+On Fri, Jun 22, 2012 at 7:53 PM, John Neiberger <jneiberger at gmail.com<mailto:jneiberger at gmail.com>> wrote:
+Wise words!  :)
+
+On Fri, Jun 22, 2012 at 4:54 PM, Steve Rubin <ser at layer42.net<mailto:ser at layer42.net>> wrote:
+>
+>
+> http://web.hostleasing.net/~repstein/traceroutes.jpg
+>
+> --
+> Steve Rubin                                                                  ser at layer42.net<mailto:ser at layer42.net>
+> Layer42 Networks                                                       http://www.layer42.net/
+> Expect More from A Web Solutions Provider         (408)450-5742<tel:%28408%29450-5742>
+>
+>
+>
+>
+>
+>
+>
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org<mailto:Outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120627/1aef415e/attachment-0001.html>
+
+From eric at spaethco.com  Wed Jun 27 08:45:11 2012
+From: eric at spaethco.com (Eric Spaeth)
+Date: Wed, 27 Jun 2012 07:45:11 -0500
+Subject: [outages] Comcast - East Coast issues ?
+In-Reply-To: <012701cd545d$c7439840$55cac8c0$@iname.com>
+References: <alpine.DEB.2.00.1206221345000.9946@orbital.burn.net>
+ <60126.69.65.12.156.1340390878.squirrel@mailthrower.com>
+ <48285.69.65.12.156.1340393100.squirrel@mailthrower.com>
+ <CAOQYbjow6=8U0=EFYc8-TFOZfkoKKHhjBgOO4AL2_rAtNoHCYw@mail.gmail.com>
+ <28940DE0-AC79-4DA3-A744-579BA80E25EB@layer42.net>
+ <CAOQYbjrYYohzUJJF9yikc3Q6EPKGemK78RuzHvq=2B8ce24c-Q@mail.gmail.com>
+ <CAEQc8HtQCqeVy+jfWoKqaKrnb-xuaBUK7FsQXwbCDHLKY0m9xg@mail.gmail.com>
+ <012701cd545d$c7439840$55cac8c0$@iname.com>
+Message-ID: <4FEB0057.2060805@spaethco.com>
+
+All the traceroutes in this thread from last week still apply.   It's 
+the same issue.
+
+-Eric
+
+On 6/27/2012 7:10 AM, Frank Bulk wrote:
+>
+> Could you share an MTR or something similar with this group?
+>
+> Frank
+>
+>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120627/95374d97/attachment.html>
+
+From windsor at warthog.com  Fri Jun 29 13:09:55 2012
+From: windsor at warthog.com (Rob Windsor)
+Date: Fri, 29 Jun 2012 12:09:55 -0500 (CDT)
+Subject: [outages] Windstream (Paetec)
+Message-ID: <d571a02e-d71c-4d16-b45d-614f70094016@warthog.com>
+
+Heavy flapping witnessed in Irvine CA, Morris IL, Norcross, GA (pretty much coast-to-coast, different LECs).
+
+From sethm at rollernet.us  Fri Jun 29 23:48:14 2012
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Fri, 29 Jun 2012 20:48:14 -0700
+Subject: [outages] Fwd: RE: FYI Netflix is down
+In-Reply-To: <8078ED370ADA824281219A7B5BADC39B1D61037C@MBX023-W1-CA-5>
+References: <8078ED370ADA824281219A7B5BADC39B1D61037C@MBX023-W1-CA-5>
+Message-ID: <4FEE76FE.9070504@rollernet.us>
+
+FYI from Nanog.
+
+
+
+-------- Original Message --------
+Subject: RE: FYI Netflix is down
+Date: Sat, 30 Jun 2012 03:42:52 +0000
+From: James Laszko <jamesl at mythostech.com>
+To: Grant Ridder <shortdudey123 at gmail.com>, Jason Baugher
+<jason at thebaughers.com>
+CC: nanog at nanog.org <nanog at nanog.org>
+
+To further expand:
+
+8:21 PM PDT We are investigating connectivity issues for a number of
+instances in the US-EAST-1 Region.
+
+ 8:31 PM PDT We are investigating elevated errors rates for APIs in the
+US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+instances in a single availability zone.
+
+ 8:40 PM PDT We can confirm that a large number of instances in a single
+Availability Zone have lost power due to electrical storms in the area.
+We are actively working to restore power.
+
+-----Original Message-----
+From: Grant Ridder [mailto:shortdudey123 at gmail.com]
+Sent: Friday, June 29, 2012 8:42 PM
+To: Jason Baugher
+Cc: nanog at nanog.org
+
+>From Amazon
+
+Amazon Elastic Compute Cloud (N. Virginia)  (http://status.aws.amazon.com/)
+8:21 PM PDT We are investigating connectivity issues for a number of
+instances in the US-EAST-1 Region.
+8:31 PM PDT We are investigating elevated errors rates for APIs in the
+US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+instances in a single availability zone.
+
+-Grant
+
+On Fri, Jun 29, 2012 at 10:40 PM, Jason Baugher
+<jason at thebaughers.com>wrote:
+
+> Seeing some reports of Pinterest and Instagram down as well. Amazon 
+> cloud services being implicated.
+>
+>
+> On 6/29/2012 10:22 PM, Joe Blanchard wrote:
+>
+>> Seems that they are unreachable at the moment. Called and theres a 
+>> recorded message stating they are aware of an issue, no details.
+>>
+>> -Joe
+>>
+>>
+>>
+>
+>
+>
+
+
+
+
+From frnkblk at iname.com  Sat Jun 30 00:32:32 2012
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 29 Jun 2012 23:32:32 -0500
+Subject: [outages] Fwd: RE: FYI Netflix is down
+In-Reply-To: <4FEE76FE.9070504@rollernet.us>
+References: <8078ED370ADA824281219A7B5BADC39B1D61037C@MBX023-W1-CA-5>
+ <4FEE76FE.9070504@rollernet.us>
+Message-ID: <013c01cd5679$5e0e9d20$1a2bd760$@iname.com>
+
+Thanks.  I check www.netflix.com via IPv6 and I saw the first issue at 10:13
+pm Central, and a few minutes later the site was reporting "HTTP/1.1 503
+Service Unavailable: Back-end server is at capacity".
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Seth Mattinen
+Sent: Friday, June 29, 2012 10:48 PM
+To: outages at outages.org
+
+FYI from Nanog.
+
+
+
+-------- Original Message --------
+Subject: RE: FYI Netflix is down
+Date: Sat, 30 Jun 2012 03:42:52 +0000
+From: James Laszko <jamesl at mythostech.com>
+To: Grant Ridder <shortdudey123 at gmail.com>, Jason Baugher
+<jason at thebaughers.com>
+CC: nanog at nanog.org <nanog at nanog.org>
+
+To further expand:
+
+8:21 PM PDT We are investigating connectivity issues for a number of
+instances in the US-EAST-1 Region.
+
+ 8:31 PM PDT We are investigating elevated errors rates for APIs in the
+US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+instances in a single availability zone.
+
+ 8:40 PM PDT We can confirm that a large number of instances in a single
+Availability Zone have lost power due to electrical storms in the area.
+We are actively working to restore power.
+
+-----Original Message-----
+From: Grant Ridder [mailto:shortdudey123 at gmail.com]
+Sent: Friday, June 29, 2012 8:42 PM
+To: Jason Baugher
+Cc: nanog at nanog.org
+
+>From Amazon
+
+Amazon Elastic Compute Cloud (N. Virginia)  (http://status.aws.amazon.com/)
+8:21 PM PDT We are investigating connectivity issues for a number of
+instances in the US-EAST-1 Region.
+8:31 PM PDT We are investigating elevated errors rates for APIs in the
+US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+instances in a single availability zone.
+
+-Grant
+
+On Fri, Jun 29, 2012 at 10:40 PM, Jason Baugher
+<jason at thebaughers.com>wrote:
+
+> Seeing some reports of Pinterest and Instagram down as well. Amazon 
+> cloud services being implicated.
+>
+>
+> On 6/29/2012 10:22 PM, Joe Blanchard wrote:
+>
+>> Seems that they are unreachable at the moment. Called and theres a 
+>> recorded message stating they are aware of an issue, no details.
+>>
+>> -Joe
+>>
+>>
+>>
+>
+>
+>
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From fergdawgster at gmail.com  Sat Jun 30 00:40:18 2012
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Fri, 29 Jun 2012 21:40:18 -0700
+Subject: [outages] Fwd: RE: FYI Netflix is down
+In-Reply-To: <013c01cd5679$5e0e9d20$1a2bd760$@iname.com>
+References: <8078ED370ADA824281219A7B5BADC39B1D61037C@MBX023-W1-CA-5>
+ <4FEE76FE.9070504@rollernet.us>
+ <013c01cd5679$5e0e9d20$1a2bd760$@iname.com>
+Message-ID: <CANQy6FZXjkvF=KT5hv0Wb8oL=jzFo6K9kYuyXg=+50crxc5cYg@mail.gmail.com>
+
+http://venturebeat.com/2012/06/29/amazon-outage-netflix-instagram-pinterest/
+
+FYI,
+
+- ferg
+
+On Fri, Jun 29, 2012 at 9:32 PM, Frank Bulk <frnkblk at iname.com> wrote:
+
+> Thanks. ?I check www.netflix.com via IPv6 and I saw the first issue at 10:13
+> pm Central, and a few minutes later the site was reporting "HTTP/1.1 503
+> Service Unavailable: Back-end server is at capacity".
+>
+> Frank
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Seth Mattinen
+> Sent: Friday, June 29, 2012 10:48 PM
+> To: outages at outages.org
+> Subject: [outages] Fwd: RE: FYI Netflix is down
+>
+> FYI from Nanog.
+>
+>
+>
+> -------- Original Message --------
+> Subject: RE: FYI Netflix is down
+> Date: Sat, 30 Jun 2012 03:42:52 +0000
+> From: James Laszko <jamesl at mythostech.com>
+> To: Grant Ridder <shortdudey123 at gmail.com>, Jason Baugher
+> <jason at thebaughers.com>
+> CC: nanog at nanog.org <nanog at nanog.org>
+>
+> To further expand:
+>
+> 8:21 PM PDT We are investigating connectivity issues for a number of
+> instances in the US-EAST-1 Region.
+>
+> ?8:31 PM PDT We are investigating elevated errors rates for APIs in the
+> US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+> instances in a single availability zone.
+>
+> ?8:40 PM PDT We can confirm that a large number of instances in a single
+> Availability Zone have lost power due to electrical storms in the area.
+> We are actively working to restore power.
+>
+> -----Original Message-----
+> From: Grant Ridder [mailto:shortdudey123 at gmail.com]
+> Sent: Friday, June 29, 2012 8:42 PM
+> To: Jason Baugher
+> Cc: nanog at nanog.org
+> Subject: Re: FYI Netflix is down
+>
+> From Amazon
+>
+> Amazon Elastic Compute Cloud (N. Virginia) ?(http://status.aws.amazon.com/)
+> 8:21 PM PDT We are investigating connectivity issues for a number of
+> instances in the US-EAST-1 Region.
+> 8:31 PM PDT We are investigating elevated errors rates for APIs in the
+> US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+> instances in a single availability zone.
+>
+> -Grant
+>
+> On Fri, Jun 29, 2012 at 10:40 PM, Jason Baugher
+> <jason at thebaughers.com>wrote:
+>
+>> Seeing some reports of Pinterest and Instagram down as well. Amazon
+>> cloud services being implicated.
+>>
+>>
+>> On 6/29/2012 10:22 PM, Joe Blanchard wrote:
+>>
+>>> Seems that they are unreachable at the moment. Called and theres a
+>>> recorded message stating they are aware of an issue, no details.
+>>>
+>>> -Joe
+>>>
+>>>
+>>>
+>>
+>>
+>>
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+?fergdawgster(at)gmail.com
+
+
+From jradel at vantage.com  Sat Jun 30 01:28:35 2012
+From: jradel at vantage.com (Jon Radel)
+Date: Sat, 30 Jun 2012 01:28:35 -0400
+Subject: [outages] Fwd: RE: FYI Netflix is down
+In-Reply-To: <013c01cd5679$5e0e9d20$1a2bd760$@iname.com>
+References: <8078ED370ADA824281219A7B5BADC39B1D61037C@MBX023-W1-CA-5>
+ <4FEE76FE.9070504@rollernet.us> <013c01cd5679$5e0e9d20$1a2bd760$@iname.com>
+Message-ID: <45EB045A-D8FE-4E07-AEB6-757D05467A01@vantage.com>
+
+The weather warning for the western end of Fairfax County this evening forecast gusts of up to 80 mph, out near Dulles. Dominion Virginia Power is currently stating that over half of their Northern Virginia customers are without power, and almost a third in the entire state. They're not even guessing at ETRs yet. 
+
+Sent from my iPhone
+As apparently the generator at my local cell tower is working.  :-)
+
+On Jun 30, 2012, at 12:32 AM, "Frank Bulk" <frnkblk at iname.com> wrote:
+
+> Thanks.  I check www.netflix.com via IPv6 and I saw the first issue at 10:13
+> pm Central, and a few minutes later the site was reporting "HTTP/1.1 503
+> Service Unavailable: Back-end server is at capacity".
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Seth Mattinen
+> Sent: Friday, June 29, 2012 10:48 PM
+> To: outages at outages.org
+> Subject: [outages] Fwd: RE: FYI Netflix is down
+> 
+> FYI from Nanog.
+> 
+> 
+> 
+> -------- Original Message --------
+> Subject: RE: FYI Netflix is down
+> Date: Sat, 30 Jun 2012 03:42:52 +0000
+> From: James Laszko <jamesl at mythostech.com>
+> To: Grant Ridder <shortdudey123 at gmail.com>, Jason Baugher
+> <jason at thebaughers.com>
+> CC: nanog at nanog.org <nanog at nanog.org>
+> 
+> To further expand:
+> 
+> 8:21 PM PDT We are investigating connectivity issues for a number of
+> instances in the US-EAST-1 Region.
+> 
+> 8:31 PM PDT We are investigating elevated errors rates for APIs in the
+> US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+> instances in a single availability zone.
+> 
+> 8:40 PM PDT We can confirm that a large number of instances in a single
+> Availability Zone have lost power due to electrical storms in the area.
+> We are actively working to restore power.
+> 
+> -----Original Message-----
+> From: Grant Ridder [mailto:shortdudey123 at gmail.com]
+> Sent: Friday, June 29, 2012 8:42 PM
+> To: Jason Baugher
+> Cc: nanog at nanog.org
+> Subject: Re: FYI Netflix is down
+> 
+> From Amazon
+> 
+> Amazon Elastic Compute Cloud (N. Virginia)  (http://status.aws.amazon.com/)
+> 8:21 PM PDT We are investigating connectivity issues for a number of
+> instances in the US-EAST-1 Region.
+> 8:31 PM PDT We are investigating elevated errors rates for APIs in the
+> US-EAST-1 (Northern Virginia) region, as well as connectivity issues to
+> instances in a single availability zone.
+> 
+> -Grant
+> 
+> On Fri, Jun 29, 2012 at 10:40 PM, Jason Baugher
+> <jason at thebaughers.com>wrote:
+> 
+>> Seeing some reports of Pinterest and Instagram down as well. Amazon 
+>> cloud services being implicated.
+>> 
+>> 
+>> On 6/29/2012 10:22 PM, Joe Blanchard wrote:
+>> 
+>>> Seems that they are unreachable at the moment. Called and theres a 
+>>> recorded message stating they are aware of an issue, no details.
+>>> 
+>>> -Joe
+>>> 
+>>> 
+>>> 
+>> 
+>> 
+>> 
+> 
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From tony.mccrory at gmail.com  Sat Jun 30 20:14:21 2012
+From: tony.mccrory at gmail.com (Tony McCrory)
+Date: Sun, 1 Jul 2012 01:14:21 +0100
+Subject: [outages] whois.arin.net refuses connections on v6
+Message-ID: <CAG9TQPkmdEVXTL_AEBzWvPO4juQeAz=-PjhFuzH-aP7HY7RLQQ@mail.gmail.com>
+
+Starting in the last 24 hours I've not been able to query
+whois.arin.netover v6.  v4 works fine.
+
+Anyone else see the same?
+
+Tony
+
+$ whois -h whois.arin.net 127.0.0.0
+[Querying whois.arin.net]
+[Unable to connect to remote host]
+$ host whois.arin.net
+whois.arin.net has address 199.71.0.48
+whois.arin.net has address 199.71.0.47
+whois.arin.net has address 199.71.0.46
+whois.arin.net has address 199.212.0.48
+whois.arin.net has address 199.212.0.46
+whois.arin.net has address 199.212.0.47
+whois.arin.net has IPv6 address 2001:500:13::47
+whois.arin.net has IPv6 address 2001:500:31::47
+whois.arin.net has IPv6 address 2001:500:13::46
+whois.arin.net has IPv6 address 2001:500:31::48
+whois.arin.net has IPv6 address 2001:500:13::48
+whois.arin.net has IPv6 address 2001:500:31::46
+$ whois -h 2001:500:13::47 127.0.0.0
+[Querying 2001:500:13::47]
+[Unable to connect to remote host]
+$ whois -h 2001:500:31::47 127.0.0.0
+[Querying 2001:500:31::47]
+[Unable to connect to remote host]
+$ whois -h 2001:500:31::48 127.0.0.0
+[Querying 2001:500:31::48]
+[Unable to connect to remote host]
+$ whois -h 2001:500:13::48 127.0.0.0
+[Querying 2001:500:13::48]
+[Unable to connect to remote host]
+$ whois -h 2001:500:13::46 127.0.0.0
+[Querying 2001:500:13::46]
+[Unable to connect to remote host]
+$ whois -h 2001:500:31::46 127.0.0.0
+[Querying 2001:500:31::46]
+[Unable to connect to remote host]
+
+v4 works:
+$ whois -h 199.212.0.47 127.0.0.0
+[Querying 199.212.0.47]
+[199.212.0.47]
+#
+# Query terms are ambiguous.  The query is assumed to be:
+#     "n 127.0.0.0"
+#
+[....]
+
+Example traceroute:
+traceroute to 2001:500:31::47 (2001:500:31::47), 30 hops max, 80 byte
+packets
+ 1  ...  11.519 ms  17.422 ms  28.084 ms
+ 2  gige-g2-20.core1.fra1.he.net (2001:470:0:69::1)  45.229 ms  45.216 ms
+ 45.741 ms
+ 3  10gigabitethernet5-3.core1.lon1.he.net (2001:470:0:1d2::1)  58.885 ms
+ 58.871 ms  59.170 ms
+ 4  10gigabitethernet7-4.core1.nyc4.he.net (2001:470:0:128::1)  134.745 ms
+ 138.270 ms  134.706 ms
+ 5  10gigabitethernet5-3.core1.lax1.he.net (2001:470:0:10e::1)  192.136 ms
+ 192.169 ms  188.694 ms
+ 6  10gigabitethernet4-2.core3.fmt2.he.net (2001:470:0:18d::1)  198.986 ms
+ 186.827 ms  181.843 ms
+ 7  10gigabitethernet1-3.core1.fmt2.he.net (2001:470:0:23b::2)  175.135 ms
+ 157.867 ms  157.849 ms
+ 8  10gigabitethernet1-1.core1.sjc2.he.net (2001:470:0:31::2)  157.421 ms
+ 158.392 ms  157.949 ms
+ 9  peering.sjc6.arin.net (2001:504:0:1:0:39:3220:1)  153.179 ms  152.843
+ms  153.168 ms
+10  peering.sjc6.arin.net (2001:504:0:1:0:39:3220:1)  153.119 ms !X
+ 156.999 ms !X  153.701 ms !X
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20120701/31643b92/attachment.html>
+
+From brandon at burn.net  Sat Jun 30 21:16:33 2012
+From: brandon at burn.net (Brandon Applegate)
+Date: Sat, 30 Jun 2012 21:16:33 -0400 (EDT)
+Subject: [outages] whois.arin.net refuses connections on v6
+In-Reply-To: <CAG9TQPkmdEVXTL_AEBzWvPO4juQeAz=-PjhFuzH-aP7HY7RLQQ@mail.gmail.com>
+References: <CAG9TQPkmdEVXTL_AEBzWvPO4juQeAz=-PjhFuzH-aP7HY7RLQQ@mail.gmail.com>
+Message-ID: <alpine.DEB.2.00.1206302114340.13559@orbital.burn.net>
+
+Same for me (coming from AS 30023 / 2607:ff70::/32)
+
+bapplegate at phosphor:~$ telnet whois.arin.net whois
+Trying 2001:500:13::46...
+Trying 2001:500:13::47...
+Trying 2001:500:13::48...
+Trying 2001:500:31::46...
+Trying 2001:500:31::47...
+Trying 2001:500:31::48...
+Trying 199.71.0.46...
+Connected to whois.arin.net.
+Escape character is '^]'.
+
+
+--
+Brandon Applegate - CCIE 10273
+PGP Key fingerprint:
+8779 B023 7637 CEC8 C5C6 4052 664D 7E08 3CBB 1739
+"SH1-0151.  This is the serial number, of our orbital gun."
+
+
+On Sun, 1 Jul 2012, Tony McCrory wrote:
+
+> Starting in the last 24 hours I've not been able to query whois.arin.net over v6. ?v4 works fine.
+> Anyone else see the same? ?
+> 
+> Tony
+
+From wschultz at bsdboy.com  Sat Jun 30 21:53:53 2012
+From: wschultz at bsdboy.com (Wil Schultz)
+Date: Sat, 30 Jun 2012 18:53:53 -0700
+Subject: [outages] Java apps around the globe are crashing...
+Message-ID: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+
+Leap second bug. *sigh*
+
+-wil
+
+From djahandarie at gmail.com  Sat Jun 30 22:20:55 2012
+From: djahandarie at gmail.com (Darius Jahandarie)
+Date: Sat, 30 Jun 2012 22:20:55 -0400
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+Message-ID: <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+
+On Sat, Jun 30, 2012 at 9:53 PM, Wil Schultz <wschultz at bsdboy.com> wrote:
+> Leap second bug. *sigh*
+
+However, it does not seem to be a Java bug -- so far, it looks like
+something is causing futex() to timeout, instead of telling the thread
+to sleep [1], causing issues on anything that uses it (e.g., java,
+chrome, mysql).
+
+It's not clear exactly what variable (i.e., kernel versopm, distro)
+causes boxes to go haywire. It may just be a race condition which some
+people hit due to bad luck.
+
+But it is certainly related to the leap second.
+
+
+[1] https://lkml.org/lkml/2012/6/30/122
+
+-- 
+Darius Jahandarie
+
+From gmina at connectfirst.com  Sat Jun 30 22:43:58 2012
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Sun, 1 Jul 2012 02:43:58 +0000
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>,
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+Message-ID: <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>
+
+Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+
+Geoff Mina
+Founder/CTO
+Connect First Inc.
+720.335.5924
+888.410.3071
+gmina at ConnectFirst.com
+
+Sent from my iPhone
+
+On Jun 30, 2012, at 8:25 PM, "Darius Jahandarie" <djahandarie at gmail.com> wrote:
+
+> On Sat, Jun 30, 2012 at 9:53 PM, Wil Schultz <wschultz at bsdboy.com> wrote:
+>> Leap second bug. *sigh*
+> 
+> However, it does not seem to be a Java bug -- so far, it looks like
+> something is causing futex() to timeout, instead of telling the thread
+> to sleep [1], causing issues on anything that uses it (e.g., java,
+> chrome, mysql).
+> 
+> It's not clear exactly what variable (i.e., kernel versopm, distro)
+> causes boxes to go haywire. It may just be a race condition which some
+> people hit due to bad luck.
+> 
+> But it is certainly related to the leap second.
+> 
+> 
+> [1] https://lkml.org/lkml/2012/6/30/122
+> 
+> -- 
+> Darius Jahandarie
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From djahandarie at gmail.com  Sat Jun 30 22:48:28 2012
+From: djahandarie at gmail.com (Darius Jahandarie)
+Date: Sat, 30 Jun 2012 22:48:28 -0400
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+ <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>
+Message-ID: <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>
+
+On Sat, Jun 30, 2012 at 10:43 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+> Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+
+Yes, this seems to be the workaround:
+
+/etc/init.d/ntp stop; date; date `date +"%m%d%H%M%C%y.%S"`; date;
+
+Then restart the offending process. I think starting ntp back up is also fine.
+
+-- 
+Darius Jahandarie
+
+From gmina at connectfirst.com  Sat Jun 30 22:46:49 2012
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Sun, 1 Jul 2012 02:46:49 +0000
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+ <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>,
+ <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>
+Message-ID: <2784F682-BA6D-4FC3-8C95-B906CD8C1FD4@connectfirst.com>
+
+Thanks. 
+
+Geoff Mina
+Founder/CTO
+Connect First Inc.
+720.335.5924
+888.410.3071
+gmina at ConnectFirst.com
+
+Sent from my iPhone
+
+On Jun 30, 2012, at 8:46 PM, "Darius Jahandarie" <djahandarie at gmail.com> wrote:
+
+> On Sat, Jun 30, 2012 at 10:43 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+>> Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+> 
+> Yes, this seems to be the workaround:
+> 
+> /etc/init.d/ntp stop; date; date `date +"%m%d%H%M%C%y.%S"`; date;
+> 
+> Then restart the offending process. I think starting ntp back up is also fine.
+> 
+> -- 
+> Darius Jahandarie
+
+
+From gmina at connectfirst.com  Sat Jun 30 22:52:05 2012
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Sun, 1 Jul 2012 02:52:05 +0000
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <2784F682-BA6D-4FC3-8C95-B906CD8C1FD4@connectfirst.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+ <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>,
+ <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>,
+ <2784F682-BA6D-4FC3-8C95-B906CD8C1FD4@connectfirst.com>
+Message-ID: <8906CA95-D1E6-4724-9247-33D3972A66F1@connectfirst.com>
+
+FYI. We have restarted our applications multiple times and it seems to have no impact. We just go back to excessive load warnings. 
+
+Geoff Mina
+Founder/CTO
+Connect First Inc.
+720.335.5924
+888.410.3071
+gmina at ConnectFirst.com
+
+Sent from my iPhone
+
+On Jun 30, 2012, at 8:50 PM, "Geoffrey Mina" <gmina at connectfirst.com> wrote:
+
+> Thanks. 
+> 
+> Geoff Mina
+> Founder/CTO
+> Connect First Inc.
+> 720.335.5924
+> 888.410.3071
+> gmina at ConnectFirst.com
+> 
+> Sent from my iPhone
+> 
+> On Jun 30, 2012, at 8:46 PM, "Darius Jahandarie" <djahandarie at gmail.com> wrote:
+> 
+>> On Sat, Jun 30, 2012 at 10:43 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+>>> Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+>> 
+>> Yes, this seems to be the workaround:
+>> 
+>> /etc/init.d/ntp stop; date; date `date +"%m%d%H%M%C%y.%S"`; date;
+>> 
+>> Then restart the offending process. I think starting ntp back up is also fine.
+>> 
+>> -- 
+>> Darius Jahandarie
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From amachutta at connectfirst.com  Sat Jun 30 22:53:45 2012
+From: amachutta at connectfirst.com (Amanda Machutta)
+Date: Sun, 1 Jul 2012 02:53:45 +0000
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+ <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>
+ <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>
+Message-ID: <D0AFB602D5890147B9D4C357CABD529CCB9750@ORD2MBX01D.mex05.mlsrvr.com>
+
+This work around works perfectly. Thanks.
+
+
+Thanks,
+
+Amanda MacHUTTA
+---------------------------------
+VP of Technology
+Connect First Inc. 
+CCI * VB * 
+P: 678.905.0673
+T: 888.410.3071
+F: 678.265.1158
+E: amachutta at connectfirst.com
+---------------------------------
+www.connectfirst.com
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Darius Jahandarie
+Sent: Saturday, June 30, 2012 8:48 PM
+To: Geoffrey Mina
+Cc: outages at outages.org
+
+On Sat, Jun 30, 2012 at 10:43 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+> Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+
+Yes, this seems to be the workaround:
+
+/etc/init.d/ntp stop; date; date `date +"%m%d%H%M%C%y.%S"`; date;
+
+Then restart the offending process. I think starting ntp back up is also fine.
+
+-- 
+Darius Jahandarie
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From david at davidcoulson.net  Sat Jun 30 22:56:40 2012
+From: david at davidcoulson.net (David Coulson)
+Date: Sat, 30 Jun 2012 22:56:40 -0400
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <8906CA95-D1E6-4724-9247-33D3972A66F1@connectfirst.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <CAFANWtUDG-9Sm50CSzLM3ngU9=jJkOOO0QVrGYh-GVzoQF2U9A@mail.gmail.com>
+ <E97ABFC7-EFA6-4E47-B597-060D13AFA430@connectfirst.com>,
+ <CAFANWtVarZjiYJyANSVZM2jo5aV2+-oiADMKBOAuxEQEb1duYA@mail.gmail.com>,
+ <2784F682-BA6D-4FC3-8C95-B906CD8C1FD4@connectfirst.com>
+ <8906CA95-D1E6-4724-9247-33D3972A66F1@connectfirst.com>
+Message-ID: <4FEFBC68.9030304@davidcoulson.net>
+
+My boxes were okay after a reboot - Cycling the JVM wasn't good enough
+
+On 6/30/12 10:52 PM, Geoffrey Mina wrote:
+> FYI. We have restarted our applications multiple times and it seems to have no impact. We just go back to excessive load warnings.
+>
+> Geoff Mina
+> Founder/CTO
+> Connect First Inc.
+> 720.335.5924
+> 888.410.3071
+> gmina at ConnectFirst.com
+>
+> Sent from my iPhone
+>
+> On Jun 30, 2012, at 8:50 PM, "Geoffrey Mina" <gmina at connectfirst.com> wrote:
+>
+>> Thanks.
+>>
+>> Geoff Mina
+>> Founder/CTO
+>> Connect First Inc.
+>> 720.335.5924
+>> 888.410.3071
+>> gmina at ConnectFirst.com
+>>
+>> Sent from my iPhone
+>>
+>> On Jun 30, 2012, at 8:46 PM, "Darius Jahandarie" <djahandarie at gmail.com> wrote:
+>>
+>>> On Sat, Jun 30, 2012 at 10:43 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+>>>> Looks like upgrading the JVM probably won't be the answer. Anyone know of a fix and/or workaround?
+>>> Yes, this seems to be the workaround:
+>>>
+>>> /etc/init.d/ntp stop; date; date `date +"%m%d%H%M%C%y.%S"`; date;
+>>>
+>>> Then restart the offending process. I think starting ntp back up is also fine.
+>>>
+>>> -- 
+>>> Darius Jahandarie
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jhellenthal at dataix.net  Sat Jun 30 23:23:22 2012
+From: jhellenthal at dataix.net (Jason Hellenthal)
+Date: Sat, 30 Jun 2012 23:23:22 -0400
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+Message-ID: <20120701032322.GB11912@DataIX.net>
+
+
+Would have replied to a later message but none looked to be just perfect
+so Ill reply here.
+
+clock.nyc.he.net LOCAL(0)
+clock.fmt.he.net LOCAL(0)
+clock.sjc.he.net LOCAL(0)
+
+All went to a LOCAL(0) refid sometime recently after being in .CDMA. for
+the longest time.
+
+Maybe this is a small part of it but thought I would share the note.
+
+On Sat, Jun 30, 2012 at 06:53:53PM -0700, Wil Schultz wrote:
+> Leap second bug. *sigh*
+> 
+
+
+-- 
+
+ - (2^(N-1))
+
+From colinj at mx5.org.uk  Sat Jun 30 23:31:30 2012
+From: colinj at mx5.org.uk (Colin Johnston)
+Date: Sun, 1 Jul 2012 04:31:30 +0100
+Subject: [outages] Java apps around the globe are crashing...
+In-Reply-To: <20120701032322.GB11912@DataIX.net>
+References: <CAF2DvDcfX4cfSQNSeNaqPYkWCNZxVTSX9m7TtjSQeJigd5CBxg@mail.gmail.com>
+ <20120701032322.GB11912@DataIX.net>
+Message-ID: <E7231EF5-E97C-45A9-99C9-9EFE35A3BB6C@mx5.org.uk>
+
+all seemed to be ok via astaro vm
+2012:07:01-00:59:59 VM406 kernel: Clock: inserting leap second 23:59:60 UTC
+
+
+Colin
+
+On 1 Jul 2012, at 04:23, Jason Hellenthal wrote:
+
+> 
+> Would have replied to a later message but none looked to be just perfect
+> so Ill reply here.
+> 
+> clock.nyc.he.net LOCAL(0)
+> clock.fmt.he.net LOCAL(0)
+> clock.sjc.he.net LOCAL(0)
+> 
+> All went to a LOCAL(0) refid sometime recently after being in .CDMA. for
+> the longest time.
+> 
+> Maybe this is a small part of it but thought I would share the note.
+> 
+> On Sat, Jun 30, 2012 at 06:53:53PM -0700, Wil Schultz wrote:
+>> Leap second bug. *sigh*
+>> 
+> 
+> 
+> -- 
+> 
+> - (2^(N-1))
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+

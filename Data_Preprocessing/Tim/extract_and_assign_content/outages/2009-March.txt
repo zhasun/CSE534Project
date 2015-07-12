@@ -1,0 +1,752 @@
+From jra at baylink.com  Sat Mar 14 15:35:38 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Sat, 14 Mar 2009 15:35:38 -0400 (EDT)
+Subject: [outages] MySpace/CDN outage/problems/DDoS?
+In-Reply-To: <31486905.71821237059261487.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <17848348.71841237059338698.JavaMail.root@benjamin.vicimarketing.com>
+
+Since about 1030EDT this morning, I've been noticing problems with MySpace,
+which have also been reported to me by others in other areas and on other
+eyeball networks.
+
+Each of my correspondents reports having gotten spam from me via MySpace, and
+I've gotten (the same) spam from them; something about signing up for a 
+trial account, and a url with the last m in .com replaced by %6d (which,
+interestingly, FireFox 3 un-URLescapes, but does not actually parse correctly 
+afterwards.
+
+Additionally, my view of a friend's friends list showed it empty, while his
+view of his own friends list was populated as expected, and some of my friends
+I cannot load the profile pages of at all.
+
+Finally, most pages do not load completely; generally, FireFox appears to 
+hang while loading media files from MySpace's CDN.
+
+I infer a targeted attack, but have no proof.  Anyone else see anything?
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    I wondered "Why is that Frisbee getting bigger?"  And then it hit me.
+
+From kamal.mehta at us.ibm.com  Sun Mar 15 18:02:18 2009
+From: kamal.mehta at us.ibm.com (Kamal Mehta)
+Date: Sun, 15 Mar 2009 16:02:18 -0600
+Subject: [outages] AUTO: Kamal Mehta is on vacation (returning 03/16/2009)
+Message-ID: <OF6BDCBF22.86C2D2E3-ON8725757A.00790F8A-8725757A.00790F8B@us.ibm.com>
+
+
+
+I am out of the office until 03/16/2009.
+
+I am on vacation and will not have access to e-mail.  I will try to reply
+to your message on my return.
+
+If you need immediate assistance, please call the IBM AOD Service Center at
+877-737-3700.
+
+
+
+
+
+
+
+
+Note: This is an automated response to your message  "outages Digest, Vol
+10, Issue 1" sent on 3/15/09 10:00:02.
+
+This is the only notification you will receive while this person is away.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090315/496175cd/attachment.html>
+
+From franck at avonsys.com  Sat Mar 21 17:13:49 2009
+From: franck at avonsys.com (Franck Martin)
+Date: Sun, 22 Mar 2009 09:13:49 +1200 (FJT)
+Subject: [outages] Internet is slow today?
+Message-ID: <12659963.21237669994130.JavaMail.franck@franck-martins-macbook-pro.local>
+
+Did anyone notice any changes in email traffic? 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090322/f0c0aa3a/attachment.html>
+
+From shaun at shaunc.com  Sun Mar 22 02:20:46 2009
+From: shaun at shaunc.com (Shaun)
+Date: Sun, 22 Mar 2009 01:20:46 -0500
+Subject: [outages] Internet is slow today?
+In-Reply-To: <12659963.21237669994130.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <12659963.21237669994130.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <20090322011517.1561.5922242B@shaunc.com>
+
+No, today was average here.
+
+[shaun at shaunc log]# cat maillog.0.gz | gunzip | wc -l
+   42537
+[shaun at shaunc log]# cat maillog.1.gz | gunzip | wc -l
+   40189
+[shaun at shaunc log]# cat maillog.2.gz | gunzip | wc -l
+   41503
+
+On Sun, 22 Mar 2009 09:13:49 +1200 (FJT)
+Franck Martin <franck at avonsys.com> wrote:
+
+> Did anyone notice any changes in email traffic? 
+
+
+
+From dniesen at gmail.com  Mon Mar 23 20:24:29 2009
+From: dniesen at gmail.com (Donovan)
+Date: Mon, 23 Mar 2009 19:24:29 -0500
+Subject: [outages] EveryDNS down
+Message-ID: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+
+All my domains using EveryDNS seems to be down.  Anybody have some inside info?
+
+-- 
+Donovan Niesen
+
+From marty at supine.com  Mon Mar 23 20:53:09 2009
+From: marty at supine.com (Martin Barry)
+Date: Tue, 24 Mar 2009 11:53:09 +1100
+Subject: [outages] EveryDNS down
+In-Reply-To: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+References: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+Message-ID: <20090324005309.GC21985@supine.com>
+
+$quoted_author = "Donovan" ;
+> 
+> All my domains using EveryDNS seems to be down.  Anybody have some inside
+> info?
+
+http://twitter.com/tresni/status/1378791344
+
+It's just come back.
+
+cheers
+marty
+
+-- 
+supine: From the Latin for "lying on one's back," to be supine has come to mean
+"inactive." But as Damien Hirst suggests with his maxim "Minimum effort for
+maximum effect," there's nothing wrong with being inactive. 
+
+"An Idler's Glossary" - http://www.hermenaut.com/a158.shtml
+
+From nickslager at gmail.com  Mon Mar 23 21:12:31 2009
+From: nickslager at gmail.com (Nick Slager)
+Date: Tue, 24 Mar 2009 11:12:31 +1000
+Subject: [outages] EveryDNS down
+In-Reply-To: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+References: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+Message-ID: <4D8AF519-1656-4413-BD0F-A653F7F6E53B@gmail.com>
+
+Appears back online now.
+
+ From http://www.everydns.com/
+
+Update! March 23, 2009: EveryDNS is back online after a one hour  
+outage. Our first in years. A full write-up is forthcoming but as of  
+right now, all domains are back online and stes will be taken to  
+ensure this doesn't ever occur again.
+
+
+On 24/03/2009, at 10:24 AM, Donovan wrote:
+
+> All my domains using EveryDNS seems to be down.  Anybody have some  
+> inside info?
+>
+> -- 
+> Donovan Niesen
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From bbc at misn.com  Fri Mar 27 19:23:48 2009
+From: bbc at misn.com (Bryan Campbell)
+Date: Fri, 27 Mar 2009 18:23:48 -0500
+Subject: [outages] Level3 Packet Loss
+In-Reply-To: <4D8AF519-1656-4413-BD0F-A653F7F6E53B@gmail.com>
+References: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+	<4D8AF519-1656-4413-BD0F-A653F7F6E53B@gmail.com>
+Message-ID: <49CD6004.9050201@misn.com>
+
+Anyone have any information on the Level3 troubles today?
+
+It seems to have gotten better but is still on-going.
+
+bbc at misn.com
+
+
+From bbc at misn.com  Fri Mar 27 19:55:37 2009
+From: bbc at misn.com (Bryan Campbell)
+Date: Fri, 27 Mar 2009 18:55:37 -0500
+Subject: [outages] Level3 Packet Loss
+In-Reply-To: <96F8872B-7D2D-489D-9EE6-874C5EF83E8F@mnsi.net>
+References: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+	<4D8AF519-1656-4413-BD0F-A653F7F6E53B@gmail.com>
+	<49CD6004.9050201@misn.com>
+	<96F8872B-7D2D-489D-9EE6-874C5EF83E8F@mnsi.net>
+Message-ID: <49CD6779.2050302@misn.com>
+
+UPDATE
+
+http://www.internetpulse.net/ is showing that the problem has been 
+resolved in the last hour.
+
+bbc at misn.com
+
+
+
+Clayton Zekelman wrote:
+> Yes,  I've got a ticket open for packet loss beteen AT&T & Level3 at 
+> Chicago.  Started around 5pm, then cleared up around 6pm.
+> 
+> Sent from my iPhone
+> 
+> On Mar 27, 2009, at 7:23 PM, Bryan Campbell <bbc at misn.com> wrote:
+> 
+>> Anyone have any information on the Level3 troubles today?
+>>
+>> It seems to have gotten better but is still on-going.
+>>
+>> bbc at misn.com
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+From bbc at misn.com  Fri Mar 27 22:28:58 2009
+From: bbc at misn.com (Bryan Campbell)
+Date: Fri, 27 Mar 2009 21:28:58 -0500
+Subject: [outages] Level3 Packet Loss
+In-Reply-To: <56F5BC5F404CF84896C447397A1AAF20DEEB7D@MAIL.nosi.netos.com>
+References: <47f4d5e70903231724o329e2ee3u4797709e81f1a729@mail.gmail.com>
+	<4D8AF519-1656-4413-BD0F-A653F7F6E53B@gmail.com>
+	<49CD6004.9050201@misn.com>
+	<56F5BC5F404CF84896C447397A1AAF20DEEB7D@MAIL.nosi.netos.com>
+Message-ID: <1238207338.21208.1.camel@home-desktop>
+
+Level3 to AT&T by way of Chicago was very poor this afternoon (3:00-5:00
+Central).
+
+By 6:00 Central the problems were resolved.
+
+bbc at misn.com
+
+On Fri, 2009-03-27 at 16:36 -0700, Darryl Dunkin wrote:
+> Traceroutes? City?
+> 
+> Zero here in Seattle.
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Bryan Campbell
+> Sent: Friday, March 27, 2009 16:24
+> To: outages at outages.org
+> Subject: [outages] Level3 Packet Loss
+> 
+> Anyone have any information on the Level3 troubles today?
+> 
+> It seems to have gotten better but is still on-going.
+> 
+> bbc at misn.com
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From clayton at mnsi.net  Fri Mar 27 22:59:23 2009
+From: clayton at mnsi.net (Clayton Zekelman)
+Date: Fri, 27 Mar 2009 22:59:23 -0400
+Subject: [outages] Level3 Packet Loss
+In-Reply-To: <1238207338.21208.1.camel@home-desktop>
+Message-ID: <PC18702009032722592307292a9d7e70@DF9B1081>
+
+
+
+Level3 reports problems with a switch in Chicago.  Emergency maintenance this evening - card and/or chassis replacement.
+
+Master ticket 3276097
+
+
+
+----- Original Message ---------------
+
+Subject: Re: [outages] Level3 Packet Loss
+   From: Bryan Campbell <bbc at misn.com>
+   Date: Fri, 27 Mar 2009 21:28:58 -0500
+     To: Darryl Dunkin <ddunkin at netos.net>
+     Cc: outages at outages.org
+
+>Level3 to AT&T by way of Chicago was very poor this afternoon (3:00-5:00
+>Central).
+>
+>By 6:00 Central the problems were resolved.
+>
+>bbc at misn.com
+>
+>On Fri, 2009-03-27 at 16:36 -0700, Darryl Dunkin wrote:
+>> Traceroutes? City?
+>> 
+>> Zero here in Seattle.
+>> 
+>> -----Original Message-----
+>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>> On Behalf Of Bryan Campbell
+>> Sent: Friday, March 27, 2009 16:24
+>> To: outages at outages.org
+>> Subject: [outages] Level3 Packet Loss
+>> 
+>> Anyone have any information on the Level3 troubles today?
+>> 
+>> It seems to have gotten better but is still on-going.
+>> 
+>> bbc at misn.com
+>> 
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+>_______________________________________________
+>outages mailing list
+>outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+From clayton at mnsi.net  Sat Mar 28 07:49:24 2009
+From: clayton at mnsi.net (Clayton Zekelman)
+Date: Sat, 28 Mar 2009 07:49:24 -0400
+Subject: [outages] Level3 Packet Loss
+In-Reply-To: <PC18702009032722592307292a9d7e70@DF9B1081>
+Message-ID: <PC1870200903280749240635cdd79f13@DF9B1081>
+
+
+I received a call from Level3 about an hour ago.
+
+Maintenance was completed.
+
+
+----- Original Message ---------------
+
+Subject: Re: [outages] Level3 Packet Loss
+   From: Clayton Zekelman <clayton at mnsi.net>
+   Date: Fri, 27 Mar 2009 22:59:23 -0400
+     To: bbc at misn.com,
+          Darryl Dunkin <ddunkin at netos.net>
+     Cc: outages at outages.org
+
+>
+>
+>Level3 reports problems with a switch in Chicago.  Emergency maintenance this evening - card and/or chassis replacement.
+>
+>Master ticket 3276097
+>
+>
+>
+>----- Original Message ---------------
+>
+>Subject: Re: [outages] Level3 Packet Loss
+>   From: Bryan Campbell <bbc at misn.com>
+>   Date: Fri, 27 Mar 2009 21:28:58 -0500
+>     To: Darryl Dunkin <ddunkin at netos.net>
+>     Cc: outages at outages.org
+>
+>>Level3 to AT&T by way of Chicago was very poor this afternoon (3:00-5:00
+>>Central).
+>>
+>>By 6:00 Central the problems were resolved.
+>>
+>>bbc at misn.com
+>>
+>>On Fri, 2009-03-27 at 16:36 -0700, Darryl Dunkin wrote:
+>>> Traceroutes? City?
+>>> 
+>>> Zero here in Seattle.
+>>> 
+>>> -----Original Message-----
+>>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>>> On Behalf Of Bryan Campbell
+>>> Sent: Friday, March 27, 2009 16:24
+>>> To: outages at outages.org
+>>> Subject: [outages] Level3 Packet Loss
+>>> 
+>>> Anyone have any information on the Level3 troubles today?
+>>> 
+>>> It seems to have gotten better but is still on-going.
+>>> 
+>>> bbc at misn.com
+>>> 
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>_______________________________________________
+>>outages mailing list
+>>outages at outages.org
+>>https://puck.nether.net/mailman/listinfo/outages
+>_______________________________________________
+>outages mailing list
+>outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+From glenn.borowski at gmail.com  Mon Mar 30 19:05:39 2009
+From: glenn.borowski at gmail.com (Glenn Borowski)
+Date: Mon, 30 Mar 2009 19:05:39 -0400
+Subject: [outages] XO in Atlanta metro area
+Message-ID: <F702759C-A85E-4447-B6FE-6A7B2E1799C6@gmail.com>
+
+Is anyone having trouble with XO?  Our systems are fine and all  
+circuits green but have no access past their cpe.
+
+Glenn Borowski
+---
+Sent from my mobile device
+
+From zaid at genius.com  Tue Mar 31 01:00:18 2009
+From: zaid at genius.com (Zaid Ali)
+Date: Mon, 30 Mar 2009 22:00:18 -0700 (PDT)
+Subject: [outages] XO in Atlanta metro area
+In-Reply-To: <F702759C-A85E-4447-B6FE-6A7B2E1799C6@gmail.com>
+Message-ID: <13845160.1201238475614521.JavaMail.zaid@turing-2.local>
+
+I had problem earlier in the day around 2:15 PDT, my peer session to XO went down briefly.
+
+Zaid
+----- Original Message -----
+From: "Glenn Borowski" <glenn.borowski at gmail.com>
+To: outages at outages.org
+Sent: Monday, March 30, 2009 4:05:39 PM GMT -08:00 US/Canada Pacific
+Subject: [outages] XO in Atlanta metro area
+
+Is anyone having trouble with XO?  Our systems are fine and all  
+circuits green but have no access past their cpe.
+
+Glenn Borowski
+---
+Sent from my mobile device
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From maillist at webjogger.net  Tue Mar 31 11:18:03 2009
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 31 Mar 2009 11:18:03 -0400
+Subject: [outages] TWC outage
+Message-ID: <3D4E543D15AB477DBD13B4C4C0F687FD@GINKGO>
+
+Seems to be an outage with Time Warner Cable in the upstate New York area 
+...
+
+As far as I can tell, it's on AS7843.
+
+I'm awaiting callback from an engineer for details ....
+
+Adam
+
+--
+Webjogger
+(845) 757-4000
+ASN 20208
+
+======
+
+C:\>tracert www.authorize.net
+
+Tracing route to www.authorize.net [64.94.118.77]
+over a maximum of 30 hops:
+
+  1    38 ms     1 ms     2 ms  10049.webjogger.net [204.8.80.49]
+  2     6 ms     6 ms     7 ms  cpe-24-29-112-25.nyc.res.rr.com [24.29.112.25]
+  3     8 ms     7 ms     6 ms  gig-12-2-nycmnyrdc-rtr1.nyc.rr.com [24.29.104.97]
+  4     7 ms     7 ms     8 ms  gig1-0-0-nwrknjmd-rtr1.nyc.rr.com [24.29.130.182]
+  5     7 ms     7 ms     6 ms  ae-4-0.cr0.nyc30.tbone.rr.com [66.109.6.78]
+  6     9 ms     8 ms     8 ms  ae-1-0.pr0.nyc20.tbone.rr.com [66.109.6.163]
+  7     8 ms     9 ms     8 ms  66.109.9.210
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete. 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090331/79bd4388/attachment.html>
+
+From maillist at webjogger.net  Tue Mar 31 17:43:01 2009
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 31 Mar 2009 17:43:01 -0400
+Subject: [outages] TWC outage
+References: <3D4E543D15AB477DBD13B4C4C0F687FD@GINKGO>
+Message-ID: <BBCFF65BB37946998F1FBE61E0696777@GINKGO>
+
+Thanks for various replies off-list which helped to troubleshoot this issue 
+and possibly accelerate resolution.
+
+Time Warner attributed the issue to a routing loop on the Level 3 network 
+caused by some work last night. Based on a traceroute from a Webjogger 
+customer, the loop was in Chicago.
+
+As of about 4:45pm EDT things seem back to normal.
+
+Thanks!
+Adam
+
+--
+Webjogger
+(845) 757-4000
+ASN 20208
+
+
+
+----- Original Message ----- 
+From: Adam Greene
+To: outages at outages.org ; nanog at nanog.org
+Sent: Tuesday, March 31, 2009 11:18 AM
+Subject: [outages] TWC outage
+
+
+Seems to be an outage with Time Warner Cable in the upstate New York area
+...
+
+As far as I can tell, it's on AS7843.
+
+I'm awaiting callback from an engineer for details ....
+
+Adam
+
+--
+Webjogger
+(845) 757-4000
+ASN 20208
+
+======
+
+C:\>tracert www.authorize.net
+
+Tracing route to www.authorize.net [64.94.118.77]
+over a maximum of 30 hops:
+
+  1    38 ms     1 ms     2 ms  10049.webjogger.net [204.8.80.49]
+  2     6 ms     6 ms     7 ms  cpe-24-29-112-25.nyc.res.rr.com 
+[24.29.112.25]
+  3     8 ms     7 ms     6 ms  gig-12-2-nycmnyrdc-rtr1.nyc.rr.com 
+[24.29.104.97]
+  4     7 ms     7 ms     8 ms  gig1-0-0-nwrknjmd-rtr1.nyc.rr.com 
+[24.29.130.182]
+  5     7 ms     7 ms     6 ms  ae-4-0.cr0.nyc30.tbone.rr.com [66.109.6.78]
+  6     9 ms     8 ms     8 ms  ae-1-0.pr0.nyc20.tbone.rr.com [66.109.6.163]
+  7     8 ms     9 ms     8 ms  66.109.9.210
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+
+
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages 
+
+
+
+From gem at rellim.com  Tue Mar 31 18:55:42 2009
+From: gem at rellim.com (Gary E. Miller)
+Date: Tue, 31 Mar 2009 15:55:42 -0700 (PDT)
+Subject: [outages] KY Outage
+Message-ID: <alpine.LNX.1.10.0903311526430.11610@catbert.rellim.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Yo All!
+
+New to the list. Traffic to Grand Cayman has been down for some routes
+The problem seems to be near C&W in Miami.
+
+Some traces fail:
+
+# mtr -r candw.ky
+                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+ 10. cr1-pos-0-11-1-0.Seattle.sav  0.0%    10   13.9  13.8  11.8  19.4   2.2
+ 11. cr2-tengig-0-7-0-0.Washingto 10.0%    10   87.8  87.7  87.4  88.1   0.3
+ 12. cable-and-wireless-americas-  0.0%    10   91.2  91.5  90.7  94.8   1.2
+ 13. so-0-0-0-dcr1.ash.cw.net      0.0%    10   90.8  91.4  90.6  92.7   0.6
+ 14. so-7-0-0-0-ecr2.mia.cw.net    0.0%    10  154.7 124.2 118.2 154.7  11.2
+ 15. cablewirelessca1.mia.cw.net   0.0%    10  141.6 145.5 141.3 180.2  12.2
+ 16. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+# mtr -r sussexdirectories.COM
+                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+  8. POS5-0.BR2.SEA1.ALTER.NET     0.0%    10   10.3  10.2   9.7  11.6   0.6
+  9. so6-1-0-2488M.ar4.SEA1.gblx.  0.0%    10   32.3  32.8  32.1  33.9   0.6
+ 10. te2-1-10G.ar1.MIA2.gblx.net   0.0%    10  102.4 280.2 100.7 713.5 253.5
+ 11. TELEBERMUDA-USA-INTERNATIONA  0.0%    10  136.9 140.2 135.4 154.3   5.6
+ 12. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+
+Some work:
+
+ # mtr -r cw.ky
+                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+ 10. cr1-pos-0-3-0-1.Seattle.savv  0.0%    10   13.1  15.3  11.8  26.2   4.0
+ 11. cr2-tengig-0-7-0-0.Washingto  0.0%    10   87.7  87.6  87.1  88.0   0.3
+ 12. cable-and-wireless-americas-  0.0%    10   90.8  97.6  90.7 155.6  20.4
+ 13. so-4-0-0-dcr1.ash.cw.net      0.0%    10   91.2  91.1  90.7  91.4   0.2
+ 14. so-7-0-0-0-ecr2.mia.cw.net    0.0%    10  118.1 122.9 118.1 156.2  11.9
+ 15. cablewirelessca1.mia.cw.net  10.0%    10  142.0 141.8 141.4 142.5   0.4
+ 16. Chakotay.CandW.ky            10.0%    10  141.7 142.5 141.7 143.6   0.6
+
+I have heard the problem might be somewhere in Miami.
+
+Anyone else seeing problems?
+
+RGDS
+GARY
+- ---------------------------------------------------------------------------
+Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+	gem at rellim.com  Tel:+1(541)382-8588
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+
+iD8DBQFJ0p9zBmnRqz71OvMRAujxAKDS/qmJqU2BHHUdmcZomneeIAjAXwCgiZwk
+AkjlWliMKRCe5PNoR43ojkA=
+=jAP5
+-----END PGP SIGNATURE-----
+
+
+From rgolodner at infratection.com  Tue Mar 31 19:23:35 2009
+From: rgolodner at infratection.com (Richard Golodner)
+Date: Tue, 31 Mar 2009 18:23:35 -0500
+Subject: [outages] KY Outage
+In-Reply-To: <alpine.LNX.1.10.0903311526430.11610@catbert.rellim.com>
+References: <alpine.LNX.1.10.0903311526430.11610@catbert.rellim.com>
+Message-ID: <003d01c9b257$b7537a50$25fa6ef0$@com>
+
+	Gary, definitely problems. What does cable and wireless have to say?
+>From Chicago via AS 6079:
+
+Tracing route to candw.ky [209.27.52.113]
+over a maximum of 30 hops:
+
+  1     1 ms     1 ms     1 ms  10.10.10.1
+  2    11 ms    14 ms     9 ms  10.20.0.1
+  3     6 ms     7 ms     7 ms  mart-h1.chi-mart.il.cable.rcn.net
+[207.229.191.130]
+  4     7 ms     9 ms    11 ms  ge1-0-2.core1.chsl.il.rcn.net
+[207.172.19.45]
+  5    81 ms   131 ms   207 ms  ge3-2.core1.sbo.ma.rcn.net [207.172.19.151]
+  6    34 ms    35 ms    38 ms  ge4-1.core2.sbo.ma.rcn.net [207.172.15.114]
+  7    42 ms    39 ms    39 ms  pos5-0.core2.nyw.ny.rcn.net [207.172.19.37]
+  8    61 ms   226 ms   227 ms  ge5-2.core4.nyw.ny.rcn.net [207.172.19.209]
+  9    40 ms    41 ms    43 ms  tge2-1.border1.nyw.ny.rcn.net
+[207.172.19.109]
+ 10    45 ms    41 ms    43 ms  40.ecr1.nyk.cw.net [198.32.118.40]
+ 11    70 ms    72 ms    73 ms  195.2.21.182
+ 12    74 ms    76 ms    82 ms  195.2.21.185
+ 13   103 ms   103 ms   105 ms  195.2.3.54
+ 14   126 ms   122 ms   126 ms  195.2.6.58
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *
+
+
+
+From gem at rellim.com  Tue Mar 31 19:31:12 2009
+From: gem at rellim.com (Gary E. Miller)
+Date: Tue, 31 Mar 2009 16:31:12 -0700 (PDT)
+Subject: [outages] KY Outage
+In-Reply-To: <003d01c9b257$b7537a50$25fa6ef0$@com>
+References: <alpine.LNX.1.10.0903311526430.11610@catbert.rellim.com>
+	<003d01c9b257$b7537a50$25fa6ef0$@com>
+Message-ID: <alpine.LNX.1.10.0903311626100.11610@catbert.rellim.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Yo Richard!
+
+On Tue, 31 Mar 2009, Richard Golodner wrote:
+
+> 	Gary, definitely problems. What does cable and wireless have to say?
+
+On the phone with Telecayman (my upstream).  TC says that C&W is telling
+them a 155Mbps Verizon circuit is down between Miami and Pompano Beach.
+
+Maya-1 (the big cable to Grand Cayman) lands at Hollywood FL so not
+sure how Pompano Beach fits in here.
+
+Hmm, some circuits starting to come back up just this second.  So that
+would be a 4 hour outage.
+
+RGDS
+GARY
+- ---------------------------------------------------------------------------
+Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+	gem at rellim.com  Tel:+1(541)382-8588
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+
+iD8DBQFJ0qfFBmnRqz71OvMRAstDAJ4ssUGBuHwD8tPzHGUGD84VnKNllQCghi5I
+OzJqQ1vrws0y5TZsXoUTVF4=
+=kj3F
+-----END PGP SIGNATURE-----
+
+

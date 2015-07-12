@@ -1,0 +1,1259 @@
+###############################################################
+Verizon central California fiber cut?
+###############################################################
+  We're seeing numerous Verizon T1 circuits down in Santa Barbara County,
+ getting voicemail at our Verizon contacts.  Anyone have word?
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+ On 2/2/12 9:38 AM, Jay Hennigan wrote:
+ Confirmed Verizon fiber cut in Santa Barbara county.  No ETR as yet.
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+###############################################################
+END
+###############################################################
+
+###############################################################
+tunnelbroker.net website down...
+###############################################################
+ Not complaining.  Just wanted to give HE a heads up if no one noticed.
+ PS.  Thanks for the great help in Troubleshooting.
+ Sincerely,
+ Eric Tykwinski
+ TrueNet, Inc.
+ P: 610-429-8300
+ F: 610-429-3222
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120206/bf422f84/attachment.html>
+ On 02/06/2012 12:23 PM, Eric Tykwinski wrote:
+ Working fine for me here in Denver, CO via Cogent...
+ Chris
+ -- 
+ If you try and take a cat apart to see how it works, the first thing you
+ have on your hands is a non-working cat.'
+ -- Douglas Adams
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120206/586d8f7e/attachment.html>
+  <4F302AAF.4080204@axint.net>
+ works fine from two he paths in uk
+ traceroute to tunnelbroker.net (64.62.200.2), 64 hops max, 40 byte packets
+  1  192.168.1.2 (192.168.1.2)  1.456 ms  1.047 ms  1.046 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  16.027 ms  16.078 ms  15.585 ms
+  3  89.248.31.242 (89.248.31.242)  32.396 ms  16.001 ms  15.352 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.237 ms  15.954 ms  16.807 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  20.441 ms  17.067 ms  76.410 ms
+  6  10gigabitethernet1-1.core1.lon1.he.net (195.66.224.21)  38.327 ms  42.948 ms  47.271 ms
+  7  10gigabitethernet7-4.core1.nyc4.he.net (72.52.92.241)  159.868 ms  151.136 ms  158.236 ms
+  8  10gigabitethernet10-2.core1.sjc2.he.net (184.105.213.197)  263.753 ms  167.634 ms  323.666 ms
+  9  10gigabitethernet1-1.core1.fmt1.he.net (72.52.92.109)  319.812 ms  196.554 ms  191.078 ms
+ 10  *^C
+ mx5:~ colinj$ traceroute tunnelbroker.net
+ traceroute to tunnelbroker.net (64.62.200.2), 64 hops max, 40 byte packets
+  1  10.242.1.1 (10.242.1.1)  18.916 ms  18.154 ms  47.076 ms
+  2  82.197.70.2 (82.197.70.2)  25.108 ms  19.504 ms  22.775 ms
+  3  non-baresi.c4l.co.uk (84.45.110.18)  29.755 ms  24.145 ms  45.664 ms
+  4  baresi-platini.c4l.co.uk (84.45.90.49)  18.345 ms * *
+  5  platini-wolverine.c4l.co.uk (84.45.90.70)  474.973 ms  19.660 ms  21.922 ms
+  6  * wolverine-kraken.c4l.co.uk (84.45.90.150)  128.443 ms  91.104 ms
+  7  lonap.he.net (193.203.5.128)  25.253 ms  45.362 ms  506.360 ms
+  8  10gigabitethernet7-4.core1.nyc4.he.net (72.52.92.241)  94.801 ms  102.144 ms  129.320 ms
+  9  10gigabitethernet10-2.core1.sjc2.he.net (184.105.213.197)  855.033 ms
+     10gigabitethernet10-1.core1.sjc2.he.net (184.105.213.173)  163.698 ms  184.605 ms
+ 10  10gigabitethernet1-1.core1.fmt1.he.net (72.52.92.109)  205.826 ms  192.123 ms  548.909 ms
+ Colin
+ On 6 Feb 2012, at 19:31, Chris Stone wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120206/a9eb9dc2/attachment.html>
+ Seems all good from their status page:
+ http://tunnelbroker.net/status.php
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Eric Tykwinski
+ Sent: Monday, February 06, 2012 1:24 PM
+ Not complaining.  Just wanted to give HE a heads up if no one noticed.
+ PS.  Thanks for the great help in Troubleshooting.
+ Sincerely,
+ Eric Tykwinski
+ TrueNet, Inc.
+ P: 610-429-8300
+ F: 610-429-3222
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120206/db9058b7/attachment.html>
+  <4F302AAF.4080204@axint.net>
+  <73F6A8FE-BF0D-47BF-BE29-51C059D9BE9E@mx5.org.uk>
+ Sorry,
+ It was only a few minutes, didn't work from the office or Verizon's network.
+ Came right back up, so no issues.
+ Sincerely,
+ Eric Tykwinski
+ TrueNet, Inc.
+ P: 610-429-8300
+ F: 610-429-3222
+###############################################################
+END
+###############################################################
+
+###############################################################
+Airband outage in Phoenix
+###############################################################
+ A couple of customers reported they have been down since 2:00.  One says he
+ was told it was due to a manual change from their primary upstream to their
+ secondary.  What, no BGP?!?  No ETA and their web site claims no outages at
+ this time.
+ -- 
+ Carlos Alvarez
+ TelEvolve
+ 602-889-3003
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120207/5f6d89f8/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT OptiMAN in SE Michigan
+###############################################################
+ Has anyone out there heard of any ATT OptiMAN problems in the
+ Southeastern Michigan region? We have some circuits down and I've been
+ having a hard time getting through to anyone. All the hold time makes me
+ think there're a lot of calls which makes me think maybe there is a
+ bigger issue going on.
+ These are just OptiMAN point-to-point links, nothing fancy...
+   -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120209/a2fec05c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bandwidth.com outage
+###############################################################
+ I'm seeing a total outage at Bandwidth.com on their CORE 2 network for all incoming and outgoing SIP traffic.
+ Anybody else?  So much for redundant IP's and switches on CORE 2?..
+ ____________________________________________
+ [cid:B9C62FFD-6A06-4818-A7D6-1F8A1790DC77]
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/012cce91/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[5].png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[5].png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/012cce91/attachment.png>
+ We are also seeing a full outage of the Core2 network.  Opened a ticket, but
+ no response from BW support.
+ Geoff MINA
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Michael R. Self
+ Sent: Tuesday, February 14, 2012 11:49 AM
+ I'm seeing a total outage at Bandwidth.com on their CORE 2 network for all
+ incoming and outgoing SIP traffic.
+ Anybody else?  So much for redundant IP's and switches on CORE 2...
+ ____________________________________________
+ Description: cid:1299ACAC-5785-4008-ACE6-5B36ABA9ADA4
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/84876ce6/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/84876ce6/attachment-0001.png>
+  <982601cceb4a$76c263a0$64472ae0$@connectfirst.com>
+ Their Phonebooth product is up and running FWIW. Obviously not using Core2.
+ On Tue, Feb 14, 2012 at 12:57 PM, Geoffrey Mina <gmina at connectfirst.com>wrote:
+ -- 
+ Brandon Galbraith
+ US Voice: 630.492.0464
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/4207c4f1/attachment.html>
+  <982601cceb4a$76c263a0$64472ae0$@connectfirst.com>
+  <CADE4tYVw58Y2hJMB2iUH-bi9o3d3P2ki5Z-25_h_ffhFrX+P8Q@mail.gmail.com>
+ Anyone have more details or an ETR?
+ Nate
+ On 2/14/2012 12:59 PM, Brandon Galbraith wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/6e8764c0/attachment.html>
+  <982601cceb4a$76c263a0$64472ae0$@connectfirst.com>
+  <CADE4tYVw58Y2hJMB2iUH-bi9o3d3P2ki5Z-25_h_ffhFrX+P8Q@mail.gmail.com>
+  <4F3ABB9D.5030205@blastcomm.com>
+ Bandwidth.com hasn't issued an all-clear but CORE2 Orig is functioning
+ again for us out of LA and NYC
+ On Tue, Feb 14, 2012 at 1:53 PM, Nate Burke <nate at blastcomm.com> wrote:
+ -- 
+ Robin Rodriguez
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/c73616c8/attachment-0001.html>
+  <982601cceb4a$76c263a0$64472ae0$@connectfirst.com>
+  <CADE4tYVw58Y2hJMB2iUH-bi9o3d3P2ki5Z-25_h_ffhFrX+P8Q@mail.gmail.com>
+  <4F3ABB9D.5030205@blastcomm.com>
+  <CADY85qqOopHiFsWRkBKpp_E_ZZippWYcoKCewP0p2DXO2-qrOQ@mail.gmail.com>
+ We are seeing signaling, but no audio.  Looks like they are making progress? albeit slow.
+ Geoff MINA
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Robin Rodriguez
+ Sent: Tuesday, February 14, 2012 1:15 PM
+ Bandwidth.com hasn't issued an all-clear but CORE2 Orig is functioning again for us out of LA and NYC
+ On Tue, Feb 14, 2012 at 1:53 PM, Nate Burke <nate at blastcomm.com> wrote:
+ Anyone have more details or an ETR?
+ Nate
+ On 2/14/2012 12:59 PM, Brandon Galbraith wrote: 
+ Their Phonebooth product is up and running FWIW. Obviously not using Core2.
+ On Tue, Feb 14, 2012 at 12:57 PM, Geoffrey Mina <gmina at connectfirst.com> wrote:
+ We are also seeing a full outage of the Core2 network.?  Opened a ticket, but no response from BW support.
+ ? 
+ Geoff MINA
+ ? 
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Michael R. Self
+ Sent: Tuesday, February 14, 2012 11:49 AM
+ ? 
+ I'm seeing a total outage at Bandwidth.com on their CORE 2 network for all incoming and outgoing SIP traffic.
+ ? 
+ Anybody else? ? So much for redundant IP's and switches on CORE 2???..
+ ? 
+ ? 
+ ____________________________________________
+ Michael R Self
+ My PhoneFusion ONE number -? 954.644.5000? (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer:? If this email isn't for you,? get rid of it.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -- 
+ Brandon Galbraith
+ US Voice: 630.492.0464 
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -- 
+ Robin Rodriguez
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120214/f2229853/attachment.html>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ On 14-Feb-12 1:49 PM, Michael R. Self wrote:
+ I show two originating AS numbers:
+ #sh bgp ipv4 uni 67.231.4.195
+ BGP routing table entry for 67.231.4.0/24, version 116524879
+ Paths: (6 available, best #1, table default)
+   Not advertised to any peer
+   4323 33363
+ [snip]
+   701 174 12130
+ [snip]
+   3356 2828 12130 12130 12130
+ Anyone else see the same thing? We have notified both 4323 and 33363.
+ I checked both RIPE RIS and HE's bgp toolkit and both indicated that
+ 12130 is the correct origin AS.
+ - --
+ Devon
+  <4F3ACD9C.8090800@noved.org>
+ I have two datacenters that are trying to handle calls from Core2.  One is
+ working properly, one is not.
+ Good route:
+ Host                                       Loss%  Last   Avg  Best  Wrst
+ StDev
+  1. ge-7-13.car1.Atlanta2.Level3.net         0.0%   0.2  10.2   0.2 136.1
+ 32.1
+  2. vlan51.ebr1.Atlanta2.Level3.net          0.0%   0.6   2.2   0.2  10.5
+ 3.2
+  3. ae-6-6.ebr1.Washington12.Level3.net      0.0%  12.1  14.4  12.0  22.5
+ 3.5
+  4. ae-1-100.ebr2.Washington12.Level3.net    0.0%  12.9  14.4  12.0  24.0
+ 3.7
+  5. 4.69.148.49                              0.0%  17.3  17.5  17.2  19.5
+ 0.5
+  6. ae-61-61.csw1.NewYork1.Level3.net        0.0%  19.7  22.3  17.4  30.6
+ 4.3
+  7. ae-13-60.car3.NewYork1.Level3.net        0.0%  17.5  38.1  17.5 219.1
+ 45.2
+  8. BANDWIDTH.C.car3.NewYork1.Level3.net     0.0%  18.1  20.0  17.6  28.3
+ 3.3
+  9. 67.231.8.103                             0.0%  18.5  18.0  17.7  18.9
+ 0.2
+ Bad Route:
+ Host                                       Loss%  Last   Avg  Best  Wrst
+ StDev
+  1. 67.220.101.162                           1.3%   0.5   3.7   0.2 170.3
+ 20.8
+  2. ten8-4.core2.atl1.qualitytech.com        0.0%   0.5   3.1   0.3 193.6
+ 22.3
+  3. ten8-1.peer1.atl1.qualitytech.com        0.0%   0.3   1.3   0.2  66.9
+ 7.7
+  4. 66-193-162-93.static.twtelecom.net       0.0%   0.7   1.4   0.5  34.9
+ 4.4
+  5. orl1-ar3-xe-1-0-0-0.us.twtelecom.net     0.0%   9.6   9.5   9.3  13.2
+ 0.6
+  6. so0-0-0.orld71-cbr2.bhn.net              0.0%  10.3  15.4  10.2 175.5
+ 23.2
+  7. be3-60g.orld71-car1.bhn.net              0.0%  15.3  18.1  13.7  26.0
+ 2.9
+  8. 72-31-208-54.net.bhntampa.com            0.0%  23.7  21.0  13.6  27.4
+ 3.7
+  9. 72-31-208-99.net.bhntampa.com            0.0%  13.8  20.3  13.6  72.6
+ 10.8
+ 10. 72-31-220-9.net.bhntampa.com             0.0%  13.7  14.2  13.6  38.5
+ 2.9
+ 11. ???
+ Geoff MINA
+ ---------------------------------
+ Founder/CTO
+ Connect First Inc. 
+ P: 720.335.5924
+ T: 888.410.3071
+ F: 678.265.1158
+ E: gmina at connectfirst.com
+ ---------------------------------
+ www.connectfirst.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Devon True
+ Sent: Tuesday, February 14, 2012 2:10 PM
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ On 14-Feb-12 1:49 PM, Michael R. Self wrote:
+ I show two originating AS numbers:
+ #sh bgp ipv4 uni 67.231.4.195
+ BGP routing table entry for 67.231.4.0/24, version 116524879
+ Paths: (6 available, best #1, table default)
+   Not advertised to any peer
+   4323 33363
+ [snip]
+   701 174 12130
+ [snip]
+   3356 2828 12130 12130 12130
+ Anyone else see the same thing? We have notified both 4323 and 33363.
+ I checked both RIPE RIS and HE's bgp toolkit and both indicated that
+ 12130 is the correct origin AS.
+ - --
+ Devon
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <982601cceb4a$76c263a0$64472ae0$@connectfirst.com>
+  <CADE4tYVw58Y2hJMB2iUH-bi9o3d3P2ki5Z-25_h_ffhFrX+P8Q@mail.gmail.com>
+  <4F3ABB9D.5030205@blastcomm.com>
+  <CADY85qqOopHiFsWRkBKpp_E_ZZippWYcoKCewP0p2DXO2-qrOQ@mail.gmail.com>
+ On Tue, Feb 14, 2012 at 2:15 PM, Robin Rodriguez
+ <rrodriguez at ifbyphone.com> wrote:
+ Was a final RFO ever posted? Was this something that bandwidth.com did
+ "wrong", or was it because someone started announcing their prefixes?
+ Bandwidth informed us yesterday morning that the issue is closed.   They
+ issued a formal RFO that puts blame squarely on "another transport
+ provider" that was broadcasting their routes and they worked with this
+ unnamed provider.
+ </whatiknow>
+ ____________________________________________
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ On 2/16/12 10:31 AM, "Robert Kulagowski" <rkulagow at gmail.com> wrote:
+ >On Tue, Feb 14, 2012 at 2:15 PM, Robin Rodriguez
+ ><rrodriguez at ifbyphone.com> wrote:
+ >>again for us out of LA and NYC
+ >Was a final RFO ever posted? Was this something that bandwidth.com did
+ >"wrong", or was it because someone started announcing their prefixes?
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.ups.com apparently down
+###############################################################
+ Anyone else seeing this?  downforeveryoneorjustme.com reports it down as well.  I can get it to try/partially load (from Lincoln, Neb. via Unite Private Networks fiber) but it doesn't complete.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ On Feb 15, 2012, at 11:35 AM, Andy Ringsmuth wrote:
+ I think it layer 7 issue.    Before it went completely south it was throwing exceptions when looking up a tracking number.
+ Chris
+ --
+ -------------------------------------------------------------------------
+ Chris Owen         - Garden City (620) 275-1900 -  Lottery (noun):
+ President          - Wichita     (316) 858-3000 -    A stupidity tax
+ Hubris Communications Inc      www.hubris.net
+ -------------------------------------------------------------------------
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 3628 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/7653fec7/attachment.p7s>
+ yup, hangs in london for me but eventually responds
+ mx5:~ colinj$ traceroute www.ups.com
+ traceroute to e1250.b.akamaiedge.net (2.19.117.62), 64 hops max, 40 byte packets
+  1  192.168.1.2 (192.168.1.2)  1.735 ms  0.988 ms  1.388 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  14.748 ms  15.493 ms  16.182 ms
+  3  89.248.31.242 (89.248.31.242)  23.934 ms  25.600 ms  23.727 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.055 ms  16.029 ms  15.034 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  16.120 ms  15.356 ms  16.383 ms
+  6  linxnap.netarch.akamai.com (195.66.224.168)  16.616 ms  16.034 ms  15.924 ms
+  7  *^C
+ Fedex always worked better for me shipping Sun kit.
+ Colin
+ On 15 Feb 2012, at 17:35, Andy Ringsmuth wrote:
+ Doesn't work for me at all.  TWC in Dayton OH
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Feb 15, 2012 at 12:35 PM, Andy Ringsmuth <andyring at inebraska.com> wrote:
+  <2B01979C-88AB-42A9-A7E6-A8522D57D1CE@mx5.org.uk>
+ Apparently they're aware of it.  After about 10 minutes, their site minimally loaded and I saw:
+ ------------------------
+ Customer Systems Experiencing Technical Difficulties 
+ Service Update
+ Wednesday, February 15, 2012
+ UPS is currently experiencing technical difficulties and delays with UPS online customer systems.
+ We apologize for any inconvenience this may cause our customers.
+ We are treating this problem with the utmost urgency and our technical support teams are currently working to resolve these issues as soon as possible. 
+ ------------------------
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ On Feb 15, 2012, at 11:39 AM, Colin Johnston wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/46183399/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 1.gif
+ Type: image/gif
+ Size: 43 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/46183399/attachment.gif>
+  <2B01979C-88AB-42A9-A7E6-A8522D57D1CE@mx5.org.uk>
+ Sluggish for me in the Midwest, but it seems to be clicking through OK.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Colin Johnston
+ Sent: Wednesday, February 15, 2012 11:40 AM
+ Cc: outages
+ yup, hangs in london for me but eventually responds
+ mx5:~ colinj$ traceroute www.ups.com
+ traceroute to e1250.b.akamaiedge.net (2.19.117.62), 64 hops max, 40 byte
+ packets
+  1  192.168.1.2 (192.168.1.2)  1.735 ms  0.988 ms  1.388 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  14.748 ms  15.493 ms  16.182 ms
+  3  89.248.31.242 (89.248.31.242)  23.934 ms  25.600 ms  23.727 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.055 ms  16.029 ms
+ 15.034 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  16.120 ms  15.356 ms
+ 16.383 ms
+  6  linxnap.netarch.akamai.com (195.66.224.168)  16.616 ms  16.034 ms
+ 15.924 ms
+  7  *^C
+ Fedex always worked better for me shipping Sun kit.
+ Colin
+ On 15 Feb 2012, at 17:35, Andy Ringsmuth wrote:
+ well.  I can get it to try/partially load (from Lincoln, Neb. via Unite
+ Private Networks fiber) but it doesn't complete.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Yes. Have been trying to use tracking with no success all morning, now mixed success even loading the main page.
+  Tracing route to origin.www.ups.com [153.2.228.50]
+ over a maximum of 30 hops:
+   1    13 ms    <1 ms     1 ms  x.x.x.x
+   2     3 ms     2 ms     2 ms  x.x.x.x
+   3    14 ms     4 ms     3 ms  v501.riverdale-md-r2.vectordatasystems.com [205.134.176.145]
+   4     4 ms     3 ms    18 ms  v303.riverdale-md-r1.vectordatasystems.com [205.134.176.133]
+   5     9 ms     6 ms     6 ms  v300.calverton-md-r1.vectordatasystems.com [205.134.171.133]
+   6    11 ms    21 ms    15 ms  205.134.166.229
+   7    11 ms    12 ms    14 ms  G2-5.MD-117M-RR-DimosNG.ai.net [205.134.161.69]
+   8    13 ms    17 ms    10 ms  T3-1.DC127KG2MMRC0603.ai.net [205.134.191.86]
+   9    14 ms    11 ms    11 ms  T3-1.MD300LC20.05-R01.ai.net [205.134.191.181]
+  10    12 ms    18 ms    11 ms  ge-6-16.car1.Baltimore1.Level3.net [4.59.244.85]
+  11    16 ms    12 ms    11 ms  ae-11-11.car2.Baltimore1.Level3.net [4.69.134.110]
+  12    14 ms    12 ms    14 ms  ae-8-8.ebr2.Washington1.Level3.net [4.69.134.105]
+  13    14 ms    20 ms    14 ms  ae-5-5.ebr2.Washington12.Level3.net [4.69.143.222]
+  14    14 ms    15 ms    13 ms  ae-201-3601.edge1.Washington12.Level3.net [4.69.158.33]
+  15    16 ms    16 ms    19 ms  att-level3-te.washingtondc12.Level3.net [4.68.62.30]
+  16    38 ms    32 ms    30 ms  cr2.wswdc.ip.att.net [12.122.134.186]
+  17    33 ms    34 ms    36 ms  cr1.attga.ip.att.net [12.122.1.173]
+  18    29 ms    29 ms    29 ms  cr83.attga.ip.att.net [12.123.22.110]
+  19    28 ms    29 ms    28 ms  gar9.attga.ip.att.net [12.122.141.113]
+  20    30 ms    28 ms    30 ms  12.117.173.58
+  21     *        *        *     Request timed out.
+  22     *        *        *     Request timed out.
+  23     *        *        *     Request timed out.
+  24     *        *        *     Request timed out.
+  25     *        *        *     Request timed out.
+  26     *        *        *     Request timed out.
+  27     *        *        *     Request timed out.
+  28     *        *        *     Request timed out.
+  29     *        *        *     Request timed out.
+  30     *        *        *     Request timed out.
+ --?
+ Patrick Shoemaker
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Andy Ringsmuth
+ Sent: Wednesday, February 15, 2012 12:36
+ Anyone else seeing this?  downforeveryoneorjustme.com reports it down as well.  I can get it to try/partially load (from Lincoln, Neb. via Unite Private Networks fiber) but it doesn't complete.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Once upon a time, Andy Ringsmuth <andyring at inebraska.com> said:
+ Made the local news blog here several hours ago.  It ends with "UPS,
+ based in Atlanta, expects the disruption to be cleared up soon."  I
+ don't know what their definition of "soon" is though (overnight
+ express?).
+ http://blog.al.com/huntsville-times-business/2012/02/ups_reporting_widespread_techn.html
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+  <CAN9qwJ9wpcN=4DB7b83CX4utuNSReU6yfFVWrSQtiL4F8JHRwQ@mail.gmail.com>
+ Up for me in LA/CA using TWC
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Josh Luthman
+ Sent: Wednesday, February 15, 2012 9:42 AM
+ Cc: outages
+ Doesn't work for me at all.  TWC in Dayton OH
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Feb 15, 2012 at 12:35 PM, Andy Ringsmuth <andyring at inebraska.com> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <CAN9qwJ9wpcN=4DB7b83CX4utuNSReU6yfFVWrSQtiL4F8JHRwQ@mail.gmail.com>
+ >From the UPS site<http://www.ups.com/content/us/en/about/news/service_updates/20120215_systems.html>(which
+ barely loads for me in OR, USA):
+ ################
+ Customer Systems Experiencing Technical Difficulties
+ Service Update
+ Wednesday, February 15, 2012
+ UPS is currently experiencing technical difficulties and delays with UPS
+ online customer systems.
+ We apologize for any inconvenience this may cause our customers.
+ We are treating this problem with the utmost urgency and our technical
+ support teams are currently working to resolve these issues as soon as
+ possible.
+ ##############
+ Regards,
+ Dave Owens
+ On Wed, Feb 15, 2012 at 9:41 AM, Josh Luthman
+ <josh at imaginenetworksllc.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/1b4b2702/attachment.html>
+  <2B01979C-88AB-42A9-A7E6-A8522D57D1CE@mx5.org.uk>
+  <016e01ccec09$7f1f72d0$7d5e5870$@iname.com>
+ For us it dies at qwest
+ [rsud at terminus /home/rsud]$ traceroute www.ups.com
+ traceroute to www.ups.com (96.6.53.62), 30 hops max, 40 byte packets
+  1  secure-systems.vl319.cr2.hq.cwie.net (10.31.19.1)  0.413 ms  0.642 ms  0.752 ms
+  2  bb1.cwie.10.1.phx0.cwie.net (64.38.194.20)  15.606 ms  15.596 ms  15.708 ms
+  3  bb2.cwie.10.2.phx0.cwie.net (64.38.200.2)  2.325 ms  2.316 ms  2.306 ms
+  4  TenGigabitEthernet6-1.ar6.PHX1.gblx.net (64.211.166.133)  2.416 ms  2.408 ms  2.397 ms
+  5  lap-brdr-04.inet.qwest.net (63.146.26.49)  11.359 ms  11.351 ms  11.709 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ 11  * * *
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ 19  * * *
+ 20  * * *
+ 21  * * *
+ 22  * * *
+ [rsud at terminus /home/rsud]$ 
+ [rsud at terminus /home/rsud]$
+ Raman Sud
+ Director,
+ Network Infrastructure
+ ?
+ PhoenixNAP LLC
+ 3402 East University Drive
+ Phoenix AZ 85034
+ Phone: 480.449.8834
+ Fax: 480.682.3236
+ http://www.phoenixnap.com
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+ THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE ?INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED, AND MAY CONTAIN INFORMATION ?THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE ?LAW. ?IF THE READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT, YOU ARE HEREBY NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR ?COPYING OF THIS COMMUNICATION IS STRICTLY PROHIBITED, AND THAT THIS EMAIL AND ?ALL COPIES AND ATTACHMENTS SHOULD BE IMMEDIATELY ?DESTROYED. 
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Wednesday, February 15, 2012 10:45 AM
+ Cc: outages
+ Sluggish for me in the Midwest, but it seems to be clicking through OK.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Colin Johnston
+ Sent: Wednesday, February 15, 2012 11:40 AM
+ Cc: outages
+ yup, hangs in london for me but eventually responds
+ mx5:~ colinj$ traceroute www.ups.com
+ traceroute to e1250.b.akamaiedge.net (2.19.117.62), 64 hops max, 40 byte packets
+  1  192.168.1.2 (192.168.1.2)  1.735 ms  0.988 ms  1.388 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  14.748 ms  15.493 ms  16.182 ms
+  3  89.248.31.242 (89.248.31.242)  23.934 ms  25.600 ms  23.727 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.055 ms  16.029 ms
+ 15.034 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  16.120 ms  15.356 ms
+ 16.383 ms
+  6  linxnap.netarch.akamai.com (195.66.224.168)  16.616 ms  16.034 ms
+ 15.924 ms
+  7  *^C
+ Fedex always worked better for me shipping Sun kit.
+ Colin
+ On 15 Feb 2012, at 17:35, Andy Ringsmuth wrote:
+ well.  I can get it to try/partially load (from Lincoln, Neb. via Unite Private Networks fiber) but it doesn't complete.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20120215174600.GG11252@hiwaay.net>
+ Just got word at 13:04 PST that UPS has stated they've resolved the
+ issue.  Can't give any more details than that (and I don't have an
+ RCA/RFO).
+ If folks could re-verify their www.ups.com transactions (tracking, etc.)
+ and follow-up that would be great.
+ -- 
+ | Jeremy Chadwick                              jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Feb 15, 2012 at 11:46:01AM -0600, Chris Adams wrote:
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ Still can't get to www.ups.com or ups.com - 153.2.228.50
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Feb 15, 2012 at 4:16 PM, Jeremy Chadwick
+ <outages at jdc.parodius.com> wrote:
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ http://www.ups.com/?Site=Corporate&cookie=us_en_home&setCookie=yes
+ "An error occurred while processing your request.
+ Reference #102.b5ae7c41.1329341248.14d2ef5"
+ "An error occurred while processing your request.
+ Reference #102.a4ae7c41.1329341279.6607717"
+ Daniel Wolf
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jeremy Chadwick
+ Sent: Wednesday, February 15, 2012 3:16 PM
+ Just got word at 13:04 PST that UPS has stated they've resolved the issue.  Can't give any more details than that (and I don't have an RCA/RFO).
+ If folks could re-verify their www.ups.com transactions (tracking, etc.) and follow-up that would be great.
+ -- 
+ | Jeremy Chadwick                              jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Feb 15, 2012 at 11:46:01AM -0600, Chris Adams wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ Once upon a time, Jeremy Chadwick <outages at jdc.parodius.com> said:
+ I can (slowly) load www.ups.com, but tracking doesn't work.  Following
+ the Tracking link takes me a page with "/not_there" in the URL; I knew
+ the package is not there yet, that's why I was trying to track it! :-)
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ back for me
+ via att
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ Up and OK in 90703 via FIOS
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Wednesday, February 15, 2012 1:16 PM
+ Just got word at 13:04 PST that UPS has stated they've resolved the
+ issue.  Can't give any more details than that (and I don't have an
+ RCA/RFO).
+ If folks could re-verify their www.ups.com transactions (tracking, etc.)
+ and follow-up that would be great.
+ -- 
+ | Jeremy Chadwick                              jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Feb 15, 2012 at 11:46:01AM -0600, Chris Adams wrote:
+ well.  I can get it to try/partially load (from Lincoln, Neb. via Unite
+ Private Networks fiber) but it doesn't complete.
+ http://blog.al.com/huntsville-times-business/2012/02/ups_reporting_widesprea
+ d_techn.html
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ Here in the Midwest it timed out on first few loads, but 15 minutes later it
+ worked.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Wednesday, February 15, 2012 3:16 PM
+ Just got word at 13:04 PST that UPS has stated they've resolved the
+ issue.  Can't give any more details than that (and I don't have an
+ RCA/RFO).
+ If folks could re-verify their www.ups.com transactions (tracking, etc.)
+ and follow-up that would be great.
+ -- 
+ | Jeremy Chadwick                              jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Feb 15, 2012 at 11:46:01AM -0600, Chris Adams wrote:
+ well.  I can get it to try/partially load (from Lincoln, Neb. via Unite
+ Private Networks fiber) but it doesn't complete.
+ http://blog.al.com/huntsville-times-business/2012/02/ups_reporting_widesprea
+ d_techn.html
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ On Wednesday 15 February 2012 14:16, Jeremy Chadwick wrote:
+ Negative... The main site is up via Qwest, but the tracking boxes embedded in 
+ pages (main page for instance) are non-existant. The main tracking URL 
+ http://www.ups.com/WebTracking/track?loc=en_US cycles between "page not 
+ found" and and an error reference code, like Daniel reported. 
+ Adrian
+  <20120215174600.GG11252@hiwaay.net> <20120215211621.GA32821@icarus.home.lan>
+ Still a no-go for tracking (I'm the original poster of the topic) from Lincoln, Neb.  I get referred, still, to http://www.ups.com/content/not_there
+ On Feb 15, 2012, at 3:16 PM, Jeremy Chadwick wrote:
+ >>> Anyone else seeing this?  downforeveryoneorjustme.com reports it down as well.  I can get it to try/partially load (from Lincoln, Neb. via Unite Private Networks fiber) but it doesn't complete.
+ Theres still major problems.. They also "thoughtfully" turned their phones off so you cant call to get any info as far as if stuffs out for delivery......  
+ ----- Original Message -----
+ On 2/15/2012 2:49 PM, Tammy A. Wisdom wrote:
+ This is because their tracking is down hard, internally and externally
+  <4F3C39F2.3060809@up-south.com>
+ Some 3rd party sites are still working though:
+ http://www.packagetrackr.com/
+ http://smallbusiness.yahoo.com/advisor/business-tools/ups-tracking/
+ On 2/15/2012 5:04 PM, Chaim Rieger wrote:
+  <4F3C39F2.3060809@up-south.com> <4F3C46C0.2090608@opendns.com>
+ I called around 3 or 4 and the phone tracking worked just fine.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Feb 15, 2012 7:02 PM, "Brian Carpenter" <brianc at opendns.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/6d3737a1/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+DDoS attacks spread to vulnerable IPv6 Internet
+###############################################################
+ DDoS attacks spread to vulnerable IPv6 Internet
+ http://news.cnet.com/8301-30685_3-57378307-264/ddos-attacks-spread-to-vulner
+ able-ipv6-internet/
+ http://preview.tinyurl.com/7hpdljm
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/024c111a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+puck.nether.net uses an invalid security certificate
+###############################################################
+ puck.nether.net uses an invalid security certificate.
+ The certificate expired on 2/14/2012 2:56 PM. The current time is 2/15/2012
+ 1:55 PM
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120215/aa411cb1/attachment.html>
+ Yeah, been working on this.
+ :)
+ - Jared
+ On Feb 15, 2012, at 4:56 PM, Network IP Dog wrote:
+ This should now be fixed.
+ - Jared
+ On Feb 15, 2012, at 4:56 PM, Network IP Dog wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Akamai Offload reduction since the New Year?
+###############################################################
+ This isn't an outage per say, however it is a pretty major reduction
+ of service availability that we've seen, and perhaps other folks on
+ this list have seen something similar.
+ Since literally 00:00:00 2012/01/01 our Origin Bandwidth Offload has
+ been slowly dropping. Prior to 01/01, we were seeing 97% offload from
+ our origin servers (not bad!)
+ Midnight 01/01/2012 Origin offload dropped to 95% and has been slowly,
+ steadily dropping since. Today we've reached a new low of 88%.
+ We've contacted Akamai and so far we've received very little feedback
+ about the cause, or why this happened so dramatically at midnight on
+ January 1st. Our origin infrastructure has not changed before or after
+ 01/01.
+ THe lack of willingness to investigate on Akamai's end has caused me
+ to reach out to this list.
+ Has anyone else experienced something similar? If so would you please
+ contact me directly? I would love to hear your situation.
+ Thank you very much,
+ - S
+ On Feb 17, 2012, at 7:06 AM, dl wrote:
+ I've seen something similar whereby HTTP attack traffic which has been deliberately constructed to be non-cacheable has been relayed from a CDN to the targeted site.
+ Have you looked into your HTTP query details in order to see if you're getting lots of queries which stand out in that regard vs. your regular traffic?
+ Another possible cause would be changes to a site itself which results in more non-cacheable dynamic content which can't be served via the CDN.
+ -----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+ 	  Luck is the residue of opportunity and design.
+ 		       -- John Milton
+  <AA2463CA-67CA-40D5-BBD2-8A0136BE36B7@arbor.net>
+ So far we have seen, all requests have been legit. Our content is very
+ static binary files, which makes this a little more confusing. It
+ almost feels like our service has had its expiry adjusted on the
+ Akamai side, causing our content to expire faster than it use to from
+ edge servers. Or perhaps a new customer has come in and is taking over
+ the majority of the cache on these same servers? Impossible to tell,
+ and not information Akamai wants to share with other people.
+ Thank you all for your contacts. I'll be happy to hear anything else
+ anyone wants to suggest.
+ On Thu, Feb 16, 2012 at 16:27, Dobbins, Roland <rdobbins at arbor.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+whois.afrinic.net IPv6 down?
+###############################################################
+ >whois -n 81.192.53.76
+ [Querying whois.afrinic.net]
+ [Unable to connect to remote host]
+ >telnet whois.afrinic.net whois
+ Trying 2001:42d0:0:410::130...
+ telnet: connect to address 2001:42d0:0:410::130: Connection refused
+ Trying 196.216.2.130...
+ Connected to whois.afrinic.net.
+ Escape character is '^]'.
+ % This is the AfriNIC Whois server.
+ My poor whois client doesn't seem to retry over IPv4 :-( Forcing it to
+ use IPv4 works:
+ >whois -h 196.216.2.130  -n x.x.x.x
+ [Querying 196.216.2.130]
+ [196.216.2.130]
+ % This is the AfriNIC Whois server.
+ % Note: this output has been filtered.
+ % Information related to ...
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 in SF
+###############################################################
+ Hello list,
+ Has anyone else had or heard about Level3 outages in San Francisco?  The MSP we get connectivity from has had 4 outages to us in the past 36 hours and I have a feeling they may be blowing smoke when they tell us it's been regional L3 outages.  If anyone can cite issues with L3 in SF (specifics below)  or a lack thereof, I'd appreciate it.
+ The MSP/network in question seems to hang off of [interface].car1.SanFrancisco1.Level3.net
+ Here are the times we have seen issues (Eastern):
+ Yesterday 1912-1932
+ Today 0745-0809
+ Today 1737-1834
+ Thanks - if you are local to the router mentioned above, any indication about whether or not you have seen issues would be appreciated.
+###############################################################
+END
+###############################################################
+
+###############################################################
+=?utf-8?q?whois=2Eafrinic=2Enet_IPv6_down=3F?=
+###############################################################
+ On Fri, 17 Feb 2012 18:02:57 -0500, Chuck Anderson <cra at wpi.edu> wrote:
+ >>whois -n 81.192.53.76
+ >>telnet whois.afrinic.net whois
+ >>whois -h 196.216.2.130  -n x.x.x.x
+ AfriNIC is busy with maintenance on their whois (and a few other things)
+ this weekend:
+ I will however forward this on to the relevant people so that they are
+ aware.
+ regards
+ -- 
+ Graham Beneke
+ Network Engineer      | Neology (PTY) Ltd.
+ graham at neology.co.za  | http://www.neology.co.za/
+ Dir: +27-10-500-5906  | Suite 301, Block C, Eva Park
+ Tel: +27-11-476-1933  | Cresta, Johannesburg
+ Skype: grbeneke       | Jabber: graham at neology.co.za
+###############################################################
+END
+###############################################################
+
+###############################################################
+Canada Cable Cut - Alberta
+###############################################################
+ A little late to the party, but here is what I know.
+ Around 1:30 PM ET yesterday (2/17/2012) both of our T1 circuits at our
+ Canadian site in Edmonton went down. Shortly after that a voice
+ circuit at the same site went down.
+ Our voice vendor quickly confirmed that there was a regional issue.
+ Later our data circuit vendor confirmed that there was a cable cut in
+ Alberta. All of our circuits have been up since midnight, however word
+ is that work continues on the cable cut.
+ - Chris
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon LTE down across the US
+###############################################################
+ http://www.slashgear.com/verizon-lte-down-across-the-us-its-not-just-you-222
+ 14766/
+ FYI
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T north Louisiana
+###############################################################
+ I have multiple customers throughout north Louisiana with AT&T dsl that have been down over 2hrs. No official explanation. 
+ Sent from my iPhone
+ Seeing the same thing ATT is having an issue, as I have multiple customers that are not reaching us and vice versa through L3 last mile
+ Nothing confirmed
+ Tracing route to adsl-99-124-72-235.dsl.hstntx.sbcglobal.net [99.124.72.235] 
+ over a maximum of 30 hops: 
+ 1 <1 ms <1 ms <1 ms 10.10.10.1 
+ 2 1 ms <1 ms <1 ms atl-204-16-55-145.commpartners.us [204.16.55.145] 
+ 3 1 ms 1 ms 1 ms atl-204-16-52-229.commpartners.us [204.16.52.229] 
+ 4 31 ms 67 ms 8 ms ge-6-18.car1.LasVegas1.Level3.net [4.71.176.101] 
+ 5 2 ms 2 ms 2 ms ae-2-5.bar1.LasVegas1.Level3.net [4.69.148.130] 
+ 6 7 ms 7 ms 7 ms ae-4-4.ebr1.LosAngeles1.Level3.net [4.69.133.110] 
+ 7 9 ms 7 ms 17 ms ae-81-81.csw3.LosAngeles1.Level3.net [4.69.137.10] 
+ 8 7 ms 7 ms 7 ms ae-3-80.edge2.LosAngeles9.Level3.net [4.69.144.143] 
+ 9 7 ms 7 ms 18 ms 192.205.37.145 
+ 10 44 ms 43 ms 43 ms cr1.la2ca.ip.att.net [12.122.128.102] 
+ 11 47 ms 43 ms 43 ms cr2.phmaz.ip.att.net [12.122.31.190] 
+ 12 46 ms 46 ms 43 ms cr2.santx.ip.att.net [12.122.1.18] 
+ 13 43 ms 43 ms 43 ms 12.123.154.126 
+ 14 * * * Request timed out. 
+ 15 * * * Request timed out. 
+ 16 * * * Request timed out. 
+ 17 * * * Request timed out. 
+ 18 * * * Request timed out. 
+ 19 * * * Request timed out. 
+ 20 * * * Request timed out. 
+ 21 * * * Request timed out. 
+ 22 * * * Request timed out. 
+ 23 * * * Request timed out. 
+ 24 * * * Request timed out. 
+ 25 * * * Request timed out. 
+ 26 * * * Request timed out. 
+ 27 * * * Request timed out. 
+ 28 * * * Request timed out. 
+ 29 * * * Request timed out. 
+ 30 * * * Request timed out. 
+ Trace complete.
+ ---
+ Respectfully,
+ ?
+ Daniel L Green II?| Network Engineer | Momentum Telecom
+ 8350 S. Durango Drive,?Suite 220, Las Vegas, NV 89113
+ w: 702.367.8647 X 1337 | f: 702.365.8647 | 
+ dgreen at momentumtelecom.com | www.momentumtelecom.com
+ CONFIDENTIALITY NOTICE: This email message is for the sole use of the intended recipient(s) and may contain confidential and privileged information. Any unauthorized review, use, disclosure or distribution is prohibited. If you are not the intended recipient, please contact the sender by reply email and destroy all copies of the original message. 
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jeremie Chism
+ Sent: Wednesday, February 22, 2012 9:15 AM
+ I have multiple customers throughout north Louisiana with AT&T dsl that have been down over 2hrs. No official explanation. 
+ Sent from my iPhone
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes delayed) - Anyone Else Seeing This?
+###############################################################
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes delayed) - Anyone Else Seeing This?
+ Kris Arthur
+ DirectBuy Corporate | www.DirectBuy.com<http://www.directbuy.com/>
+ 8450 Broadway | Merrillville, IN  46410
+ m: 219.736.1100 | d: 219.791.2505 | c: 219.713.3124 | f: 708.887.1545
+ The Home Improvement & Furnishings Club with DIRECT INSIDER PRICES
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120222/95c77d6f/attachment.html>
+ No current according to here:
+ http://trust.salesforce.com/trust/status/
+ Frank
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes
+ delayed) - Anyone Else Seeing This?
+ Kris Arthur
+ DirectBuy Corporate | www.DirectBuy.com <http://www.directbuy.com/> 
+ 8450 Broadway | Merrillville, IN  46410
+ m: 219.736.1100 | d: 219.791.2505 | c: 219.713.3124 | f: 708.887.1545
+ The Home Improvement & Furnishings Club with DIRECT INSIDER PRICES 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120222/a1aa07ff/attachment.html>
+  <003701ccf1b3$c5344980$4f9cdc80$@iname.com>
+ Yes, but that can't be "trusted". Trust me... at least not for these impairments where it is not a full outage.
+ Kris Arthur
+ From: Frank Bulk [mailto:frnkblk at iname.com]
+ Sent: Wednesday, February 22, 2012 4:46 PM
+ No current according to here:
+ http://trust.salesforce.com/trust/status/
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Kris Arthur
+ Sent: Wednesday, February 22, 2012 4:33 PM
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes delayed) - Anyone Else Seeing This?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120222/6a3bd855/attachment-0001.html>
+  <003701ccf1b3$c5344980$4f9cdc80$@iname.com>
+  <91208CC838D7BE40813CFD1F59DC74BF676E52C8FB@srv-ml-csc-001>
+ I think SFDC is pretty transparent with this stuff on that status web
+ page.  In fact, sometime last year (I don't remember when), there was a
+ degradation in email-to-case delivery (similar to what you are
+ describing today) and it was reported on the Trust web page.
+ -george
+ Yes, but that can't be "trusted". Trust me... at least not for these
+ impairments where it is not a full outage. 
+ Kris Arthur
+ No current according to here:
+ http://trust.salesforce.com/trust/status/
+ Frank
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes
+ delayed) - Anyone Else Seeing This?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120222/515e0e5e/attachment.html>
+  <003701ccf1b3$c5344980$4f9cdc80$@iname.com>
+  <91208CC838D7BE40813CFD1F59DC74BF676E52C8FB@srv-ml-csc-001>
+  <8B6631838A8725418AB9DDDCFEA8FB38020C00BC@BE54.exg3.exghost.com>
+ There's a bunch of mentions of this problem on their website now.
+ http://trust.salesforce.com/trust/status/
+ Daniel Wolf
+ I think SFDC is pretty transparent with this stuff on that status web page.  In fact, sometime last year (I don't remember when), there was a degradation in email-to-case delivery (similar to what you are describing today) and it was reported on the Trust web page.
+ -george
+ Yes, but that can't be "trusted". Trust me... at least not for these impairments where it is not a full outage.
+ Kris Arthur
+ No current according to here:
+ http://trust.salesforce.com/trust/status/
+ Frank
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes delayed) - Anyone Else Seeing This?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120223/aae945ef/attachment.html>
+  <003701ccf1b3$c5344980$4f9cdc80$@iname.com>
+  <91208CC838D7BE40813CFD1F59DC74BF676E52C8FB@srv-ml-csc-001>
+  <8B6631838A8725418AB9DDDCFEA8FB38020C00BC@BE54.exg3.exghost.com>
+  <FEB36795CFD79344B2DE952392CE5023028AE9E1@MIL-MBX-02.Neopost.NA>
+ Right... they are transparent but when the official notice is 4 hours later than we report.... They are transparent but it took them a long-time... :)
+ Kris Arthur
+ IT Security Manager
+ DirectBuy Corporate | www.DirectBuy.com<http://www.directbuy.com/>
+ 8450 Broadway | Merrillville, IN  46410
+ m: 219.736.1100 | d: 219.791.2505 | c: 219.713.3124 | f: 708.887.1545
+ The Home Improvement & Furnishings Club with DIRECT INSIDER PRICES
+ From: Daniel Wolf [mailto:da.wolf at neopost.com]
+ Sent: Wednesday, February 22, 2012 7:04 PM
+ There's a bunch of mentions of this problem on their website now.
+ http://trust.salesforce.com/trust/status/
+ Daniel Wolf
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of George Sarlas
+ Sent: Wednesday, February 22, 2012 4:52 PM
+ I think SFDC is pretty transparent with this stuff on that status web page.  In fact, sometime last year (I don't remember when), there was a degradation in email-to-case delivery (similar to what you are describing today) and it was reported on the Trust web page.
+ -george
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org] On Behalf Of Kris Arthur
+ Sent: Wednesday, February 22, 2012 4:48 PM
+ Yes, but that can't be "trusted". Trust me... at least not for these impairments where it is not a full outage.
+ Kris Arthur
+ From: Frank Bulk [mailto:frnkblk at iname.com]
+ Sent: Wednesday, February 22, 2012 4:46 PM
+ No current according to here:
+ http://trust.salesforce.com/trust/status/
+ Frank
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org] On Behalf Of Kris Arthur
+ Sent: Wednesday, February 22, 2012 4:33 PM
+ Salesforce - NA7 Cluster - Slow Email-to-Case Delivery (45-50 minutes delayed) - Anyone Else Seeing This?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120223/202e5baf/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+advanceauto.com down
+###############################################################
+ for Advance Auto Parts.  downforeveryoneorjustme.com concurs.  Have attempted to reach it via distinctly separate routes/ISPs as well.
+ traceroute advanceauto.com
+ traceroute to advanceauto.com (205.132.9.136), 64 hops max, 52 byte packets
+  1  192.168.1.2 (192.168.1.2)  0.730 ms  0.228 ms  0.214 ms
+  2  208.82.104.193 (208.82.104.193)  0.688 ms  0.706 ms  0.775 ms
+  3  omh-edge-08.inet.qwest.net (65.116.176.185)  2.055 ms  2.100 ms  1.968 ms
+  4  chp-brdr-03.inet.qwest.net (67.14.8.190)  19.263 ms  19.088 ms  19.151 ms
+  5  0.xe-10-3-0.br1.chi13.alter.net (204.255.168.213)  19.228 ms  19.096 ms  56.903 ms
+  6  0.ge-2-2-0.xl4.chi13.alter.net (152.63.68.161)  24.018 ms  24.152 ms  24.068 ms
+  7  0.so-4-1-0.xl2.slt4.alter.net (152.63.1.182)  68.350 ms  68.146 ms  68.389 ms
+  8  0.so-6-1-0.ur2.den5.web.wcom.net (157.130.173.50)  82.072 ms  82.101 ms  81.958 ms
+  9  63.123.128.6 (63.123.128.6)  80.011 ms  79.945 ms  80.050 ms
+ 10  63.123.149.113 (63.123.149.113)  69.922 ms  70.145 ms  69.825 ms
+ 11  * * *
+ 12  * * *
+ 13  * * *
+ 14  *
+ tracerouting from separate ISPs (Unite Private Networks/fiber and Windstream consumer-grade DSL) both die at 63.123.149.113.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ advanceautoPARTS.com seems to be the real domain, works fine for me, and
+ goes to Akamai.
+ advanceauto.com is the same company, but I'm guessing was just a redirector
+ to the above.
+   Scott
+ On Thu, Feb 23, 2012 at 8:14 AM, Andy Ringsmuth <andyring at inebraska.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120223/b549a678/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Any2Exchange peering at One Wilshire Los Angeles down
+###############################################################
+ Coresite is working on it, no ETR.
+ -- 
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+ We haven't lost any sessions there yet.... AS11666
+ Paul
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jay Hennigan
+ Sent: February-24-12 7:04 PM
+ Coresite is working on it, no ETR.
+ --
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net Impulse
+ Internet Service  -  http://www.impulse.net/ Your local telephone and
+ internet company - 805 884-6323 - WB6RDV
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I work in the CoreSite NOC -
+ We are not experiencing any outages on the Any2 exchange. If you need assistance please free to call us at +213.327.1223.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jay Hennigan
+ Sent: Friday, February 24, 2012 4:04 PM
+ Coresite is working on it, no ETR.
+ --
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net Impulse Internet Service  -  http://www.impulse.net/ Your local telephone and internet company - 805 884-6323 - WB6RDV _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <01f501ccf352$69644ab0$3c2ce010$@paulstewart.org>
+ No loss for AS2906 (Netflix) either.
+ -Dave
+ On 2/24/12 7:14 PM, Paul Stewart wrote:
+ On 2/24/12 4:04 PM, Jay Hennigan wrote:
+ Fixed now.  Port security somehow shut down our switch port and at least
+ one other.  MAC addresses haven't changed so root cause still unknown.
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+###############################################################
+END
+###############################################################
+

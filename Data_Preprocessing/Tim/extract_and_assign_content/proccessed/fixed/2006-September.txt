@@ -1,0 +1,62 @@
+From jtodd  Fri Sep 29 18:15:05 2006
+From: jtodd (John Todd)
+Date: Fri, 29 Sep 2006 15:15:05 -0700
+Subject: [Outages] Cingular/ATT Wireless data network problems Message-ID: <p06240564c1431dbbe3c0@loligo.com>
+
+
+We utilize the Cingular/ATT wireless network (GPRS) for various IT 
+purposes and for delivery of some of our customer data.  For the last 
+8 days, we have seen various failures in the Cingular data network 
+with inability to complete requests to any destinations using HTTP 
+(we have not tried other protocols.)  It seems to be sporadic, with 
+about a 50% failure rate on any particular request.  We have tried to 
+many destinations, both our own and other locations which have shown 
+no issues in the past.  Our problems have been with devices or 
+networks in the San Francisco Bay/Silicon Valley area.  We have 
+performed the same tests 20 miles apart in this region to ensure 
+different towers, with the same results.
+
+Calls to Cingular customer support lead to long hold times followed 
+by requests for us to reboot our cell phones, and there seems to be 
+no comprehension of the failure mode by the support group.
+
+Is anyone else using Cingular/ATT that has experienced problems with 
+HTTP gateway service?  While I can't pin this on a "network" failure, 
+it does appear that the application (HTTP or WAP) failures are 
+causing operational problems for us, and I would like to determine if 
+this is a localized or regional issue, or if this is a wider scale 
+problem with application gateways or our equipment type.
+
+JT
+
+
+
+From jimpop  Fri Sep 29 21:39:17 2006
+From: jimpop (Jim Popovitch)
+Date: Fri, 29 Sep 2006 21:39:17 -0400
+Subject: [Outages] Cingular/ATT Wireless data network problems In-Reply-To: <p06240564c1431dbbe3c0@loligo.com>
+References: <p06240564c1431dbbe3c0@loligo.com>
+Message-ID: <1159580357.8706.10.camel@localhost>
+
+On Fri, 2006-09-29 at 15:15 -0700, John Todd wrote:
+> Is anyone else using Cingular/ATT that has experienced problems with 
+> HTTP gateway service?  While I can't pin this on a "network" failure, 
+> it does appear that the application (HTTP or WAP) failures are 
+> causing operational problems for us, and I would like to determine if 
+> this is a localized or regional issue, or if this is a wider scale 
+> problem with application gateways or our equipment type.
+
+I don't have operational experience with Cingular's HTTP gateway
+service, but I do see all sorts of periodic latency in their email
+gateways.  I often get email->text alert messages, which contain a
+timestamp, days after the fact.  It bothers me that I pay for this
+service, but I also understand the problems they and other providers
+deal with.  Both WAP and email are ever growing technologies, I suspect
+that they (or their outsourced provider) aren't planning effectively,
+not that I could plan it any better for them.
+
+-Jim P.
+
+
+
+

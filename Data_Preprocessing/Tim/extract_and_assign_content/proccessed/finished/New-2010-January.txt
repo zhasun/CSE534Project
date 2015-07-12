@@ -1,0 +1,459 @@
+###############################################################
+Expediant in Pittsburgh PA down?
+###############################################################
+  I'm unable to reach a rack that I have there and the corporate webpage (
+ http://www.expedient.com) won't load. NOC contact number is also not
+ completing.
+ Does anyone have details as to what is going on?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100103/9f1a8724/attachment.html>
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100103/a00f9b6e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+LD backbone outages?
+###############################################################
+ I'm getting lots of odd PRI busies this morning, with ISDN cause code 127
+ (which neither me nor my PBX vendor has ever seen or heard of).  They're on
+ Qwest and Broadwing dedicated IXC circuits, all resold via Airespring.
+ My boss, who's been doing this longer than me, points out that a) the carriers
+ involved might rent backbone from one another, and b) resellers get throttled 
+ first in this sort of circumstance... wherefore:
+ Has anyone heard of any fiber or LD switch outages this morning that they
+ haven't mentioned yet?  :-)
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ ----- "Jay R. Ashworth" <jra at baylink.com> wrote:
+ I suppose I ought to folo on this myself for clarity.
+ We send calls out some IXC PRIs with caller ID that isn't valid *for those
+ trunks*, cause (obviously) the incoming calls go to other inbound trunk groups,
+ and some of that is cross-carrier.  That's apparently become problematic,
+ because Level3/Broadwing's fraud group has cracked down on outbound CNID.
+ Whether Qwest has as well or not is an as yet unanswered question, but if
+ it's not just a screw up on their end, then I'll have to shuffle a lot of
+ T-1s this week (by which I mean after hours tonight). 
+ Nice of them to all (completely fail to) notify us, though.
+ Thanks to the several people who made suggestions off list.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T T1 Service issue in San Jose / Saratoga CA?
+###############################################################
+ Is anyone else experiencing an issue with AT&T T1 service in San Jose /
+ Saratoga CA? Got into work this morning to find our T1 line completely dead.
+ Our vendor reports it as an underlying AT&T issue.  I just wanted to see if
+ we're the only ones out or if there's others with T1 issues today.
+ Thanks!
+ Andrew Davis
+ WestGate Church Information Technology & Support
+ (w): 408.252.3700 x218
+ When Life Gives You Questions, Google has Answers!
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100104/e1164314/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T Router down in Newark, NJ]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Not sure how wide of an impact this outage has.
+ When responding please do not cross-post.
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: AT&T Router down in Newark, NJ
+ Date: Fri, 8 Jan 2010 17:36:09 -0500
+ From: Matt Simmons <standalone.sysadmin at gmail.com>
+ In case this affects any of you:
+ Dear AT&T IP Services Customer:
+ This e-mail is to notify you we are currently experiencing an impairment
+ with Newark Gigabit Access Router 1. We expect to have additional
+ information as soon as possible, and we deeply apologize for any
+ inconvenience this impairment may cause you.
+ Our trouble ticket number is 119512734.
+ Below are the IP addresses of your affected circuit(s) for which we have you
+ listed as a contact.
+ If you feel that this list is in error please reply with your change
+ requests.
+ x.x.x.x
+ For more information as it becomes available, please visit our website:
+ https://mis-att.bus.att.com<http://redir.aspx?C=a34e3c8e8d1949b5a5227a8e887664c2&URL=https%3a%2f%2fmis-att.bus.att.com>
+ If you require further information please feel free to email AT&T at:
+ rm-awmis at ems.att.com
+ Thank you for using AT&T.
+ Sincerely
+ The AT&T Customer Care Team
+ - --
+ LITTLE GIRL: But which cookie will you eat FIRST?
+ COOKIE MONSTER: Me think you have misconception of cookie-eating process.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Major fiber cut - Cox Communication in Fairfax VA
+###############################################################
+ Cox Communications has a major multiple strand fiber cut in Fairfax County,
+ Virginia.
+ Outage began at 6:02 PM and is on-going.
+ It is affecting data and voice.
+ Call volume is sending calls to their business support number to an overflow
+ call center
+ They are working to repair but as of yet have no ETR.
+ They have promised another update by 9:30 PM.
+ Just another day in paradise.
+ Russell G.
+ Sysadmin
+ Feld Entertainment, Inc.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100113/510a067f/attachment.html>
+ My Cox Fairfax provided MetroEthernet circuits are still up and my
+ residential Cox cable modem service works as well.
+ I'm hearing that Cox digital telephone and certain television channels (WTTG
+ Fox 5) are affected.
+ Thanks for the report Russell.
+ - Cary
+ --Organization Withheld
+ On Wed, Jan 13, 2010 at 8:37 PM, Russell Goings <russgoings at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100113/c1b4cedc/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+cable provider problems yesterday around 1pm EST?
+###############################################################
+ Yesterday (Wed, Jan 13) we experienced connectivity loss from both our Level
+ 3 and AT&T connections to our telecommuter population who primarily use the
+ following cable providers: Time-Warner (RoadRunner), Cox, and Comcast.  Our
+ AT&T circuits go into NYC and our Level 3 goes into Newark, NJ. Did anyone
+ else notice any similar issues?
+ Thanks!
+ -- Rich
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100114/678c6eda/attachment.html>
+ Hi Rich-
+ We have home employees  on TWC and Comcast in various areas of the
+ county , did not see any increase in packet loss or latency. This would
+ probably be path specific based on where they are  and how you are
+ getting to them......
+ -Keith
+ Yesterday (Wed, Jan 13) we experienced connectivity loss from both our
+ Level 3 and AT&T connections to our telecommuter population who
+ primarily use the following cable providers: Time-Warner (RoadRunner),
+ Cox, and Comcast.  Our AT&T circuits go into NYC and our Level 3 goes
+ into Newark, NJ. Did anyone else notice any similar issues?
+ Thanks!
+ -- Rich
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100114/6bb58bde/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outage to www.google.com through Cogent in Denver
+###############################################################
+ Anyone else seeing this?
+ [root at watcher root]# mtr --report --report-cycles=25 74.125.95.105
+ HOST: watcher.axint.net           Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. ai-core.axint.net             0.0%    25    0.6   1.0   0.4   9.5   1.8
+   2. fa0-2.na01.b009854-0.den01.a  0.0%    25    0.9   1.0   0.7   1.8   0.2
+   3. gi1-1.3509.mpd01.den01.atlas  0.0%    25    1.1   1.0   0.7   1.6   0.2
+   4. te0-4-0-2.mpd21.mci01.atlas.  0.0%    25   12.5  12.9  12.5  14.0   0.4
+   5. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+ [root at csmdv ~]# mtr --report --report-cycles=25 74.125.95.105
+ HOST: csmdv.highmtnsoftware.com   Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. 10.10.100.254                 0.0%    25    1.0   0.9   0.9   1.4   0.1
+   2. 192.168.0.1                   4.0%    25    1.5   1.7   1.5   4.3   0.6
+   3. dsl-denver-gateway-01.axint.  4.0%    25   54.4  56.8  54.0  85.1   7.2
+   4. fa0-2.na01.b009854-0.den01.a  4.0%    25   54.6  56.4  54.2  78.4   5.4
+   5. gi1-1.3509.mpd01.den01.atlas  4.0%    25   55.0  57.7  54.1 111.7  11.7
+   6. te0-4-0-2.mpd21.mci01.atlas.  4.0%    25   66.6  68.1  66.3  81.3   3.8
+   7. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+   8. te3-2.mpd01.yyz02.atlas.coge 92.0%    25   95.5  94.6  93.7  95.5   1.3
+   9. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+ Chris
+ 	<96CD2407B3027C4DACC7A0222BD3C4789F75F2614E@RVMAIL802.metro-inet.us>
+ Mark Mayfield wrote:
+ It's back up now.....still waiting for an answer from Cogent on the trouble
+ ticket I opened as to the source of the problem...
+ Chris
+ Traceroute from our XO connection to a client on US Cable Internet falls down once it hits Cogent in Chicago...
+   5     3 ms     4 ms     3 ms  64.1.4.69.ptr.us.xo.net [64.1.4.69]
+   6    17 ms    20 ms    14 ms  71.5.171.29.ptr.us.xo.net [71.5.171.29]
+   7    12 ms    13 ms    11 ms  te0-12-2-0.rar3.chicago-il.us.xo.net [65.106.1.9
+ 0]
+   8    16 ms    15 ms    16 ms  207.88.12.142.ptr.us.xo.net [207.88.12.142]
+   9    13 ms    11 ms    11 ms  gi2-32.mpd01.ord03.atlas.cogentco.com [154.54.12
+ .229]
+  10     *        *        *     Request timed out.
+ Mark Mayfield
+ City of Roseville
+ Network Systems Engineer
+ 2660 Civic Center Drive
+ Roseville, MN 55113
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+ Sent: Thursday, January 14, 2010 11:19 AM
+ Subject: [outages] Outage to www.google.com through Cogent in Denver
+ Anyone else seeing this?
+ [root at watcher root]# mtr --report --report-cycles=25 74.125.95.105
+ HOST: watcher.axint.net           Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. ai-core.axint.net             0.0%    25    0.6   1.0   0.4   9.5   1.8
+   2. fa0-2.na01.b009854-0.den01.a  0.0%    25    0.9   1.0   0.7   1.8   0.2
+   3. gi1-1.3509.mpd01.den01.atlas  0.0%    25    1.1   1.0   0.7   1.6   0.2
+   4. te0-4-0-2.mpd21.mci01.atlas.  0.0%    25   12.5  12.9  12.5  14.0   0.4
+   5. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+ [root at csmdv ~]# mtr --report --report-cycles=25 74.125.95.105
+ HOST: csmdv.highmtnsoftware.com   Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. 10.10.100.254                 0.0%    25    1.0   0.9   0.9   1.4   0.1
+   2. 192.168.0.1                   4.0%    25    1.5   1.7   1.5   4.3   0.6
+   3. dsl-denver-gateway-01.axint.  4.0%    25   54.4  56.8  54.0  85.1   7.2
+   4. fa0-2.na01.b009854-0.den01.a  4.0%    25   54.6  56.4  54.2  78.4   5.4
+   5. gi1-1.3509.mpd01.den01.atlas  4.0%    25   55.0  57.7  54.1 111.7  11.7
+   6. te0-4-0-2.mpd21.mci01.atlas.  4.0%    25   66.6  68.1  66.3  81.3   3.8
+   7. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+   8. te3-2.mpd01.yyz02.atlas.coge 92.0%    25   95.5  94.6  93.7  95.5   1.3
+   9. ???                          100.0    25    0.0   0.0   0.0   0.0   0.0
+ Chris
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Confidentiality Statement: The documents accompanying this transmission contain confidential information that is legally privileged.  This information is intended only for the use of the individuals or entities listed above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or action taken in reliance on the contents of these documents is strictly prohibited.  If you have received this information in error, please notify the sender immediately and arrange for the return or destruction of these documents.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut in NJ?
+###############################################################
+ I am hearing rumors of a fiber cut in New Jersey affecting multiple
+ providers; anybody have any details?
+ -- 
+ David Israel
+ Senior IT Network Engineer
+ University System of Maryland
+ Email: davei at usmd.edu
+ Phone: 301.445.2768
+ David Israel wrote:
+ >From http://status.cogentco.com/
+ ******************************************************************************
+ ** Cogent Network Status Report Last Updated Thu Jan 14 12:37:49 2010 **
+ ******************************************************************************
+ ******************************************************************************
+ Network Status: Warning
+ DNS Servers Status: Normal
+ Dialup/IPASS Status: Normal
+ Mail Servers Status: Normal
+ Webservers Status: Normal
+ Cogent Network Status/DNS Server Status Description: Welcome to Cogent
+ Communications? Network Status Message. Customers with traffic going through
+ or on the east coast may be experiencing packet loss and higher than normal
+ latency due to a fiber cut in New Jersey. Splice crews are at the site.
+ There is no ETR at this time. The Cogent ticket to reference for this issue
+ is HD2082680. A separate issue has been identified for customers in Toronto
+ and Chicago. This appears to be a routing issue and the Cogent NOC is
+ looking into the problem. There is no ETR at this time. The Cogent ticket to
+ reference for this issue is HD2082851
+ >From my knowledge, Cogent is affected, although our affected transit link
+ appears to be functional again out of Chicago.
+ http://status.cogentco.com/
+ *Cogent Network Status/DNS Server Status Description: * Welcome to Cogent
+ Communications? Network Status Message. Customers with traffic going through
+ or on the east coast may be experiencing packet loss and higher than normal
+ latency due to a fiber cut in New Jersey. Splice crews are at the site.
+ There is no ETR at this time. The Cogent ticket to reference for this issue
+ is HD2082680. A separate issue has been identified for customers in Toronto
+ and Chicago. The routing issue has been resolved. The Cogent ticket to
+ reference for this issue is HD2082851
+ On Thu, Jan 14, 2010 at 11:05 AM, David Israel <davei at usmd.edu> wrote:
+ -- 
+ Brandon Galbraith
+ Mobile: 630.400.6992
+ FNAL: 630.840.2141
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100114/83c1a1d6/attachment.html>
+ Cogent has a master ticket for this 2082851 we saw some reachability
+ issues between 12 and 1 Eastern today due to this problem
+ On Thu, Jan 14, 2010 at 12:05 PM, David Israel <davei at usmd.edu> wrote:
+ -- 
+ --
+ Ben
+ email: locutus at the-collective.net
+ web: http://locutus.the-collective.net/
+ irc: su1droot; aim: su1droot; y!: su1droot
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut 2010-01-14
+###############################################################
+ Does anyone have details?  I saw large drops in traffic to several peers 
+ around 9:47 EST.
+ - Kevin
+ There is a fiber cut between New York and Philadelphia 
+ Master ticket # HD2082680.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Kevin Loch
+ Sent: Thursday, January 14, 2010 11:46 AM
+ Subject: [outages] Fiber cut 2010-01-14
+ Does anyone have details?  I saw large drops in traffic to several peers
+ around 9:47 EST.
+ - Kevin
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ No virus found in this incoming message.
+ Checked by AVG - www.avg.com 
+ Version: 8.5.432 / Virus Database: 270.14.138/2618 - Release Date:
+ 01/14/10 07:35:00
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber Cut in NJ (Cogent)
+###############################################################
+ http://status.cogentco.com/ indicates the following:
+ Cogent Network Status Report Last Updated Thu Jan 14 12:48:38 2010
+ *Cogent Network Status/DNS Server Status Description: *Welcome to Cogent
+ Communications? Network Status Message. Customers with traffic going through
+ or on the east coast may be experiencing packet loss and higher than normal
+ latency due to a fiber cut in New Jersey. Splice crews are at the site.
+ There is no ETR at this time. The Cogent ticket to reference for this issue
+ is HD2082680. A separate issue has been identified for customers in Toronto
+ and Chicago. The routing issue has been resolved. The Cogent ticket to
+ reference for this issue is HD2082851
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100114/2489e019/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent Outage?
+###############################################################
+ We currently aren't seeing many issues, but it's being reported on NANOG.
+ Sincerely,
+ Eric Tykwinski
+ TrueNet, Inc.
+ P: 610-429-8300
+ F: 610-429-3222
+ -----Original Message-----
+ From: Raphael Maunier [mailto:rmaunier at neotelecoms.com] 
+ Sent: Thursday, January 14, 2010 12:40 PM
+ Cc: nanog at nanog.org
+ Subject: Re: Cogent Outage?
+ There is a fiber cut and it's located near Brunswick, NJ
+ --
+ Rapha?l Maunier
+ NEO TELECOMS
+ On Jan 14, 2010, at 6:36 PM, Robert Glover wrote:
+ their San Francisco, CA facility.
+ ****************************************************************************
+ **
+ ****************************************************************************
+ **
+ ****************************************************************************
+ **
+ Communications' Network Status Message. Customers with traffic going through
+ or on the east coast may be experiencing packet loss and higher than normal
+ latency due to a fiber cut in New Jersey. There is no ETR at this time. The
+ Cogent ticket to reference for this issue is HD2082680.
+ >> We just lost Cogent across the country, along with several sister
+ companies. Can't get through to a support person. Any idea what's going on?
+ >> 
+ >> Joe Johnson
+ >> Chief Information Officer
+ >> Riverside Consulting Group, Ltd.
+ >> Phone: 708.442.6033 x3456
+ >> Fax: 708.442.9722
+ >> joe at riversidecg.com
+ >> www.riversidecg.com
+ >> 
+ >> 
+ >> 
+ >> 
+ >>   
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bank of America
+###############################################################
+ Any word on who doinked the Bank of America web page/
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ A temporary work for online banking is to use:
+ https://onlineeast1.bankofamerica.com/
+ https://onlineeast2.bankofamerica.com/
+ However the main page is still down / slow.
+ Robert D. Scott wrote:
+ http://bankofamerica.com works for me
+ bankofamerica.com [171.159.65.173]
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ "The secret to creativity is knowing how to hide your sources."
+ --- Albert Einstein
+ On Fri, Jan 29, 2010 at 6:14 PM, Matthew Walker
+ <drinking.coffee at gmail.com>wrote:
+ >> Any word on who doinked the Bank of America web page/
+ >>
+ >> Robert D. Scott                 Robert at ufl.edu
+ >>
+ >>
+ >>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20100129/37eb0b3b/attachment.html>
+###############################################################
+END
+###############################################################
+

@@ -1,0 +1,1337 @@
+###############################################################
+Facebook application errors
+###############################################################
+  Just to piss off the anti-doing-business-on-facebook crowd - actually to 
+ save the rest of us the legwork:
+ If your facebook apps are broken tonight it's because fb.getLoginStatus is 
+ barfing on application ID errors.
+ Operationally this is relavant to me since I got called out of a movie 
+ theater by the 7 levels of management since our money stopped flowing and 
+ it took a while to track it down.
+ For those of you who dont have customers who play or sell facebook games, 
+ please delete and move on.
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+ <obligatory it's-working-fine-here-without-any-details response>
+  On Dec 1, 2010 10:41 PM, "david raistrick" <drais at icantclick.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101201/5b2de038/attachment.html>
+ It's documented here:
+ http://developers.facebook.com/live_status
+ There's an RSS feed available, so there may be value in subscribing to that
+ if it's important to your business.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of david raistrick
+ Sent: Wednesday, December 01, 2010 9:37 PM
+ Subject: [outages] Facebook application errors
+ Just to piss off the anti-doing-business-on-facebook crowd - actually to 
+ save the rest of us the legwork:
+ If your facebook apps are broken tonight it's because fb.getLoginStatus is 
+ barfing on application ID errors.
+ Operationally this is relavant to me since I got called out of a movie 
+ theater by the 7 levels of management since our money stopped flowing and 
+ it took a while to track it down.
+ For those of you who dont have customers who play or sell facebook games, 
+ please delete and move on.
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sea-Me-We-4
+###############################################################
+ There is currently an outage on the Sea-Me-We-4 cable system.
+ I believe that the failure is near Alexandria in Egypt
+ This is affecting traffic between Europe and the East as well as a large 
+ number of circuits to Southern and Eastern Africa.
+ I believe restoration is expected in about 2 hours.
+ -- 
+ Graham Beneke
+ Any update on this?
+ Thanks
+ Jason
+ On Dec 2, 2010 2:21 AM, "Graham Beneke" <graham at neology.co.za> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101202/a7c28635/attachment.html>
+  <AANLkTinDkvY5vwSG4kwAfW5bmVUxT143r3DWVOGqjyAs@mail.gmail.com>
+ On 02/12/2010 15:18, Jason L. Sparks wrote:
+ -- 
+ Graham Beneke
+  <AANLkTinDkvY5vwSG4kwAfW5bmVUxT143r3DWVOGqjyAs@mail.gmail.com>
+  <4CF7A513.9010901@neology.co.za>
+ More here:
+ http://news.oneindia.in/2010/12/02/internet-connectivity-disrupted-in-india.
+ html
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Graham Beneke
+ Sent: Thursday, December 02, 2010 7:54 AM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Sea-Me-We-4
+ On 02/12/2010 15:18, Jason L. Sparks wrote:
+ large
+ -- 
+ Graham Beneke
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+CHANGE MANAGEMENT NOTICE: wiki.outages.org
+###############################################################
+ Detail: Friday 12/03/2010 between 7PM to 9pm CST is the maintenance 
+ taget date/time.
+ Start Date / Time:       12/03/10 19:00 CST (2:00AM, Dec 04 GMT)
+ End Date / Time:         12/03/10 21:00 CST (4:00AM, Dec 04 GMT)
+ Est. Downtime: wiki.outages.org will be down between 1-2 hours during 
+ this change window.
+ Reason For Maintenance:
+ wiki.outages.org is being migrated to new location at PhoenixNAP. 
+ During this window, all services related to it will be unavailable for 
+ about 1-2 hours.
+ Thanks for your patience.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+TWC on Southern Cal
+###############################################################
+ widespread outage of TWC in SoCal. no idea how far it goes.
+ On 12/02/2010 06:46 PM, Chaim Rieger wrote:
+ ------------------------
+ I'm seeing latency upwards of 300ms off and intermittently flaps off 
+ TWC....I'm located in s.cal.
+ Alerts just went off the roof.
+ regards,
+ /virendra
+ Reachability issue to DNS and DHCP servers. No ETR at this time. Affecting all of Southern California.
+ This E-mail and any of its attachments may contain Time Warner Cable proprietary information, which is privileged, confidential, or subject to copyright belonging to Time Warner Cable. This E-mail is intended solely for the use of the individual or entity to which it is addressed. If you are not the intended recipient of this E-mail, you are hereby notified that any dissemination, distribution, copying, or action taken in relation to the contents of and attachments to this E-mail is strictly prohibited and may be unlawful. If you have received this E-mail in error, please notify the sender immediately and permanently delete the original and any copy of this E-mail and any printout.
+ I can confirm.  It appears to be DNS primarily, along with webmail.
+ mail servers and connectivity are up.
+ On Thu, Dec 2, 2010 at 6:46 PM, Chaim Rieger <chaim.rieger at gmail.com> wrote:
+ No issues at all today/night in San Diego.
+ On Dec 2, 2010, at 6:46 PM, Chaim Rieger wrote:
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+ TWC on Southern Cal
+###############################################################
+ There's a reachability issue to DNS and DHCP from 1 Wilshire. It's affecting
+ all of Southern California and there is no ETR at this time.
+ If you don't reboot your modem, the lease doesn't expire, and you hit Google
+ (8.8.8.8) or OpenDNS (208.67.222.222) for DNS it probably will still work.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101202/e3936ece/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+TWC: Internet being restored in SoCal after outage
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Via The San Francisco Chronicle (AP):
+ http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2010/12/02/state/n211439S0
+ 2.DTL
+ FYI,
+ - - ferg
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+ ?Engineering Architecture for the Internet
+ ?fergdawgster(at)gmail.com
+ ?ferg's tech blog: http://fergdawg.blogspot.com/
+ Yeah well, DNS went down ~6pm so I pointed to 4.2.2.4 (Verizon) and  
+ that apparently worked for me until 10:44pm or so (based on the last  
+ email in my Outlook on my laptop), but then I lost total connectivity  
+ after that and still have nothing (just got home a few mins ago and  
+ noticed it)...currently on hold with them for 15 mins so far... :p
+ Via iPhone 3GS
+ On Dec 2, 2010, at 10:34 PM, "Paul Ferguson" <fergdawgster at gmail.com>  
+ wrote:
+  <F34106A4-2AD1-4011-9B96-A976A9494A0D@citrix.com>
+ On Dec 3, 2010, at 12:59 AM, Bino Gopal wrote:
+ Like I had said in an earlier thread, I didn't have any issues with my TWC connection.  However, after 10:40 PM my ssh connections were timing out to servers at multiple locations up and down the coast.  Web browsing was fine though.
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+comcast dns outage?
+###############################################################
+ 	Anyone else having issues with the comcast resolvers?
+  68.87.77.130 68.87.72.130 are the two I am concerned about...
+ 	- Jared
+ -- 
+ Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+ clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+ Both appear down to me (lookups failing) from Chicago-area comcast
+ connections.
+ On Sun, Dec 5, 2010 at 7:32 PM, Jared Mauch <jared at puck.nether.net> wrote:
+ -- 
+ Brandon Galbraith
+ US Voice: 630.492.0464
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/aaddb1b6/attachment.html>
+ On 12/05/10 20:32, Jared Mauch wrote:
+ While they're reachable on comcast's network from Boston, neither (WI or
+ IL servers) appear to be answering DNS requests,
+ 	imb
+ Comcast says they're all green: http://dns.comcast.net/status.php.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jared Mauch
+ Sent: Sunday, December 05, 2010 7:33 PM
+ Subject: [outages] comcast dns outage?
+     Anyone else having issues with the comcast resolvers?
+  68.87.77.130 68.87.72.130 are the two I am concerned about...
+     - Jared
+ -- 
+ Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+ clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I can't reach those (from Comcast in Oregon).
+ I've been having intermittent DNS issues out here too tonight, I
+ switched to Google DNS.
+ On Sun, Dec 5, 2010 at 5:32 PM, Jared Mauch <jared at puck.nether.net> wrote:
+  <4CFC41E9.8040905@protected-networks.net>
+ I was also having the same issue - switched my DNS to use Google's public
+ DNS servers
+ (8.8.8.8 & 8.8.4.4) and all is good now.
+ fyi: just saw Tweets from @ComcastCares that evidently, Mn, IL & MI all seem
+ to be having issues
+ and that Comcast is working on a fix.
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ *
+ *
+ On Sun, Dec 5, 2010 at 7:52 PM, Michael Butler
+ <imb at protected-networks.net>wrote:
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/c00d7f83/attachment.html>
+  <4CFC41E9.8040905@protected-networks.net>
+ Interesting. No issues showing from the Comcast.net DNS page. I also don't see either of those IP addresses listed there.
+ http://dns.comcast.net/status.php
+ -Matt
+ On Dec 5, 2010, at 8:52 PM, Michael Butler wrote:
+ >> 
+ >> 	Anyone else having issues with the comcast resolvers?
+ >> 
+ >> 68.87.77.130 68.87.72.130 are the two I am concerned about...
+ Highly relevant:
+ http://www.dslreports.com/forum/r25163128-DNS-Comcast-DNS-having-issues-
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Sun, Dec 05, 2010 at 08:32:35PM -0500, Jared Mauch wrote:
+  <4CFC41E9.8040905@protected-networks.net>
+  <3B43F91F-E26E-40BC-9202-2CA502E94830@doddserver.com>
+ They are for the business service I think... 
+ Sent from my iThing
+ On Dec 5, 2010, at 9:02 PM, Matthew Dodd <mdodd at doddserver.com> wrote:
+ >> On 12/05/10 20:32, Jared Mauch wrote:
+ >>> 
+ >>>    Anyone else having issues with the comcast resolvers?
+ >>> 
+ >>> 68.87.77.130 68.87.72.130 are the two I am concerned about...
+ >> 
+ >> While they're reachable on comcast's network from Boston, neither (WI or
+ >> IL servers) appear to be answering DNS requests,
+ >> 
+ >>    imb
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA62lMtCRbeR4N9x4BMOJ97AQAAAAA=@iname.com>
+ Just checked the Comcast link below and see four reds (from the Chicago and
+ Detroit servers).
+ On Sun, Dec 5, 2010 at 7:53 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/e8cce3ba/attachment.html>
+  <4CFC41E9.8040905@protected-networks.net>
+  <3B43F91F-E26E-40BC-9202-2CA502E94830@doddserver.com>
+ Just saw another tweet from @ComcastCares - sounds like they are still
+ working on the DNS issue:
+ *
+ *
+ *Thanks everyone for there patients with the outage tonight in IL, MN and
+ MI *
+ *we have a lot of engineers working on this DNS issue.*
+ On Sun, Dec 5, 2010 at 8:02 PM, Matthew Dodd <mdodd at doddserver.com> wrote:
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/870146e0/attachment.html>
+  <4CFC41E9.8040905@protected-networks.net>
+  <3B43F91F-E26E-40BC-9202-2CA502E94830@doddserver.com>
+ I got some new entries this week:
+ nameserver 75.75.75.75
+ nameserver 75.75.76.76
+ domain hsd1.ut.comcast.net.
+ search hsd1.ut.comcast.net.
+ Rushed out some anycasted fu after Cox's epic failure?
+ On Dec 5, 2010, at 19:02, Matthew Dodd <mdodd at doddserver.com> wrote:
+ >> On 12/05/10 20:32, Jared Mauch wrote:
+ >>> 
+ >>>    Anyone else having issues with the comcast resolvers?
+ >>> 
+ >>> 68.87.77.130 68.87.72.130 are the two I am concerned about...
+ >> 
+ >> While they're reachable on comcast's network from Boston, neither (WI or
+ >> IL servers) appear to be answering DNS requests,
+ >> 
+ >>    imb
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA62lMtCRbeR4N9x4BMOJ97AQAAAAA=@iname.com>
+  <AANLkTim2my78oggMtVQqrMHsEXUuXteAO2H0iOskceVs@mail.gmail.com>
+ Comcast confirms the issue:
+ http://www.dslreports.com/forum/r25163231-
+ The above post also confirms their "status" page is not a real-time
+ monitor, which means it shouldn't be relied upon.  Don't they have a
+ (capable) NOC?  Amazing.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Sun, Dec 05, 2010 at 08:08:00PM -0600, Colleen Velo wrote:
+  <4CFC41E9.8040905@protected-networks.net>
+  <3B43F91F-E26E-40BC-9202-2CA502E94830@doddserver.com>
+  <E8480A5F-AC28-4DEE-BB70-21656B55F8D2@gmail.com>
+ Another tweet update from @ComcastCares:
+ *I am on the bridge with a lot of egineers and vendors trying to resolve the
+ DNS outage as quickly as possible.*
+ *I apologize for the down time*
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ On Sun, Dec 5, 2010 at 8:15 PM, Kevin Blackham <blackham at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/7a3d0114/attachment.html>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA62lMtCRbeR4N9x4BMOJ97AQAAAAA=@iname.com>
+  <AANLkTim2my78oggMtVQqrMHsEXUuXteAO2H0iOskceVs@mail.gmail.com>
+  <20101206022515.GA85621@icarus.home.lan>
+ And yet another tweet update from @ComcastCares:
+ *For right now using OpenDNS is the work around until our DNS servers come
+ back online*
+ -- 
+ *Colleen Velo
+ email: cmvelo at gmail.com*
+ * <cmvelo at gmail.com>**
+ *
+ On Sun, Dec 5, 2010 at 8:25 PM, Jeremy Chadwick <outages at jdc.parodius.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/3d03e368/attachment.html>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAA62lMtCRbeR4N9x4BMOJ97AQAAAAA=@iname.com>
+  <AANLkTim2my78oggMtVQqrMHsEXUuXteAO2H0iOskceVs@mail.gmail.com>
+  <20101206022515.GA85621@icarus.home.lan>
+ On Sun, Dec 5, 2010 at 6:25 PM, Jeremy Chadwick
+ <outages at jdc.parodius.com> wrote:
+ It's hard to suggest that their NOC isn't competent over something like this.
+ Whose responsibility is communication to the customer?
+ Most NOC's are only responsible for acting as middle-men to alert
+ engineers when a problem appears, or to solve basic issues.
+ Let's leave the pejorative remarks at the door, please.
+ ----- Original Message -----
+ I am almost embarassed to say this, but I've added that twitter account to the
+ Dashboard at wiki.outages.org.  :-)
+ Cheers,
+ -- jra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages Digest, Vol 31, Issue 5
+###############################################################
+ Yup lost both of those had to switch to other DNS servers.
+ On Sun, Dec 5, 2010 at 8:05 PM, <outages-request at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101205/5c629563/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion]  comcast dns outage?
+###############################################################
+ ----- Original Message -----
+ And if the purpose of such status pages on websites for such vendor was to
+ actually provide information, rather than to give the vendor's unwashed 
+ customer base a warm, moist feeling, then that would be a great idea.  :-)
+ Cheers,
+ -- jra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Qwest problem?
+###############################################################
+ I just lost connectivity to couple customers on Qwest around the
+ mid-west.  Anyone else seeing this?
+ I have also lost internet connectivity with my Aurora, IL office.  Qwest's
+ tech support line is warning of long hold times because of a wide spread
+ outage in the mid west.  My circuits are up just not getting past the switch
+ port at Qwest.
+ Better Tuesday morning and not late Friday afternoon.
+ On Tue, Dec 7, 2010 at 10:02 AM, Jay Nakamura <zeusdadog at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101207/a2b71b96/attachment.html>
+  <AANLkTinogKChUUy9t-aQJ8orHBV-Vvk3PZBZuGX+6CCD@mail.gmail.com>
+ Our gig-E to Indianapolis seems unaffected but couple T1s in northern
+ Indiana, Dublin, OH, Southern Indiana seems to be having reachability
+ problem.  Qwest circuits on the east coast and west coast seems
+ unaffected so far.
+ On Tue, Dec 7, 2010 at 10:23 AM, Russell Goings <russgoings at gmail.com> wrote:
+ >>
+ >> I just lost connectivity to couple customers on Qwest around the
+ >> mid-west. ?Anyone else seeing this?
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+  <C923BB1F.B101%afoy@fidelityvoice.com>
+ Can you narrow down which states?
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Aaron Foy
+ Sent: Tuesday, December 07, 2010 9:21 AM
+ Subject: Re: [outages] Qwest problem?
+ We had word from Qwest there is a huge outage with their DIA service in the
+ Midwest
+ Thank you,
+ --------
+ Aaron J. Foy Sr. - CCNP, CCDP
+ Network Operations Engineer
+ Fidelity Voice & Data | 23250 Chagrin Blvd, Suite 250 | Beachwood, Ohio
+ 44122
+ P: 216-245-1491
+ F: 216-595-0706
+ E: afoy at fidelityvoice.com
+ Visit us at http://www.fidelityvoice.com
+ 2008 & 2009 Inductee to the prestigious Weatherhead 100
+ On 12/7/10 10:02 AM, "Jay Nakamura" <zeusdadog at gmail.com> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <C923BB1F.B101%afoy@fidelityvoice.com>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxGrIS4SgiSLnU+ZRRFlRGAQAAAAA=@iname.com>
+ Our Qwest DIA in St.Paul, MN seems unaffected. We also have users on Qwest DSL in Des Moines and Iowa City, Iowa that are unaffected
+ Dylan 
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk - iName.com
+ Sent: Tuesday, December 07, 2010 9:34 AM
+ Subject: Re: [outages] Qwest problem?
+ Can you narrow down which states?
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Aaron Foy
+ Sent: Tuesday, December 07, 2010 9:21 AM
+ Subject: Re: [outages] Qwest problem?
+ We had word from Qwest there is a huge outage with their DIA service in the
+ Midwest
+ Thank you,
+ --------
+ Aaron J. Foy Sr. - CCNP, CCDP
+ Network Operations Engineer
+ Fidelity Voice & Data | 23250 Chagrin Blvd, Suite 250 | Beachwood, Ohio
+ 44122
+ P: 216-245-1491
+ F: 216-595-0706
+ E: afoy at fidelityvoice.com
+ Visit us at http://www.fidelityvoice.com
+ 2008 & 2009 Inductee to the prestigious Weatherhead 100
+ On 12/7/10 10:02 AM, "Jay Nakamura" <zeusdadog at gmail.com> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Jay Nakamura
+ Sent: Tuesday, December 07, 2010 10:02 AM
+ Subject: [outages] Qwest problem?
+ I just lost connectivity to couple customers on Qwest around the
+ mid-west.  Anyone else seeing this?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ No problems seen in Iowa, Nebraska or South Dakota
+ -Keith
+  <C923BB1F.B101%afoy@fidelityvoice.com>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxGrIS4SgiSLnU+ZRRFlRGAQAAAAA=@iname.com>
+  <017265BF3B9640499754DD48777C3D206A1233E661@MBX9.EXCHPROD.USA.NET>
+ All of our circuits have come back up.  Getting into the routers and
+ looking at the logs, the line protocol and physical interface actually
+ bounced couple times.  I haven't gotten any explanation from Qwest
+ other than it's a "higher level protocol issue" and the NOC engineers
+ were working on it.
+ On Tue, Dec 7, 2010 at 11:00 AM, Dylan Ebner <dylan.ebner at crlmed.com> wrote:
+ >> I just lost connectivity to couple customers on Qwest around the
+ >> mid-west. ?Anyone else seeing this?
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+  <C923BB1F.B101%afoy@fidelityvoice.com>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxGrIS4SgiSLnU+ZRRFlRGAQAAAAA=@iname.com>
+  <017265BF3B9640499754DD48777C3D206A1233E661@MBX9.EXCHPROD.USA.NET>
+ We saw some disruption starting around 08:40 CST, in Chicago -- but have
+ been stable since 09:30
+ On 12/07/2010 10:00 AM, Dylan Ebner wrote:
+ >> I just lost connectivity to couple customers on Qwest around the
+ >> mid-west.  Anyone else seeing this?
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ -- 
+ http://www.sleepycatz.com
+ sjk at cupacoffee.net
+ fingerprint: 1024D/89420B8E 2001-09-16
+ No one can understand the truth until
+ he drinks of coffee's frothy goodness.
+ ~Sheik Abd-al-Kadir
+  <C923BB1F.B101%afoy@fidelityvoice.com>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxGrIS4SgiSLnU+ZRRFlRGAQAAAAA=@iname.com>
+  <017265BF3B9640499754DD48777C3D206A1233E661@MBX9.EXCHPROD.USA.NET>
+  <AANLkTikZz77bJRRqz1EQcVrC0__QOAZvfONCVNza8K8T@mail.gmail.com>
+ On Tue, Dec 07, 2010 at 11:33:20AM -0500, Jay Nakamura wrote:
+ BGP peering problem?
+ We had word from Qwest there is a huge outage with their DIA service in the
+ Midwest
+ Thank you,
+ --------
+ Aaron J. Foy Sr. - CCNP, CCDP
+ Network Operations Engineer
+ Fidelity Voice & Data | 23250 Chagrin Blvd, Suite 250 | Beachwood, Ohio
+ 44122
+ P: 216-245-1491
+ F: 216-595-0706
+ E: afoy at fidelityvoice.com
+ Visit us at http://www.fidelityvoice.com
+ 2008 & 2009 Inductee to the prestigious Weatherhead 100
+ On 12/7/10 10:02 AM, "Jay Nakamura" <zeusdadog at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Quest Outage
+###############################################################
+ Our circuit is now operational, we are located in Merrillville.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101207/47fa05f6/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon had network trouble early Wednesday
+###############################################################
+ http://edition.cnn.com/2010/TECH/mobile/12/08/verizon.outage/ 
+ Just in case you hadn't heard about this but experienced problems yourself.
+ Frank
+ This should be helpful for use as an RFO on a few tickets ;-)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101209/5ed66436/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+time warner blip
+###############################################################
+ Hi -
+ Did anyone notice any connectivity issues in Metro LA and San Diego area?
+ One of our peers in san diego region mentioned they have an internal
+ ticket open with time warner on an outage and that they are awaiting RFO.
+ Any insight will be appreciated.
+ regards,
+ /virendra
+ It might be related to Operation Payback's DDoS on PayPal. We've seen some issues sending traffic over Level3.
+  <7F54302901A11547BE55F6B7A090C5FB97F66899@PRVPEXVS15.corp.twcable.com>
+ On 12/09/2010 07:57 PM, Lafave, Jenner wrote:
+ -------------------
+ We experienced similar slowness inbound from level3 as well.
+ regards,
+ /virendra
+ >> -----Original Message-----
+ >> From: outages-bounces at outages.org [mailto:outages-
+ >> bounces at outages.org] On Behalf Of virendra rode
+ >> Sent: Thursday, December 09, 2010 7:50 PM
+ >> To: outages at outages.org
+ >> Subject: [outages] time warner blip
+ >>
+ >> Hi -
+ >>
+ >> Did anyone notice any connectivity issues in Metro LA and San Diego area?
+ >>
+ >> One of our peers in san diego region mentioned they have an internal ticket
+ >> open with time warner on an outage and that they are awaiting RFO.
+ >>
+ >> Any insight will be appreciated.
+ >>
+ >>
+ >> regards,
+ >> /virendra
+ >> _______________________________________________
+ >> Outages mailing list
+ >> Outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO SONET outage
+###############################################################
+ Is anyone aware of an XO sonet outage in the Pittsburgh area?
+ -----Original Message-----
+ FR: Global Crossing
+ Logged by Employee: MARC   MONTEZ
+ Hello,
+ Please be advised that your ticket is attached to a parent outage
+ 1936624. We have an sdf that your circuit rides is down and our sonet
+ group is currently investigating. For updates please follow up on the
+ outage case. 
+ Thanks,
+ Global Crossing
+###############################################################
+END
+###############################################################
+
+###############################################################
+cablevision?
+###############################################################
+ Yes: http://www.dslreports.com/forum/r25190780-Optonline-outage-12-12-2010
+ Frank
+ -----Original Message-----
+ From: Ben C. [mailto:bc-list at beztech.net] 
+ Sent: Sunday, December 12, 2010 7:55 AM
+ Subject: cablevision?
+ Hi all,
+ Does anybody know anything about a large cablevision outage this morning?
+ Their support phone lines are busy signals...
+ Thanks
+ Ben
+###############################################################
+END
+###############################################################
+
+###############################################################
+Amazon.co.uk, and most of Amazon Europe,
+###############################################################
+ 	appears to be down.
+ This is not Amazon per se, but if you look at http://status.aws.amazon.com/,
+ and choose the Europe tabm, Amazon Elastic Compute Cloud (Ireland), Amazon
+ Simple Notification Service (Ireland), and Amazon Simple Queue Service
+ (Ireland) are having performance issues.
+ Frank
+ -----Original Message-----
+ From: Wil Schultz [mailto:wschultz at bsdboy.com] 
+ Sent: Sunday, December 12, 2010 3:33 PM
+ Subject: Amazon.co.uk, and most of Amazon Europe, appears to be down.
+ Unknown if this is due to the recent doings of late, but it appears as if
+ Amazon Europe appears to be down.
+ The anon's are definitely trying to cause disruptions, I find it difficult
+ to believe that they are the actual cause. Time will tell.
+ -wil
+###############################################################
+END
+###############################################################
+
+###############################################################
+VoIP - complete outage at DASH Carrier Services
+###############################################################
+ >From their email notification:
+ "Please be advised that dash Carrier Services has a complete outage for both
+ inbound and outbound call routing. dash is working to resolve the issue and
+ will provide an update on an hourly basis or as soon as the issue is resolved."
+ Been going on for about 45 mins so far.....
+ Chris
+  <4D0807E8.1050504@axint.net> <4D08CF83.1070609@vectordatasystems.com>
+ On 12/15/2010 07:24 AM, Patrick Shoemaker wrote:
+ The last word was that it had something to do with the 'SBCs'. Calls are
+ still working fine this morning and we're supposed to hear what the actual
+ outage cause was and what they did to resolve and what they plan to do to
+ keep this from occurring in the future.
+ The last email from them regarding this was yesterday at 8:00pm MST:
+ "Outage Notification Update:
+ Calls continue to process successfully and dash has observed no further
+ issues in the SBCs.  dash will continue to monitor all call processing very
+ closely.
+ A detailed description and reason for the outage shall be provided tomorrow.
+  Additionally, dash will continue to work with Acme Packet until a root
+ cause is determined."
+ Chris
+ Anyone happen to know what's going on with Comcast in the LA area?  DreamHost, my hosting provider, reports:
+ Reduced Download Speeds
+ Posted (December 15th, 2010 at 11:23 am PST) by Sandon
+ We have noticed some performance issues with one of our transit providers that provide us connectivity to the internet. Speeds are significantly lower than usual but latency appears to have stayed the same. We are contacting the transit provider to troubleshoot the issue and will post updates.
+ The reduced performance is not bad enough where it should effect regular browsing of web-sites but might be noticeable on large file downloads. Upload speeds to our network appear to be unaffected.
+ UPDATE 6pm PST: The ticket we opened with the provider (Comcast) is being looked into, and we?re waiting to hear back from them. We?ll update this post again as soon as we get news.
+ Was wondering if anyone here knew more.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ On 12/14/2010 05:08 PM, Richey wrote:
+ Our outbound started working again about 15 mins ago as well as our inbound
+ DASH numbers. Last email we got from them was at 4:50pm MST that just said:
+ "Outage Notification Update:
+ Please be advised that dash Carrier Services continues to investigate the
+ network outage and is working ot resolve the issue. An update will be
+ provied on an hourly basis or as soon as the issue is resolved."
+ Chris
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast outage in SoCal?
+###############################################################
+ I am seeing the same thing here. Empty HTML tags... (sorry for the top 
+ quote)
+ Regards
+ Ben
+ ----------------------------------------
+ From: "Andre Gironda" <andre at operations.net>
+ Sent: Thursday, December 16, 2010 4:39 PM
+ Subject: Re: Facebook issue
+ On Thu, Dec 16, 2010 at 2:34 PM, andrew.wallace
+ <andrew.wallace at rocketmail.com> wrote:
+ It's returning an empty set of html tags
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/a9983437/attachment.html>
+ On 12/15/10 6:21 PM, Andy Ringsmuth wrote:
+ [snippage]
+ I can't share any direct light on this but can indirectly verify that
+ something is going on.
+ We're a regional ISP in Santa Barbara.  The speedtest.net site defaults
+ to Dreamhost in Los Angeles for our customers based on geolocation.
+ Our support team has had complaints of poor speeds based on customers
+ using speedtest.net.  Indeed, choosing the Dreamhost default absolutely
+ crawls.  Choosing another server results in expected results.
+ It's interesting how this type of supposedly unrelated issue can affect
+ people who normally wouldn't notice it.
+ -- 
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+###############################################################
+END
+###############################################################
+
+###############################################################
+Facebook issue
+###############################################################
+  <AF24AE2D4A4D334FB9B667985E2AE7638A946F@mail1-sea.office.spectrumnet.us>
+ We detected it about 3:40 eastern, and they just announced it on the 
+ status page.
+ "We are currently investigating sitewide issues that will affect Facebook 
+ Platform. We apologize for any inconvenience and will post here with 
+ updates."
+ this should maybe be moved to outages@ though (depending on who you ask, 
+ of course)
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 routing issues in Denver
+###############################################################
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/f24cf025/attachment.html>
+ We saw problems with Level3 in New York which seem to be resolved now.
+ --Vincent
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of jmartinez at zero11.com
+ Sent: Thursday, December 16, 2010 4:58 PM
+ Subject: [outages] Level3 routing issues in Denver
+ Anyone else seeing this?
+ Thanks, John.
+ Disclaimer: Any references to Pipeline performance contained herein are based on internal testing and / or historic performance levels which Pipeline expects to maintain or exceed but nevertheless does not guarantee.  Congested networks, price volatility, or other extraordinary events may impede future trading activities and degrade performance statistics. Pipeline is a member of FINRA and SIPC.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/85722ad6/attachment.html>
+ Seeing issues in New York about 4:55pm - 5:10pm ... seems like it might 
+ have righted itself ... was unable to communicate with google, cnn, 
+ postini ...
+ On 12/16/2010 4:58 PM, jmartinez at zero11.com wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/166c9bd3/attachment-0001.html>
+ I have noticed it for about a half hour now.
+ I was just about to post on the list about it.
+ Just about everything going over L3 for me is not working.
+  <08c201cb9d6f$b2bc32c0$18349840$@com>
+ We are seeing major issues on the Level3 voice side as well.
+ Geoff MINA
+ ---------------------------------
+ Chief Technical Officer
+ Connect First Inc. 
+ P: 678.905.0671
+ T: 888.410.3071
+ F: 678.265.1158
+ E: gmina at connectfirst.com
+ ---------------------------------
+ www.connectfirst.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Tim
+ Sent: Thursday, December 16, 2010 3:22 PM
+ Subject: Re: [outages] Level3 routing issues in Denver
+ I have noticed it for about a half hour now.
+ I was just about to post on the list about it.
+ Just about everything going over L3 for me is not working.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I?ve been seeing this on and off since about 11am mountain time.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of jmartinez at zero11.com
+ Sent: Thursday, December 16, 2010 2:58 PM
+ Subject: [outages] Level3 routing issues in Denver
+ Anyone else seeing this?
+ Thanks, John.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/8de032ba/attachment-0001.html>
+  .wbe@email04.secureserver.net>
+ Level3 in Detroit.  Saw a sudden drop in traffic at around 
+ 4:45.  Seems to be coming back now.
+ At 04:58 PM 12/16/2010, jmartinez at zero11.com wrote:
+ >Anyone else seeing this?
+ >Thanks, John.
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 3363 Tecumseh Rd. E
+ Windsor, Ontario
+ N8W 1H4
+ tel. 519-985-8410
+ fax. 519-985-8409        
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 routing in DC area
+###############################################################
+ It seems traffic attempting to pass through Level3's network in the
+ Washington, DC area is getting lost in the abyss. Here's a trace from
+ VZ residential FIOS to www.level3.com:
+ Tracing route to www.level3.com [4.68.95.11]
+ over a maximum of 30 hops:
+ ??1 ? ?<1 ms ? ?<1 ms ? ?<1 ms ?Wireless_Broadband_Router.home [192.168.3.254]
+ ??2 ? ? 7 ms ? ? 6 ms ? ? 6 ms ?L100.BLTMMD-VFTTP-40.verizon-gni.net [96.244.79.
+ 1]
+ ??3 ? ?11 ms ? ? 8 ms ? ? 9 ms ?G10-0-1-440.BLTMMD-LCR-04.verizon-gni.net [130.8
+ 1.110.158]
+ ??4 ? ?13 ms ? ?11 ms ? ?14 ms ?so-2-0-0-0.PHIL-BB-RTR2.verizon-gni.net [130.81.
+ 28.82]
+ ??5 ? ?21 ms ? ?19 ms ? ?19 ms ?so-7-1-0-0.RES-BB-RTR2.verizon-gni.net [130.81.1
+ 9.106]
+ ??6 ? ?20 ms ? ?19 ms ? ?19 ms ?0.ae2.BR2.IAD8.ALTER.NET [152.63.34.73]
+ ??7 ? ?16 ms ? ?16 ms ? ?18 ms ?ae7.edge1.washingtondc4.level3.net [4.68.62.137]
+ ??8 ? ?26 ms ? ?19 ms ? ?17 ms ?vlan80.csw3.Washington1.Level3.net [4.69.149.190
+ ]
+ ??9 ? ?22 ms ? ?24 ms ? ?26 ms ?ae-92-92.ebr2.Washington1.Level3.net [4.69.134.1
+ 57]
+ ?10 ? ? * ? ? ? ?* ? ? ? ?* ? ? Request timed out.
+ Anyone else?
+ I show here a traffic dropoff starting around 10(ish) minutes ago, and Internetpulse shows red on Level(3) <-> Savvis and Verizon <-> NTT.
+ Might be peering related?
+   -Bill
+ I should have added it has been working for us again for the past five
+ minutes or so.
+  <08c301cb9d6f$f1680d50$d43827f0$@com>
+ Seeing issues with packet loss on Level3 at 60 hudson.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tim
+ Sent: Thursday, December 16, 2010 4:24 PM
+ Subject: Re: [outages] Level3 routing in DC area
+ I should have added it has been working for us again for the past five
+ minutes or so.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <08c301cb9d6f$f1680d50$d43827f0$@com>
+ According to Level3 they had a router failure in the WDC area.  Master
+ ticket is 4521074.  They report the issue is isolated and services are
+ being routed around the failed equipment.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Tim
+ Sent: Thursday, December 16, 2010 5:24 PM
+ Subject: Re: [outages] Level3 routing in DC area
+ I should have added it has been working for us again for the past five
+ minutes or so.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I'm seeing similar from residential FiOS in DC::
+ Jason-Sparkss-MacBook-Pro:~ jlsparks$ traceroute www.level3.com
+ traceroute to www.level3.com (4.68.95.11), 64 hops max, 52 byte packets
+  1  192.168.1.1 (192.168.1.1)  3.706 ms  0.796 ms  0.854 ms
+  2  l100.washdc-vfttp-47.verizon-gni.net (96.255.98.1)  2.191 ms  1.793 ms
+  1.779 ms
+  3  g4-0-1-747.washdc-lcr-07.verizon-gni.net (130.81.59.152)  2.397 ms
+  2.125 ms  2.186 ms
+  4  so-3-0-0-0.lcc1-res-bb-rtr1-re1.verizon-gni.net (130.81.29.0)  3.974 ms
+  3.023 ms  2.965 ms
+  5  0.ae1.br1.iad8.alter.net (152.63.32.141)  5.651 ms  3.790 ms
+     0.ae1.br2.iad8.alter.net (152.63.34.21)  3.579 ms
+  6  ae6.edge1.washingtondc4.level3.net (4.68.62.133)  6.286 ms * *
+  7  vlan90.csw4.washington1.level3.net (4.69.149.254)  4.479 ms
+     vlan70.csw2.washington1.level3.net (4.69.149.126)  10.478 ms
+     vlan90.csw4.washington1.level3.net (4.69.149.254)  7.878 ms
+  8  ae-71-71.ebr1.washington1.level3.net (4.69.134.133)  4.918 ms  4.653 ms
+     ae-61-61.ebr1.washington1.level3.net (4.69.134.129)  4.540 ms
+  9  ae-8-8.ebr1.washington12.level3.net (4.69.143.218)  5.132 ms  5.234 ms
+  5.787 ms
+ 10  ae-1-100.ebr2.washington12.level3.net (4.69.143.214)  5.241 ms  5.075 ms
+  87.833 ms
+ 11  ae-6-6.ebr2.chicago2.level3.net (4.69.148.146)  25.148 ms  24.995 ms
+  23.701 ms
+ 12  ae-1-100.ebr1.chicago2.level3.net (4.69.132.113)  24.656 ms  24.834 ms
+  24.737 ms
+ 13  ae-3-3.ebr2.denver1.level3.net (4.69.132.61)  50.896 ms  53.748 ms
+  54.740 ms
+ 14  ge-9-1.hsa1.denver1.level3.net (4.68.107.99)  50.641 ms  53.752 ms
+  50.221 ms
+ 15  4.68.94.27 (4.68.94.27)  51.479 ms  53.397 ms  51.894 ms
+ 16  4.68.94.33 (4.68.94.33)  52.956 ms  52.233 ms  52.237 ms
+ 17  * * *
+ 18  * * *
+ On Thu, Dec 16, 2010 at 5:06 PM, Robert Johnson <fasterfourier at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101216/cbbadbfd/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Wide spread network issues in and out of North America
+###############################################################
+ Location: North East US.
+ We're seeing trouble getting to and from Europe on Cogent and Level 3.
+ I've seen reports of problems at L3 in Denver. Is anyone seeing
+ anything else going on?
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet issues yesterday - 4pm to 5 pm MST
+###############################################################
+ Did anyone have issues in the mountain region with Internet that someone noticed.
+ We had some high response times randomly to our Data center in CO. All our IP gear tested out clean locally
+ By the time we engaged our Data center/ISP, the issue went away so they could not collect much data. I was wondering if someone else noticed anything similar. Our Data center people told us that east of the Chicago there were some issues but not to the West.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101222/79e83502/attachment.html>
+ We had a few complaints yesterday about latency but it was too short
+ lived for us to really isolate it to any particular carrier or device.
+ We use mostly XO and Level(3) out of the Detroit market. The issue was
+ in the late afternoon eastern, so probably around the 4-5pm MST window
+ you mentioned. 
+   -Bill
+ ________________________________
+ From: Ujjval Karihaloo [mailto:ujjval at simplesignal.com] 
+ Sent: Wednesday, December 22, 2010 1:11 PM
+ Subject: [outages] Internet issues yesterday - 4pm to 5 pm MST
+ Did anyone have issues in the mountain region with Internet that someone
+ noticed.
+ We had some high response times randomly to our Data center in CO. All
+ our IP gear tested out clean locally
+ By the time we engaged our Data center/ISP, the issue went away so they
+ could not collect much data. I was wondering if someone else noticed
+ anything similar. Our Data center people told us that east of the
+ Chicago there were some issues but not to the West.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101222/598c3500/attachment.html>
+  <EE3A1AFB71A1E54BA3D302718EA382F9288FBA@server1.WaveformTechnology.local>
+ Level 3 had a physical link with packet loss between 2 of their backbone routers in Chicago  Ticket# 4534136.
+ They bypassed the link to restore.
+ -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Bill Wichers
+ Sent: Wednesday, December 22, 2010 10:19 AM
+ Subject: Re: [outages] Internet issues yesterday - 4pm to 5 pm MST
+ We had a few complaints yesterday about latency but it was too short lived for us to really isolate it to any particular carrier or device. We use mostly XO and Level(3) out of the Detroit market. The issue was in the late afternoon eastern, so probably around the 4-5pm MST window you mentioned.
+   -Bill
+ ________________________________
+ From: Ujjval Karihaloo [mailto:ujjval at simplesignal.com]
+ Sent: Wednesday, December 22, 2010 1:11 PM
+ Subject: [outages] Internet issues yesterday - 4pm to 5 pm MST
+ Did anyone have issues in the mountain region with Internet that someone noticed.
+ We had some high response times randomly to our Data center in CO. All our IP gear tested out clean locally
+ By the time we engaged our Data center/ISP, the issue went away so they could not collect much data. I was wondering if someone else noticed anything similar. Our Data center people told us that east of the Chicago there were some issues but not to the West.
+ This email may contain confidential and privileged material for the sole use of the intended recipient. Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender by reply email and delete all copies of this message.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101222/04a9cfaf/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+skype problems
+###############################################################
+ Is skype Down? We experience problems to login from several locations in the USA. 
+ Franck Martin 
+ http://www.avonsys.com/ 
+ http://www.facebook.com/Avonsys 
+ twitter: FranckMartin Avonsys 
+ Check your domain reputation: http://gurl.im/b69d4o 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101223/0611a238/attachment.html>
+ Yep, still down for me here in Northern California:
+ http://www.readwriteweb.com/archives/skype_is_down_8_million_lost_connection_in_last_ho.php
+ FYI,
+ - ferg
+ On Wed, Dec 22, 2010 at 11:12 AM, Franck Martin <franck at avonsys.com> wrote:
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+ ?Engineering Architecture for the Internet
+ ?fergdawgster(at)gmail.com
+ ?ferg's tech blog: http://fergdawg.blogspot.com/
+ Skype's sign-in function is broken, officially:
+ http://heartbeat.skype.com/
+ http://twitter.com/Skype#
+ http://blogs.skype.com/en/2010/12/skype_downtime_today.html?cm_mmc=PXTW|0700_B6-_-downtime-20101222
+ Unofficially, I was able to get signed-on during the beginning of the
+ outage.  I have not signed out since, but my status has been flapping from
+ online > offline periodically.
+ Dave
+ On Wed, Dec 22, 2010 at 11:12 AM, Franck Martin <franck at avonsys.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101222/bdf3940e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Outage in Southeast?
+###############################################################
+ Is anyone experiencing issues with Level3 in the Southeast?  We are using them as one of our upstreams and am seeing our peering bouncing with them.  Not sure if it's a localized issue or something more widespread.
+ Glenn Borowski
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/382080ef/attachment.html>
+ Nothing here in Atlanta,  BGP session has been up for weeks.
+                 -Scott
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Glenn Borowski
+ Sent: Tuesday, December 28, 2010 10:21 AM
+ Subject: [outages] Level 3 Outage in Southeast?
+ Is anyone experiencing issues with Level3 in the Southeast?  We are using
+ them as one of our upstreams and am seeing our peering bouncing with them.
+ Not sure if it's a localized issue or something more widespread.
+ Glenn Borowski
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/ab429bf5/attachment.html>
+ We have them in 56 Marietta (Atlanta), no problems from what I can tell.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Dec 28, 2010 at 10:21 AM, Glenn Borowski <glenn at borowski.us> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/d4c7678d/attachment.html>
+ Yes our BGP started bouncing and I ended up shutting them down.  I have a
+ ticket in waiting on a response.
+ Out of 56 Marietta Atlanta.
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service available
+ in the Web Hosting business.  If you have any questions, comments or
+ concerns feel free to contact us at 678-247-7000 ext 1 (or toll-free,
+ 888-4-NATNET).
+ From:  Glenn Borowski <glenn at borowski.us>
+ Date:  Tue, 28 Dec 2010 10:21:02 -0500
+ Subject:  [outages] Level 3 Outage in Southeast?
+ Is anyone experiencing issues with Level3 in the Southeast?  We are using
+ them as one of our upstreams and am seeing our peering bouncing with them.
+ Not sure if it's a localized issue or something more widespread.
+ Glenn Borowski
+ _______________________________________________ Outages mailing list
+ Outages at outages.org https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/1d02555e/attachment.html>
+ Unofficially I am told they our having issues with 2 trunks over their Metro
+ Ethernet network which was causing the flapping.  This has not been resolved
+ at this time.
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service available
+ in the Web Hosting business.  If you have any questions, comments or
+ concerns feel free to contact us at 678-247-7000 ext 1 (or toll-free,
+ 888-4-NATNET).
+ From:  Glenn Borowski <glenn at borowski.us>
+ Date:  Tue, 28 Dec 2010 10:21:02 -0500
+ Subject:  [outages] Level 3 Outage in Southeast?
+ Is anyone experiencing issues with Level3 in the Southeast?  We are using
+ them as one of our upstreams and am seeing our peering bouncing with them.
+ Not sure if it's a localized issue or something more widespread.
+ Glenn Borowski
+ _______________________________________________ Outages mailing list
+ Outages at outages.org https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/8fcb27b7/attachment-0001.html>
+ We have received confirmation that they do have an issue and have a tech onsite (where ever that is) to resolve the issue.  We have shutdown our peer with them for the time being as well.
+ Glenn Borowski
+ glenn at borowski.us
+ On Dec 28, 2010, at 10:48 AM, Bradley D. Bopp wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/d88d6be8/attachment.html>
+ Glenn,
+ I just got notice that all services have restored.  We have brought our
+ sessions up and they our stable.  For those that did not see this it was
+ only effect customers on CAR2 out of 56 Marietta.
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service available
+ in the Web Hosting business.  If you have any questions, comments or
+ concerns feel free to contact us at 678-247-7000 ext 1 (or toll-free,
+ 888-4-NATNET).
+ From:  Glenn Borowski <glenn at borowski.us>
+ Date:  Tue, 28 Dec 2010 10:21:02 -0500
+ Subject:  [outages] Level 3 Outage in Southeast?
+ Is anyone experiencing issues with Level3 in the Southeast?  We are using
+ them as one of our upstreams and am seeing our peering bouncing with them.
+ Not sure if it's a localized issue or something more widespread.
+ Glenn Borowski
+ _______________________________________________ Outages mailing list
+ Outages at outages.org https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/b906bcdd/attachment.html>
+ Bradley,
+    Level3 was good for about an hour or so and we see them bouncing again and have shutdown our peer with them for the time being.
+ Glenn Borowski
+ glenn at borowski.us
+ On Dec 28, 2010, at 12:26 PM, Bradley D. Bopp wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/3d470724/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet blip at 530 pm MST on 12/27/2010
+###############################################################
+ Anyone notice issues for 5-10 mins around 530 pm yesterday. We received a few calls about high latency to our servers. Internal verification found nothing on our Servers and our data center provider/ISP is claiming no issues on their equipment either, so wanted to check if anyone else had similar experience around that time.
+ Holidays have been full of IP issues....
+ Ujjval Karihaloo
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/b34a6d25/attachment.html>
+ Ujjval:
+ Could you provide the location of the data center and who your ISP or what
+ IP address space your servers are on?
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Ujjval Karihaloo
+ Sent: Tuesday, December 28, 2010 11:44 AM
+ Subject: [outages] Internet blip at 530 pm MST on 12/27/2010
+ Anyone notice issues for 5-10 mins around 530 pm yesterday. We received a
+ few calls about high latency to our servers. Internal verification found
+ nothing on our Servers and our data center provider/ISP is claiming no
+ issues on their equipment either, so wanted to check if anyone else had
+ similar experience around that time.
+ Holidays have been full of IP issues..
+ Ujjval Karihaloo
+ = 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/0d54f2f4/attachment-0001.html>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACM7UQuNsscQqXA0ghE21+ZAQAAAAA=@iname.com>
+  <EB7435A0AAA8874F845F4A88F1B39924052C77AA46@EXMBXCLUS01.citservers.local>
+ Thanks.  According to the spec sheet, AT&T, Level3, SAVVIS, Verizon, Qwest,
+ and X/O are there.  Through which provider were your customers experiencing
+ latency?
+ Frank
+ From: Ujjval Karihaloo [mailto:ujjval at simplesignal.com] 
+ Sent: Tuesday, December 28, 2010 2:27 PM
+ Subject: RE: Internet blip at 530 pm MST on 12/27/2010
+ Latisys data center in Englewood Colorado.
+ From: Frank Bulk - iName.com [mailto:frnkblk at iname.com] 
+ Sent: Tuesday, December 28, 2010 1:09 PM
+ Subject: RE: Internet blip at 530 pm MST on 12/27/2010
+ Ujjval:
+ Could you provide the location of the data center and who your ISP or what
+ IP address space your servers are on?
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Ujjval Karihaloo
+ Sent: Tuesday, December 28, 2010 11:44 AM
+ Subject: [outages] Internet blip at 530 pm MST on 12/27/2010
+ Anyone notice issues for 5-10 mins around 530 pm yesterday. We received a
+ few calls about high latency to our servers. Internal verification found
+ nothing on our Servers and our data center provider/ISP is claiming no
+ issues on their equipment either, so wanted to check if anyone else had
+ similar experience around that time.
+ Holidays have been full of IP issues..
+ Ujjval Karihaloo
+ = 
+ = 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/0b6a1faa/attachment.html>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACM7UQuNsscQqXA0ghE21+ZAQAAAAA=@iname.com>
+  <EB7435A0AAA8874F845F4A88F1B39924052C77AA46@EXMBXCLUS01.citservers.local>
+  <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACPNUOPSKqCS77dg+SMyDDBAQAAAAA=@iname.com>
+ We are trying to determine a pattern... through the tickets that were called in.
+ Ujjval Karihaloo
+ On Dec 28, 2010, at 1:31 PM, "Frank Bulk - iName.com<http://iName.com>" <frnkblk at iname.com<mailto:frnkblk at iname.com>> wrote:
+ Thanks.  According to the spec sheet, AT&T, Level3, SAVVIS, Verizon, Qwest, and X/O are there.  Through which provider were your customers experiencing latency?
+ Frank
+ From: Ujjval Karihaloo [mailto:ujjval at simplesignal.com]
+ Sent: Tuesday, December 28, 2010 2:27 PM
+ Subject: RE: Internet blip at 530 pm MST on 12/27/2010
+ Latisys data center in Englewood Colorado.
+ From: Frank Bulk - iName.com<http://iName.com> [mailto:frnkblk at iname.com]
+ Sent: Tuesday, December 28, 2010 1:09 PM
+ Subject: RE: Internet blip at 530 pm MST on 12/27/2010
+ Ujjval:
+ Could you provide the location of the data center and who your ISP or what IP address space your servers are on?
+ Frank
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org] On Behalf Of Ujjval Karihaloo
+ Sent: Tuesday, December 28, 2010 11:44 AM
+ Subject: [outages] Internet blip at 530 pm MST on 12/27/2010
+ Anyone notice issues for 5-10 mins around 530 pm yesterday. We received a few calls about high latency to our servers. Internal verification found nothing on our Servers and our data center provider/ISP is claiming no issues on their equipment either, so wanted to check if anyone else had similar experience around that time.
+ Holidays have been full of IP issues?.
+ Ujjval Karihaloo
+ =
+ =
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101228/3614579a/attachment.html>
+ Sorry about that, I was cleaning the Internet and accidentally unplugged 
+ it. Once I noticed that the Internet was unplugged, I reattached it.
+ -- BOFH
+ Ujjval Karihaloo wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101229/7c28fa7a/attachment.html>
+ On which CCB call was your change request to clean the internet approved on?
+ Message: 3
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20101229/b7874939/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 outage
+###############################################################
+ Is there any L3 involving outage this morning?
+ Around 7:15ish GMT. We located near washington DC area.
+ Tatsuya Kawasaki
+###############################################################
+END
+###############################################################
+

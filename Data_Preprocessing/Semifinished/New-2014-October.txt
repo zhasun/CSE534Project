@@ -1,0 +1,2549 @@
+###############################################################
+HE IPv6 tunnel PMTU issues with juniper.net
+###############################################################
+  While on my Hurricane Electric IPv6 tunnel, I cannot access
+ juniper.net unless I change my local interface MTU.  1500 fails, but
+ 1280 works.  I noticed this a few days ago.  Before that I had no
+ problems with a 1500 MTU.  Is anyone else seeing this issue?
+ On 10/01/2014 01:50 PM, Chuck Anderson via Outages wrote:
+ No, but if your are using a 6in4 tunnel, the MTU should be 1480 (not 1500).
+ (I just successfully went to www.juniper.net via IPv6 with that MTU 1480.)
+  <542C0CDD.8040103@nasa.gov>
+ On Wed, Oct 01, 2014 at 02:17:01PM +0000, Gary Gapinski via Outages wrote:
+ My tunnel router has a 1280 MTU on the henet interface:
+ 6in4-henet Link encap:IPv6-in-IPv4  
+           inet6 addr: 2001:470:xxxx:xxxx::2/64 Scope:Global
+           inet6 addr: fe80::xxxx:xxxx/128 Scope:Link
+           UP POINTOPOINT RUNNING NOARP  MTU:1280  Metric:1
+           RX packets:17148418 errors:0 dropped:0 overruns:0 frame:0
+           TX packets:12347808 errors:0 dropped:0 overruns:0 carrier:0
+           collisions:0 txqueuelen:0 
+           RX bytes:2660258163 (2.4 GiB)  TX bytes:2833651623 (2.6 GiB)
+ But the LAN interface of that router has an MTU of 1500, as does my
+ desktop system.  I believe the issue is that the juniper.net web
+ server has an MTU of 1500 and their network or somewhere along the
+ path is blocking ICMP Packet Too Big messages that would be sent by
+ the HE.net tunnel router.
+ Like I said, I changed nothing on my end, and it was working before.
+ I don't know if juniper.net just added IPv6 to their website, or if
+ something else changed in the path.
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+ On Wed, Oct 1, 2014, at 09:37, Chuck Anderson via Outages wrote:
+ It's nearly a requirement to lower your MTU / enable mss-clamping when
+ doing ipv6 tunnels. It's possible some connectivity of yours was broken
+ and you just didn't notice it until now. I had to do this on my J series
+ and I also have to do it on my OpenBSD firewall -- 
+ # mss clamping down to 1280. 1220 + 60 for ipv6 header
+ match on egress all scrub (random-id no-df max-mss 1220)
+ The whole fragmentation situation with IPv6 is kind of a joke
+ http://en.wikipedia.org/wiki/IPv6_packet#Fragmentation
+  <542C0CDD.8040103@nasa.gov> <20141001143734.GD16762@angus.ind.WPI.EDU>
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141001/c1fe0500/attachment.html>
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <1412176189.2419477.173943753.01A4EE35@webmail.messagingengine.com>
+ On Wed, Oct 01, 2014 at 10:09:49AM -0500, Mark Felder via Outages wrote:
+ I know.  But I'm reporting this here on outages in the hopes that a
+ responsible party would see it and can fix the root cause of this
+ particular issue.  E.g. stop dropping ICMP Packet Too Big.
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <542C1ABA.8000405@nasa.gov>
+ On Wed, Oct 01, 2014 at 03:16:10PM +0000, Gary Gapinski via Outages wrote:
+ Interesting.  Does the 1480 MTU setting from RA show up on your
+ interface configuration, or in a routing table entry?  Is your TCP
+ connection to www.juniper.net using an MSS of 1220?  If so, then of
+ course you wouldn't see the issue.
+ I'm using OpenWRT for the HE.net tunnel.  I'll have to see how to send
+ the MTU in the LAN RA.
+ Traceroute from here:
+ traceroute to www.juniper.net (2600:141b:4:2a2::720), 30 hops max, 80 byte packets
+  1  2001:470:xxxx:1::1 (2001:470:xxxx:1::1)  0.327 ms  0.328 ms  0.352 ms
+  2  2001:470:xxxx:xxxx::1 (2001:470:xxxx:xxxx::1)  19.155 ms  22.996 ms  26.192 ms
+  3  ge3-8.core1.nyc4.he.net (2001:470:0:5d::1)  27.735 ms  28.878 ms  28.996 ms
+  4  v6-paix-ny.3-2.r1.ny.hwng.net (2001:504:f::4c)  29.094 ms  28.999 ms  29.070 ms
+  5  2001:4de0:1000:64::2 (2001:4de0:1000:64::2)  29.069 ms * *
+  6  * 2001:4de0:2001:8::2 (2001:4de0:2001:8::2)  23.048 ms  23.912 ms
+  7  2600:141b:4::48f7:acf (2600:141b:4::48f7:acf)  23.960 ms  16.420 ms *
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <1412176189.2419477.173943753.01A4EE35@webmail.messagingengine.com>
+  <20141001151958.GF16762@angus.ind.WPI.EDU>
+ Once upon a time, Chuck Anderson via Outages <outages at outages.org> said:
+ For me, www.juniper.net is on Akamai, so you might try there.  You might
+ also see what happens with other Akamized IPv6 sites.
+ -- 
+ Chris Adams <cma at cmadams.net>
+  <542C0CDD.8040103@nasa.gov> <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <1412176189.2419477.173943753.01A4EE35@webmail.messagingengine.com>
+ Hi,
+ On Wed, Oct 01, 2014 at 10:09:49AM -0500, Mark Felder via Outages wrote:
+ Actually this is the wrong way to go about it.  It's hiding the symptoms
+ instead of fixing the problem.
+ This is not about fragmentation.  (Indeed, the whole story about IPv6 frag
+ handling in *BSD firewalls is too sad to think about it)
+ gert
+ -- 
+ USENET is *not* the non-clickable part of WWW!
+                                                            //www.muc.de/~gert/
+ Gert Doering - Munich, Germany                             gert at greenie.muc.de
+ fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+ On 10/1/14 6:50 AM, Chuck Anderson via Outages wrote:
+ The MTU of your tunnel is lower than 1500.
+ Chances are the service on the other end isn't able to recieve pmtud
+ messages because it's load-balanced... and the first packet that
+ triggers that (ptb) is sent towards your tunnel ingress.
+  _______________________________________________
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 243 bytes
+ Desc: OpenPGP digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141001/c9dc4dd5/attachment.sig>
+  <542C1A6C.7020205@bogus.com>
+ On Wed, Oct 1, 2014 at 11:14 AM, joel jaeggli via Outages
+ <outages at outages.org> wrote:
+ Welcome to the wonders of IPv6, where fragmentation in the network
+ isn't possible.
+ It's better this way, trust us...
+ W
+ -- 
+ I don't think the execution is relevant when it was obviously a bad
+ idea in the first place.
+ This is like putting rabid weasels in your pants, and later expressing
+ regret at having chosen those particular rabid weasels and that pair
+ of pants.
+    ---maf
+  <542C1A6C.7020205@bogus.com>
+ On Wed, Oct 01, 2014 at 08:14:52AM -0700, joel jaeggli via Outages wrote:
+ Chances are the first large packet is from the server end, not my
+ client end.  So if www.juniper.net sends a 1500-byte packet, it should
+ arrive at the HE.net tunnel router and that router should send a PTB
+ back to the server.  Are you saying the PTB might not be received by
+ the server because it is behind a load-balancer?  Shouldn't the
+ load-balancer handle the PTB directly in that case since it terminates
+ the TCP connection?
+  <542C0CDD.8040103@nasa.gov> <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <542C1ABA.8000405@nasa.gov> <20141001152700.GG16762@angus.ind.WPI.EDU>
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141001/19576957/attachment.html>
+ This problem can be solved by setting the tcp-mss under internet-options on the juniper.
+ I used 1280, but there may be a larger more optimal value.
+ Owen
+ On Oct 1, 2014, at 06:50 , Chuck Anderson via Outages <outages at outages.org> wrote:
+  <542C1A6C.7020205@bogus.com> <20141001163016.GL16762@angus.ind.WPI.EDU>
+ Actually, given the nature of browsers these days, it is not at all unlikely that your request to the Juniper web server contains 1280+ octets of HTTP header data and thus is the largest packet. I think if you investigate further you will find that most flows stall at the point of a TCP packet larger than N octets payload hitting the Juniper from the LAN side and being small enough that it doesn't generate a PTB message, so it gets silently dropped.
+ At least that's what happened in my environment before I reduced the tcp-mss as described in my earlier message.
+ And to Warren, yes, not fragmenting in the network _IS_ actually better.
+ Owen
+ On Oct 1, 2014, at 09:30 , Chuck Anderson via Outages <outages at outages.org> wrote:
+ >>> While on my Hurricane Electric IPv6 tunnel, I cannot access
+ >>> juniper.net unless I change my local interface MTU.  1500 fails, but
+ >>> 1280 works.  I noticed this a few days ago.  Before that I had no
+ >>> problems with a 1500 MTU.  Is anyone else seeing this issue?
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <542C1ABA.8000405@nasa.gov>
+  <20141001152700.GG16762@angus.ind.WPI.EDU>
+  <542C341A.9090907@nasa.gov>
+ On Wed, Oct 01, 2014 at 05:04:26PM +0000, Gary Gapinski via Outages wrote:
+ The Linux "/sbin/ip" command apparently can show mtu and advmss (as
+ seen in Google search results), but on my system it doesn't show them.
+ cat /proc/sys/net/ipv6/conf/<interface>/mtu does show it though.
+ Given the lack of "advmss" output in "/sbin/ip -6 route show", I'm
+ using tcpdump to verify the initial SYN packet.
+ I did just set this on my OpenWrt router.  I see from "rdisc6" (and
+ tcpdump) that I'm now getting a Link MTU option.  But "/sbin/ip" still
+ doesn't show it anywhere.  /proc/sys/net/ipv6/conf/<interface>/mtu is
+ showing the change to 1480.
+ Right.  If you turn off the AdvLinkMTU option (or set it back to 1500)
+ such that the initial SYN sets an MSS of 1440, do you then have
+ problems reaching www.juniper.net?
+  <542C1A6C.7020205@bogus.com> <20141001163016.GL16762@angus.ind.WPI.EDU>
+  <293F803D-7429-4838-8B83-A64EA0867DAC@delong.com>
+ On 10/1/14 10:21 AM, Owen DeLong wrote:
+ if it's not generating a ptb on the tunnel ingress it's kinda broken.
+ >>> On 10/1/14 6:50 AM, Chuck Anderson via Outages wrote:
+ >>>> While on my Hurricane Electric IPv6 tunnel, I cannot access 
+ >>>> juniper.net unless I change my local interface MTU.  1500
+ >>>> fails, but 1280 works.  I noticed this a few days ago.  Before
+ >>>> that I had no problems with a 1500 MTU.  Is anyone else seeing
+ >>>> this issue?
+ >>> 
+ >>> The MTU of your tunnel is lower than 1500.
+ >>> 
+ >>> Chances are the service on the other end isn't able to recieve
+ >>> pmtud messages because it's load-balanced... and the first packet
+ >>> that triggers that (ptb) is sent towards your tunnel ingress.
+ yes ssl server for example is a good way to stimulate that.
+ or behind a layer-3 ecmp hash in which case it may not be getting back
+ to the machine which has the layer 3 flow terminated.
+ if the right device receives it then yes.
+ https://tools.ietf.org/html/draft-jaeggli-v6ops-pmtud-ecmp-problem-01
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 243 bytes
+ Desc: OpenPGP digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141001/a0fdc99d/attachment-0001.sig>
+  <542C0CDD.8040103@nasa.gov> <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <542C1ABA.8000405@nasa.gov> <20141001152700.GG16762@angus.ind.WPI.EDU>
+  <542C341A.9090907@nasa.gov> <20141001175846.GM16762@angus.ind.WPI.EDU>
+ On 10/01/2014 05:58 PM, Chuck Anderson via Outages wrote:
+ Ditto mine (proc/sys/net/ipv6/conf/<interface>/mtu is 1480). ip does not 
+ cough up MTU.
+ No, which is a bit puzzling. WIth MTU at 1500 on LAN interface, TCP 
+ connect had outbound SYN with MSS 1420, return SYN ACK with MSS 1420. No 
+ related ICMPv6 seen. This was tried from a LAN device, not the edge 
+ router (i.e., the one with the tunnel).
+  <542C0CDD.8040103@nasa.gov>
+  <20141001143734.GD16762@angus.ind.WPI.EDU>
+  <542C1ABA.8000405@nasa.gov>
+  <20141001152700.GG16762@angus.ind.WPI.EDU>
+  <542C341A.9090907@nasa.gov>
+  <20141001175846.GM16762@angus.ind.WPI.EDU>
+  <542C4FA7.1050506@nasa.gov>
+ On Wed, Oct 01, 2014 at 07:01:59PM +0000, Gary Gapinski via Outages wrote:
+ I /think/ you may have to flush your routing table after changing
+ MTU--it seems the route cache maintains the per-destination MTU/MSS.
+ At one point I saw some extra routes with MTU 1280 in "/sbin/ip -6
+ route show".
+###############################################################
+END
+###############################################################
+
+###############################################################
+Twitter returning "not found"
+###############################################################
+ Going to anything but twitter.com homepage gives me 404 OK with headers:
+ content-length:9
+ date:Mon, 06 Oct 2014 16:15:53 UTC
+ server:tsa_b
+ status:404
+ version:HTTP/1.1
+ http://status.twitter.com doesn't say anything and I can't look at the
+ @twitter or @twitterapi account since its down.
+ Anyone else having problems?
+ --
+ *James Hartig*
+ Grooveshark.com <http://grooveshark.com/>
+ Twitter: @jameshartig <http://twitter.com/jameshartig>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/c1379b2a/attachment.html>
+ Looking okay here (Las Vegas).
+ ?Dj
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/6b7c29e6/attachment.html>
+ Status page loads just fine for me.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Mon, Oct 6, 2014 at 12:18 PM, James Hartig via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/97c719cd/attachment.html>
+ Seems to be fine from my location.
+ On Mon, Oct 6, 2014 at 12:18 PM, James Hartig via Outages <
+ outages at outages.org> wrote:
+ -- 
+ [image: --]
+ Keith I Myers
+ [image: http://]+Keith I Myers <http://plus.kmyers.me/>
+ Mobile : (305)-929-3475
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/7524433a/attachment.html>
+ iPhone app on sprint cell towers is working fine
+ Grant
+ Sent from my iPhone
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/23236c8e/attachment-0001.html>
+  <24C02CE5-EC78-440F-915E-E1D0C97AD6CF@gmail.com>
+ Forgot to mention location. I'm trying from Canada. It also might just be a
+ SPDY problem. Trying curl seems to be okay. It also has been flaky, works 1
+ out of every 10 refreshes.
+ --
+ *James Hartig*
+ Grooveshark.com <http://grooveshark.com/>
+ Twitter: @jameshartig <http://twitter.com/jameshartig>
+ On Mon, Oct 6, 2014 at 12:36 PM, Grant Ridder <shortdudey123 at gmail.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/83cbeb02/attachment.html>
+  <24C02CE5-EC78-440F-915E-E1D0C97AD6CF@gmail.com>
+  <CAM6j61sL3TzQE-PsYWy81VsP7ueEguFkj6DvKGMSaDTrGuEtKg@mail.gmail.com>
+ All good here in Atlantic Canada on the Bell Aliant network.
+ On Mon, Oct 6, 2014 at 1:38 PM, James Hartig via Outages <
+ outages at outages.org> wrote:
+ -- 
+ Devern Adams
+ (506) 612-1337
+ devernadams at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141006/f48656bf/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+IPv6 routing loop in GTT ?
+###############################################################
+ I am using Charter's 6rd IPv6 tunnel at home and noticed within the last
+ few days I can't get to/from my Digital Ocean VM via IPv6. From both
+ Digital Ocean and Charter 6rd tunnel I can get to Google, Facebook, etc
+ via IPv6 but not to each other.
+ It appears there are routing issues in GTT as it hits 64 hops and gives
+ up. I haven't found more examples.
+ >From DO to Charter:
+ vm# mtr -6 -c 1 -r gw.feld.me
+ Start: Tue Oct  7 07:49:56 2014
+ HOST: vm.feld.me                  Loss%   Snt   Last   Avg  Best  Wrst
+ StDev
+   1.|-- 2001:19f0:5c00:8000::1     0.0%     1    0.4   0.4   0.4   0.4  
+   0.0
+   2.|-- unknown.ipv6.scnet.net     0.0%     1    8.2   8.2   8.2   8.2  
+   0.0
+   3.|-- ae9-0.cr1.ord6.scnet.net   0.0%     1    0.4   0.4   0.4   0.4  
+   0.0
+   4.|-- xe-11-3-3.edge4.Chicago2.  0.0%     1    1.3   1.3   1.3   1.3  
+   0.0
+   5.|-- vl-52.edge1.Chicago2.Leve  0.0%     1    1.4   1.4   1.4   1.4  
+   0.0
+   6.|-- vl-4042.edge6.Denver1.Lev  0.0%     1   54.6  54.6  54.6  54.6  
+   0.0
+   7.|-- vl-4081.edge3.Denver1.Lev  0.0%     1   26.0  26.0  26.0  26.0  
+   0.0
+   8.|-- vl-4040.edge2.Dallas1.Lev  0.0%     1   39.9  39.9  39.9  39.9  
+   0.0
+   9.|-- 2001:1900:4:1::82          0.0%     1   40.3  40.3  40.3  40.3  
+   0.0
+  10.|-- ???                       100.0     1    0.0   0.0   0.0   0.0  
+  0.0
+ >From Charter to DO:
+ $ traceroute6 vm.feld.me
+ traceroute6 to feld.me (2001:19f0:5c00:8014::64) from
+ 2602:100:4475:7e4e::1, 64 hops max, 12 byte packets
+  1  fe80::4472:a501%gif0  32.685 ms  31.124 ms  27.724 ms
+  2  2001:506:100:6c::1  32.265 ms  28.213 ms  27.935 ms
+  3  bbr01olvemo-tge0-3-0-4.mo.olve.charter.com  36.85 ms  48.545 ms 
+  31.973 ms
+  4  bbr02chcgil-tge0-0-0-4.il.chcg.charter.com  44.528 ms  42.71 ms 
+  39.903 ms
+  5  bbr02ashbva-tge0-0-0-6.va.ashb.charter.com  60.637 ms  58.762 ms 
+  56.091 ms
+  6  bbr01rvsdca-tge0-0-0-1.ca.rvsd.charter.com  57.898 ms  58.219 ms 
+  54.158 ms
+  7  ae7.ar2.iad1.us.as4436.gtt.net  61.978 ms  59.916 ms  60.278 ms
+  8  ae4-60g.cr1.iad1.us.as4436.gtt.net  58.154 ms  60.057 ms  55.868 ms
+  9  ae1-30g.ar2.iad1.us.as4436.gtt.net  57.846 ms  57.986 ms  59.022 ms
+ 10  ae4-60g.cr1.iad1.us.as4436.gtt.net  67.351 ms  92.237 ms  59.19 ms
+ 11  ae1-30g.ar2.iad1.us.as4436.gtt.net  55.398 ms  57.944 ms  58.273 ms
+ 12  ae4-60g.cr1.iad1.us.as4436.gtt.net  67.278 ms  58.613 ms  60 ms
+ 13  ae1-30g.ar2.iad1.us.as4436.gtt.net  62.251 ms  58.714 ms  58.63 ms
+ 14  ae4-60g.cr1.iad1.us.as4436.gtt.net  55.916 ms  62.16 ms  59.304 ms
+ 15  ae1-30g.ar2.iad1.us.as4436.gtt.net  57.715 ms  56.235 ms  56.446 ms
+ 16  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.155 ms  59.564 ms  56.403 ms
+ 17  ae1-30g.ar2.iad1.us.as4436.gtt.net  62.394 ms  55.362 ms  64.127 ms
+ 18  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.598 ms  60.619 ms  107.678 ms
+ 19  ae1-30g.ar2.iad1.us.as4436.gtt.net  58.614 ms  58.28 ms  59.954 ms
+ 20  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.941 ms  59.788 ms  59.851 ms
+ 21  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.704 ms  59.33 ms  60.827 ms
+ 22  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.67 ms  59.831 ms  59.795 ms
+ 23  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.432 ms  61.336 ms  58.184 ms
+ 24  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.273 ms  55.066 ms  59.906 ms
+ 25  ae1-30g.ar2.iad1.us.as4436.gtt.net  58.329 ms  62.6 ms  58.157 ms
+ 26  ae4-60g.cr1.iad1.us.as4436.gtt.net  64.339 ms  60.07 ms  91.983 ms
+ 27  ae1-30g.ar2.iad1.us.as4436.gtt.net  55.495 ms  59.945 ms  58.529 ms
+ 28  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.684 ms  55.512 ms  56.048 ms
+ 29  ae1-30g.ar2.iad1.us.as4436.gtt.net  62.383 ms  60.182 ms  60.635 ms
+ 30  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.138 ms  59.713 ms  59.933 ms
+ 31  ae1-30g.ar2.iad1.us.as4436.gtt.net  55.755 ms  62.042 ms  62.369 ms
+ 32  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.495 ms  59.767 ms  59.984 ms
+ 33  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.285 ms  59.844 ms  60.51 ms
+ 34  ae4-60g.cr1.iad1.us.as4436.gtt.net  58.068 ms  59.492 ms  59.975 ms
+ 35  ae1-30g.ar2.iad1.us.as4436.gtt.net  57.425 ms  55.933 ms  62.857 ms
+ 36  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.577 ms  59.471 ms  60.15 ms
+ 37  ae1-30g.ar2.iad1.us.as4436.gtt.net  55.244 ms  59.993 ms  56.707 ms
+ 38  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.447 ms  55.642 ms  56.026 ms
+ 39  ae1-30g.ar2.iad1.us.as4436.gtt.net  62.152 ms  59.443 ms  59.67 ms
+ 40  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.331 ms  59.527 ms  59.971 ms
+ 41  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.352 ms  59.976 ms  62.869 ms
+ 42  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.47 ms  55.709 ms  63.582 ms
+ 43  ae1-30g.ar2.iad1.us.as4436.gtt.net  60.37 ms  59.323 ms  63.52 ms
+ 44  ae4-60g.cr1.iad1.us.as4436.gtt.net  58.777 ms  59.819 ms  59.708 ms
+ 45  ae1-30g.ar2.iad1.us.as4436.gtt.net  60.087 ms  61.474 ms  58.63 ms
+ 46  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.35 ms  58.875 ms  61.964 ms
+ 47  ae1-30g.ar2.iad1.us.as4436.gtt.net  57.275 ms  62.731 ms  64.981 ms
+ 48  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.467 ms  61.955 ms  162.171 ms
+ 49  ae1-30g.ar2.iad1.us.as4436.gtt.net  62.204 ms  60.741 ms  60.429 ms
+ 50  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.724 ms  59.766 ms  59.897 ms
+ 51  ae1-30g.ar2.iad1.us.as4436.gtt.net  63.145 ms  60.379 ms  65.222 ms
+ 52  ae4-60g.cr1.iad1.us.as4436.gtt.net  61.783 ms  61.646 ms  59.696 ms
+ 53  ae1-30g.ar2.iad1.us.as4436.gtt.net  58.354 ms  70.653 ms  59.731 ms
+ 54  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.166 ms  55.39 ms  56.422 ms
+ 55  ae1-30g.ar2.iad1.us.as4436.gtt.net  57.719 ms  59.593 ms  62.026 ms
+ 56  ae4-60g.cr1.iad1.us.as4436.gtt.net  55.98 ms  59.649 ms  56.294 ms
+ 57  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.6 ms  55.359 ms  63.151 ms
+ 58  ae4-60g.cr1.iad1.us.as4436.gtt.net  56.996 ms  59.972 ms  55.79 ms
+ 59  ae1-30g.ar2.iad1.us.as4436.gtt.net  59.749 ms  62.077 ms  62.279 ms
+ 60  ae4-60g.cr1.iad1.us.as4436.gtt.net  55.649 ms  153.654 ms  59.83 ms
+ 61  ae1-30g.ar2.iad1.us.as4436.gtt.net  64.475 ms  58.863 ms  62.758 ms
+ 62  ae4-60g.cr1.iad1.us.as4436.gtt.net  59.492 ms  59.855 ms  59.569 ms
+ 63  ae1-30g.ar2.iad1.us.as4436.gtt.net  60.276 ms  62.299 ms  60.679 ms
+ 64  ae4-60g.cr1.iad1.us.as4436.gtt.net  60.921 ms  57.581 ms  59.567 ms
+ Mark,
+ Give this a second look now if you could.  If you're still experiencing 
+ any issues, feel free to ping me directly off-list. Thanks!
+ On 10/7/14, 8:55 AM, Mark Felder via Outages wrote:
+  <54342DE2.9060609@davenpro.com>
+ On Tue, Oct 7, 2014, at 13:16, Adam Davenport via Outages wrote:
+ Working as expected now. Thanks!
+  <54342DE2.9060609@davenpro.com>
+  <1412707928.819907.176257189.59556B23@webmail.messagingengine.com>
+ I had v6 routing loop issues with GTT as well and so did another person 
+ that i know.
+ The provider appears to have fixed it by doing a BGP pref change to 
+ Level3 or something
+ On 10/7/2014 11:52 AM, Mark Felder via Outages wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Belkin [heartbeat.belkin.com]
+###############################################################
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ Funny,
+ Just saw something about Belkin routers and a botched firmware upgrade.
+ I wonder if this is what they meant.
+ That being said, it is working fine from Zito Media in Clanton, AL.
+ --John
+ On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:
+ Just because you can ping it does not mean it will work.  I've confirmed
+ with other users this is the case.  I believe there is some sort of HTTP
+ request that confirms the connection is working (like Windows, Android,
+ etc).
+ Another resolution is to just loopback 67.20.176.130 (seems to be this IP
+ for everyone so far).
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:17 AM, Paul Miller via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/6019e736/attachment.html>
+ Where?  I keep reading "bad firmware" problems but everything suggests
+ there is no automatic upgrade and I think we can safely assume resi users
+ didn't upgrade their routers over night.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:35 AM, John Barbieri via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/9ec92985/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+ DSLR: 
+ http://www.dslreports.com/forum/r29585798-Belkin-Router-Owners-Take-Note.
+ And I am thinking the same thing you are. Doubt resi users upgraded 
+ their router overnight.
+ Like you said, chances are it has to do with that heartbeat. Asked a few 
+ folks around the US to ping it, some successful, some not, and they 
+ weren't behind anything Belkin related.
+ --John
+ On 10/07/2014 10:48 AM, Josh Luthman wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/5cc4fb45/attachment.html>
+  <CAN9qwJ_Yk1EVDgsBBZEScK0oro556mmQ0fj9YFAxVTPma8d5rA@mail.gmail.com>
+ Please provide more information on this ? our helpdesk is getting calls about this.  Are you saying just route 67.20.176.130 to a pingable IP?
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Josh Luthman via Outages
+ Sent: Tuesday, October 07, 2014 10:42 AM
+ Cc: outages at outages.org
+ Just because you can ping it does not mean it will work.  I've confirmed with other users this is the case.  I believe there is some sort of HTTP request that confirms the connection is working (like Windows, Android, etc).
+ Another resolution is to just loopback 67.20.176.130 (seems to be this IP for everyone so far).
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:17 AM, Paul Miller via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com <http://heartbeat.belkin.com>  from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com <http://heartbeat.belkin.com>  to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/da0c9572/attachment-0001.html>
+  <CAN9qwJ_Yk1EVDgsBBZEScK0oro556mmQ0fj9YFAxVTPma8d5rA@mail.gmail.com>
+  <8B9D122A1836AF4BB23B7966A4EABEC209890344@pcscmail001.MUTUALTEL.MTCNET.NET>
+ I believe it needs to both be pingable and attempt an HTTP request.  If the
+ HTTP request fails and ping works, the router just assumes the Internet is
+ working.
+ If it can't ping it, it assumes the "Internet is down".
+ I don't have any Belkin routers on hand so I can't confirm this theory.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:56 AM, Frank Bulk <fbulk at mypremieronline.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/339deab7/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+ I think it was initially suspected to be a firmware upgrade, but I doubt
+ that's the case now. It's interesting to me that there are two seemingly
+ unrelated fixes:
+ 1. Put the IP for heartbeat.belkin.com on a loopback
+ 2. Manually add working DNS entries to affected PCs
+ Reports indicate that either fix works, but why? They seem unrelated to one
+ another unless the failing heartbeat messages mess up DNS handling on the
+ router.
+ John
+ On Tue, Oct 7, 2014 at 9:48 AM, Josh Luthman via Outages <
+ outages at outages.org> wrote:
+ >>> On one of my netblocks my subscribers can nolonger ping Belkin.  I can
+ >>> ping
+ >>> heartbeat.belkin.com from my webservers and from subscriber units on a
+ >>> different netblock.
+ >>>
+ >>> Apparently Belkin routers ping the home base every couple seconds to
+ >>> determine
+ >>> the correct color of the Internet light on the router (orange or blue
+ >>> *sigh*).
+ >>> Worse, when it can't ping the Belkin site the router seems to pack up and
+ >>> redirect my subscribers to their router configuration page.
+ >>>
+ >>> I found this pretty easy to work around.  I simply DNATed the pings
+ >>> intended
+ >>> for heartbeat.belkin.com to one of my local nameservers and that seems
+ >>> to get
+ >>> them back online.  It's a silly workaround, but if anyone else is seeing
+ >>> all
+ >>> the Belkin routers on their network pack up, this could be why.
+ >>>
+ >>> -Paul
+ >>>
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/f765bb30/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+ I just saw a forum post where Belkin recommended manually setting DNS to
+ see if that solves the problem. Putting all of this together, this is my
+ best guess as to what happened.
+ 1. Routers regularly send heartbeat messages to heartbeat.belkin.com
+ 2. Some routing failure causes quite a few netblocks (but not all) to be
+ unreachable from Belkin's heartbeat server
+ 3. If the heartbeat fails, something breaks related to DNS handling on the
+ router that does not resolve after a router reset
+ Very interesting. I don't have enough data yet, but I do wonder if the root
+ cause of this all is a routing problem on Belkin's side.
+ John
+ On Tue, Oct 7, 2014 at 10:03 AM, John Neiberger <jneiberger at gmail.com>
+ wrote:
+ >>> Funny,
+ >>>
+ >>> Just saw something about Belkin routers and a botched firmware upgrade.
+ >>>
+ >>> I wonder if this is what they meant.
+ >>>
+ >>> That being said, it is working fine from Zito Media in Clanton, AL.
+ >>>
+ >>> --John
+ >>>
+ >>> On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:
+ >>>
+ >>>> On one of my netblocks my subscribers can nolonger ping Belkin.  I can
+ >>>> ping
+ >>>> heartbeat.belkin.com from my webservers and from subscriber units on a
+ >>>> different netblock.
+ >>>>
+ >>>> Apparently Belkin routers ping the home base every couple seconds to
+ >>>> determine
+ >>>> the correct color of the Internet light on the router (orange or blue
+ >>>> *sigh*).
+ >>>> Worse, when it can't ping the Belkin site the router seems to pack up
+ >>>> and
+ >>>> redirect my subscribers to their router configuration page.
+ >>>>
+ >>>> I found this pretty easy to work around.  I simply DNATed the pings
+ >>>> intended
+ >>>> for heartbeat.belkin.com to one of my local nameservers and that seems
+ >>>> to get
+ >>>> them back online.  It's a silly workaround, but if anyone else is
+ >>>> seeing all
+ >>>> the Belkin routers on their network pack up, this could be why.
+ >>>>
+ >>>> -Paul
+ >>>>
+ >>>> _______________________________________________
+ >>>> Outages mailing list
+ >>>> Outages at outages.org
+ >>>> https://puck.nether.net/mailman/listinfo/outages
+ >>>>
+ >>>
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/e46751f7/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+ I can ping heartbeat.belkin.com and the DSL Reports link and other connected links are stating it was back up roughly 30 to 45 minutes ago, so I think we?re out of the woods.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 11:04 AM
+ Cc: outages at outages.org; John Barbieri
+ I think it was initially suspected to be a firmware upgrade, but I doubt that's the case now. It's interesting to me that there are two seemingly unrelated fixes:
+ 1. Put the IP for heartbeat.belkin.com <http://heartbeat.belkin.com>  on a loopback 
+ 2. Manually add working DNS entries to affected PCs
+ Reports indicate that either fix works, but why? They seem unrelated to one another unless the failing heartbeat messages mess up DNS handling on the router.
+ John
+ On Tue, Oct 7, 2014 at 9:48 AM, Josh Luthman via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Where?  I keep reading "bad firmware" problems but everything suggests there is no automatic upgrade and I think we can safely assume resi users didn't upgrade their routers over night.
+ Josh Luthman
+ Office: 937-552-2340 <tel:937-552-2340> 
+ Direct: 937-552-2343 <tel:937-552-2343> 
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:35 AM, John Barbieri via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Funny,
+ Just saw something about Belkin routers and a botched firmware upgrade.
+ I wonder if this is what they meant.
+ That being said, it is working fine from Zito Media in Clanton, AL.
+ --John
+ On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com <http://heartbeat.belkin.com>  from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com <http://heartbeat.belkin.com>  to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/4c2e7f6e/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+ Has anyone else tried the loopback/heartbeat workaround with success? I've
+ seen a few reports so far that this has temporarily solved the problem.
+ John
+ On Tue, Oct 7, 2014 at 10:28 AM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/a493f300/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+ Why do that if Belkin is up and running again? Or are you suggesting that Belkin doesn?t have it all worked out?
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 12:42 PM
+ Has anyone else tried the loopback/heartbeat workaround with success? I've seen a few reports so far that this has temporarily solved the problem.
+ John
+ On Tue, Oct 7, 2014 at 10:28 AM, Frank Bulk <frnkblk at iname.com <mailto:frnkblk at iname.com> > wrote:
+ I can ping heartbeat.belkin.com <http://heartbeat.belkin.com>  and the DSL Reports link and other connected links are stating it was back up roughly 30 to 45 minutes ago, so I think we?re out of the woods.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org <mailto:outages-bounces at outages.org> ] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 11:04 AM
+ Cc: outages at outages.org <mailto:outages at outages.org> ; John Barbieri
+ I think it was initially suspected to be a firmware upgrade, but I doubt that's the case now. It's interesting to me that there are two seemingly unrelated fixes:
+ 1. Put the IP for heartbeat.belkin.com <http://heartbeat.belkin.com>  on a loopback 
+ 2. Manually add working DNS entries to affected PCs
+ Reports indicate that either fix works, but why? They seem unrelated to one another unless the failing heartbeat messages mess up DNS handling on the router.
+ John
+ On Tue, Oct 7, 2014 at 9:48 AM, Josh Luthman via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Where?  I keep reading "bad firmware" problems but everything suggests there is no automatic upgrade and I think we can safely assume resi users didn't upgrade their routers over night.
+ Josh Luthman
+ Office: 937-552-2340 <tel:937-552-2340> 
+ Direct: 937-552-2343 <tel:937-552-2343> 
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:35 AM, John Barbieri via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Funny,
+ Just saw something about Belkin routers and a botched firmware upgrade.
+ I wonder if this is what they meant.
+ That being said, it is working fine from Zito Media in Clanton, AL.
+ --John
+ On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com <http://heartbeat.belkin.com>  from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com <http://heartbeat.belkin.com>  to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/aaef360e/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+ Given the number of current social media postings, it doesn't appear that
+ they are back up yet, but I suppose it is hard to say for sure given the
+ number of people affected. Twitter is all aflutter with new reports of
+ people still having problems. Yours is the only report that indicated they
+ were working again. It could just be that it's taking a while for the
+ devices to correct themselves, or maybe they even need to be restarted or
+ something like that.
+ On Tue, Oct 7, 2014 at 11:57 AM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/15d3075a/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+ I've had a few companies tell me it fixed their problems.  A friend that
+ runs a call center said volume was way down an hour or two ago.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 1:42 PM, John Neiberger via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/180da2a8/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+  <CAOQYbjo54Zzcv2ZHtpOt_fKW75oh5rUyhzBqwU0RMe0kVKkr-A@mail.gmail.com>
+ No, we?re still getting customer reports about the light staying orange. I was just hoping they were having other issues.  
+ I?ve just added 67.20.176.130 as a loopback in our network, too.
+ Frank
+ From: John Neiberger [mailto:jneiberger at gmail.com] 
+ Sent: Tuesday, October 07, 2014 1:01 PM
+ Cc: outages at outages.org
+ Given the number of current social media postings, it doesn't appear that they are back up yet, but I suppose it is hard to say for sure given the number of people affected. Twitter is all aflutter with new reports of people still having problems. Yours is the only report that indicated they were working again. It could just be that it's taking a while for the devices to correct themselves, or maybe they even need to be restarted or something like that.
+ On Tue, Oct 7, 2014 at 11:57 AM, Frank Bulk <frnkblk at iname.com <mailto:frnkblk at iname.com> > wrote:
+ Why do that if Belkin is up and running again? Or are you suggesting that Belkin doesn?t have it all worked out?
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org <mailto:outages-bounces at outages.org> ] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 12:42 PM
+ Has anyone else tried the loopback/heartbeat workaround with success? I've seen a few reports so far that this has temporarily solved the problem.
+ John
+ On Tue, Oct 7, 2014 at 10:28 AM, Frank Bulk <frnkblk at iname.com <mailto:frnkblk at iname.com> > wrote:
+ I can ping heartbeat.belkin.com <http://heartbeat.belkin.com>  and the DSL Reports link and other connected links are stating it was back up roughly 30 to 45 minutes ago, so I think we?re out of the woods.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org <mailto:outages-bounces at outages.org> ] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 11:04 AM
+ Cc: outages at outages.org <mailto:outages at outages.org> ; John Barbieri
+ I think it was initially suspected to be a firmware upgrade, but I doubt that's the case now. It's interesting to me that there are two seemingly unrelated fixes:
+ 1. Put the IP for heartbeat.belkin.com <http://heartbeat.belkin.com>  on a loopback 
+ 2. Manually add working DNS entries to affected PCs
+ Reports indicate that either fix works, but why? They seem unrelated to one another unless the failing heartbeat messages mess up DNS handling on the router.
+ John
+ On Tue, Oct 7, 2014 at 9:48 AM, Josh Luthman via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Where?  I keep reading "bad firmware" problems but everything suggests there is no automatic upgrade and I think we can safely assume resi users didn't upgrade their routers over night.
+ Josh Luthman
+ Office: 937-552-2340 <tel:937-552-2340> 
+ Direct: 937-552-2343 <tel:937-552-2343> 
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 11:35 AM, John Barbieri via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Funny,
+ Just saw something about Belkin routers and a botched firmware upgrade.
+ I wonder if this is what they meant.
+ That being said, it is working fine from Zito Media in Clanton, AL.
+ --John
+ On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com <http://heartbeat.belkin.com>  from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com <http://heartbeat.belkin.com>  to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/133566cf/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+ On Oct 8, 2014, at 12:57 AM, Frank Bulk via Outages <outages at outages.org> wrote:
+ So that it doesn't recur if things get dorked up, again?  It's a great DDoS vector - take down that IP, wedge every affected Belkin CPE on the Internet.
+ This kind of thing is extremely brittle, and apt to go into Sorcerer's Apprentice Mode without warning.
+ ----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+                    Equo ne credite, Teucri.
+     		   	  -- Laoco?n
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+  <CAOQYbjo54Zzcv2ZHtpOt_fKW75oh5rUyhzBqwU0RMe0kVKkr-A@mail.gmail.com>
+  <003801cfe259$21f69a90$65e3cfb0$@iname.com>
+ I just saw a report from another ISP who says they had a customer whose
+ VoIP continued to work and they were able to RDP into their computer from
+ the outside. It appears that only web traffic was broken. I wonder if
+ parental controls or web filtering are a component in this fiasco.
+ John
+ On Tue, Oct 7, 2014 at 12:04 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/e152537c/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+ Doesn't appear to be all running, at least their official posting doesn't
+ say so  -
+ https://belkininternationalinc.statuspage.io/
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 7, 2014 at 1:57 PM, Frank Bulk via Outages <outages at outages.org>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/f32eb10e/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+  <CAN9qwJ-t8Ja6N0=aLPRiBpL_DLH1kPEWpykFYk=TbaPDqXTMPw@mail.gmail.com>
+ Just saw another report that HTTPS and IRC were still working. It looks
+ like this was only port 80 that was busted, so I think we can safely add
+ web filtering or parental controls somewhere into the chain of busted
+ things today.
+ On Tue, Oct 7, 2014 at 12:14 PM, Josh Luthman <josh at imaginenetworksllc.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/d99e3fd6/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+  <CAOQYbjo54Zzcv2ZHtpOt_fKW75oh5rUyhzBqwU0RMe0kVKkr-A@mail.gmail.com>
+  <003801cfe259$21f69a90$65e3cfb0$@iname.com>
+ Frank,
+ I'd be very interested to hear if that helps. We're considering doing the
+ same thing since a couple of people have reported good results.
+ John
+ On Tue, Oct 7, 2014 at 12:04 PM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/d2307cd0/attachment.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+  <CAOQYbjo54Zzcv2ZHtpOt_fKW75oh5rUyhzBqwU0RMe0kVKkr-A@mail.gmail.com>
+  <003801cfe259$21f69a90$65e3cfb0$@iname.com>
+  <CAOQYbjp0A1+jVFgbbp7-a2VcMj+ow9cAdOZV=D+BNzZNh+WqLA@mail.gmail.com>
+ In my experience. It breaks DNS Masquerading. So any DNS query sent to the router goes unanswered. Verified this with a customer by having them hard-set their Local DNS (On their computer) to my public resolvers.
+  I suspect anything that didn't require DNS worked fine (RDP inbound..SIP Outbound once it resolved the SBC Address. Assuming it had a DNS Hostname).
+  The current thought (Around the NOC here) is that DNS is breaking due to another user friendly feature. Where the router forwards you to it's config page automatically, if it thinks you have no internet..
+  Nick Olsen
+ Network Operations  (855) FLSPEED  x106
+ ----------------------------------------
+  From: "John Neiberger via Outages" <outages at outages.org>
+ Sent: Tuesday, October 07, 2014 2:32 PM
+ Cc: "outages at outages.org" <outages at outages.org>
+ Subject: Re: [outages] Belkin [heartbeat.belkin.com]   
+   I just saw a report from another ISP who says they had a customer whose VoIP continued to work and they were able to RDP into their computer from the outside. It appears that only web traffic was broken. I wonder if parental controls or web filtering are a component in this fiasco.
+  John
+    On Tue, Oct 7, 2014 at 12:04 PM, Frank Bulk <frnkblk at iname.com> wrote:     
+ No, we're still getting customer reports about the light staying orange. I was just hoping they were having other issues.    
+ I've just added 67.20.176.130 as a loopback in our network, too.  
+ Frank  
+ From: John Neiberger [mailto:jneiberger at gmail.com]
+ Sent: Tuesday, October 07, 2014 1:01 PM
+ Cc: outages at outages.org   
+ Given the number of current social media postings, it doesn't appear that they are back up yet, but I suppose it is hard to say for sure given the number of people affected. Twitter is all aflutter with new reports of people still having problems. Yours is the only report that indicated they were working again. It could just be that it's taking a while for the devices to correct themselves, or maybe they even need to be restarted or something like that. 
+ On Tue, Oct 7, 2014 at 11:57 AM, Frank Bulk <frnkblk at iname.com> wrote:     
+ Why do that if Belkin is up and running again? Or are you suggesting that Belkin doesn't have it all worked out?  
+ Frank  
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 12:42 PM
+ Has anyone else tried the loopback/heartbeat workaround with success? I've seen a few reports so far that this has temporarily solved the problem. 
+ John 
+ On Tue, Oct 7, 2014 at 10:28 AM, Frank Bulk <frnkblk at iname.com> wrote:     
+ I can ping heartbeat.belkin.com and the DSL Reports link and other connected links are stating it was back up roughly 30 to 45 minutes ago, so I think we're out of the woods.  
+ Frank  
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John Neiberger via Outages
+ Sent: Tuesday, October 07, 2014 11:04 AM
+ Cc: outages at outages.org; John Barbieri
+ I think it was initially suspected to be a firmware upgrade, but I doubt that's the case now. It's interesting to me that there are two seemingly unrelated fixes: 
+ 1. Put the IP for heartbeat.belkin.com on a loopback  
+ 2. Manually add working DNS entries to affected PCs 
+ Reports indicate that either fix works, but why? They seem unrelated to one another unless the failing heartbeat messages mess up DNS handling on the router. 
+ John 
+ On Tue, Oct 7, 2014 at 9:48 AM, Josh Luthman via Outages <outages at outages.org> wrote:    
+ Where?  I keep reading "bad firmware" problems but everything suggests there is no automatic upgrade and I think we can safely assume resi users didn't upgrade their routers over night. 
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373 
+ On Tue, Oct 7, 2014 at 11:35 AM, John Barbieri via Outages <outages at outages.org> wrote:   
+ Funny,
+ Just saw something about Belkin routers and a botched firmware upgrade.
+ I wonder if this is what they meant.
+ That being said, it is working fine from Zito Media in Clanton, AL.
+ --John    
+ On 10/07/2014 10:17 AM, Paul Miller via Outages wrote:   
+ On one of my netblocks my subscribers can nolonger ping Belkin.  I can ping
+ heartbeat.belkin.com from my webservers and from subscriber units on a
+ different netblock.
+ Apparently Belkin routers ping the home base every couple seconds to determine
+ the correct color of the Internet light on the router (orange or blue *sigh*).
+ Worse, when it can't ping the Belkin site the router seems to pack up and
+ redirect my subscribers to their router configuration page.
+ I found this pretty easy to work around.  I simply DNATed the pings intended
+ for heartbeat.belkin.com to one of my local nameservers and that seems to get
+ them back online.  It's a silly workaround, but if anyone else is seeing all
+ the Belkin routers on their network pack up, this could be why.
+ -Paul
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages   
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages 
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141007/96842147/attachment-0001.html>
+  <CAN9qwJ9s0rs-XDTO0xd0iwHj6Qsqchy4a_K7R_J6738DCPwYQA@mail.gmail.com>
+  <CAOQYbjquV0WF9c0LqNW6LRLCACJKoMUU5PoqHsX4dv9qWvJb2w@mail.gmail.com>
+  <002901cfe24b$c631c9d0$52955d70$@iname.com>
+  <CAOQYbjokjbRtESi0DyjipXfCvngEN=axS6A+VPPcixWaMTrMdg@mail.gmail.com>
+  <003301cfe258$2d83de50$888b9af0$@iname.com>
+ On 07 Oct 2014, at 19:57, Frank Bulk via Outages <outages at outages.org> wrote:
+ This thing seems to go down and up like a yoyo.
+ (I?m seeing it one hop behind 66.179.229.150 ? works this very moment.)
+ Can?t get a reliable OS fingerprint (unless it?s an Airport Extreme?).
+ For extra fun, try nmapping it around the outages.
+ Sometimes it is like:
+ Interesting ports on 67.20.176.130:
+ Not shown: 1689 closed ports
+ PORT    STATE    SERVICE
+ 22/tcp  open     ssh
+ 111/tcp open     rpcbind
+ 137/tcp filtered netbios-ns
+ 138/tcp filtered netbios-dgm
+ 139/tcp filtered netbios-ssn
+ 199/tcp open     smux
+ 445/tcp filtered microsoft-ds
+ 937/tcp open     unknown
+ What?
+ Gr??e, Carsten
+ ----- Original Message -----
+ Point of order:
+ No "resolvers" are "authoritative".  "Resolvers" (or, more fully, "Customer
+ resolver servers") are servers operated (generally) by "eyeball carriers" 
+ for their end-users to utilize to do DNS lookups, so that the end users
+ are not required to operate a resolver themselves -- which most enduser 
+ operating systems have not, historically done.  Resolvers do the recursing
+ for you, and return a non-authoritative response.
+ Putting this at the ISP level leverages caching (though sometimes 
+ pathologically).
+ Many edge routers perform this task, though not all.
+ "Authoritative" is a term used to describe a "Zone" server; one which has
+ a current local or slaved copy of the actual source data for a zone.  
+ Queries directly to a zone server will have the authoritative bit set.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+ St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+GApps admin = rogered
+###############################################################
+ Just a heads up to our friends at Google Apps.
+ Despite the status page saying all is peachy:
+ http://www.google.com/appsstatus#hl=en&v=status
+ ...the administration page for any Google Apps for domains is totally
+ rogered.  It's either an endless redirect loop or a deluge of errors.
+ I'd call for premium support, but I can't even see that.
+ Again, a friendly heads up and nudge that perhaps the status page should at
+ least be updated to reflect the fact that it's non-operational.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141009/78373318/attachment.html>
+ Shows an issue to me
+ TimeDescription
+ 10/9/14 7:11 PM
+ We're investigating reports of an issue with Admin console. We will provide
+ more information shortly.
+ Users are seeing the Admin console refresh continuously on loading.
+ On Thu, Oct 9, 2014 at 7:07 PM, Blair Trosper via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141009/8e2f8e36/attachment.html>
+  <CAPC+kK4_JJvrJxD9CeRDAHXNPSk+j1VXjt=DVYxf3WiXpTQR4w@mail.gmail.com>
+ Was not there at the time I sent the email.  I was thorough in checking.
+ 100% sure.
+ On Thu, Oct 9, 2014 at 6:22 PM, Mitch Patterson <mitpatterson at gmail.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141009/4d592b6b/attachment.html>
+  <CAPC+kK4_JJvrJxD9CeRDAHXNPSk+j1VXjt=DVYxf3WiXpTQR4w@mail.gmail.com>
+  <CAA5Ek4ehvkkfS9L7i+QBLddaN98jAROLRJVhcS3kQD9XaL2ZMg@mail.gmail.com>
+ i confirm this issue is apparent for us as well.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141009/19bd6b1b/attachment.html>
+  <CAPC+kK4_JJvrJxD9CeRDAHXNPSk+j1VXjt=DVYxf3WiXpTQR4w@mail.gmail.com>
+ This is 4-5 minutes after the OP emailed
+ On Thursday, October 9, 2014, Mitch Patterson via Outages <
+ outages at outages.org> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141009/f6c8aecf/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Akamai problems on east coast/Verizon?
+###############################################################
+ I've seen two sites now fronted by Akamai - travelocity.com and retailmenot.com - produce "DNS Failure" errors from the edge, suggesting Akamai edge servers unable to reach back-end caches or origin servers. Anyone else noticing this?
+ IPs I've seen for the edge sites in question:
+ [~/]$ host www.travelocity.com
+ www.travelocity.com is an alias for www.travelocity.com.edgekey.net.
+ www.travelocity.com.edgekey.net is an alias for e8329.b.akamaiedge.net.
+ e8329.b.akamaiedge.net has address 23.203.11.138
+ [~/]$ host www.retailmenot.com
+ www.retailmenot.com is an alias for wildcard.retailmenot.com.edgekey.net.
+ wildcard.retailmenot.com.edgekey.net is an alias for e3849.b.akamaiedge.net.
+ e3849.b.akamaiedge.net has address 172.231.217.199
+ I'm on a Verizon Jetpack right now in eastern Maryland, if that helps...
+ Thanks,
+ -C
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Public DNS is down in south-east asia
+###############################################################
+ Google Public DNS just stopped working for me (and many others locally).
+ xxx at xxx:~# dig google.com @8.8.8.8
+ ; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> google.com @8.8.8.8
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ xxx at xxx:~#
+ Traces from few locations.
+ True ADSL (Thailand)
+ xxx at xxx:~# mtr --report 8.8.8.8
+ HOST: xxx                         Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10   30.5  17.4   0.8  57.5  22.5
+   2.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+   3.|-- 10.169.212.9               0.0%    10   23.3  24.0  23.3  25.0   0.6
+   4.|-- 10.100.50.67               0.0%    10   24.0  24.3  23.7  25.1   0.5
+   5.|-- 58.97.121.81               0.0%    10   25.4  25.1  24.5  25.6   0.4
+   6.|-- 61.91.213.177              0.0%    10   24.6  25.0  24.6  25.6   0.3
+   7.|-- 61.91.213.36               0.0%    10   26.1  25.9  25.4  26.4   0.3
+   8.|-- 61.91.213.130              0.0%    10   25.5  26.0  25.1  27.3   0.6
+   9.|-- 113.21.242.53              0.0%    10   27.0  26.5  25.1  28.2   1.0
+  10.|-- 72.14.210.155              0.0%    10   49.1  52.2  48.1  80.4   9.9
+  11.|-- 209.85.242.244             0.0%    10   54.6  53.6  50.0  60.9   4.1
+  12.|-- 72.14.239.201              0.0%    10   85.6  85.7  80.2 100.8   6.5
+  13.|-- 209.85.250.11              0.0%    10  107.2 107.7 106.7 109.7   0.9
+ * 14.|-- 209.85.243.21              0.0%    10  109.6 110.4 109.5 111.3
+ 0.6*
+  15.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ xxx at xxx:~#
+ Digital Ocean (Singapore)
+ xxx at xxx:~# mtr --report 8.8.8.8
+ Start: Mon Oct 13 07:18:28 2014
+ HOST: xxx                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- a.b.c.d            0.0%    10    0.6   1.6   0.5   6.0   2.1
+   2.|-- 103.253.144.241            0.0%    10    0.4   0.5   0.4   0.6   0.0
+   3.|-- 103.16.102.64              0.0%    10    1.8   2.0   1.7   3.4   0.3
+   4.|-- 66.249.95.122              0.0%    10    2.1   2.1   2.0   2.3   0.0
+   5.|-- 209.85.241.149             0.0%    10   54.5  56.1  54.3  61.8   2.5
+ *  6.|-- 72.14.237.179              0.0%    10   58.0  58.1  57.9  59.2
+ 0.0*
+   7.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ xxx at xxx:~#
+ EC2 (Singapore)
+ xxx at xxx:~$ mtr --report 8.8.8.8
+ HOST: xxx            Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- ip-10-a-b-2.ap-southea  0.0%    10    0.6   0.6   0.3   1.5   0.4
+   2.|-- ip-10-1-16-0.ap-southeast  0.0%    10    6.1   1.6   0.5   6.1   1.8
+   3.|-- 100.64.12.131              0.0%    10   17.8   3.8   1.0  17.8   5.7
+   4.|-- ec2-175-41-128-232.ap-sou  0.0%    10    0.8   0.6   0.5   0.9   0.1
+   5.|-- 203.83.223.230             0.0%    10    0.6   1.0   0.4   2.3   0.7
+   6.|-- 203.83.223.14              0.0%    10    1.5   1.6   1.4   2.4   0.3
+   7.|-- 203.83.223.57              0.0%    10    1.7   1.8   1.5   2.4   0.2
+   8.|-- 198.32.141.140             0.0%    10    1.5   1.7   1.4   3.2   0.5
+   9.|-- 66.249.95.122              0.0%    10    2.9   5.4   2.2  14.7   4.8
+  10.|-- 209.85.241.149             0.0%    10   54.2  57.7  54.0  76.5   7.6
+  11.|-- 209.85.243.23              0.0%    10   57.9  60.1  57.7  79.4   6.8
+  12.|-- 72.14.238.8                0.0%    10   58.9  59.3  58.8  62.5   1.1
+ * 13.|-- 72.14.237.179              0.0%    10   63.0  65.3  62.8  79.2
+ 5.4*
+  14.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ xxx at xxx:~$
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141013/bad5c117/attachment.html>
+ Works fine now as of 11:29 UTC.
+ The first i noticed any issues was at ~11:12 UTC (i was offline before
+ then).
+ Someone else indicated that the outage lasted ~33 minutes.
+ On Mon, Oct 13, 2014 at 6:25 PM, Sajal Kayan <sajal83 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141013/1f809b74/attachment.html>
+  <CAPdYNsAxVxjYhMm9zey+4vafJTVVvx=htBo+A3TzJG62twZrPA@mail.gmail.com>
+ On Oct 13, 2014, at 6:34 PM, Sajal Kayan via Outages <outages at outages.org> wrote:
+ This was seen in Australia, as well, same approximate times and duration.
+ ----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+                    Equo ne credite, Teucri.
+     		   	  -- Laoco?n
+  <CAPdYNsAxVxjYhMm9zey+4vafJTVVvx=htBo+A3TzJG62twZrPA@mail.gmail.com>
+  <844D9167-6881-4B1D-9841-C7655250E3B6@arbor.net>
+ Yep, I can confirm down from Indonesia.
+ Thank you
+ Budiwijaya
+ -----Original Message-----
+ From: Roland Dobbins via Outages <outages at outages.org>
+ Sender: "Outages" <outages-bounces at outages.org>Date: Mon, 13 Oct 2014 18:45:19 
+ Reply-To: Roland Dobbins <rdobbins at arbor.net>
+ On Oct 13, 2014, at 6:34 PM, Sajal Kayan via Outages <outages at outages.org> wrote:
+ This was seen in Australia, as well, same approximate times and duration.
+ ----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+                    Equo ne credite, Teucri.
+     		   	  -- Laoco?n
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <CAPdYNsAxVxjYhMm9zey+4vafJTVVvx=htBo+A3TzJG62twZrPA@mail.gmail.com>
+  <844D9167-6881-4B1D-9841-C7655250E3B6@arbor.net>
+ I'm showing 35 minute outage in Australia 10:53 - 11:28. Prior to the
+ outage I was seeing ~1 msec latency, now its ~160 msec.
+ On Mon, Oct 13, 2014 at 7:45 AM, Roland Dobbins via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141013/749e0311/attachment.html>
+ On Mon, Oct 13, 2014 at 8:25 PM, Sajal Kayan via Outages
+ <outages at outages.org> wrote:
+ 1 hour ago, I could not but now I can.
+ $ dig @8.8.8.8 ox.ac.uk
+ ; <<>> DiG 9.8.3-P1 <<>> @8.8.8.8 ox.ac.uk
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52315
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ox.ac.uk. IN A
+ ;; ANSWER SECTION:
+ ox.ac.uk. 299 IN A 129.67.242.155
+ ox.ac.uk. 299 IN A 129.67.242.154
+ ;; Query time: 301 msec
+ ;; SERVER: 8.8.8.8#53(8.8.8.8)
+ ;; WHEN: Mon Oct 13 21:00:29 2014
+ ;; MSG SIZE  rcvd: 58
+ $ dig @8.8.4.4 ox.ac.uk
+ ; <<>> DiG 9.8.3-P1 <<>> @8.8.4.4 ox.ac.uk
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11820
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ox.ac.uk. IN A
+ ;; ANSWER SECTION:
+ ox.ac.uk. 295 IN A 129.67.242.155
+ ox.ac.uk. 295 IN A 129.67.242.154
+ ;; Query time: 153 msec
+ ;; SERVER: 8.8.4.4#53(8.8.4.4)
+ ;; WHEN: Mon Oct 13 21:00:33 2014
+ ;; MSG SIZE  rcvd: 58
+ traceroute -a 8.8.8.8
+ traceroute to 8.8.8.8 (8.8.8.8), 64 hops max, 52 byte packets
+  1  [AS0] web.setup (192.168.0.1)  0.996 ms  0.631 ms  0.895 ms
+  2  [AS2516] kd125053000065.ppp-bb.dion.ne.jp (125.53.0.65)  4.534 ms
+ 2.726 ms  4.085 ms
+  3  [AS2516] sjk-tpcfujisawaml02.bb.kddi.ne.jp (125.48.118.22)  2.690
+ ms  2.900 ms  2.328 ms
+  4  [AS2516] knwbbml304.bb.kddi.ne.jp (118.152.208.130)  2.571 ms
+ 3.320 ms  3.420 ms
+  5  [AS2516] sjkbbac08.bb.kddi.ne.jp (118.152.210.41)  4.696 ms  4.495
+ ms  3.820 ms
+  6  [AS2516] otejbb206.int-gw.kddi.ne.jp (106.162.175.165)  4.638 ms
+     [AS2516] otejbb206.int-gw.kddi.ne.jp (106.162.175.157)  6.651 ms
+     [AS2516] otejbb206.int-gw.kddi.ne.jp (106.162.175.61)  6.526 ms
+  7  [AS2516] ix-ote213.int-gw.kddi.ne.jp (59.128.5.98)  4.141 ms
+     [AS2516] ix-ote213.int-gw.kddi.ne.jp (59.128.5.90)  4.131 ms
+     [AS2516] ix-ote213.int-gw.kddi.ne.jp (59.128.5.190)  3.914 ms
+  8  [AS15169] 72.14.216.194 (72.14.216.194)  49.987 ms  61.402 ms  56.666 ms
+  9  [AS15169] 209.85.243.58 (209.85.243.58)  4.435 ms
+     [AS15169] 209.85.243.56 (209.85.243.56)  4.961 ms  10.377 ms
+ 10  [AS15169] 209.85.255.34 (209.85.255.34)  17.715 ms  7.366 ms
+     [AS15169] 66.249.94.80 (66.249.94.80)  12.641 ms
+ 11  [AS15169] 209.85.246.177 (209.85.246.177)  91.113 ms
+     [AS15169] 209.85.246.233 (209.85.246.233)  92.895 ms
+     [AS15169] 209.85.246.177 (209.85.246.177)  90.355 ms
+ 12  [AS15169] 72.14.233.138 (72.14.233.138)  94.938 ms
+     [AS15169] 72.14.233.202 (72.14.233.202)  96.500 ms
+     [AS15169] 216.239.46.210 (216.239.46.210)  96.708 ms
+ 13  [AS15169] 216.239.46.171 (216.239.46.171)  99.296 ms  99.273 ms
+     [AS15169] 216.239.46.195 (216.239.46.195)  95.379 ms
+ best regards,
+ -dikshie-
+  <CAA1TSu_V6Rb8VHML0+bUZt5W0WF+h_RX3Fbr86seF-fGRz_p-w@mail.gmail.com>
+ Thanks for the report. Google Public DNS experienced an outage in Asia
+ region for about 30 minutes around 11:00 UTC. The outage has been resolved.
+ Yunhong (from Google Public DNS)
+ On Mon, Oct 13, 2014 at 8:04 AM, dikshie via Outages <outages at outages.org>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141013/e7ad8dfb/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Century Link/Qwest Outage
+###############################################################
+ Does anyone else experience routing issue for websites hosted on CDN from CenturyLink's edge router?
+ jfk-brdr-04.inet.qwest.net [67.14.5.98] 
+  63.146.26.2
+ I can't open multiple websites if routing goes through their JFK edge router. It's been happening over 24 hours and no resolution from Century Link/Qwest.
+ Same sites will open if route goes through dcx2-edge-01.inet.qwest.net [67.14.28.66] or nyc-edge-05.inet.qwest.net [205.171.134.10] or chp-brdr-03.inet.qwest.net [67.14.8.194] edge router.
+ Thank you,
+ Vipul Desai
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141015/4546b478/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+delays on the interweb?
+###############################################################
+ I'm seeing delays and outages hitting random sites anyone else noticing the
+ same?
+ news.ycombinator.com
+ vimeo
+ etc.. ?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141016/960992b8/attachment.html>
+ The Internet as a whole has been fine for me. A few things that might help
+ others identify with you:
+ - General geographic location (DNS trickery--see Geographic DNS Routing)
+ - Your ISP
+ - The nature of your issue (are DNS queries slow, is the problem latency,
+ loss, etc)
+ - IPv4 or IPv6
+ - Residential or Business service
+ --tc
+ On Oct 15, 2014 9:19 PM, "Rodrick Brown via Outages" <outages at outages.org>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141015/01d386ee/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream Long Distance
+###############################################################
+ Windstream Long Distance appears to be down for us....might be a decent
+ size issue for them since I've been on hold to report the issue for 15
+ minutes which I interpret to mean that their call center is getting
+ slammed!
+ -- 
+ Morgan A. Miskell
+ CaroNet Data Centers
+ 704-643-8330 x206
+ ----------------------------------------------------------------------------
+ The information contained in this e-mail is confidential and is intended
+ only for the named recipient(s). If you are not the intended recipient
+ you must not copy, distribute, or take any action or reliance on it. If
+ you have received this e-mail in error, please notify the sender. Any
+ unauthorized disclosure of the information contained in this e-mail is
+ strictly prohibited.
+ ----------------------------------------------------------------------------
+###############################################################
+END
+###############################################################
+
+###############################################################
+Equinix Chicago exchange
+###############################################################
+ Hey all,
+ Anyone seeing a large influx of broadcast traffic since a little after 3pm
+ EDT on the Equinix exchange in Chicago?
+ Opening a ticket with Equinix, but just curious if any others have seen
+ anything.
+ [image: Inline image 1]
+ -- 
+ *James Cornman*
+ *Chief Technology Officer*jcornman at atlanticmetro.net
+ 212.792.9950 - ext 101
+ *Atlantic Metro Communications, Inc.*
+ *4 Century Drive, Parsippany NJ  07054*
+ *Data Centers ? Managed Hosting ? Internet Access ? Cloud Computing*
+ Follow @atlanticmetro <http://www.twitter.com/atlanticmetro> on Twitter to
+ learn more about daily specials.
+ www.atlanticmetro.net
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/6a0a21dd/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: esw2.ord1-snmp64_If-Packets-2014-10-17_14-45_to_2014-10-17_15-45_EDT.png
+ Type: image/png
+ Size: 17717 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/6a0a21dd/attachment.png>
+  <D066EEF4.9972A%nschmidt@mediamath.com>
+ I tracked it down to an offending device belonging to 123.net. Still
+ haven't received any peep out of Equinix support.
+ Filtered it..
+ mac access-list extended equinix-bad-neighbors
+  deny   host 8478.ac4e.90be any
+  permit any any
+ !
+ interface GigabitEthernet0/50
+   mac access-group equinix-bad-neighbors in
+ On Fri, Oct 17, 2014 at 4:06 PM, Nicholas Schmidt <nschmidt at mediamath.com>
+ wrote:
+ -- 
+ *James Cornman*
+ *Chief Technology Officer*jcornman at atlanticmetro.net
+ 212.792.9950 - ext 101
+ *Atlantic Metro Communications, Inc.*
+ *4 Century Drive, Parsippany NJ  07054*
+ *Data Centers ? Managed Hosting ? Internet Access ? Cloud Computing*
+ Follow @atlanticmetro <http://www.twitter.com/atlanticmetro> on Twitter to
+ learn more about daily specials.
+ www.atlanticmetro.net
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/c968f055/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: esw2.ord1-snmp64_If-Packets-2014-10-17_14-45_to_2014-10-17_15-45_EDT.png
+ Type: image/png
+ Size: 17717 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/c968f055/attachment-0001.png>
+  <D066EEF4.9972A%nschmidt@mediamath.com>
+  <CAJR+648rHiqdLS1b32W2aa7z856zo0O_BW2L9dJnqFYf_qOaWQ@mail.gmail.com>
+ There seems to be similar issues in Ashburn as well. These are the only 123Net peering points.
+ https://www.peeringdb.com/private/participant_view.php?id=3899
+ From: James Cornman <james at atlanticmetro.net<mailto:james at atlanticmetro.net>>
+ Date: Friday, October 17, 2014 at 4:07 PM
+ Cc: "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+ I tracked it down to an offending device belonging to 123.net<http://123.net>. Still haven't received any peep out of Equinix support.
+ Filtered it..
+ mac access-list extended equinix-bad-neighbors
+  deny   host 8478.ac4e.90be any
+  permit any any
+ !
+ interface GigabitEthernet0/50
+   mac access-group equinix-bad-neighbors in
+ On Fri, Oct 17, 2014 at 4:06 PM, Nicholas Schmidt <nschmidt at mediamath.com<mailto:nschmidt at mediamath.com>> wrote:
+ Seeing similar.
+ Nicholas Schmidt
+ MediaMath
+ From: James Cornman via Outages <outages at outages.org<mailto:outages at outages.org>>
+ Reply-To: James Cornman <james at atlanticmetro.net<mailto:james at atlanticmetro.net>>
+ Date: Friday, October 17, 2014 at 3:50 PM
+ Hey all,
+ Anyone seeing a large influx of broadcast traffic since a little after 3pm EDT on the Equinix exchange in Chicago?
+ Opening a ticket with Equinix, but just curious if any others have seen anything.
+ [Inline image 1]
+ --
+ James Cornman
+ Chief Technology Officer
+ jcornman at atlanticmetro.net<mailto:jcornman at atlanticmetro.net>
+ 212.792.9950<tel:212.792.9950> - ext 101
+ Atlantic Metro Communications, Inc.
+ 4 Century Drive, Parsippany NJ  07054
+ Data Centers ? Managed Hosting ? Internet Access ? Cloud Computing
+ Follow @atlanticmetro<http://www.twitter.com/atlanticmetro> on Twitter to learn more about daily specials.
+ www.atlanticmetro.net<http://www.atlanticmetro.net/>
+ --
+ James Cornman
+ Chief Technology Officer
+ jcornman at atlanticmetro.net<mailto:jcornman at atlanticmetro.net>
+ 212.792.9950 - ext 101
+ Atlantic Metro Communications, Inc.
+ 4 Century Drive, Parsippany NJ  07054
+ Data Centers ? Managed Hosting ? Internet Access ? Cloud Computing
+ Follow @atlanticmetro<http://www.twitter.com/atlanticmetro> on Twitter to learn more about daily specials.
+ www.atlanticmetro.net<http://www.atlanticmetro.net/>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/8709dfd4/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: esw2.ord1-snmp64_If-Packets-2014-10-17_14-45_to_2014-10-17_15-45_EDT.png
+ Type: image/png
+ Size: 17717 bytes
+ Desc: esw2.ord1-snmp64_If-Packets-2014-10-17_14-45_to_2014-10-17_15-45_EDT.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/8709dfd4/attachment-0001.png>
+  <D066EEF4.9972A%nschmidt@mediamath.com>
+  <CAJR+648rHiqdLS1b32W2aa7z856zo0O_BW2L9dJnqFYf_qOaWQ@mail.gmail.com>
+  <D066F0EA.99730%nschmidt@mediamath.com>
+ Good to know. I've emailed the 4 contacts on their peeringdb page. No
+ responses yet.
+ On Fri, Oct 17, 2014 at 4:15 PM, Nicholas Schmidt <nschmidt at mediamath.com>
+ wrote:
+ -- 
+ *James Cornman*
+ *Chief Technology Officer*jcornman at atlanticmetro.net
+ 212.792.9950 - ext 101
+ *Atlantic Metro Communications, Inc.*
+ *4 Century Drive, Parsippany NJ  07054*
+ *Data Centers ? Managed Hosting ? Internet Access ? Cloud Computing*
+ Follow @atlanticmetro <http://www.twitter.com/atlanticmetro> on Twitter to
+ learn more about daily specials.
+ www.atlanticmetro.net
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/19e32c90/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: esw2.ord1-snmp64_If-Packets-2014-10-17_14-45_to_2014-10-17_15-45_EDT.png
+ Type: image/png
+ Size: 17717 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141017/19e32c90/attachment-0001.png>
+  <D066EEF4.9972A%nschmidt@mediamath.com>
+  <CAJR+648rHiqdLS1b32W2aa7z856zo0O_BW2L9dJnqFYf_qOaWQ@mail.gmail.com>
+  <D066F0EA.99730%nschmidt@mediamath.com>
+  <CAJR+648Se2wacsve6i037WsKWd3s+qaa0-x247ussEtJgpWc0Q@mail.gmail.com>
+ Hi,
+ There was a MRV Optiswitch failure (pause of BPDUs) in the network that 
+ created this storm.  The failed node has been isolated.
+ I apologize for the inconvenience.
+ -- 
+ Ryan Duda
+ 123.net
+ 24700 Northwestern Hwy. Fl 7
+ Southfield, MI 48075
+ Direct: 248.228.8202
+ Fax: 586.620.8005
+ NOC: 866.460.3503
+ Email: rpd at 123.net
+ On 10/17/2014 4:16 PM, James Cornman via Outages wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO routing weirdness
+###############################################################
+ Just a heads up: XO is evidently having issues with certain that box routing out via Megapath. 
+ Impacted scope is unknown, but it at least includes parts of the 64.0.0.0/14 netblock. No ETR  at this time.
+ Sent from my iPhone
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast - Seattle (maybe other areas)
+###############################################################
+ Having serious issues getting outside of Comcast's network starting
+ around 1250 Pacific time from Seattle area.
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+ Michael,
+ Can you share some traces?
+ Thanks,
+ John
+ On Mon, Oct 20, 2014 at 1:57 PM, Michael Loftis via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/b4396d40/attachment.html>
+  <CAOQYbjrVdzCWLP8ga+ii1EeCP55NOyQZr26o_1G-hgpQt9g3ow@mail.gmail.com>
+ Its like alost like this netblock (24.16.0.0/13) I'm in isn't getting
+ announced to transit or is getting filtered at transit - just paid
+ peerings...
+ loneos:~ mloftis$ traceroute www.mysql.com
+ traceroute to mysql-adc.oracle.com (137.254.60.6), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  3.065 ms  0.798 ms  1.448 ms
+  2  96.120.101.1 (96.120.101.1)  12.289 ms  9.274 ms  9.744 ms
+  3  te-0-1-0-0-sur02.bellevue.wa.seattle.comcast.net (68.86.113.145)
+ 11.498 ms  8.708 ms  14.447 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  12.184 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  9.187 ms
+     be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  11.595 ms
+  5  he-0-15-0-1-ar01.seattle.wa.seattle.comcast.net (68.85.240.94)  12.756 ms
+     be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  12.613
+ ms  21.782 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 12.035 ms  12.944 ms  11.011 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute www.he.net
+ traceroute to he.net (216.218.186.2), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.205 ms  1.218 ms  1.103 ms
+  2  96.120.101.1 (96.120.101.1)  8.987 ms  8.738 ms  9.187 ms
+  3  te-0-1-0-0-sur02.bellevue.wa.seattle.comcast.net (68.86.113.145)
+ 9.956 ms  9.791 ms  9.429 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.325 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  16.625
+ ms  16.423 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  10.978
+ ms  11.470 ms
+     he-0-15-0-1-ar01.seattle.wa.seattle.comcast.net (68.85.240.94)  11.714 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 14.815 ms  12.986 ms  11.557 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute www.google.com
+ traceroute: Warning: www.google.com has multiple addresses; using 74.125.20.99
+ traceroute to www.google.com (74.125.20.99), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.390 ms  1.103 ms  1.116 ms
+  2  96.120.101.1 (96.120.101.1)  9.317 ms  8.923 ms  10.132 ms
+  3  te-0-2-0-0-sur03.bellevue.wa.seattle.comcast.net (68.86.113.153)
+ 9.267 ms  11.765 ms  10.088 ms
+  4  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  10.993
+ ms  23.054 ms  11.369 ms
+  5  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 15.023 ms  13.000 ms  14.430 ms
+  6  be-12-pe03.56marietta.ga.ibone.comcast.net (68.86.82.234)  10.968
+ ms  11.789 ms  14.294 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute 8.8.8.8
+ traceroute to 8.8.8.8 (8.8.8.8), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.382 ms  1.200 ms  1.118 ms
+  2  96.120.101.1 (96.120.101.1)  7.683 ms  7.869 ms  9.136 ms
+  3  te-0-1-0-1-sur02.bellevue.wa.seattle.comcast.net (68.86.113.141)
+ 9.527 ms  9.973 ms  9.871 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  12.974 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  12.171
+ ms  11.826 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  12.322
+ ms  10.624 ms  26.744 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 17.635 ms  13.682 ms  12.770 ms
+  7  he-0-12-0-1-pe04.seattle.wa.ibone.comcast.net (68.86.82.230)
+ 11.546 ms  13.296 ms  12.413 ms
+  8  * * *
+ loneos:~ mloftis$ traceroute netflix.com
+ traceroute to netflix.com (69.53.236.17), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.420 ms  0.927 ms  0.981 ms
+  2  96.120.101.1 (96.120.101.1)  11.685 ms  15.119 ms  8.369 ms
+  3  te-0-1-0-1-sur02.bellevue.wa.seattle.comcast.net (68.86.113.141)
+ 24.195 ms  9.636 ms  9.928 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.081 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  10.842 ms
+     be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.250 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  11.050
+ ms  11.298 ms  11.361 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 14.352 ms  34.253 ms  13.392 ms
+  7  he-0-13-0-0-cr01.sanjose.ca.ibone.comcast.net (68.86.85.162)
+ 30.279 ms  31.711 ms  35.863 ms
+  8  he-0-10-0-0-pe03.11greatoaks.ca.ibone.comcast.net (68.86.85.214)
+ 29.173 ms  31.250 ms  29.302 ms
+  9  * * *
+ On Mon, Oct 20, 2014 at 1:12 PM, John Neiberger <jneiberger at gmail.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+  <CAOQYbjrVdzCWLP8ga+ii1EeCP55NOyQZr26o_1G-hgpQt9g3ow@mail.gmail.com>
+ It seems to have now mysteriously gone away/cleared up.  Not at all
+ sure what was going on there.  I'd written it off initially as an
+ issue with my laptop (OSX since a while back seems to need a reboot
+ every few weeks if you've Parallels installed and use it - something
+ inside the network stack goes nuts)
+ On Mon, Oct 20, 2014 at 1:12 PM, John Neiberger <jneiberger at gmail.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+  <CAOQYbjrVdzCWLP8ga+ii1EeCP55NOyQZr26o_1G-hgpQt9g3ow@mail.gmail.com>
+  <CAHDg04viZqp=BptpVpOAJfjvjmup=Zh3TD4Sov0Wz5JuDOwS3g@mail.gmail.com>
+ Okay, good to hear! That's very odd. Let me know if it happens again and
+ you need someone to check into it.
+ Thanks,
+ John
+ On Mon, Oct 20, 2014 at 2:24 PM, Michael Loftis <mloftis at wgops.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/5fffb78c/attachment.html>
+  <CAOQYbjrVdzCWLP8ga+ii1EeCP55NOyQZr26o_1G-hgpQt9g3ow@mail.gmail.com>
+ Level3?s experiencing a massive back hoe outage. Reports started in Seattle, but now is being reported across the West Coast - updates from there still open ticket: 
+ Reverse cron
+ 10/20/14 7:10:56 PM GMT	 The IP NOC continues to work with the Transport NOC to develop additional services routes so the impacted IP traffic can be migrated to relieve some overutilization. Simultaneously, the Transport NOC has advised that Field Services have arrived onsite and are now assessing the damage while working develop a repair strategy for this case. This is no ETTR for this case at this time.
+ 10/20/14 6:29:31 PM GMT	 The IP NOC has specified that while working to add the necessary bandwidth to mitigate to overutilization causing the IP and Voice service impact, they are also working to re-route services, when possible, to expedite service restoral. The troubleshooting process for this case is ongoing and the IP NOC is unable to provide an ETTR for this case at this time.
+ 10/20/14 6:07:50 PM GMT	 The IPNOC and Transport NOCs efforts to increase the bandwidth between the over utilized markets is being done to expedite service restoral for the impacted markets. The Transport NOC is also working to repair the damaged cable in El Centro, CA. At this time, Field services has isolated the root cause of the break to a construction project and outside plant engineers have been dispatched to the damage site with an ETA of 18:30 GMT. A splice crew has also been dispatched to the failure site with an ETA of 20:00 GMT.
+ 10/20/14 5:56:31 PM GMT	 The IP NOC has advised that the fiber damage was impacting their connectivity to the impacted equipment in the various markets. The IP NOC has resolved the connectivity issue and continues to work with the Transport NOC to increase the bandwidth in the impacted markets.
+ 10/20/14 4:56:40 PM GMT	 The IP NOC has advised that this issue is now impacting multiple markets across the Western United States the event case has been adjusted to reflect the change. The IP NOC has determined that a fiber cut in El Centro, CA has caused multiple route failures between various these western. Specifically, the fiber damage impacted multiple backbones and has caused overutilization between these markets. The IP NOC has engaged the Transport NOC help mitigate the Voice and IP service failure for this case.
+ 10/20/14 4:04:09 PM GMT	 Multiple routing protocol failures in Seattle, WA are impacting IP and voice services. The IP NOC has engaged Senior Level Management to help troubleshoot this issue. The root cause investigation for this case is ongoing at this time.
+ On Oct 20, 2014, at 4:12 PM, John Neiberger via Outages <outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/698ea68e/attachment-0001.html>
+ Is there an update on Comcast/Level 3? Haven't seen anything since yesterday. Still having issues with links in Delaware and Arizona.
+ Thanks,
+ Ian Mock
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of outages-request at outages.org
+ Sent: Monday, October 20, 2014 3:30 PM
+ Send Outages mailing list submissions to
+ 	outages at outages.org
+ To subscribe or unsubscribe via the World Wide Web, visit
+ 	https://puck.nether.net/mailman/listinfo/outages
+ or, via email, send a message with subject or body 'help' to
+ 	outages-request at outages.org
+ You can reach the person managing the list at
+ 	outages-owner at outages.org
+ When replying, please edit your Subject line so it is more specific than "Re: Contents of Outages digest..."
+ Today's Topics:
+    1. Comcast - Seattle (maybe other areas) (Michael Loftis)
+    2. Re: Comcast - Seattle (maybe other areas) (John Neiberger)
+    3. Re: Comcast - Seattle (maybe other areas) (Michael Loftis)
+    4. Re: Comcast - Seattle (maybe other areas) (Michael Loftis)
+    5. Re: Comcast - Seattle (maybe other areas) (John Neiberger)
+    6. Re: Comcast - Seattle (maybe other areas) (Andrew Losey)
+ ----------------------------------------------------------------------
+ Message: 1
+ Having serious issues getting outside of Comcast's network starting around 1250 Pacific time from Seattle area.
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors into trouble of all kinds."
+ -- Samuel Butler
+ ------------------------------
+ Message: 2
+ Michael,
+ Can you share some traces?
+ Thanks,
+ John
+ On Mon, Oct 20, 2014 at 1:57 PM, Michael Loftis via Outages < outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/b4396d40/attachment-0001.html>
+ ------------------------------
+ Message: 3
+ Its like alost like this netblock (24.16.0.0/13) I'm in isn't getting announced to transit or is getting filtered at transit - just paid peerings...
+ loneos:~ mloftis$ traceroute www.mysql.com traceroute to mysql-adc.oracle.com (137.254.60.6), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  3.065 ms  0.798 ms  1.448 ms
+  2  96.120.101.1 (96.120.101.1)  12.289 ms  9.274 ms  9.744 ms
+  3  te-0-1-0-0-sur02.bellevue.wa.seattle.comcast.net (68.86.113.145)
+ 11.498 ms  8.708 ms  14.447 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  12.184 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  9.187 ms
+     be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  11.595 ms
+  5  he-0-15-0-1-ar01.seattle.wa.seattle.comcast.net (68.85.240.94)  12.756 ms
+     be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  12.613 ms  21.782 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 12.035 ms  12.944 ms  11.011 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute www.he.net
+ traceroute to he.net (216.218.186.2), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.205 ms  1.218 ms  1.103 ms
+  2  96.120.101.1 (96.120.101.1)  8.987 ms  8.738 ms  9.187 ms
+  3  te-0-1-0-0-sur02.bellevue.wa.seattle.comcast.net (68.86.113.145)
+ 9.956 ms  9.791 ms  9.429 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.325 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  16.625 ms  16.423 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  10.978 ms  11.470 ms
+     he-0-15-0-1-ar01.seattle.wa.seattle.comcast.net (68.85.240.94)  11.714 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 14.815 ms  12.986 ms  11.557 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute www.google.com
+ traceroute: Warning: www.google.com has multiple addresses; using 74.125.20.99 traceroute to www.google.com (74.125.20.99), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.390 ms  1.103 ms  1.116 ms
+  2  96.120.101.1 (96.120.101.1)  9.317 ms  8.923 ms  10.132 ms
+  3  te-0-2-0-0-sur03.bellevue.wa.seattle.comcast.net (68.86.113.153)
+ 9.267 ms  11.765 ms  10.088 ms
+  4  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  10.993 ms  23.054 ms  11.369 ms
+  5  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 15.023 ms  13.000 ms  14.430 ms
+  6  be-12-pe03.56marietta.ga.ibone.comcast.net (68.86.82.234)  10.968 ms  11.789 ms  14.294 ms
+  7  * * *
+ loneos:~ mloftis$ traceroute 8.8.8.8
+ traceroute to 8.8.8.8 (8.8.8.8), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.382 ms  1.200 ms  1.118 ms
+  2  96.120.101.1 (96.120.101.1)  7.683 ms  7.869 ms  9.136 ms
+  3  te-0-1-0-1-sur02.bellevue.wa.seattle.comcast.net (68.86.113.141)
+ 9.527 ms  9.973 ms  9.871 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  12.974 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  12.171 ms  11.826 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  12.322 ms  10.624 ms  26.744 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 17.635 ms  13.682 ms  12.770 ms
+  7  he-0-12-0-1-pe04.seattle.wa.ibone.comcast.net (68.86.82.230)
+ 11.546 ms  13.296 ms  12.413 ms
+  8  * * *
+ loneos:~ mloftis$ traceroute netflix.com traceroute to netflix.com (69.53.236.17), 64 hops max, 52 byte packets
+  1  v6fw (10.70.0.1)  1.420 ms  0.927 ms  0.981 ms
+  2  96.120.101.1 (96.120.101.1)  11.685 ms  15.119 ms  8.369 ms
+  3  te-0-1-0-1-sur02.bellevue.wa.seattle.comcast.net (68.86.113.141)
+ 24.195 ms  9.636 ms  9.928 ms
+  4  be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.081 ms
+     be-1-sur03.bellevue.wa.seattle.comcast.net (68.86.96.142)  10.842 ms
+     be-40-ar01.burien.wa.seattle.comcast.net (69.139.164.2)  13.250 ms
+  5  be-40-ar01.seattle.wa.seattle.comcast.net (69.139.164.6)  11.050 ms  11.298 ms  11.361 ms
+  6  he-1-3-0-0-10-cr01.seattle.wa.ibone.comcast.net (68.86.93.165)
+ 14.352 ms  34.253 ms  13.392 ms
+  7  he-0-13-0-0-cr01.sanjose.ca.ibone.comcast.net (68.86.85.162)
+ 30.279 ms  31.711 ms  35.863 ms
+  8  he-0-10-0-0-pe03.11greatoaks.ca.ibone.comcast.net (68.86.85.214)
+ 29.173 ms  31.250 ms  29.302 ms
+  9  * * *
+ On Mon, Oct 20, 2014 at 1:12 PM, John Neiberger <jneiberger at gmail.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+ ------------------------------
+ Message: 4
+ It seems to have now mysteriously gone away/cleared up.  Not at all
+ sure what was going on there.  I'd written it off initially as an
+ issue with my laptop (OSX since a while back seems to need a reboot
+ every few weeks if you've Parallels installed and use it - something
+ inside the network stack goes nuts)
+ On Mon, Oct 20, 2014 at 1:12 PM, John Neiberger <jneiberger at gmail.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+ ------------------------------
+ Message: 5
+ Okay, good to hear! That's very odd. Let me know if it happens again and
+ you need someone to check into it.
+ Thanks,
+ John
+ On Mon, Oct 20, 2014 at 2:24 PM, Michael Loftis <mloftis at wgops.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/5fffb78c/attachment-0001.html>
+ ------------------------------
+ Message: 6
+ Level3?s experiencing a massive back hoe outage. Reports started in Seattle, but now is being reported across the West Coast - updates from there still open ticket: 
+ Reverse cron
+ 10/20/14 7:10:56 PM GMT	 The IP NOC continues to work with the Transport NOC to develop additional services routes so the impacted IP traffic can be migrated to relieve some overutilization. Simultaneously, the Transport NOC has advised that Field Services have arrived onsite and are now assessing the damage while working develop a repair strategy for this case. This is no ETTR for this case at this time.
+ 10/20/14 6:29:31 PM GMT	 The IP NOC has specified that while working to add the necessary bandwidth to mitigate to overutilization causing the IP and Voice service impact, they are also working to re-route services, when possible, to expedite service restoral. The troubleshooting process for this case is ongoing and the IP NOC is unable to provide an ETTR for this case at this time.
+ 10/20/14 6:07:50 PM GMT	 The IPNOC and Transport NOCs efforts to increase the bandwidth between the over utilized markets is being done to expedite service restoral for the impacted markets. The Transport NOC is also working to repair the damaged cable in El Centro, CA. At this time, Field services has isolated the root cause of the break to a construction project and outside plant engineers have been dispatched to the damage site with an ETA of 18:30 GMT. A splice crew has also been dispatched to the failure site with an ETA of 20:00 GMT.
+ 10/20/14 5:56:31 PM GMT	 The IP NOC has advised that the fiber damage was impacting their connectivity to the impacted equipment in the various markets. The IP NOC has resolved the connectivity issue and continues to work with the Transport NOC to increase the bandwidth in the impacted markets.
+ 10/20/14 4:56:40 PM GMT	 The IP NOC has advised that this issue is now impacting multiple markets across the Western United States the event case has been adjusted to reflect the change. The IP NOC has determined that a fiber cut in El Centro, CA has caused multiple route failures between various these western. Specifically, the fiber damage impacted multiple backbones and has caused overutilization between these markets. The IP NOC has engaged the Transport NOC help mitigate the Voice and IP service failure for this case.
+ 10/20/14 4:04:09 PM GMT	 Multiple routing protocol failures in Seattle, WA are impacting IP and voice services. The IP NOC has engaged Senior Level Management to help troubleshoot this issue. The root cause investigation for this case is ongoing at this time.
+ On Oct 20, 2014, at 4:12 PM, John Neiberger via Outages <outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141020/698ea68e/attachment.html>
+ ------------------------------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ------------------------------
+ End of Outages Digest, Vol 77, Issue 27
+ ***************************************
+ Fiber cut was restored at 604 am GMT per Level3
+ Ujjval K
+ >>> 
+ >>> Having serious issues getting outside of Comcast's network starting 
+ >>> around 1250 Pacific time from Seattle area.
+ >>> 
+ >>> 
+ >>> --
+ >>> 
+ >>> "Genius might be described as a supreme capacity for getting its 
+ >>> possessors into trouble of all kinds."
+ >>> -- Samuel Butler
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>> 
+ >>> Having serious issues getting outside of Comcast's network starting
+ >>> around 1250 Pacific time from Seattle area.
+ >>> 
+ >>> 
+ >>> --
+ >>> 
+ >>> "Genius might be described as a supreme capacity for getting its
+ >>> possessors
+ >>> into trouble of all kinds."
+ >>> -- Samuel Butler
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>> Michael,
+ >>> 
+ >>> Can you share some traces?
+ >>> 
+ >>> Thanks,
+ >>> John
+ >>> 
+ >>> On Mon, Oct 20, 2014 at 1:57 PM, Michael Loftis via Outages
+ >>> <outages at outages.org> wrote:
+ >>>> 
+ >>>> Having serious issues getting outside of Comcast's network starting
+ >>>> around 1250 Pacific time from Seattle area.
+ >>>> 
+ >>>> 
+ >>>> --
+ >>>> 
+ >>>> "Genius might be described as a supreme capacity for getting its
+ >>>> possessors
+ >>>> into trouble of all kinds."
+ >>>> -- Samuel Butler
+ >>>> _______________________________________________
+ >>>> Outages mailing list
+ >>>> Outages at outages.org
+ >>>> https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Email to Microsoft Office 365 users
+###############################################################
+ Our last queue check reported DNS failures looking up <domain
+ name>.mail.protection.outlook.com for 11 such domains.
+ Just picking one, staples.com: 
+ root at nagios:/tmp# dig MX staples.com +short
+ 10 staples-com.mail.protection.outlook.com.
+ root at nagios:/tmp# dig  staples-com.mail.protection.outlook.com
+ ; <<>> DiG 9.7.3 <<>> staples-com.mail.protection.outlook.com
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ root at nagios:/tmp# host MX staples.com
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ Anyone else seeing this?  A colleague says that O365 is having issues and
+ will be forwarding me some details.
+ Regards,
+ Frank Bulk
+ I was seeing what looked like "general slowness" when it came to
+ getting A, MX, or ANY back for staples-com.mail.protection.outlook.com.
+ Much of the delay (using +trace on dig) showed high latency in a couple
+ spots, but I never saw any actual timeouts:
+ ;; Received 763 bytes from 192.5.5.241#53(f.root-servers.net) in 885 ms
+ ;; Received 871 bytes from 192.48.79.30#53(j.gtld-servers.net) in 368 ms
+ ;; Received 203 bytes from 65.55.37.62#53(ns1.msft.net) in 204 ms
+ ;; Received 141 bytes from 134.170.140.11#53(ns1-gtm.glbdns.o365filtering.com) in 168 ms
+ Total response time was roughly 4-5 full seconds.  This was around 15:07:40
+ Pacific Time or so, give or take 3-4 minutes.
+ Presently I'm not able to reproduce the behaviour; response times seem
+ to be decent now (1 second tops), with the majority of the remaining
+ delays being here:
+ ;; Received 203 bytes from 208.84.2.53#53(ns2.msft.net) in 305 ms
+ ;; Received 141 bytes from 157.56.116.52#53(ns1-gtm.glbdns.o365filtering.com) in 409 ms
+ Nothing looks bad via mtr, except in the case of packets from me to
+ 157.56.116.52, which appears to be going to Europe (I'm under the
+ impression "ams" refers to Amsterdam):
+ 15. xe-10-2-2-0.bl2-96c-1b.ntwk.msn.net (204.152.140.87)             0.0%    47    46  83.5  83.5  81.3  95.1
+ 16. ae11-0.nyc-96cbe-1b.ntwk.msn.net (207.46.45.85)                 37.8%    46    28  84.8  85.2  82.3  97.8
+ 17. xe-0-3-1-0.lts-96cbe-1b.ntwk.msn.net (207.46.43.47)              0.0%    46    46 156.7 157.1 154.5 165.7
+ 18. xe-2-2-2-0.ams-96c-1a.ntwk.msn.net (207.46.44.59)                4.3%    46    44 167.1 164.8 163.4 172.0
+ 19. ???
+ The latencies here are likely normal, packet loss may be ICMP
+ prioritisation-related (can't tell because destination or preceding
+ routers don't respond to ICMP), but it does bring into question if
+ Microsoft has a form of geo-located GSLB (if not, ignore.  If so, why
+ are queries from the US west coast going to Europe).
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Tue, Oct 21, 2014 at 05:01:22PM -0500, Frank Bulk via Outages wrote:
+ I'm not seeing it on my servers or a couple others...
+ C:\Users\jluthman>dig MX staples.com +short
+ 10 staples-com.mail.protection.outlook.com.
+ C:\Users\jluthman>dig MX staples.com +short @4.2.2.2
+ 10 staples-com.mail.protection.outlook.com.
+ C:\Users\jluthman>dig MX staples.com +short @208.67.222.222
+ 10 staples-com.mail.protection.outlook.com.
+ C:\Users\jluthman>dig MX staples.com +short @pdns131.ultradns.com
+ 10 staples-com.mail.protection.outlook.com.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 21, 2014 at 6:01 PM, Frank Bulk via Outages <outages at outages.org
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141021/65eea6e4/attachment.html>
+  <CAN9qwJ_T3rigrWo6NYJ0nxruu8YZwhuDKiJOUMGuJUrsQRnnRA@mail.gmail.com>
+ I received two confirmations off list of the issue ? thanks.   The one observed it from 4:27 pm and 5:11 pm, Central.
+ Josh, you were checking just the MX records, but before any email server can actually connect to the email server it has to resolve staples-com.mail.protection.outlook.com, which was not working at the time of my original post.
+ Frank
+ From: Josh Luthman [mailto:josh at imaginenetworksllc.com] 
+ Sent: Tuesday, October 21, 2014 5:20 PM
+ Cc: outages at outages.org
+ I'm not seeing it on my servers or a couple others...
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @4.2.2.2 <http://4.2.2.2> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @208.67.222.222 <http://208.67.222.222> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @pdns131.ultradns.com <http://pdns131.ultradns.com> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 21, 2014 at 6:01 PM, Frank Bulk via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Our last queue check reported DNS failures looking up <domain
+ name>.mail.protection.outlook.com <http://mail.protection.outlook.com>  for 11 such domains.
+ Just picking one, staples.com <http://staples.com> :
+ root at nagios:/tmp# dig MX staples.com <http://staples.com>  +short
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ root at nagios:/tmp# dig  staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> 
+ ; <<>> DiG 9.7.3 <<>> staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> 
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ root at nagios:/tmp# host MX staples.com <http://staples.com> 
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ Anyone else seeing this?  A colleague says that O365 is having issues and
+ will be forwarding me some details.
+ Regards,
+ Frank Bulk
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141021/404291a0/attachment.html>
+  <CAN9qwJ_T3rigrWo6NYJ0nxruu8YZwhuDKiJOUMGuJUrsQRnnRA@mail.gmail.com>
+  <000101cfed86$5e307bb0$1a917310$@iname.com>
+ I just pored through our own email logs ? the issue first cropped up at 4:17 pm Central and the last failure I see is 5:01 pm, Central.  But looking at delivery, the last delivery was at 4:22 pm and the first delivery was at 4:58 pm.  So different domains may have started resolving at different times.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk via Outages
+ Sent: Tuesday, October 21, 2014 6:26 PM
+ Cc: outages at outages.org
+ I received two confirmations off list of the issue ? thanks.   The one observed it from 4:27 pm and 5:11 pm, Central.
+ Josh, you were checking just the MX records, but before any email server can actually connect to the email server it has to resolve staples-com.mail.protection.outlook.com, which was not working at the time of my original post.
+ Frank
+ From: Josh Luthman [mailto:josh at imaginenetworksllc.com] 
+ Sent: Tuesday, October 21, 2014 5:20 PM
+ Cc: outages at outages.org <mailto:outages at outages.org> 
+ I'm not seeing it on my servers or a couple others...
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @4.2.2.2 <http://4.2.2.2> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @208.67.222.222 <http://208.67.222.222> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ C:\Users\jluthman>dig MX staples.com <http://staples.com>  +short @pdns131.ultradns.com <http://pdns131.ultradns.com> 
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Oct 21, 2014 at 6:01 PM, Frank Bulk via Outages <outages at outages.org <mailto:outages at outages.org> > wrote:
+ Our last queue check reported DNS failures looking up <domain
+ name>.mail.protection.outlook.com <http://mail.protection.outlook.com>  for 11 such domains.
+ Just picking one, staples.com <http://staples.com> :
+ root at nagios:/tmp# dig MX staples.com <http://staples.com>  +short
+ 10 staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> .
+ root at nagios:/tmp# dig  staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> 
+ ; <<>> DiG 9.7.3 <<>> staples-com.mail.protection.outlook.com <http://staples-com.mail.protection.outlook.com> 
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ root at nagios:/tmp# host MX staples.com <http://staples.com> 
+ ;; connection timed out; no servers could be reached
+ root at nagios:/tmp#
+ Anyone else seeing this?  A colleague says that O365 is having issues and
+ will be forwarding me some details.
+ Regards,
+ Frank Bulk
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141021/f472053e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast packet loss
+###############################################################
+ High packet loss from Highwinds towards github.com.
+ It seems the issue is rooted within Comcast.
+ Time is 16:16:44.371 Wed Oct 22 2014 GMT-0
+ ping -t 192.30.252.129
+ Pinging 192.30.252.129 with 32 bytes of data:
+ Reply from 192.30.252.129: bytes=32 time=474ms TTL=44
+ Request timed out.
+ Reply from 192.30.252.129: bytes=32 time=480ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=483ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=488ms TTL=44
+ Request timed out.
+ Reply from 192.30.252.129: bytes=32 time=485ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=485ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=481ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=484ms TTL=44
+ Reply from 192.30.252.129: bytes=32 time=478ms TTL=44
+ Ping statistics for 192.30.252.129:
+     Packets: Sent = 11, Received = 9, Lost = 2 (18% loss),
+ Approximate round trip times in milli-seconds:
+     Minimum = 474ms, Maximum = 488ms, Average = 482ms
+ Control-C
+ #traceroute 192.30.252.129
+ Type escape sequence to abort.
+ Tracing the route to 192.30.252.129
+   1 200.147.29.137 [AS 7162] 0 msec 0 msec 0 msec
+   2 200.147.29.146 [AS 7162] 0 msec 0 msec 0 msec
+   3  *  *  *
+   4 173.167.57.1 [AS 7922] 120 msec 120 msec 120 msec
+   5 68.86.82.249 [AS 7922] 120 msec 124 msec
+     68.86.82.253 [AS 7922] 124 msec
+   6  *  *  *
+   7  *  *  *
+   8 68.86.83.86 [AS 7922] 472 msec 472 msec 472 msec
+   9  *  *  *
+  10  *  *  *
+ Everton
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141022/9dc5f29d/attachment.html>
+ On Wed, 22 Oct 2014, Everton Marques via Outages wrote:
+ We have a fiber provider outage that's cut all our AT-DC links.  Looking 
+ at MTR's, I have to wonder if Comcast is suffering the same fate right 
+ now.
+ ----------------------------------------------------------------------
+   Jon Lewis, MCP :)           |  I route
+                               |  therefore you are
+ _________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+ I'm not seeing any loss on our side. This is from the first Comcast router
+ you hit:
+ #ping 192.30.252.129 size 1000 count 1000
+ Wed Oct 22 16:34:46.957 utc
+ Type escape sequence to abort.
+ Sending 1000, 1000-byte ICMP Echos to 192.30.252.129, timeout is 2 seconds:
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!
+ Success rate is 100 percent (1000/1000), round-trip min/avg/max = 32/32/33
+ ms
+ >From that same router back to the first hop in your trace:
+ #ping 200.147.29.137 count 500
+ Wed Oct 22 16:36:59.522 utc
+ Type escape sequence to abort.
+ Sending 500, 100-byte ICMP Echos to 200.147.29.137, timeout is 2 seconds:
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !!!!!!!!!!
+ Success rate is 100 percent (500/500), round-trip min/avg/max = 151/152/218
+ ms
+ Long RTT, but it's long distance, so totally what I'd expect. What's
+ interesting to me is the huge RTT in your trace. You might want to check
+ with Highwinds Network Group or Universo Online to see if they can
+ troubleshoot from their network back to you. The path on our side looks
+ good from initial observations.
+ John
+ On Wed, Oct 22, 2014 at 10:19 AM, Everton Marques via Outages <
+ outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141022/38cb8cd4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Broadvox Down
+###############################################################
+ Broadvox  VOIP circuits for inbound DID numbers are 100% down at this time at least on the west coast.  No calls being processed.
+ Kurt Duncan
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141023/4e31b757/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Broadvox Down  (RESOLVED)
+###############################################################
+ Problem was resolved <15 minutes
+ Kurt Duncan
+ From: Kurt Duncan
+ Sent: Wednesday, October 22, 2014 5:21 PM
+ Broadvox  VOIP circuits for inbound DID numbers are 100% down at this time at least on the west coast.  No calls being processed.
+ Kurt Duncan
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141023/0dffdc81/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone else notice the AAAA for www.apple.com is gone?
+###############################################################
+ Our monitoring system alerted me to that.  Almost all our DNS servers have
+ aged it out, except two:
+ Here's what they return from dig AAAA www.apple.com +short
+ DNS server: 192.168.0.93
+ www.isg-apple.com.akadns.net.
+ www.apple.com.edgekey.net.
+ e3191.dscc.akamaiedge.net.
+ e3191.dscc.akamaiedge.net.0.1.cn.akamaiedge.net.
+ Frank
+ Someone from Apple reached out to me shortly after I posted and told me they
+ were going to have the right people look into it.  
+ HTTPv6 was back up at 7:15 pm Central, so down time was about 50 minutes.
+ Public thanks to the unnamed person.
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ (iname.com) via Outages
+ Sent: Thursday, October 23, 2014 5:25 PM
+ Our monitoring system alerted me to that.  Almost all our DNS servers have
+ aged it out, except two:
+ Here's what they return from dig AAAA www.apple.com +short
+ DNS server: 192.168.0.93
+ www.isg-apple.com.akadns.net.
+ www.apple.com.edgekey.net.
+ e3191.dscc.akamaiedge.net.
+ e3191.dscc.akamaiedge.net.0.1.cn.akamaiedge.net.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Intermittent Comcast DNS issues from VT
+###############################################################
+ Since about midnight (Eastern) Comcast's DNS (75.75.75.7[5,6]) has been
+ giving timeouts and the occasional 'no route to host' from Vermont.
+ Switched our resolvers to use Google's Public DNS (via the same Comcast
+ line) and all services returned to normal.
+ Packet traces aren't interesting (just outbound traffic, no responses) and
+ traceroutes to the cdn usually succeed.  dns.comcast.net reports no
+ problems.  Queries at the command line sometimes succeed, sometimes fail,
+ sometimes take a long time to finish.
+ -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141024/efcbae59/attachment.html>
+ Bill,
+ I believe Comcast has anycasted their DNS servers, so if you could provide a traceroute to each IP then if Comcast personnel are lurking they can better guess which one it is.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bill McGonigle via Outages
+ Sent: Friday, October 24, 2014 4:34 AM
+ Since about midnight (Eastern) Comcast's DNS (75.75.75.7[5,6]) has been giving timeouts and the occasional 'no route to host' from Vermont.   Switched our resolvers to use Google's Public DNS (via the same Comcast line) and all services returned to normal.
+ Packet traces aren't interesting (just outbound traffic, no responses) and traceroutes to the cdn usually succeed.  dns.comcast.net <http://dns.comcast.net>  reports no problems.  Queries at the command line sometimes succeed, sometimes fail, sometimes take a long time to finish.
+ -Bill
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141024/0db4034f/attachment.html>
+  <008b01cfef82$9dd76640$d98632c0$@iname.com>
+ Frank is correct. Bill, please send over a traceroute to 75.75.75.75 and
+ 75.75.76.76 and I'll forward that information to the DNS infrastructure
+ team.
+ Thanks,
+ John
+ On Fri, Oct 24, 2014 at 6:04 AM, Frank Bulk via Outages <outages at outages.org
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141024/edd4f701/attachment.html>
+  <008b01cfef82$9dd76640$d98632c0$@iname.com>
+  <CAOQYbjr1W6Eyq7Nzy40AC_d4oiguEGUU+dMiX+Af5a60r4Mqkw@mail.gmail.com>
+ At home I have Comcast in Colchester, VT, I have systems monitoring a 
+ bunch of points from outside and inside including a RIPE ATLAS PROBE,  
+ using Comcast DNS listed below.   None of my systems reported an drop or 
+ degradation of any service.   Sorry, I do not have a mtr to provide.
+ -Mike
+ Michael T. Voity
+ Network Engineer
+ University of Vermont
+ On 10/24/2014 8:48 AM, John Neiberger via Outages wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141024/98cf2d99/attachment-0001.html>
+  <008b01cfef82$9dd76640$d98632c0$@iname.com>
+  <CAOQYbjr1W6Eyq7Nzy40AC_d4oiguEGUU+dMiX+Af5a60r4Mqkw@mail.gmail.com>
+ John,
+ A number of your anycast nodes for 75.75.75.75 and 75.75.76.76 appear
+ to be rate limiting ICMP rather aggressively.
+ I'd recommend cranking this up for purposes of troubleshooting.
+ Best,
+ -a
+ On Fri, Oct 24, 2014 at 8:48 AM, John Neiberger via Outages
+ <outages at outages.org> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Dynamic blocklists to IOS ACL
+###############################################################
+ Sorry for the off-topic post, but Google has not yielded much so I thought
+ I would ask here.
+ Does anyone know of, or have a script that can take in ip blocklists from
+ https://www.iblocklist.com/lists.php and update a router's ACL? (IOS 12.x)
+ ______________________________________________________________
+ Clayton Dukes
+ ______________________________________________________________
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141025/bb623326/attachment.html>
+ I think that would be a great example of how to use a TCL script with EEM.  
+ Regards,
+ Joe Sanchez
+ (Please excuse the brevity, misspelled words and sentence structure of this email as it was sent via a supposed smart device.) 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141025/232f3308/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+.mil MX Servers?
+###############################################################
+ Seeing issues connecting to a number of .mil MX servers this morning
+ (via port 25).
+ I'm able to reproduce the issue from external hosts so I don't
+ *believe* it's just us, but still investigating.
+ Anyone else seeing this?
+ Ray
+ Hello,
+ Our network is also unable resolve MX records for a number of .mil domains. Not sure of the root cause. What information do you have thus far?
+ --
+ Blake Covarrubias
+  <01EF4974-BA9D-461C-A82B-AB0CD9909FF2@beamspeed.com>
+ Is it possible for someone to provide output from something like
+ "dig mx navy.mil. +trace" ?
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Mon, Oct 27, 2014 at 03:36:31PM -0700, Blake Covarrubias via Outages wrote:
+  <01EF4974-BA9D-461C-A82B-AB0CD9909FF2@beamspeed.com>
+  <20141027235813.GA28522@icarus.home.lan>
+ On Mon, Oct 27, 2014 at 4:58 PM, Jeremy Chadwick via Outages <
+ outages at outages.org> wrote:
+ ?Here you go:
+ $ dig mx navy.mil. +trace
+ ; <<>> DiG 9.8.3-P1 <<>> mx navy.mil. +trace
+ ;; global options: +cmd
+ . 765 IN NS e.root-servers.net.
+ . 765 IN NS k.root-servers.net.
+ . 765 IN NS h.root-servers.net.
+ . 765 IN NS c.root-servers.net.
+ . 765 IN NS d.root-servers.net.
+ . 765 IN NS m.root-servers.net.
+ . 765 IN NS f.root-servers.net.
+ . 765 IN NS b.root-servers.net.
+ . 765 IN NS a.root-servers.net.
+ . 765 IN NS g.root-servers.net.
+ . 765 IN NS i.root-servers.net.
+ . 765 IN NS l.root-servers.net.
+ . 765 IN NS j.root-servers.net.
+ ;; Received 228 bytes from 8.8.8.8#53(8.8.8.8) in 2230 ms
+ mil. 172800 IN NS con1.nipr.mil.
+ mil. 172800 IN NS con2.nipr.mil.
+ mil. 172800 IN NS eur1.nipr.mil.
+ mil. 172800 IN NS eur2.nipr.mil.
+ mil. 172800 IN NS pac1.nipr.mil.
+ mil. 172800 IN NS pac2.nipr.mil.
+ ;; Received 241 bytes from 192.203.230.10#53(192.203.230.10) in 1118 ms
+ NAVY.mil. 21600 IN NS UPBD0FDA02.CSD.DISA.MIL.
+ NAVY.mil. 21600 IN NS UPBD0FDA01.CSD.DISA.MIL.
+ NAVY.mil. 21600 IN NS UPHB0FDA05.CSD.DISA.MIL.
+ NAVY.mil. 21600 IN NS UPHB0FDA06.CSD.DISA.MIL.
+ NAVY.mil. 21600 IN NS GUV10M01.MONT.DISA.MIL.
+ NAVY.mil. 21600 IN NS UTINDO02.CSD.DISA.MIL.
+ NAVY.mil. 21600 IN NS GUV10M02.MONT.DISA.MIL.
+ ;; Received 414 bytes from 199.252.180.234#53(199.252.180.234) in 1338 ms
+ navy.mil. 69510 IN MX 20 sec-jeemsg.eemsg.mail.MIl.
+ navy.mil. 85048 IN MX 30 mx14.nmci.nAVy.MIl.
+ navy.mil. 85048 IN MX 30 mx13.nmci.nAVy.MIl.
+ navy.mil. 85048 IN MX 10 pri-jeemsg.eemsg.mail.MIl.
+ navy.mil. 85048 IN MX 30 mx15.nmci.nAVy.MIl.
+ ;; Received 167 bytes from 214.3.160.21#53(214.3.160.21) in 222 ms?
+ -- 
+ Alan K. Stebbens
+ Software Architect
+ Ecorithm, Inc.
+ 805-886-8886
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141027/85a78ff1/attachment.html>
+  <01EF4974-BA9D-461C-A82B-AB0CD9909FF2@beamspeed.com>
+  <20141027235813.GA28522@icarus.home.lan>
+ The examples I've received so far from folks match the same thing I'm
+ seeing from two separate/unrelated connections (meaning I clearly get
+ back MX records, and all those have A records (dig a fqdn)), so I'm
+ hoping Blake and Ray can run the same and determine what's failing and
+ where.  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Mon, Oct 27, 2014 at 04:58:13PM -0700, Jeremy Chadwick via Outages wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Network Event Affecting Voice Service in Phila
+###############################################################
+ We have voice and data with L3, this is affecting our voice service with but not our data...
+ Network Event Ticket ID  8525393
+ 10/28/2014 6:50 PM GMT
+ The Transport NOC reports that a card failure in Philadelphia, PA is affecting protected services. Tier III is actively engaged and is investigating at this time.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141028/af9af6f8/attachment.html>
+ Was this a down hard event or intermittent loss?
+ On Oct 28, 2014 3:19 PM, "Tim Glen via Outages" <outages at outages.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141029/a075546e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+3,2,1 who is going to be the first to ask if fb is down
+###############################################################
+ -- 
+ Sent from my Android device with K-9 Mail. Please excuse my brevity.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141028/a5784322/attachment.html>
+ Our monitoring system showed that HTTPv6 access (from our perspective) was down from 5:56 to 6:16 pm (Central)
+ Service Ok[10-28-2014 18:16:30] SERVICE ALERT: www_facebook_com;HTTPv6;OK;HARD;2;HTTP OK: HTTP/1.1 200 OK - 49776 bytes in 0.488 second response time
+ Service Critical[10-28-2014 17:57:30] SERVICE ALERT: www_facebook_com;HTTPv6;CRITICAL;HARD;2;HTTP CRITICAL: HTTP/1.1 500 Internal Server Error - 962 bytes in 0.378 second response time
+ Service Critical[10-28-2014 17:56:30] SERVICE ALERT: www_facebook_com;HTTPv6;CRITICAL;SOFT;1;HTTP CRITICAL: HTTP/1.1 500 Internal Server Error - 962 bytes in 0.367 second response time
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Chaim Rieger via Outages
+ Sent: Tuesday, October 28, 2014 6:19 PM
+ -- 
+ Sent from my Android device with K-9 Mail. Please excuse my brevity.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141029/9594540a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+3, 2, 1 who is going to be the first to ask if fb is down
+###############################################################
+ It's not down, I got a fine blank page no problem.
+ brandon
+###############################################################
+END
+###############################################################
+
+###############################################################
+Peerless down
+###############################################################
+ Peerless voice services are down. They are aware of the issue and currently there is no ETA.
+ Regards,
+ Dovid
+ I am out of the office and will return on Tuesday November 4th.
+ If this is a network emergency please contact the NOC at 877-742-8272 or noc at zitobusiness.com
+ On Oct 30, 2014, at 11:15 PM, Dovid Bender via Outages <outages at outages.org> wrote:
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: text/enriched
+ Size: 567 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20141031/0b02a4eb/attachment.bin>
+###############################################################
+END
+###############################################################
+

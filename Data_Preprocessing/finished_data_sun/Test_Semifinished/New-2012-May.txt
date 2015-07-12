@@ -1,0 +1,1096 @@
+###############################################################
+Verizon ATM outage in 228 LATA?
+###############################################################
+  We seem to be experiencing a Verizon outage in the Philadelphia area for ISP
+ wholesale.  
+ Just wondering if anyone has received a trouble ticket or anything?
+ Sincerely,
+ Eric Tykwinski
+ TrueNet, Inc.
+ P: 610-429-8300
+ F: 610-429-3222
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120502/35677761/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+weather.com issues - contacts?
+###############################################################
+ Folks,
+ Anyone have any ops contacts over @ weather.com ?  We use a service they
+ provide us (complete with custom hostnames) and...well...it's timing out a
+ lot.
+ As usual with these sorts of things, it's a years-gone-by setup done by
+ people long gone....
+ [note that it's definitely application side, anyway, not network. ;) but
+ still breaking for us. ]
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+ got'm, thanks
+ --
+ david raistrick        http://www.netmeister.org/news/learn2quote.html
+ drais at icantclick.org             http://www.expita.com/nomime.html
+ They made some *major* changes to their site recently, you might have
+ some direct links that no longer work. Just a thought...
+   -Bill
+ On
+ they
+ out a
+ by
+ but
+###############################################################
+END
+###############################################################
+
+###############################################################
+myhosting.com down
+###############################################################
+ I have a VPS that lost connectivity around 10:07pm EDT.  I cannot access their main web site or their management site either.  I am guessing they lost something on their core network.
+ 11  ix-21-0.tcore2.aeq-ashburn.as6453.net (216.6.87.65)  55.261 ms  55.238 ms  54.771 ms
+ 12  if-3-2.tcore2.njy-newark.as6453.net (216.6.87.10)  79.472 ms  79.164 ms  79.678 ms
+ 13  if-2-2.tcore1.njy-newark.as6453.net (66.198.70.1)  79.585 ms  79.830 ms  77.996 ms
+ 14  if-3-0-0.mcore3.ttt-scarborough.as6453.net (216.6.98.1)  3714.893 ms
+     if-12-0-0.mcore3.ttt-scarborough.as6453.net (216.6.98.33)  78.635 ms  78.258 ms
+ 15  if-1-0-0.core4.tnk-toronto.as6453.net (63.243.172.1)  78.768 ms  78.559 ms  78.556 ms
+ 16  * * *
+ Jim Lohiser
+ Imagine Net, Inc.
+  <CABNKB=cVfyaQGsV6SznmWhkYUAV=St-DYYitwtsL8LOsaqD5Gw@mail.gmail.com>
+ It looks like they came back up around 10:57pm.
+ Jim Lohiser
+ Imagine Net, Inc.
+ On May 7, 2012, at 11:02 PM, Jayson Baker wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120507/e7634628/attachment.html>
+ Works fine from Colorado via Cogent.
+ Best Wishes,
+ Jayson A. Baker
+ Peak Internet
+ Direct: (719) 686-8161
+ Sales/Support: (719) 686-0250
+ Like Us On Facebook: http://www.facebook.com/peakinternetco
+ On Mon, May 7, 2012 at 8:49 PM, Network Operations <NOC at imaginenet.net>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120507/12e6857e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Manhole fire, Pittsburgh PA
+###############################################################
+ FYI
+ -----Original Message-----
+ From: Justin M. Streiner [mailto:streiner at cluebyfour.org] 
+ Sent: Wednesday, May 09, 2012 11:37 AM
+ There was a manhole/electrical vault fire this morning in Pittsburgh on 
+ Fifth Ave in the Oakland area.  Numerous telcos/dark fiber providers 
+ affected (Level3, Verizon, DQE Communications, Fibertech Networks, 
+ possibly others).  Initial outage accurred at about 03:15 EDT today. 
+ Current restoration estimate is 15:00-16:00 EDT today.
+ jms
+###############################################################
+END
+###############################################################
+
+###############################################################
+Tuxedo NY cut
+###############################################################
+ My service through  Tuxedo NY just normalized around 1:30 eastern
+ -Keith
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jean-Fran?ois L?vesque
+ Sent: Wednesday, May 09, 2012 6:09 PM
+ Cc: outages at outages.org
+ Fiber cut in Tuxedo, NY. Affecting Level3 and others.
+ Master ticket: 5584082
+ No ETR.
+ JF
+ On Wed, May 9, 2012 at 5:54 PM, Jonathan Towne <jtowne at slic.com<mailto:jtowne at slic.com>> wrote:
+ Has anyone heard anything else about this?  I've been having issues on Level3
+ in upstate NY all day.
+ -- Jonathan Towne
+ On Wed, May 09, 2012 at 12:52:19PM -0500, Frank Bulk scribbled:
+ # FYI
+ #
+ # -----Original Message-----
+ # From: Justin M. Streiner [mailto:streiner at cluebyfour.org<mailto:streiner at cluebyfour.org>]
+ # Sent: Wednesday, May 09, 2012 11:37 AM
+ # To: nanog at nanog.org<mailto:nanog at nanog.org>
+ # Subject: Manhole fire, Pittsburgh PA
+ #
+ # There was a manhole/electrical vault fire this morning in Pittsburgh on
+ # Fifth Ave in the Oakland area.  Numerous telcos/dark fiber providers
+ # affected (Level3, Verizon, DQE Communications, Fibertech Networks,
+ # possibly others).  Initial outage accurred at about 03:15 EDT today.
+ # Current restoration estimate is 15:00-16:00 EDT today.
+ #
+ # jms
+ #
+ #
+ #
+ # _______________________________________________
+ # Outages mailing list
+ # Outages at outages.org<mailto:Outages at outages.org>
+ # https://puck.nether.net/mailman/listinfo/outages
+ #
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120510/46121ea5/attachment.html>
+ I'm getting reports from our people in NY that things have been back
+ to normal for a while now as well.
+ On Thu, May 10, 2012 at 11:14 AM, Wallace Keith
+ <kwallace at pcconnection.com> wrote:
+ -- 
+ "Prediction is very difficult, especially about the future." -Niels Bohr
+ --
+ Ray Sanders
+ Linux Administrator
+ Village Voice Media
+ Office: 602-744-6547
+ Cell: 602-300-4344
+  <CAGXLLL1ryGNgGG7ZTgt6fXh-ioyOqSM-K6aenhwcT=LsSpNYtA@mail.gmail.com>
+ According to the Level 3 ticket the problems have been resolved.
+ 5/10/12 3:25:40 PM GMT
+ The Transport NOC confirmed that all of the associated alarms have cleared.
+ All customer services are confirmed restored as of 14:38 GMT.
+ 5/10/12 3:04:37 PM GMT
+ The Transport NOC advised that OSP engineers have reported all re-splicing
+ complete at this time. The Transport NOC is confirming that all associated
+ alarms have cleared and that all customer services have restored.
+ Regards,
+ Tim Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success?
+ Email: tglen at asicentral.com
+ Phone: (215) 953-3692
+ Fax: (215) 953-3759
+ Web: www.asicentral.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Ray Sanders
+ Sent: Thursday, May 10, 2012 2:52 PM
+ Cc: outages at outages.org
+ I'm getting reports from our people in NY that things have been back to
+ normal for a while now as well.
+ On Thu, May 10, 2012 at 11:14 AM, Wallace Keith <kwallace at pcconnection.com>
+ wrote:
+ --
+ "Prediction is very difficult, especially about the future." -Niels Bohr
+ --
+ Ray Sanders
+ Linux Administrator
+ Village Voice Media
+ Office: 602-744-6547
+ Cell: 602-300-4344
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 3684 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120510/8af3232b/attachment.bin>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent issues in NY?
+###############################################################
+ Hello,
+ Is anyone experiencing issues with web browsing on Cogent? For about an hour now, we're seeing intermittent slowness and page loads stalling. All other Internet connectivity seem to be fine. DNS appears to be working properly (and we're seeing the same issue if we use 4.2.2.2 or other public DNS.)
+ We called Cogent support and they said there are no reported issues, but they are going to open a ticket and get back to us.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120514/be8529fa/attachment.html>
+ Turns out Cogent is having a "backbone issue", according to the tech who called us back. ETR is unknown but evidently involves reseating something :)
+ They must have re-routed traffic for now; we're back up to full speed.
+ Thanks again to the folks who replied to my initial report!
+ Chad
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chad Sutton
+ Sent: Monday, May 14, 2012 3:07 PM
+ Hello,
+ Is anyone experiencing issues with web browsing on Cogent? For about an hour now, we're seeing intermittent slowness and page loads stalling. All other Internet connectivity seem to be fine. DNS appears to be working properly (and we're seeing the same issue if we use 4.2.2.2 or other public DNS.)
+ We called Cogent support and they said there are no reported issues, but they are going to open a ticket and get back to us.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120514/06660aa4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent issues in New Orleans
+###############################################################
+ We're getting a few spikes here in there in our internet bound traffic
+ through the cogent feed. One of their routers is spiking in latency
+ intermittently and slowing our upstream speeds down.  Anyone seeing
+ anything similar events?
+ Troy,
+ Troy Bourque, MBA
+ CCNA, CQS-CWLSS
+ Troy at idsno.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120514/d702a2be/attachment.html>
+ Folks.... FYI we peer at 38.104.196.201 with Cogent.  Frank reminded me
+ that I did not mention our peering point.   thanks Frank.
+ troy
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Troy Bourque
+ Sent: Monday, May 14, 2012 4:23 PM
+ We're getting a few spikes here in there in our internet bound traffic
+ through the cogent feed. One of their routers is spiking in latency
+ intermittently and slowing our upstream speeds down.  Anyone seeing
+ anything similar events?
+ Troy,
+ Troy Bourque, MBA
+ CCNA, CQS-CWLSS
+ Troy at idsno.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120514/4c0e2160/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages in Hawaii?
+###############################################################
+ TW/HawaiianTel is reporting an outage in Hawaii as an FYI. Multiple Last mile breaks. Existing Breaks specifically on Oahu at the moment.
+ ________________________________
+ This email and any attached files may contain confidential and/or privileged material and is intended solely for the use of the person to whom it is addressed. Any review, retransmission, dissemination or other use of or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender immediately and delete it and all attachments from your computer. Progressive Solutions is not liable for any errors or omissions in the content or transmission of this email.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120514/8237c86b/attachment.html>
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ From: "Roberts, Brent" <Brent.Roberts at progressive-solutions.com>
+ TW/HawaiianTel is reporting an outage in Hawaii as an FYI. Multiple Last mile breaks. Existing Breaks specifically on Oahu at the moment.
+ -----------------------------------------------------
+ Which one?  TW or Hawaiian Telcom or both?  Where did you 
+ hear it from?  Got link? :)
+ scott
+ that's a helluva .sig you got going there.  Am I a "person to 
+ whom it is addressed"?  Should I forget what I have already 
+ read by the time I got to it?  
+ ________________________________
+ This email and any attached files may contain confidential and/or privileged material and is intended solely for the use of the person to whom it is addressed. Any review, retransmission, dissemination or other use of or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender immediately and delete it and all attachments from your computer. Progressive Solutions is not liable for any errors or omissions in the content or transmission of this email.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ --- surfer at mauigateway.com wrote:
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ TW/HawaiianTel is reporting an outage in Hawaii as an FYI. Multiple Last mile breaks. Existing Breaks specifically on Oahu at the moment.
+ -----------------------------------------------------
+ Which one?  TW or Hawaiian Telcom or both?  Where did you 
+ hear it from?  Got link? :)
+ -----------------------------------------------------
+ Looks like it's HT only.  I found this:
+ http://www.aroundhawaii.com/support/cable_status/
+ No trouble reported there...
+ scott
+ ----------
+ -----------
+ ---------
+ I was going to make mention to last Wednesday's "maintenance". And that the True last mile section was via HT to a few different endpoints. I was told that this was something left over from last week's work.
+ B
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Scott Weeks
+ Sent: Monday, May 14, 2012 5:55 PM
+ --- surfer at mauigateway.com wrote:
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ TW/HawaiianTel is reporting an outage in Hawaii as an FYI. Multiple Last mile breaks. Existing Breaks specifically on Oahu at the moment.
+ -----------------------------------------------------
+ Which one?  TW or Hawaiian Telcom or both?  Where did you hear it from?  Got link? :)
+ -----------------------------------------------------
+ Looks like it's HT only.  I found this:
+ http://www.aroundhawaii.com/support/cable_status/
+ No trouble reported there...
+ scott
+ ----------
+ -----------
+ ---------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ________________________________
+ This email and any attached files may contain confidential and/or privileged material and is intended solely for the use of the person to whom it is addressed. Any review, retransmission, dissemination or other use of or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender immediately and delete it and all attachments from your computer. Progressive Solutions is not liable for any errors or omissions in the content or transmission of this email.
+ -----Original Message-----
+ --- surfer at mauigateway.com wrote:
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ TW/HawaiianTel is reporting an outage in Hawaii as an FYI. Multiple Last mile breaks. Existing Breaks specifically on Oahu at the moment.
+ -----------------------------------------------------
+ Which one?  TW or Hawaiian Telcom or both?  Where did you hear it from?  Got link? :)
+ -----------------------------------------------------
+ Looks like it's HT only.  I found this:
+ http://www.aroundhawaii.com/support/cable_status/
+ No trouble reported there...
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ I was going to make mention to last Wednesday's "maintenance". And that the True last mile section was via HT to a few different endpoints. I was told that this was something left over from last week's work.
+ -------------------------------------------------------
+ Can you point to a source URL, or is this known from some circuits 
+ you have here?  I did (and still see) my home circuit to them down.
+ My home circuit to Oceanic TW doesn't seem to be affected, though.
+ scott
+ ----------
+ -----------
+ ---------
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ________________________________
+ This email and any attached files may contain confidential and/or privileged material and is intended solely for the use of the person to whom it is addressed. Any review, retransmission, dissemination or other use of or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender immediately and delete it and all attachments from your computer. Progressive Solutions is not liable for any errors or omissions in the content or transmission of this email.
+ I have 3 circuits in the Area and all have been flapping all day. When I opened the tickets with the provider this is the Verbal speel I got. At last check the flakiest circuit has been stable for about an hour & a half.
+ BR
+ ---
+ Can you point to a source URL, or is this known from some circuits you have here?  I did (and still see) my home circuit to them down.
+ My home circuit to Oceanic TW doesn't seem to be affected, though.
+ scott
+ ________________________________
+ This email and any attached files may contain confidential and/or privileged material and is intended solely for the use of the person to whom it is addressed. Any review, retransmission, dissemination or other use of or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender immediately and delete it and all attachments from your computer. Progressive Solutions is not liable for any errors or omissions in the content or transmission of this email.
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ From: "Roberts, Brent" <Brent.Roberts at progressive-solutions.com>
+ I have 3 circuits in the Area and all have been flapping all day. When I opened the tickets with the provider this is the Verbal speel I got. At last check the flakiest circuit has been stable for about an hour & a half.
+ ------------------------------------------------
+ Ah, ok.  And it appears to be HT only.  Thanks for the info.
+ scott
+ -----------
+ -------
+ --- surfer at mauigateway.com wrote:
+ --- Brent.Roberts at progressive-solutions.com wrote:
+ I have 3 circuits in the Area and all have been flapping all day. When I opened the tickets with the provider this is the Verbal speel I got. At last check the flakiest circuit has been stable for about an hour & a half.
+ ------------------------------------------------
+ Ah, ok.  And it appears to be HT only.  Thanks for the info.
+ ------------------------------------------------
+ Just a brief update.  Please direct any other conversation to 
+ the discuss list...
+ It does appear to be HT only.  My circuit to them was still down
+ this morning as I left for work.  It was down all day yesterday (HST).
+ No troubles with my Oceanic TW yesterday or this morning.  Also, I 
+ have found nothing in the media or at the HT site, which doesn't seem 
+ to be kept up to date any longer: 
+ http://www.hawaiiantel.com/Support/ResidentialSupport/SupportAlertCategory/tabid/579/Default.aspx
+ scott
+ (who is happy he doesn't work for HT at this moment as those're 
+ hell days where you may be up for 30-40 hours)
+ -----------
+ -------
+###############################################################
+END
+###############################################################
+
+###############################################################
+TcpDump.org ? Cogent ? Something else ?
+###############################################################
+ Anyone else seeing this ?
+ traceroute to bpf.tcpdump.org (132.213.238.6), 64 hops max, 40 byte packets
+ [...]
+  3  [AS65534] 10.179.128.1 (10.179.128.1)  19.811 ms  17.924 ms  19.907 ms
+  4  [AS20115] dtr01hlldmi-gbe-1-14.hlld.mi.charter.com (96.34.33.162)  19.865 ms  17.277 ms  19.886 ms
+  5  [AS20115] crr02aldlmi-tge-0-2-0-2.aldl.mi.charter.com (96.34.32.76)  20.099 ms  17.531 ms  19.782 ms
+  6  [AS20115] bbr01aldlmi-tge-0-0-0-5.aldl.mi.charter.com (96.34.1.162)  19.832 ms  17.328 ms  19.993 ms
+  7  [AS20115] bbr01chcgil-tge-0-0-0-6.chcg.il.charter.com (96.34.0.57)  29.771 ms  27.124 ms  29.923 ms
+  8  [AS20115] bbr02chcgil-tge-0-3-0-1.chcg.il.charter.com (96.34.1.185)  19.973 ms  27.418 ms  29.916 ms
+  9  [AS174] te0-4-0-4.ccr21.ord03.atlas.cogentco.com (38.104.102.233)  19.841 ms  17.317 ms  19.748 ms
+ 10  [AS174] te0-2-0-1.mpd21.ord01.atlas.cogentco.com (154.54.2.93)  22.040 ms
+     [AS174] te0-5-0-7.mpd22.ord01.atlas.cogentco.com (154.54.44.181)  27.478 ms
+     [AS174] te0-5-0-7.mpd21.ord01.atlas.cogentco.com (154.54.44.173)  16.951 ms
+ 11  [AS174] te0-1-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.6.181)  51.184 ms
+     [AS174] te0-1-0-3.mpd21.yyz02.atlas.cogentco.com (154.54.2.162)  47.444 ms
+     [AS174] te0-3-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.42.14)  47.155 ms
+ 12  [AS174] te0-3-0-5.ccr21.ymq02.atlas.cogentco.com (154.54.42.226)  47.212 ms
+     [AS174] te0-3-0-3.ccr21.ymq02.atlas.cogentco.com (154.54.7.214)  47.067 ms
+     [AS174] te0-5-0-2.ccr21.ymq02.atlas.cogentco.com (154.54.44.117)  46.930 ms
+ 13  [AS174] 38.104.154.62 (38.104.154.62)  57.172 ms  47.932 ms  39.896 ms
+ 14  [AS852] dmtrl-rq.risq.net (192.77.63.50)  39.825 ms  47.695 ms  49.698 ms
+ 15  [AS852] uq-gw.risq.net (132.202.61.142)  50.180 ms  47.221 ms  59.678 ms
+ 16  [AS852] uq-membre.risq.net (206.167.128.90)  49.880 ms  47.619 ms  49.141 ms
+ 17  * * *
+ 18  [AS376] 132.213.254.254 (132.213.254.254)  3790.347 ms !H  3907.398 ms !H  4000.063 ms !H
+ -- 
+  - (2^(N-1))
+ This isn't an outage related issue - you have provided a traceroute with
+ some reference to Cogent??
+ A quick DIG of their domain name shows several different A records coming
+ back for www.tcpdump.org:
+ www.tcpdump.org.        60      IN      A       132.213.238.6
+ www.tcpdump.org.        60      IN      A       178.77.96.193
+ www.tcpdump.org.        60      IN      A       69.4.231.52
+ One of those A records is the result of the traceroute you show below.  So
+ what is the actual problem you are encountering?
+ Paul
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jason Hellenthal
+ Sent: Saturday, May 19, 2012 4:31 PM
+ Anyone else seeing this ?
+ traceroute to bpf.tcpdump.org (132.213.238.6), 64 hops max, 40 byte packets
+ [...]
+  3  [AS65534] 10.179.128.1 (10.179.128.1)  19.811 ms  17.924 ms  19.907 ms
+  4  [AS20115] dtr01hlldmi-gbe-1-14.hlld.mi.charter.com (96.34.33.162)
+ 19.865 ms  17.277 ms  19.886 ms
+  5  [AS20115] crr02aldlmi-tge-0-2-0-2.aldl.mi.charter.com (96.34.32.76)
+ 20.099 ms  17.531 ms  19.782 ms
+  6  [AS20115] bbr01aldlmi-tge-0-0-0-5.aldl.mi.charter.com (96.34.1.162)
+ 19.832 ms  17.328 ms  19.993 ms
+  7  [AS20115] bbr01chcgil-tge-0-0-0-6.chcg.il.charter.com (96.34.0.57)
+ 29.771 ms  27.124 ms  29.923 ms
+  8  [AS20115] bbr02chcgil-tge-0-3-0-1.chcg.il.charter.com (96.34.1.185)
+ 19.973 ms  27.418 ms  29.916 ms
+  9  [AS174] te0-4-0-4.ccr21.ord03.atlas.cogentco.com (38.104.102.233)
+ 19.841 ms  17.317 ms  19.748 ms
+ 10  [AS174] te0-2-0-1.mpd21.ord01.atlas.cogentco.com (154.54.2.93)  22.040
+ ms
+     [AS174] te0-5-0-7.mpd22.ord01.atlas.cogentco.com (154.54.44.181)  27.478
+ ms
+     [AS174] te0-5-0-7.mpd21.ord01.atlas.cogentco.com (154.54.44.173)  16.951
+ ms
+ 11  [AS174] te0-1-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.6.181)  51.184
+ ms
+     [AS174] te0-1-0-3.mpd21.yyz02.atlas.cogentco.com (154.54.2.162)  47.444
+ ms
+     [AS174] te0-3-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.42.14)  47.155
+ ms
+ 12  [AS174] te0-3-0-5.ccr21.ymq02.atlas.cogentco.com (154.54.42.226)  47.212
+ ms
+     [AS174] te0-3-0-3.ccr21.ymq02.atlas.cogentco.com (154.54.7.214)  47.067
+ ms
+     [AS174] te0-5-0-2.ccr21.ymq02.atlas.cogentco.com (154.54.44.117)  46.930
+ ms
+ 13  [AS174] 38.104.154.62 (38.104.154.62)  57.172 ms  47.932 ms  39.896 ms
+ 14  [AS852] dmtrl-rq.risq.net (192.77.63.50)  39.825 ms  47.695 ms  49.698
+ ms
+ 15  [AS852] uq-gw.risq.net (132.202.61.142)  50.180 ms  47.221 ms  59.678 ms
+ 16  [AS852] uq-membre.risq.net (206.167.128.90)  49.880 ms  47.619 ms
+ 49.141 ms
+ 17  * * *
+ 18  [AS376] 132.213.254.254 (132.213.254.254)  3790.347 ms !H  3907.398 ms
+ !H  4000.063 ms !H
+ -- 
+  - (2^(N-1))
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I'm seeing the exact same behaviour in traceroute.  I only tracerouted
+ to 132.213.238.6, by the way, so the DNS RR A record stuff for
+ tcpdump.org does not apply.
+ !H means host unreachable as I'm sure you know.  Based on the IP address
+ below (132.213.254.254, which looks like a router) returning !H, I would
+ say the host 132.213.238.6 itself is down.
+ Tried sending Email to any of the individuals listed in the WHOIS record
+ for tcpdump.org?  I'd give that a shot first.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sat, May 19, 2012 at 04:30:53PM -0400, Jason Hellenthal wrote:
+  <20120519224149.GA32621@icarus.home.lan>
+ Ummm... ok.
+ I can pull up the site no problem today and was able to yesterday as well -
+ and my DNS was resolving to 132.213.238.6
+ The original poster simply asked "anyone seen this before?" - there was no
+ indication of WHAT the problem was and how it's operationally impacting
+ (therefore appropriate for this list as I would understand it).
+ Just because you are seeing "host unreachable" doesn't mean that the content
+ *behind* it won't be served.  Someone is doing some filtering on their
+ router/firewall - pretty common stuff.
+ Am I missing something here? ;)
+ Paul
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Saturday, May 19, 2012 6:42 PM
+ Cc: outages at outages.org
+ I'm seeing the exact same behaviour in traceroute.  I only tracerouted to
+ 132.213.238.6, by the way, so the DNS RR A record stuff for tcpdump.org does
+ not apply.
+ !H means host unreachable as I'm sure you know.  Based on the IP address
+ below (132.213.254.254, which looks like a router) returning !H, I would say
+ the host 132.213.238.6 itself is down.
+ Tried sending Email to any of the individuals listed in the WHOIS record for
+ tcpdump.org?  I'd give that a shot first.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sat, May 19, 2012 at 04:30:53PM -0400, Jason Hellenthal wrote:
+ ms
+ 27.478 ms
+ 51.184 ms
+ 47.444 ms
+ 47.212 ms
+ 47.067 ms
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <20120519224149.GA32621@icarus.home.lan>
+  <378f01cd368c$3a9ea810$afdbf830$@paulstewart.org>
+ --As of May 20, 2012 9:26:52 AM -0400, Paul Stewart is alleged to have said:
+ --As for the rest, it is mine.
+ Just that a 50% loss rate and a *4 second* ping time aren't considered 
+ 'normal' for most networks.  ;)  (And are usually a sign of something 
+ seriously wrong someplace...)  Oh: and 'host unreachable' isn't the same as 
+ 'filtered from the host': It means the previous hop doesn't know how to 
+ send the packet on.  (Traceroute would normally show a filtered/lost ping 
+ as a splat.  H! means it got back a reply saying that the host was 
+ unreachable.)
+ I'm seeing the same thing here, from a Comcast 'business' connection:
+  2  73.235.158.1 (73.235.158.1)  10.086 ms  10.514 ms  9.888 ms
+  3  ge-2-14-ur01.martinsburg.wv.bad.comcast.net (68.87.130.25)  9.381 ms 
+ 9.584 ms  9.882 ms
+  4  po-100-ur01.catharpin.va.bad.comcast.net (68.87.128.5)  12.888 ms 
+ 12.174 ms  12.488 ms
+  5  ae-5-0-ar04.manassascc.va.bad.comcast.net (68.85.67.117)  11.588 ms 
+ 11.782 ms  11.987 ms
+  6  so-7-1-0-0-ar04.capitolhghts.md.bad.comcast.net (69.139.175.121) 
+ 13.788 ms  17.581 ms
+     69.139.175.129 (69.139.175.129)  14.591 ms
+  7  pos-5-3-0-0-cr01.ashburn.va.ibone.comcast.net (68.86.93.137)  17.950 ms
+     pos-3-3-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.90.193)  24.597 ms
+     pos-3-5-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.91.181)  19.568 ms
+  8  pos-1-5-0-0-pe01.111eighthave.ny.ibone.comcast.net (68.86.87.98) 
+ 19.494 ms
+     be-11-pe04.ashburn.va.ibone.comcast.net (68.86.84.206)  16.502 ms
+     pos-1-5-0-0-pe01.111eighthave.ny.ibone.comcast.net (68.86.87.98) 
+ 20.396 ms
+  9  te0-0-0-3.ccr21.jfk07.atlas.cogentco.com (154.54.9.45)  22.085 ms 
+ 21.588 ms  22.290 ms
+ 10  te0-2-0-4.mpd21.dca01.atlas.cogentco.com (154.54.26.113)  16.287 ms
+     te0-3-0-1.mpd21.dca01.atlas.cogentco.com (154.54.5.65)  15.985 ms
+     te0-2-0-4.mpd22.jfk02.atlas.cogentco.com (154.54.3.1)  21.584 ms
+ 11  te0-5-0-2.mpd21.jfk02.atlas.cogentco.com (154.54.42.34)  18.962 ms
+     te0-1-0-7.mpd21.jfk02.atlas.cogentco.com (154.54.1.106)  18.978 ms
+     te0-2-0-6.ccr21.ymq02.atlas.cogentco.com (154.54.7.58)  30.696 ms
+ 12  te0-4-0-2.ccr21.ymq02.atlas.cogentco.com (154.54.46.33)  27.691 ms 
+ 27.192 ms
+     te0-0-0-6.ccr21.ymq02.atlas.cogentco.com (154.54.5.118)  30.595 ms
+ 13  dmtrl-rq.risq.net (192.77.63.50)  29.786 ms  47.494 ms
+     38.104.154.62 (38.104.154.62)  33.880 ms
+ 14  dmtrl-rq.risq.net (192.77.63.50)  30.052 ms * *
+ 15  uq-membre.risq.net (206.167.128.90)  62.456 ms  33.833 ms  33.393 ms
+ 16  uq-membre.risq.net (206.167.128.90)  32.577 ms  34.496 ms  32.684 ms
+ 17  * 132.213.254.254 (132.213.254.254)  3910.492 ms !H *
+ 18  132.213.254.254 (132.213.254.254)  3967.192 ms !H  3999.632 ms !H 
+ 3999.815 ms !H
+ Daniel T. Staal
+ ---------------------------------------------------------------
+ This email copyright the author.  Unless otherwise noted, you
+ are expressly allowed to retransmit, quote, or otherwise use
+ the contents for non-commercial purposes.  This copyright will
+ expire 5 years after the author's death, or in 30 years,
+ whichever is longer, unless such a period is in excess of
+ local copyright law.
+ ---------------------------------------------------------------
+  <20120519224149.GA32621@icarus.home.lan>
+  <378f01cd368c$3a9ea810$afdbf830$@paulstewart.org>
+  <A630C1AAA3E94BD1F6A9773B@mac-pro.magehandbook.com>
+ Fair enough... I can see the same thing from here as well but not having any
+ issues reaching the site - is this kind of "outage" acceptable to this list?
+ Perhaps I am misunderstanding the purpose of this list (I'm thinking major
+ site outages, major network outages etc)?
+ paul at netops:~$ ping www.tcpdump.org
+ PING www.tcpdump.org (132.213.238.6) 56(84) bytes of data.
+ >From 132.213.254.254 icmp_seq=1 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=2 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=5 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=9 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=10 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=11 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=13 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=14 Destination Host Unreachable
+ >From 132.213.254.254 icmp_seq=15 Destination Host Unreachable
+ traceroute to www.tcpdump.org (132.213.238.6), 30 hops max, 60 byte packets
+ 2  xe2-3-0.core1.toronto1.nexicom.net (98.124.46.201)  2.671 ms  2.666 ms
+ 2.654 ms
+  3  xe0-0-2.core1.toronto2.nexicom.net (216.168.105.42)  2.545 ms  2.549 ms
+ 2.538 ms
+  4  gw-risq.torontointernetxchange.net (206.108.34.163)  7.758 ms  7.975 ms
+ 8.060 ms
+  5  amtrl-uq.risq.net (192.77.55.238)  7.745 ms  7.832 ms  7.922 ms
+  6  uq-gw.risq.net (132.202.51.142)  14.680 ms  14.646 ms  14.648 ms
+  7  uq-membre.risq.net (206.167.128.90)  14.830 ms  14.826 ms  14.901 ms
+  8  192.168.109.102 (192.168.109.102)  23.025 ms  22.989 ms  23.030 ms
+  9  132.213.254.254 (132.213.254.254)  3816.168 ms !H  3346.982 ms !H
+ 3347.065 ms !H
+ Paul
+ -----Original Message-----
+ From: Daniel Staal [mailto:DStaal at usa.net] 
+ Sent: Sunday, May 20, 2012 10:05 AM
+ --As of May 20, 2012 9:26:52 AM -0400, Paul Stewart is alleged to have said:
+ --As for the rest, it is mine.
+ Just that a 50% loss rate and a *4 second* ping time aren't considered
+ 'normal' for most networks.  ;)  (And are usually a sign of something
+ seriously wrong someplace...)  Oh: and 'host unreachable' isn't the same as
+ 'filtered from the host': It means the previous hop doesn't know how to send
+ the packet on.  (Traceroute would normally show a filtered/lost ping as a
+ splat.  H! means it got back a reply saying that the host was
+ unreachable.)
+ I'm seeing the same thing here, from a Comcast 'business' connection:
+  2  73.235.158.1 (73.235.158.1)  10.086 ms  10.514 ms  9.888 ms
+  3  ge-2-14-ur01.martinsburg.wv.bad.comcast.net (68.87.130.25)  9.381 ms
+ 9.584 ms  9.882 ms
+  4  po-100-ur01.catharpin.va.bad.comcast.net (68.87.128.5)  12.888 ms
+ 12.174 ms  12.488 ms
+  5  ae-5-0-ar04.manassascc.va.bad.comcast.net (68.85.67.117)  11.588 ms
+ 11.782 ms  11.987 ms
+  6  so-7-1-0-0-ar04.capitolhghts.md.bad.comcast.net (69.139.175.121)
+ 13.788 ms  17.581 ms
+     69.139.175.129 (69.139.175.129)  14.591 ms
+  7  pos-5-3-0-0-cr01.ashburn.va.ibone.comcast.net (68.86.93.137)  17.950 ms
+     pos-3-3-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.90.193)  24.597 ms
+     pos-3-5-0-0-cr01.newyork.ny.ibone.comcast.net (68.86.91.181)  19.568 ms
+  8  pos-1-5-0-0-pe01.111eighthave.ny.ibone.comcast.net (68.86.87.98)
+ 19.494 ms
+     be-11-pe04.ashburn.va.ibone.comcast.net (68.86.84.206)  16.502 ms
+     pos-1-5-0-0-pe01.111eighthave.ny.ibone.comcast.net (68.86.87.98)
+ 20.396 ms
+  9  te0-0-0-3.ccr21.jfk07.atlas.cogentco.com (154.54.9.45)  22.085 ms
+ 21.588 ms  22.290 ms
+ 10  te0-2-0-4.mpd21.dca01.atlas.cogentco.com (154.54.26.113)  16.287 ms
+     te0-3-0-1.mpd21.dca01.atlas.cogentco.com (154.54.5.65)  15.985 ms
+     te0-2-0-4.mpd22.jfk02.atlas.cogentco.com (154.54.3.1)  21.584 ms
+ 11  te0-5-0-2.mpd21.jfk02.atlas.cogentco.com (154.54.42.34)  18.962 ms
+     te0-1-0-7.mpd21.jfk02.atlas.cogentco.com (154.54.1.106)  18.978 ms
+     te0-2-0-6.ccr21.ymq02.atlas.cogentco.com (154.54.7.58)  30.696 ms
+ 12  te0-4-0-2.ccr21.ymq02.atlas.cogentco.com (154.54.46.33)  27.691 ms
+ 27.192 ms
+     te0-0-0-6.ccr21.ymq02.atlas.cogentco.com (154.54.5.118)  30.595 ms
+ 13  dmtrl-rq.risq.net (192.77.63.50)  29.786 ms  47.494 ms
+     38.104.154.62 (38.104.154.62)  33.880 ms
+ 14  dmtrl-rq.risq.net (192.77.63.50)  30.052 ms * *
+ 15  uq-membre.risq.net (206.167.128.90)  62.456 ms  33.833 ms  33.393 ms
+ 16  uq-membre.risq.net (206.167.128.90)  32.577 ms  34.496 ms  32.684 ms
+ 17  * 132.213.254.254 (132.213.254.254)  3910.492 ms !H *
+ 18  132.213.254.254 (132.213.254.254)  3967.192 ms !H  3999.632 ms !H
+ 3999.815 ms !H
+ Daniel T. Staal
+ ---------------------------------------------------------------
+ This email copyright the author.  Unless otherwise noted, you are expressly
+ allowed to retransmit, quote, or otherwise use the contents for
+ non-commercial purposes.  This copyright will expire 5 years after the
+ author's death, or in 30 years, whichever is longer, unless such a period is
+ in excess of local copyright law.
+ ---------------------------------------------------------------
+###############################################################
+END
+###############################################################
+
+###############################################################
+ TcpDump.org ? Cogent ? Something else ?
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA256
+ moving to outages-discussion.
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: [outages] TcpDump.org ? Cogent ? Something else ?
+ Date: Sat, 19 May 2012 16:30:53 -0400
+ From: Jason Hellenthal <jhellenthal at dataix.net>
+ Anyone else seeing this ?
+ traceroute to bpf.tcpdump.org (132.213.238.6), 64 hops max, 40 byte
+ packets
+ [...]
+  3  [AS65534] 10.179.128.1 (10.179.128.1)  19.811 ms  17.924 ms  19.907 ms
+  4  [AS20115] dtr01hlldmi-gbe-1-14.hlld.mi.charter.com (96.34.33.162)
+  19.865 ms  17.277 ms  19.886 ms
+  5  [AS20115] crr02aldlmi-tge-0-2-0-2.aldl.mi.charter.com
+ (96.34.32.76)  20.099 ms  17.531 ms  19.782 ms
+  6  [AS20115] bbr01aldlmi-tge-0-0-0-5.aldl.mi.charter.com
+ (96.34.1.162)  19.832 ms  17.328 ms  19.993 ms
+  7  [AS20115] bbr01chcgil-tge-0-0-0-6.chcg.il.charter.com (96.34.0.57)
+  29.771 ms  27.124 ms  29.923 ms
+  8  [AS20115] bbr02chcgil-tge-0-3-0-1.chcg.il.charter.com
+ (96.34.1.185)  19.973 ms  27.418 ms  29.916 ms
+  9  [AS174] te0-4-0-4.ccr21.ord03.atlas.cogentco.com (38.104.102.233)
+  19.841 ms  17.317 ms  19.748 ms
+ 10  [AS174] te0-2-0-1.mpd21.ord01.atlas.cogentco.com (154.54.2.93)
+ 22.040 ms
+     [AS174] te0-5-0-7.mpd22.ord01.atlas.cogentco.com (154.54.44.181)
+ 27.478 ms
+     [AS174] te0-5-0-7.mpd21.ord01.atlas.cogentco.com (154.54.44.173)
+ 16.951 ms
+ 11  [AS174] te0-1-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.6.181)
+ 51.184 ms
+     [AS174] te0-1-0-3.mpd21.yyz02.atlas.cogentco.com (154.54.2.162)
+ 47.444 ms
+     [AS174] te0-3-0-3.mpd22.yyz02.atlas.cogentco.com (154.54.42.14)
+ 47.155 ms
+ 12  [AS174] te0-3-0-5.ccr21.ymq02.atlas.cogentco.com (154.54.42.226)
+ 47.212 ms
+     [AS174] te0-3-0-3.ccr21.ymq02.atlas.cogentco.com (154.54.7.214)
+ 47.067 ms
+     [AS174] te0-5-0-2.ccr21.ymq02.atlas.cogentco.com (154.54.44.117)
+ 46.930 ms
+ 13  [AS174] 38.104.154.62 (38.104.154.62)  57.172 ms  47.932 ms  39.896 ms
+ 14  [AS852] dmtrl-rq.risq.net (192.77.63.50)  39.825 ms  47.695 ms
+ 49.698 ms
+ 15  [AS852] uq-gw.risq.net (132.202.61.142)  50.180 ms  47.221 ms
+ 59.678 ms
+ 16  [AS852] uq-membre.risq.net (206.167.128.90)  49.880 ms  47.619 ms
+  49.141 ms
+ 17  * * *
+ 18  [AS376] 132.213.254.254 (132.213.254.254)  3790.347 ms !H
+ 3907.398 ms !H  4000.063 ms !H
+ - -- 
+  - (2^(N-1))
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent <---> L3 latency
+###############################################################
+ Had some customers not some slow web sites and looking appears to be the
+ result of latency between Cogent and Level3. The
+ http://www.internetpulse.net/ site is also reflecting high latency at the
+ Cogent/Level3 connections. Seeing up and down from here in Denver:
+ [root at sys~]# mtr --report --report-cycles=25 --report-wide
+ 8-25-240-45.netecin.net
+ HOST: sys.axint.net                             Loss%   Snt   Last   Avg 
+ Best  Wrst StDev
+   1. edge.axint.net                              0.0%    25    0.6   0.7  
+ 0.3   3.1   0.6
+   2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    25    0.9  
+ 1.1   0.7   3.1   0.5
+   3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    25    1.6  
+ 5.6   0.7  58.4  15.8
+   4. te7-4.mpd02.den01.atlas.cogentco.com           0.0%    25  135.1 
+ 11.0   0.6 135.1  34.4
+   5. te0-4-0-2.mpd22.mci01.atlas.cogentco.com       0.0%    25   12.8  12.9 
+ 12.6  14.8   0.5
+   6. te0-3-0-6.ccr22.dfw01.atlas.cogentco.com       0.0%    25   23.5  23.6 
+ 23.2  26.1   0.6
+   7. te0-0-0-0.ccr21.dfw01.atlas.cogentco.com       0.0%    25   22.9  23.3 
+ 22.7  27.7   1.0
+   8. te7-3.mpd01.dfw03.atlas.cogentco.com           8.0%    25  193.8  31.6 
+ 23.2 193.8  35.5
+   9. te-3-2.car3.Dallas1.Level3.net                 4.0%    25  144.8  65.8 
+ 46.6 228.5  44.5
+  10. vlan70.csw2.Dallas1.Level3.net                32.0%    25  147.5 151.4
+ 147.5 159.6   4.4
+  11. ae-72-72.ebr2.Dallas1.Level3.net              24.0%    25  147.5 147.7
+ 147.3 148.3   0.3
+  12. ae-2-2.ebr1.Denver1.Level3.net                36.0%    25  149.5 150.3
+ 146.2 159.3   4.2
+  13. ae-12-51.car2.Denver1.Level3.net               0.0%    25   46.0  79.9 
+ 45.9 237.3  58.0
+  14. EASTERN-COL.car2.Denver1.Level3.net            0.0%    25   47.4  47.4 
+ 47.1  48.2   0.3
+  15. 8-25-240-45.netecin.net                       32.0%    25  158.4 154.4
+ 152.1 158.4   1.9
+ [root at sys~]# mtr --report --report-cycles=25 --report-wide
+ 8-25-240-45.netecin.net
+ HOST: sys.axint.net                             Loss%   Snt   Last   Avg 
+ Best  Wrst StDev
+   1. edge.axint.net                              0.0%    25    0.6   0.6  
+ 0.4   1.5   0.2
+   2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    25    0.9  
+ 1.0   0.7   1.4   0.2
+   3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    25   67.0  
+ 6.0   0.6  67.0  17.6
+   4. te7-4.mpd02.den01.atlas.cogentco.com           0.0%    25  139.0 
+ 32.7   0.8 173.3  55.2
+   5. te0-4-0-2.mpd22.mci01.atlas.cogentco.com       0.0%    25   12.8  13.0 
+ 12.4  15.5   0.6
+   6. te0-3-0-6.ccr22.dfw01.atlas.cogentco.com       0.0%    25   23.4  23.8 
+ 23.2  25.1   0.5
+   7. te0-0-0-0.ccr21.dfw01.atlas.cogentco.com       0.0%    25   22.9  23.0 
+ 22.6  24.5   0.4
+   8. te7-3.mpd01.dfw03.atlas.cogentco.com           8.0%    25   28.7  84.7 
+ 23.2 368.1  94.9
+   9. te-3-2.car3.Dallas1.Level3.net                 0.0%    25   23.4  28.3 
+ 23.2 116.9  19.1
+  10. vlan70.csw2.Dallas1.Level3.net                 0.0%    25   29.8  26.7 
+ 23.2  34.9   4.3
+  11. ae-72-72.ebr2.Dallas1.Level3.net               0.0%    25   23.6  23.9 
+ 23.5  25.9   0.5
+  12. ae-2-2.ebr1.Denver1.Level3.net                 0.0%    25   38.0  41.4 
+ 37.4  50.1   4.5
+  13. ae-12-51.car2.Denver1.Level3.net               0.0%    25   37.8  68.3 
+ 37.5 229.7  58.8
+  14. EASTERN-COL.car2.Denver1.Level3.net            0.0%    25   38.4  38.9 
+ 38.4  40.3   0.5
+  15. 8-25-240-45.netecin.net                        0.0%    25   49.1  47.4 
+ 44.3  51.9   2.1
+ Anyone hear of anything? (waiting to hear from Cogent)
+ Chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120521/bbdd5531/attachment.html>
+ Yes I'm seeing 160 ms pings to my Chicago colo site a few blocks down my
+ office. The office has cogent, colo has L3.
+ On May 21, 2012, at 5:28 PM, Chris Stone <cstone at axint.net> wrote:
+  Had some customers not some slow web sites and looking appears to be the
+ result of latency between Cogent and Level3. The
+ http://www.internetpulse.net/ site is also reflecting high latency at the
+ Cogent/Level3 connections. Seeing up and down from here in Denver:
+ [root at sys ~]# mtr --report --report-cycles=25 --report-wide
+ 8-25-240-45.netecin.net
+ HOST: sys.axint.net                             Loss%   Snt   Last   Avg
+ Best  Wrst StDev
+   1. edge.axint.net                              0.0%    25    0.6   0.7
+ 0.3   3.1   0.6
+   2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    25    0.9
+ 1.1   0.7   3.1   0.5
+   3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    25    1.6
+ 5.6   0.7  58.4  15.8
+   4. te7-4.mpd02.den01.atlas.cogentco.com           0.0%    25  135.1
+ 11.0   0.6 135.1  34.4
+   5. te0-4-0-2.mpd22.mci01.atlas.cogentco.com       0.0%    25   12.8
+ 12.9  12.6  14.8   0.5
+   6. te0-3-0-6.ccr22.dfw01.atlas.cogentco.com       0.0%    25   23.5
+ 23.6  23.2  26.1   0.6
+   7. te0-0-0-0.ccr21.dfw01.atlas.cogentco.com       0.0%    25   22.9
+ 23.3  22.7  27.7   1.0
+   8. te7-3.mpd01.dfw03.atlas.cogentco.com           8.0%    25  193.8
+ 31.6  23.2 193.8  35.5
+   9. te-3-2.car3.Dallas1.Level3.net                 4.0%    25  144.8
+ 65.8  46.6 228.5  44.5
+  10. vlan70.csw2.Dallas1.Level3.net                32.0%    25  147.5 151.4
+ 147.5 159.6   4.4
+  11. ae-72-72.ebr2.Dallas1.Level3.net              24.0%    25  147.5 147.7
+ 147.3 148.3   0.3
+  12. ae-2-2.ebr1.Denver1.Level3.net                36.0%    25  149.5 150.3
+ 146.2 159.3   4.2
+  13. ae-12-51.car2.Denver1.Level3.net               0.0%    25   46.0
+ 79.9  45.9 237.3  58.0
+  14. EASTERN-COL.car2.Denver1.Level3.net            0.0%    25   47.4
+ 47.4  47.1  48.2   0.3
+  15. 8-25-240-45.netecin.net                       32.0%    25  158.4 154.4
+ 152.1 158.4   1.9
+ [root at sys ~]# mtr --report --report-cycles=25 --report-wide
+ 8-25-240-45.netecin.net
+ HOST: sys.axint.net                             Loss%   Snt   Last   Avg
+ Best  Wrst StDev
+   1. edge.axint.net                              0.0%    25    0.6   0.6
+ 0.4   1.5   0.2
+   2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    25    0.9
+ 1.0   0.7   1.4   0.2
+   3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    25   67.0
+ 6.0   0.6  67.0  17.6
+   4. te7-4.mpd02.den01.atlas.cogentco.com           0.0%    25  139.0
+ 32.7   0.8 173.3  55.2
+   5. te0-4-0-2.mpd22.mci01.atlas.cogentco.com       0.0%    25   12.8
+ 13.0  12.4  15.5   0.6
+   6. te0-3-0-6.ccr22.dfw01.atlas.cogentco.com       0.0%    25   23.4
+ 23.8  23.2  25.1   0.5
+   7. te0-0-0-0.ccr21.dfw01.atlas.cogentco.com       0.0%    25   22.9
+ 23.0  22.6  24.5   0.4
+   8. te7-3.mpd01.dfw03.atlas.cogentco.com           8.0%    25   28.7
+ 84.7  23.2 368.1  94.9
+   9. te-3-2.car3.Dallas1.Level3.net                 0.0%    25   23.4
+ 28.3  23.2 116.9  19.1
+  10. vlan70.csw2.Dallas1.Level3.net                 0.0%    25   29.8
+ 26.7  23.2  34.9   4.3
+  11. ae-72-72.ebr2.Dallas1.Level3.net               0.0%    25   23.6
+ 23.9  23.5  25.9   0.5
+  12. ae-2-2.ebr1.Denver1.Level3.net                 0.0%    25   38.0
+ 41.4  37.4  50.1   4.5
+  13. ae-12-51.car2.Denver1.Level3.net               0.0%    25   37.8
+ 68.3  37.5 229.7  58.8
+  14. EASTERN-COL.car2.Denver1.Level3.net            0.0%    25   38.4
+ 38.9  38.4  40.3   0.5
+  15. 8-25-240-45.netecin.net                        0.0%    25   49.1
+ 47.4  44.3  51.9   2.1
+ Anyone hear of anything? (waiting to hear from Cogent)
+ Chris
+  _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120521/d08155a0/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Vzw voicemail from cell phone
+###############################################################
+ Can not access vm, fast busy signal, Nj area.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120524/d872a949/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT fiber cut near Lake Charles, LA
+###############################################################
+ we have confirmed there is an 'issue' in the area with ATT
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120525/ba55f420/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Omnis.com registrar outage
+###############################################################
+ Registrar & DNS provider Omnis.com (and domains served by them) appear to be offline.   I'm seeing sporadic connectivity to ns1.omnis.com and ns2.omnis.com from multiple points on the internet.   Depending on when I try, my traceroutes fail within both of their upstream networks, Level3 and Cogent.
+ -Graham
+###############################################################
+END
+###############################################################
+
+###############################################################
+Packet loss between L3 and GBLX
+###############################################################
+ Anyone else noticing continuing packet loss between L3 and GBLX? This
+ has been going on and off for about 18 hours (more?).
+ |-----------------------------------------------------------------------
+ -------------------|
+ |                                      WinMTR statistics
+ |
+ |                       Host              -   %  | Sent | Recv | Best |
+ Avrg | Wrst | Last |
+ |------------------------------------------------|------|------|------|-
+ -----|------|------|
+ ...
+ |          ae-5-5.ebr2.dallas1.level3.net -    0 |  166 |  166 |   10 |
+ 10 |   21 |   11 |
+ |        ae-72-72.csw2.dallas1.level3.net -    0 |  166 |  166 |   10 |
+ 12 |   22 |   11 |
+ |        ae-2-70.edge4.dallas3.level3.net -    0 |  166 |  166 |   10 |
+ 14 |   77 |   11 |
+ |      gblx-level3-40g.dallas3.level3.net -    0 |  166 |  166 |   10 |
+ 17 |  108 |   36 |
+ |             te2-3-10g.ar1.snv2.gblx.net -   12 |  115 |  102 |   55 |
+ 70 |  211 |   67 |
+ |        internap.te1-3.ar1.snv2.gblx.net -   19 |   95 |   77 |   56 |
+ 71 |  256 |   81 |
+ ...
+ 2012/5/31 Steve Dispensa <dispensa at phonefactor.com>
+ L3 and GLBX isn't it the same thing ?
+ --
+ Eduardo Schoedler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/9f4bdd60/attachment.html>
+  <CAHf3uWyRsVc4v5Y0h1GQ_kuj9R1pGERXNeAuAGux+CKZzMWDBg@mail.gmail.com>
+ The dns names in the traceroute haven't changed (which is what I was
+ referring to), but yeah, the companies have merged. I figured it'd be
+ obvious what I meant from the trace. Sorry if it was confusing.
+ -sd
+ From: Eduardo Schoedler [mailto:listas at esds.com.br] 
+ Sent: Thursday, May 31, 2012 4:45 PM
+ Cc: outages at outages.org
+ 2012/5/31 Steve Dispensa <dispensa at phonefactor.com>
+ Anyone else noticing continuing packet loss between L3 and GBLX? This
+ has been going on and off for about 18 hours (more?).
+ L3 and GLBX isn't it the same thing ?
+ --
+ Eduardo Schoedler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/0027173a/attachment.html>
+  <CAHf3uWyRsVc4v5Y0h1GQ_kuj9R1pGERXNeAuAGux+CKZzMWDBg@mail.gmail.com>
+ Owner wise, yes
+ Network wise they are still semi-separate I believe (outside the US at
+ least) , I have had recent conversations with people claiming L3 and GLBX
+ as separate units (in the fact they could not deliver a GLBX circuit in an
+ L3-lit building)
+ *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+ Behalf Of *Eduardo Schoedler
+ *Sent:* 31 May 2012 22:45
+ *To:* Steve Dispensa
+ *Cc:* outages at outages.org
+ *Subject:* Re: [outages] Packet loss between L3 and GBLX
+ 2012/5/31 Steve Dispensa <dispensa at phonefactor.com>
+ Anyone else noticing continuing packet loss between L3 and GBLX? This
+ has been going on and off for about 18 hours (more?).
+ L3 and GLBX isn't it the same thing ?
+ --
+ Eduardo Schoedler
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/cdee2dfc/attachment.html>
+  <CAHf3uWyRsVc4v5Y0h1GQ_kuj9R1pGERXNeAuAGux+CKZzMWDBg@mail.gmail.com>,
+  <bdeb13f91fa907498d9d8253b5d077c2@mail.gmail.com>
+ Using both networks that is certainly our view from a European perspective. I believe only 1st line, provisioning and sales have integrated. Understandably it's a big job trying to integrate and am lead to believe not only will be a slow process but some network elements might never get there in any reasonable time span.
+ Michael
+ On 31 May 2012, at 22:55, "Mike Simkins" <mike.simkins at sungard.com<mailto:mike.simkins at sungard.com>> wrote:
+ Owner wise, yes
+ Network wise they are still semi-separate I believe (outside the US at least) , I have had recent conversations with people claiming L3 and GLBX as separate units (in the fact they could not deliver a GLBX circuit in an L3-lit building)
+ From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org<mailto:outages-bounces at outages.org>] On Behalf Of Eduardo Schoedler
+ Sent: 31 May 2012 22:45
+ Cc: outages at outages.org<mailto:outages at outages.org>
+ 2012/5/31 Steve Dispensa <dispensa at phonefactor.com<mailto:dispensa at phonefactor.com>>
+ Anyone else noticing continuing packet loss between L3 and GBLX? This
+ has been going on and off for about 18 hours (more?).
+ L3 and GLBX isn't it the same thing ?
+ --
+ Eduardo Schoedler
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/faa7da6b/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+IPv6 access to some of the AAAA's for Facebook's websites
+###############################################################
+ Between 8:24 pm Central and 9:02 pm our monitoring system logged timeouts
+ accessing some of the AAAA's Facebook's IPv6 websites:
+ www.facebook.com
+        2a03:2880:10:8f01:face:b00c:0:25
+        2a03:2880:10:1f02:face:b00c:0:25
+        2620:0:1c18:0:face:b00c:0:2
+ www.v6.facebook.com
+        2620:0:1cfe:face:b00c::3
+ Did anyone else see anything?  All the other 30+ sites we monitor were clean
+ nor for www.facebook.com <http://www.facebook.com's> 's
+ 2a03:2880:2110:3f01:face:b00c::.
+ The WorldIPv6Launch site's graph shows a gap around that time (I assume the
+ graph shows UTC)    
+ Description:
+ http://www.worldipv6launch.org/apps/ipv6week/measurement/images/smokeping/ww
+ w_facebook_com_IPv6_mini.png
+ Frank
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/f6217176/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 12677 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120531/f6217176/attachment.png>
+###############################################################
+END
+###############################################################
+

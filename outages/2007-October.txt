@@ -1,0 +1,2216 @@
+From virendra.rode  Mon Oct  1 13:01:29 2007
+From: virendra.rode (virendra rode //)
+Date: Mon, 01 Oct 2007 10:01:29 -0700
+Subject: [Outages] [Fwd: RE:  Internet loss in Asia?]
+Message-ID: <470127E9.7060000@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+FYI -/
+
+- -------- Original Message --------
+Subject: RE: [Outages] Internet loss in Asia?
+Date: Fri, 28 Sep 2007 18:27:20 -0400
+From: noc <noc at nso.org>
+
+
+There are the Myanmar issues, playing out on AS 9988, AS 3333 and AS 9925.
+9988 is the Myanmar Post and Telecom dude which officially listens to
+203.81.64.20 and forks off SESAmericom. 3333 is the Ripe pipe 193.0.12.151.
+Holds A and PTR records. 9925 is the HK TDCS Powerbase Datacenter
+connection, aka 202.153.125.17 and sometimes active as
+serv017.communilink.net.
+
+If you're close to those communities you may be affected.
+
+Cheers,
+Bert
+noc at nso.org
+
+
+
+
+- -----Original Message-----
+From: Eric Spagna [mailto:eric.spagna at gmail.com]
+Sent: Friday, September 28, 2007 4:21 PM
+To: Outages at isotf.org
+Subject: [Outages] Internet loss in Asia?
+
+
+We just lost three sites for a customer in Singapore, Malaysia, and Pune,
+India. Anyone have any idea if anything is going on in Asia? Two sites just
+have an internet connection, and one has an MPLS setup as well as an
+internet link. Odd all three went down at the same time. Another earth quake
+maybe?
+
+- --
+- ------------------------------------------
+:.: Spags
+:.: Technology is our only hope
+:.: drunkenlinux.com
+:.: spags  / Gentoo Linux _______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+- -----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com]
+Sent: Friday, September 28, 2007 6:11 PM
+To: Eric Spagna
+Cc: Outages at isotf.org
+Subject: Re: [Outages] Internet loss in Asia?
+
+
+Eric Spagna wrote:
+> We just lost three sites for a customer in Singapore, Malaysia, and
+> Pune, India. Anyone have any idea if anything is going on in Asia? Two
+> sites just have an internet connection, and one has an MPLS setup as
+> well as an internet link. Odd all three went down at the same time.
+> Another earth quake maybe?
+- -----------------------
+what provider(s)?
+
+
+
+regards,
+/virendra
+
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFHASfppbZvCIJx1bcRAmn1AKCwZ92iFBtpXWHBbhPVMN3qktumAACg25og
+5BCSUU7CX60ipp9J5Gb/zn4=
+=PqpY
+-----END PGP SIGNATURE-----
+
+
+From ramans  Mon Oct  1 15:21:37 2007
+From: ramans (Raman Sud)
+Date: Mon, 1 Oct 2007 12:21:37 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#163445 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADADB8@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 01, 2007 12:21 PM
+To: steve.cordova at level3.com; todd at bandcon.com; helpdesk at bandcon.com;
+Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#163445 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#163445 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000163445	
+Primary Dates:  3 Oct 2007 00:00:00 - 3 Oct 2007 06:00:00 Pacific	
+Primary Dates GMT:  3 Oct 2007 07:00:00 - 3 Oct 2007 13:00:00	
+Location of Maintenance: Phoenix AZ,	
+Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+splicing in new fibers to support lateral build into vendor facilities.
+Expected impact is none. 	
+Transport - Protected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+splicing in new fibers to support lateral build into vendor facilities.
+Expected impact is none. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-PHNXAZ19-00003	 10GB	 PSAH	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071001/dc25c62f/attachment.htm 
+
+
+From ramans  Tue Oct  2 12:30:26 2007
+From: ramans (Raman Sud)
+Date: Tue, 2 Oct 2007 09:30:26 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#164954 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADADFD@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, October 02, 2007 9:25 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#164954 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#164954 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 2149418	
+GCR #:  CHG000000164954	
+Primary Dates: 15 Oct 2007 23:00:00 - 16 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  16 Oct 2007 03:00:00 - 16 Oct 2007 09:00:00	
+Location of Maintenance: Woodbury NY, Ardsley NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor will perform
+backbone cable relocation between Woodbury and Ardsley. 2nd night, GCR
+164955 is the back out night. Unprotected services will be impacted by a
+2 hour outage.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor will
+perform backbone cable relocation between Woodbury and Ardsley. 2nd
+night, GCR 164955 is the back out night. Protected services will be
+impacted by switch hits.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071002/1ade51f9/attachment-0001.htm 
+
+
+From ramans  Tue Oct  2 13:03:04 2007
+From: ramans (Raman Sud)
+Date: Tue, 2 Oct 2007 10:03:04 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#164955 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAE06@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, October 02, 2007 10:03 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#164955 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#164955 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000164955	
+Primary Dates: 16 Oct 2007 23:00:00 - 17 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  17 Oct 2007 03:00:00 - 17 Oct 2007 09:00:00	
+Location of Maintenance: Woodbury NY, Ardsley NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor will perform
+backbone cable relocation between Woodbury and Ardsley. 2nd night, GCR
+164955 is the back out night for GCR 164954. Unprotected and Dark fiber
+services will be down up to 2 hours.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor will
+perform backbone cable relocation between Woodbury and Ardsley. 2nd
+night, GCR 164955 is the back out night of GCR 164955. Protected
+services will be impacted by switch hits.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071002/1428ec73/attachment.htm 
+
+
+From ramans  Thu Oct  4 14:26:25 2007
+From: ramans (Raman Sud)
+Date: Thu, 4 Oct 2007 11:26:25 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#163952 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAEC5@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, October 04, 2007 11:26 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#163952 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#163952 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 2138077	
+GCR #:  CHG000000163952	
+Primary Dates: 16 Oct 2007 03:00:00 - 16 Oct 2007 04:00:00 Eastern	
+Primary Dates GMT:  16 Oct 2007 07:00:00 - 16 Oct 2007 08:00:00	
+Location of Maintenance: Miami FL,	
+Summary Description of Maintenance:  Upgrade - Code - Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will be doing an upgrade to router in Miami, FL. Expected impact is up
+to 15 minutes while router reloads.	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCV5092	 gar1.mia1	 ge-1/0/0.0	 4.79.96.16	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071004/f4158ec2/attachment.htm 
+
+
+From ramans  Mon Oct  8 11:42:23 2007
+From: ramans (Raman Sud)
+Date: Mon, 8 Oct 2007 08:42:23 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#163804 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAF39@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 08, 2007 8:26 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#163804 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#163804 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000163804	
+Primary Dates:  9 Oct 2007 23:00:00 - 10 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  10 Oct 2007 03:00:00 - 10 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor backbone cable
+relocation between Woodbury and New Paltz NY. Unprotected transport and
+dark fiber services will be down up to 2 hours. Occurrence of GCR
+163803.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+cable relocation between Woodbury and New Paltz NY.Protected services
+will be impacted by switch hits. Occurrence of GCR 163803.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071008/81c816d3/attachment.htm 
+
+
+From ramans  Tue Oct  9 11:45:21 2007
+From: ramans (Raman Sud)
+Date: Tue, 9 Oct 2007 08:45:21 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#163805 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAF71@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, October 09, 2007 8:41 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#163805 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#163805 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000163805	
+Primary Dates: 10 Oct 2007 23:00:00 - 11 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  11 Oct 2007 03:00:00 - 11 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor backbone cable
+relocation between Woodbury and New Paltz NY. Unprotected transport and
+dark fiber services will be down up to 2 hours. Occurrence of GCR
+163803.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+cable relocation between Woodbury and New Paltz NY. Protected services
+will experience switch hits. Occurrence of GCR 163803.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071009/760f3c4c/attachment.htm 
+
+
+From ramans  Wed Oct 10 12:15:22 2007
+From: ramans (Raman Sud)
+Date: Wed, 10 Oct 2007 09:15:22 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166279 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAFBD@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, October 10, 2007 8:06 AM
+To: Networking; ababcock at akamai.com; helpdesk at bandcon.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#166279 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166279 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 2161607	
+GCR #:  CHG000000166279	
+Primary Dates: 11 Oct 2007 23:00:00 - 12 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  12 Oct 2007 03:00:00 - 12 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor - backbone cable
+relocation between Woodbury and New Paltz, NY. Two additional nights are
+necessary due to weather issues and some other unforseen issues. The
+Vendor originally scheduled this to start on the night of 10/08 with
+backouts for 10/09 & 10/10 but the first two nights have since been
+cancelled. The Vendor expects the work to be completed on 10/10 but they
+may need to be additional nights on 10/11 & 10/12 if problems continue.
+The original GCRs are 163803 - 163805. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor -
+backbone cable relocation between Woodbury and New Paltz, NY. Two
+additional nights are necessary due to weather issues and some other
+unforseen issues. The Vendor originally scheduled this to start on the
+night of 10/08 with backouts for 10/09 & 10/10 but the first two nights
+have since been cancelled. The Vendor expects the work to be completed
+on 10/10 but they may need to be additional nights on 10/11 & 10/12 if
+problems continue. The original GCRs are 163803 - 163805.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071010/2b854320/attachment.htm 
+
+
+From ramans  Wed Oct 10 12:35:07 2007
+From: ramans (Raman Sud)
+Date: Wed, 10 Oct 2007 09:35:07 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#165694 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAFC4@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, October 10, 2007 9:32 AM
+To: Networking; ababcock at akamai.com; todd at bandcon.com;
+helpdesk at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#165694 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#165694 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 2155794	
+GCR #:  CHG000000165694	
+Primary Dates:  8 Nov 2007 03:00:00 - 8 Nov 2007 06:00:00 Eastern	
+Primary Dates GMT:  8 Nov 2007 08:00:00 - 8 Nov 2007 11:00:00	
+Location of Maintenance: Washington DC, New York NY, Philadelphia PA,	
+Summary Description of Maintenance:  Upgrade - Code - Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage to customers and peers
+while unit reloads. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCV9373	 gar1.phi1	 ge-2/2/1	 4.78.148.9	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071010/e42ce17f/attachment-0001.htm 
+
+
+From ramans  Thu Oct 11 11:48:49 2007
+From: ramans (Raman Sud)
+Date: Thu, 11 Oct 2007 08:48:49 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166280 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADAFFD@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, October 11, 2007 8:33 AM
+To: Networking; ababcock at akamai.com; helpdesk at bandcon.com;
+todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#166280 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166280 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166280	
+Primary Dates: 12 Oct 2007 23:00:00 - 13 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  13 Oct 2007 03:00:00 - 13 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Vendor backbone cable
+relocation between Woodbury and New Paltz, NY. FYI.. The vendor has
+advised that 2 additional nights are required due to unfavorable and
+dangerous weather condition. This has caused the Vendor to cancel the
+first 2 scheduled nights of this maintenance. The Vendor plans to
+commence working on the scheduled night of 10/10, GCR 163805. The Vendor
+expects the work to be completed on the night of 10/10 but has advised
+that additional nights of 10/11 & 10/12 will be used if needed. The
+original GCR is 163803.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+cable relocation between Woodbury and New Paltz, NY. FYI.. The vendor
+has advised that 2 additional nights are required due to unfavorable and
+dangerous weather condition. This has caused the Vendor to cancel the
+first 2 scheduled nights of this maintenance. The Vendor plans to
+commence working on the scheduled night of 10/10, GCR 163805. The Vendor
+expects the work to be completed on the night of 10/10 but has advised
+that additional nights of 10/11 & 10/12 will be used if needed. The
+original GCR is 163803.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071011/8dd8735e/attachment.htm 
+
+
+From ramans  Mon Oct 15 11:39:12 2007
+From: ramans (Raman Sud)
+Date: Mon, 15 Oct 2007 08:39:12 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#164955 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB057@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 15, 2007 8:35 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#164955 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#164955 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000164955	
+Primary Dates: 16 Oct 2007 23:00:00 - 17 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  17 Oct 2007 03:00:00 - 17 Oct 2007 09:00:00	
+Location of Maintenance: Woodbury NY, Ardsley NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor will perform
+backbone cable relocation between Woodbury and Ardsley. 2nd night, GCR
+164955 is the back out night for GCR 164954. Unprotected and Dark fiber
+services will be down up to 2 hours.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor will
+perform backbone cable relocation between Woodbury and Ardsley. 2nd
+night, GCR 164955 is the back out night of GCR 164955. Protected
+services will be impacted by switch hits.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071015/bd28af8c/attachment.htm 
+
+
+From ramans  Mon Oct 15 12:46:40 2007
+From: ramans (Raman Sud)
+Date: Mon, 15 Oct 2007 09:46:40 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166980 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB059@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 15, 2007 9:46 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#166980 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166980 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 2170099	
+GCR #:  CHG000000166980	
+Primary Dates: 17 Oct 2007 23:00:00 - 18 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  18 Oct 2007 03:00:00 - 18 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor backbone cable
+relocation between Woodbury and New Paltz NY. Unprotected and Dark Fiber
+services will be impacted by an outage up to 2 hours. FYI: Reschedule of
+GCR163803, GCR166981 and GCR166982 are backout nights. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+cable relocation between Woodbury and New Paltz NY. Protected services
+will experience switch hits. FYI: Reschedule of GCR163803, GCR166981 and
+GCR166982 are backout nights. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071015/8b43832f/attachment.htm 
+
+
+From ramans  Mon Oct 15 12:47:54 2007
+From: ramans (Raman Sud)
+Date: Mon, 15 Oct 2007 09:47:54 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166981 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB05B@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 15, 2007 9:47 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#166981 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166981 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166981	
+Primary Dates: 18 Oct 2007 23:00:00 - 19 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  19 Oct 2007 03:00:00 - 19 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 This GCR is a backout
+night for GCR166980. Vendor backbone cable relocation between Woodbury
+and New Paltz NY. Unprotected and Dark Fiber services will be impacted
+by an outage up to 2 hours. FYI: Reschedule of GCR163803, GCR166981 and
+GCR166982 are backout nights. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This GCR is a
+backout night for GCR166980. Vendor backbone cable relocation between
+Woodbury and New Paltz NY. Protected services will experience switch
+hits. FYI: Reschedule of GCR163803, GCR166981 and GCR166982 are backout
+nights. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071015/d0c020ec/attachment-0001.htm 
+
+
+From ramans  Mon Oct 15 13:45:53 2007
+From: ramans (Raman Sud)
+Date: Mon, 15 Oct 2007 10:45:53 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166982 -
+	Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB05D@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 15, 2007 10:45 AM
+To: Networking; helpdesk at bandcon.com; todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#166982 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166982 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166982	
+Primary Dates: 19 Oct 2007 23:00:00 - 20 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  20 Oct 2007 03:00:00 - 20 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 This GCR is a backout
+night for GCR166980. Vendor backbone cable relocation between Woodbury
+and New Paltz NY. Unprotected and Dark Fiber services will be impacted
+by an outage up to 2 hours. FYI: Reschedule of GCR163803, GCR166981 and
+GCR166982 are backout nights. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This GCR is a
+backout night for GCR166980. Vendor backbone cable relocation between
+Woodbury and New Paltz NY. Protected services will experience switch
+hits. FYI: Reschedule of GCR163803, GCR166981 and GCR166982 are backout
+nights. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071015/c419611d/attachment.htm 
+
+
+From ramans  Tue Oct 16 14:06:24 2007
+From: ramans (Raman Sud)
+Date: Tue, 16 Oct 2007 11:06:24 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166146 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB090@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, October 16, 2007 10:43 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#166146 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166146 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166146	
+Primary Dates: 31 Oct 2007 00:00:00 - 31 Oct 2007 06:00:00 Central	
+Primary Dates GMT:  31 Oct 2007 05:00:00 - 31 Oct 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 will perform a
+Hot Cut of long haul fiber cable in St Louis. Unprotected and Dark fiber
+services will be down up to 1 hour. Protected services will be impacted
+by switch hits. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3 will
+perform a Hot Cut of long haul fiber cable in St Louis. Unprotected and
+Dark fiber services will be down up to 1 hour. Protected services will
+be impacted by switch hits. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00008	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071016/13919969/attachment.htm 
+
+
+From ramans  Wed Oct 17 11:59:31 2007
+From: ramans (Raman Sud)
+Date: Wed, 17 Oct 2007 08:59:31 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166981 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB0DD@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, October 17, 2007 8:58 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#166981 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166981 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166981	
+Primary Dates: 18 Oct 2007 23:00:00 - 19 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  19 Oct 2007 03:00:00 - 19 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 This GCR is a backout
+night for GCR166980. Vendor backbone cable relocation between Woodbury
+and New Paltz NY. Unprotected and Dark Fiber services will be impacted
+by an outage up to 2 hours. FYI: Reschedule of GCR163803, GCR166981 and
+GCR166982 are backout nights. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This GCR is a
+backout night for GCR166980. Vendor backbone cable relocation between
+Woodbury and New Paltz NY. Protected services will experience switch
+hits. FYI: Reschedule of GCR163803, GCR166981 and GCR166982 are backout
+nights. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071017/06ff589a/attachment-0001.htm 
+
+
+From ramans  Wed Oct 17 17:03:33 2007
+From: ramans (Raman Sud)
+Date: Wed, 17 Oct 2007 14:03:33 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#165679 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB113@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, October 17, 2007 1:59 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#165679 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#165679 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 2155631	
+GCR #:  CHG000000165679	
+Primary Dates:  2 Nov 2007 04:00:00 - 2 Nov 2007 06:00:00 Pacific	
+Primary Dates GMT:  2 Nov 2007 11:00:00 - 2 Nov 2007 13:00:00	
+Location of Maintenance: San Jose CA, San Diego CA,	
+Summary Description of Maintenance:  Upgrade - Code - Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage to customers and peers
+while unit reloads. 	
+	
+CWIE - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBBJ01882	 		ge-0/3/0 	SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071017/6607519a/attachment.htm 
+
+
+From ramans  Wed Oct 17 17:59:57 2007
+From: ramans (Raman Sud)
+Date: Wed, 17 Oct 2007 14:59:57 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#165693 -
+	Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB116@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, October 17, 2007 2:59 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#165693 - Scheduled
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#165693 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 2155778	
+GCR #:  CHG000000165693	
+Primary Dates:  7 Nov 2007 03:00:00 - 7 Nov 2007 06:00:00 Pacific	
+Primary Dates GMT:  7 Nov 2007 11:00:00 - 7 Nov 2007 14:00:00	
+Location of Maintenance: Seattle WA, San Jose CA, San Diego CA,	
+Summary Description of Maintenance:  Upgrade - Code - Router	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+will upgrade routers which will cause an outage to customers and peers
+while unit reloads. 	
+	
+CWIE, LLC - - Services Impacted:	
+IP:	
+PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+BBCF5692	 gar2.sdg1	 ge-0/2/1	 4.79.234.129	 SA	
+BBCF5692	 gar2.sdg1	 ge-0/2/1.0	 4.79.234.129	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071017/4926b7e0/attachment-0001.htm 
+
+
+From ramans  Thu Oct 18 12:07:02 2007
+From: ramans (Raman Sud)
+Date: Thu, 18 Oct 2007 09:07:02 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166982 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB138@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Thursday, October 18, 2007 8:56 AM
+To: Networking; helpdesk at bandcon.com; todd at bandcon.com
+Subject: Level(3) Service Affecting Maintenance - GCR#166982 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166982 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166982	
+Primary Dates: 19 Oct 2007 23:00:00 - 20 Oct 2007 05:00:00 Eastern	
+Primary Dates GMT:  20 Oct 2007 03:00:00 - 20 Oct 2007 09:00:00	
+Location of Maintenance: New Paltz NY,	
+Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 This GCR is a backout
+night for GCR166980. Vendor backbone cable relocation between Woodbury
+and New Paltz NY. Unprotected and Dark Fiber services will be impacted
+by an outage up to 2 hours. FYI: Reschedule of GCR163803, GCR166981 and
+GCR166982 are backout nights. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This GCR is a
+backout night for GCR166980. Vendor backbone cable relocation between
+Woodbury and New Paltz NY. Protected services will experience switch
+hits. FYI: Reschedule of GCR163803, GCR166981 and GCR166982 are backout
+nights. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071018/b248bd1c/attachment.htm 
+
+
+From ml  Thu Oct 18 12:22:44 2007
+From: ml (Tuc at T-B-O-H.NET)
+Date: Thu, 18 Oct 2007 12:22:44 -0400 (EDT)
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance -
+	GCR#166982 -
+In-Reply-To: <06EF9CEFEF46484EA8A230DA53772DBBADB138@Exchange.ccbill-hq.local>
+Message-ID: <200710181622.l9IGMi2h049634@himinbjorg.tucs-beachin-obx-house.com>
+
+Ok,
+
+	It seems like this project is taking WAY WAY WAY longer than
+it should. I live in the area. I pass the Woodbury area constantly...
+
+	Whats the deal?! Its not like we are having hurricanes and
+tornadoes and the likes. Do I need to go over and supervise this???
+
+		Tuc/TBOH
+
+> Transport - Unprotected	 Outage	 SA	 2 hour	 This GCR is a backout
+> night for GCR166980. Vendor backbone cable relocation between Woodbury
+> and New Paltz NY. Unprotected and Dark Fiber services will be impacted
+> by an outage up to 2 hours. FYI: Reschedule of GCR163803, GCR166981 and
+> GCR166982 are backout nights. =09
+> Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This GCR is a
+> backout night for GCR166980. Vendor backbone cable relocation between
+> Woodbury and New Paltz NY. Protected services will experience switch
+> hits. FYI: Reschedule of GCR163803, GCR166981 and GCR166982 are backout
+> nights. =09
+
+
+
+From ramans  Tue Oct 23 18:59:27 2007
+From: ramans (Raman Sud)
+Date: Tue, 23 Oct 2007 15:59:27 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#165286 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB245@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, October 23, 2007 3:57 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#165286 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#165286 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 2151820	
+GCR #:  CHG000000165286	
+Primary Dates: 25 Oct 2007 00:00:00 - 25 Oct 2007 06:00:00 Central	
+Primary Dates GMT:  25 Oct 2007 05:00:00 - 25 Oct 2007 11:00:00	
+Location of Maintenance: Houston TX,	
+Summary Description of Maintenance:  Splice - OSP Fiber -	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 will relocate
+96foc Houston to Elpaso legacy Wiltel cable due to private development
+and TXDOT ROW changes. L3 has relocated our 96foc cable and we now need
+to hot cut it over. Once we have it cut over we can abandon the old
+route and we will be clear of the construction. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3 will
+relocate 96foc Houston to Elpaso legacy Wiltel cable due to private
+development and TXDOT ROW changes. L3 has relocated our 96foc cable and
+we now need to hot cut it over. Once we have it cut over we can abandon
+the old route and we will be clear of the construction. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-PHNXAZ19-00003	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071023/c6d918cd/attachment.htm 
+
+
+From ramans  Mon Oct 29 13:37:53 2007
+From: ramans (Raman Sud)
+Date: Mon, 29 Oct 2007 10:37:53 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#166146 -
+	36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBBADB357@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, October 29, 2007 10:37 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#166146 - 36 Hours
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#166146 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000166146	
+Primary Dates: 31 Oct 2007 00:00:00 - 31 Oct 2007 06:00:00 Central	
+Primary Dates GMT:  31 Oct 2007 05:00:00 - 31 Oct 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 will perform a
+Hot Cut of long haul fiber cable in St Louis. Unprotected and Dark fiber
+services will be down up to 1 hour. Protected services will be impacted
+by switch hits. 	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3 will
+perform a Hot Cut of long haul fiber cable in St Louis. Unprotected and
+Dark fiber services will be down up to 1 hour. Protected services will
+be impacted by switch hits. 	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00008	 10GE	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20071029/3730d00b/attachment.htm 
+
+
+From fergdawg  Tue Oct 30 23:25:01 2007
+From: fergdawg (Paul Ferguson)
+Date: Wed, 31 Oct 2007 03:25:01 GMT
+Subject: [Outages] Magnitude 5.4 Earthquake in San Jose at 20:04 PDT
+Message-ID: <20071030.202501.16382.0@webmail02.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Not sure of the extent of any Internet-related outages, but my
+cellphone service is out in San Jose (AT&T) and there are also
+reports of landline outages.
+
+More:
+http://quake.wr.usgs.gov/recenteqs/Quakes/nc40204628.htm
+
+Local coverage:
+http://www.sfgate.com/
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHJ/WJq1pz9mNUZTMRAilNAKCRvgolaToKiCz5Y71JOtwflcZWiQCgm6sI
+fgzOXoI8q96UWDKTF4Jn5Fc=
+=fFXl
+-----END PGP SIGNATURE-----
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From br  Tue Oct 30 23:57:05 2007
+From: br (Bernie Rosen)
+Date: Tue, 30 Oct 2007 20:57:05 -0700
+Subject: [Outages] Magnitude 5.4 Earthquake in San Jose at 20:04 PDT
+In-Reply-To: <20071030.202501.16382.0@webmail02.vgs.untd.com>
+References: <20071030.202501.16382.0@webmail02.vgs.untd.com>
+Message-ID: <F07F17B61B7FF545BC7D7E4BFBE15D2A07E6CA8F@hadron.jnpr.net>
+
+It was centered between San Jose and Fremont, according to the map at
+the USGS site. Life in Mountain View appears normal. Cellphone (AT&T)
+and phone service and cable service seem ok. 
+
+
+Bernie
+
+====================
+Bernie Rosen
+Director, Juniper SIRT
+1-408-936-4809 Direct
+1-650-714-8255 Mobile
+==================== 
+-----Original Message-----
+From: Paul Ferguson [mailto:fergdawg at netzero.net] 
+Sent: Tue 30 Oct 2007 20:25
+To: outages at isotf.org
+Subject: [Outages] Magnitude 5.4 Earthquake in San Jose at 20:04 PDT
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Not sure of the extent of any Internet-related outages, but my cellphone
+service is out in San Jose (AT&T) and there are also reports of landline
+outages.
+
+More:
+http://quake.wr.usgs.gov/recenteqs/Quakes/nc40204628.htm
+
+Local coverage:
+http://www.sfgate.com/
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHJ/WJq1pz9mNUZTMRAilNAKCRvgolaToKiCz5Y71JOtwflcZWiQCgm6sI
+fgzOXoI8q96UWDKTF4Jn5Fc=
+=fFXl
+-----END PGP SIGNATURE-----
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet  fergdawg(at)netzero.net
+ferg's tech blog: http://fergdawg.blogspot.com/
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From fergdawg  Wed Oct 31 00:08:15 2007
+From: fergdawg (Paul Ferguson)
+Date: Wed, 31 Oct 2007 04:08:15 GMT
+Subject: [Outages] Magnitude 5.4 Earthquake in San Jose at 20:04 PDT
+Message-ID: <20071030.210815.16382.1@webmail02.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -- "Bernie Rosen" <br at juniper.net> wrote:
+
+>It was centered between San Jose and Fremont, according to the map at
+>the USGS site. Life in Mountain View appears normal. Cellphone (AT&T)
+>and phone service and cable service seem ok. 
+>
+
+Hi Bernie:
+
+AT&T/Cingular cellphone service is still unavailable here in the
+San Jose/Milpitas area at 21:07 PDT.
+
+- - ferg
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHJ/+gq1pz9mNUZTMRAkk/AJwO6HPyaQh0AjbD0LYE3xH8D3XHtQCgupEF
+zh3v/FIi5OQM5IjrEPMyaV8=
+=84NJ
+-----END PGP SIGNATURE-----
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From fergdawg  Wed Oct 31 00:19:07 2007
+From: fergdawg (Paul Ferguson)
+Date: Wed, 31 Oct 2007 04:19:07 GMT
+Subject: [Outages] Magnitude 5.4 Earthquake in San Jose at 20:04 PDT
+Message-ID: <20071030.211907.16382.2@webmail02.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -- "Paul Ferguson" <fergdawg at netzero.net> wrote:
+
+>AT&T/Cingular cellphone service is still unavailable here in the
+>San Jose/Milpitas area at 21:07 PDT.
+
+Actually, it appears to be back up/available again.
+
+It appears that re-registering with an active cell helped :-)
+but there were multiple immediately cell outages reported, all
+of which seem to have cleared now.
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHKAIyq1pz9mNUZTMRAtfnAKDFJxIU3+lZuM92JNzt6C+tE2nCewCfZBeV
+Gi9xmOTWNS3bbhTjJDhrAoY=
+=7i3I
+-----END PGP SIGNATURE-----
+
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+

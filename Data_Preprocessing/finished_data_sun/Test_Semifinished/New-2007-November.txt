@@ -1,0 +1,346 @@
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#165694 -
+###############################################################
+  	36 Hours
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Tuesday, November 06, 2007 1:38 PM
+ Networking; helpdesk at bandcon.com
+ Subject: Level(3) Service Affecting Maintenance - GCR#165694 - 36 Hours
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#165694 - 36 Hours	
+ This Maintenance is scheduled to occur within 36 hours. 	
+ ________________________________
+ Clarify Case#: 2155794	
+ GCR #:  CHG000000165694	
+ Primary Dates:  8 Nov 2007 03:00:00 - 8 Nov 2007 06:00:00 Eastern	
+ Primary Dates GMT:  8 Nov 2007 08:00:00 - 8 Nov 2007 11:00:00	
+ Location of Maintenance: Washington DC, New York NY, Philadelphia PA,	
+ Summary Description of Maintenance:  Upgrade - Code - Router	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ IP - Non-Redundant	 Outage	 SA	 Up to 30 minutes	 Level 3
+ will upgrade routers which will cause an outage to customers and peers
+ while unit reloads. 	
+ CWIE, LLC - - Services Impacted:	
+ IP:	
+ PIID	 Device Name	 Interface Name	 IP Address	 Classification	
+ BBCV9373	 gar1.phi1	 ge-2/2/1	 4.78.148.9	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20071106/8f424a3d/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Maintenance 490854 - Nov 17 - CWIE
+###############################################################
+ ________________________________
+ From: Denis, Cecile [mailto:cecile.denis at savvis.net] 
+ Sent: Wednesday, November 07, 2007 11:07 AM
+ Provisioning; Taylor, Jennifer; WBS NOC; WBSNotices
+ Subject: Savvis Maintenance 490854 - Nov 17 - CWIE
+ Maintenance Activity: 490854
+ Affected Dates:
+ 2007 November 17, 08:00:00 - 2007 November 17, 13:00:00  (GMT +00:00) 
+ Anticipated Outage Duration :
+ 000 00:01 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ SJQ - San Jose, CA 
+ 3SJO - Sunnyvale, CA 
+ SFO - San Francisco, CA 
+ SC4 - Santa Clara, CA 
+ PAX - Palo Alto, CA 
+ EMERYVILLE, CA 
+ Activity Type :
+ Service Maintenance
+ Circuit IDs :
+ 120083
+ 122897
+ Impact :
+ Network 
+ Level Of Impact :
+ Latency/Packet Loss
+ Notification Details :
+ In this window, SAVVIS engineers will be enabling new backbone
+ connectivity at several sites in this region. This new connectivity will
+ provide more bandwidth and will facilitate new products and services. As
+ the work is performed, customers may experience packet loss, latency, or
+ other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net
+ <mailto:ssc at savvis.net>  and reference the specific ticket number listed
+ above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ Cecile Denis
+ SAVVIS
+ 2355 Dulles Corner Blvd.
+ Herndon VA 20171
+ Office: 703 667 6898
+ Cell: 703 338 0177
+ cecile.denis at savvis.net
+ This message contains information which may be confidential and/or
+ privileged. Unless you are the intended recipient (or authorized to
+ receive for the intended recipient), you may not read, use, copy or
+ disclose to anyone the message or any information contained in the
+ message. If you have received the message in error, please advise the
+ sender by reply e-mail and delete the message and any attachment(s)
+ thereto without retaining any copies. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20071107/db1f4c1d/attachment-0001.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#167724 -
+###############################################################
+ 	Work About to Begin
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, November 08, 2007 3:58 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#167724 - Work
+ About to Begin
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#167724 - Work About to
+ Begin	
+ This Maintenance will begin shortly. 	
+ ________________________________
+ Clarify Case#: 2177058	
+ GCR #:  CHG000000167724	
+ Primary Dates:  8 Nov 2007 23:00:00 - 9 Nov 2007 05:00:00 GMT	
+ Primary Dates GMT:  8 Nov 2007 23:00:00 - 9 Nov 2007 05:00:00	
+ Location of Maintenance: Berlin Germany,	
+ Summary Description of Maintenance:  Carry out change of breaker
+ settings according to EYP recommandations, and test of MSSB call to
+ start	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 None	 PSAH	 N/A	 PSA-H changes have a
+ high potential of impacting the service of Level 3 customers external or
+ internal, even if no impact is expected. This classification is also
+ used when switch hits are expected. PSA-H changes are often complex in
+ nature and thus incur more risk to the environment. 	
+ Transport - Protected	 None	 PSAH	 N/A	 PSA-H changes have a
+ high potential of impacting the service of Level 3 customers external or
+ internal, even if no impact is expected. This classification is also
+ used when switch hits are expected. PSA-H changes are often complex in
+ nature and thus incur more risk to the environment. 	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ C001.0118.042.060	 Cabinet	 PSAH	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20071108/6c3b1061/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+DNS outage in Europe (Norway)
+###############################################################
+ Greetings -
+ Can anyone comment on reports of a severe DNS outage in Europe, Norway
+ in particular?
+ Any information greatly appreciated.  Thanks in advance,
+ Bernie
+ ====================
+ Bernie Rosen
+ Director, Juniper SIRT
+ 1-408-936-4809 Direct
+ 1-650-714-8255 Mobile
+ ==================== 
+ Hi,
+ On Thu, Nov 08, 2007 at 05:02:02PM -0800, Bernie Rosen wrote:
+ Haven't seen anything special from here (Munich, Germany).
+ I wonder how a "severe DNS outage in Europe" would look like, though, 
+ given the distributed nature of DNS...
+ gert
+ -- 
+ USENET is *not* the non-clickable part of WWW!
+                                                            //www.muc.de/~gert/
+ Gert Doering - Munich, Germany                             gert at greenie.muc.de
+ fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+ I did not see this one - and probably wont be able to see it
+ because open resolvers are frowned upon.
+ I did see others earlier:
+ The problem I used to see was - the two resolvers the enduser
+ sees, were down. People who had their own resolvers or who
+ were able to change /etc/resolv.conf were lucky.
+ With norway it is very likely that they messed up censoring dns again.
+ google "norway dns censoring"
+ will very likely give you everything you want to know.
+ Apropos
+ Norway is one of the countries were customers are easyly convinced
+ to change to alternative root-servers :)
+ Kind regards
+ Peter and Karin Dambier
+ Bernie Rosen wrote:
+ -- 
+ Peter and Karin Dambier
+ Cesidian Root - Radice Cesidiana
+ Rimbacher Strasse 16
+ D-69509 Moerlenbach-Bonsweiher
+ +49(6209)795-816 (Telekom)
+ +49(6252)750-308 (VoIP: sipgate.de)
+ mail: peter at peter-dambier.de
+ mail: peter at echnaton.arl.pirates
+ http://iason.site.voila.fr/
+ https://sourceforge.net/projects/iason/
+ http://www.cesidianroot.com/
+ Hi again, Bernie.  :)
+ Nothing that we detected:
+     <http://www.cymru.com/monitoring/dnssumm/index.html>
+ Thanks,
+ Rob.
+ -- 
+ Rob Thomas
+ Team Cymru Research NFP
+ http://www.cymru.com/
+ cmn_err(do_panic, "Out of coffee!");
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 Issues In Dallas
+###############################################################
+ Starting around 1730 CST we started seeing 50% packet loss to random
+ IP's, going through Level3 Dallas (AS3356) to a Level3/WilTel (AS7911)
+ customer in Texas.In a given subnet, it seemed that about half of the
+ IP's were fine, while the other half experienced 50% loss, starting at
+ Level3's Dallas POP.
+ Around 2100 CST we saw severe routing problems between Level3 (AS3356)
+ and Level3/WilTel (AS7911). Traffic sent to AS7911 in Texas was being
+ handed off to AS3356 in Miami, and other such fun locations (Dallas is
+ the exhange point under normal conditions). Currently, Level3 (AS3356)
+ Dallas looking glass is unable to ping certain Level3/WilTel (AS7911)
+ routers interfaces in Texas.
+ There appear to be major problems with Level3 in Dallas this evening.
+ -Adam
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages in Portland area
+###############################################################
+ Has anybody noticed any outages that would effect traffic in the
+ Portland area?
+ Thanks,
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20071126/f817e925/attachment.htm 
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/png
+ Size: 12587 bytes
+ Desc: DMS-DS.png
+ Url : http://isotf.org/pipermail/outages/attachments/20071126/f817e925/attachment.png 
+###############################################################
+END
+###############################################################
+

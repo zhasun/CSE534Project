@@ -1,0 +1,2757 @@
+From virendra.rode  Tue Apr  3 10:39:50 2007
+From: virendra.rode (virendra rode //)
+Date: Tue, 03 Apr 2007 07:39:50 -0700
+Subject: [Outages] Downtime in 2007 Message-ID: <46126736.40401@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Off GIGRIB report page:
+
+   Site		              Downtime
+ 1  yahoo.com		   0m
+ 2  google.com		   7m
+ 3  myspace.com		1h 0m
+ 4  msn.com		2h 45m
+ 5  ebay.com		   6m
+ 6  youtube.com		4h 44m
+ 7  facebook.com	25m
+ 8  wikipedia.org	2h 23m
+ 9  craigslist.org	1h 9m
+10  live.com		1h 48m
+11  amazon.com	   21m
+12  blogger.com	    4h 47m
+13  go.com	       8m
+14  aol.com		3m
+15  microsoft.com   13m
+16  cnn.com		22m
+17  comcast.net	    3m
+18  imdb.com	      	     29m
+19  flickr.com		   	30m
+20  photobucket.com	1h 23m
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGEmc2pbZvCIJx1bcRAoJQAJsHeSOwnUPk8jUpncnm1xKFnHBS1gCdGqJf
+Q9DMyM6LFQruHfiaLXbfMKs=
+=edqZ
+-----END PGP SIGNATURE-----
+
+
+From kyle  Tue Apr  3 12:13:43 2007
+From: kyle (Kyle Duren)
+Date: Tue, 3 Apr 2007 09:13:43 -0700 (PDT)
+Subject: [Outages] Washington Charter? Message-ID: <38025.192.168.1.12.1175616823.squirrel@192.168.1.12>
+
+Were seeing a pretty major outtage here in Central Washington:
+
+12    90 ms    91 ms    94 ms  gx-x.cr01.mdfd.or.charter.com [68.116.79.10]
+13     *        *        *     Request timed out.
+
+This is affecting their cable customers and a few ISPs in town that use
+them for backbone services. Supposedly they have a router out, and no ETA
+on fixing it.
+
+Any new info anywhere?
+
+Thanks,
+Kyle Duren
+NWInfo.Net
+
+
+
+From kgasso-lists  Tue Apr  3 15:02:56 2007
+From: kgasso-lists (Kameron Gasso)
+Date: Tue, 03 Apr 2007 12:02:56 -0700
+Subject: [Outages] Washington Charter? In-Reply-To: <38025.192.168.1.12.1175616823.squirrel@192.168.1.12>
+References: <38025.192.168.1.12.1175616823.squirrel@192.168.1.12>
+Message-ID: <1175626976.7290.6.camel@localhost>
+
+On Tue, 2007-04-03 at 09:13 -0700, Kyle Duren wrote:
+> Were seeing a pretty major outtage here in Central Washington:
+> 
+> 12    90 ms    91 ms    94 ms  gx-x.cr01.mdfd.or.charter.com [68.116.79.10]
+> 13     *        *        *     Request timed out.
+> 
+> This is affecting their cable customers and a few ISPs in town that use
+> them for backbone services. Supposedly they have a router out, and no ETA
+> on fixing it.
+> 
+> Any new info anywhere?
+
+
+One of our connections is a fiber link with Charter that's backhaul is a
+different interface on the same core router in Medford, OR.
+
+We were advised of maintenance lasting from 00:00 to 06:00 PDT on both
+April 2nd and 3rd.  However, as of about 09:00 this morning, our
+interface was still not passing traffic.  It appears to be working again
+as of right now (12:00).
+
+Thanks,
+-- 
+
+Kameron Gasso
+kgasso at visp.net
+
+
+
+From kgasso-lists  Tue Apr  3 18:44:43 2007
+From: kgasso-lists (Kameron Gasso)
+Date: Tue, 03 Apr 2007 15:44:43 -0700
+Subject: [Outages] Washington Charter? In-Reply-To: <1175626976.7290.6.camel@localhost>
+References: <38025.192.168.1.12.1175616823.squirrel@192.168.1.12>
+	<1175626976.7290.6.camel@localhost>
+Message-ID: <1175640284.7290.12.camel@localhost>
+
+On Tue, 2007-04-03 at 12:02 -0700, Kameron Gasso wrote:
+> One of our connections is a fiber link with Charter that's backhaul is a
+> different interface on the same core router in Medford, OR.
+> 
+> We were advised of maintenance lasting from 00:00 to 06:00 PDT on both
+> April 2nd and 3rd.  However, as of about 09:00 this morning, our
+> interface was still not passing traffic.  It appears to be working again
+> as of right now (12:00).
+
+Bad form replying to my own messages, I know... but it turns out we have
+had intermittent issues periodically with this link throughout the day
+since my last message.  Additionally, our BGP session with Charter has
+been dead since last night's maintenance, so we're only able to utilize
+them for outbound traffic (by stuffing a static route in for them).
+
+Their NOC is now reporting this as a "fiber cut" with no ETR.
+Interesting...
+
+Regards,
+
+-- 
+
+Kameron Gasso
+kgasso at visp.net
+
+
+
+From ramans  Wed Apr  4 12:16:33 2007
+From: ramans (Raman Sud)
+Date: Wed, 4 Apr 2007 09:16:33 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#138611 - 36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE538@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, April 04, 2007 9:17 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#138611 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 1874762	
+GCR #:  CHG000000138611	
+Primary Dates:  6 Apr 2007 00:00:00 - 6 Apr 2007 06:00:00 Eastern	
+Primary Dates GMT:  6 Apr 2007 04:00:00 - 6 Apr 2007 10:00:00	
+Location of Maintenance: Bannock FL,	
+Summary Description of Maintenance:  Replace - Card - Traffic Bearing
+Shelf - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 will perform
+network maintenance to clear a equipment degredation alarm. SA - Outage
+- 1 hour.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3 will
+perform network maintenance to clear a equipment degredation alarm.
+PSA_H - Switch Hits - 50 ms.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070404/1a01477d/attachment.htm 
+
+
+From virendra.rode  Sun Apr  8 12:51:29 2007
+From: virendra.rode (virendra rode //)
+Date: Sun, 08 Apr 2007 09:51:29 -0700
+Subject: [Outages] level3 issues in europe? Message-ID: <46191D91.7070705@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Someone just reported to me that Level3 is having issues in Europe.
+
+Traceroutes to level3.com stops halfway (@64.159.4.226). For example
+reaching youtube.
+
+Doesn't seem to be an issue from US side.
+
+Can anybody confirm?
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGGR2RpbZvCIJx1bcRAsumAJ47KNocaAAubqQTPL1Ipe+Ca7uIkQCgpv1U
+b+EHBpF4An5y2gXBKTRQkkU=
+=lYo1
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Mon Apr  9 10:31:40 2007
+From: virendra.rode (virendra rode //)
+Date: Mon, 09 Apr 2007 07:31:40 -0700
+Subject: [Outages] [Fwd: [SANOG] FW: Planned Work| Service Outage Notice | Network Upgrade | 30 April 2007 | 04:30--09:30 GMT---IP-T customers]
+Message-ID: <461A4E4C.6090900@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -------- Original Message --------
+Subject: [SANOG] FW: Planned Work| Service Outage Notice | Network
+Upgrade | 30 April 2007 | 04:30--09:30 GMT---IP-T customers
+Date: Mon, 09 Apr 2007 10:51:24 +0500
+From: Haris Shamsi <h.shamsi at cyber.net.pk>
+To: sanog at sanog.org
+
+FYI
+
+
+  _____
+
+From: Flag VPoP [mailto:servdesk at ptcl.net.pk]
+Sent: Saturday, April 07, 2007 2:47 PM
+To: shabbir.utero at ptcl.net.pk
+Cc: Mazharuddin Syed; Syed Ali Ammaar Jafrey; servdesk at ptcl.net.pk
+Subject: Planned Work| Service Outage Notice | Network Upgrade | 30 April
+2007 | 04:30--09:30 GMT---IP-T customers
+
+
+
+
+Dear All IP Customer,
+                                                Please be intimated that
+FLAG will be carrying out a maintenance activity between Fujairah and
+Mumbai. Due to  this your services will be
+degraded for the traffic towards HONGKONG as this IP BackBone is coming into
+the influence of this maintenance activity while the remaining BackBones
+towards London are not affected.These BB towards London will carry the
+surplus traffic of HKG during the maintenance activity as described below:
+
+Date: 30 April 2007
+
+Start Time: 04:30 GMT
+End Time: 09:30 GMT
+
+Outage: 15 min's
+
+
+S.M.Hashim,ADE VPoP Karachi.
+Service Desk FLAG VPOP,
+ITI Karachi
+PTCL
+servdesk at ptcl.net.pk
++92-21-2761852
++92-21-2751144
+Fax # +92 21 2751829
+
+
+
+- --
+This is the SANOG (http://www.sanog.org/) mailing list.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGGk5LpbZvCIJx1bcRAn2gAKDUGVCsb2QQwJjkNTazBs+EqhMbTwCeLZYo
+k06UP9IDj9zgTQ6J/JlIfic=
+=Pk8a
+-----END PGP SIGNATURE-----
+
+
+From ramans  Tue Apr 10 14:13:16 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Apr 2007 11:13:16 -0700
+Subject: [Outages] FW: Savvis Maintenance Activity #485542 - 4/21 - CWIE Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE6C7@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+Sent: Tuesday, April 10, 2007 11:03 AM
+To: Denis, Cecile; Networking; Provisioning; Taylor, Jennifer
+
+
+Maintenance Activity: 485542
+
+Affected Dates:
+
+2007 April 21, 12:00:00 - 2007 April 21, 17:00:00 
+
+ 
+
+Anticipated Outage Duration :
+
+000 00:45 
+
+ 
+
+Location Affected: 
+
+The maintenance window will begin at the designated local time in the
+following affected cities: 
+
+Tukwila, Washington, USA 
+
+Washington, District of Columbia, USA 
+
+ 
+
+Activity Type :
+
+Service Maintenance
+
+Circuit ID :
+
+120115
+
+Impact :
+
+Network 
+
+Level Of Impact :
+
+Latency/Packet Loss - 
+
+In this window, SAVVIS engineers will be reconfiguring regional backbone
+infrastructure to enable new
+security features.  As this work is performed, customers may experience
+latency or other connectivity issues when traffic shifts to and from
+redundant connectivity.
+
+ 
+
+ 
+
+If you have any questions, or would like to determine the extent of
+impact any maintenance may have on your network, please contact the SSC
+at the below listed numbers or via email at ssc at savvis.net and reference
+the specific ticket number listed above.
+
+SSC AMERICAS........... +1 888 638 6771
+SSC AMERICAS........... +1 314 628 7757
+SSC EMEA............... +44 118 322 6100
+SSC PACIFIC............ +65 6768 8099
+SSC JAPAN.............. +81 3 5219 0600 
+
+Thank You, 
+SAVVIS SSC 
+888-638-6771 
+ssc at savvis.net <mailto:ssc at savvis.net>  
+
+
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070410/34fc90d0/attachment.htm 
+
+
+From ramans  Tue Apr 10 14:30:55 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Apr 2007 11:30:55 -0700
+Subject: [Outages] FW: Savvis Maintenance Activity #485550 - 4/21 - CWIE Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE6D1@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+Sent: Tuesday, April 10, 2007 11:24 AM
+To: Denis, Cecile; Networking; Provisioning; Taylor, Jennifer
+
+
+Maintenance Activity: 485550
+
+Affected Dates:
+
+2007 April 21, 09:00:00 - 2007 April 21, 14:00:00 
+
+ 
+
+Anticipated Outage Duration :
+
+000 00:45 
+
+ 
+
+Location Affected: 
+
+The maintenance window will begin at the designated local time in the
+following affected cities: 
+
+New York, New York, USA 
+
+ 
+
+Activity Type :
+
+Service Maintenance
+
+Circuit ID :
+
+116325
+
+112156
+
+Impact :
+
+Network 
+
+Level Of Impact :
+
+Service Interrupting - 
+
+In this window, Savvis engineers will be upgrading the software an
+several regional backbone devices.  As this work is performed, customers
+may experience service outages, latency, or other connectivity issues.
+
+ 
+
+ 
+
+If you have any questions, or would like to determine the extent of
+impact any maintenance may have on your network, please contact the SSC
+at the below listed numbers or via email at ssc at savvis.net and reference
+the specific ticket number listed above.
+
+SSC AMERICAS........... +1 888 638 6771
+SSC AMERICAS........... +1 314 628 7757
+SSC EMEA............... +44 118 322 6100
+SSC PACIFIC............ +65 6768 8099
+SSC JAPAN.............. +81 3 5219 0600 
+
+Thank You, 
+SAVVIS SSC 
+888-638-6771 
+ssc at savvis.net <mailto:ssc at savvis.net>  
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070410/0a494ea0/attachment-0001.htm 
+
+
+From ramans  Tue Apr 10 14:31:00 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Apr 2007 11:31:00 -0700
+Subject: [Outages] FW: Savvis Maintenance Activity #485553 - 4/21 - CWIE Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE6D2@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+Sent: Tuesday, April 10, 2007 11:31 AM
+To: Denis, Cecile; Networking; Provisioning; Taylor, Jennifer
+
+
+Maintenance Activity: 485553
+
+Affected Dates:
+
+2007 April 21, 12:00:00 - 2007 April 21, 17:00:00 
+
+ 
+
+Anticipated Outage Duration :
+
+000 00:45 
+
+ 
+
+Location Affected: 
+
+The maintenance window will begin at the designated local time in the
+following affected cities: 
+
+San Jose, California, USA 
+
+Santa Clara, USA 
+
+Santa Clara, California, USA 
+
+ 
+
+Activity Type :
+
+Service Maintenance
+
+Circuit ID :
+
+122897
+
+113110
+
+Impact :
+
+Network 
+
+Level Of Impact :
+
+Service Interrupting - 
+
+In this window, Savvis engineers will be upgrading the software an
+several regional backbone devices.  As this work is performed, customers
+may experience service outages, latency, or other connectivity issues.
+
+ 
+
+ 
+
+If you have any questions, or would like to determine the extent of
+impact any maintenance may have on your network, please contact the SSC
+at the below listed numbers or via email at ssc at savvis.net and reference
+the specific ticket number listed above.
+
+SSC AMERICAS........... +1 888 638 6771
+SSC AMERICAS........... +1 314 628 7757
+SSC EMEA............... +44 118 322 6100
+SSC PACIFIC............ +65 6768 8099
+SSC JAPAN.............. +81 3 5219 0600 
+
+Thank You, 
+SAVVIS SSC 
+888-638-6771 
+ssc at savvis.net <mailto:ssc at savvis.net>  
+
+
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070410/fddb98bc/attachment.htm 
+
+
+From ramans  Tue Apr 10 17:45:51 2007
+From: ramans (Raman Sud)
+Date: Tue, 10 Apr 2007 14:45:51 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140531 - Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE6F0@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, April 10, 2007 2:42 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#140531 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140531 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 1894678	
+GCR #:  CHG000000140531	
+Primary Dates: 24 Apr 2007 00:00:00 - 24 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  24 Apr 2007 05:00:00 - 24 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50 ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070410/e27f73e0/attachment-0001.htm 
+
+
+From ramans  Wed Apr 11 12:02:39 2007
+From: ramans (Raman Sud)
+Date: Wed, 11 Apr 2007 09:02:39 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140532 - Short Interval
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE713@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, April 11, 2007 9:02 AM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#140532 - Short
+Interval
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140532 - Short Interval	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000140532	
+Primary Dates: 25 Apr 2007 00:00:00 - 25 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  25 Apr 2007 05:00:00 - 25 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070411/2a032a48/attachment.htm 
+
+
+From ramans  Wed Apr 11 15:22:45 2007
+From: ramans (Raman Sud)
+Date: Wed, 11 Apr 2007 12:22:45 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140569 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB8BE735@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, April 11, 2007 12:23 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140569 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000140569	
+Primary Dates: 26 Apr 2007 00:00:00 - 26 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  26 Apr 2007 05:00:00 - 26 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070411/af0bbb58/attachment.htm 
+
+
+From jnavitsky  Wed Apr 18 00:04:17 2007
+From: jnavitsky (Jayson Navitsky)
+Date: Wed, 18 Apr 2007 00:04:17 -0400
+Subject: [Outages] Blackberry Message-ID: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+
+Apparently there's an outage affecting both Enterprise (BES) and
+Internet users data service.  There is no ETR (it's been going on
+since approx 8 ET), I'm not sure if it affects all carriers, but it is
+confirmed on Cingular.
+
+-J
+
+
+From jimpop  Wed Apr 18 00:24:21 2007
+From: jimpop (Jim Popovitch)
+Date: Wed, 18 Apr 2007 00:24:21 -0400
+Subject: [Outages] Blackberry In-Reply-To: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+References: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+Message-ID: <1176870261.20188.42.camel@localhost>
+
+On Wed, 2007-04-18 at 00:04 -0400, Jayson Navitsky wrote:
+> Apparently there's an outage affecting both Enterprise (BES) and
+> Internet users data service.  There is no ETR (it's been going on
+> since approx 8 ET), I'm not sure if it affects all carriers, but it is
+> confirmed on Cingular.
+
+I don't know about crackberries, but mobile handset data services have
+been, and still are, working fine in the southeast US.  I've hit several
+sites with my handset today, and just now, as well as txt'ing folks in
+ATL, TPA, JAX, and NoVA.  YMMV.
+
+-Jim P.
+
+
+
+From virendra.rode  Wed Apr 18 00:27:22 2007
+From: virendra.rode (virendra rode //)
+Date: Tue, 17 Apr 2007 21:27:22 -0700
+Subject: [Outages] Blackberry In-Reply-To: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+References: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+Message-ID: <46259E2A.3090205@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jayson Navitsky wrote:
+> Apparently there's an outage affecting both Enterprise (BES) and
+> Internet users data service.  There is no ETR (it's been going on
+> since approx 8 ET), I'm not sure if it affects all carriers, but it is
+> confirmed on Cingular.
+> 
+> -J
+- -----------------------
+I'm seeing similar results on my cingular (blackberry). I confirmed the
+same w/ another person on cingular (blackberry).
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJZ4qpbZvCIJx1bcRAiGLAKCjFvM7c4o/BVbmQavxvGsyxqzGJACg4lZ0
+le3KjvGp0WvpF3lyFt0lhq4=
+=cALI
+-----END PGP SIGNATURE-----
+
+
+From francois.rousseau.tech  Wed Apr 18 00:42:03 2007
+From: francois.rousseau.tech (=?UTF-8?Q?Fran=C3=A7ois_Rousseau?=)
+Date: Wed, 18 Apr 2007 00:42:03 -0400
+Subject: [Outages] Blackberry In-Reply-To: <46259E2A.3090205@gmail.com>
+References: <d1be2cee0704172104n74c4f5fah7060101dbebcd4e7@mail.gmail.com>
+	<46259E2A.3090205@gmail.com>
+Message-ID: <89fae3950704172142h39c62babvcd9f854828a649f5@mail.gmail.com>
+
+I have a similar issue with my Blackberry in Quebec.  Apparently the
+outage have affect Rogers but not Telus.
+
+The outage was between 22h00 and 00h00 -04h00 UTC.
+
+Francois Rousseau
+
+2007/4/18, virendra rode // <virendra.rode at gmail.com>:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Jayson Navitsky wrote:
+> > Apparently there's an outage affecting both Enterprise (BES) and
+> > Internet users data service.  There is no ETR (it's been going on
+> > since approx 8 ET), I'm not sure if it affects all carriers, but it is
+> > confirmed on Cingular.
+> >
+> > -J
+> - -----------------------
+> I'm seeing similar results on my cingular (blackberry). I confirmed the
+> same w/ another person on cingular (blackberry).
+>
+>
+>
+> regards,
+> /virendra
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFGJZ4qpbZvCIJx1bcRAiGLAKCjFvM7c4o/BVbmQavxvGsyxqzGJACg4lZ0
+> le3KjvGp0WvpF3lyFt0lhq4=
+> =cALI
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From fergdawg  Wed Apr 18 02:47:02 2007
+From: fergdawg (Fergie)
+Date: Wed, 18 Apr 2007 06:47:02 GMT
+Subject: [Outages] New Zealand: Internet Outage Hits Tens of Thousands Message-ID: <20070417.234725.748.1084116@webmail17.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070418/8b189aa6/attachment.diff 
+
+
+From jonathan  Wed Apr 18 00:10:57 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Tue, 17 Apr 2007 23:10:57 -0500
+Subject: [Outages] Blackberry Message-ID: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+
+I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile as well and Cingular as you've already mentioned.
+
+Local news is reporting that they expect this issue to go into tomorrow.
+
+*hugs his ActiveSynced Blackjack*
+
+-----Original Message-----
+From: "Jayson Navitsky" <jnavitsky at gmail.com>
+To: "outages at isotf.org" <outages at isotf.org>
+Sent: 4/18/2007 12:01 AM
+
+Apparently there's an outage affecting both Enterprise (BES) and
+Internet users data service.  There is no ETR (it's been going on
+since approx 8 ET), I'm not sure if it affects all carriers, but it is
+confirmed on Cingular.
+
+-J
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070417/705e88ae/attachment.htm 
+
+
+From virendra.rode  Wed Apr 18 10:03:20 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 18 Apr 2007 07:03:20 -0700
+Subject: [Outages] Massive System Failure Affects BlackBerry Users Message-ID: <46262528.3080401@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJiUopbZvCIJx1bcRAlSDAKC9UYBJ+A1uK/JBLkaY4VuD/iv9tgCfQOTm
+dxMX4eZpw/LJherjshhTZEA=
+=UGSb
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Apr 18 10:14:36 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 18 Apr 2007 07:14:36 -0700
+Subject: [Outages] Summary: BlackBerry Infrastructure Outage Message-ID: <462627CC.5040306@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Impact: The following services will be restored once the incident has
+cleared: BlackBerry Internet Service subscribers will be unable to
+receive messages and will receive an "x" when sending messages.
+Subscribers will not be able to access Subscriber Website,
+self-provision, create new accounts, or integrate new ISP accounts.
+BlackBerry Internet Service resellers will not be able to access Admin
+Website to activate subscribers. Provisioning resellers will not be able
+to access the provisioning site for service activations/deactivations.
+Carriers will not be able to provision (activate, deactivate, suspend or
+resume) Relay-access services either through the web user interface or
+the XML interface. BlackBerry Enterprise Clients will lose their
+connection and not be able to reconnect and new users will not be able
+to register their devices. BlackBerry Internet Edition, paging
+subscribers, PIN to PIN and Desktop Redirector users, will not be able
+to send or receive messages.
+
+Subscribers will be unable to use Relay Roaming. [0491]
+
+Incident Window Start Date and Time: 17 April 2007 20:11:20 (EDT) % of
+Subscribers Affected: 100.00 (estimated)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJifMpbZvCIJx1bcRAnvZAJ9XZTxaF2vBPb7heCCDbpME0irq6QCcDqPX
+pTGczLyfACU6NrHfgN1lOy8=
+=fcHe
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Apr 18 10:35:08 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 18 Apr 2007 07:35:08 -0700
+Subject: [Outages] slowness at tax e-filing. Message-ID: <46262C9C.5080404@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Apparently turbotax filers overwhelmed the system that runs turotax
+e-filing system to a grind. At one point turbotax received 50 to 60
+returns a second and many did not get through causing a minor blip.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJiycpbZvCIJx1bcRAgZiAJ98KrlKJcGkcAX/PU0ODzYhFnx8ewCfcGaI
+J9rMu6w2/eewgANrT1B7idA=
+=c65P
+-----END PGP SIGNATURE-----
+
+
+From jonathan  Wed Apr 18 11:20:11 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Wed, 18 Apr 2007 10:20:11 -0500
+Subject: [Outages] Blackberry References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+	<1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com>
+Message-ID: <51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com>
+
+Were they using a US Blackberry though? That may have been part of the
+issue.
+
+-----Original Message-----
+From: Mike Lyon [mailto:mike.lyon at gmail.com] 
+Sent: Wednesday, April 18, 2007 11:18 AM
+To: Jonathan M. Slivko
+Cc: Jayson Navitsky; outages at isotf.org
+
+It was affecting my users in the US and in London. Cingular confirmed
+the issue happened at 5:11pm PST on the 17th.
+
+-Mike
+
+
+On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>
+>
+>
+> I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile as
+well
+> and Cingular as you've already mentioned.
+>
+>  Local news is reporting that they expect this issue to go into
+tomorrow.
+>
+>  *hugs his ActiveSynced Blackjack*
+>
+>  -----Original Message-----
+>  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+>  To: "outages at isotf.org" <outages at isotf.org>
+>  Sent: 4/18/2007 12:01 AM
+>  Subject: [Outages] Blackberry
+>
+>  Apparently there's an outage affecting both Enterprise (BES) and
+>  Internet users data service.  There is no ETR (it's been going on
+>  since approx 8 ET), I'm not sure if it affects all carriers, but it
+is
+>  confirmed on Cingular.
+>
+>  -J
+>  _______________________________________________
+>  Outages mailing list
+>  Outages at isotf.org
+>  http://isotf.org/mailman/listinfo/outages
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+>
+
+
+From mike.lyon  Wed Apr 18 11:24:45 2007
+From: mike.lyon (Mike Lyon)
+Date: Wed, 18 Apr 2007 08:24:45 -0700
+Subject: [Outages] Blackberry In-Reply-To: <51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com>
+References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+	<1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com>
+Message-ID: <1b5c1c150704180824v56168549v634546dd65ac518@mail.gmail.com>
+
+Yup, they were US cingular BBs that usually work just fine over there.
+
+-Mike
+
+
+On 4/18/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+> Were they using a US Blackberry though? That may have been part of the
+> issue.
+>
+> -----Original Message-----
+> From: Mike Lyon [mailto:mike.lyon at gmail.com]
+> Sent: Wednesday, April 18, 2007 11:18 AM
+> To: Jonathan M. Slivko
+> Cc: Jayson Navitsky; outages at isotf.org
+> Subject: Re: [Outages] Blackberry
+>
+> It was affecting my users in the US and in London. Cingular confirmed
+> the issue happened at 5:11pm PST on the 17th.
+>
+> -Mike
+>
+>
+> On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+> >
+> >
+> >
+> > I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile as
+> well
+> > and Cingular as you've already mentioned.
+> >
+> >  Local news is reporting that they expect this issue to go into
+> tomorrow.
+> >
+> >  *hugs his ActiveSynced Blackjack*
+> >
+> >  -----Original Message-----
+> >  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+> >  To: "outages at isotf.org" <outages at isotf.org>
+> >  Sent: 4/18/2007 12:01 AM
+> >  Subject: [Outages] Blackberry
+> >
+> >  Apparently there's an outage affecting both Enterprise (BES) and
+> >  Internet users data service.  There is no ETR (it's been going on
+> >  since approx 8 ET), I'm not sure if it affects all carriers, but it
+> is
+> >  confirmed on Cingular.
+> >
+> >  -J
+> >  _______________________________________________
+> >  Outages mailing list
+> >  Outages at isotf.org
+> >  http://isotf.org/mailman/listinfo/outages
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at isotf.org
+> > http://isotf.org/mailman/listinfo/outages
+> >
+> >
+>
+
+
+From mike.lyon  Wed Apr 18 11:17:59 2007
+From: mike.lyon (Mike Lyon)
+Date: Wed, 18 Apr 2007 08:17:59 -0700
+Subject: [Outages] Blackberry In-Reply-To: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+Message-ID: <1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com>
+
+It was affecting my users in the US and in London. Cingular confirmed
+the issue happened at 5:11pm PST on the 17th.
+
+-Mike
+
+
+On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>
+>
+>
+> I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile as well
+> and Cingular as you've already mentioned.
+>
+>  Local news is reporting that they expect this issue to go into tomorrow.
+>
+>  *hugs his ActiveSynced Blackjack*
+>
+>  -----Original Message-----
+>  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+>  To: "outages at isotf.org" <outages at isotf.org>
+>  Sent: 4/18/2007 12:01 AM
+>  Subject: [Outages] Blackberry
+>
+>  Apparently there's an outage affecting both Enterprise (BES) and
+>  Internet users data service.  There is no ETR (it's been going on
+>  since approx 8 ET), I'm not sure if it affects all carriers, but it is
+>  confirmed on Cingular.
+>
+>  -J
+>  _______________________________________________
+>  Outages mailing list
+>  Outages at isotf.org
+>  http://isotf.org/mailman/listinfo/outages
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+>
+
+
+From jonathan  Wed Apr 18 11:25:41 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Wed, 18 Apr 2007 10:25:41 -0500
+Subject: [Outages] Blackberry References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>
+	<1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com>
+	<1b5c1c150704180824v56168549v634546dd65ac518@mail.gmail.com>
+Message-ID: <51988BAE8E8F38428E1F2C66EBAC01B13BAF@exchg.corporate.hspheredns.com>
+
+That's probably why - since they're homed to the US and thus connect to
+the North American servers. I bet if the Blackberry was homed to a UK
+carrier - it would be fine since it would route through RIM's UK
+servers.
+
+-----Original Message-----
+From: Mike Lyon [mailto:mike.lyon at gmail.com] 
+Sent: Wednesday, April 18, 2007 11:25 AM
+To: Jonathan M. Slivko
+Cc: Jayson Navitsky; outages at isotf.org
+
+Yup, they were US cingular BBs that usually work just fine over there.
+
+-Mike
+
+
+On 4/18/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+> Were they using a US Blackberry though? That may have been part of the
+> issue.
+>
+> -----Original Message-----
+> From: Mike Lyon [mailto:mike.lyon at gmail.com]
+> Sent: Wednesday, April 18, 2007 11:18 AM
+> To: Jonathan M. Slivko
+> Cc: Jayson Navitsky; outages at isotf.org
+> Subject: Re: [Outages] Blackberry
+>
+> It was affecting my users in the US and in London. Cingular confirmed
+> the issue happened at 5:11pm PST on the 17th.
+>
+> -Mike
+>
+>
+> On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+> >
+> >
+> >
+> > I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile
+as
+> well
+> > and Cingular as you've already mentioned.
+> >
+> >  Local news is reporting that they expect this issue to go into
+> tomorrow.
+> >
+> >  *hugs his ActiveSynced Blackjack*
+> >
+> >  -----Original Message-----
+> >  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+> >  To: "outages at isotf.org" <outages at isotf.org>
+> >  Sent: 4/18/2007 12:01 AM
+> >  Subject: [Outages] Blackberry
+> >
+> >  Apparently there's an outage affecting both Enterprise (BES) and
+> >  Internet users data service.  There is no ETR (it's been going on
+> >  since approx 8 ET), I'm not sure if it affects all carriers, but it
+> is
+> >  confirmed on Cingular.
+> >
+> >  -J
+> >  _______________________________________________
+> >  Outages mailing list
+> >  Outages at isotf.org
+> >  http://isotf.org/mailman/listinfo/outages
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at isotf.org
+> > http://isotf.org/mailman/listinfo/outages
+> >
+> >
+>
+
+
+From virendra.rode  Wed Apr 18 11:45:43 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 18 Apr 2007 08:45:43 -0700
+Subject: [Outages] Blackberry In-Reply-To: <51988BAE8E8F38428E1F2C66EBAC01B13BAF@exchg.corporate.hspheredns.com>
+References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com>	<1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com>	<51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com>	<1b5c1c150704180824v56168549v634546dd65ac518@mail.gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BAF@exchg.corporate.hspheredns.com>
+Message-ID: <46263D27.8020802@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jonathan M. Slivko wrote:
+> That's probably why - since they're homed to the US and thus connect to
+> the North American servers. I bet if the Blackberry was homed to a UK
+> carrier - it would be fine since it would route through RIM's UK
+> servers.
+- ---------------------
+I was told this outage was specific to north american servers.
+
+
+regards,
+/virendra
+
+> 
+> -----Original Message-----
+> From: Mike Lyon [mailto:mike.lyon at gmail.com] 
+> Sent: Wednesday, April 18, 2007 11:25 AM
+> To: Jonathan M. Slivko
+> Cc: Jayson Navitsky; outages at isotf.org
+> Subject: Re: [Outages] Blackberry
+> 
+> Yup, they were US cingular BBs that usually work just fine over there.
+> 
+> -Mike
+> 
+> 
+> On 4/18/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>> Were they using a US Blackberry though? That may have been part of the
+>> issue.
+>>
+>> -----Original Message-----
+>> From: Mike Lyon [mailto:mike.lyon at gmail.com]
+>> Sent: Wednesday, April 18, 2007 11:18 AM
+>> To: Jonathan M. Slivko
+>> Cc: Jayson Navitsky; outages at isotf.org
+>> Subject: Re: [Outages] Blackberry
+>>
+>> It was affecting my users in the US and in London. Cingular confirmed
+>> the issue happened at 5:11pm PST on the 17th.
+>>
+>> -Mike
+>>
+>>
+>> On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>>>
+>>>
+>>> I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile
+> as
+>> well
+>>> and Cingular as you've already mentioned.
+>>>
+>>>  Local news is reporting that they expect this issue to go into
+>> tomorrow.
+>>>  *hugs his ActiveSynced Blackjack*
+>>>
+>>>  -----Original Message-----
+>>>  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+>>>  To: "outages at isotf.org" <outages at isotf.org>
+>>>  Sent: 4/18/2007 12:01 AM
+>>>  Subject: [Outages] Blackberry
+>>>
+>>>  Apparently there's an outage affecting both Enterprise (BES) and
+>>>  Internet users data service.  There is no ETR (it's been going on
+>>>  since approx 8 ET), I'm not sure if it affects all carriers, but it
+>> is
+>>>  confirmed on Cingular.
+>>>
+>>>  -J
+>>>  _______________________________________________
+>>>  Outages mailing list
+>>>  Outages at isotf.org
+>>>  http://isotf.org/mailman/listinfo/outages
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at isotf.org
+>>> http://isotf.org/mailman/listinfo/outages
+>>>
+>>>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJj0npbZvCIJx1bcRAt/AAJ9xVlMjeKZpkZs1q/ndEKcRQzv1DgCgn01g
+OLaTmpsHDuX3BPnpoIup1OA=
+=CcFd
+-----END PGP SIGNATURE-----
+
+
+From jonathan  Wed Apr 18 11:49:33 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Wed, 18 Apr 2007 10:49:33 -0500
+Subject: [Outages] Blackberry References: <004b01c7816f$11bf687a$1322f948@corporate.hspheredns.com> <1b5c1c150704180817h773213dfqec361f8b3f2e5c68@mail.gmail.com> <51988BAE8E8F38428E1F2C66EBAC01B13BAE@exchg.corporate.hspheredns.com> <1b5c1c150704180824v56168549v634546dd65ac518@mail.gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BAF@exchg.corporate.hspheredns.com>
+	<46263D27.8020802@gmail.com>
+Message-ID: <51988BAE8E8F38428E1F2C66EBAC01B13BB0@exchg.corporate.hspheredns.com>
+
+Yes - that's exactly my point - any Blackberries from T-Mobile UK or
+anywhere else are configured to go to the local Blackberry server in
+that area/country.
+
+So, the Cingular Blackberries, being originally from North America -
+would connect to the North American servers. A T-Mobile UK Blackberry
+would more than likely connect to a server in the UK or at least in
+Europe.
+
+-- Jonathan
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com] 
+Sent: Wednesday, April 18, 2007 11:46 AM
+To: Jonathan M. Slivko
+Cc: Mike Lyon; outages at isotf.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jonathan M. Slivko wrote:
+> That's probably why - since they're homed to the US and thus connect
+to
+> the North American servers. I bet if the Blackberry was homed to a UK
+> carrier - it would be fine since it would route through RIM's UK
+> servers.
+- ---------------------
+I was told this outage was specific to north american servers.
+
+
+regards,
+/virendra
+
+> 
+> -----Original Message-----
+> From: Mike Lyon [mailto:mike.lyon at gmail.com] 
+> Sent: Wednesday, April 18, 2007 11:25 AM
+> To: Jonathan M. Slivko
+> Cc: Jayson Navitsky; outages at isotf.org
+> Subject: Re: [Outages] Blackberry
+> 
+> Yup, they were US cingular BBs that usually work just fine over there.
+> 
+> -Mike
+> 
+> 
+> On 4/18/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>> Were they using a US Blackberry though? That may have been part of
+the
+>> issue.
+>>
+>> -----Original Message-----
+>> From: Mike Lyon [mailto:mike.lyon at gmail.com]
+>> Sent: Wednesday, April 18, 2007 11:18 AM
+>> To: Jonathan M. Slivko
+>> Cc: Jayson Navitsky; outages at isotf.org
+>> Subject: Re: [Outages] Blackberry
+>>
+>> It was affecting my users in the US and in London. Cingular confirmed
+>> the issue happened at 5:11pm PST on the 17th.
+>>
+>> -Mike
+>>
+>>
+>> On 4/17/07, Jonathan M. Slivko <jonathan at slivko.org> wrote:
+>>>
+>>>
+>>> I can confirm it with Nextel/Sprint. I'm seeing reports of T-Mobile
+> as
+>> well
+>>> and Cingular as you've already mentioned.
+>>>
+>>>  Local news is reporting that they expect this issue to go into
+>> tomorrow.
+>>>  *hugs his ActiveSynced Blackjack*
+>>>
+>>>  -----Original Message-----
+>>>  From: "Jayson Navitsky" <jnavitsky at gmail.com>
+>>>  To: "outages at isotf.org" <outages at isotf.org>
+>>>  Sent: 4/18/2007 12:01 AM
+>>>  Subject: [Outages] Blackberry
+>>>
+>>>  Apparently there's an outage affecting both Enterprise (BES) and
+>>>  Internet users data service.  There is no ETR (it's been going on
+>>>  since approx 8 ET), I'm not sure if it affects all carriers, but it
+>> is
+>>>  confirmed on Cingular.
+>>>
+>>>  -J
+>>>  _______________________________________________
+>>>  Outages mailing list
+>>>  Outages at isotf.org
+>>>  http://isotf.org/mailman/listinfo/outages
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at isotf.org
+>>> http://isotf.org/mailman/listinfo/outages
+>>>
+>>>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJj0npbZvCIJx1bcRAt/AAJ9xVlMjeKZpkZs1q/ndEKcRQzv1DgCgn01g
+OLaTmpsHDuX3BPnpoIup1OA=
+=CcFd
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Fri Apr 20 00:19:00 2007
+From: virendra.rode (virendra rode //)
+Date: Thu, 19 Apr 2007 21:19:00 -0700
+Subject: [Outages] [ot] BlackBerry owes this guy a girlfriend Message-ID: <46283F34.9010708@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+The ex obviously doesn't read outages mailing list or she'd have known
+immediately what was going on :-)
+
+http://www.networkworld.com/community/?q=node/14208
+
+sorry about the OT, couldn't resist.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKD80pbZvCIJx1bcRAnnnAJ0QR+oi3guZUDQCZHmkowY6FdPuYACeM5hJ
+Rg3W4pr2cI28ba0Xa2G0Aiw=
+=Me9J
+-----END PGP SIGNATURE-----
+
+
+From ramans  Fri Apr 20 12:27:30 2007
+From: ramans (Raman Sud)
+Date: Fri, 20 Apr 2007 09:27:30 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#142635 - Emergency
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB941743@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Friday, April 20, 2007 9:23 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***EMERGENCY MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#142635 - Emergency	
+	
+________________________________
+
+Clarify Case#: 1915432	
+GCR #:  CHG000000142635	
+Primary Dates: 21 Apr 2007 00:00:00 - 21 Apr 2007 06:00:00 Pacific	
+Primary Dates GMT:  21 Apr 2007 07:00:00 - 21 Apr 2007 13:00:00	
+Location of Maintenance: Los Angeles CA,	
+Summary Description of Maintenance:  Replace - Card(s) - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level must replace 2
+network elements in Los Angles, protected customers will see switch hits
+and unprotected customers will see outage up to 1 hour.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level must
+replace 2 network elements in Los Angles, protected customers will see
+switch hits and unprotected customers will see outage up to 1 hour.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+LSANCAJW-PHNXAZ19-00002	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070420/4adce313/attachment.html 
+
+
+From virendra.rode  Fri Apr 20 12:53:40 2007
+From: virendra.rode (virendra rode //)
+Date: Fri, 20 Apr 2007 09:53:40 -0700
+Subject: [Outages] Summary on upcoming level(3) maintenance. Message-ID: <4628F014.3070508@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+These maintenance notification are ordered by date. Many thanks to Raman
+Sud.
+
+
+
+(1)
+Primary Dates: 21 Apr 2007 00:00:00 - 21 Apr 2007 06:00:00 Pacific	
+Primary Dates GMT:  21 Apr 2007 07:00:00 - 21 Apr 2007 13:00:00	
+Location of Maintenance: Los Angeles CA,	
+Summary Description of Maintenance:  Replace - Card(s) - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level must replace 2
+network elements in Los Angles, protected customers will see switch hits
+and unprotected customers will see outage up to 1 hour.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level must
+replace 2 network elements in Los Angles, protected customers will see
+switch hits and unprotected customers will see outage up to 1 hour.	
+
+
+
+(2)
+Primary Dates: 24 Apr 2007 00:00:00 - 24 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  24 Apr 2007 05:00:00 - 24 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50 ms
+switch hit for protected customers.	
+
+
+(3)
+Primary Dates: 25 Apr 2007 00:00:00 - 25 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  25 Apr 2007 05:00:00 - 25 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+
+
+(4)
+Primary Dates: 26 Apr 2007 00:00:00 - 26 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  26 Apr 2007 05:00:00 - 26 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKPAUpbZvCIJx1bcRAv60AJ45QQrRrZei1rT6HjoS4hvDniKjuQCglpvx
+0Y+7wxb8Xj7C9zyHvD9Z9jk=
+=6jjl
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Sun Apr 22 02:03:24 2007
+From: virendra.rode (virendra rode //)
+Date: Sat, 21 Apr 2007 23:03:24 -0700
+Subject: [Outages] Massive System Failure Affects BlackBerry Users In-Reply-To: <51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
+References: <46262528.3080401@gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
+Message-ID: <462AFAAC.60002@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jonathan M. Slivko wrote:
+> Hmmm.... has anyone actually gotten any [detailed] info as to what
+> happened at RIM the other day?
+- ---------------------------
+http://www.nytimes.com/2007/04/20/technology/20blackberry.html?_r=2&oref=slogin&oref=slogin
+
+
+
+regards,
+/virendra
+
+> 
+> -----Original Message-----
+> From: virendra rode // [mailto:virendra.rode at gmail.com] 
+> Sent: Wednesday, April 18, 2007 10:03 AM
+> To: outages at isotf.org
+> Subject: [Outages] Massive System Failure Affects BlackBerry Users
+> 
+> http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
+> 
+> 
+> 
+> regards,
+> /virendra
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKvqspbZvCIJx1bcRApnWAJ4morBEbtvoqz6Rxhtr8oa+4kitpQCg31N9
+z5lkJXXCY5G2OE4kGK5gIZE=
+=XSkk
+-----END PGP SIGNATURE-----
+
+
+From jonathan  Sat Apr 21 22:57:12 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Sat, 21 Apr 2007 21:57:12 -0500
+Subject: [Outages] Massive System Failure Affects BlackBerry Users References: <46262528.3080401@gmail.com>
+Message-ID: <51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
+
+Hmmm.... has anyone actually gotten any [detailed] info as to what
+happened at RIM the other day?
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com] 
+Sent: Wednesday, April 18, 2007 10:03 AM
+To: outages at isotf.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGJiUopbZvCIJx1bcRAlSDAKC9UYBJ+A1uK/JBLkaY4VuD/iv9tgCfQOTm
+dxMX4eZpw/LJherjshhTZEA=
+=UGSb
+-----END PGP SIGNATURE-----
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From jonathan  Sun Apr 22 07:30:40 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Sun, 22 Apr 2007 06:30:40 -0500
+Subject: [Outages] Massive System Failure Affects BlackBerry Users References: <46262528.3080401@gmail.com>
+	<51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
+	<462AFAAC.60002@gmail.com>
+Message-ID: <51988BAE8E8F38428E1F2C66EBAC01B10DF902@exchg.corporate.hspheredns.com>
+
+Lovely....
+
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com]
+Sent: Sun 4/22/2007 2:03 AM
+To: Jonathan M. Slivko
+Cc: outages at isotf.org
+Subject: Re: [Outages] Massive System Failure Affects BlackBerry Users
+ 
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jonathan M. Slivko wrote:
+> Hmmm.... has anyone actually gotten any [detailed] info as to what
+> happened at RIM the other day?
+- ---------------------------
+http://www.nytimes.com/2007/04/20/technology/20blackberry.html?_r=2&oref=slogin&oref=slogin
+
+
+
+regards,
+/virendra
+
+> 
+> -----Original Message-----
+> From: virendra rode // [mailto:virendra.rode at gmail.com] 
+> Sent: Wednesday, April 18, 2007 10:03 AM
+> To: outages at isotf.org
+> Subject: [Outages] Massive System Failure Affects BlackBerry Users
+> 
+> http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
+> 
+> 
+> 
+> regards,
+> /virendra
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGKvqspbZvCIJx1bcRApnWAJ4morBEbtvoqz6Rxhtr8oa+4kitpQCg31N9
+z5lkJXXCY5G2OE4kGK5gIZE=
+=XSkk
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070422/5f313253/attachment.htm 
+
+
+From ramans  Mon Apr 23 13:39:46 2007
+From: ramans (Raman Sud)
+Date: Mon, 23 Apr 2007 10:39:46 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140532 - 36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB9417A6@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Monday, April 23, 2007 10:39 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140532 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000140532	
+Primary Dates: 25 Apr 2007 00:00:00 - 25 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  25 Apr 2007 05:00:00 - 25 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070423/f18c8278/attachment.htm 
+
+
+From ramans  Tue Apr 24 13:24:22 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Apr 2007 10:24:22 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140569 - 36 Hours
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB941804@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, April 24, 2007 10:20 AM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140569 - 36 Hours	
+This Maintenance is scheduled to occur within 36 hours. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000140569	
+Primary Dates: 26 Apr 2007 00:00:00 - 26 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  26 Apr 2007 05:00:00 - 26 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070424/ab7c92a2/attachment.htm 
+
+
+From ramans  Tue Apr 24 18:26:25 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Apr 2007 15:26:25 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#143124 - Emergency
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB94182A@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, April 24, 2007 3:24 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***EMERGENCY MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#143124 - Emergency	
+	
+________________________________
+
+Clarify Case#: 1920763	
+GCR #:  CHG000000143124	
+Primary Dates: 25 Apr 2007 00:00:00 - 25 Apr 2007 06:00:00 Mountain	
+Primary Dates GMT:  25 Apr 2007 06:00:00 - 25 Apr 2007 12:00:00	
+Location of Maintenance: Haigler NE,	
+Summary Description of Maintenance:  Replace - Card(s) - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 has a network
+element about to fail and needs to replace before uncontrolled outage
+occurs.	
+Transport - Protected	 Outage	 SA	 1 hour	 Level 3 has a network
+element about to fail and needs to replace before uncontrolled outage
+occurs.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00008	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070424/b877524c/attachment-0001.htm 
+
+
+From ramans  Tue Apr 24 18:26:28 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Apr 2007 15:26:28 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#143103 - Emergency
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB94182B@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, April 24, 2007 3:24 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***EMERGENCY MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#143103 - Emergency	
+	
+________________________________
+
+Clarify Case#: 1920520	
+GCR #:  CHG000000143103	
+Primary Dates: 25 Apr 2007 00:01:00 - 25 Apr 2007 06:01:00 Eastern	
+Primary Dates GMT:  25 Apr 2007 04:01:00 - 25 Apr 2007 10:01:00	
+Location of Maintenance: Linden AL,	
+Summary Description of Maintenance:  Replace - Card(s) - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Level 3 Communcations
+will perform demand maintenance to replace a card. Protected and
+unprotected services will be down up to 2 hours.	
+Transport - Protected	 Outage	 SA	 2 hour	 Level 3 Communcations
+will perform demand maintenance to replace a card. Protected and
+unprotected services will be down up to 2 hours.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-PHNXAZ19-00002	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070424/b392d26d/attachment.htm 
+
+
+From ramans  Tue Apr 24 18:26:31 2007
+From: ramans (Raman Sud)
+Date: Tue, 24 Apr 2007 15:26:31 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#143103 - Scheduled
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB94182C@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Tuesday, April 24, 2007 3:09 PM
+To: Networking
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***SCHEDULED MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#143103 - Scheduled	
+	
+________________________________
+
+Clarify Case#: 1920520	
+GCR #:  CHG000000143103	
+Primary Dates: 25 Apr 2007 00:01:00 - 25 Apr 2007 06:01:00 Eastern	
+Primary Dates GMT:  25 Apr 2007 04:01:00 - 25 Apr 2007 10:01:00	
+Location of Maintenance: Linden AL,	
+Summary Description of Maintenance:  Replace - Card(s) - ADM	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Level 3 Communcations
+will perform demand maintenance to replace a card. Protected and
+unprotected services will be down up to 2 hours.	
+Transport - Protected	 Outage	 SA	 2 hour	 Level 3 Communcations
+will perform demand maintenance to replace a card. Protected and
+unprotected services will be down up to 2 hours.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+ASBNVACY-PHNXAZ19-00002	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070424/803ca3b5/attachment-0001.htm 
+
+
+From virendra.rode  Wed Apr 25 17:58:48 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 25 Apr 2007 14:58:48 -0700
+Subject: [Outages] cogent peering issues. Message-ID: <462FCF18.9050408@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I'm sure you heard that cogent is having peering issues.
+
+I'm still waiting for cogent's network status page to be updated.
+
+Until then, if anyone has any further insight into this issue, please
+enlighten the list.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGL88XpbZvCIJx1bcRAoq8AJ9R76BZ9KjOa1gpvBdm9Cy60qOZzACgxBM2
+o3mOX+YAeKl3sDtq+cQFr5s=
+=nB8X
+-----END PGP SIGNATURE-----
+
+
+From ramans  Wed Apr 25 18:13:21 2007
+From: ramans (Raman Sud)
+Date: Wed, 25 Apr 2007 15:13:21 -0700
+Subject: [Outages] FW: Level(3) Service Affecting Maintenance - GCR#140569 - Completion
+Message-ID: <06EF9CEFEF46484EA8A230DA53772DBB941877@Exchange.ccbill-hq.local>
+
+ 
+
+________________________________
+
+From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+Sent: Wednesday, April 25, 2007 3:13 PM
+To: Networking
+Subject: Level(3) Service Affecting Maintenance - GCR#140569 -
+Completion
+
+
+Level (3) Communications - Network Change Control (NCC)	
+***MAINTENANCE ADVISEMENT***	
+Level(3) Service Affecting Maintenance - GCR#140569 - Completion	
+This Maintenance is COMPLETE. 	
+________________________________
+
+Clarify Case#: 	
+GCR #:  CHG000000140569	
+Primary Dates: 26 Apr 2007 00:00:00 - 26 Apr 2007 06:00:00 Central	
+Primary Dates GMT:  26 Apr 2007 05:00:00 - 26 Apr 2007 11:00:00	
+Location of Maintenance: St. Louis MO,	
+Summary Description of Maintenance:  Relocate - OSP Conduit(s) - Other	
+	
+Customer Impact:	
+Service	 Expected Impact	 Classification	 Duration
+Additional Notes	
+Transport - Unprotected	 Outage	 SA	 2 hour	 Hot Cut relocation on
+fiber network in Normal, Illinois. This hot cut maintenance is critical
+to the city of Normal, IL who has paid a significant relocation fee.
+They have been waiting since last fall on this and any further delays
+will impact their project. Up to a 2 hour outage for unprotected
+customers.	
+Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Hot Cut
+relocation on fiber network in Normal, Illinois. This hot cut
+maintenance is critical to the city of Normal, IL who has paid a
+significant relocation fee. They have been waiting since last fall on
+this and any further delays will impact their project. Up to a 50ms
+switch hit for protected customers.	
+	
+CWIE, LLC - - Services Impacted:	
+Transport :	
+Circuit ID	 Bandwidth	 Classification	
+SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+________________________________
+
+If you have any questions or concerns about this network maintenance
+notification, please call or email the Service Management Center on the
+appropriate national toll-free/freephone number or email address below.
+Additionally, if you wish to modify your contact information for
+maintenance notification, please communicate those changes to a SMC
+representative.	
+US Toll-Free: 877 4Level3	
+UK: 80800 0927729	
+Eire: 1 800441053	
+France: 0800 913180	
+Germany: 0800 2538353	
+Belgium: 0800 76216	
+Netherlands: 0800 0226108	
+Italy: 0800 0226108	
+Sweden: 0200 285 581	
+Spain: 900 938 973	
+Denmark: 80881479	
+Estonia: 8000044139	
+Austria: 0800291594	
+Poland: 00800 441 2409	
+Switzerland: 0800 564 151	
+US International: 1 720 888 0025	
+EU International: 44 20 7864 4599	
+EU Support <mailto:usupport at level3.com>  - (24x7) or	
+Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+	
+Thank you for your cooperation,	
+Level (3) Communications	
+Customer Network Operations	
+PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+communication and any attached documents may be privileged, confidential
+or otherwise protected from disclosure and is intended only for the use
+of the designated recipient(s). If the reader is neither the intended
+recipient nor an employee or agent thereof who is responsible for
+delivering it to the intended recipient, you are hereby notified that
+any review, dissemination, distribution, copying or other use of this
+communication is strictly prohibited. If you have received this
+communication in error, please immediately notify us by return e-mail
+and promptly delete the original electronic e-mail communication and any
+attached documentation. Receipt by anyone other than the intended
+recipient is not a waiver of any attorney-client or work-product
+privilege. 	
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070425/abda49b4/attachment.htm 
+
+
+From jonathan  Wed Apr 25 18:11:13 2007
+From: jonathan (Jonathan M. Slivko)
+Date: Wed, 25 Apr 2007 17:11:13 -0500
+Subject: [Outages]  cogent peering issues. Message-ID: <005201c78786$1b91f196$1322f948@corporate.hspheredns.com>
+
+Seems that all Cogent based sites are not visible at all from Verizon (FiOS, at least) IP/AS space.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070425/fad62013/attachment.htm 
+
+
+From fergdawg  Fri Apr 27 00:39:53 2007
+From: fergdawg (Fergie)
+Date: Fri, 27 Apr 2007 04:39:53 GMT
+Subject: [Outages] A Rough Day at Cogent: The Effects of De-Peering Message-ID: <20070426.214051.773.915776@webmail45.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070427/e6daa507/attachment.diff 
+
+
+From kgasso-lists  Fri Apr 27 14:22:16 2007
+From: kgasso-lists (Kameron Gasso)
+Date: Fri, 27 Apr 2007 11:22:16 -0700
+Subject: [Outages] Charter.net NW Message-ID: <1177698136.2154.31.camel@localhost>
+
+Just as a heads up, Charter NW (in Washington, Oregon, and Northern
+California) is experiencing a pretty major IP outage.
+
+We noticed our latency for traffic over one of their business fiber
+links started spiking at around 06:30 PDT today; I just (as of 11:15
+PDT) brought the interface back up without advertising our networks via
+BGP, and still am seeing intermittent issues.  I confirmed the issue
+with a couple of other contacts utilizing Charter for connectivity in
+the affected area.
+
+Their NOC has a message stating that the outage is still ongoing, with
+no ETR.
+
+Regards,
+-- 
+
+Kameron Gasso
+kgasso at visp.net
+
+
+
+From JJackson  Fri Apr 27 14:24:25 2007
+From: JJackson (Joseph Jackson)
+Date: Fri, 27 Apr 2007 11:24:25 -0700
+Subject: [Outages] Cox Fiber / XO Fiber in the las vegas area Message-ID: <B9843A4B77B5AD46AF1C1756FB565E2C02B0D90D@mcmail01.ad.local>
+
+Anyone seeing any issues with cox / xo fiber in the las vegas area?  We
+are part of the cox / xo sonet ring and our ds3s / T1s on that ring have
+been bouncing.  We have tickets open with our providers but wanted to
+see if anyone else as any info.
+
+
+Thanks
+
+Joseph
+
+
+From virendra.rode  Sat Apr 28 18:41:10 2007
+From: virendra.rode (virendra rode //)
+Date: Sat, 28 Apr 2007 15:41:10 -0700
+Subject: [Outages] Asia-U.S. Undersea Cable Avoids Earthquakes Message-ID: <4633CD86.6020303@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+?Asian phone companies unveiled plans on Friday to build a $500 million
+undersea cable between Southeast Asia and the United States to speed
+connections in the region and avoid earthquake zones,? according to
+Yahoo! News. The new fiber-optic cable that is being planned due to the
+fact that existing cables are nearing their full capacity is to be
+routed away from earthquake-prone locations in order to avoid
+international telecommunications problems like those that we saw at the
+end of last year."
+
+
+http://news.yahoo.com/s/nm/20070427/wr_nm/telecoms_cable_asia_dc_1
+
+
+Source:
+http://www.telegeography.com/products/map_cable/index.php
+
+Now in place underwater fiber networks between the United States ,
+Mainland China and South east Asia.
+
+Intra-Asia
+APCN
+APCN-2
+Australia-Japan Cable (AJC)
+C2C Cable Network
+East Asia Crossing (EAC)
+FLAG North Asia Loop/REACH North Asia Loop
+Guam-Philippines (G-P) Cable System
+i2i Cable Network (i2icn)
+Korea-Japan Cable Network (KJCN)
+Tata Indicom India-Singapore Cable System
+Thailand-Indonesia-Singapore
+
+U.S.-Asia
+China-U.S. Cable Network
+Japan-U.S. Cable Network (JUS)
+Pacific Crossing-1 (PC-1)
+Southern Cross Cable Network
+TPC 5
+Tyco Transpacific
+
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGM82FpbZvCIJx1bcRAlHTAKCgT474WB2yd8nVt0jKYiM6oHZwQQCg86/e
++rCnquWRBz+H13uZre3VZRs=
+=cwuS
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Mon Apr 30 17:23:20 2007
+From: fergdawg (Fergie)
+Date: Mon, 30 Apr 2007 21:23:20 GMT
+Subject: [Outages] Verizon fiber cut in the midwest? Message-ID: <20070430.142331.5268.1065373@webmail22.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070430/5a760534/attachment.ksh 
+
+

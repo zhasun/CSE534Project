@@ -1,0 +1,2450 @@
+From goretsky at gmail.com  Wed Apr  1 23:57:24 2009
+From: goretsky at gmail.com (Aryeh Goretsky (home))
+Date: Wed, 01 Apr 2009 20:57:24 -0700
+Subject: [outages] SAIX DNS outage?
+Message-ID: <49d438ae.29578c0a.2f86.4e92@mx.google.com>
+
+Hello,
+
+Does anyone have any information about an outage at the South African Internet
+Exchange, possibly DNS related?  Thank you.
+
+Regards,
+
+Aryeh Goretsky
+
+
+From virendra.rode at gmail.com  Thu Apr  2 11:33:14 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 02 Apr 2009 08:33:14 -0700
+Subject: [outages] SAIX DNS outage?
+In-Reply-To: <49d438ae.29578c0a.2f86.4e92@mx.google.com>
+References: <49d438ae.29578c0a.2f86.4e92@mx.google.com>
+Message-ID: <49D4DABA.8050905@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Aryeh,
+
+What's not clear whether yesterday's SAIX's DNS failure (over 70% of
+their users were impacted) was due to conficker. I haven't seen any
+evidence of that.
+
+Then again, SAIX's status page doesn't give a whole lot of information:
+http://www.saix.net/cgi-bin/saix_dns.pl
+
+
+regards,
+/virendra
+
+
+Aryeh Goretsky (home) wrote:
+> Hello,
+> 
+> Does anyone have any information about an outage at the South African
+> Internet
+> Exchange, possibly DNS related?  Thank you.
+> 
+> Regards,
+> 
+> Aryeh Goretsky
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ1Nq6pbZvCIJx1bcRAlzHAJ9s10aCvaES6HCZmBOQtFCyD8OfCwCfdouF
+HB4vEd035OznDN3uxAEv9LE=
+=6HjI
+-----END PGP SIGNATURE-----
+
+From jabley at hopcount.ca  Thu Apr  2 11:24:25 2009
+From: jabley at hopcount.ca (Joe Abley)
+Date: Thu, 2 Apr 2009 11:24:25 -0400
+Subject: [outages] SAIX DNS outage?
+In-Reply-To: <49d438ae.29578c0a.2f86.4e92@mx.google.com>
+References: <49d438ae.29578c0a.2f86.4e92@mx.google.com>
+Message-ID: <3401039F-5953-463F-853B-1C27A53030D8@hopcount.ca>
+
+
+On 1-Apr-2009, at 23:57, Aryeh Goretsky (home) wrote:
+
+> Does anyone have any information about an outage at the South  
+> African Internet
+> Exchange, possibly DNS related?  Thank you.
+
+I think SAIX is not actually an Internet Exchange, but in fact a  
+transit service of Telkom South Africa, for what that's worth.  
+Telkom's Internet help desk seems to be reachable on +27 27 201 0135.
+
+
+Joe
+
+
+From eric.spagna at us.didata.com  Fri Apr  3 04:29:32 2009
+From: eric.spagna at us.didata.com (Eric Spagna (US))
+Date: Fri, 3 Apr 2009 04:29:32 -0400
+Subject: [outages] Possible undersea cable cut in Asia
+Message-ID: <3D2A9A1D2B2F0E49B70E6E882E89890B0D920386@usbossvex01.na.didata.local>
+
+Have a client with a main link down in Asia. Their update from Verizon
+Singapore claims there is an undersea cable link down (maybe a cable
+cut? Not sure) between Taiwan and Hong Kong, and does not have an ETA at
+this time. 
+
+ 
+
+-Spags- 
+
+
+
+
+-----------------------------------------
+Disclaimer:
+
+This e-mail communication and any attachments may contain
+confidential and privileged information and is for use by the
+designated addressee(s) named above only.  If you are not the
+intended addressee, you are hereby notified that you have received
+this communication in error and that any use or reproduction of
+this email or its contents is strictly prohibited and may be
+unlawful.  If you have received this communication in error, please
+notify us immediately by replying to this message and deleting it
+from your computer. Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090403/a71375c6/attachment.html>
+
+From eric.spagna at us.didata.com  Fri Apr  3 07:34:42 2009
+From: eric.spagna at us.didata.com (Eric Spagna (US))
+Date: Fri, 3 Apr 2009 07:34:42 -0400
+Subject: [outages] Possible undersea cable cut in Asia
+References: <3D2A9A1D2B2F0E49B70E6E882E89890B0D920386@usbossvex01.na.didata.local>
+Message-ID: <3D2A9A1D2B2F0E49B70E6E882E89890B0729C2C6@usbossvex01.na.didata.local>
+
+Verified this issues was resolved around 6:30 AM EDT.
+
+-----------------------
+Eric Spagna
+GSC IPCC Engineer
+CCNA/MCSA/Sec+/Lin+
+Dimension Data
+Framingham, MA
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org on behalf of Eric Spagna (US)
+Sent: Fri 4/3/2009 4:29 AM
+To: outages at outages.org
+Subject: [outages] Possible undersea cable cut in Asia
+ 
+Have a client with a main link down in Asia. Their update from Verizon
+Singapore claims there is an undersea cable link down (maybe a cable
+cut? Not sure) between Taiwan and Hong Kong, and does not have an ETA at
+this time. 
+
+ 
+
+-Spags- 
+
+
+
+
+-----------------------------------------
+Disclaimer:
+
+This e-mail communication and any attachments may contain
+confidential and privileged information and is for use by the
+designated addressee(s) named above only.  If you are not the
+intended addressee, you are hereby notified that you have received
+this communication in error and that any use or reproduction of
+this email or its contents is strictly prohibited and may be
+unlawful.  If you have received this communication in error, please
+notify us immediately by replying to this message and deleting it
+from your computer. Thank you.
+
+
+
+
+
+-----------------------------------------
+Disclaimer:
+
+This e-mail communication and any attachments may contain
+confidential and privileged information and is for use by the
+designated addressee(s) named above only.  If you are not the
+intended addressee, you are hereby notified that you have received
+this communication in error and that any use or reproduction of
+this email or its contents is strictly prohibited and may be
+unlawful.  If you have received this communication in error, please
+notify us immediately by replying to this message and deleting it
+from your computer. Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090403/6e6d54df/attachment.html>
+
+From jabley at hopcount.ca  Thu Apr  9 08:43:47 2009
+From: jabley at hopcount.ca (Joe Abley)
+Date: Thu, 9 Apr 2009 08:43:47 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+Message-ID: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+
+Hey,
+
+I am hearing from multiple people about connectivity problems in the  
+bay area, and they all seem to have 200 Paul in common. ISC is  
+reporting a fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF.  
+At least one Unitedlayer customer in 200 Paul seems to be off the air.
+
+Anybody know any specifics?
+
+
+Joe
+
+From outages at jdc.parodius.com  Thu Apr  9 08:54:42 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 9 Apr 2009 05:54:42 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+Message-ID: <20090409125442.GA91066@icarus.home.lan>
+
+On Thu, Apr 09, 2009 at 08:43:47AM -0400, Joe Abley wrote:
+> I am hearing from multiple people about connectivity problems in the bay 
+> area, and they all seem to have 200 Paul in common. ISC is reporting a 
+> fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF. At least one 
+> Unitedlayer customer in 200 Paul seems to be off the air.
+>
+> Anybody know any specifics?
+
+Only thing I've heard is how Abovenet has a "supposed" fibre cut
+somewhere between San Francisco and Los Angeles, which is affecting a
+large number of customers in the Bay Area.  One of our gigE circuits
+utilising that path is hard down (even now).
+
+Could be related, then again might not be.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+
+From outages at jdc.parodius.com  Thu Apr  9 09:41:30 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 9 Apr 2009 06:41:30 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+Message-ID: <20090409134129.GA91899@icarus.home.lan>
+
+My co-worker tells me there's been an announcement of the below fibre
+cut on 810AM radio this morning in the Bay, stating it's affecting AT&T,
+Verizon, Verizon Wireless, and other carriers.  The physical location
+of the cut has not yet been disclosed.
+
+So, the news/media is aware of the problem.
+
+Good to know they all have redundant circuits running through alternate
+locations and conduits.  *shakes head*
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Thu, Apr 09, 2009 at 08:43:47AM -0400, Joe Abley wrote:
+> Hey,
+>
+> I am hearing from multiple people about connectivity problems in the bay 
+> area, and they all seem to have 200 Paul in common. ISC is reporting a 
+> fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF. At least one 
+> Unitedlayer customer in 200 Paul seems to be off the air.
+>
+> Anybody know any specifics?
+>
+>
+> Joe
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From jlewis at packetnexus.com  Thu Apr  9 14:57:05 2009
+From: jlewis at packetnexus.com (Jason Lewis)
+Date: Thu, 09 Apr 2009 14:57:05 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+Message-ID: <49DE4501.5010202@packetnexus.com>
+
+http://twitter.com/BarrettLyon/status/1484862959
+
+From mike.lyon at gmail.com  Thu Apr  9 16:05:55 2009
+From: mike.lyon at gmail.com (Mike Lyon)
+Date: Thu, 9 Apr 2009 13:05:55 -0700
+Subject: [outages] Fiber cut in SF area
+In-Reply-To: <200904091931.n39JVMlL002747@kw.retro.com>
+References: <200904091931.n39JVMlL002747@kw.retro.com>
+Message-ID: <1b5c1c150904091305w3d513ef6q11ffde46e1eb4893@mail.gmail.com>
+
+Yeah, that's about the right amount of time to crawl out of a man hole,
+cover it back up, get in the car, drive to a 24 hour starbucks, pick up some
+coffee and drive up to San Carlos, open man-hole, repeat process...
+
+
+
+On Thu, Apr 9, 2009 at 12:31 PM, George William Herbert
+<gherbert at retro.com>wrote:
+
+>
+> I had written in a NANOG reply:
+> >Mike Lyon writes:
+> >Anyone know where the actual cut is?
+> >
+> >According to SF Chronicle:
+> >
+> http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/04/09/BAP816VTE6.DTL&tsp=1
+> >
+> >"The fiber-optic cables were severed shortly before 1:30 a.m. along
+> Monterey
+> >Highway north of Blossom Hill Road in south San Jose, police Sgt. Ronnie
+> Lopez
+> >said."
+> >
+> >Vicintity of 121.81 W 37.26 N, but I have no idea specifically where in
+> that
+> >general area.  There are train tracks through there, could well be
+> >a vault along the train tracks alongside Monterey Highway.  But I don't
+> >know specifically where the AT&T fiber runs down there.
+>
+> Additional news stories reporting second fiber cut on Sprint fiber
+> in San Carlos, between San Francisco and San Jose, the SF Gate article
+> above
+> was updated at 12:20pm with that information.
+>
+> San Jose cut at around 1:30am, San Carlos around 3:30am.
+>
+>
+> -george
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090409/3314f88d/attachment.html>
+
+From gherbert at retro.com  Thu Apr  9 15:31:22 2009
+From: gherbert at retro.com (George William Herbert)
+Date: Thu, 09 Apr 2009 12:31:22 -0700
+Subject: [outages] Fiber cut in SF area
+Message-ID: <200904091931.n39JVMlL002747@kw.retro.com>
+
+
+I had written in a NANOG reply:
+>Mike Lyon writes:
+>Anyone know where the actual cut is?
+>
+>According to SF Chronicle:
+>http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/04/09/BAP816VTE6.DTL&tsp=1
+>
+>"The fiber-optic cables were severed shortly before 1:30 a.m. along Monterey
+>Highway north of Blossom Hill Road in south San Jose, police Sgt. Ronnie Lopez
+>said."
+>
+>Vicintity of 121.81 W 37.26 N, but I have no idea specifically where in that
+>general area.  There are train tracks through there, could well be
+>a vault along the train tracks alongside Monterey Highway.  But I don't
+>know specifically where the AT&T fiber runs down there.
+
+Additional news stories reporting second fiber cut on Sprint fiber
+in San Carlos, between San Francisco and San Jose, the SF Gate article above
+was updated at 12:20pm with that information.
+
+San Jose cut at around 1:30am, San Carlos around 3:30am.
+
+
+-george
+
+
+From ge at linuxbox.org  Thu Apr  9 16:01:53 2009
+From: ge at linuxbox.org (Gadi Evron)
+Date: Thu, 09 Apr 2009 23:01:53 +0300
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <49DE4501.5010202@packetnexus.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com>
+Message-ID: <49DE5431.40207@linuxbox.org>
+
+Jason Lewis wrote:
+> http://twitter.com/BarrettLyon/status/1484862959
+
+http://sandbox.bitgravity.com/blog/2009/04/09/destroy-the-internet-with-a-hacksaw/
+
+From jimpop at gmail.com  Thu Apr  9 16:45:48 2009
+From: jimpop at gmail.com (Jim Popovitch)
+Date: Thu, 9 Apr 2009 16:45:48 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <49DE5431.40207@linuxbox.org>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca> 
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+Message-ID: <f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+
+> http://sandbox.bitgravity.com/blog/2009/04/09/destroy-the-internet-with-a-hacksaw/
+
+"rather than going down into the manhole....."
+
+Great... give the kids some new ideas. geeze.
+
+-Jim P.
+
+From billw at waveform.net  Thu Apr  9 16:51:12 2009
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 9 Apr 2009 16:51:12 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+
+Yeah, I read that and my first thought was "just what we need, people
+*explaining* how to cause problems".
+
+I've never been a big fan of publicizing detailed fiber route maps
+though, I guess this just gives me more reasons to make that argument...
+
+  -Bill
+
+
+> >
+http://sandbox.bitgravity.com/blog/2009/04/09/destroy-the-internet-with-
+> a-hacksaw/
+> 
+> "rather than going down into the manhole....."
+> 
+> Great... give the kids some new ideas. geeze.
+> 
+> -Jim P.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From LarrySheldon at cox.net  Thu Apr  9 17:10:39 2009
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Thu, 09 Apr 2009 16:10:39 -0500
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+Message-ID: <49DE644F.5060803@cox.net>
+
+Jim Popovitch wrote:
+>> http://sandbox.bitgravity.com/blog/2009/04/09/destroy-the-internet-with-a-hacksaw/
+> 
+> "rather than going down into the manhole....."
+> 
+> Great... give the kids some new ideas. geeze.
+
+Should have waited a bit--an Executive Order would have covered the 
+situation.
+
+From vaden at texoma.net  Thu Apr  9 17:19:00 2009
+From: vaden at texoma.net (Larry Vaden)
+Date: Thu, 9 Apr 2009 16:19:00 -0500
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+Message-ID: <c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+
+On Thu, Apr 9, 2009 at 3:51 PM, Bill Wichers <billw at waveform.net> wrote:
+> Yeah, I read that and my first thought was "just what we need, people
+> *explaining* how to cause problems".
+
+Terrorists who want to damage the US and world economies by attacking
+the Internet's soft underbelly no doubt prolly already figured it out.
+
+From aaron.glenn at gmail.com  Thu Apr  9 17:20:56 2009
+From: aaron.glenn at gmail.com (Aaron Glenn)
+Date: Thu, 9 Apr 2009 14:20:56 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+Message-ID: <18f601940904091420yb8fc689v32ab84f4ee682f37@mail.gmail.com>
+
+On Thu, Apr 9, 2009 at 1:51 PM, Bill Wichers <billw at waveform.net> wrote:
+> Yeah, I read that and my first thought was "just what we need, people
+> *explaining* how to cause problems".
+>
+> I've never been a big fan of publicizing detailed fiber route maps
+> though, I guess this just gives me more reasons to make that argument...
+
+who needs detailed fiber maps when you can have the 1-800-DIG people
+come out and spray paint the important routes for you?
+people who want to destroy things will figure out how to destroy them.
+hack saw, gasoline, or otherwise.
+
+maybe we should lay so much fiber it wont matter what they firebomb (-:
+
+From billw at waveform.net  Thu Apr  9 17:26:50 2009
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 9 Apr 2009 17:26:50 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca><49DE4501.5010202@packetnexus.com>
+	<49DE5431.40207@linuxbox.org><f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com><EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+
+Most likely yes, but I was thinking mostly of the home-grown
+troublemakers that have always been around. Somehow telecom seems to be
+mostly immune from them.
+
+Since there really is no practical way to secure the outside plant (and
+to the one that mentioned lockable manhole covers -- have a look at the
+"key" to those sometime, there isn't very much security there), the only
+thing we can do to keep it safe is to not make a big deal about where it
+is or what can harm it.
+
+   -Bill
+
+> On Thu, Apr 9, 2009 at 3:51 PM, Bill Wichers <billw at waveform.net>
+wrote:
+> > Yeah, I read that and my first thought was "just what we need,
+people
+> > *explaining* how to cause problems".
+> 
+> Terrorists who want to damage the US and world economies by attacking
+> the Internet's soft underbelly no doubt prolly already figured it out.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From vaden at texoma.net  Thu Apr  9 17:34:21 2009
+From: vaden at texoma.net (Larry Vaden)
+Date: Thu, 9 Apr 2009 16:34:21 -0500
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <18f601940904091420yb8fc689v32ab84f4ee682f37@mail.gmail.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<18f601940904091420yb8fc689v32ab84f4ee682f37@mail.gmail.com>
+Message-ID: <c41c77a90904091434x44107171n51a2b7576575e0dd@mail.gmail.com>
+
+On Thu, Apr 9, 2009 at 4:20 PM, Aaron Glenn <aaron.glenn at gmail.com> wrote:
+>
+> maybe we should lay so much fiber it wont matter what they firebomb (-:
+
+We could always clawback the USF funds and require they be used
+sensibly, as in your "lay so much fiber it wont matter."
+
+From LarrySheldon at cox.net  Thu Apr  9 17:42:53 2009
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Thu, 09 Apr 2009 16:42:53 -0500
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca><49DE4501.5010202@packetnexus.com>	<49DE5431.40207@linuxbox.org><f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com><EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+Message-ID: <49DE6BDD.9080106@cox.net>
+
+Bill Wichers wrote:
+> Most likely yes, but I was thinking mostly of the home-grown
+> troublemakers that have always been around. Somehow telecom seems to be
+> mostly immune from them.
+> 
+> Since there really is no practical way to secure the outside plant (and
+> to the one that mentioned lockable manhole covers -- have a look at the
+> "key" to those sometime, there isn't very much security there), the only
+> thing we can do to keep it safe is to not make a big deal about where it
+> is or what can harm it.
+
+Some news reports suggest this may be and "inside" (so to speak) job.
+
+I have no facts, beyond what I have seen here.
+
+From wrl at express.org  Thu Apr  9 17:58:22 2009
+From: wrl at express.org (William R. Lorenz)
+Date: Thu, 9 Apr 2009 17:58:22 -0400 (EDT)
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+Message-ID: <Pine.LNX.4.64.0904091756270.8818@pluto.express.org>
+
+On Thu, 9 Apr 2009, Joe Abley wrote:
+
+> I am hearing from multiple people about connectivity problems in the bay 
+> area, and they all seem to have 200 Paul in common. ISC is reporting a 
+> fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF. At least one 
+> Unitedlayer customer in 200 Paul seems to be off the air.
+
+We're showing spikes in latency out in LAX on Cogent, as well as a few
+other interesting anomalies that are consistent with shifts in traffic in
+a number of different locations.  Has anyone noticed any network routing
+issues outside of the immediately-effected area, as a result of this?
+
+  9  gi0-0-0.core01.lax05.atlas.cogentco.com (154.54.6.185)
+     65.447 ms  65.449 ms  65.434 ms
+10  xo.lax05.atlas.cogentco.com (154.54.11.242)
+     127.708 ms  127.683 ms  127.680 ms
+
+
+
+--
+William R. Lorenz
+
+From outages at jdc.parodius.com  Thu Apr  9 18:06:18 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 9 Apr 2009 15:06:18 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <49DE6BDD.9080106@cox.net>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+	<49DE6BDD.9080106@cox.net>
+Message-ID: <20090409220618.GA1532@icarus.home.lan>
+
+On Thu, Apr 09, 2009 at 04:42:53PM -0500, Larry Sheldon wrote:
+> Bill Wichers wrote:
+>> Most likely yes, but I was thinking mostly of the home-grown
+>> troublemakers that have always been around. Somehow telecom seems to be
+>> mostly immune from them.
+>>
+>> Since there really is no practical way to secure the outside plant (and
+>> to the one that mentioned lockable manhole covers -- have a look at the
+>> "key" to those sometime, there isn't very much security there), the only
+>> thing we can do to keep it safe is to not make a big deal about where it
+>> is or what can harm it.
+>
+> Some news reports suggest this may be and "inside" (so to speak) job.
+>
+> I have no facts, beyond what I have seen here.
+
+CWA claims no involvement:
+http://www.msnbc.msn.com/id/30139776/
+
+A CWA member states "only a nut would do this":
+http://www.dslreports.com/shownews/ATT-Fiber-Cut-Impacts-Silicon-Valley-101827
+
+Video of the cable cut itself indicates thieves may have been out
+"cutting for copper".  It's quite a clean cut (01:48 to 2:02):
+http://cbs5.com/video/?id=48654 at kpix.dayport.com
+
+The video may also help someone determine the exact location and
+which of the two cuts it was.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+
+From jim at tgasolutions.com  Thu Apr  9 17:37:41 2009
+From: jim at tgasolutions.com (Jim McBurnett)
+Date: Thu, 9 Apr 2009 17:37:41 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+Message-ID: <CCD4153D830F584982521DFC986BFF31519719C5DA@tgainf06.TGASolutions.local>
+
+/lurk mode off
+
+I agree!
+
+A determined person will get the information and wreck havoc regardless of how well it is hidden!
+
+/lurk mode on
+
+
+
+Thanks, 
+Jim 
+
+Please excuse the typos. Sent from my wireless handheld device. 
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Thu Apr 09 17:20:56 2009
+
+On Thu, Apr 9, 2009 at 1:51 PM, Bill Wichers <billw at waveform.net> wrote:
+> Yeah, I read that and my first thought was "just what we need, people
+> *explaining* how to cause problems".
+>
+> I've never been a big fan of publicizing detailed fiber route maps
+> though, I guess this just gives me more reasons to make that argument...
+
+who needs detailed fiber maps when you can have the 1-800-DIG people
+come out and spray paint the important routes for you?
+people who want to destroy things will figure out how to destroy them.
+hack saw, gasoline, or otherwise.
+
+maybe we should lay so much fiber it wont matter what they firebomb (-:
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From dave at stayonline.com  Thu Apr  9 18:30:54 2009
+From: dave at stayonline.com (Dave Larter)
+Date: Thu, 9 Apr 2009 18:30:54 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <CCD4153D830F584982521DFC986BFF31519719C5DA@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF31519719C5DA@tgainf06.TGASolutions.local>
+Message-ID: <8B79B73777E7D544A24BEB8FC50D35DB526F51@MERCURY.socrdu.com>
+
+I agree too, I could give my kids a box of tooth picks and take out
+racks of switches and router by locking the fans, why not put the vaults
+4-6 feet down under dirt?
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Jim McBurnett
+Sent: Thursday, April 09, 2009 5:38 PM
+To: aaron.glenn at gmail.com; outages at outages.org
+
+/lurk mode off
+
+I agree!
+
+A determined person will get the information and wreck havoc regardless
+of how well it is hidden!
+
+/lurk mode on
+
+
+
+Thanks, 
+Jim 
+
+Please excuse the typos. Sent from my wireless handheld device. 
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Thu Apr 09 17:20:56 2009
+
+On Thu, Apr 9, 2009 at 1:51 PM, Bill Wichers <billw at waveform.net> wrote:
+> Yeah, I read that and my first thought was "just what we need, people
+> *explaining* how to cause problems".
+>
+> I've never been a big fan of publicizing detailed fiber route maps
+> though, I guess this just gives me more reasons to make that
+argument...
+
+who needs detailed fiber maps when you can have the 1-800-DIG people
+come out and spray paint the important routes for you?
+people who want to destroy things will figure out how to destroy them.
+hack saw, gasoline, or otherwise.
+
+maybe we should lay so much fiber it wont matter what they firebomb (-:
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From gherbert at retro.com  Thu Apr  9 18:28:50 2009
+From: gherbert at retro.com (George William Herbert)
+Date: Thu, 09 Apr 2009 15:28:50 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <20090409220618.GA1532@icarus.home.lan> 
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+	<49DE6BDD.9080106@cox.net> <20090409220618.GA1532@icarus.home.lan>
+Message-ID: <200904092228.n39MSpfF006365@kw.retro.com>
+
+
+Jeremy Chadwick writes:
+>Video of the cable cut itself indicates thieves may have been out
+>"cutting for copper".  It's quite a clean cut (01:48 to 2:02):
+>http://cbs5.com/video/?id=48654 at kpix.dayport.com
+>
+>The video may also help someone determine the exact location and
+>which of the two cuts it was.
+
+Clearly not the San Carlos cut - seems to be very close to
+W121.80542
+N37.25718
+
+Beginning of the ramp up from southbound Monterey Highway to
+Westbound Blossom Hill Road.
+
+There's a tree there in Google Earth - but you can see pieces of
+cut down tree in the video, and the lightpole which is in the nearby
+background up the ramp.
+
+
+-george william herbert
+gherbert at retro.com
+
+
+From rparker at vpr.net  Thu Apr  9 18:20:45 2009
+From: rparker at vpr.net (Rich Parker)
+Date: Thu, 09 Apr 2009 18:20:45 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <20090409220618.GA1532@icarus.home.lan>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>	<49DE4501.5010202@packetnexus.com>
+	<49DE5431.40207@linuxbox.org>	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>	<49DE6BDD.9080106@cox.net>
+	<20090409220618.GA1532@icarus.home.lan>
+Message-ID: <49DE74BD.9020203@vpr.net>
+
+As fashionable as it is to be paranoid, this does seem to fit the 'never 
+attribute to malice that which can be more easily explained by 
+stupidity' realm. IIRC, there have been a number of cases recently where 
+various fiber trunks (some of them aerial runs) have been cut by 
+miscreants looking for copper - they must have been so disappointed.....
+
+Jeremy Chadwick wrote:
+> Video of the cable cut itself indicates thieves may have been out
+> "cutting for copper".  It's quite a clean cut (01:48 to 2:02):
+> http://cbs5.com/video/?id=48654 at kpix.dayport.com
+>   
+
+-- 
+Scanned by MailScanner
+
+
+From jimpop at gmail.com  Thu Apr  9 19:44:41 2009
+From: jimpop at gmail.com (Jim Popovitch)
+Date: Thu, 9 Apr 2009 19:44:41 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca> 
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org> 
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com> 
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com> 
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+Message-ID: <f971bab40904091644k429434e5vff6870acf6800470@mail.gmail.com>
+
+On Thu, Apr 9, 2009 at 17:26, Bill Wichers <billw at waveform.net> wrote:
+> Most likely yes, but I was thinking mostly of the home-grown
+> troublemakers that have always been around.
+
+As was i, that and the slacker crowd looking for something to do on a
+slow day.  The issue wasn't whether security by obscurity is
+effective, it was about giving ideas to those who don't need any
+encouragement.
+
+-Jim P.
+
+From sethm at rollernet.us  Thu Apr  9 20:17:32 2009
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 09 Apr 2009 17:17:32 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <18f601940904091420yb8fc689v32ab84f4ee682f37@mail.gmail.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>	<49DE4501.5010202@packetnexus.com>
+	<49DE5431.40207@linuxbox.org>	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<18f601940904091420yb8fc689v32ab84f4ee682f37@mail.gmail.com>
+Message-ID: <49DE901C.3030303@rollernet.us>
+
+Aaron Glenn wrote:
+> On Thu, Apr 9, 2009 at 1:51 PM, Bill Wichers <billw at waveform.net> wrote:
+>> Yeah, I read that and my first thought was "just what we need, people
+>> *explaining* how to cause problems".
+>>
+>> I've never been a big fan of publicizing detailed fiber route maps
+>> though, I guess this just gives me more reasons to make that argument...
+> 
+> who needs detailed fiber maps when you can have the 1-800-DIG people
+> come out and spray paint the important routes for you?
+> people who want to destroy things will figure out how to destroy them.
+> hack saw, gasoline, or otherwise.
+> 
+
+Even easier: walk down the street and look for anything visibly marked 
+with bright orange. Or look in manholes marked as telcom for the same. 
+It's likely to be fiber.
+
+~Seth
+
+From kcoviello at digitalwest.net  Thu Apr  9 17:42:24 2009
+From: kcoviello at digitalwest.net (Kirk Coviello)
+Date: Thu, 9 Apr 2009 14:42:24 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca><49DE4501.5010202@packetnexus.com><49DE5431.40207@linuxbox.org><f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com><EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local><c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+Message-ID: <B57935D19B39402D829FF7ED56A66098@DROIDZ>
+
+> the only thing we can do to keep it safe is to not make a big deal about
+where it is or what can harm it.
+
+Agreed.  Then we'll always know it's only the CWA members who are ever to
+blame, like when they did this in my area in '04:
+
+http://www.cwalocal4250.org/operatorservices/binarydata/Meet%20With%20Mediat
+or.pdf 
+
+Of course, after that one, the police were investigating it as a "Terrorist
+Activity" under the "Patriot Act", but no arrests were made in our area,
+despite the eyewitness who practically saw it happen...
+
+Any way we can petition the git with the blog entry to pull that map of his
+page?  Geez!
+
+Kirk Coviello
+Digital West Networks, Inc.
+V: 805.781.WEST (9378)
+Email: kirk at digitalwest.net 
+
+
+From aaron.glenn at gmail.com  Thu Apr  9 21:33:26 2009
+From: aaron.glenn at gmail.com (Aaron Glenn)
+Date: Thu, 9 Apr 2009 18:33:26 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <B57935D19B39402D829FF7ED56A66098@DROIDZ>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<49DE4501.5010202@packetnexus.com> <49DE5431.40207@linuxbox.org>
+	<f971bab40904091345g2afeef73o8c09e8c36d4ffa53@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B44@server1.WaveformTechnology.local>
+	<c41c77a90904091419o1e6a7f20o79a77602cb3e0e2e@mail.gmail.com>
+	<EE3A1AFB71A1E54BA3D302718EA382F9067B47@server1.WaveformTechnology.local>
+	<B57935D19B39402D829FF7ED56A66098@DROIDZ>
+Message-ID: <18f601940904091833y23b96a40t6836ae1324b86a61@mail.gmail.com>
+
+On Thu, Apr 9, 2009 at 2:42 PM, Kirk Coviello <kcoviello at digitalwest.net> wrote:
+>
+> Any way we can petition the git with the blog entry to pull that map of his
+> page? ?Geez!
+>
+
+for someone looking to damage fiber paths, it's painfully easy (but
+never impresses dates) to walk/drive around and physically trace them
+yourself. hiding maps is security theater
+
+From ravi at cow.org  Thu Apr  9 22:52:52 2009
+From: ravi at cow.org (Ravi Pina)
+Date: Thu, 9 Apr 2009 22:52:52 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <49DEA099.8070309@zero11.com>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<Pine.LNX.4.64.0904091756270.8818@pluto.express.org>
+	<49DEA099.8070309@zero11.com>
+Message-ID: <20090410025252.GU39240@neu.cow.org>
+
+The reports seem to be settling on 2 distinct sites -- South
+San Jose and San Carlos.  The former had 4 cuts and latter
+just 1.
+
+-r
+
+On Thu, Apr 09, 2009 at 06:27:53PM -0700, John Martinez wrote:
+> has anyone been able to pin point the cut?
+> There have been mentions of Redwood City, San Carlos, San Francisco.
+> Where exactly is the cut?
+> 
+> 
+> 
+> William R. Lorenz wrote:
+> > On Thu, 9 Apr 2009, Joe Abley wrote:
+> > 
+> >> I am hearing from multiple people about connectivity problems in the
+> >> bay area, and they all seem to have 200 Paul in common. ISC is
+> >> reporting a fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF.
+> >> At least one Unitedlayer customer in 200 Paul seems to be off the air.
+> > 
+> > We're showing spikes in latency out in LAX on Cogent, as well as a few
+> > other interesting anomalies that are consistent with shifts in traffic in
+> > a number of different locations.  Has anyone noticed any network routing
+> > issues outside of the immediately-effected area, as a result of this?
+> > 
+> >  9  gi0-0-0.core01.lax05.atlas.cogentco.com (154.54.6.185)
+> >     65.447 ms  65.449 ms  65.434 ms
+> > 10  xo.lax05.atlas.cogentco.com (154.54.11.242)
+> >     127.708 ms  127.683 ms  127.680 ms
+> > 
+> > 
+> > 
+> > -- 
+> > William R. Lorenz
+> > 
+> 
+
+From jmartinez at zero11.com  Thu Apr  9 21:27:53 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Thu, 09 Apr 2009 18:27:53 -0700
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <Pine.LNX.4.64.0904091756270.8818@pluto.express.org>
+References: <E0BCEE90-D4D7-456A-BA61-795DBD84B93A@hopcount.ca>
+	<Pine.LNX.4.64.0904091756270.8818@pluto.express.org>
+Message-ID: <49DEA099.8070309@zero11.com>
+
+has anyone been able to pin point the cut?
+There have been mentions of Redwood City, San Carlos, San Francisco.
+Where exactly is the cut?
+
+
+
+William R. Lorenz wrote:
+> On Thu, 9 Apr 2009, Joe Abley wrote:
+> 
+>> I am hearing from multiple people about connectivity problems in the
+>> bay area, and they all seem to have 200 Paul in common. ISC is
+>> reporting a fibre cut between 529 Bryant, Palo Alto and 200 Paul, SF.
+>> At least one Unitedlayer customer in 200 Paul seems to be off the air.
+> 
+> We're showing spikes in latency out in LAX on Cogent, as well as a few
+> other interesting anomalies that are consistent with shifts in traffic in
+> a number of different locations.  Has anyone noticed any network routing
+> issues outside of the immediately-effected area, as a result of this?
+> 
+>  9  gi0-0-0.core01.lax05.atlas.cogentco.com (154.54.6.185)
+>     65.447 ms  65.449 ms  65.434 ms
+> 10  xo.lax05.atlas.cogentco.com (154.54.11.242)
+>     127.708 ms  127.683 ms  127.680 ms
+> 
+> 
+> 
+> -- 
+> William R. Lorenz
+> 
+
+
+From Skywing at valhallalegends.com  Fri Apr 10 00:12:45 2009
+From: Skywing at valhallalegends.com (Skywing)
+Date: Thu, 9 Apr 2009 23:12:45 -0500
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+Message-ID: <982D8D05B6407A49AD506E6C3AC8E7D6E5092CE6AE@caralain.haven.nynaeve.net>
+
+Consider the ratio of accidental land-based cuts to intentional land-based cuts.  Then consider how hiding this data away exacerbates the already orders of magnitude more common and realistically troublesome problem.
+
+Don't neglect the ordinary (and just as damaging) for the infrequent and exraordinary.
+
+- S
+
+-----Original Message-----
+From: Bill Wichers <billw at waveform.net>
+Sent: Thursday, April 09, 2009 13:56
+To: Jim Popovitch <jimpop at gmail.com>; Gadi Evron <ge at linuxbox.org>
+Cc: outages at outages.org <outages at outages.org>
+
+
+Yeah, I read that and my first thought was "just what we need, people
+*explaining* how to cause problems".
+
+I've never been a big fan of publicizing detailed fiber route maps
+though, I guess this just gives me more reasons to make that argument...
+
+  -Bill
+
+
+> >
+http://sandbox.bitgravity.com/blog/2009/04/09/destroy-the-internet-with-
+> a-hacksaw/
+>
+> "rather than going down into the manhole....."
+>
+> Great... give the kids some new ideas. geeze.
+>
+> -Jim P.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From bob at cave.net  Fri Apr 10 09:17:34 2009
+From: bob at cave.net (Caveguy)
+Date: Fri, 10 Apr 2009 09:17:34 -0400
+Subject: [outages] fibre cut near 200 Paul, San Francisco
+In-Reply-To: <8B79B73777E7D544A24BEB8FC50D35DB526F51@MERCURY.socrdu.com>
+Message-ID: <200904101411.n3AEAZTQ042463@puck.nether.net>
+
+
+Could this have something to do with the problems ?
+
+http://blogs.barrons.com/techtraderdaily/2009/04/06/att-union-contract-expires-threat-to-cap-ex/
+
+Sounds to me like an ongoing union dispute may be at the bottom of this.
+
+The other Bob
+
+
+
+
+From bpfankuch at cpgreeley.com  Sat Apr 11 15:48:11 2009
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sat, 11 Apr 2009 13:48:11 -0600
+Subject: [outages] Qwest Outage in Colorado
+Message-ID: <01759D50DC387C45A018FE1817CE27D754E09A873A@CPExchange1.cpgreeley.com>
+
+Anyone have any details on this "miss-configuration" that caused a 5 hour outage from Qwest in northern Colorado?
+
+I've heard 3 stories now, one says fiber cut, one says a miss-configuration and the final person said it was a hardware failure.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090411/0a174fa9/attachment.html>
+
+From Shane at bobbroadband.com  Sat Apr 11 18:51:24 2009
+From: Shane at bobbroadband.com (Shane Hampton)
+Date: Sat, 11 Apr 2009 17:51:24 -0500
+Subject: [outages] outage tracking
+Message-ID: <237187774.450148.1239490097881.JavaMail.rim@bda1057.bisx.prod.on.blackberry>
+
+Is there a notification board somewhere that tracks outages and restoration complete?
+Shane Hampton
+Sent via BlackBerry from T-Mobile
+
+From virendra.rode at gmail.com  Sun Apr 12 02:23:20 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Sat, 11 Apr 2009 23:23:20 -0700
+Subject: [outages] outage tracking
+In-Reply-To: <237187774.450148.1239490097881.JavaMail.rim@bda1057.bisx.prod.on.blackberry>
+References: <237187774.450148.1239490097881.JavaMail.rim@bda1057.bisx.prod.on.blackberry>
+Message-ID: <49E188D8.10208@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Shane -
+
+I'm currently talking with few individuals (coders - volunteers)
+regarding building 'outages database' w/  e-mail/RSS update. This way we
+don't require members to log into a web service to check status.
+
+I want to be absolutely clear, outages database similar to the mailing
+list is not to hold ANYONE accountable      for an outage, its merely
+reporting on them and their status. This outages database will be for
+documented outages only.
+
+Unfortunately I don't know when this tool will be ready to use / test
+since these volunteers have full time jobs and having them to commit for
+a certain date is bit of a challenge but hopefully we'll work through it.
+
+Then again, I welcome donation whatever free time people can offer
+(coding wise) towards this project.
+
+If interested, please contact me directly and we can discuss off-line.
+
+
+regards,
+/virendra
+
+
+Shane Hampton wrote:
+> Is there a notification board somewhere that tracks outages and restoration complete?
+> Shane Hampton
+> Sent via BlackBerry from T-Mobile
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ4YjYpbZvCIJx1bcRAhcDAJ9yKzWYIB9tZYUR/E5hZxNUC7vC+QCgjDQ5
+DRXv9BbReG6mbgruLvJapN4=
+=iPhR
+-----END PGP SIGNATURE-----
+
+From drchoffnes at cs.northwestern.edu  Mon Apr 13 09:28:32 2009
+From: drchoffnes at cs.northwestern.edu (Dave Choffnes)
+Date: Mon, 13 Apr 2009 08:28:32 -0500
+Subject: [outages] Visualizing and confirming network anomalies - Newsight
+Message-ID: <95e3caf10904130628u492be99dte6a3c14e80f13704@mail.gmail.com>
+
+[Apologies to those on NANOG who already saw this. Given the recent
+discussion on this mailing list, it seemed appropriate to cross-post
+it here.]
+
+Hi folks,
+
+We've just released a new tool that allows you to see network problems
+from end-user machines, currently BitTorrent users. (Think of this as
+putting P2P traffic to good use.) The interface that we've provided is
+still very beta, but we'd appreciate any (constructive) feedback.
+
+A little more detail: we've deployed software called NEWS (network
+early warning system) that uses P2P users' natural traffic to detect
+sudden, unexpected drops in network performance -- this allows our 25k
+BitTorrent users to corroborate network problems with each other. Our
+tool, called Newsight, lets you see summaries of their reported
+network anomalies.
+
+You can browse a timeline of anomalies grouped by country, AS or
+prefix. You can also confirm known network problems, helping to create
+a public database of outages and their explanations.
+
+You can play with Newsight here:
+http://aqualab.cs.northwestern.edu/projects/news/newsight.html
+
+Cheers,
+Dave (on behalf of the Aqualab research group)
+
+-- 
+David Choffnes
+PhD Candidate, Computer Science
+Northwestern University
+
+From Valdis.Kletnieks at vt.edu  Mon Apr 13 16:03:16 2009
+From: Valdis.Kletnieks at vt.edu (Valdis.Kletnieks at vt.edu)
+Date: Mon, 13 Apr 2009 16:03:16 -0400
+Subject: [outages] Qwest Outage in Colorado
+In-Reply-To: Your message of "Sat, 11 Apr 2009 13:48:11 MDT."
+	<01759D50DC387C45A018FE1817CE27D754E09A873A@CPExchange1.cpgreeley.com>
+References: <01759D50DC387C45A018FE1817CE27D754E09A873A@CPExchange1.cpgreeley.com>
+Message-ID: <10012.1239652996@turing-police.cc.vt.edu>
+
+On Sat, 11 Apr 2009 13:48:11 MDT, Blake Pfankuch said:
+> I've heard 3 stories now, one says fiber cut, one says a miss-configuration
+> and the final person said it was a hardware failure.
+
+This would make for a great skit on Who's Network Is It Anyhow? ;)
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 226 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090413/f2e5e585/attachment.bin>
+
+From itdirector at gmail.com  Mon Apr 13 16:27:02 2009
+From: itdirector at gmail.com (Lori Barfield)
+Date: Mon, 13 Apr 2009 13:27:02 -0700
+Subject: [outages] BB outage
+Message-ID: <c0fc3ae80904131327h7b3b635cm25a206744fda1a0d@mail.gmail.com>
+
+via twitter
+
+BreakingNews: A nationwide BlackBerry outage is affecting users in the
+United States, according to reports. Officials had no immediate
+comment.
+
+From billw at waveform.net  Mon Apr 13 16:32:17 2009
+From: billw at waveform.net (Bill Wichers)
+Date: Mon, 13 Apr 2009 16:32:17 -0400
+Subject: [outages] Fw:  BB outage
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: Bill Wichers
+To: 'itdirector at gmail.com' <itdirector at gmail.com>
+Sent: Mon Apr 13 16:31:39 2009
+
+I'm not so sure about that, at least for email since I just received this message...
+
+-Bill
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Mon Apr 13 16:27:02 2009
+
+via twitter
+
+BreakingNews: A nationwide BlackBerry outage is affecting users in the
+United States, according to reports. Officials had no immediate
+comment.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090413/e0cfa8cd/attachment.html>
+
+From dave at stayonline.com  Mon Apr 13 16:41:21 2009
+From: dave at stayonline.com (Dave Larter)
+Date: Mon, 13 Apr 2009 16:41:21 -0400
+Subject: [outages] Fw:  BB outage
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+Message-ID: <8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+
+ My BES shows my users with a status of running and recent last contact
+times.
+
+Dave
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Bill Wichers
+Sent: Monday, April 13, 2009 4:32 PM
+To: outages at outages.org
+
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: Bill Wichers
+To: 'itdirector at gmail.com' <itdirector at gmail.com>
+Sent: Mon Apr 13 16:31:39 2009
+
+I'm not so sure about that, at least for email since I just received
+this message...
+
+-Bill
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Mon Apr 13 16:27:02 2009
+
+via twitter
+
+BreakingNews: A nationwide BlackBerry outage is affecting users in the
+United States, according to reports. Officials had no immediate
+comment.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From Chris.Lauretano at mcmurry.com  Mon Apr 13 16:47:03 2009
+From: Chris.Lauretano at mcmurry.com (Chris Lauretano)
+Date: Mon, 13 Apr 2009 13:47:03 -0700
+Subject: [outages] Fw:  BB outage
+In-Reply-To: <8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+Message-ID: <C608F2D7.55EF%chris.lauretano@mcmurry.com>
+
+It's a BIS outage, not BES (thankfully). All my users are just fine as well.
+
+
+Chris Lauretano
+IT Specialist
+McMurry, Inc.
+
+
+
+
+
+On 4/13/09 1:41 PM, "Dave Larter" <dave at stayonline.com> wrote:
+
+My BES shows my users with a status of running and recent last contact
+times.
+
+Dave
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Bill Wichers
+Sent: Monday, April 13, 2009 4:32 PM
+To: outages at outages.org
+
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: Bill Wichers
+To: 'itdirector at gmail.com' <itdirector at gmail.com>
+Sent: Mon Apr 13 16:31:39 2009
+
+I'm not so sure about that, at least for email since I just received
+this message...
+
+-Bill
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Mon Apr 13 16:27:02 2009
+
+via twitter
+
+BreakingNews: A nationwide BlackBerry outage is affecting users in the
+United States, according to reports. Officials had no immediate
+comment.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From virendra.rode at gmail.com  Mon Apr 13 16:44:07 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Mon, 13 Apr 2009 13:44:07 -0700
+Subject: [outages] BB outage
+In-Reply-To: <c0fc3ae80904131327h7b3b635cm25a206744fda1a0d@mail.gmail.com>
+References: <c0fc3ae80904131327h7b3b635cm25a206744fda1a0d@mail.gmail.com>
+Message-ID: <49E3A417.8060606@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lori Barfield wrote:
+> via twitter
+> 
+> BreakingNews: A nationwide BlackBerry outage is affecting users in the
+> United States, according to reports. Officials had no immediate
+> comment.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+- ----------------------------------
+Access to my BB has been intermittent since 9am pst.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ46QXpbZvCIJx1bcRAoLxAJ9kMfCjvwHLw/mOc7BCQrjXO7u0zwCgohl9
+8YocKPErtmsc03ZDrpC9JnA=
+=1dBx
+-----END PGP SIGNATURE-----
+
+From jackson.tim at gmail.com  Mon Apr 13 16:50:46 2009
+From: jackson.tim at gmail.com (Tim Jackson)
+Date: Mon, 13 Apr 2009 15:50:46 -0500
+Subject: [outages] Fw: BB outage
+In-Reply-To: <8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+References: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+	<8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+Message-ID: <4407932e0904131350y15d25fb6l7132c767b9697f8a@mail.gmail.com>
+
+Until about 10 minutes ago, my BIS service had been down all day...
+Looks to be good now though..
+
+--
+Tim
+
+On Mon, Apr 13, 2009 at 3:41 PM, Dave Larter <dave at stayonline.com> wrote:
+
+>  My BES shows my users with a status of running and recent last contact
+> times.
+>
+> Dave
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Bill Wichers
+> Sent: Monday, April 13, 2009 4:32 PM
+> To: outages at outages.org
+> Subject: [outages] Fw: BB outage
+>
+>
+> [Sent using Blackberry Messaging]
+>
+> ----- Original Message -----
+> From: Bill Wichers
+> To: 'itdirector at gmail.com' <itdirector at gmail.com>
+> Sent: Mon Apr 13 16:31:39 2009
+> Subject: Re: [outages] BB outage
+>
+> I'm not so sure about that, at least for email since I just received
+> this message...
+>
+> -Bill
+>
+> [Sent using Blackberry Messaging]
+>
+> ----- Original Message -----
+> From: outages-bounces at outages.org <outages-bounces at outages.org>
+> To: outages at outages.org <outages at outages.org>
+> Sent: Mon Apr 13 16:27:02 2009
+> Subject: [outages] BB outage
+>
+> via twitter
+>
+> BreakingNews: A nationwide BlackBerry outage is affecting users in the
+> United States, according to reports. Officials had no immediate
+> comment.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090413/a100d9ee/attachment.html>
+
+From itdirector at gmail.com  Mon Apr 13 17:11:20 2009
+From: itdirector at gmail.com (Lori Barfield)
+Date: Mon, 13 Apr 2009 14:11:20 -0700
+Subject: [outages] Fw: BB outage
+In-Reply-To: <4407932e0904131350y15d25fb6l7132c767b9697f8a@mail.gmail.com>
+References: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+	<8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+	<4407932e0904131350y15d25fb6l7132c767b9697f8a@mail.gmail.com>
+Message-ID: <c0fc3ae80904131411g4089374cg11e50029bc9a8edb@mail.gmail.com>
+
+i wanted to check "official" status before passing along the report,
+but what looked like the official site gave this:
+
+  Home > Support > North American Network Status
+  North American Network Status
+
+  The network status lookup feature is no longer available online.
+Please contact your Carrier Service Manager for any issues related to
+network infrastructure.
+
+haven't carried a BB since last year.  what's the right place to check?
+
+...lori
+
+
+On Mon, Apr 13, 2009 at 1:50 PM, Tim Jackson <jackson.tim at gmail.com> wrote:
+> Until about 10 minutes ago, my BIS service had been down all day...
+> Looks to be good now though..
+> --
+> Tim
+>
+> On Mon, Apr 13, 2009 at 3:41 PM, Dave Larter <dave at stayonline.com> wrote:
+>>
+>> ?My BES shows my users with a status of running and recent last contact
+>> times.
+>>
+>> Dave
+>>
+>> -----Original Message-----
+>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>> On Behalf Of Bill Wichers
+>> Sent: Monday, April 13, 2009 4:32 PM
+>> To: outages at outages.org
+>> Subject: [outages] Fw: BB outage
+>>
+>>
+>> [Sent using Blackberry Messaging]
+>>
+>> ----- Original Message -----
+>> From: Bill Wichers
+>> To: 'itdirector at gmail.com' <itdirector at gmail.com>
+>> Sent: Mon Apr 13 16:31:39 2009
+>> Subject: Re: [outages] BB outage
+>>
+>> I'm not so sure about that, at least for email since I just received
+>> this message...
+>>
+>> -Bill
+>>
+>> [Sent using Blackberry Messaging]
+>>
+>> ----- Original Message -----
+>> From: outages-bounces at outages.org <outages-bounces at outages.org>
+>> To: outages at outages.org <outages at outages.org>
+>> Sent: Mon Apr 13 16:27:02 2009
+>> Subject: [outages] BB outage
+>>
+>> via twitter
+>>
+>> BreakingNews: A nationwide BlackBerry outage is affecting users in the
+>> United States, according to reports. Officials had no immediate
+>> comment.
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+From lists at up-south.com  Mon Apr 13 16:57:57 2009
+From: lists at up-south.com (Chaim Rieger)
+Date: Mon, 13 Apr 2009 13:57:57 -0700
+Subject: [outages] Fw:  BB outage
+In-Reply-To: <C608F2D7.55EF%chris.lauretano@mcmurry.com>
+References: <C608F2D7.55EF%chris.lauretano@mcmurry.com>
+Message-ID: <49E3A755.5070102@up-south.com>
+
+Chris Lauretano wrote:
+> It's a BIS outage, not BES (thankfully). All my users are just fine as well.
+> 
+> 
+> Chris Lauretano
+> IT Specialist
+> McMurry, Inc.
+> 
+> 
+> 
+> 
+the outage is not for BES
+
+it applies to additional email accounts you set up on the device.
+
+From virendra.rode at gmail.com  Mon Apr 13 17:22:11 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Mon, 13 Apr 2009 14:22:11 -0700
+Subject: [outages] Fw: BB outage
+In-Reply-To: <c0fc3ae80904131411g4089374cg11e50029bc9a8edb@mail.gmail.com>
+References: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>	<8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>	<4407932e0904131350y15d25fb6l7132c767b9697f8a@mail.gmail.com>
+	<c0fc3ae80904131411g4089374cg11e50029bc9a8edb@mail.gmail.com>
+Message-ID: <49E3AD03.3050801@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Lori Barfield wrote:
+> i wanted to check "official" status before passing along the report,
+> but what looked like the official site gave this:
+> 
+>   Home > Support > North American Network Status
+>   North American Network Status
+> 
+>   The network status lookup feature is no longer available online.
+> Please contact your Carrier Service Manager for any issues related to
+> network infrastructure.
+> 
+> haven't carried a BB since last year.  what's the right place to check?
+> 
+> ...lori
+- ---------------------------
+http://wiki.outages.org/index.php/Dashboard
+
+look under 'other' for rim status.
+
+
+regards,
+/virendra
+
+
+> 
+> 
+> On Mon, Apr 13, 2009 at 1:50 PM, Tim Jackson <jackson.tim at gmail.com> wrote:
+>> Until about 10 minutes ago, my BIS service had been down all day...
+>> Looks to be good now though..
+>> --
+>> Tim
+>>
+>> On Mon, Apr 13, 2009 at 3:41 PM, Dave Larter <dave at stayonline.com> wrote:
+>>>  My BES shows my users with a status of running and recent last contact
+>>> times.
+>>>
+>>> Dave
+>>>
+>>> -----Original Message-----
+>>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>>> On Behalf Of Bill Wichers
+>>> Sent: Monday, April 13, 2009 4:32 PM
+>>> To: outages at outages.org
+>>> Subject: [outages] Fw: BB outage
+>>>
+>>>
+>>> [Sent using Blackberry Messaging]
+>>>
+>>> ----- Original Message -----
+>>> From: Bill Wichers
+>>> To: 'itdirector at gmail.com' <itdirector at gmail.com>
+>>> Sent: Mon Apr 13 16:31:39 2009
+>>> Subject: Re: [outages] BB outage
+>>>
+>>> I'm not so sure about that, at least for email since I just received
+>>> this message...
+>>>
+>>> -Bill
+>>>
+>>> [Sent using Blackberry Messaging]
+>>>
+>>> ----- Original Message -----
+>>> From: outages-bounces at outages.org <outages-bounces at outages.org>
+>>> To: outages at outages.org <outages at outages.org>
+>>> Sent: Mon Apr 13 16:27:02 2009
+>>> Subject: [outages] BB outage
+>>>
+>>> via twitter
+>>>
+>>> BreakingNews: A nationwide BlackBerry outage is affecting users in the
+>>> United States, according to reports. Officials had no immediate
+>>> comment.
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ460CpbZvCIJx1bcRAsglAKCEhJ8uHDJiD2Ke/52Xe8XQDqmo/ACfSK+N
+ePAs2bKQu71wb/wZjIftzpo=
+=zeAZ
+-----END PGP SIGNATURE-----
+
+From dmcdaniel at maximumcomm.com  Mon Apr 13 16:35:52 2009
+From: dmcdaniel at maximumcomm.com (Derek McDaniel)
+Date: Mon, 13 Apr 2009 16:35:52 -0400
+Subject: [outages] Fw:  BB outage
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+Message-ID: <NEBBIMNOAKPPPHLJMLDNIEHEAEAC.dmcdaniel@maximumcomm.com>
+
+Fw: [outages] BB outageOn my BB I wasn't receiving messages for about 3 hours or so. I just started receiving email about 4:34 EST
+
+Derek McDaniel
+Systems Support
+MAXIMUM Communications, Inc.
+dmcdaniel at maximumcomm.com
+800-589-6299 ext 111
+
+  
+
+  -----Original Message-----
+  From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On Behalf Of Bill Wichers
+  Sent: Monday, April 13, 2009 4:32 PM
+  To: outages at outages.org
+
+
+
+
+  [Sent using Blackberry Messaging]
+
+  ----- Original Message -----
+  From: Bill Wichers
+  To: 'itdirector at gmail.com' <itdirector at gmail.com>
+  Sent: Mon Apr 13 16:31:39 2009
+
+  I'm not so sure about that, at least for email since I just received this message...
+
+  -Bill
+
+  [Sent using Blackberry Messaging]
+
+  ----- Original Message -----
+  From: outages-bounces at outages.org <outages-bounces at outages.org>
+  To: outages at outages.org <outages at outages.org>
+  Sent: Mon Apr 13 16:27:02 2009
+
+  via twitter
+
+  BreakingNews: A nationwide BlackBerry outage is affecting users in the
+  United States, according to reports. Officials had no immediate
+  comment.
+  _______________________________________________
+  outages mailing list
+  outages at outages.org
+  https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090413/82631030/attachment.html>
+
+From sgg at cmu.edu  Mon Apr 13 16:45:57 2009
+From: sgg at cmu.edu (S.G.McGaffick)
+Date: Mon, 13 Apr 2009 16:45:57 -0400
+Subject: [outages] Fw:  BB outage
+In-Reply-To: <8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+References: <EE3A1AFB71A1E54BA3D302718EA382F902EC5E@server1.WaveformTechnology.local>
+	<8B79B73777E7D544A24BEB8FC50D35DB527123@MERCURY.socrdu.com>
+Message-ID: <49E3A485.4010405@cmu.edu>
+
+My blackberry hasn't received any email from the imap server at work 
+(not BES) since 12:30pm today.
+
+-Shirl
+
+Dave Larter wrote:
+>  My BES shows my users with a status of running and recent last contact
+> times.
+> 
+> Dave
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Bill Wichers
+> Sent: Monday, April 13, 2009 4:32 PM
+> To: outages at outages.org
+> Subject: [outages] Fw: BB outage
+> 
+> 
+> [Sent using Blackberry Messaging]
+> 
+> ----- Original Message -----
+> From: Bill Wichers
+> To: 'itdirector at gmail.com' <itdirector at gmail.com>
+> Sent: Mon Apr 13 16:31:39 2009
+> Subject: Re: [outages] BB outage
+> 
+> I'm not so sure about that, at least for email since I just received
+> this message...
+> 
+> -Bill
+> 
+> [Sent using Blackberry Messaging]
+> 
+> ----- Original Message -----
+> From: outages-bounces at outages.org <outages-bounces at outages.org>
+> To: outages at outages.org <outages at outages.org>
+> Sent: Mon Apr 13 16:27:02 2009
+> Subject: [outages] BB outage
+> 
+> via twitter
+> 
+> BreakingNews: A nationwide BlackBerry outage is affecting users in the
+> United States, according to reports. Officials had no immediate
+> comment.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+From kn4ds at arrl.net  Wed Apr 15 22:29:03 2009
+From: kn4ds at arrl.net (Dave Stewart)
+Date: Wed, 15 Apr 2009 22:29:03 -0400
+Subject: [outages] XO trouble in LA?
+Message-ID: <78106fe30904151929t50e80336ve673cc9ba5115ccf@mail.gmail.com>
+
+We're unable to reach usaepay.com and traces die on XO at LA...
+
+More trouble on the west coast?
+
+From goretsky at gmail.com  Thu Apr 16 04:51:57 2009
+From: goretsky at gmail.com (Aryeh Goretsky (home))
+Date: Thu, 16 Apr 2009 01:51:57 -0700
+Subject: [outages] XO trouble in LA?
+In-Reply-To: <78106fe30904151929t50e80336ve673cc9ba5115ccf@mail.gmail.co
+ m>
+References: <78106fe30904151929t50e80336ve673cc9ba5115ccf@mail.gmail.com>
+Message-ID: <49e6f1d9.1bbc720a.6841.52fd@mx.google.com>
+
+Hello,
+
+I am able to reach the site from Southern California (*.res.rr.com).  Likewise,
+http://downforeveryoneorjustme.com/usaepay.com does not indicate a problem.
+
+Regards,
+
+Aryeh Goretsky
+
+At 07:29 PM 4/15/2009, Dave Stewart wrote:
+>We're unable to reach usaepay.com and traces die on XO at LA...
+>
+>More trouble on the west coast?
+>_______________________________________________
+>outages mailing list
+>outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+
+From risnaini at indo.net.id  Tue Apr 21 12:28:05 2009
+From: risnaini at indo.net.id (a. rahman isnaini r.sutan)
+Date: Tue, 21 Apr 2009 23:28:05 +0700
+Subject: [outages] Facebook slower past few days
+Message-ID: <49EDF415.7020800@indo.net.id>
+
+Hi,
+
+
+Any outage towarding Facebook network ?
+Accessing this application, much slower for past few days.
+Thanks in advance.
+
+rgs
+a. r. isnaini rangkayo sutan.
+
+From Ray.Sanders at VillageVoiceMedia.com  Wed Apr 22 12:12:22 2009
+From: Ray.Sanders at VillageVoiceMedia.com (Ray Sanders)
+Date: Wed, 22 Apr 2009 09:12:22 -0700
+Subject: [outages] L.A Area Outages Earlier this week?
+Message-ID: <1240416742.31523.24.camel@artoo.vvmedia.com>
+
+Anyone notice any fiber or backbone issues earlier this week in the l.a
+area?
+
+We had some content delivery issues that appear to be network outage
+related.
+
+Thanks
+-- 
+"Prediction is very difficult, especially about the future." Niels Bohr
+--
+Ray Sanders
+Linux Administrator
+Village Voice Media
+Office: 602-744-6547
+Cell: 602-300-4344
+
+
+From Ray.Sanders at VillageVoiceMedia.com  Wed Apr 22 12:45:01 2009
+From: Ray.Sanders at VillageVoiceMedia.com (Ray Sanders)
+Date: Wed, 22 Apr 2009 09:45:01 -0700
+Subject: [outages] XO trouble in LA?
+In-Reply-To: <49e6f1d9.1bbc720a.6841.52fd@mx.google.com>
+References: <78106fe30904151929t50e80336ve673cc9ba5115ccf@mail.gmail.com>
+	<49e6f1d9.1bbc720a.6841.52fd@mx.google.com>
+Message-ID: <1240418701.31523.32.camel@artoo.vvmedia.com>
+
+Any additional info on this?  
+We saw some content delivery issues in the L.A area as well. 
+
+
+Thanks
+
+
+On Thu, 2009-04-16 at 01:51 -0700, Aryeh Goretsky (home) wrote:
+> Hello,
+> 
+> I am able to reach the site from Southern California (*.res.rr.com).  Likewise,
+> http://downforeveryoneorjustme.com/usaepay.com does not indicate a problem.
+> 
+> Regards,
+> 
+> Aryeh Goretsky
+> 
+> At 07:29 PM 4/15/2009, Dave Stewart wrote:
+> >We're unable to reach usaepay.com and traces die on XO at LA...
+> >
+> >More trouble on the west coast?
+> >_______________________________________________
+> >outages mailing list
+> >outages at outages.org
+> >https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-- 
+"Prediction is very difficult, especially about the future." Niels Bohr
+--
+Ray Sanders
+Linux Administrator
+Village Voice Media
+Office: 602-744-6547
+Cell: 602-300-4344
+
+
+From wcyoung at buffalo.edu  Sun Apr 26 11:54:01 2009
+From: wcyoung at buffalo.edu (Wes Young)
+Date: Sun, 26 Apr 2009 11:54:01 -0400
+Subject: [outages] twc/roadrunner - NY/NE
+Message-ID: <A639C365-0332-40A7-BFD6-B1C910167883@buffalo.edu>
+
+http://search.twitter.com/search?q=%23twc+OR+%23roadrunner
+
+Appears to be hitting New England / NY. Confirmed at least Buffalo to  
+Albany.
+--
+Wes
+http://claimid.com/wesyoung
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 2444 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090426/d164e2d1/attachment.bin>
+
+From jmartinez at zero11.com  Sun Apr 26 16:56:05 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Sun, 26 Apr 2009 13:56:05 -0700
+Subject: [outages] Equifax is experiencing a system wide outage tix #8015791
+In-Reply-To: <58E7F846-051C-42F9-9B96-68CBCEC4C132@beztech.net>
+References: <00af01c9c5f9$6aeec010$40cc4030$@edu> <49F4C600.5000609@zero11.com>
+	<58E7F846-051C-42F9-9B96-68CBCEC4C132@beztech.net>
+Message-ID: <49F4CA65.90407@zero11.com>
+
+Ben wrote:
+> Try this address or you could try calling:
+> 
+> Administrative,Technical Contact:
+>       Equifax J42M
+>       Domain Admin
+>       P.O. Box 740006
+>       Atlanta, GA 30374-0006
+>       US
+>       Phone: +1.4048858000
+>       Email: hostmaster at equifax.com
+> 
+> HTH
+> --bc
+> 
+> On Apr 26, 2009, at 4:37 PM, John Martinez wrote:
+> 
+>> Their site is down.
+>> Thanks.
+>>
+> 
+
+
+From jmartinez at zero11.com  Sun Apr 26 20:42:41 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Mon, 27 Apr 2009 10:42:41 +1000
+Subject: [outages] Equifax is experiencing a system wide outage tix #8015791
+In-Reply-To: <58E7F846-051C-42F9-9B96-68CBCEC4C132@beztech.net>
+References: <00af01c9c5f9$6aeec010$40cc4030$@edu>
+	<49F4C600.5000609@zero11.com><58E7F846-051C-42F9-9B96-68CBCEC4C132@beztech.net>
+Message-ID: <12BCA71EBF8E4D689D6BD4AC4FA99436@reivic.local>
+
+Ben wrote:
+> Try this address or you could try calling:
+> 
+> Administrative,Technical Contact:
+>       Equifax J42M
+>       Domain Admin
+>       P.O. Box 740006
+>       Atlanta, GA 30374-0006
+>       US
+>       Phone: +1.4048858000
+>       Email: hostmaster at equifax.com
+> 
+> HTH
+> --bc
+> 
+> On Apr 26, 2009, at 4:37 PM, John Martinez wrote:
+> 
+>> Their site is down.
+>> Thanks.
+>>
+> 
+
+
+
+From Ray.Sanders at VillageVoiceMedia.com  Mon Apr 27 17:08:43 2009
+From: Ray.Sanders at VillageVoiceMedia.com (Ray Sanders)
+Date: Mon, 27 Apr 2009 14:08:43 -0700
+Subject: [outages] Phoenix Area Network Issues?
+Message-ID: <1240866523.22125.11.camel@artoo.vvmedia.com>
+
+Are there any fiber cuts or other routing issues anyone in the Phoenix
+area is aware of?
+
+
+Thanks. 
+
+-- 
+"Prediction is very difficult, especially about the future." Niels Bohr
+--
+Ray Sanders
+Linux Administrator
+Village Voice Media
+Office: 602-744-6547
+Cell: 602-300-4344
+
+
+From kloch at kl.net  Mon Apr 27 17:12:19 2009
+From: kloch at kl.net (Kevin Loch)
+Date: Mon, 27 Apr 2009 17:12:19 -0400
+Subject: [outages] Phoenix Area Network Issues?
+In-Reply-To: <1240866523.22125.11.camel@artoo.vvmedia.com>
+References: <1240866523.22125.11.camel@artoo.vvmedia.com>
+Message-ID: <49F61FB3.2060200@kl.net>
+
+Something is definately happening, 50% drop in inbound
+traffic to our PHX datacenter across all transit providers.
+
+- Kevin
+
+Ray Sanders wrote:
+> Are there any fiber cuts or other routing issues anyone in the Phoenix
+> area is aware of?
+> 
+> 
+> Thanks. 
+> 
+
+
+From kloch at kl.net  Mon Apr 27 17:19:05 2009
+From: kloch at kl.net (Kevin Loch)
+Date: Mon, 27 Apr 2009 17:19:05 -0400
+Subject: [outages] Phoenix Area Network Issues?
+In-Reply-To: <49F61FB3.2060200@kl.net>
+References: <1240866523.22125.11.camel@artoo.vvmedia.com>
+	<49F61FB3.2060200@kl.net>
+Message-ID: <49F62149.7030804@kl.net>
+
+Kevin Loch wrote:
+> Something is definately happening, 50% drop in inbound
+> traffic to our PHX datacenter across all transit providers.
+> 
+> - Kevin
+> 
+> Ray Sanders wrote:
+>> Are there any fiber cuts or other routing issues anyone in the Phoenix
+
+Update: Qwest did not appear to be affected by this, Highwinds
+traffic has just returned to normal, Level3 and GBLX still
+affected.
+
+- Kevin
+
+From surfer at mauigateway.com  Mon Apr 27 17:42:38 2009
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Mon, 27 Apr 2009 14:42:38 -0700
+Subject: [outages] Please Don't Cross-post Re: Phoenix Area Network Issues?
+Message-ID: <20090427144238.D06237E4@resin11.mta.everyone.net>
+
+
+
+Please don't cross post.
+
+scott
+
+
+From Ray.Sanders at VillageVoiceMedia.com  Mon Apr 27 17:45:19 2009
+From: Ray.Sanders at VillageVoiceMedia.com (Ray Sanders)
+Date: Mon, 27 Apr 2009 14:45:19 -0700
+Subject: [outages] Phoenix Area Network Issues?
+In-Reply-To: <A44A8794-CFBE-4EAD-A1D1-090782BA603C@mcmurry.com>
+References: <1240866523.22125.11.camel@artoo.vvmedia.com>
+	<A44A8794-CFBE-4EAD-A1D1-090782BA603C@mcmurry.com>
+Message-ID: <1240868719.22125.16.camel@artoo.vvmedia.com>
+
+There's a ton of chatter about it on the NANOG list now. 
+
+Apparently there were some issues with a major AT&T route. 
+
+SBC Issues were also reported, this was all about an hour ago. 
+
+
+On Mon, 2009-04-27 at 14:40 -0700, Chris.Lauretano at mcmurry.com wrote:
+> In Phoenix here and our XO T1s, Sprint mpls and Internet connection,  
+> and XO microwave connection are working fine. Cox cable Internet here  
+> and in Tempe seems fine as well. Where are you experiencing outages?
+> 
+> _____
+> 
+> C. Lauretano
+> 
+> On Apr 27, 2009, at 14:27, "Ray Sanders" <Ray.Sanders at villagevoicemedia.com 
+>  > wrote:
+> 
+> > Are there any fiber cuts or other routing issues anyone in the Phoenix
+> > area is aware of?
+> >
+> >
+> > Thanks.
+> >
+> > -- 
+> > "Prediction is very difficult, especially about the future." Niels  
+> > Bohr
+> > --
+> > Ray Sanders
+> > Linux Administrator
+> > Village Voice Media
+> > Office: 602-744-6547
+> > Cell: 602-300-4344
+> >
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+-- 
+"Prediction is very difficult, especially about the future." Niels Bohr
+--
+Ray Sanders
+Linux Administrator
+Village Voice Media
+Office: 602-744-6547
+Cell: 602-300-4344
+
+
+From james at pcipros.com  Mon Apr 27 17:19:33 2009
+From: james at pcipros.com (James Laszko)
+Date: Mon, 27 Apr 2009 14:19:33 -0700
+Subject: [outages] Phoenix Area Network Issues?
+In-Reply-To: <49F61FB3.2060200@kl.net>
+References: <1240866523.22125.11.camel@artoo.vvmedia.com>
+	<49F61FB3.2060200@kl.net>
+Message-ID: <0983540C7A6BC84DB0A5FEF8033C2BF42B7EF5@sandcaexch02.pcipros.net>
+
+Just got off the phone with AT&T MIS Support - there is some extremely
+large facility outages in the Southern California area.  I'm seeing
+T1-OC3 facilities down from San Diego to Los Angeles to Riverside to
+Palm Springs.
+
+We've seen voice, data, legacy AT&T and legacy SBC/PacBell circuits
+affected.
+
+If anyone has any further details, it would be appreciated.  MIS people
+said an "email was forthcoming shortly"
+
+
+Regards,
+
+
+James Laszko
+Pipeline Communications
+james at pcipros.com
+
+
+-----Original Message-----
+From: Kevin Loch [mailto:kloch at kl.net] 
+Sent: Monday, April 27, 2009 2:12 PM
+To: Ray Sanders
+Cc: outages at outages.org; nanog
+
+Something is definately happening, 50% drop in inbound
+traffic to our PHX datacenter across all transit providers.
+
+- Kevin
+
+Ray Sanders wrote:
+> Are there any fiber cuts or other routing issues anyone in the Phoenix
+> area is aware of?
+> 
+> 
+> Thanks. 
+> 
+
+
+
+From pjasa at univision.net  Mon Apr 27 17:31:16 2009
+From: pjasa at univision.net (Paul Jasa)
+Date: Mon, 27 Apr 2009 17:31:16 -0400
+Subject: [outages] Phoenix Area Network Issues?
+In-Reply-To: <0983540C7A6BC84DB0A5FEF8033C2BF42B7EF5@sandcaexch02.pcipros.net>
+References: <1240866523.22125.11.camel@artoo.vvmedia.com><49F61FB3.2060200@kl.net>
+	<0983540C7A6BC84DB0A5FEF8033C2BF42B7EF5@sandcaexch02.pcipros.net>
+Message-ID: <49BDC04765D40849A4170C966AD69A9D0AE747C2@MIA-EX01.utg.uvn.net>
+
+Confirming outages in SoCal area affecting AT&T (lost a large circuit
+out there @ 1:24 PDT).  I should add not all SoCal sites are affected,
+just some.
+Paul J.
+
+
+ 
+
+-----Original Message-----
+From: James Laszko [mailto:james at pcipros.com] 
+Sent: Monday, April 27, 2009 5:20 PM
+To: Kevin Loch; Ray Sanders
+Cc: outages at outages.org; nanog
+
+Just got off the phone with AT&T MIS Support - there is some extremely
+large facility outages in the Southern California area.  I'm seeing
+T1-OC3 facilities down from San Diego to Los Angeles to Riverside to
+Palm Springs.
+
+We've seen voice, data, legacy AT&T and legacy SBC/PacBell circuits
+affected.
+
+If anyone has any further details, it would be appreciated.  MIS people
+said an "email was forthcoming shortly"
+
+
+Regards,
+
+
+James Laszko
+Pipeline Communications
+james at pcipros.com
+
+
+-----Original Message-----
+From: Kevin Loch [mailto:kloch at kl.net] 
+Sent: Monday, April 27, 2009 2:12 PM
+To: Ray Sanders
+Cc: outages at outages.org; nanog
+
+Something is definately happening, 50% drop in inbound
+traffic to our PHX datacenter across all transit providers.
+
+- Kevin
+
+Ray Sanders wrote:
+> Are there any fiber cuts or other routing issues anyone in the Phoenix
+> area is aware of?
+> 
+> 
+> Thanks. 
+> 
+
+
+
+
+The information contained in this e-mail and any attached 
+documents may be privileged, confidential and protected from 
+disclosure.  If you are not the intended recipient you may not 
+read, copy, distribute or use this information.  If you have 
+received this communication in error, please notify the sender 
+immediately by replying to this message and then delete it 
+from your system
+
+From virendra.rode at gmail.com  Tue Apr 28 21:06:57 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Tue, 28 Apr 2009 18:06:57 -0700
+Subject: [outages] ADMIN: Reminder on cross-posting.
+Message-ID: <49F7A831.3010809@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Please everyone, kindly do not crosspost the same thread to multiple forums.
+
+Thank you for your understanding in this matter.
+
+
+regards,
+/virendra (moderator)
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ96gxpbZvCIJx1bcRApO+AJ97GdHXrTBRg2lSiM7yd5lHg1FbmgCfeRLO
+3d51JCNFgAcJhmtO6Wz6kpU=
+=H4QQ
+-----END PGP SIGNATURE-----
+
+From virendra.rode at gmail.com  Thu Apr 30 11:42:35 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 30 Apr 2009 08:42:35 -0700
+Subject: [outages] [Fwd: [Outages-discussion] Anyone aware of problems around Chicago (I believe)?]
+Message-ID: <49F9C6EB.2090209@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+forwarding to outages@, outages-discussion@ is for post outages related
+discussion.
+
+
+outages - Outages (planned & unplanned) Reporting.
+outages-discussion - Post outages meta-discussion
+(troubleshooting,analysis, post-mortem, etc).
+
+
+regards,
+/virendra
+
+
+- -------- Original Message --------
+Subject: 	[Outages-discussion] Anyone aware of problems around Chicago
+(I believe)?
+Date: 	Thu, 30 Apr 2009 10:05:40 -0400
+From: 	Robert MacDonald <Robert.MacDonald at haworth.com>
+To: 	outages-discussion at outages.org <outages-discussion at outages.org>
+References: 	<304393FA-E0E1-4457-BBFB-44BFDD56FE35 at mimectl>
+
+
+
+We have Qwest & ATT DS3's from West Michigan(208.46.60.0/24) and both
+appear to have issues at/beyond
+64.94.32.18(border1.te7-1-bbnet1.chg004.pnap.net). I've done a couple of
+traceroutes and they stop here and at
+64.94.32.82(border1.te8-1-bbnet2.chg004.pnap.net)
+
+AT&T:
+Tracing the route to 74.217.5.149
+  1 12.87.238.5 [AS 7018] 8 msec 4 msec 8 msec
+  2 12.122.102.26 [AS 7018] 12 msec 12 msec 16 msec
+  3 12.123.139.157 [AS 7018] 12 msec 16 msec 12 msec
+  4 12.122.133.141 [AS 7018] 12 msec 12 msec 16 msec
+  5 192.205.35.154 [AS 7018] 20 msec 12 msec 12 msec
+  6 207.88.84.214 [AS 2828] 12 msec 12 msec 12 msec
+  7 207.88.184.146 [AS 2828] 12 msec 16 msec 12 msec
+  8 64.94.32.18 [AS 19024] 16 msec 12 msec 32 msec
+  9  *  *  *
+ 10  *  *  *
+ 11  *  *  *
+ 12  *  *  *
+ 13  *  *  *
+ 14  *  *  *
+ 15  *  *  *
+and
+
+Qwest:
+Tracing the route to 74.217.5.149
+  1 65.113.250.121 [AS 209] 96 msec 88 msec 76 msec
+  2 205.171.139.5 [AS 209] 40 msec 24 msec 12 msec
+  3 205.171.139.150 [AS 209] 8 msec 8 msec 12 msec
+  4 144.232.18.245 [AS 1239] 12 msec 12 msec 8 msec
+  5 144.232.8.103 [AS 1239] 12 msec 20 msec 20 msec
+  6 144.223.241.6 [AS 1239] 12 msec 12 msec 8 msec
+  7 64.94.32.18 [AS 19024] 12 msec 16 msec 12 msec
+  8  *  *  *
+  9  *  *  *
+ 10  *  *  *
+ 11  *  *  *
+ 12  *  *  *
+ 13  *  *  *
+ 14  *  *  *
+ 15  *  *  *
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJ+cbrpbZvCIJx1bcRAqRKAJ90LXn/yLcHQma9IHUN7peVAvDq6QCgib+B
+IgG0xe8hShT+asJ7SjimXwM=
+=aAQB
+-----END PGP SIGNATURE-----
+

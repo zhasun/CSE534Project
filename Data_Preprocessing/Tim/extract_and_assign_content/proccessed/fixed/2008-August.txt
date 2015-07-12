@@ -1,0 +1,1394 @@
+From ramans at cwie.net  Thu Aug  7 11:20:16 2008
+From: ramans at cwie.net (Raman Sud)
+Date: Thu, 7 Aug 2008 08:20:16 -0700
+Subject: [outages] FW: weekly update
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC20F2CA8A098B@EXCH07-MB.ccbill-hq.local>
+
+ 
+
+ 
+
+Raman Sud
+
+Director,
+
+Network Engineering and Operations
+
+ 
+
+ 
+
+CWIE Holding Company
+
+2353 West University Drive
+
+Tempe AZ 85281
+
+Fax: 480.682.3236
+
+ <http://www.cavecreek.net/> http://www.cavecreek.net/
+
+ 
+
+PGP Key:  <http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2>
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+ 
+
+NOTICE: This message is intended only for the use of the individual or
+entity to which it is addressed. If the reader of this message is not the
+intended recipient, or the employee or agent responsible for delivering the
+message to the intended recipient, you are hereby notified that any
+dissemination, distribution or copying of this message is strictly
+prohibited. If you have received this communication in error, please notify
+us immediately by replying to the sender of this E-Mail or by telephone.
+
+ 
+
+  _____  
+
+From: Adrian Montebello 
+Sent: Thursday, August 07, 2008 6:56 AM
+To: Raman Sud
+
+ 
+
+Raman,
+
+ 
+
+here's my update for the week : 
+
+*	CCBill Firewall issues -  Done another maintenance today but had to
+roll back the changes to improve stability.  We have to disable proxy arp on
+all firewalls' internal zones (except outside & DMZ) to completely resolve
+the issue.  Furthermore, the maintenance to install the secondary firewall
+was not successfull and we will be re-visiting this to see what went wong.  
+*	Cisco Guard for WH -  adding more zones as per WH requests.  In
+contact with GERO all the time about this.  We put the new zones active this
+week and GERO is adding traffic to these. 
+*	CCBill AS migration to AS32164 - plan sent to Raman.  We just need
+to find spare GBICs to plug into BB2 before we start the maintenance.  This
+is planned for the 20th August.  A maintenance notification is already
+planned. 
+*	DRACs - worked with Windows Engineering to make the DRAC ports
+active on the network - completed.
+
+ 
+
+Thanks
+
+Adrian
+
+ 
+
+ 
+
+ 
+
+ 
+
+CCBill EU Limited
+First Floor, CC Buildings
+Palm Street, Paola PLA 1411
+MALTA
+Telephone Numbers: US +1 480-449-7750 Ext 605 | Malta +356 21808691/21663537
+| Cell Phone: +356 79305305
+adrianm at ccbilleu.com
+www.ccbilleu.com
+
+PGP Key: http://keyserver.cwie.net:11371/pks/lookup?op=get&search=0x8F5A59B5
+
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080807/217aa26b/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3626 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080807/217aa26b/attachment.bin>
+
+From ge at linuxbox.org  Thu Aug 14 01:01:38 2008
+From: ge at linuxbox.org (Gadi Evron)
+Date: Thu, 14 Aug 2008 00:01:38 -0500 (CDT)
+Subject: [outages] ISOI 5 (Tallinn) agenda is now online
+Message-ID: <Pine.LNX.4.62.0808140001100.13744@linuxbox.org>
+
+Greetings!
+
+The agenda for the ISOI conference (held on the 11th and 12th of September 
+2008, in Tallinn Estonia) has just been made public.
+
+You can find it here:
+http://www.isotf.org/isoi5.html
+
+Suggested hotel is the Viru:
+http://www.viru.ee/
+
+Our kind host is the Estonian CERT (Hillar) who is also planning a
+special after-hours event for us to enjoy.
+
+We have the option of moving to a bigger room if necessary, so you can RSVP 
+when you like (although we'd appreciate notice).
+
+Best regards,
+
+Randy Vaughn and Gadi Evron.
+
+From jgoltz at mail.nih.gov  Thu Aug 14 10:29:57 2008
+From: jgoltz at mail.nih.gov (Goltz, Jim (NIH/CIT) [E])
+Date: Thu, 14 Aug 2008 10:29:57 -0400
+Subject: [outages] Possible SBC outage at LAX
+Message-ID: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+
+SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+?
+
+
+From virendra.rode at gmail.com  Thu Aug 14 11:09:18 2008
+From: virendra.rode at gmail.com (virendra rode //)
+Date: Thu, 14 Aug 2008 08:09:18 -0700
+Subject: [outages] Possible SBC outage at LAX
+In-Reply-To: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+References: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+Message-ID: <48A44A9E.6040106@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Goltz, Jim (NIH/CIT) [E] wrote:
+> SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+- -------------------
+So far our (LA) att neighbor seems to be up/stable.
+
+Will keep an eye, thanks!
+
+
+regards,
+/virendra
+
+> 
+> --
+> Jim Goltz <jgoltz at mail.nih.gov>
+> CIT/DCSS/HSB/ASIG
+> 12/2216
+>  
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFIpEqepbZvCIJx1bcRAttSAJ9tL+IczEcdglvRWNLULQcSIemj6ACfR4EL
+yLkaEe/AuSQWVww2QJTmQqg=
+=GOjD
+-----END PGP SIGNATURE-----
+
+From JGOODE at genesco.com  Thu Aug 14 10:38:57 2008
+From: JGOODE at genesco.com (Jay Goode)
+Date: Thu, 14 Aug 2008 09:38:57 -0500
+Subject: [outages] Possible SBC outage at LAX
+In-Reply-To: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+References: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+Message-ID: <48A3FD2F.5A0A.00B1.0@genesco.com>
+
+We had latency issues  for the past 2 hrs to a number of Eastern US locations apparently affected by this
+
+>>> "Goltz, Jim (NIH/CIT) [E]" <jgoltz at mail.nih.gov> 8/14/2008 9:29 AM >>>
+SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+ 
+
+_______________________________________________
+outages mailing list
+outages at outages.org 
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jra at baylink.com  Mon Aug 18 09:38:02 2008
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Mon, 18 Aug 2008 09:38:02 -0400
+Subject: [outages] TS Fay - Projected Landfall SE Fla Tue
+Message-ID: <20080818133802.GC10288@cgi.jachomes.com>
+
+Just a reminder: TS Fay is projected to make landfall in SE Florida
+Tuesday afternoon/evening -- the current Mon AM projection is for 1400
+EDT around Ft Myers/Cape Coral, but it's changed 6 times in 8
+advisories, so who knows.  The storm may have strengthened to a
+Category 1 hurricane by then, but the intensity models are even less
+solid than the track models.
+
+    http://flhurricane.com/cyclone/stormspotlight.php?year=2008&storm=6
+
+If you have facilities in that region, things may get dicey for between
+the afternoon and the rest of the week; keep it in mind.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+	     Those who cast the vote decide nothing.
+	     Those who count the vote decide everything.
+	       -- (Josef Stalin)
+
+From mike at oncallcentre.com  Wed Aug 20 10:53:24 2008
+From: mike at oncallcentre.com (Mike Bothwell)
+Date: Wed, 20 Aug 2008 10:53:24 -0400
+Subject: [outages] {Disarmed} Major fiber cut
+Message-ID: <162BC53B7CAD9546973C4CC59004C06F20532CDE64@ex01.oncallcentre.local>
+
+There is a major fiber cut in B.C. Canada affecting all voice and data traffic.
+
+ I have no other  details as of yet.
+
+
+
+Michael D. Bothwell
+System Administrator
+2405B St.Laurent Blvd., Ottawa, ON, K1G 5B4
+T. 613-238-3262  F. 613-238-3838
+mike at oncallcentre.com<http://mike at oncallcentre-com/> - www.oncallcentre.com
+On Call Centre - Your Call is our Priority
+Pinnacle/PI2000/CenturiSoft/Icverify/Wygant/XP PRO /2003 R2
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080820/1599ae17/attachment.html>
+
+From virendra.rode at gmail.com  Tue Aug 26 16:10:01 2008
+From: virendra.rode at gmail.com (virendra rode //)
+Date: Tue, 26 Aug 2008 13:10:01 -0700
+Subject: [outages] communication breakdown @ FAA
+Message-ID: <48B46319.5060300@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+
+From Michael.Washington at fitchratings.com  Tue Aug 26 16:42:31 2008
+From: Michael.Washington at fitchratings.com (Michael.Washington at fitchratings.com)
+Date: Tue, 26 Aug 2008 15:42:31 -0500
+Subject: [outages] communication breakdown @ FAA
+In-Reply-To: <48B46319.5060300@gmail.com>
+Message-ID: <OFDDEF196E.2563AE95-ON862574B1.0071B62C-862574B1.0071A775@fitchratings.com>
+
+
+ATLANTA -- The Federal Aviation Administration said a communication failure
+Tuesday at a Georgia facility that processes flight plans for the eastern
+half of the U.S. was causing flight delays around the country.
+
+
+An FAA Web site that posts airport status information showed delays at some
+three dozen major airports coast-to-coast, advising passengers to "check
+your departure airport to see if your flight may be affected."
+
+
+FAA spokeswoman Kathleen Bergen in Atlanta said there are no safety issues
+and officials are still able to speak to pilots on planes on the ground and
+in the air.
+
+
+She said she doesn't know how many flights are being affected.
+
+
+Bergen said the problem that occurred Tuesday afternoon involves an FAA
+facility in Hampton, Ga., south of Atlanta, that processes flight plans.
+She said there was a failure in a communication link that transmits the
+data to a similar facility in Salt Lake City.
+
+
+As a result, the Salt Lake City facility was having to process those flight
+plans, causing delays in planes taking off. She said there were no problems
+with planes landing.
+
+
+"There will be flight delays," Bergen said. "It could be any location,
+because one facility is now processing flight data for everybody."
+
+
+A spokesman for Hartsfield-Jackson Atlanta International Airport, the
+world's busiest airport, did not immediately return a call seeking comment
+on the impact there. Bergen said officials at the Atlanta airport were
+entering flight data manually to try to speed things up.
+
+
+The communication failure was causing delays for departures and arrivals at
+Baltimore-Washington International Thurgood Marshall Airport, according to
+airport spokeswoman Cheryl Stewart. However, she did not have a number on
+delays.
+
+
+The FAA has asked that no new flight plans be filed, Stewart said. If an
+airline has not filed a flight plan yet, that flight can't leave. However,
+some flights had already filed their plans and those planes were being
+allowed to depart, Stewart said.
+
+
+Brenda Geoghagan, a spokeswoman for Tampa International Airport in Florida,
+said "it may just be too soon" to determine the impact there. Christine
+Osborn, another spokeswoman at the Tampa airport, said there have been no
+delays due to the flight plan communication failure. But she said she
+anticipates problems in the coming hours.
+
+
+"There's definitely going to be some impact," she said.
+
+
+At Miami International Airport, there were no delays or cancelations due to
+the communication failure, said spokesman Marc Henderson.
+
+
+"There are cancelations due to weather from the hurricane, but not due to
+this," he said.
+
+
+The National Airspace Data Interchange Network is a data communications
+system for air traffic controllers. It's used to distribute flight plans
+and allows controllers to know when planes are leaving, where they're going
+and other details.
+
+
+Allen Kenitzer, a western regional spokesman for the FAA, said the Utah
+system could handle the extra load while workers tried to get the Atlanta
+system back online, but it was expected to slow down air traffic.
+
+
+"We're not going to let an unsafe condition exist. It's just going to be
+slower," Kenitzer said.
+
+
+
+                                                                           
+             virendra rode //                                              
+             <virendra.rode at gm                                             
+             ail.com>                                                   To 
+             Sent by:                  outages at outages.org                 
+             outages-bounces at o                                          cc 
+             utages.org                                                    
+                                                                   Subject 
+                                       [outages] communication breakdown @ 
+             08/26/2008 03:10          FAA                                 
+             PM                                                            
+                                                                           
+                                                                           
+             Please respond to                                             
+             virendra.rode at gma                                             
+                  il.com                                                   
+                                                                           
+                                                                           
+
+
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email
+______________________________________________________________________
+
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+From Michael.Washington at fitchratings.com  Wed Aug 27 10:51:54 2008
+From: Michael.Washington at fitchratings.com (Michael.Washington at fitchratings.com)
+Date: Wed, 27 Aug 2008 09:51:54 -0500
+Subject: [outages] communication breakdown @ FAA
+In-Reply-To: <48B46319.5060300@gmail.com>
+Message-ID: <OF47FED14C.13CCD8A1-ON862574B2.00519438-862574B2.00518E13@fitchratings.com>
+
+Flight Delays Caused by Computer Failure, FAA Says
+
+
+By Sholnn Freeman
+Washington Post Staff Writer
+Wednesday, August 27, 2008; A03
+
+
+The Federal Aviation Administration blamed a computer breakdown for
+delaying hundreds of flights yesterday throughout the country, including
+Baltimore and Washington.
+
+
+The computer system, housed in a facility near Atlanta, failed shortly
+after 1:25 p.m., FAA officials said. The system handles basic flight plan
+data that must be distributed to air traffic controllers around the country
+before planes take off.
+
+
+So far, the FAA has estimated that "hundreds" of flights were affected by
+the failure yesterday. The problem was not a "safety issue," the FAA said.
+A spokeswoman said the agency never lost the ability to communicate with
+aircraft. A computer failure last week apparently caused similar delays.
+
+
+The glitch came as a new blow to the FAA, which has been getting extensive
+criticism for the nation's chronic flight delays. The agency, which is
+asking Congress for hundreds of millions of dollars to modernize air
+traffic control equipment, said it was too early to give a specific cause
+for yesterday's failure, although it ruled out hacking.
+
+
+After the failure in Atlanta yesterday, a backup system in Salt Lake City
+came online to pick up the slack but immediately became overwhelmed, the
+FAA said. Employees then had to enter flight data manually, resulting in
+delays throughout the afternoon. By early evening, the FAA reported that
+the Salt Lake City system had resolved its backlog and was operating
+normally.
+
+
+Late yesterday the agency said computer engineers were still working to put
+the Atlanta system back into operation.
+
+
+"It looks like we are slowly starting to dig out of this," Hank Krakowski,
+chief operating officer for FAA's air traffic organization, told reporters
+on a 5 p.m. conference call.
+
+
+According to an internal FAA document, the system, called the National
+Airspace Data Interchange Network, crashed on Thursday and caused in 134
+departure delays. The Salt Lake City system also took over but had problems
+with the high queue level, the document said. The system also failed in
+June 2007.
+
+
+Doug Church, spokesman for the National Air Traffic Controllers
+Association, said the computer problem showed that the agency was too
+focused on deploying new technology rather than maintenance of current
+equipment.
+
+
+"The FAA is doing things on the cheap when it comes to technology and
+infrastructure," he said.
+
+
+Flights in Baltimore and Washington were hit with delays of 75 minutes or
+more. But Rob Yingling, a spokesman for the Metropolitan Washington
+Airports Authority, said the problem didn't cause widespread cancellations.
+
+
+Atlanta's Hartsfield-Jackson International airport took the brunt of the
+computer failure with 40 planes backed up at about 5 p.m. At one point
+yesterday, the glitch caused delays of 90 minutes at Chicago's Midway
+International Airport and hour-long delays in Charlotte. Boston's Logan
+International airport experienced 45-minute delays.
+
+
+
+
+
+                                                                           
+             virendra rode //                                              
+             <virendra.rode at gm                                             
+             ail.com>                                                   To 
+             Sent by:                  outages at outages.org                 
+             outages-bounces at o                                          cc 
+             utages.org                                                    
+                                                                   Subject 
+                                       [outages] communication breakdown @ 
+             08/26/2008 03:10          FAA                                 
+             PM                                                            
+                                                                           
+                                                                           
+             Please respond to                                             
+             virendra.rode at gma                                             
+                  il.com                                                   
+                                                                           
+                                                                           
+
+
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email
+______________________________________________________________________
+
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+From bogus@does.not.exist.com  Wed Aug 27 15:03:52 2008
+From: bogus@does.not.exist.com ()
+Date: Wed, 27 Aug 2008 19:03:52 -0000
+Subject: [outages] No subject
+Message-ID: <mailman.0.1219863837.1022.outages@outages.org>
+
+matter the origin.
+
+Following are traces from independent AS's in Atlanta and Dallas to a
+midsouth.rr.com IP. Traces to the IP you're mailing from fail at the
+same points.
+
+$ traceroute 24.24.x.x
+traceroute to 24.24.x.x (24.24.x.x), 64 hops max, 44 byte packets
+ 1  cyberwurx-ge3-1-atl1.ag1.globalcompass.com (66.154.0.1)  1.553 ms  0.548 ms  0.521 ms
+ 2  atl1-br2.112.globalcompass.com (69.61.56.205)  0.322 ms  0.308 ms  0.476 ms
+ 3  ge-6-1-112.car2.Atlanta1.Level3.net (4.71.22.21)  115.648 ms  3.427 ms  2.921 ms
+ 4  ge-5-0-0-52.gar2.Atlanta1.Level3.net (4.68.103.39)  0.684 ms  0.662 ms  0.712 ms
+ 5  * * *
+ 6  * * *
+ 7  * * *
+
+$ traceroute 24.24.x.x
+traceroute to 24.24.x.x (24.24.x.x), 30 hops max, 40 byte packets
+ 1  zzzz.zzz (67.228.x.x)  0.356 ms  0.320 ms  0.312 ms
+ 2  po103.dar02.dal01.dallas-datacenter.com (66.228.118.189)  0.305 ms  0.508 ms  0.504 ms
+ 3  po2.cer02.dal01.dallas-datacenter.com (66.228.118.206)  0.270 ms  0.270 ms  0.471 ms
+ 4  s261524-internet.dan.savvis.net (208.175.175.9)  0.464 ms  0.696 ms  0.689 ms
+ 5  208.173.178.142 (208.173.178.142)  0.925 ms  0.917 ms  0.909 ms
+ 6  * * *
+ 7  * ae-83-83.ebr3.Dallas1.Level3.net (4.69.136.161)  1.310 ms *
+ 8  * * *
+ 9  ge-6-0-0-51.gar2.Atlanta1.Level3.net (4.68.103.7)  22.250 ms ge-5-0-0-52.gar2.Atlanta1.Level3.net (4.68.103.39)  20.742 ms ge-6-0-0-51.gar2.Atlanta1.Level3.net (4.68.103.7)  22.228 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+
+hth
+
+-s
+
+
+
+From ramans at cwie.net  Thu Aug  7 11:20:16 2008
+From: ramans at cwie.net (Raman Sud)
+Date: Thu, 7 Aug 2008 08:20:16 -0700
+Subject: [outages] FW: weekly update
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC20F2CA8A098B@EXCH07-MB.ccbill-hq.local>
+
+ 
+
+ 
+
+Raman Sud
+
+Director,
+
+Network Engineering and Operations
+
+ 
+
+ 
+
+CWIE Holding Company
+
+2353 West University Drive
+
+Tempe AZ 85281
+
+Fax: 480.682.3236
+
+ <http://www.cavecreek.net/> http://www.cavecreek.net/
+
+ 
+
+PGP Key:  <http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2>
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+
+ 
+
+NOTICE: This message is intended only for the use of the individual or
+entity to which it is addressed. If the reader of this message is not the
+intended recipient, or the employee or agent responsible for delivering the
+message to the intended recipient, you are hereby notified that any
+dissemination, distribution or copying of this message is strictly
+prohibited. If you have received this communication in error, please notify
+us immediately by replying to the sender of this E-Mail or by telephone.
+
+ 
+
+  _____  
+
+From: Adrian Montebello 
+Sent: Thursday, August 07, 2008 6:56 AM
+To: Raman Sud
+
+ 
+
+Raman,
+
+ 
+
+here's my update for the week : 
+
+*	CCBill Firewall issues -  Done another maintenance today but had to
+roll back the changes to improve stability.  We have to disable proxy arp on
+all firewalls' internal zones (except outside & DMZ) to completely resolve
+the issue.  Furthermore, the maintenance to install the secondary firewall
+was not successfull and we will be re-visiting this to see what went wong.  
+*	Cisco Guard for WH -  adding more zones as per WH requests.  In
+contact with GERO all the time about this.  We put the new zones active this
+week and GERO is adding traffic to these. 
+*	CCBill AS migration to AS32164 - plan sent to Raman.  We just need
+to find spare GBICs to plug into BB2 before we start the maintenance.  This
+is planned for the 20th August.  A maintenance notification is already
+planned. 
+*	DRACs - worked with Windows Engineering to make the DRAC ports
+active on the network - completed.
+
+ 
+
+Thanks
+
+Adrian
+
+ 
+
+ 
+
+ 
+
+ 
+
+CCBill EU Limited
+First Floor, CC Buildings
+Palm Street, Paola PLA 1411
+MALTA
+Telephone Numbers: US +1 480-449-7750 Ext 605 | Malta +356 21808691/21663537
+| Cell Phone: +356 79305305
+adrianm at ccbilleu.com
+www.ccbilleu.com
+
+PGP Key: http://keyserver.cwie.net:11371/pks/lookup?op=get&search=0x8F5A59B5
+
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080807/217aa26b/attachment-0002.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 3626 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080807/217aa26b/attachment-0002.bin>
+
+From ge at linuxbox.org  Thu Aug 14 01:01:38 2008
+From: ge at linuxbox.org (Gadi Evron)
+Date: Thu, 14 Aug 2008 00:01:38 -0500 (CDT)
+Subject: [outages] ISOI 5 (Tallinn) agenda is now online
+Message-ID: <Pine.LNX.4.62.0808140001100.13744@linuxbox.org>
+
+Greetings!
+
+The agenda for the ISOI conference (held on the 11th and 12th of September 
+2008, in Tallinn Estonia) has just been made public.
+
+You can find it here:
+http://www.isotf.org/isoi5.html
+
+Suggested hotel is the Viru:
+http://www.viru.ee/
+
+Our kind host is the Estonian CERT (Hillar) who is also planning a
+special after-hours event for us to enjoy.
+
+We have the option of moving to a bigger room if necessary, so you can RSVP 
+when you like (although we'd appreciate notice).
+
+Best regards,
+
+Randy Vaughn and Gadi Evron.
+
+
+From jgoltz at mail.nih.gov  Thu Aug 14 10:29:57 2008
+From: jgoltz at mail.nih.gov (Goltz, Jim (NIH/CIT) [E])
+Date: Thu, 14 Aug 2008 10:29:57 -0400
+Subject: [outages] Possible SBC outage at LAX
+Message-ID: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+
+SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+?
+
+
+
+From virendra.rode at gmail.com  Thu Aug 14 11:09:18 2008
+From: virendra.rode at gmail.com (virendra rode //)
+Date: Thu, 14 Aug 2008 08:09:18 -0700
+Subject: [outages] Possible SBC outage at LAX
+In-Reply-To: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+References: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+Message-ID: <48A44A9E.6040106@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Goltz, Jim (NIH/CIT) [E] wrote:
+> SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+- -------------------
+So far our (LA) att neighbor seems to be up/stable.
+
+Will keep an eye, thanks!
+
+
+regards,
+/virendra
+
+> 
+> --
+> Jim Goltz <jgoltz at mail.nih.gov>
+> CIT/DCSS/HSB/ASIG
+> 12/2216
+>  
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFIpEqepbZvCIJx1bcRAttSAJ9tL+IczEcdglvRWNLULQcSIemj6ACfR4EL
+yLkaEe/AuSQWVww2QJTmQqg=
+=GOjD
+-----END PGP SIGNATURE-----
+
+
+From JGOODE at genesco.com  Thu Aug 14 10:38:57 2008
+From: JGOODE at genesco.com (Jay Goode)
+Date: Thu, 14 Aug 2008 09:38:57 -0500
+Subject: [outages] Possible SBC outage at LAX
+In-Reply-To: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+References: <A29D7E1CDB780A42B3AC0F5B8219F4CB34A022@NIHCESMLBX3.nih.gov>
+Message-ID: <48A3FD2F.5A0A.00B1.0@genesco.com>
+
+We had latency issues  for the past 2 hrs to a number of Eastern US locations apparently affected by this
+
+>>> "Goltz, Jim (NIH/CIT) [E]" <jgoltz at mail.nih.gov> 8/14/2008 9:29 AM >>>
+SANS ISC has early reports of a possible SBC outage.  http://internetpulse.net/ is reporting 0% network availability at LAX.
+
+--
+Jim Goltz <jgoltz at mail.nih.gov>
+CIT/DCSS/HSB/ASIG
+12/2216
+ 
+
+_______________________________________________
+outages mailing list
+outages at outages.org 
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jra at baylink.com  Mon Aug 18 09:38:02 2008
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Mon, 18 Aug 2008 09:38:02 -0400
+Subject: [outages] TS Fay - Projected Landfall SE Fla Tue
+Message-ID: <20080818133802.GC10288@cgi.jachomes.com>
+
+Just a reminder: TS Fay is projected to make landfall in SE Florida
+Tuesday afternoon/evening -- the current Mon AM projection is for 1400
+EDT around Ft Myers/Cape Coral, but it's changed 6 times in 8
+advisories, so who knows.  The storm may have strengthened to a
+Category 1 hurricane by then, but the intensity models are even less
+solid than the track models.
+
+    http://flhurricane.com/cyclone/stormspotlight.php?year=2008&storm=6
+
+If you have facilities in that region, things may get dicey for between
+the afternoon and the rest of the week; keep it in mind.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+	     Those who cast the vote decide nothing.
+	     Those who count the vote decide everything.
+	       -- (Josef Stalin)
+
+
+From mike at oncallcentre.com  Wed Aug 20 10:53:24 2008
+From: mike at oncallcentre.com (Mike Bothwell)
+Date: Wed, 20 Aug 2008 10:53:24 -0400
+Subject: [outages] {Disarmed} Major fiber cut
+Message-ID: <162BC53B7CAD9546973C4CC59004C06F20532CDE64@ex01.oncallcentre.local>
+
+There is a major fiber cut in B.C. Canada affecting all voice and data traffic.
+
+ I have no other  details as of yet.
+
+
+
+Michael D. Bothwell
+System Administrator
+2405B St.Laurent Blvd., Ottawa, ON, K1G 5B4
+T. 613-238-3262  F. 613-238-3838
+mike at oncallcentre.com<http://mike at oncallcentre-com/> - www.oncallcentre.com
+On Call Centre - Your Call is our Priority
+Pinnacle/PI2000/CenturiSoft/Icverify/Wygant/XP PRO /2003 R2
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20080820/1599ae17/attachment-0002.html>
+
+From virendra.rode at gmail.com  Tue Aug 26 16:10:01 2008
+From: virendra.rode at gmail.com (virendra rode //)
+Date: Tue, 26 Aug 2008 13:10:01 -0700
+Subject: [outages] communication breakdown @ FAA
+Message-ID: <48B46319.5060300@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+
+
+From Michael.Washington at fitchratings.com  Tue Aug 26 16:42:31 2008
+From: Michael.Washington at fitchratings.com (Michael.Washington at fitchratings.com)
+Date: Tue, 26 Aug 2008 15:42:31 -0500
+Subject: [outages] communication breakdown @ FAA
+In-Reply-To: <48B46319.5060300@gmail.com>
+Message-ID: <OFDDEF196E.2563AE95-ON862574B1.0071B62C-862574B1.0071A775@fitchratings.com>
+
+
+ATLANTA -- The Federal Aviation Administration said a communication failure
+Tuesday at a Georgia facility that processes flight plans for the eastern
+half of the U.S. was causing flight delays around the country.
+
+
+An FAA Web site that posts airport status information showed delays at some
+three dozen major airports coast-to-coast, advising passengers to "check
+your departure airport to see if your flight may be affected."
+
+
+FAA spokeswoman Kathleen Bergen in Atlanta said there are no safety issues
+and officials are still able to speak to pilots on planes on the ground and
+in the air.
+
+
+She said she doesn't know how many flights are being affected.
+
+
+Bergen said the problem that occurred Tuesday afternoon involves an FAA
+facility in Hampton, Ga., south of Atlanta, that processes flight plans.
+She said there was a failure in a communication link that transmits the
+data to a similar facility in Salt Lake City.
+
+
+As a result, the Salt Lake City facility was having to process those flight
+plans, causing delays in planes taking off. She said there were no problems
+with planes landing.
+
+
+"There will be flight delays," Bergen said. "It could be any location,
+because one facility is now processing flight data for everybody."
+
+
+A spokesman for Hartsfield-Jackson Atlanta International Airport, the
+world's busiest airport, did not immediately return a call seeking comment
+on the impact there. Bergen said officials at the Atlanta airport were
+entering flight data manually to try to speed things up.
+
+
+The communication failure was causing delays for departures and arrivals at
+Baltimore-Washington International Thurgood Marshall Airport, according to
+airport spokeswoman Cheryl Stewart. However, she did not have a number on
+delays.
+
+
+The FAA has asked that no new flight plans be filed, Stewart said. If an
+airline has not filed a flight plan yet, that flight can't leave. However,
+some flights had already filed their plans and those planes were being
+allowed to depart, Stewart said.
+
+
+Brenda Geoghagan, a spokeswoman for Tampa International Airport in Florida,
+said "it may just be too soon" to determine the impact there. Christine
+Osborn, another spokeswoman at the Tampa airport, said there have been no
+delays due to the flight plan communication failure. But she said she
+anticipates problems in the coming hours.
+
+
+"There's definitely going to be some impact," she said.
+
+
+At Miami International Airport, there were no delays or cancelations due to
+the communication failure, said spokesman Marc Henderson.
+
+
+"There are cancelations due to weather from the hurricane, but not due to
+this," he said.
+
+
+The National Airspace Data Interchange Network is a data communications
+system for air traffic controllers. It's used to distribute flight plans
+and allows controllers to know when planes are leaving, where they're going
+and other details.
+
+
+Allen Kenitzer, a western regional spokesman for the FAA, said the Utah
+system could handle the extra load while workers tried to get the Atlanta
+system back online, but it was expected to slow down air traffic.
+
+
+"We're not going to let an unsafe condition exist. It's just going to be
+slower," Kenitzer said.
+
+
+
+                                                                           
+             virendra rode //                                              
+             <virendra.rode at gm                                             
+             ail.com>                                                   To 
+             Sent by:                  outages at outages.org                 
+             outages-bounces at o                                          cc 
+             utages.org                                                    
+                                                                   Subject 
+                                       [outages] communication breakdown @ 
+             08/26/2008 03:10          FAA                                 
+             PM                                                            
+                                                                           
+                                                                           
+             Please respond to                                             
+             virendra.rode at gma                                             
+                  il.com                                                   
+                                                                           
+                                                                           
+
+
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email
+______________________________________________________________________
+
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+
+From Michael.Washington at fitchratings.com  Wed Aug 27 10:51:54 2008
+From: Michael.Washington at fitchratings.com (Michael.Washington at fitchratings.com)
+Date: Wed, 27 Aug 2008 09:51:54 -0500
+Subject: [outages] communication breakdown @ FAA
+In-Reply-To: <48B46319.5060300@gmail.com>
+Message-ID: <OF47FED14C.13CCD8A1-ON862574B2.00519438-862574B2.00518E13@fitchratings.com>
+
+Flight Delays Caused by Computer Failure, FAA Says
+
+
+By Sholnn Freeman
+Washington Post Staff Writer
+Wednesday, August 27, 2008; A03
+
+
+The Federal Aviation Administration blamed a computer breakdown for
+delaying hundreds of flights yesterday throughout the country, including
+Baltimore and Washington.
+
+
+The computer system, housed in a facility near Atlanta, failed shortly
+after 1:25 p.m., FAA officials said. The system handles basic flight plan
+data that must be distributed to air traffic controllers around the country
+before planes take off.
+
+
+So far, the FAA has estimated that "hundreds" of flights were affected by
+the failure yesterday. The problem was not a "safety issue," the FAA said.
+A spokeswoman said the agency never lost the ability to communicate with
+aircraft. A computer failure last week apparently caused similar delays.
+
+
+The glitch came as a new blow to the FAA, which has been getting extensive
+criticism for the nation's chronic flight delays. The agency, which is
+asking Congress for hundreds of millions of dollars to modernize air
+traffic control equipment, said it was too early to give a specific cause
+for yesterday's failure, although it ruled out hacking.
+
+
+After the failure in Atlanta yesterday, a backup system in Salt Lake City
+came online to pick up the slack but immediately became overwhelmed, the
+FAA said. Employees then had to enter flight data manually, resulting in
+delays throughout the afternoon. By early evening, the FAA reported that
+the Salt Lake City system had resolved its backlog and was operating
+normally.
+
+
+Late yesterday the agency said computer engineers were still working to put
+the Atlanta system back into operation.
+
+
+"It looks like we are slowly starting to dig out of this," Hank Krakowski,
+chief operating officer for FAA's air traffic organization, told reporters
+on a 5 p.m. conference call.
+
+
+According to an internal FAA document, the system, called the National
+Airspace Data Interchange Network, crashed on Thursday and caused in 134
+departure delays. The Salt Lake City system also took over but had problems
+with the high queue level, the document said. The system also failed in
+June 2007.
+
+
+Doug Church, spokesman for the National Air Traffic Controllers
+Association, said the computer problem showed that the agency was too
+focused on deploying new technology rather than maintenance of current
+equipment.
+
+
+"The FAA is doing things on the cheap when it comes to technology and
+infrastructure," he said.
+
+
+Flights in Baltimore and Washington were hit with delays of 75 minutes or
+more. But Rob Yingling, a spokesman for the Metropolitan Washington
+Airports Authority, said the problem didn't cause widespread cancellations.
+
+
+Atlanta's Hartsfield-Jackson International airport took the brunt of the
+computer failure with 40 planes backed up at about 5 p.m. At one point
+yesterday, the glitch caused delays of 90 minutes at Chicago's Midway
+International Airport and hour-long delays in Charlotte. Boston's Logan
+International airport experienced 45-minute delays.
+
+
+
+
+
+                                                                           
+             virendra rode //                                              
+             <virendra.rode at gm                                             
+             ail.com>                                                   To 
+             Sent by:                  outages at outages.org                 
+             outages-bounces at o                                          cc 
+             utages.org                                                    
+                                                                   Subject 
+                                       [outages] communication breakdown @ 
+             08/26/2008 03:10          FAA                                 
+             PM                                                            
+                                                                           
+                                                                           
+             Please respond to                                             
+             virendra.rode at gma                                             
+                  il.com                                                   
+                                                                           
+                                                                           
+
+
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Does anyone have any further information regarding this failure?
+
+Apparently the outage occurred at FAA facility in Hampton, Ga., that
+processes flight plans.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItGMZpbZvCIJx1bcRApNTAJ4mpaknb9H4AYjL3LiBks4tyo9FHwCdEW4d
+i6///6Hm53tUT84JO28ff8U=
+=P4O4
+-----END PGP SIGNATURE-----
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+______________________________________________________________________
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email
+______________________________________________________________________
+
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+
+From ge at linuxbox.org  Thu Aug 28 08:52:38 2008
+From: ge at linuxbox.org (Gadi Evron)
+Date: Thu, 28 Aug 2008 07:52:38 -0500 (CDT)
+Subject: [outages] reviving the botnets@ mailing list: a new statregy in fighting cyber crime
+Message-ID: <Pine.LNX.4.62.0808280751310.13815@linuxbox.org>
+
+Note to outages members: off-topic post of an ISOTF operation.
+
+
+The public botnets@ mailing list, where malicious activity on the Internet can 
+be openly shared, has been revived, and boy is it active.
+
+Warning: live samples and malicious URLs are openly shared there.
+
+Mailing list URL: http://www.whitestar.linuxbox.org/mailman/listinfo/botnets
+
+Reasons, thinking and explanations:
+http://gadievron.blogspot.com/2008/08/public-sharing-and-new-statregy-in.html
+
+Excerpt:
+------
+A couple of years ago I started a mailing list where folks not necessarily 
+involved with the vetted, trusted, closed and snobbish circles of cyber crime 
+fighting (some founded by me) could share information and be informed of 
+threats.
+
+In this post I explore some of the history behind information sharing online, 
+and explain the concept behind the botnets mailing list. Feel free to skip 
+ahead if you find the history boring. Also, do note the history in this post is 
+mixed with my own opinions. As I am one of the only people who where there in 
+the beginning though and lived through all of it, I feel free to do so (in my 
+own blog post).
+
+As I conclude, we may not be able to always share our resources, but it is time 
+to change the tide of the cyber crime war, and strategize. One of the 
+strategies we need to use, or at least try, is public information sharing of 
+"lesser evils" already in the public domain.
+
+..
+..
+
+To fight a war, you have to be involved and engaged. On the Internet that is 
+very difficult, but the Russians found a way. It is a fact that while we made 
+much progress in our efforts fighting cyber crime, we had nearly no effect 
+what-so-ever on the criminals and the attackers. Non. They maintain their 
+business and we play at writing analysis and whack-a-mole.
+
+Using the botnets mailing list, I am burrowing a page from the apparent Russian 
+cyber war doctrine, getting people involved, engaged. Personally aware and a 
+part of what's going on.
+
+It can't hurt us, and perhaps now, four years over-due and two years after the 
+previous attempt, we may be ready to give it a go and test the concept.
+-------
+
+ 	Gadi Evron.
+
+--
+"You don't need your firewalls! Gadi is Israel's firewall."
+     -- Itzik (Isaac) Cohen, "Computers czar", Senior Deputy to the Accountant General,
+        Israel's Ministry of Finance, at the government's CIO conference, 2005.
+
+     (after two very funny self-deprication quotes, time to even things up!)
+
+My profile and resume:
+http://www.linkedin.com/in/gadievron
+
+From virendra.rode at gmail.com  Thu Aug 28 10:48:18 2008
+From: virendra.rode at gmail.com (virendra rode //)
+Date: Thu, 28 Aug 2008 07:48:18 -0700
+Subject: [outages] [Fwd: Re: Service Outage in Indiana]
+Message-ID: <48B6BAB2.2080004@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -------- Original Message --------
+Subject: Re: Service Outage in Indiana
+Date: Thu, 28 Aug 2008 10:43:05 -0400 (EDT)
+From: Elijah Savage <esavage at digitalrage.org>
+To: Elijah Savage <esavage at digitalrage.org>
+CC: nanog <nanog at merit.edu>
+
+
+- ----- "Elijah Savage" <esavage at digitalrage.org> wrote:
+> Anyone know what is going on there.
+> 
+> Sprint Verizon data and voice circuits affected in the Fort Wayne
+> area.
+
+Ok I have some data now. It seems the local LEC has multiple DS3's down
+in the area. I asked here as a last resort because I have facilities
+that were down for over an hour with no answers.
+
+Sorry for the bother.
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFItrqypbZvCIJx1bcRApAgAJ4wSGiPYp80Pk9jwVqwA7/0KtYgPgCgmQSm
+kYGEL+KZRWKvRx3fiMpjNDQ=
+=mkM5
+-----END PGP SIGNATURE-----
+
+From erikerik at gmail.com  Thu Aug 28 12:05:24 2008
+From: erikerik at gmail.com (Erik Anderson)
+Date: Thu, 28 Aug 2008 11:05:24 -0500
+Subject: [outages] T-Mobile EDGE outage in Minneapolis area
+Message-ID: <fc40260f0808280905h2e8c40dge352049d810abd2a@mail.gmail.com>
+
+It appears that T-Mobile is having some sort of problem with their
+EDGE/GPRS network in the Minneapolis area. I have several different
+users that have been stuck in GSM mode for the past 3 hours or so.
+
+-Erik Anderson
+

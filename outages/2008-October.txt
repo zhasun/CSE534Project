@@ -1,0 +1,685 @@
+From ryan at u13.net  Wed Oct  1 01:37:16 2008
+From: ryan at u13.net (Ryan Rawdon)
+Date: Wed, 01 Oct 2008 01:37:16 -0400
+Subject: [outages] XO Flapping (Las Vegas/Los Angeles)
+In-Reply-To: <8cd002180809301843p60d42c80g370076bb54387dd7@mail.gmail.com>
+References: <8cd002180809301843p60d42c80g370076bb54387dd7@mail.gmail.com>
+Message-ID: <48E30C8C.2050003@u13.net>
+
+I have not seen anything odd in Chicago where we have colo space with XO.
+
+Ozar wrote:
+> I have an XO 10Gig circuit that keeps flapping up and down...
+> Anyone else on XO having any issues out of Las Vegas/Los Angeles?
+>  
+> -Ozar
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>   
+
+From virendra.rode at gmail.com  Wed Oct  1 14:23:53 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Wed, 01 Oct 2008 11:23:53 -0700
+Subject: [outages] verizon regional fiber cut.
+Message-ID: <48E3C039.4050206@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+We suffered an outage on our verizon ds3 circuit in torrance, ca.
+
+Verizon has confirmed the issue to a regional fiber cut. It appears that
+repair team are en route to the location (?) with an eta of 1 hour.
+
+Has anyone else impacted by this outage?
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI48A5pbZvCIJx1bcRAuZ/AJ9fPNYiIlioFbtg1lwbxWqPYjfwQACeMC7t
+ZqB2/c9fD2udUZp53XbWh2M=
+=Ft3v
+-----END PGP SIGNATURE-----
+
+From chrismcc at pricegrabber.com  Wed Oct  1 15:01:46 2008
+From: chrismcc at pricegrabber.com (Christopher McCrory)
+Date: Wed, 01 Oct 2008 12:01:46 -0700
+Subject: [outages] verizon regional fiber cut.
+In-Reply-To: <48E3C039.4050206@gmail.com>
+References: <48E3C039.4050206@gmail.com>
+Message-ID: <1222887706.6801.4.camel@localhost>
+
+Hello...
+
+
+On Wed, 2008-10-01 at 11:23 -0700, virendra rode wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> We suffered an outage on our verizon ds3 circuit in torrance, ca.
+> 
+> Verizon has confirmed the issue to a regional fiber cut. It appears that
+> repair team are en route to the location (?) with an eta of 1 hour.
+> 
+> Has anyone else impacted by this outage?
+> 
+
+Nope.  I have equipment lax11 and a p2p HiCap to that same location, all
+is well.  My stuff is verizon-business in Torrance if that makes a
+difference.
+
+
+
+-- 
+Christopher McCrory
+ "The guy that keeps the servers running"
+
+To the optimist, the glass is half full.
+To the pessimist, the glass is half empty.
+To the engineer, the glass is twice as big as it needs to be.
+
+
+
+From virendra.rode at gmail.com  Wed Oct  1 15:33:26 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Wed, 01 Oct 2008 12:33:26 -0700
+Subject: [outages] verizon regional fiber cut.
+In-Reply-To: <1222887706.6801.4.camel@localhost>
+References: <48E3C039.4050206@gmail.com> <1222887706.6801.4.camel@localhost>
+Message-ID: <48E3D086.2050800@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Christopher McCrory wrote:
+> Hello...
+> 
+> 
+> On Wed, 2008-10-01 at 11:23 -0700, virendra rode wrote:
+>> -----BEGIN PGP SIGNED MESSAGE-----
+>> Hash: SHA1
+>>
+>> We suffered an outage on our verizon ds3 circuit in torrance, ca.
+>>
+>> Verizon has confirmed the issue to a regional fiber cut. It appears that
+>> repair team are en route to the location (?) with an eta of 1 hour.
+>>
+>> Has anyone else impacted by this outage?
+>>
+> 
+> Nope.  I have equipment lax11 and a p2p HiCap to that same location, all
+> is well.  My stuff is verizon-business in Torrance if that makes a
+> difference.
+- --------------------------
+The cut is between mendota and kettlemen city, ca (fresno). Maybe cow
+took a bite :-)
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI49CGpbZvCIJx1bcRAq/7AKCfGmicnfdZySbX82CZ9P6NIHH70wCgkRy7
+3TTO4DmV2xQcvqMtITnARRg=
+=wDIl
+-----END PGP SIGNATURE-----
+
+From virendra.rode at gmail.com  Thu Oct  2 10:47:58 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 02 Oct 2008 07:47:58 -0700
+Subject: [outages] RIM Scheduled Maintenance Outage - 11 October.
+Message-ID: <48E4DF1E.7070009@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+BBCHG34475 Critical-S1 Severity Maintenance (New) for BlackBerry All
+Provisioning service for subscribers of *The Americas Network (MULT)
+This message is to inform you of scheduled network maintenance.
+
+Maintenance Summary: BlackBerry Provisioning System -- software update
+
+Impact: BlackBerry subscribers may be unable to register their
+device or receive new service books during the maintenance.
+BlackBerry Connect and BlackBerry-enabled devices that require a new PIN may
+be unable to receive the PIN.
+
+BlackBerry Internet Service subscribers may be unable to use the BlackBerry
+Internet Service web site or perform activities such as creating new
+accounts, accessing their Internet mailbox, integrating third-party email
+accounts, or viewing email attachments during the maintenance.
+
+Wireless service providers and device resellers may be unable to use
+BlackBerry administration web sites or perform activities such as creating
+subscriber accounts or provisioning services for subscribers during the
+maintenance.
+
+Ticket Number: BBCHG34475
+
+
+*	Change Window Start Date and Time: 12 October 2008 02:00:00 (EDT)
+*	Change Window End Date and Time: 12 October 2008 06:00:00 (EDT)
+*	Estimated Duration of Service Impact: 4 hour(s) and 0 minute(s)
+*	% of Subscribers Affected: 100.00 (estimated)
+
+Purpose: RIM Software Upgrade
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI5N8epbZvCIJx1bcRAjGDAJ9lv9aWPa1U5w45XZEzcR0N2HU4iQCbBTVx
+01YioomPJU3a7JBOvtkFVvk=
+=G0fI
+-----END PGP SIGNATURE-----
+
+From virendra.rode at gmail.com  Thu Oct  2 10:53:49 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 02 Oct 2008 07:53:49 -0700
+Subject: [outages] [Fwd:  RIM Scheduled Maintenance Outage - 11 October.]
+Message-ID: <48E4E07D.8010702@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+The date on the subject matter should read 12 October. Sorry about that.
+
+
+regards,
+/virendra
+
+
+- -------- Original Message --------
+Subject: [outages] RIM Scheduled Maintenance Outage - 11 October.
+Date: Thu, 02 Oct 2008 07:47:58 -0700
+From: virendra rode <virendra.rode at gmail.com>
+Reply-To: virendra.rode at gmail.com
+To: outages at outages.org <outages at outages.org>
+
+BBCHG34475 Critical-S1 Severity Maintenance (New) for BlackBerry All
+Provisioning service for subscribers of *The Americas Network (MULT)
+This message is to inform you of scheduled network maintenance.
+
+Maintenance Summary: BlackBerry Provisioning System -- software update
+
+Impact: BlackBerry subscribers may be unable to register their
+device or receive new service books during the maintenance.
+BlackBerry Connect and BlackBerry-enabled devices that require a new PIN may
+be unable to receive the PIN.
+
+BlackBerry Internet Service subscribers may be unable to use the BlackBerry
+Internet Service web site or perform activities such as creating new
+accounts, accessing their Internet mailbox, integrating third-party email
+accounts, or viewing email attachments during the maintenance.
+
+Wireless service providers and device resellers may be unable to use
+BlackBerry administration web sites or perform activities such as creating
+subscriber accounts or provisioning services for subscribers during the
+maintenance.
+
+Ticket Number: BBCHG34475
+
+
+*	Change Window Start Date and Time: 12 October 2008 02:00:00 (EDT)
+*	Change Window End Date and Time: 12 October 2008 06:00:00 (EDT)
+*	Estimated Duration of Service Impact: 4 hour(s) and 0 minute(s)
+*	% of Subscribers Affected: 100.00 (estimated)
+
+Purpose: RIM Software Upgrade
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI5OB8pbZvCIJx1bcRArPIAKDeE9Brw31+qZCAdQRPQLcAeDq+EgCfYKS+
+ft6JDmSJabqzb89HBoMAlnU=
+=B8xu
+-----END PGP SIGNATURE-----
+
+From virendra.rode at gmail.com  Thu Oct  2 15:26:53 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 02 Oct 2008 12:26:53 -0700
+Subject: [outages] Outages BOF - NANOG 44 (los angeles).
+Message-ID: <48E5207D.7090507@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Just wondering if there's any interest in meeting up during nanog 44
+(los angeles) and sharing your thoughts, challenges or your outages
+experience in general or would like to simply vent and empty your head.
+
+
+Topics of interest:
+
+* Service provider(s) participation in outages notification?
+
+* What monitoring  tools do you use to monitor your environment? How do
+they work for your environment? Does it scale for your environment? What
+would you like to see out of such a tool (open-source or commercial).
+
+Collaboration/participation is one of the key things that I'm aiming to
+achieve w/o the need for an overarching organizational body and have a
+broad base of representation. So come and speak your mind.
+
+
+Please respond to me directly and not the list so I can arrange for a
+meeting room.
+
+
+grateful thanks,
+
+
+regards,
+/virendra
+moderator, outages.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI5SB9pbZvCIJx1bcRApU5AJ916/9T3+k0swPIyFMQfEJBWLNAmQCgoyDo
+KD7qhBFmjfcrmSJTXhDmJtk=
+=641j
+-----END PGP SIGNATURE-----
+
+From ren.provo at gmail.com  Thu Oct  2 16:07:23 2008
+From: ren.provo at gmail.com (Ren Provo)
+Date: Thu, 2 Oct 2008 16:07:23 -0400
+Subject: [outages] Outages BOF - NANOG 44 (los angeles).
+In-Reply-To: <48E5207D.7090507@gmail.com>
+References: <48E5207D.7090507@gmail.com>
+Message-ID: <787581440810021307g5d705fbbh8a812adaf5644014@mail.gmail.com>
+
+Hi Virendra,
+
+Putting my NANOG Program Committee Member hat on, please work with Joel
+Jaeggli, also on the NANOG PC.  He is moderating a Tools BOF Monday
+afternoon at 4:30 in the Heinsbergen Room as per
+http://www.nanog.org/meetings/nanog44/agenda.php
+
+If you are interested in leading an outages specific BOF please put in a
+request at http://www.nanogpc.org for NANOG45.  January 2009 will be here
+before you know it!   Cheers, -ren
+
+On Thu, Oct 2, 2008 at 3:26 PM, virendra rode <virendra.rode at gmail.com>wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Hi,
+>
+> Just wondering if there's any interest in meeting up during nanog 44
+> (los angeles) and sharing your thoughts, challenges or your outages
+> experience in general or would like to simply vent and empty your head.
+>
+>
+> Topics of interest:
+>
+> * Service provider(s) participation in outages notification?
+>
+> * What monitoring  tools do you use to monitor your environment? How do
+> they work for your environment? Does it scale for your environment? What
+> would you like to see out of such a tool (open-source or commercial).
+>
+> Collaboration/participation is one of the key things that I'm aiming to
+> achieve w/o the need for an overarching organizational body and have a
+> broad base of representation. So come and speak your mind.
+>
+>
+> Please respond to me directly and not the list so I can arrange for a
+> meeting room.
+>
+>
+> grateful thanks,
+>
+>
+> regards,
+> /virendra
+> moderator, outages.org
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFI5SB9pbZvCIJx1bcRApU5AJ916/9T3+k0swPIyFMQfEJBWLNAmQCgoyDo
+> KD7qhBFmjfcrmSJTXhDmJtk=
+> =641j
+> -----END PGP SIGNATURE-----
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081002/d28c00be/attachment.html>
+
+From sean at craigslist.org  Mon Oct  6 19:30:32 2008
+From: sean at craigslist.org (Sean Knox)
+Date: Mon, 06 Oct 2008 16:30:32 -0700
+Subject: [outages] AT&T broadband wireless to Google outages/brownouts?
+Message-ID: <48EA9F98.2020700@craigslist.org>
+
+Hi All,
+
+I wasn't able to connect to any Google sites (Docs, gmail, google.com,
+etc.) this weekend that while connected via AT&T's 3G broadband card
+here in the SF Bay Area. A colleague with another AT&T card is seeing
+the same problems: can't connect to Google but can hit other sites
+(Yahoo, craigslist, etc.).
+
+Wondering if there's a peering problem with AT&T somewhere. Anyone have
+a clue?
+
+thanks,
+sk
+
+
+From sean at craigslist.org  Tue Oct  7 16:10:36 2008
+From: sean at craigslist.org (Sean Knox)
+Date: Tue, 07 Oct 2008 13:10:36 -0700
+Subject: [outages] AT&T broadband wireless to Google outages/brownouts?
+In-Reply-To: <48EBB6BE.70805@decarta.com>
+References: <48EA9F98.2020700@craigslist.org> <48EBB6BE.70805@decarta.com>
+Message-ID: <48EBC23C.3020903@craigslist.org>
+
+Here's a traceroute from someone having problems getting to Google:
+
+$ traceroute mail.google.com
+traceroute: Warning: mail.google.com has multiple addresses; using
+209.85.133.83
+traceroute to googlemail.l.google.com (209.85.133.83), 64 hops max, 40
+byte packets
+ 1  172.26.248.2 (172.26.248.2)  117.898 ms  119.232 ms  110.020 ms
+ 2  172.26.248.2 (172.26.248.2)  149.913 ms  109.311 ms  110.027 ms
+ 3  172.18.9.2 (172.18.9.2)  150.088 ms  110.314 ms  129.165 ms
+ 4  12.89.140.213 (12.89.140.213)  110.056 ms !X * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * 12.89.140.213 (12.89.140.213)  106.886 ms !X
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+
+
+Sargun Dhillon wrote:
+> Do you have any traceroutes, etc? That might help others...
+> Sean Knox wrote:
+>> Hi All,
+>>
+>> I wasn't able to connect to any Google sites (Docs, gmail, google.com,
+>> etc.) this weekend that while connected via AT&T's 3G broadband card
+>> here in the SF Bay Area. A colleague with another AT&T card is seeing
+>> the same problems: can't connect to Google but can hit other sites
+>> (Yahoo, craigslist, etc.).
+>>
+>> Wondering if there's a peering problem with AT&T somewhere. Anyone have
+>> a clue?
+>>
+>> thanks,
+>> sk
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>   
+> 
+> 
+
+From jra at baylink.com  Tue Oct  7 16:59:29 2008
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Tue, 7 Oct 2008 16:59:29 -0400 (EDT)
+Subject: [outages] AT&T broadband wireless to Google outages/brownouts?
+In-Reply-To: <827442.12201223413065682.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <31034244.12241223413169387.JavaMail.root@benjamin.vicimarketing.com>
+
+----- "Sean Knox" <sean at craigslist.org> wrote:
+> Here's a traceroute from someone having problems getting to Google:
+> 
+> $ traceroute mail.google.com
+> traceroute: Warning: mail.google.com has multiple addresses; using
+> 209.85.133.83
+> traceroute to googlemail.l.google.com (209.85.133.83), 64 hops max,
+> 40
+> byte packets
+>  1  172.26.248.2 (172.26.248.2)  117.898 ms  119.232 ms  110.020 ms
+>  2  172.26.248.2 (172.26.248.2)  149.913 ms  109.311 ms  110.027 ms
+>  3  172.18.9.2 (172.18.9.2)  150.088 ms  110.314 ms  129.165 ms
+>  4  12.89.140.213 (12.89.140.213)  110.056 ms !X * *
+>  5  * * *
+>  6  * * *
+>  7  * * *
+>  8  * * *
+>  9  * * *
+> 10  * * 12.89.140.213 (12.89.140.213)  106.886 ms !X
+> 11  * * *
+> 12  * * *
+> 13  * * *
+> 14  * * *
+> 15  * * *
+> 16  * * *
+> 17  * * *
+> 18  * * *
+
+Dig tells me that IP belongs to AT&T, but 12/8 told me that anyway.
+
+I can't mtr to that IP, and tracing to Google from Road Runner Tampa Bay
+doesn't cross it, but that's unsurprising.
+
+If you're staff at Craigs, you probably carry enough water to look the AT&T 
+NOC up on Jared's list and let them know that router's blocking Google from 
+being accessible to their own 3G customers.  Including iPhone users.
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+             Those who cast the vote decide nothing.
+             Those who count the vote decide everything.
+               -- (Josef Stalin)
+
+
+From virendra.rode at gmail.com  Wed Oct  8 11:51:49 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Wed, 08 Oct 2008 08:51:49 -0700
+Subject: [outages] T-Mobile Outage in Michigan.
+Message-ID: <48ECD715.3020902@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Someone just forwarded me this outage related to T-Mobile.
+
+
+"T-Mobile is currently experiencing service outages in Michigan. Data
+and Voice are affected, T-Mobile is currently working on resolving the
+issue. There is no ETA"
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI7NcVpbZvCIJx1bcRAqFWAJ9GoO5kahJ2Bx2mdcwFMXqV/A8fKACePJDW
+lGJsN7mBrE7aeN1Vm+gWFx8=
+=etti
+-----END PGP SIGNATURE-----
+
+From virendra.rode at gmail.com  Mon Oct 13 12:11:04 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Mon, 13 Oct 2008 09:11:04 -0700
+Subject: [outages] wiki.outages.org
+Message-ID: <48F37318.2070306@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hello all,
+
+A just quick note, we have put together wiki.outages.org which is in its
+infancy so please bare with us while we build this resource with the
+help of community effort.
+
+I am planning on making a short presentation during BOF tools session
+and I would love to get your feedback.
+
+Like always, I'm open for suggestions.
+
+Many thanks for CWIE for their kind donation for bw/hosting/hardware.
+
+
+Thanks for listening.
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFI83MYpbZvCIJx1bcRAk8IAJ9PoOhpGaFvV2etBTG0Npdd3PsGIACgoVWp
+ckl63ZubvLZwTqiPa4QgmRM=
+=4sil
+-----END PGP SIGNATURE-----
+
+From itdirector at gmail.com  Wed Oct 29 13:10:55 2008
+From: itdirector at gmail.com (Lori Barfield)
+Date: Wed, 29 Oct 2008 10:10:55 -0700
+Subject: [outages] Fwd: OC-3 cable cut in California?
+In-Reply-To: <811123.20364.qm@web55908.mail.re3.yahoo.com>
+References: <811123.20364.qm@web55908.mail.re3.yahoo.com>
+Message-ID: <c0fc3ae80810291010l63704278o491f109f71a1d8b1@mail.gmail.com>
+
+anyone?
+
+...lori
+
+---------- Forwarded message ----------
+From: Keith Christian
+Date: Wed, Oct 29, 2008 at 10:03 AM
+Subject: OC-3 cable cut in California?
+
+
+Anyone know about a cable cut somewhere in Ca. this morning (Wednesday?)
+
+Nothing on Google about it.
+
+=====Keith
+
+From woody at pch.net  Wed Oct 29 13:55:44 2008
+From: woody at pch.net (Bill Woodcock)
+Date: Wed, 29 Oct 2008 10:55:44 -0700
+Subject: [outages] TESS, the US patent and Trademark Office search portal...
+Message-ID: <76C34F5D-2C20-4B96-9806-276B439F0994@pch.net>
+
+
+...is offline.  I just called their tech support, who confirmed that  
+they're under DoS.
+
+                                 -Bill
+
+
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: PGP.sig
+Type: application/pgp-signature
+Size: 194 bytes
+Desc: This is a digitally signed message part
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081029/f142bc6c/attachment.bin>
+
+From woody at pch.net  Wed Oct 29 14:52:36 2008
+From: woody at pch.net (Bill Woodcock)
+Date: Wed, 29 Oct 2008 10:52:36 -0800 (PST)
+Subject: [outages] TESS,
+ the US patent and Trademark Office search portal...
+In-Reply-To: <76C34F5D-2C20-4B96-9806-276B439F0994@pch.net>
+References: <76C34F5D-2C20-4B96-9806-276B439F0994@pch.net>
+Message-ID: <Pine.SOC.4.61.0810291052050.14748@paixhost.pch.net>
+
+      On Wed, 29 Oct 2008, Bill Woodcock wrote:
+    > ...is offline.  I just called their tech support, who confirmed that
+    > they're under DoS.
+
+They were down for about an hour, and back again as of about 14:30 
+eastern.
+
+                                -Bill
+
+
+From mjones at enliven.com  Thu Oct 30 13:23:48 2008
+From: mjones at enliven.com (Matt Jones)
+Date: Thu, 30 Oct 2008 13:23:48 -0400
+Subject: [outages] Internap to GBLX
+Message-ID: <1225387428.420.37.camel@blackmagic.enliven.com>
+
+We're seeing intermittent outages from InterNAP (pnap.net) to GBLX
+(gblx.net) in the greater NYC area. I'm told GBLX techs are working on
+the issue but I don't have a global ticket number.
+
+
+
+From sethm at rollernet.us  Fri Oct 31 04:49:10 2008
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Fri, 31 Oct 2008 01:49:10 -0700
+Subject: [outages] Sprint/Cogent no longer peering
+Message-ID: <490AC686.9050602@rollernet.us>
+
+For those of you not on NANOG, Sprint and Cogent have stopped peering. 
+If you only have connectivity through Sprint or Cogent, you're likely to 
+find the other and their customers unreachable.
+
+~Seth
+
+From phil at pdyer.net  Wed Oct 29 14:29:49 2008
+From: phil at pdyer.net (Phil Dyer)
+Date: Wed, 29 Oct 2008 18:29:49 -0000
+Subject: [outages] Fwd: OC-3 cable cut in California?
+In-Reply-To: <c0fc3ae80810291010l63704278o491f109f71a1d8b1@mail.gmail.com>
+References: <811123.20364.qm@web55908.mail.re3.yahoo.com>
+	<c0fc3ae80810291010l63704278o491f109f71a1d8b1@mail.gmail.com>
+Message-ID: <20081029182937.GA27579@pdyer.net>
+
+
+> anyone?
+> 
+> ...lori
+> 
+
+We've got a T1 affected by this. VzB has master ticket
+2008102909923. Tech's are currently onsite.
+
+phil
+
+

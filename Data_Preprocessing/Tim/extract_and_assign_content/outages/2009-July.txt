@@ -1,0 +1,971 @@
+From jay at west.net  Mon Jul  6 13:31:07 2009
+From: jay at west.net (Jay Hennigan)
+Date: Mon, 06 Jul 2009 10:31:07 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>
+	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+Message-ID: <4A5234DB.8030705@west.net>
+
+We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA as 
+well as circuits busy on POTS calls to the area.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From lists at up-south.com  Mon Jul  6 14:39:59 2009
+From: lists at up-south.com (lists at up-south.com)
+Date: Mon, 6 Jul 2009 18:39:59 +0000
+Subject: [outages] Verizon Southern California issues?
+Message-ID: <1944895229-1246905620-cardhu_decombobulator_blackberry.rim.net-1313031936-@bxe1263.bisx.prod.on.blackberry>
+
+911 service is out as well in the affected area
+
+
+------Original Message------
+From: Jay Hennigan
+Sender: outages-bounces at outages.org
+Cc: outages at outages.org
+Subject: [outages] Verizon Southern California issues?
+Sent: Jul 6, 2009 10:31
+
+We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA as 
+well as circuits busy on POTS calls to the area.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+Sent via BlackBerry from T-Mobile
+
+From lists at up-south.com  Mon Jul  6 15:17:59 2009
+From: lists at up-south.com (Chaim Rieger)
+Date: Mon, 06 Jul 2009 12:17:59 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A5234DB.8030705@west.net>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+	<4A5234DB.8030705@west.net>
+Message-ID: <4A524DE7.5010806@up-south.com>
+
+Jay Hennigan wrote:
+> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA as
+> well as circuits busy on POTS calls to the area.
+> 
+Fiber cut on Dawson drive in Camarillo is the suspected cause of a major
+outage phone, network, & 911 in ventura county california
+
+From charles at thewybles.com  Mon Jul  6 15:54:44 2009
+From: charles at thewybles.com (Charles Wyble)
+Date: Mon, 06 Jul 2009 12:54:44 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A524DE7.5010806@up-south.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>
+	<4A524DE7.5010806@up-south.com>
+Message-ID: <4A525684.3000000@thewybles.com>
+
+Evidently 911 has been restored.
+
+http://twitter.com/socalincidents
+
+TSP for the win.
+
+Chaim Rieger wrote:
+> Jay Hennigan wrote:
+>> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA as
+>> well as circuits busy on POTS calls to the area.
+>>
+> Fiber cut on Dawson drive in Camarillo is the suspected cause of a major
+> outage phone, network, & 911 in ventura county california
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+From wkern at pixelgate.net  Mon Jul  6 15:14:41 2009
+From: wkern at pixelgate.net (William Kern)
+Date: Mon, 06 Jul 2009 12:14:41 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A5234DB.8030705@west.net>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+	<4A5234DB.8030705@west.net>
+Message-ID: <4A524D21.9080206@pixelgate.net>
+
+We lost our ATT circuit at  10 am.  still down.
+
+They claim 'Transport Issues'
+
+Clients are claiming that their ATT and Sprint T1's are down.
+
+Our Sprint circuit is doing fine.
+
+-bill
+PixelGate Networks
+(Thousand Oaks)
+
+
+
+
+
+Jay Hennigan wrote:
+> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA 
+> as well as circuits busy on POTS calls to the area.
+>
+> -- 
+> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+> Impulse Internet Service  -  http://www.impulse.net/
+> Your local telephone and internet company - 805 884-6323 - WB6RDV
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From charles at thewybles.com  Mon Jul  6 16:33:16 2009
+From: charles at thewybles.com (Charles Wyble)
+Date: Mon, 06 Jul 2009 13:33:16 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A524D21.9080206@pixelgate.net>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>
+	<4A524D21.9080206@pixelgate.net>
+Message-ID: <4A525F8C.5020400@thewybles.com>
+
+3.5 hours and no restoration?
+
+If $BIGTELCOS are going to run everything through one physical path, 
+then they had better be able to roll techs to a break point really fast.
+
+Get a police escort, ride a bicycle, something.
+
+So they rerouted PSAP traffic, but not internet service.... fascinating. 
+  Now I want to know how they have things setup.
+
+I used to live in Oxnard, and Verizon is the last mile dial tone 
+provider out there. Cell reception was very bad, so I got a land line so 
+the NOC could get a hold of me. We had a Verizon fiber feed to our office.
+
+Wasn't aware that ATT and Sprint had a presence out there. Or is it 
+reselling Verizon loops?
+
+Something something redundant paths, something something we don't care 
+about anything except maximizing profit margins.
+
+Bah.
+
+
+
+William Kern wrote:
+> We lost our ATT circuit at  10 am.  still down.
+> 
+> They claim 'Transport Issues'
+> 
+> Clients are claiming that their ATT and Sprint T1's are down.
+> 
+> Our Sprint circuit is doing fine.
+> 
+> -bill
+> PixelGate Networks
+> (Thousand Oaks)
+> 
+> 
+> 
+> 
+> 
+> Jay Hennigan wrote:
+>> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA 
+>> as well as circuits busy on POTS calls to the area.
+>>
+>> -- 
+>> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+>> Impulse Internet Service  -  http://www.impulse.net/
+>> Your local telephone and internet company - 805 884-6323 - WB6RDV
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+From jmartinez at zero11.com  Mon Jul  6 19:20:36 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Mon, 06 Jul 2009 16:20:36 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A525F8C.5020400@thewybles.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>	<4A524D21.9080206@pixelgate.net>
+	<4A525F8C.5020400@thewybles.com>
+Message-ID: <4A5286C4.10703@zero11.com>
+
+Any updates?
+
+
+
+Charles Wyble wrote:
+> 3.5 hours and no restoration?
+> 
+> If $BIGTELCOS are going to run everything through one physical path,
+> then they had better be able to roll techs to a break point really fast.
+> 
+> Get a police escort, ride a bicycle, something.
+> 
+> So they rerouted PSAP traffic, but not internet service.... fascinating.
+>  Now I want to know how they have things setup.
+> 
+> I used to live in Oxnard, and Verizon is the last mile dial tone
+> provider out there. Cell reception was very bad, so I got a land line so
+> the NOC could get a hold of me. We had a Verizon fiber feed to our office.
+> 
+> Wasn't aware that ATT and Sprint had a presence out there. Or is it
+> reselling Verizon loops?
+> 
+> Something something redundant paths, something something we don't care
+> about anything except maximizing profit margins.
+> 
+> Bah.
+> 
+> 
+> 
+> William Kern wrote:
+>> We lost our ATT circuit at  10 am.  still down.
+>>
+>> They claim 'Transport Issues'
+>>
+>> Clients are claiming that their ATT and Sprint T1's are down.
+>>
+>> Our Sprint circuit is doing fine.
+>>
+>> -bill
+>> PixelGate Networks
+>> (Thousand Oaks)
+>>
+>>
+>>
+>>
+>>
+>> Jay Hennigan wrote:
+>>> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA
+>>> as well as circuits busy on POTS calls to the area.
+>>>
+>>> -- 
+>>> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+>>> Impulse Internet Service  -  http://www.impulse.net/
+>>> Your local telephone and internet company - 805 884-6323 - WB6RDV
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From lists at up-south.com  Mon Jul  6 19:39:47 2009
+From: lists at up-south.com (Chaim Rieger)
+Date: Mon, 06 Jul 2009 16:39:47 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A5286C4.10703@zero11.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>	<4A524D21.9080206@pixelgate.net>	<4A525F8C.5020400@thewybles.com>
+	<4A5286C4.10703@zero11.com>
+Message-ID: <4A528B43.5040100@up-south.com>
+
+John Martinez wrote:
+> Any updates?
+> 
+According to VZW, most if not all customers should be back in business,
+
+will continue repairs till 7 pm (local time)
+
+From wkern at pixelgate.net  Mon Jul  6 19:47:41 2009
+From: wkern at pixelgate.net (William Kern)
+Date: Mon, 06 Jul 2009 16:47:41 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A528B43.5040100@up-south.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>	<4A524D21.9080206@pixelgate.net>	<4A525F8C.5020400@thewybles.com>	<4A5286C4.10703@zero11.com>
+	<4A528B43.5040100@up-south.com>
+Message-ID: <4A528D1D.2050104@pixelgate.net>
+
+Our ATT circuits are now up.
+
+-bill
+
+Chaim Rieger wrote:
+> John Martinez wrote:
+>   
+>> Any updates?
+>>
+>>     
+> According to VZW, most if not all customers should be back in business,
+>
+> will continue repairs till 7 pm (local time)
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>   
+
+
+From jmartinez at zero11.com  Mon Jul  6 19:09:40 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Mon, 06 Jul 2009 16:09:40 -0700
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A525F8C.5020400@thewybles.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>	<4A5234DB.8030705@west.net>	<4A524D21.9080206@pixelgate.net>
+	<4A525F8C.5020400@thewybles.com>
+Message-ID: <4A528434.8040203@zero11.com>
+
+any updates?
+
+Charles Wyble wrote:
+> 3.5 hours and no restoration?
+> 
+> If $BIGTELCOS are going to run everything through one physical path,
+> then they had better be able to roll techs to a break point really fast.
+> 
+> Get a police escort, ride a bicycle, something.
+> 
+> So they rerouted PSAP traffic, but not internet service.... fascinating.
+>  Now I want to know how they have things setup.
+> 
+> I used to live in Oxnard, and Verizon is the last mile dial tone
+> provider out there. Cell reception was very bad, so I got a land line so
+> the NOC could get a hold of me. We had a Verizon fiber feed to our office.
+> 
+> Wasn't aware that ATT and Sprint had a presence out there. Or is it
+> reselling Verizon loops?
+> 
+> Something something redundant paths, something something we don't care
+> about anything except maximizing profit margins.
+> 
+> Bah.
+> 
+> 
+> 
+> William Kern wrote:
+>> We lost our ATT circuit at  10 am.  still down.
+>>
+>> They claim 'Transport Issues'
+>>
+>> Clients are claiming that their ATT and Sprint T1's are down.
+>>
+>> Our Sprint circuit is doing fine.
+>>
+>> -bill
+>> PixelGate Networks
+>> (Thousand Oaks)
+>>
+>>
+>>
+>>
+>>
+>> Jay Hennigan wrote:
+>>> We're seeing several T1s down in Oxnard, Camarillo, Thousand Oaks CA
+>>> as well as circuits busy on POTS calls to the area.
+>>>
+>>> -- 
+>>> Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+>>> Impulse Internet Service  -  http://www.impulse.net/
+>>> Your local telephone and internet company - 805 884-6323 - WB6RDV
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From vaden at texoma.net  Mon Jul  6 21:25:14 2009
+From: vaden at texoma.net (Larry Vaden)
+Date: Mon, 6 Jul 2009 20:25:14 -0500
+Subject: [outages] Verizon Southern California issues?
+In-Reply-To: <4A528434.8040203@zero11.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>
+	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>
+	<d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+	<4A5234DB.8030705@west.net> <4A524D21.9080206@pixelgate.net>
+	<4A525F8C.5020400@thewybles.com> <4A528434.8040203@zero11.com>
+Message-ID: <c41c77a90907061825u24447120yf292e5a69b2af55b@mail.gmail.com>
+
+On Mon, Jul 6, 2009 at 6:09 PM, John Martinez<jmartinez at zero11.com> wrote:
+> any updates?
+
+<N.B.>
+
+If the reader thinks of this as a breach of netiquette, please hit delete _now_.
+
+VERIZON CONFIDENTIAL
+                       FLASH SUMMARY
+</N.B.>
+
+=====
+
+VERIZON CONFIDENTIAL
+                       FLASH SUMMARY
+
+FLASH NUMBER            2009070600119
+ORGANIZATION            NSMC
+SEVERITY LEVEL          CATA
+CRITERIA                HSI - HSI outage impacting 2500 or more customers
+IMPACT                  LOSS OF DATA AND/OR CONNECTIVITY
+NETWORK                 HSI
+SUBNETWORK              ROUTER
+SPECIAL SERVICES
+STATE                   CA
+CITY                    THOUSAND OAKS
+COUNTRY                 USA
+
+OUTAGE START DATE       07-06-2009
+OUTAGE START TIME       17:10:00 GMT
+OUTAGE END DATE         07-06-2009
+OUTAGE END TIME         22:26:00 GMT
+DURATION                5:16:00
+
+EQUIPMENT               N/A
+
+CAUSE OF OUTAGE         FIBER/CABLE OUTAGE - OUTSIDE
+CORRECTIVE ACTION       Fiber spliced.
+
+TICKET SOURCE           WHITEBOARD
+TICKET NUMBER           92475
+LEC/OCC TICKET
+PVC/CKT Affected
+
+
+WEBSITE                 oasis.vzbi.com
+
+COMMENTS
+07-06-2009 18:34 GMT
+Thousand Oaks, CA - HSI - Informational Bridge: (517) 477-3482 pc
+865-5190.  NSMC reports 3500 HSI customers are down.  There is a fiber
+cut located 1.3 miles outside of the Camarillo Central Office on
+Dawson Drive.  Approximately 1000 feet of fiber has been damaged.
+There is no estimated time of restoral. Number of Trouble Tickets =
+107 -----------
+07-06-2009 19:45 GMT
+NSMC reports that there are 252 attached tickets.  Construction is
+currently prepping the fiber with an ETA of new fiber onsite at 1:23
+PM PT.
+07-06-2009 21:24 GMT
+NSMC reports that there are 345 attached tickets.  All fiber is onsite
+and pulled through duct, splicing commencing in approximately 5
+minutes.
+07-06-2009 22:49 GMT
+NSMC reports construction spliced the fiber.  HSI service restored.
+406 Attached tickets.
+
+From jmartinez at zero11.com  Tue Jul  7 21:05:38 2009
+From: jmartinez at zero11.com (John Martinez)
+Date: Tue, 07 Jul 2009 18:05:38 -0700
+Subject: [outages] adobe having issues
+Message-ID: <4A53F0E2.4060505@zero11.com>
+
+It seems that the adobe site is loading slow.
+Some of our clients are complaining about the shockwave plugin not loading.
+Anyone else experiencing this?
+
+From Keegan.Holley at sungard.com  Tue Jul  7 21:37:47 2009
+From: Keegan.Holley at sungard.com (Keegan.Holley at sungard.com)
+Date: Tue, 7 Jul 2009 21:37:47 -0400
+Subject: [outages] adobe having issues
+In-Reply-To: <4A53F0E2.4060505@zero11.com>
+References: <4A53F0E2.4060505@zero11.com>
+Message-ID: <OF609F9CD2.88A2ADEC-ON852575ED.0008A4A6-852575ED.0008F3A5@sungard.com>
+
+It's a little slow for me.  DNS pointed me to somewhere in Ireland even 
+though I'm on the east coast of the US that may have something to do with 
+it.  The second time I tried I was sent to California and the latency was 
+above 500ms with tcptraceroute.
+
+
+
+
+From:
+John Martinez <jmartinez at zero11.com>
+To:
+"outages at outages.org" <outages at outages.org>
+Date:
+07/07/2009 09:10 PM
+Subject:
+[outages] adobe having issues
+Sent by:
+outages-bounces at outages.org
+
+
+
+It seems that the adobe site is loading slow.
+Some of our clients are complaining about the shockwave plugin not 
+loading.
+Anyone else experiencing this?
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090707/8e6150cc/attachment.html>
+
+From su1droot at gmail.com  Wed Jul  8 11:13:54 2009
+From: su1droot at gmail.com (Ben Mason)
+Date: Wed, 8 Jul 2009 11:13:54 -0400
+Subject: [outages] Verizon DSL issues
+Message-ID: <f83dffc80907080813x7c5eb3dekd924c1f431d16f6b@mail.gmail.com>
+
+Hello All,
+It appears that Verizon DSL is having some possible routing issues.
+We are showing them reachable from a Bright house connection but not
+reachable from AT&T (SBC) connections.  We have limited details from
+Verizon but they have acknowledged there is some sort of outage.
+
+-- 
+--
+Ben
+email: locutus at the-collective.net
+web: http://locutus.the-collective.net/
+irc: su1droot; aim: su1droot; y!: su1droot
+
+From jjackson at aninetworks.net  Thu Jul  9 15:30:37 2009
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Thu, 9 Jul 2009 12:30:37 -0700
+Subject: [outages] Global Crossing voice outages
+Message-ID: <695277448C537A469D28FF68D0938C83711A5DF459@EXMBX04.exchhosting.com>
+
+Looks From: Chris Crites 
+Sent: Thursday, July 09, 2009 12:23 PM
+To: 'outages-announce at outages.org'
+Subject: Global Crossing routing issue affecting 1+ 
+
+It looks like Global Crossing is having a nationwide outage affecting 1+ origination PIC service. Users are getting "NO ROUTES FOUND" recording. Not sure if this is affecting 800 origination or LD.
+
+Chris Crites
+
+
+
+
+
+From dante at baltigroup.com  Fri Jul 10 01:15:18 2009
+From: dante at baltigroup.com (Dante Lanznaster)
+Date: Thu, 9 Jul 2009 22:15:18 -0700
+Subject: [outages] COX T-1 outage in San Diego
+Message-ID: <692B540377107B438B939E9651EF70061DD8C8@main.BaltiGroup.local>
+
+2 of our customers have been out of the air for 1h already (as of
+10:15pm PDT), they're working on it, seems like a backbone problem.
+
+ 
+
+Best regards,
+
+ 
+
+Dante Lanznaster
+
+Balti Group Consulting
+
+(858) 704-3737
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090709/212a8098/attachment.html>
+
+From adamkuj at gmail.com  Sun Jul 12 11:37:37 2009
+From: adamkuj at gmail.com (Adam Kujawski)
+Date: Sun, 12 Jul 2009 10:37:37 -0500
+Subject: [outages] Cogent - Dallas
+Message-ID: <79c6e3020907120837g67a5325bsbd0c7e3be8fc86ca@mail.gmail.com>
+
+Cogent has confirmed an IP routing issue in Dallas Sunday morning.
+Impact started at 8:45AM CDT if not earlier. They did not provide me
+with a master ticket number.
+
+From hescominsoon at emmanuelcomputerconsulting.com  Sun Jul 12 14:25:30 2009
+From: hescominsoon at emmanuelcomputerconsulting.com (William Warren)
+Date: Sun, 12 Jul 2009 14:25:30 -0400
+Subject: [outages] Cogent - Dallas
+In-Reply-To: <79c6e3020907120837g67a5325bsbd0c7e3be8fc86ca@mail.gmail.com>
+References: <79c6e3020907120837g67a5325bsbd0c7e3be8fc86ca@mail.gmail.com>
+Message-ID: <4A5A2A9A.1050105@emmanuelcomputerconsulting.com>
+
+Adam Kujawski wrote:
+> Cogent has confirmed an IP routing issue in Dallas Sunday morning.
+> Impact started at 8:45AM CDT if not earlier. They did not provide me
+> with a master ticket number.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>   
+NA736-17 saw something similar about this on nanog.
+
+From raistlin at tacorp.net  Sun Jul 12 23:15:48 2009
+From: raistlin at tacorp.net (Jason Slagle)
+Date: Sun, 12 Jul 2009 23:15:48 -0400 (EDT)
+Subject: [outages] E911 outage - Perrysburg, OH - 41987[24]
+Message-ID: <20090712231505.G59972@mail.tacorp.net>
+
+Just received an automated call from the city of perrysburg that they are 
+experiencing an E911 outage.
+
+
+
+-- 
+Jason Slagle - RHCE
+/"\ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+\ /   ASCII Ribbon Campaign  .
+  X  - NO HTML/RTF in e-mail  .
+/ \ - NO Word docs in e-mail .
+
+
+From jjackson at aninetworks.net  Tue Jul 14 15:26:34 2009
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Tue, 14 Jul 2009 12:26:34 -0700
+Subject: [outages] ICQ outage
+Message-ID: <695277448C537A469D28FF68D0938C83711AB6BEC3@EXMBX04.exchhosting.com>
+
+Anyone seeing problems connecting to ICQ?
+
+
+Thanks
+
+
+
+From mhuff at ox.com  Tue Jul 14 16:37:28 2009
+From: mhuff at ox.com (Matthew Huff)
+Date: Tue, 14 Jul 2009 16:37:28 -0400
+Subject: [outages] Yipes/Reliance Globalcom outage in CA
+Message-ID: <483E6B0272B0284BA86D7596C40D29F9D122127F2C@PUR-EXCH07.ox.com>
+
+About 15 minutes ago we took a major hit on our WAN connection from NY to CA
+over our Reliance Globalcom connection. It's flapped a number of times
+since. Their NOC has said that it's a major outage in California over Yipe's
+Level3 lines. The master ticket number is #92951. There is not ETR yet.
+		
+
+----
+Matthew Huff?????? | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+http://www.ox.com  | Phone: 914-460-4039
+aim: matthewbhuff? | Fax:?? 914-460-4139
+
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Matthew Huff.vcf
+Type: application/octet-stream
+Size: 1595 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090714/3edbede0/attachment.obj>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 4229 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090714/3edbede0/attachment.bin>
+
+From patrick at ianai.net  Tue Jul 14 18:04:42 2009
+From: patrick at ianai.net (Patrick W. Gilmore)
+Date: Tue, 14 Jul 2009 18:04:42 -0400
+Subject: [outages] ICQ outage
+In-Reply-To: <695277448C537A469D28FF68D0938C83711AB6BEC3@EXMBX04.exchhosting.com>
+References: <695277448C537A469D28FF68D0938C83711AB6BEC3@EXMBX04.exchhosting.com>
+Message-ID: <D79B5E14-7DBA-4B7C-95CE-515688761330@ianai.net>
+
+On Jul 14, 2009, at 3:26 PM, Joseph Jackson wrote:
+
+> Anyone seeing problems connecting to ICQ?
+
+Not from Boston behind as701.
+
+-- 
+TTFN,
+patrick
+
+
+From ryan at u13.net  Sat Jul 25 00:36:40 2009
+From: ryan at u13.net (Ryan Rawdon)
+Date: Sat, 25 Jul 2009 00:36:40 -0400
+Subject: [outages] Verizon Wireless outage (Troy/Albany, NY)
+Message-ID: <4A6A8BD8.4010405@u13.net>
+
+We seem to have just lost all Verizon Wireless (voice and EVDO data) 
+coverage in the Troy/Albany, NY area.  Any information/further reports?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090725/80c53795/attachment.html>
+
+From franck at avonsys.com  Tue Jul 28 04:34:30 2009
+From: franck at avonsys.com (Franck Martin)
+Date: Tue, 28 Jul 2009 20:34:30 +1200 (FJT)
+Subject: [outages] XO outages in San Jose
+Message-ID: <1434952.7191248770066298.JavaMail.franck@franck-martins-macbook-pro.local>
+
+Does anyone have any issues with XO around San Jose? 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090728/28007bb5/attachment.html>
+
+From outages at jdc.parodius.com  Tue Jul 28 07:00:24 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Tue, 28 Jul 2009 04:00:24 -0700
+Subject: [outages] XO outages in San Jose
+In-Reply-To: <1434952.7191248770066298.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <1434952.7191248770066298.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <20090728110024.GA56813@icarus.home.lan>
+
+We have multiple XO gigE circuits running out of Sunnyvale (through San
+Jose I believe) which *are not* seeing any problems, nor at the time of
+your mail.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Tue, Jul 28, 2009 at 08:34:30PM +1200, Franck Martin wrote:
+> Does anyone have any issues with XO around San Jose? 
+
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From franck at avonsys.com  Tue Jul 28 08:43:31 2009
+From: franck at avonsys.com (Franck Martin)
+Date: Wed, 29 Jul 2009 00:43:31 +1200 (FJT)
+Subject: [outages] XO outages in San Jose
+In-Reply-To: <20090728110024.GA56813@icarus.home.lan>
+Message-ID: <9850820.7261248785004570.JavaMail.franck@franck-martins-macbook-pro.local>
+
+I think there was some power outage in San Mateo that may have affected some customer end equipment.
+
+----- Original Message -----
+From: "Jeremy Chadwick" <outages at jdc.parodius.com>
+To: "Franck Martin" <franck at avonsys.com>
+Cc: outages at puck.nether.net
+Sent: Tuesday, 28 July, 2009 11:00:24 PM GMT +12:00 Fiji
+Subject: Re: [outages] XO outages in San Jose
+
+We have multiple XO gigE circuits running out of Sunnyvale (through San
+Jose I believe) which *are not* seeing any problems, nor at the time of
+your mail.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Tue, Jul 28, 2009 at 08:34:30PM +1200, Franck Martin wrote:
+> Does anyone have any issues with XO around San Jose? 
+
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From virendra.rode at gmail.com  Tue Jul 28 16:42:29 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Tue, 28 Jul 2009 13:42:29 -0700
+Subject: [outages] [ADMIN] Outages header.
+Message-ID: <889fd8b20907281342r6f6e1439o2044b2b1fbd2a33f@mail.gmail.com>
+
+Hi,
+
+When posting message(s), please use @outages.org domain in doing use.
+
+That's all.
+
+
+regards,
+/virendra
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090728/eede89d5/attachment.html>
+
+From braaen at zcorum.com  Wed Jul 29 07:19:49 2009
+From: braaen at zcorum.com (braaen at zcorum.com)
+Date: Wed, 29 Jul 2009 07:19:49 -0400
+Subject: [outages] NAC.net unreachable
+Message-ID: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+
+I am unable to reach nac.net from where I am located.  It has been  
+unreachable for the past 5-10 mins.
+
+
+From braaen at zcorum.com  Wed Jul 29 08:49:27 2009
+From: braaen at zcorum.com (Brian Raaen)
+Date: Wed, 29 Jul 2009 08:49:27 -0400
+Subject: [outages] NAC.net unreachable
+In-Reply-To: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+References: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+Message-ID: <4A704557.9060202@zcorum.com>
+
+They are back up.
+
+They were down for about 30 minutes starting around 7:11 am EST and
+ending about 7:39 am EST.  I checked on
+http://downforeveryoneorjustme.com and showed it down.  Main reason I
+know was my ssh session went dead on me to a server I manage.
+
+braaen at zcorum.com wrote:
+> I am unable to reach nac.net from where I am located.  It has been
+> unreachable for the past 5-10 mins.
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: braaen.vcf
+Type: text/x-vcard
+Size: 206 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090729/31ff09b0/attachment.vcf>
+
+From pstewart at nexicomgroup.net  Wed Jul 29 08:45:22 2009
+From: pstewart at nexicomgroup.net (Paul Stewart)
+Date: Wed, 29 Jul 2009 08:45:22 -0400
+Subject: [outages] NAC.net unreachable
+In-Reply-To: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+References: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+Message-ID: <C0A98BB6DAFAAB46A78BBA2C51B98F3E47D731@nexus.nexicomgroup.net>
+
+Loads fine here but directly peered...
+
+Can you post any details such as where you are located, how you are
+connected and whether you are trying to access their actual website or
+another site there?
+
+www.dslreports.com is a site hosted there that's very popular .. can you
+get to it?
+
+Paul
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of braaen at zcorum.com
+Sent: Wednesday, July 29, 2009 7:20 AM
+To: outages at puck.nether.net
+Subject: [outages] NAC.net unreachable
+
+I am unable to reach nac.net from where I am located.  It has been  
+unreachable for the past 5-10 mins.
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From mikehoffman at odysseylogistics.com  Wed Jul 29 08:56:05 2009
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Wed, 29 Jul 2009 08:56:05 -0400
+Subject: [outages] NAC.net unreachable
+In-Reply-To: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+References: <20090729071949.x6obr8mcl9a8w0wo@webmail.zcorum.com>
+Message-ID: <36E0EB159193B54A90D743B0F8DB1ED00B488506C7@p10-exchg.odysseylogistics.com>
+
+>From a Qwest T1 in Danbury, Connecticut, I can reach dslreports.com, which is housed on nac.net.  In addition, I can also reach www.nac.net.
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+?
+CONFIDENTIALITY NOTICE: 
+This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of braaen at zcorum.com
+Sent: Wednesday, July 29, 2009 7:20 AM
+To: outages at puck.nether.net
+Subject: [outages] NAC.net unreachable
+
+I am unable to reach nac.net from where I am located.  It has been  
+unreachable for the past 5-10 mins.
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From mylists at battleop.com  Thu Jul 30 10:10:47 2009
+From: mylists at battleop.com (Richey)
+Date: Thu, 30 Jul 2009 10:10:47 -0400
+Subject: [outages] Centurytel CLEC outtage
+Message-ID: <042101ca111f$890decd0$9b29c670$@com>
+
+Does anyone know anything about a CLEC wide outage for Centurytel solutions?
+We took a 20 minute hit on a circuit a few minutes ago and all they could
+tell us is that it was a "CLEC wide" outage.
+
+ 
+
+ 
+
+Richey
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090730/6172499e/attachment.html>
+
+From cmadams at hiwaay.net  Thu Jul 30 14:17:25 2009
+From: cmadams at hiwaay.net (Chris Adams)
+Date: Thu, 30 Jul 2009 13:17:25 -0500
+Subject: [outages] Centurytel CLEC outtage
+In-Reply-To: <042101ca111f$890decd0$9b29c670$@com>
+References: <042101ca111f$890decd0$9b29c670$@com>
+Message-ID: <20090730181725.GD1155692@hiwaay.net>
+
+Once upon a time, Richey <mylists at battleop.com> said:
+> Does anyone know anything about a CLEC wide outage for Centurytel solutions?
+> We took a 20 minute hit on a circuit a few minutes ago and all they could
+> tell us is that it was a "CLEC wide" outage.
+
+Not sure where you are or which part of CenturyTel you are dealing with,
+but we didn't see anything in Alabama (Huntsville and Montgomery dealing
+with old KMC CLEC or Scottsboro dealing with old GE ILEC).
+-- 
+Chris Adams <cmadams at hiwaay.net>
+Systems and Network Administrator - HiWAAY Internet Services
+I don't speak for anybody but myself - that's enough trouble.
+

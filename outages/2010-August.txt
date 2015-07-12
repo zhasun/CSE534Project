@@ -1,0 +1,2207 @@
+From frnkblk at iname.com  Wed Aug  4 13:24:16 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Wed, 4 Aug 2010 12:24:16 -0500
+Subject: [outages] Fiber cut in northeast Minnesota on Tuesday, August 3
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACjq698UvOhSov/UmT5qv7RAQAAAAA=@iname.com>
+
+http://minnesota.publicradio.org/display/web/2010/08/03/st-louis-county-fibe
+r-optic-line-cut/ 
+
+Frank
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100804/da7c2a0a/attachment.html>
+
+From josh at imaginenetworksllc.com  Wed Aug  4 15:00:12 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 4 Aug 2010 15:00:12 -0400
+Subject: [outages] Fiber cut in northeast Minnesota on Tuesday, August 3
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACjq698UvOhSov/UmT5qv7RAQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACjq698UvOhSov/UmT5qv7RAQAAAAA=@iname.com>
+Message-ID: <AANLkTinz-kBDr=_S4iXfh7qOewEuLZZ=yGy9b_+8V3Oj@mail.gmail.com>
+
+Pretty sure this should be over with as it states "might be
+interrupted  between now and about 9 p.m. Tuesday night, when repairs
+are expected to be complete."
+
+Article was published yesterday, August 3.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Wed, Aug 4, 2010 at 1:24 PM, Frank Bulk - iName.com
+<frnkblk at iname.com> wrote:
+> http://minnesota.publicradio.org/display/web/2010/08/03/st-louis-county-fiber-optic-line-cut/
+>
+> Frank
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+From jof at thejof.com  Wed Aug  4 16:36:58 2010
+From: jof at thejof.com (Jonathan Lassoff)
+Date: Wed, 4 Aug 2010 13:36:58 -0700
+Subject: [outages] Fiber cut in northeast Minnesota on Tuesday, August 3
+In-Reply-To: <AANLkTinz-kBDr=_S4iXfh7qOewEuLZZ=yGy9b_+8V3Oj@mail.gmail.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACjq698UvOhSov/UmT5qv7RAQAAAAA=@iname.com>
+	<AANLkTinz-kBDr=_S4iXfh7qOewEuLZZ=yGy9b_+8V3Oj@mail.gmail.com>
+Message-ID: <AANLkTinu__ZC7UJ6gBs9z_9M+RBtzGeh43XHXOzwLsOy@mail.gmail.com>
+
+I'm not sure if this is related or not, but I was definitely seeing
+loss from SFO <-> STL over St. Louis this morning (~8am - 11am PDT),
+and various folks were reporting issues with Level3.
+
+I've seen similar Level3 failures in the past, and they all seem to
+exhibit the same behavior:
+ - Traffic to x.x.x.1 is fine
+ - Traffic to x.x.x.2 is fine
+ - Traffic to x.x.x.3 shows 100% loss
+ - Traffic to x.x.x.4 is fine
+
+It's as if there's a link aggregation that's hashing by IP, and one
+one of the links stops forwarding, but doesn't go down.
+Just a wild guess.
+
+From jof at thejof.com  Wed Aug  4 17:23:39 2010
+From: jof at thejof.com (Jonathan Lassoff)
+Date: Wed, 4 Aug 2010 14:23:39 -0700
+Subject: [outages] Fiber cut in northeast Minnesota on Tuesday, August 3
+In-Reply-To: <AANLkTinu__ZC7UJ6gBs9z_9M+RBtzGeh43XHXOzwLsOy@mail.gmail.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACjq698UvOhSov/UmT5qv7RAQAAAAA=@iname.com>
+	<AANLkTinz-kBDr=_S4iXfh7qOewEuLZZ=yGy9b_+8V3Oj@mail.gmail.com>
+	<AANLkTinu__ZC7UJ6gBs9z_9M+RBtzGeh43XHXOzwLsOy@mail.gmail.com>
+Message-ID: <AANLkTik=1OsFQMrAuwStZ8XABQXb-6xyDRZSRmBR47Aa@mail.gmail.com>
+
+On Wed, Aug 4, 2010 at 1:36 PM, Jonathan Lassoff <jof at thejof.com> wrote:
+> I'm not sure if this is related or not, but I was definitely seeing
+> loss from SFO <-> STL over St. Louis this morning (~8am - 11am PDT),
+> and various folks were reporting issues with Level3.
+
+I found out off-list that this fiber cut and the Level3 outage this
+morning are not related.
+
+Cheers,
+jof
+
+From frnkblk at iname.com  Thu Aug  5 07:22:26 2010
+From: frnkblk at iname.com (Frank Bulk)
+Date: Thu, 5 Aug 2010 06:22:26 -0500
+Subject: [outages] Fiber cut in southeeasthern Arizona
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABQriESe/77QrAL64Fjh8h5AQAAAAA=@iname.com>
+
+http://www.svherald.com/content/news/2010/08/05/telephone-outage-affects-911
+-callers 
+
+Started Wednesday around 10 am local time and appears to have been resolved
+by 2:30 pm.
+
+Frank
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100805/fccac82a/attachment.html>
+
+From jnavitsky at gmail.com  Thu Aug  5 14:44:16 2010
+From: jnavitsky at gmail.com (Jayson Navitsky)
+Date: Thu, 5 Aug 2010 14:44:16 -0400
+Subject: [outages] Reliance Globalcom - NYC
+Message-ID: <AANLkTin9mGX=AKgs=a4M5KLALJQhqvjWbdxmuzxy8dAa@mail.gmail.com>
+
+Looks like there's an outage occurring right now in the NY market,
+we're seeing circuits & BGP sessions down (or flapping.) First saw it
+at approximately 2:04 EDT, on hold with the NOC (good luck getting
+through.)
+
+-Jayson
+
+From caesar at starkreality.com  Fri Aug  6 13:55:25 2010
+From: caesar at starkreality.com (William S. Duncanson)
+Date: Fri, 6 Aug 2010 12:55:25 -0500
+Subject: [outages] Phonoscope (Houston TX) Internet outage
+Message-ID: <001801cb3590$9696d060$c3c47120$@com>
+
+Our Phonoscope Internet connection has been down for approximately an hour,
+although our MAN connection is still up.  I'm guessing that this is a
+citywide problem, as their NOC number has been ring-no-answer every time
+I've tried to call.
+
+-- 
+William S. Duncanson
+caesar at starkreality.com
+
+
+
+From bhicks at ots.utsystem.edu  Fri Aug  6 16:30:36 2010
+From: bhicks at ots.utsystem.edu (Byron L. Hicks)
+Date: Fri, 06 Aug 2010 15:30:36 -0500
+Subject: [outages] Phonoscope (Houston TX) Internet outage
+In-Reply-To: <001801cb3590$9696d060$c3c47120$@com>
+References: <001801cb3590$9696d060$c3c47120$@com>
+Message-ID: <4C5C70EC.7060102@ots.utsystem.edu>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 8/6/2010 12:55 PM, William S. Duncanson wrote:
+> Our Phonoscope Internet connection has been down for approximately an hour,
+> although our MAN connection is still up.  I'm guessing that this is a
+> citywide problem, as their NOC number has been ring-no-answer every time
+> I've tried to call.
+> 
+
+We have a couple of Phonoscope circuits in the city of Houston, but none
+are down right now.  A call to 713-272-4600 (Phonoscope NOC) goes right
+through.  Are you still seeing an outage?
+
+- -- 
+Byron L. Hicks
+Office of Telecommunication Services
+The University of Texas System
+tel: 512-377-9857
+aim/skype: byronhicks
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (MingW32)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkxccOwACgkQ4V/igxvposZzkACeNqTXmbuy+lqzu2f/IwiRkJmd
+I5wAniufHgOVOAaRIr2DiwCebiOXkAgc
+=iOWo
+-----END PGP SIGNATURE-----
+
+From VKane at velocityfutures.com  Fri Aug  6 16:09:40 2010
+From: VKane at velocityfutures.com (Kane, Victor)
+Date: Fri, 6 Aug 2010 15:09:40 -0500
+Subject: [outages] FW:  Phonoscope (Houston TX) Internet outage
+Message-ID: <3C58577CA3CA51409C5E25B70E09314402EFE151@vfmail.velocityfutures.com>
+
+They've been down three times today: 11:57am-12:26pm, 12:28pm-12:59pm,
+1:22pm-1:24pm
+Reason they gave me: they lost BGP session(s) to their upstream
+provider(s). 
+Being multihomed gotta do some massive screw up to accomplish that...
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of William S. Duncanson
+Sent: Friday, August 06, 2010 12:55 PM
+To: outages at outages.org
+Subject: [outages] Phonoscope (Houston TX) Internet outage
+
+Our Phonoscope Internet connection has been down for approximately an
+hour,
+although our MAN connection is still up.  I'm guessing that this is a
+citywide problem, as their NOC number has been ring-no-answer every time
+I've tried to call.
+
+-- 
+William S. Duncanson
+caesar at starkreality.com
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From caesar at starkreality.com  Fri Aug  6 17:00:29 2010
+From: caesar at starkreality.com (William S. Duncanson)
+Date: Fri, 6 Aug 2010 16:00:29 -0500
+Subject: [outages] Phonoscope (Houston TX) Internet outage
+In-Reply-To: <4C5C70EC.7060102@ots.utsystem.edu>
+References: <001801cb3590$9696d060$c3c47120$@com>
+	<4C5C70EC.7060102@ots.utsystem.edu>
+Message-ID: <969B8E2A-40EF-4B57-BD3C-2CEFA900ADB9@starkreality.com>
+
+Nope, it came back up around 1315 CDT. Our MAN connections to our other offices never went down, but our BGP session for our Internet connection went down at 1159, came back at 1227, went down again at 1231, and finally appears to be back for good as of 1313.
+
+I don't think the circuit ever went down as I believe our Internet and MAN connections are carried over the same 10gig fiber.
+-- 
+William S. Duncanson
+caesar at starkreality.com
+
+
+On Aug 6, 2010, at 15:33, "Byron L. Hicks" <bhicks at ots.utsystem.edu> wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> On 8/6/2010 12:55 PM, William S. Duncanson wrote:
+>> Our Phonoscope Internet connection has been down for approximately an hour,
+>> although our MAN connection is still up.  I'm guessing that this is a
+>> citywide problem, as their NOC number has been ring-no-answer every time
+>> I've tried to call.
+>> 
+> 
+> We have a couple of Phonoscope circuits in the city of Houston, but none
+> are down right now.  A call to 713-272-4600 (Phonoscope NOC) goes right
+> through.  Are you still seeing an outage?
+> 
+> - -- 
+> Byron L. Hicks
+> Office of Telecommunication Services
+> The University of Texas System
+> tel: 512-377-9857
+> aim/skype: byronhicks
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2.0.14 (MingW32)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+> 
+> iEYEARECAAYFAkxccOwACgkQ4V/igxvposZzkACeNqTXmbuy+lqzu2f/IwiRkJmd
+> I5wAniufHgOVOAaRIr2DiwCebiOXkAgc
+> =iOWo
+> -----END PGP SIGNATURE-----
+
+
+From frnkblk at iname.com  Sat Aug  7 12:03:33 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Sat, 7 Aug 2010 11:03:33 -0500
+Subject: [outages] Time Warner Cable out in LA area on Thursday
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAD6g1n0dXTZSaBkhOAKlqLOAQAAAAA=@iname.com>
+
+http://newsblaze.com/story/20100806083510ente.nb/topstory.html 
+
+Sounds like it was out on Thursday from 11 am to 11 pm or so.
+
+Frank
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100807/99a8a614/attachment.html>
+
+From frnkblk at iname.com  Sat Aug  7 12:01:48 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Sat, 7 Aug 2010 11:01:48 -0500
+Subject: [outages] Restoration Underway For Bahamas Telephone Company
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACTWc8NTvhCQKBxsX2gFNFiAQAAAAA=@iname.com>
+
+http://www.eleutheranews.com/local/975.html 
+
+Significant outage on Friday for the people in the Bahamas.
+
+Frank
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100807/4e8fb93b/attachment.html>
+
+From JBayer at springcm.com  Wed Aug 11 10:35:29 2010
+From: JBayer at springcm.com (Bayer, Jim)
+Date: Wed, 11 Aug 2010 09:35:29 -0500
+Subject: [outages] XO MPLS blip??
+Message-ID: <8FDB64952D1E304AA0792EBC26B14C6E07EEC0193B@b5q2r001.office.CM.NET>
+
+Did anyone feel a blip in their XO MPLS service at about 09:25 CDT today???
+
+Jim Bayer
+Director, Operations Center
+350 North Orleans Street, Suite 900, Chicago, IL 60654
+Vox: 312-881-2034 | Em: mailto:jbayer at springcm.com
+
+[cid:image001.gif at 01CB3938.89029230]        [cid:image002.jpg at 01CB3938.89029230]
+                                                                            On-Demand Document Management and Workflow
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100811/73a28d1b/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 2973 bytes
+Desc: image001.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100811/73a28d1b/attachment.gif>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.jpg
+Type: image/jpeg
+Size: 1737 bytes
+Desc: image002.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100811/73a28d1b/attachment.jpg>
+
+From wrodriguez at bbnllc.com  Wed Aug 11 11:36:55 2010
+From: wrodriguez at bbnllc.com (William Rodriguez)
+Date: Wed, 11 Aug 2010 11:36:55 -0400
+Subject: [outages] XO MPLS blip??
+In-Reply-To: <8FDB64952D1E304AA0792EBC26B14C6E07EEC0193B@b5q2r001.office.CM.NET>
+References: <8FDB64952D1E304AA0792EBC26B14C6E07EEC0193B@b5q2r001.office.CM.NET>
+Message-ID: <D66787F4-969E-4DCA-8A80-20FC8A9CCED5@bbnllc.com>
+
+XO had a maintenance window from 11:00 PM last night to 6:00 AM this morning, EDST. The blip could have been related to the maintenance. Maybe their maintenance window was extended.
+
+
+-----
+Thanks,
+
+William Rodriguez
+Senior Network Administrator
+Direct: 216.367.7585
+Fax: 216.621.2584
+
+BlueBridge Networks, LLC
+www.bluebridgenetworks.com
+High Availability, Reliability, Security
+
+For technical support please e-mail support at bbnllc.com, or call 216.367.7576
+
+
+
+
+
+
+On Aug 11, 2010, at 10:35 AM, Bayer, Jim wrote:
+
+> Did anyone feel a blip in their XO MPLS service at about 09:25 CDT today???
+>  
+> Jim Bayer
+> Director, Operations Center
+> 350 North Orleans Street, Suite 900, Chicago, IL 60654
+> Vox: 312-881-2034 | Em: mailto:jbayer at springcm.com
+>  
+> <image001.gif>        <image002.jpg>
+>                                                                             On-Demand Document Management and Workflow  
+>  
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100811/4f91b033/attachment.html>
+
+From drew.linsalata at gmail.com  Thu Aug 12 12:05:44 2010
+From: drew.linsalata at gmail.com (Drew Linsalata)
+Date: Thu, 12 Aug 2010 12:05:44 -0400
+Subject: [outages] AT&T Email to SMS appears down
+Message-ID: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+
+It appears that email to xxxxxxxxxx at txt.att.net is not being delivered  
+at the moment.  We've tested with a bunch of AT&T phones.  Is anyone  
+else seeing this issue?
+
+
+
+From jtrooney at nexdlevel.com  Thu Aug 12 12:25:20 2010
+From: jtrooney at nexdlevel.com (Jeff Rooney)
+Date: Thu, 12 Aug 2010 11:25:20 -0500
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+Message-ID: <AANLkTi=geXxAkQwo3CLeFsT14UZzM4COK+D7bVWqFMqh@mail.gmail.com>
+
+Yep seeing the same here.
+
+Jeff Rooney
+jtrooney at nexdlevel.com
+
+
+
+On Thu, Aug 12, 2010 at 11:05 AM, Drew Linsalata
+<drew.linsalata at gmail.com> wrote:
+> It appears that email to xxxxxxxxxx at txt.att.net is not being delivered at
+> the moment. ?We've tested with a bunch of AT&T phones. ?Is anyone else
+> seeing this issue?
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From David_Hiers at adp.com  Thu Aug 12 12:46:25 2010
+From: David_Hiers at adp.com (Hiers, David)
+Date: Thu, 12 Aug 2010 11:46:25 -0500
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <AANLkTi=geXxAkQwo3CLeFsT14UZzM4COK+D7bVWqFMqh@mail.gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+	<AANLkTi=geXxAkQwo3CLeFsT14UZzM4COK+D7bVWqFMqh@mail.gmail.com>
+Message-ID: <81CDFC77FB2DC54DB875D4F8FFC36CE00F17E902A9@DSMAIL2HE.ds.ad.adp.com>
+
+Yep, sms is up, smtp2sms is down.
+
+
+David Hiers
+
+CCIE (R/S, V), CISSP
+ADP Dealer Services
+2525 SW 1st Ave.
+Suite 300W
+Portland, OR 97201
+o: 503-205-4467
+f: 503-402-3277
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jeff Rooney
+Sent: Thursday, August 12, 2010 9:25 AM
+To: Drew Linsalata
+Cc: outages at outages.org
+Subject: Re: [outages] AT&T Email to SMS appears down
+
+Yep seeing the same here.
+
+Jeff Rooney
+jtrooney at nexdlevel.com
+
+
+
+On Thu, Aug 12, 2010 at 11:05 AM, Drew Linsalata
+<drew.linsalata at gmail.com> wrote:
+> It appears that email to xxxxxxxxxx at txt.att.net is not being delivered at
+> the moment. ?We've tested with a bunch of AT&T phones. ?Is anyone else
+> seeing this issue?
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+
+
+From mob at bartzfamily.net  Thu Aug 12 12:22:40 2010
+From: mob at bartzfamily.net (Mike Bartz)
+Date: Thu, 12 Aug 2010 12:22:40 -0400
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+Message-ID: <AANLkTik6WmX6N59ud1Bz_PkjU+VPcHPj63C9yQC3VD14@mail.gmail.com>
+
+Indeed.  I have just sent an e-mail to my phone on nnnnnnnnnn at txt.att.net as
+well as nnnnnnnnnn at mobile.mycingular.com, and neither have gotten through
+yet.  Both mail servers listed for those e-mail addresses answer on port 25,
+but what's behind that looks to be broken.
+
+Mike
+
+On Thu, Aug 12, 2010 at 12:05 PM, Drew Linsalata
+<drew.linsalata at gmail.com>wrote:
+
+> It appears that email to xxxxxxxxxx at txt.att.net is not being delivered at
+> the moment.  We've tested with a bunch of AT&T phones.  Is anyone else
+> seeing this issue?
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+
+-- 
+Mike Bartz
+mob at bartzfamily.net
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100812/84b09bde/attachment.html>
+
+From nick at brevardwireless.com  Thu Aug 12 12:19:05 2010
+From: nick at brevardwireless.com (Nick Olsen)
+Date: Thu, 12 Aug 2010 12:19:05 -0400
+Subject: [outages] AT&T Email to SMS appears down
+Message-ID: <5ada528$2530d311$10920001$@com>
+
+Looks like your right, I'm not getting the one I sent about 5 minutes ago.
+
+Nick Olsen
+Network Operations
+(321) 205-1100 x106
+
+----------------------------------------
+
+From: "Drew Linsalata" <drew.linsalata at gmail.com>
+Sent: Thursday, August 12, 2010 12:15 PM
+To: outages at outages.org
+Subject: [outages] AT&T Email to SMS appears down
+
+It appears that email to xxxxxxxxxx at txt.att.net is not being delivered  
+at the moment.  We've tested with a bunch of AT&T phones.  Is anyone  
+else seeing this issue?
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100812/3399fd0c/attachment.html>
+
+From mob at bartzfamily.net  Thu Aug 12 13:52:48 2010
+From: mob at bartzfamily.net (Mike Bartz)
+Date: Thu, 12 Aug 2010 13:52:48 -0400
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <AANLkTik6WmX6N59ud1Bz_PkjU+VPcHPj63C9yQC3VD14@mail.gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+	<AANLkTik6WmX6N59ud1Bz_PkjU+VPcHPj63C9yQC3VD14@mail.gmail.com>
+Message-ID: <AANLkTi=vxwQJzhJCGyUXxS_TfZN2UUrqTb50tupFVbUK@mail.gmail.com>
+
+Looks like our tests are getting through now, however earlier tests went to
+a black hole.
+
+On Thu, Aug 12, 2010 at 12:22 PM, Mike Bartz <mob at bartzfamily.net> wrote:
+
+> Indeed.  I have just sent an e-mail to my phone on nnnnnnnnnn at txt.att.netas well as
+> nnnnnnnnnn at mobile.mycingular.com, and neither have gotten through yet.
+> Both mail servers listed for those e-mail addresses answer on port 25, but
+> what's behind that looks to be broken.
+>
+> Mike
+>
+> On Thu, Aug 12, 2010 at 12:05 PM, Drew Linsalata <drew.linsalata at gmail.com
+> > wrote:
+>
+>> It appears that email to xxxxxxxxxx at txt.att.net is not being delivered at
+>> the moment.  We've tested with a bunch of AT&T phones.  Is anyone else
+>> seeing this issue?
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+>
+> --
+> Mike Bartz
+> mob at bartzfamily.net
+>
+
+
+
+-- 
+Mike Bartz
+mob at bartzfamily.net
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100812/e7c41131/attachment.html>
+
+From agto at sprint.blackberry.net  Thu Aug 12 13:55:26 2010
+From: agto at sprint.blackberry.net (Jon Harris)
+Date: Thu, 12 Aug 2010 17:55:26 +0000
+Subject: [outages] AT&T Email to SMS appears down
+Message-ID: <1690629249-1281635732-cardhu_decombobulator_blackberry.rim.net-25107543-@bda447.bisx.prod.on.blackberry>
+
+Same in Middle Georgia.
+I'm suprised people still sms2txt these days.
+
+------Original Message------
+From: Drew Linsalata
+Sender: outages-bounces at outages.org
+To: outages at outages.org
+Subject: [outages] AT&T Email to SMS appears down
+Sent: Aug 12, 2010 12:05
+
+It appears that email to xxxxxxxxxx at txt.att.net is not being delivered
+at the moment.  We've tested with a bunch of AT&T phones.  Is anyone
+else seeing this issue?
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From drew.linsalata at gmail.com  Thu Aug 12 13:59:31 2010
+From: drew.linsalata at gmail.com (Drew Linsalata)
+Date: Thu, 12 Aug 2010 13:59:31 -0400
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <AANLkTi=vxwQJzhJCGyUXxS_TfZN2UUrqTb50tupFVbUK@mail.gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+	<AANLkTik6WmX6N59ud1Bz_PkjU+VPcHPj63C9yQC3VD14@mail.gmail.com>
+	<AANLkTi=vxwQJzhJCGyUXxS_TfZN2UUrqTb50tupFVbUK@mail.gmail.com>
+Message-ID: <D8D1A304-A865-45A2-B0A4-6C169B69E92E@gmail.com>
+
+ From AT&T's wirless forums:
+
+"AT&T (1-800-331-0500) confirms that this is a national outage, and  
+they are working to restore service."
+
+
+
+
+On Aug 12, 2010, at 1:52 PM, Mike Bartz wrote:
+
+> Looks like our tests are getting through now, however earlier tests  
+> went to a black hole.
+>
+> On Thu, Aug 12, 2010 at 12:22 PM, Mike Bartz <mob at bartzfamily.net>  
+> wrote:
+> Indeed.  I have just sent an e-mail to my phone on nnnnnnnnnn at txt.att.net 
+>  as well as nnnnnnnnnn at mobile.mycingular.com, and neither have  
+> gotten through yet.  Both mail servers listed for those e-mail  
+> addresses answer on port 25, but what's behind that looks to be  
+> broken.
+>
+> Mike
+>
+> On Thu, Aug 12, 2010 at 12:05 PM, Drew Linsalata <drew.linsalata at gmail.com 
+> > wrote:
+> It appears that email to xxxxxxxxxx at txt.att.net is not being  
+> delivered at the moment.  We've tested with a bunch of AT&T phones.   
+> Is anyone else seeing this issue?
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+> -- 
+> Mike Bartz
+> mob at bartzfamily.net
+>
+>
+>
+> -- 
+> Mike Bartz
+> mob at bartzfamily.net
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100812/1e16d8e5/attachment-0001.html>
+
+From jtrooney at nexdlevel.com  Thu Aug 12 15:19:33 2010
+From: jtrooney at nexdlevel.com (Jeff Rooney)
+Date: Thu, 12 Aug 2010 14:19:33 -0500
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <D8D1A304-A865-45A2-B0A4-6C169B69E92E@gmail.com>
+References: <70D42473-01BA-4C70-8DE2-903EC6BD4A6E@gmail.com>
+	<AANLkTik6WmX6N59ud1Bz_PkjU+VPcHPj63C9yQC3VD14@mail.gmail.com>
+	<AANLkTi=vxwQJzhJCGyUXxS_TfZN2UUrqTb50tupFVbUK@mail.gmail.com>
+	<D8D1A304-A865-45A2-B0A4-6C169B69E92E@gmail.com>
+Message-ID: <AANLkTinG3auzuBU9hbcqDpHMLVKi19r6ENDMuE8_O0uz@mail.gmail.com>
+
+I have been getting some messages over the past hour or so.
+
+Jeff Rooney
+jtrooney at nexdlevel.com
+
+
+
+On Thu, Aug 12, 2010 at 12:59 PM, Drew Linsalata
+<drew.linsalata at gmail.com> wrote:
+> From AT&T's wirless forums:
+> "AT&T (1-800-331-0500) confirms that this is a national outage, and they are
+> working to restore service."
+>
+>
+>
+> On Aug 12, 2010, at 1:52 PM, Mike Bartz wrote:
+>
+> Looks like our tests are getting through now, however earlier tests went to
+> a black hole.
+>
+> On Thu, Aug 12, 2010 at 12:22 PM, Mike Bartz <mob at bartzfamily.net> wrote:
+>>
+>> Indeed.? I have just sent an e-mail to my phone on nnnnnnnnnn at txt.att.net
+>> as well as nnnnnnnnnn at mobile.mycingular.com, and neither have gotten through
+>> yet.? Both mail servers listed for those e-mail addresses answer on port 25,
+>> but what's behind that looks to be broken.
+>>
+>> Mike
+>>
+>> On Thu, Aug 12, 2010 at 12:05 PM, Drew Linsalata
+>> <drew.linsalata at gmail.com> wrote:
+>>>
+>>> It appears that email to xxxxxxxxxx at txt.att.net is not being delivered at
+>>> the moment. ?We've tested with a bunch of AT&T phones. ?Is anyone else
+>>> seeing this issue?
+>>>
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>>
+>> --
+>> Mike Bartz
+>> mob at bartzfamily.net
+>
+>
+>
+> --
+> Mike Bartz
+> mob at bartzfamily.net
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+From eric.wagner at kyte.com  Thu Aug 12 13:38:23 2010
+From: eric.wagner at kyte.com (Eric Wagner)
+Date: Thu, 12 Aug 2010 17:38:23 +0000
+Subject: [outages] AT&T Email to SMS appears down
+In-Reply-To: <5ada528$2530d311$10920001$@com>
+References: <5ada528$2530d311$10920001$@com>
+Message-ID: <DB5E83D0-4505-4A4A-964F-1A2DD95421AD@kyte.com>
+
+I am starting to receive some that were sent 4 hours ago.
+
+Sent from my iPhone
+
+On Aug 12, 2010, at 10:17 AM, Nick Olsen <nick at brevardwireless.com<mailto:nick at brevardwireless.com>> wrote:
+
+Looks like your right, I'm not getting the one I sent about 5 minutes ago.
+
+Nick Olsen
+Network Operations
+(321) 205-1100 x106
+
+[http://www.brevardwireless.com/files/email.gif]
+
+
+________________________________
+From: "Drew Linsalata" <drew.linsalata at gmail.com<mailto:drew.linsalata at gmail.com>>
+Sent: Thursday, August 12, 2010 12:15 PM
+To: <mailto:outages at outages.org> outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] AT&T Email to SMS appears down
+
+It appears that email to xxxxxxxxxx at txt.att.net<mailto:xxxxxxxxxx at txt.att.net> is not being delivered
+at the moment. We've tested with a bunch of AT&T phones. Is anyone
+else seeing this issue?
+
+
+_______________________________________________
+Outages mailing list
+<mailto:Outages at outages.org>Outages at outages.org<mailto:Outages at outages.org>
+<https://puck.nether.net/mailman/listinfo/outages>https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+Outages mailing list
+Outages at outages.org<mailto:Outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100812/0bc9bc6e/attachment.html>
+
+From agto at sprint.blackberry.net  Thu Aug 12 16:41:33 2010
+From: agto at sprint.blackberry.net (Jon Harris)
+Date: Thu, 12 Aug 2010 20:41:33 +0000
+Subject: [outages] Steve Vandal/VL/GVL est absent(e).
+Message-ID: <551891232-1281645692-cardhu_decombobulator_blackberry.rim.net-1260519189-@bda447.bisx.prod.on.blackberry>
+
+...What?
+
+------Original Message------
+From: Steve.Vandal at videotron.com
+To: agto at sprint.blackberry.net
+Subject: Steve Vandal/VL/GVL est absent(e).
+Sent: Aug 12, 2010 16:40
+
+
+Je serai absent(e) du  30/07/2010 au 23/08/2010.
+
+Bonjour,
+pour assistance imm?diate veuillez contacter Yves St-Pierre.
+Merci.
+
+Steve Vandal, ing.
+Directeur Op?rations IP et Syst?mes
+Vid?otron Lt?e
+
+T?l.:  +1 514 380-7736
+Cell.: +1 514 726-7606
+
+
+
+
+From hescominsoon at emmanuelcomputerconsulting.com  Thu Aug 12 21:44:37 2010
+From: hescominsoon at emmanuelcomputerconsulting.com (William Warren)
+Date: Thu, 12 Aug 2010 21:44:37 -0400
+Subject: [outages] Comcast Fiber Cut
+Message-ID: <4C64A385.3040502@emmanuelcomputerconsulting.com>
+
+  We has some storms come through Maryland earlier today.  I have 
+noticed TV and Internet has been very sporadic since.  Comcast automated 
+phone system says there is a fiber cut in our area.  I am in Brunswick, 
+MD.  I am unable to get any further details.  Any confirmations?
+
+From frnkblk at iname.com  Thu Aug 12 22:59:45 2010
+From: frnkblk at iname.com (Frank Bulk)
+Date: Thu, 12 Aug 2010 21:59:45 -0500
+Subject: [outages] Comcast Fiber Cut
+In-Reply-To: <4C64A385.3040502@emmanuelcomputerconsulting.com>
+References: <4C64A385.3040502@emmanuelcomputerconsulting.com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACMU5MGnrXmQIvilPs8SOtZAQAAAAA=@iname.com>
+
+The Outages wiki (wiki.outages.org) points to this site:
+http://online.comcast.net/networkhealth/outagecheck.aspx.  There's a
+suggestion to "sign in" to see local events.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of William Warren
+Sent: Thursday, August 12, 2010 8:45 PM
+To: outages at outages.org
+Subject: [outages] Comcast Fiber Cut
+
+  We has some storms come through Maryland earlier today.  I have 
+noticed TV and Internet has been very sporadic since.  Comcast automated 
+phone system says there is a fiber cut in our area.  I am in Brunswick, 
+MD.  I am unable to get any further details.  Any confirmations?
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From outages at konadogs.net  Fri Aug 13 14:33:55 2010
+From: outages at konadogs.net (Nate Itkin)
+Date: Fri, 13 Aug 2010 08:33:55 -1000
+Subject: [outages] t-mobile Hawaii
+Message-ID: <201008131833.o7DIXt8K027459@mx1.konadogs.net>
+
+t-mobile voice and data are down for at least part of Hawaii.  The 
+exact extent of the outage is unclear (maybe others from Hawaii can
+report).  t-mobile customer service told me the outage was 
+"noticed" at 10:22 EDT. No ETA 
+
+- Nate Itkin
+
+From Jon.Kibler at aset.com  Sat Aug 14 19:15:50 2010
+From: Jon.Kibler at aset.com (Jon Kibler)
+Date: Sat, 14 Aug 2010 19:15:50 -0400
+Subject: [outages] Charleston SC: AT&T Wireless Voice & Data Outage
+Message-ID: <4C6723A6.8010107@aset.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+I have just confirmed with AT&T that they are experiencing a full voice
+and data outage for the Charleston, SC metro area. I gather it covers
+all areas that are served from Charleston infrastructure.
+
+I personally get full signal strength indication, but no "AT&T" logo on
+my phone. Any attempt to make a call fails. All incoming calls ring fast
+busy and do not roll to voice mail (at least for calls placed from
+within the AT&T POTS LATA).
+
+The outage apparently began around 18:00 US/EDT.
+
+Jon Kibler
+- -- 
+Jon R. Kibler
+Chief Technical Officer
+Advanced Systems Engineering Technology, Inc.
+Charleston, SC  USA
+o/c/s: 843-849-8214 / 843-813-2924 / 843-564-4224
+e: Jon.Kibler at aset.com or Jon.R.Kibler at gmail.com
+s: JonRKibler
+http://www.linkedin.com/in/jonrkibler
+
+My PGP Fingerprint is:
+BAA2 1F2C 5543 5D25 4636 A392 515C 5045 CF39 4253
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkxnI6YACgkQUVxQRc85QlP97gCfQJTwyi6riBvShkCShC0TwRm0
+z/MAn1nQYivjNZeZ/Q5JywhJPiZkkjpW
+=109E
+-----END PGP SIGNATURE-----
+
+From Jon.Kibler at aset.com  Sat Aug 14 23:24:35 2010
+From: Jon.Kibler at aset.com (Jon Kibler)
+Date: Sat, 14 Aug 2010 23:24:35 -0400
+Subject: [outages] Charleston SC: AT&T Wireless Voice & Data Outage
+In-Reply-To: <4C6723A6.8010107@aset.com>
+References: <4C6723A6.8010107@aset.com>
+Message-ID: <4C675DF3.7060607@aset.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+As of about 22:15 US/EDT, it appears that AT&T has at least corrected
+enough of the problem that I can now make and receive calls. I finally
+have an AT&T logo back on my phone as well.
+
+At this point, all appears to have been stable for just over an hour.
+
+Jon Kibler
+
+
+On 8/14/10 7:15 PM, Jon Kibler wrote:
+> I have just confirmed with AT&T that they are experiencing a full voice
+> and data outage for the Charleston, SC metro area. I gather it covers
+> all areas that are served from Charleston infrastructure.
+> 
+> I personally get full signal strength indication, but no "AT&T" logo on
+> my phone. Any attempt to make a call fails. All incoming calls ring fast
+> busy and do not roll to voice mail (at least for calls placed from
+> within the AT&T POTS LATA).
+> 
+> The outage apparently began around 18:00 US/EDT.
+> 
+> Jon Kibler
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.8 (Darwin)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org/
+
+iEYEARECAAYFAkxnXfMACgkQUVxQRc85QlPmPQCdFZddq2xqvewYA/twJIPNi76r
+92gAoJe3NXJfv9d4yNnHKuJWdRIdejdY
+=3Qql
+-----END PGP SIGNATURE-----
+
+From virendra.rode at outages.org  Mon Aug 16 19:54:36 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 16 Aug 2010 16:54:36 -0700
+Subject: [outages] [Fwd: Fiber Cut in the DC Area]
+Message-ID: <4C69CFBC.4000709@outages.org>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+forwarded from nanog.
+
+
+regards,
+/virendra
+
+- -------- Original Message --------
+Subject: Fiber Cut in the DC Area
+Date: Mon, 16 Aug 2010 18:54:39 -0400
+From: Mike Gatti <ekim.ittag at gmail.com>
+To: nanog at nanog.org
+
+Is anyone aware of a fiber cut that could be affecting the Washington DC
+area?
+Just opened a ticket with Verizon and heard of a fiber cut through some
+side conversations.
+
+
+- --
+Mike Gatti
+
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFMac+8pbZvCIJx1bcRAtHuAKCK94Ld/dxRVmTMF7og3cpSzu92VwCfR3Qk
+8qDd3V0nu+FKVEtmk1oIBOI=
+=p6xt
+-----END PGP SIGNATURE-----
+
+From franck at avonsys.com  Thu Aug 19 04:36:53 2010
+From: franck at avonsys.com (Franck Martin)
+Date: Thu, 19 Aug 2010 20:36:53 +1200 (FJT)
+Subject: [outages] Cable map
+In-Reply-To: <6144165.144.1282206939478.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <9137154.147.1282207007646.JavaMail.franck@franck-martins-macbook-pro.local>
+
+http://www.cablemap.info/ 
+
+Would be nice if we could report cable faults, as problems and not geographic errors... 
+
+
+
+
+Franck Martin 
+http://www.avonsys.com/ 
+http://www.facebook.com/Avonsys 
+twitter: FranckMartin Avonsys 
+
+Check your domain reputation: http://gurl.im/b69d4o 
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100819/35befcbe/attachment.html>
+
+From jra at baylink.com  Thu Aug 19 11:55:46 2010
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 19 Aug 2010 11:55:46 -0400 (EDT)
+Subject: [outages] POLL: Is power distribution in scope here?
+Message-ID: <18302440.86038.1282233346266.JavaMail.root@benjamin>
+
+I was just poking around Wikipedia, looking at the TAT-14 page from that
+nice cable map someone just posted, and I found myself wandering onto pages
+about underwater *power* distribution cable runs.
+
+And that leads me, since I myself pay attention to the Grid, to wonder:
+
+Is that, as are so many things, Just Me?  Or should our dashboard cover
+power issues as well as the datacom issues we have links for now?
+
+I can't set reply-to, Zimbra's not a "real" Internet mailer, but please
+reply to -discussion.
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From keegan.holley at sungard.com  Thu Aug 19 12:30:24 2010
+From: keegan.holley at sungard.com (Keegan Holley)
+Date: Thu, 19 Aug 2010 12:30:24 -0400
+Subject: [outages] [Outages-discussion] POLL: Is power distribution in
+	scope here?
+In-Reply-To: <18302440.86038.1282233346266.JavaMail.root@benjamin>
+References: <18302440.86038.1282233346266.JavaMail.root@benjamin>
+Message-ID: <AANLkTinaZwor19TGn=ccfCpdq26rff-TpitkEgoFybt7@mail.gmail.com>
+
+I think that would change the list as everyone has come to know it.  I think
+power outages should remain a root cause and not an outage in and of itself.
+ Most come here to discuss network outages and the like.  I think including
+power outages would amount to spam for alot of members.  That being said
+a separate list for power outages or even one that covers all utilities may
+be useful, depending on volume.
+
+On Thu, Aug 19, 2010 at 11:55 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+
+> I was just poking around Wikipedia, looking at the TAT-14 page from that
+> nice cable map someone just posted, and I found myself wandering onto pages
+> about underwater *power* distribution cable runs.
+>
+> And that leads me, since I myself pay attention to the Grid, to wonder:
+>
+> Is that, as are so many things, Just Me?  Or should our dashboard cover
+> power issues as well as the datacom issues we have links for now?
+>
+> I can't set reply-to, Zimbra's not a "real" Internet mailer, but please
+> reply to -discussion.
+>
+> Cheers,
+> -- jra
+>
+> --
+> Jay R. Ashworth                   Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com                     '87
+> e24
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+>
+>    Start a man a fire, and he'll be warm all night.
+>     Set a man on fire, and he'll be warm for the rest of his life.
+> _______________________________________________
+> Outages-discussion mailing list
+> Outages-discussion at outages.org
+> https://puck.nether.net/mailman/listinfo/outages-discussion
+>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100819/7d5e24d2/attachment.html>
+
+From frnkblk at iname.com  Mon Aug 23 23:49:29 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Mon, 23 Aug 2010 22:49:29 -0500
+Subject: [outages] =?iso-8859-1?q?NZ_Internet=A0outage_due_to_generator=A0?=
+	=?iso-8859-1?q?explosion_from_NZCity?=
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADaz5JS/wEmRYeuCROHWDT4AQAAAAA=@iname.com>
+
+http://home.nzcity.co.nz/news/article.aspx?id=118917&fm=newsmain,nrhl
+
+A generator explosion in Sky Tower results in an internet outage for much of
+the country for over an hour, article claims.
+
+
+From frnkblk at iname.com  Tue Aug 24 14:48:51 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Tue, 24 Aug 2010 13:48:51 -0500
+Subject: [outages]
+	=?iso-8859-1?q?NZ_Internet=A0outage_due_to_generator=A0?=
+	=?iso-8859-1?q?explosion_from_NZCity?=
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADaz5JS/wEmRYeuCROHWDT4AQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADaz5JS/wEmRYeuCROHWDT4AQAAAAA=@iname.com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABFFdDMBtngRZd0W4l7DSHvAQAAAAA=@iname.com>
+
+More here:
+http://computerworld.co.nz/news.nsf/news/vodafone-hit-hard-by-sky-tower-fire
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk - iName.com
+Sent: Monday, August 23, 2010 10:49 PM
+To: outages at outages.org
+Subject: [outages] NZ Internet?outage due to generator?explosion from NZCity
+
+http://home.nzcity.co.nz/news/article.aspx?id=118917&fm=newsmain,nrhl
+
+A generator explosion in Sky Tower results in an internet outage for much of
+the country for over an hour, article claims.
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From ml at t-b-o-h.net  Wed Aug 25 13:56:08 2010
+From: ml at t-b-o-h.net (Tuc at T-B-O-H)
+Date: Wed, 25 Aug 2010 13:56:08 -0400 (EDT)
+Subject: [outages] Any word on CenturyTel issues?
+Message-ID: <201008251756.o7PHu95i029062@vjofn.tucs-beachin-obx-house.com>
+
+Hi,
+
+	I was surfing the www.centurylink.com site to find out how to
+complain about my personal DSL service, when the site stopped existing. 
+Looks like they might have had a route leak and immediately stopped any other
+advertisements :
+
+http://www.ris.ripe.net/dashboard/159.78.72.0/23
+
+
+	Its been unreachable over 15 minutes now.
+
+			Tuc
+
+From frnkblk at iname.com  Wed Aug 25 15:08:20 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Wed, 25 Aug 2010 14:08:20 -0500
+Subject: [outages] Any word on CenturyTel issues?
+In-Reply-To: <201008251756.o7PHu95i029062@vjofn.tucs-beachin-obx-house.com>
+References: <201008251756.o7PHu95i029062@vjofn.tucs-beachin-obx-house.com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADR3yJ7CEwoQo8x7iET/qPpAQAAAAA=@iname.com>
+
+Still issues here at 2:08 Central.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Tuc at T-B-O-H
+Sent: Wednesday, August 25, 2010 12:56 PM
+To: outages at outages.org
+Subject: [outages] Any word on CenturyTel issues?
+
+Hi,
+
+    I was surfing the www.centurylink.com site to find out how to
+complain about my personal DSL service, when the site stopped existing. 
+Looks like they might have had a route leak and immediately stopped any
+other
+advertisements :
+
+http://www.ris.ripe.net/dashboard/159.78.72.0/23
+
+
+    Its been unreachable over 15 minutes now.
+
+            Tuc
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From fbulk at mypremieronline.com  Wed Aug 25 13:34:22 2010
+From: fbulk at mypremieronline.com (Frank Bulk)
+Date: Wed, 25 Aug 2010 12:34:22 -0500
+Subject: [outages] Internet Outage Hits Most PA State Websites
+Message-ID: <0C6A4A8DD60DBF4A99C300DDA771BFABCF1C346B75@server3.mutualtel.mtcnet.net>
+
+http://www.wgal.com/news/24757443/detail.html
+
+Most PA gov't site are down.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100825/f77d93fe/attachment.html>
+
+From ml at t-b-o-h.net  Wed Aug 25 16:42:19 2010
+From: ml at t-b-o-h.net (Tuc at T-B-O-H)
+Date: Wed, 25 Aug 2010 16:42:19 -0400 (EDT)
+Subject: [outages] Any word on CenturyTel issues?
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADR3yJ7CEwoQo8x7iET/qPpAQAAAAA=@iname.com>
+	from "Frank Bulk - iName.com" at Aug 25, 2010 02:08:20 PM
+Message-ID: <201008252042.o7PKgK1O029601@vjofn.tucs-beachin-obx-house.com>
+
+Hi,
+
+	The routes look like they came back after a while, but the webserver
+wasn't answering. Now it gives a 503. Bad day for someone there....
+
+			Tuc
+
+> 
+> Still issues here at 2:08 Central.
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Tuc at T-B-O-H
+> Sent: Wednesday, August 25, 2010 12:56 PM
+> To: outages at outages.org
+> Subject: [outages] Any word on CenturyTel issues?
+> 
+> Hi,
+> 
+>     I was surfing the www.centurylink.com site to find out how to
+> complain about my personal DSL service, when the site stopped existing. 
+> Looks like they might have had a route leak and immediately stopped any
+> other
+> advertisements :
+> 
+> http://www.ris.ripe.net/dashboard/159.78.72.0/23
+> 
+> 
+>     Its been unreachable over 15 minutes now.
+> 
+>             Tuc
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+
+From notifications at mattfilip.com  Thu Aug 26 15:54:00 2010
+From: notifications at mattfilip.com (notifications)
+Date: Thu, 26 Aug 2010 14:54:00 -0500
+Subject: [outages] Verizon Business
+Message-ID: <000001cb4558$6ef10940$4cd31bc0$@com>
+
+We currently have at least 5 sites down on Verizon Business MPLS in the
+Midwest. (Chicago, Milwaukee, Indy)  We've been on hold with TAC for 30+
+minutes.  Any info is appreciated.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/d598459b/attachment.html>
+
+From kenny.sallee at gmail.com  Thu Aug 26 16:48:14 2010
+From: kenny.sallee at gmail.com (Kenny Sallee)
+Date: Thu, 26 Aug 2010 13:48:14 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <000001cb4558$6ef10940$4cd31bc0$@com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+Message-ID: <AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+
+We got this message from our account rep:
+
+"We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+
+Not sure if it's related
+
+On Thu, Aug 26, 2010 at 12:54 PM, notifications <notifications at mattfilip.com
+> wrote:
+
+>  We currently have at least 5 sites down on Verizon Business MPLS in the
+> Midwest. (Chicago, Milwaukee, Indy)  We?ve been on hold with TAC for 30+
+> minutes.  Any info is appreciated.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/9073b303/attachment.html>
+
+From jlsparks at gmail.com  Thu Aug 26 17:10:03 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Thu, 26 Aug 2010 17:10:03 -0400
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+Message-ID: <AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+
+Catastrophic event. Interesting language for a fibre cut?
+
+~ jason
+> We got this message from our account rep:
+>
+> "We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+>
+> Not sure if it's related
+>
+> On Thu, Aug 26, 2010 at 12:54 PM, notifications <
+notifications at mattfilip.com
+>> wrote:
+>
+>> We currently have at least 5 sites down on Verizon Business MPLS in the
+>> Midwest. (Chicago, Milwaukee, Indy) We?ve been on hold with TAC for 30+
+>> minutes. Any info is appreciated.
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/6a328b28/attachment.html>
+
+From kenny.sallee at gmail.com  Thu Aug 26 17:11:26 2010
+From: kenny.sallee at gmail.com (Kenny Sallee)
+Date: Thu, 26 Aug 2010 14:11:26 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+Message-ID: <AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+
+On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks <jlsparks at gmail.com> wrote:
+
+> Catastrophic event. Interesting language for a fibre cut?
+>
+> ~ jason
+>
+
+Guess it depends on your perspective.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/63df71b6/attachment.html>
+
+From robin.pimentel at gmail.com  Thu Aug 26 17:17:04 2010
+From: robin.pimentel at gmail.com (Robin Pimentel)
+Date: Thu, 26 Aug 2010 14:17:04 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+Message-ID: <AANLkTi=W5ab2UgVrO8O-xcXf9rJm-qWL5_bF9pkp2+tn@mail.gmail.com>
+
+No kidding.  Someone should ask that rep, if they have ever heard of MPLS
+Fast Re-Route.  Not that hard...
+
+On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks <jlsparks at gmail.com> wrote:
+
+> Catastrophic event. Interesting language for a fibre cut?
+>
+> ~ jason
+> > We got this message from our account rep:
+> >
+> > "We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+> >
+> > Not sure if it's related
+> >
+> > On Thu, Aug 26, 2010 at 12:54 PM, notifications <
+> notifications at mattfilip.com
+> >> wrote:
+> >
+> >> We currently have at least 5 sites down on Verizon Business MPLS in the
+> >> Midwest. (Chicago, Milwaukee, Indy) We?ve been on hold with TAC for 30+
+> >> minutes. Any info is appreciated.
+> >>
+> >> _______________________________________________
+> >> Outages mailing list
+> >> Outages at outages.org
+> >> https://puck.nether.net/mailman/listinfo/outages
+> >>
+> >>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/fdd3c915/attachment.html>
+
+From scott at doc.net.au  Thu Aug 26 17:22:45 2010
+From: scott at doc.net.au (Scott Howard)
+Date: Thu, 26 Aug 2010 14:22:45 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+Message-ID: <AANLkTimFGdE59MMBkVjimscGrs2mDoeN1Vx6a05u4L1r@mail.gmail.com>
+
+On Thu, Aug 26, 2010 at 2:11 PM, Kenny Sallee <kenny.sallee at gmail.com>wrote:
+
+>
+> On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks <jlsparks at gmail.com>wrote:
+>
+>> Catastrophic event. Interesting language for a fibre cut?
+>>
+>
+> Guess it depends on your perspective.
+>
+
+
+... and how many backup paths you have...
+
+  Scott.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/bdd8bd4b/attachment.html>
+
+From outages at jdc.parodius.com  Thu Aug 26 17:30:06 2010
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 26 Aug 2010 14:30:06 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+Message-ID: <20100826213006.GA3513@icarus.home.lan>
+
+On Thu, Aug 26, 2010 at 02:11:26PM -0700, Kenny Sallee wrote:
+>    On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks
+>    <[1]jlsparks at gmail.com> wrote:
+> 
+>      Catastrophic event. Interesting language for a fibre cut?
+> 
+>      ~ jason
+> 
+>    Guess it depends on your perspective.
+
+Sounds catastrophic to me, given that they lack physical redundancy in
+their MPLS mesh.  Customers should be asking them, post-mortem, why
+failover paths weren't available.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+From owen at delong.com  Thu Aug 26 17:32:16 2010
+From: owen at delong.com (Owen DeLong)
+Date: Thu, 26 Aug 2010 14:32:16 -0700
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+Message-ID: <A1949B5B-846E-45C5-B8C0-30094A25E8D9@delong.com>
+
+
+On Aug 26, 2010, at 2:11 PM, Kenny Sallee wrote:
+
+> 
+> 
+> On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks <jlsparks at gmail.com> wrote:
+> Catastrophic event. Interesting language for a fibre cut?
+> 
+> ~ jason
+> 
+> 
+> Guess it depends on your perspective.  
+> 
+And whether you have a protect side, or, a second-side of the ring with even
+more circuits on it (famous Worldcom stunt).
+
+Owen
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/960dc641/attachment-0001.html>
+
+From jlsparks at gmail.com  Thu Aug 26 17:37:32 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Thu, 26 Aug 2010 17:37:32 -0400
+Subject: [outages] Verizon Business
+In-Reply-To: <20100826213006.GA3513@icarus.home.lan>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<AANLkTinGxYXCC+2dJZRGQD+GtGMfWhdY62y-w9xbm3Jq@mail.gmail.com>
+	<20100826213006.GA3513@icarus.home.lan>
+Message-ID: <AANLkTikrh5Au_OujE_0D4w9UdsP_CNa4-CtFH5Ltmm21@mail.gmail.com>
+
+Jeremy,
+
+That's the catastrophic part.
+
+~jason
+
+On Thu, Aug 26, 2010 at 5:30 PM, Jeremy Chadwick
+<outages at jdc.parodius.com>wrote:
+
+> On Thu, Aug 26, 2010 at 02:11:26PM -0700, Kenny Sallee wrote:
+> >    On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks
+> >    <[1]jlsparks at gmail.com> wrote:
+> >
+> >      Catastrophic event. Interesting language for a fibre cut?
+> >
+> >      ~ jason
+> >
+> >    Guess it depends on your perspective.
+>
+> Sounds catastrophic to me, given that they lack physical redundancy in
+> their MPLS mesh.  Customers should be asking them, post-mortem, why
+> failover paths weren't available.
+>
+> --
+> | Jeremy Chadwick                                   jdc at parodius.com |
+> | Parodius Networking                       http://www.parodius.com/ |
+> | UNIX Systems Administrator                  Mountain View, CA, USA |
+> | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/3b5d3c77/attachment.html>
+
+From twmjr at twmjr.com  Thu Aug 26 16:34:57 2010
+From: twmjr at twmjr.com (Thomas W. Mackintosh Jr.)
+Date: Thu, 26 Aug 2010 16:34:57 -0400
+Subject: [outages] Verizon Business
+Message-ID: <a0ad87uduxfv8m6knwex20od.1282854897746@email.android.com>
+
+Have numerous customer sites down as well...have been told by VzB that there is a major fiber cut in their network.
+
+
+From andy at newslink.com  Thu Aug 26 17:22:21 2010
+From: andy at newslink.com (Andy Ringsmuth)
+Date: Thu, 26 Aug 2010 16:22:21 -0500
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+Message-ID: <3F772B9F-BC9F-4633-BF8B-F65542AD4E16@newslink.com>
+
+On Aug 26, 2010, at 4:10 PM, Jason L. Sparks wrote:
+
+> Catastrophic event. Interesting language for a fibre cut?
+> 
+> ~ jason
+> 
+> > We got this message from our account rep:
+> > 
+> > "We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+> > 
+> > Not sure if it's related
+> > 
+> > On Thu, Aug 26, 2010 at 12:54 PM, notifications <notifications at mattfilip.com
+> >> wrote:
+> > 
+> >> We currently have at least 5 sites down on Verizon Business MPLS in the
+> >> Midwest. (Chicago, Milwaukee, Indy) We?ve been on hold with TAC for 30+
+> >> minutes. Any info is appreciated.
+
+Well, Riverdale does have about four very large railroad yards.  So if the fiber cut is, for instance, hypothetically speaking, underneath a big burning pile of locomotives and tank cars carrying HazMat, I suppose that could be considered a "catastrophic event."  Just sayin'....
+
+----
+Andy Ringsmuth
+andy at newslink.com
+News Link ? Manager Technology
+1845 S. 11th St., Lincoln, NE 68502
+(402) 475-6397    (402) 304-0083 cellular
+
+
+From mloftis at wgops.com  Thu Aug 26 17:34:30 2010
+From: mloftis at wgops.com (Michael Loftis)
+Date: Thu, 26 Aug 2010 15:34:30 -0600
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTi=W5ab2UgVrO8O-xcXf9rJm-qWL5_bF9pkp2+tn@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<AANLkTi=W5ab2UgVrO8O-xcXf9rJm-qWL5_bF9pkp2+tn@mail.gmail.com>
+Message-ID: <D1C6A49949276D7B624B7537@[192.168.66.200]>
+
+Wait you mean have the network do something WITHOUT going through RCMAC?! 
+BLASPHEMY!
+
+</sarcasm> :)
+
+A little more seriously though, often times theres one of several issues 
+going on, either a 'collapsed loop' where the "redundant" paths are in the 
+same trench, or, there just is no redundant path in their network.  Happens 
+far more often than any telco would want to admit to any customer.
+
+If I were affected by this I'd push for a root cause and a documented fix, 
+along with credit heh.
+
+--On Thursday, August 26, 2010 2:17 PM -0700 Robin Pimentel 
+<robin.pimentel at gmail.com> wrote:
+
+> No kidding. ?Someone should ask that rep, if they have ever heard of
+> MPLS Fast Re-Route. ?Not that hard...
+>
+>
+> On Thu, Aug 26, 2010 at 2:10 PM, Jason L. Sparks <jlsparks at gmail.com>
+> wrote:
+>
+>
+> Catastrophic event. Interesting language for a fibre cut?
+>
+> ~ jason
+>
+
+
+
+From jlsparks at gmail.com  Thu Aug 26 18:21:18 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Thu, 26 Aug 2010 18:21:18 -0400
+Subject: [outages] Verizon Business
+In-Reply-To: <BEDCBD6C-85C7-42EA-A8FB-3839A969EC05@kumari.net>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+	<BEDCBD6C-85C7-42EA-A8FB-3839A969EC05@kumari.net>
+Message-ID: <AANLkTinYM340hGAgTCoD9kE_SbE_bt8zhxeXjdh9MpcC@mail.gmail.com>
+
+Fair point. I acknowledge I jumped the gun. Carry on.
+~jason
+> Catastrophic event sounds better, and makes customers less liked to be
+annoyed..
+>
+> "We had a catastrophic event and that's why you network is down" sounds
+somewhat reasonable and you get the feeling that they are heroically
+struggling against terrorist and train wrecks and similar.
+>
+> "Some clod with a spade sliced our cable in half and now we are
+screwed..." makes them sound incompetent...
+>
+> Warren Kumari
+> ------
+> Please excuse typing, etc -- This was sent from a device with a tiny
+keyboard.
+>
+> On Aug 26, 2010, at 5:10 PM, "Jason L. Sparks" <jlsparks at gmail.com> wrote:
+>
+>> Catastrophic event. Interesting language for a fibre cut?
+>>
+>> ~ jason
+>>
+>> > We got this message from our account rep:
+>> >
+>> > "We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+>> >
+>> > Not sure if it's related
+>> >
+>> > On Thu, Aug 26, 2010 at 12:54 PM, notifications <
+notifications at mattfilip.com
+>> >> wrote:
+>> >
+>> >> We currently have at least 5 sites down on Verizon Business MPLS in
+the
+>> >> Midwest. (Chicago, Milwaukee, Indy) We?ve been on hold with TAC for
+30+
+>> >> minutes. Any info is appreciated.
+>> >>
+>> >> _______________________________________________
+>> >> Outages mailing list
+>> >> Outages at outages.org
+>> >> https://puck.nether.net/mailman/listinfo/outages
+>> >>
+>> >>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/d1ffde2f/attachment.html>
+
+From warren at kumari.net  Thu Aug 26 18:05:02 2010
+From: warren at kumari.net (Warren Kumari)
+Date: Thu, 26 Aug 2010 18:05:02 -0400
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+	<AANLkTimTPaQthqXjHOmY2mckb9FYnoip8snDezSceh_p@mail.gmail.com>
+Message-ID: <BEDCBD6C-85C7-42EA-A8FB-3839A969EC05@kumari.net>
+
+Catastrophic event sounds better, and makes customers less liked to be annoyed..
+
+"We had a catastrophic event and that's why you network is down" sounds somewhat reasonable and you get the feeling that they are heroically struggling against terrorist and train wrecks and similar.
+
+"Some clod with a spade sliced our cable in half and now we are screwed..." makes them sound incompetent...
+
+Warren Kumari
+------
+Please excuse typing, etc -- This was sent from a device with a tiny keyboard.
+
+On Aug 26, 2010, at 5:10 PM, "Jason L. Sparks" <jlsparks at gmail.com> wrote:
+
+> Catastrophic event. Interesting language for a fibre cut?
+> 
+> ~ jason
+> 
+> > We got this message from our account rep:
+> > 
+> > "We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+> > 
+> > Not sure if it's related
+> > 
+> > On Thu, Aug 26, 2010 at 12:54 PM, notifications <notifications at mattfilip.com
+> >> wrote:
+> > 
+> >> We currently have at least 5 sites down on Verizon Business MPLS in the
+> >> Midwest. (Chicago, Milwaukee, Indy) We?ve been on hold with TAC for 30+
+> >> minutes. Any info is appreciated.
+> >>
+> >> _______________________________________________
+> >> Outages mailing list
+> >> Outages at outages.org
+> >> https://puck.nether.net/mailman/listinfo/outages
+> >>
+> >>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/9e402dd2/attachment.html>
+
+From notifications at mattfilip.com  Thu Aug 26 17:05:24 2010
+From: notifications at mattfilip.com (notifications)
+Date: Thu, 26 Aug 2010 16:05:24 -0500
+Subject: [outages] Verizon Business
+In-Reply-To: <AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+References: <000001cb4558$6ef10940$4cd31bc0$@com>
+	<AANLkTim-tmFoxYd=WDr5AU0Gxp8-ci2X4cLouchPW8vV@mail.gmail.com>
+Message-ID: <000e01cb4562$67cbc470$37634d50$@com>
+
+Yeah, this is it. Took us awhile to get info.  Their IVR didn't report a
+fiber cut, just that they were working on it.
+
+ 
+
+From: Kenny Sallee [mailto:kenny.sallee at gmail.com] 
+Sent: Thursday, August 26, 2010 3:48 PM
+To: notifications
+Cc: outages at outages.org
+Subject: Re: [outages] Verizon Business
+
+ 
+
+We got this message from our account rep:
+
+ 
+
+"We are have a catastrophic event (fiber cut) going in Riverdale, IL"
+
+ 
+
+Not sure if it's related
+
+On Thu, Aug 26, 2010 at 12:54 PM, notifications
+<notifications at mattfilip.com> wrote:
+
+We currently have at least 5 sites down on Verizon Business MPLS in the
+Midwest. (Chicago, Milwaukee, Indy)  We've been on hold with TAC for 30+
+minutes.  Any info is appreciated.
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+No virus found in this incoming message.
+Checked by AVG - www.avg.com
+Version: 9.0.851 / Virus Database: 271.1.1/3095 - Release Date: 08/26/10
+01:34:00
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100826/9b15aac9/attachment-0001.html>
+
+From invite+zj4o2afjayf6 at facebookmail.com  Fri Aug 27 18:53:27 2010
+From: invite+zj4o2afjayf6 at facebookmail.com (Jared Geiger)
+Date: Fri, 27 Aug 2010 15:53:27 -0700
+Subject: [outages] Check out my photos on Facebook
+Message-ID: <216be7caa53874cbfd54f628c6950071@www.facebook.com>
+
+I set up a Facebook profile where I can post my pictures, videos and events and I want to add you as a friend so you can see it. First, you need to join Facebook! Once you join, you can also create your own profile.
+
+Thanks,
+Jared
+
+To sign up for Facebook, follow the link below:
+http://www.facebook.com/p.php?i=6215424&k=44DY43SQT55G6C1IVJ46UTYYRWKAVYVAPP&r
+
+Already have an account? Add this email address to your account:
+http://www.facebook.com/n/?merge_accounts.php&e=outages%40outages.org&c=b3e17cd6ace4ab497e44b016f0ac32b5
+
+=======================================
+outages at outages.org was invited to join Facebook by Jared Geiger. If you do not wish to receive this type of email from Facebook in the future, please follow the link below to unsubscribe.
+http://www.facebook.com/o.php?k=6a58aa&u=100001497823408&mid=2e23f15G5af369c138b0G0G8
+Facebook, Inc. P.O. Box 10005, Palo Alto, CA 94303
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100827/995db48b/attachment.html>
+
+From dtdns at hotmail.com  Sat Aug 28 16:13:40 2010
+From: dtdns at hotmail.com (Justin Scott)
+Date: Sat, 28 Aug 2010 16:13:40 -0400
+Subject: [outages] Hostway Tampa
+Message-ID: <COL106-W860B8B21817CA76292894A6870@phx.gbl>
+
+
+Hostway in Tampa seems to be having some internal routing problems at the moment.  Nothing in our suite there is accessible.  First line support acknowledges a problem but no specifics or eta.
+
+-Justin
+
+ 		 	   		  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100828/73051b8c/attachment.html>
+
+From jscott at gravityfree.com  Sat Aug 28 17:11:17 2010
+From: jscott at gravityfree.com (Justin Scott)
+Date: Sat, 28 Aug 2010 17:11:17 -0400
+Subject: [outages] Hostway Tampa
+In-Reply-To: <COL106-W860B8B21817CA76292894A6870@phx.gbl>
+References: <COL106-W860B8B21817CA76292894A6870@phx.gbl>
+Message-ID: <005201cb46f5$8e7d4fa0$ab77eee0$@com>
+
+> Hostway in Tampa seems to be having some internal
+> routing problems at the moment.? Nothing in our
+> suite there is accessible.? First line support
+> acknowledges a problem but no specifics or eta.
+
+Turns out there was a massive DDoS attack against one of our servers
+(40+Gbps) which took out Hostway's link to Level3 temporarily.  Level3
+null-routed the traffic to the subnet being attacked which allowed other
+traffic to resume.  
+
+
+-Justin
+
+
+
+
+From jkemper at digitalwest.net  Sun Aug 29 15:25:35 2010
+From: jkemper at digitalwest.net (James Kemper)
+Date: Sun, 29 Aug 2010 12:25:35 -0700
+Subject: [outages] BGP Sessions flapping in LA
+Message-ID: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+
+I wanted to see if anyone else has been experiencing a lot of BGP sessions flap.  We have been experiencing abnormal amount of trouble coming from
+our peering sessions at 1 Wilshire.  Our Center is in San Luis Obispo but we have a major connection down to LA.  It seems like the peering trouble is
+from the any2 exchange.
+
+James Kemper
+NOC Supervisor
+Digitalwest Networks Inc.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100829/035645c2/attachment.html>
+
+From raul.rodriguez at att.blackberry.net  Sun Aug 29 16:37:52 2010
+From: raul.rodriguez at att.blackberry.net (raul.rodriguez at att.blackberry.net)
+Date: Sun, 29 Aug 2010 20:37:52 +0000
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+Message-ID: <1668707429-1283114276-cardhu_decombobulator_blackberry.rim.net-551814325-@bda526.bisx.prod.on.blackberry>
+
+Yes.
+
+Looking at the various public looking glasses connected to Any2 shows that we are not alone.
+ 
+Hooray for redundant BGP sessions at other peering points.
+
+-RR
+
+Sent via BlackBerry by AT&T
+
+-----Original Message-----
+From: "James Kemper" <jkemper at digitalwest.net>
+Sender: outages-bounces at outages.org
+Date: Sun, 29 Aug 2010 12:25:35 
+To: <Outages at outages.org>
+Subject: [outages] BGP Sessions flapping in LA
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From paul at paulstewart.org  Sun Aug 29 16:49:29 2010
+From: paul at paulstewart.org (Paul Stewart)
+Date: Sun, 29 Aug 2010 13:49:29 -0700
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+Message-ID: <001e01cb47bb$af881a60$0e984f20$@org>
+
+We're seeing BGP flaps going back 5-7 hours ago but nothing recent.. We're
+at 1 Wilshire on Any2 exchange (among others)
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of James Kemper
+Sent: Sunday, August 29, 2010 12:26 PM
+To: Outages at outages.org
+Subject: [outages] BGP Sessions flapping in LA
+
+ 
+
+I wanted to see if anyone else has been experiencing a lot of BGP sessions
+flap.  We have been experiencing abnormal amount of trouble coming from
+
+our peering sessions at 1 Wilshire.  Our Center is in San Luis Obispo but we
+have a major connection down to LA.  It seems like the peering trouble is
+
+from the any2 exchange.
+
+ 
+
+James Kemper
+
+NOC Supervisor
+
+Digitalwest Networks Inc.
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20100829/e34aaec5/attachment.html>
+
+From raul.rodriguez at att.blackberry.net  Sun Aug 29 21:40:50 2010
+From: raul.rodriguez at att.blackberry.net (raul.rodriguez at att.blackberry.net)
+Date: Mon, 30 Aug 2010 01:40:50 +0000
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <001e01cb47bb$af881a60$0e984f20$@org>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur><001e01cb47bb$af881a60$0e984f20$@org>
+Message-ID: <1405207834-1283132454-cardhu_decombobulator_blackberry.rim.net-1243977992-@bda526.bisx.prod.on.blackberry>
+
+www.coresite.com/any2_charts_48.aspx illustrates some of the ongoing weirdness.
+
+-RR
+Sent via BlackBerry by AT&T
+
+-----Original Message-----
+From: "Paul Stewart" <paul at paulstewart.org>
+Sender: outages-bounces at outages.org
+Date: Sun, 29 Aug 2010 13:49:29 
+To: 'James Kemper'<jkemper at digitalwest.net>; <Outages at outages.org>
+Subject: Re: [outages] BGP Sessions flapping in LA
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From pstewart at nexicomgroup.net  Sun Aug 29 21:48:57 2010
+From: pstewart at nexicomgroup.net (Paul Stewart)
+Date: Sun, 29 Aug 2010 21:48:57 -0400
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <1405207834-1283132454-cardhu_decombobulator_blackberry.rim.net-1243977992-@bda526.bisx.prod.on.blackberry>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur><001e01cb47bb$af881a60$0e984f20$@org>
+	<1405207834-1283132454-cardhu_decombobulator_blackberry.rim.net-1243977992-@bda526.bisx.prod.on.blackberry>
+Message-ID: <C0A98BB6DAFAAB46A78BBA2C51B98F3E01A021EE@nexus.nexicomgroup.net>
+
+They just sent out an emergency maintenance notice a little while ago -
+they are kicking a Brocade switch that is having issues...
+
+Paul
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of raul.rodriguez at att.blackberry.net
+Sent: Sunday, August 29, 2010 6:41 PM
+To: Outages at outages.org
+Subject: Re: [outages] BGP Sessions flapping in LA
+
+www.coresite.com/any2_charts_48.aspx illustrates some of the ongoing
+weirdness.
+
+-RR
+Sent via BlackBerry by AT&T
+
+-----Original Message-----
+From: "Paul Stewart" <paul at paulstewart.org>
+Sender: outages-bounces at outages.org
+Date: Sun, 29 Aug 2010 13:49:29 
+To: 'James Kemper'<jkemper at digitalwest.net>; <Outages at outages.org>
+Subject: Re: [outages] BGP Sessions flapping in LA
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jay at west.net  Mon Aug 30 01:00:00 2010
+From: jay at west.net (Jay Hennigan)
+Date: Sun, 29 Aug 2010 22:00:00 -0700
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur>
+Message-ID: <4C7B3AD0.4030700@west.net>
+
+On 8/29/10 12:25 PM, James Kemper wrote:
+> I wanted to see if anyone else has been experiencing a lot of BGP
+> sessions flap.  We have been experiencing abnormal amount of trouble
+> coming from
+> our peering sessions at 1 Wilshire.  Our Center is in San Luis Obispo
+> but we have a major connection down to LA.  It seems like the peering
+> trouble is
+> from the any2 exchange.
+
+Coresite issued a bulletin regarding an emergency maintenance window on
+Any2Exchange commencing 2200 PDT tonight.
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From sean at megapath.com  Mon Aug 30 00:16:22 2010
+From: sean at megapath.com (Sean Crandall)
+Date: Mon, 30 Aug 2010 04:16:22 +0000
+Subject: [outages] BGP Sessions flapping in LA
+In-Reply-To: <C0A98BB6DAFAAB46A78BBA2C51B98F3E01A021EE@nexus.nexicomgroup.net>
+References: <6817B0BD950A4C97A68A59B956D5ACD7@BigSur><001e01cb47bb$af881a60$0e984f20$@org>
+	<1405207834-1283132454-cardhu_decombobulator_blackberry.rim.net-1243977992-@bda526.bisx.prod.on.blackberry>
+	<C0A98BB6DAFAAB46A78BBA2C51B98F3E01A021EE@nexus.nexicomgroup.net>
+Message-ID: <5E6C4E592284BE4DAEB7B7564B2A9DD70DE552@hercules.megapath.biz>
+
+They will be rebooting the switch at 22:00 PDT tonight.
+
+-Sean
+
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Paul Stewart
+> Sent: Sunday, August 29, 2010 6:49 PM
+> To: raul.rodriguez at att.blackberry.net; Outages at outages.org
+> Subject: Re: [outages] BGP Sessions flapping in LA
+> 
+> They just sent out an emergency maintenance notice a little while ago -
+> they are kicking a Brocade switch that is having issues...
+> 
+> Paul
+> 
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of raul.rodriguez at att.blackberry.net
+> Sent: Sunday, August 29, 2010 6:41 PM
+> To: Outages at outages.org
+> Subject: Re: [outages] BGP Sessions flapping in LA
+> 
+> www.coresite.com/any2_charts_48.aspx illustrates some of the ongoing
+> weirdness.
+> 
+> -RR
+> Sent via BlackBerry by AT&T
+> 
+> -----Original Message-----
+> From: "Paul Stewart" <paul at paulstewart.org>
+> Sender: outages-bounces at outages.org
+> Date: Sun, 29 Aug 2010 13:49:29
+> To: 'James Kemper'<jkemper at digitalwest.net>; <Outages at outages.org>
+> Subject: Re: [outages] BGP Sessions flapping in LA
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From frnkblk at iname.com  Tue Aug 31 22:12:37 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Tue, 31 Aug 2010 21:12:37 -0500
+Subject: [outages] Anyone else seeing BGP sessions over HE IPv6 tunnels go
+	up and down?
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAASbhKCVsivTpwu3Y+gnyF5AQAAAAA=@iname.com>
+
+Anyone else seeing BGP sessions over HE IPv6 tunnels go up and down?  It's
+been happening since 7:36 pm Central.  I open a ticket with the NOC via
+e-mail, but since I've received no response I can only presume that they're
+in the midst of working through the issue.
+
+Frank
+
+

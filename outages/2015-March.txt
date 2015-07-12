@@ -1,0 +1,4364 @@
+From bdantzig at medline.com  Wed Mar  4 13:51:06 2015
+From: bdantzig at medline.com (Dantzig, Brian)
+Date: Wed, 4 Mar 2015 18:51:06 +0000
+Subject: [outages] Ethernet access in chicago north suburbs.
+Message-ID: <E0CEBDFFBB54DC45857151BA2C56841B012525497D@MUNPRDMBXA1.medline.com>
+
+Anyone else seeing problems with at&t Ethernet access in Chicago far north suburbs. We are seeing problems with multiple carrier connection across multiple Cos. There are delivered on at&t ehternet. Specifically, we see total loss of traffic for 26 seconds to over 1 minute. This is occurring at 30-60 minute intervals.
+Brian
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/8b88a4e8/attachment.html>
+
+From cb.list6 at gmail.com  Wed Mar  4 16:17:15 2015
+From: cb.list6 at gmail.com (Ca By)
+Date: Wed, 4 Mar 2015 13:17:15 -0800
+Subject: [outages] Level3 not reaching AWS / Netflix in Southwest with IPv6
+Message-ID: <CAD6AjGSpV3C388M7uLOe0=GjQ=bTjrMT4HwidFq2Q4zFCLdG5g@mail.gmail.com>
+
+Folks,
+
+I posted a ticket with Level3 on this issue, wondering if others are seeing
+the same thing
+
+Using the Level3 looking glass in Chicago i can ping the
+www.netflix.com at 2620:108:700f::36f5:7e0f
+-- which is hosted on AWS
+
+See image https://imgur.com/cROsraJ
+
+But i cannot ping the same IPv6 address from the Level3 Phoenix looking
+glass site, which lines up with the issues i see in the southwest on Level3
+IPv6
+
+https://i.imgur.com/0AhUqnO.png
+
+Hopefully someone at Level3 can resolve this issue soon.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/bf9bc874/attachment.html>
+
+From cb.list6 at gmail.com  Wed Mar  4 16:50:15 2015
+From: cb.list6 at gmail.com (Ca By)
+Date: Wed, 4 Mar 2015 13:50:15 -0800
+Subject: [outages] Level3 not reaching AWS / Netflix in Southwest with
+	IPv6
+In-Reply-To: <CAD6AjGSpV3C388M7uLOe0=GjQ=bTjrMT4HwidFq2Q4zFCLdG5g@mail.gmail.com>
+References: <CAD6AjGSpV3C388M7uLOe0=GjQ=bTjrMT4HwidFq2Q4zFCLdG5g@mail.gmail.com>
+Message-ID: <CAD6AjGRc2Ln2rVMsp7k7K-pM+7Gqii9ab36JxnRV1-1uLgXd+g@mail.gmail.com>
+
+This Level3 outtage seems to be very broad
+
+Here their LG can reach Wikipedia in Denver
+
+https://imgur.com/gL4TEJX
+
+But they cannot reach wikipedia in Miami
+
+https://imgur.com/1FKP1tn
+
+In Miami, Level3 also cannot reach www.he.net
+
+https://imgur.com/jSjDScb
+
+but they can reach www.he.net in NYC
+
+https://imgur.com/o6hgU8Z
+
+
+
+On Wed, Mar 4, 2015 at 1:17 PM, Ca By <cb.list6 at gmail.com> wrote:
+
+> Folks,
+>
+> I posted a ticket with Level3 on this issue, wondering if others are
+> seeing the same thing
+>
+> Using the Level3 looking glass in Chicago i can ping the www.netflix.com
+> at 2620:108:700f::36f5:7e0f -- which is hosted on AWS
+>
+> See image https://imgur.com/cROsraJ
+>
+> But i cannot ping the same IPv6 address from the Level3 Phoenix looking
+> glass site, which lines up with the issues i see in the southwest on Level3
+> IPv6
+>
+> https://i.imgur.com/0AhUqnO.png
+>
+> Hopefully someone at Level3 can resolve this issue soon.
+>
+>
+>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150304/6734505e/attachment.html>
+
+From cburwell at gmail.com  Thu Mar  5 08:11:31 2015
+From: cburwell at gmail.com (Chris Burwell)
+Date: Thu, 5 Mar 2015 08:11:31 -0500
+Subject: [outages] Ethernet access in chicago north suburbs.
+In-Reply-To: <E0CEBDFFBB54DC45857151BA2C56841B012525497D@MUNPRDMBXA1.medline.com>
+References: <E0CEBDFFBB54DC45857151BA2C56841B012525497D@MUNPRDMBXA1.medline.com>
+Message-ID: <CAC8zsjMeC4y9YMyE4wx+7n2PweC6H9k0waM+XuK06STcapR+WA@mail.gmail.com>
+
+We had a service outage yesterday that rides across an AT&T circuit on the
+last mile. Our site is west of Chicago.
+
+Nothing conclusive this morning from AT&T about the reason for the outage.
+
+On Wed, Mar 4, 2015 at 1:51 PM, Dantzig, Brian via Outages <
+outages at outages.org> wrote:
+
+>  Anyone else seeing problems with at&t Ethernet access in Chicago far
+> north suburbs. We are seeing problems with multiple carrier connection
+> across multiple Cos. There are delivered on at&t ehternet. Specifically, we
+> see total loss of traffic for 26 seconds to over 1 minute. This is
+> occurring at 30-60 minute intervals.
+>
+> Brian
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150305/8e58b9f4/attachment.html>
+
+From ivan.kovacevic at startelecom.ca  Fri Mar  6 15:42:30 2015
+From: ivan.kovacevic at startelecom.ca (Ivan Kovacevic)
+Date: Fri, 6 Mar 2015 15:42:30 -0500
+Subject: [outages] gtt.net issues in NYC?
+Message-ID: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+
+Pinging from Toronto Canada:
+
+
+
+Host                                       Loss%  Last   Avg  Best  Wrst
+StDev
+
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+
+4. ae1-128.tor10.ip4.gtt.net                0.0%   0.3   3.2   0.2  63.5
+10.6
+
+5. xe-10-3-6.nyc41.ip4.gtt.net              0.0%  22.1  21.7  16.3  27.1
+2.2
+
+6. nobis-gw.ip4.gtt.net                     3.8%  29.8  25.4  18.1  35.9
+4.1
+
+7. 23.105.128.30.rdns.as15003.net           1.9%  23.6  23.1  18.2  47.3
+3.3
+
+8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+0.9
+
+
+
+
+
+
+
+Best Regards,
+
+
+
+Ivan Kovacevic
+
+Vice President, Client Services
+
+Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/a2a1241e/attachment.html>
+
+From ivan.kovacevic at startelecom.ca  Fri Mar  6 15:43:36 2015
+From: ivan.kovacevic at startelecom.ca (Ivan Kovacevic)
+Date: Fri, 6 Mar 2015 15:43:36 -0500
+Subject: [outages] gtt.net issues in NYC?
+In-Reply-To: cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com
+References: cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com
+Message-ID: <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+
+Sorry, for clarity ? the issue = 2-3% packet loss.
+
+
+
+*From:* Ivan Kovacevic [mailto:ivan.kovacevic at startelecom.ca]
+*Sent:* Friday, March 06, 2015 3:43 PM
+*To:* 'outages at outages.org'
+*Subject:* gtt.net issues in NYC?
+
+
+
+Pinging from Toronto Canada:
+
+
+
+Host                                       Loss%  Last   Avg  Best  Wrst
+StDev
+
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+
+4. ae1-128.tor10.ip4.gtt.net                0.0%   0.3   3.2   0.2  63.5
+10.6
+
+5. xe-10-3-6.nyc41.ip4.gtt.net              0.0%  22.1  21.7  16.3  27.1
+2.2
+
+6. nobis-gw.ip4.gtt.net                     3.8%  29.8  25.4  18.1  35.9
+4.1
+
+7. 23.105.128.30.rdns.as15003.net           1.9%  23.6  23.1  18.2  47.3
+3.3
+
+8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+0.9
+
+
+
+
+
+
+
+Best Regards,
+
+
+
+Ivan Kovacevic
+
+Vice President, Client Services
+
+Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/6bc20d79/attachment.html>
+
+From patrick at ianai.net  Fri Mar  6 15:47:48 2015
+From: patrick at ianai.net (Patrick W. Gilmore)
+Date: Fri, 6 Mar 2015 15:47:48 -0500
+Subject: [outages] gtt.net issues in NYC?
+In-Reply-To: <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+References: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+ <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+Message-ID: <379C4EDC-51F8-4C81-95AA-0FE0BCB814E5@ianai.net>
+
+I see 0% loss:
+> 8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co/>  0.0%  14.8  15.0  14.1  18.6   0.9
+
+Remember, if the last hop has 0% loss and normal latency, intermediate hops are irrelevant.
+
+From the former CTO of GTT:
+https://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+
+-- 
+TTFN,
+patrick
+
+> On Mar 06, 2015, at 15:43 , Ivan Kovacevic via Outages <outages at outages.org> wrote:
+> 
+>  
+>  
+> Sorry, for clarity ? the issue = 2-3% packet loss. 
+>  
+> From: Ivan Kovacevic [mailto:ivan.kovacevic at startelecom.ca <mailto:ivan.kovacevic at startelecom.ca>] 
+> Sent: Friday, March 06, 2015 3:43 PM
+> To: 'outages at outages.org <mailto:outages at outages.org>'
+> Subject: gtt.net <http://gtt.net/> issues in NYC?
+>  
+> Pinging from Toronto Canada: 
+>  
+> Host                                       Loss%  Last   Avg  Best  Wrst StDev
+> 1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+> 2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+> 3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+> 4. ae1-128.tor10.ip4.gtt.net <http://ae1-128.tor10.ip4.gtt.net/>                0.0%   0.3   3.2   0.2  63.5  10.6
+> 5. xe-10-3-6.nyc41.ip4.gtt.net <http://xe-10-3-6.nyc41.ip4.gtt.net/>              0.0%  22.1  21.7  16.3  27.1   2.2
+> 6. nobis-gw.ip4.gtt.net <http://nobis-gw.ip4.gtt.net/>                     3.8%  29.8  25.4  18.1  35.9   4.1
+> 7. 23.105.128.30.rdns.as15003.net <http://23.105.128.30.rdns.as15003.net/>           1.9%  23.6  23.1  18.2  47.3   3.3
+> 8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co/>  0.0%  14.8  15.0  14.1  18.6   0.9
+>  
+>  
+>  
+> Best Regards,
+>  
+> Ivan Kovacevic
+> Vice President, Client Services
+> Star Telecom | www.startelecom.ca <http://www.startelecom.ca/> | SIP Based Services for Contact Centers 
+>  
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/c40809f3/attachment-0001.html>
+
+From ivan.kovacevic at startelecom.ca  Fri Mar  6 15:55:31 2015
+From: ivan.kovacevic at startelecom.ca (Ivan Kovacevic)
+Date: Fri, 6 Mar 2015 15:55:31 -0500
+Subject: [outages] gtt.net issues in NYC?
+In-Reply-To: <379C4EDC-51F8-4C81-95AA-0FE0BCB814E5@ianai.net>
+References: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+ <69dddae61b91cfedec5dc1c1c91232f8@mail.gmail.com>
+ <379C4EDC-51F8-4C81-95AA-0FE0BCB814E5@ianai.net>
+Message-ID: <fd29d95879a1cf60c9ec24341af429ab@mail.gmail.com>
+
+It looks like it had resolved itself, but then just re-appeared:
+
+
+
+5. xe-10-3-6.nyc41.ip4.gtt.net              3.0%  29.6  25.1  15.2  49.9
+4.3
+
+6. nobis-gw.ip4.gtt.net                     2.3%  14.2  24.7  14.2  43.5
+7.0
+
+7. 23.105.128.30.rdns.as15003.net           3.0%  32.2  26.4  16.5  66.0
+4.5
+
+8. 173.234.233.242.rdns.ubiquityservers.co  0.7%  31.2  19.0  14.1  32.6
+6.5
+
+
+
+Best Regards,
+
+
+
+Ivan Kovacevic
+
+
+
+*From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *Patrick
+W. Gilmore via Outages
+*Sent:* Friday, March 06, 2015 3:48 PM
+*To:* outages at outages.org
+*Subject:* Re: [outages] gtt.net issues in NYC?
+
+
+
+I see 0% loss:
+
+8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+0.9
+
+
+
+Remember, if the last hop has 0% loss and normal latency, intermediate hops
+are irrelevant.
+
+
+
+>From the former CTO of GTT:
+
+https://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+
+
+
+-- 
+
+TTFN,
+
+patrick
+
+
+
+On Mar 06, 2015, at 15:43 , Ivan Kovacevic via Outages <outages at outages.org>
+wrote:
+
+
+
+
+
+
+
+Sorry, for clarity ? the issue = 2-3% packet loss.
+
+
+
+*From:* Ivan Kovacevic [mailto:ivan.kovacevic at startelecom.ca]
+*Sent:* Friday, March 06, 2015 3:43 PM
+*To:* 'outages at outages.org'
+*Subject:* gtt.net issues in NYC?
+
+
+
+Pinging from Toronto Canada:
+
+
+
+Host                                       Loss%  Last   Avg  Best  Wrst
+StDev
+
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+
+4. ae1-128.tor10.ip4.gtt.net                0.0%   0.3   3.2   0.2  63.5
+10.6
+
+5. xe-10-3-6.nyc41.ip4.gtt.net              0.0%  22.1  21.7  16.3  27.1
+2.2
+
+6. nobis-gw.ip4.gtt.net                     3.8%  29.8  25.4  18.1  35.9
+4.1
+
+7. 23.105.128.30.rdns.as15003.net           1.9%  23.6  23.1  18.2  47.3
+3.3
+
+8. 173.234.233.242.rdns.ubiquityservers.co  0.0%  14.8  15.0  14.1  18.6
+0.9
+
+
+
+
+
+
+
+Best Regards,
+
+
+
+Ivan Kovacevic
+
+Vice President, Client Services
+
+Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/7d9ff3bd/attachment.html>
+
+From paul at paulstewart.org  Fri Mar  6 16:00:50 2015
+From: paul at paulstewart.org (Paul Stewart)
+Date: Fri, 6 Mar 2015 16:00:50 -0500
+Subject: [outages] gtt.net issues in NYC?
+In-Reply-To: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+References: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+Message-ID: <036a01d05850$a0beef40$e23ccdc0$@paulstewart.org>
+
+I?m not sure where you see a problem?
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+Sent: Friday, March 6, 2015 3:43 PM
+To: outages at outages.org
+Subject: [outages] gtt.net issues in NYC?
+
+ 
+
+Pinging from Toronto Canada: 
+
+ 
+
+Host                                       Loss%  Last   Avg  Best  Wrst StDev
+
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+
+4. ae1-128.tor10.ip4.gtt.net <http://ae1-128.tor10.ip4.gtt.net>                 0.0%   0.3   3.2   0.2  63.5  10.6
+
+5. xe-10-3-6.nyc41.ip4.gtt.net <http://xe-10-3-6.nyc41.ip4.gtt.net>               0.0%  22.1  21.7  16.3  27.1   2.2
+
+6. nobis-gw.ip4.gtt.net <http://nobis-gw.ip4.gtt.net>                      3.8%  29.8  25.4  18.1  35.9   4.1
+
+7. 23.105.128.30.rdns.as15003.net <http://23.105.128.30.rdns.as15003.net>            1.9%  23.6  23.1  18.2  47.3   3.3
+
+8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co>   0.0%  14.8  15.0  14.1  18.6   0.9
+
+ 
+
+ 
+
+ 
+
+Best Regards,
+
+ 
+
+Ivan Kovacevic
+
+Vice President, Client Services
+
+Star Telecom |  <http://www.startelecom.ca/> www.startelecom.ca | SIP Based Services for Contact Centers 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/915d0970/attachment-0001.html>
+
+From Joseph_Garbacz at cable.comcast.com  Fri Mar  6 16:14:26 2015
+From: Joseph_Garbacz at cable.comcast.com (Garbacz, Joseph)
+Date: Fri, 6 Mar 2015 21:14:26 +0000
+Subject: [outages] gtt.net issues in NYC?
+Message-ID: <7CA93345C16BEA4991FE71119BB915F84139A81B@PACDCEXMB05.cable.comcast.com>
+
+The destination has 0(zero) loss, what you are pointing out is hops prior to the destination showing loss. Most likely what you are seeing is some sort of ICMP deprioritization, which is a standard practice for many isp.
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+Sent: Friday, March 6, 2015 3:43 PM
+To: outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] gtt.net issues in NYC?
+
+Pinging from Toronto Canada:
+
+Host                                       Loss%  Last   Avg  Best  Wrst StDev
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+4. ae1-128.tor10.ip4.gtt.net<http://ae1-128.tor10.ip4.gtt.net>                0.0%   0.3   3.2   0.2  63.5  10.6
+5. xe-10-3-6.nyc41.ip4.gtt.net<http://xe-10-3-6.nyc41.ip4.gtt.net>              0.0%  22.1  21.7  16.3  27.1   2.2
+6. nobis-gw.ip4.gtt.net<http://nobis-gw.ip4.gtt.net>                     3.8%  29.8  25.4  18.1  35.9   4.1
+7. 23.105.128.30.rdns.as15003.net<http://23.105.128.30.rdns.as15003.net>           1.9%  23.6  23.1  18.2  47.3   3.3
+8. 173.234.233.242.rdns.ubiquityservers.co<http://173.234.233.242.rdns.ubiquityservers.co>  0.0%  14.8  15.0  14.1  18.6   0.9
+
+
+
+Best Regards,
+
+Ivan Kovacevic
+Vice President, Client Services
+Star Telecom | www.startelecom.ca<http://www.startelecom.ca/> | SIP Based Services for Contact Centers
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/198e8fe2/attachment.html>
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: ATT00001.txt
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/198e8fe2/attachment.txt>
+
+From frnkblk at iname.com  Fri Mar  6 17:08:21 2015
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 6 Mar 2015 16:08:21 -0600
+Subject: [outages] gtt.net issues in NYC?
+In-Reply-To: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+References: <cf4fefd9fb34b3c30b3645256f249677@mail.gmail.com>
+Message-ID: <001801d0585a$0ec5a840$2c50f8c0$@iname.com>
+
+I?m not sure if it?s any solace, but we saw IPv6 access to www.ntt.com <http://www.ntt.com>  (both AAAA?s), www.juniper.net <http://www.juniper.net> , www.att.com <http://www.att.com> , and www.cisco.com <http://www.cisco.com>  interrupted from 3:25 pm to 3:30 pm (U.S. Central).  All five hosts share the same second-last hop: ae2-169.cr2.ord1.ip6.gtt.net (2001:668:0:3::8000:3582)
+
+ 
+
+Here?s a sample tracereoute:
+
+ 
+
+root at nagios:~/bin# tcptraceroute6 www.juniper.net
+
+traceroute to www.juniper.net (2001:590:1808:18c::720) from 2607:fe28:0:1000::5, port 80, from port 45112, 30 hops max, 60 bytes packets
+
+1  router-core.mtcnet.net (2607:fe28:0:1000::1)  0.508 ms  0.289 ms  0.207 ms
+
+2  sxct.spnc.mtcnet.net (2607:fe28:11:1002::194)  0.195 ms  0.122 ms  0.135 ms
+
+3  v6-premier.movl-mlx.fbnt.netins.net (2001:5f8:7f0a:1::1)  4.937 ms  4.889 ms  14.795 ms
+
+4  v6-ins-kb1-te-12-2-3031.kmrr.netins.net (2001:5f8:2:2::1)  9.766 ms  8.728 ms  8.720 ms
+
+5  v6-ins-kc1-et-9-3.kmrr.netins.net (2001:5f8::28:1)  8.930 ms  8.802 ms  8.911 ms
+
+6  2001:438:fffe::e99 (2001:438:fffe::e99)  19.498 ms  19.340 ms  19.339 ms
+
+7  ae5.cr1.ord2.us.zip.zayo.com (2001:438:ffff::407d:1e59)  28.562 ms  27.252 ms  30.071 ms
+
+8  ae0.cr2.ord2.us.zip.zayo.com (2001:438:ffff::407d:14f6)  27.709 ms  27.740 ms  27.693 ms
+
+9  ae6.cr2.lga5.us.zip.zayo.com (2001:438:ffff::407d:181d)  47.344 ms  47.428 ms  47.429 ms
+
+10  xe-0-3-1.er2.lga5.us.zip.zayo.com (2001:438:ffff::407d:1551)  43.846 ms  43.850 ms  43.844 ms
+
+11  2001:438:ffff::407d:e06 (2001:438:ffff::407d:e06)  43.477 ms  44.502 ms  45.333 ms
+
+12  2001:668:0:2:ffff:0:5995:bbba (2001:668:0:2:ffff:0:5995:bbba)  37.141 ms  37.465 ms  37.761 ms
+
+13  ae2-169.cr2.ord1.ip6.gtt.net (2001:668:0:3::8000:3582)  37.230 ms  37.203 ms  37.307 ms
+
+14  2001:590:1808:18c::720 (2001:590:1808:18c::720)  37.306 ms [open]  37.352 ms  37.346 ms
+
+root at nagios:~/bin#
+
+ 
+
+Regards,
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ivan Kovacevic via Outages
+Sent: Friday, March 06, 2015 2:43 PM
+To: outages at outages.org
+Subject: [outages] gtt.net issues in NYC?
+
+ 
+
+Pinging from Toronto Canada: 
+
+ 
+
+Host                                       Loss%  Last   Avg  Best  Wrst StDev
+
+1. X.X.X.X     0.0%   2.5  11.0   0.5  99.2  11.3
+
+2. X.X.X.X     0.0%   0.5   7.6   0.4 313.9  37.5
+
+3. X.X.X.X     0.0%   0.5   4.5   0.4 126.9  18.0
+
+4. ae1-128.tor10.ip4.gtt.net <http://ae1-128.tor10.ip4.gtt.net>                 0.0%   0.3   3.2   0.2  63.5  10.6
+
+5. xe-10-3-6.nyc41.ip4.gtt.net <http://xe-10-3-6.nyc41.ip4.gtt.net>               0.0%  22.1  21.7  16.3  27.1   2.2
+
+6. nobis-gw.ip4.gtt.net <http://nobis-gw.ip4.gtt.net>                      3.8%  29.8  25.4  18.1  35.9   4.1
+
+7. 23.105.128.30.rdns.as15003.net <http://23.105.128.30.rdns.as15003.net>            1.9%  23.6  23.1  18.2  47.3   3.3
+
+8. 173.234.233.242.rdns.ubiquityservers.co <http://173.234.233.242.rdns.ubiquityservers.co>   0.0%  14.8  15.0  14.1  18.6   0.9
+
+ 
+
+ 
+
+ 
+
+Best Regards,
+
+ 
+
+Ivan Kovacevic
+
+Vice President, Client Services
+
+Star Telecom |  <http://www.startelecom.ca/> www.startelecom.ca | SIP Based Services for Contact Centers 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150306/2e4928cb/attachment-0001.html>
+
+From feby.francis at crosstel.com  Sun Mar  8 00:05:45 2015
+From: feby.francis at crosstel.com (Feby Francis)
+Date: Sun, 8 Mar 2015 00:05:45 -0500
+Subject: [outages]  dns cache flush request
+Message-ID: <CAEcHfMMAg0g0jHP_wkJzbLqvikM8d4yhCOr_TX8M21No2Rbf6w@mail.gmail.com>
+
+can you please flush cache for sbc.voip.cabletel.net
+
+
+Feby Francis
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150308/af49a973/attachment.html>
+
+From frnkblk at iname.com  Sun Mar  8 09:07:23 2015
+From: frnkblk at iname.com (Frank Bulk (iname.com))
+Date: Sun, 8 Mar 2015 08:07:23 -0500
+Subject: [outages] dns cache flush request
+In-Reply-To: <CAEcHfMMAg0g0jHP_wkJzbLqvikM8d4yhCOr_TX8M21No2Rbf6w@mail.gmail.com>
+References: <CAEcHfMMAg0g0jHP_wkJzbLqvikM8d4yhCOr_TX8M21No2Rbf6w@mail.gmail.com>
+Message-ID: <001601d059a0$d1e157b0$75a40710$@iname.com>
+
+Please provide the bad output and good, expected output.
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Feby Francis via Outages
+Sent: Saturday, March 07, 2015 11:06 PM
+To: outages at outages.org
+Subject: [outages] dns cache flush request
+
+ 
+
+can you please flush cache for sbc.voip.cabletel.net <http://sbc.voip.cabletel.net>  
+
+ 
+
+
+
+
+Feby Francis
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150308/b18e6d2e/attachment.html>
+
+From bortzmeyer at nic.fr  Sun Mar  8 11:12:13 2015
+From: bortzmeyer at nic.fr (Stephane Bortzmeyer)
+Date: Sun, 8 Mar 2015 16:12:13 +0100
+Subject: [outages] dns cache flush request
+In-Reply-To: <001601d059a0$d1e157b0$75a40710$@iname.com>
+References: <CAEcHfMMAg0g0jHP_wkJzbLqvikM8d4yhCOr_TX8M21No2Rbf6w@mail.gmail.com>
+ <001601d059a0$d1e157b0$75a40710$@iname.com>
+Message-ID: <20150308151213.GA22518@nic.fr>
+
+On Sun, Mar 08, 2015 at 08:07:23AM -0500,
+ Frank Bulk (iname.com) via Outages <outages at outages.org> wrote 
+ a message of 145 lines which said:
+
+> Please provide the bad output and good, expected output.
+
+And send email from a proper address. And fix half of your name
+servers.
+
+% check-soa -i cabletel.net
+dns1.cabletel.net.
+	76.73.195.117: ERROR: Timeout
+dns2.cabletel.net.
+	76.73.195.118: OK: 60 (101 ms)
+
+From james at atlanticmetro.net  Tue Mar 10 17:48:26 2015
+From: james at atlanticmetro.net (James Cornman)
+Date: Tue, 10 Mar 2015 17:48:26 -0400
+Subject: [outages] Verizon Northern NJ
+Message-ID: <-7282723577044655635@unknownmsgid>
+
+We've had a lot of customers that are having problems with Verizon
+FiOS and other IP services within the past 40 minutes. Mainly
+concentrated in the northern New Jersey area. Are there any other
+reports of this?
+
+-James
+
+From dan at langille.org  Tue Mar 10 18:06:30 2015
+From: dan at langille.org (Dan Langille)
+Date: Tue, 10 Mar 2015 18:06:30 -0400
+Subject: [outages] Verizon Northern NJ
+In-Reply-To: <-7282723577044655635@unknownmsgid>
+References: <-7282723577044655635@unknownmsgid>
+Message-ID: <C9F41142-CBCA-426C-A84B-3C2E65BAE0D4@langille.org>
+
+
+> On Mar 10, 2015, at 5:48 PM, James Cornman via Outages <outages at outages.org> wrote:
+> 
+> We've had a lot of customers that are having problems with Verizon
+> FiOS and other IP services within the past 40 minutes. Mainly
+> concentrated in the northern New Jersey area. Are there any other
+> reports of this?
+
+I'm a Verizon customer and from home between 5:16pm to about 5:41pm I had no connection to various services 
+HE.net and various other places. I'm in Media, PA.  All good now.
+
+? 
+Dan Langille
+http://langille.org/
+
+
+
+
+
+
+From dspataro at corp.nac.net  Tue Mar 10 18:06:30 2015
+From: dspataro at corp.nac.net (Dan Spataro)
+Date: Tue, 10 Mar 2015 22:06:30 +0000
+Subject: [outages] Issues reaching Verion NJ/NY
+Message-ID: <9c786d409dda4f7abebc5e27e801fff2@exch2013-1.hq.nac.net>
+
+At about 5:06pm we completely lost connectivity to Verizon via Telia. We since routed Verizon through NTT and we are now seeing 70ms+ latency in Verizons network. One of our end users is reporting problems reaching twitter and other sites from their NJ FIOS. Anyone else seeing problems?
+
+
+4. ae-30.r06.nycmny01.us.bb.gin.ntt.net                                                                                                                                                           0.0%    15    3.0   2.4   1.9   3.0   0.3
+ 5. 0.xe-7-1-0.BR3.NYC4.ALTER.NET                                                                                                                                                                  0.0%    15    1.6   2.9   1.4  12.1   3.2
+    xe-0.verizonbusiness.nycmny01.us.bb.gin.ntt.net
+    0.xe-11-3-0.BR3.NYC4.ALTER.NET
+    0.xe-11-3-0.BR3.NYC4.ALTER.NET
+ 6. Bundle-Ether1100.NWRKNJ-LCR-22.verizon-gni.NET                                                                                                                                                 0.0%    15   78.5  81.1  78.2  84.5   2.1
+    Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+    Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+ 7. ???
+ 8. pool-173-70-118-168.nwrknj.fios.verizon.net                                                                                                                                                    0.0%    14   89.9  87.4  82.3  90.8   2.5
+
+
+
+
+Daniel Spataro
+Net Access Corporation
+(v) 973-590-5144
+(e) dspataro at corp.nac.net
+
+
+
+From jdc at koitsu.org  Tue Mar 10 18:46:56 2015
+From: jdc at koitsu.org (Jeremy Chadwick)
+Date: Tue, 10 Mar 2015 15:46:56 -0700
+Subject: [outages] Verizon Northern NJ
+In-Reply-To: <-7282723577044655635@unknownmsgid>
+References: <-7282723577044655635@unknownmsgid>
+Message-ID: <20150310224656.GA33954@icarus.home.lan>
+
+This just got posted (Email seems delayed but the web archive[1] seems
+fine): https://puck.nether.net/pipermail/outages/2015-March/007661.html
+
+A colleague of mine on Verizon FiOS in NY reported to me the exact same
+problems as being reported here.  In other words: it wasn't just you.
+
+
+[1]: https://puck.nether.net/pipermail/outages/2015-March/thread.html
+
+-- 
+| Jeremy Chadwick                                   jdc at koitsu.org |
+| UNIX Systems Administrator                http://jdc.koitsu.org/ |
+| Making life hard for others since 1977.             PGP 4BD6C0CB |
+
+On Tue, Mar 10, 2015 at 05:48:26PM -0400, James Cornman via Outages wrote:
+> We've had a lot of customers that are having problems with Verizon
+> FiOS and other IP services within the past 40 minutes. Mainly
+> concentrated in the northern New Jersey area. Are there any other
+> reports of this?
+> 
+> -James
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From joelja at bogus.com  Tue Mar 10 19:16:31 2015
+From: joelja at bogus.com (joel jaeggli)
+Date: Tue, 10 Mar 2015 16:16:31 -0700
+Subject: [outages] Verizon Northern NJ
+In-Reply-To: <-7282723577044655635@unknownmsgid>
+References: <-7282723577044655635@unknownmsgid>
+Message-ID: <54FF7B4F.9070605@bogus.com>
+
+On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+> OS and other IP services within the past 40 minutes. Mainly
+> concentrated in the northern New Jersey area. Are there any other
+> reports of this?
+
+we have customer who can't reach us for there yeah.
+
+> -James
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 243 bytes
+Desc: OpenPGP digital signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150310/a6e1ef9d/attachment.sig>
+
+From spork at bway.net  Tue Mar 10 20:00:24 2015
+From: spork at bway.net (Charles Sprickman)
+Date: Tue, 10 Mar 2015 20:00:24 -0400
+Subject: [outages] Verizon Northern NJ
+In-Reply-To: <54FF7B4F.9070605@bogus.com>
+References: <-7282723577044655635@unknownmsgid> <54FF7B4F.9070605@bogus.com>
+Message-ID: <D6D46EA5-6D92-470D-A188-5A4C1DFCC90D@bway.net>
+
+From Optonline in Morristown I?m seeing drops to a server off business FiOS outside Philly.
+
+Looks like there?s no intermediate between OOL and VZ either:
+
+ 1  10.240.176.233 (10.240.176.233)  8.719 ms  7.099 ms  7.766 ms
+ 2  67.59.225.220 (67.59.225.220)  8.379 ms  10.610 ms  7.925 ms
+ 3  rtr2-ge1-10.mhe.prnynj.cv.net (67.83.242.5)  9.210 ms
+    ool-4353f20d.dyn.optonline.net (67.83.242.13)  9.598 ms  9.476 ms
+ 4  64.15.7.49 (64.15.7.49)  9.244 ms
+    65.19.119.193 (65.19.119.193)  9.222 ms
+    64.15.7.41 (64.15.7.41)  8.662 ms
+ 5  451be0d2.cst.lightpath.net (65.19.120.210)  11.150 ms
+    64.15.0.52 (64.15.0.52)  11.240 ms
+    451be0d2.cst.lightpath.net (65.19.120.210)  11.470 ms
+ 6  0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  9.715 ms
+    0.TenGigE0-0-0-6.GW8.EWR6.ALTER.NET (152.179.61.85)  16.414 ms
+    0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  10.204 ms
+ 7  * B400.PHLAPA-LCR-21.verizon-gni.net (130.81.163.133)  21.193 ms
+    P0-4-0-0.PHLAPA-LCR-22.verizon-gni.net (130.81.22.61)  19.623 ms
+ 8  * * *
+ 9  static-xxxx 25.310 ms  20.195 ms  24.948 ms
+
+VZ has been having some interesting issues the past few months.  Maybe the last of the UUNet people finally left. :)
+
+Charles
+
+On Mar 10, 2015, at 7:16 PM, joel jaeggli via Outages <outages at outages.org> wrote:
+
+> On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+>> OS and other IP services within the past 40 minutes. Mainly
+>> concentrated in the northern New Jersey area. Are there any other
+>> reports of this?
+> 
+> we have customer who can't reach us for there yeah.
+> 
+>> -James
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: Message signed with OpenPGP using GPGMail
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150310/0c3b93e8/attachment.sig>
+
+From jason at lixfeld.ca  Tue Mar 10 21:02:19 2015
+From: jason at lixfeld.ca (Jason Lixfeld)
+Date: Tue, 10 Mar 2015 21:02:19 -0400
+Subject: [outages] Verizon Northern NJ
+In-Reply-To: <D6D46EA5-6D92-470D-A188-5A4C1DFCC90D@bway.net>
+References: <-7282723577044655635@unknownmsgid> <54FF7B4F.9070605@bogus.com>
+ <D6D46EA5-6D92-470D-A188-5A4C1DFCC90D@bway.net>
+Message-ID: <DFE03362-9C32-4CD9-9D53-6B7D8B518D9B@lixfeld.ca>
+
+Has this cleared up for folks?  I have one customer who reported issues reaching Verizon Toronto via Level 3 around the time when it was first reported here (just after 5pm EDT).  I?m waiting for confirmation that the issue has cleared for them; I don?t see it myself from the same ASN as the customer who reported the problem, but I figured I?d ask anyway.
+
+> On Mar 10, 2015, at 8:00 PM, Charles Sprickman via Outages <outages at outages.org> wrote:
+> 
+> From Optonline in Morristown I?m seeing drops to a server off business FiOS outside Philly.
+> 
+> Looks like there?s no intermediate between OOL and VZ either:
+> 
+> 1  10.240.176.233 (10.240.176.233)  8.719 ms  7.099 ms  7.766 ms
+> 2  67.59.225.220 (67.59.225.220)  8.379 ms  10.610 ms  7.925 ms
+> 3  rtr2-ge1-10.mhe.prnynj.cv.net (67.83.242.5)  9.210 ms
+>    ool-4353f20d.dyn.optonline.net (67.83.242.13)  9.598 ms  9.476 ms
+> 4  64.15.7.49 (64.15.7.49)  9.244 ms
+>    65.19.119.193 (65.19.119.193)  9.222 ms
+>    64.15.7.41 (64.15.7.41)  8.662 ms
+> 5  451be0d2.cst.lightpath.net (65.19.120.210)  11.150 ms
+>    64.15.0.52 (64.15.0.52)  11.240 ms
+>    451be0d2.cst.lightpath.net (65.19.120.210)  11.470 ms
+> 6  0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  9.715 ms
+>    0.TenGigE0-0-0-6.GW8.EWR6.ALTER.NET (152.179.61.85)  16.414 ms
+>    0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  10.204 ms
+> 7  * B400.PHLAPA-LCR-21.verizon-gni.net (130.81.163.133)  21.193 ms
+>    P0-4-0-0.PHLAPA-LCR-22.verizon-gni.net (130.81.22.61)  19.623 ms
+> 8  * * *
+> 9  static-xxxx 25.310 ms  20.195 ms  24.948 ms
+> 
+> VZ has been having some interesting issues the past few months.  Maybe the last of the UUNet people finally left. :)
+> 
+> Charles
+> 
+> On Mar 10, 2015, at 7:16 PM, joel jaeggli via Outages <outages at outages.org> wrote:
+> 
+>> On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+>>> OS and other IP services within the past 40 minutes. Mainly
+>>> concentrated in the northern New Jersey area. Are there any other
+>>> reports of this?
+>> 
+>> we have customer who can't reach us for there yeah.
+>> 
+>>> -James
+>> 
+>> 
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From pat at danthemute.com  Wed Mar 11 12:09:45 2015
+From: pat at danthemute.com (Patrick Ready)
+Date: Wed, 11 Mar 2015 12:09:45 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 6
+In-Reply-To: <mailman.7.1426089602.16024.outages@outages.org>
+References: <mailman.7.1426089602.16024.outages@outages.org>
+Message-ID: <CAPLUD6ADgUET=15RTaKxjvPj4bhPxpRimCF5Og9MR1zheE7sbA@mail.gmail.com>
+
+I work for a company that services VOIP phones in the Philly/South Jersey
+area. We saw a various ammount of Verizon FioS/IDE connections lose the
+ability to route to vendors on various places on the internet around this
+time. We failed the ones we could over to a back up connection and
+corrected issues. Suspected higher end routing change/issue.
+
+On Wed, Mar 11, 2015 at 12:00 PM, <outages-request at outages.org> wrote:
+
+> Send Outages mailing list submissions to
+>         outages at outages.org
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>         https://puck.nether.net/mailman/listinfo/outages
+> or, via email, send a message with subject or body 'help' to
+>         outages-request at outages.org
+>
+> You can reach the person managing the list at
+>         outages-owner at outages.org
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Outages digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Verizon Northern NJ (James Cornman)
+>    2. Re: Verizon Northern NJ (Dan Langille)
+>    3. Issues reaching Verion NJ/NY (Dan Spataro)
+>    4. Re: Verizon Northern NJ (Jeremy Chadwick)
+>    5. Re: Verizon Northern NJ (joel jaeggli)
+>    6. Re: Verizon Northern NJ (Charles Sprickman)
+>    7. Re: Verizon Northern NJ (Jason Lixfeld)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Tue, 10 Mar 2015 17:48:26 -0400
+> From: James Cornman <james at atlanticmetro.net>
+> To: "outages at outages.org" <outages at outages.org>
+> Subject: [outages] Verizon Northern NJ
+> Message-ID: <-7282723577044655635 at unknownmsgid>
+> Content-Type: text/plain; charset=UTF-8
+>
+> We've had a lot of customers that are having problems with Verizon
+> FiOS and other IP services within the past 40 minutes. Mainly
+> concentrated in the northern New Jersey area. Are there any other
+> reports of this?
+>
+> -James
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Tue, 10 Mar 2015 18:06:30 -0400
+> From: Dan Langille <dan at langille.org>
+> To: James Cornman <james at atlanticmetro.net>
+> Cc: "outages at outages.org" <outages at outages.org>
+> Subject: Re: [outages] Verizon Northern NJ
+> Message-ID: <C9F41142-CBCA-426C-A84B-3C2E65BAE0D4 at langille.org>
+> Content-Type: text/plain; charset=utf-8
+>
+>
+> > On Mar 10, 2015, at 5:48 PM, James Cornman via Outages <
+> outages at outages.org> wrote:
+> >
+> > We've had a lot of customers that are having problems with Verizon
+> > FiOS and other IP services within the past 40 minutes. Mainly
+> > concentrated in the northern New Jersey area. Are there any other
+> > reports of this?
+>
+> I'm a Verizon customer and from home between 5:16pm to about 5:41pm I had
+> no connection to various services
+> HE.net and various other places. I'm in Media, PA.  All good now.
+>
+> ?
+> Dan Langille
+> http://langille.org/
+>
+>
+>
+>
+>
+>
+>
+> ------------------------------
+>
+> Message: 3
+> Date: Tue, 10 Mar 2015 22:06:30 +0000
+> From: Dan Spataro <dspataro at corp.nac.net>
+> To: "outages at outages.org" <outages at outages.org>
+> Subject: [outages] Issues reaching Verion NJ/NY
+> Message-ID: <9c786d409dda4f7abebc5e27e801fff2 at exch2013-1.hq.nac.net>
+> Content-Type: text/plain; charset="us-ascii"
+>
+> At about 5:06pm we completely lost connectivity to Verizon via Telia. We
+> since routed Verizon through NTT and we are now seeing 70ms+ latency in
+> Verizons network. One of our end users is reporting problems reaching
+> twitter and other sites from their NJ FIOS. Anyone else seeing problems?
+>
+>
+> 4. ae-30.r06.nycmny01.us.bb.gin.ntt.net
+>
+>                                              0.0%    15    3.0   2.4   1.9
+>  3.0   0.3
+>  5. 0.xe-7-1-0.BR3.NYC4.ALTER.NET
+>
+>                                               0.0%    15    1.6   2.9
+>  1.4  12.1   3.2
+>     xe-0.verizonbusiness.nycmny01.us.bb.gin.ntt.net
+>     0.xe-11-3-0.BR3.NYC4.ALTER.NET
+>     0.xe-11-3-0.BR3.NYC4.ALTER.NET
+>  6. Bundle-Ether1100.NWRKNJ-LCR-22.verizon-gni.NET
+>
+>                                              0.0%    15   78.5  81.1  78.2
+> 84.5   2.1
+>     Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+>     Bundle-Ether1100.NWRKNJ-LCR-21.verizon-gni.NET
+>  7. ???
+>  8. pool-173-70-118-168.nwrknj.fios.verizon.net
+>
+>                                               0.0%    14   89.9  87.4
+> 82.3  90.8   2.5
+>
+>
+>
+>
+> Daniel Spataro
+> Net Access Corporation
+> (v) 973-590-5144
+> (e) dspataro at corp.nac.net
+>
+>
+>
+>
+> ------------------------------
+>
+> Message: 4
+> Date: Tue, 10 Mar 2015 15:46:56 -0700
+> From: Jeremy Chadwick <jdc at koitsu.org>
+> To: James Cornman <james at atlanticmetro.net>
+> Cc: "outages at outages.org" <outages at outages.org>
+> Subject: Re: [outages] Verizon Northern NJ
+> Message-ID: <20150310224656.GA33954 at icarus.home.lan>
+> Content-Type: text/plain; charset=us-ascii
+>
+> This just got posted (Email seems delayed but the web archive[1] seems
+> fine): https://puck.nether.net/pipermail/outages/2015-March/007661.html
+>
+> A colleague of mine on Verizon FiOS in NY reported to me the exact same
+> problems as being reported here.  In other words: it wasn't just you.
+>
+>
+> [1]: https://puck.nether.net/pipermail/outages/2015-March/thread.html
+>
+> --
+> | Jeremy Chadwick                                   jdc at koitsu.org |
+> | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+> | Making life hard for others since 1977.             PGP 4BD6C0CB |
+>
+> On Tue, Mar 10, 2015 at 05:48:26PM -0400, James Cornman via Outages wrote:
+> > We've had a lot of customers that are having problems with Verizon
+> > FiOS and other IP services within the past 40 minutes. Mainly
+> > concentrated in the northern New Jersey area. Are there any other
+> > reports of this?
+> >
+> > -James
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> ------------------------------
+>
+> Message: 5
+> Date: Tue, 10 Mar 2015 16:16:31 -0700
+> From: joel jaeggli <joelja at bogus.com>
+> To: James Cornman via Outages <outages at outages.org>
+> Subject: Re: [outages] Verizon Northern NJ
+> Message-ID: <54FF7B4F.9070605 at bogus.com>
+> Content-Type: text/plain; charset="windows-1252"
+>
+> On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+> > OS and other IP services within the past 40 minutes. Mainly
+> > concentrated in the northern New Jersey area. Are there any other
+> > reports of this?
+>
+> we have customer who can't reach us for there yeah.
+>
+> > -James
+>
+>
+> -------------- next part --------------
+> A non-text attachment was scrubbed...
+> Name: signature.asc
+> Type: application/pgp-signature
+> Size: 243 bytes
+> Desc: OpenPGP digital signature
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150310/a6e1ef9d/attachment-0001.sig
+> >
+>
+> ------------------------------
+>
+> Message: 6
+> Date: Tue, 10 Mar 2015 20:00:24 -0400
+> From: Charles Sprickman <spork at bway.net>
+> To: joel jaeggli <joelja at bogus.com>
+> Cc: James Cornman via Outages <outages at outages.org>
+> Subject: Re: [outages] Verizon Northern NJ
+> Message-ID: <D6D46EA5-6D92-470D-A188-5A4C1DFCC90D at bway.net>
+> Content-Type: text/plain; charset="windows-1252"
+>
+> From Optonline in Morristown I?m seeing drops to a server off business
+> FiOS outside Philly.
+>
+> Looks like there?s no intermediate between OOL and VZ either:
+>
+>  1  10.240.176.233 (10.240.176.233)  8.719 ms  7.099 ms  7.766 ms
+>  2  67.59.225.220 (67.59.225.220)  8.379 ms  10.610 ms  7.925 ms
+>  3  rtr2-ge1-10.mhe.prnynj.cv.net (67.83.242.5)  9.210 ms
+>     ool-4353f20d.dyn.optonline.net (67.83.242.13)  9.598 ms  9.476 ms
+>  4  64.15.7.49 (64.15.7.49)  9.244 ms
+>     65.19.119.193 (65.19.119.193)  9.222 ms
+>     64.15.7.41 (64.15.7.41)  8.662 ms
+>  5  451be0d2.cst.lightpath.net (65.19.120.210)  11.150 ms
+>     64.15.0.52 (64.15.0.52)  11.240 ms
+>     451be0d2.cst.lightpath.net (65.19.120.210)  11.470 ms
+>  6  0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  9.715 ms
+>     0.TenGigE0-0-0-6.GW8.EWR6.ALTER.NET (152.179.61.85)  16.414 ms
+>     0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  10.204 ms
+>  7  * B400.PHLAPA-LCR-21.verizon-gni.net (130.81.163.133)  21.193 ms
+>     P0-4-0-0.PHLAPA-LCR-22.verizon-gni.net (130.81.22.61)  19.623 ms
+>  8  * * *
+>  9  static-xxxx 25.310 ms  20.195 ms  24.948 ms
+>
+> VZ has been having some interesting issues the past few months.  Maybe the
+> last of the UUNet people finally left. :)
+>
+> Charles
+>
+> On Mar 10, 2015, at 7:16 PM, joel jaeggli via Outages <outages at outages.org>
+> wrote:
+>
+> > On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+> >> OS and other IP services within the past 40 minutes. Mainly
+> >> concentrated in the northern New Jersey area. Are there any other
+> >> reports of this?
+> >
+> > we have customer who can't reach us for there yeah.
+> >
+> >> -James
+> >
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+>
+> -------------- next part --------------
+> A non-text attachment was scrubbed...
+> Name: signature.asc
+> Type: application/pgp-signature
+> Size: 495 bytes
+> Desc: Message signed with OpenPGP using GPGMail
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150310/0c3b93e8/attachment-0001.sig
+> >
+>
+> ------------------------------
+>
+> Message: 7
+> Date: Tue, 10 Mar 2015 21:02:19 -0400
+> From: Jason Lixfeld <jason at lixfeld.ca>
+> To: Charles Sprickman <spork at bway.net>
+> Cc: James Cornman via Outages <outages at outages.org>
+> Subject: Re: [outages] Verizon Northern NJ
+> Message-ID: <DFE03362-9C32-4CD9-9D53-6B7D8B518D9B at lixfeld.ca>
+> Content-Type: text/plain; charset=windows-1252
+>
+> Has this cleared up for folks?  I have one customer who reported issues
+> reaching Verizon Toronto via Level 3 around the time when it was first
+> reported here (just after 5pm EDT).  I?m waiting for confirmation that the
+> issue has cleared for them; I don?t see it myself from the same ASN as the
+> customer who reported the problem, but I figured I?d ask anyway.
+>
+> > On Mar 10, 2015, at 8:00 PM, Charles Sprickman via Outages <
+> outages at outages.org> wrote:
+> >
+> > From Optonline in Morristown I?m seeing drops to a server off business
+> FiOS outside Philly.
+> >
+> > Looks like there?s no intermediate between OOL and VZ either:
+> >
+> > 1  10.240.176.233 (10.240.176.233)  8.719 ms  7.099 ms  7.766 ms
+> > 2  67.59.225.220 (67.59.225.220)  8.379 ms  10.610 ms  7.925 ms
+> > 3  rtr2-ge1-10.mhe.prnynj.cv.net (67.83.242.5)  9.210 ms
+> >    ool-4353f20d.dyn.optonline.net (67.83.242.13)  9.598 ms  9.476 ms
+> > 4  64.15.7.49 (64.15.7.49)  9.244 ms
+> >    65.19.119.193 (65.19.119.193)  9.222 ms
+> >    64.15.7.41 (64.15.7.41)  8.662 ms
+> > 5  451be0d2.cst.lightpath.net (65.19.120.210)  11.150 ms
+> >    64.15.0.52 (64.15.0.52)  11.240 ms
+> >    451be0d2.cst.lightpath.net (65.19.120.210)  11.470 ms
+> > 6  0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  9.715 ms
+> >    0.TenGigE0-0-0-6.GW8.EWR6.ALTER.NET (152.179.61.85)  16.414 ms
+> >    0.xe-2-3-0.GW13.NYC1.ALTER.NET (152.179.220.57)  10.204 ms
+> > 7  * B400.PHLAPA-LCR-21.verizon-gni.net (130.81.163.133)  21.193 ms
+> >    P0-4-0-0.PHLAPA-LCR-22.verizon-gni.net (130.81.22.61)  19.623 ms
+> > 8  * * *
+> > 9  static-xxxx 25.310 ms  20.195 ms  24.948 ms
+> >
+> > VZ has been having some interesting issues the past few months.  Maybe
+> the last of the UUNet people finally left. :)
+> >
+> > Charles
+> >
+> > On Mar 10, 2015, at 7:16 PM, joel jaeggli via Outages <
+> outages at outages.org> wrote:
+> >
+> >> On 3/10/15 2:48 PM, James Cornman via Outages wrote:
+> >>> OS and other IP services within the past 40 minutes. Mainly
+> >>> concentrated in the northern New Jersey area. Are there any other
+> >>> reports of this?
+> >>
+> >> we have customer who can't reach us for there yeah.
+> >>
+> >>> -James
+> >>
+> >>
+> >> _______________________________________________
+> >> Outages mailing list
+> >> Outages at outages.org
+> >> https://puck.nether.net/mailman/listinfo/outages
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+> ------------------------------
+>
+> Subject: Digest Footer
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> ------------------------------
+>
+> End of Outages Digest, Vol 82, Issue 6
+> **************************************
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150311/9b7615b1/attachment-0001.html>
+
+From mailing-lists at brianraaen.com  Fri Mar 13 10:58:12 2015
+From: mailing-lists at brianraaen.com (Brian Christopher Raaen)
+Date: Fri, 13 Mar 2015 10:58:12 -0400
+Subject: [outages] Google Docs having issues
+Message-ID: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+
+Google Docs appears to be having issues.
+http://www.isitdownrightnow.com/docs.google.com.html
+
+-- 
+Brian Christopher Raaen
+Network Architect
+Zcorum
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/d7a3dfa6/attachment.html>
+
+From applebaumt at ochin.org  Fri Mar 13 11:00:37 2015
+From: applebaumt at ochin.org (Tyler Applebaum)
+Date: Fri, 13 Mar 2015 15:00:37 +0000
+Subject: [outages] Google Docs having issues
+In-Reply-To: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+References: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+Message-ID: <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+
+Looks good in the PNW over Hurricane Elec.
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Brian Christopher Raaen via Outages
+Sent: Friday, March 13, 2015 7:58 AM
+To: outages at outages.org
+Subject: [outages] Google Docs having issues
+
+Google Docs appears to be having issues.
+http://www.isitdownrightnow.com/docs.google.com.html
+
+--
+Brian Christopher Raaen
+Network Architect
+Zcorum
+Attention: Information contained in this message and or attachments is intended only for the recipient(s) named above and may contain confidential and or privileged material that is protected under State or Federal law. If you are not the intended recipient, any disclosure, copying, distribution or action taken on it is prohibited. If you believe you have received this email in error, please contact the sender, delete this email and destroy all copies.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/a9b0f4c3/attachment.html>
+
+From mailing-lists at brianraaen.com  Fri Mar 13 11:01:54 2015
+From: mailing-lists at brianraaen.com (Brian Christopher Raaen)
+Date: Fri, 13 Mar 2015 11:01:54 -0400
+Subject: [outages] Google Docs having issues
+In-Reply-To: <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+References: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+ <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+Message-ID: <CAEV7mMFVrUFfPFMkoUVwuwMKSXE3UdXLuHKA1AKVhf1L3o5dcA@mail.gmail.com>
+
+Interesting, this is an AT&T connection in Metro Atlanta.  I am still
+getting 502's
+
+On Fri, Mar 13, 2015 at 11:00 AM, Tyler Applebaum <applebaumt at ochin.org>
+wrote:
+
+>  Looks good in the PNW over Hurricane Elec.
+>
+>
+>
+> *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *Brian
+> Christopher Raaen via Outages
+> *Sent:* Friday, March 13, 2015 7:58 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] Google Docs having issues
+>
+>
+>
+> Google Docs appears to be having issues.
+>
+> http://www.isitdownrightnow.com/docs.google.com.html
+>
+>
+>
+> --
+>
+> Brian Christopher Raaen
+>
+> Network Architect
+>
+> Zcorum
+>    Attention: Information contained in this message and or attachments is
+> intended only for the recipient(s) named above and may contain confidential
+> and or privileged material that is protected under State or Federal law. If
+> you are not the intended recipient, any disclosure, copying, distribution
+> or action taken on it is prohibited. If you believe you have received this
+> email in error, please contact the sender, delete this email and destroy
+> all copies.
+>
+
+
+
+-- 
+Brian Christopher Raaen
+Network Architect
+Zcorum
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/7105e128/attachment.html>
+
+From bclark at singledigits.com  Fri Mar 13 11:04:22 2015
+From: bclark at singledigits.com (Bret Clark)
+Date: Fri, 13 Mar 2015 11:04:22 -0400
+Subject: [outages] Google Docs having issues
+In-Reply-To: <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+References: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+ <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+Message-ID: <5502FC76.1060607@singledigits.com>
+
+Not for me...I keep trying to access some of my google docs and I get 
+the message below...I don't think it's an actually link connectivity 
+problem, but an issue with google docs in general.
+
+" You're offline.
+
+This page isn't available offline. Connect to the Internet and refresh 
+to view it online."
+
+On 03/13/2015 11:00 AM, Tyler Applebaum via Outages wrote:
+>
+> Looks good in the PNW over Hurricane Elec.
+>
+> *From:*Outages [mailto:outages-bounces at outages.org] *On Behalf Of 
+> *Brian Christopher Raaen via Outages
+> *Sent:* Friday, March 13, 2015 7:58 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] Google Docs having issues
+>
+> Google Docs appears to be having issues.
+>
+> http://www.isitdownrightnow.com/docs.google.com.html
+>
+> -- 
+>
+> Brian Christopher Raaen
+>
+> Network Architect
+>
+> Zcorum
+>
+> Attention: Information contained in this message and or attachments is 
+> intended only for the recipient(s) named above and may contain 
+> confidential and or privileged material that is protected under State 
+> or Federal law. If you are not the intended recipient, any disclosure, 
+> copying, distribution or action taken on it is prohibited. If you 
+> believe you have received this email in error, please contact the 
+> sender, delete this email and destroy all copies.
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+Bret Clark
+Director of Global Network Architecture
+
+Single Digits, Inc. <http://singledigits.com/>
+Office: 603.580.1539 x7055
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/0dfde2fd/attachment.html>
+
+From rcolon at telkonet.com  Fri Mar 13 11:09:58 2015
+From: rcolon at telkonet.com (Bob Colon)
+Date: Fri, 13 Mar 2015 10:09:58 -0500
+Subject: [outages] Google Docs having issues
+In-Reply-To: <5502FC76.1060607@singledigits.com>
+References: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+ <25440C4BF31A8E44872003195DEB57BE7BEFD5@omail1.community-health.org>
+ <5502FC76.1060607@singledigits.com>
+Message-ID: <5502FDC6.8000001@telkonet.com>
+
+Confirmed per Google's App Dashboard:
+
+http://www.google.com/appsstatus#hl=en&v=status
+
+These issues tend to be sporadic and not necessarily affect everyone..
+
+Signature
+
+Robert Colon | Tier 3 Technical Support | EthoStream LLC | 
+P: (877) 282-2519 x2114 | F: (414) 258-8307 | 
+20800 Swenson Dr. Suite 175 Milwaukee, WI 53226 | www.telkonet.com 
+<http://www.telkonet.com/> | www.ethostream.com 
+<http://www.ethostream.com/> | @Telkonet <https://twitter.com/telkonet>
+
+On 3/13/2015 10:04 AM, Bret Clark via Outages wrote:
+> Not for me...I keep trying to access some of my google docs and I get 
+> the message below...I don't think it's an actually link connectivity 
+> problem, but an issue with google docs in general.
+>
+> " You're offline.
+>
+> This page isn't available offline. Connect to the Internet and refresh 
+> to view it online."
+>
+> On 03/13/2015 11:00 AM, Tyler Applebaum via Outages wrote:
+>>
+>> Looks good in the PNW over Hurricane Elec.
+>>
+>> *From:*Outages [mailto:outages-bounces at outages.org] *On Behalf Of 
+>> *Brian Christopher Raaen via Outages
+>> *Sent:* Friday, March 13, 2015 7:58 AM
+>> *To:* outages at outages.org
+>> *Subject:* [outages] Google Docs having issues
+>>
+>> Google Docs appears to be having issues.
+>>
+>> http://www.isitdownrightnow.com/docs.google.com.html
+>>
+>> -- 
+>>
+>> Brian Christopher Raaen
+>>
+>> Network Architect
+>>
+>> Zcorum
+>>
+>> Attention: Information contained in this message and or attachments 
+>> is intended only for the recipient(s) named above and may contain 
+>> confidential and or privileged material that is protected under State 
+>> or Federal law. If you are not the intended recipient, any 
+>> disclosure, copying, distribution or action taken on it is 
+>> prohibited. If you believe you have received this email in error, 
+>> please contact the sender, delete this email and destroy all copies.
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+> -- 
+> Bret Clark
+> Director of Global Network Architecture
+>
+> Single Digits, Inc. <http://singledigits.com/>
+> Office: 603.580.1539 x7055
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+-- 
+ 
+------------------------------
+
+<http://www.telkonet.com> <http://www.ethostream.com>
+
+This e-mail and any files transmitted with it are private and confidential 
+and are solely for the use of the addressee. It may contain material which 
+is legally privileged. If you are not the addressee or the person 
+responsible for delivering to the addressee, be advised that you have 
+received this e-mail in error and that any use of it is strictly 
+prohibited. If you have received this e-mail in error please contact us at 
+(414) 223-0473.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/035ae8cd/attachment-0001.html>
+
+From john.pinkerton at trewaudio.com  Fri Mar 13 12:09:56 2015
+From: john.pinkerton at trewaudio.com (John Pinkerton)
+Date: Fri, 13 Mar 2015 11:09:56 -0500
+Subject: [outages] Windstream Total Outage - Nashville
+Message-ID: <CAGG6Ty-dv=cMbs8cWRkMWbyan+FL1ByioN8iQJZgPEESi7Q7Fg@mail.gmail.com>
+
+Windstream circuit dropped an hour ago. Alarm LED showing on the wall
+panel. It was an old Nevox line back in the day.
+
+Current hold times for support are 30min. Request for call forwarding to
+working number still not implemented 20 minutes later.
+
+-- 
+John
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/943fbc2a/attachment.html>
+
+From frnkblk at iname.com  Fri Mar 13 18:13:20 2015
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 13 Mar 2015 17:13:20 -0500
+Subject: [outages] Google Docs having issues
+In-Reply-To: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+References: <CAEV7mMFJaqbGVO0+bgXzTjqfi7weMgvZHBF2r07TT8-KKZ-P6Q@mail.gmail.com>
+Message-ID: <000501d05dda$ea1e4390$be5acab0$@iname.com>
+
+Something listed here: 
+
+https://www.google.com/appsstatus#hl=en <https://www.google.com/appsstatus#hl=en&v=issue&sid=6&iid=2cae931410c40766542f8253d9ef8275> &v=issue&sid=6&iid=2cae931410c40766542f8253d9ef8275
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Brian Christopher Raaen via Outages
+Sent: Friday, March 13, 2015 9:58 AM
+To: outages at outages.org
+Subject: [outages] Google Docs having issues
+
+ 
+
+Google Docs appears to be having issues.
+
+http://www.isitdownrightnow.com/docs.google.com.html
+
+
+ 
+
+-- 
+
+Brian Christopher Raaen
+
+Network Architect
+
+Zcorum
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150313/aae8f017/attachment.html>
+
+From ESundberg at nitelusa.com  Sun Mar 15 14:45:19 2015
+From: ESundberg at nitelusa.com (Erik Sundberg)
+Date: Sun, 15 Mar 2015 18:45:19 +0000
+Subject: [outages] Little Rock to Memphis - Possible Fiber Cut
+Message-ID: <495D0934DA46854A9CA758393724D59095C311@NI-MAIL02.nii.ads>
+
+We are seeing a wave down between 1950 Stemsons FWY, Dallas to 56 Marietta in Atlanta, GA. The waves goes thru Nashville.
+
+XO is saying span failure between Little Rock, AR and Memphis, TN.
+
+Assuming it's a fiber cut.
+
+
+
+
+________________________________
+
+CONFIDENTIALITY NOTICE: This e-mail transmission, and any documents, files or previous e-mail messages attached to it may contain confidential information that is legally privileged. If you are not the intended recipient, or a person responsible for delivering it to the intended recipient, you are hereby notified that any disclosure, copying, distribution or use of any of the information contained in or attached to this transmission is STRICTLY PROHIBITED. If you have received this transmission in error please notify the sender immediately by replying to this e-mail. You must destroy the original transmission and its attachments without reading or saving in any manner. Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150315/e3b175d9/attachment.html>
+
+From jra at baylink.com  Mon Mar 16 12:57:24 2015
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 16 Mar 2015 12:57:24 -0400 (EDT)
+Subject: [outages] Windstream Total Outage - Nashville
+In-Reply-To: <CAGG6Ty-dv=cMbs8cWRkMWbyan+FL1ByioN8iQJZgPEESi7Q7Fg@mail.gmail.com>
+Message-ID: <31048687.26.1426525044126.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "John Pinkerton via Outages" <outages at outages.org>
+
+> Windstream circuit dropped an hour ago. Alarm LED showing on the wall
+> panel. It was an old Nevox line back in the day.
+
+To be clear, Windstream is totally out *for you*, not for Nashville?
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+
+From jra at baylink.com  Mon Mar 16 13:02:58 2015
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 16 Mar 2015 13:02:58 -0400 (EDT)
+Subject: [outages] [Outages-discussion]  dns cache flush request
+In-Reply-To: <CABSP1Oe70RuM-pAChev_ST26aeU2qTEbWypn_d=Lz5i4rBpDcg@mail.gmail.com>
+Message-ID: <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Damian Menscher" <damian at google.com>
+
+> That one was a legitimate request, not a scam. (I have off-list
+> knowledge.)
+
+Which leads to an interesting question (that I wouldn't want to thread on
+too long, but I can't set a Reply-To Discussions :-) --
+
+How many eyeball networks are actually set up to execute that request 
+without requiring manual Tier 3 intervention?  Any?
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+
+From jjackson at aninetworks.net  Mon Mar 16 13:11:51 2015
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Mon, 16 Mar 2015 17:11:51 +0000
+Subject: [outages] [Outages-discussion]  dns cache flush request
+In-Reply-To: <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+References: <CABSP1Oe70RuM-pAChev_ST26aeU2qTEbWypn_d=Lz5i4rBpDcg@mail.gmail.com>
+ <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+Message-ID: <c6c7bcccd0664916a7588ffd29f7b712@mbx080-w4-co-1.exch080.serverpod.net>
+
+I guess I can see a reason to have some sort of mass refresh feature but I've never heard of anyone or anyplace having something like that set up.   
+
+
+
+-----Original Message-----
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Jay Ashworth via Outages
+Sent: Monday, March 16, 2015 12:03 PM
+To: outages at outages.org
+Subject: Re: [outages] [Outages-discussion] dns cache flush request
+
+----- Original Message -----
+> From: "Damian Menscher" <damian at google.com>
+
+> That one was a legitimate request, not a scam. (I have off-list
+> knowledge.)
+
+Which leads to an interesting question (that I wouldn't want to thread on
+too long, but I can't set a Reply-To Discussions :-) --
+
+How many eyeball networks are actually set up to execute that request 
+without requiring manual Tier 3 intervention?  Any?
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates       http://www.bcp38.info          2000 Land Rover DII
+St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647 1274
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From damian at google.com  Mon Mar 16 13:43:56 2015
+From: damian at google.com (Damian Menscher)
+Date: Mon, 16 Mar 2015 10:43:56 -0700
+Subject: [outages] [Outages-discussion] dns cache flush request
+In-Reply-To: <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+References: <CABSP1Oe70RuM-pAChev_ST26aeU2qTEbWypn_d=Lz5i4rBpDcg@mail.gmail.com>
+ <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CABSP1OfzVeBW6AQAqyRaq9wgODpOSr7ievuGP++-OLP2kWZS3g@mail.gmail.com>
+
+On Mon, Mar 16, 2015 at 10:02 AM, Jay Ashworth via Outages <
+outages at outages.org> wrote:
+
+>
+> How many eyeball networks are actually set up to execute that request
+> without requiring manual Tier 3 intervention?  Any?
+>
+
+While they aren't technically eyeball networks, applying a cache flush at
+these two links will affect a double-digit percentage of eyeballs:
+  https://developers.google.com/speed/public-dns/cache
+  http://cachecheck.opendns.com/
+
+Damian
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150316/2866d0ab/attachment.html>
+
+From etieseler at metrolist.net  Mon Mar 16 13:50:38 2015
+From: etieseler at metrolist.net (Eduard Tieseler)
+Date: Mon, 16 Mar 2015 10:50:38 -0700
+Subject: [outages] [Outages-discussion]  dns cache flush request
+In-Reply-To: <c6c7bcccd0664916a7588ffd29f7b712@mbx080-w4-co-1.exch080.serverpod.net>
+References: <CABSP1Oe70RuM-pAChev_ST26aeU2qTEbWypn_d=Lz5i4rBpDcg@mail.gmail.com>
+ <2624535.28.1426525378908.JavaMail.root@benjamin.baylink.com>
+ <c6c7bcccd0664916a7588ffd29f7b712@mbx080-w4-co-1.exch080.serverpod.net>
+Message-ID: <D12C6427.16A71%etieseler@metrolist.net>
+
+This would be a nice feature/framework to have. I work for a service that
+is a membership based website that Realtors use for their business and a
+number of months ago we had an issue where a few of our URL?s were cached
+with the incorrect IP address. Our TTL was 3 hours but it was not
+respected and these incorrect URLs had a TTL of 1 week. OpenDNS gives you
+the ability to request a DNS cache flush, but trying to deal with the
+various ISPs to get them to flush that DNS cache was far far worse than
+pulling teeth with no anesthetic. Only a couple were helpful and even
+understood what I was requesting, but most hadn?t the slightest clue what
+I was talking about.
+
+It is rare, but some times things happen and it would be helpful to have
+some method to be able to flush DNS cache on servers who have incorrect
+data stored in their cache.
+
+That?s my 2 cents.
+
+Regards,
+
+Eduard Tieseler
+
+ 
+      <https://www.facebook.com/metrolistmls>
+<https://www.youtube.com/channel/UCmhaqKw5Kv2TBJ-gohS8TvQ>
+ 
+Please consider the environment before printing this e-mail
+THE INFORMATION CONTAINED IN THIS ELECTRONIC MESSAGE IS CONFIDENTIAL. THE
+INFORMATION IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO
+WHOM IT IS ADDRESSED. IF YOU ARE NOT THE INTENDED RECIPIENT, ANY USE,
+DISSEMINATION, OR DISTRIBUTION OF THIS COMMUNICATION IS PROHIBITED. IF YOU
+HAVE RECEIVED THIS ELECTRONIC MESSAGE IN ERROR, PLEASE NOTIFY US
+IMMEDIATELY AND DELETE THE MESSAGE. ANY USE, MODIFICATION, OR
+REPUBLICATION OF THIS COMMUNICATION, INCLUDING ANY ATTACHED FILES,
+DOCUMENTS, DATA OR OTHER INFORMATION WHICH HAS NOT BEEN EXPRESSLY
+AUTHORIZED BY US IS PROHIBITED. WE SPECIFICALLY DISCLAIM RESPONSIBILITY
+FOR ANY UNAUTHORIZED USE OF THIS COMMUNICATION OR ANY ATTACHMENTS TO IT.
+
+
+
+
+On 3/16/15, 10:11 AM, "Joseph Jackson via Outages" <outages at outages.org>
+wrote:
+
+>I guess I can see a reason to have some sort of mass refresh feature but
+>I've never heard of anyone or anyplace having something like that set up.
+>  
+>
+>
+>
+>-----Original Message-----
+>From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Jay
+>Ashworth via Outages
+>Sent: Monday, March 16, 2015 12:03 PM
+>To: outages at outages.org
+>Subject: Re: [outages] [Outages-discussion] dns cache flush request
+>
+>----- Original Message -----
+>> From: "Damian Menscher" <damian at google.com>
+>
+>> That one was a legitimate request, not a scam. (I have off-list
+>> knowledge.)
+>
+>Which leads to an interesting question (that I wouldn't want to thread on
+>too long, but I can't set a Reply-To Discussions :-) --
+>
+>How many eyeball networks are actually set up to execute that request
+>without requiring manual Tier 3 intervention?  Any?
+>
+>Cheers,
+>-- jra
+>-- 
+>Jay R. Ashworth                  Baylink
+>jra at baylink.com
+>Designer                     The Things I Think                       RFC
+>2100
+>Ashworth & Associates       http://www.bcp38.info          2000 Land
+>Rover DII
+>St Petersburg FL USA      BCP38: Ask For It By Name!           +1 727 647
+>1274
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From virendra.rode at outages.org  Fri Mar 20 16:41:55 2015
+From: virendra.rode at outages.org (Outages)
+Date: Fri, 20 Mar 2015 13:41:55 -0700
+Subject: [outages] Cogent issue in Southern California?
+Message-ID: <CE5B6C4B-23A1-464A-AD90-BA2F289C36A7@outages.org>
+
+Seeing high latency (50+ ms) via cogent path? This has been intermittent, sorry I don't have mtr data to report but wanted to reach out to see if anyone else was experiencing the same?
+
+/virendra  
+
+
+
+From samerziadeh at gmail.com  Sat Mar 21 13:46:26 2015
+From: samerziadeh at gmail.com (Samer Ziadeh)
+Date: Sat, 21 Mar 2015 13:46:26 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 12
+In-Reply-To: <mailman.3.1426953602.16740.outages@outages.org>
+References: <mailman.3.1426953602.16740.outages@outages.org>
+Message-ID: <49C5FB75-50AD-40EA-9FEE-39AD9BAC1506@gmail.com>
+
+It is, I've been getting same results for the past couple of weeks. 
+
+
+// Samer
+
+> On Mar 21, 2015, at 12:00, outages-request at outages.org wrote:
+> 
+> Send Outages mailing list submissions to
+>    outages at outages.org
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+>    https://puck.nether.net/mailman/listinfo/outages
+> or, via email, send a message with subject or body 'help' to
+>    outages-request at outages.org
+> 
+> You can reach the person managing the list at
+>    outages-owner at outages.org
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Outages digest..."
+> 
+> 
+> Today's Topics:
+> 
+>   1. Cogent issue in Southern California? (Outages)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Fri, 20 Mar 2015 13:41:55 -0700
+> From: Outages <virendra.rode at outages.org>
+> To: "outages at outages.org" <outages at outages.org>
+> Subject: [outages] Cogent issue in Southern California?
+> Message-ID: <CE5B6C4B-23A1-464A-AD90-BA2F289C36A7 at outages.org>
+> Content-Type: text/plain;    charset=us-ascii
+> 
+> Seeing high latency (50+ ms) via cogent path? This has been intermittent, sorry I don't have mtr data to report but wanted to reach out to see if anyone else was experiencing the same?
+> 
+> /virendra  
+> 
+> 
+> 
+> 
+> ------------------------------
+> 
+> Subject: Digest Footer
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> ------------------------------
+> 
+> End of Outages Digest, Vol 82, Issue 12
+> ***************************************
+
+From ml at kenweb.org  Mon Mar 23 17:51:47 2015
+From: ml at kenweb.org (ML)
+Date: Mon, 23 Mar 2015 17:51:47 -0400
+Subject: [outages] Problem between Level3 (TW Telecom) and ATT near Los
+	Angeles?
+Message-ID: <55108AF3.4020003@kenweb.org>
+
+I've noticed an increase in latency and packet loss between two 
+locations near the Los Angeles area.  One has a TW Telecom fiber based 
+connection and the other an ATT DSL line.
+The latency between two location used to be ~30ms and now is about 
+~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the 
+culprit for the packet loss issue.  If the traceroutes rDNS is accurate 
+it seems TW Telecom use Level3 to reach ATT (as expected). However it 
+seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I 
+would assume Level3 and ATT would peered in Los Angeles.
+
+Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas 
+from ATT from the point of view of Level3's LA router.
+
+MTRs:
+
+http://pastebin.com/eg3AUhAn
+
+
+
+From tknchris at gmail.com  Tue Mar 24 08:54:46 2015
+From: tknchris at gmail.com (chris)
+Date: Tue, 24 Mar 2015 08:54:46 -0400
+Subject: [outages] Comcast Outage in Freedom East Region?
+Message-ID: <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w@mail.gmail.com>
+
+Anyone know of an outage? I have 20+ customers with business cable within
+somerset/mercer county (central NJ) down with no internet and traces to
+their IP ranges from outside appear to die early in comcast's core in NYC
+of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+these nj customers statics even within internal comcast <-> comcast routes.
+
+chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment.html>
+
+From RAbbott at ststire.com  Tue Mar 24 09:19:10 2015
+From: RAbbott at ststire.com (Ryan Abbott)
+Date: Tue, 24 Mar 2015 13:19:10 +0000
+Subject: [outages] Comcast Outage in Freedom East Region?
+In-Reply-To: <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w@mail.gmail.com>
+References: <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w@mail.gmail.com>
+Message-ID: <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+
+Yes, Seeing some high latency and packet loss to a few of our stores in the 
+Somerset/Mercer county region.  Anyone else seeing this?
+
+
+
+Ryan Abbott
+Windows Server Administrator
+
+
+Somerset Tire Service
+1-732-356-8500 x207
+
+
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via 
+Outages
+Sent: Tuesday, March 24, 2015 8:55 AM
+To: outages at outages.org
+Subject: [outages] Comcast Outage in Freedom East Region?
+
+
+
+Anyone know of an outage? I have 20+ customers with business cable within 
+somerset/mercer county (central NJ) down with no internet and traces to their 
+IP ranges from outside appear to die early in comcast's core in NYC of PHILA. 
+>From one comcast circuit thats up in PA we cant even reach any of these nj 
+customers statics even within internal comcast <-> comcast routes.
+
+
+
+chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 6496 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment.p7s>
+
+From tknchris at gmail.com  Tue Mar 24 09:42:31 2015
+From: tknchris at gmail.com (chris)
+Date: Tue, 24 Mar 2015 09:42:31 -0400
+Subject: [outages] Comcast Outage in Freedom East Region?
+In-Reply-To: <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+References: <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w@mail.gmail.com>
+ <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+Message-ID: <CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA@mail.gmail.com>
+
+I see multiple customers coming up all simultaneously so I think issuemmau
+be clearing we have about 50% back online
+On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+
+> Yes, Seeing some high latency and packet loss to a few of our stores in
+> the Somerset/Mercer county region.  Anyone else seeing this?
+>
+>
+>
+>
+> *Ryan Abbott*Windows Server Administrator
+>
+>
+> *Somerset Tire Service*
+> 1-732-356-8500 x207
+>
+>
+>
+> *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *chris
+> via Outages
+> *Sent:* Tuesday, March 24, 2015 8:55 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] Comcast Outage in Freedom East Region?
+>
+>
+>
+> Anyone know of an outage? I have 20+ customers with business cable within
+> somerset/mercer county (central NJ) down with no internet and traces to
+> their IP ranges from outside appear to die early in comcast's core in NYC
+> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+> these nj customers statics even within internal comcast <-> comcast routes.
+>
+>
+>
+> chris
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment.html>
+
+From tony at swalter.com  Tue Mar 24 10:19:42 2015
+From: tony at swalter.com (Tony Patti)
+Date: Tue, 24 Mar 2015 10:19:42 -0400
+Subject: [outages] Comcast Outage in Freedom East Region?
+In-Reply-To: <CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA@mail.gmail.com>
+References: <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w@mail.gmail.com>
+ <FCB6195A47B73E4D873ED539D9817D18BAC98736@EXCHANGE3.STS.loc>
+ <CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA@mail.gmail.com>
+Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+
+Just as an additional data point, in the Philadelphia Metro area I saw a 33 minute outage of Comcast Business Class,
+
+earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+
+Because of the precision of the start time, and duration, I assumed it might be some kind of maintenance activity.
+
+ 
+
+Tony Patti
+
+CIO
+
+S. Walter Packaging Corp.
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+Sent: Tuesday, March 24, 2015 9:43 AM
+To: Ryan Abbott
+Cc: outages at outages.org
+Subject: Re: [outages] Comcast Outage in Freedom East Region?
+
+ 
+
+I see multiple customers coming up all simultaneously so I think issuemmau be clearing we have about 50% back online
+
+On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+
+Yes, Seeing some high latency and packet loss to a few of our stores in the Somerset/Mercer county region.  Anyone else seeing this?
+
+ 
+
+Ryan Abbott
+Windows Server Administrator
+
+
+Somerset Tire Service
+1-732-356-8500 x207 <tel:1-732-356-8500%20x207> 
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+Sent: Tuesday, March 24, 2015 8:55 AM
+To: outages at outages.org
+Subject: [outages] Comcast Outage in Freedom East Region?
+
+ 
+
+Anyone know of an outage? I have 20+ customers with business cable within somerset/mercer county (central NJ) down with no internet and traces to their IP ranges from outside appear to die early in comcast's core in NYC of PHILA. From one comcast circuit thats up in PA we cant even reach any of these nj customers statics even within internal comcast <-> comcast routes.
+
+ 
+
+chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment-0001.html>
+
+From robcast52465 at gmail.com  Wed Mar 25 15:17:17 2015
+From: robcast52465 at gmail.com (Rob Castillo)
+Date: Wed, 25 Mar 2015 15:17:17 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+In-Reply-To: <mailman.32.1427206789.1116.outages@outages.org>
+References: <mailman.32.1427206789.1116.outages@outages.org>
+Message-ID: <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+
+Is anyone experiencing a service outage in Atlanta today via Level 3?
+
+On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+
+> Send Outages mailing list submissions to
+>         outages at outages.org
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>         https://puck.nether.net/mailman/listinfo/outages
+> or, via email, send a message with subject or body 'help' to
+>         outages-request at outages.org
+>
+> You can reach the person managing the list at
+>         outages-owner at outages.org
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of Outages digest..."
+>
+>
+> Today's Topics:
+>
+>    1. Problem between Level3 (TW Telecom) and ATT near Los      Angeles?
+> (ML)
+>    2. Comcast Outage in Freedom East Region? (chris)
+>    3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+>    4. Re: Comcast Outage in Freedom East Region? (chris)
+>    5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Mon, 23 Mar 2015 17:51:47 -0400
+> From: ML <ml at kenweb.org>
+> To: "outages at outages.org" <outages at outages.org>
+> Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+>         Los     Angeles?
+> Message-ID: <55108AF3.4020003 at kenweb.org>
+> Content-Type: text/plain; charset=utf-8; format=flowed
+>
+> I've noticed an increase in latency and packet loss between two
+> locations near the Los Angeles area.  One has a TW Telecom fiber based
+> connection and the other an ATT DSL line.
+> The latency between two location used to be ~30ms and now is about
+> ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the
+> culprit for the packet loss issue.  If the traceroutes rDNS is accurate
+> it seems TW Telecom use Level3 to reach ATT (as expected). However it
+> seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I
+> would assume Level3 and ATT would peered in Los Angeles.
+>
+> Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+> from ATT from the point of view of Level3's LA router.
+>
+> MTRs:
+>
+> http://pastebin.com/eg3AUhAn
+>
+>
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Tue, 24 Mar 2015 08:54:46 -0400
+> From: chris <tknchris at gmail.com>
+> To: "outages at outages.org" <outages at outages.org>
+> Subject: [outages] Comcast Outage in Freedom East Region?
+> Message-ID:
+>         <
+> CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+> Content-Type: text/plain; charset="utf-8"
+>
+> Anyone know of an outage? I have 20+ customers with business cable within
+> somerset/mercer county (central NJ) down with no internet and traces to
+> their IP ranges from outside appear to die early in comcast's core in NYC
+> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+> these nj customers statics even within internal comcast <-> comcast routes.
+>
+> chris
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html
+> >
+>
+> ------------------------------
+>
+> Message: 3
+> Date: Tue, 24 Mar 2015 13:19:10 +0000
+> From: Ryan Abbott <RAbbott at ststire.com>
+> To: 'chris' <tknchris at gmail.com>
+> Cc: "'outages at outages.org'" <outages at outages.org>
+> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+> Message-ID:
+>         <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+> Content-Type: text/plain; charset="utf-8"
+>
+> Yes, Seeing some high latency and packet loss to a few of our stores in the
+> Somerset/Mercer county region.  Anyone else seeing this?
+>
+>
+>
+> Ryan Abbott
+> Windows Server Administrator
+>
+>
+> Somerset Tire Service
+> 1-732-356-8500 x207
+>
+>
+>
+> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+> Outages
+> Sent: Tuesday, March 24, 2015 8:55 AM
+> To: outages at outages.org
+> Subject: [outages] Comcast Outage in Freedom East Region?
+>
+>
+>
+> Anyone know of an outage? I have 20+ customers with business cable within
+> somerset/mercer county (central NJ) down with no internet and traces to
+> their
+> IP ranges from outside appear to die early in comcast's core in NYC of
+> PHILA.
+> >From one comcast circuit thats up in PA we cant even reach any of these nj
+> customers statics even within internal comcast <-> comcast routes.
+>
+>
+>
+> chris
+>
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html
+> >
+> -------------- next part --------------
+> A non-text attachment was scrubbed...
+> Name: smime.p7s
+> Type: application/pkcs7-signature
+> Size: 6496 bytes
+> Desc: not available
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s
+> >
+>
+> ------------------------------
+>
+> Message: 4
+> Date: Tue, 24 Mar 2015 09:42:31 -0400
+> From: chris <tknchris at gmail.com>
+> To: Ryan Abbott <RAbbott at ststire.com>
+> Cc: outages at outages.org
+> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+> Message-ID:
+>         <
+> CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+> Content-Type: text/plain; charset="utf-8"
+>
+> I see multiple customers coming up all simultaneously so I think issuemmau
+> be clearing we have about 50% back online
+> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>
+> > Yes, Seeing some high latency and packet loss to a few of our stores in
+> > the Somerset/Mercer county region.  Anyone else seeing this?
+> >
+> >
+> >
+> >
+> > *Ryan Abbott*Windows Server Administrator
+> >
+> >
+> > *Somerset Tire Service*
+> > 1-732-356-8500 x207
+> >
+> >
+> >
+> > *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of
+> *chris
+> > via Outages
+> > *Sent:* Tuesday, March 24, 2015 8:55 AM
+> > *To:* outages at outages.org
+> > *Subject:* [outages] Comcast Outage in Freedom East Region?
+> >
+> >
+> >
+> > Anyone know of an outage? I have 20+ customers with business cable within
+> > somerset/mercer county (central NJ) down with no internet and traces to
+> > their IP ranges from outside appear to die early in comcast's core in NYC
+> > of PHILA. From one comcast circuit thats up in PA we cant even reach any
+> of
+> > these nj customers statics even within internal comcast <-> comcast
+> routes.
+> >
+> >
+> >
+> > chris
+> >
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html
+> >
+>
+> ------------------------------
+>
+> Message: 5
+> Date: Tue, 24 Mar 2015 10:19:42 -0400
+> From: "Tony Patti" <tony at swalter.com>
+> To: "'chris'" <tknchris at gmail.com>,     "'Ryan Abbott'"
+>         <RAbbott at ststire.com>
+> Cc: <outages at outages.org>
+> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+> Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+> Content-Type: text/plain; charset="utf-8"
+>
+> Just as an additional data point, in the Philadelphia Metro area I saw a
+> 33 minute outage of Comcast Business Class,
+>
+> earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+>
+> Because of the precision of the start time, and duration, I assumed it
+> might be some kind of maintenance activity.
+>
+>
+>
+> Tony Patti
+>
+> CIO
+>
+> S. Walter Packaging Corp.
+>
+>
+>
+> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+> Outages
+> Sent: Tuesday, March 24, 2015 9:43 AM
+> To: Ryan Abbott
+> Cc: outages at outages.org
+> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>
+>
+>
+> I see multiple customers coming up all simultaneously so I think issuemmau
+> be clearing we have about 50% back online
+>
+> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>
+> Yes, Seeing some high latency and packet loss to a few of our stores in
+> the Somerset/Mercer county region.  Anyone else seeing this?
+>
+>
+>
+> Ryan Abbott
+> Windows Server Administrator
+>
+>
+> Somerset Tire Service
+> 1-732-356-8500 x207 <tel:1-732-356-8500%20x207>
+>
+>
+>
+> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+> Outages
+> Sent: Tuesday, March 24, 2015 8:55 AM
+> To: outages at outages.org
+> Subject: [outages] Comcast Outage in Freedom East Region?
+>
+>
+>
+> Anyone know of an outage? I have 20+ customers with business cable within
+> somerset/mercer county (central NJ) down with no internet and traces to
+> their IP ranges from outside appear to die early in comcast's core in NYC
+> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+> these nj customers statics even within internal comcast <-> comcast routes.
+>
+>
+>
+> chris
+>
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html
+> >
+>
+> ------------------------------
+>
+> Subject: Digest Footer
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> ------------------------------
+>
+> End of Outages Digest, Vol 82, Issue 14
+> ***************************************
+>
+
+
+
+-- 
+All the best,
+
+*Robert Castillo*
+Cell:404-455-5558
+Email: robcast52465 at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/51ebe634/attachment.html>
+
+From starrs at michonline.net  Wed Mar 25 15:24:25 2015
+From: starrs at michonline.net (Starr, Steve)
+Date: Wed, 25 Mar 2015 15:24:25 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+In-Reply-To: <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+References: <mailman.32.1427206789.1116.outages@outages.org>
+ <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+Message-ID: <CAGK0HDmbfa7Zh8kF-izsLf3=Q3_uH-wfe=8a1LFykTy0w9pYnA@mail.gmail.com>
+
+We are seeing traffic loss with Level3 through Detroit.  To get around it
+we had to drop our peer who is directly connected to Level3.
+
+:: Steve Starr
+:: Daystarr Communications
+:: steve.starr at corp.daystarr.net
+:: v - 989.720.6000
+:: f - 989.720.6060
+
+On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <
+outages at outages.org> wrote:
+
+> Is anyone experiencing a service outage in Atlanta today via Level 3?
+>
+> On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+>
+>> Send Outages mailing list submissions to
+>>         outages at outages.org
+>>
+>> To subscribe or unsubscribe via the World Wide Web, visit
+>>         https://puck.nether.net/mailman/listinfo/outages
+>> or, via email, send a message with subject or body 'help' to
+>>         outages-request at outages.org
+>>
+>> You can reach the person managing the list at
+>>         outages-owner at outages.org
+>>
+>> When replying, please edit your Subject line so it is more specific
+>> than "Re: Contents of Outages digest..."
+>>
+>>
+>> Today's Topics:
+>>
+>>    1. Problem between Level3 (TW Telecom) and ATT near Los      Angeles?
+>> (ML)
+>>    2. Comcast Outage in Freedom East Region? (chris)
+>>    3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+>>    4. Re: Comcast Outage in Freedom East Region? (chris)
+>>    5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+>>
+>>
+>> ----------------------------------------------------------------------
+>>
+>> Message: 1
+>> Date: Mon, 23 Mar 2015 17:51:47 -0400
+>> From: ML <ml at kenweb.org>
+>> To: "outages at outages.org" <outages at outages.org>
+>> Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+>>         Los     Angeles?
+>> Message-ID: <55108AF3.4020003 at kenweb.org>
+>> Content-Type: text/plain; charset=utf-8; format=flowed
+>>
+>> I've noticed an increase in latency and packet loss between two
+>> locations near the Los Angeles area.  One has a TW Telecom fiber based
+>> connection and the other an ATT DSL line.
+>> The latency between two location used to be ~30ms and now is about
+>> ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the
+>> culprit for the packet loss issue.  If the traceroutes rDNS is accurate
+>> it seems TW Telecom use Level3 to reach ATT (as expected). However it
+>> seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I
+>> would assume Level3 and ATT would peered in Los Angeles.
+>>
+>> Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+>> from ATT from the point of view of Level3's LA router.
+>>
+>> MTRs:
+>>
+>> http://pastebin.com/eg3AUhAn
+>>
+>>
+>>
+>>
+>> ------------------------------
+>>
+>> Message: 2
+>> Date: Tue, 24 Mar 2015 08:54:46 -0400
+>> From: chris <tknchris at gmail.com>
+>> To: "outages at outages.org" <outages at outages.org>
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <
+>> CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their IP ranges from outside appear to die early in comcast's core in NYC
+>> of PHILA. From one comcast circuit thats up in PA we cant even reach any
+>> of
+>> these nj customers statics even within internal comcast <-> comcast
+>> routes.
+>>
+>> chris
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 3
+>> Date: Tue, 24 Mar 2015 13:19:10 +0000
+>> From: Ryan Abbott <RAbbott at ststire.com>
+>> To: 'chris' <tknchris at gmail.com>
+>> Cc: "'outages at outages.org'" <outages at outages.org>
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>> the
+>> Somerset/Mercer county region.  Anyone else seeing this?
+>>
+>>
+>>
+>> Ryan Abbott
+>> Windows Server Administrator
+>>
+>>
+>> Somerset Tire Service
+>> 1-732-356-8500 x207
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+>> Outages
+>> Sent: Tuesday, March 24, 2015 8:55 AM
+>> To: outages at outages.org
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their
+>> IP ranges from outside appear to die early in comcast's core in NYC of
+>> PHILA.
+>> >From one comcast circuit thats up in PA we cant even reach any of these
+>> nj
+>> customers statics even within internal comcast <-> comcast routes.
+>>
+>>
+>>
+>> chris
+>>
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html
+>> >
+>> -------------- next part --------------
+>> A non-text attachment was scrubbed...
+>> Name: smime.p7s
+>> Type: application/pkcs7-signature
+>> Size: 6496 bytes
+>> Desc: not available
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 4
+>> Date: Tue, 24 Mar 2015 09:42:31 -0400
+>> From: chris <tknchris at gmail.com>
+>> To: Ryan Abbott <RAbbott at ststire.com>
+>> Cc: outages at outages.org
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <
+>> CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> I see multiple customers coming up all simultaneously so I think issuemmau
+>> be clearing we have about 50% back online
+>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>
+>> > Yes, Seeing some high latency and packet loss to a few of our stores in
+>> > the Somerset/Mercer county region.  Anyone else seeing this?
+>> >
+>> >
+>> >
+>> >
+>> > *Ryan Abbott*Windows Server Administrator
+>> >
+>> >
+>> > *Somerset Tire Service*
+>> > 1-732-356-8500 x207
+>> >
+>> >
+>> >
+>> > *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of
+>> *chris
+>> > via Outages
+>> > *Sent:* Tuesday, March 24, 2015 8:55 AM
+>> > *To:* outages at outages.org
+>> > *Subject:* [outages] Comcast Outage in Freedom East Region?
+>> >
+>> >
+>> >
+>> > Anyone know of an outage? I have 20+ customers with business cable
+>> within
+>> > somerset/mercer county (central NJ) down with no internet and traces to
+>> > their IP ranges from outside appear to die early in comcast's core in
+>> NYC
+>> > of PHILA. From one comcast circuit thats up in PA we cant even reach
+>> any of
+>> > these nj customers statics even within internal comcast <-> comcast
+>> routes.
+>> >
+>> >
+>> >
+>> > chris
+>> >
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 5
+>> Date: Tue, 24 Mar 2015 10:19:42 -0400
+>> From: "Tony Patti" <tony at swalter.com>
+>> To: "'chris'" <tknchris at gmail.com>,     "'Ryan Abbott'"
+>>         <RAbbott at ststire.com>
+>> Cc: <outages at outages.org>
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Just as an additional data point, in the Philadelphia Metro area I saw a
+>> 33 minute outage of Comcast Business Class,
+>>
+>> earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+>>
+>> Because of the precision of the start time, and duration, I assumed it
+>> might be some kind of maintenance activity.
+>>
+>>
+>>
+>> Tony Patti
+>>
+>> CIO
+>>
+>> S. Walter Packaging Corp.
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>> via Outages
+>> Sent: Tuesday, March 24, 2015 9:43 AM
+>> To: Ryan Abbott
+>> Cc: outages at outages.org
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> I see multiple customers coming up all simultaneously so I think
+>> issuemmau be clearing we have about 50% back online
+>>
+>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>
+>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>> the Somerset/Mercer county region.  Anyone else seeing this?
+>>
+>>
+>>
+>> Ryan Abbott
+>> Windows Server Administrator
+>>
+>>
+>> Somerset Tire Service
+>> 1-732-356-8500 x207 <tel:1-732-356-8500%20x207>
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>> via Outages
+>> Sent: Tuesday, March 24, 2015 8:55 AM
+>> To: outages at outages.org
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their IP ranges from outside appear to die early in comcast's core in NYC
+>> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+>> these nj customers statics even within internal comcast <-> comcast routes.
+>>
+>>
+>>
+>> chris
+>>
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Subject: Digest Footer
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> ------------------------------
+>>
+>> End of Outages Digest, Vol 82, Issue 14
+>> ***************************************
+>>
+>
+>
+>
+> --
+> All the best,
+>
+> *Robert Castillo*
+> Cell:404-455-5558
+> Email: robcast52465 at gmail.com
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/e2299828/attachment-0001.html>
+
+From awells at digiumcloud.com  Wed Mar 25 15:26:18 2015
+From: awells at digiumcloud.com (Aubrey Wells)
+Date: Wed, 25 Mar 2015 15:26:18 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+In-Reply-To: <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+References: <mailman.32.1427206789.1116.outages@outages.org>
+ <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+Message-ID: <CAJ+z88qHRdkz+iadFq4NJBhZToZakyvgk=xO=SkP1PjEi6FF4g@mail.gmail.com>
+
+Ours looks fine
+
+---------------------
+Aubrey Wells
+
+Support: 877.344.4861 or http://www.digium.com/en/support
+<http://www.digium.com/en/support?elq=65516445a5964d3597e25eaf566bc2cf&elqCampaignId=>
+
+On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <
+outages at outages.org> wrote:
+
+> Is anyone experiencing a service outage in Atlanta today via Level 3?
+>
+> On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+>
+>> Send Outages mailing list submissions to
+>>         outages at outages.org
+>>
+>> To subscribe or unsubscribe via the World Wide Web, visit
+>>         https://puck.nether.net/mailman/listinfo/outages
+>> or, via email, send a message with subject or body 'help' to
+>>         outages-request at outages.org
+>>
+>> You can reach the person managing the list at
+>>         outages-owner at outages.org
+>>
+>> When replying, please edit your Subject line so it is more specific
+>> than "Re: Contents of Outages digest..."
+>>
+>>
+>> Today's Topics:
+>>
+>>    1. Problem between Level3 (TW Telecom) and ATT near Los      Angeles?
+>> (ML)
+>>    2. Comcast Outage in Freedom East Region? (chris)
+>>    3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+>>    4. Re: Comcast Outage in Freedom East Region? (chris)
+>>    5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+>>
+>>
+>> ----------------------------------------------------------------------
+>>
+>> Message: 1
+>> Date: Mon, 23 Mar 2015 17:51:47 -0400
+>> From: ML <ml at kenweb.org>
+>> To: "outages at outages.org" <outages at outages.org>
+>> Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+>>         Los     Angeles?
+>> Message-ID: <55108AF3.4020003 at kenweb.org>
+>> Content-Type: text/plain; charset=utf-8; format=flowed
+>>
+>> I've noticed an increase in latency and packet loss between two
+>> locations near the Los Angeles area.  One has a TW Telecom fiber based
+>> connection and the other an ATT DSL line.
+>> The latency between two location used to be ~30ms and now is about
+>> ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the
+>> culprit for the packet loss issue.  If the traceroutes rDNS is accurate
+>> it seems TW Telecom use Level3 to reach ATT (as expected). However it
+>> seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I
+>> would assume Level3 and ATT would peered in Los Angeles.
+>>
+>> Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+>> from ATT from the point of view of Level3's LA router.
+>>
+>> MTRs:
+>>
+>> http://pastebin.com/eg3AUhAn
+>>
+>>
+>>
+>>
+>> ------------------------------
+>>
+>> Message: 2
+>> Date: Tue, 24 Mar 2015 08:54:46 -0400
+>> From: chris <tknchris at gmail.com>
+>> To: "outages at outages.org" <outages at outages.org>
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <
+>> CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their IP ranges from outside appear to die early in comcast's core in NYC
+>> of PHILA. From one comcast circuit thats up in PA we cant even reach any
+>> of
+>> these nj customers statics even within internal comcast <-> comcast
+>> routes.
+>>
+>> chris
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 3
+>> Date: Tue, 24 Mar 2015 13:19:10 +0000
+>> From: Ryan Abbott <RAbbott at ststire.com>
+>> To: 'chris' <tknchris at gmail.com>
+>> Cc: "'outages at outages.org'" <outages at outages.org>
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>> the
+>> Somerset/Mercer county region.  Anyone else seeing this?
+>>
+>>
+>>
+>> Ryan Abbott
+>> Windows Server Administrator
+>>
+>>
+>> Somerset Tire Service
+>> 1-732-356-8500 x207
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+>> Outages
+>> Sent: Tuesday, March 24, 2015 8:55 AM
+>> To: outages at outages.org
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their
+>> IP ranges from outside appear to die early in comcast's core in NYC of
+>> PHILA.
+>> >From one comcast circuit thats up in PA we cant even reach any of these
+>> nj
+>> customers statics even within internal comcast <-> comcast routes.
+>>
+>>
+>>
+>> chris
+>>
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html
+>> >
+>> -------------- next part --------------
+>> A non-text attachment was scrubbed...
+>> Name: smime.p7s
+>> Type: application/pkcs7-signature
+>> Size: 6496 bytes
+>> Desc: not available
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 4
+>> Date: Tue, 24 Mar 2015 09:42:31 -0400
+>> From: chris <tknchris at gmail.com>
+>> To: Ryan Abbott <RAbbott at ststire.com>
+>> Cc: outages at outages.org
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID:
+>>         <
+>> CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> I see multiple customers coming up all simultaneously so I think issuemmau
+>> be clearing we have about 50% back online
+>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>
+>> > Yes, Seeing some high latency and packet loss to a few of our stores in
+>> > the Somerset/Mercer county region.  Anyone else seeing this?
+>> >
+>> >
+>> >
+>> >
+>> > *Ryan Abbott*Windows Server Administrator
+>> >
+>> >
+>> > *Somerset Tire Service*
+>> > 1-732-356-8500 x207
+>> >
+>> >
+>> >
+>> > *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of
+>> *chris
+>> > via Outages
+>> > *Sent:* Tuesday, March 24, 2015 8:55 AM
+>> > *To:* outages at outages.org
+>> > *Subject:* [outages] Comcast Outage in Freedom East Region?
+>> >
+>> >
+>> >
+>> > Anyone know of an outage? I have 20+ customers with business cable
+>> within
+>> > somerset/mercer county (central NJ) down with no internet and traces to
+>> > their IP ranges from outside appear to die early in comcast's core in
+>> NYC
+>> > of PHILA. From one comcast circuit thats up in PA we cant even reach
+>> any of
+>> > these nj customers statics even within internal comcast <-> comcast
+>> routes.
+>> >
+>> >
+>> >
+>> > chris
+>> >
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Message: 5
+>> Date: Tue, 24 Mar 2015 10:19:42 -0400
+>> From: "Tony Patti" <tony at swalter.com>
+>> To: "'chris'" <tknchris at gmail.com>,     "'Ryan Abbott'"
+>>         <RAbbott at ststire.com>
+>> Cc: <outages at outages.org>
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>> Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+>> Content-Type: text/plain; charset="utf-8"
+>>
+>> Just as an additional data point, in the Philadelphia Metro area I saw a
+>> 33 minute outage of Comcast Business Class,
+>>
+>> earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+>>
+>> Because of the precision of the start time, and duration, I assumed it
+>> might be some kind of maintenance activity.
+>>
+>>
+>>
+>> Tony Patti
+>>
+>> CIO
+>>
+>> S. Walter Packaging Corp.
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>> via Outages
+>> Sent: Tuesday, March 24, 2015 9:43 AM
+>> To: Ryan Abbott
+>> Cc: outages at outages.org
+>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> I see multiple customers coming up all simultaneously so I think
+>> issuemmau be clearing we have about 50% back online
+>>
+>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>
+>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>> the Somerset/Mercer county region.  Anyone else seeing this?
+>>
+>>
+>>
+>> Ryan Abbott
+>> Windows Server Administrator
+>>
+>>
+>> Somerset Tire Service
+>> 1-732-356-8500 x207 <tel:1-732-356-8500%20x207>
+>>
+>>
+>>
+>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>> via Outages
+>> Sent: Tuesday, March 24, 2015 8:55 AM
+>> To: outages at outages.org
+>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>
+>>
+>>
+>> Anyone know of an outage? I have 20+ customers with business cable within
+>> somerset/mercer county (central NJ) down with no internet and traces to
+>> their IP ranges from outside appear to die early in comcast's core in NYC
+>> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+>> these nj customers statics even within internal comcast <-> comcast routes.
+>>
+>>
+>>
+>> chris
+>>
+>> -------------- next part --------------
+>> An HTML attachment was scrubbed...
+>> URL: <
+>> https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html
+>> >
+>>
+>> ------------------------------
+>>
+>> Subject: Digest Footer
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> ------------------------------
+>>
+>> End of Outages Digest, Vol 82, Issue 14
+>> ***************************************
+>>
+>
+>
+>
+> --
+> All the best,
+>
+> *Robert Castillo*
+> Cell:404-455-5558
+> Email: robcast52465 at gmail.com
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/d6aa26af/attachment.html>
+
+From mob at bartzfamily.net  Wed Mar 25 15:27:10 2015
+From: mob at bartzfamily.net (Mike Bartz)
+Date: Wed, 25 Mar 2015 15:27:10 -0400
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+In-Reply-To: <CAGK0HDmbfa7Zh8kF-izsLf3=Q3_uH-wfe=8a1LFykTy0w9pYnA@mail.gmail.com>
+References: <mailman.32.1427206789.1116.outages@outages.org>
+ <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+ <CAGK0HDmbfa7Zh8kF-izsLf3=Q3_uH-wfe=8a1LFykTy0w9pYnA@mail.gmail.com>
+Message-ID: <CAMXhYcfDfXZGi0EMhcnNVsHyxxt3L3rJ=MABGLyHyFRp_4dVYQ@mail.gmail.com>
+
+Seeing traffic loss with Level 3 from one location in NYC.  I'm on hold
+trying to get through to their support to see what's up.  Unusually long
+hold time.
+
+On Wed, Mar 25, 2015 at 3:24 PM, Starr, Steve via Outages <
+outages at outages.org> wrote:
+
+> We are seeing traffic loss with Level3 through Detroit.  To get around it
+> we had to drop our peer who is directly connected to Level3.
+>
+> :: Steve Starr
+> :: Daystarr Communications
+> :: steve.starr at corp.daystarr.net
+> :: v - 989.720.6000
+> :: f - 989.720.6060
+>
+> On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <
+> outages at outages.org> wrote:
+>
+>> Is anyone experiencing a service outage in Atlanta today via Level 3?
+>>
+>> On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+>>
+>>> Send Outages mailing list submissions to
+>>>         outages at outages.org
+>>>
+>>> To subscribe or unsubscribe via the World Wide Web, visit
+>>>         https://puck.nether.net/mailman/listinfo/outages
+>>> or, via email, send a message with subject or body 'help' to
+>>>         outages-request at outages.org
+>>>
+>>> You can reach the person managing the list at
+>>>         outages-owner at outages.org
+>>>
+>>> When replying, please edit your Subject line so it is more specific
+>>> than "Re: Contents of Outages digest..."
+>>>
+>>>
+>>> Today's Topics:
+>>>
+>>>    1. Problem between Level3 (TW Telecom) and ATT near Los      Angeles?
+>>> (ML)
+>>>    2. Comcast Outage in Freedom East Region? (chris)
+>>>    3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+>>>    4. Re: Comcast Outage in Freedom East Region? (chris)
+>>>    5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+>>>
+>>>
+>>> ----------------------------------------------------------------------
+>>>
+>>> Message: 1
+>>> Date: Mon, 23 Mar 2015 17:51:47 -0400
+>>> From: ML <ml at kenweb.org>
+>>> To: "outages at outages.org" <outages at outages.org>
+>>> Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+>>>         Los     Angeles?
+>>> Message-ID: <55108AF3.4020003 at kenweb.org>
+>>> Content-Type: text/plain; charset=utf-8; format=flowed
+>>>
+>>> I've noticed an increase in latency and packet loss between two
+>>> locations near the Los Angeles area.  One has a TW Telecom fiber based
+>>> connection and the other an ATT DSL line.
+>>> The latency between two location used to be ~30ms and now is about
+>>> ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the
+>>> culprit for the packet loss issue.  If the traceroutes rDNS is accurate
+>>> it seems TW Telecom use Level3 to reach ATT (as expected). However it
+>>> seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I
+>>> would assume Level3 and ATT would peered in Los Angeles.
+>>>
+>>> Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+>>> from ATT from the point of view of Level3's LA router.
+>>>
+>>> MTRs:
+>>>
+>>> http://pastebin.com/eg3AUhAn
+>>>
+>>>
+>>>
+>>>
+>>> ------------------------------
+>>>
+>>> Message: 2
+>>> Date: Tue, 24 Mar 2015 08:54:46 -0400
+>>> From: chris <tknchris at gmail.com>
+>>> To: "outages at outages.org" <outages at outages.org>
+>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>> Message-ID:
+>>>         <
+>>> CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+>>> Content-Type: text/plain; charset="utf-8"
+>>>
+>>> Anyone know of an outage? I have 20+ customers with business cable within
+>>> somerset/mercer county (central NJ) down with no internet and traces to
+>>> their IP ranges from outside appear to die early in comcast's core in NYC
+>>> of PHILA. From one comcast circuit thats up in PA we cant even reach any
+>>> of
+>>> these nj customers statics even within internal comcast <-> comcast
+>>> routes.
+>>>
+>>> chris
+>>> -------------- next part --------------
+>>> An HTML attachment was scrubbed...
+>>> URL: <
+>>> https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html
+>>> >
+>>>
+>>> ------------------------------
+>>>
+>>> Message: 3
+>>> Date: Tue, 24 Mar 2015 13:19:10 +0000
+>>> From: Ryan Abbott <RAbbott at ststire.com>
+>>> To: 'chris' <tknchris at gmail.com>
+>>> Cc: "'outages at outages.org'" <outages at outages.org>
+>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>> Message-ID:
+>>>         <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+>>> Content-Type: text/plain; charset="utf-8"
+>>>
+>>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>>> the
+>>> Somerset/Mercer county region.  Anyone else seeing this?
+>>>
+>>>
+>>>
+>>> Ryan Abbott
+>>> Windows Server Administrator
+>>>
+>>>
+>>> Somerset Tire Service
+>>> 1-732-356-8500 x207
+>>>
+>>>
+>>>
+>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>> via
+>>> Outages
+>>> Sent: Tuesday, March 24, 2015 8:55 AM
+>>> To: outages at outages.org
+>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>>
+>>>
+>>>
+>>> Anyone know of an outage? I have 20+ customers with business cable within
+>>> somerset/mercer county (central NJ) down with no internet and traces to
+>>> their
+>>> IP ranges from outside appear to die early in comcast's core in NYC of
+>>> PHILA.
+>>> >From one comcast circuit thats up in PA we cant even reach any of these
+>>> nj
+>>> customers statics even within internal comcast <-> comcast routes.
+>>>
+>>>
+>>>
+>>> chris
+>>>
+>>> -------------- next part --------------
+>>> An HTML attachment was scrubbed...
+>>> URL: <
+>>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html
+>>> >
+>>> -------------- next part --------------
+>>> A non-text attachment was scrubbed...
+>>> Name: smime.p7s
+>>> Type: application/pkcs7-signature
+>>> Size: 6496 bytes
+>>> Desc: not available
+>>> URL: <
+>>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s
+>>> >
+>>>
+>>> ------------------------------
+>>>
+>>> Message: 4
+>>> Date: Tue, 24 Mar 2015 09:42:31 -0400
+>>> From: chris <tknchris at gmail.com>
+>>> To: Ryan Abbott <RAbbott at ststire.com>
+>>> Cc: outages at outages.org
+>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>> Message-ID:
+>>>         <
+>>> CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+>>> Content-Type: text/plain; charset="utf-8"
+>>>
+>>> I see multiple customers coming up all simultaneously so I think
+>>> issuemmau
+>>> be clearing we have about 50% back online
+>>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>>
+>>> > Yes, Seeing some high latency and packet loss to a few of our stores in
+>>> > the Somerset/Mercer county region.  Anyone else seeing this?
+>>> >
+>>> >
+>>> >
+>>> >
+>>> > *Ryan Abbott*Windows Server Administrator
+>>> >
+>>> >
+>>> > *Somerset Tire Service*
+>>> > 1-732-356-8500 x207
+>>> >
+>>> >
+>>> >
+>>> > *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of
+>>> *chris
+>>> > via Outages
+>>> > *Sent:* Tuesday, March 24, 2015 8:55 AM
+>>> > *To:* outages at outages.org
+>>> > *Subject:* [outages] Comcast Outage in Freedom East Region?
+>>> >
+>>> >
+>>> >
+>>> > Anyone know of an outage? I have 20+ customers with business cable
+>>> within
+>>> > somerset/mercer county (central NJ) down with no internet and traces to
+>>> > their IP ranges from outside appear to die early in comcast's core in
+>>> NYC
+>>> > of PHILA. From one comcast circuit thats up in PA we cant even reach
+>>> any of
+>>> > these nj customers statics even within internal comcast <-> comcast
+>>> routes.
+>>> >
+>>> >
+>>> >
+>>> > chris
+>>> >
+>>> -------------- next part --------------
+>>> An HTML attachment was scrubbed...
+>>> URL: <
+>>> https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html
+>>> >
+>>>
+>>> ------------------------------
+>>>
+>>> Message: 5
+>>> Date: Tue, 24 Mar 2015 10:19:42 -0400
+>>> From: "Tony Patti" <tony at swalter.com>
+>>> To: "'chris'" <tknchris at gmail.com>,     "'Ryan Abbott'"
+>>>         <RAbbott at ststire.com>
+>>> Cc: <outages at outages.org>
+>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>> Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+>>> Content-Type: text/plain; charset="utf-8"
+>>>
+>>> Just as an additional data point, in the Philadelphia Metro area I saw a
+>>> 33 minute outage of Comcast Business Class,
+>>>
+>>> earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+>>>
+>>> Because of the precision of the start time, and duration, I assumed it
+>>> might be some kind of maintenance activity.
+>>>
+>>>
+>>>
+>>> Tony Patti
+>>>
+>>> CIO
+>>>
+>>> S. Walter Packaging Corp.
+>>>
+>>>
+>>>
+>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>> via Outages
+>>> Sent: Tuesday, March 24, 2015 9:43 AM
+>>> To: Ryan Abbott
+>>> Cc: outages at outages.org
+>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>>
+>>>
+>>>
+>>> I see multiple customers coming up all simultaneously so I think
+>>> issuemmau be clearing we have about 50% back online
+>>>
+>>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>>
+>>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>>> the Somerset/Mercer county region.  Anyone else seeing this?
+>>>
+>>>
+>>>
+>>> Ryan Abbott
+>>> Windows Server Administrator
+>>>
+>>>
+>>> Somerset Tire Service
+>>> 1-732-356-8500 x207 <tel:1-732-356-8500%20x207>
+>>>
+>>>
+>>>
+>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>> via Outages
+>>> Sent: Tuesday, March 24, 2015 8:55 AM
+>>> To: outages at outages.org
+>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>>
+>>>
+>>>
+>>> Anyone know of an outage? I have 20+ customers with business cable
+>>> within somerset/mercer county (central NJ) down with no internet and traces
+>>> to their IP ranges from outside appear to die early in comcast's core in
+>>> NYC of PHILA. From one comcast circuit thats up in PA we cant even reach
+>>> any of these nj customers statics even within internal comcast <-> comcast
+>>> routes.
+>>>
+>>>
+>>>
+>>> chris
+>>>
+>>> -------------- next part --------------
+>>> An HTML attachment was scrubbed...
+>>> URL: <
+>>> https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html
+>>> >
+>>>
+>>> ------------------------------
+>>>
+>>> Subject: Digest Footer
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>>
+>>> ------------------------------
+>>>
+>>> End of Outages Digest, Vol 82, Issue 14
+>>> ***************************************
+>>>
+>>
+>>
+>>
+>> --
+>> All the best,
+>>
+>> *Robert Castillo*
+>> Cell:404-455-5558
+>> Email: robcast52465 at gmail.com
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+Mike Bartz
+mob at bartzfamily.net
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/84148b5b/attachment-0001.html>
+
+From anthony.kosednar at gmail.com  Wed Mar 25 17:37:34 2015
+From: anthony.kosednar at gmail.com (Anthony Kosednar)
+Date: Wed, 25 Mar 2015 14:37:34 -0700
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+In-Reply-To: <CAMXhYcfDfXZGi0EMhcnNVsHyxxt3L3rJ=MABGLyHyFRp_4dVYQ@mail.gmail.com>
+References: <mailman.32.1427206789.1116.outages@outages.org>
+ <CAEGMPLQ2aPaeCVMC7yDzBLs8-GAnhgqAqLMv9F6wWHsPj2X2qw@mail.gmail.com>
+ <CAGK0HDmbfa7Zh8kF-izsLf3=Q3_uH-wfe=8a1LFykTy0w9pYnA@mail.gmail.com>
+ <CAMXhYcfDfXZGi0EMhcnNVsHyxxt3L3rJ=MABGLyHyFRp_4dVYQ@mail.gmail.com>
+Message-ID: <CAP+xcWU0oiENK-e4Bd-GO32DFB46O1Bp_9qK-t189Q=CSacZWw@mail.gmail.com>
+
+There was a core issues with Level 3 (Event ticket is 9045140). Users are
+not reporting it is resolved now but I have been unable to confirm.
+
+On Wed, Mar 25, 2015 at 12:27 PM, Mike Bartz via Outages <
+outages at outages.org> wrote:
+
+> Seeing traffic loss with Level 3 from one location in NYC.  I'm on hold
+> trying to get through to their support to see what's up.  Unusually long
+> hold time.
+>
+> On Wed, Mar 25, 2015 at 3:24 PM, Starr, Steve via Outages <
+> outages at outages.org> wrote:
+>
+>> We are seeing traffic loss with Level3 through Detroit.  To get around it
+>> we had to drop our peer who is directly connected to Level3.
+>>
+>> :: Steve Starr
+>> :: Daystarr Communications
+>> :: steve.starr at corp.daystarr.net
+>> :: v - 989.720.6000
+>> :: f - 989.720.6060
+>>
+>> On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <
+>> outages at outages.org> wrote:
+>>
+>>> Is anyone experiencing a service outage in Atlanta today via Level 3?
+>>>
+>>> On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+>>>
+>>>> Send Outages mailing list submissions to
+>>>>         outages at outages.org
+>>>>
+>>>> To subscribe or unsubscribe via the World Wide Web, visit
+>>>>         https://puck.nether.net/mailman/listinfo/outages
+>>>> or, via email, send a message with subject or body 'help' to
+>>>>         outages-request at outages.org
+>>>>
+>>>> You can reach the person managing the list at
+>>>>         outages-owner at outages.org
+>>>>
+>>>> When replying, please edit your Subject line so it is more specific
+>>>> than "Re: Contents of Outages digest..."
+>>>>
+>>>>
+>>>> Today's Topics:
+>>>>
+>>>>    1. Problem between Level3 (TW Telecom) and ATT near Los
+>>>> Angeles? (ML)
+>>>>    2. Comcast Outage in Freedom East Region? (chris)
+>>>>    3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+>>>>    4. Re: Comcast Outage in Freedom East Region? (chris)
+>>>>    5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+>>>>
+>>>>
+>>>> ----------------------------------------------------------------------
+>>>>
+>>>> Message: 1
+>>>> Date: Mon, 23 Mar 2015 17:51:47 -0400
+>>>> From: ML <ml at kenweb.org>
+>>>> To: "outages at outages.org" <outages at outages.org>
+>>>> Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+>>>>         Los     Angeles?
+>>>> Message-ID: <55108AF3.4020003 at kenweb.org>
+>>>> Content-Type: text/plain; charset=utf-8; format=flowed
+>>>>
+>>>> I've noticed an increase in latency and packet loss between two
+>>>> locations near the Los Angeles area.  One has a TW Telecom fiber based
+>>>> connection and the other an ATT DSL line.
+>>>> The latency between two location used to be ~30ms and now is about
+>>>> ~60ms.  Based on mtrs (See below) I'd say the ATT DSL line is the
+>>>> culprit for the packet loss issue.  If the traceroutes rDNS is accurate
+>>>> it seems TW Telecom use Level3 to reach ATT (as expected). However it
+>>>> seems that Level3 goes to Dallas to reach ATT.  That seems strange.  I
+>>>> would assume Level3 and ATT would peered in Los Angeles.
+>>>>
+>>>> Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+>>>> from ATT from the point of view of Level3's LA router.
+>>>>
+>>>> MTRs:
+>>>>
+>>>> http://pastebin.com/eg3AUhAn
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> Message: 2
+>>>> Date: Tue, 24 Mar 2015 08:54:46 -0400
+>>>> From: chris <tknchris at gmail.com>
+>>>> To: "outages at outages.org" <outages at outages.org>
+>>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>>> Message-ID:
+>>>>         <
+>>>> CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+>>>> Content-Type: text/plain; charset="utf-8"
+>>>>
+>>>> Anyone know of an outage? I have 20+ customers with business cable
+>>>> within
+>>>> somerset/mercer county (central NJ) down with no internet and traces to
+>>>> their IP ranges from outside appear to die early in comcast's core in
+>>>> NYC
+>>>> of PHILA. From one comcast circuit thats up in PA we cant even reach
+>>>> any of
+>>>> these nj customers statics even within internal comcast <-> comcast
+>>>> routes.
+>>>>
+>>>> chris
+>>>> -------------- next part --------------
+>>>> An HTML attachment was scrubbed...
+>>>> URL: <
+>>>> https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html
+>>>> >
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> Message: 3
+>>>> Date: Tue, 24 Mar 2015 13:19:10 +0000
+>>>> From: Ryan Abbott <RAbbott at ststire.com>
+>>>> To: 'chris' <tknchris at gmail.com>
+>>>> Cc: "'outages at outages.org'" <outages at outages.org>
+>>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>>> Message-ID:
+>>>>         <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+>>>> Content-Type: text/plain; charset="utf-8"
+>>>>
+>>>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>>>> the
+>>>> Somerset/Mercer county region.  Anyone else seeing this?
+>>>>
+>>>>
+>>>>
+>>>> Ryan Abbott
+>>>> Windows Server Administrator
+>>>>
+>>>>
+>>>> Somerset Tire Service
+>>>> 1-732-356-8500 x207
+>>>>
+>>>>
+>>>>
+>>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>>> via
+>>>> Outages
+>>>> Sent: Tuesday, March 24, 2015 8:55 AM
+>>>> To: outages at outages.org
+>>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>>>
+>>>>
+>>>>
+>>>> Anyone know of an outage? I have 20+ customers with business cable
+>>>> within
+>>>> somerset/mercer county (central NJ) down with no internet and traces to
+>>>> their
+>>>> IP ranges from outside appear to die early in comcast's core in NYC of
+>>>> PHILA.
+>>>> >From one comcast circuit thats up in PA we cant even reach any of
+>>>> these nj
+>>>> customers statics even within internal comcast <-> comcast routes.
+>>>>
+>>>>
+>>>>
+>>>> chris
+>>>>
+>>>> -------------- next part --------------
+>>>> An HTML attachment was scrubbed...
+>>>> URL: <
+>>>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html
+>>>> >
+>>>> -------------- next part --------------
+>>>> A non-text attachment was scrubbed...
+>>>> Name: smime.p7s
+>>>> Type: application/pkcs7-signature
+>>>> Size: 6496 bytes
+>>>> Desc: not available
+>>>> URL: <
+>>>> https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s
+>>>> >
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> Message: 4
+>>>> Date: Tue, 24 Mar 2015 09:42:31 -0400
+>>>> From: chris <tknchris at gmail.com>
+>>>> To: Ryan Abbott <RAbbott at ststire.com>
+>>>> Cc: outages at outages.org
+>>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>>> Message-ID:
+>>>>         <
+>>>> CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+>>>> Content-Type: text/plain; charset="utf-8"
+>>>>
+>>>> I see multiple customers coming up all simultaneously so I think
+>>>> issuemmau
+>>>> be clearing we have about 50% back online
+>>>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>>>
+>>>> > Yes, Seeing some high latency and packet loss to a few of our stores
+>>>> in
+>>>> > the Somerset/Mercer county region.  Anyone else seeing this?
+>>>> >
+>>>> >
+>>>> >
+>>>> >
+>>>> > *Ryan Abbott*Windows Server Administrator
+>>>> >
+>>>> >
+>>>> > *Somerset Tire Service*
+>>>> > 1-732-356-8500 x207
+>>>> >
+>>>> >
+>>>> >
+>>>> > *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of
+>>>> *chris
+>>>> > via Outages
+>>>> > *Sent:* Tuesday, March 24, 2015 8:55 AM
+>>>> > *To:* outages at outages.org
+>>>> > *Subject:* [outages] Comcast Outage in Freedom East Region?
+>>>> >
+>>>> >
+>>>> >
+>>>> > Anyone know of an outage? I have 20+ customers with business cable
+>>>> within
+>>>> > somerset/mercer county (central NJ) down with no internet and traces
+>>>> to
+>>>> > their IP ranges from outside appear to die early in comcast's core in
+>>>> NYC
+>>>> > of PHILA. From one comcast circuit thats up in PA we cant even reach
+>>>> any of
+>>>> > these nj customers statics even within internal comcast <-> comcast
+>>>> routes.
+>>>> >
+>>>> >
+>>>> >
+>>>> > chris
+>>>> >
+>>>> -------------- next part --------------
+>>>> An HTML attachment was scrubbed...
+>>>> URL: <
+>>>> https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html
+>>>> >
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> Message: 5
+>>>> Date: Tue, 24 Mar 2015 10:19:42 -0400
+>>>> From: "Tony Patti" <tony at swalter.com>
+>>>> To: "'chris'" <tknchris at gmail.com>,     "'Ryan Abbott'"
+>>>>         <RAbbott at ststire.com>
+>>>> Cc: <outages at outages.org>
+>>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>>> Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+>>>> Content-Type: text/plain; charset="utf-8"
+>>>>
+>>>> Just as an additional data point, in the Philadelphia Metro area I saw
+>>>> a 33 minute outage of Comcast Business Class,
+>>>>
+>>>> earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am
+>>>> Eastern.
+>>>>
+>>>> Because of the precision of the start time, and duration, I assumed it
+>>>> might be some kind of maintenance activity.
+>>>>
+>>>>
+>>>>
+>>>> Tony Patti
+>>>>
+>>>> CIO
+>>>>
+>>>> S. Walter Packaging Corp.
+>>>>
+>>>>
+>>>>
+>>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>>> via Outages
+>>>> Sent: Tuesday, March 24, 2015 9:43 AM
+>>>> To: Ryan Abbott
+>>>> Cc: outages at outages.org
+>>>> Subject: Re: [outages] Comcast Outage in Freedom East Region?
+>>>>
+>>>>
+>>>>
+>>>> I see multiple customers coming up all simultaneously so I think
+>>>> issuemmau be clearing we have about 50% back online
+>>>>
+>>>> On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+>>>>
+>>>> Yes, Seeing some high latency and packet loss to a few of our stores in
+>>>> the Somerset/Mercer county region.  Anyone else seeing this?
+>>>>
+>>>>
+>>>>
+>>>> Ryan Abbott
+>>>> Windows Server Administrator
+>>>>
+>>>>
+>>>> Somerset Tire Service
+>>>> 1-732-356-8500 x207 <tel:1-732-356-8500%20x207>
+>>>>
+>>>>
+>>>>
+>>>> From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris
+>>>> via Outages
+>>>> Sent: Tuesday, March 24, 2015 8:55 AM
+>>>> To: outages at outages.org
+>>>> Subject: [outages] Comcast Outage in Freedom East Region?
+>>>>
+>>>>
+>>>>
+>>>> Anyone know of an outage? I have 20+ customers with business cable
+>>>> within somerset/mercer county (central NJ) down with no internet and traces
+>>>> to their IP ranges from outside appear to die early in comcast's core in
+>>>> NYC of PHILA. From one comcast circuit thats up in PA we cant even reach
+>>>> any of these nj customers statics even within internal comcast <-> comcast
+>>>> routes.
+>>>>
+>>>>
+>>>>
+>>>> chris
+>>>>
+>>>> -------------- next part --------------
+>>>> An HTML attachment was scrubbed...
+>>>> URL: <
+>>>> https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html
+>>>> >
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> Subject: Digest Footer
+>>>>
+>>>> _______________________________________________
+>>>> Outages mailing list
+>>>> Outages at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages
+>>>>
+>>>>
+>>>> ------------------------------
+>>>>
+>>>> End of Outages Digest, Vol 82, Issue 14
+>>>> ***************************************
+>>>>
+>>>
+>>>
+>>>
+>>> --
+>>> All the best,
+>>>
+>>> *Robert Castillo*
+>>> Cell:404-455-5558
+>>> Email: robcast52465 at gmail.com
+>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+>
+> --
+> Mike Bartz
+> mob at bartzfamily.net
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/00a43edb/attachment-0001.html>
+
+From jawitherell at yahoo.com  Wed Mar 25 22:39:49 2015
+From: jawitherell at yahoo.com (Jim Witherell)
+Date: Wed, 25 Mar 2015 19:39:49 -0700
+Subject: [outages] Outages Digest, Vol 82, Issue 14
+Message-ID: <1427337589.16466.YahooMailAndroidMobile@web163406.mail.gq1.yahoo.com>
+
+>From Level 3 awhile ago...?
+
+
+*** CASCADED EXTERNAL NOTES 25-Mar-2015 23:15:29 GMT From CASE: 9045140 - Event
+
+The IP NOC has reported that traffic transiting high speed links on a device in Cleveland, OH made an intermediate-hop routing change to use a low speed link instead, which created congestion and caused customers to become impacted. The low speed routing link was removed to correct the issue, and service restoral has been verified with affected customers. No further impact is anticipated, and the IP NOC is currently auditing the network to ensure that this condition does not exist elsewhere."
+
+Sent from Yahoo Mail on Android
+
+From:"Mike Bartz via Outages" <outages at outages.org>
+Date:Wed, Mar 25, 2015 at 3:28 PM
+Subject:Re: [outages] Outages Digest, Vol 82, Issue 14
+
+Seeing traffic loss with Level 3 from one location in NYC.? I'm on hold trying to get through to their support to see what's up.? Unusually long hold time.
+
+
+On Wed, Mar 25, 2015 at 3:24 PM, Starr, Steve via Outages <outages at outages.org> wrote:
+
+We are seeing traffic loss with Level3 through Detroit.? To get around it we had to drop our peer who is directly connected to Level3.
+
+
+:: Steve Starr
+:: Daystarr Communications
+::?steve.starr at corp.daystarr.net
+:: v - 989.720.6000
+:: f - 989.720.6060
+
+
+On Wed, Mar 25, 2015 at 3:17 PM, Rob Castillo via Outages <outages at outages.org> wrote:
+
+Is anyone experiencing a service outage in Atlanta today via Level 3?
+
+
+On Tue, Mar 24, 2015 at 10:19 AM, <outages-request at outages.org> wrote:
+
+Send Outages mailing list submissions to
+? ? ? ? outages at outages.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+? ? ? ? https://puck.nether.net/mailman/listinfo/outages
+or, via email, send a message with subject or body 'help' to
+? ? ? ? outages-request at outages.org
+
+You can reach the person managing the list at
+? ? ? ? outages-owner at outages.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of Outages digest..."
+
+
+Today's Topics:
+
+? ?1. Problem between Level3 (TW Telecom) and ATT near Los? ? ? Angeles? (ML)
+? ?2. Comcast Outage in Freedom East Region? (chris)
+? ?3. Re: Comcast Outage in Freedom East Region? (Ryan Abbott)
+? ?4. Re: Comcast Outage in Freedom East Region? (chris)
+? ?5. Re: Comcast Outage in Freedom East Region? (Tony Patti)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Mon, 23 Mar 2015 17:51:47 -0400
+From: ML <ml at kenweb.org>
+To: "outages at outages.org" <outages at outages.org>
+Subject: [outages] Problem between Level3 (TW Telecom) and ATT near
+? ? ? ? Los? ? ?Angeles?
+Message-ID: <55108AF3.4020003 at kenweb.org>
+Content-Type: text/plain; charset=utf-8; format=flowed
+
+I've noticed an increase in latency and packet loss between two
+locations near the Los Angeles area.? One has a TW Telecom fiber based
+connection and the other an ATT DSL line.
+The latency between two location used to be ~30ms and now is about
+~60ms.? Based on mtrs (See below) I'd say the ATT DSL line is the
+culprit for the packet loss issue.? If the traceroutes rDNS is accurate
+it seems TW Telecom use Level3 to reach ATT (as expected). However it
+seems that Level3 goes to Dallas to reach ATT.? That seems strange.? I
+would assume Level3 and ATT would peered in Los Angeles.
+
+Level3 looking glass confirms that 107.128.0.0/12 is learned in Dallas
+from ATT from the point of view of Level3's LA router.
+
+MTRs:
+
+http://pastebin.com/eg3AUhAn
+
+
+
+
+------------------------------
+
+Message: 2
+Date: Tue, 24 Mar 2015 08:54:46 -0400
+From: chris <tknchris at gmail.com>
+To: "outages at outages.org" <outages at outages.org>
+Subject: [outages] Comcast Outage in Freedom East Region?
+Message-ID:
+? ? ? ? <CAKnNFz_ySd6fn1Zke59x42X5gY2AZR-m0qeuX2rzKo9L2sve0w at mail.gmail.com>
+Content-Type: text/plain; charset="utf-8"
+
+Anyone know of an outage? I have 20+ customers with business cable within
+somerset/mercer county (central NJ) down with no internet and traces to
+their IP ranges from outside appear to die early in comcast's core in NYC
+of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+these nj customers statics even within internal comcast <-> comcast routes.
+
+chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/fe348820/attachment-0001.html>
+
+------------------------------
+
+Message: 3
+Date: Tue, 24 Mar 2015 13:19:10 +0000
+From: Ryan Abbott <RAbbott at ststire.com>
+To: 'chris' <tknchris at gmail.com>
+Cc: "'outages at outages.org'" <outages at outages.org>
+Subject: Re: [outages] Comcast Outage in Freedom East Region?
+Message-ID:
+? ? ? ? <FCB6195A47B73E4D873ED539D9817D18BAC98736 at EXCHANGE3.STS.loc>
+Content-Type: text/plain; charset="utf-8"
+
+Yes, Seeing some high latency and packet loss to a few of our stores in the
+Somerset/Mercer county region.? Anyone else seeing this?
+
+
+
+Ryan Abbott
+Windows Server Administrator
+
+
+Somerset Tire Service
+1-732-356-8500 x207
+
+
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via
+Outages
+Sent: Tuesday, March 24, 2015 8:55 AM
+To: outages at outages.org
+Subject: [outages] Comcast Outage in Freedom East Region?
+
+
+
+Anyone know of an outage? I have 20+ customers with business cable within
+somerset/mercer county (central NJ) down with no internet and traces to their
+IP ranges from outside appear to die early in comcast's core in NYC of PHILA.
+>From one comcast circuit thats up in PA we cant even reach any of these nj
+customers statics even within internal comcast <-> comcast routes.
+
+
+
+chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 6496 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/85d94cd5/attachment-0001.p7s>
+
+------------------------------
+
+Message: 4
+Date: Tue, 24 Mar 2015 09:42:31 -0400
+From: chris <tknchris at gmail.com>
+To: Ryan Abbott <RAbbott at ststire.com>
+Cc: outages at outages.org
+Subject: Re: [outages] Comcast Outage in Freedom East Region?
+Message-ID:
+? ? ? ? <CAKnNFz_bO_qGe45ssdUz0z9Jw2FtmGTDGoW_mOw4PrOV-au6YA at mail.gmail.com>
+Content-Type: text/plain; charset="utf-8"
+
+I see multiple customers coming up all simultaneously so I think issuemmau
+be clearing we have about 50% back online
+On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+
+> Yes, Seeing some high latency and packet loss to a few of our stores in
+> the Somerset/Mercer county region.? Anyone else seeing this?
+>
+>
+>
+>
+> *Ryan Abbott*Windows Server Administrator
+>
+>
+> *Somerset Tire Service*
+> 1-732-356-8500 x207
+>
+>
+>
+> *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *chris
+> via Outages
+> *Sent:* Tuesday, March 24, 2015 8:55 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] Comcast Outage in Freedom East Region?
+>
+>
+>
+> Anyone know of an outage? I have 20+ customers with business cable within
+> somerset/mercer county (central NJ) down with no internet and traces to
+> their IP ranges from outside appear to die early in comcast's core in NYC
+> of PHILA. From one comcast circuit thats up in PA we cant even reach any of
+> these nj customers statics even within internal comcast <-> comcast routes.
+>
+>
+>
+> chris
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/ea544b24/attachment-0001.html>
+
+------------------------------
+
+Message: 5
+Date: Tue, 24 Mar 2015 10:19:42 -0400
+From: "Tony Patti" <tony at swalter.com>
+To: "'chris'" <tknchris at gmail.com>,? ? ?"'Ryan Abbott'"
+? ? ? ? <RAbbott at ststire.com>
+Cc: <outages at outages.org>
+Subject: Re: [outages] Comcast Outage in Freedom East Region?
+Message-ID: <042f01d0663d$924e0810$b6ea1830$@swalter.com>
+Content-Type: text/plain; charset="utf-8"
+
+Just as an additional data point, in the Philadelphia Metro area I saw a 33 minute outage of Comcast Business Class,
+
+earlier this morning starting EXACTLY 1:30 am Eastern to 2:03 am Eastern.
+
+Because of the precision of the start time, and duration, I assumed it might be some kind of maintenance activity.
+
+
+
+Tony Patti
+
+CIO
+
+S. Walter Packaging Corp.
+
+
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+Sent: Tuesday, March 24, 2015 9:43 AM
+To: Ryan Abbott
+Cc: outages at outages.org
+Subject: Re: [outages] Comcast Outage in Freedom East Region?
+
+
+
+I see multiple customers coming up all simultaneously so I think issuemmau be clearing we have about 50% back online
+
+On Mar 24, 2015 9:19 AM, "Ryan Abbott" <RAbbott at ststire.com> wrote:
+
+Yes, Seeing some high latency and packet loss to a few of our stores in the Somerset/Mercer county region.? Anyone else seeing this?
+
+
+
+Ryan Abbott
+Windows Server Administrator
+
+
+Somerset Tire Service
+1-732-356-8500 x207?<tel:1-732-356-8500%20x207>
+
+
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of chris via Outages
+Sent: Tuesday, March 24, 2015 8:55 AM
+To: outages at outages.org
+Subject: [outages] Comcast Outage in Freedom East Region?
+
+
+
+Anyone know of an outage? I have 20+ customers with business cable within somerset/mercer county (central NJ) down with no internet and traces to their IP ranges from outside appear to die early in comcast's core in NYC of PHILA. From one comcast circuit thats up in PA we cant even reach any of these nj customers statics even within internal comcast <-> comcast routes.
+
+
+
+chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150324/9aa6f741/attachment.html>
+
+------------------------------
+
+Subject: Digest Footer
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+------------------------------
+
+End of Outages Digest, Vol 82, Issue 14
+***************************************
+
+
+
+
+-- 
+
+All the best,
+
+?
+
+Robert Castillo
+
+Cell:404-455-5558
+
+Email: robcast52465 at gmail.com
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+-- 
+
+Mike Bartz
+mob at bartzfamily.net
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20150325/5546770c/attachment-0001.html>
+

@@ -1,0 +1,851 @@
+###############################################################
+Cogent outage details?
+###############################################################
+  	<46AA087B.7070407@r337.com>
+ Matt Liotta wrote:
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ||||||||||||||||||||||||||||||||||||||||||
+ WTF?
+ -- 
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ http://members.cox.net/larrysheldon/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Thousands in Minnesota Without Phone Service, Includes 911 Access
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Via The Minneapolis-St. Paul Star Tribune.
+ [snip]
+ A fiber optic outage in Osseo shortly after noon Sunday quickly spread in
+ the north and west metro, causing about 98,000 customers to lose some or
+ all of their phone service.
+ There were reports out of Carver and Hennepin counties that 911 service was
+ down for some customers, but Colleen Floyd, a spokeswoman for telephone
+ service provider Embarq, said that is still being investigated.
+ About 70,000 Embarq customers did not have a dial tone at all and an
+ additional 28,000 could not make or receive long-distance calls, Floyd
+ said. Embarq is a former division of Sprint.
+ [snip]
+ More:
+ http://www.startribune.com/462/story/1397905.html
+ - - ferg
+ --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Flagtel Outage in West Pacific?
+###############################################################
+ http://ubs.flagtel.com/lg
+ On 8/21/07, Sanjeev K Gupta <sanjeev at esysmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T Wireless -- NY/NJ
+###############################################################
+ Looks like there's some problem with Cingular/AT&T Wireless in the
+ NY/NJ metro area.  Calls outside of the network fail, sometimes with a
+ message from the MSO sometimes with a SIT tone on the handset.  Anyone
+ else seeing any problems? I've been having them from at least 8:30
+ eastern.
+ -Jay
+ There is an issue with the AT&T/Cingular voice network in the
+ NYC/Northern NJ area, this is being tracked under ticket
+ #TT00005269557 (Thanks Jonathan!), there is however no ETR.
+ -Jayson
+ On 9/7/07, Jayson Navitsky <jnavitsky at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Major L3 issues on east coast?
+###############################################################
+ Hey everyone,
+ Seems to be a major issues with Broadwing/Level3.  Our BGP session went kaput
+ about fifteen minutes ago.  Traceroutes from Sprint and AT&T make it
+ one or two hops into their network.  NOC line is busy... has anyone heard
+ any info?
+ border1.dc3>traceroute 216.140.65.1 
+ Type escape sequence to abort.
+ Tracing the route to 216.140.65.1
+   1 208.24.180.58 [AS 1239] 0 msec 4 msec 4 msec
+   2 144.232.16.105 [AS 1239] 4 msec 0 msec 4 msec
+   3 144.232.20.145 [AS 1239] 8 msec 4 msec 4 msec
+   4 144.232.14.122 [AS 1239] 4 msec 4 msec 8 msec
+   5 144.232.20.189 [AS 1239] 8 msec 4 msec 8 msec
+   6 4.68.111.169 [AS 3356] 8 msec 8 msec 8 msec
+ route-server>traceroute 216.140.65.73
+ Type escape sequence to abort.
+ Tracing the route to 216.140.65.73
+   1 white-dwarf.cbbtier3.att.net (12.0.1.1) [AS 7018] 0 msec 0 msec 0 msec
+   2 ar13.s10-0-0.n54ny.ip.att.net (12.124.182.17) 0 msec 4 msec 4 msec
+   3 tbr1.n54ny.ip.att.net (12.123.0.42) [MPLS: Label 31292 Exp 0] 0 msec 4 msec 4 msec
+   4 ggr2.n54ny.ip.att.net (12.123.0.89) 4 msec 0 msec 4 msec
+   5 so-8-0-0.car3.NewYork1.Level3.net (4.68.127.149) [AS 3356] 4 msec 0 msec 4 msec
+   6 ae-2-79.edge5.NewYork1.Level3.net (4.68.16.73) [AS 3356] 4 msec 4 msec 4 msec
+ Thanks,
+ Ross Vandegrift
+ We lost a broadwing DS3 in SF.
+ Back now, mostly.
+ Ditto here, our OC12 BGP session to Bwing/L3 died along the same
+ timeline...
+ Thank goodness for proper design and backup capacity !
+ ======================
+ W. Kevin Hunt
+ CCIE #11841
+ -----Original Message-----
+ From: Ross Vandegrift [mailto:ross at kallisti.us] 
+ Sent: Wednesday, September 19, 2007 12:33 PM
+ Subject: [Outages] Major L3 issues on east coast?
+ Hey everyone,
+ Seems to be a major issues with Broadwing/Level3.  Our BGP session went
+ kaput
+ about fifteen minutes ago.  Traceroutes from Sprint and AT&T make it
+ one or two hops into their network.  NOC line is busy... has anyone
+ heard
+ any info?
+ Same here.  Number of prefixes from Broadwing in Cleveland Ohio went to
+ ~2200 and latency to next hop ICMP RTT ~300ms.  We also have a lot of
+ Broadwing DIA resale lines in Chicago area that we can not get to while
+ other Broadwing circuits elsewhere are reachable.  BW/L3 NOC lines are
+ jammed but did get through.  Got the usual "We know something is wrong but
+ not exactly what." 
+ Looks like a major routing blowup somewhere.
+ Jason
+ On 9/19/07 1:32 PM, "Ross Vandegrift" <ross at kallisti.us> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/31ae7392/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 Outage
+###############################################################
+ I just got word back from ATT that L3 is having issues.  All they said was higher level of trouble.
+ This message, including attachments, is a confidential communication and may contain privileged, proprietary or trade secret information.  If you believe that it has been sent to you in error, do not read it.  Please reply to the sender that you have received the message in error, then delete it.  Thank you.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/2bb4cbd5/attachment.htm 
+ I am seeing trouble on Broadwing/L3 in Las Vegas.
+ From: Eric Rees [mailto:EricR at rocketgaming.com] 
+ Sent: Wednesday, September 19, 2007 10:36 AM
+ Subject: [Outages] L3 Outage
+ I just got word back from ATT that L3 is having issues.
+ All they said was higher level of trouble.
+ This message, including attachments, is a confidential
+ communication and may contain privileged, proprietary or
+ trade secret information.  If you believe that it has
+ been sent to you in error, do not read it.  Please reply
+ to the sender that you have received the message in
+ error, then delete it.  Thank you. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/d87c52aa/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+SMC INITIAL OUTAGE NOTIFICATION: MULTIPLE fBroadwing Markets
+###############################################################
+ City/State: Mobile, AL 
+ Brief description of symptoms: .............
+ Multiple internet customers down due BGP being removed off multiple
+ fBroadwing routers
+ Cause of outage/impairment: 
+ BGP configuration removed
+ The outage began at:
+ 13:00
+ The outage is affecting:
+ Multiple Customers
+ Number of Reports:
+ Unknown
+ The department currently working on this problem is:
+ Ops Eng/IP Core
+ The external department/Telco currently working on this problem is:
+  None
+ Master Ticket number on this trouble:
+ 2130326
+ Additional Comments/ETR: ......................
+ The following routers are impacting:
+ a0-1-lsancaa1.bwng.log
+ a0-1-phnxazb1.bwng.log
+ a0-2-brkrdc.bwng.log
+ a0-2-brkrtx04.bwng.log
+ a0-2-dllstx02.bwng.log
+ a0-3-atlnga8a.bwng.log
+ a0-3-mdlyfla1.bwng.log
+ a0-4-bltmmda1.bwng.log
+ a0-4-nwrkdc.bwng.log
+ a0-4-nwrkdea1.bwng.log
+ a0-4-washdca1.bwng.log
+ a0-5-chcgil02.bwng.log
+ a0-5-cncnoha2.bwng.log
+ a0-6-nwaknja1.bwng.log
+ a0-6-nwyknya1.bwng.log
+ a0-7-slkcdc.bwng.log
+ a0-7-slkcuta2.bwng.log
+ a0-8-sttlwa01.bwng.log
+ a0-mplsmna2.bwng.log
+ a1-2-brkrdc.bwng.log
+ a1-7-slkcdc.bwng.log
+ rp0-1-snjcca13.bwng.log
+ rp0-2-dllstxri.bwng.log
+ rp0-4-asnbvaas.bwng.log
+ rp0-5-chcgilca.bwng.log
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/18d39452/attachment-0001.htm 
+ Can you believe this - how immature ...
+ SA
+ On 9/19/07, W. Kevin Hunt <Kevin at hbcorporate.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/0489c690/attachment.htm 
+ 	<f9bf28ad0709191106h66f48917t2f163a32ae2cf2f7@mail.gmail.com>
+ It was likely an automated task that removed the config. Admittedly, there
+ should be better safeguards, but I'd be surprised if it was a conscious
+ action on someone's part.
+ From: Shakeel Ahmad [mailto:shakeelahmad at gmail.com] 
+ Sent: Wednesday, September 19, 2007 11:07 AM
+ Cc: outages at isotf.org
+ Subject: Re: [Outages] FW: SMC INITIAL OUTAGE NOTIFICATION:
+ MULTIPLEfBroadwing Markets
+ Can you believe this - how immature ...
+ SA
+ On 9/19/07, W. Kevin Hunt <Kevin at hbcorporate.com> wrote: 
+ City/State: Mobile, AL 
+ Brief description of symptoms: .............
+ Multiple internet customers down due BGP being removed off multiple
+ fBroadwing routers
+ Cause of outage/impairment: 
+ BGP configuration removed
+ The outage began at:
+ 13:00
+ The outage is affecting:
+ Multiple Customers
+ Number of Reports:
+ Unknown
+ The department currently working on this problem is:
+ Ops Eng/IP Core
+ The external department/Telco currently working on this problem is:
+  None
+ Master Ticket number on this trouble:
+ 2130326
+ Additional Comments/ETR: ......................
+ The following routers are impacting:
+ a0-1-lsancaa1.bwng.log
+ a0-1-phnxazb1.bwng.log
+ a0-2-brkrdc.bwng.log
+ a0-2-brkrtx04.bwng.log
+ a0-2-dllstx02.bwng.log
+ a0-3-atlnga8a.bwng.log
+ a0-3-mdlyfla1.bwng.log
+ a0-4-bltmmda1.bwng.log
+ a0-4-nwrkdc.bwng.log
+ a0-4-nwrkdea1.bwng.log
+ a0-4-washdca1.bwng.log
+ a0-5-chcgil02.bwng.log
+ a0-5-cncnoha2.bwng.log
+ a0-6-nwaknja1.bwng.log
+ a0-6-nwyknya1.bwng.log
+ a0-7-slkcdc.bwng.log
+ a0-7-slkcuta2.bwng.log
+ a0-8-sttlwa01.bwng.log
+ a0-mplsmna2.bwng.log
+ a1-2-brkrdc.bwng.log
+ a1-7-slkcdc.bwng.log
+ rp0-1-snjcca13.bwng.log
+ rp0-2-dllstxri.bwng.log
+ rp0-4-asnbvaas.bwng.log
+ rp0-5-chcgilca.bwng.log
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070919/306c2bcb/attachment-0001.htm 
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 3742 bytes
+ Desc: not available
+ Url : http://isotf.org/pipermail/outages/attachments/20070919/306c2bcb/attachment-0001.bin 
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T Cellular network is experiencing service disruptions throughout the upstate New York region
+###############################################################
+ Identifying details snipped out.
+ -----Original Message-----
+ Sent: Thursday, September 20, 2007 1:03 PM
+ Subject: ITS Alert - Computing/Networking System Disruption
+ ** THIS MESSAGE IS AN ALERT **
+ As of 1:30 PM on Thursday September 20th, the AT&T Cellular network is
+ experiencing service disruptions throughout the upstate New York region. The
+ service outage may disrupt the use of AT&T mobile phones and PDAs. AT&T is
+ presently working to resolve the situation.
+ Web Posting Information
+ Posted on: 09/20/07
+###############################################################
+END
+###############################################################
+
+###############################################################
+ITS Alert Update- Computing/Networking System Disruption
+###############################################################
+ Update
+ -----Original Message-----
+ Sent: Thursday, September 20, 2007 1:39 PM
+ Subject: ITS Alert Update- Computing/Networking System Disruption
+ This is an update message for the ITS Alert/Notification titled: at&t
+ cellular network problems
+ Problem Resolution:
+ As of 2:20 PM on Thursday September 20th - The service interruption on the
+ AT&T cellular network has been resolved.
+ ****************************
+ Original Problem Description:
+ As of 1:30 PM on Thursday September 20th, the AT&T Cellular network is
+ experiencing service disruptions throughout the upstate New York region. The
+ service outage may disrupt the use of
+ AT&T mobile phones and PDAs. AT&T is presently woking to resolve the
+ situation.
+ ****************************
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#161997 - Scheduled
+###############################################################
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, September 20, 2007 2:54 PM
+ steve.cordova at level3.com
+ Subject: Level(3) Service Affecting Maintenance - GCR#161997 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#161997 - Scheduled	
+ ________________________________
+ Clarify Case#: 2119086	
+ GCR #:  CHG000000161997	
+ Primary Dates:  4 Oct 2007 00:00:00 - 4 Oct 2007 02:00:00 Central	
+ Primary Dates GMT:  4 Oct 2007 05:00:00 - 4 Oct 2007 07:00:00	
+ Location of Maintenance: Austin TX,	
+ Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 None	 PSAH	 N/A	 Level 3 techs are
+ Adding additional fiber capacity to existing lateral. No impact is
+ expected.	
+ Transport - Protected	 None	 PSAH	 N/A	 Level 3 techs are
+ Adding additional fiber capacity to existing lateral. No impact is
+ expected.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-PHNXAZ19-00003	 10GB	 PSAH	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070920/b4fa873e/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#163444 - Short Interval
+###############################################################
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Monday, September 24, 2007 3:12 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#163444 - Short
+ Interval
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#163444 - Short Interval	
+ ________________________________
+ Clarify Case#: 2134284	
+ GCR #:  CHG000000163444	
+ Primary Dates:  2 Oct 2007 00:00:00 - 2 Oct 2007 06:00:00 Pacific	
+ Primary Dates GMT:  2 Oct 2007 07:00:00 - 2 Oct 2007 13:00:00	
+ Location of Maintenance: Phoenix AZ,	
+ Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+ splicing in new fibers to support lateral build into vendor facilities.
+ Expected impact is none.	
+ Transport - Protected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+ splicing in new fibers to support lateral build into vendor facilities.
+ Expected impact is none.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-PHNXAZ19-00003	 10GB	 PSAH	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070924/2f9e04e5/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#163445 - Short Interval
+###############################################################
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Tuesday, September 25, 2007 12:47 PM
+ todd at bandcon.com
+ Subject: Level(3) Service Affecting Maintenance - GCR#163445 - Short
+ Interval
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#163445 - Short Interval	
+ ________________________________
+ Clarify Case#: 	
+ GCR #:  CHG000000163445	
+ Primary Dates:  3 Oct 2007 00:00:00 - 3 Oct 2007 06:00:00 Pacific	
+ Primary Dates GMT:  3 Oct 2007 07:00:00 - 3 Oct 2007 13:00:00	
+ Location of Maintenance: Phoenix AZ,	
+ Summary Description of Maintenance:  Splice - Metro Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+ splicing in new fibers to support lateral build into vendor facilities.
+ Expected impact is none. 	
+ Transport - Protected	 None	 PSAH	 N/A	 FYI: Level 3 will be
+ splicing in new fibers to support lateral build into vendor facilities.
+ Expected impact is none. 	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-PHNXAZ19-00003	 10GB	 PSAH	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070925/52f71922/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Maintenance - GCR#161968
+###############################################################
+ ________________________________
+ From: EuSupport, London [mailto:EuSupport at Level3.com] 
+ Sent: Tuesday, September 25, 2007 12:44 PM
+ Subject: Level(3) Maintenance - GCR#161968
+ Level (3) Communications - Network Change Control (NCC)
+  MAINTENANCE ADVISEMENT
+ Level(3) Maintenance - GCR#161968
+ ________________________________
+ Clarify Case#: 2120459
+ GCR #:  CHG000000161968
+ Primary Dates:  31 Oct 2007 22:00:00 - 1 Nov 2007 04:00:00 GMT
+ Location of Maintenance: Amsterdam Netherlands.
+ Summary Description of Maintenance:  Summary Description of Maintenance:
+ Yearly maintenance Generator # 1
+ As part of the Level(3) standard power build and back up facilities,
+ Level(3) deploys generator set in an EPG set-up (Emergency Power
+ Generator),It is very important that the EPG configurations are
+ functioning during a power event as they are then the main (only) source
+ of power to the critical load. In all the configurations, UPS systems
+ are installed to deal with the start up times of the systems. The UPS
+ systems are designed to be able to maintain power for at least two hours
+ in case of EPG failure.
+ Customer Impact: No impact is expected to customer equipment housed at
+ the facility.
+ Description of Classification:
+ Potentially Service Affecting High-Risk (PSA-High): PSA-H changes have a
+ high potential of impacting the service of Level 3 customers external or
+ internal, even if no impact is expected.  These changes are often more
+ complex in nature and thus incur more risk to the environment.
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.
+ US Toll-Free: 877 4Level3
+ UK: 80800 0927729
+ Eire: 1 800441053
+ France: 0800 913180
+ Germany: 0800 2538353
+ Belgium: 0800 76216
+ Netherlands: 0800 0226108
+ Italy: 0800 0226108
+ Sweden: 0200 285 581
+ Spain: 900 938 973
+ Denmark: 80881479
+ Estonia: 8000044139
+ Austria: 0800291594
+ Poland: 00800 441 2409
+ Switzerland: 0800 564 151
+ US International: 1 720 888 0025
+ EU International: 44 20 7864 4599
+ EU Support <mailto:usupport at level3.com>  - (24x7) or
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)
+ Thank you for your cooperation,
+ Level (3) Communications
+ Customer Network Operations
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070925/a452c9de/attachment-0001.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#163803 - Short Interval
+###############################################################
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, September 27, 2007 12:23 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#163803 - Short
+ Interval
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#163803 - Short Interval	
+ ________________________________
+ Clarify Case#: 2137236	
+ GCR #:  CHG000000163803	
+ Primary Dates:  8 Oct 2007 23:00:00 - 9 Oct 2007 05:00:00 Eastern	
+ Primary Dates GMT:  9 Oct 2007 03:00:00 - 9 Oct 2007 09:00:00	
+ Location of Maintenance: New Paltz NY,	
+ Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor backbone cable
+ relocation between Woodbury and New Paltz NY. Unprotected and Dark Fiber
+ services will be impacted by an outage up to 2 hours. 	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+ cable relocation between Woodbury and New Paltz NY. Protected services
+ will experience switch hits.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070927/f233327a/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#163805 - Short Interval
+###############################################################
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Friday, September 28, 2007 7:44 AM
+ Subject: Level(3) Service Affecting Maintenance - GCR#163805 - Short
+ Interval
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#163805 - Short Interval	
+ ________________________________
+ Clarify Case#: 	
+ GCR #:  CHG000000163805	
+ Primary Dates: 10 Oct 2007 23:00:00 - 11 Oct 2007 05:00:00 Eastern	
+ Primary Dates GMT:  11 Oct 2007 03:00:00 - 11 Oct 2007 09:00:00	
+ Location of Maintenance: New Paltz NY,	
+ Summary Description of Maintenance:  Vendor - Maintenance - Transport	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Vendor backbone cable
+ relocation between Woodbury and New Paltz NY. Unprotected transport and
+ dark fiber services will be down up to 2 hours. Occurrence of GCR
+ 163803.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Vendor backbone
+ cable relocation between Woodbury and New Paltz NY. Protected services
+ will experience switch hits. Occurrence of GCR 163803.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-CHCGILDT-00003	 10GE	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070928/1949717f/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet loss in Asia?
+###############################################################
+ We just lost three sites for a customer in Singapore, Malaysia, and
+ Pune, India. Anyone have any idea if anything is going on in Asia? Two
+ sites just have an internet connection, and one has an MPLS setup as
+ well as an internet link. Odd all three went down at the same time.
+ Another earth quake maybe?
+ -- 
+ ------------------------------------------
+ :.: Spags
+ :.: Technology is our only hope
+ :.: drunkenlinux.com
+ :.: spags  / Gentoo Linux
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Eric Spagna wrote:
+ - -----------------------
+ what provider(s)?
+ regards,
+ /virendra
+ I am actually in India, and I personally dont see any issue here. I am 
+ actually in Mumbai which is around 2 hours away from pune.
+ Satish
+ Eric Spagna wrote, On 2007-09-29 1:50 AM:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070929/0eae74e2/attachment.htm 
+###############################################################
+END
+###############################################################
+

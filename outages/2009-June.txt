@@ -1,0 +1,2742 @@
+From sethm at rollernet.us  Fri Jun  5 01:03:08 2009
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 04 Jun 2009 22:03:08 -0700
+Subject: [outages] ARIN whois at 2001:500:4:1::81 broken?
+Message-ID: <4A28A70C.4030404@rollernet.us>
+
+I've been trying to do some whois lookups around 22:00 Pacific time, and
+whois.arin.net doesn't seem reachable at 2001:500:4:1::81 . Can anyone
+else out there confirm, or is it just me?
+
+~Seth
+
+From sethm at rollernet.us  Fri Jun  5 01:16:28 2009
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 04 Jun 2009 22:16:28 -0700
+Subject: [outages] ARIN whois at 2001:500:4:1::81 broken?
+In-Reply-To: <4A28A70C.4030404@rollernet.us>
+References: <4A28A70C.4030404@rollernet.us>
+Message-ID: <4A28AA2C.7090603@rollernet.us>
+
+Seth Mattinen wrote:
+> I've been trying to do some whois lookups around 22:00 Pacific time, and
+> whois.arin.net doesn't seem reachable at 2001:500:4:1::81 . Can anyone
+> else out there confirm, or is it just me?
+> 
+
+I figured it out; return traffic coming back to me through Hurricane
+Electric was being dropped for whatever reason. I shut off my BGP
+session with them and it started working right away.
+
+~Seth
+
+From robertg at garlic.com  Fri Jun  5 17:25:53 2009
+From: robertg at garlic.com (Robert Glover)
+Date: Fri, 5 Jun 2009 14:25:53 -0700
+Subject: [outages] OC-12 down Gilroy, CA and SLO, CA
+Message-ID: <AB37D0178A9448FCB0D196339D30FF5E@Officeibm1>
+
+A Qwest OC-12 link went down at about 1:05PM PDT.  This link runs between  Gilroy, CA and San Luis Obispo, CA.  This is affecting service to Verizon DSL, Charter Cable, and Charter Fiber services in Gilroy, Morgan Hill, and San Martin, CA.  
+
+We have a TT open with Charter, and multiple TT's open with Verizon (we do Layer 2 Verizon DSL connections).  Charter has confirmed that the interface on the San Luis Obispo equipment is showing the link down.  They cannot access the equipment in Gilroy because of this, however they have verified power is on to this equipment.  
+
+Charter has two open TT's with Qwest regarding the downed fiber.  All signs are pointing to a fiber-cut, according to Charter.
+
+Sincerely,
+Bobby Glover
+Director of Information Services
+South Valley Internet (AS4307)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090605/15b62e37/attachment.html>
+
+From gabriel.grissett at gmail.com  Tue Jun  9 09:02:52 2009
+From: gabriel.grissett at gmail.com (Gabriel Grissett)
+Date: Tue, 9 Jun 2009 08:02:52 -0500
+Subject: [outages] AT&T Email to SMS outage?
+Message-ID: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+
+Been occurring since around 2:04 am CDT.
+
+Called customer service number and got a story about a Media.Net
+outage in southeast.
+
+Message Service Center +14047259015 if that matters.
+
+Also replying to SMS received emails from your phone that were already
+there yields an error message, sorry I do not have that saved.
+
+Never get emails sent from gmail never arrive. I assume they suffer a
+similar fate?
+
+- Gabriel
+
+Jun  9 02:04:22 X sm-mta[1076]: n5974CdE031021: to=<662XXXXXXX at cingularme.c
+om>, ctladdr=<X at X.X.com> (1000/1000), delay=00:00:10, xdelay=0
+0:00:10, mailer=esmtp, pri=30452, relay=atlsmtp.cingularme.net. [66.102.165.114]
+, dsn=4.0.0, stat=Deferred: 452 Message rejected
+
+telnet atlsmtp.cingularme.net 25
+Trying 66.102.165.114...
+Connected to atlsmtp.cingularme.net.
+Escape character is '^]'.
+220 atledge01.cingularme.com ESMTP server (InterMail vG.1.02.00.03
+201-2136-104-103-20050318) ready Tue, 9 Jun 2009 08:44:24 -0400
+EHLO atl
+250-atledge01.cingularme.com
+250-HELP
+250-VRFY
+250-XREMOTEQUEUE
+250-ETRN
+250-PIPELINING
+250-DSN
+250-8BITMIME
+250 SIZE 10485760
+MAIL FROM: <XXX at XXXXXXXXX.com>
+250 Sender <XXX at XXXXXXXXX.com> Ok
+RCPT TO: <662XXXXXXX at txt.att.net>
+250 Recipient <662XXXXXXX at txt.att.net> Ok
+DATA
+354 Ok Send data ending with <CRLF>.<CRLF>
+TEST
+<CRLF>.<CRLF>
+452 Message rejected
+quit
+221 atledge01.cingularme.com ESMTP server closing connection
+Connection closed by foreign host.
+
+telnet atlsmtp.cingularme.net 25
+Trying 66.102.165.114...
+Connected to atlsmtp.cingularme.net.
+Escape character is '^]'.
+421 Service not available
+Connection closed by foreign host.
+
+From netgeek at bgp4.net  Tue Jun  9 12:57:19 2009
+From: netgeek at bgp4.net (Janet Sullivan)
+Date: Tue, 09 Jun 2009 09:57:19 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+Message-ID: <4A2E946F.4080002@bgp4.net>
+
+I'm seeing this as well in Seattle - I've gotten one SMS 90 minutes 
+late, and had 5 others go into the ether.  Any updates?
+
+Gabriel Grissett wrote:
+> Been occurring since around 2:04 am CDT.
+>
+> Called customer service number and got a story about a Media.Net
+> outage in southeast.
+>
+> Message Service Center +14047259015 if that matters.
+>
+> Also replying to SMS received emails from your phone that were already
+> there yields an error message, sorry I do not have that saved.
+>
+> Never get emails sent from gmail never arrive. I assume they suffer a
+> similar fate?
+>
+> - Gabriel
+>
+> Jun  9 02:04:22 X sm-mta[1076]: n5974CdE031021: to=<662XXXXXXX at cingularme.c
+> om>, ctladdr=<X at X.X.com> (1000/1000), delay=00:00:10, xdelay=0
+> 0:00:10, mailer=esmtp, pri=30452, relay=atlsmtp.cingularme.net. [66.102.165.114]
+> , dsn=4.0.0, stat=Deferred: 452 Message rejected
+>
+> telnet atlsmtp.cingularme.net 25
+> Trying 66.102.165.114...
+> Connected to atlsmtp.cingularme.net.
+> Escape character is '^]'.
+> 220 atledge01.cingularme.com ESMTP server (InterMail vG.1.02.00.03
+> 201-2136-104-103-20050318) ready Tue, 9 Jun 2009 08:44:24 -0400
+> EHLO atl
+> 250-atledge01.cingularme.com
+> 250-HELP
+> 250-VRFY
+> 250-XREMOTEQUEUE
+> 250-ETRN
+> 250-PIPELINING
+> 250-DSN
+> 250-8BITMIME
+> 250 SIZE 10485760
+> MAIL FROM: <XXX at XXXXXXXXX.com>
+> 250 Sender <XXX at XXXXXXXXX.com> Ok
+> RCPT TO: <662XXXXXXX at txt.att.net>
+> 250 Recipient <662XXXXXXX at txt.att.net> Ok
+> DATA
+> 354 Ok Send data ending with <CRLF>.<CRLF>
+> TEST
+> <CRLF>.<CRLF>
+> 452 Message rejected
+> quit
+> 221 atledge01.cingularme.com ESMTP server closing connection
+> Connection closed by foreign host.
+>
+> telnet atlsmtp.cingularme.net 25
+> Trying 66.102.165.114...
+> Connected to atlsmtp.cingularme.net.
+> Escape character is '^]'.
+> 421 Service not available
+> Connection closed by foreign host.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>   
+
+
+From gabriel.grissett at gmail.com  Tue Jun  9 15:16:13 2009
+From: gabriel.grissett at gmail.com (Gabriel Grissett)
+Date: Tue, 09 Jun 2009 14:16:13 -0500
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2E946F.4080002@bgp4.net>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<4A2E946F.4080002@bgp4.net>
+Message-ID: <4A2EB4FD.4000203@gmail.com>
+
+After an hour on the phone they opened a case, maybe it will do some good.
+
+I was hoping someone had better contacts than me in the wireless division.
+
+I guess if you want to poison DNS it appears the MTA below is working 
+(or it did for me). The .7 address accepted the message, but did not 
+deliver it.
+
+Don't know if there are other MTAs in that same block or if this one is 
+behind the load balancer or not. This was from an egress message that 
+worked.
+
+Good luck.
+
+telnet 66.102.165.8 25
+Trying 66.102.165.8...
+Connected to 66.102.165.8.
+Escape character is '^]'.
+220 atlmtaow03.cingularme.com ESMTP server (InterMail vM.6.01.04.00 
+201-2131-118-20041027) ready Tue, 9 Jun 2009 15:06:51 -0400
+
+
+Janet Sullivan wrote:
+> I'm seeing this as well in Seattle - I've gotten one SMS 90 minutes 
+> late, and had 5 others go into the ether.  Any updates?
+>
+> Gabriel Grissett wrote:
+>> Been occurring since around 2:04 am CDT.
+>>
+>> Called customer service number and got a story about a Media.Net
+>> outage in southeast.
+>>
+>> Message Service Center +14047259015 if that matters.
+>>
+>> Also replying to SMS received emails from your phone that were already
+>> there yields an error message, sorry I do not have that saved.
+>>
+>> Never get emails sent from gmail never arrive. I assume they suffer a
+>> similar fate?
+>>
+>> - Gabriel
+>>
+>> Jun  9 02:04:22 X sm-mta[1076]: n5974CdE031021: 
+>> to=<662XXXXXXX at cingularme.c
+>> om>, ctladdr=<X at X.X.com> (1000/1000), delay=00:00:10, xdelay=0
+>> 0:00:10, mailer=esmtp, pri=30452, relay=atlsmtp.cingularme.net. 
+>> [66.102.165.114]
+>> , dsn=4.0.0, stat=Deferred: 452 Message rejected
+>>
+>> telnet atlsmtp.cingularme.net 25
+>> Trying 66.102.165.114...
+>> Connected to atlsmtp.cingularme.net.
+>> Escape character is '^]'.
+>> 220 atledge01.cingularme.com ESMTP server (InterMail vG.1.02.00.03
+>> 201-2136-104-103-20050318) ready Tue, 9 Jun 2009 08:44:24 -0400
+>> EHLO atl
+>> 250-atledge01.cingularme.com
+>> 250-HELP
+>> 250-VRFY
+>> 250-XREMOTEQUEUE
+>> 250-ETRN
+>> 250-PIPELINING
+>> 250-DSN
+>> 250-8BITMIME
+>> 250 SIZE 10485760
+>> MAIL FROM: <XXX at XXXXXXXXX.com>
+>> 250 Sender <XXX at XXXXXXXXX.com> Ok
+>> RCPT TO: <662XXXXXXX at txt.att.net>
+>> 250 Recipient <662XXXXXXX at txt.att.net> Ok
+>> DATA
+>> 354 Ok Send data ending with <CRLF>.<CRLF>
+>> TEST
+>> <CRLF>.<CRLF>
+>> 452 Message rejected
+>> quit
+>> 221 atledge01.cingularme.com ESMTP server closing connection
+>> Connection closed by foreign host.
+>>
+>> telnet atlsmtp.cingularme.net 25
+>> Trying 66.102.165.114...
+>> Connected to atlsmtp.cingularme.net.
+>> Escape character is '^]'.
+>> 421 Service not available
+>> Connection closed by foreign host.
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>   
+>
+
+
+From andreas at naund.org  Tue Jun  9 15:33:41 2009
+From: andreas at naund.org (Andreas Ott)
+Date: Tue, 9 Jun 2009 12:33:41 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2EB4FD.4000203@gmail.com>;
+	from gabriel.grissett@gmail.com on Tue, Jun 09, 2009 at
+	02:16:13PM -0500
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<4A2E946F.4080002@bgp4.net> <4A2EB4FD.4000203@gmail.com>
+Message-ID: <20090609123341.C2642@naund.org>
+
+Hi,
+On Tue, Jun 09, 2009 at 02:16:13PM -0500, Gabriel Grissett wrote:
+> After an hour on the phone they opened a case, maybe it will do some good.
+
+confirming that there are issues (from the Bay Area)
+
+Jun  9 12:28:27 mx-out-host sendmail[4831]: n59JSKM04829: \
+to=408_______ at txt.att.net, ctladdr=andreas, \
+delay=00:00:07, xdelay=00:00:07, mailer=esmtp, pri=60318, \
+relay=atlsmtp.cingularme.net. [66.102.165.114], dsn=4.0.0, stat=Deferred: \
+452 Message rejected
+
+This host is on AT&T DSL and can successfuly send e-mail to other places.
+
+-andreas
+
+From paul at neoverve.com  Tue Jun  9 17:00:22 2009
+From: paul at neoverve.com (Paul Norton)
+Date: Tue, 9 Jun 2009 14:00:22 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+Message-ID: <EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+
+Having issues here in San Diego.  Email to SMS, seeing this error in  
+mail log.
+
+(connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed  
+out)
+
+
+On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+
+> Been occurring since around 2:04 am CDT.
+>
+> Called customer service number and got a story about a Media.Net
+> outage in southeast.
+>
+> Message Service Center +14047259015 if that matters.
+>
+> Also replying to SMS received emails from your phone that were already
+> there yields an error message, sorry I do not have that saved.
+>
+> Never get emails sent from gmail never arrive. I assume they suffer a
+> similar fate?
+>
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+
+From dante at baltigroup.com  Tue Jun  9 18:22:15 2009
+From: dante at baltigroup.com (Dante Lanznaster)
+Date: Tue, 9 Jun 2009 15:22:15 -0700
+Subject: [outages] SOLVED: TelePacific outage in San Diego
+Message-ID: <1244586135.8720.1.camel@dante-lnx.BaltiGroup.local>
+
+Problem was solved, total outage time was around 30min.
+
+
+-  
+Best regards,
+
+Dante Lanznaster
+Balti Group Consulting
+858-704-3737
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090609/71c27625/attachment.html>
+
+From dante at baltigroup.com  Tue Jun  9 18:06:02 2009
+From: dante at baltigroup.com (Dante Lanznaster)
+Date: Tue, 9 Jun 2009 15:06:02 -0700
+Subject: [outages] TelePacific outage in San Diego
+Message-ID: <1244585162.8720.0.camel@dante-lnx.BaltiGroup.local>
+
+They have confirmed the issue, no ETA yet.
+
+So far 2 of my T1 customers are down, one in Old Town, one in UTC.
+
+-  
+Best regards,
+
+Dante Lanznaster
+Balti Group Consulting
+858-704-3737
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090609/1e3aa9e7/attachment.html>
+
+From paul at neoverve.com  Tue Jun  9 19:07:02 2009
+From: paul at neoverve.com (Paul Norton)
+Date: Tue, 9 Jun 2009 16:07:02 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+Message-ID: <567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+
+Just got my test message. Took about 2 hours and 10 minutes.
+
+On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+
+> Having issues here in San Diego.  Email to SMS, seeing this error in  
+> mail log.
+>
+> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed  
+> out)
+>
+>
+> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>
+>> Been occurring since around 2:04 am CDT.
+>>
+>> Called customer service number and got a story about a Media.Net
+>> outage in southeast.
+>>
+>> Message Service Center +14047259015 if that matters.
+>>
+>> Also replying to SMS received emails from your phone that were  
+>> already
+>> there yields an error message, sorry I do not have that saved.
+>>
+>> Never get emails sent from gmail never arrive. I assume they suffer a
+>> similar fate?
+>>
+>
+> -- 
+> Paul Norton
+> Systems Administrator
+> Neoverve - www.neoverve.com
+> Neoverve Blog - http://blog.neoverve.com/
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+
+From maxsec at gmail.com  Wed Jun 10 03:11:01 2009
+From: maxsec at gmail.com (Martin Hepworth)
+Date: Wed, 10 Jun 2009 08:11:01 +0100
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+Message-ID: <72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+
+2009/6/10 Paul Norton <paul at neoverve.com>:
+> Just got my test message. Took about 2 hours and 10 minutes.
+>
+> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>
+>> Having issues here in San Diego. ?Email to SMS, seeing this error in mail
+>> log.
+>>
+>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed out)
+>>
+>>
+>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>
+>>> Been occurring since around 2:04 am CDT.
+>>>
+>>> Called customer service number and got a story about a Media.Net
+>>> outage in southeast.
+>>>
+>>> Message Service Center +14047259015 if that matters.
+>>>
+>>> Also replying to SMS received emails from your phone that were already
+>>> there yields an error message, sorry I do not have that saved.
+>>>
+>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>> similar fate?
+>>>
+>>
+>> --
+>> Paul Norton
+>> Systems Administrator
+>> Neoverve - www.neoverve.com
+>> Neoverve Blog - http://blog.neoverve.com/
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>
+> --
+> Paul Norton
+> Systems Administrator
+> Neoverve - www.neoverve.com
+> Neoverve Blog - http://blog.neoverve.com/
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+That sort of delay for SMS text messages isn't unusual - bit like
+email  there's no guarantee of timely delivery with SMS. In Europe
+delays of this nature aren't uncommon
+
+
+
+-- 
+Martin Hepworth
+Oxford, UK
+
+From auser at mind.net  Wed Jun 10 11:13:27 2009
+From: auser at mind.net (Steve Ryan)
+Date: Wed, 10 Jun 2009 08:13:27 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+Message-ID: <4A2FCD97.9010004@mind.net>
+
+Isn't unusual?  Are you kidding?  It's pretty unusual here in the US.
+
+I wouldn't recommend using e-mail to SMS for anything critical but for 
+years, at least in my experience, it's been zippy enough.
+
+12+ hours in some cases for e-mail to SMS though?  Come on, that makes 
+it totally unusable.  You Europeans should demand better service!
+
+Regards,
+
+Steve
+
+
+Martin Hepworth wroteth on 6/10/2009 12:11 AM:
+> 2009/6/10 Paul Norton <paul at neoverve.com>:
+>> Just got my test message. Took about 2 hours and 10 minutes.
+>>
+>> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>>
+>>> Having issues here in San Diego.  Email to SMS, seeing this error in mail
+>>> log.
+>>>
+>>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed out)
+>>>
+>>>
+>>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>>
+>>>> Been occurring since around 2:04 am CDT.
+>>>>
+>>>> Called customer service number and got a story about a Media.Net
+>>>> outage in southeast.
+>>>>
+>>>> Message Service Center +14047259015 if that matters.
+>>>>
+>>>> Also replying to SMS received emails from your phone that were already
+>>>> there yields an error message, sorry I do not have that saved.
+>>>>
+>>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>>> similar fate?
+>>>>
+>>> --
+>>> Paul Norton
+>>> Systems Administrator
+>>> Neoverve - www.neoverve.com
+>>> Neoverve Blog - http://blog.neoverve.com/
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>> --
+>> Paul Norton
+>> Systems Administrator
+>> Neoverve - www.neoverve.com
+>> Neoverve Blog - http://blog.neoverve.com/
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+> 
+> 
+> That sort of delay for SMS text messages isn't unusual - bit like
+> email  there's no guarantee of timely delivery with SMS. In Europe
+> delays of this nature aren't uncommon
+> 
+> 
+> 
+
+From chris.taylor at sohonet.co.uk  Wed Jun 10 11:19:52 2009
+From: chris.taylor at sohonet.co.uk (Chris Taylor)
+Date: Wed, 10 Jun 2009 16:19:52 +0100
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2FCD97.9010004@mind.net>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+	<4A2FCD97.9010004@mind.net>
+Message-ID: <4A2FCF18.1050009@sohonet.co.uk>
+
+Steve Ryan wrote:
+> Isn't unusual?  Are you kidding?  It's pretty unusual here in the US.
+> 
+> I wouldn't recommend using e-mail to SMS for anything critical but for 
+> years, at least in my experience, it's been zippy enough.
+> 
+> 12+ hours in some cases for e-mail to SMS though?  Come on, that makes 
+> it totally unusable.  You Europeans should demand better service!
+> 
+> Regards,
+> 
+> Steve
+
+The last time I saw anything take this long was about 16 months ago - 
+New Years 2008.. I personally send quite a few SMS's, and we have a fair 
+few of sms traffic from some of our monitoring - it's never let us down.
+'Course, we run our own email to sms gateway for it - don't rely on 3rd 
+parties for these things, that's likely where the issue is!
+
+Unless of course the UK is just lightyears ahead of the curve in Europe..
+
+
+Chris
+
+> 
+> 
+> Martin Hepworth wroteth on 6/10/2009 12:11 AM:
+>> 2009/6/10 Paul Norton <paul at neoverve.com>:
+>>> Just got my test message. Took about 2 hours and 10 minutes.
+>>>
+>>> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>>>
+>>>> Having issues here in San Diego.  Email to SMS, seeing this error in 
+>>>> mail
+>>>> log.
+>>>>
+>>>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed 
+>>>> out)
+>>>>
+>>>>
+>>>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>>>
+>>>>> Been occurring since around 2:04 am CDT.
+>>>>>
+>>>>> Called customer service number and got a story about a Media.Net
+>>>>> outage in southeast.
+>>>>>
+>>>>> Message Service Center +14047259015 if that matters.
+>>>>>
+>>>>> Also replying to SMS received emails from your phone that were already
+>>>>> there yields an error message, sorry I do not have that saved.
+>>>>>
+>>>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>>>> similar fate?
+>>>>>
+>>>> -- 
+>>>> Paul Norton
+>>>> Systems Administrator
+>>>> Neoverve - www.neoverve.com
+>>>> Neoverve Blog - http://blog.neoverve.com/
+>>>>
+>>>> _______________________________________________
+>>>> outages mailing list
+>>>> outages at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages
+>>> -- 
+>>> Paul Norton
+>>> Systems Administrator
+>>> Neoverve - www.neoverve.com
+>>> Neoverve Blog - http://blog.neoverve.com/
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>
+>>
+>> That sort of delay for SMS text messages isn't unusual - bit like
+>> email  there's no guarantee of timely delivery with SMS. In Europe
+>> delays of this nature aren't uncommon
+>>
+>>
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From jasondearborn at gmail.com  Wed Jun 10 12:21:45 2009
+From: jasondearborn at gmail.com (Jason Dearborn)
+Date: Wed, 10 Jun 2009 09:21:45 -0700
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2FCD97.9010004@mind.net>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+	<4A2FCD97.9010004@mind.net>
+Message-ID: <4296d7270906100921o51afd2bfh16bbf2b0be5ca4ff@mail.gmail.com>
+
+I've seen that type of delay with T-Mobile in the US.
+
+On Wed, Jun 10, 2009 at 8:13 AM, Steve Ryan<auser at mind.net> wrote:
+> Isn't unusual? ?Are you kidding? ?It's pretty unusual here in the US.
+>
+> I wouldn't recommend using e-mail to SMS for anything critical but for
+> years, at least in my experience, it's been zippy enough.
+>
+> 12+ hours in some cases for e-mail to SMS though? ?Come on, that makes it
+> totally unusable. ?You Europeans should demand better service!
+>
+> Regards,
+>
+> Steve
+>
+>
+> Martin Hepworth wroteth on 6/10/2009 12:11 AM:
+>>
+>> 2009/6/10 Paul Norton <paul at neoverve.com>:
+>>>
+>>> Just got my test message. Took about 2 hours and 10 minutes.
+>>>
+>>> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>>>
+>>>> Having issues here in San Diego. ?Email to SMS, seeing this error in
+>>>> mail
+>>>> log.
+>>>>
+>>>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed
+>>>> out)
+>>>>
+>>>>
+>>>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>>>
+>>>>> Been occurring since around 2:04 am CDT.
+>>>>>
+>>>>> Called customer service number and got a story about a Media.Net
+>>>>> outage in southeast.
+>>>>>
+>>>>> Message Service Center +14047259015 if that matters.
+>>>>>
+>>>>> Also replying to SMS received emails from your phone that were already
+>>>>> there yields an error message, sorry I do not have that saved.
+>>>>>
+>>>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>>>> similar fate?
+>>>>>
+>>>> --
+>>>> Paul Norton
+>>>> Systems Administrator
+>>>> Neoverve - www.neoverve.com
+>>>> Neoverve Blog - http://blog.neoverve.com/
+>>>>
+>>>> _______________________________________________
+>>>> outages mailing list
+>>>> outages at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>> --
+>>> Paul Norton
+>>> Systems Administrator
+>>> Neoverve - www.neoverve.com
+>>> Neoverve Blog - http://blog.neoverve.com/
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>
+>>
+>> That sort of delay for SMS text messages isn't unusual - bit like
+>> email ?there's no guarantee of timely delivery with SMS. In Europe
+>> delays of this nature aren't uncommon
+>>
+>>
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From kb9tkh at gmail.com  Wed Jun 10 12:40:24 2009
+From: kb9tkh at gmail.com (Brian Butler)
+Date: Wed, 10 Jun 2009 11:40:24 -0500
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2FCF18.1050009@sohonet.co.uk>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+	<4A2FCD97.9010004@mind.net> <4A2FCF18.1050009@sohonet.co.uk>
+Message-ID: <7916ab000906100940i35797ca7o1578f1f3c52d7ea@mail.gmail.com>
+
+>
+> 'Course, we run our own email to sms gateway for it - don't rely on 3rd
+> parties for these things, that's likely where the issue is!
+
+
+How do you do this?  Your gateway system dual/multi- homed across your
+LAN/WAN and a provider's (or several providers') air interface(s)?  or snpp,
+or other?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090610/ad2b4d58/attachment.html>
+
+From dbarrett at dentaltechdesigns.com  Wed Jun 10 12:08:46 2009
+From: dbarrett at dentaltechdesigns.com (Doug Barrett)
+Date: Wed, 10 Jun 2009 11:08:46 -0500
+Subject: [outages] Centurytel routing to hotmail.com - problem?
+Message-ID: <B18B0BF24917E745ACBE5C0732174CAF0C4159F986@TASVR07.technologyarch.com>
+
+I have a customer in the Mukwonago, WI area using Centurytel who is unable to get to hotmail.com addresses - the traceroutes bomb out after hop 4 with pings also unsuccessful:
+
+Tracing route to origin.mail.live.com [64.4.20.174]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.3.6
+  2   257 ms   259 ms   274 ms  72-160-197-1.dyn.centurytel.net [72.160.197.1]
+  3   251 ms   167 ms   274 ms  GE-0-0-0-0-j1-rt.def.centurytel.net [207.230.202
+.3]
+  4   277 ms   259 ms   252 ms  host.lightcore.net [204.9.126.181]
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7     *     192.168.3.6  reports: Destination host unreachable.
+
+Trace complete.
+
+Others work OK:
+
+Tracing route to wiki.outages.org [64.38.198.157]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  192.168.3.6
+  2   277 ms   305 ms   312 ms  75-121-183-1.dyn.centurytel.net [75.121.183.1]
+  3   284 ms   319 ms   280 ms  GE-0-0-0-0-j1-rt.def.centurytel.net [207.230.202
+.3]
+  4   270 ms   288 ms   289 ms  host.lightcore.net [204.9.126.181]
+  5   311 ms   288 ms   305 ms  eqx-ch.3-2.r1.ch.hwng.net [206.223.119.96]
+  6   330 ms   349 ms   349 ms  1-1.r1.la.hwng.net [69.16.191.33]
+  7   350 ms   357 ms   365 ms  2-1.r2.ph.hwng.net [69.16.191.38]
+  8   362 ms   373 ms   366 ms  1-4.r1.ph.hwng.net [69.16.191.73]
+  9   391 ms   387 ms   576 ms  unknown.hwng.net [69.16.190.250]
+ 10    95 ms   107 ms   123 ms  nanog01.cavecreek.net [64.38.198.157]
+
+Trace complete.
+
+-Doug
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090610/a729c247/attachment.html>
+
+From tims at donet.com  Wed Jun 10 12:11:47 2009
+From: tims at donet.com (Tim Sanderson)
+Date: Wed, 10 Jun 2009 12:11:47 -0400
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2FCD97.9010004@mind.net>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+	<4A2FCD97.9010004@mind.net>
+Message-ID: <C8780EC81EAFB24B94943243BA5BCC549BB818B8E5@intexch07.internal.donet.com>
+
+It happens. We had the same issue with Sprint sending messages from a monitoring system via email to the gateway and then getting SMS text messages on our smart phones. It worked great for years and then recently we started getting SMS messages hours late. After some troubleshooting we determined it was a delay at the Sprint email/SMS gateway. We switched to AT&T and the problem went away.
+
+--
+Tim Sanderson
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Steve Ryan
+Sent: Wednesday, June 10, 2009 11:13 AM
+To: Martin Hepworth
+Cc: outages at outages.org
+Subject: Re: [outages] AT&T Email to SMS outage?
+
+Isn't unusual?  Are you kidding?  It's pretty unusual here in the US.
+
+I wouldn't recommend using e-mail to SMS for anything critical but for
+years, at least in my experience, it's been zippy enough.
+
+12+ hours in some cases for e-mail to SMS though?  Come on, that makes
+it totally unusable.  You Europeans should demand better service!
+
+Regards,
+
+Steve
+
+
+Martin Hepworth wroteth on 6/10/2009 12:11 AM:
+> 2009/6/10 Paul Norton <paul at neoverve.com>:
+>> Just got my test message. Took about 2 hours and 10 minutes.
+>>
+>> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>>
+>>> Having issues here in San Diego.  Email to SMS, seeing this error in mail
+>>> log.
+>>>
+>>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed out)
+>>>
+>>>
+>>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>>
+>>>> Been occurring since around 2:04 am CDT.
+>>>>
+>>>> Called customer service number and got a story about a Media.Net
+>>>> outage in southeast.
+>>>>
+>>>> Message Service Center +14047259015 if that matters.
+>>>>
+>>>> Also replying to SMS received emails from your phone that were already
+>>>> there yields an error message, sorry I do not have that saved.
+>>>>
+>>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>>> similar fate?
+>>>>
+>>> --
+>>> Paul Norton
+>>> Systems Administrator
+>>> Neoverve - www.neoverve.com
+>>> Neoverve Blog - http://blog.neoverve.com/
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>> --
+>> Paul Norton
+>> Systems Administrator
+>> Neoverve - www.neoverve.com
+>> Neoverve Blog - http://blog.neoverve.com/
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+> That sort of delay for SMS text messages isn't unusual - bit like
+> email  there's no guarantee of timely delivery with SMS. In Europe
+> delays of this nature aren't uncommon
+>
+>
+>
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+THIS MESSAGE IS INTENDED ONLY FOR PERSONAL AND CONFIDENTIAL USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient, or the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that you have received this message in error and that any review, dissemination, distribution, or copying of this message is strictly prohibited. If you have received this message in error, please notify the sender immediately by e-mail or telephone, and delete the original message immediately. Thank you.
+
+From cburwell at gmail.com  Wed Jun 10 14:25:31 2009
+From: cburwell at gmail.com (Chris Burwell)
+Date: Wed, 10 Jun 2009 14:25:31 -0400
+Subject: [outages] AT&T Email to SMS outage?
+In-Reply-To: <4A2FCD97.9010004@mind.net>
+References: <4be849600906090602l7f605e26q79c5b3e9ef89a091@mail.gmail.com>
+	<EE236D89-C0BD-49B9-A0AF-A6E8BD4ED6F9@neoverve.com>
+	<567E2BB1-F194-4109-9E55-244C26CFF566@neoverve.com>
+	<72cf361e0906100011l37226f48v95df8b574eb9db0f@mail.gmail.com>
+	<4A2FCD97.9010004@mind.net>
+Message-ID: <e13f4b7b0906101125m68510639i2d400fd9a3f3746d@mail.gmail.com>
+
+Using a lot of text messages, I find that 5-10 of my messages (incomming and
+outgoing) are delayed or most likley lost per week (on average). These are
+rough numbers and it only counts for the messages I know about becuase the
+person on the other end says something to me.
+
+While some of these delays are extensive, they are not out of the ordinary.
+However, that is no excuse for service providers.
+
+- Chris
+On Wed, Jun 10, 2009 at 11:13 AM, Steve Ryan <auser at mind.net> wrote:
+
+> Isn't unusual?  Are you kidding?  It's pretty unusual here in the US.
+>
+> I wouldn't recommend using e-mail to SMS for anything critical but for
+> years, at least in my experience, it's been zippy enough.
+>
+> 12+ hours in some cases for e-mail to SMS though?  Come on, that makes it
+> totally unusable.  You Europeans should demand better service!
+>
+> Regards,
+>
+> Steve
+>
+>
+> Martin Hepworth wroteth on 6/10/2009 12:11 AM:
+>
+> 2009/6/10 Paul Norton <paul at neoverve.com>:
+>>
+>>> Just got my test message. Took about 2 hours and 10 minutes.
+>>>
+>>> On Jun 9, 2009, at 2:00 PM, Paul Norton wrote:
+>>>
+>>> Having issues here in San Diego.  Email to SMS, seeing this error in mail
+>>>> log.
+>>>>
+>>>> (connect to atlsmtp.cingularme.net[66.102.165.114]: Connection timed
+>>>> out)
+>>>>
+>>>>
+>>>> On Jun 9, 2009, at 6:02 AM, Gabriel Grissett wrote:
+>>>>
+>>>> Been occurring since around 2:04 am CDT.
+>>>>>
+>>>>> Called customer service number and got a story about a Media.Net
+>>>>> outage in southeast.
+>>>>>
+>>>>> Message Service Center +14047259015 if that matters.
+>>>>>
+>>>>> Also replying to SMS received emails from your phone that were already
+>>>>> there yields an error message, sorry I do not have that saved.
+>>>>>
+>>>>> Never get emails sent from gmail never arrive. I assume they suffer a
+>>>>> similar fate?
+>>>>>
+>>>>> --
+>>>> Paul Norton
+>>>> Systems Administrator
+>>>> Neoverve - www.neoverve.com
+>>>> Neoverve Blog - http://blog.neoverve.com/
+>>>>
+>>>> _______________________________________________
+>>>> outages mailing list
+>>>> outages at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages
+>>>>
+>>> --
+>>> Paul Norton
+>>> Systems Administrator
+>>> Neoverve - www.neoverve.com
+>>> Neoverve Blog - http://blog.neoverve.com/
+>>>
+>>> _______________________________________________
+>>> outages mailing list
+>>> outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>>
+>>
+>> That sort of delay for SMS text messages isn't unusual - bit like
+>> email  there's no guarantee of timely delivery with SMS. In Europe
+>> delays of this nature aren't uncommon
+>>
+>>
+>>
+>> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090610/ec30adbb/attachment-0001.html>
+
+From jra at baylink.com  Thu Jun 11 10:28:12 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 11 Jun 2009 10:28:12 -0400 (EDT)
+Subject: [outages] AIM partial problems?
+In-Reply-To: <33486499.1060671244730289847.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+
+I've been seeing, for a day or three, problems where *some* pairs of users 
+cannot get AIM to admit to one another that they exist.
+
+Frex:
+
+I can talk to S, S can talk to J, but when J and I add one another to our 
+buddy lists, we each see the other user as off-line, and cannot message them.
+
+Client is Pidgin 2.5.1 on Windows, and some other version, possibly, on Linux.
+
+Just now, I've had J send me a message, but she *still* doesn't show up in my
+buddy list where I added her.  Spelling doublechecked, etc.
+
+Anyone know of any internal problems with AIM this week?
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From outages at jdc.parodius.com  Thu Jun 11 11:02:38 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 11 Jun 2009 08:02:38 -0700
+Subject: [outages] AIM partial problems?
+In-Reply-To: <26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+References: <33486499.1060671244730289847.JavaMail.root@benjamin.vicimarketing.com>
+	<26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <20090611150237.GA67289@icarus.home.lan>
+
+Are we certain this isn't another case of the underlying protocol (in
+this case OSCAR) being changed or adjusted in some way?
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Thu, Jun 11, 2009 at 10:28:12AM -0400, Jay R. Ashworth wrote:
+> I've been seeing, for a day or three, problems where *some* pairs of users 
+> cannot get AIM to admit to one another that they exist.
+> 
+> Frex:
+> 
+> I can talk to S, S can talk to J, but when J and I add one another to our 
+> buddy lists, we each see the other user as off-line, and cannot message them.
+> 
+> Client is Pidgin 2.5.1 on Windows, and some other version, possibly, on Linux.
+> 
+> Just now, I've had J send me a message, but she *still* doesn't show up in my
+> buddy list where I added her.  Spelling doublechecked, etc.
+> 
+> Anyone know of any internal problems with AIM this week?
+> 
+> Cheers,
+> -- jra
+> 
+> -- 
+> Jay R. Ashworth                   Baylink                      jra at baylink.com
+> Designer                     The Things I Think                       RFC 2100
+> Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+> 
+>     Start a man a fire, and he'll be warm all night.
+>      Set a man on fire, and he'll be warm for the rest of his life.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From hsalgado at nic.cl  Thu Jun 11 10:34:52 2009
+From: hsalgado at nic.cl (Hugo Salgado)
+Date: Thu, 11 Jun 2009 10:34:52 -0400
+Subject: [outages] technet.microsoft.com
+Message-ID: <4A31160C.5050503@nic.cl>
+
+It seems that http://technet.microsoft.com is unreachable from
+several places. Here it resolves to technet.microsoft.akadns.net
+(64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+
+I've tried using several looking glasses, but only
+"downforeveryoneorjustme.com" seems to reach it.
+
+Hugo
+
+From william.mccall at gmail.com  Thu Jun 11 11:32:20 2009
+From: william.mccall at gmail.com (William McCall)
+Date: Thu, 11 Jun 2009 10:32:20 -0500
+Subject: [outages] AIM partial problems?
+In-Reply-To: <20090611150237.GA67289@icarus.home.lan>
+References: <33486499.1060671244730289847.JavaMail.root@benjamin.vicimarketing.com>
+	<26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+	<20090611150237.GA67289@icarus.home.lan>
+Message-ID: <f9a8f300906110832g447635c3v8472caf55395dfc9@mail.gmail.com>
+
+Working fine over here.
+
+Using Pidgin 2.5.4
+
+--William
+
+On Thu, Jun 11, 2009 at 10:02 AM, Jeremy Chadwick
+<outages at jdc.parodius.com>wrote:
+
+> Are we certain this isn't another case of the underlying protocol (in
+> this case OSCAR) being changed or adjusted in some way?
+>
+> --
+> | Jeremy Chadwick                                   jdc at parodius.com |
+> | Parodius Networking                       http://www.parodius.com/ |
+> | UNIX Systems Administrator                  Mountain View, CA, USA |
+> | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+>
+> On Thu, Jun 11, 2009 at 10:28:12AM -0400, Jay R. Ashworth wrote:
+> > I've been seeing, for a day or three, problems where *some* pairs of
+> users
+> > cannot get AIM to admit to one another that they exist.
+> >
+> > Frex:
+> >
+> > I can talk to S, S can talk to J, but when J and I add one another to our
+> > buddy lists, we each see the other user as off-line, and cannot message
+> them.
+> >
+> > Client is Pidgin 2.5.1 on Windows, and some other version, possibly, on
+> Linux.
+> >
+> > Just now, I've had J send me a message, but she *still* doesn't show up
+> in my
+> > buddy list where I added her.  Spelling doublechecked, etc.
+> >
+> > Anyone know of any internal problems with AIM this week?
+> >
+> > Cheers,
+> > -- jra
+> >
+> > --
+> > Jay R. Ashworth                   Baylink
+> jra at baylink.com
+> > Designer                     The Things I Think                       RFC
+> 2100
+> > Ashworth & Associates     http://baylink.pitas.com
+> '87 e24
+> > St Petersburg FL USA      http://photo.imageinc.us             +1 727
+> 647 1274
+> >
+> >     Start a man a fire, and he'll be warm all night.
+> >      Set a man on fire, and he'll be warm for the rest of his life.
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090611/3302e05f/attachment.html>
+
+From andrew at westgatechurch.org  Thu Jun 11 11:39:35 2009
+From: andrew at westgatechurch.org (Andrew T. Davis)
+Date: Thu, 11 Jun 2009 08:39:35 -0700
+Subject: [outages] technet.microsoft.com
+In-Reply-To: <4A31160C.5050503@nic.cl>
+References: <4A31160C.5050503@nic.cl>
+Message-ID: <18afaab70906110839s30d0b232ma360252190d57585@mail.gmail.com>
+
+I'm on AT&T DSL in California - I can access the front page.
+
+Also checked from work - U-Verse & a TelePacific T1 line both can access it.
+
+It could have just been down temporarily.
+--------------------------------------------------------------------------------------------------------------------------------------
+<EoM>
+Thanks,
+Andrew T. Davis
+
+
+On Thu, Jun 11, 2009 at 7:34 AM, Hugo Salgado <hsalgado at nic.cl> wrote:
+
+> It seems that http://technet.microsoft.com is unreachable from
+> several places. Here it resolves to technet.microsoft.akadns.net
+> (64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+>
+> I've tried using several looking glasses, but only
+> "downforeveryoneorjustme.com" seems to reach it.
+>
+> Hugo
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090611/3e9a61b6/attachment.html>
+
+From ross at wtccommunications.ca  Thu Jun 11 12:09:02 2009
+From: ross at wtccommunications.ca (Ross Halliday)
+Date: Thu, 11 Jun 2009 12:09:02 -0400
+Subject: [outages] technet.microsoft.com
+References: <4A31160C.5050503@nic.cl>
+Message-ID: <151BC03492E46E4CB8D479E42CEF7890A77043@exchange.wtc.local>
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Hugo Salgado
+Sent: Thursday, June 11, 2009 10:35 AM
+To: outages at outages.org
+Subject: [outages] technet.microsoft.com
+
+> It seems that http://technet.microsoft.com is unreachable from
+> several places. Here it resolves to technet.microsoft.akadns.net
+> (64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+> 
+> I've tried using several looking glasses, but only
+> "downforeveryoneorjustme.com" seems to reach it.
+
+HTTP looking glass or pings? I have yet to see a Microsoft server that
+responds to ICMP. Only reliable method I've found is something like
+tcptraceroute.
+ 
+Working fine here: (am able to view website)
+
+Selected device eth0, address 205.189.48.18, port 2236 for outgoing
+packets
+Tracing the path to technet.microsoft.com (65.55.11.240) on TCP port 80
+(www), 30 hops max
+ 1  central.kingston.net (205.189.48.1)  0.971 ms  0.240 ms  0.223 ms
+ 2  ge-6-11-117.car1.Toronto2.Level3.net (4.59.180.17)  4.361 ms  4.392
+ms  4.297 ms
+ 3  ae-11-11.car2.Toronto2.Level3.net (4.69.140.250)  4.185 ms  4.316 ms
+4.261 ms
+ 4  ae-2-2.car2.Montreal2.Level3.net (4.69.140.254)  11.187 ms  11.008
+ms  11.250 ms
+ 5  ae-11-11.car1.Montreal2.Level3.net (4.69.141.2)  181.748 ms  163.498
+ms  196.209 ms
+ 6  ae-5-5.ebr4.NewYork1.Level3.net (4.69.141.6)  47.224 ms  18.095 ms
+18.007 ms
+ 7  ae-6-6.ebr2.NewYork2.Level3.net (4.69.141.22)  16.685 ms  18.248 ms
+18.623 ms
+ 8  ae-2-52.edge2.NewYork2.Level3.net (4.69.138.227)  18.652 ms  18.058
+ms  18.296 ms
+ 9  MICROSOFT-C.edge2.NewYork2.Level3.net (4.71.190.2)  17.230 ms
+17.304 ms  17.483 ms
+10  ge-3-0-0-0.nyc-64cb-1b.ntwk.msn.net (207.46.47.216)  17.229 ms
+17.116 ms  17.040 ms
+11  ge-7-0-0-0.nyc-64cb-1a.ntwk.msn.net (207.46.47.20)  16.865 ms
+16.531 ms  17.285 ms
+12  ge-1-0-0-0.chg-64cb-1b.ntwk.msn.net (207.46.41.197)  39.865 ms
+37.221 ms  38.453 ms
+13  ge-0-0-0-0.chg-64cb-1a.ntwk.msn.net (207.46.43.150)  38.987 ms
+35.787 ms  68.165 ms
+14  ge-3-3-0-0.co2-64c-1b.ntwk.msn.net (207.46.43.153)  94.346 ms
+73.243 ms  72.156 ms
+15  ge-2-0-0-0.co1-64c-1b.ntwk.msn.net (207.46.43.178)  70.327 ms
+69.872 ms  73.127 ms
+16  10.22.8.58  70.835 ms  71.907 ms  73.112 ms
+17  65.55.11.240 [open]  69.688 ms  73.720 ms  71.274 ms
+
+
+
+Cheers
+---
+Ross Halliday
+Network Operations
+WTC Communications
+
+Office: 613-547-6939 x203
+Helpdesk: 866-547-6939 option 2
+http://www.wtccommunications.ca 
+
+From andyring at inebraska.com  Thu Jun 11 11:39:28 2009
+From: andyring at inebraska.com (Andy Ringsmuth)
+Date: Thu, 11 Jun 2009 10:39:28 -0500
+Subject: [outages] technet.microsoft.com
+In-Reply-To: <4A31160C.5050503@nic.cl>
+References: <4A31160C.5050503@nic.cl>
+Message-ID: <9D027ED2-2D08-4C7C-B740-1774253921D3@inebraska.com>
+
+
+On Jun 11, 2009, at 9:34 AM, Hugo Salgado wrote:
+
+> It seems that http://technet.microsoft.com is unreachable from
+> several places. Here it resolves to technet.microsoft.akadns.net
+> (64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+>
+> I've tried using several looking glasses, but only
+> "downforeveryoneorjustme.com" seems to reach it.
+>
+> Hugo
+
+Reachable here in Lincoln, Neb. with no issues.  I'm thinking  
+akadns.net is probably Akamai DNS?
+
+
+-Andy
+
+From wrl at express.org  Thu Jun 11 11:08:49 2009
+From: wrl at express.org (William R. Lorenz)
+Date: Thu, 11 Jun 2009 11:08:49 -0400 (EDT)
+Subject: [outages] AIM partial problems?
+In-Reply-To: <26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+References: <26732553.1060731244730492462.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <Pine.LNX.4.64.0906111107080.18320@pluto.express.org>
+
+Hi Jay,
+
+On Thu, 11 Jun 2009, Jay R. Ashworth wrote:
+
+> I've been seeing, for a day or three, problems where *some* pairs of 
+> users cannot get AIM to admit to one another that they exist.
+
+Within the past 48 hours, I've seen problems with the AOL Transit Data 
+Network (atdn.net).  I'm not sure if this is related to your AIM issue.
+
+
+> I can talk to S, S can talk to J, but when J and I add one another to our
+> buddy lists, we each see the other user as off-line, and cannot message them.
+>
+> Client is Pidgin 2.5.1 on Windows, and some other version, possibly, on Linux.
+>
+> Just now, I've had J send me a message, but she *still* doesn't show up in my
+> buddy list where I added her.  Spelling doublechecked, etc.
+>
+> Anyone know of any internal problems with AIM this week?
+
+
+-- 
+William R. Lorenz
+
+
+From cordmacleod at gmail.com  Thu Jun 11 12:36:46 2009
+From: cordmacleod at gmail.com (Cord MacLeod)
+Date: Thu, 11 Jun 2009 09:36:46 -0700
+Subject: [outages] technet.microsoft.com
+In-Reply-To: <151BC03492E46E4CB8D479E42CEF7890A77043@exchange.wtc.local>
+References: <4A31160C.5050503@nic.cl>
+	<151BC03492E46E4CB8D479E42CEF7890A77043@exchange.wtc.local>
+Message-ID: <2A1FA62E-2E1E-48E5-902A-3F6ABE89A349@gmail.com>
+
+
+On Jun 11, 2009, at 9:09 AM, Ross Halliday wrote:
+
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Hugo Salgado
+> Sent: Thursday, June 11, 2009 10:35 AM
+> To: outages at outages.org
+> Subject: [outages] technet.microsoft.com
+>
+>> It seems that http://technet.microsoft.com is unreachable from
+>> several places. Here it resolves to technet.microsoft.akadns.net
+>> (64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+>>
+>> I've tried using several looking glasses, but only
+>> "downforeveryoneorjustme.com" seems to reach it.
+>
+> HTTP looking glass or pings? I have yet to see a Microsoft server that
+> responds to ICMP. Only reliable method I've found is something like
+> tcptraceroute.
+
+
+$ ping netops.hotmail.com
+PING netops.hotmail.com (216.32.183.201): 56 data bytes
+64 bytes from 216.32.183.201: icmp_seq=0 ttl=243 time=19.860 ms
+64 bytes from 216.32.183.201: icmp_seq=1 ttl=243 time=33.384 ms
+64 bytes from 216.32.183.201: icmp_seq=2 ttl=243 time=20.344 ms
+
+
+From hsalgado at nic.cl  Thu Jun 11 17:09:47 2009
+From: hsalgado at nic.cl (Hugo Salgado)
+Date: Thu, 11 Jun 2009 17:09:47 -0400
+Subject: [outages] technet.microsoft.com
+In-Reply-To: <151BC03492E46E4CB8D479E42CEF7890A77043@exchange.wtc.local>
+References: <4A31160C.5050503@nic.cl>
+	<151BC03492E46E4CB8D479E42CEF7890A77043@exchange.wtc.local>
+Message-ID: <4A31729B.2000708@nic.cl>
+
+Ross Halliday wrote:
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Hugo Salgado
+> Sent: Thursday, June 11, 2009 10:35 AM
+> To: outages at outages.org
+> Subject: [outages] technet.microsoft.com
+> 
+>> It seems that http://technet.microsoft.com is unreachable from
+>> several places. Here it resolves to technet.microsoft.akadns.net
+>> (64.4.11.252), but doesn't answer ping's nor telnet to port 80.
+>>
+>> I've tried using several looking glasses, but only
+>> "downforeveryoneorjustme.com" seems to reach it.
+> 
+> HTTP looking glass or pings? I have yet to see a Microsoft server that
+> responds to ICMP. Only reliable method I've found is something like
+> tcptraceroute.
+>  
+
+Thanks. I did only pings with the looking glasses.
+
+Anyway, it's back now. Thanks for your help.
+
+Hugo
+
+
+> Working fine here: (am able to view website)
+> 
+> Selected device eth0, address 205.189.48.18, port 2236 for outgoing
+> packets
+> Tracing the path to technet.microsoft.com (65.55.11.240) on TCP port 80
+> (www), 30 hops max
+>  1  central.kingston.net (205.189.48.1)  0.971 ms  0.240 ms  0.223 ms
+>  2  ge-6-11-117.car1.Toronto2.Level3.net (4.59.180.17)  4.361 ms  4.392
+> ms  4.297 ms
+>  3  ae-11-11.car2.Toronto2.Level3.net (4.69.140.250)  4.185 ms  4.316 ms
+> 4.261 ms
+>  4  ae-2-2.car2.Montreal2.Level3.net (4.69.140.254)  11.187 ms  11.008
+> ms  11.250 ms
+>  5  ae-11-11.car1.Montreal2.Level3.net (4.69.141.2)  181.748 ms  163.498
+> ms  196.209 ms
+>  6  ae-5-5.ebr4.NewYork1.Level3.net (4.69.141.6)  47.224 ms  18.095 ms
+> 18.007 ms
+>  7  ae-6-6.ebr2.NewYork2.Level3.net (4.69.141.22)  16.685 ms  18.248 ms
+> 18.623 ms
+>  8  ae-2-52.edge2.NewYork2.Level3.net (4.69.138.227)  18.652 ms  18.058
+> ms  18.296 ms
+>  9  MICROSOFT-C.edge2.NewYork2.Level3.net (4.71.190.2)  17.230 ms
+> 17.304 ms  17.483 ms
+> 10  ge-3-0-0-0.nyc-64cb-1b.ntwk.msn.net (207.46.47.216)  17.229 ms
+> 17.116 ms  17.040 ms
+> 11  ge-7-0-0-0.nyc-64cb-1a.ntwk.msn.net (207.46.47.20)  16.865 ms
+> 16.531 ms  17.285 ms
+> 12  ge-1-0-0-0.chg-64cb-1b.ntwk.msn.net (207.46.41.197)  39.865 ms
+> 37.221 ms  38.453 ms
+> 13  ge-0-0-0-0.chg-64cb-1a.ntwk.msn.net (207.46.43.150)  38.987 ms
+> 35.787 ms  68.165 ms
+> 14  ge-3-3-0-0.co2-64c-1b.ntwk.msn.net (207.46.43.153)  94.346 ms
+> 73.243 ms  72.156 ms
+> 15  ge-2-0-0-0.co1-64c-1b.ntwk.msn.net (207.46.43.178)  70.327 ms
+> 69.872 ms  73.127 ms
+> 16  10.22.8.58  70.835 ms  71.907 ms  73.112 ms
+> 17  65.55.11.240 [open]  69.688 ms  73.720 ms  71.274 ms
+> 
+> 
+> 
+> Cheers
+> ---
+> Ross Halliday
+> Network Operations
+> WTC Communications
+> 
+> Office: 613-547-6939 x203
+> Helpdesk: 866-547-6939 option 2
+> http://www.wtccommunications.ca 
+> 
+
+From jra at baylink.com  Fri Jun 12 10:46:36 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Fri, 12 Jun 2009 10:46:36 -0400 (EDT)
+Subject: [outages] AIM partial problems?
+In-Reply-To: <20090611150237.GA67289@icarus.home.lan>
+Message-ID: <4281727.1091241244817996545.JavaMail.root@benjamin.vicimarketing.com>
+
+----- "Jeremy Chadwick" <outages at jdc.parodius.com> wrote:
+> Are we certain this isn't another case of the underlying protocol (in
+> this case OSCAR) being changed or adjusted in some way?
+
+It's entirely possible it could be that, especially since it only seemed to be
+happening to newly added contacts.
+
+To confuse things worse, that new contact J of mine, *while still showing 
+up in Pidgin as unavailable*, did get through to me, and I could chat with 
+her.  Though I could not originate to her, and I think she still saw me as 
+offline.
+
+I wouldn't object to switching to some other protocol/server, but I have
+Metcalfe's Law problems...
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From nicholas.hatch at gmail.com  Fri Jun 12 17:13:28 2009
+From: nicholas.hatch at gmail.com (nick hatch)
+Date: Fri, 12 Jun 2009 14:13:28 -0700
+Subject: [outages] AIM partial problems?
+In-Reply-To: <4281727.1091241244817996545.JavaMail.root@benjamin.vicimarketing.com>
+References: <20090611150237.GA67289@icarus.home.lan>
+	<4281727.1091241244817996545.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <a71460720906121413l3f75e3aei601567f874dcf8bf@mail.gmail.com>
+
+On Fri, Jun 12, 2009 at 7:46 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+
+>
+> I wouldn't object to switching to some other protocol/server, but I have
+> Metcalfe's Law problems...
+>
+
+For what it's worth, I've seen similar problems with losing contact state
+from XMPP-based servers, specifically Openfire 3.6.4. Sometimes some users
+get stale state information, while others are successfully logged in (can
+message, can receive messages) but their availability doesn't propagate.
+
+It's a bizarre problem which hasn't proven easy to track down.
+
+-Nick
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090612/c07ac5b9/attachment.html>
+
+From ml at t-b-o-h.net  Wed Jun 17 14:38:25 2009
+From: ml at t-b-o-h.net (Tuc at T-B-O-H)
+Date: Wed, 17 Jun 2009 14:38:25 -0400 (EDT)
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+Message-ID: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+
+Hi,
+
+	Today both a customers office and datacenter (Different providers,
+different locations, different domains used at each) started getting denied
+for email sending by Barracuda Reputation issues. You go to the site, and they
+claim its not listed as "poor".
+
+	Anyone hear anything through the grapevine about it? Internal
+RBL server freaking out, or bad push of an update, etc?
+
+		Thanks, Tuc/TBOH
+
+From bbc at misn.com  Wed Jun 17 15:05:32 2009
+From: bbc at misn.com (Bryan Campbell)
+Date: Wed, 17 Jun 2009 14:05:32 -0500
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+In-Reply-To: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+References: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+Message-ID: <4A393E7C.6020200@misn.com>
+
+Every so often we get one bounced back.  Maybe a couple per week where 
+people off site can't e-mail to us.
+
+But, they aren't on our networks and they are usually coming from places 
+that are not properly forward/reverse delegated, have no SPF records, do 
+not talk entirely like a well-behaved SMTP server.
+
+And, the folks having trouble aren't reading the failure messages like 
+they should and doing what the message says to do.
+
+Honestly, we get more complaints from our customers because of our 
+grey-listing system than because of the Barracuda.  Such is life!
+
+-- 
+bbc at misn.com
+
+From jesse.proudman-lists at blueboxgrp.com  Wed Jun 17 15:03:01 2009
+From: jesse.proudman-lists at blueboxgrp.com (Jesse Proudman)
+Date: Wed, 17 Jun 2009 12:03:01 -0700
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+In-Reply-To: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+References: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+Message-ID: <4A393DE5.7000805@blueboxgrp.com>
+
+We're experiencing the same problem.  We have a ticket open with 
+Barracuda presently but they're taking their time to get back to us. 
+Would love to hear that many other people are having the same problem...
+
+  - Jesse
+
+Tuc at T-B-O-H wrote:
+> Hi,
+> 
+> 	Today both a customers office and datacenter (Different providers,
+> different locations, different domains used at each) started getting denied
+> for email sending by Barracuda Reputation issues. You go to the site, and they
+> claim its not listed as "poor".
+> 
+> 	Anyone hear anything through the grapevine about it? Internal
+> RBL server freaking out, or bad push of an update, etc?
+
+
+From alvinychan at gmail.com  Wed Jun 17 15:49:54 2009
+From: alvinychan at gmail.com (Alvin Chan)
+Date: Wed, 17 Jun 2009 12:49:54 -0700
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+In-Reply-To: <4A393DE5.7000805@blueboxgrp.com>
+References: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+	<4A393DE5.7000805@blueboxgrp.com>
+Message-ID: <7a4b116c0906171249k3b2eff49k239c6d80ba73e868@mail.gmail.com>
+
+One of our own mail servers was getting blocked earlier today, we had
+to whitelist its IP.
+
+- alvin
+
+On Wed, Jun 17, 2009 at 12:03 PM, Jesse
+Proudman<jesse.proudman-lists at blueboxgrp.com> wrote:
+> We're experiencing the same problem.  We have a ticket open with Barracuda
+> presently but they're taking their time to get back to us. Would love to
+> hear that many other people are having the same problem...
+>
+>  - Jesse
+>
+> Tuc at T-B-O-H wrote:
+>>
+>> Hi,
+>>
+>>        Today both a customers office and datacenter (Different providers,
+>> different locations, different domains used at each) started getting
+>> denied
+>> for email sending by Barracuda Reputation issues. You go to the site, and
+>> they
+>> claim its not listed as "poor".
+>>
+>>        Anyone hear anything through the grapevine about it? Internal
+>> RBL server freaking out, or bad push of an update, etc?
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From wtan at ezecastle.com  Wed Jun 17 14:52:41 2009
+From: wtan at ezecastle.com (Tan, William)
+Date: Wed, 17 Jun 2009 14:52:41 -0400
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+In-Reply-To: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+References: <200906171838.n5HIcPxX063605@vjofn.tucs-beachin-obx-house.com>
+Message-ID: <E10C7302D634FD49AB59FBB5C1CE196B16B9E98382@ecimail.eci.corp>
+
+
+We query the BRBL from our filtering servers.    We average about 9,000 BRBL positives per day, and have 5200 thus far today.   So the volume seems normal.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tuc at T-B-O-H
+Sent: Wednesday, June 17, 2009 2:38 PM
+To: outages at outages.org
+Cc: tuc at t-b-o-h.net
+Subject: [outages] Anyone seeing Barracuda reputation failures increase?
+
+Hi,
+
+	Today both a customers office and datacenter (Different providers,
+different locations, different domains used at each) started getting denied
+for email sending by Barracuda Reputation issues. You go to the site, and they
+claim its not listed as "poor".
+
+	Anyone hear anything through the grapevine about it? Internal
+RBL server freaking out, or bad push of an update, etc?
+
+		Thanks, Tuc/TBOH
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+NOTICE:  The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited.  If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies.  Thank you.
+
+
+
+
+From lists at up-south.com  Wed Jun 17 17:39:53 2009
+From: lists at up-south.com (lists at up-south.com)
+Date: Wed, 17 Jun 2009 21:39:53 +0000
+Subject: [outages] Anybody else seeing a google outage ?
+Message-ID: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+
+In south california att/vzw/other carriers.
+Mail/maps/picasaweb all out.
+
+
+Sent via BlackBerry from T-Mobile
+
+From paul at neoverve.com  Wed Jun 17 19:02:34 2009
+From: paul at neoverve.com (Paul Norton)
+Date: Wed, 17 Jun 2009 16:02:34 -0700
+Subject: [outages] Anybody else seeing a google outage ?
+In-Reply-To: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+References: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+Message-ID: <884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+
+Looks fine here in San Diego on TWC.
+
+On Jun 17, 2009, at 2:39 PM, lists at up-south.com wrote:
+
+> In south california att/vzw/other carriers.
+> Mail/maps/picasaweb all out.
+>
+>
+> Sent via BlackBerry from T-Mobile
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+
+From andrew at westgatechurch.org  Wed Jun 17 19:09:42 2009
+From: andrew at westgatechurch.org (Andrew T. Davis)
+Date: Wed, 17 Jun 2009 16:09:42 -0700
+Subject: [outages] Anybody else seeing a google outage ?
+In-Reply-To: <884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+References: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+	<884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+Message-ID: <18afaab70906171609g131b5580p1ed622a9fc3d63a@mail.gmail.com>
+
+Northern California, AT&T U-Verse - all is good
+--------------------------------------------------------------------------------------------------------------------------------------
+<EoM>
+Thanks,
+Andrew T. Davis
+
+
+On Wed, Jun 17, 2009 at 4:02 PM, Paul Norton <paul at neoverve.com> wrote:
+
+> Looks fine here in San Diego on TWC.
+>
+>
+> On Jun 17, 2009, at 2:39 PM, lists at up-south.com wrote:
+>
+>  In south california att/vzw/other carriers.
+>> Mail/maps/picasaweb all out.
+>>
+>>
+>> Sent via BlackBerry from T-Mobile
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+> --
+> Paul Norton
+> Systems Administrator
+> Neoverve - www.neoverve.com
+> Neoverve Blog - http://blog.neoverve.com/
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090617/dacd3a08/attachment.html>
+
+From eslerj at gmail.com  Wed Jun 17 19:13:39 2009
+From: eslerj at gmail.com (Joel Esler)
+Date: Wed, 17 Jun 2009 19:13:39 -0400
+Subject: [outages] Anybody else seeing a google outage ?
+In-Reply-To: <884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+References: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+	<884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+Message-ID: <AD49615F-5413-43C5-BEF3-EEB7C685CC9E@gmail.com>
+
+
+On Jun 17, 2009, at 7:02 PM, Paul Norton wrote:
+
+> Looks fine here in San Diego on TWC.
+
+Ditto from Virginia.
+
+J
+
+
+From ramans at cwie.net  Wed Jun 17 19:16:26 2009
+From: ramans at cwie.net (Raman Sud)
+Date: Wed, 17 Jun 2009 16:16:26 -0700
+Subject: [outages] Anybody else seeing a google outage ?
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC2002A2CD6AB1A6@EXCH07-MB.ccbill-hq.local>
+
+Phoenix az looks good
+
+===========
+
+Raman Sud
+(sent via mobile phone)
+
+-----Original Message-----
+From: Andrew T. Davis <andrew at westgatechurch.org>
+Sent: Wednesday, June 17, 2009 5:15 PM
+To: Paul Norton <paul at neoverve.com>
+Cc: outages at outages.org <outages at outages.org>
+Subject: Re: [outages] Anybody else seeing a google outage ?
+
+Northern California, AT&T U-Verse - all is good
+--------------------------------------------------------------------------------------------------------------------------------------
+<EoM>
+Thanks,
+Andrew T. Davis
+
+
+On Wed, Jun 17, 2009 at 4:02 PM, Paul Norton <paul at neoverve.com> wrote:
+Looks fine here in San Diego on TWC. 
+
+
+ On Jun 17, 2009, at 2:39 PM, lists at up-south.com wrote:
+
+In south california att/vzw/other carriers.
+ Mail/maps/picasaweb all out.
+
+
+ Sent via BlackBerry from T-Mobile
+ _______________________________________________
+ outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/ 
+
+
+ _______________________________________________
+ outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From mikehoffman at odysseylogistics.com  Wed Jun 17 19:28:38 2009
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Wed, 17 Jun 2009 19:28:38 -0400
+Subject: [outages] Anybody else seeing a google outage ?
+In-Reply-To: <AD49615F-5413-43C5-BEF3-EEB7C685CC9E@gmail.com>
+References: <393478235-1245274805-cardhu_decombobulator_blackberry.rim.net-1700154554-@bxe1263.bisx.prod.on.blackberry>
+	<884B250C-FF48-4951-9DB0-737D53E5B475@neoverve.com>
+	<AD49615F-5413-43C5-BEF3-EEB7C685CC9E@gmail.com>
+Message-ID: <79B86A26-15BC-419C-959B-032DDE671280@odysseylogistics.com>
+
+Works fine from the iPhone in CT.
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+39 Old Ridgebury Road
+A-4
+Danbury, CT  06810
+Phone: (203) 448-3872
+Fax: (203) 448-3901
+
+Odyssey Overland LLC
+1500 Route 517
+Suite 300
+Hackettstown, NJ 07840
+Phone: (908) 850-4490
+Fax: (908) 850-3852
+
+On Jun 17, 2009, at 19:18, "Joel Esler" <eslerj at gmail.com> wrote:
+
+>
+> On Jun 17, 2009, at 7:02 PM, Paul Norton wrote:
+>
+>> Looks fine here in San Diego on TWC.
+>
+> Ditto from Virginia.
+>
+> J
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From corqpub at gmail.com  Thu Jun 18 11:11:06 2009
+From: corqpub at gmail.com (L.T.  Easterly)
+Date: Thu, 18 Jun 2009 11:11:06 -0400
+Subject: [outages] Road Runner / Level3 issues?
+Message-ID: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+
+1  192.168.1.1 (192.168.1.1)  1.679 ms  2.101 ms  2.526 ms
+ 2  10.104.240.1 (10.104.240.1)  13.304 ms  13.315 ms  13.819 ms
+ 3  250.230.95.24.cfl.res.rr.com (24.95.230.250)  15.974 ms  16.474 ms
+16.464 ms
+ 4  gig4-0-0.orldflaabv-rtr4.cfl.rr.com (24.95.228.193)  24.250 ms  24.791
+ms  27.754 ms
+ 5  76.228.95.24.cfl.res.rr.com (24.95.228.76)  24.190 ms  36.178 ms  23.636
+ms
+ 6  xe-11-0-0.bar1.Orlando1.Level3.net (4.79.118.41)  24.710 ms  19.505 ms
+xe-11-3-0.bar1.Orlando1.Level3.net (4.79.116.137)  18.320 ms
+ 7  ae-8-8.ebr1.Atlanta2.Level3.net (4.69.137.150)  32.201 ms  32.442 ms
+32.645 ms
+ 8  * ae-28-52.car2.Atlanta4.Level3.net (4.68.103.45)  30.475 ms *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090618/d079cf7a/attachment.html>
+
+From vicidial at gmail.com  Thu Jun 18 11:33:15 2009
+From: vicidial at gmail.com (VICIDIAL)
+Date: Thu, 18 Jun 2009 11:33:15 -0400
+Subject: [outages] Road Runner / Level3 issues?
+In-Reply-To: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+References: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+Message-ID: <49b3d7fa0906180833t23f09a59sd6de2efec1374ea2@mail.gmail.com>
+
+Level3 is having trouble directly routing to Bellsouth. Just confirmed
+this with a client. AT&T and Cogent routing to BellSouth are working
+just fine though.
+
+MATT---
+
+On Thu, Jun 18, 2009 at 11:11 AM, L.T.  Easterly<corqpub at gmail.com> wrote:
+> 1? 192.168.1.1 (192.168.1.1)? 1.679 ms? 2.101 ms? 2.526 ms
+> ?2? 10.104.240.1 (10.104.240.1)? 13.304 ms? 13.315 ms? 13.819 ms
+> ?3? 250.230.95.24.cfl.res.rr.com (24.95.230.250)? 15.974 ms? 16.474 ms
+> 16.464 ms
+> ?4? gig4-0-0.orldflaabv-rtr4.cfl.rr.com (24.95.228.193)? 24.250 ms? 24.791
+> ms? 27.754 ms
+> ?5? 76.228.95.24.cfl.res.rr.com (24.95.228.76)? 24.190 ms? 36.178 ms? 23.636
+> ms
+> ?6? xe-11-0-0.bar1.Orlando1.Level3.net (4.79.118.41)? 24.710 ms? 19.505 ms
+> xe-11-3-0.bar1.Orlando1.Level3.net (4.79.116.137)? 18.320 ms
+> ?7? ae-8-8.ebr1.Atlanta2.Level3.net (4.69.137.150)? 32.201 ms? 32.442 ms
+> 32.645 ms
+> ?8? * ae-28-52.car2.Atlanta4.Level3.net (4.68.103.45)? 30.475 ms *
+> ?9? * * *
+> 10? * * *
+> 11? * * *
+> 12? * * *
+> 13? * * *
+> 14? * * *
+> 15? * * *
+> 16? * * *
+> 17? * * *
+> 18? * * *
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+MATT---
+
+ViciDial Open Source Call Center Suite
+http://www.vicidial.com
+
+From drais at icantclick.org  Thu Jun 18 11:44:17 2009
+From: drais at icantclick.org (david raistrick)
+Date: Thu, 18 Jun 2009 11:44:17 -0400 (EDT)
+Subject: [outages] Road Runner / Level3 issues?
+In-Reply-To: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+References: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+Message-ID: <alpine.BSF.2.00.0906181143100.60070@murf.icantclick.org>
+
+
+Heh.  It's sorted itself out, but I was seeing very similar problems with 
+ebr1/car1 in atlanta (bellsouth dsl in orlando to rr in orlando).
+
+I'd sent my findings to an internal L3 contact though. ;)
+
+
+
+On Thu, 18 Jun 2009, L.T.  Easterly wrote:
+
+> 1? 192.168.1.1 (192.168.1.1)? 1.679 ms? 2.101 ms? 2.526 ms
+> ?2? 10.104.240.1 (10.104.240.1)? 13.304 ms? 13.315 ms? 13.819 ms
+> ?3? 250.230.95.24.cfl.res.rr.com (24.95.230.250)? 15.974 ms? 16.474 ms?
+> 16.464 ms
+> ?4? gig4-0-0.orldflaabv-rtr4.cfl.rr.com (24.95.228.193)? 24.250 ms? 24.791
+> ms? 27.754 ms
+> ?5? 76.228.95.24.cfl.res.rr.com (24.95.228.76)? 24.190 ms? 36.178 ms?
+> 23.636 ms
+> ?6? xe-11-0-0.bar1.Orlando1.Level3.net (4.79.118.41)? 24.710 ms? 19.505 ms
+> xe-11-3-0.bar1.Orlando1.Level3.net (4.79.116.137)? 18.320 ms
+> ?7? ae-8-8.ebr1.Atlanta2.Level3.net (4.69.137.150)? 32.201 ms? 32.442 ms?
+> 32.645 ms
+> ?8? * ae-28-52.car2.Atlanta4.Level3.net (4.68.103.45)? 30.475 ms *
+> ?9? * * *
+> 10? * * *
+> 11? * * *
+> 12? * * *
+> 13? * * *
+> 14? * * *
+> 15? * * *
+> 16? * * *
+> 17? * * *
+> 18? * * *
+> 
+> 
+>
+
+
+
+---
+david raistrick        http://www.netmeister.org/news/learn2quote.html
+drais at icantclick.org             http://www.expita.com/nomime.html
+
+
+From corqpub at gmail.com  Thu Jun 18 11:50:34 2009
+From: corqpub at gmail.com (L.T.  Easterly)
+Date: Thu, 18 Jun 2009 11:50:34 -0400
+Subject: [outages] Road Runner / Level3 issues?
+In-Reply-To: <4cd1e6e30906180849m451272a8kf5718c488e80c518@mail.gmail.com>
+References: <4cd1e6e30906180811t748a71b0vc77d545e712b403e@mail.gmail.com>
+	<alpine.BSF.2.00.0906181143100.60070@murf.icantclick.org>
+	<4cd1e6e30906180849m451272a8kf5718c488e80c518@mail.gmail.com>
+Message-ID: <4cd1e6e30906180850o2bf7e88fp64889ac1f7656012@mail.gmail.com>
+
+Doh - I meant to paste the destination IP in there, apologies.
+
+Boss from a remote office in Houston was seeing our Datacenter in NJ
+"just fine." While Our Florida folks weren't. Seems resolved now.
+
+Thanks for the feedback.
+
+
+>
+> On Thu, Jun 18, 2009 at 11:44 AM, david raistrick <drais at icantclick.org> wrote:
+>>
+>> Heh. ?It's sorted itself out, but I was seeing very similar problems with ebr1/car1 in atlanta (bellsouth dsl in orlando to rr in orlando).
+>>
+>> I'd sent my findings to an internal L3 contact though. ;)
+>>
+>>
+>>
+>> On Thu, 18 Jun 2009, L.T. ?Easterly wrote:
+>>
+>>> 1? 192.168.1.1 (192.168.1.1)? 1.679 ms? 2.101 ms? 2.526 ms
+>>> ?2? 10.104.240.1 (10.104.240.1)? 13.304 ms? 13.315 ms? 13.819 ms
+>>> ?3? 250.230.95.24.cfl.res.rr.com (24.95.230.250)? 15.974 ms? 16.474 ms
+>>> 16.464 ms
+>>> ?4? gig4-0-0.orldflaabv-rtr4.cfl.rr.com (24.95.228.193)? 24.250 ms? 24.791
+>>> ms? 27.754 ms
+>>> ?5? 76.228.95.24.cfl.res.rr.com (24.95.228.76)? 24.190 ms? 36.178 ms
+>>> 23.636 ms
+>>> ?6? xe-11-0-0.bar1.Orlando1.Level3.net (4.79.118.41)? 24.710 ms? 19.505 ms
+>>> xe-11-3-0.bar1.Orlando1.Level3.net (4.79.116.137)? 18.320 ms
+>>> ?7? ae-8-8.ebr1.Atlanta2.Level3.net (4.69.137.150)? 32.201 ms? 32.442 ms
+>>> 32.645 ms
+>>> ?8? * ae-28-52.car2.Atlanta4.Level3.net (4.68.103.45)? 30.475 ms *
+>>> ?9? * * *
+>>> 10? * * *
+>>> 11? * * *
+>>> 12? * * *
+>>> 13? * * *
+>>> 14? * * *
+>>> 15? * * *
+>>> 16? * * *
+>>> 17? * * *
+>>> 18? * * *
+>>>
+>>>
+>>>
+>>
+>>
+>>
+>> ---
+>> david raistrick ? ? ? ?http://www.netmeister.org/news/learn2quote.html
+>> drais at icantclick.org ? ? ? ? ? ? http://www.expita.com/nomime.html
+>>
+>
+
+From clayton at mnsi.net  Thu Jun 18 19:21:14 2009
+From: clayton at mnsi.net (Clayton Zekelman)
+Date: Thu, 18 Jun 2009 19:21:14 -0400
+Subject: [outages] Bell AS577
+Message-ID: <PC1870200906181921140086ff611124@DF9B1081>
+
+
+Anyone seeing any strangeness with Bell Canada - AS577?
+
+A traceroute to www.facebook.com dies in Montreal.
+
+I shut down our BGP session with them, and can reach the site fine through Level3.
+
+From jcartier at acs.on.ca  Fri Jun 19 08:15:48 2009
+From: jcartier at acs.on.ca (Jeff Cartier)
+Date: Fri, 19 Jun 2009 08:15:48 -0400
+Subject: [outages] Bell AS577
+In-Reply-To: <PC1870200906181921140086ff611124@DF9B1081>
+References: <PC1870200906181921140086ff611124@DF9B1081>
+Message-ID: <BCD3E762F1767C42A5226BBACDE49BFBE6009F@loki.acs.local>
+
+Looks fine over here.
+
+Traceroute completes with various hops through Toronto, Vancouver,
+Seattle ect...
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Clayton Zekelman
+Sent: Thursday, June 18, 2009 7:21 PM
+To: outages at outages.org
+Subject: [outages] Bell AS577
+
+
+Anyone seeing any strangeness with Bell Canada - AS577?
+
+A traceroute to www.facebook.com dies in Montreal.
+
+I shut down our BGP session with them, and can reach the site fine
+through Level3.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From dmcdaniel at maximumcomm.com  Fri Jun 19 09:56:54 2009
+From: dmcdaniel at maximumcomm.com (Derek McDaniel)
+Date: Fri, 19 Jun 2009 09:56:54 -0400
+Subject: [outages]  Sprint
+In-Reply-To: <BCD3E762F1767C42A5226BBACDE49BFBE6009F@loki.acs.local>
+Message-ID: <NEBBIMNOAKPPPHLJMLDNIEMHAKAC.dmcdaniel@maximumcomm.com>
+
+Anyone having any data issues with Sprint? I'm seeing issues with Email and
+IM services. Anyone else experiencing this?
+
+Thanks,
+
+Derek McDaniel
+Systems Support
+MAXIMUM Communications, Inc.
+dmcdaniel at maximumcomm.com
+800-589-6299 ext 111
+
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On
+Behalf Of Jeff Cartier
+Sent: Friday, June 19, 2009 8:16 AM
+To: clayton at mnsi.net; outages at outages.org
+Subject: Re: [outages] Bell AS577
+
+
+Looks fine over here.
+
+Traceroute completes with various hops through Toronto, Vancouver,
+Seattle ect...
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Clayton Zekelman
+Sent: Thursday, June 18, 2009 7:21 PM
+To: outages at outages.org
+Subject: [outages] Bell AS577
+
+
+Anyone seeing any strangeness with Bell Canada - AS577?
+
+A traceroute to www.facebook.com dies in Montreal.
+
+I shut down our BGP session with them, and can reach the site fine
+through Level3.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+__________ NOD32 4170 (20090619) Information __________
+
+This message was checked by NOD32 antivirus system.
+http://www.eset.com
+
+
+
+From dparsons at nyip.net  Fri Jun 19 01:22:47 2009
+From: dparsons at nyip.net (Dan Parsons)
+Date: Thu, 18 Jun 2009 22:22:47 -0700
+Subject: [outages] Bell AS577
+In-Reply-To: <PC1870200906181921140086ff611124@DF9B1081>
+References: <PC1870200906181921140086ff611124@DF9B1081>
+Message-ID: <7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>
+
+I am currently in Montreal, on a Videotron DSL connection. I can access
+facebook with no problems, however the trace dies very early (traces to
+other hosts work fine):
+traceroute to www.facebook.com (69.63.186.12), 64 hops max, 40 byte packets
+ 1  10.0.1.1 (10.0.1.1)  1.910 ms  1.111 ms  1.011 ms
+ 2  10.0.1.1 (10.0.1.1)  7.822 ms  7.705 ms  5.977 ms
+ 3  24.200.225.153 (24.200.225.153)  6.376 ms  7.830 ms  5.766 ms
+ 4  ia-bebn-bb04-ge11-0-0.vtl.net (216.113.122.41)  5.908 ms  5.875 ms
+ 8.639 ms
+ 5  ia-bebn-bb04-ge14-0-0-cpe098.vtl.net (216.113.122.98)  22.461 ms  19.738
+ms  19.689 ms
+ 6  * * *
+ 7  * * *
+ 8  * * *
+
+
+Dan
+
+
+On Thu, Jun 18, 2009 at 4:21 PM, Clayton Zekelman <clayton at mnsi.net> wrote:
+
+>
+> Anyone seeing any strangeness with Bell Canada - AS577?
+>
+> A traceroute to www.facebook.com dies in Montreal.
+>
+> I shut down our BGP session with them, and can reach the site fine through
+> Level3.
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090618/f95f8b54/attachment.html>
+
+From sethm at rollernet.us  Fri Jun 19 11:21:40 2009
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Fri, 19 Jun 2009 08:21:40 -0700
+Subject: [outages] Sprint
+In-Reply-To: <NEBBIMNOAKPPPHLJMLDNIEMHAKAC.dmcdaniel@maximumcomm.com>
+References: <NEBBIMNOAKPPPHLJMLDNIEMHAKAC.dmcdaniel@maximumcomm.com>
+Message-ID: <4A3BAD04.2010206@rollernet.us>
+
+Derek McDaniel wrote:
+> Anyone having any data issues with Sprint? I'm seeing issues with Email and
+> IM services. Anyone else experiencing this?
+> 
+
+Sprint the cell phone? Sprintlink? What IM services? What email? Where?
+
+No problems with my Sprintlink circuits.
+
+~Seth
+
+From dmcdaniel at maximumcomm.com  Fri Jun 19 11:47:24 2009
+From: dmcdaniel at maximumcomm.com (Derek McDaniel)
+Date: Fri, 19 Jun 2009 11:47:24 -0400
+Subject: [outages] Sprint
+In-Reply-To: <4A3BAD04.2010206@rollernet.us>
+Message-ID: <NEBBIMNOAKPPPHLJMLDNGEMLAKAC.dmcdaniel@maximumcomm.com>
+
+Sprint Cell phone, sorry about that.
+
+Derek McDaniel
+Systems Support
+MAXIMUM Communications, Inc.
+dmcdaniel at maximumcomm.com
+800-589-6299 ext 111
+
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On
+Behalf Of Seth Mattinen
+Sent: Friday, June 19, 2009 11:22 AM
+To: outages at outages.org
+Subject: Re: [outages] Sprint
+
+
+Derek McDaniel wrote:
+> Anyone having any data issues with Sprint? I'm seeing issues with Email
+and
+> IM services. Anyone else experiencing this?
+>
+
+Sprint the cell phone? Sprintlink? What IM services? What email? Where?
+
+No problems with my Sprintlink circuits.
+
+~Seth
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+__________ NOD32 4171 (20090619) Information __________
+
+This message was checked by NOD32 antivirus system.
+http://www.eset.com
+
+
+
+From dmcdaniel at maximumcomm.com  Fri Jun 19 13:50:12 2009
+From: dmcdaniel at maximumcomm.com (Derek McDaniel)
+Date: Fri, 19 Jun 2009 13:50:12 -0400
+Subject: [outages] Sprint
+In-Reply-To: <4A3BCB9E.5060304@chrisserafin.com>
+Message-ID: <NEBBIMNOAKPPPHLJMLDNEENEAKAC.dmcdaniel@maximumcomm.com>
+
+Thanks Chris,
+
+Everything *seems* to be back to normal now. Everything is being pushed to
+my phone again like normal.
+
+Thanks,
+
+Derek McDaniel
+Systems Support
+MAXIMUM Communications, Inc.
+dmcdaniel at maximumcomm.com
+800-589-6299 ext 111
+
+
+
+
+
+-----Original Message-----
+From: ChrisSerafin [mailto:chris at chrisserafin.com]
+Sent: Friday, June 19, 2009 1:32 PM
+To: Derek McDaniel
+Cc: Seth Mattinen; outages at outages.org
+Subject: Re: [outages] Sprint
+
+
+Derek McDaniel wrote:
+> Sprint Cell phone, sorry about that.
+>
+> Derek McDaniel
+> Systems Support
+> MAXIMUM Communications, Inc.
+> dmcdaniel at maximumcomm.com
+> 800-589-6299 ext 111
+>
+>
+>
+>
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On
+> Behalf Of Seth Mattinen
+> Sent: Friday, June 19, 2009 11:22 AM
+> To: outages at outages.org
+> Subject: Re: [outages] Sprint
+>
+>
+> Derek McDaniel wrote:
+>
+>> Anyone having any data issues with Sprint? I'm seeing issues with Email
+>>
+> and
+>
+>> IM services. Anyone else experiencing this?
+>>
+>>
+>
+> Sprint the cell phone? Sprintlink? What IM services? What email? Where?
+>
+> No problems with my Sprintlink circuits.
+>
+> ~Seth
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> __________ NOD32 4171 (20090619) Information __________
+>
+> This message was checked by NOD32 antivirus system.
+> http://www.eset.com
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> ------------------------------------------------------------------------
+>
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com
+> Version: 8.5.339 / Virus Database: 270.12.80/2187 - Release Date: 06/19/09
+06:53:00
+>
+>
+We have seen TXT messages being delayed 20 min at times this last
+week...which we rely on for up/down messages.....Sprint goes through
+periods of this st!t all the time and we never get a response as to why...
+
+--chris
+
+
+__________ NOD32 4172 (20090619) Information __________
+
+This message was checked by NOD32 antivirus system.
+http://www.eset.com
+
+
+
+From chris at chrisserafin.com  Fri Jun 19 13:32:14 2009
+From: chris at chrisserafin.com (ChrisSerafin)
+Date: Fri, 19 Jun 2009 12:32:14 -0500
+Subject: [outages] Sprint
+In-Reply-To: <NEBBIMNOAKPPPHLJMLDNGEMLAKAC.dmcdaniel@maximumcomm.com>
+References: <NEBBIMNOAKPPPHLJMLDNGEMLAKAC.dmcdaniel@maximumcomm.com>
+Message-ID: <4A3BCB9E.5060304@chrisserafin.com>
+
+Derek McDaniel wrote:
+> Sprint Cell phone, sorry about that.
+>
+> Derek McDaniel
+> Systems Support
+> MAXIMUM Communications, Inc.
+> dmcdaniel at maximumcomm.com
+> 800-589-6299 ext 111
+>
+>
+>
+>
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On
+> Behalf Of Seth Mattinen
+> Sent: Friday, June 19, 2009 11:22 AM
+> To: outages at outages.org
+> Subject: Re: [outages] Sprint
+>
+>
+> Derek McDaniel wrote:
+>   
+>> Anyone having any data issues with Sprint? I'm seeing issues with Email
+>>     
+> and
+>   
+>> IM services. Anyone else experiencing this?
+>>
+>>     
+>
+> Sprint the cell phone? Sprintlink? What IM services? What email? Where?
+>
+> No problems with my Sprintlink circuits.
+>
+> ~Seth
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> __________ NOD32 4171 (20090619) Information __________
+>
+> This message was checked by NOD32 antivirus system.
+> http://www.eset.com
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> ------------------------------------------------------------------------
+>
+>
+> No virus found in this incoming message.
+> Checked by AVG - www.avg.com 
+> Version: 8.5.339 / Virus Database: 270.12.80/2187 - Release Date: 06/19/09 06:53:00
+>
+>   
+We have seen TXT messages being delayed 20 min at times this last 
+week...which we rely on for up/down messages.....Sprint goes through 
+periods of this st!t all the time and we never get a response as to why...
+
+--chris
+
+
+From robin.pimentel at gmail.com  Fri Jun 19 15:29:02 2009
+From: robin.pimentel at gmail.com (Robin Pimentel)
+Date: Fri, 19 Jun 2009 12:29:02 -0700
+Subject: [outages] Bell AS577
+In-Reply-To: <7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>
+References: <PC1870200906181921140086ff611124@DF9B1081>
+	<7354d3830906182222y79ff20c0ve615bf0233e247cb@mail.gmail.com>
+Message-ID: <d1e82cf30906191229s878047ahf6a9b68df3a49fa5@mail.gmail.com>
+
+  We drained AS32934<->AS577 peering at ~9:30 PM PDT last night.
+ This resolved all of the reported Facebook issues at the time.  As of 8:30
+this morning, the problematic AS577 node appears to be normalized and
+traffic is back on it with no problems.
+Thanks,
+Robin.
+
+On Thu, Jun 18, 2009 at 10:22 PM, Dan Parsons <dparsons at nyip.net> wrote:
+
+> I am currently in Montreal, on a Videotron DSL connection. I can access
+> facebook with no problems, however the trace dies very early (traces to
+> other hosts work fine):
+> traceroute to www.facebook.com (69.63.186.12), 64 hops max, 40 byte
+> packets
+>  1  10.0.1.1 (10.0.1.1)  1.910 ms  1.111 ms  1.011 ms
+>  2  10.0.1.1 (10.0.1.1)  7.822 ms  7.705 ms  5.977 ms
+>  3  24.200.225.153 (24.200.225.153)  6.376 ms  7.830 ms  5.766 ms
+>  4  ia-bebn-bb04-ge11-0-0.vtl.net (216.113.122.41)  5.908 ms  5.875 ms
+>  8.639 ms
+>  5  ia-bebn-bb04-ge14-0-0-cpe098.vtl.net (216.113.122.98)  22.461 ms
+>  19.738 ms  19.689 ms
+>  6  * * *
+>  7  * * *
+>  8  * * *
+>
+>
+> Dan
+>
+>
+> On Thu, Jun 18, 2009 at 4:21 PM, Clayton Zekelman <clayton at mnsi.net>wrote:
+>
+>>
+>> Anyone seeing any strangeness with Bell Canada - AS577?
+>>
+>> A traceroute to www.facebook.com dies in Montreal.
+>>
+>> I shut down our BGP session with them, and can reach the site fine through
+>> Level3.
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090619/8d00ac07/attachment.html>
+
+From virendra.rode at gmail.com  Fri Jun 26 16:35:41 2009
+From: virendra.rode at gmail.com (Virendra.rode)
+Date: Fri, 26 Jun 2009 21:35:41 +0100
+Subject: [outages] Fwd: [Outages-discussion] Anyone see something happening
+	on XO?
+References: <4A452D82.7030500@u13.net>
+Message-ID: <D2917FA5-548B-4013-8DCA-9266329E0160@gmail.com>
+
+sorry for the duplication....forwarding to outages at outages.org,  
+outages-discussion is for post outages related discussion.
+
+regards,
+/virendra
+
+
+
+Begin forwarded message:
+
+> From: Ryan Rawdon <ryan at u13.net>
+> Date: June 26, 2009 9:20:18 PM BST
+> Cc: outages-discussion at outages.org
+> Subject: Re: [Outages-discussion] Anyone see something happening on  
+> XO?
+>
+
+> From my Road Runner connection in Albany, NY I lost all contact with  
+> my colo machines in an XO facility at 140 S. Dearborn in Chicago.   
+> From the colo in Chicago I still had connectivity to a HE facility  
+> in Freemont and various other places.  The outage lasted around 15  
+> minutes, the exact same time frame that others have mentioned here.
+>
+> My latencies along certain paths are still higher than before this  
+> event, so I think a different path may be in use for some traffic  
+> right now.
+>
+> On 6/26/09 3:03 PM, Jon Auer wrote:
+>> We saw traffic disruption in XO around 1 PM Central time.
+>> Traffic from Chicago to Denver now appears to be going through New  
+>> York and back to Chicago. It took about 15 minutes for things to  
+>> sort out from our perspective.
+>>
+>> 6. tge1-3-0.chcgill3-rtr1.kc.rr.com
+>> 7. ae-5-0.cr0.chi30.tbone.rr.com
+>> 8. ae-1-0.pr0.chi10.tbone.rr.com
+>> 9. 216.156.72.5.ptr.us.xo.net
+>> 10. 207.88.13.10.ptr.us.xo.net
+>> 11. ge7-0-0d0.rar1.nyc-ny.us.xo.net
+>> 12. p6-0-0.rar2.chicago-il.us.xo.net
+>> 13. p0-0-0d0.RAR1.Chicago-IL.us.xo.net
+>> 14. p6-0-0.RAR2.Denver-CO.us.xo.net
+>> 15. p0-0-0d0.mar2.englewood-co.us.xo.net
+>> 16. 207.88.83.78.ptr.us.xo.net
+>>
+>> Matt Baldwin wrote:
+>>> Looks like issues between Level3 and XO for San Jose.
+>>>
+>>> -matt
+>>>
+>>> On Fri, Jun 26, 2009 at 11:06 AM, Tim  
+>>> Huffman<Tim at bobbroadband.com> wrote:
+>>>> Lost connectivity to many sites through them, like www.internetpulse.net 
+>>>> ,
+>>>> and Facebook, but not Google.
+>>>>
+>>>>
+>>>>
+>>>> Tim Huffman
+>>>>
+>>>> Director of Engineering
+>>>>
+>>>> Business Only Broadband, LLC
+>>>>
+>>>> O (630) 590-6012
+>>>>
+>>>> C (630) 340-1925
+>>>>
+>>>> tim at bobbroadband.com
+>>>>
+>>>> www.bobbroadband.com
+>>>>
+>>>>
+>>>>
+>>>> _______________________________________________
+>>>> Outages-discussion mailing list
+>>>> Outages-discussion at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages-discussion
+>> _______________________________________________
+>> Outages-discussion mailing list
+>> Outages-discussion at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages-discussion
+>
+> _______________________________________________
+> Outages-discussion mailing list
+> Outages-discussion at outages.org
+> https://puck.nether.net/mailman/listinfo/outages-discussion
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090626/9c3f42c3/attachment.html>
+

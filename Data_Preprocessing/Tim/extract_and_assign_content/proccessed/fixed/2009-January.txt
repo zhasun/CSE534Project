@@ -1,0 +1,805 @@
+From daler at ibbs.com  Fri Jan  2 17:21:59 2009
+From: daler at ibbs.com (Dale Rumph)
+Date: Fri, 2 Jan 2009 17:21:59 -0500
+Subject: [outages] Savvis Outage?
+Message-ID: <688C02E4787000408CC32EF37BA15D5D071D8495B2@ibknexch01.ibbsonline.local>
+
+We are currently seeing a large peering outage between Savvis in ATL and COX Communications. Anyone else seeing the same?
+
+
+
+
+-          Dale
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090102/2d5f96df/attachment.html>
+
+From jfuller at square-enix.com  Mon Jan  5 19:01:18 2009
+From: jfuller at square-enix.com (Jesse Fuller)
+Date: Mon, 5 Jan 2009 16:01:18 -0800
+Subject: [outages] Comcast Issues on Eastern Seaboard
+Message-ID: <FD3E367A90F059489821EFD5A402F7640455ECBEB4@Mercury.na.co.square-enix.com>
+
+Hello,
+
+We have been getting a large number of calls from Comcast customers out of Maryland, New Jersey, Pennsylvania, New Hampshire, Virginia, Florida, etc., with connection issues to our servers in Japan. Got off the phone with Comcast NOC in Denver and they were not yet aware of any issues. Anyone heard of any issues on the Eastern Seaboard with Comcast starting at around 1/5/2009 @ 11:30 PST and continuing until the present?
+
+Thanks,
+Jesse Fuller
+Square Enix, Inc. Operations Support
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090105/73272b43/attachment.html>
+
+From outages at jdc.parodius.com  Tue Jan  6 16:04:29 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Tue, 6 Jan 2009 13:04:29 -0800
+Subject: [outages] Comcast Issues on Eastern Seaboard
+In-Reply-To: <FD3E367A90F059489821EFD5A402F7640455ECBEB4@Mercury.na.co.square-enix.com>
+References: <FD3E367A90F059489821EFD5A402F7640455ECBEB4@Mercury.na.co.square-enix.com>
+Message-ID: <20090106210429.GA86270@icarus.home.lan>
+
+On Mon, Jan 05, 2009 at 04:01:18PM -0800, Jesse Fuller wrote:
+> We have been getting a large number of calls from Comcast customers
+> out of Maryland, New Jersey, Pennsylvania, New Hampshire, Virginia,
+> Florida, etc., with connection issues to our servers in Japan. Got off
+> the phone with Comcast NOC in Denver and they were not yet aware of
+> any issues. Anyone heard of any issues on the Eastern Seaboard with
+> Comcast starting at around 1/5/2009 @ 11:30 PST and continuing until
+> the present?
+
+No, but Comcast in the past 90 days has been working to remove a part of
+their throttling infrastructure and implement rate-limiting if users go
+over a certain percentage of their bandwidth for X number of minutes.
+That got deployed yesterday (2009/01/04):
+
+http://www.dslreports.com/shownews/New-Comcast-Throttling-System-100-Online-100015
+
+It's possible that some piece of that infrastructure on the east coast
+is broken.  This is not fact, but speculation on my part, given the
+timing of things.
+
+A good forum to skim over would be DSLR's forum.  If there's an outage,
+people there will usually complain within minutes:
+
+http://www.dslreports.com/forum/comcast
+
+For what it's worth, I play FFXI and live in California, and I've been
+seeing problems even using POL for a few weeks now, where content in POL
+won't load due to server network timeouts (it's very intermittent, but
+it does happen).  It usually happens late at night, which I believe is
+peak time in Japan.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+
+From phil at pdyer.net  Fri Jan  9 09:38:13 2009
+From: phil at pdyer.net (Phil Dyer)
+Date: Fri, 09 Jan 2009 09:38:13 -0500
+Subject: [outages] Interoute issues in Europe?
+Message-ID: <49676155.1020309@pdyer.net>
+
+Does anybody have any information on this? We're seeing lots of packet
+loss between UK and Holland. It started on Monday. The  ISP for our
+Holland satellite office help desk gave us the tip on Interoute.
+
+phil
+
+From phil at pdyer.net  Sat Jan 10 08:35:20 2009
+From: phil at pdyer.net (Phil Dyer)
+Date: Sat, 10 Jan 2009 08:35:20 -0500
+Subject: [outages] Interoute issues in Europe?
+In-Reply-To: <49676155.1020309@pdyer.net>
+References: <49676155.1020309@pdyer.net>
+Message-ID: <4968A418.9090403@pdyer.net>
+
+On 1/9/09 9:38 AM, Phil Dyer wrote:
+> Does anybody have any information on this? We're seeing lots of packet
+> loss between UK and Holland. It started on Monday. The  ISP for our
+> Holland satellite office help desk gave us the tip on Interoute.
+> 
+Solved. Was not a problem with Interoute at all. Our ISP in Amsterdam
+had faulty hardware. Thanks to Mike at Interoute for helping them figure
+that out. ;)
+
+They plan on replacing the hardware during maint window tonight.
+
+phil
+
+From corqpub at gmail.com  Fri Jan 16 11:33:59 2009
+From: corqpub at gmail.com (L.T. Easterly)
+Date: Fri, 16 Jan 2009 11:33:59 -0500
+Subject: [outages] Orlando TWC outage?
+Message-ID: <4cd1e6e30901160833r3ac6502fud66519ecde44fd72@mail.gmail.com>
+
+Awaiting a phone call back from our Time Warner rep - our office in Lake
+Mary experience one 4-5 minute downtime, followed five minutes later buy a
+2-3 minute interruption, roughly around 10:30am.
+
+Anyone having issues regional to the Lake Mary/Sanford area, or on business
+class Time Warner connections?
+
+Thanks
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090116/52d1b345/attachment.html>
+
+From outages at jdc.parodius.com  Fri Jan 16 14:53:52 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Fri, 16 Jan 2009 11:53:52 -0800
+Subject: [outages] TeliaSonera EU latency (Paris-centric?)
+Message-ID: <20090116195352.GA33092@icarus.home.lan>
+
+Apologies for the vague inquiry, but is anyone aware of problems within
+the European portion of TeliaSonera's network?  Issue would have started
+roughly 4-5 hours ago.
+
+The overall experience is TCP packets destined to the below IP
+experience RTTs ranging between 600 and 4500ms.
+
+mtrs aren't of much help since ACLs block ICMP from reaching their
+destination (80.239.149.29), but based on the last 3 hops, I'm under the
+impression the routers in Paris are incredibly busy (inducing ICMP
+de-prio), or some other issue happening.
+
+Using http://looking-glass.telia.net/ also shows similar results, though
+it takes a couple tries due to the nature of the problem.
+
+ Host                                 Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+ 5. pos-0-4-0-0-cr01.sanjose.ca.ibone  0.0%   172   172  11.6  13.8  11.1  26.0
+ 6. xe-10-0-0.edge1.SanJose1.Level3.n  0.0%   172   172  12.3  18.7  10.4 110.4
+ 7. vlan99.csw4.SanJose1.Level3.net    0.0%   172   172  18.6  18.3  11.3  40.9
+ 8. ae-93-93.ebr3.SanJose1.Level3.net  0.0%   172   172  15.5  17.9  11.2  41.5
+ 9. ae-2.ebr3.LosAngeles1.Level3.net   0.0%   172   172  23.2  28.1  20.6  51.7
+10. ae-73-73.csw2.LosAngeles1.Level3.  0.0%   172   172  22.1  27.2  20.7  35.7
+11. ae-2-79.edge1.LosAngeles9.Level3.  0.0%   172   172  21.8  27.8  20.6 138.8
+12. telia-level3-ge.LosAngeles9.level  0.0%   172   172  21.4  26.2  20.4 121.4
+13. ash-bb1-link.telia.net             0.0%   172   172  88.0  86.9  83.9  98.3
+14. prs-bb2-link.telia.net            13.4%   172   149 192.0 190.5 186.4 208.4
+    prs-bb2-link.telia.net
+15. ffm-bb2-link.telia.net            15.1%   172   146 198.9 201.5 196.2 303.3
+    ffm-bb2-link.telia.net
+16. ffm-b5-link.telia.net             14.5%   172   147 206.0 204.5 196.7 397.0
+17. ???
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+
+From jra at baylink.com  Tue Jan 20 10:39:39 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Tue, 20 Jan 2009 10:39:39 -0500 (EST)
+Subject: [outages] Special Outages.org wiki page
+Message-ID: <13966641.645201232465979456.JavaMail.root@benjamin.vicimarketing.com>
+
+for problems apparently related to today's Inauguration streaming traffic:
+
+http://www.outages.org/index.php/2009_US_Presidential_Inauguration_outages
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+             Those who cast the vote decide nothing.
+             Those who count the vote decide everything.
+               -- (Josef Stalin)
+
+
+From virendra.rode at gmail.com  Tue Jan 20 12:56:11 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Tue, 20 Jan 2009 09:56:11 -0800
+Subject: [outages] Special Outages.org wiki page
+In-Reply-To: <13966641.645201232465979456.JavaMail.root@benjamin.vicimarketing.com>
+References: <13966641.645201232465979456.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <4976103B.7050300@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Jay R. Ashworth wrote:
+> for problems apparently related to today's Inauguration streaming traffic:
+> 
+> http://www.outages.org/index.php/2009_US_Presidential_Inauguration_outages
+> 
+- -------------------------
+This page has been updated w/ Akamai?s Net Usage Index....
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJdhA7pbZvCIJx1bcRAlZaAKC7ZPrUWzDc00tQcnpQJK3X87UxqwCgj/nC
+PxWNnsq3gbyN7GniGAExTis=
+=EqFi
+-----END PGP SIGNATURE-----
+
+From jra at baylink.com  Thu Jan 22 13:33:19 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 22 Jan 2009 13:33:19 -0500 (EST)
+Subject: [outages] Qwest LD problems?
+Message-ID: <29700985.666841232649199681.JavaMail.root@benjamin.vicimarketing.com>
+
+We're getting a male-voice intercept on some outbound calls via Airespring/
+Qwest today, saying "No Routes Found", and then hanging up.
+
+Anyone know if Qwest is having troubles this afternoon?
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+             Those who cast the vote decide nothing.
+             Those who count the vote decide everything.
+               -- (Josef Stalin)
+
+
+From virendra.rode at gmail.com  Fri Jan 23 15:36:41 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Fri, 23 Jan 2009 12:36:41 -0800
+Subject: [outages] packet8 - voip service interruption.
+Message-ID: <497A2A59.4080200@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+1/23/2009 10:30am PST:
+
+At 7 pm (Pacific) last night (January 22, 2008) we began working with
+Register.com to investigate a possible DNS registry issue with
+www.packet8.net. This issue has resulted in customers not being able to
+reach the packet8.net website, and also experience failures in their
+telephone service. Our telephones and DTA?s have several hard coded
+fail-over processes built into them, but the DNS issues we experienced
+at several ISPs prevented these back mechanisms from functioning correctly.
+
+Most Internet Service Providers updated to the correct DNS routing
+within minutes of the initial issue. However, we have reports that ATT,
+ATT-Mobile and Time Warner Roadrunner on the East coast have not updated
+DNS servers with the correct information.
+
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJeipZpbZvCIJx1bcRAjs6AKCQF5SYuwou7AL1HPNgKDlFVW0RnwCg3fgX
+Rnb3otPpwIQAWZQervqJUik=
+=UFDd
+-----END PGP SIGNATURE-----
+
+From kurtv at mmc-net.com  Fri Jan 23 15:41:54 2009
+From: kurtv at mmc-net.com (Kurt VanderScheer)
+Date: Fri, 23 Jan 2009 15:41:54 -0500
+Subject: [outages] Trouble with Network Solutions DNS Servers
+Message-ID: <27769AEF5A69D411A8E60090274457CF06C14E2B@mail1.mmc-net.com>
+
+Network Solutions is reporting ongoing problems since yesterday with some of
+their DNS servers.
+http://forums.networksolutions.com/announcements-f4-dns-issues-possible-impa
+ct-to-your-ecommerce-site-t3433.html
+<http://forums.networksolutions.com/announcements-f4-dns-issues-possible-imp
+act-to-your-ecommerce-site-t3433.html> 
+ 
+-- 
+Kurt VanderScheer 
+V.P. of Engineering 
+Michigan Message Center 
+800-873-0625 
+www.mmc-net.com 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090123/6ba7457d/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Kurt VanderScheer (Kurt VanderScheer).vcf
+Type: application/octet-stream
+Size: 460 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090123/6ba7457d/attachment.obj>
+
+From woody at pch.net  Fri Jan 23 16:03:44 2009
+From: woody at pch.net (Bill Woodcock)
+Date: Fri, 23 Jan 2009 13:03:44 -0800 (PST)
+Subject: [outages] Trouble with Network Solutions DNS Servers
+In-Reply-To: <27769AEF5A69D411A8E60090274457CF06C14E2B@mail1.mmc-net.com>
+References: <27769AEF5A69D411A8E60090274457CF06C14E2B@mail1.mmc-net.com>
+Message-ID: <Pine.SOC.4.61.0901231259230.8390@paixhost.pch.net>
+
+      On Fri, 23 Jan 2009, Kurt VanderScheer wrote:
+    > Network Solutions is reporting ongoing problems since yesterday with some of
+    > their DNS servers.
+    > http://forums.networksolutions.com/announcements-f4-dns-issues-possible-impa
+    > ct-to-your-ecommerce-site-t3433.html
+    > <http://forums.networksolutions.com/announcements-f4-dns-issues-possible-imp
+    > act-to-your-ecommerce-site-t3433.html> 
+
+This is the result of a large-scale UDP/53 DDoS.  My (unofficial) 
+understanding is that they're being flooded with properly-formed DNS 
+queries, indistinguishable from real traffic, which makes it very 
+difficult to discern DDoS sources, since there's no reason to think that 
+source addresses aren't forged.
+
+                                -Bill
+
+
+From brandon.galbraith at gmail.com  Wed Jan 28 15:12:26 2009
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Wed, 28 Jan 2009 14:12:26 -0600
+Subject: [outages] Cogent - Chicago Backbone Packet Loss/Intermittent Connectivity
+Message-ID: <366100670901281212h632a8106x939276cfa9d30a70@mail.gmail.com>
+
+Cogent is currently experiencing problems on their backbone in Chicago,
+manifesting as packet loss and latency. The master ticket # is 853582.
+
+-brandon
+
+-- 
+Brandon Galbraith
+Voice: 630.400.6992
+Email: brandon.galbraith at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090128/90f92fde/attachment.html>
+
+From crogers at marchex.com  Wed Jan 28 15:12:08 2009
+From: crogers at marchex.com (Christopher Rogers)
+Date: Wed, 28 Jan 2009 12:12:08 -0800
+Subject: [outages] radb down?
+Message-ID: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+
+I am unable to get name resolution for anything within the radb.net
+domain from 206.191.173.0/24 in seattle, and dns[1-3].merit.net appear
+to be unreachable...
+
+Is anyone experiencing anything similiar?
+
+Thanks
+Chris
+
+
+Christopher Rogers - Network Engineer
+Marchex, Inc. - www.marchex.com
+w:+1.206.331.3368 m:+1.206.234.1423
+
+From cmadams at hiwaay.net  Wed Jan 28 16:04:47 2009
+From: cmadams at hiwaay.net (Chris Adams)
+Date: Wed, 28 Jan 2009 15:04:47 -0600
+Subject: [outages] radb down?
+In-Reply-To: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+References: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+Message-ID: <20090128210447.GH1054494@hiwaay.net>
+
+Once upon a time, Christopher Rogers <crogers at marchex.com> said:
+> I am unable to get name resolution for anything within the radb.net
+> domain from 206.191.173.0/24 in seattle, and dns[1-3].merit.net appear
+> to be unreachable...
+> 
+> Is anyone experiencing anything similiar?
+
+WFM:
+
+$ dig +trace whois.radb.net a
+
+; <<>> DiG 9.5.1b2 <<>> +trace whois.radb.net a
+;; global options:  printcmd
+.			444548	IN	NS	k.root-servers.net.
+.			444548	IN	NS	e.root-servers.net.
+.			444548	IN	NS	f.root-servers.net.
+.			444548	IN	NS	a.root-servers.net.
+.			444548	IN	NS	g.root-servers.net.
+.			444548	IN	NS	j.root-servers.net.
+.			444548	IN	NS	l.root-servers.net.
+.			444548	IN	NS	b.root-servers.net.
+.			444548	IN	NS	d.root-servers.net.
+.			444548	IN	NS	c.root-servers.net.
+.			444548	IN	NS	h.root-servers.net.
+.			444548	IN	NS	i.root-servers.net.
+.			444548	IN	NS	m.root-servers.net.
+;; Received 432 bytes from 216.180.54.2#53(216.180.54.2) in 2 ms
+
+net.			172800	IN	NS	a.gtld-servers.net.
+net.			172800	IN	NS	b.gtld-servers.net.
+net.			172800	IN	NS	c.gtld-servers.net.
+net.			172800	IN	NS	d.gtld-servers.net.
+net.			172800	IN	NS	e.gtld-servers.net.
+net.			172800	IN	NS	f.gtld-servers.net.
+net.			172800	IN	NS	g.gtld-servers.net.
+net.			172800	IN	NS	h.gtld-servers.net.
+net.			172800	IN	NS	i.gtld-servers.net.
+net.			172800	IN	NS	j.gtld-servers.net.
+net.			172800	IN	NS	k.gtld-servers.net.
+net.			172800	IN	NS	l.gtld-servers.net.
+net.			172800	IN	NS	m.gtld-servers.net.
+;; Received 489 bytes from 193.0.14.129#53(k.root-servers.net) in 195 ms
+
+radb.net.		172800	IN	NS	dns1.merit.net.
+radb.net.		172800	IN	NS	dns2.merit.net.
+radb.net.		172800	IN	NS	dns3.merit.net.
+;; Received 143 bytes from 192.52.178.30#53(k.gtld-servers.net) in 125 ms
+
+whois.radb.net.		1800	IN	A	198.108.0.18
+radb.net.		14400	IN	NS	dns3.merit.net.
+radb.net.		14400	IN	NS	dns1.merit.net.
+radb.net.		14400	IN	NS	dns2.merit.net.
+;; Received 159 bytes from 198.108.1.43#53(dns1.merit.net) in 61 ms
+
+$ 
+
+-- 
+Chris Adams <cmadams at hiwaay.net>
+Systems and Network Administrator - HiWAAY Internet Services
+I don't speak for anybody but myself - that's enough trouble.
+
+From dave at stayonline.com  Wed Jan 28 16:06:45 2009
+From: dave at stayonline.com (Dave Larter)
+Date: Wed, 28 Jan 2009 16:06:45 -0500
+Subject: [outages] radb down?
+In-Reply-To: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+References: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+Message-ID: <8B79B73777E7D544A24BEB8FC50D35DB43458B@MERCURY.socrdu.com>
+
+Both merit.net and radb.net unreachable from RTP,NC on TWTelecom.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Christopher Rogers
+Sent: Wednesday, January 28, 2009 3:12 PM
+To: outages at outages.org
+
+I am unable to get name resolution for anything within the radb.net
+domain from 206.191.173.0/24 in seattle, and dns[1-3].merit.net appear
+to be unreachable...
+
+Is anyone experiencing anything similiar?
+
+Thanks
+Chris
+
+
+Christopher Rogers - Network Engineer
+Marchex, Inc. - www.marchex.com
+w:+1.206.331.3368 m:+1.206.234.1423
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From crogers at marchex.com  Wed Jan 28 17:02:26 2009
+From: crogers at marchex.com (Christopher Rogers)
+Date: Wed, 28 Jan 2009 14:02:26 -0800
+Subject: [outages] radb down?
+In-Reply-To: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+References: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDC@exchbe1sea.windows.marchex.com>
+Message-ID: <9B4191CF8F73B04BB4F437E1F7F86ED50A24BCDD@exchbe1sea.windows.marchex.com>
+
+Appears working now...
+
+name servers were previously unreachable, then began returning nxdomain
+for radb.net, and now appear functional.
+
+thanks to all who replied.
+Chris
+ 
+
+> -----Original Message-----
+> From: outages-bounces at outages.org 
+> [mailto:outages-bounces at outages.org] On Behalf Of Christopher Rogers
+> Sent: Wednesday, January 28, 2009 12:12 PM
+> To: outages at outages.org
+> Subject: [outages] radb down?
+> 
+> 
+> I am unable to get name resolution for anything within the radb.net
+> domain from 206.191.173.0/24 in seattle, and dns[1-3].merit.net appear
+> to be unreachable...
+> 
+> Is anyone experiencing anything similiar?
+> 
+> Thanks
+> Chris
+> 
+> 
+> Christopher Rogers - Network Engineer
+> Marchex, Inc. - www.marchex.com
+> w:+1.206.331.3368 m:+1.206.234.1423
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+
+From dhyde at hostmysite.com  Thu Jan 29 14:08:38 2009
+From: dhyde at hostmysite.com (Darrell Hyde)
+Date: Thu, 29 Jan 2009 14:08:38 -0500
+Subject: [outages] RR Florida / Bell South issues?
+Message-ID: <1233256118.25740.10.camel@kenobi.hostmysite.net>
+
+Getting reports from customers in Florida mostly on RR, some on Bell
+South that they're unable to reach our network (AS 20021). Traceroutes
+we've received so far don't show any particular problem. Anybody
+experiencing anything similar?
+
+- Darrell
+
+From virendra.rode at gmail.com  Thu Jan 29 22:03:52 2009
+From: virendra.rode at gmail.com (virendra rode)
+Date: Thu, 29 Jan 2009 19:03:52 -0800
+Subject: [outages] QWEST - fiber cut in galt, california (between sacramento and stockton)
+Message-ID: <49826E18.40804@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+This outage is affecting dnvr, lsan, nyccm, sttl and phx areas.
+
+Not sure the scale of this outage but our gigman link between denver and
+los angeles is down.
+
+
+regards,
+/virendra
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJgm4YpbZvCIJx1bcRArtgAJ9jAt7CoyGYcKaeMz5Fd6qYtVgDhgCgq23+
+Q5IpFsJ3uS3tl+dXB1ROgeE=
+=3lgM
+-----END PGP SIGNATURE-----
+
+From wtan at ezecastle.com  Fri Jan 30 08:28:29 2009
+From: wtan at ezecastle.com (Tan, William)
+Date: Fri, 30 Jan 2009 08:28:29 -0500
+Subject: [outages]  level3 - blackberry
+Message-ID: <E10C7302D634FD49AB59FBB5C1CE196B162076DF44@ecimail.eci.corp>
+
+
+Our traffic from the northeast to Blackberry SRP servers was being lost in the level3 network.  Rerouting over a different isp solved the issue.  Unreachable SRP servers are completely disruptive to a blackberry organization.
+
+
+Tracing route to srp.na.blackberry.net [206.51.26.33] over a maximum of 30 hops:
+.
+.
+.
+
+  6    <1 ms    <1 ms    <1 ms  bstnma1wcx011-pos6-0-oc48.wcg.net [65.77.95.182]
+
+  7     5 ms     5 ms     5 ms  nycmny2wcx3-pos9-0-oc48.wcg.net [64.200.249.49]
+
+  8    27 ms    27 ms    27 ms  brvwil1wcx3-pos0-0-oc192.wcg.net [64.200.240.253]
+
+  9    27 ms    27 ms    27 ms  brvwil1wcx2-pos1-0-oc192.wcg.net [64.200.236.77]
+
+ 10    47 ms    47 ms    47 ms  dllstx1wcx2-pos12-0-oc192.wcg.net [64.200.210.42]
+
+ 11   136 ms   160 ms   225 ms  64.200.249.126
+
+ 12    53 ms    47 ms    47 ms  te-4-1-71.car2.Dallas1.Level3.net [4.68.110.9]
+
+ 13     *        *        *     Request timed out.
+
+
+NOTICE:  The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited.  If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies.  Thank you.
+
+ 
+
+
+From paul at neoverve.com  Fri Jan 30 18:20:56 2009
+From: paul at neoverve.com (Paul Norton)
+Date: Fri, 30 Jan 2009 15:20:56 -0800
+Subject: [outages] Time Warner outage
+Message-ID: <183BFD18-3557-4BAF-A204-6AAEA2C7A5D9@neoverve.com>
+
+A Time Warner ISP technical rep. has confirmed an issue in the Time  
+Warner network for some customers getting to some sites.  It is a  
+"gray area" in their network that they're waiting for it to be  
+"cleared up".
+
+I do not have a ticket open with them, a customer does.  Just giving a  
+heads up.
+
+If anyone here does have a ticket open regarding this or knows more,  
+please share.
+
+Thanks,
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+
+From kokushibyou at gmail.com  Fri Jan 30 21:19:03 2009
+From: kokushibyou at gmail.com (dl)
+Date: Fri, 30 Jan 2009 18:19:03 -0800
+Subject: [outages] Time Warner outage
+In-Reply-To: <183BFD18-3557-4BAF-A204-6AAEA2C7A5D9@neoverve.com>
+References: <183BFD18-3557-4BAF-A204-6AAEA2C7A5D9@neoverve.com>
+Message-ID: <89258bd40901301819nc860d2ekc966f09012181f8d@mail.gmail.com>
+
+My company has been investigating problems with our Time Warner
+connection today. We are only seeing about 12k routes being announced
+to us, rather than the couple hundred thousand expected. So far no
+solid information as to what is causing it.
+
+- Steph
+
+On Fri, Jan 30, 2009 at 15:20, Paul Norton <paul at neoverve.com> wrote:
+> A Time Warner ISP technical rep. has confirmed an issue in the Time Warner
+> network for some customers getting to some sites.  It is a "gray area" in
+> their network that they're waiting for it to be "cleared up".
+>
+> I do not have a ticket open with them, a customer does.  Just giving a heads
+> up.
+>
+> If anyone here does have a ticket open regarding this or knows more, please
+> share.
+>
+> Thanks,
+>
+> --
+> Paul Norton
+> Systems Administrator
+> Neoverve - www.neoverve.com
+> Neoverve Blog - http://blog.neoverve.com/
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From kokushibyou at gmail.com  Fri Jan 30 22:37:41 2009
+From: kokushibyou at gmail.com (dl)
+Date: Fri, 30 Jan 2009 19:37:41 -0800
+Subject: [outages] Time Warner outage
+In-Reply-To: <89258bd40901301819nc860d2ekc966f09012181f8d@mail.gmail.com>
+References: <183BFD18-3557-4BAF-A204-6AAEA2C7A5D9@neoverve.com>
+	<89258bd40901301819nc860d2ekc966f09012181f8d@mail.gmail.com>
+Message-ID: <89258bd40901301937h692373d3q371e0d837e4dcda4@mail.gmail.com>
+
+After a BGP clear on their side, we are now receiving full routes. Just FYI.
+Thanks,
+
+- Steph
+
+On Fri, Jan 30, 2009 at 18:19, dl <kokushibyou at gmail.com> wrote:
+> My company has been investigating problems with our Time Warner
+> connection today. We are only seeing about 12k routes being announced
+> to us, rather than the couple hundred thousand expected. So far no
+> solid information as to what is causing it.
+>
+> - Steph
+>
+> On Fri, Jan 30, 2009 at 15:20, Paul Norton <paul at neoverve.com> wrote:
+>> A Time Warner ISP technical rep. has confirmed an issue in the Time Warner
+>> network for some customers getting to some sites.  It is a "gray area" in
+>> their network that they're waiting for it to be "cleared up".
+>>
+>> I do not have a ticket open with them, a customer does.  Just giving a heads
+>> up.
+>>
+>> If anyone here does have a ticket open regarding this or knows more, please
+>> share.
+>>
+>> Thanks,
+>>
+>> --
+>> Paul Norton
+>> Systems Administrator
+>> Neoverve - www.neoverve.com
+>> Neoverve Blog - http://blog.neoverve.com/
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+
+From bpfankuch at cpgreeley.com  Sat Jan 31 16:58:45 2009
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sat, 31 Jan 2009 14:58:45 -0700
+Subject: [outages] enom
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540DE989CB@CPExchange1.cpgreeley.com>
+
+Anyone seeing anything interesting?  I have a domain with them that I just by chance noticed is not resolving.  I cant even pull up their webpage consistently from 4 locations on 4 different carriers.
+
+Blake Pfankuch
+Connecting Point of Greeley
+Network Engineer
+970-356-7224
+[cid:image001.jpg at 01C983B4.69E9C610][cid:image002.gif at 01C983B4.69E9C610]
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090131/f3d42abc/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 2526 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090131/f3d42abc/attachment.jpg>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.gif
+Type: image/gif
+Size: 1642 bytes
+Desc: image002.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090131/f3d42abc/attachment.gif>
+
+From jimpop at gmail.com  Sat Jan 31 17:29:51 2009
+From: jimpop at gmail.com (Jim Popovitch)
+Date: Sat, 31 Jan 2009 17:29:51 -0500
+Subject: [outages] enom
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D7540DE989CB@CPExchange1.cpgreeley.com>
+References: <01759D50DC387C45A018FE1817CE27D7540DE989CB@CPExchange1.cpgreeley.com>
+Message-ID: <f971bab40901311429v52b8d205w25f68c7bdebefd19@mail.gmail.com>
+
+On Sat, Jan 31, 2009 at 16:58, Blake Pfankuch <bpfankuch at cpgreeley.com> wrote:
+> Anyone seeing anything interesting?  I have a domain with them that I just
+> by chance noticed is not resolving.  I cant even pull up their webpage
+> consistently from 4 locations on 4 different carriers.
+
+Yes.   Lookups are failing.  Very surprising, they have been
+rock-solid for a long time.
+
+-Jim P.
+
+From bpfankuch at cpgreeley.com  Sat Jan 31 18:02:11 2009
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sat, 31 Jan 2009 16:02:11 -0700
+Subject: [outages] enom
+In-Reply-To: <f971bab40901311429v52b8d205w25f68c7bdebefd19@mail.gmail.com>
+References: <01759D50DC387C45A018FE1817CE27D7540DE989CB@CPExchange1.cpgreeley.com>
+	<f971bab40901311429v52b8d205w25f68c7bdebefd19@mail.gmail.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540DE989CC@CPExchange1.cpgreeley.com>
+
+Looking to me that their dns servers are a current victim of the dns amplification attacks.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jim Popovitch
+Sent: Saturday, January 31, 2009 3:30 PM
+To: outages at outages.org
+
+On Sat, Jan 31, 2009 at 16:58, Blake Pfankuch <bpfankuch at cpgreeley.com> wrote:
+> Anyone seeing anything interesting?  I have a domain with them that I just
+> by chance noticed is not resolving.  I cant even pull up their webpage
+> consistently from 4 locations on 4 different carriers.
+
+Yes.   Lookups are failing.  Very surprising, they have been
+rock-solid for a long time.
+
+-Jim P.
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+

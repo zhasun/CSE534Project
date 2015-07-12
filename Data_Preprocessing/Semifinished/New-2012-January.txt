@@ -1,0 +1,1623 @@
+###############################################################
+Internap Chicago event
+###############################################################
+  We lost our Internap connection at 23:58 UTC in Chicago (at Equinix).
+ Internap reported a hardware failure that was fixed within about 10
+ minutes. 
+ We also noticed strangeness with other providers in other locations at
+ the same time - AT&T, in particular - that is probably attributable to
+ reconvergence.
+ -Steve
+ I am also at Equinix Chicago (CH3). My BGP session with Internap has been
+ up 14 weeks.
+ Zaid
+ On 1/3/12 4:22 PM, "Steve Dispensa" <dispensa at phonefactor.com> wrote:
+ >We lost our Internap connection at 23:58 UTC in Chicago (at Equinix).
+ >Internap reported a hardware failure that was fixed within about 10
+ >minutes. 
+ >We also noticed strangeness with other providers in other locations at
+ >the same time - AT&T, in particular - that is probably attributable to
+ >reconvergence.
+ >-Steve
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ Sorry, should have mentioned that- It was ch1. 
+ Nothing further since the event btw. 
+ Le Jan 4, 2012 ? 1:38 AM, "Zaid Ali" <zaid at zaidali.com> a ?crit :
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.arin.net Down?
+###############################################################
+ Anyone else seeing WWW.ARIN.NET down?
+ Can't http or ping from our Cogent line nor several servers found on traceroute.org
+ I'm seeing a routing loop at 
+  8  arin.10gigabitethernet1-3.core1.ash1.he.net (216.66.36.18)  43.023 ms  42.455 ms  42.466 ms
+  9  cr2.arin.net (199.43.0.6)  42.991 ms  43.009 ms  42.491 ms
+ 10  cr1.arin.net (199.43.0.1)  42.941 ms  42.737 ms  228.037 ms
+ 11  cr2.arin.net (199.43.0.6)  42.470 ms  42.623 ms  43.202 ms
+ 12  cr1.arin.net (199.43.0.1)  79.656 ms  169.171 ms  42.916 ms
+ 13  cr2.arin.net (199.43.0.6)  42.615 ms  42.654 ms  42.461 ms
+ 14  cr1.arin.net (199.43.0.1)  42.704 ms  43.648 ms  42.921 ms
+ 15  cr2.arin.net (199.43.0.6)  42.728 ms  42.865 ms  43.184 ms
+ 16  cr1.arin.net (199.43.0.1)  43.187 ms  42.755 ms  43.967 ms
+ 17  cr2.arin.net (199.43.0.6)  42.943 ms  42.642 ms  42.997 ms
+ --Chris
+  <36F8DD12-851E-4E12-AF7B-1CB9CCB1ADB9@gizmopartners.com>
+ On Wed, Jan 4, 2012 at 13:44, Chris Boyd <cboyd at gizmopartners.com> wrote:
+ I can confirm this when entering from HE.
+  4  10gigabitethernet1-1.core1.chi1.he.net (184.105.213.85)  24.045 ms
+  24.095 ms  24.135 ms
+  5  10gigabitethernet7-2.core1.nyc4.he.net (72.52.92.177)  44.100 ms
+ 46.735 ms  44.150 ms
+  6  10gigabitethernet2-3.core1.ash1.he.net (72.52.92.86)  46.600 ms
+ 56.716 ms  51.016 ms
+  7  arin.10gigabitethernet1-3.core1.ash1.he.net (216.66.36.18)  46.679
+ ms  47.957 ms  47.324 ms
+  8  cr2.arin.net (199.43.0.6)  48.007 ms  47.211 ms  46.844 ms
+  9  cr1.arin.net (199.43.0.1)  47.407 ms  47.366 ms  47.305 ms
+ 10  cr2.arin.net (199.43.0.6)  46.934 ms  47.348 ms  47.262 ms
+ ...
+ -- 
+ Darius Jahandarie
+  <36F8DD12-851E-4E12-AF7B-1CB9CCB1ADB9@gizmopartners.com>
+ No problem seen here.
+ Target Name: WWW.ARIN.NET
+          IP: 192.149.252.75
+   Date/Time: 1/4/2012 1:45:54 PM
+ *************************
+  4    1 ms    1 ms    1 ms    1 ms    1 ms    1 ms  [12.88.252.37]
+  5    3 ms    6 ms    3 ms    3 ms    3 ms    4 ms
+ cr81.nw2nj.ip.att.net [12.122.105.110]
+  6    5 ms    6 ms   11 ms    5 ms    4 ms    7 ms  cr1.n54ny.ip.att.net
+ [12.122.105.29]
+  7    2 ms    2 ms    4 ms    2 ms   99 ms  N/A     [12.122.81.125]
+  8    3 ms    2 ms    7 ms    3 ms    2 ms  N/A
+ ae6.edge3.newyork1.level3.net [4.68.63.141]
+  9   11 ms    6 ms    9 ms    9 ms   14 ms  N/A
+ vlan90.csw4.NewYork1.Level3.net [4.69.155.254]
+ 10    2 ms    3 ms    2 ms    4 ms    3 ms  N/A
+ ae-91-91.ebr1.NewYork1.Level3.net [4.69.134.77]
+ 11    2 ms    4 ms    3 ms    2 ms    3 ms  N/A
+ ae-4-4.ebr1.NewYork2.Level3.net [4.69.141.18]
+ 12    7 ms    7 ms    7 ms    7 ms    7 ms  N/A
+ ae-3-3.ebr2.Washington1.Level3.net [4.69.132.89]
+ 13    7 ms    7 ms    8 ms   11 ms    7 ms  N/A
+ ae-62-62.csw1.Washington1.Level3.net [4.69.134.146]
+ 14   17 ms    7 ms   43 ms    7 ms    7 ms  N/A
+ ae-1-60.edge2.Washington4.Level3.net [4.69.149.16]
+ 15    8 ms    7 ms   12 ms    7 ms    8 ms  N/A
+ COX-COMMUNI.edge2.Washington4.Level3.net [4.53.114.94]
+ 16    9 ms    9 ms   18 ms    8 ms   14 ms  N/A
+ mrfddsrj01-ae0.0.rd.dc.cox.net [68.1.1.5]
+ 17   *       *      N/A     N/A     N/A     N/A      [-]
+ 18   *       *      N/A     N/A     N/A     N/A      [-]
+ 19   10 ms   10 ms   13 ms   10 ms   10 ms  N/A
+ wsip-98-172-152-14.dc.dc.cox.net [98.172.152.14]
+ 20   10 ms   10 ms   10 ms   11 ms   13 ms  N/A
+ host-252-131.arin.net [192.149.252.131]
+ 21   10 ms   10 ms   13 ms   10 ms   10 ms  N/A     www.arin.net
+ [192.149.252.75]
+ Ping statistics for WWW.ARIN.NET
+ Packets: Sent = 5, Received = 5, Lost = 0 (0.0%)
+ Round Trip Times: Minimum = 10ms, Maximum = 13ms, Average = 10ms
+ Zeek Bower
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Chris Boyd
+ Sent: Wednesday, January 04, 2012 1:44 PM
+ I'm seeing a routing loop at 
+  8  arin.10gigabitethernet1-3.core1.ash1.he.net (216.66.36.18)  43.023
+ ms  42.455 ms  42.466 ms
+  9  cr2.arin.net (199.43.0.6)  42.991 ms  43.009 ms  42.491 ms
+ 10  cr1.arin.net (199.43.0.1)  42.941 ms  42.737 ms  228.037 ms
+ 11  cr2.arin.net (199.43.0.6)  42.470 ms  42.623 ms  43.202 ms
+ 12  cr1.arin.net (199.43.0.1)  79.656 ms  169.171 ms  42.916 ms
+ 13  cr2.arin.net (199.43.0.6)  42.615 ms  42.654 ms  42.461 ms
+ 14  cr1.arin.net (199.43.0.1)  42.704 ms  43.648 ms  42.921 ms
+ 15  cr2.arin.net (199.43.0.6)  42.728 ms  42.865 ms  43.184 ms
+ 16  cr1.arin.net (199.43.0.1)  43.187 ms  42.755 ms  43.967 ms
+ 17  cr2.arin.net (199.43.0.6)  42.943 ms  42.642 ms  42.997 ms
+ --Chris
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ **********************************************************************
+ This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+ fine from he transit in uk
+ traceroute www.arin.net
+ traceroute: Warning: www.arin.net has multiple addresses; using 192.149.252.75
+ traceroute to www.arin.net (192.149.252.75), 64 hops max, 40 byte packets
+ 1  192.168.1.2 (192.168.1.2)  3.400 ms  2.387 ms  2.533 ms
+ 2  par8.the1.hso.uk.com (217.196.224.63)  17.039 ms  15.128 ms  20.343 ms
+ 3  89.248.31.242 (89.248.31.242)  15.737 ms  23.016 ms  24.444 ms
+ 4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.709 ms  15.540 ms  16.101 ms
+ 5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  15.522 ms  15.375 ms  15.662 ms
+ 6  10gigabitethernet1-1.core1.lon1.he.net (195.66.224.21)  26.854 ms  20.595 ms  24.805 ms
+ 7  10gigabitethernet6-3.core1.ash1.he.net (72.52.92.137)  95.544 ms  95.694 ms  95.303 ms
+ 8  arin.10gigabitethernet1-3.core1.ash1.he.net (216.66.36.18)  135.432 ms  95.351 ms  95.342 ms
+ 9  cr2.arin.net (199.43.0.6)  94.465 ms  97.814 ms
+ Colin
+ On 4 Jan 2012, at 18:33, Vincent J.. Bono wrote:
+ We did see it out for about 10 minutes, but it's back now. That particular route was going through HE.net and it looked like a routing loop within their own network at 199.43.0.1 and 199.43.0.6
+ traceroute: Warning: www.arin.net has multiple addresses; using 192.149.252.75
+ traceroute to www.arin.net (192.149.252.75), 64 hops max, 52 byte packets
+  1  10.0.3.253  3.979 ms  0.701 ms  0.703 ms
+  2  199.223.122.73  1.203 ms  0.936 ms  0.872 ms
+  3  199.223.122.97  0.999 ms  1.006 ms  1.248 ms
+  4  74.82.9.149  11.108 ms  1.175 ms  1.950 ms
+  5  72.52.92.13  18.576 ms  56.085 ms  20.527 ms
+  6  72.52.92.69  17.497 ms  17.056 ms  23.585 ms
+  7  184.105.213.178  85.500 ms  96.925 ms  85.487 ms
+  8  216.66.36.18  85.314 ms  85.480 ms  85.412 ms
+  9  199.43.0.6  85.950 ms  85.467 ms  85.592 ms
+ 10  199.43.0.1  86.825 ms  85.379 ms  85.501 ms
+ 11  199.43.0.6  85.661 ms  85.664 ms  85.558 ms
+ 12  199.43.0.1  85.297 ms  85.665 ms  85.523 ms
+ 13  199.43.0.6  86.077 ms  86.094 ms  85.767 ms
+ 14  199.43.0.1  89.500 ms  85.713 ms  85.478 ms
+ 15  199.43.0.6  85.964 ms  85.948 ms  86.350 ms
+ 16  199.43.0.1  86.041 ms  85.988 ms  86.137 ms
+ 17  199.43.0.6  86.046 ms  85.998 ms  86.050 ms
+ 18  199.43.0.1  92.018 ms  85.789 ms  86.833 ms
+ 19  199.43.0.6  85.899 ms  86.680 ms  86.718 ms
+ 20  199.43.0.1  86.145 ms  86.016 ms  86.600 ms
+ 21  199.43.0.6  86.033 ms  86.153 ms  86.242 ms
+ 22  199.43.0.1  94.776 ms  86.937 ms  86.211 ms
+ 23  199.43.0.6  86.157 ms  86.564 ms  86.494 ms
+ Customer Support 
+ ph. 503.548.2000 | fx. 503.548.2002
+ 921 SW Washington St, Suite 224
+ Portland OR 97205
+ On Jan 4, 2012, at 10:33 AM, Vincent J.. Bono wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120104/81bbcdb3/attachment.html>
+  <060D9529-89A4-4061-BEDB-BF93A62F3324@mx5.org.uk>
+ On Wed, Jan 4, 2012 at 13:51, Colin Johnston <colinj at mx5.org.uk> wrote:
+ Indeed, routing loop seems to be gone entirely now.
+ -- 
+ Darius Jahandarie
+ On 1/4/12 10:33 AM, Vincent J.. Bono wrote:
+ I use arin.net as an IPv6 monitoring point from my AS and the monitor
+ was reporting unreachable starting around 10:25 and clearing at 10:45
+ Pacific time.
+ ~Seth
+ Works fine from AT&T in chicago
+ --------------------------
+ Thanks.
+ Mark Kierzkowski
+ ----- Original Message -----
+ From: Vincent J.. Bono [mailto:vbono at 2nplus1.com]
+ Sent: Wednesday, January 04, 2012 12:33 PM
+ Anyone else seeing WWW.ARIN.NET down?
+ Can't http or ping from our Cogent line nor several servers found on traceroute.org
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.arin.net Down? - Back up
+###############################################################
+ She's back now after 47 minutes down.  Network burp.
+ ----- Original Message -----
+ From: "Vincent J.. Bono" <vbono at 2nplus1.com>
+ Sent: Wednesday, January 4, 2012 1:33:24 PM GMT -05:00 US/Canada Eastern
+ Anyone else seeing WWW.ARIN.NET down?
+ Can't http or ping from our Cogent line nor several servers found on traceroute.org
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+GoDaddy Having Email Hosting Issues?
+###############################################################
+ We reported an issue around 10:25 AM CDT re: inability to access email from GoDaddy. Anyone else?
+ Thanks,
+ Kris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120105/8d334d2d/attachment.html>
+ Confirmed by others on twitter: "Support says that email 'pods' are failing"
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Kris Arthur
+ Sent: Thursday, January 05, 2012 10:26 AM
+ We reported an issue around 10:25 AM CDT re: inability to access email from
+ GoDaddy. Anyone else?
+ Thanks,
+ Kris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120105/4f69889d/attachment.html>
+ I am also experiencing some issues with GoDaddy email hosting.
+ I use POP3s and have not received a number of emails that I know have been
+ sent to me in the past 30 - 45 minutes.  
+   _____  
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Kris Arthur
+ Sent: Thursday, January 05, 2012 11:26 AM
+ We reported an issue around 10:25 AM CDT re: inability to access email from
+ GoDaddy. Anyone else?
+ Thanks,
+ Kris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120105/4ffe06fb/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 3684 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120105/4ffe06fb/attachment.bin>
+###############################################################
+END
+###############################################################
+
+###############################################################
+EasyDNS DDoS
+###############################################################
+ FYI, looks like EasyDNS' nameservers are under a DDoS... 
+ https://twitter.com/#!/easyDNS/status/155774538272092160
+ Among other things, sites like http://soekris.com/ are either loading
+ /very/ slowly or just not at all.
+ - Mark
+ -- 
+ Mark Kamichoff
+ prox at prolixium.com
+ http://www.prolixium.com/
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 198 bytes
+ Desc: Digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120107/374c9735/attachment.sig>
+ On Sat, Jan 07, 2012 at 06:02:27PM -0500, Mark Kamichoff wrote:
+ Another popular site which is affected by this is
+ DSLReports/BroadbandReports.
+ I'm quite surprised so many people rely entirely on one provider for
+ primary, secondary, and tertiary DNS.
+ $ dig @a.gtld-servers.net ns dslreports.com
+ ;; QUESTION SECTION:
+ ;dslreports.com.                        IN      NS
+ ;; AUTHORITY SECTION:
+ dslreports.com.         172800  IN      NS      ns1.easydns.com.
+ dslreports.com.         172800  IN      NS      ns2.easydns.com.
+ dslreports.com.         172800  IN      NS      remote1.easydns.com.
+ dslreports.com.         172800  IN      NS      remote2.easydns.com.
+ dslreports.com.         172800  IN      NS      ns6.easydns.net.
+ Doesn't look like very much redundancy to me.  Grouped by netblock:
+ ns1.easydns.com has address 64.68.192.10
+ remote1.easydns.com has address 64.68.192.10
+ ns2.easydns.com has address 72.52.2.1
+ remote2.easydns.com has address 72.52.2.1
+ ns6.easydns.net has address 72.52.2.1
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                   Mountain View, CA, US |
+ | Making life hard for others since 1977.               PGP 4BD6C0CB |
+ I can confirm, easydns spotty at best from here (Missoula, MT local ISP)
+ On Sat, Jan 7, 2012 at 4:02 PM, Mark Kamichoff <prox at prolixium.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors
+ into trouble of all kinds."
+ -- Samuel Butler
+  <CAHDg04vX-MuZ2rVQVsPsSoL=HDayRJ-K0SrXKfWBb81Mt_vZJA@mail.gmail.com>
+ Jan  8 03:28:05 cse209-fwsm-cns-v1202-1 %FWSM-2-106007: Deny inbound UDP from 72.52.2.1/53 to 128.227.254.102/51281 due to DNS Response    
+ Jan  8 03:27:37 cse209-fwsm-cns-v1202-1 %FWSM-2-106007: Deny inbound UDP from 72.52.2.1/53 to 128.227.254.102/2956 due to DNS Response     
+ I have been seeing unsolicited DNS replies from them since Jan 8th about 16:36 EST.  I also started seeing them from:
+ robert at Robert ~
+ $ dig +short -x 67.228.254.4
+ ns1.softlayer.com.
+ at about the same time, so I suspect they are/were also getting slammed.
+ Robert D. Scott           Robert at ufl.edu
+ Senior Network Engineer   352-273-0113 Phone
+ CNS - Network Services    352-392-2061 CNS Phone Tree
+ University of Florida     352-273-0743 FAX
+ Florida Lambda Rail       352-294-3571 FLR NOC
+ Gainesville, FL  32611    321-663-0421 Cell
+                           3216630421 at messaging.sprintpcs.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Michael Loftis
+ Sent: Saturday, January 07, 2012 6:21 PM
+ I can confirm, easydns spotty at best from here (Missoula, MT local ISP)
+ On Sat, Jan 7, 2012 at 4:02 PM, Mark Kamichoff <prox at prolixium.com> wrote:
+ -- 
+ "Genius might be described as a supreme capacity for getting its possessors into trouble of all kinds."
+ -- Samuel Butler
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+AWS VPC network outage this afternoon
+###############################################################
+ As reported on NANOG, AWS had issues with their Virtual Private Cloud on the
+ east coast.  From Amazon's dashboard:
+ 3:56 PM PST We are investigating increased packet loss impacting VPN
+ connections in the US-EAST-1 region.
+ 5:20 PM PST Between 2:15pm - 4:09PST, some customers experienced elevated
+ packet loss via VPN and Direct Connect to some VPC instances in the Northern
+ Virginia (US-EAST-1) region. The service is now operating normally.
+ Frank
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast Jackson MS Monroe LA
+###############################################################
+ Comcast in jackson ms and Monroe LA is down. Support numbers to the are also down. This looks like a very large outage. 
+ Sent from my iPhone
+ Saw a brief outage for 2 of my customers this morning too
+ Blake Pfankuch
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jeremie Chism
+ Sent: Wednesday, January 11, 2012 6:46 AM
+ Comcast in jackson ms and Monroe LA is down. Support numbers to the are also down. This looks like a very large outage. 
+ Sent from my iPhone
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Seeing issues in Atlanta as well.  Seem to not be pushing me any traffic
+ and my Egress has dropped to near nothing.
+ On 1/11/12 8:46 AM, Jeremie Chism wrote:
+ -- 
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service
+ available in the Web Hosting business.  If you have any questions,
+ comments or concerns feel free to contact us at 678-247-7000 ext 1 (or
+ toll-free, 888-4-NATNET). 
+ "If A = B and B = C, then A = C, except where void or prohibited by law." -- Roy Santoro
+  <4F0DAB76.8040507@nationalnet.com>
+ I'm saw six Comcast IPv6 sites I monitor go down at 9:47 am (Central).  Some
+ of them are hosts with multiple AAAA records and those are still up.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Bradley Bopp
+ Sent: Wednesday, January 11, 2012 9:32 AM
+ Seeing issues in Atlanta as well.  Seem to not be pushing me any traffic
+ and my Egress has dropped to near nothing.
+ On 1/11/12 8:46 AM, Jeremie Chism wrote:
+ also down. This looks like a very large outage. 
+ -- 
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service
+ available in the Web Hosting business.  If you have any questions,
+ comments or concerns feel free to contact us at 678-247-7000 ext 1 (or
+ toll-free, 888-4-NATNET). 
+ "If A = B and B = C, then A = C, except where void or prohibited by law." --
+ Roy Santoro
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <4F0DAB76.8040507@nationalnet.com>
+  <003901ccd079$9c062390$d4126ab0$@iname.com>
+ According to the NOC;  "We have a ten gig circuit down between Atlanta
+ and Florida, we have shaved traffic as it's causing several issues"
+ I can confirm that we only see the Atlanta Region network on our ports
+ to them from Atlanta and we have no Ingress traffic at all coming in to
+ the ports.
+ So "shaved" seems to mean let's stop sending and announcing routes.
+ On 1/11/12 10:56 AM, Frank Bulk wrote:
+ -- 
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service
+ available in the Web Hosting business.  If you have any questions,
+ comments or concerns feel free to contact us at 678-247-7000 ext 1 (or
+ toll-free, 888-4-NATNET). 
+ "If A = B and B = C, then A = C, except where void or prohibited by law." -- Roy Santoro
+  <4F0DAB76.8040507@nationalnet.com>
+  <003901ccd079$9c062390$d4126ab0$@iname.com>
+  <4F0DB4A7.7080402@nationalnet.com>
+ The six IPv6 sites came back up at 10:00 am Central.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Bradley Bopp
+ Sent: Wednesday, January 11, 2012 10:11 AM
+ According to the NOC;  "We have a ten gig circuit down between Atlanta
+ and Florida, we have shaved traffic as it's causing several issues"
+ I can confirm that we only see the Atlanta Region network on our ports
+ to them from Atlanta and we have no Ingress traffic at all coming in to
+ the ports.
+ So "shaved" seems to mean let's stop sending and announcing routes.
+ On 1/11/12 10:56 AM, Frank Bulk wrote:
+ Some
+ -- 
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service
+ available in the Web Hosting business.  If you have any questions,
+ comments or concerns feel free to contact us at 678-247-7000 ext 1 (or
+ toll-free, 888-4-NATNET). 
+ "If A = B and B = C, then A = C, except where void or prohibited by law." --
+ Roy Santoro
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Problems at NTT?
+###############################################################
+ Anyone aware of issues with NTT.com?  I'm not able to reach dreamhost.com located in southern California, which is a problem as they are our e-mail host.  However, I can reach them from my home computer (different ISP) and a couple other ISPs.  But some of my employees located across the United States working from home are not able to reach dreamhost.com either and thus no e-mail.  A traceroute appears to show it dying at ntt.com:
+ 618-Andy:~ andyring$ traceroute dreamhost.com
+ traceroute to dreamhost.com (208.97.187.204), 64 hops max, 52 byte packets
+  1  192.168.1.2 (192.168.1.2)  0.607 ms  0.288 ms  0.215 ms
+  2  upnllc.com (208.82.104.193)  0.672 ms  0.750 ms  0.620 ms
+  3  omh-edge-08.inet.qwest.net (65.116.176.185)  2.069 ms  4.529 ms  2.184 ms
+  4  omh-core-02.inet.qwest.net (205.171.132.57)  2.063 ms  2.018 ms  1.975 ms
+  5  chp-brdr-04.inet.qwest.net (67.14.8.234)  22.870 ms  19.210 ms  19.151 ms
+  6  63.146.26.230 (63.146.26.230)  19.612 ms  19.469 ms  19.503 ms
+  7  ae-6.r21.chcgil09.us.bb.gin.ntt.net (129.250.2.26)  20.991 ms  19.648 ms  19.475 ms
+  8  ae-4.r21.dllstx09.us.bb.gin.ntt.net (129.250.2.200)  53.644 ms  54.803 ms  48.801 ms
+  9  ae-0.r20.dllstx09.us.bb.gin.ntt.net (129.250.2.58)  53.730 ms  51.283 ms  51.848 ms
+ 10  ae-5.r20.lsanca03.us.bb.gin.ntt.net (129.250.2.168)  73.374 ms  96.647 ms  66.866 ms
+ 11  ae-1.r04.lsanca03.us.bb.gin.ntt.net (129.250.5.2)  66.552 ms  68.726 ms  71.101 ms
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ >From other locations, a traceroute goes right through.  downforeveryoneorjustme.com reports dreamhost as alive.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ On Fri, Jan 13, 2012 at 13:19, Andy Ringsmuth <andyring at inebraska.com> wrote:
+ I have the same issue reaching dreamhost over NTT.
+ darius at djmachine:~$ lft -d 80 dreamhost.com
+ Tracing ........**********
+ TTL LFT trace to dreamhost.com (208.97.187.204):80/tcp
+  2  gi4-2.cr1.phoenix.codero.com (69.64.66.29) 0.4ms
+  3  gi4-18.cr2.phoenix.codero.com (69.64.66.18) 0.3ms
+  4  ge-11-2-3.mpr3.phx2.us.above.net (64.125.192.193) 9.8ms
+  5  xe-2-2-0.cr1.lax112.us.above.net (64.125.28.70) 9.8ms
+  6  xe-0-1-0.mpr1.lax12.us.above.net (64.125.31.189) 9.8ms
+  7  ge-0-7-0-1.r05.lsanca03.us.bb.gin.ntt.net (129.250.9.157) 10.4ms
+  8  ae-5.r04.lsanca03.us.bb.gin.ntt.net (129.250.2.220) 9.6ms
+ **  [80/tcp no reply from target]  Try advanced options (use -VV to
+ see packets).
+ But over comcast it works fine:
+ $ lft -d 80 dreamhost.comTracing ..........*.TTTL LFT trace to
+ dreamhost.com (208.97.187.204):80/tcp?4
+ COMCAST-IP.edge3.Denver1.Level3.net (4.28.20.6) 1.9ms
+ ?5 ?pos-2-12-0-0-cr01.dallas.tx.ibone.comcast.net (68.86.87.34) 15.2ms
+ 6 ?pos-0-12-0-0-cr01.losangeles.ca.ibone.comcast.net (68.86.86.117)
+ 41.5ms?7 ?as26347.losangeles.ca.ibone.comcast.net (75.149.228.206)
+ 42.2ms?8 ?ip-66-33-201-114.dreamhost.com (66.33.201.114) 46.6ms?9
+ [target open] dreamhost.com (208.97.187.204):80 36.3ms
+ The issue is probably at dreamhost's edge with NTT if I had to guess though.
+ -- 
+ Darius Jahandarie
+  <CAFANWtXMYDKnrZJahn0-Khim5-KNcDginF1vq8BVSZQFwGao_w@mail.gmail.com>
+ Likewise I am able to reach dreamhost.com via Comcast peering without issue.
+ Tracing the path to www.dreamhost.com (208.97.187.204) on TCP port 80, 30 hops max
+  1  vlan31.colo3.tdc.nwt.dellservices.net (69.39.183.177)  9.312 ms  9.368 ms  9.954 ms
+  2  ge1-6.core2.tdc.nwt.dellservices.net (66.97.0.13)  9.945 ms  9.476 ms  9.932 ms
+  3  ge1-9.core1.ccs.phl.dellservices.net (216.182.7.58)  9.978 ms  9.475 ms  9.974 ms
+  4  * * *
+  5  te-2-1-0-2-cr01.ashburn.va.ibone.comcast.net (68.86.84.177)  9.375 ms  9.929 ms  9.979 ms
+  6  pos-4-3-0-0-cr01.atlanta.ga.ibone.comcast.net (68.86.87.70)  42.972 ms  42.362 ms  42.009 ms
+  7  pos-1-10-0-0-cr01.dallas.tx.ibone.comcast.net (68.86.86.129)  41.953 ms  41.881 ms  41.714 ms
+  8  pos-0-12-0-0-cr01.losangeles.ca.ibone.comcast.net (68.86.86.117)  74.322 ms  74.553 ms  74.636 ms
+  9  as26347.losangeles.ca.ibone.comcast.net (75.149.228.206)  74.893 ms  74.728 ms  74.621 ms
+ 10  ip-66-33-201-114.dreamhost.com (66.33.201.114)  75.651 ms  79.555 ms  75.968 ms
+ 11  dreamhost.com (208.97.187.204) [open]  76.948 ms  74.091 ms  74.214 ms
+ -Vinny
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Darius Jahandarie
+ Sent: Friday, January 13, 2012 1:28 PM
+ Cc: outages
+ On Fri, Jan 13, 2012 at 13:19, Andy Ringsmuth <andyring at inebraska.com> wrote:
+ I have the same issue reaching dreamhost over NTT.
+ darius at djmachine:~$ lft -d 80 dreamhost.com
+ Tracing ........**********
+ TTL LFT trace to dreamhost.com (208.97.187.204):80/tcp
+  2  gi4-2.cr1.phoenix.codero.com (69.64.66.29) 0.4ms
+  3  gi4-18.cr2.phoenix.codero.com (69.64.66.18) 0.3ms
+  4  ge-11-2-3.mpr3.phx2.us.above.net (64.125.192.193) 9.8ms
+  5  xe-2-2-0.cr1.lax112.us.above.net (64.125.28.70) 9.8ms
+  6  xe-0-1-0.mpr1.lax12.us.above.net (64.125.31.189) 9.8ms
+  7  ge-0-7-0-1.r05.lsanca03.us.bb.gin.ntt.net (129.250.9.157) 10.4ms
+  8  ae-5.r04.lsanca03.us.bb.gin.ntt.net (129.250.2.220) 9.6ms
+ **  [80/tcp no reply from target]  Try advanced options (use -VV to
+ see packets).
+ But over comcast it works fine:
+ $ lft -d 80 dreamhost.comTracing ..........*.TTTL LFT trace to
+ dreamhost.com (208.97.187.204):80/tcp?4
+ COMCAST-IP.edge3.Denver1.Level3.net (4.28.20.6) 1.9ms
+ ?5 ?pos-2-12-0-0-cr01.dallas.tx.ibone.comcast.net (68.86.87.34) 15.2ms
+ 6 ?pos-0-12-0-0-cr01.losangeles.ca.ibone.comcast.net (68.86.86.117)
+ 41.5ms?7 ?as26347.losangeles.ca.ibone.comcast.net (75.149.228.206)
+ 42.2ms?8 ?ip-66-33-201-114.dreamhost.com (66.33.201.114) 46.6ms?9
+ [target open] dreamhost.com (208.97.187.204):80 36.3ms
+ The issue is probably at dreamhost's edge with NTT if I had to guess though.
+ -- 
+ Darius Jahandarie
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ works via cogent from uk
+ traceroute wwmx5:~ colinj$ traceroute dreamhost.com
+ traceroute to dreamhost.com (208.97.187.204), 64 hops max, 40 byte packets
+  1  192.168.1.2 (192.168.1.2)  3.179 ms  0.946 ms  0.888 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  16.422 ms  20.966 ms  15.885 ms
+  3  89.248.31.242 (89.248.31.242)  25.836 ms  70.455 ms  23.752 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.234 ms  15.894 ms  15.112 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  16.365 ms  42.333 ms  15.918 ms
+  6  10.0.10.253 (10.0.10.253)  15.813 ms  17.849 ms  56.462 ms
+  7  vl443.mpd01.lon01.atlas.cogentco.com (149.6.184.93)  16.113 ms  27.691 ms  19.884 ms
+  8  te3-2.ccr01.lon01.atlas.cogentco.com (130.117.1.73)  17.215 ms
+     te1-7.mpd02.lon01.atlas.cogentco.com (130.117.2.17)  54.133 ms
+     te8-8.mpd02.lon01.atlas.cogentco.com (130.117.2.26)  15.939 ms
+  9  te0-2-0-4.ccr21.lon13.atlas.cogentco.com (154.54.57.114)  91.793 ms
+     te0-1-0-4.ccr22.lon13.atlas.cogentco.com (154.54.57.177)  98.119 ms
+     te0-2-0-4.ccr21.lon13.atlas.cogentco.com (154.54.57.114)  90.760 ms
+ 10  te0-0-0-1.ccr21.jfk02.atlas.cogentco.com (154.54.44.225)  157.386 ms
+     te0-1-0-4.ccr22.bos01.atlas.cogentco.com (130.117.0.185)  95.097 ms
+     te0-0-0-1.ccr21.jfk02.atlas.cogentco.com (154.54.44.225)  91.561 ms
+ 11  te0-4-0-5.ccr21.jfk02.atlas.cogentco.com (154.54.44.49)  94.773 ms
+     te0-5-0-3.ccr22.jfk02.atlas.cogentco.com (154.54.44.65)  98.426 ms
+     te0-1-0-7.ccr21.dca01.atlas.cogentco.com (154.54.26.6)  97.310 ms
+ 12  te0-2-0-3.ccr22.atl01.atlas.cogentco.com (154.54.1.33)  144.399 ms
+     te0-2-0-6.ccr21.atl01.atlas.cogentco.com (154.54.2.45)  196.274 ms
+     te0-2-0-3.ccr21.atl01.atlas.cogentco.com (154.54.24.10)  223.306 ms
+ 13  te0-0-0-6.ccr22.atl01.atlas.cogentco.com (154.54.28.222)  144.085 ms
+     te0-3-0-2.ccr22.iah01.atlas.cogentco.com (66.28.4.90)  216.244 ms
+     te0-0-0-6.ccr21.iah01.atlas.cogentco.com (154.54.29.2)  121.492 ms
+ 14  te0-0-0-5.ccr21.lax01.atlas.cogentco.com (154.54.0.221)  281.385 ms
+     te0-2-0-5.ccr22.lax01.atlas.cogentco.com (154.54.27.17)  169.916 ms
+     te0-2-0-5.ccr21.lax01.atlas.cogentco.com (154.54.0.233)  159.912 ms
+ 15  te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  164.784 ms  159.807 ms
+     te7-1.mag01.lax01.atlas.cogentco.com (154.54.28.142)  157.725 ms
+ 16  38.122.20.218 (38.122.20.218)  164.619 ms  158.597 ms  158.227 ms
+ 17  ip-66-33-201-114.dreamhost.com (66.33.201.114)  178.666 ms  160.483 ms  165.028 ms
+ 18  ip-66-33-201-114.dreamhost.com (66.33.201.114)  161.889 ms^C
+ mx5:~ colinj$ 
+ On 13 Jan 2012, at 18:19, Andy Ringsmuth wrote:
+  <CAFANWtXMYDKnrZJahn0-Khim5-KNcDginF1vq8BVSZQFwGao_w@mail.gmail.com>
+  <FD9B2CB2B33E394FAE3B74669547605712AC4A82@DFWX10HMPTC01.AMER.DELL.COM>
+ Working OK from Denver, CO out through Cogent...
+ Tracing the path to dreamhost.com (208.97.187.204) on TCP port 80 (http), 30
+ hops max
+  1  10.10.100.254  2.052 ms  0.961 ms  0.919 ms
+  2  * * *
+  3  dsl-denver-gateway-01.axint.net (38.116.136.1)  56.847 ms  56.320 ms 
+ 55.346 ms
+  4  fa0-2.na01.b009854-0.den01.atlas.cogentco.com (38.112.6.145)  55.947 ms 
+ 56.480 ms  58.795 ms
+  5  * * *
+  6  * * *
+  7  * * *
+  8  * * *
+  9  te0-0-0-5.ccr21.sfo01.atlas.cogentco.com (154.54.25.201)  83.373 ms 
+ 83.106 ms  82.652 ms
+ 10  te0-3-0-4.ccr21.lax01.atlas.cogentco.com (154.54.45.93)  96.100 ms 
+ 96.811 ms  96.599 ms
+ 11  * * *
+ 12  38.122.20.218  96.617 ms  97.021 ms  96.535 ms
+ 13  ip-66-33-201-114.dreamhost.com (66.33.201.114)  96.607 ms  96.476 ms 
+ 100.430 ms
+ 14  dreamhost.com (208.97.187.204) [open]  98.192 ms  96.202 ms *
+ Chris
+  <43222525-D7F9-4D8A-B9CB-47E558DAE639@mx5.org.uk>
+ Just checked from my home connectivity as well and likewise saw a path via Cogent was successful. It does seem to be isolated to NTT based on our collective data.
+ -Vinny
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Colin Johnston
+ Sent: Friday, January 13, 2012 1:38 PM
+ Cc: outages
+ works via cogent from uk
+ traceroute wwmx5:~ colinj$ traceroute dreamhost.com
+ traceroute to dreamhost.com (208.97.187.204), 64 hops max, 40 byte packets
+  1  192.168.1.2 (192.168.1.2)  3.179 ms  0.946 ms  0.888 ms
+  2  par8.the1.hso.uk.com (217.196.224.63)  16.422 ms  20.966 ms  15.885 ms
+  3  89.248.31.242 (89.248.31.242)  25.836 ms  70.455 ms  23.752 ms
+  4  eth-1-2-pcr2.the1.hso.uk.com (89.248.31.66)  15.234 ms  15.894 ms  15.112 ms
+  5  ge-0-0-0.643.pgr1.the1.hso.uk.com (89.248.31.90)  16.365 ms  42.333 ms  15.918 ms
+  6  10.0.10.253 (10.0.10.253)  15.813 ms  17.849 ms  56.462 ms
+  7  vl443.mpd01.lon01.atlas.cogentco.com (149.6.184.93)  16.113 ms  27.691 ms  19.884 ms
+  8  te3-2.ccr01.lon01.atlas.cogentco.com (130.117.1.73)  17.215 ms
+     te1-7.mpd02.lon01.atlas.cogentco.com (130.117.2.17)  54.133 ms
+     te8-8.mpd02.lon01.atlas.cogentco.com (130.117.2.26)  15.939 ms
+  9  te0-2-0-4.ccr21.lon13.atlas.cogentco.com (154.54.57.114)  91.793 ms
+     te0-1-0-4.ccr22.lon13.atlas.cogentco.com (154.54.57.177)  98.119 ms
+     te0-2-0-4.ccr21.lon13.atlas.cogentco.com (154.54.57.114)  90.760 ms
+ 10  te0-0-0-1.ccr21.jfk02.atlas.cogentco.com (154.54.44.225)  157.386 ms
+     te0-1-0-4.ccr22.bos01.atlas.cogentco.com (130.117.0.185)  95.097 ms
+     te0-0-0-1.ccr21.jfk02.atlas.cogentco.com (154.54.44.225)  91.561 ms
+ 11  te0-4-0-5.ccr21.jfk02.atlas.cogentco.com (154.54.44.49)  94.773 ms
+     te0-5-0-3.ccr22.jfk02.atlas.cogentco.com (154.54.44.65)  98.426 ms
+     te0-1-0-7.ccr21.dca01.atlas.cogentco.com (154.54.26.6)  97.310 ms
+ 12  te0-2-0-3.ccr22.atl01.atlas.cogentco.com (154.54.1.33)  144.399 ms
+     te0-2-0-6.ccr21.atl01.atlas.cogentco.com (154.54.2.45)  196.274 ms
+     te0-2-0-3.ccr21.atl01.atlas.cogentco.com (154.54.24.10)  223.306 ms
+ 13  te0-0-0-6.ccr22.atl01.atlas.cogentco.com (154.54.28.222)  144.085 ms
+     te0-3-0-2.ccr22.iah01.atlas.cogentco.com (66.28.4.90)  216.244 ms
+     te0-0-0-6.ccr21.iah01.atlas.cogentco.com (154.54.29.2)  121.492 ms
+ 14  te0-0-0-5.ccr21.lax01.atlas.cogentco.com (154.54.0.221)  281.385 ms
+     te0-2-0-5.ccr22.lax01.atlas.cogentco.com (154.54.27.17)  169.916 ms
+     te0-2-0-5.ccr21.lax01.atlas.cogentco.com (154.54.0.233)  159.912 ms
+ 15  te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  164.784 ms  159.807 ms
+     te7-1.mag01.lax01.atlas.cogentco.com (154.54.28.142)  157.725 ms
+ 16  38.122.20.218 (38.122.20.218)  164.619 ms  158.597 ms  158.227 ms
+ 17  ip-66-33-201-114.dreamhost.com (66.33.201.114)  178.666 ms  160.483 ms  165.028 ms
+ 18  ip-66-33-201-114.dreamhost.com (66.33.201.114)  161.889 ms^C
+ mx5:~ colinj$ 
+ On 13 Jan 2012, at 18:19, Andy Ringsmuth wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ When I traceroute from an IP on NTT's network I have no issues, but what's
+ interesting is that the second hop is Cogent, so perhaps that's not a real
+ test.
+ $ traceroute dreamhost.com
+ traceroute to dreamhost.com (208.97.187.204), 30 hops max, 60 byte packets
+  1  x.y.ntt.net (204.42.x.y)  0.517 ms  0.703 ms  0.837 ms
+  2  te0-3-0-6.ccr21.ord03.atlas.cogentco.com (154.54.12.81)  0.410 ms
+ te0-2-0-6.ccr21.ord03.atlas.cogentco.com (154.54.10.29)  0.320 ms
+ te0-3-0-6.ccr21.ord03.atlas.cogentco.com (154.54.12.81)  0.658 ms
+  3  te0-4-0-1.mpd21.ord01.atlas.cogentco.com (154.54.6.205)  0.656 ms
+ te0-5-0-1.mpd22.ord01.atlas.cogentco.com (154.54.44.177)  0.746 ms
+ te0-4-0-1.mpd22.ord01.atlas.cogentco.com (154.54.25.69)  0.656 ms
+  4  te0-4-0-5.mpd22.mci01.atlas.cogentco.com (154.54.45.157)  29.337 ms
+ te0-3-0-1.mpd21.mci01.atlas.cogentco.com (154.54.7.138)  29.074 ms
+ te0-3-0-1.mpd22.mci01.atlas.cogentco.com (154.54.7.165)  25.130 ms
+  5  te0-4-0-5.ccr21.dfw01.atlas.cogentco.com (154.54.46.198)  24.863 ms
+ te0-3-0-6.ccr22.dfw01.atlas.cogentco.com (154.54.46.206)  30.186 ms
+ te0-0-0-5.ccr21.dfw01.atlas.cogentco.com (154.54.5.217)  25.045 ms
+  6  te0-0-0-3.ccr21.iah01.atlas.cogentco.com (154.54.5.205)  30.362 ms
+ te0-0-0-2.ccr22.iah01.atlas.cogentco.com (154.54.3.178)  30.168 ms
+ te0-0-0-3.ccr21.iah01.atlas.cogentco.com (154.54.5.205)  30.385 ms
+  7  te0-0-0-5.ccr22.lax01.atlas.cogentco.com (154.54.5.194)  71.438 ms
+ te0-2-0-3.ccr21.lax01.atlas.cogentco.com (154.54.44.242)  76.181 ms
+ te0-1-0-6.ccr21.lax01.atlas.cogentco.com (154.54.0.225)  74.547 ms
+  8  te7-1.mag01.lax01.atlas.cogentco.com (154.54.28.142)  76.270 ms
+ te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  71.655 ms  71.588 ms
+  9  38.122.20.218 (38.122.20.218)  74.635 ms  74.667 ms  74.787 ms
+ 10  ip-66-33-201-114.dreamhost.com (66.33.201.114)  224.115 ms  224.248 ms
+ 224.179 ms
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Andy Ringsmuth
+ Sent: Friday, January 13, 2012 12:19 PM
+ Anyone aware of issues with NTT.com?  I'm not able to reach dreamhost.com
+ located in southern California, which is a problem as they are our e-mail
+ host.  However, I can reach them from my home computer (different ISP) and a
+ couple other ISPs.  But some of my employees located across the United
+ States working from home are not able to reach dreamhost.com either and thus
+ no e-mail.  A traceroute appears to show it dying at ntt.com:
+ 618-Andy:~ andyring$ traceroute dreamhost.com
+ traceroute to dreamhost.com (208.97.187.204), 64 hops max, 52 byte packets
+  1  192.168.1.2 (192.168.1.2)  0.607 ms  0.288 ms  0.215 ms
+  2  upnllc.com (208.82.104.193)  0.672 ms  0.750 ms  0.620 ms
+  3  omh-edge-08.inet.qwest.net (65.116.176.185)  2.069 ms  4.529 ms  2.184
+ ms
+  4  omh-core-02.inet.qwest.net (205.171.132.57)  2.063 ms  2.018 ms  1.975
+ ms
+  5  chp-brdr-04.inet.qwest.net (67.14.8.234)  22.870 ms  19.210 ms  19.151
+ ms
+  6  63.146.26.230 (63.146.26.230)  19.612 ms  19.469 ms  19.503 ms
+  7  ae-6.r21.chcgil09.us.bb.gin.ntt.net (129.250.2.26)  20.991 ms  19.648 ms
+ 19.475 ms
+  8  ae-4.r21.dllstx09.us.bb.gin.ntt.net (129.250.2.200)  53.644 ms  54.803
+ ms  48.801 ms
+  9  ae-0.r20.dllstx09.us.bb.gin.ntt.net (129.250.2.58)  53.730 ms  51.283 ms
+ 51.848 ms
+ 10  ae-5.r20.lsanca03.us.bb.gin.ntt.net (129.250.2.168)  73.374 ms  96.647
+ ms  66.866 ms
+ 11  ae-1.r04.lsanca03.us.bb.gin.ntt.net (129.250.5.2)  66.552 ms  68.726 ms
+ 71.101 ms
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ >From other locations, a traceroute goes right through.
+ downforeveryoneorjustme.com reports dreamhost as alive.
+ ---
+ Andy Ringsmuth
+ 7215 Dorchester Court
+ Lincoln, NE 68521
+ (402) 304-0083
+ andyring at inebraska.com
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <007001ccd229$c5a63d00$50f2b700$@iname.com>
+ On Fri, Jan 13, 2012 at 14:30, Frank Bulk <frnkblk at iname.com> wrote:
+ It seems like all traffic to dreamhost has shifted from NTT to Cogent.
+ darius at djmachine:~$ lft -d 80 dreamhost.com
+ Tracing .........***.T
+ TTL LFT trace to dreamhost.com (208.97.187.204):80/tcp
+  2  gi4-2.cr1.phoenix.codero.com (69.64.66.29) 0.3ms
+  3  gi4-18.cr2.phoenix.codero.com (69.64.66.18) 0.5ms
+  4  ge-11-2-3.mpr3.phx2.us.above.net (64.125.192.193) 9.8ms
+  5  xe-2-2-0.cr1.lax112.us.above.net (64.125.28.70) 44.7ms
+  6  xe-0-1-0.mpr1.lax12.us.above.net (64.125.31.189) 9.8ms
+ **  [neglected] no reply packets received from TTL 7
+  8  te0-0-0-2.ccr22.lax01.atlas.cogentco.com (154.54.30.193) 10.7ms
+ **  [neglected] no reply packets received from TTL 9
+ 10  38.122.20.218 10.2ms
+ 11  ip-66-33-201-114.dreamhost.com (66.33.201.114) 10.9ms
+ 12  [target open] dreamhost.com (208.97.187.204):80 10.5ms
+ -- 
+ Darius Jahandarie
+ ----- Original Message -----
+ Ok from Tampa:
+ HOST: www100                      Snt: 10    Loss%  Last   Avg  Best  Wrst StDev
+ 173.241.205.130                               0.0%   0.7   0.6   0.5   0.7   0.1
+ gi2-3.border3.esnet.com                       0.0%   1.9   0.7   0.5   1.9   0.4
+ gi1-47.202.ccr01.tpa01.atlas.cogentco.com     0.0%  22.3   6.9   0.6  22.3   8.7
+ te0-0-0-7.ccr22.iah01.atlas.cogentco.com      0.0%  21.9  21.9  21.8  22.2   0.1
+ te0-2-0-5.ccr22.lax01.atlas.cogentco.com      0.0%  57.8  57.9  57.8  58.2   0.1
+ te8-1.mag01.lax01.atlas.cogentco.com          0.0%  57.7 101.9  57.7 235.9  72.3
+ 38.122.20.218                                 0.0%  58.1  58.5  57.9  62.4   1.4
+ ip-66-33-201-114.dreamhost.com               20.0%  58.3  71.0  58.1 144.2  29.8
+ dreamhost.com                                 0.0%  57.9  58.0  57.8  58.6   0.3
+ And also from St Pete RoadRunner:
+ HOST: hades                       Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    0.6   0.7   0.6   1.2   0.2
+   2.|-- smc-cablemodem             0.0%    10    1.1   1.1   1.1   1.2   0.0
+   3.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+   4.|-- gig12-0-0-2011.tampfledc-  0.0%    10   30.0  15.8  10.9  30.0   7.3
+   5.|-- ge2-2-0.tampfledc-rtr3.ta  0.0%    10   13.4  17.4  11.3  48.6  11.3
+   6.|-- 72-31-208-1.net.bhntampa.  0.0%    10   12.5  18.3  10.7  68.2  17.6
+   7.|-- ae-11-11.cr0.dfw10.tbone.  0.0%    10   36.8  37.9  34.9  51.5   4.9
+     |  `|-- 66.109.6.106
+   8.|-- ae-3-0.pr0.dfw10.tbone.rr  0.0%    10   37.6  38.3  35.9  42.7   2.5
+     |  `|-- 66.109.9.105
+   9.|-- be-10-202-pe01.1950stemmo  0.0%    10   43.4  41.6  37.4  46.5   3.2
+  10.|-- pos-2-6-0-0-cr01.dallas.t  0.0%    10   37.9  39.2  35.4  50.7   5.3
+  11.|-- pos-0-7-0-0-cr01.losangel  0.0%    10   70.4  69.2  67.2  71.1   1.4
+  12.|-- as26347.losangeles.ca.ibo  0.0%    10   67.9  68.4  66.4  71.5   1.6
+  13.|-- ip-66-33-201-114.dreamhos 60.0%    10   80.9  76.5  73.6  80.9   3.1
+  14.|-- dreamhost.com             10.0%    10   77.5  73.7  71.5  77.5   1.7
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 @ Chicago
+###############################################################
+ FYI --
+ We had a hit to the Internet traffic flowing through one of our
+ datacenters earlier on a Level 3 circuit and they confirmed that there
+ was an outage in their Chicago location.  Our hit was at about 2:04 -
+ 2:07PM EST.  I spoke w/ a helpdesk guy about 15 minutes ago and was
+ told that traffic was re-routed around the affected device.  No
+ further issues from my end though.
+ David.
+ Saw some packet loss alarms to customers going over Level3 in Dallas Tx 
+ around same time.  Seems to have cleared here also.
+ On 01/16/2012 01:38 PM, David Swafford wrote:
+ I couldn't reach 4.2.2.2 for a couple of minutes, but I can now.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Mon, Jan 16, 2012 at 2:38 PM, David Swafford <david at davidswafford.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+DNS resolution of ebay.com
+###############################################################
+ We've received two calls complaining about access to www.ebay.com.  Further
+ checking shows that none of our DNS servers can resolve either www.ebay.com
+ or ebay.com.  DIG returns a "timed out".  Flushing our caches made no
+ difference, and our upstream provider's DNS servers are acting the same way.
+ Digging against 8.8.8.8 works fine, but against the 4 NS servers listed for
+ ebay, they don't, probably because their DNS server is all ebaydns.com.
+ nagios:/tmp# dig A ebay.com @96.31.0.5
+ ; <<>> DiG 9.7.3 <<>> A ebay.com @96.31.0.5
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ nagios:/tmp# dig A ebay.com @167.142.225.5
+ ; <<>> DiG 9.7.3 <<>> A ebay.com @167.142.225.5
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 41569
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      A
+ ;; Query time: 4433 msec
+ ;; SERVER: 167.142.225.5#53(167.142.225.5)
+ ;; WHEN: Tue Jan 17 14:19:12 2012
+ ;; MSG SIZE  rcvd: 26
+ nagios:/tmp#
+ nagios:/tmp# dig NS ebay.com @8.8.8.8
+ ; <<>> DiG 9.7.3 <<>> NS ebay.com @8.8.8.8
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58612
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      NS
+ ;; ANSWER SECTION:
+ ebay.com.               63033   IN      NS      sjc-dns2.ebaydns.com.
+ ebay.com.               63033   IN      NS      smf-dns2.ebaydns.com.
+ ebay.com.               63033   IN      NS      smf-dns1.ebaydns.com.
+ ebay.com.               63033   IN      NS      sjc-dns1.ebaydns.com.
+ ;; Query time: 37 msec
+ ;; SERVER: 8.8.8.8#53(8.8.8.8)
+ ;; WHEN: Tue Jan 17 14:18:22 2012
+ ;; MSG SIZE  rcvd: 126
+ nagios:/tmp#
+ Update -- there's a routing loop between our upstream provider and Sprint.
+ Hence the lack of DNS resolution. =)
+ nagios:/home/fbulk# tcptraceroute 66.135.207.137
+ Selected device eth0.3, address 96.31.0.5, port 39237 for outgoing packets
+ Tracing the path to 66.135.207.137 on TCP port 80 (www), 30 hops max
+ ...
+  4  ins-db1-te-13-2-219.desm.netins.net (167.142.60.157)  7.058 ms  7.077 ms
+ 6.990 ms
+  5  ins-dc1-et-8-2.desm.netins.net (167.142.67.5)  6.924 ms  6.993 ms  6.901
+ ms
+  6  ins-kc2-et-8-1.kmrr.netins.net (167.142.67.30)  6.917 ms  6.866 ms
+ 6.875 ms
+  7  ins-kc1-et-9-1.kmrr.netins.net (167.142.67.42)  6.933 ms  6.962 ms
+ 6.912 ms
+  8  144.223.35.225  15.118 ms  15.038 ms  15.105 ms
+  9  144.232.25.223  18.342 ms  18.489 ms  18.651 ms
+ 10  * 144.232.25.220 24.455 ms  24.455 ms
+ 11  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  24.558 ms  24.743
+ ms  24.768 ms
+ 12  144.232.25.223  27.911 ms  27.835 ms  31.434 ms
+ 13  144.232.25.220  34.015 ms  33.832 ms  33.904 ms
+ 14  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  34.305 ms  34.130
+ ms  34.044 ms
+ 15  144.232.25.223  37.271 ms  37.255 ms  37.176 ms
+ 16  144.232.25.220  43.179 ms  43.329 ms  43.242 ms
+ 17  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  43.514 ms  43.587
+ ms  43.319 ms
+ 18  144.232.25.223  46.578 ms  46.786 ms  46.814 ms
+ 19  144.232.25.220  52.628 ms  52.710 ms  52.638 ms
+ 20  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  53.218 ms  52.951
+ ms  52.957 ms
+ 21  144.232.25.223  55.959 ms  55.881 ms  55.976 ms
+ 22  144.232.25.220  62.223 ms  62.040 ms  61.964 ms
+ 23  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  65.137 ms  62.283
+ ms  62.218 ms
+ 24  144.232.25.223  65.440 ms  65.291 ms  65.405 ms
+ 25  144.232.25.220  88.613 ms  71.442 ms  71.560 ms
+ 26  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  71.528 ms  108.371
+ ms  79.077 ms
+ 27  144.232.25.223  75.200 ms  75.223 ms  74.923 ms
+ 28  * 144.232.25.220 80.707 ms  81.060 ms
+ 29  sl-crs2-chi-0-7-3-0.sprintlink.net (144.232.19.119)  104.564 ms  81.222
+ ms  81.126 ms
+ 30  144.232.25.223  84.306 ms  84.223 ms  84.163 ms
+ Destination not reached
+ nagios:/home/fbulk#
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Frank Bulk - iName.com
+ Sent: Tuesday, January 17, 2012 2:20 PM
+ We've received two calls complaining about access to www.ebay.com.  Further
+ checking shows that none of our DNS servers can resolve either www.ebay.com
+ or ebay.com.  DIG returns a "timed out".  Flushing our caches made no
+ difference, and our upstream provider's DNS servers are acting the same way.
+ Digging against 8.8.8.8 works fine, but against the 4 NS servers listed for
+ ebay, they don't, probably because their DNS server is all ebaydns.com.
+ nagios:/tmp# dig A ebay.com @96.31.0.5
+ ; <<>> DiG 9.7.3 <<>> A ebay.com @96.31.0.5
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ nagios:/tmp# dig A ebay.com @167.142.225.5
+ ; <<>> DiG 9.7.3 <<>> A ebay.com @167.142.225.5
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 41569
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      A
+ ;; Query time: 4433 msec
+ ;; SERVER: 167.142.225.5#53(167.142.225.5)
+ ;; WHEN: Tue Jan 17 14:19:12 2012
+ ;; MSG SIZE  rcvd: 26
+ nagios:/tmp#
+ nagios:/tmp# dig NS ebay.com @8.8.8.8
+ ; <<>> DiG 9.7.3 <<>> NS ebay.com @8.8.8.8
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58612
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      NS
+ ;; ANSWER SECTION:
+ ebay.com.               63033   IN      NS      sjc-dns2.ebaydns.com.
+ ebay.com.               63033   IN      NS      smf-dns2.ebaydns.com.
+ ebay.com.               63033   IN      NS      smf-dns1.ebaydns.com.
+ ebay.com.               63033   IN      NS      sjc-dns1.ebaydns.com.
+ ;; Query time: 37 msec
+ ;; SERVER: 8.8.8.8#53(8.8.8.8)
+ ;; WHEN: Tue Jan 17 14:18:22 2012
+ ;; MSG SIZE  rcvd: 126
+ nagios:/tmp#
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ I can confirmed that we are seeing this as well:
+ dwhite at quark:~$ dig +trace www.ebay.com
+ ; <<>> DiG 9.7.3 <<>> +trace www.ebay.com
+ ;; global options: +cmd
+ .                       76272   IN      NS      a.root-servers.net.
+ .                       76272   IN      NS      l.root-servers.net.
+ .                       76272   IN      NS      e.root-servers.net.
+ .                       76272   IN      NS      k.root-servers.net.
+ .                       76272   IN      NS      b.root-servers.net.
+ .                       76272   IN      NS      g.root-servers.net.
+ .                       76272   IN      NS      f.root-servers.net.
+ .                       76272   IN      NS      d.root-servers.net.
+ .                       76272   IN      NS      h.root-servers.net.
+ .                       76272   IN      NS      i.root-servers.net.
+ .                       76272   IN      NS      m.root-servers.net.
+ .                       76272   IN      NS      c.root-servers.net.
+ .                       76272   IN      NS      j.root-servers.net.
+ ;; Received 385 bytes from 10.0.1.10#53(10.0.1.10) in 0 ms
+ com.                    172800  IN      NS      m.gtld-servers.net.
+ com.                    172800  IN      NS      g.gtld-servers.net.
+ com.                    172800  IN      NS      b.gtld-servers.net.
+ com.                    172800  IN      NS      d.gtld-servers.net.
+ com.                    172800  IN      NS      j.gtld-servers.net.
+ com.                    172800  IN      NS      e.gtld-servers.net.
+ com.                    172800  IN      NS      l.gtld-servers.net.
+ com.                    172800  IN      NS      a.gtld-servers.net.
+ com.                    172800  IN      NS      c.gtld-servers.net.
+ com.                    172800  IN      NS      f.gtld-servers.net.
+ com.                    172800  IN      NS      h.gtld-servers.net.
+ com.                    172800  IN      NS      i.gtld-servers.net.
+ com.                    172800  IN      NS      k.gtld-servers.net.
+ ;; Received 502 bytes from 192.33.4.12#53(c.root-servers.net) in 21 ms
+ ebay.com.               172800  IN      NS      sjc-dns1.ebaydns.com.
+ ebay.com.               172800  IN      NS      sjc-dns2.ebaydns.com.
+ ebay.com.               172800  IN      NS      smf-dns1.ebaydns.com.
+ ebay.com.               172800  IN      NS      smf-dns2.ebaydns.com.
+ ;; Received 194 bytes from 192.33.14.30#53(b.gtld-servers.net) in 149 ms
+ ;; connection timed out; no servers could be reached
+ dwhite at quark:~$ 
+ dwhite at quark:~$ ping sjc-dns1.ebaydns.com.
+ PING sjc-dns1.ebaydns.com (66.135.207.137) 56(84) bytes of data.
+ ^CFrom 144.232.25.223 icmp_seq=1 Time to live exceeded
+ --- sjc-dns1.ebaydns.com ping statistics ---
+ 1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+ dwhite at quark:~$ 
+ On 01/17/12?14:20?-0600, Frank Bulk - iName.com wrote:
+ >We've received two calls complaining about access to www.ebay.com.  Further
+ >checking shows that none of our DNS servers can resolve either www.ebay.com
+ >or ebay.com.  DIG returns a "timed out".  Flushing our caches made no
+ >difference, and our upstream provider's DNS servers are acting the same way.
+ >Digging against 8.8.8.8 works fine, but against the 4 NS servers listed for
+ >ebay, they don't, probably because their DNS server is all ebaydns.com.
+ >nagios:/tmp# dig A ebay.com @96.31.0.5
+ >; <<>> DiG 9.7.3 <<>> A ebay.com @96.31.0.5
+ >;; global options: +cmd
+ >;; connection timed out; no servers could be reached
+ >nagios:/tmp# dig A ebay.com @167.142.225.5
+ >; <<>> DiG 9.7.3 <<>> A ebay.com @167.142.225.5
+ >;; global options: +cmd
+ >;; Got answer:
+ >;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 41569
+ >;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+ >;; QUESTION SECTION:
+ >;ebay.com.                      IN      A
+ >;; Query time: 4433 msec
+ >;; SERVER: 167.142.225.5#53(167.142.225.5)
+ >;; WHEN: Tue Jan 17 14:19:12 2012
+ >;; MSG SIZE  rcvd: 26
+ >nagios:/tmp#
+ >nagios:/tmp# dig NS ebay.com @8.8.8.8
+ >; <<>> DiG 9.7.3 <<>> NS ebay.com @8.8.8.8
+ >;; global options: +cmd
+ >;; Got answer:
+ >;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58612
+ >;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+ >;; QUESTION SECTION:
+ >;ebay.com.                      IN      NS
+ >;; ANSWER SECTION:
+ >ebay.com.               63033   IN      NS      sjc-dns2.ebaydns.com.
+ >ebay.com.               63033   IN      NS      smf-dns2.ebaydns.com.
+ >ebay.com.               63033   IN      NS      smf-dns1.ebaydns.com.
+ >ebay.com.               63033   IN      NS      sjc-dns1.ebaydns.com.
+ >;; Query time: 37 msec
+ >;; SERVER: 8.8.8.8#53(8.8.8.8)
+ >;; WHEN: Tue Jan 17 14:18:22 2012
+ >;; MSG SIZE  rcvd: 126
+ >nagios:/tmp#
+ -- 
+ Dan White
+ C:\Users\jluthman>dig ebay.com @4.2.2.2
+ ; <<>> DiG 9.3.2 <<>> ebay.com @4.2.2.2
+ ; (1 server found)
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1415
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      A
+ ;; ANSWER SECTION:
+ ebay.com.               2554    IN      A       66.211.160.88
+ ebay.com.               2554    IN      A       66.135.205.13
+ ebay.com.               2554    IN      A       66.135.205.14
+ ebay.com.               2554    IN      A       66.211.160.87
+ ;; Query time: 23 msec
+ ;; SERVER: 4.2.2.2#53(4.2.2.2)
+ ;; WHEN: Tue Jan 17 15:30:13 2012
+ ;; MSG SIZE  rcvd: 90
+ C:\Users\jluthman>dig ebay.com @8.8.8.8
+ ; <<>> DiG 9.3.2 <<>> ebay.com @8.8.8.8
+ ; (1 server found)
+ ;; global options:  printcmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1039
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;ebay.com.                      IN      A
+ ;; ANSWER SECTION:
+ ebay.com.               1368    IN      A       66.211.160.88
+ ebay.com.               1368    IN      A       66.135.205.13
+ ebay.com.               1368    IN      A       66.135.205.14
+ ebay.com.               1368    IN      A       66.211.160.87
+ ;; Query time: 36 msec
+ ;; SERVER: 8.8.8.8#53(8.8.8.8)
+ ;; WHEN: Tue Jan 17 15:30:18 2012
+ ;; MSG SIZE  rcvd: 90
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Jan 17, 2012 at 3:20 PM, Frank Bulk - iName.com
+ <frnkblk at iname.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon IP VPN (MPLS service) problems in the U.S., anyone?
+###############################################################
+ I've got 100% lost packets involving multiple locations throughout the US and see odd traceroute behavior.
+ Thanks!
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+ We don't use Verizon MPLS at my workplace (instead just direct IP
+ peering, e.g. BGP and physical connectivity), but we aren't seeing any
+ anomalies.
+ We also use Verizon IPTF, which I believe goes across their MPLS-based
+ backbone, and we're not seeing any anomalies from any of Verizon's SBCs
+ across the US (Georgia, New York, and California).
+ Do you have an MPLS-capable traceroute available on your routers which
+ you can use to narrow down which portions in their network are
+ responsible (usually will show MPLS tags)?
+ -- 
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Tue, Jan 17, 2012 at 05:27:52PM -0500, Brad Beck wrote:
+ * Brad Beck <Brad.Beck at meritain.com> wrote:
+ "...world wide ticket ..." #2012011723964, according to
+ https://twitter.com/#!/tonhe/status/159411814126456832
+ -- 
+ Jeremy L. Gaddis
+  <20120117223335.GA32887@icarus.home.lan>
+ Brad et al,
+ A little birdie within Verizon tells me that there was, quote, "a major,
+ *MAJOR* outage that has occurred".  I didn't get any more details
+ (because we saw no impact relating to my workplace), but our Account Rep
+ was surprised to know we knew of "an MPLS issue".  :-)
+ -- 
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Tue, Jan 17, 2012 at 02:33:35PM -0800, Jeremy Chadwick wrote:
+  <20120117223335.GA32887@icarus.home.lan>
+  <20120117231227.GA34181@icarus.home.lan>
+ Thanks Jeremy!
+ @jdc.parodius.com]
+ Sent: Tuesday, January 17, 2012 6:12 PM
+ Cc: outages at outages.org
+ Brad et al,
+ A little birdie within Verizon tells me that there was, quote, "a major,
+ *MAJOR* outage that has occurred".  I didn't get any more details
+ (because we saw no impact relating to my workplace), but our Account Rep
+ was surprised to know we knew of "an MPLS issue".  :-)
+ --
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                     http://www.parodius.com/ |
+ | UNIX Systems Administrator                 Mountain View, CA, US |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Tue, Jan 17, 2012 at 02:33:35PM -0800, Jeremy Chadwick wrote:
+ Note: The information contained in this message may be privileged and confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.
+ >I've got 100% lost packets involving multiple locations throughout the US
+ and see odd traceroute behavior.
+ We saw the outage as well, however we didn't have 100% packet loss. We only
+ had loss to internet destinations (seems as though 0/0 was blackholed). The
+ prefixes in PIP that were destined to non-internet stuff stayed up. Anyone
+ else see this kind of behavior??
+ --
+ max
+ On Tue, Jan 17, 2012 at 4:27 PM, Brad Beck <Brad.Beck at meritain.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120117/7209ce38/attachment.html>
+  <CAD69L81SdsTYPzZfF0NUJZVSefen4dxvAiFRpia4tAGDdN-wKg@mail.gmail.com>
+ * N. Max Pierson <nmaxpierson at gmail.com> wrote:
+ Rumor is that they somehow injected a 0/0 into an assload of VRFs,
+ somewhere on the east coast.
+ Sounds like a resume generating event...
+ -- 
+ Jeremy L. Gaddis
+ http://evilrouters.net
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google loss
+###############################################################
+ Seeing about half my packets dropping to gmail from MPLS
+ roadwarrier3:~ $ mtr -c 10 -r pop.gmail.com
+ HOST: roadwarrier3                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. gw                            0.0%    10    2.6   4.7   2.5  22.8   6.3
+   2. mpls-dsl-gw41-233.mpls.qwest  0.0%    10   41.1  47.4  40.8  73.8  11.3
+   3. mpls-agw1.inet.qwest.net      0.0%    10   48.3  43.5  40.8  57.2   5.3
+   4. chx-edge-03.inet.qwest.net    0.0%    10   51.5  52.2  51.3  57.5   1.9
+   5. 72.14.214.78                  0.0%    10   57.2  72.5  53.0 171.6  35.7
+   6. 209.85.254.128                0.0%    10   51.9  51.7  51.1  53.3   0.6
+   7. 72.14.237.110                 0.0%    10   53.1  59.2  52.2  89.8  13.5
+   8. 209.85.241.22                 0.0%    10   63.0  66.7  62.2  91.3   9.3
+   9. 209.85.241.29                 0.0%    10   62.2  69.7  61.8 130.6  21.5
+  10. 66.249.95.138                40.0%    10   70.2  66.8  62.6  73.2   4.2
+  11. iy-in-f108.1e100.net          0.0%    10   63.0  68.3  62.6 108.9  14.5
+  <011e01ccd6e6$e441a030$acc4e090$@iberglund.com>
+ OK, so perhaps worded incorrectly.
+ NetRange:       66.249.64.0 - 66.249.95.255
+ CIDR:           66.249.64.0/19
+ OriginAS:
+ NetName:        GOOGLE
+ NetHandle:      NET-66-249-64-0-1
+ Parent:         NET-66-0-0-0-0
+ NetType:        Direct Allocation
+ RegDate:        2004-03-05
+ Updated:        2007-04-10
+ Ref:            http://whois.arin.net/rest/net/NET-66-249-64-0-1
+ btw - hop 11 is now over 50%
+ On Jan 19, 2012, at 2:14 PM, Todd Berglund wrote:
+ We have seen 4% loss to their DNS servers in Chicago on Above Net network
+ for the last few hours. Thought it was isolated, maybe not. 
+ Maybe it is the SOPA and PIPA backers attacking. Oh wait... they aren't
+ engineers; they just play them on TV LOL ;).
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jerry Jones
+ Sent: Thursday, January 19, 2012 11:15 AM
+ Seeing about half my packets dropping to gmail from MPLS
+ roadwarrier3:~ $ mtr -c 10 -r pop.gmail.com
+ HOST: roadwarrier3                Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. gw                            0.0%    10    2.6   4.7   2.5  22.8   6.3
+  2. mpls-dsl-gw41-233.mpls.qwest  0.0%    10   41.1  47.4  40.8  73.8  11.3
+  3. mpls-agw1.inet.qwest.net      0.0%    10   48.3  43.5  40.8  57.2   5.3
+  4. chx-edge-03.inet.qwest.net    0.0%    10   51.5  52.2  51.3  57.5   1.9
+  5. 72.14.214.78                  0.0%    10   57.2  72.5  53.0 171.6  35.7
+  6. 209.85.254.128                0.0%    10   51.9  51.7  51.1  53.3   0.6
+  7. 72.14.237.110                 0.0%    10   53.1  59.2  52.2  89.8  13.5
+  8. 209.85.241.22                 0.0%    10   63.0  66.7  62.2  91.3   9.3
+  9. 209.85.241.29                 0.0%    10   62.2  69.7  61.8 130.6  21.5
+ 10. 66.249.95.138                40.0%    10   70.2  66.8  62.6  73.2   4.2
+ 11. iy-in-f108.1e100.net          0.0%    10   63.0  68.3  62.6 108.9  14.5
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <011e01ccd6e6$e441a030$acc4e090$@iberglund.com>
+  <9A82B982-CF4E-452E-9E71-B49F436443A0@danrj.com>
+ I tested from servers in two different locations and only see packet loss on
+ the second-last hop, nothing on the last hop.  This suggests that there may
+ be some kind ICMP rate-limiting on earlier intermediate hops, but I've seen
+ no indication of packet loss to the end-point, which is the most important
+ thing.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jerry Jones
+ Sent: Thursday, January 19, 2012 2:19 PM
+ Cc: outages at outages.org
+ OK, so perhaps worded incorrectly.
+ NetRange:       66.249.64.0 - 66.249.95.255
+ CIDR:           66.249.64.0/19
+ OriginAS:
+ NetName:        GOOGLE
+ NetHandle:      NET-66-249-64-0-1
+ Parent:         NET-66-0-0-0-0
+ NetType:        Direct Allocation
+ RegDate:        2004-03-05
+ Updated:        2007-04-10
+ Ref:            http://whois.arin.net/rest/net/NET-66-249-64-0-1
+ btw - hop 11 is now over 50%
+ On Jan 19, 2012, at 2:14 PM, Todd Berglund wrote:
+ We have seen 4% loss to their DNS servers in Chicago on Above Net network
+ for the last few hours. Thought it was isolated, maybe not. 
+ Maybe it is the SOPA and PIPA backers attacking. Oh wait... they aren't
+ engineers; they just play them on TV LOL ;).
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jerry Jones
+ Sent: Thursday, January 19, 2012 11:15 AM
+ Seeing about half my packets dropping to gmail from MPLS
+ roadwarrier3:~ $ mtr -c 10 -r pop.gmail.com
+ HOST: roadwarrier3                Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. gw                            0.0%    10    2.6   4.7   2.5  22.8   6.3
+  2. mpls-dsl-gw41-233.mpls.qwest  0.0%    10   41.1  47.4  40.8  73.8  11.3
+  3. mpls-agw1.inet.qwest.net      0.0%    10   48.3  43.5  40.8  57.2   5.3
+  4. chx-edge-03.inet.qwest.net    0.0%    10   51.5  52.2  51.3  57.5   1.9
+  5. 72.14.214.78                  0.0%    10   57.2  72.5  53.0 171.6  35.7
+  6. 209.85.254.128                0.0%    10   51.9  51.7  51.1  53.3   0.6
+  7. 72.14.237.110                 0.0%    10   53.1  59.2  52.2  89.8  13.5
+  8. 209.85.241.22                 0.0%    10   63.0  66.7  62.2  91.3   9.3
+  9. 209.85.241.29                 0.0%    10   62.2  69.7  61.8 130.6  21.5
+ 10. 66.249.95.138                40.0%    10   70.2  66.8  62.6  73.2   4.2
+ 11. iy-in-f108.1e100.net          0.0%    10   63.0  68.3  62.6 108.9  14.5
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+T-Mobile USA issue?
+###############################################################
+ http://www.androidauthority.com/is-t-mobile-usa-suffering-from-a-network-out
+ age-46202/
+ The two comments on that blog posting were by people who had service -
+ perhaps the issue is very localized.
+ Frank
+ Seems to be fine here in Colorado as well.
+ Blake Pfankuch
+ Cisco, Microsoft, Adtran and VMware Certification Information available upon request.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Friday, January 20, 2012 8:01 AM
+ http://www.androidauthority.com/is-t-mobile-usa-suffering-from-a-network-out
+ age-46202/
+ The two comments on that blog posting were by people who had service -
+ perhaps the issue is very localized.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber outage in Miami [from this past weekend]
+###############################################################
+ Reported on NANOG this morning about this past weekend
+ -----Original Message-----
+ From: Faisal Imtiaz [mailto:faisal at snappydsl.net] 
+ Sent: Monday, January 23, 2012 9:28 AM
+ Yes,  quiet a few folks were affected, due to Fiberlight fiber 
+ cutover...event.
+ But  the effects were  very localized
+ Faisal Imtiaz
+ Snappy Internet&  Telecom
+ 7266 SW 48 Street
+ Miami, Fl 33155
+ Tel: 305 663 5518 x 232
+ Helpdesk: 305 663 5518 option 2 Email: Support at Snappydsl.net
+ On 1/23/2012 10:02 AM, Jimmy Changa wrote:
+ 2 pieces of dark fiber for over almost 24 hours due to a fiber move being
+ performed by FiberLight. I'm curious if anyone else was impacted.
+ Still affecting some customers, including us.  Fiberlight was in Equinix 
+ space in a building that was condemned and was forced to move fiber 
+ terminations from what I can gather.  Obviously it is/was not going well.
+ On 01/23/2012 12:16 PM, Frank Bulk wrote:
+  <4F1DDE8A.2060007@packetpimp.org>
+ We are still not restored, I am sure there are others.  And they have a 
+ POP in our building in Delray, I am assuming it is not restored as 
+ well.  Piss poor.
+ On 01/23/2012 05:26 PM, Jason LeBlanc wrote:
+ >>> Was anyone impacted by a botched fiber move in Miami this weekend? I 
+ >>> lost
+ >>> Sent from mobile device
+ >>>
+###############################################################
+END
+###############################################################
+
+###############################################################
+BBC News
+###############################################################
+ Unreachable at the current time.
+ Andrew
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120125/aee711d3/attachment.html>
+ On Wed Jan 25, 2012 at 05:50:32AM -0800, andrew.wallace wrote:
+ The TV Channel or the website? Both are working for me :)
+ How about some more information, rather than just trying to be the first to
+ announce it. What's your IP (or you upstream, or whatever you're happy to
+ share). What errors do you get? Does traceroute give you anything useful to
+ work from?
+ Sounds a bit like the out-of-hours escalation I got from our service desk this
+ morning - "Customer X is reporting that their Internet is down".
+ Simon
+ It is good for me
+ Can you provide some more information, traces etc
+ *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+ Behalf Of *andrew.wallace
+ *Sent:* 25 January 2012 13:51
+ *To:* outages at outages.org
+ *Subject:* [outages] BBC News
+ Unreachable at the current time.
+ Andrew
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120125/f16b12b9/attachment.html>
+ OK from here.
+ http://www.downforeveryoneorjustme.com/
+ Ed Spoon
+ Manager of Internet Services
+ triparish.net / cajun.net
+ Ph: 985-879-3219 / Fax: 985-876-6789
+ Computer Sales & Services, Inc.
+ Member: FISPA / WISPA
+ On Wed, Jan 25, 2012 at 7:50 AM, andrew.wallace <
+ andrew.wallace at rocketmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120125/940ca95f/attachment.html>
+ local ubr related I understand.
+ internal lan to the hosted pop worked ok though :)
+ Colin
+ On 25 Jan 2012, at 13:50, andrew.wallace wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120125/8d159d26/attachment.html>
+ I'm not aware of any problems our end, may be local to you
+ more data is needed to investigate
+ regards
+ brandon
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream Regional Outage (Ohio)
+###############################################################
+ Windstream is having a regional outage currently.  No ETR from the
+ phone rep when I spoke with them a few minutes ago.  Affects phone and
+ data.
+ Ian
+ -- 
+ Ian Wilson
+ ian.m.wilson at gmail.com
+ Solving site load issues with database replication is a lot like
+ solving your own personal problems with heroin -- at first, it sorta
+ works, but after a while things just get out of hand.
+ The default starting port in UNIX traceroute is 33434. This comes from
+ 32768 (2^15, or the max value of a signed 16-bit integer) + 666.
+###############################################################
+END
+###############################################################
+
+###############################################################
+mysql.org down?
+###############################################################
+ On Jan 25, 2012, at 6:51 PM, Ingo Flaschberger wrote:
+ Routing loop inside bahnhof.net:
+ nova-dhcp-host111:~ ryan$ mtr --report  mysql.org
+ HOST: nova-dhcp-host111.u13.net   Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- vlan11.net5501-a.u13.net   0.0%    10    0.2   0.6   0.2   3.6   1.1
+   2.|-- l100.washdc-vfttp-93.veri  0.0%    10   59.6  41.9   6.8  59.6  19.0
+   3.|-- g0-12-4-3.washdc-lcr-21.v  0.0%    10   47.0  40.6   9.0  91.8  28.5
+   4.|-- so-13-1-0-0.lcc2-res-bb-r  0.0%    10   39.3  24.2   5.7  66.9  22.7
+   5.|-- 0.xe-4-1-0.xl3.iad8.alter  0.0%    10   11.4  19.0   4.4  66.0  18.0
+   6.|-- 0.tengige0-4-4-0.gw1.iad8  0.0%    10    8.1  10.4   6.5  25.5   5.5
+     |  `|-- 152.63.38.246
+     |   |-- 152.63.35.137
+     |   |-- 152.63.32.233
+     |   |-- 152.63.35.141
+   7.|-- teliasonera-gw.customer.a  0.0%    10  110.5 192.7  32.6 377.0 100.0
+   8.|-- nyk-bb1-link.telia.net     0.0%    10   72.6  69.6  22.6  80.9  16.7
+   9.|-- kbn-bb1-link.telia.net     0.0%    10  142.7 155.7 136.6 197.3  17.3
+  10.|-- kbn-b3-link.telia.net      0.0%    10  153.7 152.8 117.0 195.3  18.9
+  11.|-- bahnhof-ic-133084-kbn-b3.  0.0%    10  164.1 158.8 133.6 168.3   9.8
+  12.|-- cph-cr1.mmo-cr1.bahnhof.n  0.0%    10  161.8 157.5 109.1 166.5  17.3
+  13.|-- mmo-cr1.sto-cr3.bahnhof.n  0.0%    10  165.8 161.9 159.1 165.8   2.2
+  14.|-- sto-cr1.pio-dr3.bahnhof.n  0.0%    10  162.5 161.6 156.4 167.1   3.7
+  15.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  163.6 157.0 141.3 163.6   5.9
+  16.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  169.9 156.6 118.0 172.7  17.7
+  17.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  150.7 142.5 103.6 160.4  22.7
+  18.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  123.2 138.3 119.1 191.8  24.5
+  19.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  109.4 114.5 102.3 160.6  20.4
+  20.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  115.6 121.6 111.6 167.4  16.4
+  21.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  101.8 110.1 101.8 145.7  12.7
+  22.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  187.1 180.1 114.1 209.4  34.3
+  23.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  164.6 156.1 121.2 164.6  12.5
+  24.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  171.1 164.6 116.7 176.7  17.3
+  25.|-- pio-dr3.pio-dr2.bahnhof.n  0.0%    10  157.1 156.4 133.9 164.4   9.9
+  26.|-- sto-cr1.sto-cr2.bahnhof.n  0.0%    10  162.9 160.8 115.8 179.3  18.4
+  27.|-- pio-dr3.pio-dr2.bahnhof.n 10.0%    10  111.6 146.3 110.7 165.2  21.1
+  28.|-- sto-cr1.sto-cr2.bahnhof.n 10.0%    10  186.9 166.9 118.5 186.9  19.1
+  29.|-- pio-dr3.pio-dr2.bahnhof.n 10.0%    10  163.5 160.0 154.7 165.0   4.0
+  30.|-- sto-cr1.sto-cr2.bahnhof.n 10.0%    10  182.6 171.5 163.8 182.6   6.5
+###############################################################
+END
+###############################################################
+
+###############################################################
+fiber cut - suddenlink, Tyler, TX?
+###############################################################
+ Suddenlink says "we have a major fiber outage affecting our entire 
+ network right now. no eta at the moment"
+ Traceroute to many places (google, included) dies in TX
+ -- 
+ Ken Anderson
+ We had the same earlier today. Although we are (mostly) back up for now, we are seeing issues to some websites still.
+ $ traceroute facebook.com
+ traceroute to facebook.com (69.171.229.11), 30 hops max, 60 byte packets
+  1  NIXA-OFFICE-RTR-P01.totalhighspeed.net (10.0.251.1)  0.135 ms  0.089 ms  0.085 ms
+  2  10.255.251.1 (10.255.251.1)  0.217 ms  0.210 ms  0.206 ms
+  3  173-219-47-145.mid.sta.suddenlink.net (173.219.46.145)  1.398 ms  1.335 ms  1.360 ms
+  4  173.219.247.174 (173.219.247.174)  21.521 ms  21.370 ms  21.184 ms
+  5  173-219-247-42-link.sta.suddenlink.net (173.219.247.42)  21.672 ms  21.518 ms  21.333 ms
+  6  cdm-66-76-31-1.lfkn.suddenlink.net (66.76.31.1)  21.130 ms  21.380 ms  21.197 ms
+  7  66.76.30.129 (66.76.30.129)  23.766 ms  23.576 ms  23.396 ms
+  8  * * *
+  9  * * *
+ 10  * * *
+ 11  * * *
+ 12  * * *
+ 13  * * 173-219-250-212-link.sta.suddenlink.net (173.219.250.212)  31.855 ms
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ -- 
+ Christopher Tyler 
+ MTCRE/MTCNA/MTCTCE/MTCWE 
+ Total Highspeed Internet Services 
+ 417.851.1107
+ ----- Original Message -----
+###############################################################
+END
+###############################################################
+
+###############################################################
+Reachability issues in NA
+###############################################################
+ Anyone seeeing general reachability issues in  North America particularly
+ East Coast or things going through New York or Philadelphia?
+ I looked at the internet traffic report and see a lot of 100% packet loss
+ but not sure how much I should read into that.
+ We went out of band on a MiFi and still had issues getting around.
+ Seems to have cleared up for at least us.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20120130/06812165/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Mediacom (Missouri ISP) fiber cut - large area
+###############################################################
+ (Let me know if this is not something you guys want to hear about. They cover a lot of Missouri so I'm submitting this)
+ Mediacom, an ISP that covers a wide area of Missouri (and the exclusive provider in some areas) has a fiber cut and their customers have lost internet connectivity.
+ Per their Twitter feed:
+ "There was a transport fiber damaged" (31min ago)
+ "There is currently a very large outage due to a damaged fiber line. Our technicians are working as quickly as they can."
+ http://twitter.com/#!/MediacomSupport
+ Regards,
+ Daniel Wolf
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet outage at Mediacom affects 30, 000+ customers in southern MO
+###############################################################
+ Quote:
+ Mediacom says its problem connecting to another company caused an Internet
+ service outage for 30,000 - 60,000 Mediacom customers, including KY3 and
+ KSPR.  The outage started about 1:30 p.m. Monday and was still ongoing four
+ hours later.   Mediacom said it didn't know how long the problem would last.
+ It affects customers in Springfield and other areas of southern Missouri.
+ http://www.kspr.com/news/ky3-internet-outage-at-mediacom-affects-30000-custo
+ mers-in-southern-mo-20120130,0,575163.story
+ Anyone know what this "problem connecting to another company" is?
+ Apparently service has been restored:
+ http://ozarksfirst.com/fulltext?nxd_id=595472
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Frank Bulk - iName.com
+ Sent: Monday, January 30, 2012 6:17 PM
+ Subject: [outages] Internet outage at Mediacom affects 30, 000+ customers in southern MO
+ Quote:
+ Mediacom says its problem connecting to another company caused an Internet
+ service outage for 30,000 - 60,000 Mediacom customers, including KY3 and
+ KSPR.  The outage started about 1:30 p.m. Monday and was still ongoing four
+ hours later.   Mediacom said it didn't know how long the problem would last.
+ It affects customers in Springfield and other areas of southern Missouri.
+ http://www.kspr.com/news/ky3-internet-outage-at-mediacom-affects-30000-custo
+ mers-in-southern-mo-20120130,0,575163.story
+ Anyone know what this "problem connecting to another company" is?
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+

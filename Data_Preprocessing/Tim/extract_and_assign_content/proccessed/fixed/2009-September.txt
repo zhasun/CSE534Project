@@ -1,0 +1,2321 @@
+From cstone at axint.net  Tue Sep  1 16:05:56 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 14:05:56 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+Message-ID: <4A9D7EA4.1080307@axint.net>
+
+Anyone else seeing 100% connection failures over the last few minutes to 
+gmail.com servers? I can ping them fine - but fail connections via web-mail, 
+pop3 and imap.
+
+
+
+Chris
+
+
+From quentin at MIT.EDU  Tue Sep  1 16:07:39 2009
+From: quentin at MIT.EDU (Quentin Smith)
+Date: Tue, 1 Sep 2009 16:07:39 -0400 (EDT)
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D7EA4.1080307@axint.net>
+References: <4A9D7EA4.1080307@axint.net>
+Message-ID: <alpine.DEB.1.10.0909011607240.10971@dr-wily.mit.edu>
+
+Yes, this is a known problem:
+
+http://www.google.com/appsstatus#rm=1&di=1&hl=en
+
+--Quentin
+
+On Tue, 1 Sep 2009, Chris Stone wrote:
+
+> Anyone else seeing 100% connection failures over the last few minutes to 
+> gmail.com servers? I can ping them fine - but fail connections via web-mail, 
+> pop3 and imap.
+>
+>
+>
+> Chris
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From cstone at axint.net  Tue Sep  1 16:10:14 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 14:10:14 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <alpine.DEB.1.10.0909011607240.10971@dr-wily.mit.edu>
+References: <4A9D7EA4.1080307@axint.net>
+	<alpine.DEB.1.10.0909011607240.10971@dr-wily.mit.edu>
+Message-ID: <4A9D7FA6.7000004@axint.net>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+See that now - thanks....
+
+Quentin Smith wrote:
+| Yes, this is a known problem:
+|
+| http://www.google.com/appsstatus#rm=1&di=1&hl=en
+|
+| --Quentin
+|
+| On Tue, 1 Sep 2009, Chris Stone wrote:
+|
+|> Anyone else seeing 100% connection failures over the last few minutes
+|> to gmail.com servers? I can ping them fine - but fail connections via
+|> web-mail, pop3 and imap.
+|>
+|>
+|>
+|> Chris
+|>
+|> _______________________________________________
+|> outages mailing list
+|> outages at outages.org
+|> https://puck.nether.net/mailman/listinfo/outages
+|>
+
+
+- --
+Chris Stone, MCSE
+Vice President, CTO
+AxisInternet, Inc.
+http://www.axint.net
+DSL, VoIP, hosting, email filtering, co-location, online backup & more
+Phone: +1 303 592 2947 x302 (office)  +1 303 570 6947 (cell)
+- -------------------------------------------------------------------------
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mandriva - http://enigmail.mozdev.org
+
+iEYEAREKAAYFAkqdf6YACgkQnSVip47FEdPnqACdH9zIBMYf5oB1b1aZNfZCqpzf
+UY0AoJQTKW8BeVjXEWCdQQDoABOsmMAv
+=AHHQ
+-----END PGP SIGNATURE-----
+
+From afurman at amf.net  Tue Sep  1 16:10:34 2009
+From: afurman at amf.net (Adam Furman)
+Date: Tue, 1 Sep 2009 16:10:34 -0400
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D7EA4.1080307@axint.net>
+Message-ID: <C6C2F7FA.F82E%afurman@amf.net>
+
+Chris,
+
+Yes Google is having issues via MAIL.  You can see that via their status
+page.
+
+http://www.google.com/appsstatus#hl=en
+
+Gmail is listed as a service outage right now.
+
+Adam
+
+
+On 9/1/09 4:05 PM, "Chris Stone" <cstone at axint.net> wrote:
+
+> Anyone else seeing 100% connection failures over the last few minutes to
+> gmail.com servers? I can ping them fine - but fail connections via web-mail,
+> pop3 and imap.
+> 
+> 
+> 
+> Chris
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From daniel at net2ez.com  Tue Sep  1 16:19:28 2009
+From: daniel at net2ez.com (Daniel Faubel)
+Date: Tue, 1 Sep 2009 13:19:28 -0700
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D7EA4.1080307@axint.net>
+References: <4A9D7EA4.1080307@axint.net>
+Message-ID: <702C3A3F3EDC0C4DAE40374D274240CC1EEB5A@lax4-m4.ezdom.net2ez.com>
+
+Alert!: HTTP/1.1 502 Bad Gateway
+
+Los Angeles
+
+-Daniel
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 1:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+
+gmail.com servers? I can ping them fine - but fail connections via
+web-mail, 
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From jjackson at aninetworks.net  Tue Sep  1 15:50:49 2009
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Tue, 1 Sep 2009 12:50:49 -0700
+Subject: [outages] Gmail down?
+Message-ID: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+
+Anyone seeing gmail down?  
+
+Getting a 502 on gmail.com
+
+ 
+
+From cstone at axint.net  Tue Sep  1 16:34:47 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 14:34:47 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+References: <4A9D7EA4.1080307@axint.net>
+	<01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+Message-ID: <4A9D8567.6080800@axint.net>
+
+SMTP does seem to be working.
+
+Blake Pfankuch wrote:
+> Per the status page they have a full outage for mail services.
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+> Sent: Tuesday, September 01, 2009 2:06 PM
+> To: outages at outages.org
+> Subject: [outages] gmail.com pop/web/imap out?
+> 
+> Anyone else seeing 100% connection failures over the last few minutes to
+> gmail.com servers? I can ping them fine - but fail connections via web-mail,
+> pop3 and imap.
+
+
+From cstone at axint.net  Tue Sep  1 16:40:34 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 14:40:34 -0600
+Subject: [outages] Gmail down?
+In-Reply-To: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+Message-ID: <4A9D86C2.5030205@axint.net>
+
+Their status page shows outage with a recent update saying service is 
+partially restored, however I am still failing POP and IMAP connection attempts.
+
+
+Joseph Jackson wrote:
+> Anyone seeing gmail down?  
+> 
+> Getting a 502 on gmail.com
+> 
+>  
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From bpfankuch at cpgreeley.com  Tue Sep  1 16:12:32 2009
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Tue, 1 Sep 2009 14:12:32 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D7EA4.1080307@axint.net>
+References: <4A9D7EA4.1080307@axint.net>
+Message-ID: <01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+
+Per the status page they have a full outage for mail services.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 2:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+gmail.com servers? I can ping them fine - but fail connections via web-mail,
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From cblecker at peer1.com  Tue Sep  1 16:50:37 2009
+From: cblecker at peer1.com (Christoph Blecker)
+Date: Tue, 01 Sep 2009 13:50:37 -0700
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D8567.6080800@axint.net>
+References: <4A9D7EA4.1080307@axint.net>	<01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+	<4A9D8567.6080800@axint.net>
+Message-ID: <4A9D891D.6090508@peer1.com>
+
+>From [http://www.google.com/appsstatus#rm=1&di=1&hl=en]:
+-----
+We're aware of a problem with Google Mail affecting a majority of users.
+The affected users are unable to access Google Mail. We are continuing
+to investigate this issue. We will provide an update by September 1,
+2009 2:16:00 PM UTC-7 detailing when we expect to resolve the problem.
+Users can access their email via IMAP or POP.
+-----
+
+Cheers,
+-Christoph
+
+
+Chris Stone wrote:
+> SMTP does seem to be working.
+> 
+> Blake Pfankuch wrote:
+>> Per the status page they have a full outage for mail services.
+>>
+>> -----Original Message-----
+>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>> On Behalf Of Chris Stone
+>> Sent: Tuesday, September 01, 2009 2:06 PM
+>> To: outages at outages.org
+>> Subject: [outages] gmail.com pop/web/imap out?
+>>
+>> Anyone else seeing 100% connection failures over the last few minutes to
+>> gmail.com servers? I can ping them fine - but fail connections via
+>> web-mail,
+>> pop3 and imap.
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From andrew at westgatechurch.org  Tue Sep  1 17:00:41 2009
+From: andrew at westgatechurch.org (Andrew Davis)
+Date: Tue, 1 Sep 2009 14:00:41 -0700
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <702C3A3F3EDC0C4DAE40374D274240CC1EEB5A@lax4-m4.ezdom.net2ez.com>
+References: <4A9D7EA4.1080307@axint.net>
+	<702C3A3F3EDC0C4DAE40374D274240CC1EEB5A@lax4-m4.ezdom.net2ez.com>
+Message-ID: <008e01ca2b47$45659cc0$d030d640$@org>
+
+Side note - Could this be related in any way to the dell.com outage?  Are we
+looking at a wider internet outage?
+
+Andrew Davis
+WestGate Information Technology & Support
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Daniel Faubel
+Sent: Tuesday, September 01, 2009 1:19 PM
+To: Chris Stone; outages at outages.org
+
+Alert!: HTTP/1.1 502 Bad Gateway
+
+Los Angeles
+
+-Daniel
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 1:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+
+gmail.com servers? I can ping them fine - but fail connections via web-mail,
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jlsparks at gmail.com  Tue Sep  1 17:06:08 2009
+From: jlsparks at gmail.com (Jason L  Sparks)
+Date: Tue, 1 Sep 2009 21:06:08 +0000
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+References: <4A9D7EA4.1080307@axint.net><01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+Message-ID: <123622785-1251839111-cardhu_decombobulator_blackberry.rim.net-726857093-@bda089.bisx.prod.on.blackberry>
+
+I'm receiving mail via pop from google on my BB.
+Sent from my Verizon Wireless BlackBerry
+
+-----Original Message-----
+From: Blake Pfankuch <bpfankuch at cpgreeley.com>
+
+Date: Tue, 1 Sep 2009 14:12:32 
+To: Chris Stone<cstone at axint.net>; outages at outages.org<outages at outages.org>
+
+
+Per the status page they have a full outage for mail services.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 2:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+gmail.com servers? I can ping them fine - but fail connections via web-mail,
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From lists at up-south.com  Tue Sep  1 17:05:03 2009
+From: lists at up-south.com (lists at up-south.com)
+Date: Tue, 1 Sep 2009 21:05:03 +0000
+Subject: [outages] gmail.com pop/web/imap out?
+Message-ID: <399221921-1251839114-cardhu_decombobulator_blackberry.rim.net-815835408-@bda630.bisx.prod.on.blackberry>
+
+This email came to you via google imap
+
+
+------Original Message------
+From: Blake Pfankuch
+Sender: outages-bounces at outages.org
+To: Chris Stone
+To: outages at outages.org
+Subject: Re: [outages] gmail.com pop/web/imap out?
+Sent: Sep 1, 2009 13:12
+
+Per the status page they have a full outage for mail services.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 2:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+gmail.com servers? I can ping them fine - but fail connections via web-mail,
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+Sent via BlackBerry from T-Mobile
+
+From cstone at axint.net  Tue Sep  1 17:17:12 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 15:17:12 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <399221921-1251839114-cardhu_decombobulator_blackberry.rim.net-815835408-@bda630.bisx.prod.on.blackberry>
+References: <399221921-1251839114-cardhu_decombobulator_blackberry.rim.net-815835408-@bda630.bisx.prod.on.blackberry>
+Message-ID: <4A9D8F58.8080204@axint.net>
+
+IMAP is a receive only protocol, so no, you didn't 'send' the message via IMAP.
+
+lists at up-south.com wrote:
+> This email came to you via google imap
+> 
+> 
+> ------Original Message------
+> From: Blake Pfankuch
+> Sender: outages-bounces at outages.org
+> To: Chris Stone
+> To: outages at outages.org
+> Subject: Re: [outages] gmail.com pop/web/imap out?
+> Sent: Sep 1, 2009 13:12
+> 
+> Per the status page they have a full outage for mail services.
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Stone
+> Sent: Tuesday, September 01, 2009 2:06 PM
+> To: outages at outages.org
+> Subject: [outages] gmail.com pop/web/imap out?
+> 
+> Anyone else seeing 100% connection failures over the last few minutes to
+> gmail.com servers? I can ping them fine - but fail connections via web-mail,
+> pop3 and imap.
+> 
+> 
+> 
+> Chris
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> Sent via BlackBerry from T-Mobile
+
+
+From jeremy.gault at winworld.com  Tue Sep  1 17:18:28 2009
+From: jeremy.gault at winworld.com (Jeremy G. Gault)
+Date: Tue, 1 Sep 2009 17:18:28 -0400
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D891D.6090508@peer1.com>
+References: <4A9D7EA4.1080307@axint.net>
+	<01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+	<4A9D8567.6080800@axint.net> <4A9D891D.6090508@peer1.com>
+Message-ID: <930913da0909011418w454e7726k71ca17567b98b827@mail.gmail.com>
+
+FWIW, it seems to be coming back (at least for me) now.  Am sending this
+from webmail as we speak.
+
+I have been able to access it without any problems using IMAP the entire
+time, though.
+
+-- 
+Jeremy G. Gault, KD4NED
+Network Administrator
+WinWorld Corporation
+(423) 473-8084 x705 (voice)
+(423) 650-4008 (fax)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090901/4fc0dc58/attachment.html>
+
+From cstone at axint.net  Tue Sep  1 17:18:58 2009
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 01 Sep 2009 15:18:58 -0600
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <123622785-1251839111-cardhu_decombobulator_blackberry.rim.net-726857093-@bda089.bisx.prod.on.blackberry>
+References: <4A9D7EA4.1080307@axint.net><01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+	<123622785-1251839111-cardhu_decombobulator_blackberry.rim.net-726857093-@bda089.bisx.prod.on.blackberry>
+Message-ID: <4A9D8FC2.4050908@axint.net>
+
+Back up for me as well
+
+Jason L Sparks wrote:
+> I'm receiving mail via pop from google on my BB.
+
+
+From dylan.ebner at crlmed.com  Tue Sep  1 17:19:02 2009
+From: dylan.ebner at crlmed.com (Dylan Ebner)
+Date: Tue, 1 Sep 2009 21:19:02 +0000
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D891D.6090508@peer1.com>
+References: <4A9D7EA4.1080307@axint.net>
+	<01759D50DC387C45A018FE1817CE27D75509C9F453@CPExchange1.cpgreeley.com>
+	<4A9D8567.6080800@axint.net> <4A9D891D.6090508@peer1.com>
+Message-ID: <017265BF3B9640499754DD48777C3D20664D02CD81@MBX9.EXCHPROD.USA.NET>
+
+Seems to be working from AS209 in minneapolis. 
+
+
+Dylan Ebner
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Christoph Blecker
+Sent: Tuesday, September 01, 2009 3:51 PM
+To: outages at outages.org
+
+>From [http://www.google.com/appsstatus#rm=1&di=1&hl=en]:
+-----
+We're aware of a problem with Google Mail affecting a majority of users.
+The affected users are unable to access Google Mail. We are continuing to investigate this issue. We will provide an update by September 1,
+2009 2:16:00 PM UTC-7 detailing when we expect to resolve the problem.
+Users can access their email via IMAP or POP.
+-----
+
+Cheers,
+-Christoph
+
+
+Chris Stone wrote:
+> SMTP does seem to be working.
+> 
+> Blake Pfankuch wrote:
+>> Per the status page they have a full outage for mail services.
+>>
+>> -----Original Message-----
+>> From: outages-bounces at outages.org 
+>> [mailto:outages-bounces at outages.org]
+>> On Behalf Of Chris Stone
+>> Sent: Tuesday, September 01, 2009 2:06 PM
+>> To: outages at outages.org
+>> Subject: [outages] gmail.com pop/web/imap out?
+>>
+>> Anyone else seeing 100% connection failures over the last few minutes 
+>> to gmail.com servers? I can ping them fine - but fail connections via 
+>> web-mail,
+>> pop3 and imap.
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From ramans at cwie.net  Tue Sep  1 16:45:12 2009
+From: ramans at cwie.net (Raman Sud)
+Date: Tue, 1 Sep 2009 13:45:12 -0700
+Subject: [outages] Gmail down?
+In-Reply-To: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+Message-ID: <D1DA443A294A8C4BBA2C2AD366C8EC2002FD985AAF37@EXCH07-MB.ccbill-hq.local>
+
+Yup.. I see it down
+
+
+Raman Sud
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Joseph Jackson
+Sent: Tuesday, September 01, 2009 12:51 PM
+To: outages at outages.org
+
+Anyone seeing gmail down?  
+
+Getting a 502 on gmail.com
+
+ 
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From eslerj at gmail.com  Tue Sep  1 17:21:56 2009
+From: eslerj at gmail.com (Joel Esler)
+Date: Tue, 1 Sep 2009 17:21:56 -0400
+Subject: [outages] Gmail down?
+In-Reply-To: <4A9D86C2.5030205@axint.net>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+	<4A9D86C2.5030205@axint.net>
+Message-ID: <314cf0830909011421t6f2b3d18m931881f21315b12a@mail.gmail.com>
+
+Showing back up now.
+
+On Tue, Sep 1, 2009 at 4:40 PM, Chris Stone <cstone at axint.net> wrote:
+
+> Their status page shows outage with a recent update saying service is
+> partially restored, however I am still failing POP and IMAP connection
+> attempts.
+>
+>
+>
+> Joseph Jackson wrote:
+>
+>> Anyone seeing gmail down?
+>> Getting a 502 on gmail.com
+>>
+>>  _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090901/27309b99/attachment.html>
+
+From r.nevot at gmail.com  Wed Sep  2 08:02:06 2009
+From: r.nevot at gmail.com (Raul Lopez Nevot)
+Date: Wed, 2 Sep 2009 14:02:06 +0200
+Subject: [outages] Gmail down?
+In-Reply-To: <314cf0830909011421t6f2b3d18m931881f21315b12a@mail.gmail.com>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+	<4A9D86C2.5030205@axint.net>
+	<314cf0830909011421t6f2b3d18m931881f21315b12a@mail.gmail.com>
+Message-ID: <a3e64f390909020502l5bdfa31bv4240d90984401fe2@mail.gmail.com>
+
+http://gmailblog.blogspot.com/2009/09/more-on-todays-gmail-issue.html
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/de8d5a3f/attachment.html>
+
+From andrew at westgatechurch.org  Tue Sep  1 16:12:16 2009
+From: andrew at westgatechurch.org (Andrew Davis)
+Date: Tue, 1 Sep 2009 13:12:16 -0700
+Subject: [outages] gmail.com pop/web/imap out?
+In-Reply-To: <4A9D7EA4.1080307@axint.net>
+References: <4A9D7EA4.1080307@axint.net>
+Message-ID: <008d01ca2b40$81e61000$85b23000$@org>
+
+I'm having the same issue, appears to have started around 5 minutes ago.
+Downforeveryoneorjustme lists it as down as well.
+
+Andrew Davis
+WestGate Information Technology & Support
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Chris Stone
+Sent: Tuesday, September 01, 2009 1:06 PM
+To: outages at outages.org
+
+Anyone else seeing 100% connection failures over the last few minutes to
+gmail.com servers? I can ping them fine - but fail connections via web-mail,
+pop3 and imap.
+
+
+
+Chris
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From kwallace at pcconnection.com  Wed Sep  2 09:53:22 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Wed, 2 Sep 2009 09:53:22 -0400
+Subject: [outages] issues calling into/out of southern New Hampshire?
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0D5@MKA134.pcc.int>
+
+Is anyone having issues making calls into Southern NH?  For example
+603-882? Getting a lot of intermittent fast busy signals dialing out on
+multiple carriers.
+
+ 
+
+-Keith
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/9c3e14f2/attachment-0001.html>
+
+From kwallace at pcconnection.com  Wed Sep  2 09:50:55 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Wed, 2 Sep 2009 09:50:55 -0400
+Subject: [outages] (no subject)
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0B9@MKA134.pcc.int>
+
+Is anyone having issues making calls into Southern NH?  For example
+603-882? Getting a lot of intermittent fast busy signals dialing out on
+multiple carriers.
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/0156e511/attachment.html>
+
+From mikehoffman at odysseylogistics.com  Wed Sep  2 11:38:01 2009
+From: mikehoffman at odysseylogistics.com (Mike Hoffman (CT))
+Date: Wed, 2 Sep 2009 11:38:01 -0400
+Subject: [outages] issues calling into/out of southern New Hampshire?
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0D5@MKA134.pcc.int>
+References: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0D5@MKA134.pcc.int>
+Message-ID: <36E0EB159193B54A90D743B0F8DB1ED00B48992D8E@p10-exchg.odysseylogistics.com>
+
+A call from 203-448-xxxx, which is on a Verizon PRI in Danbury, CT to 603-882-3000 in Nashua NH went through without a problem.
+
+Thank you,
+Mike Hoffman
+IT Help Desk Analyst
+Odyssey Logistics & Technology Corporation
+39 Old Ridgebury Rd
+A-4
+Danbury, CT  06810
+Phone: (203) 448-3872
+Fax: (203) 448-3901
+
+
+Odyssey Overland LLC
+1500 Rt 517
+Hackettstown, NJ  07840
+Phone: (908) 850-4490 x207
+Fax: (908) 850-3852
+
+CONFIDENTIALITY NOTICE:
+This e-mail, including any attached files, may contain confidential and privileged information for the sole use of the intended recipient. Any review, use, distribution, or disclosure by or to others is strictly prohibited. If you are not the intended recipient (or authorized to receive information for the intended recipient), please contact the sender by reply e-mail and delete all copies of this message.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Wallace Keith
+Sent: Wednesday, September 02, 2009 9:53 AM
+To: outages at outages.org
+
+Is anyone having issues making calls into Southern NH?  For example 603-882? Getting a lot of intermittent fast busy signals dialing out on multiple carriers.
+
+-Keith
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/dcad9e0b/attachment.html>
+
+From kwallace at pcconnection.com  Wed Sep  2 12:31:28 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Wed, 2 Sep 2009 12:31:28 -0400
+Subject: [outages] issues calling into/out of southern New Hampshire?
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0D5@MKA134.pcc.int>
+References: <0E8773C725A1674E9F7B35EABB5EEEB1063CF0D5@MKA134.pcc.int>
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1063CF6E7@MKA134.pcc.int>
+
+Seems to have cleared up . Affected PRI's and POTS lines from different
+providers. Had no problem calling out of the area. 
+
+ 
+
+-Keith
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Wallace Keith
+Sent: Wednesday, September 02, 2009 9:53 AM
+To: outages at outages.org
+
+ 
+
+Is anyone having issues making calls into Southern NH?  For example
+603-882? Getting a lot of intermittent fast busy signals dialing out on
+multiple carriers.
+
+ 
+
+-Keith
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/70eff56a/attachment.html>
+
+From bpfankuch at cpgreeley.com  Wed Sep  2 16:00:16 2009
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Wed, 2 Sep 2009 14:00:16 -0600
+Subject: [outages] intermittent latency spikes
+Message-ID: <01759D50DC387C45A018FE1817CE27D75509C9F596@CPExchange1.cpgreeley.com>
+
+Hi sourcing from Comcast Business I am seeing intermittent latency issues going to Qwest as well as to HE services.  I'm not seeing anything huge other than that.  Http://internetpulse.net is showing some minor latency issues as well from multiple carriers (Sprint, Verizon, Internap, NTT).  Anyone aware of anything that might be behind these issues?
+
+Blake Pfankuch
+Connecting Point of Greeley
+Network Engineer
+970-356-7224
+[cid:image001.gif at 01CA2BD5.B2C36A20]
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/488f11a5/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 1642 bytes
+Desc: image001.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090902/488f11a5/attachment.gif>
+
+From wrl at express.org  Wed Sep  2 18:52:52 2009
+From: wrl at express.org (William R. Lorenz)
+Date: Wed, 2 Sep 2009 18:52:52 -0400 (EDT)
+Subject: [outages] Gmail down?
+In-Reply-To: <a3e64f390909020502l5bdfa31bv4240d90984401fe2@mail.gmail.com>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+	<4A9D86C2.5030205@axint.net>
+	<314cf0830909011421t6f2b3d18m931881f21315b12a@mail.gmail.com>
+	<a3e64f390909020502l5bdfa31bv4240d90984401fe2@mail.gmail.com>
+Message-ID: <Pine.LNX.4.64.0909021851380.4341@pluto.express.org>
+
+This isn't the first time GMail went down for that very same reason:
+
+   http://www.fiercecio.com/techwatch/story/google-apologizes-explains-gmail-outage/2009-02-27?utm_medium=rss&utm_source=rss&cmp-id=OTC-RSS-FCTW0
+
+
+
+On Wed, 2 Sep 2009, Raul Lopez Nevot wrote:
+
+> http://gmailblog.blogspot.com/2009/09/more-on-todays-gmail-issue.html
+
+
+-- 
+William R. Lorenz
+
+
+From brandon.galbraith at gmail.com  Wed Sep  2 19:08:09 2009
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Wed, 2 Sep 2009 18:08:09 -0500
+Subject: [outages] Gmail down?
+In-Reply-To: <Pine.LNX.4.64.0909021851380.4341@pluto.express.org>
+References: <695277448C537A469D28FF68D0938C8372EC1BC636@EXMBX04.exchhosting.com>
+	<4A9D86C2.5030205@axint.net>
+	<314cf0830909011421t6f2b3d18m931881f21315b12a@mail.gmail.com>
+	<a3e64f390909020502l5bdfa31bv4240d90984401fe2@mail.gmail.com>
+	<Pine.LNX.4.64.0909021851380.4341@pluto.express.org>
+Message-ID: <366100670909021608qf7d783j95b7becff2acdf45@mail.gmail.com>
+
+The lesson for us all to take away is "degrade gracefully".
+
+-brandon
+
+On 9/2/09, William R. Lorenz <wrl at express.org> wrote:
+> This isn't the first time GMail went down for that very same reason:
+>
+>
+> http://www.fiercecio.com/techwatch/story/google-apologizes-explains-gmail-outage/2009-02-27?utm_medium=rss&utm_source=rss&cmp-id=OTC-RSS-FCTW0
+>
+>
+>
+> On Wed, 2 Sep 2009, Raul Lopez Nevot wrote:
+>
+>> http://gmailblog.blogspot.com/2009/09/more-on-todays-gmail-issue.html
+>
+>
+> --
+> William R. Lorenz
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+-- 
+Brandon Galbraith
+Mobile: 630.400.6992
+FNAL: 630.840.2141
+
+From franck at avonsys.com  Thu Sep  3 00:23:36 2009
+From: franck at avonsys.com (Franck Martin)
+Date: Thu, 3 Sep 2009 16:23:36 +1200 (FJT)
+Subject: [outages] Telstra was down for an hour.
+Message-ID: <6385986.8291251951815553.JavaMail.franck@franck-martins-macbook-pro.local>
+
+http://news.theage.com.au/breaking-news-business/telstra-internet-down-for-over-an-hour-20090903-f99u.html 
+
+
+
+Franck Martin 
+http://www.avonsys.com/ 
+twitter: FranckMartin 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/37e3ac9a/attachment.html>
+
+From kwallace at pcconnection.com  Thu Sep  3 10:14:25 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Thu, 3 Sep 2009 10:14:25 -0400
+Subject: [outages] issues dialing out on Qwest in DC/Maryland?
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1063F5E42@MKA134.pcc.int>
+
+Getting a recording that your call cannot be completed as dialed for all
+calls?  No info from their NOC -
+
+Keith
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/8d20b946/attachment-0001.html>
+
+From jra at baylink.com  Thu Sep  3 10:16:08 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 3 Sep 2009 10:16:08 -0400 (EDT)
+Subject: [outages] Reminder: Outages Dashboard links page
+In-Reply-To: <alpine.DEB.1.10.0909011607240.10971@dr-wily.mit.edu>
+Message-ID: <23149877.31101251987368596.JavaMail.root@benjamin>
+
+----- "Quentin Smith" <quentin at MIT.EDU> wrote:
+> Yes, this is a known problem:
+> 
+> http://www.google.com/appsstatus#rm=1&di=1&hl=en
+
+And that's just one of the many links listed on the wiki that's the companion
+to this mailing list; specifically, it's on our Dashboard page:
+
+  http://www.outages.org/index.php/Dashboard
+
+You might find it useful to bookmark on your Firefox toolbar (Firefox
+penetration on *this* list is 100%, right :-) for circumstances like this.
+
+I'm always accepting contributions of new cool links for that page as well;
+stick 'em on the discussion page.
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From jim at tgasolutions.com  Thu Sep  3 10:38:03 2009
+From: jim at tgasolutions.com (Jim McBurnett)
+Date: Thu, 3 Sep 2009 10:38:03 -0400
+Subject: [outages] Qwest outage
+Message-ID: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+
+I don't have all the details-BUT Qwest has a major outage that is affecting LD calls in North Carolina and maybe more..
+
+Any details would be appreciated.
+
+Thanks,
+Jim
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/f6333777/attachment.html>
+
+From Kevin at hbcorporate.com  Thu Sep  3 10:27:30 2009
+From: Kevin at hbcorporate.com (W. Kevin Hunt)
+Date: Thu, 3 Sep 2009 09:27:30 -0500
+Subject: [outages] issues dialing out on Qwest in DC/Maryland?
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB1063F5E42@MKA134.pcc.int>
+Message-ID: <C6C53C82.8CF50%kevin@hbcorporate.com>
+
+We're seeing the same on our trunks in Louisiana...
+
+
+On 9/3/09 9:14 AM, "Wallace Keith" <kwallace at pcconnection.com> wrote:
+
+Getting a recording that your call cannot be completed as dialed for all calls?  No info from their NOC -
+Keith
+
+
+
+--
+W. Kevin Hunt
+CCIE #11841
+Linux+ SME
+
+
+
+
+
+From kwallace at pcconnection.com  Thu Sep  3 12:02:51 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Thu, 3 Sep 2009 12:02:51 -0400
+Subject: [outages] Qwest outage
+In-Reply-To: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1063F62AE@MKA134.pcc.int>
+
+Issue appears to be resolved, at least in the DC area.
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Jim McBurnett
+Sent: Thursday, September 03, 2009 10:38 AM
+To: outages at outages.org
+
+ 
+
+I don't have all the details-BUT Qwest has a major outage that is
+affecting LD calls in North Carolina and maybe more..
+
+ 
+
+Any details would be appreciated.
+
+ 
+
+Thanks,
+
+Jim
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/78e127cc/attachment.html>
+
+From auser at mind.net  Thu Sep  3 12:03:42 2009
+From: auser at mind.net (Steve Ryan)
+Date: Thu, 03 Sep 2009 09:03:42 -0700
+Subject: [outages] Qwest outage
+In-Reply-To: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+Message-ID: <4A9FE8DE.6020003@mind.net>
+
+I am now getting reports affected customers seem OK now but no official 
+confirmation, yet.
+
+This is in Southern Oregon.
+
+Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+> I don?t have all the details?BUT Qwest has a major outage that is 
+> affecting LD calls in North Carolina and maybe more..
+> 
+>  
+> 
+> Any details would be appreciated.
+> 
+>  
+> 
+> Thanks,
+> 
+> Jim
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From auser at mind.net  Thu Sep  3 12:02:59 2009
+From: auser at mind.net (Steve Ryan)
+Date: Thu, 03 Sep 2009 09:02:59 -0700
+Subject: [outages] Qwest outage
+In-Reply-To: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+Message-ID: <4A9FE8B3.1000005@mind.net>
+
+Yes, they do have an outage.
+
+Master Ticket NIL3901265
+
+Words from our Q Rep:
+
+We do have a master ticket opened NIL3901265.  This is Network wide and 
+currently being worked on, unfortunately at this point we do not have an 
+ETA.  Do you have access to Q-control?  An individual ticket can be 
+opened thru Q-control.
+
+Thanks,
+
+Steve
+(Oregon)
+
+Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+> I don?t have all the details?BUT Qwest has a major outage that is 
+> affecting LD calls in North Carolina and maybe more..
+> 
+>  
+> 
+> Any details would be appreciated.
+> 
+>  
+> 
+> Thanks,
+> 
+> Jim
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From Howard.Hart at ooma.com  Thu Sep  3 10:38:38 2009
+From: Howard.Hart at ooma.com (Howard Hart)
+Date: Thu, 3 Sep 2009 07:38:38 -0700
+Subject: [outages] issues dialing out on Qwest in DC/Maryland?
+References: <0E8773C725A1674E9F7B35EABB5EEEB1063F5E42@MKA134.pcc.int>
+Message-ID: <B34699078E627D47BF4851A48E2EBBE404CDD429@EXVBE012-11.exch012.intermedia.net>
+
+Seeing issues in Qwest LA too starting around 6 AM PDT. Been on hold with Qwest support for a while--no one picking up, never a good sign... 
+
+Howard
+
+-----Original Message-----
+From: outages-bounces at outages.org on behalf of Wallace Keith
+Sent: Thu 9/3/2009 7:14 AM
+To: outages at outages.org
+Subject: [outages] issues dialing out on Qwest in DC/Maryland?
+ 
+Getting a recording that your call cannot be completed as dialed for all
+calls?  No info from their NOC -
+
+Keith
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/56e5af1a/attachment.html>
+
+From fbmacias777 at gmail.com  Thu Sep  3 15:18:28 2009
+From: fbmacias777 at gmail.com (Fred Macias)
+Date: Thu, 3 Sep 2009 14:18:28 -0500
+Subject: [outages] Qwest outage
+In-Reply-To: <4A9FE8B3.1000005@mind.net>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+	<4A9FE8B3.1000005@mind.net>
+Message-ID: <92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+
+Being told another Qwest master ticket was linked to todays events: 3901179
+
+On Thu, Sep 3, 2009 at 11:02 AM, Steve Ryan <auser at mind.net> wrote:
+
+> Yes, they do have an outage.
+>
+> Master Ticket NIL3901265
+>
+> Words from our Q Rep:
+>
+> We do have a master ticket opened NIL3901265.  This is Network wide and
+> currently being worked on, unfortunately at this point we do not have an
+> ETA.  Do you have access to Q-control?  An individual ticket can be opened
+> thru Q-control.
+>
+> Thanks,
+>
+> Steve
+> (Oregon)
+>
+> Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+>
+>> I don?t have all the details?BUT Qwest has a major outage that is
+>> affecting LD calls in North Carolina and maybe more..
+>>
+>>
+>>
+>> Any details would be appreciated.
+>>
+>>
+>> Thanks,
+>>
+>> Jim
+>>
+>>
+>> ------------------------------------------------------------------------
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>  _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090903/1b224478/attachment.html>
+
+From jlsparks at gmail.com  Fri Sep  4 12:30:14 2009
+From: jlsparks at gmail.com (Jason L  Sparks)
+Date: Fri, 4 Sep 2009 16:30:14 +0000
+Subject: [outages] Google issues?
+Message-ID: <1111758911-1252081743-cardhu_decombobulator_blackberry.rim.net-1508673331-@bda089.bisx.prod.on.blackberry>
+
+I'm getting failed lookups using google search from Louisville (insight communications).  "can't open the page because the server unexpectedly dropped the connection.".  Wondering if this is local or widespread. 
+
+Thanks
+Jason
+Sent from my Verizon Wireless BlackBerry
+
+From jim at tgasolutions.com  Fri Sep  4 16:15:47 2009
+From: jim at tgasolutions.com (Jim McBurnett)
+Date: Fri, 4 Sep 2009 16:15:47 -0400
+Subject: [outages] Qwest outage
+In-Reply-To: <92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+	<4A9FE8B3.1000005@mind.net>
+	<92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+Message-ID: <CCD4153D830F584982521DFC986BFF3152060A5672@tgainf06.TGASolutions.local>
+
+I am real curious what the post mortem is on this outage..
+Anyone get the real skinny on it?
+Unicast PM's welcome....
+
+Jim
+
+From: Fred Macias [mailto:fbmacias777 at gmail.com]
+Sent: Thursday, September 03, 2009 3:18 PM
+To: Steve Ryan
+Cc: Jim McBurnett; outages at outages.org
+
+
+Being told another Qwest master ticket was linked to todays events: 3901179
+On Thu, Sep 3, 2009 at 11:02 AM, Steve Ryan <auser at mind.net<mailto:auser at mind.net>> wrote:
+Yes, they do have an outage.
+
+Master Ticket NIL3901265
+
+Words from our Q Rep:
+
+We do have a master ticket opened NIL3901265.  This is Network wide and currently being worked on, unfortunately at this point we do not have an ETA.  Do you have access to Q-control?  An individual ticket can be opened thru Q-control.
+
+Thanks,
+
+Steve
+(Oregon)
+
+
+Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+I don't have all the details-BUT Qwest has a major outage that is affecting LD calls in North Carolina and maybe more..
+
+
+
+Any details would be appreciated.
+
+
+Thanks,
+
+Jim
+
+------------------------------------------------------------------------
+
+_______________________________________________
+outages mailing list
+outages at outages.org<mailto:outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+outages mailing list
+outages at outages.org<mailto:outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090904/c27002be/attachment.html>
+
+From auser at mind.net  Fri Sep  4 16:34:33 2009
+From: auser at mind.net (Steve Ryan)
+Date: Fri, 04 Sep 2009 13:34:33 -0700
+Subject: [outages] Qwest outage
+In-Reply-To: <CCD4153D830F584982521DFC986BFF3152060A5672@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>	
+	<4A9FE8B3.1000005@mind.net>
+	<92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+	<CCD4153D830F584982521DFC986BFF3152060A5672@tgainf06.TGASolutions.local>
+Message-ID: <4AA179D9.5090604@mind.net>
+
+I haven't heard the final reason(s) on why.
+
+I do know a Qwest engineer called one of my end users stating they had a 
+'couple T1's throwing 1000's of errors' and they removed those from 
+service and things started working.
+
+Nothing official, yet.
+
+Jim McBurnett wroteth on 9/4/2009 1:15 PM:
+> I am real curious what the post mortem is on this outage..
+> 
+> Anyone get the real skinny on it? 
+> 
+> Unicast PM?s welcome?.
+> 
+>  
+> 
+> Jim
+> 
+>  
+> 
+> *From:* Fred Macias [mailto:fbmacias777 at gmail.com]
+> *Sent:* Thursday, September 03, 2009 3:18 PM
+> *To:* Steve Ryan
+> *Cc:* Jim McBurnett; outages at outages.org
+> *Subject:* Re: [outages] Qwest outage
+> 
+>  
+> 
+>  
+> 
+> Being told another Qwest master ticket was linked to todays events: 3901179
+> 
+> On Thu, Sep 3, 2009 at 11:02 AM, Steve Ryan <auser at mind.net 
+> <mailto:auser at mind.net>> wrote:
+> 
+> Yes, they do have an outage.
+> 
+> Master Ticket NIL3901265
+> 
+> Words from our Q Rep:
+> 
+> We do have a master ticket opened NIL3901265.  This is Network wide and 
+> currently being worked on, unfortunately at this point we do not have an 
+> ETA.  Do you have access to Q-control?  An individual ticket can be 
+> opened thru Q-control.
+> 
+> Thanks,
+> 
+> Steve
+> (Oregon)
+> 
+> 
+> 
+> Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+> 
+>     I don?t have all the details?BUT Qwest has a major outage that is
+>     affecting LD calls in North Carolina and maybe more..
+> 
+> 
+> 
+>      
+>     Any details would be appreciated.
+> 
+>      
+>     Thanks,
+> 
+>     Jim
+> 
+>     ------------------------------------------------------------------------
+> 
+>     _______________________________________________
+>     outages mailing list
+>     outages at outages.org <mailto:outages at outages.org>
+>     https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org <mailto:outages at outages.org>
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+>  
+> 
+
+From jim at tgasolutions.com  Fri Sep  4 16:36:44 2009
+From: jim at tgasolutions.com (Jim McBurnett)
+Date: Fri, 4 Sep 2009 16:36:44 -0400
+Subject: [outages] Qwest outage
+In-Reply-To: <4AA179D9.5090604@mind.net>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+	<4A9FE8B3.1000005@mind.net>
+	<92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+	<CCD4153D830F584982521DFC986BFF3152060A5672@tgainf06.TGASolutions.local>
+	<4AA179D9.5090604@mind.net>
+Message-ID: <CCD4153D830F584982521DFC986BFF3152060A567B@tgainf06.TGASolutions.local>
+
+Interesting..
+If those were SS7 links in the right place, I could see some issues there..
+BUT you think they would have error reporting on that...
+
+
+This is sounding more and more interesting...
+
+Thanks Steve...
+Jim
+
+-----Original Message-----
+From: Steve Ryan [mailto:auser at mind.net] 
+Sent: Friday, September 04, 2009 4:35 PM
+To: Jim McBurnett
+Cc: Fred Macias; outages at outages.org
+
+I haven't heard the final reason(s) on why.
+
+I do know a Qwest engineer called one of my end users stating they had a 
+'couple T1's throwing 1000's of errors' and they removed those from 
+service and things started working.
+
+Nothing official, yet.
+
+Jim McBurnett wroteth on 9/4/2009 1:15 PM:
+> I am real curious what the post mortem is on this outage..
+> 
+> Anyone get the real skinny on it? 
+> 
+> Unicast PM's welcome....
+> 
+>  
+> 
+> Jim
+> 
+>  
+> 
+> *From:* Fred Macias [mailto:fbmacias777 at gmail.com]
+> *Sent:* Thursday, September 03, 2009 3:18 PM
+> *To:* Steve Ryan
+> *Cc:* Jim McBurnett; outages at outages.org
+> *Subject:* Re: [outages] Qwest outage
+> 
+>  
+> 
+>  
+> 
+> Being told another Qwest master ticket was linked to todays events: 3901179
+> 
+> On Thu, Sep 3, 2009 at 11:02 AM, Steve Ryan <auser at mind.net 
+> <mailto:auser at mind.net>> wrote:
+> 
+> Yes, they do have an outage.
+> 
+> Master Ticket NIL3901265
+> 
+> Words from our Q Rep:
+> 
+> We do have a master ticket opened NIL3901265.  This is Network wide and 
+> currently being worked on, unfortunately at this point we do not have an 
+> ETA.  Do you have access to Q-control?  An individual ticket can be 
+> opened thru Q-control.
+> 
+> Thanks,
+> 
+> Steve
+> (Oregon)
+> 
+> 
+> 
+> Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+> 
+>     I don't have all the details-BUT Qwest has a major outage that is
+>     affecting LD calls in North Carolina and maybe more..
+> 
+> 
+> 
+>      
+>     Any details would be appreciated.
+> 
+>      
+>     Thanks,
+> 
+>     Jim
+> 
+>     ------------------------------------------------------------------------
+> 
+>     _______________________________________________
+>     outages mailing list
+>     outages at outages.org <mailto:outages at outages.org>
+>     https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org <mailto:outages at outages.org>
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+>  
+> 
+
+From outages at jdc.parodius.com  Fri Sep  4 19:30:59 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Fri, 4 Sep 2009 16:30:59 -0700
+Subject: [outages] Qwest outage
+In-Reply-To: <CCD4153D830F584982521DFC986BFF3152060A567B@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3152060A5588@tgainf06.TGASolutions.local>
+	<4A9FE8B3.1000005@mind.net>
+	<92abe1200909031218n25b9d72al60d9891db9a1daa2@mail.gmail.com>
+	<CCD4153D830F584982521DFC986BFF3152060A5672@tgainf06.TGASolutions.local>
+	<4AA179D9.5090604@mind.net>
+	<CCD4153D830F584982521DFC986BFF3152060A567B@tgainf06.TGASolutions.local>
+Message-ID: <20090904233059.GA88894@icarus.home.lan>
+
+I've yet to see any of the major telco providers in the United States
+actively monitor counters on any of their equipment (regardless of
+capacity).  The modus operandi is "monitor nothing and wait until
+customers complain".
+
+I imagine Qwest operates similarly.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Fri, Sep 04, 2009 at 04:36:44PM -0400, Jim McBurnett wrote:
+> Interesting..
+> If those were SS7 links in the right place, I could see some issues there..
+> BUT you think they would have error reporting on that...
+> 
+> 
+> This is sounding more and more interesting...
+> 
+> Thanks Steve...
+> Jim
+> 
+> -----Original Message-----
+> From: Steve Ryan [mailto:auser at mind.net] 
+> Sent: Friday, September 04, 2009 4:35 PM
+> To: Jim McBurnett
+> Cc: Fred Macias; outages at outages.org
+> Subject: Re: [outages] Qwest outage
+> 
+> I haven't heard the final reason(s) on why.
+> 
+> I do know a Qwest engineer called one of my end users stating they had a 
+> 'couple T1's throwing 1000's of errors' and they removed those from 
+> service and things started working.
+> 
+> Nothing official, yet.
+> 
+> Jim McBurnett wroteth on 9/4/2009 1:15 PM:
+> > I am real curious what the post mortem is on this outage..
+> > 
+> > Anyone get the real skinny on it? 
+> > 
+> > Unicast PM's welcome....
+> > 
+> >  
+> > 
+> > Jim
+> > 
+> >  
+> > 
+> > *From:* Fred Macias [mailto:fbmacias777 at gmail.com]
+> > *Sent:* Thursday, September 03, 2009 3:18 PM
+> > *To:* Steve Ryan
+> > *Cc:* Jim McBurnett; outages at outages.org
+> > *Subject:* Re: [outages] Qwest outage
+> > 
+> >  
+> > 
+> >  
+> > 
+> > Being told another Qwest master ticket was linked to todays events: 3901179
+> > 
+> > On Thu, Sep 3, 2009 at 11:02 AM, Steve Ryan <auser at mind.net 
+> > <mailto:auser at mind.net>> wrote:
+> > 
+> > Yes, they do have an outage.
+> > 
+> > Master Ticket NIL3901265
+> > 
+> > Words from our Q Rep:
+> > 
+> > We do have a master ticket opened NIL3901265.  This is Network wide and 
+> > currently being worked on, unfortunately at this point we do not have an 
+> > ETA.  Do you have access to Q-control?  An individual ticket can be 
+> > opened thru Q-control.
+> > 
+> > Thanks,
+> > 
+> > Steve
+> > (Oregon)
+> > 
+> > 
+> > 
+> > Jim McBurnett wroteth on 9/3/2009 7:38 AM:
+> > 
+> >     I don't have all the details-BUT Qwest has a major outage that is
+> >     affecting LD calls in North Carolina and maybe more..
+> > 
+> > 
+> > 
+> >      
+> >     Any details would be appreciated.
+> > 
+> >      
+> >     Thanks,
+> > 
+> >     Jim
+> > 
+> >     ------------------------------------------------------------------------
+> > 
+> >     _______________________________________________
+> >     outages mailing list
+> >     outages at outages.org <mailto:outages at outages.org>
+> >     https://puck.nether.net/mailman/listinfo/outages
+> > 
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org <mailto:outages at outages.org>
+> > https://puck.nether.net/mailman/listinfo/outages
+> > 
+> >  
+> > 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jjackson at aninetworks.net  Thu Sep 10 12:20:42 2009
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Thu, 10 Sep 2009 09:20:42 -0700
+Subject: [outages] BGP outage on Integra
+Message-ID: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+
+Hey all,
+
+Anyone in the Las Vegas area notice a BGP outage with Integra Telecom within the last 20 minutes?  We lost all routes from them at two different locations in Vegas. 
+
+I have a ticket open with their NOC but wanted to see if other saw it.  
+
+
+Joseph
+
+
+From Steven.Raymond at integratelecom.com  Thu Sep 10 13:10:38 2009
+From: Steven.Raymond at integratelecom.com (Raymond, Steven)
+Date: Thu, 10 Sep 2009 10:10:38 -0700
+Subject: [outages] BGP outage on Integra
+In-Reply-To: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+Message-ID: <775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+
+> Anyone in the Las Vegas area notice a BGP outage with Integra Telecom
+> within the last 20 minutes?  We lost all routes from them at two different
+> locations in Vegas.
+
+Sorry for the disruption.  A router was the victim of a DOS attack and it did cause BGP session resets.  Steps have been taken to prevent this result.
+
+
+From outages at jdc.parodius.com  Thu Sep 10 13:32:33 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 10 Sep 2009 10:32:33 -0700
+Subject: [outages] BGP outage on Integra
+In-Reply-To: <775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+	<775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+Message-ID: <20090910173233.GA9719@icarus.home.lan>
+
+On Thu, Sep 10, 2009 at 10:10:38AM -0700, Raymond, Steven wrote:
+> > Anyone in the Las Vegas area notice a BGP outage with Integra Telecom
+> > within the last 20 minutes?  We lost all routes from them at two different
+> > locations in Vegas.
+> 
+> Sorry for the disruption.  A router was the victim of a DOS attack and it did cause BGP session resets.  Steps have been taken to prevent this result.
+
+I'm curious: in this sort of situation, exactly what do networking
+engineers do about this situation?
+
+Let me clarify my question: as a system administrator, when I'm told
+someone is DoS/DDoS'ing something, I immediately react in two ways: 1)
+mitigate impact, and 2) find out why said attack happened.
+
+Working for ISPs the majority of my life has taught me that most of the
+time Netizens don't decide to DoS something without reason, no matter
+how trivial or childish that reason is.  Maybe there's a user who's on
+IRC causing trouble, maybe someone hosts a web forum that had some
+remarks someone didn't like, or maybe there's an account which got
+compromised and it's up to something suspicious.  Childish, petty, but
+reality.
+
+Do networking engineers do analysis of these scenarios in attempt to
+ensure the situation doesn't recur, or do the efforts stop at "we put up
+some filters, time for lunch"?
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+From petelists at templin.org  Thu Sep 10 13:53:33 2009
+From: petelists at templin.org (Pete Templin)
+Date: Thu, 10 Sep 2009 12:53:33 -0500
+Subject: [outages] BGP outage on Integra
+In-Reply-To: <20090910173233.GA9719@icarus.home.lan>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>	<775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+	<20090910173233.GA9719@icarus.home.lan>
+Message-ID: <4AA93D1D.7060501@templin.org>
+
+Jeremy Chadwick wrote:
+
+> Let me clarify my question: as a system administrator, when I'm told
+> someone is DoS/DDoS'ing something, I immediately react in two ways: 1)
+> mitigate impact, and 2) find out why said attack happened.
+
+As a sysadmin, I suspect you're a little closer to the 'end' of the 
+path, while netadmins (especially SP netadmins) are more in the middle. 
+  I have a customer who's just a magnet for DoS attacks, based on a 
+bunch of history/legacy of ownership and the like.
+
+For me/us, we (attempt to) do two things: deflect the attack away from 
+the victim (allowing the rest of the customer's network to come up for 
+air), then (if possible) deflect the source of the attack.  If the 
+attack continues longer and/or stronger, we contact upstreams to request 
+investigation and/or deflection upstream.
+
+> Do networking engineers do analysis of these scenarios in attempt to
+> ensure the situation doesn't recur, or do the efforts stop at "we put up
+> some filters, time for lunch"?
+
+Given the very rare success of finding ANYTHING out, there's rarely 
+motivation to do much other than filter things.
+
+pt
+
+
+From LarrySheldon at cox.net  Thu Sep 10 14:35:25 2009
+From: LarrySheldon at cox.net (Larry Sheldon)
+Date: Thu, 10 Sep 2009 13:35:25 -0500
+Subject: [outages] BGP outage on Integra
+In-Reply-To: <4AA93D1D.7060501@templin.org>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>	<775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>	<20090910173233.GA9719@icarus.home.lan>
+	<4AA93D1D.7060501@templin.org>
+Message-ID: <4AA946ED.2080207@cox.net>
+
+Pete Templin wrote:
+> Jeremy Chadwick wrote:
+
+IYADATMTDTTDL
+
+I think the discussion list is a better place.
+
+From jjackson at aninetworks.net  Thu Sep 10 14:46:01 2009
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Thu, 10 Sep 2009 11:46:01 -0700
+Subject: [outages] BGP outage on Integra
+In-Reply-To: <775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+	<775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+Message-ID: <695277448C537A469D28FF68D0938C8372ED1C3688@EXMBX04.exchhosting.com>
+
+Just wondering but the attack you guys were seeing was it a "normal" DOS attack or was it the DOS attack Cisco announced about IOS on Tuesday?
+
+
+
+> -----Original Message-----
+> From: Raymond, Steven [mailto:Steven.Raymond at integratelecom.com]
+> Sent: Thursday, September 10, 2009 12:11 PM
+> To: outages at outages.org
+> Cc: Joseph Jackson
+> Subject: RE: BGP outage on Integra
+> 
+> > Anyone in the Las Vegas area notice a BGP outage with Integra Telecom
+> > within the last 20 minutes?  We lost all routes from them at two
+> different
+> > locations in Vegas.
+> 
+> Sorry for the disruption.  A router was the victim of a DOS attack and
+> it did cause BGP session resets.  Steps have been taken to prevent this
+> result.
+
+
+From bkoester at koesternet.net  Fri Sep 11 09:30:30 2009
+From: bkoester at koesternet.net (Bradley Koester)
+Date: Fri, 11 Sep 2009 09:30:30 -0400
+Subject: [outages] BGP Issues in MIA with AT&T
+Message-ID: <4b28d6900909110630w69fefb03k29fbf78437d80a93@mail.gmail.com>
+
+Having issues with AT&T in Miami for both voice and internet.
+
+-- 
+Brad Koester
+bkoester at koesternet.net
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090911/ca068811/attachment.html>
+
+From Valdis.Kletnieks at vt.edu  Fri Sep 11 13:09:23 2009
+From: Valdis.Kletnieks at vt.edu (Valdis.Kletnieks at vt.edu)
+Date: Fri, 11 Sep 2009 13:09:23 -0400
+Subject: [outages] BGP outage on Integra
+In-Reply-To: Your message of "Thu, 10 Sep 2009 13:35:25 CDT."
+	<4AA946ED.2080207@cox.net>
+References: <695277448C537A469D28FF68D0938C8372ED1C341F@EXMBX04.exchhosting.com>
+	<775A75B5625C6B418FC01477094E0BCC25A11068CC@IDCMAILBOX1.ads.integratelecom.com>
+	<20090910173233.GA9719@icarus.home.lan>
+	<4AA93D1D.7060501@templin.org> <4AA946ED.2080207@cox.net>
+Message-ID: <31839.1252688963@turing-police.cc.vt.edu>
+
+On Thu, 10 Sep 2009 13:35:25 CDT, Larry Sheldon said:
+
+> IYADATMTDTTDL
+
+?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 227 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090911/1203a016/attachment.bin>
+
+From kwallace at pcconnection.com  Thu Sep 24 12:57:49 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Thu, 24 Sep 2009 12:57:49 -0400
+Subject: [outages] AT&T
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1066CE166@MKA134.pcc.int>
+
+Anyone aware of any AT&T issues that would affect point-point circuits
+from the Northeast to Florida?
+
+-Keith
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090924/f9a23b5f/attachment.html>
+
+From outages at jdc.parodius.com  Thu Sep 24 13:11:17 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Thu, 24 Sep 2009 10:11:17 -0700
+Subject: [outages] AT&T
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB1066CE166@MKA134.pcc.int>
+References: <0E8773C725A1674E9F7B35EABB5EEEB1066CE166@MKA134.pcc.int>
+Message-ID: <20090924171117.GA17248@icarus.home.lan>
+
+Got an idea of when said issue began?
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Thu, Sep 24, 2009 at 12:57:49PM -0400, Wallace Keith wrote:
+> Anyone aware of any AT&T issues that would affect point-point circuits
+> from the Northeast to Florida?
+> 
+> -Keith
+> 
+
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From kwallace at pcconnection.com  Thu Sep 24 14:21:51 2009
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Thu, 24 Sep 2009 14:21:51 -0400
+Subject: [outages] AT&T
+In-Reply-To: <20090924171117.GA17248@icarus.home.lan>
+References: <0E8773C725A1674E9F7B35EABB5EEEB1066CE166@MKA134.pcc.int>
+	<20090924171117.GA17248@icarus.home.lan>
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB1066EEEE9@MKA134.pcc.int>
+
+12:21 pm eastern. They said it was part of a larger outage, but then
+called back to say that had been resolved. But things are still down. 
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Jeremy Chadwick
+Sent: Thursday, September 24, 2009 1:11 PM
+To: outages at outages.org
+
+Got an idea of when said issue began?
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Thu, Sep 24, 2009 at 12:57:49PM -0400, Wallace Keith wrote:
+> Anyone aware of any AT&T issues that would affect point-point circuits
+> from the Northeast to Florida?
+> 
+> -Keith
+> 
+
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From itdirector at gmail.com  Fri Sep 25 13:49:37 2009
+From: itdirector at gmail.com (Lori Barfield)
+Date: Fri, 25 Sep 2009 10:49:37 -0700
+Subject: [outages] "Inside Story"
+Message-ID: <c0fc3ae80909251049y7ff9808amc760d23ca8499683@mail.gmail.com>
+
+"When a contractor's jackhammer smashed through major fibre-optic and
+copper Telstra cables, businesses in the Sydney CBD's north-west
+quarter faced a potential telecommunications disaster. But with
+practiced speed, efficiency and expertise, Telstra swung into action
+undertaking a massive and daunting repair job to ensure affected
+businesses spent not one minute longer than necessary without phones
+or internet."
+
+http://www.youtube.com/watch?v=wT2jMUCVdJU
+
+From george.herbert at gmail.com  Sat Sep 26 04:09:38 2009
+From: george.herbert at gmail.com (George Herbert)
+Date: Sat, 26 Sep 2009 01:09:38 -0700
+Subject: [outages] HE FMT2 down, various network foo eminating
+Message-ID: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+
+Hurricane Electric has a datacenter outage at FMT2, cause as yet
+unspecified, but there are SF bay area and possibly wider network
+issues eminating from it at low to moderate intensity.
+
+Out around 12:15am PST Sat morning.
+
+
+-- 
+-george william herbert
+george.herbert at gmail.com
+
+From scott at doc.net.au  Sat Sep 26 04:13:23 2009
+From: scott at doc.net.au (Scott Howard)
+Date: Sat, 26 Sep 2009 01:13:23 -0700
+Subject: [outages] HE FMT2 down, various network foo eminating
+In-Reply-To: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+References: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+Message-ID: <f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+
+Outage started at 11:37pm Pacific, give or take a minute.
+
+I spoke to them at about 11:43pm and they were aware there was an issue, but
+didn't know the cause.  Since then it's been impossible to get through to
+anything but voicemail :(
+
+  Scott
+
+
+On Sat, Sep 26, 2009 at 1:09 AM, George Herbert <george.herbert at gmail.com>wrote:
+
+> Hurricane Electric has a datacenter outage at FMT2, cause as yet
+> unspecified, but there are SF bay area and possibly wider network
+> issues eminating from it at low to moderate intensity.
+>
+> Out around 12:15am PST Sat morning.
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090926/3394ec10/attachment.html>
+
+From george.herbert at gmail.com  Sat Sep 26 04:16:50 2009
+From: george.herbert at gmail.com (George Herbert)
+Date: Sat, 26 Sep 2009 01:16:50 -0700
+Subject: [outages] HE FMT2 down, various network foo eminating
+In-Reply-To: <f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+References: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+	<f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+Message-ID: <38a7bf7c0909260116h2e0bc342p5c5aa27f8541ec09@mail.gmail.com>
+
+On Sat, Sep 26, 2009 at 1:13 AM, Scott Howard <scott at doc.net.au> wrote:
+> Outage started at 11:37pm Pacific, give or take a minute.
+>
+> I spoke to them at about 11:43pm and they were aware there was an issue, but
+> didn't know the cause.? Since then it's been impossible to get through to
+> anything but voicemail :(
+
+One of my coworkers got through on the phone to their NOC after
+several tries, about 20 min ago now I think, but they didn't give more
+specifics as to cause.  I think they're just very busy, not that their
+phones went out too.
+
+
+-- 
+-george william herbert
+george.herbert at gmail.com
+
+From scott at doc.net.au  Sat Sep 26 04:17:22 2009
+From: scott at doc.net.au (Scott Howard)
+Date: Sat, 26 Sep 2009 01:17:22 -0700
+Subject: [outages] HE FMT2 down, various network foo eminating
+In-Reply-To: <f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+References: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+	<f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+Message-ID: <f1dedf9c0909260117q1f3c8840nc215beb962cb3251@mail.gmail.com>
+
+It's back up as of a few seconds ago.
+
+  Scott.
+
+
+On Sat, Sep 26, 2009 at 1:13 AM, Scott Howard <scott at doc.net.au> wrote:
+
+> Outage started at 11:37pm Pacific, give or take a minute.
+>
+> I spoke to them at about 11:43pm and they were aware there was an issue,
+> but didn't know the cause.  Since then it's been impossible to get through
+> to anything but voicemail :(
+>
+>   Scott
+>
+>
+>
+> On Sat, Sep 26, 2009 at 1:09 AM, George Herbert <george.herbert at gmail.com>wrote:
+>
+>> Hurricane Electric has a datacenter outage at FMT2, cause as yet
+>> unspecified, but there are SF bay area and possibly wider network
+>> issues eminating from it at low to moderate intensity.
+>>
+>> Out around 12:15am PST Sat morning.
+>>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090926/81a7a393/attachment.html>
+
+From outages at jdc.parodius.com  Sat Sep 26 06:19:19 2009
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Sat, 26 Sep 2009 03:19:19 -0700
+Subject: [outages] HE FMT2 down, various network foo eminating
+In-Reply-To: <f1dedf9c0909260117q1f3c8840nc215beb962cb3251@mail.gmail.com>
+References: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+	<f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+	<f1dedf9c0909260117q1f3c8840nc215beb962cb3251@mail.gmail.com>
+Message-ID: <20090926101919.GA12501@icarus.home.lan>
+
+This should probably go to outages-discuss, but I have to say something.
+
+These kinds of outages were regular occurrences at HE Fremont (FMT2 had
+not been built yet, but I doubt it matters).  Here's a few choice
+examples -- and these are just a few -- of recurring things which never
+got addressed.
+
+I will never forget how packets with a Comcast source, HE Fremont
+destination, went through an AT&T "device" somewhere in the mix which
+would regularly burp/flake out and HE couldn't do anything about it.  No
+alternate routes were propagated, so literally Comcast->HE was hard
+down.  Single point of failure.
+
+I will never forget how packets with a SBC DSL (now AT&T) source, HE
+Fremont destination, went through Telia (a Swedish ISP with no North
+American NOC) for a single hop, and that Telia would drop their BGP
+session or severe their link for whatever reason.  Like the above, no
+alternate routes were propagated, so literally SBC->HE was hard down.
+Likewise, individuals in Sweden who used Telia also saw the same thing
+going from Telia Sweden->HE Fremont.  Single point of failure.
+
+I will never forget the Cisco router which would reboot every 4-5 months
+for no reason... a problem which went on for literally years, and all I
+was ever told was "well it's back up now" and "we have a case open with
+Cisco".  Single point of failure.
+
+I will never forget how HE refused to use VLANs to segregate customers
+on a layer 2 level, instead preferring some strange layer 3
+implementation.  When we witnessed an unexpected massive (7-8mbit/sec)
+increase in inbound traffic, only to find that the destination IPs of
+these packets were for another customer in a completely different
+netblock/area of the Fremont facility, we were told by support "that's
+impossible".  Full tcpdump captures were given, and we were told "this
+makes no sense, this can't happen".  4-5 hours later, we were told the
+root cause was "a customer who had misconfigured their load balancer".
+Right.
+
+I will never forget the two separate times there were full-scale power
+outages both caused by "UPS maintenance".  Gas generators?  They have
+them, but when I asked why they didn't kick in, I was told "we don't
+know".  When I asked if there would be a follow-up investigation as
+to why that didn't happen, so the issue wouldn't recur, I was told
+"probably".
+
+I will never forget the "maintenances" that we were never told of,
+because scheduled maintenances are not announced to customers.  I was
+left with the impression they're done on a whim vs. scheduled.
+
+Safe to say when our contract ended, we left.
+
+I will not recommend Hurricane Electric to anyone who wants co-location
+with reliable, redundant connectivity.  I *will* recommend them for
+cheap "I just need a 1U box stuck somewhere and don't really care about
+quality" co-location, although compared to some of their competitors,
+they're actually more expensive.
+
+Also, if HE or HE customers read this and want to flame/argue/do
+burn-outs in a Pacer over this -- don't bother.  I won't be responding
+to any mails.  Why?  Because all outages/incidents witnessed, including
+the above, were sent to our account rep. when we were asked "why aren't
+you renewing?" I received no response past that point.
+
+I'll leave you with this: if FMT2 had redundancy, then how were things
+hard down for over an hour?  Think about it.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+On Sat, Sep 26, 2009 at 01:17:22AM -0700, Scott Howard wrote:
+> It's back up as of a few seconds ago.
+> 
+>   Scott.
+> 
+> 
+> On Sat, Sep 26, 2009 at 1:13 AM, Scott Howard <scott at doc.net.au> wrote:
+> 
+> > Outage started at 11:37pm Pacific, give or take a minute.
+> >
+> > I spoke to them at about 11:43pm and they were aware there was an issue,
+> > but didn't know the cause.  Since then it's been impossible to get through
+> > to anything but voicemail :(
+> >
+> >   Scott
+> >
+> >
+> >
+> > On Sat, Sep 26, 2009 at 1:09 AM, George Herbert <george.herbert at gmail.com>wrote:
+> >
+> >> Hurricane Electric has a datacenter outage at FMT2, cause as yet
+> >> unspecified, but there are SF bay area and possibly wider network
+> >> issues eminating from it at low to moderate intensity.
+> >>
+> >> Out around 12:15am PST Sat morning.
+> >>
+> >
+> >
+
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From wrl at express.org  Sat Sep 26 17:15:42 2009
+From: wrl at express.org (William R. Lorenz)
+Date: Sat, 26 Sep 2009 17:15:42 -0400 (EDT)
+Subject: [outages] HE FMT2 down, various network foo eminating
+In-Reply-To: <20090926101919.GA12501@icarus.home.lan>
+References: <38a7bf7c0909260109y34863945pb9b29b8ba5a5f79f@mail.gmail.com>
+	<f1dedf9c0909260113l7541497dyd667407ef7239bd3@mail.gmail.com>
+	<f1dedf9c0909260117q1f3c8840nc215beb962cb3251@mail.gmail.com>
+	<20090926101919.GA12501@icarus.home.lan>
+Message-ID: <Pine.LNX.4.64.0909261707070.24568@pluto.express.org>
+
+On Sat, 26 Sep 2009, Jeremy Chadwick wrote:
+
+> I will never forget how HE refused to use VLANs to segregate customers 
+> on a layer 2 level, instead preferring some strange layer 3 
+> implementation.  When we witnessed an unexpected massive (7-8mbit/sec) 
+> increase in inbound traffic, only to find that the destination IPs of 
+> these packets were for another customer in a completely different 
+> netblock/area of the Fremont facility, we were told by support "that's 
+> impossible".  Full tcpdump captures were given, and we were told "this 
+> makes no sense, this can't happen".  4-5 hours later, we were told the 
+> root cause was "a customer who had misconfigured their load balancer".
+
+This will happen if using Cisco's private VLANs (PVLANs) in an isolated or 
+community mode on the switch.  Because of the way most load balancers work 
+in the layer 2 environment, the traffic ends up being broadcast to all 
+switch ports in the group.  My guess is they had customers bridged over to 
+the next-hop using PVLANs, so that customers were theoretically isolated 
+at a layer 2 level.  Of course, PVLANs don't provide any true isolation.
+
+This is just speculation about their setup based on what you describe, but 
+I've seen this in practice with PVLANs, and it seems it to be plausible.
+
+-- 
+William R. Lorenz
+
+From mhuff at ox.com  Mon Sep 28 13:30:03 2009
+From: mhuff at ox.com (Matthew Huff)
+Date: Mon, 28 Sep 2009 13:30:03 -0400
+Subject: [outages] Reliance Globalcom, aka Yipes
+Message-ID: <483E6B0272B0284BA86D7596C40D29F9D7738E68CD@PUR-EXCH07.ox.com>
+
+Our 10MB circuit from NY to SanFran took a hit about an 90 minutes ago and doesn't want to come back up. The Yipes NOC isn't answering. Anyone know anything?
+
+----
+Matthew Huff       | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+http://www.ox.com  | Phone: 914-460-4039
+aim: matthewbhuff  | Fax:   914-460-4139
+
+
+From jra at baylink.com  Wed Sep 30 00:18:59 2009
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Wed, 30 Sep 2009 00:18:59 -0400 (EDT)
+Subject: [outages] AIM: Pidgin can't retrieve buddy list
+In-Reply-To: <23061169.658101254284256398.JavaMail.root@benjamin>
+Message-ID: <12821671.658121254284339346.JavaMail.root@benjamin>
+
+About 20 minutes ago, my copy of Pidgin 2.4.1 for Linux started popping me up
+a dialogue box every couple of minutes that it could not retrieve my buddy 
+list from AIM.  That the list was not gone, it just couldn't access it.
+
+YMSG seems to be working fine.
+
+Dumped the client and restarted, no change.
+
+Kopete, for it's part, says it's online, and has cached user/group counts
+about where I'm expecting... nope, it just popped a can't connect dialogue.
+
+Did AIM fall over?
+
+I'm pretty sure downforeveryone isn't that smart...
+
+Cheers,
+-- jra
+
+
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From jared at puck.nether.net  Wed Sep 30 00:27:23 2009
+From: jared at puck.nether.net (Jared Mauch)
+Date: Wed, 30 Sep 2009 00:27:23 -0400
+Subject: [outages] AIM: Pidgin can't retrieve buddy list
+In-Reply-To: <12821671.658121254284339346.JavaMail.root@benjamin>
+References: <12821671.658121254284339346.JavaMail.root@benjamin>
+Message-ID: <C64852AC-2D16-4146-AB2D-F703650295E0@puck.nether.net>
+
+Yes, it appears to be back up.
+
+On Sep 30, 2009, at 12:18 AM, Jay R. Ashworth wrote:
+
+> Did AIM fall over?
+
+
+From wrl at express.org  Wed Sep 30 00:27:52 2009
+From: wrl at express.org (William R. Lorenz)
+Date: Wed, 30 Sep 2009 00:27:52 -0400 (EDT)
+Subject: [outages] AIM: Pidgin can't retrieve buddy list
+In-Reply-To: <12821671.658121254284339346.JavaMail.root@benjamin>
+References: <12821671.658121254284339346.JavaMail.root@benjamin>
+Message-ID: <Pine.LNX.4.64.0909300026311.6867@pluto.express.org>
+
+Jay,
+
+On Wed, 30 Sep 2009, Jay R. Ashworth wrote:
+
+> About 20 minutes ago, my copy of Pidgin 2.4.1 for Linux started popping me up
+> a dialogue box every couple of minutes that it could not retrieve my buddy
+> list from AIM.  That the list was not gone, it just couldn't access it.
+
+Pidgin is at version 2.6.2, which works fine here (just re-connected).
+
+-- 
+William R. Lorenz
+
+From franck at avonsys.com  Wed Sep 30 01:13:20 2009
+From: franck at avonsys.com (Franck Martin)
+Date: Wed, 30 Sep 2009 17:13:20 +1200 (FJT)
+Subject: [outages] Sporadic Internet Outages in American Samoa
+Message-ID: <10591470.12611254287596500.JavaMail.franck@franck-martins-macbook-pro.local>
+
+Some Internet outages were experienced in part of American Samoa due to the Tsunami. 
+
+
+
+Franck Martin 
+http://www.avonsys.com/ 
+twitter: FranckMartin 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20090930/98ddd4a7/attachment.html>
+

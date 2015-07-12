@@ -1,0 +1,672 @@
+From outages  Fri Nov  3 14:21:43 2006
+From: outages (Jeremy Chadwick)
+Date: Fri, 3 Nov 2006 11:21:43 -0800
+Subject: [Outages] Level3 fibre cut around Chicago Message-ID: <20061103192143.GA39226@icarus.home.lan>
+
+Anyone else seeing results of this?  One of our peering providers
+was able to confirm the cut, and upon being asked why they haven't
+routed around it, was told there was no way to do so.
+
+                                  Loss%   Snt   Last   Avg  Best  Wrst StDev
+  3. 204.70.193.101                0.0%    60    0.6   9.7   0.5 201.7  37.5
+  4. 204.70.193.153                0.0%    60    1.2   4.4   1.2 110.3  15.2
+  5. 204.70.192.30                 6.7%    60  232.6 344.1 226.6 472.1  90.8
+  6. 204.70.192.45                 6.7%    60  230.2 235.6 224.9 378.4  23.1
+  7. 208.175.10.94                 8.3%    60  232.5 235.9 229.5 388.0  21.3
+  8. 12.123.6.34                  13.3%    60  232.8 233.4 228.3 237.2   2.0
+  9. 12.123.6.1                    3.3%    60  231.7 231.8 227.1 238.3   1.9
+ 10. 12.122.255.194                6.7%    60  235.7 235.5 231.7 238.8   1.6
+
+-- 
+| Jeremy Chadwick                                 jdc at parodius.com |
+| Parodius Networking                        http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, USA |
+| Making life hard for others since 1977.               PGP: 4BD6C0CB |
+
+
+
+From outages  Fri Nov  3 18:46:31 2006
+From: outages (Jeremy Chadwick)
+Date: Fri, 3 Nov 2006 15:46:31 -0800
+Subject: [Outages] Level3 fibre cut around Chicago In-Reply-To: <20061103192143.GA39226@icarus.home.lan>
+References: <20061103192143.GA39226@icarus.home.lan>
+Message-ID: <20061103234631.GA43027@icarus.home.lan>
+
+On Fri, Nov 03, 2006 at 11:21:43AM -0800, Jeremy Chadwick wrote:
+> Anyone else seeing results of this?  One of our peering providers
+> was able to confirm the cut, and upon being asked why they haven't
+> routed around it, was told there was no way to do so.
+
+No idea if the actual cut has been repaired or not, but the issue
+has at least been circumvented.  One of our peering providers
+confirmed this, and latency is now much more normal (20ms).
+
+-- 
+| Jeremy Chadwick                                 jdc at parodius.com |
+| Parodius Networking                        http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, USA |
+| Making life hard for others since 1977.               PGP: 4BD6C0CB |
+
+
+
+From kevink  Mon Nov  6 15:39:01 2006
+From: kevink (kevink)
+Date: Mon, 6 Nov 2006 15:39:01 -0500 
+Subject: [Outages] Level3 fibre cut around Tampa Fl Message-ID: <DB43F516702AAF4392AA45573F18181902044B21@vicimail.vicimarketinggroup.com>
+
+	I have been informed that there is a major outage in the Tampa,
+Saint Petersburg Florida area but Level 3 would not confirm what the issue
+was related to. Is anyone else experiencing problems in the Tampa Area? 
+
+Kevin Kelley 
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
+From outages  Mon Nov  6 17:19:56 2006
+From: outages (Jeremy Chadwick)
+Date: Mon, 6 Nov 2006 14:19:56 -0800
+Subject: [Outages] Level3 fibre cut around Tampa Fl In-Reply-To: <DB43F516702AAF4392AA45573F18181902044B21@vicimail.vicimarketinggroup.com>
+References: <DB43F516702AAF4392AA45573F18181902044B21@vicimail.vicimarketinggroup.com>
+Message-ID: <20061106221956.GA6762@icarus.home.lan>
+
+On Mon, Nov 06, 2006 at 03:39:01PM -0500, kevink wrote:
+> 	I have been informed that there is a major outage in the Tampa,
+> Saint Petersburg Florida area but Level 3 would not confirm what the issue
+> was related to. Is anyone else experiencing problems in the Tampa Area? 
+
+No, but I'm seeing packet loss all over the United States and Europe
+for Telia-bound traffic.  Telia's CustomerInfo page claims there's a
+fibre cut somewhere around Chicago which is affecting their entire
+Internet backbone:
+
+Ticket nr : TT0007793
+   Status : Active 
+   Starts : 2006-11-06 16:56
+Ends/Fixed (est.) : 2006-11-06 19:00 
+   Closed :
+  Updated : 2006-11-06 20:39 
+  
+Description : There is currently stoppage in a number of connections in
+Chicago and there can be capacityproblem. 
+ 
+Date/Time Action Log 
+2006-11-06 20:39 : Engineers are working to repair fiber-fault. The
+fault are causing delays in the USA part of the network. 
+
+The odd thing is, I'm also seeing this affect local California-bound
+IP traffic (such as San Jose <-> Fremont).  I'm not sure how an
+issue with Level 3 fibre OR an issue with Telia fibre would affect
+close-proximity transit like that.
+
+-- 
+| Jeremy Chadwick                                 jdc at parodius.com |
+| Parodius Networking                        http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, USA |
+| Making life hard for others since 1977.               PGP: 4BD6C0CB |
+
+
+
+From virendra.rode  Mon Nov  6 20:23:17 2006
+From: virendra.rode (virendra rode //)
+Date: Mon, 06 Nov 2006 17:23:17 -0800
+Subject: [Outages] [Fwd: Verizon PSTN issues?] Message-ID: <454FE005.6050605@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Verizon PSTN issues?
+Date: Mon, 06 Nov 2006 16:37:50 -0800
+From: Jay Hennigan <jay at west.net>
+To: nanog list <nanog at merit.edu>
+
+
+I'll try not to be as vague as the last person...
+
+We are in Verizon (former GTE) territory in Santa Barbara, CA, LATA 740.
+
+For much of the day we have had complaints of reorder from dialup users
+as well as reports of reorder from people trying to call us from out of
+the area.  I saw a note on another forum that claimed that Verizon was
+having "nationwide issues" but gave no other detail.
+
+Verizon rep hasn't returned voicemail, l-o-n-g hold time on repair, gave up.
+
+Can anyone shed any light?
+
+- --
+Jay Hennigan - CCIE #7880 - Network Administration - jay at west.net
+NetLojix Communications, Inc.  -  http://www.netlojix.com/
+WestNet:  Connecting you to the planet.  805 884-6323 - WB6RDV
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFT+AFpbZvCIJx1bcRAmNnAJ9t9g2zc9oWzmckK/0r+/CBDAHQVACgnaQC
+jt2DocwkNUhIaN8izP8s4mc=
+=ufCy
+-----END PGP SIGNATURE-----
+
+
+From kwallace  Tue Nov  7 10:39:11 2006
+From: kwallace (Wallace Keith)
+Date: Tue, 7 Nov 2006 10:39:11 -0500
+Subject: [Outages] [Fwd: Verizon PSTN issues?] Message-ID: <153C7BD7A0BE5E4C82C46650FEA9413006CCE467@MKA46.pcc.int>
+
+Not sure this will shed any light on it, but from about 15:20 eastern to
+the end of the day, one of my call centers in texas had an issue where
+about 50% of the outbound calls went high and dry. We have dedicated
+PRI's from 2 different carriers, both were affected. After the setup
+message, and delayed response, a status enquiry message would be sent by
+our pbx, with the respones "call init state"  Perhaps this was an SS7
+issue?. I sure do miss the FCC outage info being public. 
+-Keith
+
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com] 
+Sent: Monday, November 06, 2006 8:23 PM
+To: outages at isotf.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Verizon PSTN issues?
+Date: Mon, 06 Nov 2006 16:37:50 -0800
+From: Jay Hennigan <jay at west.net>
+To: nanog list <nanog at merit.edu>
+
+
+I'll try not to be as vague as the last person...
+
+We are in Verizon (former GTE) territory in Santa Barbara, CA, LATA 740.
+
+For much of the day we have had complaints of reorder from dialup users
+as well as reports of reorder from people trying to call us from out of
+the area.  I saw a note on another forum that claimed that Verizon was
+having "nationwide issues" but gave no other detail.
+
+Verizon rep hasn't returned voicemail, l-o-n-g hold time on repair, gave
+up.
+
+Can anyone shed any light?
+
+- --
+Jay Hennigan - CCIE #7880 - Network Administration - jay at west.net
+NetLojix Communications, Inc.  -  http://www.netlojix.com/
+WestNet:  Connecting you to the planet.  805 884-6323 - WB6RDV
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFT+AFpbZvCIJx1bcRAmNnAJ9t9g2zc9oWzmckK/0r+/CBDAHQVACgnaQC
+jt2DocwkNUhIaN8izP8s4mc=
+=ufCy
+-----END PGP SIGNATURE-----
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From JJackson  Tue Nov  7 13:52:16 2006
+From: JJackson (Joseph Jackson)
+Date: Tue, 7 Nov 2006 10:52:16 -0800
+Subject: [Outages] ELI having peering issues in Nevada / West Coast Area Message-ID: <B9843A4B77B5AD46AF1C1756FB565E2C02B0D065@mcmail01.ad.local>
+
+We have opened a ticket with ELI.  We are seeing communication problems
+with some major sites ie www.msnbc.com www.yahoo.com  Will let the list
+know when I get more info. 
+
+
+From virendra.rode  Wed Nov  8 01:28:08 2006
+From: virendra.rode (virendra rode //)
+Date: Tue, 07 Nov 2006 22:28:08 -0800
+Subject: [Outages] [Fwd: Verizon PSTN issues?] In-Reply-To: <153C7BD7A0BE5E4C82C46650FEA9413006CCE467@MKA46.pcc.int>
+References: <153C7BD7A0BE5E4C82C46650FEA9413006CCE467@MKA46.pcc.int>
+Message-ID: <455178F8.3090402@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Keith,
+
+Wallace Keith wrote:
+> Not sure this will shed any light on it, but from about 15:20 eastern to
+> the end of the day, one of my call centers in texas had an issue where
+> about 50% of the outbound calls went high and dry. We have dedicated
+> PRI's from 2 different carriers, both were affected. After the setup
+> message, and delayed response, a status enquiry message would be sent by
+> our pbx, with the respones "call init state"  Perhaps this was an SS7
+> issue?. I sure do miss the FCC outage info being public. 
+> -Keith
+- ----------------------------
+Kinda reminds me of verizon socal issue which took place around OCT,
+2005 time frame.
+
+I thought one could request reports in writing under the Freedom of
+Information Act? BTW, we also have couple special agents on list who
+could possibly shed some light.
+
+Sorry, I wish I could provide more information on the situation. I'm
+still trying to establish contact w/ FCC, TEMA and others for their
+co-operation.
+
+
+
+regards,
+/virendra
+
+
+> 
+> 
+> -----Original Message-----
+> From: virendra rode // [mailto:virendra.rode at gmail.com] 
+> Sent: Monday, November 06, 2006 8:23 PM
+> To: outages at isotf.org
+> Subject: [Outages] [Fwd: Verizon PSTN issues?]
+> 
+> 
+> 
+> -------- Original Message --------
+> Subject: Verizon PSTN issues?
+> Date: Mon, 06 Nov 2006 16:37:50 -0800
+> From: Jay Hennigan <jay at west.net>
+> To: nanog list <nanog at merit.edu>
+> 
+> 
+> I'll try not to be as vague as the last person...
+> 
+> We are in Verizon (former GTE) territory in Santa Barbara, CA, LATA 740.
+> 
+> For much of the day we have had complaints of reorder from dialup users
+> as well as reports of reorder from people trying to call us from out of
+> the area.  I saw a note on another forum that claimed that Verizon was
+> having "nationwide issues" but gave no other detail.
+> 
+> Verizon rep hasn't returned voicemail, l-o-n-g hold time on repair, gave
+> up.
+> 
+> Can anyone shed any light?
+> 
+> --
+> Jay Hennigan - CCIE #7880 - Network Administration - jay at west.net
+> NetLojix Communications, Inc.  -  http://www.netlojix.com/
+> WestNet:  Connecting you to the planet.  805 884-6323 - WB6RDV
+> 
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFUXj4pbZvCIJx1bcRAvO9AJsE7ZHQgIgu7Am0A7TzlJNYhqgU0QCg49lh
+MZEyg5IKh4+hedAz8C4ghVI=
+=NKMb
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Nov  8 01:29:31 2006
+From: virendra.rode (virendra rode //)
+Date: Tue, 07 Nov 2006 22:29:31 -0800
+Subject: [Outages] [Fwd: Re: Verizon PSTN continued] Message-ID: <4551794B.4040509@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+- -------- Original Message --------
+Subject: Re: Verizon PSTN continued
+Date: Tue, 7 Nov 2006 12:41:05 -0500
+From: Jared Mauch <jared at puck.nether.net>
+To: David Hubbard <dhubbard at dino.hostasaurus.com>
+CC: nanog at merit.edu
+References:
+<FCD26398C5EDE746BFC47F43EA52A17301D673CD at dino.ad.hostasaurus.com>
+
+
+On Tue, Nov 07, 2006 at 12:32:24PM -0500, David Hubbard wrote:
+> 
+> The thread yesterday didn't seem to get into much
+> detail; I'm wondering if anyone knows more about what
+> is going on with Verizon?  Our PSTN service with XO
+> seems to be affected again by what XO claims is a
+> Verizon problem but they wouldn't elaborate on why they
+> feel that to be the case; I was just amazed to even get
+> someone on the phone at XO since normally they are
+> unreachable.  I am inclined to partially believe them
+> since I've found other numbers that I know to be with
+> other carriers that are not working.  XO claimed this
+> was at least a regional issue of Verizon's that is
+> affecting multiple carriers.
+
+	google news lists this:
+
+http://www.pe.com/localnews/inland/stories/PE_News_Local_H_phones07.3a8ef0f.html
+
+10:00 PM PST on Monday, November 6, 2006
+
+The Press-Enterprise
+
+A network error created problems Monday for callers trying to make local
+calls to Moreno Valley and may have affected other Inland communities, a
+Verizon spokesman said.
+
+Callers reported getting busy signals repeatedly. The problem resulted
+from an outage in Indiana that began about noon and affected local or
+long-distance calls in several states, including California, Florida and
+Texas, Verizon spokesman Jon Davies said. The company serves dozens of
+Inland communities, from Montclair to Blythe and Barstow to Temecula.
+
+The problem did not appear to affect Verizon's cell phone service, and
+Davies said he was not aware of problems with emergency calls.
+
+Verizon technicians were working Monday night, but it was not clear when
+they might finish, Davies said.
+
+
+	I hate to suggest this, but you could always try
+contacting NCS.  (www.ncs.gov)  You could also go to the local (CA)
+utilities commission folks and ask them.  I'd carefully explain that
+you are just trying to get an ETR as it impacts your business.
+
+	- jared
+(not sure if it's the CA PUC or someone else, just basing it on my
+knowledge of other states).
+
+- --
+Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFUXlLpbZvCIJx1bcRAoDxAKDpuQ0zUGOWJercnD0XRJdWhbE/OgCeI/qo
+38GObpxAPtVQEPndJt6vybE=
+=zsuf
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Wed Nov  8 18:56:03 2006
+From: virendra.rode (virendra rode //)
+Date: Wed, 08 Nov 2006 15:56:03 -0800
+Subject: [Outages] [Fwd: Verizon SS7 Outages Affected Several States for Two Days]
+Message-ID: <45526E93.30001@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Thanks for the pointer Fergie!
+
+
+regards,
+/virendra
+
+
+- -------- Original Message --------
+Subject: Verizon SS7 Outages Affected Several States for Two Days
+Date: Wed, 8 Nov 2006 23:28:57 GMT
+From: Fergie <fergdawg at netzero.net>
+To: virendra.rode at gmail.com
+
+FYI:
+
+ http://www.networkworld.com/news/2006/110806-verizon-outages.html
+
+- - ferg
+
+
+- --
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFUm6TpbZvCIJx1bcRAk3jAKC1LVTRYVajzQVhnw9EP4WS/cgVfQCfSkjZ
+2vKmMYW0u1hWXH3z38+qz54=
+=zNT5
+-----END PGP SIGNATURE-----
+
+
+From kgasso-lists  Thu Nov  9 16:20:18 2006
+From: kgasso-lists (Kameron Gasso)
+Date: Thu, 09 Nov 2006 13:20:18 -0800
+Subject: [Outages] [Fwd: link between Sprint and Level3 Networks is down in Chicago]
+Message-ID: <1163107218.28178.1.camel@localhost>
+
+-------- Forwarded Message --------
+From: Dennis Dayman <dennis at thenose.net>
+To: nanog at merit.edu
+Subject: link between Sprint and Level3 Networks is down in Chicago
+Date: Thu, 9 Nov 2006 14:57:28 -0600
+
+We received confirmation from Time Warner. The link between Sprint and
+Level3 Networks is down in Chicago. This has been an issue since 3:10 PM
+EST.  Time Warner has a ticket open to address the issue. Not sure what it
+is yet.
+
+-Dennis
+
+
+
+
+
+
+From kgasso-lists  Thu Nov  9 16:21:31 2006
+From: kgasso-lists (Kameron Gasso)
+Date: Thu, 09 Nov 2006 13:21:31 -0800
+Subject: [Outages] [Fwd: RE: SprintLink peering issue in Chicago?] Message-ID: <1163107291.28178.3.camel@localhost>
+
+-------- Forwarded Message --------
+From: Soren Telfer <soren.telfer at gmail.com>
+To: nanog at merit.edu
+Subject: RE: SprintLink peering issue in Chicago?
+Date: Thu, 9 Nov 2006 16:07:00 -0500
+
+Via our sprintlink , connectivity to Level3 in Chicago was down for
+about an hour, we got confirmation from sprint at 4:00 that it was a
+major router issue, and they were investigating the root cause.
+
+Transit to Level3 seems to be working not at 4:00 PM 
+
+
+
+
+From kwallace  Thu Nov  9 16:43:01 2006
+From: kwallace (Wallace Keith)
+Date: Thu, 9 Nov 2006 16:43:01 -0500
+Subject: [Outages] [Fwd: Verizon PSTN issues?] Message-ID: <153C7BD7A0BE5E4C82C46650FEA9413006CCE486@MKA46.pcc.int>
+
+ I actually have obtained outage reports under the act, but you have to
+be specific about the carrier, date and time in your request and it
+takes a while to get a response. It's somewhat helpful to try to prevent
+future events, but useless when trying to figure out what's going on in
+real time.
+Also, way back, even when they were available, a lot of SS7 outage
+reports were never filed for a number of reasons, such as determining
+who's at fault during a cascading event. In my view, a blocked call is a
+blocked call, regardless of who the upstream provider of SS7 is.
+-Keith
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com] 
+Sent: Wednesday, November 08, 2006 1:28 AM
+To: Wallace Keith
+Cc: outages at isotf.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Keith,
+
+- ----------------------------
+Kinda reminds me of verizon socal issue which took place around OCT,
+2005 time frame.
+
+I thought one could request reports in writing under the Freedom of
+Information Act? BTW, we also have couple special agents on list who
+could possibly shed some light.
+
+Sorry, I wish I could provide more information on the situation. I'm
+still trying to establish contact w/ FCC, TEMA and others for their
+co-operation.
+
+
+
+regards,
+/virendra
+
+
+
+
+From Anshuman.Kanwar  Fri Nov 10 05:49:03 2006
+From: Anshuman.Kanwar (Anshuman Kanwar)
+Date: Fri, 10 Nov 2006 02:49:03 -0800
+Subject: [Outages] 1200 w 7th street - Los Angeles --power spike again ? In-Reply-To: <1163107218.28178.1.camel@localhost>
+Message-ID: <633D19B19DA39346BB2B40D09A3D7EA6015CE5F5@sbapexch02.ad.corp.expertcity.com>
+
+
+All our gear in the Garland buiilding lost power. Anyone
+else seeing problems ?
+
+
+Ansh Kanwar
+Network Architect
+--
+Citr!x Online (AS16815)
+5385 Hollister Avenue
+Santa Barbara, CA 93111 USA
+
+Phone : 805.690.5714
+Mobile: 805.448.1890
+Email : ansh at citrixonline.com 
+--
+Quis custodiet ipsos custodes 
+
+
+
+From virendra.rode  Fri Nov 17 23:32:34 2006
+From: virendra.rode (virendra rode //)
+Date: Fri, 17 Nov 2006 20:32:34 -0800
+Subject: [Outages] Globix upcoming planned maintenances Message-ID: <455E8CE2.9050809@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Globix will be performing 2 upcoming maintenances:
+
+1: Tuesday November 21, 2006 1:00AM-5:00AM GMT
+2: Tuesday, November 28, 2006 1:00AM-5:00AM GMT
+
+This series of maintenances are being performed to segregate the
+European and US traffic on the Globix network. These maintenances are a
+result of the recent aquisition of Globix UK by Telecity Redbus. If you
+are directly or indirectly connected via globix, you may experience a
+short duration of packet loss and suboptimal routing on US traffic
+destined to Europe and European traffic destined to the US during the
+maintenances.
+
+
+
+regards,
+/virendra
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFXozipbZvCIJx1bcRAmfrAJ9lenaAK8tOUBdyHwUq506TGgHGjACg7vpy
+7/jr+t054kmlaGDR52cSgHk=
+=AE/6
+-----END PGP SIGNATURE-----
+
+
+From rpasini  Wed Nov 29 23:14:35 2006
+From: rpasini (Pasini, Rusty)
+Date: Wed, 29 Nov 2006 23:14:35 -0500
+Subject: [Outages] Sprintlink issues in Balt/Wash area? Message-ID: <003246EC93333448924ED8CC03E81FBE01491C@NSF-BE-02.ad.nsf.gov>
+
+Is anyone aware of any Sprintlink issues in the Baltimore/Washington area during the last two days?
+
+-Rusty
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061129/60a98461/attachment.htm 
+
+
+From PatrickGreene  Thu Nov 30 08:15:24 2006
+From: PatrickGreene (Greene, Patrick)
+Date: Thu, 30 Nov 2006 08:15:24 -0500
+Subject: [Outages] Sprintlink issues in Balt/Wash area? In-Reply-To: <003246EC93333448924ED8CC03E81FBE01491C@NSF-BE-02.ad.nsf.gov>
+Message-ID: <9C263DBEE442894ABEA955A1A7EDD5A006F082CA@USCSCMSC8.na.entroot.biz>
+
+All of us at Sprint appreciate the opportunity to provide you with
+quality
+data networking solutions. To ensure the continued reliability of your
+network services we will be performing network maintenance. 
+
+The private line(s) and/or router(s) impacted by this activity and a 
+description of the activity may be found below. 
+
+
+
+
+
+********************************************************************
+PURPOSE: Network Buildout
+NOTICE ID: 23304
+TROUBLE TICKET: 8771723
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ROUTER: sl-pe11-dc
+PRIVATE_LINE: 510499 
+NETWORK ADDRESS: na
+LOCATION: Washington, DC
+
+ACTIVITY START TARGET (local time): 0:00 EST 20-NOV-2006
+ACTIVITY START TARGET (GMT): 05:00 GMT 20-NOV-2006
+ACTIVITY TARGET DURATION: 30 Minutes
+
+
+________________________________
+
+From: Pasini, Rusty [mailto:rpasini at nsf.gov] 
+Sent: Wednesday, November 29, 2006 11:15 PM
+To: outages at isotf.org
+
+
+
+Is anyone aware of any Sprintlink issues in the Baltimore/Washington
+area during the last two days?
+
+-Rusty 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20061130/a1806495/attachment.htm 
+
+

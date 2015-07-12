@@ -1,0 +1,2687 @@
+From rspott at irongoat.net  Fri Jun  6 23:16:23 2014
+From: rspott at irongoat.net (D. Ryan Spott)
+Date: Fri, 06 Jun 2014 20:16:23 -0700
+Subject: [outages] Comcast Fiber in WA State...
+Message-ID: <53928407.6010503@irongoat.net>
+
+A routing issue in a Seattle core router impacting 14 network nodes 
+serving Comcast circuits from Portland to the Canadian border are having 
+issues.
+
+No hardware failures have been identified.
+
+The issue appears to be exclusively layer 2 routing.
+
+Comcast has, of course, engaged their highest level engineers who are 
+presently "all-hands-on-deck" working to resolve this issue.
+
+There is no firm ETR as of yet.
+
+-- 
+D. Ryan Spott | Iron Goat Networks, llc
+broadband | telco | colo | community
+PO Box 1232 / 603 W. Stevens Sultan, WA 98284
+360-799-0552 | gtalk: rspott at irongoat.net
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140606/e6f92679/attachment.html>
+
+From jd at boldnetworks.net  Sat Jun  7 12:35:38 2014
+From: jd at boldnetworks.net (jd)
+Date: Sat, 07 Jun 2014 09:35:38 -0700
+Subject: [outages] Pac-West Outage
+Message-ID: <53933F5A.2000207@boldnetworks.net>
+
+Does anyone see a Pac-West outage? DID's are failing... tried to call 
+(213) 325-0000 on their site also and it just hangs up.
+
+Thanks
+
+From mitpatterson at gmail.com  Sat Jun  7 12:45:22 2014
+From: mitpatterson at gmail.com (Mitch Patterson)
+Date: Sat, 7 Jun 2014 12:45:22 -0400
+Subject: [outages] Pac-West Outage
+In-Reply-To: <53933F5A.2000207@boldnetworks.net>
+References: <53933F5A.2000207@boldnetworks.net>
+Message-ID: <CAPC+kK7DZXiqHQtxH_cZ5LhfT77X_zv8KrPtbzZMhStuUHJg+Q@mail.gmail.com>
+
+We got a notice from Voip Innovations a few hours ago:
+
+
+   - I NOC has recently become aware of an issue affecting all inbound
+   traffic to DIDs on the PacWest network. Calls to these DIDs are failing to
+   a fast busy, dead air, or a not in service message. This issue was
+   originally reported around 0925 EDT (1325 GMT) and is currently under
+   investigation by the carrier. Below is the most recent correspondence from
+   the carrier:
+
+   SERVICE AREA EFFECTED: ALL
+
+   NETWORK EVENT: Service Impairment
+
+   IMPACT OF EVENT: All calls failing to fast busy or dead air
+
+   We are working diligently to resolve the issue, and are committed to
+   minimizing impact to your business and will restore service as quickly as
+   possible. You will receive an additional notification when the event is
+   resolved along with additional details regarding follow-up actions.
+
+   If you are unsure if your DID(s) are affected, you may locate the
+   Provider information in the back office under DIDs > My DIDs > My Local
+   DIDs by looking under the Network column, or open a ticket through the back
+   office or by emailing support at voipinnovations.com
+
+   We will continue to monitor this issue and provide updates as they are
+   received from the carrier.
+   -
+
+
+
+On Sat, Jun 7, 2014 at 12:35 PM, jd <jd at boldnetworks.net> wrote:
+
+> Does anyone see a Pac-West outage? DID's are failing... tried to call (213)
+> 325-0000 on their site also and it just hangs up.
+>
+> Thanks
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/0dcfa585/attachment.html>
+
+From jdc at koitsu.org  Sat Jun  7 14:48:34 2014
+From: jdc at koitsu.org (Jeremy Chadwick)
+Date: Sat, 7 Jun 2014 11:48:34 -0700
+Subject: [outages] Comcast Fiber in WA State...
+In-Reply-To: <53928407.6010503@irongoat.net>
+References: <53928407.6010503@irongoat.net>
+Message-ID: <20140607184834.GA21187@icarus.home.lan>
+
+Any follow-up to this?  Just curious.
+
+-- 
+| Jeremy Chadwick                                   jdc at koitsu.org |
+| UNIX Systems Administrator                http://jdc.koitsu.org/ |
+| Making life hard for others since 1977.             PGP 4BD6C0CB |
+
+On Fri, Jun 06, 2014 at 08:16:23PM -0700, D. Ryan Spott wrote:
+> A routing issue in a Seattle core router impacting 14 network nodes 
+> serving Comcast circuits from Portland to the Canadian border are having 
+> issues.
+> 
+> No hardware failures have been identified.
+> 
+> The issue appears to be exclusively layer 2 routing.
+> 
+> Comcast has, of course, engaged their highest level engineers who are 
+> presently "all-hands-on-deck" working to resolve this issue.
+> 
+> There is no firm ETR as of yet.
+> 
+> -- 
+> D. Ryan Spott | Iron Goat Networks, llc
+> broadband | telco | colo | community
+> PO Box 1232 / 603 W. Stevens Sultan, WA 98284
+> 360-799-0552 | gtalk: rspott at irongoat.net
+> 
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From rspott at irongoat.net  Sat Jun  7 16:10:01 2014
+From: rspott at irongoat.net (D. Ryan Spott)
+Date: Sat, 07 Jun 2014 13:10:01 -0700
+Subject: [outages] Comcast Fiber in WA State...
+In-Reply-To: <20140607184834.GA21187@icarus.home.lan>
+References: <53928407.6010503@irongoat.net>
+ <20140607184834.GA21187@icarus.home.lan>
+Message-ID: <53937199.1060900@irongoat.net>
+
+Sorry for the lack of followup.
+
+Service was down for us from 1600 (on the dot) until 2035. We are a 
+customer of a customer so we don't have direct access to Comcast for 
+details.
+
+One of our POPs is at a K20 network site supported by Comcast EPL. They 
+dropped off around 1700 and came back around the same time.
+
+ryan
+
+
+On 6/7/14, 11:48 AM, Jeremy Chadwick wrote:
+> Any follow-up to this?  Just curious.
+>
+
+-- 
+D. Ryan Spott | Iron Goat Networks, llc
+broadband | telco | colo | community
+PO Box 1232 / 603 W. Stevens Sultan, WA 98284
+360-799-0552 | gtalk: rspott at irongoat.net
+
+
+From jmorris at crosswindvoip.com  Sat Jun  7 16:51:41 2014
+From: jmorris at crosswindvoip.com (Jordan Morris)
+Date: Sat, 7 Jun 2014 20:51:41 +0000
+Subject: [outages] Pac-West Outage
+Message-ID: <28fae13d64e745c0897ce2c0ee243e4a@BL2PR04MB019.namprd04.prod.outlook.com>
+
+This issue is also effecting some WindStream numbers in areas served by Pac-West
+
+
+Jordan
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/c3c8efe6/attachment.html>
+
+From josh at wholesalepbx.com  Sat Jun  7 21:41:00 2014
+From: josh at wholesalepbx.com (Josh Jacoby)
+Date: Sat, 7 Jun 2014 18:41:00 -0700
+Subject: [outages] Pac West Outage
+Message-ID: <CADxGD7+jCqNP-TkHyHwqCPk60o20f0pHodqwwqAa_PXpUAdhqQ@mail.gmail.com>
+
+Update from Pac West as of 6:30 pm Pacific time today:
+
+Please see most recent notice from upper management regarding the current
+outage:
+
+The commercial power was cut off this morning and the batteries did not
+hold long enough for the generator to come on and take over the load.  (we
+will investigate and replace the batteries ASAP)
+
+The network team have been there all day building the network components
+back and bringing it back online
+
+Unfortunately, when the network went down one router did not come back up.
+The team has switched out the router and is now building the connections
+back between the new router and the network.
+
+Don?t have an ETA yet, but appear to be getting down the home stretch.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/63dffddc/attachment.html>
+
+From frnkblk at iname.com  Sat Jun  7 21:52:29 2014
+From: frnkblk at iname.com (Frank Bulk (iname.com))
+Date: Sat, 7 Jun 2014 20:52:29 -0500
+Subject: [outages] Pac West Outage
+In-Reply-To: <CADxGD7+jCqNP-TkHyHwqCPk60o20f0pHodqwwqAa_PXpUAdhqQ@mail.gmail.com>
+References: <CADxGD7+jCqNP-TkHyHwqCPk60o20f0pHodqwwqAa_PXpUAdhqQ@mail.gmail.com>
+Message-ID: <000101cf82bc$4e9eb480$ebdc1d80$@iname.com>
+
+Sounds like a single-router deployment model with no onsite (like) spares ? if so, they could have swapped in the routers/line cards and restored service much more quickly?.I wonder if the router that didn?t come back up was one of the Cisco memory-afflicted ones.  
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Josh Jacoby
+Sent: Saturday, June 07, 2014 8:41 PM
+To: outages at outages.org
+Subject: [outages] Pac West Outage
+
+ 
+
+Update from Pac West as of 6:30 pm Pacific time today:
+
+Please see most recent notice from upper management regarding the current outage:
+
+The commercial power was cut off this morning and the batteries did not hold long enough for the generator to come on and take over the load.  (we will investigate and replace the batteries ASAP)
+
+The network team have been there all day building the network components back and bringing it back online
+
+Unfortunately, when the network went down one router did not come back up.  The team has switched out the router and is now building the connections back between the new router and the network.
+
+Don?t have an ETA yet, but appear to be getting down the home stretch.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/bcc654ac/attachment-0001.html>
+
+From josh at wholesalepbx.com  Sat Jun  7 21:59:48 2014
+From: josh at wholesalepbx.com (Josh Jacoby)
+Date: Sat, 7 Jun 2014 18:59:48 -0700
+Subject: [outages] Pac West Outage
+In-Reply-To: <000101cf82bc$4e9eb480$ebdc1d80$@iname.com>
+References: <CADxGD7+jCqNP-TkHyHwqCPk60o20f0pHodqwwqAa_PXpUAdhqQ@mail.gmail.com>
+ <000101cf82bc$4e9eb480$ebdc1d80$@iname.com>
+Message-ID: <CADxGD7+GAZYvMDqD5TAzgPii7Ao=t=ZBHJa5PRboyWdJGVNVoQ@mail.gmail.com>
+
+I guess I am very surprised there seems to be little redundancy in their
+systems. Ideally a second physical facility but I'd settle for redundant
+routers at this point.
+On Jun 7, 2014 6:52 PM, "Frank Bulk (iname.com)" <frnkblk at iname.com> wrote:
+
+> Sounds like a single-router deployment model with no onsite (like) spares
+> ? if so, they could have swapped in the routers/line cards and restored
+> service much more quickly?.I wonder if the router that didn?t come back up
+> was one of the Cisco memory-afflicted ones.
+>
+>
+>
+> Frank
+>
+>
+>
+> *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *Josh
+> Jacoby
+> *Sent:* Saturday, June 07, 2014 8:41 PM
+> *To:* outages at outages.org
+> *Subject:* [outages] Pac West Outage
+>
+>
+>
+> Update from Pac West as of 6:30 pm Pacific time today:
+>
+> Please see most recent notice from upper management regarding the current
+> outage:
+>
+> The commercial power was cut off this morning and the batteries did not
+> hold long enough for the generator to come on and take over the load.  (we
+> will investigate and replace the batteries ASAP)
+>
+> The network team have been there all day building the network components
+> back and bringing it back online
+>
+> Unfortunately, when the network went down one router did not come back
+> up.  The team has switched out the router and is now building the
+> connections back between the new router and the network.
+>
+> Don?t have an ETA yet, but appear to be getting down the home stretch.
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/94ee726c/attachment.html>
+
+From jd at boldnetworks.net  Sat Jun  7 22:31:49 2014
+From: jd at boldnetworks.net (=?utf-8?B?amRAYm9sZG5ldHdvcmtzLm5ldA==?=)
+Date: Sat, 07 Jun 2014 19:31:49 -0700
+Subject: [outages] =?utf-8?q?Pac_West_Outage?=
+Message-ID: <201406080231.s582VqSN005608@puck.nether.net>
+
+I believe the power outage was scheduled power shut off at one wilshire/624 s. Grand
+None of my equipment went down in that building.
+
+----- Reply message -----
+From: "Josh Jacoby" <josh at wholesalepbx.com>
+To: <outages at outages.org>
+Subject: [outages] Pac West Outage
+Date: Sat, Jun 7, 2014 6:59 PM
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/c403be04/attachment.html>
+
+From jay at west.net  Sat Jun  7 23:00:15 2014
+From: jay at west.net (Jay Hennigan)
+Date: Sat, 07 Jun 2014 20:00:15 -0700
+Subject: [outages] Pac West Outage
+In-Reply-To: <201406080231.s582VqSN005608@puck.nether.net>
+References: <201406080231.s582VqSN005608@puck.nether.net>
+Message-ID: <5393D1BF.3020709@west.net>
+
+On 6/7/14 7:31 PM, jd at boldnetworks.net wrote:
+> I believe the power outage was scheduled power shut off at one
+> wilshire/624 s. Grand
+> 
+> None of my equipment went down in that building.
+
+Nor ours.
+
+Our BGP peering session with Pacwest there bounced but has been back up
+and stable since about 8:40 AM PDT, with their usual announced prefixes.
+
+We have some PacWest TDM/PRI that is still down, so this doesn't seem to
+be an IP router affected, nor necessarily at One Wilshire.  I suspect
+"router" may have to do with call routing along the lines of a telephone
+switch.
+
+Is there any source of actual info from PacWest?  No status updates on
+their web page, nothing on Twitter, their NOC line is dead....
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From jd at boldnetworks.net  Sun Jun  8 00:45:45 2014
+From: jd at boldnetworks.net (=?utf-8?B?amRAYm9sZG5ldHdvcmtzLm5ldA==?=)
+Date: Sat, 07 Jun 2014 21:45:45 -0700
+Subject: [outages] =?utf-8?q?Pac_West_Outage?=
+Message-ID: <201406080445.s584jnwS020717@puck.nether.net>
+
+Looks like it's working now...
+
+----- Reply message -----
+From: "Jay Hennigan" <jay at west.net>
+To: <outages at outages.org>
+Subject: [outages] Pac West Outage
+Date: Sat, Jun 7, 2014 8:00 PM
+
+On 6/7/14 7:31 PM, jd at boldnetworks.net wrote:
+> I believe the power outage was scheduled power shut off at one
+> wilshire/624 s. Grand
+> 
+> None of my equipment went down in that building.
+
+Nor ours.
+
+Our BGP peering session with Pacwest there bounced but has been back up
+and stable since about 8:40 AM PDT, with their usual announced prefixes.
+
+We have some PacWest TDM/PRI that is still down, so this doesn't seem to
+be an IP router affected, nor necessarily at One Wilshire.  I suspect
+"router" may have to do with call routing along the lines of a telephone
+switch.
+
+Is there any source of actual info from PacWest?  No status updates on
+their web page, nothing on Twitter, their NOC line is dead....
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140607/16568fb5/attachment.html>
+
+From carlos at race.com  Sun Jun  8 01:34:17 2014
+From: carlos at race.com (Carlos Alcantar)
+Date: Sun, 8 Jun 2014 05:34:17 +0000
+Subject: [outages] Pac West Outage
+In-Reply-To: <201406080445.s584jnwS020717@puck.nether.net>
+References: <201406080445.s584jnwS020717@puck.nether.net>
+Message-ID: <CFB943C5.A52A6%carlos@race.com>
+
+We are starting to see calls starting to flow in but I am seeing static on some of these calls.
+
+Carlos Alcantar
+Race Communications / Race Team Member
+1325 Howard Ave. #604, Burlingame, CA. 94010
+Phone: +1 415 376 3314 / carlos at race.com / http://www.race.com
+
+From: "jd at boldnetworks.net<mailto:jd at boldnetworks.net>" <jd at boldnetworks.net<mailto:jd at boldnetworks.net>>
+Date: Saturday, June 7, 2014 at 9:45 PM
+To: Jay Hennigan <jay at west.net<mailto:jay at west.net>>, "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+Subject: Re: [outages] Pac West Outage
+
+Looks like it's working now...
+----- Reply message -----
+From: "Jay Hennigan" <jay at west.net<mailto:jay at west.net>>
+To: <outages at outages.org<mailto:outages at outages.org>>
+Subject: [outages] Pac West Outage
+Date: Sat, Jun 7, 2014 8:00 PM
+
+
+On 6/7/14 7:31 PM, jd at boldnetworks.net<mailto:jd at boldnetworks.net> wrote:
+> I believe the power outage was scheduled power shut off at one
+> wilshire/624 s. Grand
+>
+> None of my equipment went down in that building.
+
+Nor ours.
+
+Our BGP peering session with Pacwest there bounced but has been back up
+and stable since about 8:40 AM PDT, with their usual announced prefixes.
+
+We have some PacWest TDM/PRI that is still down, so this doesn't seem to
+be an IP router affected, nor necessarily at One Wilshire.  I suspect
+"router" may have to do with call routing along the lines of a telephone
+switch.
+
+Is there any source of actual info from PacWest?  No status updates on
+their web page, nothing on Twitter, their NOC line is dead....
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net<mailto:jay at impulse.net>
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+_______________________________________________
+Outages mailing list
+Outages at outages.org<mailto:Outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140608/fad633ae/attachment-0001.html>
+
+From petelists at templin.org  Mon Jun  9 12:16:01 2014
+From: petelists at templin.org (Pete Templin)
+Date: Mon, 09 Jun 2014 09:16:01 -0700
+Subject: [outages] Pac West Outage
+In-Reply-To: <000101cf82bc$4e9eb480$ebdc1d80$@iname.com>
+References: <CADxGD7+jCqNP-TkHyHwqCPk60o20f0pHodqwwqAa_PXpUAdhqQ@mail.gmail.com>
+ <000101cf82bc$4e9eb480$ebdc1d80$@iname.com>
+Message-ID: <5395DDC1.4040801@templin.org>
+
+
+On 6/7/2014 6:52 PM, Frank Bulk (iname.com) wrote:
+>
+> Sounds like a single-router deployment model with no onsite (like) 
+> spares -- if so, they could have swapped in the routers/line cards and 
+> restored service much more quickly....I wonder if the router that 
+> didn't come back up was one of the Cisco memory-afflicted ones.
+>
+Or a "two routers means we can double our traffic" deployment model.
+
+pt
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140609/56da1fb8/attachment.html>
+
+From fergdawgster at mykolab.com  Wed Jun 11 05:20:04 2014
+From: fergdawgster at mykolab.com (Paul Ferguson)
+Date: Wed, 11 Jun 2014 02:20:04 -0700
+Subject: [outages] Feedly down?
+Message-ID: <53981F44.5020904@mykolab.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Looks down for me here in Brussels:
+
+http://www.downforeveryoneorjustme.com/www.feedly.com
+
+Just maintenance or...? Anyone know anything?
+
+Thanks,
+
+- - ferg
+
+
+
+- -- 
+Paul Ferguson
+VP Threat Intelligence, IID
+PGP Public Key ID: 0x54DC85B2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+Comment: Using GnuPG with Thunderbird - http://www.enigmail.net/
+
+iF4EAREIAAYFAlOYH0QACgkQKJasdVTchbK2CgD8DTPBWk5W6BPH8gBdtkp9HMOF
+KbnQOUcBRBCJmcHvHJ0A/iS7m3LIQRPKUSQHNs2I3cQB6SyZObBo5j2pt1KZgSQ2
+=lVWr
+-----END PGP SIGNATURE-----
+
+From rdobbins at arbor.net  Wed Jun 11 05:29:06 2014
+From: rdobbins at arbor.net (Roland Dobbins)
+Date: Wed, 11 Jun 2014 16:29:06 +0700
+Subject: [outages] Feedly down?
+In-Reply-To: <53981F44.5020904@mykolab.com>
+References: <53981F44.5020904@mykolab.com>
+Message-ID: <7F231746-6BBB-441F-8205-2D01C3E5240D@arbor.net>
+
+
+On Jun 11, 2014, at 4:20 PM, Paul Ferguson <fergdawgster at mykolab.com> wrote:
+
+> Looks down for me here in Brussels:
+
+Down for me in Asia, too.
+
+----------------------------------------------------------------------
+Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+
+                   Equo ne credite, Teucri.
+
+    		   	  -- Laoco?n
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 243 bytes
+Desc: Message signed with OpenPGP using GPGMail
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140611/082bb412/attachment.sig>
+
+From pedroagracio at gmail.com  Wed Jun 11 05:50:56 2014
+From: pedroagracio at gmail.com (Pedro Cunha)
+Date: Wed, 11 Jun 2014 10:50:56 +0100
+Subject: [outages] Feedly down?
+Message-ID: <CAPCUbK4fhMW=5mGkowc5-eSpj_kgqrMbOVxaRixAoiV8QM4-Kw@mail.gmail.com>
+
+On Wed, Jun 11, 2014 at 10:20 AM, Paul Ferguson <fergdawgster at mykolab.com>
+wrote:
+
+> Just maintenance or...? Anyone know anything?
+>
+
+?They're getting DDoS'd:
+http://blog.feedly.com/2014/06/11/denial-of-service-attack/?
+
+?(Forwarded to list, clicked "Reply" instead of "Reply all")?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140611/9c460644/attachment.html>
+
+From mitpatterson at gmail.com  Thu Jun 12 13:14:45 2014
+From: mitpatterson at gmail.com (Mitch Patterson)
+Date: Thu, 12 Jun 2014 13:14:45 -0400
+Subject: [outages] New Orleans area fiber cut
+In-Reply-To: <CAPC+kK7o-qww1zH-g_FxjwFSWcnpqJXJnOQKTo-GdfaWVuqq7w@mail.gmail.com>
+References: <CAPC+kK7o-qww1zH-g_FxjwFSWcnpqJXJnOQKTo-GdfaWVuqq7w@mail.gmail.com>
+Message-ID: <CAPC+kK4wu-FRAsAPsymtmDz=R9Psno8Vpdm5GimU5W-_3TaE+w@mail.gmail.com>
+
+How wide of an outage are people seeing? We have a few dozen sites down and
+level 3 is reporting a 170 and 96 count fiber got cut installing a water
+pipe.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/05bf310d/attachment.html>
+
+From network at cisp.com  Thu Jun 12 16:34:33 2014
+From: network at cisp.com (*Network)
+Date: Thu, 12 Jun 2014 20:34:33 +0000
+Subject: [outages] Level 3 outage at Toledo
+Message-ID: <391AAB48E84BB24288BED210F379E1DC4DFE25A4@NOCMAILDAG2.Internal.allthesites.org>
+
+CISP experience issue with one of the Level 3 BGP  circuit to Detroit
+Currently we de-peered  with that circuit
+
+Anton Kolev
+ Network  Engineer - CCNP
+[cid:image001.jpg at 01CDB124.A9503F40]
+419.724.5341  office
+419.351.5221  cell
+419.724.3547  24x7 support
+support at cisp.com<mailto:support at cisp.com> | www.cisp.com<http://www.cisp.com/>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/183c44a0/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 7395 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/183c44a0/attachment.jpg>
+
+From billw at waveform.net  Thu Jun 12 17:05:23 2014
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 12 Jun 2014 21:05:23 +0000
+Subject: [outages] Level 3 outage at Toledo
+In-Reply-To: <391AAB48E84BB24288BED210F379E1DC4DFE25A4@NOCMAILDAG2.Internal.allthesites.org>
+References: <391AAB48E84BB24288BED210F379E1DC4DFE25A4@NOCMAILDAG2.Internal.allthesites.org>
+Message-ID: <4897906C085783429A2F4B39EBFF44F03369EB00@Server-01.WaveformTechnology.local>
+
+We haven't seen any issues with our circuit to Level(3) in Detroit.
+
+  -Bill
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of *Network
+Sent: Thursday, June 12, 2014 4:35 PM
+To: outages at outages.org
+Subject: [outages] Level 3 outage at Toledo
+
+CISP experience issue with one of the Level 3 BGP  circuit to Detroit
+Currently we de-peered  with that circuit
+
+Anton Kolev
+ Network  Engineer - CCNP
+[cid:image001.jpg at 01CDB124.A9503F40]
+419.724.5341  office
+419.351.5221  cell
+419.724.3547  24x7 support
+support at cisp.com<mailto:support at cisp.com> | www.cisp.com<http://www.cisp.com/>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/9960e172/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 7395 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/9960e172/attachment-0001.jpg>
+
+From Petter.Bruland at allegiantair.com  Thu Jun 12 17:16:42 2014
+From: Petter.Bruland at allegiantair.com (Petter Bruland)
+Date: Thu, 12 Jun 2014 21:16:42 +0000
+Subject: [outages] Level 3 outage at Toledo
+In-Reply-To: <4897906C085783429A2F4B39EBFF44F03369EB00@Server-01.WaveformTechnology.local>
+References: <391AAB48E84BB24288BED210F379E1DC4DFE25A4@NOCMAILDAG2.Internal.allthesites.org>
+ <4897906C085783429A2F4B39EBFF44F03369EB00@Server-01.WaveformTechnology.local>
+Message-ID: <DC864220297BE047821E58CF67B23F6EA3F87373@SVIEXCMB01.allegiantair.com>
+
+The NOC in N.Y. that monitors our datacenter equipment in Las Vegas noticed at dropped VPN connection (L3 in Las Vegas), then reconnected without issues about 8-12 minutes later.
+
+-Petter
+
+
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bill Wichers
+Sent: Thursday, June 12, 2014 2:05 PM
+To: *Network; outages at outages.org
+Subject: Re: [outages] Level 3 outage at Toledo
+
+We haven't seen any issues with our circuit to Level(3) in Detroit.
+
+  -Bill
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of *Network
+Sent: Thursday, June 12, 2014 4:35 PM
+To: outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] Level 3 outage at Toledo
+
+CISP experience issue with one of the Level 3 BGP  circuit to Detroit
+Currently we de-peered  with that circuit
+
+Anton Kolev
+ Network  Engineer - CCNP
+[cid:image001.jpg at 01CDB124.A9503F40]
+419.724.5341  office
+419.351.5221  cell
+419.724.3547  24x7 support
+support at cisp.com<mailto:support at cisp.com> | www.cisp.com<http://www.cisp.com/>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/58ada8ad/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.jpg
+Type: image/jpeg
+Size: 7395 bytes
+Desc: image001.jpg
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140612/58ada8ad/attachment.jpg>
+
+From SaruVi at vmc.com  Sat Jun 14 22:14:11 2014
+From: SaruVi at vmc.com (Saru Vijayakumar)
+Date: Sun, 15 Jun 2014 02:14:11 +0000
+Subject: [outages] UNSUBSCRIBE
+Message-ID: <2B178E6097BB314290221B09023B8ABC57E1C63C@ENTREDEXMBX02.vmc.com>
+
+Please unsubscribe this e-mail from the distribution.
+
+Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140615/845992f8/attachment.html>
+
+From dharmachris at gmail.com  Tue Jun 17 16:25:30 2014
+From: dharmachris at gmail.com (Christopher Hunt)
+Date: Tue, 17 Jun 2014 13:25:30 -0700
+Subject: [outages] Centurylink WA-OR fiber cut.
+Message-ID: <CAP+vuLUd=vAVXNjx5oAM_2LAvrdfsizyQ8DAGJau=vMcbvWSYA@mail.gmail.com>
+
+Apparently a large cable stretching between Astoria, Oregon and Washington
+state (presumably the Megler bridge) was cut ~12:40am Pacific.  Clink crews
+started splicing around 5:00am.  They completed the Oregon side of the
+splice at 1:00pm and will be complete with the Washington side around
+8:00pm local time.  This has affected some, but not all, of my NW Oregon
+QMOE circuits.  Clink group ticket #157259.
+
+-Chris
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140617/2ca02d19/attachment.html>
+
+From ke7dkg at gmail.com  Tue Jun 17 16:37:21 2014
+From: ke7dkg at gmail.com (Benjamin Monjay)
+Date: Tue, 17 Jun 2014 13:37:21 -0700
+Subject: [outages] Centurylink WA-OR fiber cut.
+In-Reply-To: <CAP+vuLUd=vAVXNjx5oAM_2LAvrdfsizyQ8DAGJau=vMcbvWSYA@mail.gmail.com>
+References: <CAP+vuLUd=vAVXNjx5oAM_2LAvrdfsizyQ8DAGJau=vMcbvWSYA@mail.gmail.com>
+Message-ID: <CAHD_bJF8UXbBfBHMvpMoy4dz3Ja28qejdGDj9-juh5sWYRkwBQ@mail.gmail.com>
+
+You can watch them work here :-)
+http://www.tripcheck.com/popups/Cam.asp?curRegion=1&camera=1608&camera=496
+
+
+On Tue, Jun 17, 2014 at 1:25 PM, Christopher Hunt <dharmachris at gmail.com>
+wrote:
+
+> Apparently a large cable stretching between Astoria, Oregon and Washington
+> state (presumably the Megler bridge) was cut ~12:40am Pacific.  Clink crews
+> started splicing around 5:00am.  They completed the Oregon side of the
+> splice at 1:00pm and will be complete with the Washington side around
+> 8:00pm local time.  This has affected some, but not all, of my NW Oregon
+> QMOE circuits.  Clink group ticket #157259.
+>
+> -Chris
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140617/72dca054/attachment.html>
+
+From tim at bobbroadband.com  Wed Jun 18 10:54:17 2014
+From: tim at bobbroadband.com (Tim Huffman)
+Date: Wed, 18 Jun 2014 14:54:17 +0000
+Subject: [outages] Fiber Outage at 111 8th Ave, NY?
+Message-ID: <9734000BBB8ABA4F8F6588608FD3CDAD2AFF5B13@mbx028-e1-va-8.exch028.domain.local>
+
+Hey everybody, I just had two fiber links between 350 Cermak in Chicago and 111 8th in NY fail within minutes of each other. Anybody know of any fiber cuts or seeing the same thing?
+
+Tim Huffman
+Director of Engineering
+Business Only Broadband
+999 Oak Creek Dr, Lombard, IL 60148
+Direct: 630.590.6012 | Main: 630.590.6000 | Fax: 630.986.2496
+thuffman at bobbroadband.com<mailto:thuffman at bobbroadband.com>  |  http://www.bobbroadband.com/
+Cell:  630.340.1925 | Toll-Free Customer Support:  877.262.4553
+[https://staticapp.icpsc.com/icp/loadimage.php/mogile/933825/747f0f3e66a4e0ce7633ff898bfc5121/image/png]  Follow Us on LinkedIn<http://www.linkedin.com/company/business-only-broadband>  |  [https://files.icontact.com/templates/v2/CleanAndSimple/images/twitter.gif]   Follow Us on Twitter<https://twitter.com/#%21/BOBbroadband>
+P please consider the environment prior to printing
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/66981268/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 2480 bytes
+Desc: image001.png
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/66981268/attachment.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.gif
+Type: image/gif
+Size: 1287 bytes
+Desc: image002.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/66981268/attachment.gif>
+
+From Shane.Shields at agio.com  Wed Jun 18 11:14:32 2014
+From: Shane.Shields at agio.com (Shields, Shane)
+Date: Wed, 18 Jun 2014 15:14:32 +0000
+Subject: [outages] Fiber Outage at 111 8th Ave, NY?
+In-Reply-To: <9734000BBB8ABA4F8F6588608FD3CDAD2AFF5B13@mbx028-e1-va-8.exch028.domain.local>
+References: <9734000BBB8ABA4F8F6588608FD3CDAD2AFF5B13@mbx028-e1-va-8.exch028.domain.local>
+Message-ID: <3E90BF751E24C64E9E6CCBD9E5A059020F8D65A3@MBX021-E3-NJ-2.exch021.domain.local>
+
+Level3 has some switch upgrades scheduled for June30th/July1st AM (1-3AM EST) out of 111 8th. That's an Internet POP there for them.
+
+Haven't seen anything today having problems out of 111 8th though, and we've got a ton of circuits supporting Wall St. out of there. No info on Chicago though.
+
+Hope this helps.
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Tim Huffman
+Sent: Wednesday, June 18, 2014 9:54 AM
+To: outages at outages.org
+Subject: [outages] Fiber Outage at 111 8th Ave, NY?
+
+Hey everybody, I just had two fiber links between 350 Cermak in Chicago and 111 8th in NY fail within minutes of each other. Anybody know of any fiber cuts or seeing the same thing?
+
+Tim Huffman
+Director of Engineering
+Business Only Broadband
+999 Oak Creek Dr, Lombard, IL 60148
+Direct: 630.590.6012 | Main: 630.590.6000 | Fax: 630.986.2496
+thuffman at bobbroadband.com<mailto:thuffman at bobbroadband.com>  |  http://www.bobbroadband.com/<http://cp.mcafee.com/d/k-Kr6zqb5SkrI9IzztPrXXPPxEVjudzDzhPtdcsedLLLfe6zBcQsCQrFELK9InjdQ9X3-EjBVW50lF6lundWhBnBPu-gR7mn-LOb2oVMtRXBQQNR-jsud7dQ-mKzp5dl6UXBgY-F6lK1FJ4SOrLRQkhPz0WXVEVdTdw0y5i12dtg8r13BYdRrDF7W5O5mUm-waGTfifQU02rh7n7fCPiTlKuAvEqnjh0bO8v4Qg1xKuAvd46Pd42aa9EwuCjd40wpY0Ph030eidI9COQyuFx20ot3n>
+Cell:  630.340.1925 | Toll-Free Customer Support:  877.262.4553
+[https://staticapp.icpsc.com/icp/loadimage.php/mogile/933825/747f0f3e66a4e0ce7633ff898bfc5121/image/png]  Follow Us on LinkedIn<http://cp.mcafee.com/d/1jWVIe6wUSyNtB6X2r8UTsS--YYUqekTzoVUQsTjj73zrXXPPxEVjd79J6WqbXyr5QPt2uM_G4Vuuxg5qhBnBPuAplVsTLAdhRB_HYyMCes7tuVtdctvAT7zhPtfBHEShjlhKeVkffGhBrwqrjdICXZt54sUMeK-qejtPo08-k2LEixO-bHr0Jx1KAEvixuI3ONsx6KE4dwwrGTfifQbAaJMJZ0llKuAvFM04SyeKevdCBKHsZ8_gQKCy0nAg-9Ew33sZ8-q8dCq84kkjh0ZcCq810PU1Cy060sArojdJefFrTEfKekl>  |  [https://files.icontact.com/templates/v2/CleanAndSimple/images/twitter.gif]   Follow Us on Twitter<http://cp.mcafee.com/d/5fHCNAi6h8SyNtB6X2r8UTsS--YYUqekTzoVUQsTjj73zrXXPPxEVjd79J6WqbXyr5QPt2uM_G4Vuuxg5qhBnBPuAplVsTLAdhRB_HYyMCes7tuVtdctvAT7zhPtfBHEShjlhKeVkffGhBrwqrpdICXZt54sUMeK-qejtPpesRG9pAP4FP-fbU1wZd71Ac392dtg8r10TlKuAvEn8lrxrW0GHsZ8_jw09J4tss-rdbtmVWh-xFtd40L8xYjh066VWhYQgrcQg8EECy1WpcQg21DM3d40c0V8SMCrTm2N>
+P please consider the environment prior to printing
+
+The information in this transmittal may be legally privileged, confidential, and/or otherwise protected by law from disclosure, and is intended only for the recipient(s) listed above. If you are neither the intended recipient(s) nor a person responsible for the delivery of this transmittal to the intended recipient(s), you are hereby notified that any distribution or copying of this transmittal is prohibited. If you have received this transmittal in error, please notify Agio LLC immediately at (405) 217-3800 or by return e-mail and take the steps necessary to delete it completely from your computer system. Thank you.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/982ba984/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 2480 bytes
+Desc: image001.png
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/982ba984/attachment-0001.png>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image002.gif
+Type: image/gif
+Size: 1287 bytes
+Desc: image002.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140618/982ba984/attachment-0001.gif>
+
+From mrsyeltzin at gmail.com  Wed Jun 18 11:15:47 2014
+From: mrsyeltzin at gmail.com (Dan Stralka)
+Date: Wed, 18 Jun 2014 15:15:47 +0000
+Subject: [outages] Fiber Outage at 111 8th Ave, NY?
+In-Reply-To: <9734000BBB8ABA4F8F6588608FD3CDAD2AFF5B13@mbx028-e1-va-8.exch028.domain.local>
+References: <9734000BBB8ABA4F8F6588608FD3CDAD2AFF5B13@mbx028-e1-va-8.exch028.domain.local>
+Message-ID: <1415995498-1403104548-cardhu_decombobulator_blackberry.rim.net-1556112871-@b11.c1.bise6.blackberry>
+
+There are reports of power problems in NY currently that may have affected you. We lost a site for a brief period of time in Manhattan. 
+
+
+
+ 
+Sent via BIS
+
+-----Original Message-----
+From: Tim Huffman <tim at bobbroadband.com>
+Sender: "Outages" <outages-bounces at outages.org>Date: Wed, 18 Jun 2014 14:54:17 
+To: outages at outages.org<outages at outages.org>
+Subject: [outages] Fiber Outage at 111 8th Ave, NY?
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From frnkblk at iname.com  Thu Jun 19 09:23:38 2014
+From: frnkblk at iname.com (Frank Bulk)
+Date: Thu, 19 Jun 2014 08:23:38 -0500
+Subject: [outages] Short facebook outage overnight
+Message-ID: <006501cf8bc1$ae629900$0b27cb00$@iname.com>
+
+Our monitoring system saw HTTPv6 access to www.facebook.com down from 2:53
+to 3:24 am Central.  Seems to match up with this news article:
+http://www.channelnewsasia.com/news/singapore/facebook-service-outage/117872
+4.html
+
+Regards,
+
+Frank Bulk
+
+
+From owen at impulse.net  Thu Jun 19 14:24:57 2014
+From: owen at impulse.net (Owen Roth)
+Date: Thu, 19 Jun 2014 11:24:57 -0700 (PDT)
+Subject: [outages] Level3 outage in California ongoing
+In-Reply-To: <1112488869.2457513.1403202168067.JavaMail.root@impulse.net>
+Message-ID: <1038628757.2459060.1403202297051.JavaMail.root@impulse.net>
+
+FYI: Our symptom noticed is slow page loads and web traffic affected. Small packets and voice unimpacted. Last updated from Level3 is a core router is down in San Jose.
+
+Other information, confirmation?
+
+------------
+Owen Roth
+NOC Manager
+Impulse Advanced Communications
+owen at impulse.net
+805-884-6332
+
+
+
+From alex.vanino at abilto.com  Fri Jun 20 09:14:45 2014
+From: alex.vanino at abilto.com (Alex Vanino)
+Date: Fri, 20 Jun 2014 13:14:45 +0000
+Subject: [outages] Experiencing reports of connectivity disruption at
+ static.oak01.latisys.net in Chicago
+Message-ID: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+
+Hi Outages,
+
+We have been receiving reports from users all over the country that they have been failing to connect to our application. For other users everything is working fine. Our application is hosted at Latisys(static.oak01.latisys.net) in Chicago. I myself am experiencing mixed connectivity issue's. I can connect to one of my IP's at Latisys, but not the other. Tracert's indicate that packet is getting to their network.
+
+Does not work for me:
+Tracing route to cleardata03.abilto.com [192.65.157.58]
+over a maximum of 30 hops:
+
+  1     2 ms    <1 ms     1 ms  192.168.25.1
+  2     8 ms     8 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net [98.109.10.
+1]
+  3    11 ms    12 ms    13 ms  G1-2-4-6.NWRKNJ-LCR-22.verizon-gni.net [100.41.2
+02.206]
+  4    11 ms    11 ms    11 ms  130.81.162.84
+  5    10 ms    13 ms    14 ms  0.xe-11-0-0.GW13.NYC1.ALTER.NET [152.63.18.114]
+
+  6     9 ms    11 ms    10 ms  comcast.com.customer.alter.net [152.179.220.126]
+
+  7    18 ms    11 ms    25 ms  he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+[68.86.85.85]
+  8    33 ms    35 ms    35 ms  he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+[68.86.86.222]
+  9    30 ms    31 ms    29 ms  68.86.87.242
+10    43 ms    62 ms    39 ms  50.242.148.210
+11    46 ms    29 ms    35 ms  69.8.117.130
+12    32 ms    35 ms    31 ms  69.8.117.150
+13    36 ms    31 ms    32 ms  207-223-34-12.static.oak01.latisys.net [207.223.
+34.12]
+14     *        *        *     Request timed out.
+15     *        *        *     Request timed out.
+16     *        *        *     Request timed out.
+17     *     ^C
+
+Works fine for me.
+Tracing route to cleardata01.abilto.com [192.65.157.49]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     1 ms  192.168.25.1
+  2     9 ms    10 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net [98.109.10.
+1]
+  3    12 ms    13 ms    13 ms  G1-3-3-1.NWRKNJ-LCR-21.verizon-gni.net [130.81.2
+18.238]
+  4    15 ms    14 ms    15 ms  130.81.162.64
+  5    11 ms    14 ms    15 ms  0.xe-10-0-1.GW13.NYC1.ALTER.NET [152.63.20.169]
+
+  6    13 ms    11 ms    14 ms  comcast.com.customer.alter.net [152.179.220.126]
+
+  7    16 ms    17 ms    15 ms  he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+[68.86.85.85]
+  8    35 ms    36 ms    36 ms  he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+[68.86.86.222]
+  9    30 ms    32 ms    32 ms  he-0-10-0-1-pe04.350ecermak.il.ibone.comcast.net
+[68.86.83.54]
+10    34 ms    69 ms    38 ms  50.242.148.210
+11    36 ms    32 ms    29 ms  69.8.117.130
+12    29 ms    33 ms    34 ms  69.8.117.150
+13    30 ms    30 ms    31 ms  207-223-34-12.static.oak01.latisys.net [207.223.
+34.12]
+14     *        *        *     Request timed out.
+15     *        *        *     Request timed out.
+16     *        *     ^C
+
+(ICMP Is off at my host's routers, hense timeout)
+
+I'm on the phone now with the Network Architect at my hosting provider, but it looks to me to be a problem in the Latisys datacenter, or with one of their providers. Anyone have any information?
+
+
+Regards,
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website: http://www.abilto.com<http://www.abilto.com/>
+LinkedIn: http://lnkd.in/v63TbM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/6b6a6b84/attachment.html>
+
+From frnkblk at iname.com  Fri Jun 20 09:51:06 2014
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 20 Jun 2014 08:51:06 -0500
+Subject: [outages] Experiencing reports of connectivity disruption at
+	static.oak01.latisys.net in Chicago
+In-Reply-To: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+References: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+Message-ID: <007001cf8c8e$af0181f0$0d0485d0$@iname.com>
+
+Does your application run on a certain TCP port that we can hit?
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Alex Vanino
+Sent: Friday, June 20, 2014 8:15 AM
+To: outages at outages.org
+Subject: [outages] Experiencing reports of connectivity disruption at
+static.oak01.latisys.net in Chicago
+
+ 
+
+Hi Outages,
+
+ 
+
+We have been receiving reports from users all over the country that they
+have been failing to connect to our application. For other users everything
+is working fine. Our application is hosted at
+Latisys(static.oak01.latisys.net) in Chicago. I myself am experiencing mixed
+connectivity issue's. I can connect to one of my IP's at Latisys, but not
+the other. Tracert's indicate that packet is getting to their network.
+
+Does not work for me:
+
+Tracing route to cleardata03.abilto.com [192.65.157.58]
+
+over a maximum of 30 hops:
+
+ 
+
+  1     2 ms    <1 ms     1 ms  192.168.25.1
+
+  2     8 ms     8 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+[98.109.10.
+
+1]
+
+  3    11 ms    12 ms    13 ms  G1-2-4-6.NWRKNJ-LCR-22.verizon-gni.net
+[100.41.2
+
+02.206]
+
+  4    11 ms    11 ms    11 ms  130.81.162.84
+
+  5    10 ms    13 ms    14 ms  0.xe-11-0-0.GW13.NYC1.ALTER.NET
+[152.63.18.114]
+
+ 
+
+  6     9 ms    11 ms    10 ms  comcast.com.customer.alter.net
+[152.179.220.126]
+
+ 
+
+  7    18 ms    11 ms    25 ms
+he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+
+[68.86.85.85]
+
+  8    33 ms    35 ms    35 ms
+he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+
+[68.86.86.222]
+
+  9    30 ms    31 ms    29 ms  68.86.87.242
+
+10    43 ms    62 ms    39 ms  50.242.148.210
+
+11    46 ms    29 ms    35 ms  69.8.117.130
+
+12    32 ms    35 ms    31 ms  69.8.117.150
+
+13    36 ms    31 ms    32 ms  207-223-34-12.static.oak01.latisys.net
+[207.223.
+
+34.12]
+
+14     *        *        *     Request timed out.
+
+15     *        *        *     Request timed out.
+
+16     *        *        *     Request timed out.
+
+17     *     ^C
+
+Works fine for me.
+
+Tracing route to cleardata01.abilto.com [192.65.157.49]
+
+over a maximum of 30 hops:
+
+ 
+
+  1     2 ms     2 ms     1 ms  192.168.25.1
+
+  2     9 ms    10 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+[98.109.10.
+
+1]
+
+  3    12 ms    13 ms    13 ms  G1-3-3-1.NWRKNJ-LCR-21.verizon-gni.net
+[130.81.2
+
+18.238]
+
+  4    15 ms    14 ms    15 ms  130.81.162.64
+
+  5    11 ms    14 ms    15 ms  0.xe-10-0-1.GW13.NYC1.ALTER.NET
+[152.63.20.169]
+
+ 
+
+  6    13 ms    11 ms    14 ms  comcast.com.customer.alter.net
+[152.179.220.126]
+
+ 
+
+  7    16 ms    17 ms    15 ms
+he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+
+[68.86.85.85]
+
+  8    35 ms    36 ms    36 ms
+he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+
+[68.86.86.222]
+
+  9    30 ms    32 ms    32 ms
+he-0-10-0-1-pe04.350ecermak.il.ibone.comcast.net
+
+[68.86.83.54]
+
+10    34 ms    69 ms    38 ms  50.242.148.210
+
+11    36 ms    32 ms    29 ms  69.8.117.130
+
+12    29 ms    33 ms    34 ms  69.8.117.150
+
+13    30 ms    30 ms    31 ms  207-223-34-12.static.oak01.latisys.net
+[207.223.
+
+34.12]
+
+14     *        *        *     Request timed out.
+
+15     *        *        *     Request timed out.
+
+16     *        *     ^C
+
+ 
+
+(ICMP Is off at my host's routers, hense timeout)
+
+ 
+
+I'm on the phone now with the Network Architect at my hosting provider, but
+it looks to me to be a problem in the Latisys datacenter, or with one of
+their providers. Anyone have any information?
+
+ 
+
+ 
+
+Regards,
+
+ 
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website:  <http://www.abilto.com/> http://www.abilto.com
+LinkedIn:  <http://lnkd.in/v63TbM> http://lnkd.in/v63TbM
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/0912f9b3/attachment-0001.html>
+
+From alex.vanino at abilto.com  Fri Jun 20 09:51:40 2014
+From: alex.vanino at abilto.com (Alex Vanino)
+Date: Fri, 20 Jun 2014 13:51:40 +0000
+Subject: [outages] Experiencing reports of connectivity disruption at
+ static.oak01.latisys.net in Chicago
+In-Reply-To: <007001cf8c8e$af0181f0$0d0485d0$@iname.com>
+References: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+ <007001cf8c8e$af0181f0$0d0485d0$@iname.com>
+Message-ID: <8d4fbc6182e84eb09c365a3d14d25d7d@BLUPR06MB340.namprd06.prod.outlook.com>
+
+443
+
+Regards,
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website: http://www.abilto.com<http://www.abilto.com/>
+LinkedIn: http://lnkd.in/v63TbM
+
+From: Frank Bulk [mailto:frnkblk at iname.com]
+Sent: Friday, June 20, 2014 9:51 AM
+To: Alex Vanino; outages at outages.org
+Subject: RE: Experiencing reports of connectivity disruption at static.oak01.latisys.net in Chicago
+
+Does your application run on a certain TCP port that we can hit?
+
+Frank
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Alex Vanino
+Sent: Friday, June 20, 2014 8:15 AM
+To: outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] Experiencing reports of connectivity disruption at static.oak01.latisys.net in Chicago
+
+Hi Outages,
+
+We have been receiving reports from users all over the country that they have been failing to connect to our application. For other users everything is working fine. Our application is hosted at Latisys(static.oak01.latisys.net) in Chicago. I myself am experiencing mixed connectivity issue's. I can connect to one of my IP's at Latisys, but not the other. Tracert's indicate that packet is getting to their network.
+
+Does not work for me:
+Tracing route to cleardata03.abilto.com [192.65.157.58]
+over a maximum of 30 hops:
+
+  1     2 ms    <1 ms     1 ms  192.168.25.1
+  2     8 ms     8 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net [98.109.10.
+1]
+  3    11 ms    12 ms    13 ms  G1-2-4-6.NWRKNJ-LCR-22.verizon-gni.net [100.41.2
+02.206]
+  4    11 ms    11 ms    11 ms  130.81.162.84
+  5    10 ms    13 ms    14 ms  0.xe-11-0-0.GW13.NYC1.ALTER.NET [152.63.18.114]
+
+  6     9 ms    11 ms    10 ms  comcast.com.customer.alter.net [152.179.220.126]
+
+  7    18 ms    11 ms    25 ms  he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+[68.86.85.85]
+  8    33 ms    35 ms    35 ms  he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+[68.86.86.222]
+  9    30 ms    31 ms    29 ms  68.86.87.242
+10    43 ms    62 ms    39 ms  50.242.148.210
+11    46 ms    29 ms    35 ms  69.8.117.130
+12    32 ms    35 ms    31 ms  69.8.117.150
+13    36 ms    31 ms    32 ms  207-223-34-12.static.oak01.latisys.net [207.223.
+34.12]
+14     *        *        *     Request timed out.
+15     *        *        *     Request timed out.
+16     *        *        *     Request timed out.
+17     *     ^C
+
+Works fine for me.
+Tracing route to cleardata01.abilto.com [192.65.157.49]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     1 ms  192.168.25.1
+  2     9 ms    10 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net [98.109.10.
+1]
+  3    12 ms    13 ms    13 ms  G1-3-3-1.NWRKNJ-LCR-21.verizon-gni.net [130.81.2
+18.238]
+  4    15 ms    14 ms    15 ms  130.81.162.64
+  5    11 ms    14 ms    15 ms  0.xe-10-0-1.GW13.NYC1.ALTER.NET [152.63.20.169]
+
+  6    13 ms    11 ms    14 ms  comcast.com.customer.alter.net [152.179.220.126]
+
+  7    16 ms    17 ms    15 ms  he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+[68.86.85.85]
+  8    35 ms    36 ms    36 ms  he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+[68.86.86.222]
+  9    30 ms    32 ms    32 ms  he-0-10-0-1-pe04.350ecermak.il.ibone.comcast.net
+[68.86.83.54]
+10    34 ms    69 ms    38 ms  50.242.148.210
+11    36 ms    32 ms    29 ms  69.8.117.130
+12    29 ms    33 ms    34 ms  69.8.117.150
+13    30 ms    30 ms    31 ms  207-223-34-12.static.oak01.latisys.net [207.223.
+34.12]
+14     *        *        *     Request timed out.
+15     *        *        *     Request timed out.
+16     *        *     ^C
+
+(ICMP Is off at my host's routers, hense timeout)
+
+I'm on the phone now with the Network Architect at my hosting provider, but it looks to me to be a problem in the Latisys datacenter, or with one of their providers. Anyone have any information?
+
+
+Regards,
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website: http://www.abilto.com<http://www.abilto.com/>
+LinkedIn: http://lnkd.in/v63TbM
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/89601221/attachment.html>
+
+From frnkblk at iname.com  Fri Jun 20 09:57:23 2014
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 20 Jun 2014 08:57:23 -0500
+Subject: [outages] Experiencing reports of connectivity disruption at
+	static.oak01.latisys.net in Chicago
+In-Reply-To: <8d4fbc6182e84eb09c365a3d14d25d7d@BLUPR06MB340.namprd06.prod.outlook.com>
+References: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+ <007001cf8c8e$af0181f0$0d0485d0$@iname.com>
+ <8d4fbc6182e84eb09c365a3d14d25d7d@BLUPR06MB340.namprd06.prod.outlook.com>
+Message-ID: <007501cf8c8f$8ff65050$afe2f0f0$@iname.com>
+
+Thanks.  I can trace to both IPs/ports:
+
+ 
+
+root at nagios:/home/fbulk# tcptraceroute cleardata01.abilto.com 443
+
+Selected device eth0.3, address 96.31.0.5, port 54141 for outgoing packets
+
+Tracing the path to cleardata01.abilto.com (192.65.157.49) on TCP port 443
+(https), 30 hops max
+
+1  router-core-inside.mtcnet.net (96.31.0.254)  0.241 ms  0.241 ms  0.209 ms
+
+2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.170 ms  0.139 ms  0.146 ms
+
+3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.638 ms  1.572 ms
+1.580 ms
+
+4  ins-db4-et-0-6-0-0.desm.netins.net (167.142.67.194)  7.998 ms  7.744 ms
+7.584 ms
+
+5  ins-dc1-et-7-4.desm.netins.net (167.142.67.193)  9.080 ms  8.992 ms
+8.984 ms
+
+6  ins-kc2-po20.kmrr.netins.net (167.142.67.30)  9.034 ms  9.056 ms  9.010
+ms
+
+7  ins-kc1-po21.kmrr.netins.net (167.142.67.42)  9.164 ms  9.087 ms  9.116
+ms
+
+8  xe-4-3-1.mpr1.msp1.us.above.net (128.177.108.97)  14.786 ms  14.792 ms
+14.752 ms
+
+9  ae3.cr1.ord2.us.above.net (64.125.20.78)  23.260 ms  51.552 ms  23.764 ms
+
+10  ae0.cr2.ord2.us.above.net (64.125.20.246)  23.268 ms  30.778 ms  23.266
+ms
+
+11  xe-3-2-0.mpr2.ord6.us.above.net (64.125.22.129)  23.405 ms  23.334 ms
+23.317 ms
+
+12  64.125.192.146.t00718-01.above.net (64.125.192.146)  23.962 ms  23.908
+ms  23.863 ms
+
+13  69.8.117.130  23.886 ms  23.855 ms  23.876 ms
+
+14  69.8.117.150  23.989 ms  23.978 ms  24.032 ms
+
+15  207-223-34-12.static.oak01.latisys.net (207.223.34.12)  23.601 ms
+23.649 ms  23.635 ms
+
+16  208.78.169.4  24.076 ms  23.953 ms  23.879 ms
+
+17  192-65-157-49.static.oak01.latisys.net (192.65.157.49) [open]  23.906 ms
+23.811 ms  23.808 ms
+
+root at nagios:/home/fbulk# tcptraceroute cleardata03.abilto.com 443
+
+Selected device eth0.3, address 96.31.0.5, port 45748 for outgoing packets
+
+Tracing the path to cleardata03.abilto.com (192.65.157.58) on TCP port 443
+(https), 30 hops max
+
+1  router-core-inside.mtcnet.net (96.31.0.254)  0.396 ms  0.327 ms  0.238 ms
+
+2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.186 ms  0.139 ms  0.117 ms
+
+3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.640 ms  1.563 ms
+1.596 ms
+
+4  ins-db4-et-0-6-0-0.desm.netins.net (167.142.67.194)  7.901 ms  7.625 ms
+7.596 ms
+
+5  ins-dc1-et-7-4.desm.netins.net (167.142.67.193)  9.034 ms  9.043 ms
+8.985 ms
+
+6  ins-kc2-po20.kmrr.netins.net (167.142.67.30)  8.995 ms  8.996 ms  9.089
+ms
+
+7  ins-kc1-po21.kmrr.netins.net (167.142.67.42)  10.296 ms  9.031 ms  9.002
+ms
+
+8  xe-4-3-1.mpr1.msp1.us.above.net (128.177.108.97)  14.765 ms  14.871 ms
+14.740 ms
+
+9  ae3.cr1.ord2.us.above.net (64.125.20.78)  23.607 ms  23.822 ms  23.928 ms
+
+10  ae0.cr2.ord2.us.above.net (64.125.20.246)  23.642 ms  23.751 ms  24.339
+ms
+
+11  xe-3-2-0.mpr2.ord6.us.above.net (64.125.22.129)  23.757 ms  23.707 ms
+23.712 ms
+
+12  64.125.192.146.t00718-01.above.net (64.125.192.146)  24.290 ms  24.347
+ms  24.333 ms
+
+13  69.8.117.134  24.257 ms  27.047 ms  24.259 ms
+
+14  69.8.117.162  24.003 ms  23.979 ms  25.249 ms
+
+15  207-223-34-12.static.oak01.latisys.net (207.223.34.12)  26.210 ms
+25.640 ms  24.191 ms
+
+16  208.78.169.4  24.490 ms  24.320 ms  24.444 ms
+
+17  192-65-157-58.static.oak01.latisys.net (192.65.157.58) [open]  24.540 ms
+24.462 ms  24.507 ms
+
+root at nagios:/home/fbulk#
+
+ 
+
+Frank
+
+ 
+
+From: Alex Vanino [mailto:alex.vanino at abilto.com] 
+Sent: Friday, June 20, 2014 8:52 AM
+To: Frank Bulk; outages at outages.org
+Subject: RE: Experiencing reports of connectivity disruption at
+static.oak01.latisys.net in Chicago
+
+ 
+
+443
+
+ 
+
+Regards,
+
+ 
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website:  <http://www.abilto.com/> http://www.abilto.com
+LinkedIn:  <http://lnkd.in/v63TbM> http://lnkd.in/v63TbM
+
+ 
+
+From: Frank Bulk [mailto:frnkblk at iname.com] 
+Sent: Friday, June 20, 2014 9:51 AM
+To: Alex Vanino; outages at outages.org <mailto:outages at outages.org> 
+Subject: RE: Experiencing reports of connectivity disruption at
+static.oak01.latisys.net in Chicago
+
+ 
+
+Does your application run on a certain TCP port that we can hit?
+
+ 
+
+Frank
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Alex Vanino
+Sent: Friday, June 20, 2014 8:15 AM
+To: outages at outages.org <mailto:outages at outages.org> 
+Subject: [outages] Experiencing reports of connectivity disruption at
+static.oak01.latisys.net in Chicago
+
+ 
+
+Hi Outages,
+
+ 
+
+We have been receiving reports from users all over the country that they
+have been failing to connect to our application. For other users everything
+is working fine. Our application is hosted at
+Latisys(static.oak01.latisys.net) in Chicago. I myself am experiencing mixed
+connectivity issue's. I can connect to one of my IP's at Latisys, but not
+the other. Tracert's indicate that packet is getting to their network.
+
+Does not work for me:
+
+Tracing route to cleardata03.abilto.com [192.65.157.58]
+
+over a maximum of 30 hops:
+
+ 
+
+  1     2 ms    <1 ms     1 ms  192.168.25.1
+
+  2     8 ms     8 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+[98.109.10.
+
+1]
+
+  3    11 ms    12 ms    13 ms  G1-2-4-6.NWRKNJ-LCR-22.verizon-gni.net
+[100.41.2
+
+02.206]
+
+  4    11 ms    11 ms    11 ms  130.81.162.84
+
+  5    10 ms    13 ms    14 ms  0.xe-11-0-0.GW13.NYC1.ALTER.NET
+[152.63.18.114]
+
+ 
+
+  6     9 ms    11 ms    10 ms  comcast.com.customer.alter.net
+[152.179.220.126]
+
+ 
+
+  7    18 ms    11 ms    25 ms
+he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+
+[68.86.85.85]
+
+  8    33 ms    35 ms    35 ms
+he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+
+[68.86.86.222]
+
+  9    30 ms    31 ms    29 ms  68.86.87.242
+
+10    43 ms    62 ms    39 ms  50.242.148.210
+
+11    46 ms    29 ms    35 ms  69.8.117.130
+
+12    32 ms    35 ms    31 ms  69.8.117.150
+
+13    36 ms    31 ms    32 ms  207-223-34-12.static.oak01.latisys.net
+[207.223.
+
+34.12]
+
+14     *        *        *     Request timed out.
+
+15     *        *        *     Request timed out.
+
+16     *        *        *     Request timed out.
+
+17     *     ^C
+
+Works fine for me.
+
+Tracing route to cleardata01.abilto.com [192.65.157.49]
+
+over a maximum of 30 hops:
+
+ 
+
+  1     2 ms     2 ms     1 ms  192.168.25.1
+
+  2     9 ms    10 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+[98.109.10.
+
+1]
+
+  3    12 ms    13 ms    13 ms  G1-3-3-1.NWRKNJ-LCR-21.verizon-gni.net
+[130.81.2
+
+18.238]
+
+  4    15 ms    14 ms    15 ms  130.81.162.64
+
+  5    11 ms    14 ms    15 ms  0.xe-10-0-1.GW13.NYC1.ALTER.NET
+[152.63.20.169]
+
+ 
+
+  6    13 ms    11 ms    14 ms  comcast.com.customer.alter.net
+[152.179.220.126]
+
+ 
+
+  7    16 ms    17 ms    15 ms
+he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+
+[68.86.85.85]
+
+  8    35 ms    36 ms    36 ms
+he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+
+[68.86.86.222]
+
+  9    30 ms    32 ms    32 ms
+he-0-10-0-1-pe04.350ecermak.il.ibone.comcast.net
+
+[68.86.83.54]
+
+10    34 ms    69 ms    38 ms  50.242.148.210
+
+11    36 ms    32 ms    29 ms  69.8.117.130
+
+12    29 ms    33 ms    34 ms  69.8.117.150
+
+13    30 ms    30 ms    31 ms  207-223-34-12.static.oak01.latisys.net
+[207.223.
+
+34.12]
+
+14     *        *        *     Request timed out.
+
+15     *        *        *     Request timed out.
+
+16     *        *     ^C
+
+ 
+
+(ICMP Is off at my host's routers, hense timeout)
+
+ 
+
+I'm on the phone now with the Network Architect at my hosting provider, but
+it looks to me to be a problem in the Latisys datacenter, or with one of
+their providers. Anyone have any information?
+
+ 
+
+ 
+
+Regards,
+
+ 
+
+Alex Vanino | AbilTo
+Principal Network Architect
+Phone: (646) 795-4411
+Website:  <http://www.abilto.com/> http://www.abilto.com
+LinkedIn:  <http://lnkd.in/v63TbM> http://lnkd.in/v63TbM
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/19020cb3/attachment-0001.html>
+
+From steve.wilcox at ixreach.com  Fri Jun 20 11:14:11 2014
+From: steve.wilcox at ixreach.com (Stephen Wilcox)
+Date: Fri, 20 Jun 2014 16:14:11 +0100
+Subject: [outages] Experiencing reports of connectivity disruption at
+ static.oak01.latisys.net in Chicago
+In-Reply-To: <8d4fbc6182e84eb09c365a3d14d25d7d@BLUPR06MB340.namprd06.prod.outlook.com>
+References: <3b5deada27e34d538fab01a691fed8fd@BLUPR06MB340.namprd06.prod.outlook.com>
+ <007001cf8c8e$af0181f0$0d0485d0$@iname.com>
+ <8d4fbc6182e84eb09c365a3d14d25d7d@BLUPR06MB340.namprd06.prod.outlook.com>
+Message-ID: <CANB6qCi+p4O1UGShZJ8=K+Sc2WVCipCxsWWcdOdHyqAN_7_HXw@mail.gmail.com>
+
+Shouldn't you open a support ticket with your provider?
+
+This looks like a problem specifically with your service that they provide,
+rather than a wider outage..?
+
+Steve
+
+
+
+On 20 June 2014 14:51, Alex Vanino <alex.vanino at abilto.com> wrote:
+
+>  443
+>
+>
+>
+> Regards,
+>
+>
+>
+> *Alex Vanino* | *Abil**To*
+>
+> *Principal Network Architect **Phone: *(646) 795-4411
+> * Website:* http://www.abilto.com
+> *LinkedIn:* http://lnkd.in/v63TbM
+>
+>
+>
+> *From:* Frank Bulk [mailto:frnkblk at iname.com]
+> *Sent:* Friday, June 20, 2014 9:51 AM
+> *To:* Alex Vanino; outages at outages.org
+> *Subject:* RE: Experiencing reports of connectivity disruption at
+> static.oak01.latisys.net in Chicago
+>
+>
+>
+> Does your application run on a certain TCP port that we can hit?
+>
+>
+>
+> Frank
+>
+>
+>
+> *From:* Outages [mailto:outages-bounces at outages.org
+> <outages-bounces at outages.org>] *On Behalf Of *Alex Vanino
+> *Sent:* Friday, June 20, 2014 8:15 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] Experiencing reports of connectivity disruption at
+> static.oak01.latisys.net in Chicago
+>
+>
+>
+> Hi Outages,
+>
+>
+>
+> We have been receiving reports from users all over the country that they
+> have been failing to connect to our application. For other users everything
+> is working fine. Our application is hosted at Latisys(
+> static.oak01.latisys.net) in Chicago. I myself am experiencing mixed
+> connectivity issue?s. I can connect to one of my IP?s at Latisys, but not
+> the other. Tracert?s indicate that packet is getting to their network.
+>
+> Does not work for me:
+>
+> Tracing route to cleardata03.abilto.com [192.65.157.58]
+>
+> over a maximum of 30 hops:
+>
+>
+>
+>   1     2 ms    <1 ms     1 ms  192.168.25.1
+>
+>   2     8 ms     8 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+> [98.109.10.
+>
+> 1]
+>
+>   3    11 ms    12 ms    13 ms  G1-2-4-6.NWRKNJ-LCR-22.verizon-gni.net
+> [100.41.2
+>
+> 02.206]
+>
+>   4    11 ms    11 ms    11 ms  130.81.162.84
+>
+>   5    10 ms    13 ms    14 ms  0.xe-11-0-0.GW13.NYC1.ALTER.NET
+> [152.63.18.114]
+>
+>
+>
+>   6     9 ms    11 ms    10 ms  comcast.com.customer.alter.net
+> [152.179.220.126]
+>
+>
+>
+>   7    18 ms    11 ms    25 ms
+> he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+>
+> [68.86.85.85]
+>
+>   8    33 ms    35 ms    35 ms
+> he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+>
+> [68.86.86.222]
+>
+>   9    30 ms    31 ms    29 ms  68.86.87.242
+>
+> 10    43 ms    62 ms    39 ms  50.242.148.210
+>
+> 11    46 ms    29 ms    35 ms  69.8.117.130
+>
+> 12    32 ms    35 ms    31 ms  69.8.117.150
+>
+> 13    36 ms    31 ms    32 ms  207-223-34-12.static.oak01.latisys.net
+> [207.223.
+>
+> 34.12]
+>
+> 14     *        *        *     Request timed out.
+>
+> 15     *        *        *     Request timed out.
+>
+> 16     *        *        *     Request timed out.
+>
+> 17     *     ^C
+>
+> Works fine for me.
+>
+> Tracing route to cleardata01.abilto.com [192.65.157.49]
+>
+> over a maximum of 30 hops:
+>
+>
+>
+>   1     2 ms     2 ms     1 ms  192.168.25.1
+>
+>   2     9 ms    10 ms     8 ms  L100.NWRKNJ-VFTTP-95.verizon-gni.net
+> [98.109.10.
+>
+> 1]
+>
+>   3    12 ms    13 ms    13 ms  G1-3-3-1.NWRKNJ-LCR-21.verizon-gni.net
+> [130.81.2
+>
+> 18.238]
+>
+>   4    15 ms    14 ms    15 ms  130.81.162.64
+>
+>   5    11 ms    14 ms    15 ms  0.xe-10-0-1.GW13.NYC1.ALTER.NET
+> [152.63.20.169]
+>
+>
+>
+>   6    13 ms    11 ms    14 ms  comcast.com.customer.alter.net
+> [152.179.220.126]
+>
+>
+>
+>   7    16 ms    17 ms    15 ms
+> he-0-15-0-0-cr01.sacramento.ca.ibone.comcast.net
+>
+> [68.86.85.85]
+>
+>   8    35 ms    36 ms    36 ms
+> he-0-10-0-0-cr01.350ecermak.il.ibone.comcast.net
+>
+> [68.86.86.222]
+>
+>   9    30 ms    32 ms    32 ms
+> he-0-10-0-1-pe04.350ecermak.il.ibone.comcast.net
+>
+> [68.86.83.54]
+>
+> 10    34 ms    69 ms    38 ms  50.242.148.210
+>
+> 11    36 ms    32 ms    29 ms  69.8.117.130
+>
+> 12    29 ms    33 ms    34 ms  69.8.117.150
+>
+> 13    30 ms    30 ms    31 ms  207-223-34-12.static.oak01.latisys.net
+> [207.223.
+>
+> 34.12]
+>
+> 14     *        *        *     Request timed out.
+>
+> 15     *        *        *     Request timed out.
+>
+> 16     *        *     ^C
+>
+>
+>
+> (ICMP Is off at my host?s routers, hense timeout)
+>
+>
+>
+> I?m on the phone now with the Network Architect at my hosting provider,
+> but it looks to me to be a problem in the Latisys datacenter, or with one
+> of their providers. Anyone have any information?
+>
+>
+>
+>
+>
+> Regards,
+>
+>
+>
+> *Alex Vanino* | *Abil**To*
+>
+> *Principal Network Architect **Phone: *(646) 795-4411
+> * Website:* http://www.abilto.com
+> *LinkedIn:* http://lnkd.in/v63TbM
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/d1d37096/attachment.html>
+
+From fergdawgster at mykolab.com  Fri Jun 20 11:31:06 2014
+From: fergdawgster at mykolab.com (Paul Ferguson)
+Date: Fri, 20 Jun 2014 08:31:06 -0700
+Subject: [outages] Feedly again?
+Message-ID: <53A453BA.6050004@mykolab.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+I know Feedly just experienced a DDoS attack a couple of days ago, but
+now I am seeing errors trying to login this morning that informs me
+that "Feedly is unavailable right now, we are working to..." blah blah.
+
+Any ideas?
+
+- - ferg
+
+
+- -- 
+Paul Ferguson
+VP Threat Intelligence, IID
+PGP Public Key ID: 0x54DC85B2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+Comment: Using GnuPG with Thunderbird - http://www.enigmail.net/
+
+iF4EAREIAAYFAlOkU7oACgkQKJasdVTchbIQdAD/RlOHyUSf2QPQnZAsKCDFtDZ8
+PYGpNwSqSjsoWJpmsnsA/1of/PllXm4iKqn4wZf3i2Ba6BdEpXmLA/M7QFesVEFn
+=7K/C
+-----END PGP SIGNATURE-----
+
+From andrew.bunde at agio.com  Fri Jun 20 12:35:56 2014
+From: andrew.bunde at agio.com (Bunde, Andrew)
+Date: Fri, 20 Jun 2014 16:35:56 +0000
+Subject: [outages] Century Link Fiber Cut in NJ
+Message-ID: <B4DCF2897AE1C249A43B925DF7DC5B0A53B299@MBX021-E3-NJ-2.exch021.domain.local>
+
+Just a heads up CL has advised of a "massive" fiber-cut in NJ.
+If you are not the intended recipient of this email, please notify the sender, delete the email, and do not read, act upon, print, disclose, retain or distribute this email. To view the full terms that apply to this email, go to Agio Disclaimer<http://agio.com/email-disclaimer/>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140620/04f8590a/attachment.html>
+
+From fergdawgster at mykolab.com  Fri Jun 20 13:04:13 2014
+From: fergdawgster at mykolab.com (Paul Ferguson)
+Date: Fri, 20 Jun 2014 10:04:13 -0700
+Subject: [outages] Feedly again?
+In-Reply-To: <53A453BA.6050004@mykolab.com>
+References: <53A453BA.6050004@mykolab.com>
+Message-ID: <53A4698D.8030709@mykolab.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Feedly became available soon after I sent this note, so...
+
+I am still curious whet the problem may have been...
+
+- - ferg
+
+On 6/20/2014 8:31 AM, Paul Ferguson wrote:
+
+> I know Feedly just experienced a DDoS attack a couple of days ago,
+> but now I am seeing errors trying to login this morning that
+> informs me that "Feedly is unavailable right now, we are working
+> to..." blah blah.
+> 
+> Any ideas?
+> 
+> - ferg
+> 
+> 
+> _______________________________________________ Outages mailing
+> list Outages at outages.org 
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+
+
+- -- 
+Paul Ferguson
+VP Threat Intelligence, IID
+PGP Public Key ID: 0x54DC85B2
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+Comment: Using GnuPG with Thunderbird - http://www.enigmail.net/
+
+iF4EAREIAAYFAlOkaY0ACgkQKJasdVTchbIrjQEAx4NsFHkPS+4acKvy5X6zLZdd
+5PWe9Y3F/q/u9I8tuWcA/jf4+q27zNG9uIVfSLiY3JZ19FLxeccGxslVqAWQ37ll
+=JQ4W
+-----END PGP SIGNATURE-----
+
+From mstaudinger at corp.earthlink.com  Fri Jun 20 14:12:47 2014
+From: mstaudinger at corp.earthlink.com (Staudinger, Malcolm)
+Date: Fri, 20 Jun 2014 18:12:47 +0000
+Subject: [outages] Century Link Fiber Cut in NJ
+In-Reply-To: <B4DCF2897AE1C249A43B925DF7DC5B0A53B299@MBX021-E3-NJ-2.exch021.domain.local>
+References: <B4DCF2897AE1C249A43B925DF7DC5B0A53B299@MBX021-E3-NJ-2.exch021.domain.local>
+Message-ID: <cdf2a5a2a0e94c01a3295dca51a755c3@EDGMBXV06.marvel.elnk.net>
+
+ETA 3-4 hours on the last update I saw
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bunde, Andrew
+Sent: Friday, June 20, 2014 9:36 AM
+To: outages at outages.org
+Subject: [outages] Century Link Fiber Cut in NJ
+
+Just a heads up CL has advised of a "massive" fiber-cut in NJ. 
+
+
+From terrence.oconnor at gmail.com  Sun Jun 22 12:56:58 2014
+From: terrence.oconnor at gmail.com (Terrence)
+Date: Sun, 22 Jun 2014 12:56:58 -0400
+Subject: [outages] Feedly again?
+In-Reply-To: <53A4698D.8030709@mykolab.com>
+References: <53A453BA.6050004@mykolab.com> <53A4698D.8030709@mykolab.com>
+Message-ID: <etPan.53a70ada.6b8b4567.40a6@atl-mpf4r>
+
+Feedly has been under attack for a while and they aren?t using good DDoS mitigation providers, it?s probably getting hit periodically. ?Also, it seems that their authentication mechanisms are fragile. ?The oAuth seems to break periodically on their end.
+
+
+--?
+Terrence
+Sent with Airmail
+
+On June 20, 2014 at 2:32:36 PM, Paul Ferguson (fergdawgster at mykolab.com) wrote:
+
+-----BEGIN PGP SIGNED MESSAGE-----  
+Hash: SHA256  
+
+Feedly became available soon after I sent this note, so...  
+
+I am still curious whet the problem may have been...  
+
+- - ferg  
+
+On 6/20/2014 8:31 AM, Paul Ferguson wrote:  
+
+> I know Feedly just experienced a DDoS attack a couple of days ago,  
+> but now I am seeing errors trying to login this morning that  
+> informs me that "Feedly is unavailable right now, we are working  
+> to..." blah blah.  
+>  
+> Any ideas?  
+>  
+> - ferg  
+>  
+>  
+> _______________________________________________ Outages mailing  
+> list Outages at outages.org  
+> https://puck.nether.net/mailman/listinfo/outages  
+>  
+>  
+
+
+- --  
+Paul Ferguson  
+VP Threat Intelligence, IID  
+PGP Public Key ID: 0x54DC85B2  
+-----BEGIN PGP SIGNATURE-----  
+Version: GnuPG v2.0.22 (MingW32)  
+Comment: Using GnuPG with Thunderbird - http://www.enigmail.net/  
+
+iF4EAREIAAYFAlOkaY0ACgkQKJasdVTchbIrjQEAx4NsFHkPS+4acKvy5X6zLZdd  
+5PWe9Y3F/q/u9I8tuWcA/jf4+q27zNG9uIVfSLiY3JZ19FLxeccGxslVqAWQ37ll  
+=JQ4W  
+-----END PGP SIGNATURE-----  
+_______________________________________________  
+Outages mailing list  
+Outages at outages.org  
+https://puck.nether.net/mailman/listinfo/outages  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140622/a771639d/attachment.html>
+
+From mpetach at netflight.com  Tue Jun 24 12:50:35 2014
+From: mpetach at netflight.com (Matthew Petach)
+Date: Tue, 24 Jun 2014 09:50:35 -0700
+Subject: [outages] AAG outage?
+Message-ID: <CAEmG1=r2aySoGTFvcWO1PEfqF9nXts2XwV39avVMPuoDZNYx2w@mail.gmail.com>
+
+I'm hearing whispered reports of AAG being down since
+last Friday, but I'm not seeing anything in the current
+press at the moment.  If folks have circuits on AAG,
+would love a quiet indication if you're seeing link down
+on your AAG paths or not.
+
+Thanks!
+
+Matt
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140624/11c09a42/attachment.html>
+
+From markk at americaneagle.com  Sat Jun 28 13:59:50 2014
+From: markk at americaneagle.com (Mark Kierzkowski)
+Date: Sat, 28 Jun 2014 17:59:50 +0000
+Subject: [outages] Verizon
+Message-ID: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+
+Is any one see any issues on verizon east cost network?
+
+
+
+
+
+
+From afreivogel at intelligentsiacoffee.com  Sat Jun 28 14:11:12 2014
+From: afreivogel at intelligentsiacoffee.com (Andy Freivogel)
+Date: Sat, 28 Jun 2014 13:11:12 -0500
+Subject: [outages] Verizon
+In-Reply-To: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+Message-ID: <CAJcw1eRKwJxCw0J+2WxhCpRwyzYD3EyexnPOVkRRutinD8goFg@mail.gmail.com>
+
+yes ... we use fios as our primary in a store in NYC and its either been
+crazy latency or up and down all day
+
+On Saturday, June 28, 2014, Mark Kierzkowski <markk at americaneagle.com>
+wrote:
+
+> Is any one see any issues on verizon east cost network?
+>
+>
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org <javascript:;>
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+-- 
+Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee
+1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+Angeles CA 90065
+Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+
+check out our new website:
+http://www.intelligentsiacoffee.com
+
+-- 
+ 
+
+*The information contained in this communication is confidential and is 
+intended only for the use of the addressee. Unauthorized use, disclosure or 
+copying of this communication or any part thereof is strictly prohibited 
+and may be unlawful. If you have received this communication in error, 
+please notify us immediately by return e-mail and destroy this 
+communication and all copies thereof, including all attachments.*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140628/51d816ca/attachment.html>
+
+From mitpatterson at gmail.com  Sat Jun 28 14:21:58 2014
+From: mitpatterson at gmail.com (Mitch Patterson)
+Date: Sat, 28 Jun 2014 14:21:58 -0400
+Subject: [outages] Verizon
+In-Reply-To: <CAJcw1eRKwJxCw0J+2WxhCpRwyzYD3EyexnPOVkRRutinD8goFg@mail.gmail.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+ <CAJcw1eRKwJxCw0J+2WxhCpRwyzYD3EyexnPOVkRRutinD8goFg@mail.gmail.com>
+Message-ID: <CAPC+kK444G2EZ-KOPRe1KhsJYn4pTzJL_9Lib_0Q4eCrexoa0A@mail.gmail.com>
+
+We have seen some routing issues with them but verizion denies any issues
+On Jun 28, 2014 2:21 PM, "Andy Freivogel" <
+afreivogel at intelligentsiacoffee.com> wrote:
+
+> yes ... we use fios as our primary in a store in NYC and its either been
+> crazy latency or up and down all day
+>
+> On Saturday, June 28, 2014, Mark Kierzkowski <markk at americaneagle.com>
+> wrote:
+>
+>> Is any one see any issues on verizon east cost network?
+>>
+>>
+>>
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+> --
+> Andy Freivogel  |   Director of IT   |   Intelligentsia Coffee
+> 1850 W. Fulton St. Chicago IL 60612   |   2737 N. San Fernando Rd. Los
+> Angeles CA 90065
+> Cell: 312 208 9212   | Direct: 312 521 7965   |   Fax: 312 533 4489
+>
+> check out our new website:
+> http://www.intelligentsiacoffee.com
+>
+>
+> *The information contained in this communication is confidential and is
+> intended only for the use of the addressee. Unauthorized use, disclosure or
+> copying of this communication or any part thereof is strictly prohibited
+> and may be unlawful. If you have received this communication in error,
+> please notify us immediately by return e-mail and destroy this
+> communication and all copies thereof, including all attachments.*
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140628/d74cd04a/attachment.html>
+
+From thomas at 360itpartners.com  Sat Jun 28 14:22:56 2014
+From: thomas at 360itpartners.com (Thomas Murphy)
+Date: Sat, 28 Jun 2014 18:22:56 +0000
+Subject: [outages] Verizon
+In-Reply-To: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+Message-ID: <2652agp5205um2dccusoy65v.1403979771848@email.android.com>
+
+No issues here in south east VA.
+
+-------- Original message --------
+From: Mark Kierzkowski
+Date:06/28/2014 2:12 PM (GMT-05:00)
+To: outages at outages.org
+Subject: [outages] Verizon
+
+Is any one see any issues on verizon east cost network?
+
+
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140628/0450c6af/attachment.html>
+
+From tim at steadfast.net  Sat Jun 28 14:35:48 2014
+From: tim at steadfast.net (Tim Burke)
+Date: Sat, 28 Jun 2014 13:35:48 -0500 (CDT)
+Subject: [outages] Verizon
+In-Reply-To: <2652agp5205um2dccusoy65v.1403979771848@email.android.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+ <2652agp5205um2dccusoy65v.1403979771848@email.android.com>
+Message-ID: <bd6d079a.00001ae0.00000015@tbwks01-chi18.steadfast.local>
+
+Been seeing a bunch of issues from VZ users in the Northeast here;
+primarily New York City and Boston.
+
+ 
+
+From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Thomas
+Murphy
+Sent: Saturday, June 28, 2014 1:23 PM
+To: Mark Kierzkowski; outages at outages.org
+Subject: Re: [outages] Verizon
+
+ 
+
+No issues here in south east VA.
+
+-------- Original message --------
+
+From: Mark Kierzkowski 
+
+Date:06/28/2014 2:12 PM (GMT-05:00) 
+
+To: outages at outages.org <mailto:outages at outages.org>  
+
+Subject: [outages] Verizon 
+
+ 
+
+Is any one see any issues on verizon east cost network?
+
+
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org <mailto:Outages at outages.org> 
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140628/2d71ed6e/attachment.html>
+
+From mike at sentex.net  Sat Jun 28 14:51:14 2014
+From: mike at sentex.net (Mike Tancsa)
+Date: Sat, 28 Jun 2014 14:51:14 -0400
+Subject: [outages] Verizon
+In-Reply-To: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+Message-ID: <53AF0EA2.7080702@sentex.net>
+
+We were seeing an odd issue reaching a site in Texas via TATA out of 
+ORD.  Via JFK and Cogent, all seemed OK.  The odd thing is that the 
+packets not getting to the site were protocol specific ?!?! I figured it 
+was a firewall issue at the CPE end. Perhaps broken QoS or load 
+balancing something or another ?
+It started at 06:08 GMT-4 (East coast time)
+
+	---Mike
+
+On 6/28/2014 1:59 PM, Mark Kierzkowski wrote:
+> Is any one see any issues on verizon east cost network?
+>
+>
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+-------------------
+Mike Tancsa, tel +1 519 651 3400
+Sentex Communications, mike at sentex.net
+Providing Internet services since 1994 www.sentex.net
+Cambridge, Ontario Canada   http://www.tancsa.com/
+
+From toasty at dragondata.com  Sat Jun 28 17:50:09 2014
+From: toasty at dragondata.com (Kevin Day)
+Date: Sat, 28 Jun 2014 16:50:09 -0500
+Subject: [outages] Verizon
+In-Reply-To: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+References: <BAE7C177-CE5F-4DC7-BAB7-B5FFBEEB60D5@americaneagle.com>
+Message-ID: <8A470445-85F8-4ABB-9A9F-B2D6F842E92B@dragondata.com>
+
+
+On Jun 28, 2014, at 12:59 PM, Mark Kierzkowski <markk at americaneagle.com> wrote:
+
+> Is any one see any issues on verizon east cost network?
+> 
+
+I?m not sure if you?re referring to their IP network or their cellular service, but they seem to be going on 24+ hours of a billing/activation/provisioning outage on their wireless side.
+
+http://www.theverge.com/2014/6/27/5849620/verizon-wireless-systems-are-offline
+
+There are a few VZW reps in this reddit thread chiming in with more details:
+
+http://www.reddit.com/r/technology/comments/298yt9/verizon_wireless_customers_have_been_unable_to/
+
+Customer facing issues include being unable to activate/change service, and if you dial #MIN to check your usage, instead of the automated system you?re being forwarded to a representative who can?t tell you much.
+
+I can?t vouch for it?s authenticity, but I?ve seen this in a few places now:
+
+> Teams continue to work towards full restoration and there is no ETA at this time.
+> Agents/Retailers are unable to access some customer accounts, primarily located out of the Midwest and Northeast areas. Users are experiencing errors when attempting to access existing customer accounts. A small number of new activations are also be impacted.
+> CORe is also impacted by this issue. Agents/Retailers should NOT call CORe if experiencing this issue.
+> This is being tracked under critical ticket CR172528. Next update at 2:30 PM EST or as soon as new information becomes available.
+
+
+From woody at pch.net  Sat Jun 28 18:56:05 2014
+From: woody at pch.net (Bill Woodcock)
+Date: Sat, 28 Jun 2014 15:56:05 -0700
+Subject: [outages] Forwarded from UKNOF, a British Telecom outage
+Message-ID: <7E70E176-A41B-48AB-BCA6-B336F2CED2BF@pch.net>
+
+
+
+Begin forwarded message:
+
+> From: Simon Jones <Simon at saq.net>
+> Subject: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:15:07 AM PDT
+> To: "uknof at lists.uknof.org.uk" <uknof at lists.uknof.org.uk>
+> 
+> Hi folks, I?m noticing reports of multiple DNS issues ? is there a problem with root dns servers?  My network seems ok but I?m hearing ebay, twitter, some other biggies are unavailable for some people..
+>  
+> Simon Jones
+> SEMTEC Limited T/A SAQ
+
+
+Begin forwarded message:
+
+> From: William Salt <williamejsalt at gmail.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:24:06 AM PDT
+> To: Simon Jones <Simon at saq.net>
+> Cc: uknof at lists.uknof.org.uk
+> 
+> I have just had a similar report from our support Centre. Anyone else?
+
+
+Begin forwarded message:
+
+> From: Mark Blackman <mark at exonetric.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:27:11 AM PDT
+> To: William Salt <williamejsalt at gmail.com>
+> Cc: uknof at lists.uknof.org.uk, Simon Jones <Simon at saq.net>
+> 
+> Sounds like BT from the twitter reports.
+> 
+> https://twitter.com/search?q=DNS&src=typd
+
+
+Begin forwarded message:
+
+> From: Rob Greenwood <bilco105 at gmail.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:27:22 AM PDT
+> To: William Salt <williamejsalt at gmail.com>
+> Cc: uknof at lists.uknof.org.uk, Simon Jones <Simon at saq.net>
+> 
+> Issue with BT DNS only I believe. Google DNS is working fine.
+> 
+> -Rob
+
+
+Begin forwarded message:
+
+> From: Job Snijders <job at instituut.net>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:29:33 AM PDT
+> To: Mark Blackman <mark at exonetric.com>
+> Cc: uknof at lists.uknof.org.uk, William Salt <williamejsalt at gmail.com>, Simon Jones <Simon at saq.net>
+> 
+> On Sat, Jun 28, 2014 at 10:27:11AM +0100, Mark Blackman wrote:
+>> Sounds like BT from the twitter reports.
+> 
+> I heard through backchannels that AS 5400 withdrew half of their
+> prefixes on peering sessions, so would be good bet something funky is
+> going on.
+> 
+> Kind regards,
+> 
+> Job
+
+
+Begin forwarded message:
+
+> From: Ben King <ben at warwicknet.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:50:13 AM PDT
+> To: Rob Greenwood <bilco105 at gmail.com>
+> Cc: "uknof at lists.uknof.org.uk" <uknof at lists.uknof.org.uk>, William Salt <williamejsalt at gmail.com>, Simon Jones <Simon at saq.net>
+> 
+> I think BT are having big issues we have seen a massive drop of traffic with AS2856 since 9.25 this morning. In fact nothing coming in from them at all.
+
+
+Begin forwarded message:
+
+> From: Henry Merrett <Henry.Merrett at serverchoice.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 2:53:28 AM PDT
+> To: "uknof at lists.uknof.org.uk" <uknof at lists.uknof.org.uk>
+> Cc: William Salt <williamejsalt at gmail.com>, Simon Jones <Simon at saq.net>
+> 
+> We?re having BT issues too:
+> 
+> $ host bt.com
+> bt.com has address 193.113.9.164
+> 
+> .the.as50056.net#sh ip route 193.113.9.164
+> Can't find matching entry
+> 
+> Kind regards,
+> 
+> Henry Merrett
+> Senior Network Engineer
+> ServerChoice Ltd
+
+
+Begin forwarded message:
+
+> From: Gavin Henry <ghenry at suretec.co.uk>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 3:13:40 AM PDT
+> To: Job Snijders <job at instituut.net>
+> Cc: uknof at lists.uknof.org.uk, Paul Mansfield <paul+uknof at mansfield.co.uk>
+> 
+> BT IP Exchange is down due to this too.
+> 
+> Can't get through to IPX help desk since 09:20. They do have a message on there saying something is up.
+
+
+Begin forwarded message:
+
+> From: Ben King <ben at warwicknet.com>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 3:19:55 AM PDT
+> To: Rob Greenwood <bilco105 at gmail.com>
+> Cc: "uknof at lists.uknof.org.uk" <uknof at lists.uknof.org.uk>, William Salt <williamejsalt at gmail.com>, Simon Jones <Simon at saq.net>
+> 
+> BT have acknowledged the issue to us, and I am seeing routes again, and traffic is climbing, so hopefully its all sorted now.
+
+
+Begin forwarded message:
+
+> From: Gavin Henry <ghenry at suretec.co.uk>
+> Subject: Re: [uknof] DNS global issue?
+> Date: June 28, 2014 at 3:25:42 AM PDT
+> To: Job Snijders <job at instituut.net>
+> Cc: uknof at lists.uknof.org.uk, Paul Mansfield <paul+uknof at mansfield.co.uk>
+> 
+> Alerting has detected it's back.
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 841 bytes
+Desc: Message signed with OpenPGP using GPGMail
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140628/8780c79d/attachment.sig>
+
+From cb.list6 at gmail.com  Mon Jun 30 11:16:04 2014
+From: cb.list6 at gmail.com (Ca By)
+Date: Mon, 30 Jun 2014 08:16:04 -0700
+Subject: [outages] AT&T and HE issue
+Message-ID: <CAD6AjGRL7B2HjuZ+DqjHHUj+gnDqCzsgRfis6f+Fh9B1=xPySg@mail.gmail.com>
+
+anyone else seeing issues between Hurrican Electric and AT&T?
+
+rviews at route-server.ip.att.net's password:
+--- JUNOS 12.1R3-S4 built 2013-03-24 11:22:31 UTC
+rviews at route-server.ip.att.net> show route 2001:470:0:76::2
+
+inet6.0: 16339 destinations, 195992 routes (16339 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+::/0               *[Static/5] 56w2d 21:26:30
+                    > to 2001:1890:111d:1::1 via em0.0
+
+rviews at route-server.ip.att.net>
+
+From cb.list6 at gmail.com  Mon Jun 30 11:49:27 2014
+From: cb.list6 at gmail.com (Ca By)
+Date: Mon, 30 Jun 2014 08:49:27 -0700
+Subject: [outages] AT&T and HE issue
+In-Reply-To: <CAD6AjGRL7B2HjuZ+DqjHHUj+gnDqCzsgRfis6f+Fh9B1=xPySg@mail.gmail.com>
+References: <CAD6AjGRL7B2HjuZ+DqjHHUj+gnDqCzsgRfis6f+Fh9B1=xPySg@mail.gmail.com>
+Message-ID: <CAD6AjGSsWtzr3=Ea9avd2YSOWuuOgAq=Y04vaTF5ZzigyP9ujQ@mail.gmail.com>
+
+Looks
+
+On Mon, Jun 30, 2014 at 8:16 AM, Ca By <cb.list6 at gmail.com> wrote:
+> anyone else seeing issues between Hurrican Electric and AT&T?
+>
+> rviews at route-server.ip.att.net's password:
+> --- JUNOS 12.1R3-S4 built 2013-03-24 11:22:31 UTC
+> rviews at route-server.ip.att.net> show route 2001:470:0:76::2
+>
+> inet6.0: 16339 destinations, 195992 routes (16339 active, 0 holddown, 0 hidden)
+> + = Active Route, - = Last Active, * = Both
+>
+> ::/0               *[Static/5] 56w2d 21:26:30
+>                     > to 2001:1890:111d:1::1 via em0.0
+>
+> rviews at route-server.ip.att.net>
+
+
+
+Looks like issue just cleared
+
+
+rviews at route-server.ip.att.net> show route 2001:470:0:76::2 terse
+
+inet6.0: 18137 destinations, 217568 routes (18137 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+A Destination        P Prf   Metric 1   Metric 2  Next hop         AS path
+* 2001:470::/32      B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+                     B 170        100            >2001:1890:111d:1::1
+7018 6939 I
+
+rviews at route-server.ip.att.net>
+
+From jwalter at weebly.com  Mon Jun 30 15:02:37 2014
+From: jwalter at weebly.com (Jeff Walter)
+Date: Mon, 30 Jun 2014 12:02:37 -0700
+Subject: [outages] AT&T and HE issue
+In-Reply-To: <CAD6AjGSsWtzr3=Ea9avd2YSOWuuOgAq=Y04vaTF5ZzigyP9ujQ@mail.gmail.com>
+References: <CAD6AjGRL7B2HjuZ+DqjHHUj+gnDqCzsgRfis6f+Fh9B1=xPySg@mail.gmail.com>
+ <CAD6AjGSsWtzr3=Ea9avd2YSOWuuOgAq=Y04vaTF5ZzigyP9ujQ@mail.gmail.com>
+Message-ID: <CAAGWaEdumUFcZUZ06EU-S9ea-keDhB6DC0_8rYWF0xy3_cGuFw@mail.gmail.com>
+
+You'll probably want to hit HE's looking glass in the future as well (
+http://lg.he.net). I'm not sure which router(s) AT&T peers with, but it
+wouldn't be too hard to figure out. Also, I apologize for the lop-sidedness
+of their looking glass... When I wrote it while working at HE I didn't
+expect the network to grow quite as much; were I still there I'd fix it ;-)
+
+Jeff Walter
+
+
+On Mon, Jun 30, 2014 at 8:49 AM, Ca By <cb.list6 at gmail.com> wrote:
+
+> Looks
+>
+> On Mon, Jun 30, 2014 at 8:16 AM, Ca By <cb.list6 at gmail.com> wrote:
+> > anyone else seeing issues between Hurrican Electric and AT&T?
+> >
+> > rviews at route-server.ip.att.net's password:
+> > --- JUNOS 12.1R3-S4 built 2013-03-24 11:22:31 UTC
+> > rviews at route-server.ip.att.net> show route 2001:470:0:76::2
+> >
+> > inet6.0: 16339 destinations, 195992 routes (16339 active, 0 holddown, 0
+> hidden)
+> > + = Active Route, - = Last Active, * = Both
+> >
+> > ::/0               *[Static/5] 56w2d 21:26:30
+> >                     > to 2001:1890:111d:1::1 via em0.0
+> >
+> > rviews at route-server.ip.att.net>
+>
+>
+>
+> Looks like issue just cleared
+>
+>
+> rviews at route-server.ip.att.net> show route 2001:470:0:76::2 terse
+>
+> inet6.0: 18137 destinations, 217568 routes (18137 active, 0 holddown, 0
+> hidden)
+> + = Active Route, - = Last Active, * = Both
+>
+> A Destination        P Prf   Metric 1   Metric 2  Next hop         AS path
+> * 2001:470::/32      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>                      B 170        100            >2001:1890:111d:1::1
+> 7018 6939 I
+>
+> rviews at route-server.ip.att.net>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20140630/7b13932a/attachment.html>
+

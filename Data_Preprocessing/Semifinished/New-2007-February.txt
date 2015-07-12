@@ -1,0 +1,2076 @@
+###############################################################
+Covad Atlanta DSL Outage]
+###############################################################
+  -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Covad Atlanta DSL Outage
+ Date: Tue, 6 Feb 2007 08:59:26 -0700
+ From: Berkman, Scott <Scott.Berkman at Reignmaker.net>
+ FYI
+ From: noc at Covad.COM [mailto:noc at Covad.COM <mailto:noc at Covad.COM> ]
+ Sent: Tuesday, February 06, 2007 10:15 AM
+ Subject: NOTIFICATION - DSL Outage, TT# 2681396, NE - ATLNGAHP
+ Outage Description:
+ Radius Server failure at the ATLNGAHP Central Office, in ATLANTA, GA.
+ Covad Trouble Ticket# 2681396 has been opened for a regional outage.
+ Covad technicians are investigating issues.
+ Covad Network Weather Report will be updated hourly during this service
+ interruption.
+ An update status message will be sent every 60 minutes until service
+ restoration.
+ Please contact the NOC and reference Trouble Ticket# 2681396 for any
+ questions.
+ Covad Network Operations Center 1-888-801-6285 opt 1, email:
+ noc at covad.com
+ Service Impact Status:
+ Total customers impacted: N/A (specific Partner customer count listed
+ below) Outage Start: 2/6/2007 7:00AM Pacific Time Estimated Time of
+ Resolution (ETR): Unknown
+ Outage Duration: 14 min.
+ - ------------------------------------------------------------------------
+ - ------------
+ Scott Berkman CCNP
+ 404-975-0097
+ Network Engineer
+ scott.berkman at reignmaker.net
+###############################################################
+END
+###############################################################
+
+###############################################################
+Hackers Attack Key Net Traffic Computers]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Doesn't related to an outage but just in case.
+ Begin forwarded message:
+ From: Dewayne Hendricks <dewayne at warpspeed.com>
+ Date: February 6, 2007 6:13:21 PM EST
+ Subject: [Dewayne-Net] Hackers Attack Key Net Traffic Computers
+ Reply-To: dewayne at warpspeed.com
+ Hackers Attack Key Net Traffic Computers
+ - - By TED BRIDIS, Associated Press Writer
+ Tuesday, February 6, 2007
+ (02-06) 15:09 PST WASHINGTON, (AP) --
+ Hackers briefly overwhelmed at least three of the 13 computers that
+ help manage global computer traffic Tuesday in one of the most
+ significant attacks against the Internet since 2002.
+ Experts said the unusually powerful attacks lasted as long as 12
+ hours but passed largely unnoticed by most computer users, a
+ testament to the resiliency of the Internet. Behind the scenes,
+ computer scientists worldwide raced to cope with enormous volumes of
+ data that threatened to saturate some of the Internet's most vital
+ pipelines.
+ The motive for the attacks was unclear, said Duane Wessels, a
+ researcher at the Cooperative Association for Internet Data Analysis
+ at the San Diego Supercomputing Center. "Maybe to show off or just be
+ disruptive; it doesn't seem to be extortion or anything like that,"
+ Wessels said.
+ Other experts said the hackers appeared to disguise their origin, but
+ vast amounts of rogue data in the attacks were traced to South Korea.
+ The attacks appeared to target UltraDNS, the company that operates
+ servers managing traffic for Web sites ending in "org" and some other
+ suffixes, experts said. Officials with NeuStar Inc., which owns
+ UltraDNS, confirmed only that it had observed an unusual increase in
+ traffic.
+ Among the targeted "root" servers that manage global Internet traffic
+ were ones operated by the Defense Department and the Internet's
+ primary oversight body.
+ "There was what appears to be some form of attack during the night
+ hours here in California and into the morning," said John Crain,
+ chief technical officer for the Internet Corporation for Assigned
+ Names and Numbers. He said the attack was continuing and so was the
+ hunt for its origin.
+ "I don't think anybody has the full picture," Crain said. "We're
+ looking at the data."
+ Crain said Tuesday's attack was less serious than attacks against the
+ same 13 "root" servers in October 2002 because technology innovations
+ in recent years have increasingly distributed their workloads to
+ other computers around the globe.
+ AP Internet Writer Anick Jesdanun contributed to this story from New
+ York.
+ URL: <http://sfgate.com/cgi-bin/article.cgi?file=/n/a/2007/02/06/
+ national/w125503S29.DTL>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Attacks regarding Root Servers
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ The F, I, M, L (ICANN), and G (US Department of Defense) servers were
+ the primary targets.
+ http://dnsmon.ripe.net/dns-servmon/domain/plot?domain=root&day=5&month=2&year=2007&hour=16&period=48h&plot%2F=SHOW
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Emergency Savvis Maintenance Activity #483935 - 2/17
+###############################################################
+ 	- CWIE
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Friday, February 09, 2007 8:26 AM
+ Subject: Emergency Savvis Maintenance Activity #483935 - 2/17 - CWIE
+ Maintenance Activity: 483935
+ Affected Dates:
+ 2007 February 17, 08:00:00 - 2007 February 17, 13:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 02:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ El Segundo, California, USA 
+ Irvine, California, USA 
+ Los Angeles, California, USA 
+ Philadelphia, Pennsylvania, USA 
+ San Francisco, California, USA 
+ San Jose, California, USA 
+ Santa Clara, USA 
+ Santa Clara, California, USA 
+ Seattle, Washington, USA 
+ Tukwila, Washington, USA 
+ Activity Type :
+ Service Maintenance
+ Circuit ID :
+ 113110
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - 
+ In this window, Savvis engineers will be upgrading the software an
+ several regional backbone devices.  As this work is performed, customers
+ may experience service outages, latency, or other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/bff4f745/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+EMERGENCY Savvis Maintenance Activity #483865 - 2/10
+###############################################################
+ 	- Vonage
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Friday, February 09, 2007 10:26 AM
+ Subject: EMERGENCY Savvis Maintenance Activity #483865 - 2/10 - Vonage
+ EMERGENCY Maintenance Activity: 483865
+ Affected Dates:
+ 2007 February 10, 05:00:00 - 2007 February 10, 10:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 02:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ Atlanta, Georgia, USA 
+ New York, New York, USA 
+ Washington, District of Columbia, USA 
+ Activity Type :
+ Emergency Maintenance
+ Circuit ID :
+ 112399
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - 
+ In this window, Savvis engineers will be upgrading the software on
+ several regional backbone devices.  As this work is performed, customers
+ may experience service outages, latency, or other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/50c208a7/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Demand Critical Maintenance: TT# 1766972,
+###############################################################
+ 	February 9, 2007
+ ________________________________
+ From: Korb, John [mailto:John.Korb at Level3.com] 
+ Sent: Friday, February 09, 2007 1:27 AM
+ Subject: RE: Level 3 Demand Critical Maintenance: TT# 1766972, February
+ 9, 2007
+ Maintenance completed. All alarms have cleared. CWIE 10GB Circuit is
+ back up.
+ LEVEL (3) COMMUNICATIONS - NETWORK CHANGE CONTROL (NCC)
+ *** DEMAND CRITICAL MAINTENANCE ADVISEMENT  ***
+    YOUR SERVICE WITH LEVEL (3) COMMUNICATIONS MAY BE AFFECTED
+ Clarify Case #:  1766972
+ Request Dates:
+  9-Feb-2007   00:01 - 01:00 Pacific Time (08:01 - 09:00 GMT)
+ Location of Maintenance:  Salt Lake City, UT
+ Summary/Description of Maintenance Activity:
+ Level 3 will be reconfiguring our DWDM equipment on a backbone span
+ between Salt Lake City, UT and Eureka, NV.  
+ Customer Impact:  
+ Unprotected Wavelength circuits will experience a service affecting
+ outage during the maintenance window. Expected downtime is 5 minutes.
+ Customers/Services Affected:
+ CWIE                          SNJUCACL-CHCGILDT-00005                10G
+ If you have any questions or concerns about this network maintenance
+ advisement, please call the Service Management Center at 877-4LEVEL3 for
+ prompt assistance.  If you have any changes in the personnel contacts
+ for these maintenance advisements, please also communicate those changes
+ to the SMC representatives.  Once contacting the SMC a customer ticket
+ will be opened for your inquiry, and a representative will address your
+ concerns. 
+ Thank you,
+ Level (3) Communications
+ Service Management Center
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/6a8e1f44/attachment-0001.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#133251 -
+###############################################################
+ 	36 Hours
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, February 08, 2007 11:53 AM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133251 - 36 Hours
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133251 - 36 Hours	
+ This Maintenance is scheduled to occur within 36 hours. 	
+ ________________________________
+ Clarify Case#: 1816912	
+ GCR #:  CHG000000133251	
+ Primary Dates: 10 Feb 2007 00:01:00 - 10 Feb 2007 05:00:00 Eastern	
+ Primary Dates GMT:  10 Feb 2007 05:01:00 - 10 Feb 2007 10:00:00	
+ Location of Maintenance: Atlanta GA, Charlotte NC,	
+ Summary Description of Maintenance:  Troubleshoot - Equipment - ADM	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Troubleshoot and
+ replace DLM for Channel 6 down. Up to a 2 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Troubleshoot
+ and replace DLM for Channel 6 down. Up to a 50ms switch hit for
+ protected customers.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/5a38fb17/attachment.htm 
+ 	Scheduled
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Monday, January 22, 2007 1:38 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133251 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133251 - Scheduled	
+ ________________________________
+ Clarify Case#: 1816912	
+ GCR #:  CHG000000133251	
+ Primary Dates: 10 Feb 2007 00:01:00 - 10 Feb 2007 05:00:00 Eastern	
+ Primary Dates GMT:  10 Feb 2007 05:01:00 - 10 Feb 2007 10:00:00	
+ Location of Maintenance: Atlanta GA, Charlotte NC,	
+ Summary Description of Maintenance:  Troubleshoot - Equipment - ADM	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Troubleshoot and
+ replace DLM for Channel 6 down. Up to a 2 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Troubleshoot
+ and replace DLM for Channel 6 down. Up to a 50ms switch hit for
+ protected customers.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ ASBNVACY-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/cc5a2ff1/attachment-0001.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#134267 -
+###############################################################
+ 	Scheduled
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Thursday, February 08, 2007 11:38 AM
+ Subject: Level(3) Service Affecting Maintenance - GCR#134267 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#134267 - Scheduled	
+ ________________________________
+ Clarify Case#: 	
+ GCR #:  CHG000000134267	
+ Primary Dates: 23 Feb 2007 00:00:00 - 23 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  23 Feb 2007 08:00:00 - 23 Feb 2007 14:00:00	
+ Location of Maintenance: San Diego CA,	
+ Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Relocation of long haul
+ fibers between Riverside, CA and Sun City, CA OpAmp. Up to a 2 hour
+ outage for unprotected customers. 	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Relocation of
+ long haul fibers between Riverside, CA and Sun City, CA OpAmp. Up to a
+ 50ms switch hit for protected customers. 	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ LSANCAJW-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/18da0ebc/attachment-0001.htm 
+ 	36 Hours
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Wednesday, February 21, 2007 1:09 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#134267 - 36 Hours
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#134267 - 36 Hours	
+ This Maintenance is scheduled to occur within 36 hours. 	
+ ________________________________
+ Clarify Case#: 	
+ GCR #:  CHG000000134267	
+ Primary Dates: 23 Feb 2007 00:00:00 - 23 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  23 Feb 2007 08:00:00 - 23 Feb 2007 14:00:00	
+ Location of Maintenance: San Diego CA,	
+ Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 Relocation of long haul
+ fibers between Riverside, CA and Sun City, CA OpAmp. Up to a 2 hour
+ outage for unprotected customers. 	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Relocation of
+ long haul fibers between Riverside, CA and Sun City, CA OpAmp. Up to a
+ 50ms switch hit for protected customers. 	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ LSANCAJW-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070221/9f61be27/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#133387 -
+###############################################################
+ 	Scheduled
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Wednesday, January 31, 2007 9:34 AM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133387 - Scheduled
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SCHEDULED MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133387 - Scheduled	
+ ________________________________
+ Clarify Case#: 1818731	
+ GCR #:  CHG000000133387	
+ Primary Dates: 16 Feb 2007 00:00:00 - 16 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  16 Feb 2007 08:00:00 - 16 Feb 2007 14:00:00	
+ Location of Maintenance: Reno NV,	
+ Summary Description of Maintenance:  Relocate - OSP Conduit(s) - DOT
+ Mandate	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 This is a temporary hot
+ cut relocate for the I-80 and USA Parkway relocate project so
+ construction can continue to cut the new road without our facilities in
+ the way. Once the road is cut we will place the permanent cable in its
+ location and hot cut it back over. Up to a 1 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This is a
+ temporary hot cut relocate for the I-80 and USA Parkway relocate project
+ so construction can continue to cut the new road without our facilities
+ in the way. Once the road is cut we will place the permanent cable in
+ its location and hot cut it back over. Up to a 50 MS switch hit for
+ protected customers	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/00018731/attachment.htm 
+ 	36 Hours
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Wednesday, February 14, 2007 2:05 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133387 - 36 Hours
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133387 - 36 Hours	
+ This Maintenance is scheduled to occur within 36 hours. 	
+ ________________________________
+ Clarify Case#: 1818731	
+ GCR #:  CHG000000133387	
+ Primary Dates: 16 Feb 2007 00:00:00 - 16 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  16 Feb 2007 08:00:00 - 16 Feb 2007 14:00:00	
+ Location of Maintenance: Reno NV,	
+ Summary Description of Maintenance:  Relocate - OSP Conduit(s) - DOT
+ Mandate	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 This is a temporary hot
+ cut relocate for the I-80 and USA Parkway relocate project so
+ construction can continue to cut the new road without our facilities in
+ the way. Once the road is cut we will place the permanent cable in its
+ location and hot cut it back over. Up to a 1 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This is a
+ temporary hot cut relocate for the I-80 and USA Parkway relocate project
+ so construction can continue to cut the new road without our facilities
+ in the way. Once the road is cut we will place the permanent cable in
+ its location and hot cut it back over. Up to a 50 MS switch hit for
+ protected customers	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070214/a4bcd71c/attachment.htm 
+ 	Completion
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Friday, February 16, 2007 1:54 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133387 -
+ Completion
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133387 - Completion	
+ This Maintenance is COMPLETE. 	
+ ________________________________
+ Clarify Case#: 1818731	
+ GCR #:  CHG000000133387	
+ Primary Dates: 16 Feb 2007 00:00:00 - 16 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  16 Feb 2007 08:00:00 - 16 Feb 2007 14:00:00	
+ Location of Maintenance: Reno NV,	
+ Summary Description of Maintenance:  Relocate - OSP Conduit(s) - DOT
+ Mandate	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 2 hour	 This is a temporary hot
+ cut relocate for the I-80 and USA Parkway relocate project so
+ construction can continue to cut the new road without our facilities in
+ the way. Once the road is cut we will place the permanent cable in its
+ location and hot cut it back over. Up to a 1 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 This is a
+ temporary hot cut relocate for the I-80 and USA Parkway relocate project
+ so construction can continue to cut the new road without our facilities
+ in the way. Once the road is cut we will place the permanent cable in
+ its location and hot cut it back over. Up to a 50 MS switch hit for
+ protected customers	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070216/15a219ec/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#134649 -
+###############################################################
+ 	Short Interval
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Friday, February 09, 2007 3:20 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#134649 - Short
+ Interval
+ Level (3) Communications - Network Change Control (NCC)	
+ ***SHORT INTERVAL MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#134649 - Short Interval	
+ ________________________________
+ Clarify Case#: 	
+ GCR #:  CHG000000134649	
+ Primary Dates: 23 Feb 2007 00:00:00 - 23 Feb 2007 06:00:00 Central	
+ Primary Dates GMT:  23 Feb 2007 06:00:00 - 23 Feb 2007 12:00:00	
+ Location of Maintenance: Chicago IL,	
+ Summary Description of Maintenance:  Repair - OSP FOC - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 1 hour	 Level 3 Communications
+ will prep and splice new cables. The fiber will be tested from the
+ Joliet ILA to 111 N. Canal. Other fibers in the span cut into the span
+ will not be tested. It will be up to the customer NOCC to verify the
+ system is working. Unrotected and dark fiber services will be down up to
+ 1 hour.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Level 3
+ Communications will prep and splice new cables. The fiber will be tested
+ from the Joliet ILA to 111 N. Canal. Other fibers in the span cut into
+ the span will not be tested. It will be up to the customer NOCC to
+ verify the system is working. Protected services will be impacted by
+ switch hits.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ SNJUCACL-CHCGILDT-00005	 10GB	 SA	
+ ASBNVACY-CHCGILDT-00002	 10GE	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070209/0a646c69/attachment.html 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Maintenance Activity #483960 - 2/23 - CWIE
+###############################################################
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Monday, February 12, 2007 7:24 AM
+ Subject: Savvis Maintenance Activity #483960 - 2/23 - CWIE
+ Maintenance Activity: 483960
+ Affected Dates:
+ 2007 February 23, 07:01:00 - 2007 February 23, 13:01:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 03:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ Culbertson, Nebraska, USA 
+ Denver, Colorado, USA 
+ Medicine Bow, Wyoming, USA 
+ Rocky Ford, Colorado, USA 
+ Activity Type :
+ Vendor Maintenance
+ Circuit ID :
+ 112756
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - Vendor will need to lower DEN_STR Long Haul cable
+ in Castle Rock Colorado between CAPs 0008-2267 and 0008-2269 to
+ accommodate new development. ---Denver, CO
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070212/0715237a/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Major outage in Montreal, Canada
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070213/5b7e9e4b/attachment.diff 
+ Weird,  right at that same time we lost access to AIM for 5 minutes.
+ Odd tho since we are in las vegas and I don't think those packets would
+ go through Montreal..  I'll have to do a traceroute after it comes back
+ up to see where those aim packets do go.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Fergie wrote:
+ - -----------------------
+ I did notice some irregularities this AM when cogent's status page said
+ all is well but in fact  http://internethealthreport.com/ was showing
+ cogent yellow/red pretty much across the board.
+ <head scratching>
+ regards,
+ /virendra
+ - --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+BGP Anycast
+###############################################################
+ Has anyone deployed this on their network?
+ Raman Sud
+ Director,
+ Network Engineering
+ CWIE Holding Company
+ 1501 West 17th Street
+ Tempe AZ 85281
+ Cell: 602.821.0088
+ Office: 480.449.7750 Ext 157
+ Toll Free: 1.888.906.0666
+ Fax: 480.422.2039
+ http://www.cavecreek.net/
+ PGP Key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xBB765DA2
+ NOTICE: This message is intended only for the use of the individual or
+ entity to which it is addressed. If the reader of this message is not
+ the intended recipient, or the employee or agent responsible for
+ delivering the message to the intended recipient, you are hereby
+ notified that any dissemination, distribution or copying of this message
+ is strictly prohibited. If you have received this communication in
+ error, please notify us immediately by replying to the sender of this
+ E-Mail or by telephone.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070213/29215876/attachment.htm 
+ Raman, there are many deploments for this in the world specially for Root
+ servers. Perhaps you can join cisco-nsp at puck.nether.net list for
+ solutions/questions like these ?
+ thanks,
+ Shakeel Ahmad
+ On 2/13/07, Raman Sud <ramans at cwie.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070213/21c687b7/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level(3) Service Affecting Maintenance - GCR#133146 -
+###############################################################
+ 	36 Hours
+ ________________________________
+ From: technicalsupport at level3.com [mailto:technicalsupport at level3.com] 
+ Sent: Tuesday, February 13, 2007 1:35 PM
+ Subject: Level(3) Service Affecting Maintenance - GCR#133146 - 36 Hours
+ Level (3) Communications - Network Change Control (NCC)	
+ ***MAINTENANCE ADVISEMENT***	
+ Level(3) Service Affecting Maintenance - GCR#133146 - 36 Hours	
+ This Maintenance is scheduled to occur within 36 hours. 	
+ ________________________________
+ Clarify Case#: 1815641	
+ GCR #:  CHG000000133146	
+ Primary Dates: 15 Feb 2007 00:00:00 - 15 Feb 2007 06:00:00 Pacific	
+ Primary Dates GMT:  15 Feb 2007 08:00:00 - 15 Feb 2007 14:00:00	
+ Location of Maintenance: San Diego CA,	
+ Summary Description of Maintenance:  Splice - OSP Fiber - Fiber(s)	
+ Customer Impact:	
+ Service	 Expected Impact	 Classification	 Duration
+ Additional Notes	
+ Transport - Unprotected	 Outage	 SA	 3 hour	 Remove temp aerial
+ solution to permenant bore. Up to a 3 hour outage for unprotected
+ customers.	
+ Transport - Protected	 Switch Hits	 PSAH	 50 ms	 Remove temp
+ aerial solution to permenant bore. Up to a 50ms switch hit for protected
+ customers.	
+ CWIE, LLC - - Services Impacted:	
+ Transport :	
+ Circuit ID	 Bandwidth	 Classification	
+ LSANCAJW-PHNXAZ19-00002	 10GB	 SA	
+ ________________________________
+ If you have any questions or concerns about this network maintenance
+ notification, please call or email the Service Management Center on the
+ appropriate national toll-free/freephone number or email address below.
+ Additionally, if you wish to modify your contact information for
+ maintenance notification, please communicate those changes to a SMC
+ representative.	
+ US Toll-Free: 877 4Level3	
+ UK: 80800 0927729	
+ Eire: 1 800441053	
+ France: 0800 913180	
+ Germany: 0800 2538353	
+ Belgium: 0800 76216	
+ Netherlands: 0800 0226108	
+ Italy: 0800 0226108	
+ Sweden: 0200 285 581	
+ Spain: 900 938 973	
+ Denmark: 80881479	
+ Estonia: 8000044139	
+ Austria: 0800291594	
+ Poland: 00800 441 2409	
+ Switzerland: 0800 564 151	
+ US International: 1 720 888 0025	
+ EU International: 44 20 7864 4599	
+ EU Support <mailto:usupport at level3.com>  - (24x7) or	
+ Technical Support <mailto:technicalsupport at level3.com>  - (24x7)	
+ Thank you for your cooperation,	
+ Level (3) Communications	
+ Customer Network Operations	
+ PRIVILEGE AND CONFIDENTIALITY NOTICE: The information in this e-mail
+ communication and any attached documents may be privileged, confidential
+ or otherwise protected from disclosure and is intended only for the use
+ of the designated recipient(s). If the reader is neither the intended
+ recipient nor an employee or agent thereof who is responsible for
+ delivering it to the intended recipient, you are hereby notified that
+ any review, dissemination, distribution, copying or other use of this
+ communication is strictly prohibited. If you have received this
+ communication in error, please immediately notify us by return e-mail
+ and promptly delete the original electronic e-mail communication and any
+ attached documentation. Receipt by anyone other than the intended
+ recipient is not a waiver of any attorney-client or work-product
+ privilege. 	
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070213/a05a0c1a/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Hong Kong: Internet Links Normalized 50 Days After Quake
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070214/499774f7/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+did something happen?
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ it appears savvis suffered from a high packet loss (40%) from washington
+ out.
+ its coming back to normal.
+ any insight will be appreciated.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+ did something happen?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Re: [Outages] did something happen?
+ Date: Fri, 16 Feb 2007 13:20:16 -0500
+ From: chip <chip.gwyn at gmail.com>
+ On 2/16/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ Word is savvis has a fiber cut from ATL to CHG of some sort and re-routing
+ things through Dallas.   Atleast that's what I've seen on traces.  Savvis
+ has confirmed an outage on the east coast just not sure exactly where and
+ what all it affects.
+ - --chip
+ - --
+ Just my $.02, your mileage may vary,  batteries not included, etc....
+###############################################################
+END
+###############################################################
+
+###############################################################
+Wikipedia down?
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070217/dee7e489/attachment.diff 
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ http://en.wikipedia.com/
+ The Wikimedia Foundation servers are currently experiencing technical difficulties.
+ The problem is most likely temporary and will hopefully be fixed soon.
+ Please check back in a few minutes.
+ For further information, you can visit the #wikipedia channel on the Freenode IRC network.
+ In the meantime, you may be able to view Google's cached version of this page.
+ Wikipedia is now one of the most visited sites on the Internet by traffic and
+ continues to grow, and as a result the Wikimedia Foundation has a constant need
+ to purchase new hardware. If you would like to help, please donate.
+ Regards
+ Peter and Karin Dambier
+ Fergie wrote:
+ | Any ideas?
+ |
+ | [wikipedia.com resolves to the same host address as *.org]
+ |
+ | %ping wikipedia.com
+ |
+ | Pinging wikipedia.com [66.230.200.100] with 32 bytes of data:
+ |
+ | Request timed out.
+ | Request timed out.
+ | Request timed out.
+ | Request timed out.
+ |
+ | Ping statistics for 66.230.200.100:
+ |     Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+ |
+ | %tracert wikipedia.com
+ |
+ | Tracing route to wikipedia.com [66.230.200.100]
+ | over a maximum of 30 hops:
+ |
+ |   1     2 ms     1 ms     1 ms  rr.pmtpa.wikimedia.org [66.230.200.100]
+ |   2     *        *        *     Request timed out.
+ |   3    10 ms     *       12 ms  ge-1-16-ur06.sanjose.ca.sfba.comcast.net
+ | [68.86.
+ | 248.93]
+ |   4    14 ms    11 ms     *     te-5-3-ar01.oakland.ca.sfba.comcast.net
+ | [68.87.2
+ | 26.229]
+ |   5    11 ms    11 ms    13 ms  68.87.226.134
+ |   6    13 ms    12 ms    12 ms  12.117.240.85
+ |   7    12 ms    26 ms    37 ms  tbr1012801.sffca.ip.att.net [12.123.12.49]
+ |   8    14 ms    12 ms    14 ms  ggr3-ge10.sffca.ip.att.net [12.122.82.57]
+ |   9    23 ms    23 ms    24 ms  att-gw.sanfran.level3.net [192.205.33.78]
+ |  10    14 ms    17 ms    22 ms  ae-2-56.bbr2.SanJose1.Level3.net
+ | [4.68.123.161]
+ |
+ |  11   120 ms   123 ms   179 ms  as-2-0.mp2.Tampa1.Level3.net [64.159.3.218]
+ |  12    93 ms    95 ms    91 ms  ae-23-56.car3.Tampa1.Level3.net
+ | [4.68.104.171]
+ |  13   109 ms    91 ms    90 ms  e1-11-level3.co2.tpax.as30217.net
+ | [4.71.0.10]
+ |  14     *        *     ^C
+ |
+ |
+ | - ferg
+ |
+ - --
+ "Fergie", a.k.a. Paul Ferguson
+ ~ Engineering Architecture for the Internet
+ ~ fergdawg(at)netzero.net
+ ~ ferg's tech blog: http://fergdawg.blogspot.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ - --
+ Peter and Karin Dambier
+ Cesidian Root - Radice Cesidiana
+ Rimbacher-Strasse 16
+ D-69509 Moerlenbach-Bonsweiher
+ +49(6209)795-816 (Telekom)
+ +49(6252)750-308 (VoIP: sipgate.de)
+ mail: peter at echnaton.serveftp.com
+ mail: peter at peter-dambier.de
+ http://iason.site.voila.fr/
+ https://sourceforge.net/projects/iason/
+ http://www.cesidianroot.com/
+ FWIW, here's a link to keep handy for next time.
+ https://wikitech.leuksman.com/view/Server_admin_log
+ -s
+ On Sat, 17 Feb 2007 23:28:04 GMT
+ "Fergie" <fergdawg at netzero.net> wrote:
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070217/486a50fb/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+is something going on w/ savvis again?
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ it appears savvis is  suffering from high latency and packet loss
+ between washington, ny and chicago.
+ anyone seeing it?
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Emergency Savvis Maintenance Activity #484019 - 2/23
+###############################################################
+ 	- CWIE
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Tuesday, February 20, 2007 10:57 AM
+ Subject: Emergency Savvis Maintenance Activity #484019 - 2/23 - CWIE
+ Importance: High
+ EMERGENCY Maintenance Activity: 484019
+ Affected Dates:
+ 2007 February 23, 06:00:00 - 2007 February 23, 12:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 01:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ Chicago, Illinois, USA 
+ Kalamazoo, Michigan, USA 
+ Activity Type :
+ Vendor Maintenance
+ Circuit ID :
+ 1497971
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - Vendor will prep and splice new cables. The fiber
+ will be tested from the Joliet ILA to 111 N. Canal. Other fibers in the
+ span cut into the span will not be tested. It will be up to the customer
+ NOCC to verify the system is working. Unrotected and dark fiber services
+ will be down up to 1 hour.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070220/a92de5f2/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+[SANOG] Planned Outage on flagtel 
+###############################################################
+ ---------- Forwarded message ----------
+ Date: Wed, 21 Feb 2007 09:25:56 +0500
+ From: Haris Shamsi <h.shamsi at cyber.net.pk>
+ Subject: [SANOG] Planned Outage on flagtel
+ Content-type: text/plain; charset=us-ascii
+ Content-transfer-encoding: 7BIT
+ Planned Work Notification
+ CASE NO: PTCL2007MAR03001
+ Customer Name:       All IP-Transit. 
+ FTIL Reference:        All FTILs.
+ Notification from:       Service Desk VPOP Karachi.      
+ Notification Date:      20/02/2007.   
+ Event:                         Cable repair and equipment replacement.
+ Service Impact:         Service - Outage for the Duration of 08 Hours.
+ Scheduled Start date/Time (GMT): 03/03/07 12:00 Hrs
+ Scheduled Stop Date/Time (GMT): 03/03/07 20:00 Hrs
+ Details of Planned Work:  This is to inform you that FLAG will be carrying
+ out a 
+ maintenance activity for repairing the front haul land cable fault in Suez.
+ Also our 
+ Backhaul provider has to replace the DC equipment in Mumbai. Further detail
+ of 
+ the planned work is awaited from M/S FLAG Telecom.
+ We hope you will accept our apology for any inconvenience this work may
+ cause 
+ You and your customers.
+ Please contact FLAG Service Desk Karachi at 021-2761852, 2760066, and 
+ 2751144 should you require any additional information.
+ -- Binary/unsupported file stripped by Ecartis --
+ -- Type: application/x-ms-wmz
+ -- File: image001.wmz
+ -- Binary/unsupported file stripped by Ecartis --
+ -- Type: image/gif
+ -- File: image002.gif
+ -- Binary/unsupported file stripped by Ecartis --
+ -- Type: application/octet-stream
+ -- File: oledata.mso
+ -- 
+ This is the SANOG (http://www.sanog.org/) mailing list.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Maintenance Activity #484246 - 3/3 - CWIE
+###############################################################
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Wednesday, February 21, 2007 8:21 AM
+ Subject: Savvis Maintenance Activity #484246 - 3/3 - CWIE
+ Maintenance Activity: 484246
+ Affected Dates:
+ 2007 March 03, 05:00:00 - 2007 March 03, 10:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 01:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ Washington, District of Columbia, USA 
+ Activity Type :
+ Service Maintenance
+ Circuit ID :
+ 120115
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - 
+ In this window, Savvis engineers will be adding new hardware to several
+ local backbone routers.  As this work is performed, customers will
+ experience service outages, latency, and other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070221/56a4a93d/attachment-0001.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Maintenace Activity #484243 3/3 - CWIE
+###############################################################
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Wednesday, February 21, 2007 7:57 AM
+ Subject: Savvis Maintenace Activity #484243 3/3 - CWIE
+ Maintenance Activity: 484243
+ Affected Dates:
+ 2007 March 03, 08:00:00 - 2007 March 03, 13:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 01:00 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ El Segundo, California, USA 
+ Irvine, California, USA 
+ San Jose, California, USA 
+ Santa Clara, USA 
+ Santa Clara, California, USA 
+ Tukwila, Washington, USA 
+ Activity Type :
+ Service Maintenance
+ Circuit ID :
+ 113110
+ Impact :
+ Network 
+ Level Of Impact :
+ Service Interrupting - 
+ In this window, Savvis engineers will be upgrading the software an
+ several regional backbone devices.  As this work is performed, customers
+ may experience service outages, latency, or other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070221/28344a28/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Integra Telecom Scheduled Maintenance
+###############################################################
+  FYI
+ Integra Telecom Maintenance Notification
+ For February 24th, 2007 
+ Start Time:      7:00am  PST
+ End Time:       4:00pm PST
+ Location:    Los Angeles, CA to Vincent, CA
+ Description:   
+ Integra Telecom is performing fiber cable replacement and repair to
+ fiber cable on Southern Cal Edison overhead power lines between Los
+ Angeles, CA and Vincent, CA. They will be doing this on February 24th,
+ 2007 beginning at 7:00am PST. During this maintenance window you will
+ experience (2) 50ms switch hits.   We apologize for any inconvenience
+ this may cause.  Please call with any questions or concerns.
+ Impact:  (2) 50ms switch hits 
+ Trouble Ticket:   
+ What You Will Experience 
+ (2) 50MS SWITCH HITS
+ Contact Information
+ If you have questions or concerns, please contact:
+ Sharon Monroy - Scheduled Maintenance Group - 800-622-4354, ext 4387
+   direct line: 360-816-4387
+ Email Address:  sharon.monroy at integratelecom.com
+ After hours or weekends, you may contact our 24 hour NOC -  800-622-4354
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070221/1867bc47/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Possible Level3 Fibre Cut
+###############################################################
+ -----Original Message-----
+ From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of
+ Rob Baxter
+ Sent: Wednesday, February 21, 2007 6:57 PM
+ Subject: Possible Level3 Fibre Cut
+ ** Cogent Network Status Report Last Updated Wed Feb 21 16:35:00 2007 **
+ Cogent Network Status/DNS Server Status Description:
+ We currently have a possible fiber cut between Stamford, CT and New York
+ City, NY. This may cause some latency for some of our customers between 
+ Boston and New York. We are working to correct the situation and 
+ currently do not have an ETA. Thank you.
+ Rob Baxter
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber Cut
+###############################################################
+ Does anyone if there are any problems in Chicago with L3?  I have been
+ trying to chase down a problem with one of my vendors and found it could
+ possibly be an issue there.  I found major packet loss along with well over
+ 2.5 seconds of latency.
+ this is the hostname that comes up for the troubled router:
+      ae-1-100.ebr1.Chicago1.Level3.net
+ -- 
+ ........::::::::::.........
+ Brian Fertig
+ Director of Engineering
+ Molten, Inc.
+ Delaware Office
+ Office 800.418.4380 x 160
+ Direct 302.338.9601
+ Cell   813.817.9961 
+ "The information in this electronic mail ("e-mail") message may contain information that is confidential and/or privileged, or may otherwise be protected by work product or other legal rules. It is solely for the use of the individual(s) or the entity(ies) originally intended. Access to this electronic mail message by anyone else is unauthorized. If you are not the intended recipient, be advised that any unauthorized review, disclosure, copying, distribution or use of this information, or any action taken or omitted to be taken in reliance on it, is prohibited and may be unlawful. Please notify the sender immediately if you have received this electronic message by mistake, and destroy all copies of the original message."
+ "The sender believes that this e-mail and any attachments were free of any virus, worm, Trojan horse, malicious code and/or other contaminants when sent. E-mail transmissions cannot be guaranteed to be secure or error-free, so this message and its attachments could have been infected, corrupted or made incomplete during transmission. By reading the message and opening any attachments, the recipient accepts full responsibility for any viruses or other defects that may arise, and for taking remedial action relating to such viruses and other defects. Neither Molten Inc nor any of its affiliated entities is liable for any loss or damage arising in any way from, or for errors or omissions in the contents of, this message or its attachments."
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070222/3241629a/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 outage]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ can anyone confirm and /or shed any further light on this possible outage?
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: L3 outage
+ Date: Mon, 26 Feb 2007 23:32:32 -0500 (EST)
+ From: David Lesher <wb8foz at nrk.com>
+ Reply-To: wb8foz at nrk.com
+ I'm told {by atlantech.net} that L3 is wounded in the east-central
+ region; i.e. DC-NYC at least...
+ - --
+ A host is a host from coast to coast.................wb8foz at nrk.com
+ & no one will talk to a host that's close........[v].(301) 56-LINUX
+ Unless the host (that isn't close).........................pob 1433
+ is busy, hung or dead....................................20915-1433
+ We're being told that this outage was caused due to an exploding
+ transformer in DC:
+ http://www.nbc4.com/news/11118905/detail.html
+ Eric Van Tol
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Atlantech Online, Inc.  | http://www.atlantech.net
+ phone: 301-589-3060
+ fax: 301-589-3936
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ view our Network status | http://noc.atlantech.net
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Tuesday, February 27, 2007 12:28 AM
+ Subject: [Outages] [Fwd: L3 outage]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ can anyone confirm and /or shed any further light on this possible
+ outage?
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: L3 outage
+ Date: Mon, 26 Feb 2007 23:32:32 -0500 (EST)
+ From: David Lesher <wb8foz at nrk.com>
+ Reply-To: wb8foz at nrk.com
+ I'm told {by atlantech.net} that L3 is wounded in the east-central
+ region; i.e. DC-NYC at least...
+ - --
+ A host is a host from coast to coast.................wb8foz at nrk.com
+ & no one will talk to a host that's close........[v].(301) 56-LINUX
+ Unless the host (that isn't close).........................pob 1433
+ is busy, hung or dead....................................20915-1433
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Huricane Electric having problems in Chicago?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Huricane Electric having problems in Chicago?
+ Date: Tue, 27 Feb 2007 12:31:51 -0600
+ From: Brandon Galbraith <brandon.galbraith at gmail.com>
+ Anyone having problems with Hurricane Electric in Chicago?
+ I'm seeing all my packets through them dropped at gsr12012.chi.he.net [
+ 206.223.138.5]. Just wanted to see if I'm the only one.
+ We're utilizing Hurricane Electric via the Equinix Direct service.
+ - -brandon
+ We are seeing problems with L3 in LA area  
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Tuesday, February 27, 2007 11:57 AM
+ Subject: [Outages] [Fwd: Huricane Electric having problems in Chicago?]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Huricane Electric having problems in Chicago?
+ Date: Tue, 27 Feb 2007 12:31:51 -0600
+ From: Brandon Galbraith <brandon.galbraith at gmail.com>
+ Anyone having problems with Hurricane Electric in Chicago?
+ I'm seeing all my packets through them dropped at gsr12012.chi.he.net [
+ 206.223.138.5]. Just wanted to see if I'm the only one.
+ We're utilizing Hurricane Electric via the Equinix Direct service.
+ - -brandon
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ 	<06EF9CEFEF46484EA8A230DA53772DBB829418@Exchange.ccbill-hq.local>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Raman Sud wrote:
+ - ---------------------
+ It appears like L3 is having issues in San Diego. Something to do with
+ Quest, not 100% certain.
+ Does anyone have any further info?
+ regards,
+ /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ This update (see below) relates to Hurricane Electric and not L3.
+ Sorry about the confusion.
+ Raman - Maybe we should change the subject to L3 issue
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: Re: Huricane Electric having problems in Chicago?
+ Date: Tue, 27 Feb 2007 11:09:54 -0800 (PST)
+ From: Mike Leber <mleber at he.net>
+ On Tue, 27 Feb 2007, Brandon Galbraith wrote:
+ The card in slot 5 of that router has failed and has taken down the
+ router.  We are waiting on Equinix smart hands to get to the router to
+ pull the card, etc.  In the mean time we reboot the router.
+ In the future, you are welcome to contact noc at he.net or support at he.net
+ depending on the urgency.  We would be happy to help you.
+ +----------------- H U R R I C A N E - E L E C T R I C -----------------+
+ | Mike Leber           Direct Internet Connections   Voice 510 580 4100 |
+ | Hurricane Electric     Web Hosting  Colocation       Fax 510 580 4151 |
+ | mleber at he.net                                       http://www.he.net |
+ +-----------------------------------------------------------------------+
+###############################################################
+END
+###############################################################
+
+###############################################################
+L3 issues?
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ L3 san diego pop doesn't look healthy.
+ Is anyone noticing any issues?
+ regards,
+ /virendra
+ I know Internap turned down their peering with L3 for about an hour
+ and just brought it back up because of L3 BGP issues but i'm not sure
+ that helps you :)
+ -Mike
+ On 2/27/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ 	<1b5c1c150702271221s342070dcr32aea802cdd5fa24@mail.gmail.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Mike Lyon wrote:
+ - ---------------------
+ thanks. My customer is experiencing poor performance (latency related)
+ in san diego and now in lax.
+ regards,
+ /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ >>
+ I saw a bunch of BGP churn on a DS3 into Level3(/WilTel) Anaheim
+ just after 12:00 PST. Haven't yet contacted them for any official
+ info.
+ Seems to mostly stable for the moment...
+ -Will
+ On Tue, Feb 27, 2007 at 12:08:32PM -0800, virendra rode // wrote:
+ 	<45E4990F.1040307@gmail.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ virendra rode // wrote:
+ >>> I know Internap turned down their peering with L3 for about an hour
+ >>> and just brought it back up because of L3 BGP issues but i'm not sure
+ >>> that helps you :)
+ >>>
+ >>> -Mike
+ - --------------------------
+ Looks like someone gave it a cpr. It appears to be coming back to normal.
+ regards,
+ /virendra
+ >>>
+ >>> On 2/27/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ >>> L3 san diego pop doesn't look healthy.
+ >>>
+ >>>
+ >>> Is anyone noticing any issues?
+ >>>
+ >>>
+ >>>
+ >>>
+ >>> regards,
+ >>> /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ 	<45E49B7C.2070108@gmail.com>
+ U mean...jumpstarted its ass!
+ hehe 
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Tuesday, February 27, 2007 1:59 PM
+ Cc: outages at isotf.org
+ Subject: Re: [Outages] L3 issues?
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ virendra rode // wrote:
+ >>> I know Internap turned down their peering with L3 for about an hour
+ >>> and just brought it back up because of L3 BGP issues but i'm not
+ sure
+ >>> that helps you :)
+ >>>
+ >>> -Mike
+ - --------------------------
+ Looks like someone gave it a cpr. It appears to be coming back to
+ normal.
+ regards,
+ /virendra
+ >>>
+ >>> On 2/27/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ >>> L3 san diego pop doesn't look healthy.
+ >>>
+ >>>
+ >>> Is anyone noticing any issues?
+ >>>
+ >>>
+ >>>
+ >>>
+ >>> regards,
+ >>> /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ 	<06EF9CEFEF46484EA8A230DA53772DBB82943B@Exchange.ccbill-hq.local>
+ I was in Chicago all weekend and L3 has seen shoddy performance since Friday
+ evening. I keep a running ping back to my own router which hangs off of
+ Sprint-Link in Relay Maryland and ping response times have been up in the
+ quadruple figures. BGP seems to be the problem and hopefully we will all
+ have the speed we are paying for.
+ Be cool, Richard
+ -----Original Message-----
+ From: Raman Sud [mailto:ramans at cwie.net] 
+ Sent: Tuesday, February 27, 2007 4:10 PM
+ Cc: outages at isotf.org
+ Subject: Re: [Outages] L3 issues?
+ U mean...jumpstarted its ass!
+ hehe 
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Tuesday, February 27, 2007 1:59 PM
+ Cc: outages at isotf.org
+ Subject: Re: [Outages] L3 issues?
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ virendra rode // wrote:
+ >>> I know Internap turned down their peering with L3 for about an hour
+ >>> and just brought it back up because of L3 BGP issues but i'm not
+ sure
+ >>> that helps you :)
+ >>>
+ >>> -Mike
+ - --------------------------
+ Looks like someone gave it a cpr. It appears to be coming back to
+ normal.
+ regards,
+ /virendra
+ >>>
+ >>> On 2/27/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ >>> L3 san diego pop doesn't look healthy.
+ >>>
+ >>>
+ >>> Is anyone noticing any issues?
+ >>>
+ >>>
+ >>>
+ >>>
+ >>> regards,
+ >>> /virendra
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ I'm a L3 customer and I just got off the phone with one of their techs.
+ He says that "there is no fiber cut". There is however a router in the
+ san jose issue with some misbehaving cards that's causing some IGP
+ instability. Not sure how believable that really is, but that's what
+ they said.
+ - Darrell
+###############################################################
+END
+###############################################################
+
+###############################################################
+Chicago Sprint - Global Crossing]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Chicago Sprint - Global Crossing
+ Date: Tue, 27 Feb 2007 15:10:21 -0600
+ From: Mike Hammett <nanog at ics-il.net>
+ Does anyone else notice any issues?
+ [root at ds00209 mhammett]# tcptraceroute 63.175.151.3 5060
+ Selected device eth0, address 205.218.65.34, port 51739 for outgoing packets
+ Tracing the path to 63.175.151.3 on TCP port 5060, 30 hops max
+  1  205.138.198.193  2.686 ms  0.404 ms  1.042 ms
+  2  ge5-1.br03.chc01.pccwbtn.net (63.218.5.97)  0.444 ms  0.504 ms  0.411 ms
+  3  * * *
+  4  ge0-2-0-1000M.ar1.CHI2.gblx.net (67.17.107.193)  0.885 ms  0.531 ms
+ 0.464 ms
+  5  sprint-1.ar1.CHI2.gblx.net (64.212.107.82)  26.533 ms  9.346 ms  54.376
+ ms
+  6  sl-bb22-chi-5-0.sprintlink.net (144.232.20.90)  112.045 ms  209.869 ms
+ 202.905 ms
+  7  sl-bb20-roa-8-0-0.sprintlink.net (144.232.18.37)  15.198 ms  13.906 ms
+ 32.054 ms
+  8  sl-gw20-roa-10-0.sprintlink.net (144.232.17.190)  104.213 ms  36.510 ms
+ 34.817 ms
+  9  sl-essex-6-0.sprintlink.net (144.223.151.22)  53.096 ms  75.561 ms
+ 51.180 ms
+ 10  * * *
+ 11  voip.essex1.com (63.175.151.3) [closed]  35.588 ms  69.591 ms *
+ This is normally a < 5 ms traceroute.
+ Not seeing much of a problem from here (quite a distance away):
+  1  dis1-rtr-mb-vl11 (216.168.96.1)  0.407 ms  0.299 ms  0.350 ms
+  2  core1-rtr-mb-ge3-0 (66.79.227.178)  0.194 ms  0.169 ms  0.185 ms
+  3  tor-gsr-1.trionetworks.net (67.29.145.1)  8.763 ms  9.182 ms  9.005
+ ms
+  4  so-8-0.hsa1.Detroit1.Level3.net (166.90.248.1)  17.801 ms  17.010 ms
+ 17.788 ms
+  5  so-4-3-0.mp1.Detroit1.Level3.net (4.68.115.1)  14.233 ms  14.618 ms
+ 15.301 ms
+  6  ae-0-0.bbr1.Chicago1.Level3.net (64.159.1.33)  20.244 ms
+ so-2-0-2.bbr2.Chicago1.Level3.net (64.159.0.194)  42.142 ms  41.626 ms
+  7  ae-14-51.car4.Chicago1.Level3.net (4.68.101.8)  42.220 ms
+ ae-24-54.car4.Chicago1.Level3.net (4.68.101.104)  41.627 ms
+ ae-14-53.car4.Chicago1.Level3.net (4.68.101.72)  23.979 ms
+  8  sl-st20-chi-10-0-0.sprintlink.net (144.232.8.113)  41.696 ms  42.468
+ ms  23.105 ms
+  9  sl-bb20-chi-4-0.sprintlink.net (144.232.8.218)  43.009 ms  42.979 ms
+ 46.171 ms
+ 10  sl-bb22-chi-14-0.sprintlink.net (144.232.26.6)  133.314 ms  18.905
+ ms  18.743 ms
+ 11  sl-bb20-roa-8-0-0.sprintlink.net (144.232.18.37)  22.711 ms  21.504
+ ms  22.867 ms
+ 12  sl-gw20-roa-10-0.sprintlink.net (144.232.17.190)  22.909 ms  22.480
+ ms  21.769 ms
+ 13  sl-essex-6-0.sprintlink.net (144.223.151.22)  63.303 ms  62.756 ms
+ 63.078 ms
+ Paul Stewart
+ Network Administrator
+ Nexicom Inc.
+ http://www.nexicom.net/  
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Tuesday, February 27, 2007 4:28 PM
+ Subject: [Outages] [Fwd: Chicago Sprint - Global Crossing]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Chicago Sprint - Global Crossing
+ Date: Tue, 27 Feb 2007 15:10:21 -0600
+ From: Mike Hammett <nanog at ics-il.net>
+ Does anyone else notice any issues?
+ [root at ds00209 mhammett]# tcptraceroute 63.175.151.3 5060
+ Selected device eth0, address 205.218.65.34, port 51739 for outgoing
+ packets
+ Tracing the path to 63.175.151.3 on TCP port 5060, 30 hops max
+  1  205.138.198.193  2.686 ms  0.404 ms  1.042 ms
+  2  ge5-1.br03.chc01.pccwbtn.net (63.218.5.97)  0.444 ms  0.504 ms
+ 0.411 ms
+  3  * * *
+  4  ge0-2-0-1000M.ar1.CHI2.gblx.net (67.17.107.193)  0.885 ms  0.531 ms
+ 0.464 ms
+  5  sprint-1.ar1.CHI2.gblx.net (64.212.107.82)  26.533 ms  9.346 ms
+ 54.376 ms
+  6  sl-bb22-chi-5-0.sprintlink.net (144.232.20.90)  112.045 ms  209.869
+ ms
+ 202.905 ms
+  7  sl-bb20-roa-8-0-0.sprintlink.net (144.232.18.37)  15.198 ms  13.906
+ ms
+ 32.054 ms
+  8  sl-gw20-roa-10-0.sprintlink.net (144.232.17.190)  104.213 ms  36.510
+ ms
+ 34.817 ms
+  9  sl-essex-6-0.sprintlink.net (144.223.151.22)  53.096 ms  75.561 ms
+ 51.180 ms
+ 10  * * *
+ 11  voip.essex1.com (63.175.151.3) [closed]  35.588 ms  69.591 ms *
+ This is normally a < 5 ms traceroute.
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ Sprint is having issue with a router in Chicago, they will be replacing a
+ card tonight during a maintenance window.  We have been seeing high ping
+ times (up to 1000ms+)  through there for the last 3 days.
+ On 2/27/07, virendra rode // <virendra.rode at gmail.com> wrote:
+ -- 
+ --
+ Ben
+ email: locutus at the-collective.net
+ web: http://locutus.the-collective.net/
+ irc: su1droot; aim: su1droot; y!: su1droot
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070227/c94c1af5/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Demand Maintenance
+###############################################################
+ ________________________________
+ From: TechnicalSupport [mailto:TechnicalSupport at Level3.com] 
+ Sent: Tuesday, February 27, 2007 2:40 PM
+ Subject: Level 3 Demand Maintenance
+ LEVEL (3) COMMUNICATIONS - NETWORK CHANGE CONTROL (NCC)
+ *** DEMAND MAINTENANCE ADVISEMENT ***
+ YOUR SERVICE WITH LEVEL (3) COMMUNICATIONS MAY BE AFFECTED 
+ Clarify Case #: 1856906
+ Primary Dates:  February 28, 2007  3am - 6am PST
+ Location of Maintenance:  San Jose, CA
+ Summary Description of Maintenance: Level 3 will perform a Demand
+ Maintenance to reload car4.sjo1. Level 3 has experienced routing issue
+ with this device and will be reloaded between the hours 3am and 6am PST.
+ Customer Impact: This is a Service Affecting maintenance. Customers that
+ have redundant connections may see a switch hit when maintenance begins.
+ Customers that do not have redundant connections may be down for the
+ duration of the maintenance.  Maintenance may take up to 30 minutes to
+ complete.
+ Impacted Equipment: car4.sjo1
+ If you have any questions or concerns about this network maintenance
+ advisement, please call the Service Management Center at 877-4LEVEL3 for
+ prompt assistance. If you have any changes in the personnel contacts for
+ these maintenance advisements, please also communicate those changes to
+ a SMC representative. Once you have contacted the SMC, a customer ticket
+ will be opened for your inquiry, and a representative will address your
+ concerns.
+ Thank you,
+ Level (3) Communications
+ Service Management Center
+ US Toll-free: 877 4LEVEL3
+ UK freephone: 0800 0927729
+ French freephone: 0800 913180
+ German freephone: 0800 253 8353
+ Belgian freephone: 0800  76216
+ Dutch freephone: 0800  0229759
+ mailto:eutcam at level3.com (9am-6pm GMT, Mon-Fri)
+ or mailto:eusupport at level3.com (24x7)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070227/ef0638d6/attachment-0001.htm 
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Raman Sud wrote:
+ - ----------------
+ hmm....so sj was the culprit.
+ thanks Raman!
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Maintenance Activity #484419 - 3/10 - CWIE
+###############################################################
+ ________________________________
+ From: Taylor, Jennifer [mailto:Jennifer.Taylor at savvis.net] 
+ Sent: Wednesday, February 28, 2007 9:50 AM
+ Subject: Savvis Maintenance Activity #484419 - 3/10 - CWIE
+ Maintenance Activity: 484419
+ Affected Dates:
+ 2007 March 10, 06:00:00 - 2007 March 10, 11:00:00 (GMT) 
+ Anticipated Outage Duration :
+ 000 00:45 
+ Location Affected: 
+ The maintenance window will begin at the designated local time in the
+ following affected cities: 
+ Chicago, Illinois, USA 
+ Activity Type :
+ Service Maintenance
+ Circuit ID :
+ 116778
+ Impact :
+ Network 
+ Level Of Impact :
+ In this window, Savvis engineers will be replacing defective hardware on
+ a local backbone device.  As this work is performed, some customers may
+ experience service outages, latency, or other connectivity issues.
+ If you have any questions, or would like to determine the extent of
+ impact any maintenance may have on your network, please contact the SSC
+ at the below listed numbers or via email at ssc at savvis.net and reference
+ the specific ticket number listed above.
+ SSC AMERICAS........... +1 888 638 6771
+ SSC AMERICAS........... +1 314 628 7757
+ SSC EMEA............... +44 118 322 6100
+ SSC PACIFIC............ +65 6768 8099
+ SSC JAPAN.............. +81 3 5219 0600 
+ Thank You, 
+ SAVVIS SSC 
+ 888-638-6771 
+ ssc at savvis.net <mailto:ssc at savvis.net>  
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070228/c295690e/attachment.htm 
+###############################################################
+END
+###############################################################
+

@@ -1,0 +1,1773 @@
+###############################################################
+Sidera/Lightower outage at 111 N. Canal Chicago
+###############################################################
+  We saw our Sidera Ethernet circuit loose physical connectivity at 111 N. 
+ Canal around 1:30pm.  After several failed calls to the Sidera NOC, when 
+ I finally got through the queue was over 20 calls long.  I'm guessing 
+ that there is some sort of network issue going on, but have not seen any 
+ notices either here or from Sidera.  Just wondering if any others are 
+ seeing issues with Sidera/lightower in Chicago.
+ Nate
+###############################################################
+END
+###############################################################
+
+###############################################################
+Netflix over IPv6
+###############################################################
+ The issue started happening today again.  It sounds like Netflix is having
+ some challenges with advertising AAAA's that are operating.  When
+ www.netflix response I get three AAAA's that on AWS East.  When it's not
+ working, I get eight AAAA's that are on AWS West.
+ Here's the three AAAA's when it's good and the eight AAAA's when it's not
+ good.
+ nagios:/tmp# ./netflix.sh
+ ; <<>> DiG 9.7.3 <<>> AAAA www.netflix.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 8, ADDITIONAL: 8
+ ;; QUESTION SECTION:
+ ;www.netflix.com.               IN      AAAA
+ ;; ANSWER SECTION:
+ www.netflix.com.        290     IN      CNAME
+ dualstack.wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com.
+ dualstack.wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 50
+ IN AAAA 2406:da00:ff00::b849:f83b
+ dualstack.wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 50
+ IN AAAA 2406:da00:ff00::b849:fcb3
+ dualstack.wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 50
+ IN AAAA 2406:da00:ff00::6b16:ebed
+ ;; AUTHORITY SECTION:
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-947.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-927.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-941.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-925.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-935.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-934.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-944.amazonaws.com.
+ wwwservice--frontend-san-756424683.us-east-1.elb.amazonaws.com. 1490 IN NS
+ ns-916.amazonaws.com.
+ ;; ADDITIONAL SECTION:
+ ns-916.amazonaws.com.   350     IN      A       207.171.178.7
+ ns-925.amazonaws.com.   590     IN      A       72.21.208.213
+ ns-927.amazonaws.com.   590     IN      A       72.21.204.209
+ ns-934.amazonaws.com.   590     IN      A       87.238.84.215
+ ns-935.amazonaws.com.   590     IN      A       87.238.80.213
+ ns-941.amazonaws.com.   7532    IN      A       204.246.160.5
+ ns-944.amazonaws.com.   1772    IN      A       205.251.228.6
+ ns-947.amazonaws.com.   590     IN      A       204.246.162.10
+ ;; Query time: 0 msec
+ ;; SERVER: 127.0.0.1#53(127.0.0.1)
+ ;; WHEN: Tue Oct  1 17:58:05 2013
+ ;; MSG SIZE  rcvd: 496
+ PING 2406:da00:ff00::6b16:ebed(2406:da00:ff00::6b16:ebed) 56 data bytes
+ 64 bytes from 2406:da00:ff00::6b16:ebed: icmp_seq=1 ttl=48 time=57.7 ms
+ 64 bytes from 2406:da00:ff00::6b16:ebed: icmp_seq=2 ttl=48 time=58.9 ms
+ 64 bytes from 2406:da00:ff00::6b16:ebed: icmp_seq=3 ttl=48 time=57.8 ms
+ --- 2406:da00:ff00::6b16:ebed ping statistics ---
+ 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+ rtt min/avg/max/mdev = 57.709/58.149/58.938/0.624 ms
+ PING 2406:da00:ff00::b849:f83b(2406:da00:ff00::b849:f83b) 56 data bytes
+ 64 bytes from 2406:da00:ff00::b849:f83b: icmp_seq=1 ttl=49 time=58.6 ms
+ 64 bytes from 2406:da00:ff00::b849:f83b: icmp_seq=2 ttl=49 time=58.4 ms
+ 64 bytes from 2406:da00:ff00::b849:f83b: icmp_seq=3 ttl=49 time=58.4 ms
+ --- 2406:da00:ff00::b849:f83b ping statistics ---
+ 3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+ rtt min/avg/max/mdev = 58.468/58.537/58.646/0.212 ms
+ PING 2406:da00:ff00::b849:fcb3(2406:da00:ff00::b849:fcb3) 56 data bytes
+ 64 bytes from 2406:da00:ff00::b849:fcb3: icmp_seq=1 ttl=49 time=74.8 ms
+ 64 bytes from 2406:da00:ff00::b849:fcb3: icmp_seq=2 ttl=49 time=58.7 ms
+ 64 bytes from 2406:da00:ff00::b849:fcb3: icmp_seq=3 ttl=49 time=65.3 ms
+ --- 2406:da00:ff00::b849:fcb3 ping statistics ---
+ 3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+ rtt min/avg/max/mdev = 58.732/66.318/74.827/6.606 ms
+ nagios:/tmp# ./netflix.sh
+ ====================================================
+ ; <<>> DiG 9.7.3 <<>> AAAA www.netflix.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38593
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 9, AUTHORITY: 8, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;www.netflix.com.               IN      AAAA
+ ;; ANSWER SECTION:
+ www.netflix.com.        124     IN      CNAME
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com.
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::3270:5c77
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::3270:5c7b
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36d6:752
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36d6:20b0
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36d6:22b2
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36d6:24e1
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36f4:7696
+ dualstack.wwwservice--frontend-san-608070354.us-west-2.elb.amazonaws.com. 4
+ IN AAAA 2620:108:700f::36f4:e97a
+ ;; AUTHORITY SECTION:
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-925.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-947.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-916.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-934.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-941.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-935.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-944.amazonaws.com.
+ us-west-2.elb.amazonaws.com. 124 IN     NS      ns-927.amazonaws.com.
+ ;; Query time: 0 msec
+ ;; SERVER: 127.0.0.1#53(127.0.0.1)
+ ;; WHEN: Tue Oct  1 18:10:51 2013
+ ;; MSG SIZE  rcvd: 508
+ PING 2620:108:700f::36f4:e97a(2620:108:700f::36f4:e97a) 56 data bytes
+ --- 2620:108:700f::36f4:e97a ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2000ms
+ PING 2620:108:700f::3270:5c77(2620:108:700f::3270:5c77) 56 data bytes
+ --- 2620:108:700f::3270:5c77 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2008ms
+ PING 2620:108:700f::3270:5c7b(2620:108:700f::3270:5c7b) 56 data bytes
+ --- 2620:108:700f::3270:5c7b ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 1999ms
+ PING 2620:108:700f::36d6:752(2620:108:700f::36d6:752) 56 data bytes
+ --- 2620:108:700f::36d6:752 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2016ms
+ PING 2620:108:700f::36d6:20b0(2620:108:700f::36d6:20b0) 56 data bytes
+ --- 2620:108:700f::36d6:20b0 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2014ms
+ PING 2620:108:700f::36d6:22b2(2620:108:700f::36d6:22b2) 56 data bytes
+ --- 2620:108:700f::36d6:22b2 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2013ms
+ PING 2620:108:700f::36d6:24e1(2620:108:700f::36d6:24e1) 56 data bytes
+ --- 2620:108:700f::36d6:24e1 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2009ms
+ PING 2620:108:700f::36f4:7696(2620:108:700f::36f4:7696) 56 data bytes
+ --- 2620:108:700f::36f4:7696 ping statistics ---
+ 3 packets transmitted, 0 received, 100% packet loss, time 2013ms
+ nagios:/tmp#
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Monday, September 30, 2013 12:26 PM
+ Friday evening, Sunday morning, and Sunday evening, our monitoring system
+ has seen sporadic HTTPv6 access issues to www.netflix.com.  Starting since
+ 10:36 am Central this morning, I've seen sporadic ICMPv6 failures to
+ www.netflix.com.
+ Now www.netflix.com has many AAAA records that are likely different around
+ the world and I don't have our monitoring system set up to individually
+ monitor each AAAA record, but wondering if anyone else has seen the same
+ thing?
+ Regards,
+ Frank
+ ================
+ Current AAAA's, currently pingable:
+ 2406:da00:ff00::b849:f83b
+ 2406:da00:ff00::b849:fcb3
+ 2406:da00:ff00::6b16:ebed
+ =================
+ Former AAAA's during non-working state:
+ 2620:108:700f::36f4:7696
+ 2620:108:700f::36f4:dd14
+ 2620:108:700f::36f4:e97a
+ 2620:108:700f::3270:5c77
+ 2620:108:700f::3270:5c7b
+ 2620:108:700f::36d6:752
+ 2620:108:700f::36d6:b87
+ 2620:108:700f::36d6:22b2
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint EVDO outage?
+###############################################################
+ Anyone seeing any sprint issues? I just had every device of ours(well the
+ company I work for)across the country drop off. Sprint rep mentioned a
+ nationwide EVDO outage started in the last hour. Anyone have more info or
+ seeing the same issue?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/fd630df1/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast in Silicon Valley -- Oakland or thereabouts just broke?
+###############################################################
+ This just happened -- looks like something in Comcast's network within
+ Oakland broke, reconverged (quickly and seamless), but issues remain.
+ Ren Provo et al, if you're lurking, might want to make someone aware of
+ this (if they aren't already).  :-)
+ src: 76.102.14.35
+ dst: 208.79.90.130
+ === Wed Oct  2 16:14:00 PDT 2013  (1380755640)
+ Start: Wed Oct  2 16:14:00 2013
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1.|-- 192.168.1.1                0.0%    40    40   0.4   0.3   0.2   0.4
+   2.|-- 76.102.12.1                0.0%    40    40   9.6  10.8   8.1  73.5
+   3.|-- 68.86.249.253              0.0%    40    40   8.9  10.2   8.3  62.2
+   4.|-- 69.139.199.98              0.0%    40    40  10.6  13.1   9.8  47.4
+   5.|-- 68.85.155.14               0.0%    40    40  12.0  16.8  11.4  87.7
+   6.|-- 68.86.90.157               0.0%    40    40  14.6  17.8  12.6  87.5
+   7.|-- 68.86.89.210               0.0%    40    40  23.7  24.7  20.6  92.9
+   8.|-- 68.86.87.210               0.0%    40    40  25.9  25.0  20.7  99.0
+   9.|-- 173.167.57.138             0.0%    40    40  22.1  24.7  21.3  89.0
+  10.|-- 69.31.127.141              0.0%    40    40  20.5  22.0  19.8  67.1
+  11.|-- 69.31.124.114              0.0%    40    40  20.6  21.6  20.0  45.9
+  12.|-- 67.199.135.102             0.0%    40    40  39.9  36.5  21.1 231.0
+  13.|-- 208.79.90.130              0.0%    40    40  21.2  20.7  20.2  21.7
+ === END
+ === Wed Oct  2 16:15:00 PDT 2013  (1380755700)
+ Start: Wed Oct  2 16:15:00 2013
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1.|-- 192.168.1.1                0.0%    40    40   0.2   0.3   0.2   0.4
+   2.|-- 76.102.12.1                0.0%    40    40   8.1   9.4   8.1  13.6
+   3.|-- 68.86.249.253              0.0%    40    40   8.7   9.7   8.4  14.1
+   4.|-- 68.86.143.98               0.0%    40    40  13.1  13.1  10.2  21.1
+   5.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   6.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   7.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   8.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   9.|-- 173.167.57.138             0.0%    40    40  33.0  33.9  31.6  37.1
+  10.|-- 69.31.127.141              5.0%    40    38  30.2  31.4  29.7  39.3
+  11.|-- 69.31.124.114              7.5%    40    37  31.8  38.5  29.8 104.0
+  12.|-- 67.199.135.102             7.5%    40    37  31.1  36.6  30.6 119.7
+  13.|-- 208.79.90.130              7.5%    40    37  30.9  31.9  30.4  38.9
+ === END
+ 68.86.249.253 = te-0-2-0-5-ur06.santaclara.ca.sfba.comcast.net
+ 69.139.199.98 = te-1-1-0-11-ar01.oakland.ca.sfba.comcast.net
+ 68.85.155.14  = be-90-ar01.sfsutro.ca.sfba.comcast.net
+ 68.86.143.98  = te-1-1-0-5-ar01.oakland.ca.sfba.comcast.net
+ And packet loss has gradually been getting worse (impacting all forms of
+ packets, not just TCP).
+ === Wed Oct  2 16:45:00 PDT 2013  (1380757500)
+ Start: Wed Oct  2 16:45:00 2013
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1.|-- 192.168.1.1                0.0%    40    40   0.2   0.3   0.2   0.4
+   2.|-- 76.102.12.1                0.0%    40    40   8.6   9.9   8.1  14.3
+   3.|-- 68.86.249.253              0.0%    40    40   9.2  10.2   8.4  16.7
+   4.|-- 68.86.143.98               0.0%    40    40  13.9  13.1  10.6  16.6
+   5.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   6.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   7.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   8.|-- ???                       100.0    40     0   0.0   0.0   0.0   0.0
+   9.|-- 173.167.57.138            15.0%    40    34  34.6  34.8  31.7  41.7
+  10.|-- 69.31.127.141             25.0%    40    30  31.3  32.6  30.0  41.7
+  11.|-- 69.31.124.114              5.0%    40    38  31.8  33.5  30.5  58.6
+  12.|-- 67.199.135.102            12.8%    39    34  30.9  37.1  30.9  77.3
+  13.|-- 208.79.90.130              7.7%    39    36  32.9  32.3  30.8  37.3
+ === END
+ And here's what I see on the return path, for a brief run:
+ src: 208.79.90.130
+ dst: 76.102.14.35
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. 208.79.90.129                                0.0%    93    93   1.5   6.1   0.9 163.0
+  2. s7.lax.arpnetworks.com                       0.0%    93    93   0.7  11.2   0.5 150.5
+  3. ge0-15.as01.lax07.mzima.net                  0.0%    93    93   4.1   2.4   0.4  64.6
+  4. ae3-50g.cr1.lax1.us.nlayer.net               0.0%    93    93   0.6   2.2   0.4  56.0
+  5. ae1-50g.ar1.lax1.us.nlayer.net               1.1%    93    92   3.1   3.3   1.3   6.4
+  6. be-102-pe01.600wseventh.ca.ibone.comcast.ne  0.0%    93    93   3.8   3.1   1.1   5.4
+  7. pos-0-8-0-0-cr01.losangeles.ca.ibone.comcas  0.0%    93    93   3.0   2.9   1.5   6.1
+  8. he-2-15-0-0-cr01.sanjose.ca.ibone.comcast.n  0.0%    92    92   8.6  10.3   8.1  12.5
+  9. he-0-9-0-0-ar01.sfsutro.ca.sfba.comcast.net  0.0%    92    92  12.5  11.6   9.8  13.6
+ 10. be-100-ar01.oakland.ca.sfba.comcast.net      3.3%    92    88  22.0  25.2  21.9  49.6
+ 11. te-0-4-0-2-ur06.santaclara.ca.sfba.comcast.  3.3%    92    89  23.8  23.8  23.0  25.4
+ 12. te-6-0-acr03.santaclara.ca.sfba.comcast.net  9.8%    92    83  23.8  24.4  22.6  46.3
+ 13. c-76-102-14-35.hsd1.ca.comcast.net           6.5%    92    86  36.3  31.7  30.5  38.3
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ Not just Oakland - I'm seeing issues in both the South Bay as well as on
+ the Peninsular so I'm guessing it's pretty much the whole SF Bay Area.
+ Same symptoms as you're seeing - packet loss that seems to be within their
+ network, and as a result fairly ordinary speeds.
+   Scott
+ On Wed, Oct 2, 2013 at 4:54 PM, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/b66f4465/attachment.html>
+  <CACnPsNVNGkuyaYKQFyu0-9dKB-guZmHQaUEpJFOmgY7QPQNa5Q@mail.gmail.com>
+ Acknowledged.
+ I'm in Mountain View but you can clearly see where the reconvergence
+ takes place in the mtrs (between Oakland and SF Sutro, at least from the
+ forward path).  Naturally I have no way of knowing where the actual
+ issue is.
+ I'm sure you know by now most of our (as a customer) packets get sent
+ either down to San Jose or out of Oakland (and I believe the Oakland
+ network is something that got rolled out somewhat recently; I remember
+ seeing it suddenly appear in my mtrs one night not that long ago).
+ I sent a tweet to @ComcastCares pointing them to this thread.
+ I also imagine the issue will get worse since it's now 1700 and people
+ are just starting to get off work...
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Oct 02, 2013 at 04:58:57PM -0700, Scott Howard wrote:
+ I just checked into this. Looks like some sort of transport issue in sfba.
+ The appropriate teams have been working on it for a little while. I haven't
+ heard what the expected time to repair is yet.
+ John
+ On Oct 2, 2013 5:57 PM, "Jeremy Chadwick" <jdc at koitsu.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/6db72942/attachment.html>
+  <CAOQYbjoUHosFAeagA9TxoY_CzyJmOZu7B5c09qdqb4EshEj4+g@mail.gmail.com>
+ >From Mountain View i do not see web browsing issues, however traceroutes to
+ different websites (like google.com) break down in Oakland.
+ -Grant
+ On Wed, Oct 2, 2013 at 5:18 PM, John Neiberger <jneiberger at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/ced2f855/attachment-0001.html>
+ Follow-up:
+ Since roughly 18:14 PDT things look back to normal.  Others who saw
+ issues may want to re-test and follow up as necessary.
+ Thanks everyone!
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Oct 02, 2013 at 04:54:34PM -0700, Jeremy Chadwick wrote:
+ On Wed, Oct 2, 2013 at 4:54 PM, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ If LinkedIn is to be believed, she's no longer with
+ Comcast, but is instead firmly ensconced at Apple,
+ working to bring your apple-fu even closer to you,
+ one AS at a time...
+ Matt
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/36fc893d/attachment.html>
+  <20131003013842.GA69041@icarus.home.lan>
+ Confirmed - working fine from the South Bay, to the same hosts that were
+ seeing problems earlier.
+   Scott
+ On Wed, Oct 2, 2013 at 6:38 PM, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/6e570b12/attachment-0001.html>
+  <CAEmG1=rftq=aqLS0ykBdpPc7mHACyczziQ1F-oDy5Z3B+bx9HQ@mail.gmail.com>
+ On Oct 2, 2013 7:50 PM, "Matthew Petach" <mpetach at netflight.com> wrote:
+ Sadly for us at Comcast, that is correct.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131002/0ee1162d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+AOL MX inbound servers failing?
+###############################################################
+ Hello everyone:
+ For the last few days I've been noticing mail queuing on our mail 
+ servers with errors like this:
+ (delivery temporarily suspended: host 
+ mailin-03.mx.aol.com[205.188.190.2] refused to talk to me: 421 
+ mtain-df04.r1000.mx.aol.com Service unavailable - try again later)
+ The errors are transient, as forcing delivery tends to send them 
+ through. It's happening on many mail servers so it isn't a DNSBL problem 
+ on our end.
+ Has anyone else noticed this?
+ Thanks,
+ Joshua Boniface
+ Check out: http://postmaster.aol.com/ and see if that helps you at all. If
+ it doesn't, then drop me an email. -- Jay Moran
+ --
+ Jay Moran
+ http://tp.org/jay
+ On Fri, Oct 4, 2013 at 10:01 AM, Joshua Boniface <joshua at boniface.me> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131004/7d02ca70/attachment.html>
+ This looks like greylisting on AOL's part.  You can Google the term and
+ read lots about it; it's a fairly common anti-spam tactic, but the
+ downsides to it are quite major (my opinion from running a hosting org
+ for ~18 years).
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Fri, Oct 04, 2013 at 10:01:07AM -0400, Joshua Boniface wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Power outage maps for all 50 states plus a few provinces
+###############################################################
+ I've been maintaining this site
+ http://vielmetti.typepad.com/vacuum/2011/06/power-outage-maps.html
+ with power outage maps and links to utility company outage
+ web sites nation-wide. I thought it might be something that
+ this outages list would find of interest.
+ If there's a similar page somewhere with outage or status information
+ links and examples for internet carriers I haven't seen it all collected
+ in one place, let me know if I'm missing something.
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+ Looks great!
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Oct 4, 2013 8:14 PM, "Edward Vielmetti" <edward.vielmetti at gmail.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131004/fcce4432/attachment.html>
+ Hi -
+ On 10/04/2013 05:10 PM, Edward Vielmetti wrote:
+ ---------------------
+ Actually its been off wiki for a while now:
+ http://wiki.outages.org/index.php/Power_outage_maps
+ regards,
+ /virendra
+ Hi Edward,
+ This is very useful! Your current link for Memphis, TN (MLGW) is no
+ longer valid. Please replace it with:
+ http://azimuth.mlgw.org
+ Thanks,
+ Shaun
+ On Fri, 4 Oct 2013 20:10:43 -0400
+ Edward Vielmetti <edward.vielmetti at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.frontier.com page down over IPv6
+###############################################################
+ At first I thought it was a maintenance window, but the www.frontier.com has
+ been down over IPv6 since 11:36 pm Central.  It was down over IPv4
+ initially, too, but that's up right now (I don't monitor the v4 access)
+ nagios:/home/fbulk# wget -6 www.frontier.com
+ --2013-10-05 11:48:57--  http://www.frontier.com/
+ Resolving www.frontier.com... 2001:1960:21:1::92
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-10-05 11:48:58--  (try: 2)  http://www.frontier.com/
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-10-05 11:49:00--  (try: 3)  http://www.frontier.com/
+ Connecting to www.frontier.com|2001:1960:21:1::92|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ Frank
+###############################################################
+END
+###############################################################
+
+###############################################################
+Qwest/Centurylink outage in Chicago
+###############################################################
+ We are seeing massive packet loss on Qwest border routers in 350 Cermak.
+ Seems to be affecting both SIP and Internet reachability.
+ -Mike
+ -- 
+ Michael Vallaly <mvallaly at nolatency.com>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Rogers Canada Wide Outage
+###############################################################
+ Is there anyone from Rogers on this list that can tell us what is going on?
+ No cell or SMS service across all of Canada!
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131009/d2f422f4/attachment.html>
+ The story as the CBC wrote it:
+ http://www.cbc.ca/news/business/rogers-wireless-suffering-countrywide-outages-1.1932019
+ "An email to CBC News from a Rogers spokeswoman said the company
+ doesn't yet know when service will be restored.
+ "We don't yet have an estimate on when it will be resolved, but we're
+ working to restore service as quickly as possible," wrote Jennifer
+ Kett, senior manager of media relations."
+ On Wed, Oct 9, 2013 at 9:30 PM, Zachary McGibbon
+ <zachary.mcgibbon+outages at gmail.com> wrote:
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+  <CAPRZce24qKDSZRzXJyezPnxsV3yLBxg_DfHoC05tZnCmhhqn_w@mail.gmail.com>
+ People I know on Rogers in the Toronto area are reporting that their service is working again.  I don't have a formal survey or out-of-gta information.
+ Sent from a mobile device, please forgive brevity and/or errors.
+ -----Original Message-----
+ From: Edward Vielmetti <edward.vielmetti at gmail.com>
+ Sender: Outages <outages-bounces at outages.org>
+ Date: Wed, 9 Oct 2013 21:38:25 
+ Cc: outages at outages.org<outages at outages.org>
+ The story as the CBC wrote it:
+ http://www.cbc.ca/news/business/rogers-wireless-suffering-countrywide-outages-1.1932019
+ "An email to CBC News from a Rogers spokeswoman said the company
+ doesn't yet know when service will be restored.
+ "We don't yet have an estimate on when it will be resolved, but we're
+ working to restore service as quickly as possible," wrote Jennifer
+ Kett, senior manager of media relations."
+ On Wed, Oct 9, 2013 at 9:30 PM, Zachary McGibbon
+ <zachary.mcgibbon+outages at gmail.com> wrote:
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <CAPRZce24qKDSZRzXJyezPnxsV3yLBxg_DfHoC05tZnCmhhqn_w@mail.gmail.com>
+  <1038528166.4149777.1381369941356.JavaMail.rim@b14.c7.bise6.blackberry>
+ Calls in Ottawa area are still failing.
+ ..A
+ Sent from my iPhone
+ Please excuse brevity and/or creative spelling
+ On 2013-10-09, at 9:54 PM, "Geoffrey Welsh" <GWelsh at kinkora.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Zayo/Abovenet outage in Chicago
+###############################################################
+ We have two Zayo/Abovenet fiber links down right now in Chicago. We just talked to them, and they are aware of the issue, but don't have an ETR. Anybody here know anything, or seeing the same issue?
+ --
+ Tim Huffman
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131010/f13ffcc6/attachment.html>
+ More info: apparently, they've had a router go unresponsive.
+ --
+ Tim Huffman
+ -----------------------
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Tim Huffman
+ Sent: Thursday, October 10, 2013 3:19 PM
+ We have two Zayo/Abovenet fiber links down right now in Chicago. We just talked to them, and they are aware of the issue, but don't have an ETR. Anybody here know anything, or seeing the same issue?
+ --
+ Tim Huffman
+###############################################################
+END
+###############################################################
+
+###############################################################
+Baghdad internet access
+###############################################################
+ ----- Forwarded message from Ray Ludendorff <LudendorffR at rferl.org> -----
+ Date: Fri, 11 Oct 2013 13:16:32 +0200
+ From: Ray Ludendorff <LudendorffR at rferl.org>
+ Subject: Baghdad internet access
+ X-Mailer: Lotus Notes Release 8.5.1 September 28, 2009
+ Access to Baghdad(Iraq) via internet is not possible.  Anyone seeing the 
+ same thing ?
+ Regards
+ -Ray L.
+ ----- End forwarded message -----
+ -- 
+ Eugen* Leitl <a href="http://leitl.org">leitl</a> http://leitl.org
+ ______________________________________________________________
+ ICBM: 48.07100, 11.36820 http://ativel.com http://postbiota.org
+ AC894EC5: 38A5 5F46 A4FF 59B8 336B  47EE F46E 3489 AC89 4EC5
+ On Fri, Oct 11, 2013 at 7:27 PM, Eugen Leitl <eugen at leitl.org> wrote:
+ Renesys reports issues starting 23 hours ago:
+ http://b2b.renesys.com/eventsbulletin/2013/10/IQ-1381404630.html
+ -- 
+ Sanjeev Gupta
+ +65 98551208   http://sg.linkedin.com/in/ghane
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131011/271f8287/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+EBT systems down nationwide / Xerox ACS processing
+###############################################################
+ Here's a roundup of stories from the media; the outage affects
+ multiple states including Michigan, Ohio, Georgia, Oklahoma, and
+ others that use ACS (a division of Xerox) as their processor for EBT
+ transactions.
+ http://vielmetti.typepad.com/vacuum/2013/10/ebt-systems-down-in-multiple-states-michigan-bridge-card-not-working-.html
+ I've sent a note to the Xerox PR contact in the hopes of pinning them
+ down to whether it's a power outage, a software update, or a telecom
+ issue that is the root cause.
+ thanks
+ Ed
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast Netgear modem issues Nationwide??
+###############################################################
+ Anyone else having issues on Static IP's with the newer Netgear modems?
+ I work in a NOC for a MSP/Reseller and we currently have about 15 down
+ across the country. They didn't all go down at the same time but in
+ "chunks" like 5 went down within 4 minutes of each other.
+ National Accounts confirmed to me a known issue affecting the
+ Netgears. Has anyone else gotten further details?
+ I also did note that it doesn't seem to affect the few netgears we
+ have bridged(passing the public IP via DHCP to our router). In
+ addition on the few that i had a backup link I was not able to ping
+ the Static IP of the modem/Gateway(which is on the modem). So I am
+ wondering if its a config issue. But it does look to be only STATIC
+ customers.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Delta Airlines Down?
+###############################################################
+ Stopped responding in the middle of booking a reservation about a half
+ hour ago.
+ I'm not the only one, either.
+ http://www.downforeveryoneorjustme.com/delta.com also shows down.
+ Been getting a log of web sites simply send 'reset' this morning and a
+ lot of slow connections. Something going on in the SE U.S. in general
+ this AM?
+ THANKS!
+ JK
+ --
+  People who are willing to sacrifice liberty for temporary security
+ deserve neither liberty nor security
+    -- Ben Franklin
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131017/7203fd2a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Road Runner/Level 3 broked?
+###############################################################
+ Using road runner in Brooklyn NY.
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have
+ one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/225e8026/attachment.html>
+ I just opened a ticket with L3.
+ I've been having packet loss since 9:07AM today over my L3 circuit.
+ I am in Philly and L3's customer access router is experiencing high packet loss.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Timothy Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success
+ tglen at asicentral.com<mailto:tglen at asicentral.com>
+ tel: (215) 953-3692
+ fax: (215) 953-3759
+ Think before you print.
+   _____
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Sajal Kayan
+ Sent: Saturday, October 19, 2013 9:52 AM
+ Using road runner in Brooklyn NY.
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net<http://xe-4-2-0.edge4.frankfurt1.level3.net> )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com<http://www.citi.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com<http://www.twitter.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com<http://www.facebook.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/65205a98/attachment.html>
+ Yup
+ [mike at orion ~]$ sudo mtr --report facebook.com
+ Start: Sat Oct 19 10:25:15 2013
+ HOST: orion.lieman.net            Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 172.16.32.1                0.0%    10    0.8   0.8   0.7   1.0   0.0
+   2.|-- cable-mac1.ldvlnyae-ar400  0.0%    10   29.6  36.5  19.5  97.2  23.8
+   3.|-- gig1-19.troynydv-rtr003.a  0.0%    10   26.6  14.8  10.9  26.6   5.8
+   4.|-- rdc-74-76-243-54.alb.east  0.0%    10   11.5  13.7  11.5  23.8   3.6
+   5.|-- rdc-74-76-241-193.alb.nor  0.0%    10   21.2  25.4  20.1  35.9   5.6
+   6.|-- 107.14.19.26               0.0%    10   48.1  31.7  21.3  50.9  12.4
+   7.|-- 107.14.17.169              0.0%    10   21.3  26.0  20.0  65.7  14.1
+   8.|-- ae9.edge3.Newark1.Level3.  0.0%    10   47.4  30.4  20.2  47.4  10.6
+   9.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/daf654ca/attachment.html>
+ I can confirm the same from our datacenter in NY. Tracepath goes in a loop?
+ From: Tim Glen <tglen at asicentral.com<mailto:tglen at asicentral.com>>
+ Date: Saturday, October 19, 2013 6:59 AM
+ I just opened a ticket with L3.
+ I've been having packet loss since 9:07AM today over my L3 circuit.
+ I am in Philly and L3's customer access router is experiencing high packet loss.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Timothy Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success
+ tglen at asicentral.com<mailto:tglen at asicentral.com>
+ tel: (215) 953-3692
+ fax: (215) 953-3759
+ Think before you print.
+ ________________________________
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Sajal Kayan
+ Sent: Saturday, October 19, 2013 9:52 AM
+ Using road runner in Brooklyn NY.
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net<http://xe-4-2-0.edge4.frankfurt1.level3.net> )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com<http://www.citi.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com<http://www.twitter.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com<http://www.facebook.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/7cf05d84/attachment-0001.html>
+  <CE87DF28.E9312%darren@2600hz.com>
+ Same here. Our White Plains NY POP starting having issues at about 9:05am.
+ Had to shut down circuit. Ticket has been opened with Level3.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Darren
+ Schreiber
+ Sent: Saturday, October 19, 2013 10:04 AM
+ I can confirm the same from our datacenter in NY. Tracepath goes in a loop.
+ From: Tim Glen <tglen at asicentral.com <mailto:tglen at asicentral.com> >
+ Date: Saturday, October 19, 2013 6:59 AM
+ Mailing List <Outages at outages.org <mailto:Outages at outages.org> >
+ I just opened a ticket with L3.  
+ I've been having packet loss since 9:07AM today over my L3 circuit. 
+ I am in Philly and L3's customer access router is experiencing high packet
+ loss.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+ Timothy Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success
+ tglen at asicentral.com <mailto:tglen at asicentral.com> 
+ tel: (215) 953-3692
+ fax: (215) 953-3759
+ Think before you print.
+   _____  
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Sajal Kayan
+ Sent: Saturday, October 19, 2013 9:52 AM
+ Using road runner in Brooklyn NY. 
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have
+ one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net
+ <http://xe-4-2-0.edge4.frankfurt1.level3.net>  )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com <http://www.citi.com> 
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$ 
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com <http://www.twitter.com> 
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$ 
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com
+ <http://www.facebook.com> 
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$ 
+ -Sajal 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/8f063b9d/attachment.html>
+  <CE87DF28.E9312%darren@2600hz.com>
+ Same issue seen from Cablevision's network this morning. Traceroutes seem to die after reaching edge2.newark1.level3.net for me.
+ This is to www.level3.net:
+   3    19 ms     9 ms    10 ms  67.59.240.101
+   4    12 ms    10 ms    10 ms  rtr1-ge6-1.mhe.prnynj.cv.net [67.83.249.129]
+   5    17 ms    18 ms    12 ms  65.19.119.209
+   6     *        *        *     Request timed out.
+   7    26 ms    11 ms    18 ms  xe-11-3-2.edge2.Newark1.Level3.net [4.28.5.117]
+   8     *        *        *     Request timed out.
+   9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ I was seeing similar things going through Cogent, but I suspect it's asymmetrical routing with the return traffic coming in via Level 3.
+ -Vinny
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Darren Schreiber
+ Sent: Saturday, October 19, 2013 10:04 AM
+ I can confirm the same from our datacenter in NY. Tracepath goes in a loop...
+ From: Tim Glen <tglen at asicentral.com<mailto:tglen at asicentral.com>>
+ Date: Saturday, October 19, 2013 6:59 AM
+ I just opened a ticket with L3.
+ I've been having packet loss since 9:07AM today over my L3 circuit.
+ I am in Philly and L3's customer access router is experiencing high packet loss.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Timothy Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success
+ tglen at asicentral.com<mailto:tglen at asicentral.com>
+ tel: (215) 953-3692
+ fax: (215) 953-3759
+ Think before you print.
+ ________________________________
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Sajal Kayan
+ Sent: Saturday, October 19, 2013 9:52 AM
+ Subject: [outages] Road Runner/Level 3 broked? Using road runner in Brooklyn NY.
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net<http://xe-4-2-0.edge4.frankfurt1.level3.net> )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com<http://www.citi.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com<http://www.twitter.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com<http://www.facebook.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/aff69d17/attachment-0001.html>
+  <CE87DF28.E9312%darren@2600hz.com>
+  <FD9B2CB2B33E394FAE3B7466954760571D649432@DFWX10HMPTC01.AMER.DELL.COM>
+ Newark, huh?
+ C'mon guys, we know you're crazily celebrating being the most recent state
+ in the union to have marriage equality, but get it together, okay?
+ On Sat, Oct 19, 2013 at 10:31 AM, <Vinny_Abello at dell.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/28c6a885/attachment-0001.html>
+ Level3 just called me back for the ticket I filed. Tech was very knowledgable. Is aware of the issue (obviously) and has attached my ticket to the master event ticket so that I can see realtime updates.
+ Appears the ETA is within the next 2 hours.
+ From: Darren Schreiber <darren at 2600hz.com<mailto:darren at 2600hz.com>>
+ Date: Saturday, October 19, 2013 7:03 AM
+ I can confirm the same from our datacenter in NY. Tracepath goes in a loop?
+ From: Tim Glen <tglen at asicentral.com<mailto:tglen at asicentral.com>>
+ Date: Saturday, October 19, 2013 6:59 AM
+ I just opened a ticket with L3.
+ I've been having packet loss since 9:07AM today over my L3 circuit.
+ I am in Philly and L3's customer access router is experiencing high packet loss.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Timothy Glen
+ Sr. Network Engineer
+ Advertising Specialty Institute | Promoting Success
+ tglen at asicentral.com<mailto:tglen at asicentral.com>
+ tel: (215) 953-3692
+ fax: (215) 953-3759
+ Think before you print.
+ ________________________________
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Sajal Kayan
+ Sent: Saturday, October 19, 2013 9:52 AM
+ Using road runner in Brooklyn NY.
+ Cant access certain sites ( Facebook, twitter, citibank) . All of them have one thing in common, they go thru level3.
+ (FYI full name of hop 7 is xe-4-2-0.edge4.frankfurt1.level3.net<http://xe-4-2-0.edge4.frankfurt1.level3.net> )
+ sajal at sajal-laptop:~$ mtr --report www.citi.com<http://www.citi.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2 110.3   1.0 603.9 230.5
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10   37.9 207.9  17.0 1418. 444.2
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10    9.8  93.3   9.4 471.9 170.3
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10   12.6  78.3  10.1 402.2 142.2
+   5.|-- 107.14.19.22               0.0%    10   13.8  64.6  11.5 331.0 112.6
+   6.|-- ae-0-0.pr0.nyc30.tbone.rr  0.0%    10   13.8  50.9  11.4 257.6  82.3
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10   13.4  35.0   9.1 186.5  55.8
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.twitter.com<http://www.twitter.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    1.2   2.9   1.0   9.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  151.6 184.3  75.8 529.8 137.6
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  252.6 160.8  64.7 299.7  87.2
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  243.5 166.4  64.1 345.8  88.3
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  246.7 189.2  88.6 309.1  75.7
+   6.|-- 107.14.17.169              0.0%    10  256.6 175.3 102.6 256.6  60.5
+   7.|-- xe-4-2-0.edge4.frankfurt1  0.0%    10  258.6 179.6  95.4 302.2  69.1
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ sajal at sajal-laptop:~$ mtr --report www.facebook.com<http://www.facebook.com>
+ HOST: sajal-laptop                Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 192.168.1.1                0.0%    10    4.0   3.1   1.1   8.5   2.8
+   2.|-- cpe-24-90-104-1.nyc.res.r  0.0%    10  225.9 163.7  97.8 252.8  57.0
+   3.|-- tge-0-0-0-1.nycmnyr-rtr2.  0.0%    10  298.0 168.6  69.3 298.0  79.0
+   4.|-- agg23.nyquny9101r.nyc.rr.  0.0%    10  292.5 155.0  90.8 292.5  71.0
+   5.|-- ae-3-0.cr0.nyc20.tbone.rr  0.0%    10  239.0 148.6  68.5 248.6  63.2
+   6.|-- 107.14.17.169              0.0%    10  268.1 148.7  73.0 268.1  64.9
+   7.|-- xe-4-2-0.edge4.frankfurt1 10.0%    10  235.1 130.2  66.2 235.1  49.2
+   8.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ sajal at sajal-laptop:~$
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131019/a0df178f/attachment.html>
+ The latest from about 4AM.
+ *** CASCADED EXTERNAL NOTES 20-Oct-2013 07:47:55 GMT From CASE: 7126134 - Event The Transport NOC has reported network alarms have cleared. This was a permanent restoration. If additional issues are experienced, please contact the Level 3 Technical Service Center at 1-877-4LEVEL3.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Mitch
+ Sent: Sunday, October 20, 2013 1:32 AM
+ Cc: OUTAGES Mailing List
+ Latest
+ *** CASCADED EXTERNAL NOTES 20-Oct-2013 05:15:03 GMT From CASE: 7126134 - Event The Transport NOC, the field technician, and Tier III Technical Support have confirmed the circuit pack has been successfully installed and have begun the demand maintenance to restore customers to their original path.
+ On Sat, Oct 19, 2013 at 11:54 PM, Mitch <mitpatterson at gmail.com> wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <917AFB98BCD62243A1A668A9C645E1CF0BED5AF1EE@ASI-MBX-02.asinetwork.local>
+ Thank you very much, very helpful! 
+ We have reactivated our L3 circuit, and are seeing nice clean traffic &
+ routing.
+ Thanks for all the info. 
+ -----Original Message-----
+ From: Tim Glen [mailto:tglen at asicentral.com] 
+ Sent: Sunday, October 20, 2013 9:45 AM
+ Cc: OUTAGES Mailing List
+ The latest from about 4AM.
+ *** CASCADED EXTERNAL NOTES 20-Oct-2013 07:47:55 GMT From CASE: 7126134 -
+ Event The Transport NOC has reported network alarms have cleared. This was a
+ permanent restoration. If additional issues are experienced, please contact
+ the Level 3 Technical Service Center at 1-877-4LEVEL3.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Mitch
+ Sent: Sunday, October 20, 2013 1:32 AM
+ Cc: OUTAGES Mailing List
+ Latest
+ *** CASCADED EXTERNAL NOTES 20-Oct-2013 05:15:03 GMT From CASE: 7126134 -
+ Event The Transport NOC, the field technician, and Tier III Technical
+ Support have confirmed the circuit pack has been successfully installed and
+ have begun the demand maintenance to restore customers to their original
+ path.
+ On Sat, Oct 19, 2013 at 11:54 PM, Mitch <mitpatterson at gmail.com> wrote:
+ wrote:
+ will be reverted to the original route.
+ become available.
+ StDev
+ 230.5
+ 444.2
+ 170.3
+ 142.2
+ 112.6
+ 82.3
+ 55.8
+ 0.0
+ www.twitter.com<http://www.twitter.com>
+ StDev
+ 2.8
+ 137.6
+ 87.2
+ 88.3
+ 75.7
+ 60.5
+ 69.1
+ 0.0
+ www.facebook.com<http://www.facebook.com>
+ StDev
+ 2.8
+ 57.0
+ 79.0
+ 71.0
+ 63.2
+ 64.9
+ 49.2
+ 0.0
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Canadian outage update
+###############################################################
+ ----- Forwarded Message -----
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Facebook readonly
+###############################################################
+ As of approximately 8 a.m. Eastern Daylight Time Monday, Facebook appears to have gone into read only mode for somewhere between most and all users, per Mashable and other news sources via Twitter.
+ Status postings and comments are ignored from the web client, from the Android client, and from third-party Android apps, at least.
+ More as this story develops.
+ - jra
+ -- 
+ Sent from my Android phone with K-9 Mail. Please excuse my brevity.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131021/951a5edb/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon outage for most of New England
+###############################################################
+ <http://downdetector.com/status/verizon-communications/map>
+ On the day of the Apple Keynote. Awesome!
+ Anyone have any more info?
+ -- 
+ TTFN,
+ patrick
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 495 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/50aefc5f/attachment.sig>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Network Solutions NSXX.WORLDNIC.COM DNS servers slow or don't respond
+###############################################################
+ Good afternoon Outages,
+ Anyone else seeing massive DNS issues this morning, particularly with
+ Network Solutions' "hosted zone" servers?
+ langsam:~# whois carywiedemann.com | grep "Domain servers" -A 3
+    Domain servers in listed order:
+    NS43.WORLDNIC.COM            205.178.190.22
+    NS44.WORLDNIC.COM            206.188.198.22
+ langsam:~# host carywiedemann.com 206.188.198.22
+ ;; connection timed out; no servers could be reached
+ Seems to be affecting far more than just my personal domain:
+ langsam:~# whois blueridgenetworks.com | grep -A 3 "Domain servers"
+    Domain servers in listed order:
+    NS23.WORLDNIC.COM            205.178.190.12
+    NS24.WORLDNIC.COM            206.188.198.12
+ langsam:~# host blueridgenetworks.com 206.188.198.12
+ ;; connection timed out; no servers could be reached
+ langsam:~# whois blueridge.com | grep -A 3 "Domain servers"
+    Domain servers in listed order:
+    NS33.WORLDNIC.COM            205.178.190.17
+    NS34.WORLDNIC.COM            206.188.198.17
+ langsam:~# host blueridge.com 206.188.198.17
+ ;; connection timed out; no servers could be reached
+ I don't believe any of these NSXX.WORLDNIC.COM servers are anycasted...  is
+ anyone else having trouble?
+ Not a peep out of their Twitter feed.
+ Thanks everyone.
+ - Cary Wiedemann
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/a9370011/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Possible DNS issues at Networksolutions aka WORLDNIC.COM?
+###############################################################
+ X-post from NANOG, but seems relevant to outages at .
+ At least two people have confirmed the problem.
+ -- 
+ TTFN,
+ patrick
+ Begin forwarded message:
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 495 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/2a3bcffb/attachment.sig>
+ Cary,
+ confirmed.  I have several clients that are 'still' using the native Netsol
+ DNS and they are all down now.  I am not seeing anything from any social
+ feeds with any updates from NetSol, but I have not had much luck with them
+ during events like this either.  It would be nice if they could be
+ responsible enough to even put a blurb out on the social feeds so guys like
+ us are not left "wondering" about the magnitude of the outage.
+ Here is to DNS migrations next week!!
+  *Sean E. Smith*
+  Director of Network Operations at Simpleview
+ T 520.575.1151 x131
+ www.simpleviewinc.com
+ On Tue, Oct 22, 2013 at 10:05 AM, Cary Wiedemann <carywiedemann at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/7103bacf/attachment.html>
+ The few I checked worked, just took a few seconds to respond.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Cary
+ Wiedemann
+ Sent: Tuesday, October 22, 2013 12:06 PM
+ Subject: [outages] Network Solutions NSXX.WORLDNIC.COM DNS servers slow or don't respond
+ Good afternoon Outages,
+ Anyone else seeing massive DNS issues this morning, particularly with
+ Network Solutions' "hosted zone" servers?
+ langsam:~# whois carywiedemann.com <http://carywiedemann.com>  | grep
+ "Domain servers" -A 3
+    Domain servers in listed order:
+    NS43.WORLDNIC.COM <http://NS43.WORLDNIC.COM>             205.178.190.22
+    NS44.WORLDNIC.COM <http://NS44.WORLDNIC.COM>             206.188.198.22
+ langsam:~# host carywiedemann.com <http://carywiedemann.com>  206.188.198.22
+ ;; connection timed out; no servers could be reached
+ Seems to be affecting far more than just my personal domain:
+ langsam:~# whois blueridgenetworks.com <http://blueridgenetworks.com>  |
+ grep -A 3 "Domain servers"
+    Domain servers in listed order:
+    NS23.WORLDNIC.COM <http://NS23.WORLDNIC.COM>             205.178.190.12
+    NS24.WORLDNIC.COM <http://NS24.WORLDNIC.COM>             206.188.198.12
+ langsam:~# host blueridgenetworks.com <http://blueridgenetworks.com>
+ 206.188.198.12
+ ;; connection timed out; no servers could be reached
+ langsam:~# whois blueridge.com <http://blueridge.com>  | grep -A 3 "Domain
+ servers"
+    Domain servers in listed order:
+    NS33.WORLDNIC.COM <http://NS33.WORLDNIC.COM>             205.178.190.17
+    NS34.WORLDNIC.COM <http://NS34.WORLDNIC.COM>             206.188.198.17
+ langsam:~# host blueridge.com <http://blueridge.com>  206.188.198.17
+ ;; connection timed out; no servers could be reached
+ I don't believe any of these NSXX.WORLDNIC.COM <http://NSXX.WORLDNIC.COM>
+ servers are anycasted...  is anyone else having trouble?
+ Not a peep out of their Twitter feed.
+ Thanks everyone.
+ - Cary Wiedemann
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/73b4c0c5/attachment-0001.html>
+ We saw a bunch of our URL monitoring fail for lack of response to queries, all zones were hosted on the WorldNic/NetSol servers.
+ Thank you,
+ Nathan Montemayor
+ CDW
+ 5520 Research Park Drive
+ Madison, WI  53711
+ 608-298-1285 (direct)
+ 608-298-1102 / 866-202-1807 (NOC)
+ nathan.montemayor at cdw.com
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Cary Wiedemann
+ Sent: Tuesday, October 22, 2013 12:06 PM
+ Good afternoon Outages,
+ Anyone else seeing massive DNS issues this morning, particularly with Network Solutions' "hosted zone" servers?
+ langsam:~# whois carywiedemann.com<http://carywiedemann.com> | grep "Domain servers" -A 3
+    Domain servers in listed order:
+    NS43.WORLDNIC.COM<http://NS43.WORLDNIC.COM>            205.178.190.22
+    NS44.WORLDNIC.COM<http://NS44.WORLDNIC.COM>            206.188.198.22
+ langsam:~# host carywiedemann.com<http://carywiedemann.com> 206.188.198.22
+ ;; connection timed out; no servers could be reached
+ Seems to be affecting far more than just my personal domain:
+ langsam:~# whois blueridgenetworks.com<http://blueridgenetworks.com> | grep -A 3 "Domain servers"
+    Domain servers in listed order:
+    NS23.WORLDNIC.COM<http://NS23.WORLDNIC.COM>            205.178.190.12
+    NS24.WORLDNIC.COM<http://NS24.WORLDNIC.COM>            206.188.198.12
+ langsam:~# host blueridgenetworks.com<http://blueridgenetworks.com> 206.188.198.12
+ ;; connection timed out; no servers could be reached
+ langsam:~# whois blueridge.com<http://blueridge.com> | grep -A 3 "Domain servers"
+    Domain servers in listed order:
+    NS33.WORLDNIC.COM<http://NS33.WORLDNIC.COM>            205.178.190.17
+    NS34.WORLDNIC.COM<http://NS34.WORLDNIC.COM>            206.188.198.17
+ langsam:~# host blueridge.com<http://blueridge.com> 206.188.198.17
+ ;; connection timed out; no servers could be reached
+ I don't believe any of these NSXX.WORLDNIC.COM<http://NSXX.WORLDNIC.COM> servers are anycasted...  is anyone else having trouble?
+ Not a peep out of their Twitter feed.
+ Thanks everyone.
+ - Cary Wiedemann
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/d5043640/attachment.html>
+ Yes, we've noticed the same problems.
+ ______________________________________________________________
+ Clayton Dukes
+ ______________________________________________________________
+ On Tue, Oct 22, 2013 at 1:05 PM, Cary Wiedemann <carywiedemann at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/95fb0032/attachment.html>
+  <CAF7YRXd_PDQBDuxhsG9VMeGnyTZxr-w-hLvx3RzRLK_eSYECMw@mail.gmail.com>
+ On 10/22/2013 10:25 AM, Sean Smith wrote:
+ https://twitter.com/netsolcares/status/392699564895248384
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/61a2838c/attachment.html>
+  <CAF7YRXd_PDQBDuxhsG9VMeGnyTZxr-w-hLvx3RzRLK_eSYECMw@mail.gmail.com>
+  <5266BC78.4060807@garlic.com>
+ Robert,
+ I finally found the twitter info right after I hit send.  Of couse the time
+ stamp on what I found was minutes old and My team had been addressing this
+ with our clients for over an hour at that point.  Thanks for the serving of
+ crow, I shall consume it humbly.
+  *Sean E. Smith*
+  Director of Network Operations at Simpleview
+ T 520.575.1151 x131
+ www.simpleviewinc.com
+ On Tue, Oct 22, 2013 at 10:57 AM, Robert Glover <robertg at garlic.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/778c878b/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Reports of Network Solutions name service downtime
+###############################################################
+ Via @typepad on Twitter:
+ "Looks like Network Solutions is having some issues, folks, so if your
+ domain is registered there, you may notice some issues with loading."
+ Getting through to them might be hard, per @arcstv:
+ "@donavenSWP: @netsolcares All Network Solutions listed phone numbers
+ busy. Thousands of sites down. Nice that their site is up. Frack!"
+ I don't have more details.
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+###############################################################
+END
+###############################################################
+
+###############################################################
+Network Solutions DNS issues?
+###############################################################
+ Anyone seeing issues with network solutions? Their site appears to be down and name resolution either doesn't work or is reporting incorrect addresses.
+ http://www.downforeveryoneorjustme.com/networksolutions.com
+ Thomas "TJ" Murphy
+ Senior Systems Engineer
+ 360IT PARTNERS
+ 757.499.6761
+ 757.499.1571 Fax
+ 855.360IT.01 Toll Free
+ thomas at 360itpartners.com<mailto:thomas at 360itpartners.com>
+ [Description: Description: Description: 360IT][http://ita-portal.cis.fiu.edu/docs/KCA-Logo.png][sboy_logoRGB][News]
+ Please note: All support requests not related to this correspondence should be sent to support at 360itpartners.com<mailto:support at 360itpartners.com>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/9d113e5f/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 3745 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/9d113e5f/attachment-0002.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.png
+ Type: image/png
+ Size: 6710 bytes
+ Desc: image002.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/9d113e5f/attachment-0002.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.jpg
+ Type: image/jpeg
+ Size: 1587 bytes
+ Desc: image003.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/9d113e5f/attachment-0003.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.png
+ Type: image/png
+ Size: 9432 bytes
+ Desc: image004.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131022/9d113e5f/attachment-0003.png>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Adobe Creative Cloud down
+###############################################################
+ http://status.creativecloud.com/
+ Their @creativecloud twitter account is still posting normally like nothing is wrong, but they do have a notice on their help site that says:
+ ---
+ Customers are currently unable to sync fonts or access their files online in Creative Cloud. We're working to restore service as soon as possible.
+ ---
+ It?s been down for at least 45 minutes now. Beyond what the above message says, you also can?t download or update anything you have a subscription for.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Grasshopper is down
+###############################################################
+ Grasshopper, the virtual PBX solution, is experiencing an outage.  Updates posted here: https://support.grasshopper.com/home
+ Thanks,
+ Seth
+ [cid:imagefb0a22.GIF at 867788d9.419ed594]
+ Seth Garrepy | Support Specialist
+ Office: 860-454-7700 | www.radcomputing.com<http://www.radcomputing.com><http://www.radcomputing.com>
+ Contact Support: support at radcomputing.com<mailto:support at radcomputing.com?subject=Support%20Question>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131023/b8585373/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: imagefb0a22.GIF
+ Type: image/gif
+ Size: 5119 bytes
+ Desc: imagefb0a22.GIF
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131023/b8585373/attachment.gif>
+ Massive Bandwidth.com issues.   Now resolved it appears.
+ They lost their LA gateway and, IMO, their east coast couldn?t handle the extra load and became very unstable.  Total duration was about 50 minutes.
+ ____________________________________________
+ [cid:600730EC-01FA-449C-857E-38E09FD95717]
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ From: Tim Jackson <jackson.tim at gmail.com<mailto:jackson.tim at gmail.com>>
+ Date: Wednesday, October 23, 2013 3:41 PM
+ Cc: "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+ Probably due to bandwidth.com<http://bandwidth.com> inbound issues..
+ On Wed, Oct 23, 2013 at 12:29 PM, Seth Garrepy <sgarrepy at radcomputing.com<mailto:sgarrepy at radcomputing.com>> wrote:
+ Grasshopper, the virtual PBX solution, is experiencing an outage.  Updates posted here: https://support.grasshopper.com/home
+ Thanks,
+ Seth
+ Seth Garrepy
+ | Support Specialist
+ Office: 860-454-7700<tel:860-454-7700> | www.radcomputing.com<http://www.radcomputing.com><http://www.radcomputing.com>
+ Contact Support: support at radcomputing.com<mailto:support at radcomputing.com?subject=Support%20Question>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131023/a376ee1d/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[2].png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[2].png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131023/a376ee1d/attachment-0001.png>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google servers down for Android
+###############################################################
+ http://forums.androidcentral.com/google-nexus-4/326749-google-servers-down.html
+ Found this after my own device started displaying the message... Anyone
+ have any info?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131024/847a4369/attachment.html>
+ Sign in error for my VZW Droid Mini. Google Voice is queuing text messages (unsure about voice calls) and Hangouts is continually trying to send the message.
+ Nothing showing on google's apps status dashboard.
+ Nick Tinen
+ Network Engineer
+ Time Warner Cable
+ 483 Plaza Drive
+ Vestal, NY 13850
+ 607-422-0584
+ ----- Original Message -----
+ From: David Thomas [mailto:david at digitaldogma.org]
+ Sent: Thursday, October 24, 2013 05:55 PM
+ Josh Luthman <josh at imaginenetworksllc.com> wrote:
+ >Droid Maxx on VZW
+ >Google Now works
+ >Voice commands work (and their searches)
+ >Gmail works
+ >Chrome bookmarks updated
+ >What exactly isn't working?  What errors are you seeing on what
+ >application?
+ Nexus 4 on T-Mobile.
+ Google voice doesn't seem to work and I get the "please try again later" message when trying to login to my Google account on the device.
+ --
+ DavidT
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ This E-mail and any of its attachments may contain Time Warner Cable proprietary information, which is privileged, confidential, or subject to copyright belonging to Time Warner Cable. This E-mail is intended solely for the use of the individual or entity to which it is addressed. If you are not the intended recipient of this E-mail, you are hereby notified that any dissemination, distribution, copying, or action taken in relation to the contents of and attachments to this E-mail is strictly prohibited and may be unlawful. If you have received this E-mail in error, please notify the sender immediately and permanently delete the original and any copy of this E-mail and any printout.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Issue with Time Warner Cable and akamai in Chicago
+###############################################################
+ Started about 10 minutes ago.  Confirmed with tech support.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131025/46284c3a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Daily packet loss/routing issue (Layer42/Verizon/Deutsche Telekom/Comcast)
+###############################################################
+ Here's another one of these incredibly annoying situations that baffles
+ me (and of course figuring out who's responsible is not something I have
+ the power to do).
+ Been watching this one happen every day, usually between the hours of
+ 1700 and 2000 PDT (UTC-0700).  Packet loss and latency lasts anywhere
+ between 30 to 75 minutes.  From today around 1915:
+ src IP: 204.8.213.80
+ dst IP: 76.102.14.35
+  Host                                           Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. ---                                          0.0%   161   21.5   1.4   0.3  59.3   6.0
+  2. ---                                          0.0%   160    0.4   1.2   0.3  41.4   4.6
+  3. ---                                          0.0%   160    0.3   2.2   0.2  44.5   6.5
+  4. ---                                          0.0%   160    1.5   3.3   1.2  47.2   6.7
+  5. xe0-1-0-1.core1.sv8.layer42.net              0.0%   160    2.2   2.1   1.9   2.4   0.1
+  6. 193.159.165.73                               0.0%   160    4.9   4.1   1.9   8.1   1.3
+  7. 80.156.163.154                              24.5%   160  1000. 933.0   6.3 1738. 624.0
+  8. pos-1-12-0-0-cr01.sanjose.ca.ibone.comcast  27.7%   160  987.5 932.7   7.2 1706. 647.7
+  9. he-0-6-0-0-ar01.sfsutro.ca.sfba.comcast.ne  26.4%   160  981.4 917.1   7.2 1719. 642.9
+ 10. te-0-4-0-10-ur05.santaclara.ca.sfba.comcas  30.8%   160  980.0 895.1   9.0 1710. 636.9
+ 11. te-6-0-acr03.santaclara.ca.sfba.comcast.ne  17.0%   160  967.3 614.0   6.9 1224. 518.1
+ 12. c-76-102-14-35.hsd1.ca.comcast.net          18.9%   160  970.2 609.1  16.2 1229. 517.8
+ src IP: 76.102.14.35
+ dst IP: 204.8.213.80
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%   563   563   0.3   0.2   0.2   1.9
+  2. 76.102.12.1                                  0.0%   563   563   8.4   8.8   7.9  22.8
+  3. te-0-2-0-5-ur06.santaclara.ca.sfba.comcast.  0.0%   563   563   8.7   8.9   8.1  23.1
+  4. te-1-1-0-9-ar01.oakland.ca.sfba.comcast.net  0.0%   563   563  13.5  12.4   9.7  30.2
+  5. be-90-ar01.sfsutro.ca.sfba.comcast.net       0.0%   563   563  12.5  13.7  11.1  41.5
+  6. he-3-8-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%   563   563  13.2  15.0  12.5  25.0
+  7. be-14-pe02.11greatoaks.ca.ibone.comcast.net  0.0%   562   562  16.5  16.5  15.6  43.1
+  8. 23-30-206-94-static.hfc.comcastbusiness.net  0.0%   562   562  16.4  22.5  15.6  40.2
+  9. 0.xe-2-0-8.XL3.SJC7.ALTER.NET                0.7%   562   558  20.3  29.6  15.3 124.7
+ 10. 0.so-4-0-0.XL1.SJC1.ALTER.NET                1.1%   562   556  26.6  22.9  16.8 174.2
+     0.so-7-0-0.XL1.SJC1.ALTER.NET
+ 11. POS1-0.XR1.SJC1.ALTER.NET                   23.0%   562   432 196.6 150.0  17.8 459.6
+ 12. 193.ATM7-0.GW4.SJC1.ALTER.NET               24.6%   562   424 1133. 669.3  17.9 1835.
+ 13. ???
+ What interests me: hops #6 and #7 shown in the first mtr:
+ 193.159.165.73 = AS3320 = Deutsche Telekom AG
+ 80.156.163.154 = AS3320 = Deutsche Telekom AG
+ Using Layer42's own looking glass long after the issue was over:
+ lg-west>show ip bgp 76.102.14.35
+ BGP routing table entry for 76.96.0.0/11, version 4070745
+ Paths: (1 available, best #1, table default)
+   Not advertised to any peer
+   Refresh Epoch 1
+   8121 3320 7922
+     69.36.239.8 from 69.36.239.8 (69.36.239.8)
+       Origin IGP, metric 301, localpref 100, valid, external, best
+       rx pathid: 0, tx pathid: 0x0
+ lg-west>traceroute 76.102.14.35
+ Type escape sequence to abort.
+ Tracing the route to c-76-102-14-35.hsd1.ca.comcast.net (76.102.14.35)
+ VRF info: (vrf in name/id, vrf out name/id)
+   1 69.36.229.177 [AS 8121] 1 msec 1 msec 1 msec
+   2 xe0-0-0-4.core1.sv8.layer42.net (65.50.198.161) [AS 8121] 3 msec 2 msec 2 msec
+   3 193.159.165.73 [AS 3320] 4 msec 2 msec 3 msec
+   4 80.156.163.154 [AS 3320] 4 msec 5 msec 3 msec
+   5 pos-1-12-0-0-cr01.sanjose.ca.ibone.comcast.net (68.86.87.141) [AS 7922] 7 msec 6 msec 4 msec
+   6 he-0-5-0-0-ar01.sfsutro.ca.sfba.comcast.net (68.86.91.46) [AS 7922] 6 msec 5 msec 8 msec
+   7 te-0-4-0-6-ur05.santaclara.ca.sfba.comcast.net (69.139.198.169) [AS 7922] 5 msec 6 msec 7 msec
+   8 te-6-0-acr03.santaclara.ca.sfba.comcast.net (68.86.249.66) [AS 7922] 5 msec 6 msec 5 msec
+   9 c-76-102-14-35.hsd1.ca.comcast.net (76.102.14.35) [AS 7922] 14 msec 18 msec 14 msec
+ Two final things to note:
+ 1. When the packet loss/latency issue is not occurring (e.g. presently),
+ the paths are still the same.  If packets were actually going from
+ Sunnyvale (Layer42) to Germany I'd expect a lot higher than 4ms-7ms
+ latency consistently,
+ 2. The source/destination of 204.8.213.80 is a box at my place of work;
+ border of network intentionally filters.  We do peer with Layer42
+ directly, but I have not pursued this with them yet (as said initially,
+ it's hard for me to accurately point fingers).
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+DNS timeouts for *some* zones from Sprint 4G/LTE
+###############################################################
+ I'm seeing, tonight, the inability to resolve DNS lookups for *some* domains,
+ from my Sprint 4G phone.  FB and Twitter are fine, and Currents can get to 
+ Android Central, frex, but panther.baylink.com, where my weather page resides,
+ won't resolve, as won't tapemonster.com, www. and en.wikipedia.org, and a
+ few others.
+ There seems no particular rhyme or reason to it.
+ Perhaps those zone servers are more than 600mi away?  :-)
+ (I have logged into one of my Linux boxen, *through* the 4G connection,
+ and did dig+trace from there; panther.baylink.com resolves just fine that
+ way.  And, for the record, the 4G link lets me ping panther by IP just fine; 
+ this appears to be solely DNS, and not all of it.)
+ Started around 1800EDTish, I think.
+ Anyone else seeing anything like this?
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+111 8th power issues last night
+###############################################################
+ A little late notice...
+ Looks like there was a power outage in BT's NYC 111 8th DC around 10PM EST last night. Story to-date is procedures weren't followed during an IR scan maintenance window.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages with google?
+###############################################################
+ Anyone experiencing outages with google? Gmail and google are not responding in my end
+ v/r,
+ Maynard Azurin
+ ? office: (301)-981-9516
+ ? cell: (301)-318-7870
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T UVerse down
+###############################################################
+ Multiple reports from Twitter that AT&T's UVerse is down in multiple
+ cities. I am away from home working so I can't confirm (I have UVerse at
+ home).
+ The Chicago Tribune has a "breaking news" story:
+ http://www.chicagotribune.com/business/breaking/chi-att-uverse-service-outage-20131029,0,5006084.story
+ By Wailin WongTribune reporter
+ 11:05 a.m. CDT, October 29, 2013
+ AT&T is working to fix a U-Verse service outage in the Chicago area after a
+ ?software upgrade issue,? the company said Tuesday.
+ ?A limited number of U-verse customers may be experiencing issues with
+ U-verse services due to a software upgrade issue,? AT&T said in a
+ statement. ?Technicians have resolved the issue, and service has been
+ restored for most impacted customers. We expect service to be fully
+ restored for all customers by early afternoon. We apologize for this
+ inconvenience.?
+ What's being reported via Twitter:
+    1. *A. Frankensteinbaugh*
+ ?@adamsteinbaugh<https://twitter.com/adamsteinbaugh>
+    1m <https://twitter.com/adamsteinbaugh/status/395242190072320000>
+    Cool. AT&T's *Uverse* is *down*. And apparently it's *down* everywhere.
+    So the ratio of AOL users is higher than normal. Good luck, Twitter.
+    Expand <https://twitter.com/adamsteinbaugh/status/395242190072320000>
+    2. *Philo Horrorhagen* ?@philohagen
+ <https://twitter.com/philohagen>11m<https://twitter.com/philohagen/status/395239723205029889>
+    @*Uverse* <https://twitter.com/Uverse> the internet is still *down* 10
+    hours later and none of my numerous phone calls and hours on hold have
+    resulted in talking to anyone.
+    **  View conversation<https://twitter.com/philohagen/status/395239723205029889>
+    3. *Nic Birdsall* ?@nbirdsall
+ <https://twitter.com/nbirdsall>37m<https://twitter.com/nbirdsall/status/395233099962785792>
+    *Uverse* is still *down* in LA. Coming up on 12 hours now. And I
+    probably still won't get the speed I pay for.
+    Expand <https://twitter.com/nbirdsall/status/395233099962785792>
+    4. *CUB Illinois* ?@cubillinois
+ <https://twitter.com/cubillinois>40m<https://twitter.com/cubillinois/status/395232521044385792>
+    #ATT <https://twitter.com/search?q=%23ATT&src=hash>
+ #*UVerse*<https://twitter.com/search?q=%23UVerse&src=hash>phone and
+ Internet service
+    *down* for some
+ #Chicago<https://twitter.com/search?q=%23Chicago&src=hash>area
+ customers
+    http://ow.ly/qi4o9  <http://t.co/KHX8bAmOhp>
+    ** View summary<https://twitter.com/cubillinois/status/395232521044385792>
+    5.  *Bonnie Kourvelas* ?@producerbonnie<https://twitter.com/producerbonnie>
+    46m <https://twitter.com/producerbonnie/status/395230935550922752>
+    #*uverse* <https://twitter.com/search?q=%23uverse&src=hash> is *down* in
+    #memphis <https://twitter.com/search?q=%23memphis&src=hash> too. A
+    nationwide outage caused by "rebooting servers"? How about putting a
+    bulletin on your websites, folks?
+    Expand <https://twitter.com/producerbonnie/status/395230935550922752>
+ thanks
+ Ed
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131029/073020ec/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+SIP problems in So Cal
+###############################################################
+ Seeing 503 service unavailable and/or 20-second PDD on Bandwidth.com and
+ Intelepeer.  Anyone else?
+ -- 
+ --
+ Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+ Impulse Internet Service  -  http://www.impulse.net/
+ Your local telephone and internet company - 805 884-6323 - WB6RDV
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream Internet Michigan
+###############################################################
+ Just lost multiple T1 Internet circuits to Windstream for Internet. Their Call Center is just saying they are busy and my wait time is longer them 20 mins.
+ Brian
+###############################################################
+END
+###############################################################
+

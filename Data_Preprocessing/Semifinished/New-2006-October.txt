@@ -1,0 +1,572 @@
+###############################################################
+Anyone aware of an AT&T issue?
+###############################################################
+  Is anyone already aware of any AT&T impairments out of Chicago?
+ I have a 2xT1 service out of chcgilcl AR5 that is maxing out at about
+ 50% utilization.  Lots of users are trying to pull flows from lotsa
+ different places and they all seem to have a common bottleneck up-stream
+ from our specific 2xT1 service access point.
+ AT&T's MIS support recording says there are no known impairments at this
+ time.
+ ----
+ Jeremy Charles
+ Epic's Computer and Technology Services Division
+ jcharles at epicsystems.com
+ Phone:  608-271-9000   Fax:  608-410-5960
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO outages?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ fyi....sorry about the cross post.
+ - -------- Original Message --------
+ Subject: RE: XO outages?
+ Date: Tue, 10 Oct 2006 15:33:32 -0400
+ From: Eric Kagan <ekagan at axsne.com>
+ Our NOC guys were told there is a fiber outage in Tampa.  We have a few
+ circuits down in Miami.
+ There is also a Verizon Fiber cut in SE Mass (Taunton?) - some repair
+ estimates are 36-48 hours.
+ Eric
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ L3 fiber cut in Tampa from what I know, Power Company cut it when they
+ sunk a new pole.
+ virendra rode // wrote:
+ >>> Anyone know what's going on with XO?  Seem to be having some
+ >>> big outage in the south east for phone and data; traces to
+ >>> equipment in Tampa stop at Virginia.  Their customer support
+ >>> lines are as useless as usual with their 'unusually long 
+ >>> hold times' which seem to be quite predictable at 60 
+ >>> minutes at a minimum every time I have ever called them.
+ >>>
+ >>> David
+ >>>
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Is anyone having trouble with cisco.com in the NorthEast?
+###############################################################
+ DNS appears be to be ok but http to anything.cisco.com is not working. 
+ So far it looks like anything that peers with AT&T is having the problem. 
+ We have another Internet link via Sprint and it's working just fine. 
+ Yes, having trouble tracing to www.cisco.com from our AT&T link out of St. 
+ Louis.  Our MCI link works fine.
+ --Mike
+ On Thu, 12 Oct 2006, Yuri Lukin wrote:
+ >DNS appears be to be ok but http to anything.cisco.com is not working. 
+ >So far it looks like anything that peers with AT&T is having the problem. 
+ >We have another Internet link via Sprint and it's working just fine. 
+ Yes - also experiencing problems loading even the home page.
+ -chris
+ ______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ -----------------------------------------
+ This transmission may contain information that is privileged,
+ confidential, legally privileged, and/or exempt from disclosure
+ under applicable law.  If you are not the intended recipient, you
+ are hereby notified that any disclosure, copying, distribution, or
+ use of the information contained herein (including any reliance
+ thereon) is STRICTLY PROHIBITED.  Although this transmission and
+ any attachments are believed to be free of any virus or other
+ defect that might affect any computer system into which it is
+ received and opened, it is the responsibility of the recipient to
+ ensure that it is virus free and no responsibility is accepted by
+ JPMorgan Chase & Co., its subsidiaries and affiliates, as
+ applicable, for any loss or damage arising in any way from its use.
+ If you received this transmission in error, please immediately
+ contact the sender and destroy the material in its entirety,
+ whether in electronic or hard copy format. Thank you.
+ Mike Fisher wrote ..
+ There was a similar problem with google.com from the NE a few weeks ago. 
+ I think I remember hearing that Google re-routed the traffic through
+ another transit AS as a workaround. Wonder if this is a similar issue...
+ -Yuri
+ It doesn't appear to be limited to the northeast.
+              "Yuri Lukin"                                                  
+              <lists at swaggi.com                                             
+                                        "Mike Fisher"                       
+              10/12/2006 10:19          <mjfisher at cinergycom.net>           
+              AM                                                         cc 
+                                        outages at isotf.org                   
+                                                                    Subject 
+                                        Re: [Outages] Is anyone having      
+                                        trouble with cisco.com in the       
+                                        NorthEast?                          
+ Mike Fisher wrote ..
+ There was a similar problem with google.com from the NE a few weeks ago.
+ I think I remember hearing that Google re-routed the traffic through
+ another transit AS as a workaround. Wonder if this is a similar issue...
+ -Yuri
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ On Thu, 2006-10-12 at 09:24 -0500, Robbie.Jacka at amsouth.com wrote:
+ It was affecting the southeast too... 
+ Somebody must have just rebooted something... cause it seems to be back
+ to normal now (if you can consider that new logo normal) ;-)
+ -Jim P.
+ Jim Popovitch wrote ..
+ Back up for me too...
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint Multiple DS3 Outage in Chicago
+###############################################################
+ I just opened a ticket with Sprint for one of out customers, it appears that
+ Sprint is having a multiple DS3 Outage in the Chicago area.  I do not have a
+ ticket number for the Network Event.
+ --
+ ben
+ email: locutus at the-collective.net
+ web: http://www.the-collective.net/~locutus
+ irc: su1droot; aim: su1droot; icq: 11818040; y!: su1droot
+ GPG key: 0x87F108E2
+ "We exist only in each others memories, as long as you
+ remember everyone you have met they still exist in you"
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20061014/724aa402/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Commincations problems w.r.t. Hawaii Earthquake?
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20061015/5438d40a/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+WorldNIC nameserver issues]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: WorldNIC nameserver issues
+ Date: Tue, 17 Oct 2006 11:36:57 -0700
+ From: David Ulevitch <davidu at everydns.net>
+ [snip]......
+ We're seeing a number of issues with WorldNIC nameservers failing
+ from multiple points on our network this morning and was wondering if
+ anyone was seeing similar problems.
+ We're seeing issues with:
+ ns47.worldnic.com (domain: cpurocket.com)
+ ns48.worldnic.com (domain: cpurocket.com)
+ ns87.worldnic.com (domain insightcollect.com)
+ ns88.worldnic.com (domain insightcollect.com)
+ and many many more...
+ Anyone else seeing these failures?  WorldNIC does a lot of
+ authoritative DNS....
+ - -david
+ seems all working fine here in South Asia..
+ On 10/18/06, virendra rode // <virendra.rode at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20061018/17edf7b4/attachment.htm 
+ Same from Las Vegas. 
+ ________________________________
+ 	From: Shakeel Ahmad [mailto:shakeelahmad at gmail.com] 
+ 	Sent: Tuesday, October 17, 2006 12:45 PM
+ 	Cc: outages at isotf.org
+ 	Subject: Re: [Outages] [Fwd: WorldNIC nameserver issues]
+ 	seems all working fine here in South Asia..
+ 	On 10/18/06, virendra rode // <virendra.rode at gmail.com> wrote: 
+ 		-----BEGIN PGP SIGNED MESSAGE-----
+ 		Hash: SHA1
+ 		- -------- Original Message --------
+ 		Subject: WorldNIC nameserver issues 
+ 		Date: Tue, 17 Oct 2006 11:36:57 -0700
+ 		From: David Ulevitch <davidu at everydns.net>
+ 		[snip]......
+ 		We're seeing a number of issues with WorldNIC
+ nameservers failing 
+ 		from multiple points on our network this morning and was
+ wondering if
+ 		anyone was seeing similar problems.
+ 		We're seeing issues with:
+ 		ns47.worldnic.com (domain: cpurocket.com)
+ 		ns48.worldnic.com (domain: cpurocket.com)
+ 		ns87.worldnic.com (domain insightcollect.com)
+ 		ns88.worldnic.com (domain insightcollect.com)
+ 		and many many more...
+ 		Anyone else seeing these failures?  WorldNIC does a lot
+ of 
+ 		authoritative DNS....
+ 		- -david
+ 		-----BEGIN PGP SIGNATURE-----
+ 		Version: GnuPG v1.4.2.2 (GNU/Linux)
+ 		Comment: Using GnuPG with Mozilla -
+ http://enigmail.mozdev.org 
+ iD8DBQFFNSlepbZvCIJx1bcRApBAAJ45CZ8xt63B6dl+3T+M/yXJFxxcWwCgj4Ed
+ 		aAolp7q2ep+7bPFDtctsARI=
+ 		=/7eM
+ 		-----END PGP SIGNATURE-----
+ 		_______________________________________________
+ 		Outages mailing list
+ 		Outages at isotf.org
+ 		http://isotf.org/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20061017/e9fa0212/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bellsouth Outage?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Bellsouth Outage?
+ Date: Tue, 17 Oct 2006 13:30:24 -0700
+ From: Pablo's Gmail <espinosa.pablo at gmail.com>
+ Does anyone have additional info or an RFO regarding the Bellsouth Internet
+ Services outage. Apparently it affected all nine states of their
+ region.Please reply offline if you'd like.
+ thanks
+ Pablo
+###############################################################
+END
+###############################################################
+
+###############################################################
+SunGard Austin Morning Outage
+###############################################################
+ FYI...
+ ----- Forwarded message from James Baldwin <jbaldwin at antinode.net> -----
+ ----- End forwarded message -----
+ -- 
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                        http://www.parodius.com/ |
+ | UNIX Systems Administrator                   Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP: 4BD6C0CB |
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20061019/171ada0c/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T in NY?
+###############################################################
+ Anyone else seeing issues with AT&T in New York City?
+ -Jay
+###############################################################
+END
+###############################################################
+
+###############################################################
+SunGard Austin Morning Outage]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: SunGard Austin Morning Outage
+ Date: Thu, 19 Oct 2006 12:36:05 -0500
+ From: James Baldwin <jbaldwin at antinode.net>
+ Doesn't appear to have affected many, if any, people on this list but
+ SunGard Austin experienced a partial power outage this morning. This
+ event began around 0530 CST and most power was restored by 0700 CST.
+ SunGard Austin is currently running without redundant UPS and does
+ not have an ETR. This is being tracked on ticket HD104086.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Fiber cut on East coast
+###############################################################
+ At about 11:05 PDT (GMT-0700), there appears to be some sort-of
+ fibre cut on the East coast, particularly affecting Virginia <->
+ Washington D.C. fibre.
+ At least one provider (Abovenet) has confirmed this.  We've no idea
+ who the transit/fibre provider is.
+ Anyone have details?
+ -- 
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                        http://www.parodius.com/ |
+ | UNIX Systems Administrator                   Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP: 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+GBLX issues]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: GBLX issues
+ Date: Thu, 19 Oct 2006 14:40:01 -0400
+ From: J. Oquendo <sil at infiltrated.net>
+ Anyone else seeing issues with GBLX, DC area?
+ - --
+ ====================================================
+ J. Oquendo
+ http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x1383A743
+ sil . infiltrated @ net http://www.infiltrated.net
+ The happiness of society is the end of government.
+ John Adams
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Re: GBLX issues
+ Date: Thu, 19 Oct 2006 11:57:02 -0700
+ From: Jeremy Chadwick <nanog at jdc.parodius.com>
+ On Thu, Oct 19, 2006 at 02:40:01PM -0400, J. Oquendo wrote:
+ Yes.  There appears to be a fibre cut of some kind either around
+ Virginia or Washington DC.  outages at isotf.org may be a better place
+ to discuss.
+ - --
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                        http://www.parodius.com/ |
+ | UNIX Systems Administrator                   Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP: 4BD6C0CB |
+ - --------------------------
+ hmm....no wonder when i tried calling into sunrocket (as gblx peers w/
+ sunrocket) their tech support had an automated message to call
+ back as they had a large wait.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+trouble in milwaukee?
+###############################################################
+ Trying to access from Philadelphia to Wilwaukee, I get erratic network drops
+ going through Time Warner Telecom.  Anyone aware of any issue?  This
+ apparently started around 7:30p EDT.
+ On Thu, 19 Oct 2006 21:59:05 EDT, "Edward F. Klimowicz" said:
+ Yeah, some skript kiddies with an IOS exploit were causing BGP flaps.
+ Not really - but if there were, that would be almost the only way it could
+ be on-topic for full-disclosure.
+ I don't suppose you have anything more specific to go on, like an actual
+ traceroute or something?  Or other data that explains why you think it's
+ Time Warner rather than their up/downstream?
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 226 bytes
+ Desc: not available
+ Url : http://isotf.org/pipermail/outages/attachments/20061019/8de52d64/attachment.pgp 
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Full-disclosure] trouble in milwaukee?
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+CO fire St. Johns Newfoundland]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: CO fire St. Johns Newfoundland
+ Date: Sat, 21 Oct 2006 01:53:06 -0400 (EDT)
+ From: Sean Donelan <sean at donelan.com>
+ Its been a while since the last big telephone central office fire.
+ 100,000+ lines are out of service in St. John's Newfoundland (Canada, the
+ other part of North America).
+###############################################################
+END
+###############################################################
+
+###############################################################
+DNS Problem at register.com?
+###############################################################
+ I use Register.com to host my personal domain's DNS.  It appears that from
+ both a US and Israeli IP, I can't resolve even www.register.com.
+   Shlomo
+ on 10/25/2006 09:05 AM dubrowin.38020444 at bloglines.com said the following:
+ Working fine from Germany and US.
+ - Gaurav
+ My logs show the problem lasted from 07:48 IST until 10:38 IST.  Maybe they
+ were doing some kind of maintenance?
+   Shlomo
+ --- Gaurav Sabharwal <gaurav at inwire.net
+ wrote:
+ on 10/25/2006 09:05 AM dubrowin.38020444 at bloglines.com said the following:
+ from
+###############################################################
+END
+###############################################################
+
+###############################################################
+register.com down sev0?
+###############################################################
+ ----- Forwarded message from alex at pilosoft.com -----
+ ----- End forwarded message -----
+ -- 
+ | Jeremy Chadwick                                 jdc at parodius.com |
+ | Parodius Networking                        http://www.parodius.com/ |
+ | UNIX Systems Administrator                   Mountain View, CA, USA |
+ | Making life hard for others since 1977.               PGP: 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+Light Reading: Comcast Suffers Rash of VoIP, Broadband Outages
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20061026/cbd2a472/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Regiser.com under ddos?
+###############################################################
+ Anyone else heard of this other than on the nanog mailing list?  Any
+ outside sources reporting?
+###############################################################
+END
+###############################################################
+
+###############################################################
+DNS DDoS [was: register.com down sev0?]]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ We ran into similar attacks (couple days back) coming from non-spoofed
+ address range (being initiated from valid prefixes).
+ In working (w/ a co-worker of mine) on a network attack situation (trace
+ process) for a 30,000 user location (serving 60 other school districts)
+ running BCP38 & rate-limit which got ddos'd w/ about 8mpps.
+ It appears that these attacks were coming from the inside which not only
+ saturated devices along its way but also got amplified into several
+ other networks also causing significant flaps to its peered connection
+ (OC-xx).
+ Besides being distracted with this incredible among of traffic flow our
+ goal number one goal was to prevent this bleeding, thanks to the
+ distributed monitoring sensors (maybe we got lucky) we were able to
+ identify and sink-hole (null route) certain blocks (vlans) while we
+ worked with the network/desktop team to isolate the infected machines.
+ This was certainly a hair-pulling experience.
+ The point that I'm trying to make here is, you can have data coming from
+ a herd of comprised hosts (bots, self-propagating worms,
+ spam-relays,fake http get request, backdoors, etc) that can attack
+ against a well-protected system(s) so any kind of defense mechanism
+ can/will get defeated.
+ Then again, it doesn't mean one wouldn't want to follow well practiced
+ prevention methods.
+ Just curious, any ddos vendors want to share their success stories :-)
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: Re: DNS DDoS [was: register.com down sev0?]
+ Date: Thu, 26 Oct 2006 17:32:56 +0000
+ From: jerry at jdixon.com
+ Reply-To: jerry at jdixon.com
+ W. Gilmore <patrick at ianai.net>, Nanog <nanog at merit.edu>
+ <Pine.LNX.4.44.0610260102100.3923-100000 at bawx.pilosoft.com><EFCE96D7-101C-466E-8FCB-AB150E894A98 at ianai.net>
+ <7.0.1.0.2.20061026120223.13fa2598 at tellurian.com>
+ The network hardware vendors do need to include the feature to support
+ BCP-38.  It'll help us out on a number of fronts especially with some of
+ the recent cyber attacks.
+ We're in process of reaching out to many of the companies and many
+ providers to encourage the implementation of BCP-38.  We've gotten a lot
+ of great feedback from many of you and its greatly appreciated.  You
+ know who you are :)
+ Especially some of the feedback related to the hardware OS issues.
+ - -Jerry
+ Jerry at jdixon.com or jerry.dixon at us-cert.gov
+ Sent via BlackBerry from Cingular Wireless
+ - -----Original Message-----
+ From: Robert Boyle <robert at tellurian.com>
+ Date: Thu, 26 Oct 2006 12:04:03
+ To:"Patrick W. Gilmore" <patrick at ianai.net>, nanog at merit.edu
+ Subject: Re: DNS DDoS [was: register.com down sev0?]
+ At 11:21 AM 10/26/2006, you wrote:
+ Unfortunately, as Jared has pointed out, the equipment vendors have
+ >to help the operators support this.  So let's all call your favorite
+ >router vendor and ask them when they will have the "ip bcp38" config
+ >option. :)
+ Even better would be the option: "no ip bcp38"
+ Make it so a conscious action is needed to disable it, but PLEASE put
+ that in the release notes so when the config doesn't "change" we know
+ that something really did change... :)
+ R
+ Tellurian Networks - Global Hosting Solutions Since 1995
+ http://www.tellurian.com | 888-TELLURIAN | 973-300-9211
+ "Well done is better than well said." - Benjamin Franklin
+###############################################################
+END
+###############################################################
+
+###############################################################
+Extreme Slowness]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Re: Extreme Slowness
+ Date: Thu, 26 Oct 2006 18:01:43 -0400
+ From: Elijah Savage <esavage at digitalrage.org>
+ <366100670610261330m3657f477rc00438fa2284564b at mail.gmail.com>
+ <5C250767-9768-4949-8081-8DA61015CD8C at digitalrage.org>
+ Seems to be all cleared up now. I had a couple of my customers even
+ try to pull up their home site and could not get to it.
+ For FYI :) I realize that ICMP is not the best way to test and it is
+ not a true indication of slowness or the presence of a problem.
+ On Oct 26, 2006, at 5:14 PM, Elijah Savage wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+ELI Issues in Seattle (Tukwila)?]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: ELI Issues in Seattle (Tukwila)?
+ Date: Mon, 30 Oct 2006 15:57:48 -0800
+ From: Bill Sehmel <bsehmel at hopone.net>
+ Anyone else noticing ELI latency issues around the Seattle (Tukwila) area?
+ Thanks
+ Bill Sehmel
+ - --
+  Bill Sehmel - bsehmel at HopOne.net -- 1-206-242-2743
+  Systems Administrator, HopOne Internet Corp. SEA2 NOC
+  Bandwidth & full range of carrier/web host colo + networking
+  services: http://www.hopone.net#
+ I'm a current customer of ELI at 2 locations.  I haven't had any issues
+ today but if I do I'll open a ticket and see if I can find out whats
+ going on.  
+###############################################################
+END
+###############################################################
+

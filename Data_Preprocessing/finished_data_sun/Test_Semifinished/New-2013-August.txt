@@ -1,0 +1,1976 @@
+###############################################################
+Bell Canada Routing issues to Comcast
+###############################################################
+  Hi,
+ It appears as of 15:14 EDT today (it is now 15:48) there are routing issues 
+ through Bell Canada en-route to Comcast customers and much of Comcast's 
+ network at large (their main website is inaccessable from our perspective and 
+ all DNS for the comcast.net domain is unavailable).
+ Doing a traceroute from our network:
+ cplexus> traceroute 69.252.80.75
+ traceroute to 69.252.80.75 (69.252.80.75), 30 hops max, 60 byte packets
+  1  border.unimatrix01.digibase.ca (72.38.129.201)  2.289 ms  2.341 ms  2.786 
+ ms
+  2  cmts (10.64.172.1)  7.183 ms  11.777 ms  12.714 ms
+  3  d226-5-229.home.cgocable.net (24.226.5.229)  13.659 ms  13.780 ms  13.755 
+ ms
+  4  67.69.228.101 (67.69.228.101)  14.642 ms  14.599 ms  14.570 ms
+  5  BX4-CHICAGODT_POS12-0.net.bell.ca (64.230.186.238)  29.978 ms  30.886 ms 
+ bx4-chicagodt_POS3-0-0.net.bell.ca (64.230.186.178)  31.815 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ Can anyone confirm the issue?
+ --
+ Kradorex Xeron <kxeron at digibase.ca>
+ Founder, Executive Director
+ Digibase Operations, Research and Development
+ I don't think anyone is going to be able to confirm anything without you
+ disclosing what the source IP of "your network" is.  Meaning: I cannot
+ give you results back without knowing what IP to mtr to.  And please
+ give me the IP of a host/server on your network, not the IP of a router.
+ If you want an endpoint to test against that's different than
+ 69.252.80.75 and responds to ICMP, try 76.102.14.35.  That's my
+ residential Comcast connection in Mountain View, CA.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Thu, Aug 01, 2013 at 03:51:23PM -0400, Kradorex Xeron wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Hostgator down?
+###############################################################
+ We have several clients who use hostgator and some of them are reporting
+ issues with their sites. Hostgator chat service is inaccess (at least from
+ where I am).
+ Just tried to open a ticket and got this:
+ We are currently experiencing ongoing networking issues at our primary
+ datacenter. We are aware and are working with our service providers to
+ resolve the issue as quickly as possible.
+ Best Regards,
+ Ivan Kovacevic
+ Vice President, Client Services
+ Star Telecom | www.startelecom.ca | SIP Based Services for Contact Centers
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130802/98a15b08/attachment.html>
+ @bluehost is giving more updates than @hostgator is on twitter about the situation
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130802/2843d04a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+FedEx.com - Outage
+###############################################################
+ Any other carriers experiencing issues with FedEx (possible issue with
+ access to their SSL infrastructure and/or an in-house server/routing issue)?
+ Tested from AS40911, AS11852, AS13768 and a couple of Comcast commercial
+ modems with the same results.
+ Might not be related to "national" network transit infrastructure, however
+ our phones are lighting up as a result of such issue.
+ Thanks,
+ Kraig Beahn
+ L2Networks Corp.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130806/b10d3dcf/attachment.html>
+  <01e501ce92dd$1230aa50$3691fef0$@gmail.com>
+ Sorry - should have been more specific...
+ Our customers and others can reach the main "Fedex" website, however, when
+ you attempt(ed) to login, it forwards the post to another URL, which was
+ unreachable for about 39 minutes.
+ However - It is now reachable and was a relatively short outage, per say.
+ Thanks to all of whom helped to investigate the issue.
+ Kindly,
+ Kraig Beahn
+ L2Networks Corp.
+ On Tue, Aug 6, 2013 at 3:42 PM, Jamie Stephens <jamie.stephens at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130806/c932dc23/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Windstream TF Outage
+###############################################################
+ All of our TFNs with Windstream are down as of around 8am Central, local 
+ service is (currently) unaffected.  Their repair 800 number is down 
+ also.  Our rep confirmed a widespread outage with no ETR.
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.wikipedia.com from Level3 via IPv6 not working
+###############################################################
+ Anyone else seeing this?
+ The Level3 looking glass seems to be all stars and no route in BGP at
+ the Level3 looking glass.
+ But, HE has the route
+ core1.fmt1.he.net> show ipv6 bgp routes detail 2620:0:860::/46
+ Number of BGP Routes matching display condition : 1
+        S:SUPPRESSED F:FILTERED s:STALE
+ 1       Prefix: 2620:0:860::/46,  Status: BI,  Age: 68d19h32m18s
+          NEXT_HOP: 2001:470:0:1c0::2, Metric: 665,  Learned from Peer:
+ 2001:470:0:17::1 (6939)
+          In-Label: 794624
+           LOCAL_PREF: 140,  MED: 1,  ORIGIN: igp,  Weight: 0
+          AS_PATH: 14907
+             COMMUNITIES: 6939:1000 6939:6000
+        Last update to IP routing table: 7d12h24m40s# Entry cached for anothe
+ [cbyrne@~]$ dig @8.8.8.8 wikipedia.org aaaa
+ ; <<>> DiG 9.8.3-P4 <<>> @8.8.8.8 wikipedia.org aaaa
+ ; (1 server found)
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46671
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;wikipedia.org.                 IN      AAAA
+ ;; ANSWER SECTION:
+ wikipedia.org.          444     IN      AAAA    2620:0:860:ed1a::1
+ ;; Query time: 53 msec
+ ;; SERVER: 8.8.8.8#53(8.8.8.8)
+ ;; WHEN: Wed Aug  7 11:02:28 2013
+ ;; MSG SIZE  rcvd: 59
+ Traceroute results from Atlanta, GA
+ to 2620:0:860:ed1a::1
+   1  *  *  *
+   2  *  *  *
+   3  *  *  *
+   4  *  *  *
+   5  *  *  *
+   6  *  *  *
+   7  *  *  *
+   8  *  *  *
+   9  *  *  *
+  10  *  *  *
+  11  *  *  *
+  12  *  *  *
+  13  *  *  * timeout !
+ FYI,  the route is now back in at Level3
+ >From the Level3 looking glass
+ Traceroute results from Baton Rouge, LA
+ to 2620:0:860:ed1a::1
+   1 vl-16.car1.Houston1.Level3.net (2001:1900:1D::39) 404 msec 204 msec 148 msec
+   2 vl-5.bar1.Houston1.Level3.net (2001:1900:1D::1) 200 msec 204 msec 132 msec
+   3 vl-4045.edge2.Dallas1.Level3.net (2001:1900:4:1::18D) 200 msec 208
+ msec 208 msec
+   4 vl-60.edge2.Dallas3.Level3.net (2001:1900:17:1::E) 204 msec 200
+ msec 204 msec
+   5 XO-Level3.dallas3.Level3.net (2001:1900:4:3::192) 208 msec 212 msec 208 msec
+   6  *  *  *
+   7 2610:18::30EC 76 msec 52 msec 52 msec
+   8 2610:18::30E8 52 msec 52 msec 48 msec
+   9  *  *  *
+  10 wikipedia-lb.pmtpa.wikimedia.org (2620:0:860:ED1A::1) 128 msec 132
+ msec 128 msec
+ On Wed, Aug 7, 2013 at 11:17 AM, cb.list6 <cb.list6 at gmail.com> wrote:
+  <CAD6AjGQhh07wW2fnJCCQoAucheuaNQoGeVhN_U264k7FzJUYYg@mail.gmail.com>
+ FYI, the Wikimedia Foundation folks saw the same issue earlier, but it
+ resolved itself from their view as well.
+ No root cause identified, but apparently a valid report...
+ On Wed, Aug 7, 2013 at 12:40 PM, cb.list6 <cb.list6 at gmail.com> wrote:
+ -- 
+ -george william herbert
+ george.herbert at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130807/407c33c8/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Scattered DNS issues
+###############################################################
+ Been noticing scattered DNS issues which are not isolated
+ to an individual network, e.g., I use Global/Level3, but
+ am now having customers inside of Paetec's network also
+ seeing issues. Anyone else seeing anomalies this morning?
+ -- 
+ =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+ J. Oquendo
+ SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+ "Where ignorance is our master, there is no possibility of
+ real peace" - Dalai Lama
+ 42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+ http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+ On 2013-08-14, at 09:35, "J. Oquendo" <sil at infiltrated.net> wrote:
+ Could you describe what the DNS issues look like?
+ Joe
+  <2CD00805-AF92-4659-B5EF-27B12F9A6C41@hopcount.ca>
+ On Wed, 14 Aug 2013, Joe Abley wrote:
+ Sites timing out, not resolving one minute, then resolving
+ the next. E.g. here is another instance:
+ https://twitter.com/briankrebs/status/367641489498992640
+ His site passes through Global/Level3, I couldn't reach
+ him with GBLX/Level3 DNS, but could with 8.8.8.8 his site
+ appeared down from downforeveryoneorjustme.com but was
+ resolvable in some instances.
+ I have clients in NY complaining about reaching servers
+ I can reach, but their networks can't. So its scattered
+ and I haven't figured out a common theme.
+ -- 
+ =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+ J. Oquendo
+ SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+ "Where ignorance is our master, there is no possibility of
+ real peace" - Dalai Lama
+ 42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+ http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+  <2CD00805-AF92-4659-B5EF-27B12F9A6C41@hopcount.ca>
+  <20130814142451.GB12337@infiltrated.net>
+ On 2013-08-14, at 10:24, "J. Oquendo" <sil at infiltrated.net> wrote:
+ krebsonsecurity.com is delegated to ns1.prolexic.com and ns2.prolexic.com.
+ I'm seeing both those nameservers respond with non-authoritative answers for krebsonsecurity.com/IN/SOA.
+ Jakob's robot seems to see similarly:
+   http://dnscheck.se/log.pl?domain=krebsonsecurity.com&date=last
+ So does AFNIC's, at least some of the time:
+   http://www.zonecheck.fr/zonecheck/cgi-bin/zc.cgi?zone=krebsonsecurity.com
+ Those prolexic nameservers are surely anycast; it seems possible that they have a problem where some of their nodes are serving the zone accurately and some are not. That seems consistent with the kind of unpredictable results you're describing.
+ If there was a problem with the zone or the servers that are serving it, it's quite possible that it has since been fixed and what you're seeing is fallout from cached bad answers.
+ Joe
+###############################################################
+END
+###############################################################
+
+###############################################################
+.gov domain impacted for all providers doing DNSSec validation
+###############################################################
+ looks like resources in the .gov domain are unavailable to customers of any
+ provider doing DNSSec validation.  VeriSign has indicated they have
+ received calls from multiple sources on this, and are aware that there is
+ an issue.
+ -- 
+ To him who is able to keep you from falling and to present you before his
+ glorious presence without fault and with great joy
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/3fe9a6e8/attachment.html>
+  <F674D946-76BF-4EC5-8F8D-824EDCFC7C96@sans.edu>
+ thanks - looks like they've got it resolved, or are at least in the process
+ of doing so...
+ On Wed, Aug 14, 2013 at 10:17 AM, Johannes B. Ullrich Ph.D. <
+ jullrich at sans.edu> wrote:
+ -- 
+ To him who is able to keep you from falling and to present you before his
+ glorious presence without fault and with great joy
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/804d204a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+New York Times and corporate web site down
+###############################################################
+ Reports filtering in from Twitter say that
+    http://www.nytimes.com
+ and
+    http://www.nytco.com
+ are unreachable.
+ I'm getting a DNS failure from "dig".
+ emv$ dig nytimes.com
+ ; <<>> DiG 9.6-ESV-R4-P3 <<>> nytimes.com
+ ;; global options: +cmd
+ ;; connection timed out; no servers could be reached
+ and DNS check at
+ http://dnscheck.se/log.pl?domain=nytimes.com&date=last
+ reports a problem with 'ns1t.nytimes.com'.
+ thanks
+ Ed
+ -- 
+ Edward Vielmetti +1 734 330 2465
+ edward.vielmetti at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/9dfed188/attachment.html>
+ www.nytimes.com give me Http/1.1 Service Unavailable
+ No DNS answer from www.nytco.com or nytco.com
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Aug 14, 2013 at 12:27 PM, Edward Vielmetti
+ <edward.vielmetti at gmail.com> wrote:
+ On Wed, Aug 14, 2013 at 12:27:48PM -0400, Edward Vielmetti wrote:
+ I don't know where you got that FQDN from.  The log doesn't mention any
+ such FQDN.  The log reports A record lookup failures for
+ dns.ewr1.nytimes.com.  And I can confirm thAt problem.
+ Per a.gtld-servers.net:
+ ;; AUTHORITY SECTION:
+ nytimes.com.            172800  IN      NS      dns.sea1.nytimes.com.
+ nytimes.com.            172800  IN      NS      dns.ewr1.nytimes.com.
+ ;; ADDITIONAL SECTION:
+ dns.sea1.nytimes.com.   172800  IN      A       170.149.173.133
+ dns.ewr1.nytimes.com.   172800  IN      A       170.149.168.134
+ Neither 170.149.173.133 or 170.149.168.134 are responding to queries (A
+ records for www.nytimes.com, NS records for sea1.nytimes.com or
+ ewr1.nytimes.com (not sure if there are any), A records for the
+ aforementioned FQDNs, etc.).  Or the response may be spotty -- I did not
+ try more than a couple times.
+ Both IPs respond to ICMP ECHO, so if resolution isn't working, the
+ possibilities/reasons why are almost endless.  Rather not speculate.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+  <CAN9qwJ_Y4R-xZvxur4ED4JY_5566=kg=x35+UQegXrk-i9u=kA@mail.gmail.com>
+ On Aug 14, 2013, at 9:41 AM, Josh Luthman <josh at imaginenetworksllc.com> wrote:
+ DNS is fine, as are the front-end HTTP servers for both the main and the archive sites.  I actually have authoritative information from NYT staff about what's happening, and it's a self-inflicted wound, having to do with a software update that was rolled out to both the production and backup servers simultaneously.  And failed, obviously.
+                                 -Bill
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 841 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/b7bb90ba/attachment.sig>
+  <20130814164336.GA26541@icarus.home.lan>
+ Follow-up to this, which I just found out about today:
+ First, this Wild Wacky Action Bike of sorts (note what site posted it
+ and hold that thought):
+ http://www.washingtonpost.com/blogs/compost/wp/2013/08/14/new-york-times-web-site-goes-down-panicked-mobs-stream-into-street-demanding-to-know-the-trends/
+ ...which was later debunked -- turns out the NYT was doing maintenance
+ of some sort which broke stuff (brings into question why they were doing
+ this during peak morning hours):
+ http://www.nytimes.com/2013/08/15/business/media/new-york-times-web-site-returns-after-hours-offline.html?_r=0
+ And further analysis of some sort:
+ http://www.zdnet.com/what-happened-to-the-new-york-times-website-7000019453/
+ And now the irony:
+ http://news.slashdot.org/story/13/08/15/162211/washington-post-hacked-a-day-after-new-york-times
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Aug 14, 2013 at 09:43:36AM -0700, Jeremy Chadwick wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+=?utf-8?q?List_serve_via_http?=
+###############################################################
+ Sender: mikie swier
+ Email: mswier at harpercollege.edu
+ Phone: 847-925-6111
+ Message: 
+ Hi,
+ Is the messages that go to the list serv also posted on the website?  if so, where.  There are times I would like to direct co-works to this info w/o having to forward every email that's coming in.
+ thanks
+ mikie
+ ~~~~~~~~~~~~~~~~~~~~~~
+ This message was sent from your website at http://www.outages.org/
+ See:
+ https://puck.nether.net/pipermail/outages/
+ - ferg
+ On Wed, Aug 14, 2013 at 9:45 AM,  <mswier at harpercollege.edu> wrote:
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+  fergdawgster(at)gmail.com
+ https://puck.nether.net/pipermail/outages/
+ It's literally at the bottom of the emails you get...
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Wed, Aug 14, 2013 at 12:45 PM,  <mswier at harpercollege.edu> wrote:
+ https://puck.nether.net/pipermail/outages/
+ (coffee != sleep) & (!coffee == sleep)
+  Donald.Smith at centurylink.com<mailto:Donald.Smith at centurylink.com>
+ ________________________________
+ From: Outages [outages-bounces at outages.org] on behalf of mswier at harpercollege.edu [mswier at harpercollege.edu]
+ Sent: Wednesday, August 14, 2013 10:45 AM
+ Sender: mikie swier
+ Email: mswier at harpercollege.edu
+ Phone: 847-925-6111
+ Message:
+ Hi,
+ Is the messages that go to the list serv also posted on the website?  if so, where.  There are times I would like to direct co-works to this info w/o having to forward every email that's coming in.
+ thanks
+ mikie
+ ~~~~~~~~~~~~~~~~~~~~~~
+ This message was sent from your website at http://www.outages.org/
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/2a448a3d/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Microsoft hosted services issues
+###############################################################
+ Microsoft is currently having connectivity and synchronization issues with
+ office 365 products including skydrive, outlook.com, hotmail EAS.  It
+ appears to be internal to MS, but it may be a good idea to give any 365
+ customers a heads up.
+ Regards,
+ David Kelly
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130814/7bedbe48/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+List serve via http
+###############################################################
+ On Wed, Aug 14, 2013 at 04:45:19PM +0000, mswier at harpercollege.edu wrote:
+ https://puck.nether.net/pipermail/outages/
+ -- 
+ staticsafe
+ O< ascii ribbon campaign - stop html mail - www.asciiribbon.org
+ Please don't top post.
+ Please don't CC! I'm subscribed to whatever list I just posted on.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Upcoming Cubby maintenance - on Sunday, August 18, 2013
+###############################################################
+ HEADS UP.
+ We are constantly striving to provide you with the best cloud service
+ possible. In order to do this, we sometimes must take Cubby offline to
+ ensure that all of the necessary improvements are properly implemented.
+ During this maintenance cubby.com and all cloud-based services will be
+ unavailable. This includes access to cubbies on the cloud, cloud-based
+ syncing, and access from a mobile device. Local content and DirectSyncTM
+ will remain available. 
+ The scheduled maintenance will affect users for approximately 6 hours on
+ Sunday, August 18, 2013 at the following local times:
+ .   2:00AM EST - 8:00AM EST 
+ .   7:00AM GMT - 1:00PM GMT
+ .   4:00PM AEST - 10:00PM AEST
+ We appreciate your understanding and apologize for any inconvenience this
+ may cause. 
+ Thank you,
+ The Cubby Team
+ Ruff, Ruff...!
+ Network IPdog
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/39a6b296/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google DNS
+###############################################################
+ >From my Digital Ocean VPS and office in midtown NY:
+ $ nslookup google.com 8.8.8.8
+ ;; connection timed out; no servers could be reached
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/769cf335/attachment.html>
+ Yes MTR to 8.8.8.8 is failing for us in the Northeast (NH).
+ On 08/15/2013 02:16 PM, Nick Lopez wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/0d5ad861/attachment.html>
+ On 2013-08-15, Nick Lopez <nlopez at gmail.com> sent:
+ Seeing the same here via Comcast in NH to both 8.8.8.8 and 8.8.4.4:
+ traceroute to 8.8.8.8 (8.8.8.8), 64 hops max, 52 byte packets
+  3  [AS7922] 24.104.68.169 (24.104.68.169)  4.580 ms  4.418 ms  4.436 ms
+  4  [AS7922] te-0-2-0-4-cr01.newyork.ny.ibone.comcast.net (68.86.84.49)  15.884 ms  11.907 ms  11.651 ms
+  5  [AS7922] he-0-11-0-0-pe03.111eighthave.ny.ibone.comcast.net (68.86.83.98)  11.416 ms  11.311 ms  11.457 ms
+  6  [AS7922] 23-30-206-126-static.hfc.comcastbusiness.net (23.30.206.126)  11.024 ms  12.916 ms  11.229 ms
+  7  [AS15169] 209.85.248.178 (209.85.248.178)  11.240 ms
+     [AS15169] 209.85.248.180 (209.85.248.180)  14.042 ms
+     [AS15169] 209.85.248.178 (209.85.248.178)  16.312 ms
+  8  [AS15169] 209.85.252.250 (209.85.252.250)  11.426 ms
+     [AS15169] 209.85.252.242 (209.85.252.242)  11.509 ms
+     [AS15169] 209.85.252.250 (209.85.252.250)  11.320 ms
+  9  [AS15169] 209.85.249.11 (209.85.249.11)  16.785 ms
+     [AS15169] 72.14.239.93 (72.14.239.93)  17.445 ms  17.388 ms
+ 10  [AS15169] 72.14.235.10 (72.14.235.10)  24.389 ms
+     [AS15169] 72.14.235.12 (72.14.235.12)  24.569 ms
+     [AS15169] 66.249.95.231 (66.249.95.231)  24.536 ms
+ 11  [AS15169] 72.14.234.65 (72.14.234.65)  24.117 ms  24.034 ms
+     [AS15169] 72.14.234.55 (72.14.234.55)  24.037 ms
+ 12  * * *
+ 13  * * *
+ -- 
+ Chip Marshall <chip at 2bithacker.net>
+ http://2bithacker.net/
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 195 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/6da285d6/attachment.sig>
+ Works for us ? it may be GGC specific.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Nick Lopez
+ Sent: Thursday, August 15, 2013 1:17 PM
+ >From my Digital Ocean VPS and office in midtown NY:
+ $ nslookup google.com <http://google.com>  8.8.8.8
+ ;; connection timed out; no servers could be reached
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/f7901e38/attachment-0001.html>
+  <520D1CB7.6050905@spectraaccess.com>
+ Working fine from the West coast via both Comcast and HE.
+  Scott
+ On Thu, Aug 15, 2013 at 2:23 PM, Bret Clark <bclark at spectraaccess.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/f0ca2041/attachment.html>
+ Fine from my office in Birmingham, AL and my VPS in Baltimore.
+ On 08/15/2013 01:16 PM, Nick Lopez wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/fd43dc41/attachment.html>
+  <20130815182423.GA84351@2bithacker.net>
+ Both visible in Toronto via TorIX:
+ BlackBox:~ jlixfeld$ mtr -c 1 -r 8.8.8.8
+ HOST: BlackBox.local              Loss% Drop   Rcv   Snt  Last  Best   Avg
+   1.|-- 192.168.66.1               0.0%    0     1     1   0.7   0.7   0.7
+   2.|-- vl4091.systems02.77mowat0  0.0%    0     1     1   1.0   1.0   1.0
+   3.|-- te0-0-0-2.bfr01.77mowatav  0.0%    0     1     1   1.3   1.3   1.3
+   4.|-- te0-0-0-1.bfr01.151fronts  0.0%    0     1     1   1.3   1.3   1.3
+   5.|-- gw-google.torontointernet  0.0%    0     1     1   1.0   1.0   1.0
+   6.|-- 216.239.47.114             0.0%    0     1     1   1.2   1.2   1.2
+   7.|-- 216.239.46.160             0.0%    0     1     1  16.9  16.9  16.9
+   8.|-- 209.85.241.22              0.0%    0     1     1  27.3  27.3  27.3
+   9.|-- 216.239.43.217             0.0%    0     1     1  29.1  29.1  29.1
+  10.|-- ???                       100.0    1     0     1   0.0   0.0   0.0
+  11.|-- google-public-dns-a.googl  0.0%    0     1     1  29.0  29.0  29.0
+ BlackBox:~ jlixfeld$ mtr -c 1 -r 8.8.4.4
+ HOST: BlackBox.local              Loss% Drop   Rcv   Snt  Last  Best   Avg
+   1.|-- 192.168.66.1               0.0%    0     1     1   0.9   0.9   0.9
+   2.|-- vl4091.systems02.77mowat0  0.0%    0     1     1   1.2   1.2   1.2
+   3.|-- te0-0-0-2.bfr01.77mowatav  0.0%    0     1     1   1.3   1.3   1.3
+   4.|-- te0-0-0-1.bfr01.151fronts  0.0%    0     1     1   1.6   1.6   1.6
+   5.|-- gw-google.torontointernet  0.0%    0     1     1   1.2   1.2   1.2
+   6.|-- 209.85.255.232             0.0%    0     1     1   1.0   1.0   1.0
+   7.|-- 216.239.46.162             0.0%    0     1     1  16.7  16.7  16.7
+   8.|-- 72.14.238.104              0.0%    0     1     1  29.2  29.2  29.2
+   9.|-- 216.239.46.193             0.0%    0     1     1  26.9  26.9  26.9
+  10.|-- ???                       100.0    1     0     1   0.0   0.0   0.0
+  11.|-- google-public-dns-b.googl  0.0%    0     1     1  26.9  26.9  26.9
+ BlackBox:~ jlixfeld$
+ On 2013-08-15, at 2:24 PM, Chip Marshall <chip at 2bithacker.net> wrote:
+  <520D1DC3.20305@gmail.com>
+ Fine here in berkeley, california
+ .....................................
+ *Luke Rockwell*
+ Systems and Support Analyst
+ Information Technology
+ .....................................
+ Cal Alumni Association | UC Berkeley
+ 1 Alumni House, Berkeley, CA 94720
+ *T* 510.900.8196
+ *F* 510.642.6252
+ .....................................
+ *140 Years of Alumni Excellence*
+ *Commitment, Support, Passion*
+ _____________________________________
+ *alumni.berkeley.edu*
+ _____________________________________
+ *Facebook <https://www.facebook.com/CalAlumni> |
+ LinkedIn<http://www.linkedin.com/groups?gid=70245>
+ *
+ On Thu, Aug 15, 2013 at 11:28 AM, John Barbieri <tenpin784 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/c26edb58/attachment.html>
+  <520D1CB7.6050905@spectraaccess.com>
+ I'm on a Charter residential line mid-Wisconsin right now and I'm not
+ having any difficulty:
+ ~$ traceroute 8.8.8.8
+ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+  1  gatekeeper.anthonyrhook.com (192.168.1.1)  0.130 ms  0.189 ms  0.249 ms
+  2  10.138.192.1 (10.138.192.1)  5.099 ms  9.709 ms  10.642 ms
+  3  csw01wauswi-gbe-7-26.waus.wi.charter.com (96.34.16.198)  10.885 ms
+  10.885 ms  10.877 ms
+  4  crr01stptwi-tge-0-5-0-1.stpt.wi.charter.com (96.34.24.133)  15.480 ms
+  15.478 ms crr01stptwi-tge-0-5-0-3.stpt.wi.charter.com (96.34.24.224)
+  14.448 ms
+  5  crr02euclwi-tge-0-4-0-1.eucl.wi.charter.com (96.34.17.224)  23.917 ms
+  24.078 ms  22.857 ms
+  6  bbr02euclwi-tge-0-1-0-3.eucl.wi.charter.com (96.34.1.246)  21.031 ms
+  17.909 ms  18.810 ms
+  7  bbr01chcgil-bue-1.chcg.il.charter.com (96.34.0.9)  31.531 ms  24.120 ms
+  21.969 ms
+  8  prr01chcgil-bue-2.chcg.il.charter.com (96.34.3.9)  23.552 ms  24.304 ms
+  25.542 ms
+  9  96-34-152-30.static.unas.mo.charter.com (96.34.152.30)  23.117 ms
+  23.123 ms  22.917 ms
+ 10  209.85.254.120 (209.85.254.120)  23.231 ms  23.261 ms 209.85.254.128
+ (209.85.254.128)  23.166 ms
+ 11  72.14.237.130 (72.14.237.130)  23.152 ms 72.14.237.108 (72.14.237.108)
+  23.451 ms 72.14.237.110 (72.14.237.110)  23.434 ms
+ 12  209.85.241.22 (209.85.241.22)  33.422 ms  34.325 ms  31.144 ms
+ 13  216.239.46.191 (216.239.46.191)  33.523 ms 216.239.43.219
+ (216.239.43.219)  31.478 ms 216.239.46.191 (216.239.46.191)  33.477 ms
+ 14  * * *
+ 15  google-public-dns-a.google.com (8.8.8.8)  36.435 ms  36.632 ms  36.058
+ ms
+ $ nslookup google.com 8.8.8.8
+ Server:         8.8.8.8
+ Address:        8.8.8.8#53
+ Non-authoritative answer:
+ Name:   google.com
+ Address: 173.194.46.70
+ Name:   google.com
+ Address: 173.194.46.72
+ Name:   google.com
+ Address: 173.194.46.78
+ Name:   google.com
+ Address: 173.194.46.67
+ Name:   google.com
+ Address: 173.194.46.68
+ Name:   google.com
+ Address: 173.194.46.65
+ Name:   google.com
+ Address: 173.194.46.71
+ Name:   google.com
+ Address: 173.194.46.66
+ Name:   google.com
+ Address: 173.194.46.64
+ Name:   google.com
+ Address: 173.194.46.73
+ Name:   google.com
+ Address: 173.194.46.69
+ $ nslookup google.com 8.8.4.4
+ Server:         8.8.4.4
+ Address:        8.8.4.4#53
+ Non-authoritative answer:
+ Name:   google.com
+ Address: 173.194.46.70
+ Name:   google.com
+ Address: 173.194.46.72
+ Name:   google.com
+ Address: 173.194.46.78
+ Name:   google.com
+ Address: 173.194.46.67
+ Name:   google.com
+ Address: 173.194.46.68
+ Name:   google.com
+ Address: 173.194.46.65
+ Name:   google.com
+ Address: 173.194.46.71
+ Name:   google.com
+ Address: 173.194.46.66
+ Name:   google.com
+ Address: 173.194.46.64
+ Name:   google.com
+ Address: 173.194.46.73
+ Name:   google.com
+ Address: 173.194.46.69
+ On Thu, Aug 15, 2013 at 1:23 PM, Bret Clark <bclark at spectraaccess.com>wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/9c2d71e9/attachment-0001.html>
+  <520D1CB7.6050905@spectraaccess.com>
+ Southwest via Charter is working
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bret Clark
+ Sent: Thursday, August 15, 2013 2:24 PM
+ Yes MTR to 8.8.8.8 is failing for us in the Northeast (NH).
+ On 08/15/2013 02:16 PM, Nick Lopez wrote:
+ $ nslookup google.com<http://google.com> 8.8.8.8
+ ;; connection timed out; no servers could be reached
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/56fa983a/attachment.html>
+  <520D1CB7.6050905@spectraaccess.com>
+  <CAAdV5S6yk_ZAb+fZdvt0pdB-SX9S4n7ggMfSda44CH4BQO0V=g@mail.gmail.com>
+ It was borked for us on Comcast and Time Warner here in Atlanta from about
+ 14:15 to 14:35 EDT.
+ ------------------
+ Aubrey Wells
+ Director | Network Services
+ VocalCloud
+ 888.305.3850
+ support at vocalcloud.com
+ www.vocalcloud.com
+ On Thu, Aug 15, 2013 at 2:49 PM, Anthony Hook <anthony.hook3 at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/2cadb329/attachment.html>
+  <520D1CB7.6050905@spectraaccess.com>
+  <03B054D28E391C4A8DE5DD8AB5030F3B011F578CA8@KSTLMEXCP04MBX.CORP.CHARTERCOM.COM>
+ Hi, we (Google Public DNS) just experienced a short period of outage in
+ certain east coast area. The service has been recovered.
+ Thanks,
+ Yunhong
+ On Thu, Aug 15, 2013 at 2:53 PM, Stephens, Jamie A <
+ Jamie.Stephens at charter.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/b2b2b072/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Zayo Issue in New York Area
+###############################################################
+ At 2:35pm EDT we saw our Zayo Metro Ethernet connection between New York 
+ city and New Jersey go down with the port on the New York side down hard. 
+ Is anyone else seeing issues with Zayo circuits in the New York area?
+ I've been on hold waiting for support for about 15 minutes so seems like 
+ they are experiencing heavy call volumes which may be due to a larger 
+ outage.
+ Thanks.
+ --Vincent
+ Vincent Aniello | Global Head of Infrastructure
+ Portware, LLC
+ 233 Broadway, 24th Floor
+ New York, NY  10279
+ Phone: +1 212.370.8327
+ vaniello at portware.com
+ www.portware.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/a7c5f0f2/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/gif
+ Size: 1497 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/a7c5f0f2/attachment-0001.gif>
+###############################################################
+END
+###############################################################
+
+###############################################################
+.us TLD issues?
+###############################################################
+ Been having issues resolving .us domains since about 12:20 Pacific from Dallas/San Jose/San Francisco. Seems to be coming back slowly, DDOS maybe?
+ $ nslookup neustar.us
+ ;; connection timed out; trying next origin
+ ;; connection timed out; no servers could be reached
+ $ whois neustar.us
+ [Querying whois.nic.us]
+ [whois.nic.us: Temporary failure in name resolution]
+ [Unable to connect to remote host]
+ It looks OK from TekSavvy in Toronto, Canada:
+ [code:mike](~): dig +short neustar.us
+ 107.21.46.236
+ [code:mike](~): jwhois -f neustar.us
+ [Querying whois.nic.us]
+ [whois.nic.us]
+ Domain Name:                                 NEUSTAR.US
+ Domain ID:                                   D670499-US
+ Sponsoring Registrar:                        REGISTRY REGISTRAR
+ Registrar URL (registration services):       WWW.NEUSTAR.US
+ ...<snip>...
+ Thanks,
+    - Mike
+ --
+  Mike Jackson
+  Network Analyst - Toronto Transit Commission
+  Inbox: mike.jackson at ttc.ca
+  ASN 40884 / MMJ6-ARIN
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John
+ Kinsella
+ Sent: August-15-13 3:49 PM
+ Been having issues resolving .us domains since about 12:20 Pacific from
+ Dallas/San Jose/San Francisco. Seems to be coming back slowly, DDOS
+ maybe?
+ $ nslookup neustar.us
+ ;; connection timed out; trying next origin ;; connection timed out; no
+ servers could be reached
+ $ whois neustar.us
+ [Querying whois.nic.us]
+ [whois.nic.us: Temporary failure in name resolution] [Unable to connect
+ to remote host]
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material.  Any review retransmission dissemination or other use of or taking any action in reliance upon this information by persons or entities other than the intended recipient or delegate is strictly prohibited.  If you received this in error please contact the sender and delete the material from any computer.  The integrity and security of this message cannot be guaranteed on the Internet.  The sender accepts no liability for the content of this e-mail or for the consequences of any actions taken on the basis of information provided.  The recipient should check this e-mail and any attachments for the presence of viruses.  The sender accepts no liability for any damage caused by any virus transmitted by this e-mail.  This disclaimer is property of the TTC and must not be altered or circumvented in any manner.
+ Working here where are you coming from?
+ nslookup ibm.com b.cctld.us
+ Server:    156.154.125.70
+ Address 1: 156.154.125.70 b.cctld.us
+ Name:      ibm.com
+ Address 1: 129.42.38.1 redirect.www.ibm.com
+ nslookup neustar.us neustart.us
+ Server:    199.59.243.107
+ Address 1: 199.59.243.107
+ Name:      neustar.us
+ Address 1: 107.21.46.236 ec2-107-21-46-236.compute-1.amazonaws.com
+ "Pampers use multiple layers of protection to prevent leakage. Rommel used defense in depth to defend European fortresses." (A.White) Donald.Smith at CenturyLink.com
+ >-----Original Message-----
+ >From: Outages [mailto:outages-bounces at outages.org] On Behalf Of John
+ >Kinsella
+ >Sent: Thursday, August 15, 2013 1:49 PM
+ >To: outages at outages.org
+ >Subject: [outages] .us TLD issues?
+ >Been having issues resolving .us domains since about 12:20 Pacific from
+ >Dallas/San Jose/San Francisco. Seems to be coming back slowly, DDOS
+ >maybe?
+ >$ nslookup neustar.us
+ >;; connection timed out; trying next origin ;; connection timed out; no
+ >servers could be reached
+ >$ whois neustar.us
+ >[Querying whois.nic.us]
+ >[whois.nic.us: Temporary failure in name resolution] [Unable to connect
+ >to remote host]
+ >_______________________________________________
+ >Outages mailing list
+ >Outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+  <68EFACB32CF4464298EA2779B058889D0A3D761C@PDDCWMBXEX503.ctl.intranet>
+ Seems cleared up. My monitoring systems weren't configured to traceroute to the resolvers, will have that fixed for next time...
+ John
+ On Aug 15, 2013, at 1:08 PM, "Smith, Donald" <Donald.Smith at CenturyLink.com> wrote:
+  <E6B2ED4F3884B84EBBCA90B715C5C5190F2F8CDA@power.INT.TTC.CA>
+ Hi Mike,
+ That dig really just demonstrates that you have a local cached answer.
+ If you want to check whether the authority servers are reachable from
+ 5645, you need to send explicit queries to each one (and avoid +short,
+ since you want to check the RCODE).
+ Joe
+ Aue Te Ariki! He toki ki roto taku mahuna!
+ On 2013-08-15, at 15:00, "Mike.Jackson at ttc.ca" <Mike.Jackson at ttc.ca> wrote:
+ Hi Joe, yes I did a +trace and all of the other tests but omitted the output partially due to its length and partially from multitasking; doing too many things at once :)
+ Cheers,
+   - Mike
+ This message sent by mobile device.
+ ----- Original Message -----
+ From: Joe Abley [mailto:jabley at hopcount.ca]
+ Sent: Thursday, August 15, 2013 05:19 PM
+ Cc: jlk at thrashyour.com <jlk at thrashyour.com>; outages at outages.org <outages at outages.org>
+ Hi Mike,
+ That dig really just demonstrates that you have a local cached answer.
+ If you want to check whether the authority servers are reachable from
+ 5645, you need to send explicit queries to each one (and avoid +short,
+ since you want to check the RCODE).
+ Joe
+ Aue Te Ariki! He toki ki roto taku mahuna!
+ On 2013-08-15, at 15:00, "Mike.Jackson at ttc.ca" <Mike.Jackson at ttc.ca> wrote:
+ The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material.  Any review retransmission dissemination or other use of or taking any action in reliance upon this information by persons or entities other than the intended recipient or delegate is strictly prohibited.  If you received this in error please contact the sender and delete the material from any computer.  The integrity and security of this message cannot be guaranteed on the Internet.  The sender accepts no liability for the content of this e-mail or for the consequences of any actions taken on the basis of information provided.  The recipient should check this e-mail and any attachments for the presence of viruses.  The sender accepts no liability for any damage caused by any virus transmitted by this e-mail.  This disclaimer is property of the TTC and must not be altered or circumvented in any manner.
+ On 2013-08-15, at 16:52, <Mike.Jackson at ttc.ca> wrote:
+ Makes sense, I'm very familiar with that phenomenon :-)
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Outage
+###############################################################
+ Event Summary
+ Network Event Detail
+ Network Event Summary:A fiber cut between Comstock, TX and Del Rio, TX is
+ impacting unprotected services.  Event Ticket ID:6909547Market Area
+ Affected:Comstock, TX to Del Rio, TX  Ticket Create Date:8/15/13 2:19:45 PM
+ GMT  Impacted For:*14 hours 11 minutes*  Event Status:Active  Resolve
+ Date: Time
+ Since Last Update:*51 minutes*  *There are currently no reported impacts to
+ your services caused by this network event. If you are experiencing a
+ service disruption, please report the issue to Level 3 by submitting a
+ ticket via the MyLevel3 Portal or calling 877-4LEVEL3.*
+ Recent Notes
+ DateNotes8/16/13 3:12:32 AM GMTThe Transport NOC reported that splicing on
+ the North pit has commenced. An estimated time to restore of 04:30 GMT has
+ been provided. The next update will be provided once services begin to
+ restore or new information becomes available.8/16/13 2:32:13 AM GMTThe
+ Transport NOC reported that splicing has commenced on the south end and
+ preparations for splicing are ongoing on the north end at this time.8/16/13
+ 2:13:51 AM GMTSplicing preparations are continuing at this time and an
+ updated start time for splicing has not been provided.8/16/13 12:57:21 AM
+ GMTThe Transport NOC advised that excavating is ongoing on the north end at
+ this time and splicing is expected to begin shortly on the south end.8/16/13
+ 12:03:47 AM GMTThe Transport NOC informed that the south pit has been
+ excavated and the fibers are being prepared for splicing, and excavating is
+ ongoing on the north pit at this time. Furthermore, splicing is expected to
+ commence at approximately 01:00 GMT.8/15/13 11:18:12 PM GMTThe Transport
+ NOC reported that the splice crew has arrived to the site. Additionally,
+ the excavation crew is continuing to dig to create a new splice area and an
+ estimated start time for splicing is unknown at this time.8/15/13 10:43:46
+ PM GMTThe Transport NOC advised that the splice crew is expected to arrive
+ to the site shortly to begin repairs.8/15/13 9:31:13 PM GMTThe Transport
+ NOC reported that the excavation team arrived to the site at approximately
+ 21:00 GMT and the splice crew remains en route with an updated estimated
+ arrival time of 22:30 GMT.8/15/13 8:49:26 PM GMTThe Transport NOC advised
+ that the excavation team has not arrived to the site and an updated
+ estimated arrival time has not been provided at this time.8/15/13 8:02:05
+ PM GMTThe Transport NOC informed that the excavation team and splice crew
+ are still en route to the site and the estimated arrival times remain
+ unchanged at this time.8/15/13 7:06:40 PM GMTThe Transport NOC reports that
+ Field Services arrived on site and isolated the location of the fiber cut.
+ Drilling was being done at the site by workers who were installing a
+ billboard and caused the fiber cut. An excavation team has been engaged
+ with an ETA of 20:30 GMT. A splice crew has been engaged with an ETA of
+ 22:00 GMT. No estimated restoral time is currently available.8/15/13
+ 6:10:47 PM GMTField Services continue en route to the site. The ETA remains
+ 18:30 GMT.8/15/13 5:04:33 PM GMTField Services have provided an updated ETA
+ to the site of 18:30 GMT.8/15/13 4:12:39 PM GMTField Services continue en
+ route to the site with an ETA of 17:30 GMT.8/15/13 3:04:31 PM GMTField
+ Services is en route to the site to further investigate the fiber cut. The
+ ETA remains at 17:30 GMT.8/15/13 2:31:58 PM GMTThe Transport NOC reports
+ that a fiber cut between Comstock, TX and Del Rio, TX is impacting
+ unprotected services. Field Services has been engaged to investigate and an
+ ETA of 17:30 GMT has been provided.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130815/331b5512/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+GRNVoIP out of business???
+###############################################################
+ GRN VoIP seems to be completely off the air does anyone know if they went
+ out of business? If anyone doesn?t know who they are they are a wholesale
+ International and US Domestic VoIP termination.
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com
+ (W) www.esi-estech.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130816/e9809f4c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+[Outages-discussion] Amazon.com interruption
+###############################################################
+ Looks like they're having issues again, since 1:50 pm Central.
+ ==================================================
+ [from 96.31.0.5]
+ nagios:/tmp# wget -4 www.amazon.com
+ --2013-08-19 13:54:20--  http://www.amazon.com/
+ Resolving www.amazon.com... 176.32.98.166
+ Connecting to www.amazon.com|176.32.98.166|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 13:54:33--  (try: 2)  http://www.amazon.com/
+ Connecting to www.amazon.com|176.32.98.166|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 13:54:36--  (try: 3)  http://www.amazon.com/
+ Connecting to www.amazon.com|176.32.98.166|:80... failed: Connection timed
+ out.
+ Resolving www.amazon.com... 205.251.242.54
+ Connecting to www.amazon.com|205.251.242.54|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 13:55:11--  (try: 4)  http://www.amazon.com/
+ Connecting to www.amazon.com|205.251.242.54|:80... connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 13:55:17--  (try: 5)  http://www.amazon.com/
+ Connecting to www.amazon.com|205.251.242.54|:80... failed: Connection timed
+ out.
+ Resolving www.amazon.com... 205.251.242.54
+ Connecting to www.amazon.com|205.251.242.54|:80... connected.
+ HTTP request sent, awaiting response...
+ ==================================================
+ nagios:/tmp# tcptraceroute www.amazon.com
+ Selected device eth0.3, address 96.31.0.5, port 39138 for outgoing packets
+ Tracing the path to www.amazon.com (205.251.242.54) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.262 ms  0.194 ms  0.182
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.220 ms  0.133 ms  0.136 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  1.984 ms  1.949 ms
+ 1.975 ms
+  4  ins-db1-te-13-2-219.desm.netins.net (167.142.60.157)  7.294 ms  7.348 ms
+ 7.372 ms
+  5  ins-dc1-et-8-2.desm.netins.net (167.142.67.5)  7.334 ms  7.367 ms  7.308
+ ms
+  6  te-3-3.car2.KansasCity1.Level3.net (4.53.34.113)  13.791 ms  13.820 ms
+ 13.756 ms
+  7  ae-11-11.car1.KansasCity1.Level3.net (4.69.135.233)  73.308 ms  157.964
+ ms *
+  8  ae-5-5.ebr2.Dallas1.Level3.net (4.69.135.230)  55.937 ms  55.983 ms
+ 55.809 ms
+  9  ae-62-62.csw1.Dallas1.Level3.net (4.69.151.129)  56.174 ms  56.251 ms
+ 56.178 ms
+ 10  ae-63-63.ebr3.Dallas1.Level3.net (4.69.151.134)  55.556 ms  55.585 ms
+ 55.822 ms
+ 11  ae-7-7.ebr3.Atlanta2.Level3.net (4.69.134.22)  55.510 ms  55.478 ms
+ 57.041 ms
+ 12  ae-2-2.ebr1.Washington1.Level3.net (4.69.132.86)  55.747 ms  55.730 ms
+ 55.800 ms
+ 13  ae-91-91.csw4.Washington1.Level3.net (4.69.134.142)  55.314 ms  55.380
+ ms  62.384 ms
+ 14  ae-4-90.edge3.Washington1.Level3.net (4.69.149.209)  55.568 ms  55.603
+ ms  55.496 ms
+ 15  AMAZON.COM.edge3.Washington1.Level3.net (4.59.144.178)  55.415 ms
+ 55.563 ms  55.488 ms
+ 16  205.251.245.21  56.965 ms  57.036 ms  56.929 ms
+ 17  205.251.245.121  57.045 ms  57.094 ms  57.158 ms
+ 18  * * *
+ 19  * * *
+ 20  * * *
+ 21  * * *
+ 22  * * *
+ 23  205.251.242.54 [open]  56.911 ms  56.833 ms  56.942 ms
+ nagios:/tmp#
+ ==================================================
+ [from puck.nether.net]
+ [fbulk at puck tmp]$ wget -4 www.amazon.com
+ --2013-08-19 14:54:26--  http://www.amazon.com/
+ Resolving www.amazon.com (www.amazon.com)... 72.21.215.232
+ Connecting to www.amazon.com (www.amazon.com)|72.21.215.232|:80...
+ connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 14:55:28--  (try: 2)  http://www.amazon.com/
+ Connecting to www.amazon.com (www.amazon.com)|72.21.215.232|:80...
+ connected.
+ HTTP request sent, awaiting response... Read error (Connection reset by
+ peer) in headers.
+ Retrying.
+ --2013-08-19 14:55:37--  (try: 3)  http://www.amazon.com/
+ Connecting to www.amazon.com (www.amazon.com)|72.21.215.232|:80...
+ connected.
+ HTTP request sent, awaiting response...
+ ==================================================
+ -----Original Message-----
+ From: Outages-discussion [mailto:outages-discussion-bounces at outages.org] On
+ Behalf Of Frank Bulk (iname.com)
+ Sent: Friday, May 10, 2013 12:19 PM
+ Did anyone else see access issues to amazon.com down from 8:50 am to 9:04
+ am, and then again from 9:09 am until 9:19 am (Central)?  I was getting
+ "HTTP/1.1 503 Service Unavailable".  Their dashboard only shows an issue
+ with their Flexible Payments Service.
+ Frank
+ nagios:/# tcptraceroute www.amazon.com
+ Selected device eth0.3, address 96.31.0.5, port 50070 for outgoing packets
+ Tracing the path to www.amazon.com (72.21.194.212) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.260 ms  0.201 ms  0.181
+ ms
+  2  sxct.movl.mtcnet.net (167.142.156.194)  0.207 ms  0.131 ms  0.126 ms
+  3  premier.movl-mlx.fbnt.netins.net (173.215.60.1)  1.991 ms  1.901 ms
+ 1.961 ms
+  4  ins-kb1-te-13-2-220.kmrr.netins.net (167.142.64.253)  7.540 ms  7.562 ms
+ 7.620 ms
+  5  ins-kc2-et-8-3.kmrr.netins.net (167.142.67.37)  9.234 ms  9.178 ms
+ 9.233 ms
+  6  ins-dc1-po20.desm.netins.net (167.142.67.29)  9.192 ms  9.131 ms  9.215
+ ms
+  7  te-3-3.car2.KansasCity1.Level3.net (4.53.34.113)  15.605 ms  15.585 ms
+ 15.560 ms
+  8  ae-11-11.car1.KansasCity1.Level3.net (4.69.135.233)  57.692 ms  57.626
+ ms  57.515 ms
+  9  ae-5-5.ebr2.Dallas1.Level3.net (4.69.135.230)  57.467 ms  57.384 ms
+ 57.397 ms
+ 10  ae-82-82.csw3.Dallas1.Level3.net (4.69.151.153)  57.274 ms  57.169 ms
+ 57.271 ms
+ 11  ae-83-83.ebr3.Dallas1.Level3.net (4.69.151.158)  57.420 ms  57.416 ms
+ 57.881 ms
+ 12  ae-7-7.ebr3.Atlanta2.Level3.net (4.69.134.22)  57.137 ms  57.120 ms
+ 57.146 ms
+ 13  ae-2-2.ebr1.Washington1.Level3.net (4.69.132.86)  57.510 ms  57.610 ms
+ 57.544 ms
+ 14  ae-91-91.csw4.Washington1.Level3.net (4.69.134.142)  57.716 ms  57.613
+ ms
+     ae-81-81.csw3.Washington1.Level3.net (4.69.134.138)  58.287 ms
+ 15  ae-4-90.edge2.Washington1.Level3.net (4.69.149.206)  57.111 ms  56.997
+ ms  57.492 ms
+ 16  AMAZON.COM.edge2.Washington1.Level3.net (4.79.22.86)  57.629 ms  57.784
+ ms  57.705 ms
+ 17  72.21.220.145  58.537 ms  58.471 ms  58.650 ms
+ 18  72.21.222.139  58.438 ms  71.582 ms  58.461 ms
+ 19  205.251.248.3  59.257 ms  59.249 ms  59.251 ms
+ 20  205.251.248.9  59.904 ms  60.060 ms  60.509 ms
+ 21  72.21.194.212 [open]  58.633 ms  58.522 ms  58.677 ms
+ nagios:/#
+ _______________________________________________
+ Outages-discussion mailing list
+ Outages-discussion at outages.org
+ https://puck.nether.net/mailman/listinfo/outages-discussion
+###############################################################
+END
+###############################################################
+
+###############################################################
+Amazon.com Down
+###############################################################
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/6cee2437/attachment.html>
+ It's not down, it's just "unavailable while we make some improvements to
+ our service".
+ Or at least, that's what the page I get when I go to it now shows.
+   Scott
+ On Mon, Aug 19, 2013 at 12:02 PM, Steph_ en <steph_en at hotmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/6640d561/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Amazon.com is down...
+###############################################################
+ Down for me in SC...
+ And this shows down too...
+ http://www.downforeveryoneorjustme.com/www.amazon.com
+ could this be a bigger issue somewhere?
+ Jim McBurnett
+ CCNP, CCNP-Voice, CCDA
+ Senior Network Engineer
+ (864) 473-1200
+ jim at tgasolutions.com<mailto:jim at tgasolutions.com>
+ [cid:image001.png at 01CE9CED.89E15030]
+ Managing IT with Integrity
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/cdcd5111/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 11187 bytes
+ Desc: image001.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/cdcd5111/attachment-0001.png>
+ www.amazon.com is down for me in Thailand although amazon.co.uk is 
+ working ok
+ On 20/08/2013 02:05, Jim McBurnett wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/24a346e7/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/png
+ Size: 11187 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/24a346e7/attachment.png>
+ It's true, I did get a message about it being down for 'service
+ improvements' and now I am getting an HTTP 500.
+ Location: Central Wisconsin
+ Thanks,
+ -Anthony
+ On Mon, Aug 19, 2013 at 2:05 PM, Jim McBurnett <jim at tgasolutions.com> wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/45b1a590/attachment-0001.html>
+ Is now returning an error message:
+     Oops!
+ We're very sorry, but we're having trouble doing what you just asked us to 
+ do. Please give us another chance--click the Back button on your browser and 
+ try your request again. Or start from the beginning on our homepage 
+ <http://www.amazon.com/>.
+ This was from accessing their home page...
+ Chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/cde5868e/attachment.html>
+ See also:
+ http://gigaom.com/2013/08/19/amazons-u-s-front-end-web-site-is-down/
+ - ferg
+ On Mon, Aug 19, 2013 at 12:05 PM, Jim McBurnett <jim at tgasolutions.com>wrote:
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+  fergdawgster(at)gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/51c50847/attachment.html>
+ Sure seems that way.
+ Can't get to it from PA
+ On Mon, Aug 19, 2013 at 3:05 PM, Jim McBurnett <jim at tgasolutions.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/b68ff5f3/attachment.html>
+  <CAAdV5S7SqD0o5BV2GqHw+SJU2m0COat+NaA7Y7wwT4hgctn9Dg@mail.gmail.com>
+ Perhaps related:
+ 12:11 PM PDT We are investigating increased API error rates and
+ latencies for tagging related API calls in the US-EAST-1 region.
+ http://status.aws.amazon.com/
+ -- 
+ staticsafe
+ O< ascii ribbon campaign - stop html mail - www.asciiribbon.org
+ Please don't top post.
+ Please don't CC! I'm subscribed to whatever list I just posted on.
+ They are even reporting it on CNBC...
+ "Temporarily down while improvements are made. Will be open for business
+ again soon"
+ Improvements... Mmhmm...
+ On Aug 19, 2013 3:16 PM, "Jim McBurnett" <jim at tgasolutions.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/6af7a0ae/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 11187 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/6af7a0ae/attachment-0001.png>
+  <52126F35.9060007@axint.net>
+ Back up for me now.
+   Scott
+ On Mon, Aug 19, 2013 at 12:17 PM, Chris Stone <cstone at axint.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/175ca8fc/attachment-0001.html>
+  <CAHnTTw5Fcujn0OOV1OSUtdwj_m1VD2+v5XRwmG3mz2bMkE-rDw@mail.gmail.com>
+ Working fine in Oregon now.
+ On Mon, Aug 19, 2013 at 12:21 PM, Doug McClelland <doug.mcclelland at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/a0502d13/attachment.html>
+  <CAHnTTw5Fcujn0OOV1OSUtdwj_m1VD2+v5XRwmG3mz2bMkE-rDw@mail.gmail.com>
+ On Mon, Aug 19, 2013 at 12:21 PM, Doug McClelland <doug.mcclelland at gmail.com
+ When I was in Amazon network engineering we called that the "Gone Fishing"
+ page. Basic static server for when the DB takes a crap.  Of course that was
+ back in 2000 when Gone Fishing was a single 600MHz Pent 3 box running BSD
+ and Apache.  I'm sure it's a bit more complex setup now ;)
+ --
+ Joe Hamelin, W7COM, Tulalip, WA, 360-474-7474
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/3f3c9ec0/attachment.html>
+  <CAAdV5S7SqD0o5BV2GqHw+SJU2m0COat+NaA7Y7wwT4hgctn9Dg@mail.gmail.com>
+  <20130819191826.GE19173@uriel.asininetech.com>
+ Yep.. up here too... interesting that it bounced like that....
+ Jim
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of staticsafe
+ Sent: Monday, August 19, 2013 3:18 PM
+ Perhaps related:
+ 12:11 PM PDT We are investigating increased API error rates and
+ latencies for tagging related API calls in the US-EAST-1 region.
+ http://status.aws.amazon.com/
+ --
+ staticsafe
+ O< ascii ribbon campaign - stop html mail - www.asciiribbon.org<http://www.asciiribbon.org>
+ Please don't top post.
+ Please don't CC! I'm subscribed to whatever list I just posted on.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/953d22a3/attachment.html>
+  <CAHnTTw5Fcujn0OOV1OSUtdwj_m1VD2+v5XRwmG3mz2bMkE-rDw@mail.gmail.com>
+ "Temporarily down while improvements are made. Will be open for business
+ again soon"
+ Improvements meaning that they finally decided that the cloud sucks and
+ isn?t ready for prime time?
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com
+ (W) www.esi-estech.com
+ *From:* Outages [mailto:outages-bounces at outages.org] *On Behalf Of *Doug
+ McClelland
+ *Sent:* Monday, August 19, 2013 12:21 PM
+ *Cc:* outages at outages.org
+ *Subject:* Re: [outages] Amazon.com is down...
+ They are even reporting it on CNBC...
+ "Temporarily down while improvements are made. Will be open for business
+ again soon"
+ Improvements... Mmhmm...
+ On Aug 19, 2013 3:16 PM, "Jim McBurnett" <jim at tgasolutions.com> wrote:
+ Down for me in SC?
+ And this shows down too?
+ http://www.downforeveryoneorjustme.com/www.amazon.com
+ could this be a bigger issue somewhere?
+ Jim McBurnett
+ CCNP, CCNP-Voice, CCDA
+ Senior Network Engineer
+ (864) 473-1200
+ jim at tgasolutions.com
+ [image: Description: Description: TGA(L)Blend]
+ Managing* IT* with Integrity
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/1706379c/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 11187 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/1706379c/attachment-0001.png>
+ Out for me here to in the Phoenix area.
+ PING www.amazon.com (72.21.215.232): 56 data bytes
+ Request timeout for icmp_seq 0
+ Request timeout for icmp_seq 1
+ Request timeout for icmp_seq 2
+ Request timeout for icmp_seq 3
+ Request timeout for icmp_seq 4
+ Request timeout for icmp_seq 5
+ cvRequest timeout for icmp_seq 6
+ Request timeout for icmp_seq 7
+ Request timeout for icmp_seq 8
+ Brandon Stevens | Systems Analyst | Florence Hospital
+ 4545 N Hunt Highway | Florence | AZ | 85132
+ FHA Help Desk x4888 | Direct Dial 520.424.2562
+ From: Neil <neil at wsin.net<mailto:neil at wsin.net>>
+ Date: Monday, August 19, 2013 12:11 PM
+ www.amazon.com<http://www.amazon.com> is down for me in Thailand although amazon.co.uk is working ok
+ On 20/08/2013 02:05, Jim McBurnett wrote:
+ Down for me in SC?
+ And this shows down too?
+ http://www.downforeveryoneorjustme.com/www.amazon.com
+ could this be a bigger issue somewhere?
+ Jim McBurnett
+ CCNP, CCNP-Voice, CCDA
+ Senior Network Engineer
+ (864) 473-1200
+ jim at tgasolutions.com<mailto:jim at tgasolutions.com>
+ [Description:              Description: TGA(L)Blend]
+ Managing IT with Integrity
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>https://puck.nether.net/mailman/listinfo/outages
+ ---------
+ IMPORTANT WARNING: This message is intended for the use of the person or entity
+ to which it is addressed and may contain information that is privileged and
+ confidential, the disclosure of which is governed by applicable law. If the
+ reader of this message is not the intended recipient, or the employee or agent
+ responsible to deliver it to the intended recipient, you are hereby notified
+ that any dissemination, distribution or copying of this information is STRICTLY
+ PROHIBITED. If you have received this message by error, please notify the sender
+ immediately and destroy the related message. Because e-mail can be altered
+ electronically, the integrity of this communication cannot be guaranteed.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/d8408f39/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: ATT00001.png
+ Type: image/png
+ Size: 11187 bytes
+ Desc: ATT00001.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130819/d8408f39/attachment.png>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bandwidth.com Denver POP VoIP call failures
+###############################################################
+ -------- Original Message --------
+ Subject:     Bandwidth (P2) Service Impairment - Dash Global - Initial
+ Date:     Tue, 20 Aug 2013 16:23:09 +0000
+ From:     Bandwidth NOC <bwcoutagenotification at bandwidth.com>
+ Good Day,
+ We are experiencing indications of a Network Impairment Issue on the 
+ Bandwidth network. If you determine you are having any issues, please open a 
+ ticket and our NOC team will assess and determine if it is related to the 
+ following issue:
+ *Initial:*
+ Our Denver SBC is experiencing issues currently. Currently it appears to not 
+ be accepting calls and should be failing calls over to our Atlanta POP. We 
+ are currently working to get this issue resolved as soon as possible. This 
+ is only affecting our Denver site, Atlanta is up and functioning properly.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/4547c5db/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bandwidth.com VoIP outage update
+###############################################################
+ *Update:*
+ The Denver SBC is processing calls again, we are still in the process of 
+ working on it. You may experience some audio quality issues in the meantime. 
+ More updates will follow.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/3e9e231e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bandwidth.com VoIP outage update for Denver POP
+###############################################################
+ We are experiencing indications of a Network Impairment Issue on the 
+ Bandwidth network. If you determine you are having any issues, please open a 
+ ticket and our NOC team will assess and determine if it is related to the 
+ following issue:
+ *Update:*
+ Currently we believe service levels have been restored, however we will be 
+ monitoring for the next 30 minutes to verify stability.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/3670422f/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Update: Bandwidth.com VoIP issue on Denver POP
+###############################################################
+ We are experiencing indications of a Network Impairment Issue on the 
+ Bandwidth network. If you determine you are having any issues, please open a 
+ ticket and our NOC team will assess and determine if it is related to the 
+ following issue:
+ *Update:*
+ We are still experiencing issues with the Denver SBC. Bandwidth engineering 
+ currently investigating.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/28f0eb4b/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bandwidth (P2) Service Impairment - Dash Global - Final
+###############################################################
+ *Final Update:*
+ Bandwidth reports that all services to the network have been restored.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130820/e8aab5b9/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Feedly borked?
+###############################################################
+ Getting no content at this moment. I am a "lifetime" Feedly Pro user,
+ and yes, I have a message out to them on status.
+ But figured it might be worth asking others who use Feedly if they are
+ experiencing the same thing.
+ Thanks,
+ - ferg
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+  fergdawgster(at)gmail.com
+ Seems to be back now, but was definitely borked there for a while. :-)
+ - ferg
+ On Thu, Aug 22, 2013 at 6:43 PM, Paul Ferguson <fergdawgster at gmail.com> wrote:
+ -- 
+ "Fergie", a.k.a. Paul Ferguson
+  fergdawgster(at)gmail.com
+ Paul Ferguson <fergdawgster at gmail.com> wrote:
+ >But figured it might be worth asking others who use Feedly if they are
+ >experiencing the same thing.
+ I just pulled 1400+ feed updates into d7 Reader Pro for Android, marked a bunch read, etc. with no problem, FWIW. 
+ ---------------------------------------
+ Roland Dobbins <rdobbins at arbor.net>
+###############################################################
+END
+###############################################################
+
+###############################################################
+HostGator down?
+###############################################################
+ Anyone noticing HostGator down again?  We're contacting them about our
+ server -- but trying to figure out if it's wider spread or not ? especially
+ given the outage from a couple of weeks ago during the "upgrade".
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130825/bb7b4df5/attachment.html>
+ On Sun, Aug 25, 2013 at 04:24:04PM -0700, Neil Ticktin wrote:
+ I'm not having any issues reaching (via SSH or HTTP) my friend's
+ HostGator-hosted stuff within 192.232.192.0/19 (if you check ARIN
+ you'll see this is labelled "HGBLOCK-8" despite the OrgName being
+ something odd; HG = HostGator).  ICMP also works:
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%     7     7   0.3   0.3   0.2   0.4
+  2. c-76-102-12-1.hsd1.ca.comcast.net            0.0%     7     7  27.9  24.9  20.4  31.9
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%     7     7   9.4  10.8   9.4  14.0
+  4. te-1-1-0-2-ar01.sfsutro.ca.sfba.comcast.net  0.0%     6     6  12.8  12.9   9.8  15.3
+  5. he-3-7-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%     6     6  12.2  14.6  12.2  19.3
+  6. 68.86.89.210                                 0.0%     6     6  23.3  22.2  20.6  23.8
+  7. pos-0-0-0-0-pe01.600wseventh.ca.ibone.comca  0.0%     6     6  24.5  23.5  20.9  26.4
+  8. 173.167.57.138                               0.0%     6     6  25.5  24.4  22.1  26.1
+  9. ae0-110g.cr1.lax1.us.nlayer.net              0.0%     6     6  19.8  21.3  18.6  24.9
+ 10. ae4-50g.cr1.lax2.us.nlayer.net               0.0%     6     6  19.9  21.0  19.6  25.1
+ 11. ae2-50g.ar2.lax2.us.nlayer.net               0.0%     6     6  20.5  22.2  20.5  24.9
+ 12. as11798.xe-2-0-7.ar2.lax2.us.nlayer.net      0.0%     6     6  73.1  73.8  69.3  77.3
+ 13. ve56.ar04.prov.acedc.net                     0.0%     6     6  74.9  58.8  43.4  87.5
+ 14. rtr-a.unifiedlayer.com                       0.0%     6     6  43.4  69.5  42.4 185.4
+ 15. 192.232.223.XXX                              0.0%     6     6  44.0  43.8  42.1  46.7
+ So the issue may be specific to just your server, or some part of
+ HostGator -- but definitely not "the whole thing".
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+ HostGator down?
+###############################################################
+ It appears to not be down -- but suddenly, every one of my networks is
+ blocked.  (Multiple IP blocks).  I can see our server is up when I go over
+ cellular.  The IPs are not listed in our box's firewall.
+ Neils-MacBook-Pro-Retina:~ neil$ traceroute forums.applecentral.com
+ traceroute to hostgator.xplain.com (142.4.22.215), 64 hops max, 52 byte
+ packets
+  1  10.20.30.1 (10.20.30.1)  1.824 ms  10.707 ms  4.159 ms
+  2  cpe-76-91-96-1.socal.res.rr.com (76.91.96.1)  194.445 ms  26.414 ms
+  31.556 ms
+  3  tge7-1.wlvgcabn-cer01.socal.rr.com (76.166.19.161)  11.092 ms  15.447
+ ms  13.650 ms
+  4  tge0-8-0-9.vnnycajz-ccr01.socal.rr.com (72.129.13.98)  17.038 ms
+  23.493 ms  19.795 ms
+  5  agg29.lsancarc-ccr01.socal.rr.com (72.129.13.0)  16.988 ms  20.820 ms
+  20.948 ms
+  6  107.14.19.32 (107.14.19.32)  22.480 ms  18.375 ms  19.711 ms
+  7  * ae0.pr1.lax10.tbone.rr.com (107.14.19.50)  84.856 ms *
+  8  xe-2-0-4.ar1.lax1.us.nlayer.net (69.31.127.73)  1660.474 ms *  862.011
+ ms
+  9  ae0-110g.cr1.lax1.us.nlayer.net (69.31.127.141)  40.289 ms
+     ae0-110g.cr1.lax1.us.nlayer.net (69.31.127.137)  16.043 ms
+     ae0-110g.cr1.lax1.us.nlayer.net (69.31.127.141)  16.887 ms
+ 10  ae4-50g.cr1.lax2.us.nlayer.net (69.31.124.114)  17.750 ms  20.795 ms
+  18.714 ms
+ 11  ae2-50g.ar2.lax2.us.nlayer.net (69.31.127.89)  18.248 ms  35.168 ms
+  24.975 ms
+ 12  as11798.xe-2-0-7.ar2.lax2.us.nlayer.net (69.31.127.214)  21.488 ms
+  30.395 ms  31.875 ms
+ 13  ve56.ar04.prov.acedc.net (199.58.196.81)  86.739 ms  40.538 ms  58.246
+ ms
+ 14  rtr-a.unifiedlayer.com (199.58.199.114)  38.192 ms  37.956 ms  36.955 ms
+ 15  mlx02.prov.unifiedlayer.com (69.195.64.42)  43.098 ms  36.830 ms
+  38.708 ms
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ 19  * * *
+ 20  * *^C
+ Neils-MacBook-Pro-Retina:~ neil$
+ ---------- Forwarded message ----------
+ From: Jason Kline <teile1 at gmail.com>
+ Date: Sun, Aug 25, 2013 at 4:43 PM
+ Subject: Re: [outages] HostGator down?
+ Got any trace routes? Which location is your server located?
+ *Sent from my Verizon Wireless 4G LTE DROID*
+ Neil Ticktin <neil-lists at xplain.com> wrote:
+ Anyone noticing HostGator down again?  We're contacting them about our
+ server -- but trying to figure out if it's wider spread or not ? especially
+ given the outage from a couple of weeks ago during the "upgrade".
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130825/bbf643d7/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+nytime.com dns borked
+###############################################################
+ I think someone hijacked NYTimes dns...
+ http://www.chicagotribune.com/business/technology/chi-new-york-times-website-20130827,0,3415996.story
+ Non-authoritative answer:
+ Name:    nytimes.com
+ Address: 141.105.64.37
+ ~~~
+ dig any nytimes.com
+ ; <<>> DiG 9.8.3-P1 <<>> any nytimes.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15335
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 2
+ ;; QUESTION SECTION:
+ ;nytimes.com.            IN    ANY
+ ;; ANSWER SECTION:
+ nytimes.com.        11560    IN    A    141.105.64.37
+ nytimes.com.        5    IN    NS    ns1.syrianelectronicarmy.com.
+ nytimes.com.        5    IN    NS    ns2.syrianelectronicarmy.com.
+ ;; ADDITIONAL SECTION:
+ ns1.syrianelectronicarmy.com. 47 IN    A    141.105.64.37
+ ns2.syrianelectronicarmy.com. 47 IN    A    141.105.64.37
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/b7b4761f/attachment.html>
+ Confirmed hijacked, but I see different results?
+ $ dig any nytimes.com
+ ; <<>> DiG 9.8.3-P1 <<>> any nytimes.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9289
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 2, ADDITIONAL: 1
+ ;; QUESTION SECTION:
+ ;nytimes.com.			IN	ANY
+ ;; ANSWER SECTION:
+ nytimes.com.		86400	IN	SOA	ns5.boxsecured.com. ssuliman.hotmail.co.uk. 2013082703 86400 7200 3600000 86400
+ nytimes.com.		14400	IN	MX	0 nytimes.com.
+ nytimes.com.		14356	IN	A	212.1.211.121
+ nytimes.com.		86400	IN	NS	ns5.boxsecured.com.
+ nytimes.com.		86400	IN	NS	ns6.boxsecured.com.
+ ;; AUTHORITY SECTION:
+ nytimes.com.		86400	IN	NS	ns6.boxsecured.com.
+ nytimes.com.		86400	IN	NS	ns5.boxsecured.com.
+ ;; ADDITIONAL SECTION:
+ nytimes.com.		14356	IN	A	212.1.211.121
+ ;; Query time: 93 msec
+ ;; SERVER: 10.10.10.19#53(10.10.10.19)
+ ;; WHEN: Tue Aug 27 14:17:37 2013
+ ;; MSG SIZE  rcvd: 210
+ On Aug 27, 2013, at 2:09 PM, Grant Ridder <shortdudey123 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/c295fa33/attachment.html>
+ On Tue, Aug 27, 2013 at 02:09:26PM -0700, Grant Ridder wrote:
+ Seems to have changed NSes again (still compromised, it seems):
+ ; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> +trace nytimes.com
+ ;; global options: +cmd
+ .                       518400  IN      NS      d.root-servers.net.
+ .                       518400  IN      NS      a.root-servers.net.
+ .                       518400  IN      NS      e.root-servers.net.
+ .                       518400  IN      NS      f.root-servers.net.
+ .                       518400  IN      NS      i.root-servers.net.
+ .                       518400  IN      NS      j.root-servers.net.
+ .                       518400  IN      NS      b.root-servers.net.
+ .                       518400  IN      NS      k.root-servers.net.
+ .                       518400  IN      NS      c.root-servers.net.
+ .                       518400  IN      NS      g.root-servers.net.
+ .                       518400  IN      NS      h.root-servers.net.
+ .                       518400  IN      NS      m.root-servers.net.
+ .                       518400  IN      NS      l.root-servers.net.
+ ;; Received 512 bytes from ::1#53(::1) in 7 ms
+ com.                    172800  IN      NS      a.gtld-servers.net.
+ com.                    172800  IN      NS      b.gtld-servers.net.
+ com.                    172800  IN      NS      c.gtld-servers.net.
+ com.                    172800  IN      NS      d.gtld-servers.net.
+ com.                    172800  IN      NS      e.gtld-servers.net.
+ com.                    172800  IN      NS      f.gtld-servers.net.
+ com.                    172800  IN      NS      g.gtld-servers.net.
+ com.                    172800  IN      NS      h.gtld-servers.net.
+ com.                    172800  IN      NS      i.gtld-servers.net.
+ com.                    172800  IN      NS      j.gtld-servers.net.
+ com.                    172800  IN      NS      k.gtld-servers.net.
+ com.                    172800  IN      NS      l.gtld-servers.net.
+ com.                    172800  IN      NS      m.gtld-servers.net.
+ ;; Received 489 bytes from 2001:500:1::803f:235#53(2001:500:1::803f:235)
+ in 132 ms
+ nytimes.com.            172800  IN      NS      ns27.boxsecured.com.
+ nytimes.com.            172800  IN      NS      ns28.boxsecured.com.
+ ;; Received 110 bytes from 2001:503:a83e::2:30#53(2001:503:a83e::2:30)
+ in 110 ms
+ nytimes.com.            14400   IN      A       212.1.211.121
+ nytimes.com.            86400   IN      NS      ns6.boxsecured.com.
+ nytimes.com.            86400   IN      NS      ns5.boxsecured.com.
+ ;; Received 92 bytes from 212.1.211.126#53(212.1.211.126) in 37 ms
+ -- 
+ staticsafe
+ O< ascii ribbon campaign - stop html mail - www.asciiribbon.org
+ Please don't top post.
+ Please don't CC! I'm subscribed to whatever list I just posted on.
+ NYT is tweeting out their links with the IP 170.149.168.130 so they are
+ still reachable. :)
+ On 27 August 2013 23:09, Grant Ridder <shortdudey123 at gmail.com> wrote:
+ -- 
+ blaze your trail
+ -- 
+ Dani?l W. Crompton <daniel.crompton at gmail.com>
+ <http://specialbrands.net/>
+ <http://specialbrands.net/>
+ http://specialbrands.net/
+        <http://twitter.com/webhat>
+ <http://www.facebook.com/webhat><http://plancast.com/webhat><http://www.linkedin.com/in/redhat>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/2606193b/attachment-0001.html>
+  <65B9998F-AD70-4103-875E-06A12E64F75E@thrashyour.com>
+ It's been all over the news for hours; yes, it's happening, yes, it appears
+ to be the Syrian Electronic Army that started it, not clear what the status
+ is now (things are bouncing somewhat).
+ On Tue, Aug 27, 2013 at 2:18 PM, John Kinsella <jlk at thrashyour.com> wrote:
+ -- 
+ -george william herbert
+ george.herbert at gmail.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/04129e57/attachment.html>
+ On Aug 27, 2013, at 4:09 PM, Grant Ridder <shortdudey123 at gmail.com> wrote:
+ ;; ANSWER SECTION:
+ nytimes.com.		10699	IN	A	141.105.64.37
+ nytimes.com.		10699	IN	MX	0 nytimes.com.
+ nytimes.com.		82699	IN	NS	ns1.syrianelectronicarmy.com.
+ nytimes.com.		82699	IN	NS	ns2.syrianelectronicarmy.com.
+ nytimes.com.		86399	IN	SOA	ns5.boxsecured.com. ssuliman.hotmail.co.uk. 2013082703 86400 7200 3600000 86400
+ ;; ANSWER SECTION:
+ nytimes.com.		10897	IN	MX	0 nytimes.com.
+ nytimes.com.		18097	IN	SOA	ns1.syrianelectronicarmy.com. admin.sea.sy. 2013082701 86400 7200 3600000 86400
+ nytimes.com.		18097	IN	NS	ns2.syrianelectronicarmy.com.
+ nytimes.com.		18097	IN	NS	ns1.syrianelectronicarmy.com.
+ nytimes.com.		10897	IN	A	141.105.64.37
+ ;; ANSWER SECTION:
+ nytimes.com.		154278	IN	NS	dns.sea1.nytimes.com.
+ nytimes.com.		154278	IN	NS	dns.ewr1.nytimes.com.
+ As for what nytimes.com is resolving to, from trying a few places I see:
+ 141.105.64.37  - 141.105.64.0/21 AS49335  (NCONNECT), where Shorefront Media, Inc/Navitel Rusconnect is registered for 141.105.64.0/26
+ 170.149.172.130 - 170.149.0.0/16  (New York Times)
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/34efb73c/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 4891 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/34efb73c/attachment-0001.p7s>
+  <20130827212006.GB21349@uriel.asininetech.com>
+ On Tue, Aug 27, 2013 at 05:20:06PM -0400,
+  staticsafe <me at staticsafe.ca> wrote 
+  a message of 86 lines which said:
+ Just changed again (from boxsecured.com to nytimes.com), apparently
+ for the proper ones.
+  <CALKmEuAKfcfMNww0E32Ogay6CdtE86KO5xosRgCdjnH88RVdUw@mail.gmail.com>
+ Predicting that it's more widespread than just nytimes.com - compare whois
+ of twimg.com and nytimes.com.
+ On Tue, Aug 27, 2013 at 2:27 PM, Dani?l W. Crompton <
+ daniel.crompton at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/0c2a0abe/attachment.html>
+  <20130827212006.GB21349@uriel.asininetech.com>
+ this is what I am seeing:
+ $ dig any nytimes.com
+ ; <<>> DiG 9.8.2rc1-RedHat-9.8.2-0.10.rc1.el6 <<>> any nytimes.com
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55086
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 2, ADDITIONAL: 2
+ ;; QUESTION SECTION:
+ ;nytimes.com. IN ANY
+ ;; ANSWER SECTION:
+ nytimes.com. 9945 IN A 141.105.64.37
+ nytimes.com. 81945 IN NS ns1.syrianelectronicarmy.com.
+ nytimes.com. 81945 IN NS ns2.syrianelectronicarmy.com.
+ ;; AUTHORITY SECTION:
+ nytimes.com. 81945 IN NS ns2.syrianelectronicarmy.com.
+ nytimes.com. 81945 IN NS ns1.syrianelectronicarmy.com.
+ ;; ADDITIONAL SECTION:
+ ns1.syrianelectronicarmy.com. 269 IN A 141.105.64.37
+ ns2.syrianelectronicarmy.com. 215 IN A 141.105.64.37
+ ;; Query time: 1 msec
+ ;; SERVER: 10.10.89.245#53(10.10.89.245)
+ ;; WHEN: Tue Aug 27 17:42:34 2013
+ ;; MSG SIZE  rcvd: 162
+ On Tue, Aug 27, 2013 at 5:20 PM, staticsafe <me at staticsafe.ca> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/d5e1b7fb/attachment-0001.html>
+  <CALKmEuAKfcfMNww0E32Ogay6CdtE86KO5xosRgCdjnH88RVdUw@mail.gmail.com>
+  <CAPWg56+fyU9G7WGPtZ-8_HcQU-=xoQ5M4+49Zsn0ahkNBUUrNg@mail.gmail.com>
+ On Tue, Aug 27, 2013 at 02:43:51PM -0700, Alex Buie wrote:
+ https://plus.google.com/u/0/+TheNextWeb/posts/Y62sf1vDqcG
+ -- 
+ staticsafe
+ O< ascii ribbon campaign - stop html mail - www.asciiribbon.org
+ Please don't top post.
+ Please don't CC! I'm subscribed to whatever list I just posted on.
+  <CALKmEuAKfcfMNww0E32Ogay6CdtE86KO5xosRgCdjnH88RVdUw@mail.gmail.com>
+  <CAPWg56+fyU9G7WGPtZ-8_HcQU-=xoQ5M4+49Zsn0ahkNBUUrNg@mail.gmail.com>
+ On Aug 27, 2013, at 2:43 PM, Alex Buie <alex.buie at frozenfeline.net> wrote:
+ Twitter got hit as well.  Didn't observe it myself, but saw conversation in which people debugged and found the hijacking.
+                                 -Bill
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 841 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/4e0462f1/attachment.sig>
+  <CALKmEuAKfcfMNww0E32Ogay6CdtE86KO5xosRgCdjnH88RVdUw@mail.gmail.com>
+  <CAPWg56+fyU9G7WGPtZ-8_HcQU-=xoQ5M4+49Zsn0ahkNBUUrNg@mail.gmail.com>
+  <B485C6B6-36CB-4CF5-83FD-5290400EF062@pch.net>
+ Think NYT is trying to regain control back but forgot their glue. :-(
+ nytimes.com.            172800  IN      NS      dns.ewr1.nytimes.com.
+ nytimes.com.            172800  IN      NS      dns.sea1.nytimes.com.
+ ;; Received 107 bytes from 192.48.79.30#53(j.gtld-servers.net) in 121 ms
+ dig: couldn't get address for 'dns.ewr1.nytimes.com': not found
+ ../C
+ On Tue, Aug 27, 2013 at 2:55 PM, Bill Woodcock <woody at pch.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130827/43efebf6/attachment.html>
+  <CALKmEuAKfcfMNww0E32Ogay6CdtE86KO5xosRgCdjnH88RVdUw@mail.gmail.com>
+  <CAPWg56+fyU9G7WGPtZ-8_HcQU-=xoQ5M4+49Zsn0ahkNBUUrNg@mail.gmail.com>
+  <B485C6B6-36CB-4CF5-83FD-5290400EF062@pch.net>
+  <CAAY2EsPNqg5R6MKYsPP-0Y-8KzVJzj4VsVARF+GoMV0yNMOR6g@mail.gmail.com>
+ On Tue, Aug 27, 2013 at 03:11:58PM -0700, Curtis Doty wrote:
+ What server did you query?  If you're using the cached NS records for
+ nytimes.com, ...
+  ;; AUTHORITY SECTION:
+  nytimes.com.            2D IN NS        dns.ewr1.nytimes.com.
+  nytimes.com.            2D IN NS        dns.sea1.nytimes.com.
+  ;; ADDITIONAL SECTION:
+  dns.ewr1.nytimes.com.   2D IN A         170.149.168.134
+  dns.sea1.nytimes.com.   2D IN A         170.149.173.133
+ But from my caching server:
+  ;; QUESTION SECTION:
+  ;nytimes.com.                   IN      NS
+  ;; ANSWER SECTION:
+  nytimes.com.            76063   IN      NS  ns2.syrianelectronicarmy.com.
+  nytimes.com.            76063   IN      NS  ns1.syrianelectronicarmy.com.
+ ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 351
+      -- Brett
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Peering with Verizon/MCI
+###############################################################
+ Anyone else seeing huge latency between level 3 and Verizon this morning? I am have complaints of voice quality and call failures tracing to certain locations my times start jumping up.
+ traceroute 98.109.171.43
+ Type escape sequence to abort.
+ Tracing the route to static-98-109-171-43.nwrknj.fios.verizon.net (98.109.171.43)
+   1 4 msec 0 msec 0 msec
+   2 ge-6-18.car1.LasVegas1.Level3.net (4.71.176.101) 68 msec 4 msec 4 msec
+   3 ae-2-5.bar1.LasVegas1.Level3.net (4.69.148.130) [MPLS: Label 306688 Exp 0] 0 msec 0 msec 4 msec
+   4 ae-0-11.bar2.LasVegas1.Level3.net (4.69.148.126) [MPLS: Label 303936 Exp 0] 0 msec 0 msec 0 msec
+   5 ae-6-6.ebr1.Denver1.Level3.net (4.69.148.2) [MPLS: Label 1948 Exp 0] 36 msec 36 msec 32 msec
+   6 ae-2-2.ebr2.Dallas1.Level3.net (4.69.132.106) [MPLS: Label 1935 Exp 0] 36 msec 36 msec 32 msec
+   7 ae-62-62.csw1.Dallas1.Level3.net (4.69.151.129) [MPLS: Label 1921 Exp 0] 36 msec 36 msec
+     ae-92-92.csw4.Dallas1.Level3.net (4.69.151.165) [MPLS: Label 1728 Exp 0] 32 msec
+   8  *
+     4.69.145.82 32 msec *
+   9 MCI-level3-ae.dallas3.level3.net (4.68.62.34) 352 msec
+     mci-level3-30g.dallas3.level3.net (4.68.62.166) 136 msec 420 msec
+ 10 P0-15-0-0.NWRKNJ-LCR-22.verizon-gni.net (130.81.199.17) 384 msec 348 msec
+     P0-4-0-0.NWRKNJ-LCR-22.verizon-gni.net (130.81.22.65) 176 msec
+ 11  *  *  *
+ 12  *  *
+     static-98-109-171-43.nwrknj.fios.verizon.net (98.109.171.43) 336 msec
+ tracert 98.109.171.43
+ Tracing route to static-98-109-171-43.nwrknj.fios.verizon.net [98.109.171.43]
+ over a maximum of 30 hops:
+   1    <1 ms    <1 ms    <1 ms
+   2     1 ms     1 ms     1 ms
+   3     4 ms     4 ms     4 ms  atlanta2.level3.net
+   4    24 ms    24 ms    24 ms  ae-13-13.car1.atlanta2.level3.net [4.69.151.17]
+   5    26 ms    24 ms    24 ms  vlan52.ebr2.atlanta2.level3.net [4.69.150.126]
+   6    24 ms    24 ms    24 ms  ae-73-73.ebr3.atlanta2.level3.net [4.69.148.253]
+   7    24 ms    24 ms    24 ms  ae-7-7.ebr3.dallas1.level3.net [4.69.134.21]
+   8    24 ms    24 ms    24 ms  ae-83-83.csw3.dallas1.level3.net [4.69.151.157]
+   9    24 ms    24 ms    24 ms  ae-3-80.edge10.dallas1.level3.net [4.69.145.146]
+ 10   332 ms   329 ms     *     mci-level3-ae.dallas3.level3.net [4.68.62.34]
+ 11   341 ms   343 ms   339 ms  p0-4-0-0.nwrknj-lcr-21.verizon-gni.net [130.81.2
+ 2.63]
+ 12     *        *        *     Request timed out.
+ 13   352 ms   356 ms   359 ms  static-98-109-171-43.nwrknj.fios.verizon.net [98
+ .109.171.43]
+ ---
+ Respectfully,
+ Daniel L. Green II
+ Network Engineer
+ Momentum | www.gomomentum.com<http://www.gomomentum.com/>
+ O: 702.933.1545 Ext: 1337
+ W: 702.403.1234
+ F: 702.365.8647
+ Facebook<http://www.facebook.com/MomentumBusiness> | Twitter<https://twitter.com/#!/MomentumTelecom> | LinkedIn<http://www.linkedin.com/company/55869>
+ [Description: Description: Description: Momentum Logo]
+ 8350 S. Durango | Suite 220 | Las Vegas | Nevada | 89113
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/ad5f8c37/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 3860 bytes
+ Desc: image001.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/ad5f8c37/attachment.png>
+ Yea, we're seeing it too.
+ ------------------
+ Aubrey Wells
+ Director | Network Services
+ VocalCloud
+ 888.305.3850
+ support at vocalcloud.com
+ www.vocalcloud.com
+ On Wed, Aug 28, 2013 at 12:23 PM, Daniel Green
+ <dgreen at momentumtelecom.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/7bc6c937/attachment-0001.html>
+ This is being discussed on the NANOG list.
+ http://mailman.nanog.org/pipermail/nanog/2013-August/060642.html
+ On Wed, Aug 28, 2013 at 9:23 AM, Daniel Green <dgreen at momentumtelecom.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/a5bbcb53/attachment.html>
+ I refer you to this thread on NANOG.
+ http://mailman.nanog.org/pipermail/nanog/2013-August/060642.html
+ On Wed, Aug 28, 2013 at 12:23 PM, Daniel Green
+ <dgreen at momentumtelecom.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/81be444e/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+fiber cut - NOLA - Houston
+###############################################################
+ we have confirmed a cut between NOLA on our circuit to Houston.  we are
+ supposed to be on a protected L3 path (same thing happened less than a year
+ ago near Lake Charles, LA) but we are down.  FYI.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130828/9f27d0bb/attachment.html>
+ Centurylink reported the same to me when I called in about one in LA, they
+ said it may be related. I did have over an hour of hold time.
+ On Wed, Aug 28, 2013 at 10:17 PM, Ben Bartsch <uwcableguy at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130829/4444a3b8/attachment.html>
+###############################################################
+END
+###############################################################
+

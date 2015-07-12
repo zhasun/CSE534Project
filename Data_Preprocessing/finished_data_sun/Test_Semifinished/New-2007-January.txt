@@ -1,0 +1,575 @@
+###############################################################
+Setback for Asia Internet Repairs
+###############################################################
+  -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Many thanks to Fergie for this link.
+ Via Yahoo! News (AFP).
+ [snip]
+ Repairs to Asia's slow Internet, damaged by an earthquake that ripped
+ through key undersea data cables, have been postponed because of a major
+ fault on a ship sent to the fix the problem.
+ One of two repair ships that laid anchor in the Luzon Strait between Taiwan
+ and the Philippines above the damaged lines experienced a major fault
+ Saturday, Hong Kong's Office of the Telecommunications Authority said
+ Sunday.
+ The ship is now in Taiwan and will take about seven days to fix, the
+ authority said in a statement, pushing back the estimate for initial
+ repairs to one of the cable systems by a week.
+ [snip]
+ More:
+ http://news.yahoo.com/s/afp/20061231/tc_afp/asiaquakeinternet
+###############################################################
+END
+###############################################################
+
+###############################################################
+Savvis Data Center Suffers Outage
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070102/c7535049/attachment.diff 
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Fergie wrote:
+ - -----------------------------
+ Connectivity matrix is available at. It appears be normal now.
+ http://ipsla.savvis.net/Matrix.jsp?report=L&region=US-US&refresh=60
+ regards,
+ /virendra
+ - --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 this morning...
+###############################################################
+ Any other Level3 customers notice or hear about extreme latency issue(s)
+ around 10 AM mountain time with westcoast connectivity this morning?
+ ______________________________________________________________________
+ Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+ This email has been scanned by the MessageLabs Email Security System.
+ For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+ We did the same as our upstream path from Pakistan to US was via Level3. But
+ they were resolved like after 5 hours.
+ thanks,
+ Shakeel
+ On 1/4/07, Michael.Washington at fitchratings.com <
+ Michael.Washington at fitchratings.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070104/ffcc1132/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+In regards to Savvis outage
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ http://www.pcworld.idg.com.au/index.php/id;87482145
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Frankfurt GBLX to savvis NY latency
+###############################################################
+ started about 3 hours ago...
+ i can see that only from GBLX frankfurt at the moment, other routes to
+ savvis NY works perfect.
+ www.netnoc.net
+ Never mind,
+ it's back to normal.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Equinix Chicago - outages in some cabinets.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Apparently a contractor punched a hole in the roof which caused water to
+ leak through the ceiling, causing power outages to one or two cages on
+ the 6th floor. It appears to the be contained now.
+ regards,
+ /virendra
+ On Fri, 2007-01-05 at 15:24 -0800, virendra rode // wrote:
+ Just how does one get a backhoe up on the roof these days?
+ :-)
+ -Jim P.
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 189 bytes
+ Desc: This is a digitally signed message part
+ Url : http://isotf.org/pipermail/outages/attachments/20070105/8b953b3f/attachment.pgp 
+ Jim Popovitch wrote:
+ >>Apparently a contractor punched a hole in the roof...
+ Google is your friend.
+ http://www.canada.com/edmontonjournal/news/cityplus/story.html?id=ac68c029-51df-4b5e-8090-e8f2b27aae2b
+ http://tinyurl.com/yhovgr
+ -- 
+ Requiescas in pace o email
+ Ex turpi causa non oritur actio
+ http://members.cox.net/larrysheldon/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent issues
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ http://status.cogentco.com/ has a warning.
+ Also, http://www.internetpulse.net/ showing alerts for cogent.
+ Anyone else noticing any slowness?
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone have details on MCI outage yesterday
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070107/3923df1d/attachment.diff 
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Fergie wrote:
+ - -------------------------
+ I thought I heard verizon mentioning that a construction crew trying to
+ replace a utility pole north of Stevens Point damaged the cable. The
+ problem affected long distance and data transmissions such as fax lines
+ and credit card machines.
+ Not sure if this is related.
+ regards,
+ /virendra
+ - --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ 	<45A15730.5040903@gmail.com>
+ I think the Stevens Point outage is a separate incident:
+ 	1.	They claim all services were restored by 5PM CST, but, our
+ 		outage lasted until about 01:30 CST.
+ 	2.	We were told that the utility pole in question was in California.
+ Owen
+ On Jan 7, 2007, at 12:25 PM, virendra rode // wrote:
+ >> Forwarded from the NANOG list.
+ >>
+ >> FYI,
+ >>
+ >> - ferg
+ >>
+ >> [forwarded message]
+ >>
+ >> To: nanog at nanog.org
+ >> From: Owen DeLong <owen at delong.com>
+ >> Subject: Anyone have details on MCI outage yesterday
+ >> Date: Sun, 7 Jan 2007 10:29:01 -0800
+ >>
+ >>
+ >> Yesterday, around 10:00 AM Pacific Time 1/5/07, Kwajalein Atoll  
+ >> lost all
+ >> connectivity to the mainland. We were told this was because MCI  
+ >> "lost 40
+ >> DS-3s due to someone shooting up a telephone pole in California"
+ >>
+ >> This affected Internet, Telephones (although inbound phone calls  
+ >> to the
+ >> islands were possible), and television.
+ >>
+ >> Kwajalein access to the mainlaind is via Satellite to Washington
+ >> connected to
+ >> terrestrial link to Georgia.
+ >>
+ >> The outage lasted more than 12 hours.
+ >>
+ >> It seems odd to me in this day and age that:
+ >>
+ >> 	1.	There wasn't a redundant path for these circuits.
+ >>
+ >> 	2.	It took 12 hours to restore or reroute these circuits.
+ >>
+ >> Any details would be appreciated.
+ >>
+ >> Thanks,
+ >>
+ >> Owen
+ >>
+ >> P.S. For those wondering "Where?" There are excellent resources in
+ >> Wikipedia, but,
+ >> the short answer is Kwajalein Atoll is part of the Marshall Islands
+ >> and is about the
+ >> midpoint on a line from Honolulu to Sydney.  About 9N by 165E.
+ >>
+ >> [snip]
+ >>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/pkcs7-signature
+ Size: 2105 bytes
+ Desc: not available
+ Url : http://isotf.org/pipermail/outages/attachments/20070107/6a9b4834/attachment.bin 
+###############################################################
+END
+###############################################################
+
+###############################################################
+ Cogent issues]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ fyi.
+ - -------- Original Message --------
+ Subject: Re: [Outages] Cogent issues
+ Date: Sun, 07 Jan 2007 19:46:14 +0100
+ From: Gaurav Sabharwal <gaurav at inwire.net>
+ We are seeing issues with traffic going towards Europe. However within
+ US, it is fine.
+ Regards,
+ - - Gaurav
+ on 01/07/2007 07:17 PM virendra rode // said the following:
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ I have been seeing 300ms+ latency from the west coast to
+ Europe. Here is what I got from Cogent's help desk:
+   -----Original Message-----
+   From: Cogent Help Desk [mailto:support at cogentco.com] 
+   Sent: Sunday, January 07, 2007 9:25 AM PST
+   Hello,
+   We are currently expierancing latency over our network 
+   due to a failed card. We have shipped a replacement
+ card 
+   and expect this issue to be resolved by 4:30pm est.
+ Regards,
+ -ansh
+ -----Original Message-----
+ From: virendra rode // [mailto:virendra.rode at gmail.com] 
+ Sent: Sunday, January 07, 2007 12:26 PM
+ Subject: [Outages] [Fwd: Re: Cogent issues]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ fyi.
+ - -------- Original Message --------
+ Subject: Re: [Outages] Cogent issues
+ Date: Sun, 07 Jan 2007 19:46:14 +0100
+ From: Gaurav Sabharwal <gaurav at inwire.net>
+ We are seeing issues with traffic going towards Europe.
+ However within US, it is fine.
+ Regards,
+ - - Gaurav
+ on 01/07/2007 07:17 PM virendra rode // said the
+ following:
+ cogent.
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at isotf.org
+ http://isotf.org/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+[IP] Asia connectivity outages, from the field]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Begin forwarded message:
+ From: "Philip L. Lehman" <p.lehman at iCarnegie.com>
+ Date: January 9, 2007 7:00:02 PM EST
+ Subject: Asia connectivity outages, from the field
+ Dave,
+ [For IP, if of interest.]
+ I've been in southern China (Changsha, in Hunan province) since
+ Sunday (local time).  My observations have been that network
+ connectivity is significantly worse than usual, but is also
+ (unsurprisingly) somewhat time-of-day dependent. I have fairly good
+ success in the early morning; on the other hand, during evening hours
+ (local) it's difficult to connect with servers in the States. There
+ are also, of course, dependence on the particular services needed;
+ some Internet sites appear to be either better connected or have
+ services partly provided out of China, enhancing availability (Google
+ is a notable example of good perceived connectivity).  I also suspect
+ that the phenomenon includes increased network congestion due to a
+ much larger number of retries after failed attempts (to which I find
+ myself contributing, for example hitting the refresh button in hopes
+ of a better result).
+ We're hearing that services are up to the "70%" level (could be true,
+ could be PR) but that repairs have been delayed by a problem with a
+ repair ship and rough weather at sea.
+ Cheers,
+ Philip Lehman
+###############################################################
+END
+###############################################################
+
+###############################################################
+test
+###############################################################
+ Sorry about the noise, just testing
+ -Keith
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070111/e7a741ea/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Quest Problems in Denver
+###############################################################
+ Hi All
+ Can other confirm or deny Quest T1 problems in the Devner, CO area?
+ Have a T1 Provider that has been dropping links like flies.
+ Thanks
+ Barry
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent to DTAG
+###############################################################
+ Anybody else noticing network issues with Cogent's connectivity to DTAG 
+ in LAX?
+ 8  p6-0.core01.lax04.atlas.cogentco.com (154.54.6.242)  35.209 ms 
+ 35.227 ms  34.995 ms
+ 9  dtag.lax01.atlas.cogentco.com (154.54.11.158)  922.306 ms  920.219 ms 
+   899.892 ms
+ Would appreciate if anybody has any inputs on this.
+ Regards,
+ Gaurav
+###############################################################
+END
+###############################################################
+
+###############################################################
+Yet Another Quake Rattles Taipei
+###############################################################
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070116/bfdc8460/attachment.diff 
+ A certain Johnny Cash song comes to mind... As long as the earthquakes
+ stay on the Western side of the Ring of Fire I think we'll be OK .
+ -Mike
+ On 1/15/07, Fergie <fergdawg at netzero.net> wrote:
+ An embedded and charset-unspecified text was scrubbed...
+ Name: not available
+ Url: http://isotf.org/pipermail/outages/attachments/20070116/bd90a9e8/attachment.diff 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent Fiber Cut?
+###############################################################
+ Anyone have any details on a fiber cut between Pittsburgh and Dulles, Va
+ affecting Cogent and possibly others?
+ Charles L. Mills
+ Senior Network Engineer
+ Access Data Corporation
+ 90 Beta Drive
+ Pittsburgh, PA 15238
+ (412) 968-4024
+ cmills at accessdc.com
+ Hosting, Colocation, Disaster Recovery Solutions.....
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070117/dc65e2d7/attachment.htm 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Yipes connectivity issues?
+###############################################################
+ Sprintlink LookingGlass out to 209.213.221.1/32 (also a Yipes) shows an 
+ issue too.  I show LGs also for Level3 and Above.net.  All show issues with 
+ Yipes routers.
+ sl-bb20-chi>trace 209.213.221.1
+  Type escape sequence to abort.
+  Tracing the route to 209.213.221.1
+    1 sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 36 msec
+      sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 20 msec
+      sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 40 msec
+    2 144.232.8.114 124 msec 8 msec 0 msec
+    3 ae-1-53.bbr1.Chicago1.Level3.net (4.68.101.65) [AS 3356] 0 msec 8 msec
+      ae-1-55.bbr1.Chicago1.Level3.net (4.68.101.129) [AS 3356] 4 msec
+    4 so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) [AS 3356] 28 msec 
+ 60 msec
+      so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 100 msec
+    5 so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) [AS 3356] 32 msec 
+ 28 msec 148 msec
+    6 unknown.Level3.net (63.209.178.162) [AS 3356] 40 msec 28 msec 44 msec
+    7 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS 6517] 168 msec 24 msec 
+ 24 msec
+    8 o0-4bd1.phl004bd02.yipes.com (66.54.175.165) [AS 6517] 124 msec 64 msec 
+ 108 msec
+    9 o0-4bd2.phl005bd02.yipes.com (66.54.175.158) [AS 6517] 32 msec 96 msec 
+ 104 msec
+   10 209.213.221.1 [AS 6517] 200 msec 44 msec 60 msec
+  sl-bb20-chi>
+ Out to 66.227.46.1 from Sprint...
+ sl-bb20-chi>trace 66.227.46.1
+  Type escape sequence to abort.
+  Tracing the route to 66.227.46.1
+    1 sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 12 msec
+      sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 4 msec
+      sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 8 msec
+    2 144.232.8.114 36 msec 56 msec 68 msec
+    3 ae-1-51.bbr1.Chicago1.Level3.net (4.68.101.1) [AS 3356] 48 msec
+      ae-1-55.bbr1.Chicago1.Level3.net (4.68.101.129) [AS 3356] 20 msec 12 
+ msec
+    4 so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 196 msec
+      so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) [AS 3356] 36 msec
+      so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 80 msec
+    5 so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) [AS 3356] 28 msec
+      so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) [AS 3356] 68 msec
+      so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) [AS 3356] 228 msec
+    6 unknown.Level3.net (63.209.178.162) [AS 3356] 220 msec 228 msec 48 msec
+    7 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS 6517] 200 msec 212 
+ msec 200 msec
+    8 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS 6517] 212 msec 216 
+ msec 88 msec
+    9 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS 6517] 32 msec 44 msec 
+ 168 msec
+   10 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS 6517] 44 msec 132 msec 
+ 36 msec
+   11  *  *  *
+   12  *
+      66.54.173.62 [AS 6517] 52 msec *
+  sl-bb20-chi>
+ Going thru Above.net:
+ Router: mpr1.dca2.us.above.net
+ Command: traceroute 66.227.46.1
+ traceroute to 66.227.46.1 (66.227.46.1), 30 hops max, 40 byte packets
+  1  so-0-0-0.cr1.dca2.us.above.net (64.125.29.121)  0.568 ms  0.461 ms 
+ 0.544 ms
+  2  so-6-0-0.mpr1.iad1.us.above.net (64.125.28.126)  0.826 ms  0.800 ms 
+ 0.839 ms
+  3  so-3-0-0.mpr2.iad2.us.above.net (64.125.28.214)  0.974 ms  1.227 ms 
+ 0.981 ms
+  4  so-3-0-0.mpr2.iad10.us.above.net (64.125.30.121)  1.414 ms  1.529 ms 
+ 1.425 ms
+  5  so-2-0-0.edge2.Washington1.Level3.net (4.68.127.49)  1.559 ms  1.523 ms 
+ 1.569 ms
+  6  so-1-1-0.bbr2.Washington1.Level3.net (64.159.3.65)  3.894 ms 
+ so-1-1-0.bbr1.Washington1.Level3.net (64.159.3.61)  1.952 ms  1.822 ms
+  7  so-1-0-0.mp1.Philadelphia1.Level3.net (209.247.8.69)  5.214 ms 
+ so-3-0-0.mp2.Philadelphia1.Level3.net (64.159.0.142)  13.817 ms 
+ so-1-0-0.mp1.Philadelphia1.Level3.net (209.247.8.69)  5.183 ms
+  8  so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154)  5.166 ms 
+ so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146)  5.330 ms 
+ so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154)  5.185 ms
+  9  unknown.Level3.net (63.209.178.162)  5.468 ms  5.339 ms  5.370 ms
+ 10  o0-4jp1.phl004bd01.yipes.com (66.54.175.194)  391.775 ms  36.027 ms 
+ 8.147 ms
+ 11  o0-4bd1.phl005bd01.yipes.com (66.54.175.162)  67.080 ms  5.905 ms  5.807 
+ ms
+ 12  o4-5bd1.phl038ap01.yipes.com (66.54.175.66)  6.971 ms  7.676 ms  7.276 
+ ms
+ 13  o4-38ap1.phl067ap01.yipes.com (66.54.175.90)  9.894 ms  10.450 ms  9.759 
+ ms
+ 14  * 66.54.173.62 (66.54.173.62)  29.631 ms *
+ Show Level 3 (Cincinnati, OH) Traceroute to 66.227.46.1   1 
+ so-7-0-0.mp1.Cincinnati1.Level3.net (4.68.124.237) 0 msec 0 msec 0 msec
+   2 so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) 28 msec
+     so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) 28 msec
+     so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) 28 msec
+   3 so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) 28 msec 28 msec
+     so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) 28 msec
+   4 unknown.Level3.net (63.209.178.162) 32 msec 28 msec 28 msec
+   5 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS6517 {YIPESCOM}] 28 msec 
+ 28 msec 32 msec
+   6 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS6517 {YIPESCOM}] 28 msec 
+ 28 msec 160 msec
+   7 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS6517 {YIPESCOM}] 36 msec 
+ 28 msec 32 msec
+   8 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS6517 {YIPESCOM}] 32 msec 
+ 40 msec 32 msec
+   9  *
+     66.54.173.62 [AS6517 {YIPESCOM}] 52 msec *
+ Show Level 3 (Cincinnati, OH) Traceroute to 65.175.38.1
+   1 so-7-0-0.mp1.Cincinnati1.Level3.net (4.68.124.237) 0 msec 4 msec 0 msec
+   2 so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) 28 msec 28 msec 32 
+ msec
+   3 so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) 28 msec 28 msec 28 
+ msec
+   4 unknown.Level3.net (63.209.178.162) 28 msec 28 msec 28 msec
+   5 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS6517 {YIPESCOM}] 28 msec 
+ 32 msec 28 msec
+   6 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS6517 {YIPESCOM}] 28 msec 
+ 36 msec 196 msec
+   7 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS6517 {YIPESCOM}] 28 msec 
+ 32 msec 28 msec
+   8 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS6517 {YIPESCOM}] 32 msec 
+ 32 msec 36 msec
+   9 66.7.133.154 [AS6517 {YIPESCOM}] 32 msec 80 msec 32 msec
+  10  *  *  *
+ ----- Original Message ----- 
+ From: "Paul Laudanski" <paul at castlecops.com>
+ Sent: Friday, January 19, 2007 1:59 PM
+ Subject: Yipes connectivity issues?
+ Out to:
+ 66.227.46.0/24
+ 65.175.38.0/24
+ It started around 8:30/9AM EST today.  I'm getting consistent packet loss 
+ and high latency.
+ (I won't get replies at the moment...)
+ Paul Laudanski, Microsoft MVP Windows-Security
+ Phish XML Feed: http://www.castlecops.com/article6619.html
+ Phish Takedown: http://castlecops.com/pirt
+ LinkedIn: http://www.linkedin.com/pub/1/49a/17b
+ www.CastleCops.com | de.CastleCops.com | wiki.CastleCops.com
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT West outage?
+###############################################################
+ Hi,
+ Does anyone have any news about an ATT outage lasting about 12-18 hours these last two days, which may have affected Yahoo DSL and ATT Citrix service? A company whose server we host started having problems yesterday -- they could apparently establish TCP connections to their server but upon trying to login, the session would simply timeout. It was as if the moment the client computer attempted to establish a second connection to the server with a new source port (but same destination port), the connection was denied. FTP was broken in the same way. Users could authenticate via FTP but were unable to transfer files. 
+ Company end-users all over the country were having the issue. We think they were connecting via Citrix to the main office in California, then trying to hop over the Internet to the server (located here in NY).
+ Sounds to me like some kind of firewall issue within ATT somehow.
+ Any news or insight welcome. 
+ Best regards,
+ Adam
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: http://isotf.org/pipermail/outages/attachments/20070124/e60993e8/attachment.htm 
+###############################################################
+END
+###############################################################
+

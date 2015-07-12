@@ -1,0 +1,3752 @@
+From michael.self at Phonefusion.com  Mon Aug  1 13:34:05 2011
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Mon, 1 Aug 2011 13:34:05 -0400
+Subject: [outages] Level3 TFN's
+Message-ID: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+
+Anybody else seeing Level3 inbound traffic (toll free) problems?
+
+I have about 40,000 TFN's that seem to be not working.
+
+Mike.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/256863ef/attachment.html>
+
+From brianc at opendns.com  Mon Aug  1 13:37:03 2011
+From: brianc at opendns.com (Brian Carpenter)
+Date: Mon, 01 Aug 2011 12:37:03 -0500
+Subject: [outages] L3 in DFW
+Message-ID: <4E36E43F.2030001@opendns.com>
+
+Anyone else seeing issues with Level3 in DFW and or other places?
+
+-- 
+Brian Carpenter
+NOC Engineer, OpenDNS
+405.503.1286 - mobile
+
+
+From virendra.rode at outages.org  Mon Aug  1 13:44:13 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 01 Aug 2011 10:44:13 -0700
+Subject: [outages] Another blip towards san diego/irvine, ca.
+Message-ID: <4E36E5ED.8000406@outages.org>
+
+Hi -
+
+We have customers calling from east coast including overseas (Africa, 
+Asia and Germany) about reachability issue to our san diego pop 
+including irvine, ca. The common factor here is level3.
+
+Is anyone experiencing the same?
+
+
+regards,
+/virendra
+
+From gmina at connectfirst.com  Mon Aug  1 13:52:49 2011
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Mon, 1 Aug 2011 11:52:49 -0600
+Subject: [outages] Possible Level(3) problem @ 11:30 AM MDT
+Message-ID: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+
+Did anyone notice a wide spread internet problem around 11:30 today?  We had
+a bunch of customers in Utah not able to access our servers in Atlanta.  We
+also saw some of our ITSP gateways become unresponsive in the Dallas area.
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/9f9f26f6/attachment.html>
+
+From ramans at cwie.net  Mon Aug  1 13:53:07 2011
+From: ramans at cwie.net (Raman Sud)
+Date: Mon, 1 Aug 2011 17:53:07 +0000
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <3C527D72DFFFC14F8CAA9FC442D08FB94107E0D9@exch10-mb1.ccbill-hq.local>
+
+We are seeing issues in phoenix on the transit side
+
+Sent from my Android phone using TouchDown (www.nitrodesk.com)
+
+-----Original Message-----
+From: Michael R. Self [michael.self at Phonefusion.com]
+Received: Monday, 01 Aug 2011, 10:51am
+To: outages at outages.org [outages at outages.org]
+Subject: [outages] Level3 TFN's
+
+Anybody else seeing Level3 inbound traffic (toll free) problems?
+
+I have about 40,000 TFN's that seem to be not working.
+
+Mike.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/b88102af/attachment.html>
+
+From virendra.rode at outages.org  Mon Aug  1 13:50:31 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 01 Aug 2011 10:50:31 -0700
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <4E36E767.1050600@outages.org>
+
+On 08/01/2011 10:34 AM, Michael R. Self wrote:
+> Anybody else seeing Level3 inbound traffic (toll free) problems?
+>
+> I have about 40,000 TFN's that seem to be not working.
+>
+> Mike.
+---------------------
+Same issue that we experienced yesterday in Dallas.
+
+We finally got through level3 support.
+
+
+regards,
+/virendra
+
+
+
+
+From morgan.miskell at caro.net  Mon Aug  1 13:55:13 2011
+From: morgan.miskell at caro.net (Morgan Miskell)
+Date: Mon, 01 Aug 2011 13:55:13 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <1312221313.7114.192.camel@cromagnon>
+
+We just saw some oddities in CLT for a few minutes, but they seem to
+have resolved.
+
+On Mon, 2011-08-01 at 13:34 -0400, Michael R. Self wrote:
+> Anybody else seeing Level3 inbound traffic (toll free) problems?
+> 
+> 
+> I have about 40,000 TFN's that seem to be not working.
+> 
+> 
+> Mike.
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+Morgan A. Miskell
+CaroNet Data Centers
+704-643-8330 x206
+----------------------------------------------------------------------------
+The information contained in this e-mail is confidential and is intended
+only for the named recipient(s). If you are not the intended recipient
+you must not copy, distribute, or take any action or reliance on it. If
+you have received this e-mail in error, please notify the sender. Any
+unauthorized disclosure of the information contained in this e-mail is
+strictly prohibited.
+----------------------------------------------------------------------------
+
+
+From bbridges at ifbyphone.com  Mon Aug  1 13:56:46 2011
+From: bbridges at ifbyphone.com (Brooks Bridges)
+Date: Mon, 01 Aug 2011 12:56:46 -0500
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <4E36E8DE.5050800@ifbyphone.com>
+
+We saw a Level 3 network issue in Dallas around 12:30 Central today.
+
+Our DIDs and tollfrees appear to be fine now though. *knocks on desk*
+
+Brooks R. Bridges
+Telecommunications Manager
+Ifbyphone, Inc.
+Phone: (847) 983-3000
+Fax: (312) 346-3520
+bbridges at ifbyphone.com
+http://www.ifbyphone.com
+
+
+On 8/1/2011 12:34 PM, Michael R. Self wrote:
+> Anybody else seeing Level3 inbound traffic (toll free) problems?
+>
+> I have about 40,000 TFN's that seem to be not working.
+>
+> Mike.
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/bc7e55b9/attachment.html>
+
+From Zeek_Bower at medco.com  Mon Aug  1 13:56:16 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Mon, 1 Aug 2011 13:56:16 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B08976043@FL1-MX-USR02P.medco.com>
+
+We lost roughly 300 Texas area teleworkers from 13:20 to 13:35 EST.
+Mostly Comcast and Time Warner connections, most of which are normally
+utilizing level3 backbone connections. 
+
+ 
+
+Zeek Bower
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Michael R. Self
+Sent: Monday, August 01, 2011 1:34 PM
+To: outages at outages.org
+Subject: [outages] Level3 TFN's
+
+ 
+
+Anybody else seeing Level3 inbound traffic (toll free) problems?
+
+ 
+
+I have about 40,000 TFN's that seem to be not working.
+
+ 
+
+Mike.
+
+ 
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/edf97753/attachment-0001.html>
+
+From Zeek_Bower at medco.com  Mon Aug  1 13:59:18 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Mon, 1 Aug 2011 13:59:18 -0400
+Subject: [outages] Level3 TFN's
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com> 
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B0897604A@FL1-MX-USR02P.medco.com>
+
+We lost roughly 300 Texas area teleworkers from 13:20 to 13:35 EST.
+Mostly Comcast and Time Warner connections, most of which are normally
+utilizing level3 backbone connections. 
+
+ 
+
+Zeek Bower
+
+ 
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/dc4afb80/attachment.html>
+
+From frnkblk at iname.com  Mon Aug  1 14:00:19 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 1 Aug 2011 13:00:19 -0500
+Subject: [outages] L3 in DFW
+In-Reply-To: <4E36E43F.2030001@opendns.com>
+References: <4E36E43F.2030001@opendns.com>
+Message-ID: <000301cc5074$e0337980$a09a6c80$@iname.com>
+
+Posts on the NANOG list confirm the same.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Brian Carpenter
+Sent: Monday, August 01, 2011 12:37 PM
+To: outages at outages.org
+Subject: [outages] L3 in DFW
+
+Anyone else seeing issues with Level3 in DFW and or other places?
+
+-- 
+Brian Carpenter
+NOC Engineer, OpenDNS
+405.503.1286 - mobile
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From scott at sberkman.net  Mon Aug  1 14:00:27 2011
+From: scott at sberkman.net (Scott Berkman)
+Date: Mon, 1 Aug 2011 14:00:27 -0400
+Subject: [outages] L3 in DFW
+In-Reply-To: <4E36E43F.2030001@opendns.com>
+References: <4E36E43F.2030001@opendns.com>
+Message-ID: <02d201cc5074$e5487060$afd95120$@sberkman.net>
+
+There is a thread going on NANOG as well but yes many are reporting
+reachability issues through Level 3.  No root cause yet as far as I have
+seen.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Brian Carpenter
+Sent: Monday, August 01, 2011 1:37 PM
+To: outages at outages.org
+Subject: [outages] L3 in DFW
+
+Anyone else seeing issues with Level3 in DFW and or other places?
+
+-- 
+Brian Carpenter
+NOC Engineer, OpenDNS
+405.503.1286 - mobile
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From boards188 at gmail.com  Mon Aug  1 14:00:30 2011
+From: boards188 at gmail.com (Jason Pope)
+Date: Mon, 1 Aug 2011 13:00:30 -0500
+Subject: [outages] L3 in DFW
+In-Reply-To: <4E36E43F.2030001@opendns.com>
+References: <4E36E43F.2030001@opendns.com>
+Message-ID: <CAEqUV_g1aG6=9QnTrO=Tq+W_k79aMrxhbR2H-eydKJLL_2tYYg@mail.gmail.com>
+
+Yes; we have Level3 as an upstream provider and we have denied routes to and
+from them.  I am on hold to place a trouble ticket; they stated that they
+currently have a larger than normal call volume.
+
+Jason K Pope
+214.566.8527
+boards188 at gmail.com
+
+
+
+On Mon, Aug 1, 2011 at 12:37 PM, Brian Carpenter <brianc at opendns.com> wrote:
+
+> Anyone else seeing issues with Level3 in DFW and or other places?
+>
+> --
+> Brian Carpenter
+> NOC Engineer, OpenDNS
+> 405.503.1286 - mobile
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/0d676197/attachment.html>
+
+From michael.self at Phonefusion.com  Mon Aug  1 14:03:19 2011
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Mon, 1 Aug 2011 14:03:19 -0400
+Subject: [outages] Another blip towards san diego/irvine, ca.
+In-Reply-To: <4E36E5ED.8000406@outages.org>
+Message-ID: <CA5C6271.F136B%Michael.Self@PhoneFusion.com>
+
+Yes.  We had numerous services go out with Level3 including VoIP and
+transit.  An associate of mine had similar issues and isolated at least
+some of them to Dallas.
+
+All seems to be ok now.
+
+On 8/1/11 1:44 PM, "virendra rode" <virendra.rode at outages.org> wrote:
+
+>Hi -
+>
+>We have customers calling from east coast including overseas (Africa,
+>Asia and Germany) about reachability issue to our san diego pop
+>including irvine, ca. The common factor here is level3.
+>
+>Is anyone experiencing the same?
+>
+>
+>regards,
+>/virendra
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From eric.spagna at dimensiondata.com  Mon Aug  1 14:04:01 2011
+From: eric.spagna at dimensiondata.com (Eric Spagna (AM))
+Date: Mon, 1 Aug 2011 14:04:01 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+Message-ID: <836578AD7D360C48B3070E4AE3D5E4A90B07A4E3D4@USISPCLEXDB01.na.didata.local>
+
+Received information from a client during a sev1 case that Verizon is confirming a "Global Toll Free Number" issue causing many toll free lines to ring fast busy. This is all the information that I have at this time.
+
+
+
+-    Eric -
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Michael R. Self
+Sent: Monday, August 01, 2011 1:34 PM
+To: outages at outages.org
+Subject: [outages] Level3 TFN's
+
+
+Anybody else seeing Level3 inbound traffic (toll free) problems?
+
+I have about 40,000 TFN's that seem to be not working.
+
+Mike.
+
+
+
+itevomcid
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/3c4d43c6/attachment-0001.html>
+
+From howardm at voxcorp.net  Mon Aug  1 14:08:51 2011
+From: howardm at voxcorp.net (Howard Marquardt)
+Date: Mon, 01 Aug 2011 14:08:51 -0400
+Subject: [outages] Possible Level(3) problem @ 11:30 AM MDT
+In-Reply-To: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+References: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+Message-ID: <4E36EBB3.8050804@voxcorp.net>
+
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/0dcfbcf9/attachment.html>
+
+From gmina at connectfirst.com  Mon Aug  1 14:09:36 2011
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Mon, 1 Aug 2011 12:09:36 -0600
+Subject: [outages] Possible Level(3) problem @ 11:30 AM MDT
+In-Reply-To: <4E36EBB3.8050804@voxcorp.net>
+References: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+ <4E36EBB3.8050804@voxcorp.net>
+Message-ID: <175501cc5076$2cf21f50$86d65df0$@connectfirst.com>
+
+Yeah. we appear to have had network and Toll-Free problems around the same
+time.
+
+ 
+
+From: Howard Marquardt [mailto:howardm at voxcorp.net] 
+Sent: Monday, August 01, 2011 12:09 PM
+To: Geoffrey Mina
+Cc: outages at outages.org
+Subject: Re: [outages] Possible Level(3) problem @ 11:30 AM MDT
+
+ 
+
+Yes, There were some issues with Level 3 i little while ago. Still
+researching the issue but it seems like things are working ok for us at this
+point.
+
+On 8/1/2011 1:52 PM, Geoffrey Mina wrote: 
+
+Did anyone notice a wide spread internet problem around 11:30 today?  We had
+a bunch of customers in Utah not able to access our servers in Atlanta.  We
+also saw some of our ITSP gateways become unresponsive in the Dallas area.
+
+ 
+
+ 
+
+
+
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/5f2414a4/attachment.html>
+
+From jjackson at aninetworks.net  Mon Aug  1 14:09:46 2011
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Mon, 1 Aug 2011 13:09:46 -0500
+Subject: [outages] Another blip towards san diego/irvine, ca.
+In-Reply-To: <4E36E5ED.8000406@outages.org>
+References: <4E36E5ED.8000406@outages.org>
+Message-ID: <4E36EBEA.4060408@aninetworks.net>
+
+We saw issues coming out of LA and Dallas over level3 to multiple sites.
+
+
+
+On 08/01/2011 12:44 PM, virendra rode wrote:
+> Hi -
+>
+> We have customers calling from east coast including overseas (Africa,
+> Asia and Germany) about reachability issue to our san diego pop
+> including irvine, ca. The common factor here is level3.
+>
+> Is anyone experiencing the same?
+>
+>
+> regards,
+> /virendra
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From Robert_Johnson2 at medco.com  Mon Aug  1 14:13:09 2011
+From: Robert_Johnson2 at medco.com (Johnson, Robert P.)
+Date: Mon, 1 Aug 2011 14:13:09 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <3C527D72DFFFC14F8CAA9FC442D08FB94107E0D9@exch10-mb1.ccbill-hq.local>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+ <3C527D72DFFFC14F8CAA9FC442D08FB94107E0D9@exch10-mb1.ccbill-hq.local>
+Message-ID: <9AF4E07306962649A6F73A1B9AB6C5350A7D5059@fl1-mx-usr04p.medco.com>
+
+We saw a large number of our Teleworkers lose Internet access about the
+1:30pm EST time frame.  Issue cleared about 10 minutes later.
+
+ 
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Raman Sud
+Sent: Monday, August 01, 2011 1:53 PM
+To: outages at outages.org; michael.self at Phonefusion.com
+Subject: Re: [outages] Level3 TFN's
+
+ 
+
+We are seeing issues in phoenix on the transit side
+
+Sent from my Android phone using TouchDown (www.nitrodesk.com)
+
+-----Original Message----- 
+From: Michael R. Self [michael.self at Phonefusion.com]
+Received: Monday, 01 Aug 2011, 10:51am
+To: outages at outages.org [outages at outages.org]
+Subject: [outages] Level3 TFN's
+
+Anybody else seeing Level3 inbound traffic (toll free) problems?
+
+ 
+
+I have about 40,000 TFN's that seem to be not working.
+
+ 
+
+Mike.
+
+ 
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/b347a3c3/attachment.html>
+
+From grobinson at voxeo.com  Mon Aug  1 14:31:19 2011
+From: grobinson at voxeo.com (Greg Robinson)
+Date: Mon, 01 Aug 2011 14:31:19 -0400
+Subject: [outages] Possible Level(3) problem @ 11:30 AM MDT
+In-Reply-To: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+References: <16d401cc5073$d4462650$7cd272f0$@connectfirst.com>
+Message-ID: <4E36F0F7.3080909@voxeo.com>
+
+I saw this. Resolved at 1:42 EST ...
+
+On 8/1/11 1:52 PM, Geoffrey Mina wrote:
+>
+> Did anyone notice a wide spread internet problem around 11:30 today?  
+> We had a bunch of customers in Utah not able to access our servers in 
+> Atlanta.  We also saw some of our ITSP gateways become unresponsive in 
+> the Dallas area.
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/a357a733/attachment-0001.html>
+
+From howardm at voxcorp.net  Mon Aug  1 14:35:57 2011
+From: howardm at voxcorp.net (Howard Marquardt)
+Date: Mon, 01 Aug 2011 14:35:57 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B08976043@FL1-MX-USR02P.medco.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+ <B27F93338DD3E9498CC81AE96907D24B08976043@FL1-MX-USR02P.medco.com>
+Message-ID: <4E36F20D.50502@voxcorp.net>
+
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/82262570/attachment.html>
+
+From cjwright at gmail.com  Mon Aug  1 14:39:17 2011
+From: cjwright at gmail.com (Chris Wright)
+Date: Mon, 1 Aug 2011 14:39:17 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B0897604A@FL1-MX-USR02P.medco.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+ <B27F93338DD3E9498CC81AE96907D24B0897604A@FL1-MX-USR02P.medco.com>
+Message-ID: <CAPGfL-ZQuk4-QFbm0kQrdMmW7pdh-F9b4mfN+FQyZDoRq7YWew@mail.gmail.com>
+
+L3 master case 40976066, DFW route reflector took a dive @ 17:22 UTC.
+
+-Chris
+
+
+On Mon, Aug 1, 2011 at 1:59 PM, Bower, Zeek <Zeek_Bower at medco.com> wrote:
+
+> We lost roughly 300 Texas area teleworkers from 13:20 to 13:35 EST.  Mostly
+> Comcast and Time Warner connections, most of which are normally utilizing
+> level3 backbone connections. ****
+>
+> ** **
+>
+> *Zeek Bower*
+>
+> ** **
+> ------------------------------
+> This e-mail message and any attachments contain confidential information
+> from Medco. If you are not the intended recipient, you are hereby notified
+> that disclosure, printing, copying, distribution, or the taking of any
+> action in reliance on the contents of this electronic information is
+> strictly prohibited. If you have received this e-mail message in error,
+> please immediately notify the sender by reply message and then delete the
+> electronic message and any attachments.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/a361f365/attachment.html>
+
+From dannyf at cwie.net  Mon Aug  1 13:39:55 2011
+From: dannyf at cwie.net (Danny Fuentes)
+Date: Mon, 1 Aug 2011 17:39:55 +0000
+Subject: [outages] Level 3 Outage?
+Message-ID: <FB47530BB1E9084094DD2F53CAA4635C40DEFE2C@exch10-mb1.ccbill-hq.local>
+
+Is anyone else having problems routing through level 3 in the past hour?
+Seems that I can't get to VA from PHX using Level 3.
+
+--
+Danny Fuentes
+Manager of Network Operations
+CWIE LLC.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/2c118220/attachment.html>
+
+From ivank at rogers.com  Mon Aug  1 14:58:21 2011
+From: ivank at rogers.com (Ivan Kovacevic)
+Date: Mon, 1 Aug 2011 14:58:21 -0400
+Subject: [outages] Verizon Business TF network down?
+Message-ID: <008c01cc507c$fc2bd6c0$f4838440$@rogers.com>
+
+ 
+
+Here is the update we received:
+
+ 
+
+We are currently experiencing an outage on our IPCCC platform. All necessary levels of support are currently engaged and
+investigating at this time. We will keep you posted with status.
+
+ 
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/954414a7/attachment.html>
+
+From jof at thejof.com  Mon Aug  1 15:09:10 2011
+From: jof at thejof.com (Jonathan Lassoff)
+Date: Mon, 1 Aug 2011 12:09:10 -0700
+Subject: [outages] Level3 TFN's
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B08976043@FL1-MX-USR02P.medco.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+ <B27F93338DD3E9498CC81AE96907D24B08976043@FL1-MX-USR02P.medco.com>
+Message-ID: <CAHsqw9tP-mUFqLMfKw=NV6Y62AYNgx5-aG9N0g9i4sk=CKGJ0w@mail.gmail.com>
+
+Wow. Something must have been up.
+
+I noticed some issues with paths that normally take XO (Bay Area) ->
+TWTC and XO (Bay Area) -> Qwest right around the same time. I don't
+believe that we use Level3 for these paths, but we definitely took a
+latency and path reliability hit.
+
+Makes me wonder what the root cause here is.
+
+Keeping on monitoring....
+
+Cheers,
+jof
+
+On Mon, Aug 1, 2011 at 10:56 AM, Bower, Zeek <Zeek_Bower at medco.com> wrote:
+> We lost roughly 300 Texas area teleworkers from 13:20 to 13:35 EST. ?Mostly
+> Comcast and Time Warner connections, most of which are normally utilizing
+> level3 backbone connections.
+>
+>
+>
+> Zeek Bower
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Michael R. Self
+> Sent: Monday, August 01, 2011 1:34 PM
+> To: outages at outages.org
+>
+> Subject: [outages] Level3 TFN's
+>
+>
+>
+> Anybody else seeing Level3 inbound traffic (toll free) problems?
+>
+>
+>
+> I have about 40,000 TFN's that seem to be not working.
+>
+>
+>
+> Mike.
+>
+>
+>
+> ________________________________
+> This e-mail message and any attachments contain confidential information
+> from Medco. If you are not the intended recipient, you are hereby notified
+> that disclosure, printing, copying, distribution, or the taking of any
+> action in reliance on the contents of this electronic information is
+> strictly prohibited. If you have received this e-mail message in error,
+> please immediately notify the sender by reply message and then delete the
+> electronic message and any attachments.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+From grobinson at voxeo.com  Mon Aug  1 15:46:32 2011
+From: grobinson at voxeo.com (Greg Robinson)
+Date: Mon, 01 Aug 2011 15:46:32 -0400
+Subject: [outages] Level3 TFN's
+In-Reply-To: <CAPGfL-ZQuk4-QFbm0kQrdMmW7pdh-F9b4mfN+FQyZDoRq7YWew@mail.gmail.com>
+References: <CA5C5BCD.F12E4%Michael.Self@PhoneFusion.com>
+ <B27F93338DD3E9498CC81AE96907D24B0897604A@FL1-MX-USR02P.medco.com>
+ <CAPGfL-ZQuk4-QFbm0kQrdMmW7pdh-F9b4mfN+FQyZDoRq7YWew@mail.gmail.com>
+Message-ID: <4E370298.4060004@voxeo.com>
+
+ From L3's portal:
+
+8/1/11 7:12:56 PM GMT The IP NOC reports that the network equipment self 
+restored, resolving the routing issue and restoring services at 
+approximately 17:55 GMT. The IP NOC states that they will continue to 
+work with Level 3 OPS Engineers and the equipment vendor to isolate the 
+root cause of the service interruption. The Level 3 TSC has confirmed 
+that all customer services have been restored and the IP NOC will 
+continue to monitor for stability.
+
+8/1/11 6:29:26 PM GMT The IP NOC reports that a routing issue failure 
+between Dallas, TX and Los Angeles, CA is impacting IP services in 
+multiple markets. The IP NOC has engaged the equipment vendor, as well 
+as Level 3 OPS Engineers and continues to investigate to isolate the 
+issue at this time.
+
+On 8/1/11 2:39 PM, Chris Wright wrote:
+> L3 master case 40976066, DFW route reflector took a dive @ 17:22 UTC.
+>
+> -Chris
+>
+>
+> On Mon, Aug 1, 2011 at 1:59 PM, Bower, Zeek <Zeek_Bower at medco.com 
+> <mailto:Zeek_Bower at medco.com>> wrote:
+>
+>     We lost roughly 300 Texas area teleworkers from 13:20 to 13:35
+>     EST.  Mostly Comcast and Time Warner connections, most of which
+>     are normally utilizing level3 backbone connections.
+>
+>     *Zeek Bower*
+>
+>     ------------------------------------------------------------------------
+>     This e-mail message and any attachments contain confidential
+>     information from Medco. If you are not the intended recipient, you
+>     are hereby notified that disclosure, printing, copying,
+>     distribution, or the taking of any action in reliance on the
+>     contents of this electronic information is strictly prohibited. If
+>     you have received this e-mail message in error, please immediately
+>     notify the sender by reply message and then delete the electronic
+>     message and any attachments.
+>
+>     _______________________________________________
+>     Outages mailing list
+>     Outages at outages.org <mailto:Outages at outages.org>
+>     https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110801/c60abf36/attachment-0001.html>
+
+From frnkblk at iname.com  Mon Aug  1 17:54:12 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 1 Aug 2011 16:54:12 -0500
+Subject: [outages] Several IPv6 sites down?
+In-Reply-To: <0B7069BB-266E-4F29-93F1-22EC30902E15@rackspace.com>
+References: <00cf01cc4dff$dd7a70d0$986f5270$@iname.com>
+ <00e801cc4e31$709b4610$51d1d230$@iname.com>
+ <00ef01cc4e3d$bfd39d70$3f7ad850$@iname.com>
+ <0B7069BB-266E-4F29-93F1-22EC30902E15@rackspace.com>
+Message-ID: <001c01cc5095$8cc45cd0$a64d1670$@iname.com>
+
+Our upstream provider started re-announcing our prefixes to Qwest this
+morning and we had no issues.  I assume Qwest resolved it over the weekend.
+
+
+Our upstream provider never got a response from Qwest on the trouble ticket
+because they said that AS5056 wasn't a customer of theirs.  So they had to
+open up another ticket with Qwest to address that mistake (they've had this
+issue with Qwest before, apparently).
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of David Ramirez
+Sent: Friday, July 29, 2011 6:43 PM
+To: outages at outages.org
+Subject: Re: [outages] Several IPv6 sites down?
+
+Yes, there's definitely some issues with our IPv6 transit traffic through
+Qwest.  We've filtered off announcements to/from Qwest.  Hurricane Electric
+was still using Qwest though, with Qwest (attempting to) use Internap to get
+to us.  So, we've had tofilter off Internap as well.
+
+This definitely points to an issue within Qwest's network, so we've opened a
+ticket with them to get this resolved.
+
+David Ramirez
+Network Engineer
+Rackspace Hosting
+
+
+
+On Jul 29, 2011, at 5:20 PM, Frank Bulk wrote:
+
+> Someone else shared with me offlist that HE tunnels from Ashburn see the
+> Qwest brokenness when tracing to me or Rackspace...
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 3:53 PM
+> To: outages at outages.org
+> Subject: Re: [outages] Several IPv6 sites down?
+> 
+> Our upstream provider withdrew our prefixes from Qwest and connectivity is
+> good again.  We're waiting for Qwest's QControl to investigate. 
+> 
+> Frank
+> 
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Frank Bulk
+> Sent: Friday, July 29, 2011 9:58 AM
+> To: outages at outages.org
+> Subject: [outages] Several IPv6 sites down?
+> 
+> Just a few minutes ago three of the 20+ IPv6 sites I monitor became
+> inaccessible:
+> 
+> ipv6.cnn.com (IPv6-only)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.4   1.3   1.1   2.4
+0.4
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.1   0.9   1.8
+0.3
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   1.0   0.9   1.1
+0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.5   2.7   4.6
+0.7
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.1  11.0   8.3  16.6
+3.6
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5   8.6   8.5   8.9
+0.1
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.7  27.5  20.7  56.8
+14.2
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+>  9. vl-60.car2.Dallas1.Level3.ne  0.0%    10  116.7  49.0  41.1 116.7
+23.8
+> 10. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> www.charter.com (IPv4 is fine, just not IPv6)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.1   1.1   1.1   1.2
+0.0
+>  2. router-core.mtcnet.net        0.0%    10    1.0   1.0   0.9   1.4
+0.1
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.0
+0.0
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    3.4   3.8   2.8   4.7
+0.6
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10    8.3   8.3   8.3   8.5
+0.1
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.5  24.0   8.5 161.5
+48.3
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.8  24.8  20.7  45.5
+8.8
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> ipv6.weather.yahoo.com (there's three AAAA records, just
+> 2a00:1288:f006:1fe::1000 is not working)
+> HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst
+StDev
+>  1. 2607:fe28:0:1003::2           0.0%    10    1.2   6.5   1.1  54.3
+16.8
+>  2. router-core.mtcnet.net        0.0%    10    1.1   1.1   0.9   1.7
+0.2
+>  3. sxct.sxcy.mtcnet.net          0.0%    10    0.9   0.9   0.9   1.1
+0.1
+>  4. v6-siouxcenter.sxcy.137.neti  0.0%    10    2.7   3.9   2.7   6.3
+1.1
+>  5. v6-ins-db1-et-11-8-204.desm.  0.0%    10   13.6   9.4   8.2  13.9
+2.3
+>  6. v6-ins-dc1-et-8-2.desm.netin  0.0%    10    8.6  12.6   8.5  40.8
+10.2
+>  7. 2001:428:3801:210:0:1:0:1     0.0%    10   20.6  30.0  20.6 112.9
+29.1
+>  8. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+>  9. vl-90.car1.Dallas1.Level3.ne  0.0%    10   41.5  41.3  41.1  41.5
+0.1
+> 10. vl-4042.car1.NewYork1.Level3  0.0%    10   58.0  58.6  57.7  63.8
+1.9
+> 11. vl-4086.edge3.London1.Level3  0.0%    10  127.2 126.9 126.5 127.3
+0.3
+> 12. vl-52.car3.London1.Level3.ne  0.0%    10  127.0 130.4 126.1 166.7
+12.7
+> 13. YAHOO-INC.car3.London1.Level  0.0%    10  126.3 126.3 126.0 127.1
+0.3
+> 14. ???                          100.0    10    0.0   0.0   0.0   0.0
+0.0
+> 
+> Can anyone else confirm?  It's like our /32 stopped propagating to some
+> networks.
+> 
+> Frank
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+This email may include confidential information. If you received it in
+error, please delete it.
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From outages at jdc.parodius.com  Mon Aug  1 19:01:42 2011
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Mon, 1 Aug 2011 16:01:42 -0700
+Subject: [outages] Verizon Business TF network down?
+In-Reply-To: <008c01cc507c$fc2bd6c0$f4838440$@rogers.com>
+References: <008c01cc507c$fc2bd6c0$f4838440$@rogers.com>
+Message-ID: <20110801230142.GA83390@icarus.home.lan>
+
+I can confirm this outage.  I cannot provide any other details.
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, US |
+| Making life hard for others since 1977.               PGP 4BD6C0CB |
+
+On Mon, Aug 01, 2011 at 02:58:21PM -0400, Ivan Kovacevic wrote:
+>  
+> 
+> Here is the update we received:
+> 
+>  
+> 
+> We are currently experiencing an outage on our IPCCC platform. All necessary levels of support are currently engaged and
+> investigating at this time. We will keep you posted with status.
+> 
+>  
+> 
+>  
+> 
+>  
+> 
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From brianc at opendns.com  Tue Aug  2 01:36:40 2011
+From: brianc at opendns.com (Brian Carpenter)
+Date: Tue, 02 Aug 2011 00:36:40 -0500
+Subject: [outages] Uverse down in OKC?
+Message-ID: <4E378CE8.60305@opendns.com>
+
+Anyone hearing anything about AT&T Uverse being down in the OKC area? I
+live NE of OKC, but my Uverse went down about 15 minutes ago. Can't get
+anything useful out of AT&T.
+
+-- 
+Brian Carpenter
+NOC Engineer, OpenDNS
+405.503.1286 - mobile
+
+
+From m32rbzw02 at sneakemail.com  Tue Aug  2 15:29:22 2011
+From: m32rbzw02 at sneakemail.com (m32rbzw02 at sneakemail.com)
+Date: Tue, 2 Aug 2011 19:29:22 +0000
+Subject: [outages] Spring + TELX NY to London
+Message-ID: <27125-1312313362-267740@sneakemail.com>
+
+--- oorspronkelijk bericht ---
+Van: "Thijs Wijbenga via RT" <servicedesk at claranet.nl>
+Onderwp: [claranet.nl #501998] Den Bosch NL - Verona (WI) USA - down
+Datum: 2 augustus 2011
+Tijd: 21:13:51
+
+
+Dear Winfried,
+
+There is currently an MSO with Sprint and TELX affecting a large amounts of circuits (both Claranet and other MSP's/ISP's) at the moment there is no ETR but as soon as we have more information we'll inform you as soon as possible.
+
+--
+Regards,
+
+Thijs Wijbenga
+Servicedesk Claranet Benelux
+
+servicedesk at claranet.nl
+Tel: +31 (0)900 87 22 484
+Fax: +31 (0)40 23 93 311
+
+From Zeek_Bower at medco.com  Wed Aug  3 15:40:58 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Wed, 3 Aug 2011 15:40:58 -0400
+Subject: [outages] Anyone see anything odd happen with AT&T routes? 3pm EST
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B089B740A@FL1-MX-USR02P.medco.com>
+
+Anyone see anything odd happen with AT&T routes? 
+
+We lost a decent of people with Time Warner- to AT&T based routes
+originating in OH and connecting to NJ a little before 3pm today EST. 
+
+Here's a few traces to show direction and hops.
+
+ 
+
+ 
+
+IP Tools 
+
+ 
+
+Traceroute 167.211.65.13 - 
+
+traceroute to 167.211.65.13 (167.211.65.13), 30 hops max, 40 byte
+packets
+
+1  10.88.128.1 (  ** NO HOST **  )  24.302 ms  18.458 ms  27.444 ms
+
+2  24.95.86.209 (gig3-10.dblnoh1-swt401.columbus.rr.com)  18.932 ms
+27.77 ms  23.917 ms
+
+3  65.25.129.146 (tge2-1.clmboh1-rtr1.columbus.rr.com)  1129.93 ms
+502.658 ms  4186.71 ms
+
+4  * * *
+
+5  65.189.140.130 (ae1.tr00.clevohek.mwrtn.rr.com)  28.884 ms  28.227 ms
+25.628 ms
+
+6  * * *
+
+7  * * *
+
+8  * * *
+
+9  66.198.154.18 (if-5-1-0.core3.NTO-NewYork.as6453.net)  65.66 ms
+68.241 ms 216.6.87.2 (216.6.87.2)  34.266 ms
+
+10  63.243.186.18 (  ** NO HOST **  )  65.092 ms  69.879 ms *
+
+11  * * *
+
+12  12.122.2.13 (cr1.n54ny.ip.att.net)  45.662 ms  43.991 ms 12.122.3.37
+(12.122.3.37)  45.603 ms
+
+13  12.122.105.30 (cr81.nw2nj.ip.att.net)  41.596 ms 12.122.2.13
+(cr1.n54ny.ip.att.net)  40.039 ms  46.02 ms
+
+14  12.122.105.105 (gar18.n54ny.ip.att.net)  43.984 ms 12.122.105.30
+(cr81.nw2nj.ip.att.net)  43.547 ms  41.096 ms
+
+15  12.94.163.62 (  ** NO HOST **  )  39.571 ms  39.741 ms  41.176 ms
+
+16  12.94.163.62 (  ** NO HOST **  )  40.803 ms  43.97 ms *
+
+17  * * *
+
+18  * *
+
+ 
+
+ 
+
+ 
+
+IP Tools
+
+Traceroute 167.211.65.13 - Please wait...
+
+traceroute to 167.211.65.13 (167.211.65.13), 30 hops max, 40 byte
+packets
+
+1  10.88.128.1 (10.88.128.1)  16.322 ms  20.225 ms  16.332 ms
+
+2  24.95.86.209 (24.95.86.209)  17.877 ms  17.753 ms  24.668 ms
+
+3  65.25.129.146 (65.25.129.146)  2197.81 ms  4460.27 ms  535.259 ms
+
+4  * * *
+
+5  65.189.140.130 (65.189.140.130)  28.247 ms  25.78 ms  24.948 ms
+
+6  * * *
+
+7  * * *
+
+8  206.82.139.53 (206.82.139.53)  37.066 ms * *
+
+9  66.198.154.18 (66.198.154.18)  66.626 ms  62.884 ms *
+
+10  66.198.154.18 (66.198.154.18)  61.811 ms
+
+(failed)
+
+ 
+
+ 
+
+Zeek (Josh) Bower
+
+NOC Work @ Home Solution Center
+
+
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110803/15387c48/attachment.html>
+
+From virendra.rode at outages.org  Thu Aug  4 14:45:19 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Thu, 04 Aug 2011 11:45:19 -0700
+Subject: [outages] American Internet Services (AIS) DC in San Diego,
+	CA lost power.
+Message-ID: <4E3AE8BF.3060001@outages.org>
+
+Their entire building just lost power. Not sure if anyone else is impacted.
+
+
+regards,
+/virendra
+
+From paul at neoverve.com  Thu Aug  4 18:04:51 2011
+From: paul at neoverve.com (Paul Norton)
+Date: Thu, 04 Aug 2011 15:04:51 -0700
+Subject: [outages] American Internet Services (AIS) DC in San Diego,
+ CA lost power.
+In-Reply-To: <4E3AE8BF.3060001@outages.org>
+References: <4E3AE8BF.3060001@outages.org>
+Message-ID: <4E3B1783.7030407@neoverve.com>
+
+Are they still offline?
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+On 8/4/2011 11:45 AM, virendra rode wrote:
+> Their entire building just lost power. Not sure if anyone else is impacted.
+>
+>
+> regards,
+> /virendra
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From virendra.rode at outages.org  Thu Aug  4 18:07:18 2011
+From: virendra.rode at outages.org (virendra rode)
+Date: Thu, 04 Aug 2011 15:07:18 -0700
+Subject: [outages] American Internet Services (AIS) DC in San Diego,
+ CA lost power.
+In-Reply-To: <4E3B1783.7030407@neoverve.com>
+References: <4E3AE8BF.3060001@outages.org> <4E3B1783.7030407@neoverve.com>
+Message-ID: <4E3B1816.6070908@outages.org>
+
+On 08/04/2011 03:04 PM, Paul Norton wrote:
+> Are they still offline?
+>
+---------------------
+They're back online, still waiting for a RFO unless someone has it and 
+is willing to share.
+
+
+regards,
+/virendra
+
+From ryan at u13.net  Thu Aug  4 18:15:33 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Thu, 4 Aug 2011 18:15:33 -0400
+Subject: [outages] American Internet Services (AIS) DC in San Diego,
+	CA lost power.
+In-Reply-To: <4E3B1783.7030407@neoverve.com>
+References: <4E3AE8BF.3060001@outages.org> <4E3B1783.7030407@neoverve.com>
+Message-ID: <BABEBEC0-F878-48F8-8C36-3E6AFB74AB88@u13.net>
+
+
+On Aug 4, 2011, at 6:04 PM, Paul Norton wrote:
+
+> Are they still offline?
+> 
+> -- 
+
+
+We saw a partner site go down when AIS lost power - it has been back for at least  3-4 hours now.
+
+
+
+> Paul Norton
+> Systems Administrator
+> Neoverve - www.neoverve.com
+> Neoverve Blog - http://blog.neoverve.com/
+> 
+> On 8/4/2011 11:45 AM, virendra rode wrote:
+>> Their entire building just lost power. Not sure if anyone else is impacted.
+>> 
+>> 
+>> regards,
+>> /virendra
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From uwcableguy at gmail.com  Fri Aug  5 19:07:40 2011
+From: uwcableguy at gmail.com (Ben Bartsch)
+Date: Fri, 5 Aug 2011 18:07:40 -0500
+Subject: [outages] AT&T backbone issues 08/04/2011 1230pm - 5pm CDT?
+Message-ID: <CAOvEG7PE+FvekSTn+pEoOF6b_jH55VhDkkywOaXVP=UD+sLp0A@mail.gmail.com>
+
+AT&T backbone issues 08/04/2011 1230pm - 5pm CDT?
+
+Did anyone else notice any problems on the ATT backbone yesterday?  We had
+one VPN tunnel go down (out of 8) and found the problem was within the ATT
+internet infrastructure.  After being transferred around ATT for about 2
+hours, the problem seemed to resolve itself.
+
+We are in Baton Rouge. LA and our VPN connect from here to Connecticut.  We
+found that packets from Connecticut were reaching us here, but were not
+gettting back to Connecticut.  Our tracert failed at 12.81.24.97.  After the
+problem resolved itself, we were able to continue on to 74.175.192.22.
+
+Ben
+
+Failed tracert:
+1  65.x.x.x 0 msec 0 msec 0 msec
+2  65.x.x.x 10 msec 0 msec 0 msec
+3  12.81.38.6 10 msec 10 msec 10 msec
+4  12.83.24.126 30 msec 10 msec 0 msec
+5  12.81.24.97 10 msec 10 msec 10 msec
+6   *  *  *
+
+Successful tracert:
+1  65.x.x.x 0 msec 0 msec 0 msec
+2  65.x.x.x 60 msec 0 msec 0 msec
+3  12.81.38.6 40 msec 20 msec 10 msec
+4  12.83.24.126 20 msec 10 msec 20 msec
+5  12.81.24.97 10 msec 20 msec 20 msec
+6  74.175.192.22 20 msec 40 msec 10 msec
+7  12.123.153.18 40 msec 50 msec 60 msec
+8  12.122.18.1 50 msec 50 msec 40 msec
+9  12.122.2.133 50 msec 40 msec 100 msec
+10 12.122.1.174 40 msec 170 msec 40 msec
+11 12.122.3.37 50 msec 90 msec 40 msec
+12 12.122.115.94 50 msec 60 msec 60 msec
+13 12.122.130.137 40 msec 50 msec 60 msec
+14 12.86.158.250 50 msec 40 msec 50 msec
+15-19 removed
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110805/7fa51cfe/attachment.html>
+
+From kokushibyou at gmail.com  Mon Aug  8 16:12:56 2011
+From: kokushibyou at gmail.com (dl)
+Date: Mon, 8 Aug 2011 13:12:56 -0700
+Subject: [outages] DNS lookups around 12:30 PDT/ edgesuite.net resolution
+	failures
+Message-ID: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+
+Has anyone seen anything interesting this afternoon with DNS resolution?
+
+Around 12:30 PDT we saw edgesuite.net records begin to disappear for
+both my sites and some other sites like Microsoft, ZDNet at the same
+time. Unofficially Akamai has confirmed they also saw this internally
+and are investigating, I have a case open with them.
+
+I've heard some random reports of 'global dns problems' but that of
+course does not mean much. Did anyone else see anything interesting in
+the DNS world between 12:30 and 12:45 PTD today? Specifically, failing
+to resolve high profile records such as edgesuite.net.
+
+Any information about what others saw during this time frame would be
+greatly appreciated.
+
+Thanks everyone!
+
+- S
+
+From boards188 at gmail.com  Mon Aug  8 16:21:50 2011
+From: boards188 at gmail.com (Jason Pope)
+Date: Mon, 8 Aug 2011 15:21:50 -0500
+Subject: [outages] DNS lookups around 12:30 PDT/ edgesuite.net
+	resolution failures
+In-Reply-To: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+References: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+Message-ID: <CAEqUV_jyVGNPDBXstLhmVd05pMx_79cTLkxP+3kUx11147Rc8g@mail.gmail.com>
+
+Yes, I did, but it restored within 10 minutes of me noticing it.
+
+Jason K Pope
+214.566.8527
+boards188 at gmail.com
+
+
+
+On Mon, Aug 8, 2011 at 3:12 PM, dl <kokushibyou at gmail.com> wrote:
+
+> Has anyone seen anything interesting this afternoon with DNS resolution?
+>
+> Around 12:30 PDT we saw edgesuite.net records begin to disappear for
+> both my sites and some other sites like Microsoft, ZDNet at the same
+> time. Unofficially Akamai has confirmed they also saw this internally
+> and are investigating, I have a case open with them.
+>
+> I've heard some random reports of 'global dns problems' but that of
+> course does not mean much. Did anyone else see anything interesting in
+> the DNS world between 12:30 and 12:45 PTD today? Specifically, failing
+> to resolve high profile records such as edgesuite.net.
+>
+> Any information about what others saw during this time frame would be
+> greatly appreciated.
+>
+> Thanks everyone!
+>
+> - S
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/e4190e4a/attachment.html>
+
+From adam at leff.co  Mon Aug  8 16:23:56 2011
+From: adam at leff.co (Adam Leff)
+Date: Mon, 8 Aug 2011 16:23:56 -0400
+Subject: [outages] DNS lookups around 12:30 PDT/ edgesuite.net
+	resolution failures
+In-Reply-To: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+References: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+Message-ID: <CABk_raF2fodhEN3E7TNst1JMnoawN=e+jeTYVw3Kt4V8HsFA7w@mail.gmail.com>
+
+We saw the same issue at the same time from both west and east coast, US.
+Case opened with Akamai as well.
+
+On Mon, Aug 8, 2011 at 4:12 PM, dl <kokushibyou at gmail.com> wrote:
+
+> Has anyone seen anything interesting this afternoon with DNS resolution?
+>
+> Around 12:30 PDT we saw edgesuite.net records begin to disappear for
+> both my sites and some other sites like Microsoft, ZDNet at the same
+> time. Unofficially Akamai has confirmed they also saw this internally
+> and are investigating, I have a case open with them.
+>
+> I've heard some random reports of 'global dns problems' but that of
+> course does not mean much. Did anyone else see anything interesting in
+> the DNS world between 12:30 and 12:45 PTD today? Specifically, failing
+> to resolve high profile records such as edgesuite.net.
+>
+> Any information about what others saw during this time frame would be
+> greatly appreciated.
+>
+> Thanks everyone!
+>
+> - S
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/6561e148/attachment.html>
+
+From alvinychan at gmail.com  Mon Aug  8 16:27:55 2011
+From: alvinychan at gmail.com (Alvin Chan)
+Date: Mon, 8 Aug 2011 13:27:55 -0700
+Subject: [outages] DNS lookups around 12:30 PDT/ edgesuite.net
+	resolution failures
+In-Reply-To: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+References: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+Message-ID: <CAN_nbgQOfSn2sgDracH-1bLhNg+KwRU96oDV6Zjtpr=dLw8qKw@mail.gmail.com>
+
+Yes, we received many timeout alerts from my.keynote.com (which happens to
+use Akamai for dns), McAfee's Scan Alert also timed out due to having dns on
+akamai's network.
+
+On Mon, Aug 8, 2011 at 1:12 PM, dl <kokushibyou at gmail.com> wrote:
+
+> Has anyone seen anything interesting this afternoon with DNS resolution?
+>
+> Around 12:30 PDT we saw edgesuite.net records begin to disappear for
+> both my sites and some other sites like Microsoft, ZDNet at the same
+> time. Unofficially Akamai has confirmed they also saw this internally
+> and are investigating, I have a case open with them.
+>
+> I've heard some random reports of 'global dns problems' but that of
+> course does not mean much. Did anyone else see anything interesting in
+> the DNS world between 12:30 and 12:45 PTD today? Specifically, failing
+> to resolve high profile records such as edgesuite.net.
+>
+> Any information about what others saw during this time frame would be
+> greatly appreciated.
+>
+> Thanks everyone!
+>
+> - S
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/dc922660/attachment.html>
+
+From allan at chartbeat.com  Mon Aug  8 16:35:12 2011
+From: allan at chartbeat.com (Allan Beaufour)
+Date: Mon, 08 Aug 2011 16:35:12 -0400
+Subject: [outages] DNS lookups around 12:30 PDT/ edgesuite.net
+ resolution failures
+In-Reply-To: <CABk_raF2fodhEN3E7TNst1JMnoawN=e+jeTYVw3Kt4V8HsFA7w@mail.gmail.com>
+References: <CAJGHyrEzFwXv-e6LOfbaxdrTxT-ZB9-eX1D+f+sbXxR3PHQ9dQ@mail.gmail.com>
+ <CABk_raF2fodhEN3E7TNst1JMnoawN=e+jeTYVw3Kt4V8HsFA7w@mail.gmail.com>
+Message-ID: <4E404880.603@chartbeat.com>
+
+On the Akamai message center:
+[[
+Akamai is aware of a momentary DNS issue at 3:30 ET that resulted in 
+intermittent DNS lookup failures. The issue has been resolved.
+]]
+
+Allan
+
+On 8/8/11 4:23 PM, Adam Leff wrote:
+> We saw the same issue at the same time from both west and east coast,
+> US.  Case opened with Akamai as well.
+>
+> On Mon, Aug 8, 2011 at 4:12 PM, dl <kokushibyou at gmail.com
+> <mailto:kokushibyou at gmail.com>> wrote:
+>
+>     Has anyone seen anything interesting this afternoon with DNS resolution?
+>
+>     Around 12:30 PDT we saw edgesuite.net <http://edgesuite.net> records
+>     begin to disappear for
+>     both my sites and some other sites like Microsoft, ZDNet at the same
+>     time. Unofficially Akamai has confirmed they also saw this internally
+>     and are investigating, I have a case open with them.
+>
+>     I've heard some random reports of 'global dns problems' but that of
+>     course does not mean much. Did anyone else see anything interesting in
+>     the DNS world between 12:30 and 12:45 PTD today? Specifically, failing
+>     to resolve high profile records such as edgesuite.net
+>     <http://edgesuite.net>.
+>
+>     Any information about what others saw during this time frame would be
+>     greatly appreciated.
+>
+>     Thanks everyone!
+>
+>     - S
+>     _______________________________________________
+>     Outages mailing list
+>     Outages at outages.org <mailto:Outages at outages.org>
+>     https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From michael.self at Phonefusion.com  Mon Aug  8 22:56:29 2011
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Mon, 8 Aug 2011 22:56:29 -0400
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+Message-ID: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+
+I'm having difficulty accessing my instances and am noting service like FourSquare and Netflix that utilize AWS are not responding timely.
+
+Thanks,
+Mike.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/71fd73f8/attachment.html>
+
+From dyork at voxeo.com  Mon Aug  8 23:05:24 2011
+From: dyork at voxeo.com (Dan York)
+Date: Mon, 8 Aug 2011 23:05:24 -0400
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <5B49D372-C1C6-402B-8822-FD338B3DF921@voxeo.com>
+
+Mike,
+
+Amazon reported on http://status.aws.amazon.com/  that they were having issues with EC2 tonight:
+
+7:39 PM PDT We are investigating connectivity issues for EC2 in the US-EAST-1 region.
+7:50 PM PDT We can verify connectivity issues between instances in the US-EAST-1 region and the Internet.
+8:03 PM PDT Full connectivity has been restored. The service is operating normally.
+
+Regards,
+Dan
+
+On Aug 8, 2011, at 10:56 PM, Michael R. Self wrote:
+
+> I'm having difficulty accessing my instances and am noting service like FourSquare and Netflix that utilize AWS are not responding timely.
+> 
+> Thanks,
+> Mike.
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+Dan York, CISSP, Director of Conversations
+Voxeo Corporation   http://www.voxeo.com  dyork at voxeo.com
+Phone: +1-321-710-9193  skype: danyork  sip:dyork at voxeo.com
+
+Join the Voxeo conversation:
+Blogs: http://blogs.voxeo.com
+Twitter: http://twitter.com/voxeo  http://twitter.com/danyork
+Facebook: http://www.facebook.com/voxeo
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/fdfa54f7/attachment-0001.html>
+
+From nathan at outbrain.com  Mon Aug  8 23:08:10 2011
+From: nathan at outbrain.com (Nathan Milford)
+Date: Mon, 8 Aug 2011 23:08:10 -0400
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <CANkc-7KfDmTsWX6eu+TRhj48TcfUbQV9-mcEeTrC_H6=vMx4eQ@mail.gmail.com>
+
+Via: http://status.aws.amazon.com/
+
+7:39 PM PDT We are investigating connectivity issues for EC2 in the
+US-EAST-1 region.
+7:50 PM PDT We can verify connectivity issues between instances in the
+US-EAST-1 region and the Internet.
+
+On Mon, Aug 8, 2011 at 10:56 PM, Michael R. Self <
+michael.self at phonefusion.com> wrote:
+
+> I'm having difficulty accessing my instances and am noting service like
+> FourSquare and Netflix that utilize AWS are not responding timely.
+>
+> Thanks,
+> Mike.
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+Nathan Milford
+Operations Engineer
+Outbrain, Inc.
++1-212-901-2943 (direct)
++1-347-788-1340 (cell)
++1-212-677-1372 (fax)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/43af02d2/attachment.html>
+
+From ben at bencarleton.com  Mon Aug  8 23:06:21 2011
+From: ben at bencarleton.com (Ben Carleton)
+Date: Mon, 08 Aug 2011 23:06:21 -0400
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <4E40A42D.4060709@bencarleton.com>
+
+On 8/8/2011 10:56 PM, Michael R. Self wrote:
+> I'm having difficulty accessing my instances and am noting service
+> like FourSquare and Netflix that utilize AWS are not responding timely.
+>
+> Thanks,
+> Mike.
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+http://status.aws.amazon.com/
+
+It looks like they were having some "connectivity issues" in Northern
+Virginia which were apparently resolved just a few minutes ago. This is
+in addition to the fiasco they are having in their Ireland zone having
+to do with some damaged electrical equipment.
+
+
+--bc
+
+-- 
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
++Ben Carleton // ben at bencarleton.com // @carleton_b +
++=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/46aa033c/attachment.html>
+
+From fergdawgster at gmail.com  Mon Aug  8 23:12:56 2011
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Mon, 8 Aug 2011 20:12:56 -0700
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <CANQy6Faxz2PETuKLdb79YWVSKfhywEk4AbvF_iT16JsrCZ=o9A@mail.gmail.com>
+
+See:
+
+http://thenextweb.com/insider/2011/08/09/amazon-ec2-outage-takes-out-big-name-startups/
+
+- ferg
+
+On Mon, Aug 8, 2011 at 7:56 PM, Michael R. Self
+<michael.self at phonefusion.com> wrote:
+
+> I'm having difficulty accessing my instances and am noting service like
+> FourSquare and Netflix that utilize AWS are not responding timely.
+> Thanks,
+> Mike.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+?Engineering Architecture for the Internet
+?fergdawgster(at)gmail.com
+?ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+From amelton at gmail.com  Mon Aug  8 23:16:33 2011
+From: amelton at gmail.com (Andrew Melton)
+Date: Mon, 8 Aug 2011 20:16:33 -0700
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <CAB_4pdNSi4cEMC2kSkBRQUVS-f=LxtCxVUwBh383BSMHdUDRGA@mail.gmail.com>
+
+Is Facebook down??
+On Aug 8, 2011 8:03 PM, "Michael R. Self" <michael.self at phonefusion.com>
+wrote:
+> I'm having difficulty accessing my instances and am noting service like
+FourSquare and Netflix that utilize AWS are not responding timely.
+>
+> Thanks,
+> Mike.
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/32ed8a83/attachment.html>
+
+From scianos at alphavida.com  Mon Aug  8 23:16:31 2011
+From: scianos at alphavida.com (Stuart Cianos)
+Date: Mon, 08 Aug 2011 20:16:31 -0700
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CANkc-7KfDmTsWX6eu+TRhj48TcfUbQV9-mcEeTrC_H6=vMx4eQ@mail.gmail.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+ <CANkc-7KfDmTsWX6eu+TRhj48TcfUbQV9-mcEeTrC_H6=vMx4eQ@mail.gmail.com>
+Message-ID: <73368dc0-a54c-4c7e-834f-5b6f69346c09@email.android.com>
+
+Confirmed, one of the vendors at the firm I work for has issued an advisory to the effect.
+
+- Stu
+-- 
+Sent from my Android phone with K-9 Mail. Please excuse my brevity.
+
+Nathan Milford <nathan at outbrain.com> wrote:
+
+Via: 
+
+http://status.aws.amazon.com/
+
+
+7:39 PM PDT We are investigating connectivity issues for EC2 in the US-EAST-1 region.
+
+7:50 PM PDT We can verify connectivity issues between instances in the US-EAST-1 region and the Internet.
+
+
+On Mon, Aug 8, 2011 at 10:56 PM, Michael R. Self <michael.self at phonefusion.com> wrote:
+
+I'm having difficulty accessing my instances and am noting service like FourSquare and Netflix that utilize AWS are not responding timely.
+
+
+Thanks,
+
+Mike.
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+-- 
+
+Nathan Milford
+
+Operations Engineer
+
+Outbrain, Inc.
+
++1-212-901-2943 (direct)
+
++1-347-788-1340 (cell)
+
++1-212-677-1372 (fax)
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/1b78a374/attachment.html>
+
+From dparsons at nyip.net  Thu Aug  4 15:25:52 2011
+From: dparsons at nyip.net (Dan Parsons)
+Date: Thu, 4 Aug 2011 12:25:52 -0700
+Subject: [outages] American Internet Services (AIS) DC in San Diego,
+ CA lost power.
+In-Reply-To: <4E3AE8BF.3060001@outages.org>
+References: <4E3AE8BF.3060001@outages.org>
+Message-ID: <-6014028420628644661@unknownmsgid>
+
+It was one of AIS's facilities that lost power (Lightwave). It "only"
+took down the network, from my perspective. I have a large
+installation there, and none of my equipment lost power.
+
+
+
+On Aug 4, 2011, at 11:52 AM, virendra rode <virendra.rode at outages.org> wrote:
+
+> Their entire building just lost power. Not sure if anyone else is impacted.
+>
+>
+> regards,
+> /virendra
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From dparsons at nyip.net  Mon Aug  8 23:06:46 2011
+From: dparsons at nyip.net (Dan Parsons)
+Date: Mon, 8 Aug 2011 20:06:46 -0700
+Subject: [outages] Anyone else seeing problems with Amazon EC2?
+In-Reply-To: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+References: <CA661652.F5461%Michael.Self@PhoneFusion.com>
+Message-ID: <CAEPmtM_0Dtr9mG=N5PeAppYHdZqd6UUiWYe_5-q3UMM2mgin2A@mail.gmail.com>
+
+Yes, right now EC2 seems to be having global problems. Most sites famous for
+being hosted on EC2 are now dead (reddit.com being just one example). I
+suspect the following URL will be updated with more info as it becomes
+available:
+
+http://techcrunch.com/2011/08/08/amazon-ec2-outage/
+
+Dan
+
+
+On Mon, Aug 8, 2011 at 7:56 PM, Michael R. Self <
+michael.self at phonefusion.com> wrote:
+
+> I'm having difficulty accessing my instances and am noting service like
+> FourSquare and Netflix that utilize AWS are not responding timely.
+>
+> Thanks,
+> Mike.
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110808/5331f2ee/attachment.html>
+
+From paul at neoverve.com  Tue Aug  9 17:36:32 2011
+From: paul at neoverve.com (Paul Norton)
+Date: Tue, 09 Aug 2011 14:36:32 -0700
+Subject: [outages] MegaPath VOIP outage
+Message-ID: <4E41A860.4010705@neoverve.com>
+
+Megapath just had a national outage on their VOIP service.  My service 
+was down for over an hour and just came back.
+
+If your Megapath VOIP is still down it should be returning shortly.
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+From lyle at lcrcomputer.net  Tue Aug  9 18:20:08 2011
+From: lyle at lcrcomputer.net (Lyle Giese)
+Date: Tue, 09 Aug 2011 17:20:08 -0500
+Subject: [outages] MegaPath VOIP outage
+In-Reply-To: <4E41A860.4010705@neoverve.com>
+References: <4E41A860.4010705@neoverve.com>
+Message-ID: <4E41B298.60304@lcrcomputer.net>
+
+On 08/09/11 16:36, Paul Norton wrote:
+> Megapath just had a national outage on their VOIP service. My service
+> was down for over an hour and just came back.
+>
+> If your Megapath VOIP is still down it should be returning shortly.
+>
+
+It wasn't just voice.  I have a customer with 2 T1's via 
+Speakeasy/Megapath in the Chicago area.  Their service went down around 
+13:45 CDT and came back just before 16:00 CDT.
+
+Lyle Giese
+LCR Computer Services, Inc.
+
+
+From paul at neoverve.com  Tue Aug  9 18:46:53 2011
+From: paul at neoverve.com (Paul Norton)
+Date: Tue, 09 Aug 2011 15:46:53 -0700
+Subject: [outages] MegaPath VOIP outage
+In-Reply-To: <4E41B298.60304@lcrcomputer.net>
+References: <4E41A860.4010705@neoverve.com> <4E41B298.60304@lcrcomputer.net>
+Message-ID: <4E41B8DD.5040504@neoverve.com>
+
+Thanks for that Info.  My two T1's were up but my VOIP was down.
+
+-- 
+Paul Norton
+Systems Administrator
+Neoverve - www.neoverve.com
+Neoverve Blog - http://blog.neoverve.com/
+
+On 8/9/2011 3:20 PM, Lyle Giese wrote:
+> On 08/09/11 16:36, Paul Norton wrote:
+>> Megapath just had a national outage on their VOIP service. My service
+>> was down for over an hour and just came back.
+>>
+>> If your Megapath VOIP is still down it should be returning shortly.
+>>
+>
+> It wasn't just voice. I have a customer with 2 T1's via
+> Speakeasy/Megapath in the Chicago area. Their service went down around
+> 13:45 CDT and came back just before 16:00 CDT.
+>
+> Lyle Giese
+> LCR Computer Services, Inc.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From brianc at opendns.com  Sat Aug 13 15:08:46 2011
+From: brianc at opendns.com (Brian Carpenter)
+Date: Sat, 13 Aug 2011 14:08:46 -0500
+Subject: [outages] NetworkLayer in DFW
+Message-ID: <4E46CBBE.6010301@opendns.com>
+
+Looks like NetworkLayer in DFW is having some issues. Unable to connect
+to any of the VMs I have at Linode in Dallas.  Anyone else having problems?
+
+-- 
+Brian Carpenter
+NOC Engineer, OpenDNS
+405.503.1286 - mobile
+
+
+From ramans at cwie.net  Sun Aug 14 02:37:19 2011
+From: ramans at cwie.net (Raman Sud)
+Date: Sun, 14 Aug 2011 06:37:19 +0000
+Subject: [outages] Netflix
+Message-ID: <3C527D72DFFFC14F8CAA9FC442D08FB942320B99@exch10-mb2.ccbill-hq.local>
+
+Seeing a lot of latency and bad streaming from netflix from phoenix.
+
+Any one else seeing problems
+
+Sent from my Android phone using TouchDown (www.nitrodesk.com)
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110814/19feb03e/attachment.html>
+
+From paul at paulstewart.org  Sun Aug 14 06:35:22 2011
+From: paul at paulstewart.org (Paul Stewart)
+Date: Sun, 14 Aug 2011 06:35:22 -0400
+Subject: [outages] Netflix
+In-Reply-To: <3C527D72DFFFC14F8CAA9FC442D08FB942320B99@exch10-mb2.ccbill-hq.local>
+References: <3C527D72DFFFC14F8CAA9FC442D08FB942320B99@exch10-mb2.ccbill-hq.local>
+Message-ID: <000001cc5a6d$deecae90$9cc60bb0$@org>
+
+No issues from Toronto, ON Canada?..
+
+ 
+
+Paul
+
+ 
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Raman Sud
+Sent: Sunday, August 14, 2011 2:37 AM
+To: outages at outages.org
+Subject: [outages] Netflix
+
+ 
+
+Seeing a lot of latency and bad streaming from netflix from phoenix. 
+
+Any one else seeing problems
+
+Sent from my Android phone using TouchDown (www.nitrodesk.com) 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110814/8fde10a2/attachment.html>
+
+From billn at billn.net  Sun Aug 14 22:00:49 2011
+From: billn at billn.net (Bill Nash)
+Date: Sun, 14 Aug 2011 19:00:49 -0700
+Subject: [outages] Netflix
+In-Reply-To: <000001cc5a6d$deecae90$9cc60bb0$@org>
+References: <3C527D72DFFFC14F8CAA9FC442D08FB942320B99@exch10-mb2.ccbill-hq.local>
+ <000001cc5a6d$deecae90$9cc60bb0$@org>
+Message-ID: <CAFiy7NTL061pF2Td3iTE0Sc2gX+tT9xBPXg2EPQ-8GOTAuhS4w@mail.gmail.com>
+
+Guys, come on. You can't be serious with this. It's like you're
+skipping even basic troubleshooting or identification of a potential
+problem entirely. Knowing Raman, he sent this from his couch because
+he saw a little degradation while streaming an episode of Entourage.
+Nevermind that in his time zone, it's near dinner time, his TV's media
+unit is probably on wireless, and his wife is more than likely cooking
+dinner. Heating up a side dish is no reason to assume there's a
+network outage or degradation that could possibly be noticed all the
+way to Canada.
+
+Netflix's service infrastructure is a varied beast that involves
+Amazon's cloud services and no less than two CDNs, if not three. Make
+the effort, instead of making noise.
+
+- billn
+
+On Sun, Aug 14, 2011 at 3:35 AM, Paul Stewart <paul at paulstewart.org> wrote:
+> No issues from Toronto, ON Canada?..
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Raman Sud
+> Sent: Sunday, August 14, 2011 2:37 AM
+> To: outages at outages.org
+> Subject: [outages] Netflix
+>
+>
+>
+> Seeing a lot of latency and bad streaming from netflix from phoenix.
+>
+> Any one else seeing problems
+>
+> Sent from my Android phone using TouchDown (www.nitrodesk.com)
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+
+- billn
+
+
+From paul at paulstewart.org  Mon Aug 15 09:54:47 2011
+From: paul at paulstewart.org (Paul Stewart)
+Date: Mon, 15 Aug 2011 09:54:47 -0400
+Subject: [outages] Netflix
+In-Reply-To: <CAFiy7NTL061pF2Td3iTE0Sc2gX+tT9xBPXg2EPQ-8GOTAuhS4w@mail.gmail.com>
+References: <3C527D72DFFFC14F8CAA9FC442D08FB942320B99@exch10-mb2.ccbill-hq.local>	<000001cc5a6d$deecae90$9cc60bb0$@org>
+ <CAFiy7NTL061pF2Td3iTE0Sc2gX+tT9xBPXg2EPQ-8GOTAuhS4w@mail.gmail.com>
+Message-ID: <00a401cc5b52$e4f921c0$aeeb6540$@org>
+
+Are you referring to me answering or the OP?  The "guys, come on" part I
+find kind of offensive!
+
+I understand your point and yes I should have paid more attention to the
+posting - will give you that.  I'm quite familiar with their infrastructure.
+But wasting a full paragraph on his wife cooking vs just getting to the
+point would have created a lot less noise on this list too.
+
+Paul Stewart
+
+-----Original Message-----
+From: Bill Nash [mailto:billn at billn.net] 
+Sent: Sunday, August 14, 2011 10:01 PM
+To: Paul Stewart
+Cc: Raman Sud; outages at outages.org
+Subject: Re: [outages] Netflix
+
+Guys, come on. You can't be serious with this. It's like you're
+skipping even basic troubleshooting or identification of a potential
+problem entirely. Knowing Raman, he sent this from his couch because
+he saw a little degradation while streaming an episode of Entourage.
+Nevermind that in his time zone, it's near dinner time, his TV's media
+unit is probably on wireless, and his wife is more than likely cooking
+dinner. Heating up a side dish is no reason to assume there's a
+network outage or degradation that could possibly be noticed all the
+way to Canada.
+
+Netflix's service infrastructure is a varied beast that involves
+Amazon's cloud services and no less than two CDNs, if not three. Make
+the effort, instead of making noise.
+
+- billn
+
+On Sun, Aug 14, 2011 at 3:35 AM, Paul Stewart <paul at paulstewart.org> wrote:
+> No issues from Toronto, ON Canada...
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Raman Sud
+> Sent: Sunday, August 14, 2011 2:37 AM
+> To: outages at outages.org
+> Subject: [outages] Netflix
+>
+>
+>
+> Seeing a lot of latency and bad streaming from netflix from phoenix.
+>
+> Any one else seeing problems
+>
+> Sent from my Android phone using TouchDown (www.nitrodesk.com)
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+
+- billn
+
+
+From michael.self at Phonefusion.com  Mon Aug 15 10:16:36 2011
+From: michael.self at Phonefusion.com (Michael R. Self)
+Date: Mon, 15 Aug 2011 10:16:36 -0400
+Subject: [outages] Netflix
+Message-ID: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+
+Seriously people. There are thousands of us on this list that use it FOR REAL. Some one having an issue with degraded Netflix streaming or they can&apos;t pull up their Facebook page is an abuse of this fine instrument we have for REAL problems.
+
+Fibers cuts, Level3 ATM switches going down, EC2 AZ problems, etc. are real and service affecting to those of us that run networks and companies. Not one person&apos;s evening entertainment quality being reduced.
+
+Can I please propose that we police ourselves enough to know that if what we are posting doesn&apos;t affect a large populous OR isn&apos;t germain to our livelihoods (network admins, techs, engineers, NOC personnel at any common carrier or ISP, etc) that it not be posted?
+
+Today, any email from OUTAGES commands attention, respect and is a community, voluntary call to action -- like ringing the bell in an old west town. Let&apos;s please keep it that way.
+
+_____________________________________________
+Cheers,
+Mike
+
+Sent from a thingy connected to the interwebs.
+
+Paul Stewart <paul at paulstewart.org> wrote:
+
+Are you referring to me answering or the OP?  The "guys, come on" part I
+find kind of offensive!
+
+I understand your point and yes I should have paid more attention to the
+posting - will give you that.  I'm quite familiar with their infrastructure.
+But wasting a full paragraph on his wife cooking vs just getting to the
+point would have created a lot less noise on this list too.
+
+Paul Stewart
+
+-----Original Message-----
+From: Bill Nash [mailto:billn at billn.net]
+Sent: Sunday, August 14, 2011 10:01 PM
+To: Paul Stewart
+Cc: Raman Sud; outages at outages.org
+Subject: Re: [outages] Netflix
+
+Guys, come on. You can't be serious with this. It's like you're
+skipping even basic troubleshooting or identification of a potential
+problem entirely. Knowing Raman, he sent this from his couch because
+he saw a little degradation while streaming an episode of Entourage.
+Nevermind that in his time zone, it's near dinner time, his TV's media
+unit is probably on wireless, and his wife is more than likely cooking
+dinner. Heating up a side dish is no reason to assume there's a
+network outage or degradation that could possibly be noticed all the
+way to Canada.
+
+Netflix's service infrastructure is a varied beast that involves
+Amazon's cloud services and no less than two CDNs, if not three. Make
+the effort, instead of making noise.
+
+- billn
+
+On Sun, Aug 14, 2011 at 3:35 AM, Paul Stewart <paul at paulstewart.org> wrote:
+> No issues from Toronto, ON Canada...
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Raman Sud
+> Sent: Sunday, August 14, 2011 2:37 AM
+> To: outages at outages.org
+> Subject: [outages] Netflix
+>
+>
+>
+> Seeing a lot of latency and bad streaming from netflix from phoenix.
+>
+> Any one else seeing problems
+>
+> Sent from my Android phone using TouchDown (www.nitrodesk.com<http://www.nitrodesk.com>)
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+--
+
+- billn
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110815/116bcd50/attachment.html>
+
+From jra at baylink.com  Mon Aug 15 10:32:07 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 15 Aug 2011 10:32:07 -0400 (EDT)
+Subject: [outages] Netflix
+In-Reply-To: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+Message-ID: <5386735.156.1313418727854.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Michael R. Self" <michael.self at phonefusion.com>
+
+> Seriously people. There are thousands of us on this list that use it
+> FOR REAL. Some one having an issue with degraded Netflix streaming or
+> they can't pull up their Facebook page is an abuse of this fine
+> instrument we have for REAL problems.
+> 
+> Fibers cuts, Level3 ATM switches going down, EC2 AZ problems, etc. are
+> real and service affecting to those of us that run networks and
+> companies. Not one person's evening entertainment quality being
+> reduced.
+> 
+> Can I please propose that we police ourselves enough to know that if
+> what we are posting doesn't affect a large populous OR isn't
+> germain to our livelihoods (network admins, techs, engineers, NOC
+> personnel at any common carrier or ISP, etc) that it not be posted?
+
+Well, our 'charter' (posted on the wiki), says:
+
+"""
+Our primary focus tends to be Critical Internet Infrastructure such as IXPs, DNS root servers, major carriers, major data center, carrier hotel, COs, etc., related outages, but other sorts of things -- telecom/BlackBerry problems, AIM dying again, etc -- are certainly within our scope here as well. For years many have argued ?what constitutes critical infrastructure?. A single clear cut definition has yet to be devised.
+
+Infrastructure is constantly changing; a moving target, so to speak, and what's important to one may not be as important to others. You are welcome to adopt whatever definition of 'criticality' you like. 
+"""
+
+We've discussed in the past the fact that eyeball networks contain lots
+of paying customers who do, in fact, care if they can't get to Netflix or
+Facebook, and that their money makes the issue on-topic for this list.
+
+That said, I will agree that a *bit* more investigation is called for,
+both by people who are inquiring, and people who are reporting for good
+or ill.
+
+Please see my next posting on that point.
+
+> Today, any email from OUTAGES commands attention, respect and is a
+> community, voluntary call to action -- like ringing the bell in an old
+> west town. Let's please keep it that way.
+
+Excellent viewpoint.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+
+From jra at baylink.com  Mon Aug 15 10:36:01 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 15 Aug 2011 10:36:01 -0400 (EDT)
+Subject: [outages] POLICY Reminder: outage reports
+Message-ID: <25812520.158.1313418961993.JavaMail.root@benjamin.baylink.com>
+
+When you're reporting an outage to the list based on something *other* than
+your own trouble ticket with a carrier, please -- in our continuing attempt
+to keep postings on this list as productive and high S/N as possible:
+
+Do Your Homework.
+
+===
+
+Don't just ask "is X down?"; there are websites for that.
+
+Please try to have 3 indications that there might be a problem past the 
+edge of your own network before you post -- *and include what they are*.
+
+If you're replying to someone's inquiry, do your own pings and traces and 
+MTR -r's, and include those in the posted replies.
+
+This is for two reasons: it will reduce trivial postings, and it will make
+the ones that filter through *much* more useful to both the poster, and
+everyone else who reads them.
+
+REMEMBER: this list is a forward to many users' mobile mailboxes.  Please
+think before you post.  Conversations to outages-discussion.
+
+And as usual, thanks to Jared @ Puck for hosting us.
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From mike at schuler.me  Mon Aug 15 10:40:31 2011
+From: mike at schuler.me (Michael Schuler)
+Date: Mon, 15 Aug 2011 09:40:31 -0500
+Subject: [outages] Netflix
+In-Reply-To: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+References: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+Message-ID: <BE8EEEF5-6023-4B3D-A79C-2E6F083B0698@schuler.me>
+
+Might I suggest that a Criteria be outlined for what constitutes an acceptable post to the outages list if this bothers people so much?
+That way when someone posts an email.  They can simply be redirected to that URL instead of 6 emails upset about the face someone
+asked if Netflix/Facebook was down for some or all.
+
+So far we have:
+1. Fiber Cuts
+2. Level3 ATM Switches Down
+3. Cloud Service outtages (e.g. Amazon EC2)
+
+Just a suggestion from a lurker.  If it's already been established could I have the link?
+
+Thanks,
+Mike Schuler
+
+On Aug 15, 2011, at 9:16 AM, Michael R. Self wrote:
+
+> Seriously people. There are thousands of us on this list that use it FOR REAL. Some one having an issue with degraded Netflix streaming or they can&apos;t pull up their Facebook page is an abuse of this fine instrument we have for REAL problems.
+> 
+> Fibers cuts, Level3 ATM switches going down, EC2 AZ problems, etc. are real and service affecting to those of us that run networks and companies. Not one person&apos;s evening entertainment quality being reduced. 
+> 
+> Can I please propose that we police ourselves enough to know that if what we are posting doesn&apos;t affect a large populous OR isn&apos;t germain to our livelihoods (network admins, techs, engineers, NOC personnel at any common carrier or ISP, etc) that it not be posted? 
+> 
+> Today, any email from OUTAGES commands attention, respect and is a community, voluntary call to action -- like ringing the bell in an old west town. Let&apos;s please keep it that way. 
+> 
+> _____________________________________________
+> Cheers,
+> Mike
+> 
+> Sent from a thingy connected to the interwebs. 
+> 
+> Paul Stewart <paul at paulstewart.org> wrote:
+> 
+> Are you referring to me answering or the OP?  The "guys, come on" part I
+> find kind of offensive!
+> 
+> I understand your point and yes I should have paid more attention to the
+> posting - will give you that.  I'm quite familiar with their infrastructure.
+> But wasting a full paragraph on his wife cooking vs just getting to the
+> point would have created a lot less noise on this list too.
+> 
+> Paul Stewart
+> 
+> -----Original Message-----
+> From: Bill Nash [mailto:billn at billn.net] 
+> Sent: Sunday, August 14, 2011 10:01 PM
+> To: Paul Stewart
+> Cc: Raman Sud; outages at outages.org
+> Subject: Re: [outages] Netflix
+> 
+> Guys, come on. You can't be serious with this. It's like you're
+> skipping even basic troubleshooting or identification of a potential
+> problem entirely. Knowing Raman, he sent this from his couch because
+> he saw a little degradation while streaming an episode of Entourage.
+> Nevermind that in his time zone, it's near dinner time, his TV's media
+> unit is probably on wireless, and his wife is more than likely cooking
+> dinner. Heating up a side dish is no reason to assume there's a
+> network outage or degradation that could possibly be noticed all the
+> way to Canada.
+> 
+> Netflix's service infrastructure is a varied beast that involves
+> Amazon's cloud services and no less than two CDNs, if not three. Make
+> the effort, instead of making noise.
+> 
+> - billn
+> 
+> On Sun, Aug 14, 2011 at 3:35 AM, Paul Stewart <paul at paulstewart.org> wrote:
+> > No issues from Toronto, ON Canada...
+> >
+> >
+> >
+> > Paul
+> >
+> >
+> >
+> >
+> >
+> > From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> > Behalf Of Raman Sud
+> > Sent: Sunday, August 14, 2011 2:37 AM
+> > To: outages at outages.org
+> > Subject: [outages] Netflix
+> >
+> >
+> >
+> > Seeing a lot of latency and bad streaming from netflix from phoenix.
+> >
+> > Any one else seeing problems
+> >
+> > Sent from my Android phone using TouchDown (www.nitrodesk.com)
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> 
+> 
+> 
+> -- 
+> 
+> - billn
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110815/1f19e6eb/attachment-0001.html>
+
+From frnkblk at iname.com  Mon Aug 15 10:41:06 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 15 Aug 2011 09:41:06 -0500
+Subject: [outages] Netflix
+In-Reply-To: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+References: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+Message-ID: <001401cc5b59$5f6a4a00$1e3ede00$@iname.com>
+
+Please redirect this thread to outages-discussion.
+
+ 
+
+Thanks,
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Michael R. Self
+Sent: Monday, August 15, 2011 9:17 AM
+To: Paul Stewart; 'Bill Nash'
+Cc: outages at outages.org
+Subject: Re: [outages] Netflix
+
+ 
+
+Seriously people. There are thousands of us on this list that use it FOR
+REAL. Some one having an issue with degraded Netflix streaming or they
+can&apos;t pull up their Facebook page is an abuse of this fine instrument
+we have for REAL problems.
+
+Fibers cuts, Level3 ATM switches going down, EC2 AZ problems, etc. are real
+and service affecting to those of us that run networks and companies. Not
+one person&apos;s evening entertainment quality being reduced. 
+
+Can I please propose that we police ourselves enough to know that if what we
+are posting doesn&apos;t affect a large populous OR isn&apos;t germain to
+our livelihoods (network admins, techs, engineers, NOC personnel at any
+common carrier or ISP, etc) that it not be posted? 
+
+Today, any email from OUTAGES commands attention, respect and is a
+community, voluntary call to action -- like ringing the bell in an old west
+town. Let&apos;s please keep it that way. 
+
+_____________________________________________
+Cheers,
+Mike
+
+Sent from a thingy connected to the interwebs. 
+
+Paul Stewart <paul at paulstewart.org> wrote:
+
+Are you referring to me answering or the OP?  The "guys, come on" part I
+find kind of offensive!
+
+I understand your point and yes I should have paid more attention to the
+posting - will give you that.  I'm quite familiar with their infrastructure.
+But wasting a full paragraph on his wife cooking vs just getting to the
+point would have created a lot less noise on this list too.
+
+Paul Stewart
+
+-----Original Message-----
+From: Bill Nash [mailto:billn at billn.net] 
+Sent: Sunday, August 14, 2011 10:01 PM
+To: Paul Stewart
+Cc: Raman Sud; outages at outages.org
+Subject: Re: [outages] Netflix
+
+Guys, come on. You can't be serious with this. It's like you're
+skipping even basic troubleshooting or identification of a potential
+problem entirely. Knowing Raman, he sent this from his couch because
+he saw a little degradation while streaming an episode of Entourage.
+Nevermind that in his time zone, it's near dinner time, his TV's media
+unit is probably on wireless, and his wife is more than likely cooking
+dinner. Heating up a side dish is no reason to assume there's a
+network outage or degradation that could possibly be noticed all the
+way to Canada.
+
+Netflix's service infrastructure is a varied beast that involves
+Amazon's cloud services and no less than two CDNs, if not three. Make
+the effort, instead of making noise.
+
+- billn
+
+On Sun, Aug 14, 2011 at 3:35 AM, Paul Stewart <paul at paulstewart.org> wrote:
+> No issues from Toronto, ON Canada...
+>
+>
+>
+> Paul
+>
+>
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> Behalf Of Raman Sud
+> Sent: Sunday, August 14, 2011 2:37 AM
+> To: outages at outages.org
+> Subject: [outages] Netflix
+>
+>
+>
+> Seeing a lot of latency and bad streaming from netflix from phoenix.
+>
+> Any one else seeing problems
+>
+> Sent from my Android phone using TouchDown (www.nitrodesk.com)
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+
+- billn
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110815/523b45b1/attachment.html>
+
+From josh at imaginenetworksllc.com  Mon Aug 15 10:53:37 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Mon, 15 Aug 2011 10:53:37 -0400
+Subject: [outages] Netflix
+In-Reply-To: <5386735.156.1313418727854.JavaMail.root@benjamin.baylink.com>
+References: <au604qggi07r8xmb8d2xtc1e.1313417792998@email.android.com>
+ <5386735.156.1313418727854.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAN9qwJ-LQOV4V4Q0QjVsi+nKRgHi8qu4ijpXheeWehhFzNSJTA@mail.gmail.com>
+
+Something that causes a lot of phone calls by end users.  A service impact
+that end users experience.
+
+Netflix being down is worth posting.  One stream that buffered for a moment
+at one location is NOT.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Mon, Aug 15, 2011 at 10:32 AM, Jay Ashworth <jra at baylink.com> wrote:
+
+> ----- Original Message -----
+> > From: "Michael R. Self" <michael.self at phonefusion.com>
+>
+> > Seriously people. There are thousands of us on this list that use it
+> > FOR REAL. Some one having an issue with degraded Netflix streaming or
+> > they can't pull up their Facebook page is an abuse of this fine
+> > instrument we have for REAL problems.
+> >
+> > Fibers cuts, Level3 ATM switches going down, EC2 AZ problems, etc. are
+> > real and service affecting to those of us that run networks and
+> > companies. Not one person's evening entertainment quality being
+> > reduced.
+> >
+> > Can I please propose that we police ourselves enough to know that if
+> > what we are posting doesn't affect a large populous OR isn't
+> > germain to our livelihoods (network admins, techs, engineers, NOC
+> > personnel at any common carrier or ISP, etc) that it not be posted?
+>
+> Well, our 'charter' (posted on the wiki), says:
+>
+> """
+> Our primary focus tends to be Critical Internet Infrastructure such as
+> IXPs, DNS root servers, major carriers, major data center, carrier hotel,
+> COs, etc., related outages, but other sorts of things -- telecom/BlackBerry
+> problems, AIM dying again, etc -- are certainly within our scope here as
+> well. For years many have argued ?what constitutes critical infrastructure?.
+> A single clear cut definition has yet to be devised.
+>
+> Infrastructure is constantly changing; a moving target, so to speak, and
+> what's important to one may not be as important to others. You are welcome
+> to adopt whatever definition of 'criticality' you like.
+> """
+>
+> We've discussed in the past the fact that eyeball networks contain lots
+> of paying customers who do, in fact, care if they can't get to Netflix or
+> Facebook, and that their money makes the issue on-topic for this list.
+>
+> That said, I will agree that a *bit* more investigation is called for,
+> both by people who are inquiring, and people who are reporting for good
+> or ill.
+>
+> Please see my next posting on that point.
+>
+> > Today, any email from OUTAGES commands attention, respect and is a
+> > community, voluntary call to action -- like ringing the bell in an old
+> > west town. Let's please keep it that way.
+>
+> Excellent viewpoint.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth                  Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover
+> DII
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110815/9d3975ea/attachment.html>
+
+From amon at vnl.com  Mon Aug 15 14:39:15 2011
+From: amon at vnl.com (Dale Amon)
+Date: Mon, 15 Aug 2011 14:39:15 -0400
+Subject: [outages] XO outage?
+Message-ID: <20110815183915.GC3528@vnl.com>
+
+I've been contacted by a customer in Lower Manhattan 
+who is seeing an XO outage in Lower Manhattan. They
+have a ticket in but no response. POTS is down for
+them.
+
+Can anyone else confirm or deny a problem in that
+area?
+
+From jason at pins.net  Tue Aug 16 10:00:45 2011
+From: jason at pins.net (Jason Berenson)
+Date: Tue, 16 Aug 2011 10:00:45 -0400
+Subject: [outages] XO outage?
+In-Reply-To: <20110815183915.GC3528@vnl.com>
+References: <20110815183915.GC3528@vnl.com>
+Message-ID: <4E4A780D.8070403@pins.net>
+
+I've got XO EoC circuits that are fine in lower Manhattan.
+
+-Jason
+
+On 8/15/11 2:39 PM, Dale Amon wrote:
+> I've been contacted by a customer in Lower Manhattan
+> who is seeing an XO outage in Lower Manhattan. They
+> have a ticket in but no response. POTS is down for
+> them.
+>
+> Can anyone else confirm or deny a problem in that
+> area?
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From amon at vnl.com  Tue Aug 16 14:34:24 2011
+From: amon at vnl.com (Dale Amon)
+Date: Tue, 16 Aug 2011 14:34:24 -0400
+Subject: [outages] XO outage?
+In-Reply-To: <4E4A780D.8070403@pins.net>
+References: <20110815183915.GC3528@vnl.com>
+ <4E4A780D.8070403@pins.net>
+Message-ID: <20110816183424.GD7104@vnl.com>
+
+On Tue, Aug 16, 2011 at 10:00:45AM -0400, Jason Berenson wrote:
+> I've got XO EoC circuits that are fine in lower Manhattan.
+
+Thanks for the info.
+
+From maillist at webjogger.net  Tue Aug 16 16:02:06 2011
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 16 Aug 2011 16:02:06 -0400
+Subject: [outages] Level3 problems?
+Message-ID: <4E4ACCBE.9080104@webjogger.net>
+
+Customer in White Plains NY seeing possible performance degradation on 
+Level3 circuit ... failed over to backup provider ... anyone aware of 
+issues?
+
+From jnavitsky at gmail.com  Tue Aug 16 16:14:04 2011
+From: jnavitsky at gmail.com (Jayson Navitsky)
+Date: Tue, 16 Aug 2011 16:14:04 -0400
+Subject: [outages] Level3 problems?
+In-Reply-To: <4E4ACCBE.9080104@webjogger.net>
+References: <4E4ACCBE.9080104@webjogger.net>
+Message-ID: <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+
+We saw this starting around 3:45PM - mostly between L3 and Verizon.
+
+On Tue, Aug 16, 2011 at 4:02 PM, Adam Greene <maillist at webjogger.net> wrote:
+> Customer in White Plains NY seeing possible performance degradation on
+> Level3 circuit ... failed over to backup provider ... anyone aware of
+> issues?
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From Zeek_Bower at medco.com  Tue Aug 16 16:36:43 2011
+From: Zeek_Bower at medco.com (Bower, Zeek)
+Date: Tue, 16 Aug 2011 16:36:43 -0400
+Subject: [outages] Level3 problems?
+In-Reply-To: <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+References: <4E4ACCBE.9080104@webjogger.net>
+ <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+Message-ID: <B27F93338DD3E9498CC81AE96907D24B08A8F254@FL1-MX-USR02P.medco.com>
+
+We saw many connections from 15:40 - 16:05 EST. Here in NJ. Our NOC is
+on with level3 now. 
+
+Zeek Bower
+Medco Work @ Home Solutions Center
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Jayson Navitsky
+Sent: Tuesday, August 16, 2011 4:14 PM
+To: Adam Greene
+Cc: outages at outages.org
+Subject: Re: [outages] Level3 problems?
+
+We saw this starting around 3:45PM - mostly between L3 and Verizon.
+
+On Tue, Aug 16, 2011 at 4:02 PM, Adam Greene <maillist at webjogger.net>
+wrote:
+> Customer in White Plains NY seeing possible performance degradation on
+> Level3 circuit ... failed over to backup provider ... anyone aware of
+> issues?
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+**********************************************************************
+This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+
+
+From maillist at webjogger.net  Tue Aug 16 23:06:47 2011
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 16 Aug 2011 23:06:47 -0400
+Subject: [outages] Level3 problems?
+In-Reply-To: <B27F93338DD3E9498CC81AE96907D24B08A8F254@FL1-MX-USR02P.medco.com>
+References: <4E4ACCBE.9080104@webjogger.net>
+ <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+ <B27F93338DD3E9498CC81AE96907D24B08A8F254@FL1-MX-USR02P.medco.com>
+Message-ID: <4E4B3047.5060004@webjogger.net>
+
+Still seeing issues ... to top it off, customer's backup provider says 
+they too have a ticket open with Level3! However, Level3 tells us there 
+are no open tickets!
+
+On 8/16/2011 4:36 PM, Bower, Zeek wrote:
+> We saw many connections from 15:40 - 16:05 EST. Here in NJ. Our NOC is
+> on with level3 now.
+>
+> Zeek Bower
+> Medco Work @ Home Solutions Center
+>
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Jayson Navitsky
+> Sent: Tuesday, August 16, 2011 4:14 PM
+> To: Adam Greene
+> Cc: outages at outages.org
+> Subject: Re: [outages] Level3 problems?
+>
+> We saw this starting around 3:45PM - mostly between L3 and Verizon.
+>
+> On Tue, Aug 16, 2011 at 4:02 PM, Adam Greene<maillist at webjogger.net>
+> wrote:
+>> Customer in White Plains NY seeing possible performance degradation on
+>> Level3 circuit ... failed over to backup provider ... anyone aware of
+>> issues?
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+> **********************************************************************
+> This e-mail message and any attachments contain confidential information from Medco. If you are not the intended recipient, you are hereby notified that disclosure, printing, copying, distribution, or the taking of any action in reliance on the contents of this electronic information is strictly prohibited. If you have received this e-mail message in error, please immediately notify the sender by reply message and then delete the electronic message and any attachments.
+>
+>
+
+From dharmachris at gmail.com  Tue Aug 16 23:25:51 2011
+From: dharmachris at gmail.com (Christopher Hunt)
+Date: Tue, 16 Aug 2011 20:25:51 -0700
+Subject: [outages] Level3 problems?
+In-Reply-To: <4E4B3047.5060004@webjogger.net>
+References: <4E4ACCBE.9080104@webjogger.net>
+ <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+ <B27F93338DD3E9498CC81AE96907D24B08A8F254@FL1-MX-USR02P.medco.com>
+ <4E4B3047.5060004@webjogger.net>
+Message-ID: <4E4B34BF.8010104@gmail.com>
+
+
+On 8/16/2011 8:06 PM, Adam Greene wrote:
+> Still seeing issues ... to top it off, customer's backup provider says
+> they too have a ticket open with Level3! However, Level3 tells us there
+> are no open tickets!
+> 
+> On 8/16/2011 4:36 PM, Bower, Zeek wrote:
+>> We saw many connections from 15:40 - 16:05 EST. Here in NJ. Our NOC is
+>> on with level3 now.
+>>
+>> Zeek Bower
+>> Medco Work @ Home Solutions Center
+>>
+>> -----Original Message-----
+>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>> On Behalf Of Jayson Navitsky
+>> Sent: Tuesday, August 16, 2011 4:14 PM
+>> To: Adam Greene
+>> Cc: outages at outages.org
+>> Subject: Re: [outages] Level3 problems?
+>>
+>> We saw this starting around 3:45PM - mostly between L3 and Verizon.
+>>
+>> On Tue, Aug 16, 2011 at 4:02 PM, Adam Greene<maillist at webjogger.net>
+>> wrote:
+>>> Customer in White Plains NY seeing possible performance degradation on
+>>> Level3 circuit ... failed over to backup provider ... anyone aware of
+>>> issues?
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> **********************************************************************
+>> This e-mail message and any attachments contain confidential
+>> information from Medco. If you are not the intended recipient, you are
+>> hereby notified that disclosure, printing, copying, distribution, or
+>> the taking of any action in reliance on the contents of this
+>> electronic information is strictly prohibited. If you have received
+>> this e-mail message in error, please immediately notify the sender by
+>> reply message and then delete the electronic message and any attachments.
+>>
+>>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+Not sure if it's related, but our Level3 Seattle/Portland circuit is
+showing high packet loss within Seattle.
+
+From maillist at webjogger.net  Tue Aug 16 23:51:15 2011
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 16 Aug 2011 23:51:15 -0400
+Subject: [outages] Level3 problems?
+In-Reply-To: <4E4B34BF.8010104@gmail.com>
+References: <4E4ACCBE.9080104@webjogger.net>
+ <CAK7qAZr-+bg=YUAEGOP5dU+-pGOz20bcJZx8RgzmEOBenhgJFw@mail.gmail.com>
+ <B27F93338DD3E9498CC81AE96907D24B08A8F254@FL1-MX-USR02P.medco.com>
+ <4E4B3047.5060004@webjogger.net> <4E4B34BF.8010104@gmail.com>
+Message-ID: <4E4B3AB3.80100@webjogger.net>
+
+Customer's other provider is Lightpath (ASN 6128). Their upstream is 
+Cablevision. Lightpath reports a master ticket open with Cablevision 
+referencing multiple customers reporting sporadic issues with Level3.
+
+Guess we just need to wait it out ...
+
+On 8/16/2011 11:25 PM, Christopher Hunt wrote:
+> On 8/16/2011 8:06 PM, Adam Greene wrote:
+>> Still seeing issues ... to top it off, customer's backup provider says
+>> they too have a ticket open with Level3! However, Level3 tells us there
+>> are no open tickets!
+>>
+>> On 8/16/2011 4:36 PM, Bower, Zeek wrote:
+>>> We saw many connections from 15:40 - 16:05 EST. Here in NJ. Our NOC is
+>>> on with level3 now.
+>>>
+>>> Zeek Bower
+>>> Medco Work @ Home Solutions Center
+>>>
+>>> -----Original Message-----
+>>> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>>> On Behalf Of Jayson Navitsky
+>>> Sent: Tuesday, August 16, 2011 4:14 PM
+>>> To: Adam Greene
+>>> Cc: outages at outages.org
+>>> Subject: Re: [outages] Level3 problems?
+>>>
+>>> We saw this starting around 3:45PM - mostly between L3 and Verizon.
+>>>
+>>> On Tue, Aug 16, 2011 at 4:02 PM, Adam Greene<maillist at webjogger.net>
+>>> wrote:
+>>>> Customer in White Plains NY seeing possible performance degradation on
+>>>> Level3 circuit ... failed over to backup provider ... anyone aware of
+>>>> issues?
+>>>> _______________________________________________
+>>>> Outages mailing list
+>>>> Outages at outages.org
+>>>> https://puck.nether.net/mailman/listinfo/outages
+>>>>
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>> **********************************************************************
+>>> This e-mail message and any attachments contain confidential
+>>> information from Medco. If you are not the intended recipient, you are
+>>> hereby notified that disclosure, printing, copying, distribution, or
+>>> the taking of any action in reliance on the contents of this
+>>> electronic information is strictly prohibited. If you have received
+>>> this e-mail message in error, please immediately notify the sender by
+>>> reply message and then delete the electronic message and any attachments.
+>>>
+>>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+> Not sure if it's related, but our Level3 Seattle/Portland circuit is
+> showing high packet loss within Seattle.
+>
+>
+
+From jra at baylink.com  Tue Aug 16 23:57:08 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Tue, 16 Aug 2011 23:57:08 -0400 (EDT)
+Subject: [outages] META: Please quote and trim properly
+Message-ID: <31778625.286.1313553428487.JavaMail.root@benjamin.baylink.com>
+
+You should never post a quote of someone else's signature... or their 
+(probably useless) legal disclaimer.
+
+I know, sometimes mobile clients make this difficult; I feel your pain.
+But if you can, please quote and trim in the fashion approved by the manual.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From mloftis at wgops.com  Wed Aug 17 17:10:13 2011
+From: mloftis at wgops.com (Michael Loftis)
+Date: Wed, 17 Aug 2011 15:10:13 -0600
+Subject: [outages] Random Youtube 500, 502 errors
+Message-ID: <CAHDg04s9x-52294TrcCzE8taEHv4UKK0HK9oVN+8zXwAbOXtMQ@mail.gmail.com>
+
+Just dropping a note that I'm getting random 500 and 502 errors from
+youtube (Blackfood Communications is my ISP, in Clinton, MT)  If
+anyone from Google/Youtube wants to follow up I did capture a couple
+of the (apparently base64 encoded) debug dumps on the 500 error pages
+-- assuminj they actually mean anything.  I also got an Apache
+internal server error saying to contact web at youtube.com -- which was
+REALLY weird and made me wonder if my ISP was redirecting my traffic.
+
+-- 
+
+"Genius might be described as a supreme capacity for getting its possessors
+into trouble of all kinds."
+-- Samuel Butler
+
+From dmcdaniel at maximumcomm.com  Thu Aug 18 16:23:09 2011
+From: dmcdaniel at maximumcomm.com (Derek McDaniel)
+Date: Thu, 18 Aug 2011 16:23:09 -0400
+Subject: [outages] Cincinnati Bell Evolve
+Message-ID: <012101cc5de4$a5777da0$f06678e0$@maximumcomm.com>
+
+Cincinnati Bell Evolve service is completely down. Master ticket is
+C11081166. Wondering if anyone has any information regarding this? Engineers
+are saying they have no ETA as of right now. VOIP circuit
+
+ 
+
+Thanks,
+
+ 
+
+Derek McDaniel
+
+800-589-6299 x111
+
+Technical Supervisor
+
+dmcdaniel at maximumcomm.com
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110818/73976a9e/attachment.html>
+
+From mob at bartzfamily.net  Thu Aug 18 17:05:48 2011
+From: mob at bartzfamily.net (Mike Bartz)
+Date: Thu, 18 Aug 2011 17:05:48 -0400
+Subject: [outages] Cincinnati Bell Evolve
+In-Reply-To: <012101cc5de4$a5777da0$f06678e0$@maximumcomm.com>
+References: <012101cc5de4$a5777da0$f06678e0$@maximumcomm.com>
+Message-ID: <CAMXhYccj-bkm1GNs8-DzfiqPFFmeWd0nFNCqYvdiUFMfW3_yRQ@mail.gmail.com>
+
+Just got off the phone with their tech support regarding a data T1 in the
+area.  He said that there was a large outage in Hamilton.  Affecting PRI
+services, etc.
+
+
+On Thu, Aug 18, 2011 at 4:23 PM, Derek McDaniel
+<dmcdaniel at maximumcomm.com>wrote:
+
+> Cincinnati Bell Evolve service is completely down. Master ticket is
+> C11081166. Wondering if anyone has any information regarding this? Engineers
+> are saying they have no ETA as of right now. VOIP circuit****
+>
+> ** **
+>
+> Thanks,****
+>
+> ** **
+>
+> Derek McDaniel****
+>
+> 800-589-6299 x111****
+>
+> Technical Supervisor****
+>
+> dmcdaniel at maximumcomm.com****
+>
+> ** **
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+Mike Bartz
+mob at bartzfamily.net
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110818/ded8953c/attachment.html>
+
+From daniel.crompton at gmail.com  Fri Aug 19 16:41:22 2011
+From: daniel.crompton at gmail.com (=?ISO-8859-1?Q?Dani=EBl_W=2E_Crompton?=)
+Date: Fri, 19 Aug 2011 22:41:22 +0200
+Subject: [outages] Posterous is down
+Message-ID: <CALKmEuCqmhEdMAbzb3wEaghxqFVYPPRKpLz5H4ja01Kqfg1pUQ@mail.gmail.com>
+
+Posterous is down, no mention on the blog...
+
+http://www.downforeveryoneorjustme.com/posterous.com
+
+-- 
+blaze your trail
+
+--
+Dani?l W. Crompton <daniel.crompton at gmail.com>
+
+<http://specialbrands.net/>
+
+<http://specialbrands.net/>
+http://specialbrands.net/
+<http://twitter.com/webhat>
+<http://www.facebook.com/webhat><http://plancast.com/webhat><http://www.linkedin.com/in/redhat>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110819/6e0ecd71/attachment.html>
+
+From ramans at cwie.net  Fri Aug 19 23:16:53 2011
+From: ramans at cwie.net (Raman Sud)
+Date: Sat, 20 Aug 2011 03:16:53 +0000
+Subject: [outages] Posterous is down
+In-Reply-To: <CALKmEuCqmhEdMAbzb3wEaghxqFVYPPRKpLz5H4ja01Kqfg1pUQ@mail.gmail.com>
+References: <CALKmEuCqmhEdMAbzb3wEaghxqFVYPPRKpLz5H4ja01Kqfg1pUQ@mail.gmail.com>
+Message-ID: <3C527D72DFFFC14F8CAA9FC442D08FB942382FDC@exch10-mb2.ccbill-hq.local>
+
+Doesn't work from phx qwest either
+
+Sent from my Android phone using TouchDown (www.nitrodesk.com)
+
+-----Original Message-----
+From: Dani?l W. Crompton [daniel.crompton at gmail.com]
+Received: Friday, 19 Aug 2011, 8:13pm
+To: Outages at outages.org [Outages at outages.org]
+Subject: [outages] Posterous is down
+
+
+Posterous is down, no mention on the blog...
+
+http://www.downforeveryoneorjustme.com/posterous.com
+
+--
+blaze your trail
+
+--
+Dani?l W. Crompton <daniel.crompton at gmail.com<mailto:daniel.crompton at gmail.com>>
+
+<http://specialbrands.net/>
+
+[http://webhat.files.wordpress.com/2009/02/xlnt-sitelogo.jpg?w=96&h=53]<http://specialbrands.net/>
+http://specialbrands.net/
+[http://tungle.me/portal/images/tungle-me/icotwitter.png]<http://twitter.com/webhat>[http://tungle.me/portal/images/tungle-me/icofacebk.png]<http://www.facebook.com/webhat>[http://tungle.me/portal/images/tungle-me/icoplancast.png]<http://plancast.com/webhat>[http://tungle.me/portal/images/tungle-me/icolinkedin.png]<http://www.linkedin.com/in/redhat>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110820/78feae41/attachment.html>
+
+From derek.morton25 at gmail.com  Sat Aug 20 01:14:44 2011
+From: derek.morton25 at gmail.com (Derek Morton)
+Date: Sat, 20 Aug 2011 00:14:44 -0500
+Subject: [outages] Posterous is down
+In-Reply-To: <3C527D72DFFFC14F8CAA9FC442D08FB942382FDC@exch10-mb2.ccbill-hq.local>
+References: <CALKmEuCqmhEdMAbzb3wEaghxqFVYPPRKpLz5H4ja01Kqfg1pUQ@mail.gmail.com>
+ <3C527D72DFFFC14F8CAA9FC442D08FB942382FDC@exch10-mb2.ccbill-hq.local>
+Message-ID: <CAGtKQTZVug4YgOwxtzy7oSffF-O0SHWes-fcSnA6wnnqUsot_Q@mail.gmail.com>
+
+Comes up fine for me on Cox Business in NW Arkansas
+
+On Fri, Aug 19, 2011 at 10:16 PM, Raman Sud <ramans at cwie.net> wrote:
+
+>  Doesn't work from phx qwest either
+>
+> Sent from my Android phone using TouchDown (www.nitrodesk.com)
+>
+>
+> -----Original Message-----
+> *From:* Dani?l W. Crompton [daniel.crompton at gmail.com]
+> *Received:* Friday, 19 Aug 2011, 8:13pm
+> *To:* Outages at outages.org [Outages at outages.org]
+> *Subject:* [outages] Posterous is down
+>
+>
+>  Posterous is down, no mention on the blog...
+>
+>  http://www.downforeveryoneorjustme.com/posterous.com
+>
+>  --
+> blaze your trail
+>
+> --
+> Dani?l W. Crompton <daniel.crompton at gmail.com>
+>
+>  <http://specialbrands.net/>
+>
+>  <http://specialbrands.net/>
+> http://specialbrands.net/
+>  <http://twitter.com/webhat> <http://www.facebook.com/webhat><http://plancast.com/webhat><http://www.linkedin.com/in/redhat>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110820/796b29fa/attachment.html>
+
+From kwallace at pcconnection.com  Sat Aug 20 22:27:02 2011
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Sat, 20 Aug 2011 22:27:02 -0400
+Subject: [outages] Qwest ATM issues?
+Message-ID: <B92E4A692F0F6B419EE79045D420F72A2F36189C89@MKA176.pcc.int>
+
+Saw cell flow stop from the east coast going to  2 sites, Ohio and South Dakota.  After the brief interruption the latency has increased to both sites. Seems like a fiber cut or re- route. The same thing happened earlier this week. Has anyone else seen any issues? This began around 8:50 pm EDT.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110820/948dd10e/attachment.html>
+
+From kwallace at pcconnection.com  Sat Aug 20 23:24:34 2011
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Sat, 20 Aug 2011 23:24:34 -0400
+Subject: [outages] Qwest ATM issues?
+In-Reply-To: <B92E4A692F0F6B419EE79045D420F72A2F36189C89@MKA176.pcc.int>
+References: <B92E4A692F0F6B419EE79045D420F72A2F36189C89@MKA176.pcc.int>
+Message-ID: <B92E4A692F0F6B419EE79045D420F72A2F36189C8D@MKA176.pcc.int>
+
+Sorry about the top post-
+
+The issue cleared up while I was waiting to open a ticket with the carrier. Still curious if anyone else had issues this evening.
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Wallace Keith
+Sent: Saturday, August 20, 2011 10:27 PM
+To: Outages at outages.org
+Subject: [outages] Qwest ATM issues?
+
+Saw cell flow stop from the east coast going to  2 sites, Ohio and South Dakota.  After the brief interruption the latency has increased to both sites. Seems like a fiber cut or re- route. The same thing happened earlier this week. Has anyone else seen any issues? This began around 8:50 pm EDT.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110820/739ccb28/attachment.html>
+
+From sil at infiltrated.net  Tue Aug 23 14:19:19 2011
+From: sil at infiltrated.net (J. Oquendo)
+Date: Tue, 23 Aug 2011 14:19:19 -0400
+Subject: [outages] Verizon PSTN in NYC
+Message-ID: <4E53EF27.4010505@infiltrated.net>
+
+
+Any confirmation of VZ line being down in NYC due to the earthquake
+felt. My thoughts are that the systems are being overwhelmed.
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+
+
+From Keys at tessco.com  Tue Aug 23 14:35:29 2011
+From: Keys at tessco.com (Keys, Lisa)
+Date: Tue, 23 Aug 2011 14:35:29 -0400
+Subject: [outages] Verizon PSTN in NYC
+In-Reply-To: <4E53EF27.4010505@infiltrated.net>
+References: <4E53EF27.4010505@infiltrated.net>
+Message-ID: <303E6FF39778FE4B9F30B0E83C3781AB0BCDC672@EXCHANGE-1.tessco.com>
+
+All Cellphones are busy in MD. I'm guessing it's from everyone trying to
+call at the sames time. Both ATT and Verizon Wireless.  (Voice busy.
+Data seems to be working).
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of J. Oquendo
+Sent: Tuesday, August 23, 2011 2:19 PM
+To: outages at outages.org
+Subject: [outages] Verizon PSTN in NYC
+
+
+Any confirmation of VZ line being down in NYC due to the earthquake
+felt. My thoughts are that the systems are being overwhelmed.
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jradel at vantage.com  Tue Aug 23 15:05:25 2011
+From: jradel at vantage.com (Jon Radel)
+Date: Tue, 23 Aug 2011 15:05:25 -0400
+Subject: [outages] Verizon PSTN in NYC
+In-Reply-To: <303E6FF39778FE4B9F30B0E83C3781AB0BCDC672@EXCHANGE-1.tessco.com>
+References: <4E53EF27.4010505@infiltrated.net>
+ <303E6FF39778FE4B9F30B0E83C3781AB0BCDC672@EXCHANGE-1.tessco.com>
+Message-ID: <4E53F9F5.3070300@vantage.com>
+
+The only problem I've confirmed was cell phones; networks acting 
+saturated rather than hard failure.  All other reports of problems I've 
+heard appear to be traceable to people doing things like calling their 
+own cell phones to confirm that their desk phone worked and then 
+reporting it as a desk phone failure.
+
+--Jon
+Who spend much of the earthquake under his desk in Virginia not liking 
+how the concrete slab under him was moving
+
+On 8/23/11 2:35 PM, Keys, Lisa wrote:
+> All Cellphones are busy in MD. I'm guessing it's from everyone trying to
+> call at the sames time. Both ATT and Verizon Wireless.  (Voice busy.
+> Data seems to be working).
+>
+
+-- 
+Jon Radel
+Sr. Director of Engineering
+VANTAGE COMMUNICATIONS
+North American Sales Office
+I-95 Princeton Corporate Center
+370 Scotch Road
+Ewing, New Jersey 08628
+T 609-359-7430
+F none
+
+This email message together with any attachments constitutes confidential and privileged information intended exclusively for the listed addressee(s). If you are not the intended recipient, please notify Vantage by immediately telephoning 267-756-1014.  In addition, please reply to this message confirming your receipt of the same in error. Please do not disclose, copy, distribute or take any action in reliance on the contents of this information.  Kindly destroy all copies of this message and any attachments.  Any other use of this email is prohibited.  Thank you for your cooperation.  For more information about Vantage, please visit our website at http://www.vantage.com.
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 5146 bytes
+Desc: S/MIME Cryptographic Signature
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110823/51ba9bde/attachment.bin>
+
+From ian.m.wilson at gmail.com  Wed Aug 24 18:04:03 2011
+From: ian.m.wilson at gmail.com (Ian Wilson)
+Date: Wed, 24 Aug 2011 18:04:03 -0400
+Subject: [outages] Telecheck and Other Credit processes down?
+Message-ID: <CA+mvWe=1JfPU_3WdZ4-zqBZC7GiCSvoLAPkx4TBGXzDvXLTGbQ@mail.gmail.com>
+
+I've had three retailers in three geographically different call me in
+the last 30 minutes complaining of Telecheck and their primary credit
+card processors timing out.  They've tried to fail back from IP to
+Dial-up, but even those are down right now.
+
+Anyone noticing anything similar?
+
+Ian
+
+-- 
+Ian Wilson
+ian.m.wilson at gmail.com
+
+Solving site load issues with database replication is a lot like
+solving your own personal problems with heroin -- at first, it sorta
+works, but after a while things just get out of hand.
+
+From darren at bolding.org  Wed Aug 24 19:35:01 2011
+From: darren at bolding.org (Darren Bolding)
+Date: Wed, 24 Aug 2011 16:35:01 -0700
+Subject: [outages] Telecheck and Other Credit processes down?
+In-Reply-To: <CA+mvWe=1JfPU_3WdZ4-zqBZC7GiCSvoLAPkx4TBGXzDvXLTGbQ@mail.gmail.com>
+References: <CA+mvWe=1JfPU_3WdZ4-zqBZC7GiCSvoLAPkx4TBGXzDvXLTGbQ@mail.gmail.com>
+Message-ID: <CAG0z-XM5A_JitTgHJoJBnUXk=wVynAT24zWjWENxvD9OL=mbLA@mail.gmail.com>
+
+Paymentech seems to be up, so it is not something widespread among all
+payment card processors.
+
+On Wed, Aug 24, 2011 at 3:04 PM, Ian Wilson <ian.m.wilson at gmail.com> wrote:
+
+> I've had three retailers in three geographically different call me in
+> the last 30 minutes complaining of Telecheck and their primary credit
+> card processors timing out.  They've tried to fail back from IP to
+> Dial-up, but even those are down right now.
+>
+> Anyone noticing anything similar?
+>
+> Ian
+>
+> --
+> Ian Wilson
+> ian.m.wilson at gmail.com
+>
+> Solving site load issues with database replication is a lot like
+> solving your own personal problems with heroin -- at first, it sorta
+> works, but after a while things just get out of hand.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+
+-- 
+--  Darren Bolding                  --
+--  darren at bolding.org           --
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110824/2dc20f18/attachment.html>
+
+From jasongurtz at npumail.com  Sun Aug 28 08:56:27 2011
+From: jasongurtz at npumail.com (Jason Gurtz)
+Date: Sun, 28 Aug 2011 08:56:27 -0400
+Subject: [outages] Fibertech: portions down in CT
+Message-ID: <A92EAF652EC423438D55C14C60771C8703C24544@exchgsrv.nputilities.local>
+
+Latest we have is they're powerless in 2 datacenters. No word on which
+datacenters, but somewhere between Norwich and New Haven Connecticut.
+
+Guessing there's a number of Fibertech business users w/o service along
+the shoreline. I heard either here or elsewhere that Fibertech is known to
+be in places with no generators and/or bad UPS--guessing that is true at
+this point.
+
+~JasonG
+
+
+
+From zaid at zaidali.com  Sun Aug 28 11:55:16 2011
+From: zaid at zaidali.com (Zaid Ali)
+Date: Sun, 28 Aug 2011 10:55:16 -0500
+Subject: [outages] Level3 outage in NY area?
+Message-ID: <0C1800E6-8498-4E8C-A59F-D632DEB4CA37@zaidali.com>
+
+2 of my trans atlantic Level3 circuits went down. Are there other folks experiencing Level3 circuit problem in the NY area most likely caused by the hurricane?
+
+Zaid
+
+
+
+From jnavitsky at gmail.com  Sun Aug 28 12:36:23 2011
+From: jnavitsky at gmail.com (Jayson Navitsky)
+Date: Sun, 28 Aug 2011 12:36:23 -0400
+Subject: [outages] Level3 outage in NY area?
+In-Reply-To: <0C1800E6-8498-4E8C-A59F-D632DEB4CA37@zaidali.com>
+References: <0C1800E6-8498-4E8C-A59F-D632DEB4CA37@zaidali.com>
+Message-ID: <CAK7qAZrxq-CHv9s6A8tjYdaRw1u-gqKUkfTbWH+89P9Ab_Xsvw@mail.gmail.com>
+
+I haven't experienced any outages in the NYC/ NYC Metro area as of yet
+(I don't have any int'l with L3 though - mine are a mix of domestic
+TDM, IP and Ethernet circuits.)
+
+-Jayson
+
+On 8/28/11, Zaid Ali <zaid at zaidali.com> wrote:
+> 2 of my trans atlantic Level3 circuits went down. Are there other folks
+> experiencing Level3 circuit problem in the NY area most likely caused by the
+> hurricane?
+>
+> Zaid
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From frnkblk at iname.com  Mon Aug 29 22:21:48 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 29 Aug 2011 21:21:48 -0500
+Subject: [outages] FW: So Cal Verizon FIOS Issues?
+In-Reply-To: <8078ED370ADA824281219A7B5BADC39B13FD0CCD@MBX023-W1-CA-5>
+References: <8078ED370ADA824281219A7B5BADC39B13FD0CCD@MBX023-W1-CA-5>
+Message-ID: <000f01cc66bb$92390670$b6ab1350$@iname.com>
+
+Forward.
+
+-----Original Message-----
+From: James Laszko [mailto:jamesl at mythostech.com] 
+Sent: Monday, August 29, 2011 5:46 PM
+To: nanog (nanog at nanog.org)
+Subject: So Cal Verizon FIOS Issues?
+
+I was curious if anyone else is seeing huge problems from Verizon FIOS
+connected sites in Southern California reaching large segments of the
+Internet?  It appears that Verizon has lost something large in Los Angeles
+and it's affecting hundreds of our customers.  Lack of connectivity to
+various places around the Internet...  It's really odd because sites that
+are located in adjacent cities can get further than their neighbors, but
+fail in the end (some go to LAX and die, others get routed to DFW and die).
+Large swaths of CDN's are not able to be connected to from any of the sites.
+
+Curious what others are seeing.
+
+
+Regards,
+
+
+James Laszko
+Mythos Technology Inc
+jamesl at mythostech.com<mailto:jamesl at mythostech.com>
+
+
+
+From outages at jdc.parodius.com  Tue Aug 30 02:10:46 2011
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Mon, 29 Aug 2011 23:10:46 -0700
+Subject: [outages] FW: So Cal Verizon FIOS Issues?
+In-Reply-To: <000f01cc66bb$92390670$b6ab1350$@iname.com>
+References: <8078ED370ADA824281219A7B5BADC39B13FD0CCD@MBX023-W1-CA-5>
+ <000f01cc66bb$92390670$b6ab1350$@iname.com>
+Message-ID: <20110830061046.GA72542@icarus.home.lan>
+
+Appears relevant:
+
+http://www.dslreports.com/forum/r26257738-Fios-So-Cal-Network-Routing-Issue-
+
+(To those clicking, note the hyphen on the end of the URL; some clients
+drop this).
+
+The last page of said thread also Verizon may have replaced a router or
+something along those lines (highly speculative given the user base).
+
+And my usual question applies: where's the redundancy?  (Hell, I wasn't
+even aware SoCal *had* Verizon FIOS, if only they'd bring that to the
+Bay....)
+
+-- 
+| Jeremy Chadwick                                jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                   Mountain View, CA, US |
+| Making life hard for others since 1977.               PGP 4BD6C0CB |
+
+On Mon, Aug 29, 2011 at 09:21:48PM -0500, Frank Bulk wrote:
+> Forward.
+> 
+> -----Original Message-----
+> From: James Laszko [mailto:jamesl at mythostech.com] 
+> Sent: Monday, August 29, 2011 5:46 PM
+> To: nanog (nanog at nanog.org)
+> Subject: So Cal Verizon FIOS Issues?
+> 
+> I was curious if anyone else is seeing huge problems from Verizon FIOS
+> connected sites in Southern California reaching large segments of the
+> Internet?  It appears that Verizon has lost something large in Los Angeles
+> and it's affecting hundreds of our customers.  Lack of connectivity to
+> various places around the Internet...  It's really odd because sites that
+> are located in adjacent cities can get further than their neighbors, but
+> fail in the end (some go to LAX and die, others get routed to DFW and die).
+> Large swaths of CDN's are not able to be connected to from any of the sites.
+> 
+> Curious what others are seeing.
+> 
+> 
+> Regards,
+> 
+> 
+> James Laszko
+> Mythos Technology Inc
+> jamesl at mythostech.com<mailto:jamesl at mythostech.com>
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From cjp at 0x1.net  Tue Aug 30 21:15:14 2011
+From: cjp at 0x1.net (Christopher Pilkington)
+Date: Tue, 30 Aug 2011 21:15:14 -0400
+Subject: [outages] Verizon business in upstate NY
+Message-ID: <-599563044037559874@unknownmsgid>
+
+A few hours ago we saw multiple DS3s go down in Central NY and the
+Capital District. Verizon is not being forthcoming with a cause. I
+suspect they were mucking with something already in protect path, but
+I wonder if anyone knew more.
+
+From tami_nguyen at ahm.honda.com  Wed Aug 31 19:02:41 2011
+From: tami_nguyen at ahm.honda.com (tami_nguyen at ahm.honda.com)
+Date: Wed, 31 Aug 2011 16:02:41 -0700
+Subject: [outages] is out of the office.
+Message-ID: <OF22E3D156.685D9779-ON882578FD.007E96AF-882578FD.007E96B0@ahm.honda.com>
+
+
+I will be out of the office starting  08/31/2011 and will not return until
+09/06/2011.
+
+I will respond to your message when I return. If you require immediate
+assistance, please contact Customer Service Support at 310-783-2500 and
+someone will be able to assist you.
+
+
+From josh at imaginenetworksllc.com  Wed Aug 31 19:13:09 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 31 Aug 2011 19:13:09 -0400
+Subject: [outages] is out of the office.
+In-Reply-To: <OF22E3D156.685D9779-ON882578FD.007E96AF-882578FD.007E96B0@ahm.honda.com>
+References: <OF22E3D156.685D9779-ON882578FD.007E96AF-882578FD.007E96B0@ahm.honda.com>
+Message-ID: <CAN9qwJ8d8akurP_-d-YO7Ee3uM05tbXFLQz9bVGuxLcRvR2Lpg@mail.gmail.com>
+
+Can someone unsubscribe him, please?
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Wed, Aug 31, 2011 at 7:02 PM, <tami_nguyen at ahm.honda.com> wrote:
+
+>
+> I will be out of the office starting  08/31/2011 and will not return until
+> 09/06/2011.
+>
+> I will respond to your message when I return. If you require immediate
+> assistance, please contact Customer Service Support at 310-783-2500 and
+> someone will be able to assist you.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20110831/cf232b13/attachment.html>
+

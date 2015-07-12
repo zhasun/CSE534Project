@@ -1,0 +1,831 @@
+###############################################################
+Problems in APAC?
+###############################################################
+  Hello,
+ Having problems resolving names from CloudFlare and other vendors (e.g.
+ citibank.co.in) from from BNSL in New Delhi and Optus in Melbourne. Is
+ anyone aware of any issues in that region with DNS or connectivity?
+ I don't have any more info than that at the moment. Outage has currently
+ been more than 15 minutes.
+ Thanks!
+ Ken
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130301/f7a8ab5a/attachment.html>
+   Australian here, haven't heard anything yet, but it is friday night so
+ most netadmins are getting drunk.
+ Sent from my Windows Phone
+  ------------------------------
+ From: Ken Gilmour <ken.gilmour at gmail.com>
+ Sent: 1/03/2013 8:27 PM
+ Hello,
+ Having problems resolving names from CloudFlare and other vendors (e.g.
+ citibank.co.in) from from BNSL in New Delhi and Optus in Melbourne. Is
+ anyone aware of any issues in that region with DNS or connectivity?
+ I don't have any more info than that at the moment. Outage has currently
+ been more than 15 minutes.
+ Thanks!
+ Ken
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130301/c602c1ad/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Telstra outage (Sydney, Australia) anyone?
+###############################################################
+ Hi,
+ Apparently we lost connection to our site in sydney, australia off 
+ verizon side. The circuit came up just about 10 mins back but we've been 
+ told this was a transport layer issue that was caused on the local PTT 
+ (telstra) side.
+ Apparently this took down about 78 customers on Verizon side.
+ Does anyone have any insight?
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+After Action Report: 22 Feb Microsoft Azure SSL cert outage
+###############################################################
+ http://blogs.msdn.com/b/windowsazure/archive/2013/03/01/details-of-the-february-22nd-2013-windows-azure-storage-disruption.aspx
+ Discussions to -discuss, please.
+ [ Thanks to Lauren at Vortex for sending this to his list ]
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon outage in New York
+###############################################################
+ Hello,
+ If anyone has any information on the current Verizon outage in the New
+ York area, please contact me offline.
+ Thanks,
+ T-Systems North America, Inc
+ ICT-Operations - Telecommunication Services and Solutions
+ Bill Ingrum
+ Manager, Global Customer Solutions
+ 1901 Butterfield Road, Suite 700
+ Downers Grove, IL 60515
+ Office : +1 (630) 493-8683
+ Cell : +1 (630) 540-6909
+ Fax : +1 (630) 493-6111
+ Email : bill.ingrum at t-systems.com <mailto:bill.ingrum at t-systems.com> 
+ Web : www.t-systems.com <http://www.t-systems.com/> 
+ Notice: This transmittal and/or attachments may be privileged or
+ confidential. If you are not the intended recipient, you are hereby
+ notified that you have received this transmittal in error; any review,
+ dissemination, or copying is strictly prohibited. If you received this
+ transmittal in error, please notify us immediately by reply and
+ immediately delete this message and all its attachments. Thank you
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130305/bdf29c80/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+REMINDER: DST
+###############################################################
+ This Sunday, 0159595EST will be followed by 030000EDT, in most areas.
+ Amazing as it sounds, even this late in the day there are *still* things
+ that don't deal with the DST switchover properly.  If you have problems
+ on Sunday, this is definitely an item to have on your checklist.
+ Followups to -discuss
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Amazon.com
+###############################################################
+ Amazon appears to be in trouble. Kindle order, which is usually processed within seconds, is sitting in pending state, hasn't been billed, and their site appears to be missing CSS when loading.
+ This is from upstate NY.
+ --
+ Best regards,
+  Curt
+  Sent from my office desktop by The Bat!
+ "Programming today is a race between software engineers 
+ striving to build bigger and better idiot-proof programs, and the Universe 
+ trying to produce bigger and better idiots. So far, the Universe is winning." -- Rich Cook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130307/529131ce/attachment.html>
+ Amazon's AWS dashboard has all greens and the page loads fine for me.  No
+ chatter on twitter about anything like this.  There seem to be no broader
+ indications that there's an issue at this time.
+ Frank
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Curt at Down in the Country
+ Sent: Thursday, March 07, 2013 6:14 AM
+ Amazon appears to be in trouble. Kindle order, which is usually processed
+ within seconds, is sitting in pending state, hasn't been billed, and their
+ site appears to be missing CSS when loading.
+ This is from upstate NY.
+ --
+ Best regards,
+  Curt
+  Sent from my office desktop by The Bat!
+ "Programming today is a race between software engineers 
+ striving to build bigger and better idiot-proof programs, and the Universe 
+ trying to produce bigger and better idiots. So far, the Universe is
+ winning." -- Rich Cook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130307/130ed935/attachment.html>
+  <000c01ce1b2f$3596c810$a0c45830$@iname.com>
+ On Mar 7, 2013, at 7:28 PM, Frank Bulk (iname.com) wrote:
+ I'm seing the same behavior from Southeast Asia.
+ -----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+ 	  Luck is the residue of opportunity and design.
+ 		       -- John Milton
+ Looks up from here Los Angeles Area.
+ Carlos Alcantar
+ Race Communications / Race Team Member
+ 1325 Howard Ave. #604, Burlingame, CA. 94010
+ Phone: +1 415 376 3314 / carlos at race.com / http://www.race.com
+ -----Original Message-----
+ From: <Dobbins>, Roland <rdobbins at arbor.net>
+ Date: Thursday, March 7, 2013 4:36 AM
+ On Mar 7, 2013, at 7:28 PM, Frank Bulk (iname.com) wrote:
+ I'm seing the same behavior from Southeast Asia.
+ -----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+ 	  Luck is the residue of opportunity and design.
+ 		       -- John Milton
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ----- Original Message -----
+ Amazon also looking fine from VZW 4g.  Some recent reports on NANOG of 
+ problems with yahoo.com, with the obligatory snark about telecommuting, 
+ but it's ok here too.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+PAIX change first thing this morning?
+###############################################################
+ We are down hard peering on PAIX.
+ ( Looks like someone put is in the
+ wrong VLAN. )
+ Anyone know what happened there?
+     00:02:48 Friday, March 8, 2013 PST
+     08:02:48 Thursday, March 8, 2013 UTC
+ Our peering address is: 198.32.176.5
+ We are still down hard and so far we
+ have no information.
+ 22 sessions down on route-views.paix.routeviews.org
+ John Kemp (kemp at routeviews.org)
+###############################################################
+END
+###############################################################
+
+###############################################################
+Midwest TW Outage
+###############################################################
+ Anyone seeing an issue with TWCBC in the Midwest(MKE Area)? I got some notices that is was down around 5 PM and I guess I just came back up?
+ Michael  Peterman
+ President
+ Small Business Technology Solutions
+ "You worry about running your business; we will worry about the technology"
+ Main Office
+ 7513 7th Avenue  Suite 3
+ Kenosha, WI 53143
+ Phone: (262) 671-4898 ext. 202
+ Cell:     (262) 496-3306
+ www.seeus4it.com<http://www.seeus4it.com/>
+ Michael at seeus4it.com<mailto:Michael at seeus4it.com>
+ [Description: Facebook]<http://www.facebook.com/seeus4it>[Description: Twitter]<http://www.twitter.com/seeus4it>[Description: Linkedin]<http://www.linkedin.com/companies/263975>[Description: RSS]<http://blog.seeus4it.com/?feed=rss2>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/bd275fe0/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 1095 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/bd275fe0/attachment.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.jpg
+ Type: image/jpeg
+ Size: 1074 bytes
+ Desc: image002.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/bd275fe0/attachment-0001.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.jpg
+ Type: image/jpeg
+ Size: 1177 bytes
+ Desc: image003.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/bd275fe0/attachment-0002.jpg>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.jpg
+ Type: image/jpeg
+ Size: 1143 bytes
+ Desc: image004.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/bd275fe0/attachment-0003.jpg>
+###############################################################
+END
+###############################################################
+
+###############################################################
+=?utf-8?q?Midwest_TW_Outage?=
+###############################################################
+ Seeing this too (MKE); also affecting residential internet services. They are aware of the issue according to a recorded message when calling in.
+ ----- Reply message -----
+ From: "Michael Peterman" <Michael at seeus4it.com>
+ Subject: [outages] Midwest TW Outage
+ Date: Mon, Mar 11, 2013 17:58
+ Anyone seeing an issue with TWCBC in the Midwest(MKE Area)? I got some notices that is was down around 5 PM and I guess I just came back up?
+ Michael  Peterman
+ President
+ Small Business Technology Solutions
+ "You worry about running your business; we will worry about the technology"
+ Main Office
+ 7513 7th Avenue  Suite 3
+ Kenosha, WI 53143
+ Phone: (262) 671-4898 ext. 202
+ Cell:     (262) 496-3306
+ www.seeus4it.com
+ Michael at seeus4it.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/5e3b9201/attachment.html>
+ A friend of mine in downtown milwaukee is on TWC and it was down before
+ 4:30 and came back up sometime around 6pm.
+ -Grant
+ On Mon, Mar 11, 2013 at 6:24 PM, Alex Leach <alex at aleach.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130311/f5085ae3/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+comcast/sprint oddities
+###############################################################
+ I have seen this the past few nights in a row, however based on a problem we have been having with a customer VPN im thinking its been going on longer.  Tracert section below.  Hop 13 has been really high latency for me during issues.  When its acting up, latency between home and work is 160-200ms.  At 6am this morning, it was 60ms and was consistent all day until 530pm today according to smokeping.
+  5    19 ms    20 ms    20 ms  te-0-10-0-13-ar02.aurora.co.denver.comcast.net [68.86.103.82]
+   6    23 ms    16 ms    16 ms  he-3-9-0-0-cr01.denver.co.ibone.comcast.net [68.86.92.21]
+   7    53 ms    62 ms    31 ms  68.86.89.190
+   8    34 ms    30 ms    29 ms  pos-0-0-0-0-pe01.1950stemmons.tx.ibone.comcast.net [68.86.86.90]
+   9    35 ms    31 ms    29 ms  sl-st31-dal-.sprintlink.net [144.232.25.33]
+ 10    31 ms    31 ms    32 ms  144.232.11.207
+ 11    86 ms    86 ms    30 ms  144.232.1.162
+ 12    42 ms    45 ms    40 ms  sl-crs2-kc-0-5-5-0.sprintlink.net [144.232.24.7]
+ 13   550 ms   110 ms   186 ms  144.232.1.101
+ 14   193 ms   300 ms   119 ms  sl-crs2-che-0-0-2-0.sprintlink.net [144.232.18.120]
+ 15   114 ms   102 ms   104 ms  sl-gw16-che-15-0-0.sprintlink.net [144.232.6.50]
+ Anyone seeing something similar or anyone insightful from either organization who might be able to help out?
+ Thanks,
+ Blake
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130313/7d7718ee/attachment.html>
+ Blake,
+ 1. You need to provide traceroutes from both endpoints, given the
+ very likely possibility of asymmetric routing,
+ 2. You need to provide both source and destination IP addresses,
+ 3. Please make sure your destinations are not routers -- they need to be
+ actual hosts.  If network or host ACLs/firewalls inhibit the ability to
+ reach the destinations, that can make things a bit more difficult given
+ the possibility of ICMP prioritisation.  I say this with acknowledgement
+ of your statement that the same hop tends to show 60ms during normal
+ hours but increases during evenings.
+ Necessary details/specifics are covered here:
+ http://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+ Thanks.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Mar 13, 2013 at 02:50:47AM +0000, Blake Pfankuch - Mailing List wrote:
+  <20130313030146.GA24470@icarus.home.lan>
+ Sorry about that.  The reflexive tracert is below.  I would rather not list source and destination addresses on a public list.  These are directly connected hosts on each side, not routers, no ICMP prioritization for sure on the Sprint peered side, however I am at the mercy of Comcast Business on the other side...
+   4    16 ms     7 ms     5 ms  sl-gw16-che-1-2-0.sprintlink.net [160.81.219.133]
+   5     5 ms     6 ms     6 ms  sl-crs2-che-0-4-2-3.sprintlink.net [144.232.6.51]
+   6    16 ms    15 ms    16 ms  sl-crs2-oma-0-2-2-0.sprintlink.net [144.232.18.121]
+   7    26 ms    25 ms    25 ms  144.232.1.74
+   8    26 ms    25 ms    25 ms  144.232.1.104
+   9    26 ms    26 ms    26 ms  144.232.6.102
+  10    32 ms    35 ms    35 ms  be-12-cr01.350ecermak.il.ibone.comcast.net [68.86.84.189]
+  11    49 ms    51 ms    51 ms  he-1-12-0-0-cr01.denver.co.ibone.comcast.net [68.86.85.250]
+  12    58 ms    59 ms    59 ms  he-0-9-0-0-ar02.aurora.co.denver.comcast.net [68.86.90.150]
+ This trace has first 3 and last 4 hops removed.  Previous trace has first 4 and last 2 hops removed.  Definitely looks like something funky, and was hoping someone might be able give me a little insight on where to go from here.
+ -----Original Message-----
+ From: Jeremy Chadwick [mailto:jdc at koitsu.org] 
+ Sent: Tuesday, March 12, 2013 9:02 PM
+ Cc: outages at outages.org
+ Blake,
+ 1. You need to provide traceroutes from both endpoints, given the very likely possibility of asymmetric routing,
+ 2. You need to provide both source and destination IP addresses,
+ 3. Please make sure your destinations are not routers -- they need to be actual hosts.  If network or host ACLs/firewalls inhibit the ability to reach the destinations, that can make things a bit more difficult given the possibility of ICMP prioritisation.  I say this with acknowledgement of your statement that the same hop tends to show 60ms during normal hours but increases during evenings.
+ Necessary details/specifics are covered here:
+ http://www.nanog.org/meetings/nanog47/presentations/Sunday/RAS_Traceroute_N47_Sun.pdf
+ Thanks.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Mar 13, 2013 at 02:50:47AM +0000, Blake Pfankuch - Mailing List wrote:
+  <20130313030146.GA24470@icarus.home.lan>
+  <CC75EEBF17C7374EA8309102B7B10C84010A7C40EA@exchange.shenrons-house.local>
+ Was the below Sprint->Comcast traceroute taken while the issue was/is
+ still actively happening?
+ You should probably do multiple traceroutes from both endpoints, or get
+ better tools like mtr/WinMTR which can do this repeatedly.
+ What you've shown below indicates that you're only seeing an increase in
+ latency on the ingress side of the Sprint connection (i.e.
+ Comcast->Sprint), starting at one specific router (hop #13) on the
+ Sprint side.
+ If this was an actual service-impacting issue, you would be seeing an
+ increase in latency on the egress (Sprint->Comcast) traceroute as well,
+ given that traceroute attempts to solicit an ICMP time-exceeded message
+ from a device; think round-trip-time and how response packets "should"
+ take the same path that your Comcast->Sprint traceroute would.
+ Phrased differently: if the issue is actively happening, you should be
+ seeing "spiky" latency in both the Comcast->Sprint and Sprint->Comcast
+ traceroutes, just at different hops/network points.
+ What you've shown below refutes that, which to me indicates ICMP
+ prioritisation being used on Sprint routers.
+ If you really wanted to bring this up with Sprint, you would need to
+ have a relationship with them, and you would *need* to provide source
+ and destination IPs.
+ I would recommend setting up scripts/tools that run mtr from a cronjob
+ and save the output to a file, and do this on hosts at both ends of the
+ network (the Comcast end, and the Sprint end).
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Mar 13, 2013 at 03:18:58AM +0000, Blake Pfankuch - Mailing List wrote:
+  <20130313030146.GA24470@icarus.home.lan>
+  <CC75EEBF17C7374EA8309102B7B10C84010A7C40EA@exchange.shenrons-house.local>
+  <20130313033353.GA24920@icarus.home.lan>
+ Yes the issue is actively occurring right now.  It's not consistent, I experience a smooth connection with blips of lag.  Where I am seeing this most frequently is traffic across multiple ipsec VPN's.  We doo have a peering agreement with Sprint.  That's why I emailed out, as normally I would expect to see latency on both directions.  I can most definitely provide them with source and destination IP's, I was mostly just hoping someone else might have seen something similar.  I do have smokeping running from Comcast to Sprint at the moment and it does show plenty of jitter and latency increase, however I do not have smokeping set up on the other side yet.  
+ Thanks for the insight, I will get in touch with our Sprint contacts to see what they think.  
+ Thanks,
+ Blake
+ -----Original Message-----
+ From: Jeremy Chadwick [mailto:jdc at koitsu.org] 
+ Sent: Tuesday, March 12, 2013 9:34 PM
+ Cc: outages at outages.org
+ Was the below Sprint->Comcast traceroute taken while the issue was/is still actively happening?
+ You should probably do multiple traceroutes from both endpoints, or get better tools like mtr/WinMTR which can do this repeatedly.
+ What you've shown below indicates that you're only seeing an increase in latency on the ingress side of the Sprint connection (i.e.
+ Comcast->Sprint), starting at one specific router (hop #13) on the
+ Sprint side.
+ If this was an actual service-impacting issue, you would be seeing an increase in latency on the egress (Sprint->Comcast) traceroute as well, given that traceroute attempts to solicit an ICMP time-exceeded message from a device; think round-trip-time and how response packets "should"
+ take the same path that your Comcast->Sprint traceroute would.
+ Phrased differently: if the issue is actively happening, you should be seeing "spiky" latency in both the Comcast->Sprint and Sprint->Comcast traceroutes, just at different hops/network points.
+ What you've shown below refutes that, which to me indicates ICMP prioritisation being used on Sprint routers.
+ If you really wanted to bring this up with Sprint, you would need to have a relationship with them, and you would *need* to provide source and destination IPs.
+ I would recommend setting up scripts/tools that run mtr from a cronjob and save the output to a file, and do this on hosts at both ends of the network (the Comcast end, and the Sprint end).
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Wed, Mar 13, 2013 at 03:18:58AM +0000, Blake Pfankuch - Mailing List wrote:
+ ----- Original Message -----
+ And there's the point that makes fixing this stuff such a bitch: you almost
+ never have a relationship with anyone except the carrier you connect through
+ (and sometimes not even them :-).
+ This is, incidentally, why my professional recommendation to people setting
+ up "nailed up" links over the Internet is to move heaven and earth to
+ get every point on the same carrier, or to make sure, at the very least
+ that there is only one exchange point in the middle, and you're a customer
+ of the carrier on both sides of it.
+ Having to escalate through 3 or 4 carriers to get something fixed isn't 
+ just time consuming, it's often impossible.
+ Social engineering NOC hotlines (as much as I hate to advocate it) is 
+ often the only solution; bring your Geek License.  :-)
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+ ----- Original Message -----
+ And the recommended approach is:
+ # mtr -rwc 10 $HOST
+ # mtr -rwcn 10 $HOST
+ (Alas, mtr won't show both the name and IP, even in report modes; I will
+ eventually get sick enough of that to patch it.  Yes, local misconfigs
+ that cause bad DNS resolution need to be visible in such report output.)
+ Note that mtr needs to be both setUID root *and* executable by Other
+ in order to work for others than root, assuming you need that.  Neither
+ is default.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+ ----- Original Message -----
+ Fair point.
+ I installed it on OpenSUSE 12.1 on my laptop from...
+ mtr-0.81-3.1.2.i586.rpm
+ which came from the default repo-oss, and on reinstalling it for check,
+ I see that it's root:dialout 4750.  So yes, it has SUID, just not the
+ other permissions.  That's likely not an accident, but all the machines 
+ I manage, I'm the only real user on, generally.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint Wireless Outages
+###############################################################
+ Anyone seeing Sprint Data outages? Out of the 50 or so sites we have their
+ devices at only 2 or 3 are up right now across the country. Anyone else
+ seeing anything? I have a ticket opened on it and they confirmed we have no
+ blocks on our account so was wondering if anyone else is seeing anything?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130313/fe613ee8/attachment.html>
+ No problem in southern NH.
+ On 03/13/2013 06:41 AM, Mitch wrote:
+ No issues on two devices in New York City.
+ Sent via BIS
+ -----Original Message-----
+ From: Mitch <mitpatterson at gmail.com>
+ Sender: outages-bounces at outages.orgDate: Wed, 13 Mar 2013 06:41:48 
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <1349949761-1363172939-cardhu_decombobulator_blackberry.rim.net-63914348-@b13.c21.bise6.blackberry>
+ No problems from Milwaukee, WI
+ On Wed, Mar 13, 2013 at 6:08 AM, <mrsyeltzin at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130313/d7386804/attachment.html>
+  <1349949761-1363172939-cardhu_decombobulator_blackberry.rim.net-63914348-@b13.c21.bise6.blackberry>
+  <CAPiURgVZmOH9ay8Mjkg7GOoEmJeppN1U2=7TBOKJW-J-Y_MGOA@mail.gmail.com>
+ Ok then, sprint just doesn't like us
+ --Sent from my mobile, please excuse my brevity
+ On Mar 13, 2013 10:16 AM, "Grant Ridder" <shortdudey123 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130313/a7744abc/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Frontier - Fiber Cut - Tomahawk Wisconsin
+###############################################################
+ I am also understanding this extends service down to the Merrill, Wisconsin
+ area as well.
+ No further details.
+ *Typing this, tethered to my phone, from a coffee shop*
+ On Thu, Mar 14, 2013 at 2:19 PM, Anthony Hook <anthony.hook3 at gmail.com>wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130314/06ef685e/attachment.html>
+ There's a fiber cut in Tomahawk, Wisconsin.  I'm speaking some colleagues
+ in other areas in Northern Wisconsin, and heard from a Frontier Rep that
+ confirmed this.
+ There are two ISPs in the area, as far as I know anyone using Frontier is
+ affected.  Badgernet (Wisconsin provider for Schools, Libraries,
+ Government) may also be affected.
+ The status on the other ISP in the area, Charter, is not known to me.
+ Internet service in the following cities/areas are affected:
+ Rhinelander
+ Minocqua/Hazelhurst/Arbor Vitae
+ Tomahawk
+ Crandon (including Forest County Potawatomi Nation)
+ I currently don't know an ETA on repairs.
+ *Typing this, tethered to my phone, from a coffee shop*
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130314/8c7af07b/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 issues in dallas
+###############################################################
+ I am experiencing issues again with level3 at 63.146.26.130.  Dropping
+ packets and ping times above 300ms.
+ -- 
+ Jeremie Chism
+ Triton Communications
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130315/8501e3f8/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Centurylink outage in NC
+###############################################################
+  I heard Centurylink had outage today around 10:50am EDT for 15mins or so.
+ They are not speaking.
+ Does Anyone know anything about it?
+ Tatsuya 
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast and GTT/MZIMA LAX packet loss issue
+###############################################################
+ For the past 3 days (roughly when the issue began), I've been seeing
+ signs of what may be network saturation between GTT/MZIMA and Comcast in
+ the Los Angeles area, or alternately an overutilised router.
+ The issue starts approximately around 18:00 PT and continues all the way
+ until roughly midnight.
+ Here's an example of what's happening tonight/right now:
+ Source IP: 67.180.84.87     (Comcast; Mountain View, CA)
+ Dest IP:   206.125.172.42   (ARP Networks with GTT/MZIMA peering; Sylmar, CA)
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%   509   509   0.3   0.2   0.2   2.1
+  2. c-67-180-84-1.hsd1.ca.comcast.net            0.0%   508   508  27.5  25.8   9.1 587.6
+  3. te-0-0-0-12-ur05.santaclara.ca.sfba.comcast  0.0%   508   508  10.0  10.9   8.1  46.6
+  4. te-1-1-0-0-ar01.sfsutro.ca.sfba.comcast.net  0.0%   508   508  17.6  18.2   9.9  49.8
+  5. he-1-5-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%   508   508  17.6  18.6  11.3  36.8
+  6. pos-2-9-0-0-cr01.losangeles.ca.ibone.comcas  0.0%   508   508  21.1  23.3  18.9  57.9
+  7. 75.149.231.238                               4.1%   508   487  22.7  29.3  21.1  56.9
+  8. ge0-arpnet.cust.lax07.mzima.net              0.0%   508   508  22.9  29.0  20.1 234.9
+  9. omake.koitsu.org                             3.3%   508   491  25.9  25.1  21.2  56.8
+ Source IP: 206.125.172.42   (ARP Networks with GTT/MZIMA peering; Sylmar, CA)
+ Dest IP:   67.180.84.87     (Comcast; Mountain View, CA)
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. 206.125.172.41                               0.0%   534   534   0.9   6.7   0.8 197.0
+  2. ge0-15.as01.lax07.mzima.net                  0.0%   533   533  13.2   5.2   0.5  19.1
+  3. be-10-201-cr01.losangeles.ca.ibone.comcast.  3.9%   533   512   8.1   8.1   3.9  65.8
+  4. pos-2-9-0-0-cr01.sanjose.ca.ibone.comcast.n  3.4%   533   515  15.6  13.7  10.8  25.8
+  5. he-0-6-0-0-ar01.sfsutro.ca.sfba.comcast.net  5.3%   533   505  17.5  18.7  12.2  25.4
+  6. te-0-6-0-0-ur05.santaclara.ca.sfba.comcast.  5.3%   533   505  14.8  14.4  13.1  15.7
+  7. te-18-10-cdn31.santaclara.ca.sfba.comcast.n  4.5%   533   509  27.9  28.6  15.1 127.9
+  8. c-67-180-84-87.hsd1.ca.comcast.net           6.2%   533   500  25.2  24.1  20.9  50.3
+ I keep 60 days worth of periodic mtrs, run for 40 seconds at 60 second
+ intervals, so if more historic data is needed, let me know.
+ Verification and/or any insights would be appreciated.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Mountain View, CA, US                                            |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+###############################################################
+END
+###############################################################
+
+###############################################################
+cbssports.com brackets down?
+###############################################################
+ they close at 10am CDT.  getting page cannot be displayed at 948am CDT.
+  baton rouge / cox business
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130321/1a0da4b8/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO SIP in Mountain West area
+###############################################################
+ Anyone else seeing issues with XO's ESIP product? Rumor is it might be
+ something in the Denver office.
+ Any additional info or confirmation would be great.
+ Gabe
+ Never mind all. I got the confirmation I needed. They're down.
+ Gabe
+ On Fri, Mar 22, 2013 at 1:52 PM, Gabriel Gunderson <gabe at gundy.org> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Multiple Subsea System Failures
+###############################################################
+ This has been ongoing now for a few days and I'm surprised it hasn't yet
+ been mentioned here:
+ There are currently cable breaks on multiple cable systems running
+ through Egypt and surrounding areas. From what I've heard there are
+ breaks on I-ME-WE, TE-North, EIG and SEA-ME-WE-3.
+ This is affecting onward connectivity on a number of other cables such
+ as EASSy and Seacom as no restoration capacity is available. This is
+ causing capacity constraints and outages for most operators in Southern
+ and Eastern Africa as well as the Middle East.
+ ETRs of between 1 and 4 weeks depending on whether you speak to the PR
+ people or the engineers. ;-)
+ Anyone else have additional info?
+ -- 
+ Graham Benek
+ I posted something on outages-discussion a few days ago.  There's more here:
+ http://businesstech.co.za/news/telecommunications/34182/seacom-cable-outage-
+ explained/
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Graham Beneke
+ Sent: Sunday, March 24, 2013 2:39 AM
+ This has been ongoing now for a few days and I'm surprised it hasn't yet
+ been mentioned here:
+ There are currently cable breaks on multiple cable systems running
+ through Egypt and surrounding areas. From what I've heard there are
+ breaks on I-ME-WE, TE-North, EIG and SEA-ME-WE-3.
+ This is affecting onward connectivity on a number of other cables such
+ as EASSy and Seacom as no restoration capacity is available. This is
+ causing capacity constraints and outages for most operators in Southern
+ and Eastern Africa as well as the Middle East.
+ ETRs of between 1 and 4 weeks depending on whether you speak to the PR
+ people or the engineers. ;-)
+ Anyone else have additional info?
+ -- 
+ Graham Benek
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Paetec/Windstream/McLeod issues
+###############################################################
+ Anyone in the tri-state also seeing issues with any Paetec
+ slash Windstream slash McLeod routes? I have a few customers
+ having issues and am seeing packet loss on Atlanta, Philly
+ and Newark:
+ ge-6-0-0-13.atlngamah66cr01.paetec*
+ so-0-2-4-0.phlapafgw26cr04.paetec*
+ ge-10-0-0.nwrknj10hpape02.paetec*
+ And a few others. I would call them but uh... Their lines
+ are down ;)
+ -- 
+ =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+ J. Oquendo
+ SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT, RWSP, GREM
+ "Where ignorance is our master, there is no possibility of
+ real peace" - Dalai Lama
+ 42B0 5A53 6505 6638 44BB  3943 2BF7 D83F 210A 95AF
+ http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x2BF7D83F210A95AF
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T MPLS problems in NorCal?
+###############################################################
+ We have a customer with a private MPLS circuit between San Luis Obispo, CA and San Jose.
+ We have a ticket open with AT&T.  This morning, hold wait times for AT&T were 6 minutes, but now the line is just ringing.  Almost like their call center is underwater with calls.
+ AT&T Techs this morning said "There are no alerts on your line...but then again, we can't actually SEE your line."
+ Anyone else out there with AT&T MPLS services in California seeing similar behavior/response?
+ Regards,
+ Kirk Coviello | Director, Business Development
+ +1.805.781.9378 | +1.888.781.WEST
+ [Description: Description: Description: Description: DWLogo]<http://www.digitalwest.net/>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/23aff916/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 2419 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/23aff916/attachment.jpg>
+ We have multiple EVPN circuits in SLO, Visalia, and Brisbane. No issues
+ with any of them (knock on wood)
+ On Wednesday, March 27, 2013, Kirk Coviello wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/63420872/attachment.html>
+  <CAC8zsjMFO-Se3gXBiAP554vyy32vBmUv0zVRt87wY4m5Ft_vzg@mail.gmail.com>
+ Thank you Chris.  We just received an update from AT&T that they supposedly replaced a card on a router in San Jose (although our customer is still down), so perhaps this is more limited in scope than we initially thought.  And San Jose would explain why you're not seeing any issues.  Brisbane is closer to SF.
+ Regards,
+ Kirk Coviello | Director, Business Development
+ +1.805.781.9378 | +1.888.781.WEST
+ [Description: Description: Description: Description: DWLogo]<http://www.digitalwest.net/>
+ From: Chris Burwell [mailto:cburwell at gmail.com]
+ Sent: Wednesday, March 27, 2013 1:56 PM
+ Cc: outages at outages.org
+ We have multiple EVPN circuits in SLO, Visalia, and Brisbane. No issues with any of them (knock on wood)
+ On Wednesday, March 27, 2013, Kirk Coviello wrote:
+ We have a customer with a private MPLS circuit between San Luis Obispo, CA and San Jose.
+ We have a ticket open with AT&T.  This morning, hold wait times for AT&T were 6 minutes, but now the line is just ringing.  Almost like their call center is underwater with calls.
+ AT&T Techs this morning said "There are no alerts on your line...but then again, we can't actually SEE your line."
+ Anyone else out there with AT&T MPLS services in California seeing similar behavior/response?
+ Regards,
+ Kirk Coviello | Director, Business Development
+ +1.805.781.9378 | +1.888.781.WEST
+ <http://www.digitalwest.net/>
+  <http://www.digitalwest.net/>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/155248b3/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.jpg
+ Type: image/jpeg
+ Size: 2419 bytes
+ Desc: image001.jpg
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/155248b3/attachment-0001.jpg>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet 'bystanders' affected as massive cyber attack hits Spamhaus
+###############################################################
+ http://www.foxnews.com/tech/2013/03/27/spam-blocking-group-spamhaus-reports-
+ being-hit-by-massive-cyberattack-many/
+ The DDoS attack being waged against Spamhaus has reached a previously
+ unheard of magnitude, according to Patrick Gilmore, 
+ chief architect at digital content provider Akamai. 
+ Recent cyber attacks -- like the ones that caused persistent outages at U.S.
+ banking sites late last year -- tend to peak at 100 billion bits per second.
+ The attack on Spamhaus clocked in at. 300 billion.
+ Ruff, Ruff...!
+ Network IPdog
+ Ephesians 4:32  &  Cheers!!!
+ A password is like a... toothbrush  ;^) 
+ Choose a good one, change it regularly and don't share it.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130327/11e39891/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast outage in Gaithersburg, MD?
+###############################################################
+ Anyone have any info on a Comcast TV and Internet outage in Gaithersburg, MD?
+ --
+ Jim Goltz <jgoltz at mail.nih.gov>
+ HHS/NIH/CIT/DCSS/HSB/ASIG
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20130328/5d5ce2f8/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone else seeing issues with worldnic.com servers?
+###############################################################
+ Tested in a few locations, and they seem to be intermittently resolving...
+###############################################################
+END
+###############################################################
+

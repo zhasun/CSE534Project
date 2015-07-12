@@ -1,0 +1,671 @@
+From sjk  Tue Jan  8 19:29:00 2008
+From: sjk (sjk)
+Date: Tue, 08 Jan 2008 18:29:00 -0600
+Subject: [Outages] Saavis in Chicago Message-ID: <4784154C.8050306@cupacoffee.net>
+
+We're seeing problems with BGP exports out of Saavis in Chicago -- is 
+anyone else seeing problems with their exports?
+
+  8. ber1-vlan-241.chicago.savvis  0.0%
+  9. cr1-tengig-0-0-5-0.chicago.s 70.0%
+  10. acr1-so-0-0-0.chicago.savvis 10.0%
+  11. asr1-atm-0-0-0-301.chicago.s 40.0%
+  12. acr1-at-4-2-0-305.chicago.sa 50.0%
+  13. asr1-atm-0-0-0-301.chicago.s 60.0%
+  14. acr1-at-4-2-0-305.chicago.sa 50.0%
+  15. asr1-atm-0-0-0-301.chicago.s 60.0%
+. . . .
+
+
+-- 
+http://www.sleepycatz.com
+sjk at cupacoffee.net
+fingerprint: 1024D/89420B8E 2001-09-16
+
+No one can understand the truth until
+he drinks of coffee's frothy goodness.
+~Sheik Abd-al-Kadir
+
+
+From dhyde  Wed Jan  9 18:51:30 2008
+From: dhyde (Darrell Hyde)
+Date: Wed, 09 Jan 2008 18:51:30 -0500
+Subject: [Outages] Fiber cut between Princeton and Newark, NJ Message-ID: <1199922690.32614.5.camel@kenobi.smarterlinux.com>
+
+I'm being told by PCCW / BTN access support that multiple OC-192's and
+OC-48's were cut between Princeton and Newark, NJ. Anybody else hear
+anything about this?
+
+- Darrell
+
+
+From kgasso-lists  Mon Jan 14 21:51:46 2008
+From: kgasso-lists (Kameron Gasso)
+Date: Mon, 14 Jan 2008 18:51:46 -0800
+Subject: [Outages] Portland, OR area fiber cuts? Message-ID: <478C1FC2.2010308@visp.net>
+
+Anyone have the scoop on a supposed fiber bundle cut in the Portland, OR 
+area?  We have a DS3 in the area that's been dead in the water for over 
+8 hours, and I'm now getting conflicting stories from our carrier and 
+LEC technicians.
+
+The affected link backhauls all of our DSL subscribers in this area to 
+our gear, so I have many people who want my head on a nicely decorated 
+platter now...
+
+Thanks. :)
+-- 
+Kameron Gasso | Senior Systems Administrator | visp.net
+Direct: 541-955-6903 | Fax: 541-471-0821
+
+
+From petelists  Mon Jan 14 22:32:46 2008
+From: petelists (Pete Templin)
+Date: Mon, 14 Jan 2008 21:32:46 -0600
+Subject: [Outages] Portland, OR area fiber cuts? In-Reply-To: <478C1FC2.2010308@visp.net>
+References: <478C1FC2.2010308@visp.net>
+Message-ID: <478C295E.6040404@templin.org>
+
+Kameron Gasso wrote:
+> Anyone have the scoop on a supposed fiber bundle cut in the Portland, OR 
+> area?  We have a DS3 in the area that's been dead in the water for over 
+> 8 hours, and I'm now getting conflicting stories from our carrier and 
+> LEC technicians.
+
+One of our vendor/customers has been reporting a fiber cut in the "North 
+Western US Region, affecting major carriers."  Some of their customers 
+may experience loss of Caller ID and/or Long Distance dialing.  Initial 
+report 1441CST showing 4-6 hours until fiber is repaired and a possibly 
+wrong start time of 2330CST.  First follow-up at 1630CST showing 
+estimated 24 hours until fiber is repaired and a start time of 1330CST. 
+  Second follow-up at 1930CST still showing 24 hours to repair, but with 
+a resolution update indicating "Major National Carrier(s) fiber repair 
+teams have been on site splicing the damaged fiber.  The fiber repair is 
+scheduled for completion tonight between 1900CST and 2300CST."
+
+I know they have at least some operations in the Seattle area, either 
+organically or via acquisition, but their trouble reports are often 
+vague, last-minute, misdirected, erroneous, or a combination thereof, so 
+take any or all of the above with the appropriate pinch of salt.  (Their 
+post-mortems are worse, with <someone> outright lying to me: the 
+technician was honest about their mixup, saying "we plugged your 
+transport OC3 into our router, OOPS!!!", but the VP saying "<your> OC3 
+is set up as a UPSR while the OC48 is BLSR.  <Our technician> deleted a 
+logical cross connect while turning up an OC12 on our network.  This 
+cross connect was the protect side of one of the STS1s on your OC3 but 
+did not map correctly during a ring switch event on the 48 because it 
+was not there.  <Another technician> corrected the problem but had some 
+difficulty explaining this to your data guy as a transport guy."
+
+pt
+
+
+From kgasso-lists  Tue Jan 15 03:13:26 2008
+From: kgasso-lists (Kameron Gasso)
+Date: Tue, 15 Jan 2008 00:13:26 -0800
+Subject: [Outages] Portland, OR area fiber cuts? In-Reply-To: <478C295E.6040404@templin.org>
+References: <478C1FC2.2010308@visp.net> <478C295E.6040404@templin.org>
+Message-ID: <478C6B26.9010607@visp.net>
+
+Pete Templin wrote:
+> One of our vendor/customers has been reporting a fiber cut in the "North 
+> Western US Region, affecting major carriers."  Some of their customers 
+> may experience loss of Caller ID and/or Long Distance dialing.  Initial 
+> report 1441CST showing 4-6 hours until fiber is repaired and a possibly 
+> wrong start time of 2330CST.  First follow-up at 1630CST showing 
+> estimated 24 hours until fiber is repaired and a start time of 1330CST. 
+>   Second follow-up at 1930CST still showing 24 hours to repair, but with 
+> a resolution update indicating "Major National Carrier(s) fiber repair 
+> teams have been on site splicing the damaged fiber.  The fiber repair is 
+> scheduled for completion tonight between 1900CST and 2300CST."
+
+All is well again with our issue; Global Crossing has reportedly
+re-spliced the fiber, and states that the length of the outage was
+primarily caused by the difficulty in accessing the cable due to the
+break being near the banks of the Columbia River.
+
+--Kameron
+
+
+From Dennis.Smock  Wed Jan 16 13:54:08 2008
+From: Dennis.Smock (Dennis Smock)
+Date: Wed, 16 Jan 2008 13:54:08 -0500
+Subject: [Outages] Outages Message-ID: <8309AED6B979084ABF2D951E03574CB035330D@fish.PrintStream.local>
+
+Is anybody aware of any outages or delays today? We have some apps that
+are hosted on the west coast and many of our users are having trouble
+with time outs or not connecting at all.
+ 
+Thanks,
+ 
+ 
+ 
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20080116/2ff2a487/attachment.htm 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/png
+Size: 12587 bytes
+Desc: DMS-DS.png
+Url : http://isotf.org/pipermail/outages/attachments/20080116/2ff2a487/attachment.png 
+
+
+From jim  Wed Jan 23 20:44:18 2008
+From: jim (Jim McBurnett)
+Date: Wed, 23 Jan 2008 20:44:18 -0500
+Subject: [Outages] FW: Level3 in the Midwest is KIA Message-ID: <CCD4153D830F584982521DFC986BFF3113A1F44567@tgainf06.TGASolutions.local>
+
+For those not on NANOG..
+Jim
+
+-----Original Message-----
+From: owner-nanog at merit.edu [mailto:owner-nanog at merit.edu] On Behalf Of Justin Shore
+Sent: Wednesday, January 23, 2008 5:41 PM
+To: nanog at merit.edu
+
+
+I've been told that there are 2 issues.  One was fiber cut, I believe in
+the Houston area.  The second issue was a card failure, also in the
+Houston area.  Both failures contributed to a loss on a backbone ring
+that covers a portion of the Midwest.  The master ticket number is
+2332102 for those who want updates.
+
+Justin
+
+
+Justin Shore wrote:
+>
+> L3 dropped us at 13:30CST.  I've been told that whatever happened took
+> out everything from KC to Wichita to Little Rock to Houston.  No word on
+> the cause and no ETA yet.  They're handing us 37 routes which is a far
+> cry from the roughly 237,000 we'd normally get.  I recognize 3 of the
+> routes too as routes local to the Wichita area.
+>
+> FYI
+>  Justin
+>
+>
+
+
+From LarrySheldon  Wed Jan 23 20:57:19 2008
+From: LarrySheldon (Laurence F. Sheldon, Jr.)
+Date: Wed, 23 Jan 2008 19:57:19 -0600
+Subject: [Outages] FW: Level3 in the Midwest is KIA In-Reply-To: <CCD4153D830F584982521DFC986BFF3113A1F44567@tgainf06.TGASolutions.local>
+References: <CCD4153D830F584982521DFC986BFF3113A1F44567@tgainf06.TGASolutions.local>
+Message-ID: <4797F07F.7030506@cox.net>
+
+Jim McBurnett wrote:
+> For those not on NANOG..
+
+Boggle!
+
+NANOG talks about operational issues?!!??  Who knew?
+-- 
+Requiescas in pace o email              Two identifying characteristics
+                                              of System Administrators:
+Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                              learn from their mistakes.
+http://members.cox.net/larrysheldon/      (Adapted from Stephen Pinker)
+
+
+From fergdawg  Fri Jan 25 02:44:31 2008
+From: fergdawg (Paul Ferguson)
+Date: Fri, 25 Jan 2008 07:44:31 GMT
+Subject: [Outages] Australia: Outage hits Optus DSL Message-ID: <20080124.234431.3008.0@webmail30.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Not sure if this has been cleared up yet, or...
+
+[snip]
+
+OPTUS has scrambled to restore broadband service to corporate customers
+across Queensland following a major outage at one of its network facilities
+in Brisbane.
+An Optus spokeswoman confirmed that the outage occurred at the carrier's
+Moorooka Exchange south of Brisbane's CBD early today, crippling its
+corporate grade ADSL in areas across the state.
+
+"Optus engineers are currently on site working to resolve the issue as a
+priority. Services are being progressively restored as network restoration
+continues and we expect all services to be back up and running later this
+evening," the spokeswoman said.
+
+Optus was today trying to playing down the impact of the outage.
+
+It is understood that the Moorooka facility, which is owned and operated by
+Optus, provides a central hub for its ADSL services around the state.
+
+An Optus corporate customer, who asked not to be named, said that the
+carrier had reported that around 1800 services were affected by the outage.
+
+Optus that a portion of its corporate DSL services had been affected by the
+outage but said that "the majority of services have not been".
+
+The spokeswoman declined to offer further detail and said "at this stage we
+are focused on fixing the problem to ensure services affected are returned
+to normal as soon as possible."
+
+[snip]
+
+Link:
+http://www.australianit.news.com.au/story/0,,23107819-5013040,00.html
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHmZNZq1pz9mNUZTMRAofrAJ97K/KiEU99vxke3w1vd2BVxWpDzACgwDRh
+M7XL/CKUuaBhEggY2gQeTxc=
+=dJJs
+-----END PGP SIGNATURE-----
+
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From charlie  Fri Jan 25 05:18:33 2008
+From: charlie (Charlie Allom)
+Date: Fri, 25 Jan 2008 21:18:33 +1100
+Subject: [Outages] Telstra/psi at LHC Message-ID: <43294D70-95DE-4932-9B47-BB8AA12A669E@playlouder.com>
+
+Hi,
+
+ From LHC I can only get to 154.32.3.201 and from outside to in, I  
+stop at LINX.
+
+Can anyone else see this blackhole?
+
+   C.
+-- 
+  hail eris
+  http://eatyourpets.com
+
+
+
+
+From jnavitsky  Sun Jan 27 17:14:11 2008
+From: jnavitsky (Jayson Navitsky)
+Date: Sun, 27 Jan 2008 17:14:11 -0500
+Subject: [Outages] Yipes New York/Chicago Message-ID: <d1be2cee0801271414t7189257ap83493d97e11ba674@mail.gmail.com>
+
+We've been having issues since around 6:30EST this morning, they're
+still in the process of restoring services.  Originally I thought it
+was limited to just NY, but apparently it's affect Chicago as well.
+
+-J
+
+
+From virendra.rode  Wed Jan 30 14:47:38 2008
+From: virendra.rode (virendra rode //)
+Date: Wed, 30 Jan 2008 11:47:38 -0800
+Subject: [Outages] [Fwd: Sicily to Egypt undersea cable disruption] Message-ID: <47A0D45A.6090908@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+- -------- Original Message --------
+Subject: Sicily to Egypt undersea cable disruption
+Date: Wed, 30 Jan 2008 13:57:28 -0500 (EST)
+From: Sean Donelan <sean at donelan.com>
+To: nanog at merit.edu
+
+
+
+If its not one cable, its another cable.
+
+
+http://www.guardian.co.uk/technology/2008/jan/30/asia.internet.outage
+
+Huge swathes of the Middle East and Asia have been left without internet
+access after a vital undersea cable was damaged.
+
+A fault in the pipeline, which runs between Sicily and Egypt, has
+dramatically reduced access in countries including Saudi Arabia, Dubai and
+India, leaving millions of workers struggling to get online.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFHoNRZpbZvCIJx1bcRAjNPAKCk0r/LZ/Bm1HxbJ59/6HXA7s5umQCg7fZa
+mhhYHsAV4UFRCjhNsNngcRE=
+=8ozg
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Wed Jan 30 14:52:59 2008
+From: fergdawg (Paul Ferguson)
+Date: Wed, 30 Jan 2008 19:52:59 GMT
+Subject: [Outages] [Fwd: Sicily to Egypt undersea cable disruption] Message-ID: <20080130.115259.9733.0@webmail20.vgs.untd.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+- -- virendra rode // <virendra.rode at gmail.com> wrote:
+
+>http://www.guardian.co.uk/technology/2008/jan/30/asia.internet.outage
+
+Also seen here:
+
+http://news.wired.com/dynamic/stories/M/MIDEAST_INTERNET_OUTAGES?SITE=WIRE&
+SECTION=HOME&TEMPLATE=DEFAULT&CTIME=2008-01-30-10-14-13
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFHoNWXq1pz9mNUZTMRAr5sAJ4/Sw1aUvEEDEibnvwEUiC3T6o+EwCfbWqd
+z5yDqOVwC2k5DQ2jkv+JaI8=
+=lpT3
+-----END PGP SIGNATURE-----
+
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+
+
+From virendra.rode  Wed Jan 30 22:56:26 2008
+From: virendra.rode (virendra rode //)
+Date: Wed, 30 Jan 2008 19:56:26 -0800
+Subject: [Outages] [Fwd: [SANOG] Re: major fiber cut westward ? near egypt ?] Message-ID: <47A146EA.6060004@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+from sanog list.
+
+regards,
+/virendra
+
+- -------- Original Message --------
+Subject: [SANOG] Re: major fiber cut westward ? near egypt ?
+Date: Wed, 30 Jan 2008 21:44:13 +0500
+From: Amir <amiruddin at gmail.com>
+To: Haris Shamsi <h.shamsi at cyber.net.pk>
+CC: Gaurab Raj Upadhaya <gaurab at lahai.com>, sanog at sanog.org
+References: <47A04304.7000009 at lahai.com>	
+<006d01c8632c$d57c67b0$80753710$%shamsi at cyber.net.pk>
+
+Following is the email that FLAG NOC sent to FLAG customers on the issue.
+
+Dear Customer,
+Flag has confirmed a sub sea cable cut at 8.3 kms, from the Alexandria beach
+manhole, in a similar location to a reported SMW4 cut earlier this morning.
+FLAG has contacted it's marine repair agency and is progressing application
+of permits for the repair. Current estimate will be between 12 and 15 days
+for the cable repair to be completed.
+
+
+
+Regards, Amir
+
+
+On Jan 30, 2008 3:42 PM, Haris Shamsi <h.shamsi at cyber.net.pk> wrote:
+
+> Following msg was received from TW1
+>
+> From: NOC [mailto:noc at tw1.com]
+> Subject: SERVICE DEGRADATION DUE TO DISTRUPTION SMW-4 & FLAG
+>
+> Dear Valued Customer,
+>
+> This is to inform you that there was a cut on SEA ME WE - 4 Submarine
+> Cable,
+> / (SMW4 Submarine Cable encountered a cable cut at 25 Km away from
+> Alexandria Cable Station of SMW4 (segment 4/ Alexandria-Marseilles).
+> Subsequently all west bound (towards Europe) traffic on SMW4 of all major
+> up-stream service providers like, TIS, Verizon etc. is disrupted.
+>
+> As a result all major operators of the region including Transworld are
+> experiencing congestion on west-bound routes. To reduce the degradation in
+> services of our customers, we have already shifted traffic load to our
+> alternate paths. We are also working closely with our partners to increase
+> alternate capacity.
+>
+> Moreover, our upstream connectivity with FLAG is also disrupted; we're
+> currently working with FLAG NOC to get the exact ETR.
+>
+> We would like to assure you that we at, Transworld, are taking every
+> possible action to ensure that our customers face minimal service quality
+> issues from the disruption.
+>
+>
+>
+> We regret the inconvenience and thank you for your support.
+>
+>
+>
+> Sincerely,
+>  TW NOC
+>  Contact: 021-2818126
+>          021-2818114 Ext: 122
+>
+>
+>
+> -----Original Message-----
+> From: sanog-bounce at sanog.org [mailto:sanog-bounce at sanog.org] On Behalf Of
+> Gaurab Raj Upadhaya
+> Sent: Wednesday, January 30, 2008 2:28 PM
+> To: sanog at sanog.org
+> Subject: [SANOG] major fiber cut westward ? near egypt ?
+>
+>  -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> hello sanog list,
+>
+> anyone knows if there's been some major problems somewhere in the middle
+> east ? much of the Middle East sessm off line right now. my traces show
+> this from most places; traceing routes to 213.42.0.233 (dubai?), and
+> 80.88.242.3 (Bahrain).
+>
+> 6  if-4-0.mcore4.NQT-NewYork.teleglobe.net<http://if-4-0.mcore4.nqt-newyork.teleglobe.net/>(
+> 216.6.86.14)  77.284 ms
+> 76.840 ms  77.071 ms
+> ~ 7  if-4-0.core3.PG1-Paris.teleglobe.net<http://if-4-0.core3.pg1-paris.teleglobe.net/>(
+> 216.6.87.26)  153.493 ms
+> 153.299 ms  153.391 ms
+> ~ 8  if-10-0.mcore3.L78-London.teleglobe.net<http://if-10-0.mcore3.l78-london.teleglobe.net/>(
+> 80.231.72.42)  155.380 ms
+> 155.683 ms  155.192 ms
+> ~ 9  195.219.144.22 (195.219.144.22)  152.454 ms  152.954 ms  152.590 ms
+> 10  195.219.189.106 (195.219.189.106)  152.753 ms  152.480 ms  152.526 ms
+> 11  * * *
+>
+> OR
+>
+> 17  if-1-0.core1.laa-losangeles.teleglobe.net (216.6.85.18)  22.142 ms
+> 22.909 ms  23.918 ms
+> 18  ix-10-1.core1.laa-losangeles.teleglobe.net (207.45.193.122)  378.664
+> ms  377.972 ms  377.508 ms
+> 19  195.229.1.170 (195.229.1.170)  373.796 ms  373.541 ms  379.302 ms
+> 20  195.229.1.194 (195.229.1.194)  378.271 ms  378.807 ms  381.045 ms
+> 21  213.42.1.132 (213.42.1.132)  400.831 ms 213.42.1.133 (213.42.1.133)
+> ~ 376.026 ms 213.42.1.132 (213.42.1.132)  400.439 ms
+> 22  * 213.42.1.194 (213.42.1.194)  395.244 ms *
+>
+>
+> Qatar seems to have converged. (212.77.192.10 - in qatar).
+>
+> ~  2 if-6-1.core2.LDN-London.Teleglobe.net<http://if-6-1.core2.ldn-london.teleglobe.net/>(
+> 195.219.96.73) [AS 6453]
+> [MPLS: Label 289 Exp 0] 0 msec 0 msec 0 msec
+> ~  3 195.219.189.158 [AS 6453] 108 msec 108 msec 108 msec
+> ~  4 ix-8-1.bb1.RSD-Riyad.teleglobe.net<http://ix-8-1.bb1.rsd-riyad.teleglobe.net/>(
+> 66.198.126.54) [AS 6453] 300
+> msec 300 msec 300 msec
+> ~  5 if-3-1-6.csb-core01.qatar.net.qa (89.211.0.89) [AS 8781] 120 msec
+> 120 msec 116 msec
+> ~  6 if-1-1.csb-srv-sw01.qatar.net.qa (89.211.0.90) [AS 8781] 116 msec
+> 116 msec 120 msec
+> ~  7  *  *  *
+>
+>
+> 19  so-2-1-0.0.cjr03.tok002.flagtel.com (62.216.128.69)  146.933 ms
+> so-3-1-0.0.cjr03.tok002.flagtel.com (62.216.128.165)  148.604 ms
+> so-1-1-0.cjr02.lax002.flagtel.com (62.216.140.106)  24.639 ms
+> 20  so-0-0-0.0.cjr04.tok002.flagtel.com (62.216.136.13)  150.331 ms
+> so-0-1-0.0.cjr04.tok002.flagtel.com (62.216.128.45)  135.054 ms
+> so-5-2-0.0.cjr04.tok002.flagtel.com (62.216.128.33)  139.409 ms
+> 21  so-0-3-0.0.cjr03.hkg003.flagtel.com (62.216.128.98)  200.308 ms
+> 193.303 ms so-7-0-0.0.cjr03.hkg003.flagtel.com (62.216.128.137)  202.795ms
+> 22  62.216.146.198 (62.216.146.198)  412.778 ms *  409.355 ms
+> 23  if-3-1-6.csb-core01.qatar.net.qa (89.211.0.89)  404.525 ms  410.982 ms
+> *
+> 24  if-1-1.csb-srv-sw01.qatar.net.qa (89.211.0.90)  406.692 ms  411.501
+> ms  411.229 ms
+> 25  * * *
+>
+> thanks
+> ~ -gaurab
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.7 (Darwin)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFHoEMESo7fU26F3X0RAnodAJ0VREPLGNU2qJZVcg0+/Hx/9rdUpACfTiX5
+> fBr0uDFEF3uWmePBoxDUqm0=
+> =LPOS
+> -----END PGP SIGNATURE-----
+> --
+> This is the SANOG (http://www.sanog.org/) mailing list.
+>
+> --
+> This is the SANOG (http://www.sanog.org/) mailing list.
+>
+>
+
+
+- --
+This is the SANOG (http://www.sanog.org/) mailing list.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFHoUbqpbZvCIJx1bcRAmODAKDLgjsK1sMjGgn6/HDNKSQhDdnSLgCdF+om
+oSzE2ldb29O3keq5kDd930o=
+=Y2p2
+-----END PGP SIGNATURE-----
+
+
+From Michael.Washington  Thu Jan 31 12:07:41 2008
+From: Michael.Washington (Michael.Washington at fitchratings.com)
+Date: Thu, 31 Jan 2008 11:07:41 -0600
+Subject: [Outages] Internet failure hits two continents Message-ID: <OF8732A300.F31BDF31-ON862573E1.005E07A7-862573E1.005D8F31@fitchratings.com>
+
+
+DUBAI, United Arab Emirates (CNN) -- Large swathes of Asia, the Middle East
+and north Africa had their high-technology services crippled Thursday
+following a widespread Internet failure which brought many businesses to a
+standstill and left others struggling to cope.
+
+One major telecommunications provider blamed the outage, which started
+Wednesday, on a major undersea cable failure in the Mediterranean.
+India's Internet bandwidth has been sliced in half, The Associated Press
+reported, leaving its lucrative outsourcing industry trying to reroute
+traffic to satellites and other cables through Asia.
+
+Reports say that Egypt, Pakistan, Saudi Arabia, Qatar, the United Arab
+Emirates, Kuwait and Bahrain are also experiencing severe problems.
+Nations that have been spared the chaos include Israel -- whose traffic
+uses a different route -- and Lebanon and Iraq. Many Middle East
+governments have backup satellite systems in case of cable failure.
+
+There were contradictory reports on the real cause behind the disruption,
+but Du, a state-owned Dubai telecom provider, attributed it to an undersea
+cable cut between Alexandria, Egypt and Palermo, Italy.
+
+An official at Egypt's Ministry of Communications and Information
+Technology, speaking on condition of anonymity, said it was believed that a
+boat's anchor may have caused the problems, although this was unconfirmed,
+AP reported. He added that it might take up to a week to repair the fault.
+Kuwait's Ministry of Communications said the problem could take two weeks
+to solve, according to a statement carried by the state news agency, KUNA.
+There were concerns in India that an Internet slowdown could affect trading
+patterns at the country's two major exchanges, the National Stock Exchange
+(NSE) in Delhi and the SENSEX exchange in Bombay.
+
+Rajesh Chharia, president of India's Internet Service Providers'
+Association, explained that some firms were trying to reroute via Pacific
+cables and that companies serving the eastern US and the UK were worst
+affected, AP added.
+
+Besides the Internet, the outage caused major disruption to television and
+phone services, creating chaos for the UAE's public and private sectors.
+The Du internal memo, obtained by CNN, called the situation in Dubai
+"critical" and stated that the cable's operators did not know when services
+would be restored.
+
+"This will have a major impact on our voice and Internet service for all
+the customers," the memo stated. "The network operation team are working
+with our suppliers overseas to resolve this as soon as possible."
+
+The outage led to a rapid collapse of a wide range of public services in a
+country which proudly promotes itself as technological pioneer.
+Sources from Emirates Airlines confirmed to CNN Arabic that the outage did
+not affect its flight schedules -- a statement which assured hundreds of
+travelers worried after rumors about the possibility of rescheduled flights
+due to the faults.
+
+However, Dnata, a government group in charge of providing air travel
+services in the Middle East and ground handling services at Dubai
+International Airport, acknowledged facing problems because of the outage,
+sources from its technical department confirmed to CNN Arabic.
+
+The outage heavily crippled Dubai's business section, which is heavily
+reliant on electronic means for billions of dollars' worth of transactions
+daily.
+
+Wadah Tahah, the business strategies and development manager for
+state-owned construction company EMAAR, told CNN Arabic that it was
+fortunate the outage started Wednesday, when there had been only moderate
+activity in the UAE markets. He said that softened the blow to business
+interests.
+
+But Tahah warned that if the outage continued, "such a situation could
+create problems between brokers, companies, and investors due to loss of
+control."
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+
+From shakeel.ahmad  Thu Jan 31 12:48:50 2008
+From: shakeel.ahmad (Shakeel Ahmad)
+Date: Thu, 31 Jan 2008 22:48:50 +0500
+Subject: [Outages] PA Fiber Cut Message-ID: <f9bf28ad0801310948y2242a10cv4a56ac34b3c43df@mail.gmail.com>
+
+I've lost couple of DS3's in Philly & Pitts Area. Provider is saying about a
+fiber cut somewhere in PA - any one have insight ?
+
+SA
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20080131/0c500fe9/attachment.htm 
+
+

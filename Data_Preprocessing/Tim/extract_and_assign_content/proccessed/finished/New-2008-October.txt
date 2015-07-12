@@ -1,0 +1,308 @@
+###############################################################
+XO Flapping (Las Vegas/Los Angeles)
+###############################################################
+  I have not seen anything odd in Chicago where we have colo space with XO.
+ Ozar wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+verizon regional fiber cut.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ We suffered an outage on our verizon ds3 circuit in torrance, ca.
+ Verizon has confirmed the issue to a regional fiber cut. It appears that
+ repair team are en route to the location (?) with an eta of 1 hour.
+ Has anyone else impacted by this outage?
+ regards,
+ /virendra
+ Hello...
+ On Wed, 2008-10-01 at 11:23 -0700, virendra rode wrote:
+ Nope.  I have equipment lax11 and a p2p HiCap to that same location, all
+ is well.  My stuff is verizon-business in Torrance if that makes a
+ difference.
+ -- 
+ Christopher McCrory
+  "The guy that keeps the servers running"
+ To the optimist, the glass is half full.
+ To the pessimist, the glass is half empty.
+ To the engineer, the glass is twice as big as it needs to be.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Christopher McCrory wrote:
+ - --------------------------
+ The cut is between mendota and kettlemen city, ca (fresno). Maybe cow
+ took a bite :-)
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+RIM Scheduled Maintenance Outage - 11 October.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ BBCHG34475 Critical-S1 Severity Maintenance (New) for BlackBerry All
+ Provisioning service for subscribers of *The Americas Network (MULT)
+ This message is to inform you of scheduled network maintenance.
+ Maintenance Summary: BlackBerry Provisioning System -- software update
+ Impact: BlackBerry subscribers may be unable to register their
+ device or receive new service books during the maintenance.
+ BlackBerry Connect and BlackBerry-enabled devices that require a new PIN may
+ be unable to receive the PIN.
+ BlackBerry Internet Service subscribers may be unable to use the BlackBerry
+ Internet Service web site or perform activities such as creating new
+ accounts, accessing their Internet mailbox, integrating third-party email
+ accounts, or viewing email attachments during the maintenance.
+ Wireless service providers and device resellers may be unable to use
+ BlackBerry administration web sites or perform activities such as creating
+ subscriber accounts or provisioning services for subscribers during the
+ maintenance.
+ Ticket Number: BBCHG34475
+ *	Change Window Start Date and Time: 12 October 2008 02:00:00 (EDT)
+ *	Change Window End Date and Time: 12 October 2008 06:00:00 (EDT)
+ *	Estimated Duration of Service Impact: 4 hour(s) and 0 minute(s)
+ *	% of Subscribers Affected: 100.00 (estimated)
+ Purpose: RIM Software Upgrade
+###############################################################
+END
+###############################################################
+
+###############################################################
+ RIM Scheduled Maintenance Outage - 11 October.]
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ The date on the subject matter should read 12 October. Sorry about that.
+ regards,
+ /virendra
+ - -------- Original Message --------
+ Subject: [outages] RIM Scheduled Maintenance Outage - 11 October.
+ Date: Thu, 02 Oct 2008 07:47:58 -0700
+ From: virendra rode <virendra.rode at gmail.com>
+ Reply-To: virendra.rode at gmail.com
+ BBCHG34475 Critical-S1 Severity Maintenance (New) for BlackBerry All
+ Provisioning service for subscribers of *The Americas Network (MULT)
+ This message is to inform you of scheduled network maintenance.
+ Maintenance Summary: BlackBerry Provisioning System -- software update
+ Impact: BlackBerry subscribers may be unable to register their
+ device or receive new service books during the maintenance.
+ BlackBerry Connect and BlackBerry-enabled devices that require a new PIN may
+ be unable to receive the PIN.
+ BlackBerry Internet Service subscribers may be unable to use the BlackBerry
+ Internet Service web site or perform activities such as creating new
+ accounts, accessing their Internet mailbox, integrating third-party email
+ accounts, or viewing email attachments during the maintenance.
+ Wireless service providers and device resellers may be unable to use
+ BlackBerry administration web sites or perform activities such as creating
+ subscriber accounts or provisioning services for subscribers during the
+ maintenance.
+ Ticket Number: BBCHG34475
+ *	Change Window Start Date and Time: 12 October 2008 02:00:00 (EDT)
+ *	Change Window End Date and Time: 12 October 2008 06:00:00 (EDT)
+ *	Estimated Duration of Service Impact: 4 hour(s) and 0 minute(s)
+ *	% of Subscribers Affected: 100.00 (estimated)
+ Purpose: RIM Software Upgrade
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Outages BOF - NANOG 44 (los angeles).
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hi,
+ Just wondering if there's any interest in meeting up during nanog 44
+ (los angeles) and sharing your thoughts, challenges or your outages
+ experience in general or would like to simply vent and empty your head.
+ Topics of interest:
+ * Service provider(s) participation in outages notification?
+ * What monitoring  tools do you use to monitor your environment? How do
+ they work for your environment? Does it scale for your environment? What
+ would you like to see out of such a tool (open-source or commercial).
+ Collaboration/participation is one of the key things that I'm aiming to
+ achieve w/o the need for an overarching organizational body and have a
+ broad base of representation. So come and speak your mind.
+ Please respond to me directly and not the list so I can arrange for a
+ meeting room.
+ grateful thanks,
+ regards,
+ /virendra
+ moderator, outages.org
+ Hi Virendra,
+ Putting my NANOG Program Committee Member hat on, please work with Joel
+ Jaeggli, also on the NANOG PC.  He is moderating a Tools BOF Monday
+ afternoon at 4:30 in the Heinsbergen Room as per
+ http://www.nanog.org/meetings/nanog44/agenda.php
+ If you are interested in leading an outages specific BOF please put in a
+ request at http://www.nanogpc.org for NANOG45.  January 2009 will be here
+ before you know it!   Cheers, -ren
+ On Thu, Oct 2, 2008 at 3:26 PM, virendra rode <virendra.rode at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20081002/d28c00be/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T broadband wireless to Google outages/brownouts?
+###############################################################
+ Hi All,
+ I wasn't able to connect to any Google sites (Docs, gmail, google.com,
+ etc.) this weekend that while connected via AT&T's 3G broadband card
+ here in the SF Bay Area. A colleague with another AT&T card is seeing
+ the same problems: can't connect to Google but can hit other sites
+ (Yahoo, craigslist, etc.).
+ Wondering if there's a peering problem with AT&T somewhere. Anyone have
+ a clue?
+ thanks,
+ sk
+ Here's a traceroute from someone having problems getting to Google:
+ $ traceroute mail.google.com
+ traceroute: Warning: mail.google.com has multiple addresses; using
+ 209.85.133.83
+ traceroute to googlemail.l.google.com (209.85.133.83), 64 hops max, 40
+ byte packets
+  1  172.26.248.2 (172.26.248.2)  117.898 ms  119.232 ms  110.020 ms
+  2  172.26.248.2 (172.26.248.2)  149.913 ms  109.311 ms  110.027 ms
+  3  172.18.9.2 (172.18.9.2)  150.088 ms  110.314 ms  129.165 ms
+  4  12.89.140.213 (12.89.140.213)  110.056 ms !X * *
+  5  * * *
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * 12.89.140.213 (12.89.140.213)  106.886 ms !X
+ 11  * * *
+ 12  * * *
+ 13  * * *
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  * * *
+ Sargun Dhillon wrote:
+ ----- "Sean Knox" <sean at craigslist.org> wrote:
+ Dig tells me that IP belongs to AT&T, but 12/8 told me that anyway.
+ I can't mtr to that IP, and tracing to Google from Road Runner Tampa Bay
+ doesn't cross it, but that's unsurprising.
+ If you're staff at Craigs, you probably carry enough water to look the AT&T 
+ NOC up on Jared's list and let them know that router's blocking Google from 
+ being accessible to their own 3G customers.  Including iPhone users.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+              Those who cast the vote decide nothing.
+              Those who count the vote decide everything.
+                -- (Josef Stalin)
+###############################################################
+END
+###############################################################
+
+###############################################################
+T-Mobile Outage in Michigan.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Someone just forwarded me this outage related to T-Mobile.
+ "T-Mobile is currently experiencing service outages in Michigan. Data
+ and Voice are affected, T-Mobile is currently working on resolving the
+ issue. There is no ETA"
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+wiki.outages.org
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hello all,
+ A just quick note, we have put together wiki.outages.org which is in its
+ infancy so please bare with us while we build this resource with the
+ help of community effort.
+ I am planning on making a short presentation during BOF tools session
+ and I would love to get your feedback.
+ Like always, I'm open for suggestions.
+ Many thanks for CWIE for their kind donation for bw/hosting/hardware.
+ Thanks for listening.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+OC-3 cable cut in California?
+###############################################################
+ anyone?
+ ...lori
+ ---------- Forwarded message ----------
+ From: Keith Christian
+ Date: Wed, Oct 29, 2008 at 10:03 AM
+ Subject: OC-3 cable cut in California?
+ Anyone know about a cable cut somewhere in Ca. this morning (Wednesday?)
+ Nothing on Google about it.
+ =====Keith
+###############################################################
+END
+###############################################################
+
+###############################################################
+TESS, the US patent and Trademark Office search portal...
+###############################################################
+ ...is offline.  I just called their tech support, who confirmed that  
+ they're under DoS.
+                                  -Bill
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: PGP.sig
+ Type: application/pgp-signature
+ Size: 194 bytes
+ Desc: This is a digitally signed message part
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20081029/f142bc6c/attachment.bin>
+       On Wed, 29 Oct 2008, Bill Woodcock wrote:
+ They were down for about an hour, and back again as of about 14:30 
+ eastern.
+                                 -Bill
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internap to GBLX
+###############################################################
+ We're seeing intermittent outages from InterNAP (pnap.net) to GBLX
+ (gblx.net) in the greater NYC area. I'm told GBLX techs are working on
+ the issue but I don't have a global ticket number.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint/Cogent no longer peering
+###############################################################
+ For those of you not on NANOG, Sprint and Cogent have stopped peering. 
+ If you only have connectivity through Sprint or Cogent, you're likely to 
+ find the other and their customers unreachable.
+ ~Seth
+###############################################################
+END
+###############################################################
+

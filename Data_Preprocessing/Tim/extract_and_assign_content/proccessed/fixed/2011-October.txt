@@ -1,0 +1,5226 @@
+From cstone at axint.net  Mon Oct  3 18:38:15 2011
+From: cstone at axint.net (Chris Stone)
+Date: Mon, 03 Oct 2011 16:38:15 -0600
+Subject: [outages] HE tunnelbroker.net down?
+Message-ID: <4E8A3957.2050404@axint.net>
+
+Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also appears down
+and downforeveryoneorjustme.com concurs.
+
+Anyone heard anything?
+
+
+Chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/b63c895d/attachment.html>
+
+From scott at doc.net.au  Mon Oct  3 18:43:49 2011
+From: scott at doc.net.au (Scott Howard)
+Date: Mon, 03 Oct 2011 15:43:49 -0700
+Subject: [outages] HE tunnelbroker.net down?
+Message-ID: <4e8a3aa6.e2c4e70a.2f0c.ffff912e@mx.google.com>
+
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/bd0c53bb/attachment.html>
+
+From jra at baylink.com  Mon Oct  3 18:50:47 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Mon, 3 Oct 2011 18:50:47 -0400 (EDT)
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <4E8A3957.2050404@axint.net>
+Message-ID: <13696532.3980.1317682247718.JavaMail.root@benjamin.baylink.com>
+
+---- Original Message -----
+> From: "Chris Stone" <cstone at axint.net>
+
+> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also
+> appears down and downforeveryoneorjustme.com concurs.
+> 
+> Anyone heard anything?
+
+Yeah, NANOG's kicking it around too, the last 15 or 30 minutes.  Some people
+still have connectivity, some don't.  I'm pondering a netsplit, so far.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From chris at uplogon.com  Mon Oct  3 18:49:43 2011
+From: chris at uplogon.com (Chris Gotstein)
+Date: Mon, 03 Oct 2011 17:49:43 -0500
+Subject: [outages] Paypal and Amazon S3 via Qwest
+Message-ID: <4E8A3C07.8010803@uplogon.com>
+
+I'm unable to get to paypal.com and s3.amazon.com via our Qwest link 
+through Chicago.  Anyone else seeing issues?
+
+-- 
+---- ---- ---- ----
+Chris Gotstein, Network Engineer, U.P. Logon/Computer Connection U.P.
+http://uplogon.com | +1 906 774 4847 | chris at uplogon.com
+
+From frnkblk at iname.com  Mon Oct  3 18:51:39 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 3 Oct 2011 17:51:39 -0500
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <4E8A3957.2050404@axint.net>
+References: <4E8A3957.2050404@axint.net>
+Message-ID: <003401cc821f$035ff880$0a1fe980$@iname.com>
+
+Yes, I believe their Fremont data center may be under a DDoS attack.  Our
+own monitoring system for HE's www.he.net (v6 site) showed several ups and
+downs starting at 4:59 pm Central until 5:42 pm Central  
+
+ 
+
+This is also being discussed on twitter: https://twitter.com/#!/search/henet
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Chris Stone
+Sent: Monday, October 03, 2011 5:38 PM
+To: outages at outages.org
+
+ 
+
+Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also appears down
+and downforeveryoneorjustme.com concurs.
+
+Anyone heard anything?
+
+
+Chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/ad24e0e8/attachment.html>
+
+From patrick at ianai.net  Mon Oct  3 18:55:22 2011
+From: patrick at ianai.net (Patrick W. Gilmore)
+Date: Mon, 3 Oct 2011 18:55:22 -0400
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <4E8A3957.2050404@axint.net>
+References: <4E8A3957.2050404@axint.net>
+Message-ID: <2C7B88BF-1AE5-4C04-BC66-85BDAFCFCEE0@ianai.net>
+
+On Oct 3, 2011, at 6:38 PM, Chris Stone wrote:
+
+> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also appears down and downforeveryoneorjustme.com concurs.
+> 
+> Anyone heard anything?
+
+HE's entire network is intermittently down.  They claim it is a DoS:
+	<https://twitter.com/#!/henet/status/120951537974513665>
+
+It is not the first time this week.
+
+Mike & the team are good engineers, they'll do what they can to bring it backup quickly.
+
+There are lots of other rumors floating around, but I think you should wait for official word.  HE is not a telco, they will tell you what happened.
+
+-- 
+TTFN,
+patrick
+
+
+
+From pkranz at unwiredltd.com  Mon Oct  3 18:56:05 2011
+From: pkranz at unwiredltd.com (Peter Kranz)
+Date: Mon, 3 Oct 2011 15:56:05 -0700
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <4E8A3957.2050404@axint.net>
+References: <4E8A3957.2050404@axint.net>
+Message-ID: <061a01cc821f$a27d00c0$e7770240$@unwiredltd.com>
+
+Ongoing DDOS attacks against HE.net router infrastructure.. It's being
+happening since 9/29 now.. With outages of various durations.. 
+
+ 
+
+Todays outage started at ~15:00:10 PST and has been ongoing since then. All
+IPv4 and IPv6 BGP sessions with them down currently.
+
+ 
+
+Peter
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Chris Stone
+Sent: Monday, October 03, 2011 3:38 PM
+To: outages at outages.org
+
+ 
+
+Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also appears down
+and downforeveryoneorjustme.com concurs.
+
+Anyone heard anything?
+
+
+Chris
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/13069cd8/attachment-0001.html>
+
+From cstone at axint.net  Mon Oct  3 18:58:38 2011
+From: cstone at axint.net (Chris Stone)
+Date: Mon, 03 Oct 2011 16:58:38 -0600
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <003401cc821f$035ff880$0a1fe980$@iname.com>
+References: <4E8A3957.2050404@axint.net>
+ <003401cc821f$035ff880$0a1fe980$@iname.com>
+Message-ID: <4E8A3E1E.4040907@axint.net>
+
+On 10/03/2011 04:51 PM, Frank Bulk wrote:
+>
+> Yes, I believe their Fremont data center may be under a DDoS attack.  Our
+> own monitoring system for HE's www.he.net <http://www.he.net> (v6 site)
+> showed several ups and downs starting at 4:59 pm Central until 5:42 pm
+> Central 
+>
+>
+
+Mine just came back up - but has bounced a few too....
+
+
+
+
+Chris
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/a1956f32/attachment.html>
+
+From jason at pins.net  Mon Oct  3 19:09:58 2011
+From: jason at pins.net (Jason Berenson)
+Date: Mon, 03 Oct 2011 19:09:58 -0400
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <4E8A3957.2050404@axint.net>
+References: <4E8A3957.2050404@axint.net>
+Message-ID: <4E8A40C6.5090006@pins.net>
+
+I pick up transit with HE at Telehouse (25 Broadway).  Traffic flowing 
+through them died after it hit their edge.  Something must be hosed in 
+their core as things got better once I shutdown the session between us.
+
+I haven't called them to get the scoop, I figure they've probably got 
+their hands full now.
+
+-Jason
+
+On 10/3/11 6:38 PM, Chris Stone wrote:
+> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also 
+> appears down and downforeveryoneorjustme.com concurs.
+>
+> Anyone heard anything?
+>
+>
+> Chris
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111003/29b0270c/attachment.html>
+
+From pkranz at unwiredltd.com  Mon Oct  3 19:20:27 2011
+From: pkranz at unwiredltd.com (Peter Kranz)
+Date: Mon, 3 Oct 2011 16:20:27 -0700
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <13696532.3980.1317682247718.JavaMail.root@benjamin.baylink.com>
+References: <4E8A3957.2050404@axint.net>
+ <13696532.3980.1317682247718.JavaMail.root@benjamin.baylink.com>
+Message-ID: <064601cc8223$09c76330$1d562990$@unwiredltd.com>
+
+Most current updates seem to be here;
+
+https://twitter.com/#!/henet
+
+-Peter
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Jay Ashworth
+Sent: Monday, October 03, 2011 3:51 PM
+To: outages at outages.org
+
+---- Original Message -----
+> From: "Chris Stone" <cstone at axint.net>
+
+> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also 
+> appears down and downforeveryoneorjustme.com concurs.
+> 
+> Anyone heard anything?
+
+Yeah, NANOG's kicking it around too, the last 15 or 30 minutes.  Some people
+still have connectivity, some don't.  I'm pondering a netsplit, so far.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink
+jra at baylink.com
+Designer                     The Things I Think                       RFC
+2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover
+DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+1274
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jjones at danrj.com  Mon Oct  3 19:22:18 2011
+From: jjones at danrj.com (Jerry Jones)
+Date: Mon, 3 Oct 2011 18:22:18 -0500
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <13696532.3980.1317682247718.JavaMail.root@benjamin.baylink.com>
+References: <13696532.3980.1317682247718.JavaMail.root@benjamin.baylink.com>
+Message-ID: <9642FAC8-D494-4BC2-BBD9-5FDEFBEBECE8@danrj.com>
+
+
+On Oct 3, 2011, at 5:50 PM, Jay Ashworth wrote:
+
+---- Original Message -----
+> From: "Chris Stone" <cstone at axint.net>
+
+> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also
+> appears down and downforeveryoneorjustme.com concurs.
+> 
+> Anyone heard anything?
+
+Yeah, NANOG's kicking it around too, the last 15 or 30 minutes.  Some people
+still have connectivity, some don't.  I'm pondering a netsplit, so far.
+
+
+My tunnel through chicago is still up. Just fired it up today, hope I din't break anything...
+
+From wrl at express.org  Mon Oct  3 19:50:22 2011
+From: wrl at express.org (William R. Lorenz)
+Date: Mon, 3 Oct 2011 19:50:22 -0400 (EDT)
+Subject: [outages] HE tunnelbroker.net down?
+In-Reply-To: <2C7B88BF-1AE5-4C04-BC66-85BDAFCFCEE0@ianai.net>
+References: <4E8A3957.2050404@axint.net>
+ <2C7B88BF-1AE5-4C04-BC66-85BDAFCFCEE0@ianai.net>
+Message-ID: <Pine.LNX.4.64.1110031949370.1682@pluto.express.org>
+
+On Mon, 3 Oct 2011, Patrick W. Gilmore wrote:
+
+> On Oct 3, 2011, at 6:38 PM, Chris Stone wrote:
+
+>> Saw my IP6 tunnel to tunnelbroker.net drop. Their web site also appears 
+>> down and downforeveryoneorjustme.com concurs.
+
+>> Anyone heard anything?
+
+> HE's entire network is intermittently down.  They claim it is a DoS:
+> 	<https://twitter.com/#!/henet/status/120951537974513665>
+
+I can also confirm their IPv4 service is intermittently down.
+
+-- 
+William R. Lorenz
+
+From chris at uplogon.com  Mon Oct  3 19:59:28 2011
+From: chris at uplogon.com (Chris Gotstein)
+Date: Mon, 03 Oct 2011 18:59:28 -0500
+Subject: [outages] Paypal and Amazon S3 via Qwest
+In-Reply-To: <CA+OQrzgxifgGSx_MRBfv4o8h0iewOR-J8pu0GcRuP014MgGD5w@mail.gmail.com>
+References: <4E8A3C07.8010803@uplogon.com>
+ <CA+OQrzgxifgGSx_MRBfv4o8h0iewOR-J8pu0GcRuP014MgGD5w@mail.gmail.com>
+Message-ID: <4E8A4C60.8050109@uplogon.com>
+
+I'm now able to get to the sites, traceroutes still coming up unresponsive.
+
+I wonder if this was/is related to the HE outage?
+
+
+On 10/3/2011 6:55 PM, Dave Owens wrote:
+> Traceroutes are no good to either address, using qwest for transit ...
+> but I can get them via web browser just fine... s3.amazon.com
+> <http://s3.amazon.com> is rewritten to http://aws.amazon.com/s3/, however.
+>
+> $ traceroute paypal.com <http://paypal.com>
+> traceroute: Warning: paypal.com <http://paypal.com> has multiple
+> addresses; using 66.211.169.3
+> traceroute to paypal.com <http://paypal.com> (66.211.169.3), 64 hops
+> max, 52 byte packets
+>   1  router (10.11.13.1)  0.345 ms  0.188 ms  0.144 ms
+>   2  XXXX  0.376 ms  0.401 ms  0.401 ms
+>   3  XXXX  0.743 ms  0.772 ms  0.636 ms
+>   4 por-edge-12.inet.qwest.net <http://por-edge-12.inet.qwest.net>
+> (65.121.148.253)  4.766 ms  4.631 ms  4.562 ms
+>   5 snj-core-02.inet.qwest.net <http://snj-core-02.inet.qwest.net>
+> (67.14.34.18)  20.988 ms  21.204 ms  20.450 ms
+>   6 snj-edge-01.inet.qwest.net <http://snj-edge-01.inet.qwest.net>
+> (205.171.233.54)  21.456 ms
+> snj-edge-01.inet.qwest.net <http://snj-edge-01.inet.qwest.net>
+> (205.171.233.50)  21.196 ms  20.716 ms
+>   7  * * *
+>   8  * * *
+>   9  * * *
+> 10  * * *
+> 11  * * *
+> 12  * * *
+> 13  * * *
+> 14  * * *
+> 15  * *^C
+>
+> $ traceroute s3.amazon.com <http://s3.amazon.com>
+> traceroute to rewrite.amazon.com <http://rewrite.amazon.com>
+> (72.21.206.80), 64 hops max, 52 byte packets
+>   1  router (10.11.13.1)  0.447 ms  0.199 ms  0.148 ms
+>   2  XXXX  0.363 ms  0.353 ms  0.330 ms
+>   3  XXXX  0.789 ms  0.876 ms  0.851 ms
+>   4 qwest-border.bendcable.com <http://qwest-border.bendcable.com>
+> (216.228.160.63)  0.755 ms
+>      67.204.187.63 (67.204.187.63)  0.641 ms
+> qwest-border.bendcable.com <http://qwest-border.bendcable.com>
+> (216.228.160.63)  0.896 ms
+>   5 por-edge-12.inet.qwest.net <http://por-edge-12.inet.qwest.net>
+> (65.121.148.253)  4.955 ms  4.902 ms  4.903 ms
+>   6 dca-edge-22.inet.qwest.net <http://dca-edge-22.inet.qwest.net>
+> (67.14.6.142)  83.090 ms  114.545 ms  83.510 ms
+>   7 63-233-113-18.dia.static.qwest.net
+> <http://63-233-113-18.dia.static.qwest.net> (63.233.113.18)  100.275 ms
+> 91.239 ms  90.956 ms
+>   8  72.21.220.131 (72.21.220.131)  94.304 ms
+>      72.21.220.139 (72.21.220.139)  96.141 ms
+>      72.21.220.147 (72.21.220.147)  90.001 ms
+>   9  72.21.222.143 (72.21.222.143)  91.984 ms  91.067 ms  92.262 ms
+> 10  72.21.222.169 (72.21.222.169)  91.718 ms  93.196 ms  93.780 ms
+> 11  * * *
+> 12  * * *
+> 13  * * *
+> 14  * * *
+> 15  * *^C
+>
+> $ traceroute aws.amazon.com <http://aws.amazon.com>
+> traceroute to aws.amazon.com <http://aws.amazon.com> (72.21.206.131), 64
+> hops max, 52 byte packets
+>   1  router (10.11.13.1)  0.386 ms  0.149 ms  0.146 ms
+>   2 208-100-173-41.bendbroadband.com
+> <http://208-100-173-41.bendbroadband.com> (208.100.173.41)  0.444 ms
+> 0.345 ms  0.334 ms
+>   3 qwest-border.bendcable.com <http://qwest-border.bendcable.com>
+> (216.228.160.63)  0.590 ms  0.615 ms  0.570 ms
+>   4 por-edge-12.inet.qwest.net <http://por-edge-12.inet.qwest.net>
+> (65.121.148.253)  4.622 ms  4.526 ms  4.534 ms
+>   5 dca-edge-22.inet.qwest.net <http://dca-edge-22.inet.qwest.net>
+> (67.14.6.142)  83.766 ms  83.661 ms  82.872 ms
+>   6 63-233-113-26.dia.static.qwest.net
+> <http://63-233-113-26.dia.static.qwest.net> (63.233.113.26)  93.190 ms
+> 63-233-113-30.dia.static.qwest.net
+> <http://63-233-113-30.dia.static.qwest.net> (63.233.113.30)  90.572 ms
+> 63-233-113-34.dia.static.qwest.net
+> <http://63-233-113-34.dia.static.qwest.net> (63.233.113.34)  90.445 ms
+>   7  72.21.220.139 (72.21.220.139)  91.378 ms
+>      72.21.220.147 (72.21.220.147)  91.094 ms  89.836 ms
+>   8  72.21.222.143 (72.21.222.143)  91.188 ms  91.065 ms  91.981 ms
+>   9  72.21.222.169 (72.21.222.169)  98.994 ms  91.266 ms  91.762 ms
+> 10  * * *
+> 11  * * *
+> 12  * * *
+> 13  * * *
+> 14  * * *
+> 15  * *^C
+>
+>
+> ############
+> # Cut over to my VZW 3G connection
+> ############
+>
+> $ traceroute paypal.com <http://paypal.com>
+> traceroute: Warning: paypal.com <http://paypal.com> has multiple
+> addresses; using 173.0.84.3
+> traceroute to paypal.com <http://paypal.com> (173.0.84.3), 64 hops max,
+> 52 byte packets
+>   1  192.168.43.1 (192.168.43.1)  2.947 ms  1.525 ms  1.623 ms
+>   2  * * *
+>   3 73.sub-69-83-157.myvzw.com <http://73.sub-69-83-157.myvzw.com>
+> (69.83.157.73)  142.141 ms  127.118 ms  126.159 ms
+>   4 194.sub-69-83-157.myvzw.com <http://194.sub-69-83-157.myvzw.com>
+> (69.83.157.194)  158.142 ms  124.965 ms  120.922 ms
+>   5 141.sub-66-174-24.myvzw.com <http://141.sub-66-174-24.myvzw.com>
+> (66.174.24.141)  150.540 ms  117.201 ms  143.803 ms
+>   6 253.sub-69-83-146.myvzw.com <http://253.sub-69-83-146.myvzw.com>
+> (69.83.146.253)  138.753 ms  137.316 ms  140.496 ms
+>   7 ethe1-2.ar6.sea1.gblx.net <http://ethe1-2.ar6.sea1.gblx.net>
+> (64.212.98.149)  121.579 ms  121.652 ms  124.474 ms
+>   8 ge5-0-9d0.cir1.seattle7-wa.us.xo.net
+> <http://ge5-0-9d0.cir1.seattle7-wa.us.xo.net> (206.111.7.137)  122.658
+> ms  173.502 ms  119.903 ms
+>   9 vb2002.rar3.sanjose-ca.us.xo.net
+> <http://vb2002.rar3.sanjose-ca.us.xo.net> (207.88.13.150)  180.875 ms
+> 234.594 ms  157.806 ms
+> 10 207.88.14.106.ptr.us.xo.net <http://207.88.14.106.ptr.us.xo.net>
+> (207.88.14.106)  161.485 ms  183.214 ms  149.901 ms
+> 11 207.88.187.18.ptr.us.xo.net <http://207.88.187.18.ptr.us.xo.net>
+> (207.88.187.18)  163.525 ms  187.358 ms  136.093 ms
+> 12  * * *
+> 13  * * *
+> 14  * * 192.168.43.1 (192.168.43.1)  8.372 ms !N
+> 15  * * *
+> 16  * * *
+> 17  * * 192.168.43.1 (192.168.43.1)  9.330 ms !N
+> 18  192.168.43.1 (192.168.43.1)  4.415 ms !N  1.623 ms !N *
+>
+> $ traceroute s3.amazon.com <http://s3.amazon.com>
+> traceroute to rewrite.amazon.com <http://rewrite.amazon.com>
+> (72.21.206.80), 64 hops max, 52 byte packets
+>   1  192.168.43.1 (192.168.43.1)  1.298 ms  2.030 ms  1.531 ms
+>   2  * * *
+>   3 73.sub-69-83-157.myvzw.com <http://73.sub-69-83-157.myvzw.com>
+> (69.83.157.73)  86.198 ms  95.123 ms  114.221 ms
+>   4 194.sub-69-83-157.myvzw.com <http://194.sub-69-83-157.myvzw.com>
+> (69.83.157.194)  118.988 ms  119.707 ms  120.373 ms
+>   5 141.sub-66-174-24.myvzw.com <http://141.sub-66-174-24.myvzw.com>
+> (66.174.24.141)  123.517 ms  179.139 ms  128.651 ms
+>   6 253.sub-69-83-146.myvzw.com <http://253.sub-69-83-146.myvzw.com>
+> (69.83.146.253)  119.964 ms  111.676 ms  118.061 ms
+>   7 ethe1-2.ar6.sea1.gblx.net <http://ethe1-2.ar6.sea1.gblx.net>
+> (64.212.98.149)  121.663 ms  119.657 ms  137.949 ms
+>   8 ae0-30g.scr1.sea1.gblx.net <http://ae0-30g.scr1.sea1.gblx.net>
+> (67.16.143.21)  122.115 ms  132.669 ms  136.275 ms
+>   9 te7-1-10g.csr1.snv2.gblx.net <http://te7-1-10g.csr1.snv2.gblx.net>
+> (67.16.149.230)  121.937 ms
+> te8-2-10g.csr1.snv2.gblx.net <http://te8-2-10g.csr1.snv2.gblx.net>
+> (67.16.149.234)  143.044 ms
+> te2-4-10g.csr1.sea1.gblx.net <http://te2-4-10g.csr1.sea1.gblx.net>
+> (67.17.78.86)  134.799 ms
+> 10 amazon-com.tengigabitethernet2-2.csr1.sea1.gblx.net
+> <http://amazon-com.tengigabitethernet2-2.csr1.sea1.gblx.net>
+> (209.130.173.150)  184.864 ms  174.159 ms  125.019 ms
+> 11  178.236.3.34 (178.236.3.34)  210.057 ms  208.973 ms  222.191 ms
+> 12  72.21.220.75 (72.21.220.75)  181.739 ms * *
+> 13  192.168.43.1 (192.168.43.1)  10.742 ms !N *
+>      72.21.222.145 (72.21.222.145)  198.347 ms
+> 14  72.21.222.171 (72.21.222.171)  187.695 ms  327.196 ms  329.417 ms
+> 15  * 192.168.43.1 (192.168.43.1)  7.418 ms !N  4.064 ms !N
+>
+> $ traceroute aws.amazon.com <http://aws.amazon.com>
+> traceroute to aws.amazon.com <http://aws.amazon.com> (72.21.210.163), 64
+> hops max, 52 byte packets
+>   1  192.168.43.1 (192.168.43.1)  2.031 ms  2.236 ms  1.819 ms
+>   2  * * *
+>   3 73.sub-69-83-157.myvzw.com <http://73.sub-69-83-157.myvzw.com>
+> (69.83.157.73)  156.293 ms  109.419 ms  132.326 ms
+>   4 194.sub-69-83-157.myvzw.com <http://194.sub-69-83-157.myvzw.com>
+> (69.83.157.194)  147.541 ms  148.369 ms  158.328 ms
+>   5 141.sub-66-174-24.myvzw.com <http://141.sub-66-174-24.myvzw.com>
+> (66.174.24.141)  179.156 ms  115.223 ms  162.073 ms
+>   6 253.sub-69-83-146.myvzw.com <http://253.sub-69-83-146.myvzw.com>
+> (69.83.146.253)  125.868 ms  129.586 ms  129.157 ms
+>   7 ethe1-2.ar6.sea1.gblx.net <http://ethe1-2.ar6.sea1.gblx.net>
+> (64.212.98.149)  149.611 ms  122.584 ms  124.062 ms
+>   8 ae0-30g.scr2.sea1.gblx.net <http://ae0-30g.scr2.sea1.gblx.net>
+> (67.17.75.57)  126.220 ms  120.148 ms  117.986 ms
+>   9 te8-2-10g.csr1.snv2.gblx.net <http://te8-2-10g.csr1.snv2.gblx.net>
+> (67.16.149.234)  122.749 ms
+> te7-1-10g.csr1.snv2.gblx.net <http://te7-1-10g.csr1.snv2.gblx.net>
+> (67.16.149.230)  124.098 ms
+> te9-3-10g.csr1.sea1.gblx.net <http://te9-3-10g.csr1.sea1.gblx.net>
+> (67.17.111.189)  128.876 ms
+> 10 amazon-com.tengigabitethernet2-2.csr1.sea1.gblx.net
+> <http://amazon-com.tengigabitethernet2-2.csr1.sea1.gblx.net>
+> (209.130.173.150)  126.181 ms  149.622 ms  119.899 ms
+> 11  178.236.3.34 (178.236.3.34)  307.282 ms  308.144 ms  308.413 ms
+> 12  72.21.220.77 (72.21.220.77)  196.735 ms *  207.315 ms
+> 13  72.21.222.149 (72.21.222.149)  551.060 ms  243.100 ms  307.062 ms
+> 14  72.21.220.229 (72.21.220.229)  231.931 ms  254.628 ms  253.865 ms
+> 15  * * *
+> 16  * * *
+> 17  * * *
+> 18  * * *
+> 19  * * *
+> 20  192.168.43.1 (192.168.43.1)  3.132 ms !N * *
+> 21  * 192.168.43.1 (192.168.43.1)  3.144 ms !N *
+> 22  * 192.168.43.1 (192.168.43.1)  3.094 ms !N  1.462 ms !N
+>
+> Hope this helps.
+>
+> Cheers,
+>
+> Dave Owens
+> TeamUnify, LLC
+>
+>
+>
+> On Mon, Oct 3, 2011 at 3:49 PM, Chris Gotstein <chris at uplogon.com
+> <mailto:chris at uplogon.com>> wrote:
+>
+>     I'm unable to get to paypal.com <http://paypal.com> and
+>     s3.amazon.com <http://s3.amazon.com> via our Qwest link through
+>     Chicago.  Anyone else seeing issues?
+>
+>     --
+>     ---- ---- ---- ----
+>     Chris Gotstein, Network Engineer, U.P. Logon/Computer Connection U.P.
+>     http://uplogon.com | +1 906 774 4847 <tel:%2B1%20906%20774%204847> |
+>     chris at uplogon.com <mailto:chris at uplogon.com>
+>     _________________________________________________
+>     Outages mailing list
+>     Outages at outages.org <mailto:Outages at outages.org>
+>     https://puck.nether.net/__mailman/listinfo/outages
+>     <https://puck.nether.net/mailman/listinfo/outages>
+>
+>
+
+-- 
+---- ---- ---- ----
+Chris Gotstein, Network Engineer, U.P. Logon/Computer Connection U.P.
+http://uplogon.com | +1 906 774 4847 | chris at uplogon.com
+
+From jra at baylink.com  Tue Oct  4 11:25:56 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Tue, 4 Oct 2011 11:25:56 -0400 (EDT)
+Subject: [outages] tcm.com down
+Message-ID: <11829056.4082.1317741956947.JavaMail.root@benjamin.baylink.com>
+
+I am told by a regular poster that a downsized HVAC employee frobbed the Big
+Red Switch in one of their 6 datacenters on his way out the door for the last
+time, leading to this outage; cannot confirm or deny.
+
+Whether it's true or not, it's an excellent cautionary tale WRT dismissal 
+procedures.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From josh at imaginenetworksllc.com  Tue Oct  4 11:32:53 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Tue, 4 Oct 2011 11:32:53 -0400
+Subject: [outages] tcm.com down
+In-Reply-To: <11829056.4082.1317741956947.JavaMail.root@benjamin.baylink.com>
+References: <11829056.4082.1317741956947.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAN9qwJ8sDi0rnjbU3hYGGStQV2b8P+JzJ0yCsSpE+kUL3w=u5g@mail.gmail.com>
+
+tcm.com works for me
+
+Shows good here http://www.downforeveryoneorjustme.com/tcm.com
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Tue, Oct 4, 2011 at 11:25 AM, Jay Ashworth <jra at baylink.com> wrote:
+
+> I am told by a regular poster that a downsized HVAC employee frobbed the
+> Big
+> Red Switch in one of their 6 datacenters on his way out the door for the
+> last
+> time, leading to this outage; cannot confirm or deny.
+>
+> Whether it's true or not, it's an excellent cautionary tale WRT dismissal
+> procedures.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth                  Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover
+> DII
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111004/2850dca5/attachment.html>
+
+From bpfankuch at cpgreeley.com  Tue Oct  4 11:36:58 2011
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Tue, 4 Oct 2011 15:36:58 +0000
+Subject: [outages] tcm.com down
+In-Reply-To: <11829056.4082.1317741956947.JavaMail.root@benjamin.baylink.com>
+References: <11829056.4082.1317741956947.JavaMail.root@benjamin.baylink.com>
+Message-ID: <FFBD8D4174CD6C4A9AEF17B7706442724800959A@cpmail1.cpgreeley.com>
+
+Seems to be working from here.  Our process involves one of our VP's following people out the door.  I'm pretty sure a tank might be afraid of him pissed off... :)  We also have a clause in the "Employment Agreement" that states "Any and all damages and or resolution for damages due to hostile employee actions during or after a dismissal will be billed to the former employee.  Time spent resolving damages will be billed at contractor rates, or internal service billing rates, whichever is higher."  Don't think anyone has ever had to pay fines though :)
+
+Blake Pfankuch
+Cisco, Microsoft, Adtran and VMware Certification Information available upon request.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jay Ashworth
+Sent: Tuesday, October 04, 2011 9:26 AM
+To: outages at outages.org
+
+I am told by a regular poster that a downsized HVAC employee frobbed the Big Red Switch in one of their 6 datacenters on his way out the door for the last time, leading to this outage; cannot confirm or deny.
+
+Whether it's true or not, it's an excellent cautionary tale WRT dismissal procedures.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From jra at baylink.com  Tue Oct  4 11:40:58 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Tue, 4 Oct 2011 11:40:58 -0400 (EDT)
+Subject: [outages] tcm.com down
+In-Reply-To: <CAN9qwJ8sDi0rnjbU3hYGGStQV2b8P+JzJ0yCsSpE+kUL3w=u5g@mail.gmail.com>
+Message-ID: <25441961.4094.1317742858177.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Josh Luthman" <josh at imaginenetworksllc.com>
+
+> tcm.com works for me
+> 
+> Shows good here http://www.downforeveryoneorjustme.com/tcm.com
+
+It does seem to be back now, though it was checking down when I got the report.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From sethm at rollernet.us  Tue Oct  4 12:15:28 2011
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Tue, 04 Oct 2011 09:15:28 -0700
+Subject: [outages] tcm.com down
+In-Reply-To: <25441961.4094.1317742858177.JavaMail.root@benjamin.baylink.com>
+References: <25441961.4094.1317742858177.JavaMail.root@benjamin.baylink.com>
+Message-ID: <4E8B3120.4030802@rollernet.us>
+
+On 10/4/11 8:40 AM, Jay Ashworth wrote:
+> ----- Original Message -----
+>> From: "Josh Luthman" <josh at imaginenetworksllc.com>
+> 
+>> tcm.com works for me
+>>
+>> Shows good here http://www.downforeveryoneorjustme.com/tcm.com
+> 
+> It does seem to be back now, though it was checking down when I got the report.
+> 
+
+
+I was seeing it up but devoid of content; just a framework of boxes. The
+content is back now.
+
+~Seth
+
+From frnkblk at iname.com  Tue Oct  4 15:43:36 2011
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Tue, 4 Oct 2011 14:43:36 -0500
+Subject: [outages] HTTPv6 access to Sprint's v6 sites has been up and down all afternoon
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADEJuB+rsmVSb7/PngCixK6AQAAAAA=@iname.com>
+
+These websites:
+	ipv6.sprint.com
+	www.sprint6.net
+	www.sprint.net
+
+I haven't been able to traceroute them before they're back up, but seen them
+up and down this afternoon.
+
+Frank
+
+
+
+From frnkblk at iname.com  Tue Oct  4 16:48:01 2011
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Tue, 4 Oct 2011 15:48:01 -0500
+Subject: [outages] HTTPv6 access to Sprint's v6 sites has been up and down all afternoon
+In-Reply-To: <20111004201847.GB5064@boom.net>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADEJuB+rsmVSb7/PngCixK6AQAAAAA=@iname.com>
+ <20111004201847.GB5064@boom.net>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAC4diO8DS3wT7iqZh6DeI+2AQAAAAA=@iname.com>
+
+Sorry, www.sprintv6.net.
+
+Frank
+
+-----Original Message-----
+Sent: Tuesday, October 04, 2011 3:19 PM
+To: Frank Bulk - iName.com
+Subject: Re: [outages] HTTPv6 access to Sprint's v6 sites has been up and
+down all afternoon
+
+The first and last one work for me...  middle one doesn't exist (domain name
+doesn't even exist)
+
+On Tue, Oct 04, 2011 at 02:43:36PM -0500, Frank Bulk - iName.com
+<frnkblk at iname.com> wrote:
+
+> These websites:
+> 	ipv6.sprint.com
+> 	www.sprint6.net
+> 	www.sprint.net
+>
+> I haven't been able to traceroute them before they're back up, but seen
+them
+> up and down this afternoon.
+>
+> Frank
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From network.ipdog at gmail.com  Wed Oct  5 20:19:40 2011
+From: network.ipdog at gmail.com (Network IP Dog)
+Date: Wed, 5 Oct 2011 17:19:40 -0700
+Subject: [outages] Steve Jobs, Apple founder, dies
+Message-ID: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+
+Since this is a outage list.
+
+http://www.cnn.com/2011/10/05/us/obit-steve-jobs/
+
+
+The Zombie Master is dead.  Long Live LINUX!!!
+
+CHEERS!!!
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/f7cf622e/attachment.html>
+
+From josh at imaginenetworksllc.com  Wed Oct  5 20:27:30 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 5 Oct 2011 20:27:30 -0400
+Subject: [outages] Steve Jobs, Apple founder, dies
+In-Reply-To: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+References: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+Message-ID: <CAN9qwJ9cZkAygECSdz93sVur4PvJOAVehMbQSxEVAamZj4W3tg@mail.gmail.com>
+
+Show some respect, please.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Wed, Oct 5, 2011 at 8:19 PM, Network IP Dog <network.ipdog at gmail.com>wrote:
+
+> **
+>
+> Since this is a outage list?
+>
+> http://www.cnn.com/2011/10/05/us/obit-steve-jobs/
+>
+> The Zombie Master is dead?  Long Live LINUX!!!
+>
+> CHEERS!!!
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/b38a38b3/attachment.html>
+
+From carlos at televolve.com  Wed Oct  5 20:29:42 2011
+From: carlos at televolve.com (Carlos Alvarez)
+Date: Wed, 5 Oct 2011 17:29:42 -0700
+Subject: [outages] Steve Jobs, Apple founder, dies
+In-Reply-To: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+References: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+Message-ID: <CAFn1dUFL5HEZNwF0Y3U+FZ+RHmu3si_osg_zcV7ibzJKGt7Chw@mail.gmail.com>
+
+Wow, religious BS on this list?? Seriously?  Take it somewhere else.
+
+
+On Wed, Oct 5, 2011 at 5:19 PM, Network IP Dog <network.ipdog at gmail.com>wrote:
+
+> **
+>
+> Since this is a outage list?
+>
+> http://www.cnn.com/2011/10/05/us/obit-steve-jobs/
+>
+> The Zombie Master is dead?  Long Live LINUX!!!
+>
+> CHEERS!!!
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+-- 
+Carlos Alvarez
+TelEvolve
+602-889-3003
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/385b08db/attachment.html>
+
+From jared at puck.nether.net  Wed Oct  5 20:44:15 2011
+From: jared at puck.nether.net (Jared Mauch)
+Date: Wed, 5 Oct 2011 20:44:15 -0400
+Subject: [outages] Steve Jobs, Apple founder, dies
+In-Reply-To: <CAFn1dUFL5HEZNwF0Y3U+FZ+RHmu3si_osg_zcV7ibzJKGt7Chw@mail.gmail.com>
+References: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+ <CAFn1dUFL5HEZNwF0Y3U+FZ+RHmu3si_osg_zcV7ibzJKGt7Chw@mail.gmail.com>
+Message-ID: <E8F53B18-3D1D-4458-9498-AFD8CF7AD543@puck.nether.net>
+
+Any further comments will result in being banned from lists here. You may direct feedback to me personally or there is an @apple email address to send thoughts to. Please visit their website for that information. 
+
+If it goes down, or twitter breaks too that is on topic for technical purposes. 
+
+Please don't make me ban people or turn on moderation, it makes work for me and takes away from my family time. 
+
+Jared Mauch
+
+On Oct 5, 2011, at 8:29 PM, Carlos Alvarez <carlos at televolve.com> wrote:
+
+> Wow, religious BS on this list?? Seriously?  Take it somewhere else.
+> 
+> 
+> On Wed, Oct 5, 2011 at 5:19 PM, Network IP Dog <network.ipdog at gmail.com> wrote:
+> Since this is a outage list?
+> 
+> http://www.cnn.com/2011/10/05/us/obit-steve-jobs/
+> 
+> 
+> The Zombie Master is dead?  Long Live LINUX!!!
+> 
+> CHEERS!!!
+> 
+> 
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> 
+> 
+> -- 
+> Carlos Alvarez
+> TelEvolve
+> 602-889-3003
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/d7193929/attachment.html>
+
+From owenc at hubris.net  Wed Oct  5 20:41:30 2011
+From: owenc at hubris.net (Chris Owen)
+Date: Wed, 5 Oct 2011 19:41:30 -0500
+Subject: [outages] Steve Jobs, Apple founder, dies
+In-Reply-To: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+References: <4e8cf420.43c7440a.5b4c.fffff0c6@mx.google.com>
+Message-ID: <39DBD820-C11D-4C1C-A81D-43A4C43463DA@hubris.net>
+
+On Oct 5, 2011, at 7:19 PM, Network IP Dog wrote:
+
+> Since this is a outage list?
+
+?you thought you'd send something completely off topic and pignorant on top of that.
+
+Chris
+
+
+--
+-------------------------------------------------------------------------
+Chris Owen         - Garden City (620) 275-1900 -  Lottery (noun):
+President          - Wichita     (316) 858-3000 -    A stupidity tax
+Hubris Communications Inc      www.hubris.net
+-------------------------------------------------------------------------
+
+
+
+
+From andrew.wallace at rocketmail.com  Wed Oct  5 21:25:57 2011
+From: andrew.wallace at rocketmail.com (andrew.wallace)
+Date: Wed, 5 Oct 2011 18:25:57 -0700 (PDT)
+Subject: [outages] Twitter
+Message-ID: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+
+There appears to be a sustained outage.
+
+
+Andrew
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/ab7c98ec/attachment.html>
+
+From fergdawgster at gmail.com  Wed Oct  5 21:39:28 2011
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Wed, 5 Oct 2011 18:39:28 -0700
+Subject: [outages] Twitter
+In-Reply-To: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+References: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+Message-ID: <CANQy6FaUzEnfDeEoeEqPrK9JOWdcVUOryW2LbAe6T=qe8cHj0Q@mail.gmail.com>
+
+The news of Steve Jobs death has apparently brought Twitter to it's knees.
+
+- ferg
+
+On Wed, Oct 5, 2011 at 6:25 PM, andrew.wallace
+<andrew.wallace at rocketmail.com> wrote:
+
+> There appears to be a sustained outage.
+>
+> Andrew
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+?fergdawgster(at)gmail.com
+
+
+From andrew.wallace at rocketmail.com  Wed Oct  5 21:39:32 2011
+From: andrew.wallace at rocketmail.com (andrew.wallace)
+Date: Wed, 5 Oct 2011 18:39:32 -0700 (PDT)
+Subject: [outages] Twitter
+In-Reply-To: <CABNKB=eaLgL=nDg_SfOCni5MD_a3NGSJaQZDHG5VygvNbokJEw@mail.gmail.com>
+References: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+ <CABNKB=eaLgL=nDg_SfOCni5MD_a3NGSJaQZDHG5VygvNbokJEw@mail.gmail.com>
+Message-ID: <1317865172.78047.YahooMailNeo@web59606.mail.ac4.yahoo.com>
+
+Its bumpy at the moment, probably because of the Jobs news.
+
+Andrew
+
+
+
+________________________________
+From: Jayson Baker <jayson at corp.peakinter.net>
+To: andrew.wallace <andrew.wallace at rocketmail.com>
+Cc: "outages at outages.org" <outages at outages.org>
+Sent: Thursday, October 6, 2011 2:35 AM
+
+
+Works just fine here, Colorado.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+Direct: (719) 686-8161
+Sales/Support: (719) 686-0250
+
+Like Us On Facebook: http://www.facebook.com/peakinternetco
+
+
+
+On Wed, Oct 5, 2011 at 7:25 PM, andrew.wallace <andrew.wallace at rocketmail.com> wrote:
+
+There appears to be a sustained outage.
+>
+>
+>Andrew
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/555217c0/attachment.html>
+
+From frnkblk at iname.com  Wed Oct  5 21:46:04 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 5 Oct 2011 20:46:04 -0500
+Subject: [outages] Twitter
+In-Reply-To: <CANQy6FaUzEnfDeEoeEqPrK9JOWdcVUOryW2LbAe6T=qe8cHj0Q@mail.gmail.com>
+References: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+ <CANQy6FaUzEnfDeEoeEqPrK9JOWdcVUOryW2LbAe6T=qe8cHj0Q@mail.gmail.com>
+Message-ID: <001d01cc83c9$b5949320$20bdb960$@iname.com>
+
+Twitter.com works fine for me here in the Midwest.
+
+Status.twitter.com doesn't report anything.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Paul Ferguson
+Sent: Wednesday, October 05, 2011 8:39 PM
+To: andrew.wallace
+Cc: outages at outages.org
+
+The news of Steve Jobs death has apparently brought Twitter to it's knees.
+
+- ferg
+
+On Wed, Oct 5, 2011 at 6:25 PM, andrew.wallace
+<andrew.wallace at rocketmail.com> wrote:
+
+> There appears to be a sustained outage.
+>
+> Andrew
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+?fergdawgster(at)gmail.com
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From lists at nurve.com.au  Wed Oct  5 22:04:41 2011
+From: lists at nurve.com.au (Cameron)
+Date: Thu, 6 Oct 2011 12:04:41 +1000
+Subject: [outages] Twitter
+In-Reply-To: <1317865172.78047.YahooMailNeo@web59606.mail.ac4.yahoo.com>
+References: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+ <CABNKB=eaLgL=nDg_SfOCni5MD_a3NGSJaQZDHG5VygvNbokJEw@mail.gmail.com>
+ <1317865172.78047.YahooMailNeo@web59606.mail.ac4.yahoo.com>
+Message-ID: <7E0D2BF01BA046A880B4A71CCD9727B5@pipe.pwk>
+
+No obvious issues from AU. Site loads fine and is responsive.
+
+ 
+
+  _____  
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of andrew.wallace
+Sent: Thursday, 6 October 2011 11:40 AM
+To: Jayson Baker
+Cc: outages at outages.org
+
+ 
+
+Its bumpy at the moment, probably because of the Jobs news.
+
+ 
+
+Andrew
+
+ 
+
+  _____  
+
+From: Jayson Baker <jayson at corp.peakinter.net>
+To: andrew.wallace <andrew.wallace at rocketmail.com>
+Cc: "outages at outages.org" <outages at outages.org>
+Sent: Thursday, October 6, 2011 2:35 AM
+
+
+
+
+Works just fine here, Colorado.
+
+
+ 
+
+Best Wishes,
+
+Jayson A. Baker
+
+Peak Internet
+
+Direct: (719) 686-8161
+
+Sales/Support: (719) 686-0250
+
+ 
+
+Like Us On Facebook: http://www.facebook.com/peakinternetco
+
+
+
+
+
+On Wed, Oct 5, 2011 at 7:25 PM, andrew.wallace
+<andrew.wallace at rocketmail.com> wrote:
+
+There appears to be a sustained outage.
+
+ 
+
+Andrew
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111006/7edf220c/attachment.html>
+
+From jayson at corp.peakinter.net  Wed Oct  5 21:35:28 2011
+From: jayson at corp.peakinter.net (Jayson Baker)
+Date: Wed, 5 Oct 2011 19:35:28 -0600
+Subject: [outages] Twitter
+In-Reply-To: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+References: <1317864357.47595.YahooMailNeo@web59613.mail.ac4.yahoo.com>
+Message-ID: <CABNKB=eaLgL=nDg_SfOCni5MD_a3NGSJaQZDHG5VygvNbokJEw@mail.gmail.com>
+
+Works just fine here, Colorado.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+Direct: (719) 686-8161
+Sales/Support: (719) 686-0250
+
+Like Us On Facebook: http://www.facebook.com/peakinternetco
+
+
+
+On Wed, Oct 5, 2011 at 7:25 PM, andrew.wallace <
+andrew.wallace at rocketmail.com> wrote:
+
+> There appears to be a sustained outage.
+>
+> Andrew
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111005/bc4cef6d/attachment.html>
+
+From billw at waveform.net  Thu Oct  6 12:17:19 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Oct 2011 12:17:19 -0400
+Subject: [outages] XO slowness
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+
+Is anyone seeing general XO slowness this morning? We noticed at approx
+midnight Eastern a drop in traffic on our link to them, and testing
+shows sessions limited to about 1-2Mb/s in the outbound (to XO)
+direction while inbound runs normally. This is per-session, the
+aggregate is still gigs so I don't think it's just an overloaded link
+somewhere. 
+
+ 
+
+We have redundant links into different core routers within XO's network
+in the Detroit market and we see the same issue with both so I'm pretty
+sure this problem is somewhere further into XO's network than just our
+interconnect to them. Their support number is reporting heavy load and a
+"VoIP services" problem so I'm curious if anyone knows if they are
+having a large-scale IP problem of some kind.
+
+ 
+
+  -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111006/d0bce188/attachment.html>
+
+From billw at waveform.net  Thu Oct  6 12:22:30 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Oct 2011 12:22:30 -0400
+Subject: [outages] XO slowness
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F94ADF81@server1.WaveformTechnology.local>
+
+XO reports the VoIP issue is in the Portland area only, according to
+their on-hold message...
+
+ 
+
+  -Bill
+
+ 
+
+________________________________
+
+From: Bill Wichers [mailto:billw at waveform.net] 
+Sent: Thursday, October 06, 2011 12:17 PM
+To: outages at outages.org
+
+ 
+
+Is anyone seeing general XO slowness this morning? We noticed at approx
+midnight Eastern a drop in traffic on our link to them, and testing
+shows sessions limited to about 1-2Mb/s in the outbound (to XO)
+direction while inbound runs normally. This is per-session, the
+aggregate is still gigs so I don't think it's just an overloaded link
+somewhere. 
+
+ 
+
+We have redundant links into different core routers within XO's network
+in the Detroit market and we see the same issue with both so I'm pretty
+sure this problem is somewhere further into XO's network than just our
+interconnect to them. Their support number is reporting heavy load and a
+"VoIP services" problem so I'm curious if anyone knows if they are
+having a large-scale IP problem of some kind.
+
+ 
+
+  -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111006/c4b185e8/attachment.html>
+
+From billw at waveform.net  Thu Oct  6 12:41:46 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Oct 2011 12:41:46 -0400
+Subject: [outages] XO slowness
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F94ADF81@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+ <EE3A1AFB71A1E54BA3D302718EA382F94ADF81@server1.WaveformTechnology.local>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F94ADF84@server1.WaveformTechnology.local>
+
+XO reports they are having some "latency issues" and there is an
+associated national ticket open.
+
+ 
+
+  -Bill
+
+ 
+
+________________________________
+
+From: Bill Wichers [mailto:billw at waveform.net] 
+Sent: Thursday, October 06, 2011 12:17 PM
+To: outages at outages.org
+
+ 
+
+Is anyone seeing general XO slowness this morning? We noticed at approx
+midnight Eastern a drop in traffic on our link to them, and testing
+shows sessions limited to about 1-2Mb/s in the outbound (to XO)
+direction while inbound runs normally. This is per-session, the
+aggregate is still gigs so I don't think it's just an overloaded link
+somewhere. 
+
+ 
+
+We have redundant links into different core routers within XO's network
+in the Detroit market and we see the same issue with both so I'm pretty
+sure this problem is somewhere further into XO's network than just our
+interconnect to them. Their support number is reporting heavy load and a
+"VoIP services" problem so I'm curious if anyone knows if they are
+having a large-scale IP problem of some kind.
+
+ 
+
+  -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111006/de0ab5d7/attachment.html>
+
+From billw at waveform.net  Thu Oct  6 13:28:55 2011
+From: billw at waveform.net (Bill Wichers)
+Date: Thu, 6 Oct 2011 13:28:55 -0400
+Subject: [outages] XO slowness
+In-Reply-To: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+References: <EE3A1AFB71A1E54BA3D302718EA382F94ADF7F@server1.WaveformTechnology.local>
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F94ADF87@server1.WaveformTechnology.local>
+
+XO reports they replaced a failed linecard in their Detroit node. We
+show the issue resolved now.
+
+ 
+
+  -Bill
+
+ 
+
+________________________________
+
+From: Bill Wichers [mailto:billw at waveform.net] 
+Sent: Thursday, October 06, 2011 12:17 PM
+To: outages at outages.org
+
+ 
+
+Is anyone seeing general XO slowness this morning? We noticed at approx
+midnight Eastern a drop in traffic on our link to them, and testing
+shows sessions limited to about 1-2Mb/s in the outbound (to XO)
+direction while inbound runs normally. This is per-session, the
+aggregate is still gigs so I don't think it's just an overloaded link
+somewhere. 
+
+ 
+
+We have redundant links into different core routers within XO's network
+in the Detroit market and we see the same issue with both so I'm pretty
+sure this problem is somewhere further into XO's network than just our
+interconnect to them. Their support number is reporting heavy load and a
+"VoIP services" problem so I'm curious if anyone knows if they are
+having a large-scale IP problem of some kind.
+
+ 
+
+  -Bill
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111006/49c93c01/attachment.html>
+
+From jra at baylink.com  Thu Oct  6 21:49:04 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Thu, 6 Oct 2011 21:49:04 -0400 (EDT)
+Subject: [outages] Anik F2 outage
+Message-ID: <2422107.4296.1317952143992.JavaMail.root@benjamin.baylink.com>
+
+Anik F2, a Canadian commosat, went into what is called, ghod help us all, 
+"Safe Mode", at 1036UTC this morning:
+
+http://www.spaceflightnow.com/news/n1110/06anikf2/
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From bpfankuch at cpgreeley.com  Fri Oct  7 19:00:53 2011
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Fri, 7 Oct 2011 23:00:53 +0000
+Subject: [outages] Cbeyond Outage in northern colorado
+Message-ID: <FFBD8D4174CD6C4A9AEF17B7706442724800CF8D@cpmail1.cpgreeley.com>
+
+Qwest has an outage in northern Colorado right now.  Tech on the phone says "Looks like we lost something in north Denver.  Ugh..."  No ETR or Parent ticket at this time.
+
+Blake
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111007/c773aed4/attachment.html>
+
+From ivank at rogers.com  Sat Oct  8 08:33:02 2011
+From: ivank at rogers.com (Ivan Kovacevic)
+Date: Sat, 8 Oct 2011 08:33:02 -0400
+Subject: [outages] Grasshopper Outage
+Message-ID: <058601cc85b6$6c28ff70$447afe50$@rogers.com>
+
+ 
+
+Too bad. they've been having a lot of problems. 
+
+ 
+
+ 
+
+ 
+
+Grasshopper is experiencing a service interruption that impacts your account. As a result of a database issue that occurred during a
+normal maintenance procedure, all phone and web services are currently down.
+
+ 
+
+The issues started at approximately 4 am (EDT). We're trying to fix this as quickly as possible, but don't have an estimate for how
+much longer this will last at this time. We'll be posting regular updates to this status
+
+page:
+
+ 
+
+https://support.grasshopper.com/index.php?_m=news <https://support.grasshopper.com/index.php?_m=news&_a=viewnews&newsid=78>
+&_a=viewnews&newsid=78
+
+ 
+
+Regards,
+
+ 
+
+Grasshopper Support
+
+800-279-1455
+
+support at grasshopper.com
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111008/49411dd5/attachment.html>
+
+From tom at mtnflyer.net  Sat Oct  8 14:08:17 2011
+From: tom at mtnflyer.net (Tom Merrill)
+Date: Sat, 8 Oct 2011 12:08:17 -0600
+Subject: [outages] Grasshopper Outage
+Message-ID: <CAKAZKD4FP=3VPdp9K0i1gzUCTudtYsYmHd_=8rhE=m_5dD7Aeg@mail.gmail.com>
+
+Grasshopper phone system provider is down across the entire company. All
+clients are down with phone numbers ringing or busy tone.
+
+They are moving to their Disaster Recovery site.
+
+"The issues started at approximately 4 am (EDT). We're trying to fix this as
+quickly as possible, but don't have an estimate for how much longer this
+will last at this time. We'll be posting regular updates to this status
+page"
+
+
+https://support.grasshopper.com/index.php?_m=news&_a=viewnews&newsid=78
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111008/71464b83/attachment.html>
+
+From tom at mtnflyer.net  Sat Oct  8 14:08:57 2011
+From: tom at mtnflyer.net (Tom Merrill)
+Date: Sat, 8 Oct 2011 12:08:57 -0600
+Subject: [outages] cancel that
+Message-ID: <CAKAZKD6o3DQjoLhZ9Duvjigku2VRrGAAZvGn+YXCi_-d-uns6g@mail.gmail.com>
+
+really sorry didn't see the guy that already posted that
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111008/fdd2e59b/attachment.html>
+
+From frnkblk at iname.com  Sat Oct  8 14:34:07 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Sat, 8 Oct 2011 13:34:07 -0500
+Subject: [outages] Grasshopper Outage
+In-Reply-To: <CAKAZKD4FP=3VPdp9K0i1gzUCTudtYsYmHd_=8rhE=m_5dD7Aeg@mail.gmail.com>
+References: <CAKAZKD4FP=3VPdp9K0i1gzUCTudtYsYmHd_=8rhE=m_5dD7Aeg@mail.gmail.com>
+Message-ID: <005b01cc85e8$dd4b2ca0$97e185e0$@iname.com>
+
+Reading between the lines it sounds like they really don't want to execute
+their DR plan.
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Tom Merrill
+Sent: Saturday, October 08, 2011 1:08 PM
+To: outages at outages.org
+
+ 
+
+Grasshopper phone system provider is down across the entire company. All
+clients are down with phone numbers ringing or busy tone.
+
+ 
+
+They are moving to their Disaster Recovery site. 
+
+ 
+
+"The issues started at approximately 4 am (EDT). We're trying to fix this as
+quickly as possible, but don't have an estimate for how much longer this
+will last at this time. We'll be posting regular updates to this status
+page"
+
+ 
+
+ 
+
+https://support.grasshopper.com/index.php?_m=news
+<https://support.grasshopper.com/index.php?_m=news&_a=viewnews&newsid=78>
+&_a=viewnews&newsid=78
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111008/cd921a5c/attachment.html>
+
+From isabeldias1 at yahoo.com  Sat Oct  8 14:50:15 2011
+From: isabeldias1 at yahoo.com (isabel dias)
+Date: Sat, 8 Oct 2011 11:50:15 -0700 (PDT)
+Subject: [outages] Grasshopper Outage
+In-Reply-To: <005b01cc85e8$dd4b2ca0$97e185e0$@iname.com>
+References: <CAKAZKD4FP=3VPdp9K0i1gzUCTudtYsYmHd_=8rhE=m_5dD7Aeg@mail.gmail.com>
+ <005b01cc85e8$dd4b2ca0$97e185e0$@iname.com>
+Message-ID: <1318099815.64710.YahooMailNeo@web121601.mail.ne1.yahoo.com>
+
+do you have BGP confederations configured?in the network? is it affecting mostly outbound or inbound traffic ?
+what is the MTTR? and your SLA?
+?
+Grasshopper is such a name!
+?
+
+
+________________________________
+From: Frank Bulk <frnkblk at iname.com>
+To: 'Tom Merrill' <tom at mtnflyer.net>; outages at outages.org
+Sent: Saturday, October 8, 2011 7:34 PM
+
+
+Reading between the lines it sounds like they really don?t want to execute their DR plan.
+?
+Frank
+?
+From:outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Tom Merrill
+Sent: Saturday, October 08, 2011 1:08 PM
+To: outages at outages.org
+Subject: [outages] Grasshopper Outage ?
+Grasshopper phone system provider is down across the entire company. All clients are down with phone numbers ringing or busy tone.
+?
+They are moving to their Disaster Recovery site.?
+?
+"The issues started at approximately 4 am (EDT). We're trying to fix this as quickly as possible, but don't have an estimate for how much longer this will last at this time. We'll be posting regular updates to this status page"
+?
+?
+https://support.grasshopper.com/index.php?_m=news&_a=viewnews&newsid=78
+?
+?
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111008/fe980ba1/attachment.html>
+
+From jared at compuwizz.net  Mon Oct 10 01:49:14 2011
+From: jared at compuwizz.net (Jared Geiger)
+Date: Mon, 10 Oct 2011 01:49:14 -0400
+Subject: [outages] Expedient Pittsburgh
+Message-ID: <CAHuchRCjHhZrv-cGTyBvNrPDYUHZCDBmXewTr3ZzxXCGuGmx8g@mail.gmail.com>
+
+I've had a server shut down due to heat there and another that is
+sporadically responding. On hold waiting for a NOC rep.
+
+Does anyone have any insight?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111010/341c55df/attachment.html>
+
+From frnkblk at iname.com  Mon Oct 10 09:47:13 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Mon, 10 Oct 2011 08:47:13 -0500
+Subject: [outages] News item: Blackberry services down worldwide, Egypt affected (not N.A.)
+Message-ID: <000a01cc8753$1dcb4d80$5961e880$@iname.com>
+
+http://english.ahram.org.eg/NewsContent/3/12/23792/Business/Economy/Blackber
+ry-services-down-worldwide,-Egypt-affected.aspx
+
+FYI
+
+
+From jared at compuwizz.net  Mon Oct 10 12:48:02 2011
+From: jared at compuwizz.net (Jared Geiger)
+Date: Mon, 10 Oct 2011 12:48:02 -0400
+Subject: [outages] Expedient Pittsburgh
+In-Reply-To: <CAHuchRCjHhZrv-cGTyBvNrPDYUHZCDBmXewTr3ZzxXCGuGmx8g@mail.gmail.com>
+References: <CAHuchRCjHhZrv-cGTyBvNrPDYUHZCDBmXewTr3ZzxXCGuGmx8g@mail.gmail.com>
+Message-ID: <CAHuchRCGcFav12nG7LpzZDdMqV3xCV_h6WnLQSEUOosbEqtOGw@mail.gmail.com>
+
+When I got through, the NOC reported that the Greentree datacenter had an AC
+outage due to breakers throwing. Around 2AM Eastern time, they said it was
+back on but they were continuing to diagnose the problems. I haven't heard
+anything since.
+
+On Mon, Oct 10, 2011 at 1:49 AM, Jared Geiger <jared at compuwizz.net> wrote:
+
+> I've had a server shut down due to heat there and another that is
+> sporadically responding. On hold waiting for a NOC rep.
+>
+> Does anyone have any insight?
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111010/33c94e52/attachment.html>
+
+From andrew.wallace at rocketmail.com  Mon Oct 10 15:52:28 2011
+From: andrew.wallace at rocketmail.com (andrew.wallace)
+Date: Mon, 10 Oct 2011 12:52:28 -0700 (PDT)
+Subject: [outages] News item: Blackberry services down worldwide, Egypt affected (not N.A.)
+In-Reply-To: <000a01cc8753$1dcb4d80$5961e880$@iname.com>
+References: <000a01cc8753$1dcb4d80$5961e880$@iname.com>
+Message-ID: <1318276348.21141.YahooMailNeo@web59609.mail.ac4.yahoo.com>
+
+RIM shares down as BlackBerry outage continues
+
+http://www.marketwatch.com/story/rim-shares-down-as-blackberry-outage-continues-2011-10-10
+
+Andrew
+
+
+
+________________________________
+From: Frank Bulk <frnkblk at iname.com>
+To: outages at outages.org
+Sent: Monday, October 10, 2011 2:47 PM
+
+http://english.ahram.org.eg/NewsContent/3/12/23792/Business/Economy/Blackber
+ry-services-down-worldwide,-Egypt-affected.aspx
+
+FYI
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111010/cc303155/attachment.html>
+
+From frnkblk at iname.com  Tue Oct 11 14:32:00 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 11 Oct 2011 13:32:00 -0500
+Subject: [outages] News item: Blackberry services down worldwide, Egypt affected (not N.A.)
+In-Reply-To: <1318276348.21141.YahooMailNeo@web59609.mail.ac4.yahoo.com>
+References: <000a01cc8753$1dcb4d80$5961e880$@iname.com>
+ <1318276348.21141.YahooMailNeo@web59609.mail.ac4.yahoo.com>
+Message-ID: <003701cc8844$10741b20$315c5160$@iname.com>
+
+And continues:
+
+"RIM'S SERVICE OUTAGE CONTINUES INTO DAY 2"
+
+http://www.channelstv.com/global/news_details.php?nid=29652
+<http://www.channelstv.com/global/news_details.php?nid=29652&cat=Politics>
+&cat=Politics
+
+ 
+
+Frank
+
+ 
+
+From: andrew.wallace [mailto:andrew.wallace at rocketmail.com] 
+Sent: Monday, October 10, 2011 2:52 PM
+To: frnkblk at iname.com
+Cc: outages at outages.org
+Subject: Re: [outages] News item: Blackberry services down worldwide, Egypt
+affected (not N.A.)
+
+ 
+
+RIM shares down as BlackBerry outage continues
+
+ 
+
+http://www.marketwatch.com/story/rim-shares-down-as-blackberry-outage-contin
+ues-2011-10-10
+
+ 
+
+Andrew
+
+ 
+
+  _____  
+
+From: Frank Bulk <frnkblk at iname.com>
+To: outages at outages.org
+Sent: Monday, October 10, 2011 2:47 PM
+Subject: [outages] News item: Blackberry services down worldwide, Egypt affected (not N.A.)
+
+http://english.ahram.org.eg/NewsContent/3/12/23792/Business/Economy/Blackber
+ry-services-down-worldwide,-Egypt-affected.aspx
+
+FYI
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111011/63881375/attachment.html>
+
+From maddison at lightbound.net  Tue Oct 11 17:39:02 2011
+From: maddison at lightbound.net (Matt Addison)
+Date: Tue, 11 Oct 2011 21:39:02 +0000
+Subject: [outages] Fiber cut between Marion and Muncie IN
+Message-ID: <7012934365B3EA47BE47C2F3B98A84C98605B53B@mail.iquest.org>
+
+In case anyone else is seeing oddities or down circuits that pass through central Indiana, we're aware of a confirmed cut between Marion and Muncie that's affecting some of Zayo's lit services and possibly others.
+
+OTDR and repair crew in the field, ETR TBD.
+
+Regards,
+LightBound Operations
+~Matt
+
+
+
+
+From jeremy at evilrouters.net  Tue Oct 11 18:50:43 2011
+From: jeremy at evilrouters.net (Jeremy L. Gaddis)
+Date: Tue, 11 Oct 2011 18:50:43 -0400
+Subject: [outages] Fiber cut between Marion and Muncie IN
+In-Reply-To: <7012934365B3EA47BE47C2F3B98A84C98605B53B@mail.iquest.org>
+References: <AcyIXjE6cP9HiKStSS6wCK0qD381Cw==>
+ <7012934365B3EA47BE47C2F3B98A84C98605B53B@mail.iquest.org>
+Message-ID: <CAKL_2CggOCEPstyNmJ=ujTGtS_TsR2icROnLybMxKkADTrDiow@mail.gmail.com>
+
+Here's what I received, timestamped 2234 UTC:
+
+"Fiber Provider Zayo Engineers found the 144 count fiber cut in half by a
+brush hog. Splicers are onsite pulling slack at this time with a
+tentative ETR for lit services of about 4.5 hrs with all others being
+6 to 8 hours."
+
+--
+Jeremy L. Gaddis
+http://evilrouters.net/
+
+
+
+
+On Tue, Oct 11, 2011 at 5:39 PM, Matt Addison <maddison at lightbound.net> wrote:
+> In case anyone else is seeing oddities or down circuits that pass through central Indiana, we're aware of a confirmed cut between Marion and Muncie that's affecting some of Zayo's lit services and possibly others.
+>
+> OTDR and repair crew in the field, ETR TBD.
+>
+> Regards,
+> LightBound Operations
+> ~Matt
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From jra at baylink.com  Wed Oct 12 14:29:24 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Wed, 12 Oct 2011 14:29:24 -0400 (EDT)
+Subject: [outages] Facebook Chat
+Message-ID: <13021705.4840.1318444164344.JavaMail.root@benjamin.baylink.com>
+
+Facebook has dropped their full-window "popout" chat interface, which was
+deprecated a while back (you could use it if you still had the URL laying
+around, but the link to it was gone)...
+
+and in the wake of that, I find that their instructions here:
+
+  https://www.facebook.com/sitetour/chat.php
+
+for setting up XMPP clients like Pidgin to connect to chat no longer work.
+
+If you use XMPP to chat on Facebook, could you contact me offlist and let me
+know if it a) works, b) just broke, or c) hasn't worked in a while?
+
+If you work in Facebook Engineering, um... :-)
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From jra at baylink.com  Wed Oct 12 18:00:41 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Wed, 12 Oct 2011 18:00:41 -0400 (EDT)
+Subject: [outages] Facebook Chat
+In-Reply-To: <13021705.4840.1318444164344.JavaMail.root@benjamin.baylink.com>
+Message-ID: <27350071.4882.1318456841686.JavaMail.root@benjamin.baylink.com>
+
+---- Original Message -----
+> From: "Jay Ashworth" <jra at baylink.com>
+
+> If you use XMPP to chat on Facebook, could you contact me offlist and
+> let me know if it a) works, b) just broke, or c) hasn't worked in a while?
+
+Well, this is twice in a row, which is a little bit embarassing.
+
+I was using the wrong password, folks.  Amazing how much better it works when
+you get that little detail right.  2 days setting up gear in a 68F colo rack
+will kill you, apparently.
+
+Thanks to several people who looked into this, this afternoon; my apologies
+for the noise.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From jlewis at lewis.org  Thu Oct 13 04:36:33 2011
+From: jlewis at lewis.org (Jon Lewis)
+Date: Thu, 13 Oct 2011 04:36:33 -0400 (EDT)
+Subject: [outages] Level3 routing
+Message-ID: <Pine.LNX.4.61.1110130424420.4407@soloth.lewis.org>
+
+In the Orlando, FL area, via Level3, I'm unable to reach anything of 
+google's (google.com, its NS's 216.239.32.10, 216.239.34.10, 
+216.239.36.10, 216.239.38.10, their 8.8.8.8 DNS service), puck.nether.net, 
+bing.com, and probably lots of other things I haven't checked.
+
+Traces die at
+146.137.69.4.in-addr.arpa	name = ae-0-11.bar2.Orlando1.Level3.net.
+
+I'm seeing this both from work, where we have Level3 and TWTelecom, and 
+from home on my BHN cable (which relies heavily on Level3 for transit). 
+At work, shutting our BGP session to Level3 has resolved things...but I 
+hate being singlehomed.  Our NOC claimed they couldn't get through (busy 
+signal) to Level3's NOC, so I just called L3 from my cell, got through, 
+opened a ticket, and the guy I spoke with was unaware of any issues.
+
+Anyone else seeing this?
+
+----------------------------------------------------------------------
+  Jon Lewis, MCP :)           |  I route
+  Senior Network Engineer     |  therefore you are
+  Atlantic Net                |
+_________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+
+From vicidial at gmail.com  Thu Oct 13 04:54:18 2011
+From: vicidial at gmail.com (VICIDIAL)
+Date: Thu, 13 Oct 2011 04:54:18 -0400
+Subject: [outages] Level3 routing
+In-Reply-To: <Pine.LNX.4.61.1110130424420.4407@soloth.lewis.org>
+References: <Pine.LNX.4.61.1110130424420.4407@soloth.lewis.org>
+Message-ID: <CAC0DYjnSYug7qQQgn0tuCCEt95HQnbjOCyN_opVq_Ro1hw-Mog@mail.gmail.com>
+
+I confirm this outage on time warner's network as well for over 2.5 hours,
+although it looks like it just came back up.
+
+MATT---
+
+
+On Thu, Oct 13, 2011 at 4:36 AM, Jon Lewis <jlewis at lewis.org> wrote:
+
+> In the Orlando, FL area, via Level3, I'm unable to reach anything of
+> google's (google.com, its NS's 216.239.32.10, 216.239.34.10, 216.239.36.10,
+> 216.239.38.10, their 8.8.8.8 DNS service), puck.nether.net, bing.com, and
+> probably lots of other things I haven't checked.
+>
+> Traces die at
+> 146.137.69.4.in-addr.arpa       name = ae-0-11.bar2.Orlando1.Level3.net.
+>
+> I'm seeing this both from work, where we have Level3 and TWTelecom, and
+> from home on my BHN cable (which relies heavily on Level3 for transit). At
+> work, shutting our BGP session to Level3 has resolved things...but I hate
+> being singlehomed.  Our NOC claimed they couldn't get through (busy signal)
+> to Level3's NOC, so I just called L3 from my cell, got through, opened a
+> ticket, and the guy I spoke with was unaware of any issues.
+>
+> Anyone else seeing this?
+>
+> ----------------------------------------------------------------------
+>  Jon Lewis, MCP :)           |  I route
+>  Senior Network Engineer     |  therefore you are
+>  Atlantic Net                |
+> _________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+
+-- 
+MATT---
+
+ViciDial Open Source Call Center Suite
+http://www.vicidial.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111013/fa0fa069/attachment.html>
+
+From jlewis at lewis.org  Thu Oct 13 07:41:02 2011
+From: jlewis at lewis.org (Jon Lewis)
+Date: Thu, 13 Oct 2011 07:41:02 -0400 (EDT)
+Subject: [outages] Level3 routing
+In-Reply-To: <CAC0DYjnSYug7qQQgn0tuCCEt95HQnbjOCyN_opVq_Ro1hw-Mog@mail.gmail.com>
+References: <Pine.LNX.4.61.1110130424420.4407@soloth.lewis.org>
+ <CAC0DYjnSYug7qQQgn0tuCCEt95HQnbjOCyN_opVq_Ro1hw-Mog@mail.gmail.com>
+Message-ID: <Pine.LNX.4.61.1110130735360.4407@soloth.lewis.org>
+
+I didn't get the call from our NOC (who heard from Level3's) that things 
+were supposed to be fixed until 0630.  I turned our Level3 BGP back on, 
+and verified that things were back to normal.  Based on traces to what was 
+broken, it looks like there was something wrong between Level3's Orlando 
+and Miami POPs.
+
+On Thu, 13 Oct 2011, VICIDIAL wrote:
+
+> I confirm this outage on time warner's network as well for over 2.5 hours,
+> although it looks like it just came back up.
+>
+> MATT---
+>
+>
+> On Thu, Oct 13, 2011 at 4:36 AM, Jon Lewis <jlewis at lewis.org> wrote:
+>
+>> In the Orlando, FL area, via Level3, I'm unable to reach anything of
+>> google's (google.com, its NS's 216.239.32.10, 216.239.34.10, 216.239.36.10,
+>> 216.239.38.10, their 8.8.8.8 DNS service), puck.nether.net, bing.com, and
+>> probably lots of other things I haven't checked.
+>>
+>> Traces die at
+>> 146.137.69.4.in-addr.arpa       name = ae-0-11.bar2.Orlando1.Level3.net.
+>>
+>> I'm seeing this both from work, where we have Level3 and TWTelecom, and
+>> from home on my BHN cable (which relies heavily on Level3 for transit). At
+>> work, shutting our BGP session to Level3 has resolved things...but I hate
+>> being singlehomed.  Our NOC claimed they couldn't get through (busy signal)
+>> to Level3's NOC, so I just called L3 from my cell, got through, opened a
+>> ticket, and the guy I spoke with was unaware of any issues.
+>>
+>> Anyone else seeing this?
+>>
+>> ----------------------------------------------------------------------
+>>  Jon Lewis, MCP :)           |  I route
+>>  Senior Network Engineer     |  therefore you are
+>>  Atlantic Net                |
+>> _________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+>
+> -- 
+> MATT---
+>
+> ViciDial Open Source Call Center Suite
+> http://www.vicidial.com
+>
+
+----------------------------------------------------------------------
+  Jon Lewis, MCP :)           |  I route
+  Senior Network Engineer     |  therefore you are
+  Atlantic Net                |
+_________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+
+From jra at baylink.com  Thu Oct 13 11:21:32 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Thu, 13 Oct 2011 11:21:32 -0400 (EDT)
+Subject: [outages] Level3 routing
+In-Reply-To: <Pine.LNX.4.61.1110130424420.4407@soloth.lewis.org>
+Message-ID: <25185979.4966.1318519292806.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Jon Lewis" <jlewis at lewis.org>
+
+> In the Orlando, FL area, via Level3, I'm unable to reach anything of
+> google's (google.com, its NS's 216.239.32.10, 216.239.34.10,
+> 216.239.36.10, 216.239.38.10, their 8.8.8.8 DNS service),
+> puck.nether.net,
+> bing.com, and probably lots of other things I haven't checked.
+> 
+> Traces die at
+> 146.137.69.4.in-addr.arpa name = ae-0-11.bar2.Orlando1.Level3.net.
+
+Tracing to the first IP from tamqflta, 400 N Tampa:
+
+manta:/home/jra # mtr -c 10 -r 216.239.32.10
+HOST: manta                       Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 173.241.205.130            0.0%    10    0.7   1.8   0.4  13.4   4.1
+  2.|-- gi2-4.border4.esnet.com    0.0%    10    0.5   0.5   0.3   0.8   0.1
+  3.|-- ge-6-20.car4.Tampa1.Level  0.0%    10  120.6  46.0   0.3 144.2  63.6
+  4.|-- ae-24-24.car2.Tampa1.Leve  0.0%    10    1.1   0.7   0.7   1.1   0.1
+  5.|-- ae-2-7.bar2.Tampa1.Level3  0.0%    10   64.6  10.1   0.6  64.6  21.4
+  6.|-- ae-12-12.ebr1.Dallas1.Lev  0.0%    10   24.2  24.5  24.2  26.4   0.7
+  7.|-- ae-91-91.csw4.Dallas1.Lev  0.0%    10   24.6  24.4  24.2  26.0   0.6
+  8.|-- ae-4-90.edge2.Dallas3.Lev  0.0%    10   24.5  26.3  24.5  41.8   5.4
+  9.|-- GOOGLE-INC.edge2.Dallas3.  0.0%    10   25.5  25.7  25.3  26.4   0.4
+ 10.|-- 72.14.233.67               0.0%    10   25.4  33.0  25.3  97.4  22.6
+ 11.|-- 72.14.237.217              0.0%    10   25.4  25.7  25.3  26.9   0.5
+    |  `|-- 72.14.237.221
+ 12.|-- ???                       100.0    10    0.0   0.0   0.0   0.0   0.0
+ 13.|-- 66.249.94.7                0.0%    10   27.8  28.3  27.7  31.3   1.1
+    |  `|-- 66.249.94.23
+ 14.|-- 72.14.239.127              0.0%    10   28.0  28.0  27.7  28.1   0.1
+    |  `|-- 209.85.254.247
+ 15.|-- 209.85.253.209            80.0%    10   33.2  37.0  33.2  40.7   5.4
+ 16.|-- ns1.google.com             0.0%    10   28.6  28.5  28.4  28.8   0.1
+
+IE: WFM.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From rdobbins at arbor.net  Fri Oct 14 11:41:07 2011
+From: rdobbins at arbor.net (Dobbins, Roland)
+Date: Fri, 14 Oct 2011 15:41:07 +0000
+Subject: [outages] OT: Request for participation - Arbor 2011 Worldwide Infrastructure Security Report.
+Message-ID: <86384993-9103-402E-ACC5-09C45209D677@arbor.net>
+
+
+[Apologies if you've already seen this announcement in other forums.]
+
+Request for participation - Arbor 2011 Worldwide Infrastructure Security Report. 
+
+-----
+
+Folks,
+
+We're in the process of collecting survey responses for the 2011 Worldwide Infrastructure Security Report (WWISR); this is the Seventh Edition of the Report, and we'd really be grateful for your participation!  This is the only security-focused survey we're aware of which is specifically oriented towards those who design, build, operate, and defend public-facing network infrastructure/applications/services, and provides an opportunity to share your experiences and perspectives with your peers within the operational community, as well as to benefit from their shared experiences and perspectives.
+
+The 2011 Infrastructure Security Survey is up and available for your input.  You can register and complete the survey via this URL, which will redirect your browser to the survey tool (the survey itself is accessed via http/s):
+
+<http://www.arbornetworks.com/survey/ISR2011>
+
+Once again, we've added several insightful questions from past participants.  Survey collection will end as soon as we've reached the desired number of respondents (ideally, 100+).
+
+The survey results will be published in the 2011 Worldwide Infrastructure Security Report during January of 2012.  Also, please note that *no* personally- or organizationally-identifiable information will be shared in any manner.
+
+The 2010 edition of the Report is available here (registration required):
+
+<http://www.arbornetworks.com/report>
+
+Thanks in advance!
+
+-----
+
+-----------------------------------------------------------------------
+Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+
+
+From andrew.wallace at rocketmail.com  Sat Oct 15 15:36:14 2011
+From: andrew.wallace at rocketmail.com (andrew.wallace)
+Date: Sat, 15 Oct 2011 12:36:14 -0700 (PDT)
+Subject: [outages] Twitter issues
+Message-ID: <1318707374.94852.YahooMailNeo@web59605.mail.ac4.yahoo.com>
+
+Reaching Twitter at the moment is problematic.
+
+Andrew
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111015/e25dab12/attachment.html>
+
+From josh at imaginenetworksllc.com  Sat Oct 15 15:48:53 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sat, 15 Oct 2011 15:48:53 -0400
+Subject: [outages] Twitter issues
+In-Reply-To: <1318707374.94852.YahooMailNeo@web59605.mail.ac4.yahoo.com>
+References: <1318707374.94852.YahooMailNeo@web59605.mail.ac4.yahoo.com>
+Message-ID: <CAN9qwJ-0HwcCupUTYMs4hhLFt2j1xMP9cm3igkD_RtzCcWkjyQ@mail.gmail.com>
+
+Same here in Ohio.  I get a white page and the favicon.ico
+
+Tracing route to twitter.com [199.59.148.10]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms  10.10.10.1
+  2     3 ms     1 ms     1 ms
+rrcs-74-218-88-133.central.biz.rr.com[74.218.88.133]
+  3     4 ms     2 ms     2 ms
+rrcs-74-218-88-129.central.biz.rr.com[74.218.88.129]
+  4     4 ms     3 ms     2 ms  vln864.dytnoh1-swt101.woh.rr.com[74.218.88.73]
+  5     4 ms     3 ms     4 ms  gig2-1-801.dytnoh1-rtr102.woh.rr.com[70.60.47.5]
+  6     5 ms     3 ms     4 ms  gig5-0.dytnoh1-rtr1.woh.rr.com[24.29.160.21]
+  7   143 ms     8 ms     8 ms
+tge8-1-0.tr00.clmkohpe.mwrtn.rr.com[65.25.137.217]
+  8    21 ms    19 ms    19 ms  ae-9-0.cr0.chi30.tbone.rr.com [107.14.19.16]
+  9    21 ms    19 ms    19 ms  107.14.17.147
+ 10    95 ms   120 ms    19 ms  xe-10-3-0.edge2.Chicago2.Level3.net[4.59.28.113]
+ 11    20 ms    19 ms    19 ms  vlan52.ebr2.Chicago2.Level3.net[4.69.138.190]
+ 12    78 ms    26 ms   138 ms
+ae-6-6.ebr2.Washington12.Level3.net[4.69.148.145]
+ 13    26 ms    26 ms    26 ms  ae-5-5.ebr2.Washington1.Level3.net[4.69.143.221]
+ 14    29 ms   109 ms    25 ms
+ae-72-72.csw2.Washington1.Level3.net[4.69.134.150]
+ 15   100 ms   101 ms   100 ms
+ae-2-70.edge2.Washington4.Level3.net[4.69.149.80]
+ 16   101 ms    26 ms    27 ms
+TWITTER-INC.edge2.Washington4.Level3.net[4.53.114.102]
+ 17   175 ms   101 ms   101 ms  199.16.159.46
+ 18   129 ms   101 ms   100 ms  199.16.159.49
+ 19   128 ms   101 ms   101 ms  r-199-59-148-10.twttr.com [199.59.148.10]
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Sat, Oct 15, 2011 at 3:36 PM, andrew.wallace <
+andrew.wallace at rocketmail.com> wrote:
+
+> Reaching Twitter at the moment is problematic.
+>
+> Andrew
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111015/a3897028/attachment.html>
+
+From jra at baylink.com  Sat Oct 15 16:14:03 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Sat, 15 Oct 2011 16:14:03 -0400 (EDT)
+Subject: [outages] Twitter issues
+In-Reply-To: <CAN9qwJ-0HwcCupUTYMs4hhLFt2j1xMP9cm3igkD_RtzCcWkjyQ@mail.gmail.com>
+Message-ID: <6486772.5142.1318709643775.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Josh Luthman" <josh at imaginenetworksllc.com>
+
+> Same here in Ohio. I get a white page and the favicon.ico
+
+WFM from Tampa:
+
+HOST: banner                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 173.241.205.130            0.0%    10    0.4   1.3   0.4   6.0   1.8
+  2.|-- gi2-4.border4.esnet.com    0.0%    10    0.6   0.5   0.3   1.0   0.2
+  3.|-- ge-6-20.car4.Tampa1.Level  0.0%    10    0.6   5.9   0.3  55.2  17.3
+  4.|-- ae-14-14.car1.Tampa1.Leve  0.0%    10    0.6   0.6   0.5   0.8   0.1
+  5.|-- ae-2-5.bar1.Tampa1.Level3  0.0%    10    0.5   0.5   0.5   0.6   0.0
+  6.|-- ae-5-5.ebr1.Miami1.Level3  0.0%    10    5.6   5.8   5.6   7.7   0.6
+  7.|-- ae-1-100.ebr2.Miami1.Leve  0.0%    10    5.7   5.7   5.6   5.7   0.0
+  8.|-- ae-2-2.ebr2.Atlanta2.Leve  0.0%    10   18.1  18.7  18.1  23.8   1.8
+  9.|-- ae-73-73.ebr3.Atlanta2.Le  0.0%    10   18.3  18.4  18.3  19.3   0.3
+ 10.|-- ae-2-2.ebr1.Washington1.L  0.0%    10   31.8  31.7  31.7  31.9   0.1
+ 11.|-- ae-61-61.csw1.Washington1  0.0%    10   31.9  31.8  31.8  31.9   0.0
+ 12.|-- ae-1-60.edge2.Washington4  0.0%    10   31.9  36.5  31.9  77.6  14.4
+ 13.|-- TWITTER-INC.edge2.Washing  0.0%    10   32.0  36.8  32.0  74.9  13.5
+
+Standard deviations are even respectably low.  Usual responses from the web interface.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From josh at imaginenetworksllc.com  Sat Oct 15 16:21:02 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Sat, 15 Oct 2011 16:21:02 -0400
+Subject: [outages] Twitter issues
+In-Reply-To: <6486772.5142.1318709643775.JavaMail.root@benjamin.baylink.com>
+References: <CAN9qwJ-0HwcCupUTYMs4hhLFt2j1xMP9cm3igkD_RtzCcWkjyQ@mail.gmail.com>
+ <6486772.5142.1318709643775.JavaMail.root@benjamin.baylink.com>
+Message-ID: <CAN9qwJ_Aicvbwb+LHyucRqvbLObDNnxjF6-JnrXvM-BztV7jVQ@mail.gmail.com>
+
+Looks good for me at the moment now.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Sat, Oct 15, 2011 at 4:14 PM, Jay Ashworth <jra at baylink.com> wrote:
+
+> ----- Original Message -----
+> > From: "Josh Luthman" <josh at imaginenetworksllc.com>
+>
+> > Same here in Ohio. I get a white page and the favicon.ico
+>
+> WFM from Tampa:
+>
+> HOST: banner                      Loss%   Snt   Last   Avg  Best  Wrst
+> StDev
+>  1.|-- 173.241.205.130            0.0%    10    0.4   1.3   0.4   6.0   1.8
+>  2.|-- gi2-4.border4.esnet.com    0.0%    10    0.6   0.5   0.3   1.0
+> 0.2
+>  3.|-- ge-6-20.car4.Tampa1.Level  0.0%    10    0.6   5.9   0.3  55.2  17.3
+>  4.|-- ae-14-14.car1.Tampa1.Leve  0.0%    10    0.6   0.6   0.5   0.8   0.1
+>  5.|-- ae-2-5.bar1.Tampa1.Level3  0.0%    10    0.5   0.5   0.5   0.6   0.0
+>  6.|-- ae-5-5.ebr1.Miami1.Level3  0.0%    10    5.6   5.8   5.6   7.7   0.6
+>  7.|-- ae-1-100.ebr2.Miami1.Leve  0.0%    10    5.7 5.7 5.6 5.7 0.0
+>  8.|-- ae-2-2.ebr2.Atlanta2.Leve  0.0%    10   18.1  18.7  18.1  23.8   1.8
+>  9.|-- ae-73-73.ebr3.Atlanta2.Le  0.0%    10   18.3  18.4  18.3  19.3   0.3
+>  10.|-- ae-2-2.ebr1.Washington1.L  0.0%    10   31.8  31.7  31.7  31.9
+> 0.1
+>  11.|-- ae-61-61.csw1.Washington1  0.0%    10   31.9  31.8  31.8  31.9
+> 0.0
+>  12.|-- ae-1-60.edge2.Washington4  0.0%    10   31.9  36.5  31.9  77.6
+>  14.4
+>  13.|-- TWITTER-INC.edge2.Washing  0.0%    10   32.0  36.8  32.0  74.9
+>  13.5
+>
+> Standard deviations are even respectably low.  Usual responses from the web
+> interface.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth                  Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover
+> DII
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111015/2093d952/attachment.html>
+
+From frnkblk at iname.com  Sat Oct 15 18:03:10 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Sat, 15 Oct 2011 17:03:10 -0500
+Subject: [outages] Twitter issues
+In-Reply-To: <1318707374.94852.YahooMailNeo@web59605.mail.ac4.yahoo.com>
+References: <1318707374.94852.YahooMailNeo@web59605.mail.ac4.yahoo.com>
+Message-ID: <012301cc8b86$3a884770$af98d650$@iname.com>
+
+Confirmed at http://status.twitter.com/ : 
+
+ 
+
+
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of andrew.wallace
+Sent: Saturday, October 15, 2011 2:36 PM
+To: outages at outages.org
+
+ 
+
+Reaching Twitter at the moment is problematic.
+
+ 
+
+Andrew
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111015/abc18b08/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.png
+Type: image/png
+Size: 7807 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111015/abc18b08/attachment-0001.png>
+
+From jfraizer at netriplex.com  Mon Oct 17 14:19:37 2011
+From: jfraizer at netriplex.com (John Fraizer)
+Date: Mon, 17 Oct 2011 14:19:37 -0400
+Subject: [outages] Level3 in ATL
+Message-ID: <1DF3CB5366CFB84397976F7FE1BC6EA4FDC9284A@Exchange07.CORP.local>
+
+Anyone else see Level3 take a dump in ATL around 17:45 UTC?
+
+We took a dive on our Level3 transit connection there around that time and when I looked at the peering session, it showed up 24weeks but they were only showing us 100K prefixes.  I didn't see this on our Level3 peering sessions in IAD or on the left coast.
+
+
+John Fraizer, Director of Global Network Operations,  Netriplex
+netriplex.com<http://www.netriplex.com/>
+100 Technology Dr., Asheville, NC 28803
+[cid:image001.gif at 01CC8CD7.CCFEA700]
+
+
+________________________________
+Privileged/Confidential Information is contained in this message. This email is intended only for the addressee indicated in this message (or party responsible for delivery of the message to such person). This email message and its information may not be publicly copied, shared, pasted, forwarded or delivered to any other individual, business entity, online forum or community without the written consent of Netriplex. If you are not the addressee (or party responsible for delivery of the message to such person), you should destroy this message and kindly notify the sender by reply email. Please advise immediately if you or your employer does not consent to email or messages of this kind. Opinions, conclusions and other information in this message that do not relate to the official business of the firm or its subsidiaries or business units shall be understood as neither given nor endorsed by it.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111017/eb4dd535/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: image001.gif
+Type: image/gif
+Size: 4565 bytes
+Desc: image001.gif
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111017/eb4dd535/attachment.gif>
+
+From bradley.bopp at nationalnet.com  Mon Oct 17 14:30:17 2011
+From: bradley.bopp at nationalnet.com (Bradley Bopp)
+Date: Mon, 17 Oct 2011 14:30:17 -0400
+Subject: [outages] Level3 in ATL
+In-Reply-To: <1DF3CB5366CFB84397976F7FE1BC6EA4FDC9284A@Exchange07.CORP.local>
+References: <1DF3CB5366CFB84397976F7FE1BC6EA4FDC9284A@Exchange07.CORP.local>
+Message-ID: <4E9C7439.6080506@nationalnet.com>
+
+Hello John,
+
+We did we as well looks like they had an issue that lasted about an
+hour.  Based on what we saw they dropped all routes that did not
+originate from 3356.
+
+Regards,
+
+Bradley
+
+On 10/17/11 2:19 PM, John Fraizer wrote:
+>
+> Anyone else see Level3 take a dump in ATL around 17:45 UTC?
+>
+>  
+>
+> We took a dive on our Level3 transit connection there around that time
+> and when I looked at the peering session, it showed up 24weeks but
+> they were only showing us 100K prefixes.  I didn't see this on our
+> Level3 peering sessions in IAD or on the left coast.
+>
+>  
+>
+>  
+>
+> *John Fraizer*, Director of Global Network Operations,  Netriplex**
+>
+> netriplex.com <http://www.netriplex.com/>
+>
+> 100 Technology Dr., Asheville, NC 28803
+>
+> Description: Description: emailgif 
+>
+>  
+>
+>
+> ------------------------------------------------------------------------
+> Privileged/Confidential Information is contained in this message. This
+> email is intended only for the addressee indicated in this message (or
+> party responsible for delivery of the message to such person). This
+> email message and its information may not be publicly copied, shared,
+> pasted, forwarded or delivered to any other individual, business
+> entity, online forum or community without the written consent of
+> Netriplex. If you are not the addressee (or party responsible for
+> delivery of the message to such person), you should destroy this
+> message and kindly notify the sender by reply email. Please advise
+> immediately if you or your employer does not consent to email or
+> messages of this kind. Opinions, conclusions and other information in
+> this message that do not relate to the official business of the firm
+> or its subsidiaries or business units shall be understood as neither
+> given nor endorsed by it.
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+
+Regards,
+
+Bradley D. Bopp
+Director Of  Engineering
+http://www.nationalnet.com
+http://as22384.peeringdb.net
+
+NationalNet is committed to the highest level of Customer Service
+available in the Web Hosting business.  If you have any questions,
+comments or concerns feel free to contact us at 678-247-7000 ext 1 (or
+toll-free, 888-4-NATNET). 
+
+"If A = B and B = C, then A = C, except where void or prohibited by law." -- Roy Santoro
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111017/014a2c38/attachment-0001.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: image/gif
+Size: 4565 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111017/014a2c38/attachment-0001.gif>
+
+From gmina at connectfirst.com  Mon Oct 17 14:32:29 2011
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Mon, 17 Oct 2011 12:32:29 -0600
+Subject: [outages] Level3 in ATL
+In-Reply-To: <1DF3CB5366CFB84397976F7FE1BC6EA4FDC9284A@Exchange07.CORP.local>
+References: <1DF3CB5366CFB84397976F7FE1BC6EA4FDC9284A@Exchange07.CORP.local>
+Message-ID: <01E1B52E-1D5C-4F91-AB15-4FF1AA6A57F4@connectfirst.com>
+
+We lost connectivity to out Level(3) colo at 180 Peachtree in Atl for about 12 minutes. 
+
+Seems to have recovered. Level3 support had no knowledge of an ongoing issue when we called in. 
+
+Geoff Mina
+CTO/Co-Founder
+Connect First Inc.
+720.335.5924
+888.410.3071
+gmina at ConnectFirst.com
+
+Sent from my iPhone
+
+On Oct 17, 2011, at 12:19 PM, John Fraizer <jfraizer at netriplex.com> wrote:
+
+> Anyone else see Level3 take a dump in ATL around 17:45 UTC?
+> 
+>  
+> 
+> We took a dive on our Level3 transit connection there around that time and when I looked at the peering session, it showed up 24weeks but they were only showing us 100K prefixes.  I didn?t see this on our Level3 peering sessions in IAD or on the left coast.
+> 
+>  
+> 
+>  
+> 
+> John Fraizer, Director of Global Network Operations,  Netriplex
+> 
+> netriplex.com
+> 
+> 100 Technology Dr., Asheville, NC 28803
+> 
+> <image001.gif> 
+> 
+>  
+> 
+> 
+> Privileged/Confidential Information is contained in this message. This email is intended only for the addressee indicated in this message (or party responsible for delivery of the message to such person). This email message and its information may not be publicly copied, shared, pasted, forwarded or delivered to any other individual, business entity, online forum or community without the written consent of Netriplex. If you are not the addressee (or party responsible for delivery of the message to such person), you should destroy this message and kindly notify the sender by reply email. Please advise immediately if you or your employer does not consent to email or messages of this kind. Opinions, conclusions and other information in this message that do not relate to the official business of the firm or its subsidiaries or business units shall be understood as neither given nor endorsed by it.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111017/6b5249e7/attachment.html>
+
+From jjackson at aninetworks.net  Tue Oct 18 06:23:02 2011
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Tue, 18 Oct 2011 05:23:02 -0500
+Subject: [outages] Verizon outage in LA?
+Message-ID: <4E9D5386.4080309@aninetworks.net>
+
+Anyone seeing any issues out LA on Verizon?  We just had our link go 
+down (1wilshire) and their NOC number is reporting "heavy call volume".
+
+Thanks
+
+Joseph
+
+
+From jjackson at aninetworks.net  Tue Oct 18 06:32:51 2011
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Tue, 18 Oct 2011 05:32:51 -0500
+Subject: [outages] Verizon outage in LA?
+In-Reply-To: <4E9D5386.4080309@aninetworks.net>
+References: <4E9D5386.4080309@aninetworks.net>
+Message-ID: <4E9D55D3.9060908@aninetworks.net>
+
+Appears to be part of  a maintenance window.
+
+On 10/18/2011 05:23 AM, Joseph Jackson wrote:
+> Anyone seeing any issues out LA on Verizon?  We just had our link go
+> down (1wilshire) and their NOC number is reporting "heavy call volume".
+>
+> Thanks
+>
+> Joseph
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From Keys at tessco.com  Tue Oct 18 10:25:33 2011
+From: Keys at tessco.com (Keys, Lisa)
+Date: Tue, 18 Oct 2011 10:25:33 -0400
+Subject: [outages] Verizon outage in LA?
+In-Reply-To: <4E9D55D3.9060908@aninetworks.net>
+References: <4E9D5386.4080309@aninetworks.net>
+ <4E9D55D3.9060908@aninetworks.net>
+Message-ID: <303E6FF39778FE4B9F30B0E83C3781AB0D9342BC@EXCHANGE-1.tessco.com>
+
+Our Point to Points have been bouncing all night. We know they go
+through CA to get to Reno from MD.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Joseph Jackson
+Sent: Tuesday, October 18, 2011 6:33 AM
+To: outages at outages.org
+
+Appears to be part of  a maintenance window.
+
+On 10/18/2011 05:23 AM, Joseph Jackson wrote:
+> Anyone seeing any issues out LA on Verizon?  We just had our link go
+> down (1wilshire) and their NOC number is reporting "heavy call
+volume".
+>
+> Thanks
+>
+> Joseph
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From louis at ntinet.com  Tue Oct 18 23:46:41 2011
+From: louis at ntinet.com (Louis Arsenault)
+Date: Tue, 18 Oct 2011 23:46:41 -0400
+Subject: [outages] AT&T & Google Issues
+Message-ID: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+
+We are noticing a packet loss issue on our AT&T circuit to Google
+service. I have an open ticket with AT&T but they insist that it is a
+google issue.
+We are getting 50% packet loss to both www.google.com and 8.8.8.8.
+These are both taking the same route jumping from AT&T to Google.
+Trace route & pings are good up to 12.94.87.18. AT&T says that is
+google's router even though it is there IP.
+
+Anyone know how to let google know there is an issue with one of there
+AT&T pipes?
+
+-Louis
+
+From cmadams at hiwaay.net  Tue Oct 18 23:58:17 2011
+From: cmadams at hiwaay.net (Chris Adams)
+Date: Tue, 18 Oct 2011 22:58:17 -0500
+Subject: [outages] AT&T & Google Issues
+In-Reply-To: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+References: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+Message-ID: <20111019035817.GC31660@hiwaay.net>
+
+Once upon a time, Louis Arsenault <louis at ntinet.com> said:
+> We are noticing a packet loss issue on our AT&T circuit to Google
+> service. I have an open ticket with AT&T but they insist that it is a
+> google issue.
+> We are getting 50% packet loss to both www.google.com and 8.8.8.8.
+> These are both taking the same route jumping from AT&T to Google.
+> Trace route & pings are good up to 12.94.87.18. AT&T says that is
+> google's router even though it is there IP.
+
+I'm seeing the same thing to Google via CenturyLink (which goes through
+AT&T).  The last AT&T hop with reverse DNS appears to be in Atlanta.
+-- 
+Chris Adams <cmadams at hiwaay.net>
+Systems and Network Administrator - HiWAAY Internet Services
+I don't speak for anybody but myself - that's enough trouble.
+
+From avleen at gmail.com  Wed Oct 19 00:11:03 2011
+From: avleen at gmail.com (Avleen Vig)
+Date: Tue, 18 Oct 2011 23:11:03 -0500
+Subject: [outages] AT&T & Google Issues
+In-Reply-To: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+References: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+Message-ID: <CAMjP1Kn7SObk9y5D+AnRtZxyOOD22zPk4bjwoTVZrhQJbUQNoQ@mail.gmail.com>
+
+On Tue, Oct 18, 2011 at 10:46 PM, Louis Arsenault <louis at ntinet.com> wrote:
+> We are noticing a packet loss issue on our AT&T circuit to Google
+> service. I have an open ticket with AT&T but they insist that it is a
+> google issue.
+> We are getting 50% packet loss to both www.google.com and 8.8.8.8.
+> These are both taking the same route jumping from AT&T to Google.
+> Trace route & pings are good up to 12.94.87.18. AT&T says that is
+> google's router even though it is there IP.
+>
+> Anyone know how to let google know there is an issue with one of there
+> AT&T pipes?
+
+Most likely they already know. Just in case they don't, I've forwarded
+your message to someone there :)
+
+From louis at ntinet.com  Wed Oct 19 00:15:06 2011
+From: louis at ntinet.com (Louis Arsenault)
+Date: Wed, 19 Oct 2011 00:15:06 -0400
+Subject: [outages] AT&T & Google Issues
+In-Reply-To: <20111019035817.GC31660@hiwaay.net>
+References: <CAJRzqB4=TLCTw0J3Fsy4N+rWxN9tpV=0hNFim10p4nLc2SO_aw@mail.gmail.com>
+ <20111019035817.GC31660@hiwaay.net>
+Message-ID: <CAJRzqB4S-AQpOwHqugmUv7beM31FdaMhHx-DA_9MAEm0GneANA@mail.gmail.com>
+
+AT&T says the 12.94.87.18 is there hand off in Washington DC.
+
+-Louis
+
+On Tue, Oct 18, 2011 at 11:58 PM, Chris Adams <cmadams at hiwaay.net> wrote:
+> Once upon a time, Louis Arsenault <louis at ntinet.com> said:
+>> We are noticing a packet loss issue on our AT&T circuit to Google
+>> service. I have an open ticket with AT&T but they insist that it is a
+>> google issue.
+>> We are getting 50% packet loss to both www.google.com and 8.8.8.8.
+>> These are both taking the same route jumping from AT&T to Google.
+>> Trace route & pings are good up to 12.94.87.18. AT&T says that is
+>> google's router even though it is there IP.
+>
+> I'm seeing the same thing to Google via CenturyLink (which goes through
+> AT&T). ?The last AT&T hop with reverse DNS appears to be in Atlanta.
+> --
+> Chris Adams <cmadams at hiwaay.net>
+> Systems and Network Administrator - HiWAAY Internet Services
+> I don't speak for anybody but myself - that's enough trouble.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From jra at baylink.com  Wed Oct 19 09:18:01 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Wed, 19 Oct 2011 09:18:01 -0400 (EDT)
+Subject: [outages] META: Reminder: post the trace
+Message-ID: <8261131.5374.1319030281312.JavaMail.root@benjamin.baylink.com>
+
+If you're reporting an outage on the list, and you conducted a traceroute
+that failed, remember to post it at the end of your message; it's usually
+more helpful than not.
+
+I personally recommend 'mtr -r -c 10' (accompanied with 'mtr -nr -c 10', since
+sometimes you want all the IPs, and that's mtr's one blind spot), but any
+trace is better than none, whether you're reporting a problem, a meetoo,
+or a WFM.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From dwhite at olp.net  Wed Oct 19 11:59:28 2011
+From: dwhite at olp.net (Dan White)
+Date: Wed, 19 Oct 2011 10:59:28 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+Message-ID: <20111019155927.GB5396@dan.olp.net>
+
+I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 4.2.2.3
+in the last few minutes, which are usually my go to IP addresses for
+testing external server connectivity.
+
+DNS also seems to be intermittent.
+
+-- 
+Dan White
+
+From josh at imaginenetworksllc.com  Wed Oct 19 12:14:34 2011
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Wed, 19 Oct 2011 12:14:34 -0400
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019155927.GB5396@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+Message-ID: <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+
+Rock solid at 26 ms for me
+
+-> traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+ 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+0.485 ms  0.450 ms
+ 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+0.390 ms  0.589 ms
+ 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+2.046 ms  2.024 ms
+ 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977
+ms  2.943 ms
+ 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+ms  2.858 ms
+ 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms  1.922 ms
+ 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+8.812 ms  8.788 ms
+ 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+ 9  107.14.17.147 (107.14.17.147)  18.899 ms
+ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458
+ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879
+ms  35.936 ms
+13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 4.2.2.3
+> in the last few minutes, which are usually my go to IP addresses for
+> testing external server connectivity.
+>
+> DNS also seems to be intermittent.
+>
+> --
+> Dan White
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From frnkblk at iname.com  Wed Oct 19 12:19:20 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 19 Oct 2011 11:19:20 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019155927.GB5396@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+Message-ID: <00b401cc8e7a$db662300$92326900$@iname.com>
+
+Smokeping for these sites:
+4.2.2.1: doesn't show anything
+http://smokeping.foxygnu.org/?target=DNSopen.vnscprisysgteinet
+http://home.derekbodner.com/cgi-bin/smokeping.cgi?target=World.Level3
+
+4.2.2.2: shows a little
+http://smokeping.foxygnu.org/?target=DNSopen.vnscbaksysgteinet
+
+4.2.2.3: doesn't show anything
+http://smokeping.foxygnu.org/?target=DNSopen.vnsclcsysgteinet
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dan White
+Sent: Wednesday, October 19, 2011 10:59 AM
+To: outages at outages.org
+
+I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 4.2.2.3
+in the last few minutes, which are usually my go to IP addresses for
+testing external server connectivity.
+
+DNS also seems to be intermittent.
+
+-- 
+Dan White
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From dwhite at olp.net  Wed Oct 19 12:21:07 2011
+From: dwhite at olp.net (Dan White)
+Date: Wed, 19 Oct 2011 11:21:07 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+Message-ID: <20111019162107.GC5396@dan.olp.net>
+
+Additional information (I'm still seeing the problem)
+
+~$ traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+  1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+  2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+  3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+  4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+  5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+11.002 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+
+~$ ping -c 10 4.2.2.2
+PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+
+--- 4.2.2.2 ping statistics ---
+10 packets transmitted, 4 received, 60% packet loss, time 9045ms
+rtt min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+
+~$ ping -c 10 4.71.13.121
+PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+
+--- 4.71.13.121 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+
+
+On 19/10/11?12:14?-0400, Josh Luthman wrote:
+ping -c 10 4.2.2
+>Rock solid at 26 ms for me
+>
+>-> traceroute 4.2.2.2
+>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+> 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+>0.485 ms  0.450 ms
+> 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+>0.390 ms  0.589 ms
+> 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+>2.046 ms  2.024 ms
+> 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977
+>ms  2.943 ms
+> 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+>ms  2.858 ms
+> 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms  1.922 ms
+> 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+>8.812 ms  8.788 ms
+> 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+> 9  107.14.17.147 (107.14.17.147)  18.899 ms
+>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458
+>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879
+>ms  35.936 ms
+>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+>
+>Josh Luthman
+>Office: 937-552-2340
+>Direct: 937-552-2343
+>1100 Wayne St
+>Suite 1337
+>Troy, OH 45373
+>
+>
+>
+>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+>> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 4.2.2.3
+>> in the last few minutes, which are usually my go to IP addresses for
+>> testing external server connectivity.
+>>
+>> DNS also seems to be intermittent.
+>>
+>> --
+>> Dan White
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+
+-- 
+Dan White
+BTC Broadband
+Ph  918.366.0248 (direct)   main: (918)366-8000
+Fax 918.366.6610            email: dwhite at olp.net
+http://www.btcbroadband.com
+
+From ksmith at litle.com  Wed Oct 19 12:34:24 2011
+From: ksmith at litle.com (Smith, Kyle)
+Date: Wed, 19 Oct 2011 12:34:24 -0400
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+Message-ID: <7CAA4D5AE3F9A347AA66064F153FB6E601250AD8@wms6.litle.com>
+
+Our edge DNS servers have been alerting for DNS lookups from Denver, CO
+using 4.2.2.1 and 4.2.2.2 as forwarders.
+
+---
+Kyle Smith
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Josh Luthman
+Sent: Wednesday, October 19, 2011 12:15 PM
+To: Dan White
+Cc: outages at outages.org
+
+Rock solid at 26 ms for me
+
+-> traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+ 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+0.485 ms  0.450 ms
+ 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+0.390 ms  0.589 ms
+ 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+2.046 ms  2.024 ms
+ 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977 ms
+2.943 ms
+ 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+ms  2.858 ms
+ 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms
+1.922 ms
+ 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+8.812 ms  8.788 ms
+ 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+ 9  107.14.17.147 (107.14.17.147)  18.899 ms
+ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458 ms
+vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879 ms
+35.936 ms
+13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 
+> 4.2.2.3 in the last few minutes, which are usually my go to IP 
+> addresses for testing external server connectivity.
+>
+> DNS also seems to be intermittent.
+>
+> --
+> Dan White
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+The information in this message is for the intended recipient(s) only and may be the proprietary and/or confidential property of Litle & Co., LLC, and thus protected from disclosure. If you are not the intended recipient(s), or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any use, dissemination, distribution or copying of this communication is prohibited. If you have received this communication in error, please notify Litle & Co. immediately by replying to this message and then promptly deleting it and your reply permanently from your computer.
+
+
+From frnkblk at iname.com  Wed Oct 19 12:44:22 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 19 Oct 2011 11:44:22 -0500
+Subject: [outages] HTTP was timing out with high latency to v6 version of www.charter.com and ipv6.cnn.com
+Message-ID: <00bb01cc8e7e$5aa83ba0$0ff8b2e0$@iname.com>
+
+Started at 10:45 am Central, cleared up by 11:17 am Central.
+
+==============
+Before
+==============
+nagios:/var/log# tcptraceroute6 www.charter.com
+traceroute to www.charter.com (2607:f428:3:1:80:80:80:1) from
+2607:fe28:0:1000::5, port 80, from port 47336, 30 hops max, 60 bytes packets
+ 1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  1.070 ms  1.490 ms  1.392 ms
+ 2  router-core.mtcnet.net (2607:fe28:0:1000::1)  1.944 ms  1.768 ms  1.661
+ms
+ 3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  2.090 ms  1.906 ms  1.350
+ms
+ 4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  3.759 ms  2.979
+ms  2.658 ms
+ 5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  7.358 ms
+6.969 ms  6.715 ms
+ 6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  9.249 ms  8.823 ms
+8.477 ms
+ 7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  21.343 ms  20.996
+ms  20.693 ms
+ 8  2001:428::205:171:202:195 (2001:428::205:171:202:195)  33.249 ms  32.945
+ms  32.716 ms
+ 9  * * *
+10  * * *
+11  2607:f428:3:1:80:80:80:1 (2607:f428:3:1:80:80:80:1)  3184.745 ms [open]
+3184.899 ms  183.671 ms
+nagios:/var/log#
+
+==============
+After
+==============
+nagios:/var/log# tcptraceroute6 www.charter.com
+traceroute to www.charter.com (2607:f428:3:1:80:80:80:1) from
+2607:fe28:0:1000::5, port 80, from port 37668, 30 hops max, 60 bytes packets
+ 1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  1.734 ms  1.230 ms  1.828 ms
+ 2  router-core.mtcnet.net (2607:fe28:0:1000::1)  1.610 ms  3.112 ms  6.192
+ms
+ 3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  6.111 ms  6.498 ms  1.429
+ms
+ 4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  8.275 ms  3.175
+ms  3.589 ms
+ 5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  93.316 ms
+8.445 ms  6.854 ms
+ 6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  10.056 ms  8.804 ms
+11.640 ms
+ 7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  21.810 ms  24.138
+ms  23.784 ms
+ 8  2001:428::205:171:202:195 (2001:428::205:171:202:195)  36.477 ms  42.724
+ms  32.726 ms
+ 9  * * *
+10  * * *
+11  2607:f428:3:1:80:80:80:1 (2607:f428:3:1:80:80:80:1)  69.142 ms [open]
+68.620 ms  68.139 ms
+nagios:/var/log#
+
+==============
+Before
+==============
+nagios:/var/log# tcptraceroute6 ipv6.cnn.com
+traceroute to ipv6.cnn.com (2620:100:e000::8001) from 2607:fe28:0:1000::5,
+port 80, from port 52863, 30 hops max, 60 bytes packets
+ 1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  1.090 ms  1.209 ms  1.889 ms
+ 2  router-core.mtcnet.net (2607:fe28:0:1000::1)  1.608 ms  2.262 ms  1.480
+ms
+ 3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  2.583 ms  2.059 ms  1.232
+ms
+ 4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  3.871 ms  3.064
+ms  2.676 ms
+ 5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  7.450 ms
+7.005 ms  6.739 ms
+ 6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  9.206 ms  8.867 ms
+8.480 ms
+ 7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  21.453 ms  20.980
+ms  20.707 ms
+ 8  2001:428:0:1:205:171:202:209 (2001:428:0:1:205:171:202:209)  45.218 ms
+44.844 ms  44.537 ms
+ 9  ae5.edge2.dallas3.level3.net (2001:1900:4:3::1c1)  45.079 ms  44.733 ms
+44.361 ms
+10  * vl-80.car2.Dallas1.Level3.net (2001:1900:17:3::4)  45.890 ms  *
+11  vl-4061.car1.Atlanta2.Level3.net (2001:1900:4:1::96)  188.828 ms
+188.544 ms  188.134 ms
+12  vl-52.car1.Atlanta1.Level3.net (2001:1900:1c:2::5)  188.158 ms  187.907
+ms  187.752 ms
+13  TIME-WARNER.car1.Atlanta1.Level3.net (2001:1900:2100::496)  189.189 ms
+* 188.380 ms
+14  2620:100:e000:ffff::21 (2620:100:e000:ffff::21)  76.773 ms  76.348 ms
+75.971 ms
+15  * 2620:100:e000:ffff::12 (2620:100:e000:ffff::12)  190.214 ms  *
+16  * 2620:100:e000:ffff::25 (2620:100:e000:ffff::25)  189.459 ms  189.274
+ms
+17  * * *
+18  * * 2620:100:e000::8001 (2620:100:e000::8001)  189.209 ms [open]
+19  2620:100:e000::8001 (2620:100:e000::8001)  189.731 ms [open]  189.373 ms
+189.482 ms
+nagios:/var/log#
+
+==============
+After
+==============
+nagios:/var/log# tcptraceroute6 ipv6.cnn.com
+traceroute to ipv6.cnn.com (2620:100:e000::8001) from 2607:fe28:0:1000::5,
+port 80, from port 36895, 30 hops max, 60 bytes packets
+ 1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  1.120 ms  1.622 ms  1.307 ms
+ 2  router-core.mtcnet.net (2607:fe28:0:1000::1)  1.926 ms  1.698 ms  1.771
+ms
+ 3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  1.997 ms  2.013 ms  1.736
+ms
+ 4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  3.830 ms  3.122
+ms  2.693 ms
+ 5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  7.786 ms
+7.108 ms  6.820 ms
+ 6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  9.158 ms  8.758 ms
+8.498 ms
+ 7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  21.350 ms  21.007
+ms  38.574 ms
+ 8  2001:428:0:1:205:171:202:209 (2001:428:0:1:205:171:202:209)  47.081 ms
+44.443 ms  44.111 ms
+ 9  ae5.edge2.dallas3.level3.net (2001:1900:4:3::1c1)  44.579 ms  92.648 ms
+43.891 ms
+10  vl-60.car2.Dallas1.Level3.net (2001:1900:17:1::4)  157.562 ms  142.664
+ms  225.796 ms
+11  vl-4061.car1.Atlanta2.Level3.net (2001:1900:4:1::96)  146.571 ms  89.600
+ms  127.063 ms
+12  vl-52.car1.Atlanta1.Level3.net (2001:1900:1c:2::5)  73.790 ms  73.028 ms
+72.797 ms
+13  TIME-WARNER.car1.Atlanta1.Level3.net (2001:1900:2100::496)  118.018 ms
+73.072 ms  72.854 ms
+14  2620:100:e000:ffff::21 (2620:100:e000:ffff::21)  75.514 ms  74.957 ms
+74.781 ms
+15  2620:100:e000:ffff::12 (2620:100:e000:ffff::12)  74.907 ms  74.363 ms
+73.949 ms
+16  2620:100:e000:ffff::25 (2620:100:e000:ffff::25)  75.807 ms  74.881 ms
+74.565 ms
+17  2620:100:e000:ffff::32 (2620:100:e000:ffff::32)  76.823 ms  74.865 ms
+74.626 ms
+18  2620:100:e000::8001 (2620:100:e000::8001)  74.190 ms [open]  73.974 ms
+73.231 ms
+nagios:/var/log#
+
+
+From frnkblk at iname.com  Wed Oct 19 12:45:16 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 19 Oct 2011 11:45:16 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019162107.GC5396@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+Message-ID: <00bc01cc8e7e$7acb2960$70617c20$@iname.com>
+
+If you're seeing packet loss on pings, please use a tool like mtr to show
+where it's happening.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dan White
+Sent: Wednesday, October 19, 2011 11:21 AM
+To: Josh Luthman
+Cc: outages at outages.org
+
+Additional information (I'm still seeing the problem)
+
+~$ traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+  1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+  2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+  3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+  4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+  5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+11.002 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+
+~$ ping -c 10 4.2.2.2
+PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+
+--- 4.2.2.2 ping statistics ---
+10 packets transmitted, 4 received, 60% packet loss, time 9045ms
+rtt min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+
+~$ ping -c 10 4.71.13.121
+PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+
+--- 4.71.13.121 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+
+
+On 19/10/11?12:14?-0400, Josh Luthman wrote:
+ping -c 10 4.2.2
+>Rock solid at 26 ms for me
+>
+>-> traceroute 4.2.2.2
+>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+> 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+>0.485 ms  0.450 ms
+> 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+>0.390 ms  0.589 ms
+> 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+>2.046 ms  2.024 ms
+> 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977
+>ms  2.943 ms
+> 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+>ms  2.858 ms
+> 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms
+1.922 ms
+> 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+>8.812 ms  8.788 ms
+> 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+> 9  107.14.17.147 (107.14.17.147)  18.899 ms
+>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458
+>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879
+>ms  35.936 ms
+>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+>
+>Josh Luthman
+>Office: 937-552-2340
+>Direct: 937-552-2343
+>1100 Wayne St
+>Suite 1337
+>Troy, OH 45373
+>
+>
+>
+>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+>> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and
+4.2.2.3
+>> in the last few minutes, which are usually my go to IP addresses for
+>> testing external server connectivity.
+>>
+>> DNS also seems to be intermittent.
+>>
+>> --
+>> Dan White
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+
+-- 
+Dan White
+BTC Broadband
+Ph  918.366.0248 (direct)   main: (918)366-8000
+Fax 918.366.6610            email: dwhite at olp.net
+http://www.btcbroadband.com
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From gmina at connectfirst.com  Wed Oct 19 12:48:52 2011
+From: gmina at connectfirst.com (Geoffrey Mina)
+Date: Wed, 19 Oct 2011 10:48:52 -0600
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019162107.GC5396@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+Message-ID: <044001cc8e7e$fc2d6a40$f4883ec0$@connectfirst.com>
+
+I am seeing the same.
+
+Tracing route to vnsc-pri.sys.gtei.net [4.2.2.1]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms
+173-164-56-78-colorado.hfc.comcastbusiness.net [
+173.164.56.78]
+  2    52 ms    24 ms    29 ms  73.83.164.1
+  3    10 ms    15 ms    10 ms  te-8-1-ur01.boulder.co.denver.comcast.net
+[68.85
+.107.85]
+  4     8 ms     9 ms     9 ms  te-7-4-ur02.boulder.co.denver.comcast.net
+[68.86
+.103.122]
+  5    12 ms    15 ms    16 ms  te-0-8-0-0-ar02.aurora.co.denver.comcast.net
+[68
+.86.179.97]
+  6    27 ms    11 ms    14 ms  pos-3-8-0-0-cr01.denver.co.ibone.comcast.net
+[68
+.86.94.153]
+  7    52 ms    28 ms    11 ms  xe-9-2-0.edge3.Denver1.Level3.net
+[4.28.20.5]
+  8    18 ms    11 ms    12 ms  vlan51.ebr1.Denver1.Level3.net [4.69.147.94]
+  9    63 ms    27 ms    29 ms  ae-2-2.ebr2.Dallas1.Level3.net
+[4.69.132.106]
+ 10    34 ms    35 ms    26 ms  ae-72-72.csw2.Dallas1.Level3.net
+[4.69.151.141]
+
+ 11    79 ms    26 ms    25 ms  ae-21-70.car1.Dallas1.Level3.net
+[4.69.145.67]
+ 12    61 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 13    65 ms    68 ms     *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 14    85 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 15    75 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 16     *        *        *     Request timed out.
+ 17    70 ms     *       62 ms  vnsc-pri.sys.gtei.net [4.2.2.1]
+
+Trace complete.
+
+Geoff MINA
+---------------------------------
+CTO/Co-Founder
+Connect First Inc. 
+CCI * VB * 911
+P: 720.335.5924
+T: 888.410.3071
+F: 678.265.1158
+E: gmina at connectfirst.com
+---------------------------------
+www.connectfirst.com
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dan White
+Sent: Wednesday, October 19, 2011 10:21 AM
+To: Josh Luthman
+Cc: outages at outages.org
+
+Additional information (I'm still seeing the problem)
+
+~$ traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+  1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+  2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+  3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+  4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+  5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+11.002 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+
+~$ ping -c 10 4.2.2.2
+PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+
+--- 4.2.2.2 ping statistics ---
+10 packets transmitted, 4 received, 60% packet loss, time 9045ms rtt
+min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+
+~$ ping -c 10 4.71.13.121
+PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+
+--- 4.71.13.121 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms rtt
+min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+
+
+On 19/10/11?12:14?-0400, Josh Luthman wrote:
+ping -c 10 4.2.2
+>Rock solid at 26 ms for me
+>
+>-> traceroute 4.2.2.2
+>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+> 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+>0.485 ms  0.450 ms
+> 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+>0.390 ms  0.589 ms
+> 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+>2.046 ms  2.024 ms
+> 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977 ms  
+>2.943 ms
+> 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884 
+>ms  2.858 ms
+> 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms  
+>1.922 ms
+> 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+>8.812 ms  8.788 ms
+> 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms 
+>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+> 9  107.14.17.147 (107.14.17.147)  18.899 ms 
+>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms 
+>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms 
+>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458 
+>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879 
+>ms  35.936 ms
+>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms 
+>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+>
+>Josh Luthman
+>Office: 937-552-2340
+>Direct: 937-552-2343
+>1100 Wayne St
+>Suite 1337
+>Troy, OH 45373
+>
+>
+>
+>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+>> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 
+>> 4.2.2.3 in the last few minutes, which are usually my go to IP 
+>> addresses for testing external server connectivity.
+>>
+>> DNS also seems to be intermittent.
+>>
+>> --
+>> Dan White
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+
+--
+Dan White
+BTC Broadband
+Ph  918.366.0248 (direct)   main: (918)366-8000
+Fax 918.366.6610            email: dwhite at olp.net
+http://www.btcbroadband.com
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From mkent at intermedia.net  Wed Oct 19 13:00:00 2011
+From: mkent at intermedia.net (Mark Kent)
+Date: Wed, 19 Oct 2011 10:00:00 -0700 (PDT)
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019162107.GC5396@dan.olp.net> (message from Dan White on
+ Wed, 19 Oct 2011 11:21:07 -0500)
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+Message-ID: <201110191700.p9JH008t030143@msun.intermedia.net>
+
+You guys know that 4.2.2.[123] are anycast, so you get to different
+servers depending on where you enter the Level3 network, right?
+
+Mentioning just in case some have missed this.
+
+-mark
+
+SanJose:
+
+  2 ae-41-90.car1.SanJose1.Level3.net (4.69.152.195) [AS 3356] 2ms 1ms 1ms
+  3 vnsc-bak.sys.gtei.net (4.2.2.2) [AS 3356] 2ms 1ms 1ms
+
+NewYork:
+
+  2 ae-41-90.car1.NewYork1.Level3.net (4.69.155.195) [AS 3356] 0ms 4ms 0ms
+  3 vnsc-bak.sys.gtei.net (4.2.2.2) [AS 3356] 4ms 0ms 0ms
+
+WashDC:
+
+  2 ge-5-0-60.hsa1.Washington2.Level3.net (4.69.149.51) [AS 3356] 1ms 1ms 1ms
+  3 vnsc-bak.sys.gtei.net (4.2.2.2) [AS 3356] 2ms 2ms 1ms
+
+From frnkblk at iname.com  Wed Oct 19 13:08:06 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 19 Oct 2011 12:08:06 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <044001cc8e7e$fc2d6a40$f4883ec0$@connectfirst.com>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+ <044001cc8e7e$fc2d6a40$f4883ec0$@connectfirst.com>
+Message-ID: <00c301cc8e81$ab420de0$01c629a0$@iname.com>
+
+I assume that that 4.2.2.1 is anycast, because my own path is different
+(going to Chicago) and good.  Looks like the problem is in Dallas.
+
+nagios:/var/log# mtr -r -c 10 4.2.2.1
+HOST: nagios                      Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. router-core-inside.mtcnet.ne  0.0%    10    0.3   0.2   0.2   0.3   0.0
+  2. sxct.movl.mtcnet.net          0.0%    10    0.2   0.2   0.2   0.3   0.0
+  3. siouxcenter.movl.153.netins.  0.0%    10    2.0   2.0   2.0   2.0   0.0
+  4. ins-kb1-te-13-2-220.kmrr.net  0.0%    10    7.6   8.7   7.6  18.1   3.3
+  5. ins-kc1-et-9-2.kmrr.netins.n  0.0%    10    7.6   7.6   7.6   7.7   0.0
+  6. 144.223.35.225                0.0%    10   15.9  15.8  15.8  15.9   0.1
+  7. sl-st20-chi-0-0-0.sprintlink  0.0%    10   16.0  16.0  15.9  16.2   0.1
+  8. 144.232.8.114                 0.0%    10   49.3  24.3  16.0  64.8  17.7
+  9. vlan52.ebr2.Chicago2.Level3.  0.0%    10   16.3  16.2  16.2  16.3   0.0
+ 10. ae-5-5.ebr2.Chicago1.Level3.  0.0%    10   16.2  17.3  16.1  22.8   2.1
+ 11. ae-21-52.car1.Chicago1.Level 10.0%    10   16.4  35.6  16.3 102.8  37.7
+ 12. vnsc-pri.sys.gtei.net         0.0%    10   16.5  16.7  16.4  19.2   0.9
+nagios:/var/log#
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Geoffrey Mina
+Sent: Wednesday, October 19, 2011 11:49 AM
+To: 'Dan White'; 'Josh Luthman'
+Cc: outages at outages.org
+
+I am seeing the same.
+
+Tracing route to vnsc-pri.sys.gtei.net [4.2.2.1]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms
+173-164-56-78-colorado.hfc.comcastbusiness.net [
+173.164.56.78]
+  2    52 ms    24 ms    29 ms  73.83.164.1
+  3    10 ms    15 ms    10 ms  te-8-1-ur01.boulder.co.denver.comcast.net
+[68.85
+.107.85]
+  4     8 ms     9 ms     9 ms  te-7-4-ur02.boulder.co.denver.comcast.net
+[68.86
+.103.122]
+  5    12 ms    15 ms    16 ms  te-0-8-0-0-ar02.aurora.co.denver.comcast.net
+[68
+.86.179.97]
+  6    27 ms    11 ms    14 ms  pos-3-8-0-0-cr01.denver.co.ibone.comcast.net
+[68
+.86.94.153]
+  7    52 ms    28 ms    11 ms  xe-9-2-0.edge3.Denver1.Level3.net
+[4.28.20.5]
+  8    18 ms    11 ms    12 ms  vlan51.ebr1.Denver1.Level3.net [4.69.147.94]
+  9    63 ms    27 ms    29 ms  ae-2-2.ebr2.Dallas1.Level3.net
+[4.69.132.106]
+ 10    34 ms    35 ms    26 ms  ae-72-72.csw2.Dallas1.Level3.net
+[4.69.151.141]
+
+ 11    79 ms    26 ms    25 ms  ae-21-70.car1.Dallas1.Level3.net
+[4.69.145.67]
+ 12    61 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 13    65 ms    68 ms     *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 14    85 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 15    75 ms     *        *     vnsc-pri.sys.gtei.net [4.2.2.1]
+ 16     *        *        *     Request timed out.
+ 17    70 ms     *       62 ms  vnsc-pri.sys.gtei.net [4.2.2.1]
+
+Trace complete.
+
+Geoff MINA
+---------------------------------
+CTO/Co-Founder
+Connect First Inc. 
+CCI * VB * 911
+P: 720.335.5924
+T: 888.410.3071
+F: 678.265.1158
+E: gmina at connectfirst.com
+---------------------------------
+www.connectfirst.com
+
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Dan White
+Sent: Wednesday, October 19, 2011 10:21 AM
+To: Josh Luthman
+Cc: outages at outages.org
+
+Additional information (I'm still seeing the problem)
+
+~$ traceroute 4.2.2.2
+traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+  1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+  2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+  3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+  4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+  5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+11.002 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+
+~$ ping -c 10 4.2.2.2
+PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+
+--- 4.2.2.2 ping statistics ---
+10 packets transmitted, 4 received, 60% packet loss, time 9045ms rtt
+min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+
+~$ ping -c 10 4.71.13.121
+PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+
+--- 4.71.13.121 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms rtt
+min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+
+
+On 19/10/11?12:14?-0400, Josh Luthman wrote:
+ping -c 10 4.2.2
+>Rock solid at 26 ms for me
+>
+>-> traceroute 4.2.2.2
+>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+> 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+>0.485 ms  0.450 ms
+> 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+>0.390 ms  0.589 ms
+> 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+>2.046 ms  2.024 ms
+> 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977 ms  
+>2.943 ms
+> 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884 
+>ms  2.858 ms
+> 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms  
+>1.922 ms
+> 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+>8.812 ms  8.788 ms
+> 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms 
+>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+> 9  107.14.17.147 (107.14.17.147)  18.899 ms 
+>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms 
+>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms 
+>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458 
+>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879 
+>ms  35.936 ms
+>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms 
+>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+>
+>Josh Luthman
+>Office: 937-552-2340
+>Direct: 937-552-2343
+>1100 Wayne St
+>Suite 1337
+>Troy, OH 45373
+>
+>
+>
+>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+>> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and 
+>> 4.2.2.3 in the last few minutes, which are usually my go to IP 
+>> addresses for testing external server connectivity.
+>>
+>> DNS also seems to be intermittent.
+>>
+>> --
+>> Dan White
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+
+--
+Dan White
+BTC Broadband
+Ph  918.366.0248 (direct)   main: (918)366-8000
+Fax 918.366.6610            email: dwhite at olp.net
+http://www.btcbroadband.com
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From dwhite at olp.net  Wed Oct 19 13:08:11 2011
+From: dwhite at olp.net (Dan White)
+Date: Wed, 19 Oct 2011 12:08:11 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <00bc01cc8e7e$7acb2960$70617c20$@iname.com>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+ <00bc01cc8e7e$7acb2960$70617c20$@iname.com>
+Message-ID: <20111019170810.GA13901@dan.olp.net>
+
+10-4:
+
+~$ mtr -n -c 100 --report 4.2.2.2
+HOST: quark                       Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1.|-- 10.0.2.1                   0.0%   100    1.9   1.9   0.8   4.5 0.7
+   2.|-- 67.217.152.5               0.0%   100    1.5   2.4   0.8  10.3 1.8
+   3.|-- 67.217.151.97              0.0%   100    1.1   4.1   0.9 136.6 15.9
+   4.|-- 67.217.152.34              0.0%   100    1.5   1.6   1.5   2.4 0.1
+   5.|-- 4.71.13.121                0.0%   100    8.6  23.7   8.5 341.7 49.5
+   6.|-- 4.2.2.2                   60.0%   100   47.4  45.0  40.0  54.7 3.2
+
+Under normal circumstances, I typically see at least one more hop in front
+of 4.2.2.2, and much lower latency.
+
+ From this, I assume the packet loss I'm seeing is due to a problem within
+Level 3's network. And may be limited to a Dallas link/router, based on
+others' reports.
+
+On 19/10/11?11:45?-0500, Frank Bulk wrote:
+>If you're seeing packet loss on pings, please use a tool like mtr to show
+>where it's happening.
+>
+>Frank
+>
+>-----Original Message-----
+>From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+>Behalf Of Dan White
+>Sent: Wednesday, October 19, 2011 11:21 AM
+>To: Josh Luthman
+>Cc: outages at outages.org
+>Subject: Re: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+>
+>Additional information (I'm still seeing the problem)
+>
+>~$ traceroute 4.2.2.2
+>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+>  1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+>  2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+>  3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+>  4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+>  5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+>11.002 ms
+>  6  * * *
+>  7  * * *
+>  8  * * *
+>  9  * * *
+>10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+>
+>~$ ping -c 10 4.2.2.2
+>PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+>64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+>64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+>64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+>64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+>
+>--- 4.2.2.2 ping statistics ---
+>10 packets transmitted, 4 received, 60% packet loss, time 9045ms
+>rtt min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+>
+>~$ ping -c 10 4.71.13.121
+>PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+>64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+>64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+>64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+>64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+>64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+>64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+>64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+>64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+>64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+>64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+>
+>--- 4.71.13.121 ping statistics ---
+>10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+>rtt min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+>
+>
+>On 19/10/11?12:14?-0400, Josh Luthman wrote:
+>ping -c 10 4.2.2
+>>Rock solid at 26 ms for me
+>>
+>>-> traceroute 4.2.2.2
+>>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+>> 1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+>>0.485 ms  0.450 ms
+>> 2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+>>0.390 ms  0.589 ms
+>> 3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+>>2.046 ms  2.024 ms
+>> 4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977
+>>ms  2.943 ms
+>> 5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+>>ms  2.858 ms
+>> 6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms
+>1.922 ms
+>> 7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+>>8.812 ms  8.788 ms
+>> 8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+>>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+>> 9  107.14.17.147 (107.14.17.147)  18.899 ms
+>>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+>>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+>>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+>>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+>>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458
+>>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+>>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879
+>>ms  35.936 ms
+>>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+>>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+>>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+>>
+>>Josh Luthman
+>>Office: 937-552-2340
+>>Direct: 937-552-2343
+>>1100 Wayne St
+>>Suite 1337
+>>Troy, OH 45373
+>>
+>>
+>>
+>>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+>>> I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and
+>4.2.2.3
+>>> in the last few minutes, which are usually my go to IP addresses for
+>>> testing external server connectivity.
+>>>
+>>> DNS also seems to be intermittent.
+>>>
+>>> --
+>>> Dan White
+>>> _______________________________________________
+>>> Outages mailing list
+>>> Outages at outages.org
+>>> https://puck.nether.net/mailman/listinfo/outages
+>>>
+>>
+>
+>-- 
+>Dan White
+>BTC Broadband
+>Ph  918.366.0248 (direct)   main: (918)366-8000
+>Fax 918.366.6610            email: dwhite at olp.net
+>http://www.btcbroadband.com
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+>_______________________________________________
+>Outages mailing list
+>Outages at outages.org
+>https://puck.nether.net/mailman/listinfo/outages
+>
+
+-- 
+Dan White
+BTC Broadband
+Ph  918.366.0248 (direct)   main: (918)366-8000
+Fax 918.366.6610            email: dwhite at olp.net
+http://www.btcbroadband.com
+
+From taner at taner.net  Wed Oct 19 13:38:32 2011
+From: taner at taner.net (Taner Halicioglu)
+Date: Wed, 19 Oct 2011 10:38:32 -0700
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019170810.GA13901@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+ <00bc01cc8e7e$7acb2960$70617c20$@iname.com>
+ <20111019170810.GA13901@dan.olp.net>
+Message-ID: <20111019173832.GF5064@boom.net>
+
+Not to possibly point out the obvious, but 4.2.2.2 is an anycast address, so
+you'll be hitting all sorts of different destiantions when trying to trace to
+it, depending on where you are.
+
+e.g., I tested from a few shells I have around:
+
+LA:
+  6. ae-21-70.car1.LosAngeles1.Le  0.0%     5   10.8  11.8   9.3  18.2   3.6
+  7. vnsc-bak.sys.gtei.net         0.0%     5    9.7  11.0   9.7  12.6   1.2
+
+TX:
+  6. xe-8-1-0.edge4.Dallas3.Level  0.0%     5    0.6   0.7   0.6   0.9   0.1
+  7. ae-31-80.car1.Dallas1.Level3  0.0%     5  163.2 157.8 123.5 181.6  22.2
+  8. vnsc-bak.sys.gtei.net        80.0%     5   30.0  30.0  30.0  30.0   0.0
+
+
+Bay Area (Fremont):
+  6. ae-11-60.car1.SanJose1.Level  0.0%     5    2.1   6.0   1.9  22.0   9.0
+  7. vnsc-bak.sys.gtei.net         0.0%     5    2.0   2.0   1.9   2.1   0.1
+
+So it seems that (at least) the one in TX might have issues).
+
+	-T
+
+
+On Wed, Oct 19, 2011 at 12:08:11PM -0500, Dan White <dwhite at olp.net> wrote:
+
+> 10-4:
+> 
+> ~$ mtr -n -c 100 --report 4.2.2.2
+> HOST: quark                       Loss%   Snt   Last   Avg  Best  Wrst StDev
+>   1.|-- 10.0.2.1                   0.0%   100    1.9   1.9   0.8   4.5 0.7
+>   2.|-- 67.217.152.5               0.0%   100    1.5   2.4   0.8  10.3 1.8
+>   3.|-- 67.217.151.97              0.0%   100    1.1   4.1   0.9 136.6 15.9
+>   4.|-- 67.217.152.34              0.0%   100    1.5   1.6   1.5   2.4 0.1
+>   5.|-- 4.71.13.121                0.0%   100    8.6  23.7   8.5 341.7 49.5
+>   6.|-- 4.2.2.2                   60.0%   100   47.4  45.0  40.0  54.7 3.2
+> 
+> Under normal circumstances, I typically see at least one more hop in front
+> of 4.2.2.2, and much lower latency.
+> 
+> From this, I assume the packet loss I'm seeing is due to a problem within
+> Level 3's network. And may be limited to a Dallas link/router, based on
+> others' reports.
+> 
+> On 19/10/11??11:45??-0500, Frank Bulk wrote:
+> >If you're seeing packet loss on pings, please use a tool like mtr to show
+> >where it's happening.
+> >
+> >Frank
+> >
+> >-----Original Message-----
+> >From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+> >Behalf Of Dan White
+> >Sent: Wednesday, October 19, 2011 11:21 AM
+> >To: Josh Luthman
+> >Cc: outages at outages.org
+> >Subject: Re: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+> >
+> >Additional information (I'm still seeing the problem)
+> >
+> >~$ traceroute 4.2.2.2
+> >traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 60 byte packets
+> > 1  10.0.2.1 (10.0.2.1)  3.813 ms  3.779 ms  4.183 ms
+> > 2  olp-67-217-152-5.olp.net (67.217.152.5)  2.547 ms  2.582 ms  2.761 ms
+> > 3  router.olp.net (67.217.151.97)  2.520 ms  2.514 ms  2.509 ms
+> > 4  olp-67-217-152-34.olp.net (67.217.152.34)  2.678 ms  2.659 ms  2.582 ms
+> > 5  ge-6-10-183.car1.dallas1.level3.net (4.71.13.121)  11.008 ms  11.010 ms
+> >11.002 ms
+> > 6  * * *
+> > 7  * * *
+> > 8  * * *
+> > 9  * * *
+> >10  vnsc-bak.sys.gtei.net (4.2.2.2)  56.222 ms  61.235 ms  61.239 ms
+> >
+> >~$ ping -c 10 4.2.2.2
+> >PING 4.2.2.2 (4.2.2.2) 56(84) bytes of data.
+> >64 bytes from 4.2.2.2: icmp_req=1 ttl=59 time=51.1 ms
+> >64 bytes from 4.2.2.2: icmp_req=6 ttl=59 time=57.0 ms
+> >64 bytes from 4.2.2.2: icmp_req=7 ttl=59 time=35.5 ms
+> >64 bytes from 4.2.2.2: icmp_req=8 ttl=59 time=31.7 ms
+> >
+> >--- 4.2.2.2 ping statistics ---
+> >10 packets transmitted, 4 received, 60% packet loss, time 9045ms
+> >rtt min/avg/max/mdev = 31.754/43.865/57.000/10.493 ms
+> >
+> >~$ ping -c 10 4.71.13.121
+> >PING 4.71.13.121 (4.71.13.121) 56(84) bytes of data.
+> >64 bytes from 4.71.13.121: icmp_req=1 ttl=251 time=14.7 ms
+> >64 bytes from 4.71.13.121: icmp_req=2 ttl=251 time=9.15 ms
+> >64 bytes from 4.71.13.121: icmp_req=3 ttl=251 time=9.14 ms
+> >64 bytes from 4.71.13.121: icmp_req=4 ttl=251 time=8.82 ms
+> >64 bytes from 4.71.13.121: icmp_req=5 ttl=251 time=11.3 ms
+> >64 bytes from 4.71.13.121: icmp_req=6 ttl=251 time=9.72 ms
+> >64 bytes from 4.71.13.121: icmp_req=7 ttl=251 time=8.47 ms
+> >64 bytes from 4.71.13.121: icmp_req=8 ttl=251 time=8.47 ms
+> >64 bytes from 4.71.13.121: icmp_req=9 ttl=251 time=9.57 ms
+> >64 bytes from 4.71.13.121: icmp_req=10 ttl=251 time=9.49 ms
+> >
+> >--- 4.71.13.121 ping statistics ---
+> >10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+> >rtt min/avg/max/mdev = 8.471/9.898/14.793/1.809 ms
+> >
+> >
+> >On 19/10/11??12:14??-0400, Josh Luthman wrote:
+> >ping -c 10 4.2.2
+> >>Rock solid at 26 ms for me
+> >>
+> >>-> traceroute 4.2.2.2
+> >>traceroute to 4.2.2.2 (4.2.2.2), 30 hops max, 40 byte packets
+> >>1  rrcs-74-218-208-193.central.biz.rr.com (74.218.208.193)  0.531 ms
+> >>0.485 ms  0.450 ms
+> >>2  rrcs-74-218-88-133.central.biz.rr.com (74.218.88.133)  0.418 ms
+> >>0.390 ms  0.589 ms
+> >>3  rrcs-74-218-88-129.central.biz.rr.com (74.218.88.129)  1.061 ms
+> >>2.046 ms  2.024 ms
+> >>4  vln864.dytnoh1-swt101.woh.rr.com (74.218.88.73)  3.000 ms  2.977
+> >>ms  2.943 ms
+> >>5  gig2-1-801.dytnoh1-rtr102.woh.rr.com (70.60.47.5)  2.910 ms  2.884
+> >>ms  2.858 ms
+> >>6  gig5-0.dytnoh1-rtr1.woh.rr.com (24.29.160.21)  2.840 ms  2.845 ms
+> >1.922 ms
+> >>7  tge5-1-0.tr00.clmkohpe.mwrtn.rr.com (65.25.137.177)  8.852 ms
+> >>8.812 ms  8.788 ms
+> >>8  ae-4-0.cr0.chi30.tbone.rr.com (66.109.6.68)  18.744 ms  18.953 ms
+> >>ae-9-0.cr0.chi30.tbone.rr.com (107.14.19.16)  18.692 ms
+> >>9  107.14.17.147 (107.14.17.147)  18.899 ms
+> >>ae-1-0.pr0.chi10.tbone.rr.com (66.109.6.155)  18.874 ms  18.839 ms
+> >>10  xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.573 ms
+> >>xe-10-0-0.edge2.Chicago2.Level3.net (4.59.28.101)  25.549 ms
+> >>xe-10-2-0.edge2.Chicago2.Level3.net (4.59.28.109)  25.507 ms
+> >>11  vlan51.ebr1.Chicago2.Level3.net (4.69.138.158)  25.482 ms  25.458
+> >>ms vlan52.ebr2.Chicago2.Level3.net (4.69.138.190)  25.432 ms
+> >>12  ae-6-6.ebr1.Chicago1.Level3.net (4.69.140.189)  41.152 ms  34.879
+> >>ms  35.936 ms
+> >>13  ae-11-51.car1.Chicago1.Level3.net (4.69.138.3)  35.880 ms
+> >>ae-21-52.car1.Chicago1.Level3.net (4.69.138.35)  35.848 ms  35.822 ms
+> >>14  vnsc-bak.sys.gtei.net (4.2.2.2)  36.780 ms  36.755 ms
+> >>
+> >>Josh Luthman
+> >>Office: 937-552-2340
+> >>Direct: 937-552-2343
+> >>1100 Wayne St
+> >>Suite 1337
+> >>Troy, OH 45373
+> >>
+> >>
+> >>
+> >>On Wed, Oct 19, 2011 at 11:59 AM, Dan White <dwhite at olp.net> wrote:
+> >>>I've been noticing packet loss while pinging 4.2.2.1, 4.2.2.2, and
+> >4.2.2.3
+> >>>in the last few minutes, which are usually my go to IP addresses for
+> >>>testing external server connectivity.
+> >>>
+> >>>DNS also seems to be intermittent.
+> >>>
+> >>>--
+> >>>Dan White
+> >>>_______________________________________________
+> >>>Outages mailing list
+> >>>Outages at outages.org
+> >>>https://puck.nether.net/mailman/listinfo/outages
+> >>>
+> >>
+> >
+> >-- 
+> >Dan White
+> >BTC Broadband
+> >Ph  918.366.0248 (direct)   main: (918)366-8000
+> >Fax 918.366.6610            email: dwhite at olp.net
+> >http://www.btcbroadband.com
+> >_______________________________________________
+> >Outages mailing list
+> >Outages at outages.org
+> >https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> >
+> >_______________________________________________
+> >Outages mailing list
+> >Outages at outages.org
+> >https://puck.nether.net/mailman/listinfo/outages
+> >
+> 
+> -- 
+> Dan White
+> BTC Broadband
+> Ph  918.366.0248 (direct)   main: (918)366-8000
+> Fax 918.366.6610            email: dwhite at olp.net
+> http://www.btcbroadband.com
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+From dwhite at olp.net  Wed Oct 19 15:41:28 2011
+From: dwhite at olp.net (Dan White)
+Date: Wed, 19 Oct 2011 14:41:28 -0500
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+In-Reply-To: <20111019170810.GA13901@dan.olp.net>
+References: <20111019155927.GB5396@dan.olp.net>
+ <CAN9qwJ8qiJ7KCxGFki-aKGTRem5hCC=SaAivPprzxSEabxErjw@mail.gmail.com>
+ <20111019162107.GC5396@dan.olp.net>
+ <00bc01cc8e7e$7acb2960$70617c20$@iname.com>
+ <20111019170810.GA13901@dan.olp.net>
+Message-ID: <20111019194128.GC13901@dan.olp.net>
+
+We're seeing the issue clearing up for us now:
+
+http://web.olp.net/dwhite/4.2.2.2.png
+
+On 19/10/11?12:08?-0500, Dan White wrote:
+>10-4:
+>
+>~$ mtr -n -c 100 --report 4.2.2.2
+>HOST: quark                       Loss%   Snt   Last   Avg  Best  Wrst StDev
+>  1.|-- 10.0.2.1                   0.0%   100    1.9   1.9   0.8   4.5 0.7
+>  2.|-- 67.217.152.5               0.0%   100    1.5   2.4   0.8  10.3 1.8
+>  3.|-- 67.217.151.97              0.0%   100    1.1   4.1   0.9 136.6 15.9
+>  4.|-- 67.217.152.34              0.0%   100    1.5   1.6   1.5   2.4 0.1
+>  5.|-- 4.71.13.121                0.0%   100    8.6  23.7   8.5 341.7 49.5
+>  6.|-- 4.2.2.2                   60.0%   100   47.4  45.0  40.0  54.7 3.2
+>
+>Under normal circumstances, I typically see at least one more hop in front
+>of 4.2.2.2, and much lower latency.
+>
+>From this, I assume the packet loss I'm seeing is due to a problem within
+>Level 3's network. And may be limited to a Dallas link/router, based on
+>others' reports.
+
+-- 
+Dan White
+
+From mlbooher at iupui.edu  Wed Oct 19 16:00:08 2011
+From: mlbooher at iupui.edu (Booher, Mike)
+Date: Wed, 19 Oct 2011 20:00:08 +0000
+Subject: [outages] Intermittent ICMP and DNS for 4.2.2.[123]
+Message-ID: <FCCAC6B6142A6045BD7DEA2DDF51B29DA07D66@IU-MSSG-MBX108.ads.iu.edu>
+
+About 3pm we lost some major links and are working a ticket with Level3. They are indicating
+It is a likely failed module between Houston and Denton, TX. No ETR at this time.  Not sure it
+Is associated with the intermittent ICP/DNS issues...
+
+
+~ Mike
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111019/becaaffe/attachment.html>
+
+From maxsec at gmail.com  Fri Oct 21 04:57:58 2011
+From: maxsec at gmail.com (Martin Hepworth)
+Date: Fri, 21 Oct 2011 09:57:58 +0100
+Subject: [outages] UK wide DSL broadband outages
+Message-ID: <CAGDKorJDoN8aiLx1=zJsXUjjacHmQyVb=J7i1h27TrajRhfh2Q@mail.gmail.com>
+
+Looks like BT are having some major issues with the DSL lines this morning.
+Seeing several ISP's reporting this..
+
+http://portal.plus.net/supportpages.html?a=2&support_action=messages&ispservice_id=adsldial
+
+http://status.zensupport.co.uk/active/5/2389
+
+etc
+
+
+-- 
+Martin Hepworth
+Oxford, UK
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111021/545c5ab0/attachment.html>
+
+From colinj at mx5.org.uk  Fri Oct 21 05:31:32 2011
+From: colinj at mx5.org.uk (Colin Johnston)
+Date: Fri, 21 Oct 2011 10:31:32 +0100
+Subject: [outages] UK wide DSL broadband outages
+In-Reply-To: <CAGDKorJDoN8aiLx1=zJsXUjjacHmQyVb=J7i1h27TrajRhfh2Q@mail.gmail.com>
+References: <CAGDKorJDoN8aiLx1=zJsXUjjacHmQyVb=J7i1h27TrajRhfh2Q@mail.gmail.com>
+Message-ID: <CA925DE1-757E-4686-BB02-8EF93DE8F014@mx5.org.uk>
+
+
+> Looks like BT are having some major issues with the DSL lines this morning. Seeing several ISP's reporting this..
+> 
+> http://portal.plus.net/supportpages.html?a=2&support_action=messages&ispservice_id=adsldial
+> 
+> http://status.zensupport.co.uk/active/5/2389
+> 
+
+
+yup, HSO adsl working again in Manchester now at least.
+
+Colin
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111021/d8bda93c/attachment.html>
+
+From jra at baylink.com  Fri Oct 21 10:39:51 2011
+From: jra at baylink.com (Jay Ashworth)
+Date: Fri, 21 Oct 2011 10:39:51 -0400 (EDT)
+Subject: [outages] [Outages-discussion]  UK wide DSL broadband outages
+In-Reply-To: <20111021140627.GB10023@z.gg>
+Message-ID: <25809006.5657.1319207991819.JavaMail.root@benjamin.baylink.com>
+
+----- Original Message -----
+> From: "Paul Lettington" <paul at plett.co.uk>
+
+> On Fri, Oct 21 2011 08:10:02 -0500, Frank Bulk wrote:
+> > Why did a 15-minute outage cause subtended customers to be out for
+> > much longer than that?
+> 
+> Because BT's RADIUS servers which look at the realm of the login and
+> route the session to the correct ISP are unable to cope with the load of all the
+> ADSL users in the country continually reconnecting during an outage like
+> this.
+> 
+> So when BT can't connect the end user to the ISP they accept the end
+> user's session themselves with a RFC1918 IP address for exactly an hour and
+> not connected to the internet, to stop them trying to log in.
+
+Sounds to me like they need to change that to "15 minutes + 1 minute * rand(10)
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                  Baylink                       jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+From williamsjj at digitar.com  Wed Oct 26 06:31:23 2011
+From: williamsjj at digitar.com (Jason J. W. Williams)
+Date: Wed, 26 Oct 2011 06:31:23 -0400
+Subject: [outages] Qwest Re-Convergence
+Message-ID: <CACD3D9B.34E60%williamsjj@digitar.com>
+
+Has anyone noticed issues reaching Qwest destinations around 4:05a-4:07a Mountain Time today? We received alerts that two of our sites that happened to have Qwest connectivity in common were unavailable during that period. Both sites being monitored were in different facilities but both in Boise.
+
+-J
+
+Traceroute #1
+
+ 1  ip-67-205-112-66.static.privatedns.com (67.205.112.66)  0.842 ms  0.908 ms  0.936 ms
+ 2  te8-4.v0707.cl-core04.mtl.iweb.com (67.205.127.121)  1.047 ms  1.068 ms  1.089 ms
+ 3  if-9-1.icore1.MTT-Montreal.as6453.net (206.82.135.29)  7.737 ms  7.813 ms  7.837 ms 4  if-10-0-0-19.mcore3.MTT-Montreal.as6453.net (216.6.114.13)  0.907 ms  0.935 ms  0.955 ms
+ 5  if-9-0-0-0.tcore2.NYY-NewYork.as6453.net (216.6.99.9)  7.871 ms  7.904 ms  7.926 ms 6  if-11-2.tcore1.NYY-NewYork.as6453.net (216.6.99.2)  7.815 ms  8.013 ms  8.032 ms
+ 7  jfk-brdr-04.inet.qwest.net (63.146.27.41)  7.942 ms  7.827 ms  7.790 ms
+
+Traceroute #2
+
+ 1  207.97.207.194 (207.97.207.194)  0.549 ms  0.578 ms  0.620 ms
+ 2  core1-5.iad1.rackspace.com (69.20.2.18)  0.303 ms  0.354 ms  0.400 ms
+ 3  vlan901.edge3.iad1.rackspace.com (69.20.1.3)  196.221 ms  196.284 ms  196.328 ms
+ 4  dcx2-edge-01.inet.qwest.net (67.133.246.157)  0.368 ms  0.355 ms  0.349 ms
+
+
+-------------------
+Jason J. W. Williams
+COO/CTO, DigiTar
+williamsjj at digitar.com
+
+V: 208.343.8520
+M: 208.863.0727
+F: 208.322.8522
+IM: williamsjj at digitar.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111026/bfcd8006/attachment.html>
+
+From DHyde at hosting.com  Wed Oct 26 07:35:14 2011
+From: DHyde at hosting.com (Darrell Hyde)
+Date: Wed, 26 Oct 2011 07:35:14 -0400
+Subject: [outages] Qwest Re-Convergence
+In-Reply-To: <CACD3D9B.34E60%williamsjj@digitar.com>
+References: <CACD3D9B.34E60%williamsjj@digitar.com>
+Message-ID: <10BFD01E-9A28-4845-B3F9-696E900A1237@HostMySite.com>
+
+Ditto. Our side of the /30 we share with Qwest was unreachable from approx 4:05 to 4:12 AM MT. Haven't looked yet to see if our BGP session dropped during that time. If not we (they) were likely blackholing traffic briefly.
+
+On Oct 26, 2011, at 6:40 AM, "Jason J. W. Williams" <<mailto:williamsjj at digitar.com>williamsjj at digitar.com<mailto:williamsjj at digitar.com>> wrote:
+
+Has anyone noticed issues reaching Qwest destinations around 4:05a-4:07a Mountain Time today? We received alerts that two of our sites that happened to have Qwest connectivity in common were unavailable during that period. Both sites being monitored were in different facilities but both in Boise.
+
+-J
+
+Traceroute #1
+
+ 1  <http://ip-67-205-112-66.static.privatedns.com> ip-67-205-112-66.static.privatedns.com<http://ip-67-205-112-66.static.privatedns.com> (67.205.112.66)  0.842 ms  0.908 ms  0.936 ms
+ 2  te8-4.v0707.cl-core04.mtl.iweb.com (67.205.127.121)  1.047 ms  1.068 ms  1.089 ms
+ 3  if-9-1.icore1.MTT-Montreal.as6453.net (206.82.135.29)  7.737 ms  7.813 ms  7.837 ms 4  if-10-0-0-19.mcore3.MTT-Montreal.as6453.net (216.6.114.13)  0.907 ms  0.935 ms  0.955 ms
+ 5  if-9-0-0-0.tcore2.NYY-NewYork.as6453.net (216.6.99.9)  7.871 ms  7.904 ms  7.926 ms 6  if-11-2.tcore1.NYY-NewYork.as6453.net (216.6.99.2)  7.815 ms  8.013 ms  8.032 ms
+ 7  <http://jfk-brdr-04.inet.qwest.net> jfk-brdr-04.inet.qwest.net<http://jfk-brdr-04.inet.qwest.net> (63.146.27.41)  7.942 ms  7.827 ms  7.790 ms
+
+Traceroute #2
+
+ 1  207.97.207.194 (207.97.207.194)  0.549 ms  0.578 ms  0.620 ms
+ 2  <http://core1-5.iad1.rackspace.com> core1-5.iad1.rackspace.com<http://core1-5.iad1.rackspace.com> (69.20.2.18)  0.303 ms  0.354 ms  0.400 ms
+ 3  vlan901.edge3.iad1.rackspace.com (69.20.1.3)  196.221 ms  196.284 ms  196.328 ms
+ 4  <http://dcx2-edge-01.inet.qwest.net> dcx2-edge-01.inet.qwest.net<http://dcx2-edge-01.inet.qwest.net> (67.133.246.157)  0.368 ms  0.355 ms  0.349 ms
+
+
+-------------------
+Jason J. W. Williams
+COO/CTO, DigiTar
+<mailto:williamsjj at digitar.com>williamsjj at digitar.com<mailto:williamsjj at digitar.com>
+
+V: 208.343.8520
+M: 208.863.0727
+F: 208.322.8522
+IM: <mailto:williamsjj at digitar.com> <mailto:williamsjj at digitar.com> williamsjj at digitar.com<mailto:williamsjj at digitar.com>
+_______________________________________________
+Outages mailing list
+<mailto:Outages at outages.org>Outages at outages.org<mailto:Outages at outages.org>
+<https://puck.nether.net/mailman/listinfo/outages>https://puck.nether.net/mailman/listinfo/outages
+
+
+From frnkblk at iname.com  Wed Oct 26 09:24:45 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 26 Oct 2011 08:24:45 -0500
+Subject: [outages] Qwest Re-Convergence
+In-Reply-To: <CACD3D9B.34E60%williamsjj@digitar.com>
+References: <CACD3D9B.34E60%williamsjj@digitar.com>
+Message-ID: <013501cc93e2$a0a40ee0$e1ec2ca0$@iname.com>
+
+I also received an alert at 5:07 which cleared at 5:11 am about access to
+the v6 sites of www.qwest.com and www.informationweek.com
+
+ 
+
+# traceroute6 www.qwest.com
+
+traceroute to www.qwest.com (2001:428:b21:1::20), 30 hops max, 80 byte
+packets
+
+1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  3.937 ms  4.363 ms  5.375 ms
+
+2  router-core.mtcnet.net (2607:fe28:0:1000::1)  6.884 ms  7.300 ms  8.069
+ms
+
+3  sxct.movl.mtcnet.net (2607:fe28:11:1002::194)  8.708 ms  8.953 ms  9.779
+ms
+
+4  v6-siouxcenter.movl.153.netins.net (2001:5f8:7f06::9)  12.212 ms  12.452
+ms  12.825 ms
+
+5  v6-ins-kb1-te-13-2-220.kmrr.netins.net (2001:5f8:2:2::1)  18.798 ms
+19.071 ms  19.416 ms
+
+6  v6-ins-kc2-te-8-3.kmrr.netins.net (2001:5f8::11:1)  19.755 ms  15.928 ms
+16.124 ms
+
+7  v6-ins-dc1-et-8-1.desm.netins.net (2001:5f8::8:1)  17.461 ms  16.944 ms
+16.998 ms
+
+8  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  29.131 ms  28.281
+ms  28.456 ms
+
+9  * * *
+
+10  2001:428:b21:fc03::2 (2001:428:b21:fc03::2)  43.020 ms  43.045 ms
+43.362 ms
+
+11  * * *
+
+12  2001:428:b21:1::20 (2001:428:b21:1::20)  44.318 ms  44.506 ms  44.730 ms
+
+ 
+
+# traceroute6 www.informationweek.com
+
+traceroute to www.informationweek.com (2001:428:1002:10:0:3:0:150), 30 hops
+max, 80 byte packets
+
+1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  3.949 ms  4.387 ms  5.835 ms
+
+2  router-core.mtcnet.net (2607:fe28:0:1000::1)  6.162 ms  7.018 ms  7.658
+ms
+
+3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  7.974 ms  8.798 ms  9.563
+ms
+
+4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  11.640 ms  11.949
+ms  12.261 ms
+
+5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  16.679 ms
+16.882 ms  17.242 ms
+
+6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  19.425 ms  15.611 ms
+15.720 ms
+
+7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  27.257 ms  27.094
+ms  26.704 ms
+
+8  2001:428::205:171:203:118 (2001:428::205:171:203:118)  73.502 ms  73.745
+ms  73.336 ms
+
+9  2001:428:1002:10:0:3:0:150 (2001:428:1002:10:0:3:0:150)  74.478 ms
+69.405 ms  71.713 ms
+
+nagios:/home/fbulk#
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Jason J. W. Williams
+Sent: Wednesday, October 26, 2011 5:31 AM
+To: outages at outages.org
+
+ 
+
+Has anyone noticed issues reaching Qwest destinations around 4:05a-4:07a
+Mountain Time today? We received alerts that two of our sites that happened
+to have Qwest connectivity in common were unavailable during that period.
+Both sites being monitored were in different facilities but both in Boise.
+
+ 
+
+-J
+
+ 
+
+Traceroute #1
+
+ 1  ip-67-205-112-66.static.privatedns.com (67.205.112.66)  0.842 ms  0.908
+ms  0.936 ms
+ 2  te8-4.v0707.cl-core04.mtl.iweb.com (67.205.127.121)  1.047 ms  1.068 ms
+1.089 ms
+ 3  if-9-1.icore1.MTT-Montreal.as6453.net (206.82.135.29)  7.737 ms  7.813
+ms  7.837 ms 4  if-10-0-0-19.mcore3.MTT-Montreal.as6453.net (216.6.114.13)
+0.907 ms  0.935 ms  0.955 ms
+ 5  if-9-0-0-0.tcore2.NYY-NewYork.as6453.net (216.6.99.9)  7.871 ms  7.904
+ms  7.926 ms 6  if-11-2.tcore1.NYY-NewYork.as6453.net (216.6.99.2)  7.815 ms
+8.013 ms  8.032 ms
+ 7  jfk-brdr-04.inet.qwest.net (63.146.27.41)  7.942 ms  7.827 ms  7.790 ms
+Traceroute #2
+ 1  207.97.207.194 (207.97.207.194)  0.549 ms  0.578 ms  0.620 ms
+ 2  core1-5.iad1.rackspace.com (69.20.2.18)  0.303 ms  0.354 ms  0.400 ms
+ 3  vlan901.edge3.iad1.rackspace.com (69.20.1.3)  196.221 ms  196.284 ms
+196.328 ms
+ 4  dcx2-edge-01.inet.qwest.net (67.133.246.157)  0.368 ms  0.355 ms  0.349
+ms
+ 
+
+-------------------
+
+Jason J. W. Williams
+
+COO/CTO, DigiTar
+
+williamsjj at digitar.com
+
+ 
+
+V: 208.343.8520
+
+M: 208.863.0727
+
+F: 208.322.8522
+
+IM: williamsjj at digitar.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111026/7661e825/attachment-0001.html>
+
+From WMelick at wrberkley.com  Wed Oct 26 09:34:56 2011
+From: WMelick at wrberkley.com (Will L Melick)
+Date: Wed, 26 Oct 2011 09:34:56 -0400
+Subject: [outages] Qwest Re-Convergence
+In-Reply-To: <10BFD01E-9A28-4845-B3F9-696E900A1237@HostMySite.com>
+References: <CACD3D9B.34E60%williamsjj@digitar.com>
+ <10BFD01E-9A28-4845-B3F9-696E900A1237@HostMySite.com>
+Message-ID: <OF977B9E31.5E5F884E-ON85257935.004A26BF-85257935.004A9BB0@wrbts.ads.wrberkley.com>
+
+We have a Qwest MPLS VPN connection in Boise and saw the same drop from 
+04:05 to 04:14 MDT.   BGP did not drop, but GRE tunnels on our router did.
+
+Will Melick
+Network Administrator
+Berkley Technology Services, LLC
+405 Silverside Rd., Suite 205
+Wilmington, DE 19809
+(302)439-2005
+
+
+
+From:
+Darrell Hyde <DHyde at hosting.com>
+To:
+"Jason J. W. Williams" <williamsjj at digitar.com>
+Cc:
+"outages at outages.org" <outages at outages.org>
+Date:
+10/26/2011 07:42 AM
+Subject:
+Re: [outages] Qwest Re-Convergence
+Sent by:
+outages-bounces at outages.org
+
+
+
+Ditto. Our side of the /30 we share with Qwest was unreachable from approx 
+4:05 to 4:12 AM MT. Haven't looked yet to see if our BGP session dropped 
+during that time. If not we (they) were likely blackholing traffic 
+briefly.
+
+On Oct 26, 2011, at 6:40 AM, "Jason J. W. Williams" <<
+mailto:williamsjj at digitar.com>williamsjj at digitar.com<
+mailto:williamsjj at digitar.com>> wrote:
+
+Has anyone noticed issues reaching Qwest destinations around 4:05a-4:07a 
+Mountain Time today? We received alerts that two of our sites that 
+happened to have Qwest connectivity in common were unavailable during that 
+period. Both sites being monitored were in different facilities but both 
+in Boise.
+
+-J
+
+Traceroute #1
+
+ 1  <http://ip-67-205-112-66.static.privatedns.com> 
+ip-67-205-112-66.static.privatedns.com<
+http://ip-67-205-112-66.static.privatedns.com> (67.205.112.66)  0.842 ms 
+0.908 ms  0.936 ms
+ 2  te8-4.v0707.cl-core04.mtl.iweb.com (67.205.127.121)  1.047 ms  1.068 
+ms  1.089 ms
+ 3  if-9-1.icore1.MTT-Montreal.as6453.net (206.82.135.29)  7.737 ms  7.813 
+ms  7.837 ms 4  if-10-0-0-19.mcore3.MTT-Montreal.as6453.net (216.6.114.13) 
+ 0.907 ms  0.935 ms  0.955 ms
+ 5  if-9-0-0-0.tcore2.NYY-NewYork.as6453.net (216.6.99.9)  7.871 ms  7.904 
+ms  7.926 ms 6  if-11-2.tcore1.NYY-NewYork.as6453.net (216.6.99.2)  7.815 
+ms  8.013 ms  8.032 ms
+ 7  <http://jfk-brdr-04.inet.qwest.net> jfk-brdr-04.inet.qwest.net<
+http://jfk-brdr-04.inet.qwest.net> (63.146.27.41)  7.942 ms  7.827 ms 
+7.790 ms
+
+Traceroute #2
+
+ 1  207.97.207.194 (207.97.207.194)  0.549 ms  0.578 ms  0.620 ms
+ 2  <http://core1-5.iad1.rackspace.com> core1-5.iad1.rackspace.com<
+http://core1-5.iad1.rackspace.com> (69.20.2.18)  0.303 ms  0.354 ms  0.400 
+ms
+ 3  vlan901.edge3.iad1.rackspace.com (69.20.1.3)  196.221 ms  196.284 ms 
+196.328 ms
+ 4  <http://dcx2-edge-01.inet.qwest.net> dcx2-edge-01.inet.qwest.net<
+http://dcx2-edge-01.inet.qwest.net> (67.133.246.157)  0.368 ms  0.355 ms 
+0.349 ms
+
+
+-------------------
+Jason J. W. Williams
+COO/CTO, DigiTar
+<mailto:williamsjj at digitar.com>williamsjj at digitar.com<
+mailto:williamsjj at digitar.com>
+
+V: 208.343.8520
+M: 208.863.0727
+F: 208.322.8522
+IM: <mailto:williamsjj at digitar.com> <mailto:williamsjj at digitar.com> 
+williamsjj at digitar.com<mailto:williamsjj at digitar.com>
+_______________________________________________
+Outages mailing list
+<mailto:Outages at outages.org>Outages at outages.org<mailto:Outages at outages.org
+>
+<https://puck.nether.net/mailman/listinfo/outages>
+https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+
+
+*************
+CONFIDENTIALITY NOTICE: This e-mail and the transmitted documents contain private, privileged and confidential information belonging to the sender.  The information therein is solely for the use of the addressee.  If your receipt of this transmission has occurred as the result of an error, please immediately notify us so we can arrange for the return of the documents.  In such circumstances, you are advised that you may not disclose, copy, distribute or take any other action in reliance on the information transmitted.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111026/66467c60/attachment.html>
+
+From frnkblk at iname.com  Wed Oct 26 09:56:47 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Wed, 26 Oct 2011 08:56:47 -0500
+Subject: [outages] Qwest Re-Convergence
+In-Reply-To: <013501cc93e2$a0a40ee0$e1ec2ca0$@iname.com>
+References: <CACD3D9B.34E60%williamsjj@digitar.com>
+ <013501cc93e2$a0a40ee0$e1ec2ca0$@iname.com>
+Message-ID: <014e01cc93e7$1a2d8120$4e888360$@iname.com>
+
+I should have noted that my times were Central, so the same time as the
+other two reports.
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Frank Bulk
+Sent: Wednesday, October 26, 2011 8:25 AM
+To: 'Jason J. W. Williams'; outages at outages.org
+
+ 
+
+I also received an alert at 5:07 which cleared at 5:11 am about access to
+the v6 sites of www.qwest.com and www.informationweek.com
+
+ 
+
+# traceroute6 www.qwest.com
+
+traceroute to www.qwest.com (2001:428:b21:1::20), 30 hops max, 80 byte
+packets
+
+1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  3.937 ms  4.363 ms  5.375 ms
+
+2  router-core.mtcnet.net (2607:fe28:0:1000::1)  6.884 ms  7.300 ms  8.069
+ms
+
+3  sxct.movl.mtcnet.net (2607:fe28:11:1002::194)  8.708 ms  8.953 ms  9.779
+ms
+
+4  v6-siouxcenter.movl.153.netins.net (2001:5f8:7f06::9)  12.212 ms  12.452
+ms  12.825 ms
+
+5  v6-ins-kb1-te-13-2-220.kmrr.netins.net (2001:5f8:2:2::1)  18.798 ms
+19.071 ms  19.416 ms
+
+6  v6-ins-kc2-te-8-3.kmrr.netins.net (2001:5f8::11:1)  19.755 ms  15.928 ms
+16.124 ms
+
+7  v6-ins-dc1-et-8-1.desm.netins.net (2001:5f8::8:1)  17.461 ms  16.944 ms
+16.998 ms
+
+8  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  29.131 ms  28.281
+ms  28.456 ms
+
+9  * * *
+
+10  2001:428:b21:fc03::2 (2001:428:b21:fc03::2)  43.020 ms  43.045 ms
+43.362 ms
+
+11  * * *
+
+12  2001:428:b21:1::20 (2001:428:b21:1::20)  44.318 ms  44.506 ms  44.730 ms
+
+ 
+
+# traceroute6 www.informationweek.com
+
+traceroute to www.informationweek.com (2001:428:1002:10:0:3:0:150), 30 hops
+max, 80 byte packets
+
+1  2607:fe28:0:1003::2 (2607:fe28:0:1003::2)  3.949 ms  4.387 ms  5.835 ms
+
+2  router-core.mtcnet.net (2607:fe28:0:1000::1)  6.162 ms  7.018 ms  7.658
+ms
+
+3  sxct.sxcy.mtcnet.net (2607:fe28:11:1002::197)  7.974 ms  8.798 ms  9.563
+ms
+
+4  v6-siouxcenter.sxcy.137.netins.net (2001:5f8:7f06::5)  11.640 ms  11.949
+ms  12.261 ms
+
+5  v6-ins-db1-te-13-2-219.desm.netins.net (2001:5f8:1:1::1)  16.679 ms
+16.882 ms  17.242 ms
+
+6  v6-ins-dc1-et-8-2.desm.netins.net (2001:5f8::1:1)  19.425 ms  15.611 ms
+15.720 ms
+
+7  2001:428:3801:210:0:1:0:1 (2001:428:3801:210:0:1:0:1)  27.257 ms  27.094
+ms  26.704 ms
+
+8  2001:428::205:171:203:118 (2001:428::205:171:203:118)  73.502 ms  73.745
+ms  73.336 ms
+
+9  2001:428:1002:10:0:3:0:150 (2001:428:1002:10:0:3:0:150)  74.478 ms
+69.405 ms  71.713 ms
+
+nagios:/home/fbulk#
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Jason J. W. Williams
+Sent: Wednesday, October 26, 2011 5:31 AM
+To: outages at outages.org
+
+ 
+
+Has anyone noticed issues reaching Qwest destinations around 4:05a-4:07a
+Mountain Time today? We received alerts that two of our sites that happened
+to have Qwest connectivity in common were unavailable during that period.
+Both sites being monitored were in different facilities but both in Boise.
+
+ 
+
+-J
+
+ 
+
+Traceroute #1
+
+ 1  ip-67-205-112-66.static.privatedns.com (67.205.112.66)  0.842 ms  0.908
+ms  0.936 ms
+ 2  te8-4.v0707.cl-core04.mtl.iweb.com (67.205.127.121)  1.047 ms  1.068 ms
+1.089 ms
+ 3  if-9-1.icore1.MTT-Montreal.as6453.net (206.82.135.29)  7.737 ms  7.813
+ms  7.837 ms 4  if-10-0-0-19.mcore3.MTT-Montreal.as6453.net (216.6.114.13)
+0.907 ms  0.935 ms  0.955 ms
+ 5  if-9-0-0-0.tcore2.NYY-NewYork.as6453.net (216.6.99.9)  7.871 ms  7.904
+ms  7.926 ms 6  if-11-2.tcore1.NYY-NewYork.as6453.net (216.6.99.2)  7.815 ms
+8.013 ms  8.032 ms
+ 7  jfk-brdr-04.inet.qwest.net (63.146.27.41)  7.942 ms  7.827 ms  7.790 ms
+Traceroute #2
+ 1  207.97.207.194 (207.97.207.194)  0.549 ms  0.578 ms  0.620 ms
+ 2  core1-5.iad1.rackspace.com (69.20.2.18)  0.303 ms  0.354 ms  0.400 ms
+ 3  vlan901.edge3.iad1.rackspace.com (69.20.1.3)  196.221 ms  196.284 ms
+196.328 ms
+ 4  dcx2-edge-01.inet.qwest.net (67.133.246.157)  0.368 ms  0.355 ms  0.349
+ms
+ 
+
+-------------------
+
+Jason J. W. Williams
+
+COO/CTO, DigiTar
+
+williamsjj at digitar.com
+
+ 
+
+V: 208.343.8520
+
+M: 208.863.0727
+
+F: 208.322.8522
+
+IM: williamsjj at digitar.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111026/40882015/attachment-0001.html>
+
+From ryan at u13.net  Fri Oct 28 03:43:16 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 28 Oct 2011 03:43:16 -0400
+Subject: [outages] TWTC IPv6
+Message-ID: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+
+Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from a number of locations (all locations that we tested from). 
+
+ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+% Network not in table
+ashburn-rtr2#
+
+From ryan at u13.net  Fri Oct 28 07:32:48 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 28 Oct 2011 07:32:48 -0400
+Subject: [outages] TWTC IPv6
+In-Reply-To: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+Message-ID: <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+
+
+On Oct 28, 2011, at 3:43 AM, Ryan Rawdon wrote:
+
+> Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from a number of locations (all locations that we tested from). 
+> 
+> ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+> % Network not in table
+> ashburn-rtr2#
+
+2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to persist.
+
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From frnkblk at iname.com  Fri Oct 28 08:20:32 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 28 Oct 2011 07:20:32 -0500
+Subject: [outages] TWTC IPv6
+In-Reply-To: <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+Message-ID: <007601cc956b$fd0934a0$f71b9de0$@iname.com>
+
+I'm monitoring the v6 version of www.twtelecom.com (2001:4870:800d:fe1::11)
+and saw it go down from 1:48 am (Central) to 4:25 am (Central), so
+essentially the same time.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Ryan Rawdon
+Sent: Friday, October 28, 2011 6:33 AM
+To: outages
+
+
+On Oct 28, 2011, at 3:43 AM, Ryan Rawdon wrote:
+
+> Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from a
+number of locations (all locations that we tested from). 
+> 
+> ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+> % Network not in table
+> ashburn-rtr2#
+
+2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to
+persist.
+
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jlewis at lewis.org  Fri Oct 28 09:01:57 2011
+From: jlewis at lewis.org (Jon Lewis)
+Date: Fri, 28 Oct 2011 09:01:57 -0400 (EDT)
+Subject: [outages] TWTC IPv6
+In-Reply-To: <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+Message-ID: <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+
+On Fri, 28 Oct 2011, Ryan Rawdon wrote:
+
+> On Oct 28, 2011, at 3:43 AM, Ryan Rawdon wrote:
+>
+>> Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from a number of locations (all locations that we tested from).
+>>
+>> ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+>> % Network not in table
+>> ashburn-rtr2#
+>
+> 2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to persist.
+
+I'm a TWT customer, and still not seeing the /32, but am seeing lots of 
+more specific /48's from it.
+
+I thought this was interesting though:
+
+$ whois as4323 at whois.arin.net
+[Querying whois.arin.net]
+[Redirected to rwhois.twtelecom.net:4321]
+[Querying rwhois.twtelecom.net]
+[rwhois.twtelecom.net]
+%rwhois V-1.5:003AB6:00 rwhois.twtelecom.net (rwhois_ngd v0.9.0 by James 
+Sella)
+%error 230 No objects found
+
+----------------------------------------------------------------------
+  Jon Lewis, MCP :)           |  I route
+  Senior Network Engineer     |  therefore you are
+  Atlantic Net                |
+_________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+
+From ryan at u13.net  Fri Oct 28 10:59:21 2011
+From: ryan at u13.net (Ryan Rawdon)
+Date: Fri, 28 Oct 2011 10:59:21 -0400
+Subject: [outages] TWTC IPv6
+In-Reply-To: <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+ <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+Message-ID: <8A889C0C-AFDD-48A7-A190-2DD3E46A7EFC@u13.net>
+
+
+On Oct 28, 2011, at 9:01 AM, Jon Lewis wrote:
+
+> On Fri, 28 Oct 2011, Ryan Rawdon wrote:
+> 
+>> On Oct 28, 2011, at 3:43 AM, Ryan Rawdon wrote:
+>> 
+>>> Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from a number of locations (all locations that we tested from).
+>>> 
+>>> ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+>>> % Network not in table
+>>> ashburn-rtr2#
+>> 
+>> 2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to persist.
+> 
+> I'm a TWT customer, and still not seeing the /32, but am seeing lots of more specific /48's from it.
+
+I don't think I actually checked which prefix we were seeing when connectivity was restored at the time I posted my follow-up.  Right now we are seeing two prefixes from TWTC:
+2001:4870::/31
+2620:81:8000::/48
+
+(and also 2001:4870:E00B::/48 from a path transiting 4323)
+
+I don't know for sure whether they were advertising the /31 or /32 before the event this morning but regardless 2001:4870::/32 wasn't reachable in the DFZ (as itself or as a superprefix).  bgp.he.net still shows them advertising a /32, so I suspect they only changed to a /31 very recently - potentially during or after this outage.
+
+> 
+> I thought this was interesting though:
+> 
+> $ whois as4323 at whois.arin.net
+> [Querying whois.arin.net]
+> [Redirected to rwhois.twtelecom.net:4321]
+> [Querying rwhois.twtelecom.net]
+> [rwhois.twtelecom.net]
+> %rwhois V-1.5:003AB6:00 rwhois.twtelecom.net (rwhois_ngd v0.9.0 by James Sella)
+> %error 230 No objects found
+> 
+> ----------------------------------------------------------------------
+> Jon Lewis, MCP :)           |  I route
+> Senior Network Engineer     |  therefore you are
+> Atlantic Net                |
+> _________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+
+
+
+From frnkblk at iname.com  Fri Oct 28 10:59:29 2011
+From: frnkblk at iname.com (Frank Bulk)
+Date: Fri, 28 Oct 2011 09:59:29 -0500
+Subject: [outages] TWTC IPv6
+In-Reply-To: <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+ <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+Message-ID: <017d01cc9582$31804a00$9480de00$@iname.com>
+
+It's possible that the TWTC's customer advertisements are different than
+their peering ones, no?
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Jon Lewis
+Sent: Friday, October 28, 2011 8:02 AM
+To: Ryan Rawdon
+Cc: outages
+
+On Fri, 28 Oct 2011, Ryan Rawdon wrote:
+
+> On Oct 28, 2011, at 3:43 AM, Ryan Rawdon wrote:
+>
+>> Starting at 2:50AM (Eastern), we are unable to reach 2001:4870::/32 from
+a number of locations (all locations that we tested from).
+>>
+>> ashburn-rtr2#sh bgp ipv6 unicast 2001:4870::/32
+>> % Network not in table
+>> ashburn-rtr2#
+>
+> 2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to
+persist.
+
+I'm a TWT customer, and still not seeing the /32, but am seeing lots of 
+more specific /48's from it.
+
+I thought this was interesting though:
+
+$ whois as4323 at whois.arin.net
+[Querying whois.arin.net]
+[Redirected to rwhois.twtelecom.net:4321]
+[Querying rwhois.twtelecom.net]
+[rwhois.twtelecom.net]
+%rwhois V-1.5:003AB6:00 rwhois.twtelecom.net (rwhois_ngd v0.9.0 by James 
+Sella)
+%error 230 No objects found
+
+----------------------------------------------------------------------
+  Jon Lewis, MCP :)           |  I route
+  Senior Network Engineer     |  therefore you are
+  Atlantic Net                |
+_________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From jlewis at lewis.org  Fri Oct 28 11:23:09 2011
+From: jlewis at lewis.org (Jon Lewis)
+Date: Fri, 28 Oct 2011 11:23:09 -0400 (EDT)
+Subject: [outages] TWTC IPv6
+In-Reply-To: <8A889C0C-AFDD-48A7-A190-2DD3E46A7EFC@u13.net>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+ <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+ <8A889C0C-AFDD-48A7-A190-2DD3E46A7EFC@u13.net>
+Message-ID: <Pine.LNX.4.61.1110281122210.24418@soloth.lewis.org>
+
+On Fri, 28 Oct 2011, Ryan Rawdon wrote:
+
+>>> 2001:4870::/32 re-appeared at 5:27AM and no other issues appeared to persist.
+>>
+>> I'm a TWT customer, and still not seeing the /32, but am seeing lots of more specific /48's from it.
+>
+> I don't think I actually checked which prefix we were seeing when connectivity was restored at the time I posted my follow-up.  Right now we are seeing two prefixes from TWTC:
+> 2001:4870::/31
+> 2620:81:8000::/48
+>
+> (and also 2001:4870:E00B::/48 from a path transiting 4323)
+>
+> I don't know for sure whether they were advertising the /31 or /32 before the event this morning but regardless 2001:4870::/32 wasn't reachable in the DFZ (as itself or as a superprefix).  bgp.he.net still shows them advertising a /32, so I suspect they only changed to a /31 very recently - potentially during or after this outage.
+
+I hadn't looked for less specific, since the /32 was specifically 
+mentioned.  I am seeing the /31.
+
+
+----------------------------------------------------------------------
+  Jon Lewis, MCP :)           |  I route
+  Senior Network Engineer     |  therefore you are
+  Atlantic Net                |
+_________ http://www.lewis.org/~jlewis/pgp for PGP public key_________
+
+From gert at greenie.muc.de  Fri Oct 28 13:02:50 2011
+From: gert at greenie.muc.de (Gert Doering)
+Date: Fri, 28 Oct 2011 19:02:50 +0200
+Subject: [outages] TWTC IPv6
+In-Reply-To: <Pine.LNX.4.61.1110281122210.24418@soloth.lewis.org>
+References: <EBD66FAC-E4A1-4AF7-B227-FDEB8036B6C8@u13.net>
+ <EC75368B-0B6E-4EEE-BBCD-8E57E4F20516@u13.net>
+ <Pine.LNX.4.61.1110280856040.24418@soloth.lewis.org>
+ <8A889C0C-AFDD-48A7-A190-2DD3E46A7EFC@u13.net>
+ <Pine.LNX.4.61.1110281122210.24418@soloth.lewis.org>
+Message-ID: <20111028170250.GA8496@greenie.muc.de>
+
+Hi,
+
+On Fri, Oct 28, 2011 at 11:23:09AM -0400, Jon Lewis wrote:
+> I hadn't looked for less specific, since the /32 was specifically 
+> mentioned.  I am seeing the /31.
+
+My collector saw the /32 for "all year", and since today, only the /31
+plus a single /48.
+
+The ARIN delegation records claim "it has always been allocated as a /31"
+(since 2005).
+
+gert
+
+-- 
+USENET is *not* the non-clickable part of WWW!
+                                                           //www.muc.de/~gert/
+Gert Doering - Munich, Germany                             gert at greenie.muc.de
+fax: +49-89-35655025                        gert at net.informatik.tu-muenchen.de
+
+From carlos at televolve.com  Mon Oct 31 15:25:01 2011
+From: carlos at televolve.com (Carlos Alvarez)
+Date: Mon, 31 Oct 2011 12:25:01 -0700
+Subject: [outages] Calls to Integra PRIs from Qwest/Cox/Verizon Wireless fail
+Message-ID: <CAFn1dUH7hBUS010ioaABEGZsYLq4MxJdk9NAkRzJ_mGEb67H2g@mail.gmail.com>
+
+"All circuits are busy" message, affecting multiple PRIs in the Phoenix
+area.
+
+-- 
+Carlos Alvarez
+TelEvolve
+602-889-3003
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20111031/4756c4d2/attachment.html>
+

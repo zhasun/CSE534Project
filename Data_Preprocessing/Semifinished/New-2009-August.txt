@@ -1,0 +1,1989 @@
+###############################################################
+TimeWarner Cable Austin TX Metro issues
+###############################################################
+  We're seeing many sites down that are on TimeWarner Cable internet in  
+ the Austin TX Metro area.  Anyone know what happened?
+ --Chris
+ I'm working from home today and I'm seeing some very weird issues that appear to be routing related. I'm in Westchester NY on Verizon Fios. I have reachability to some sights, but even those seem to be slowly disappearing. Global routing issues?
+ ----
+ Matthew Huff?????? | One Manhattanville Rd
+ OTA Management LLC | Purchase, NY 10577
+ http://www.ox.com? | Phone: 914-460-4039
+ aim: matthewbhuff? | Fax:?? 914-460-4139
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Chris Boyd
+ Sent: Monday, August 03, 2009 12:13 PM
+ Subject: [outages] TimeWarner Cable Austin TX Metro issues
+ We're seeing many sites down that are on TimeWarner Cable internet in  
+ the Austin TX Metro area.  Anyone know what happened?
+ --Chris
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Looks like it is back up, somewhat.  I was unable to trace from Time
+ warner telecom Austin to time warner road runner. now I am tracing
+ through Dallas but it used to trace through an Austin cross
+ connect(Duval or Downtown) between twtelecom.net and res.austin.rr.com
+ On Mon, Aug 3, 2009 at 11:13 AM, Chris Boyd<cboyd at gizmopartners.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cisco or Akamai
+###############################################################
+ nslookup www.cisco.com
+ Server:  hai-dns.cns.ufl.edu
+ Address:  128.227.128.11
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+           geoprod.cisco.com.akadns.net
+ >tracert www.cisco.com
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ We do not have a route for this netblock.
+ Any body else see an issue?
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ Yep. Similar issue.
+ On Tue, Aug 4, 2009 at 8:30 AM, Robert D. Scott<robert at ufl.edu> wrote:
+ >>tracert www.cisco.com
+ I saw it about 2 hours ago.  I am able to ftp to ftp.cisco.com, but
+ unable to reach www.cisco.com; saw it down in
+ http://downforeveryoneorjustme.com/www.cisco.com as well.  Figured it
+ was temporary, but hadn't tried again.
+ Robert D. Scott wrote:
+ -- 
+ -----------------
+ Brian Raaen
+ Network Engineer
+ email: /braaen at zcorum.com/ <mailto:braaen at zcorum.com>
+ Telephone /678-507-5000x5574/
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: braaen.vcf
+ Type: text/x-vcard
+ Size: 206 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/bdd609e3/attachment.vcf>
+ The prefix 198.133.219.0/24 does not appear in either of our bgp tables.
+ Both ftp.cisco.com and www.cisco.com resolve in that subnet.
+ Someone is having a bad morning.
+ ----
+ Matthew Huff?????? | One Manhattanville Rd
+ OTA Management LLC | Purchase, NY 10577
+ http://www.ox.com  | Phone: 914-460-4039
+ aim: matthewbhuff? | Fax:?? 914-460-4139
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: Matthew Huff.vcf
+ Type: application/octet-stream
+ Size: 1595 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/24430d0e/attachment-0001.obj>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 4229 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/24430d0e/attachment-0001.bin>
+ Yes, I'm seeing it here - we're connected via Level3 in Southfield 
+ MI, and Bell Canada in Windsor, Ontario.
+ http://downforeveryoneorjustme.com/www.cisco.com
+ Reports it as down as well.
+ At 09:30 AM 8/4/2009, Robert D. Scott wrote:
+ >nslookup www.cisco.com
+ >Server:  hai-dns.cns.ufl.edu
+ >Address:  128.227.128.11
+ >Non-authoritative answer:
+ >Name:    origin-www.cisco.com
+ >Address:  198.133.219.25
+ >Aliases:  www.cisco.com, www.cisco.com.akadns.net
+ >Tracing route to origin-www.cisco.com [198.133.219.25]
+ >We do not have a route for this netblock.
+ >Any body else see an issue?
+ >Robert D. Scott                 Robert at ufl.edu
+ >Senior Network Engineer         352-273-0113 Phone
+ >CNS - Network Services          352-392-2061 CNS Phone Tree
+ >University of Florida           352-392-9440 FAX
+ >Florida Lambda Rail             352-294-3571 FLR NOC
+ >Gainesville, FL  32611          321-663-0421 Cell
+ >_______________________________________________
+ >outages mailing list
+ >outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.392 / Virus Database: 270.13.43/2281 - Release Date: 
+ >08/04/09 05:57:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ 	<1249394633_64603@surgemail.win>
+ Up for me in Windsor, Ontario.  Heading through MNSi.
+ -----Original Message-----
+ From: outages-bounces at outages.org on behalf of Clayton Zekelman
+ Sent: Tue 8/4/2009 10:05 AM
+ Subject: Re: [outages] Cisco or Akamai
+ Yes, I'm seeing it here - we're connected via Level3 in Southfield 
+ MI, and Bell Canada in Windsor, Ontario.
+ http://downforeveryoneorjustme.com/www.cisco.com
+ Reports it as down as well.
+ At 09:30 AM 8/4/2009, Robert D. Scott wrote:
+ >nslookup www.cisco.com
+ >Server:  hai-dns.cns.ufl.edu
+ >Address:  128.227.128.11
+ >Non-authoritative answer:
+ >Name:    origin-www.cisco.com
+ >Address:  198.133.219.25
+ >Aliases:  www.cisco.com, www.cisco.com.akadns.net
+ >Tracing route to origin-www.cisco.com [198.133.219.25]
+ >We do not have a route for this netblock.
+ >Any body else see an issue?
+ >Robert D. Scott                 Robert at ufl.edu
+ >Senior Network Engineer         352-273-0113 Phone
+ >CNS - Network Services          352-392-2061 CNS Phone Tree
+ >University of Florida           352-392-9440 FAX
+ >Florida Lambda Rail             352-294-3571 FLR NOC
+ >Gainesville, FL  32611          321-663-0421 Cell
+ >_______________________________________________
+ >outages mailing list
+ >outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.392 / Virus Database: 270.13.43/2281 - Release Date: 
+ >08/04/09 05:57:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/e8d09bfd/attachment.html>
+ 	<1249394633_64603@surgemail.win>
+ 	<BCD3E762F1767C42A5226BBACDE49BFB6FCE36@loki.acs.local>
+ Just came back up...
+ At 10:08 AM 8/4/2009, Jeff Cartier wrote:
+ >Up for me in Windsor, Ontario.  Heading through MNSi.
+ >-----Original Message-----
+ >From: outages-bounces at outages.org on behalf of Clayton Zekelman
+ >Sent: Tue 8/4/2009 10:05 AM
+ >To: Robert D. Scott; outages at outages.org
+ >Subject: Re: [outages] Cisco or Akamai
+ >Yes, I'm seeing it here - we're connected via Level3 in Southfield
+ >MI, and Bell Canada in Windsor, Ontario.
+ ><http://downforeveryoneorjustme.com/www.cisco.com>http://downforeveryoneorjustme.com/www.cisco.com
+ >Reports it as down as well.
+ >At 09:30 AM 8/4/2009, Robert D. Scott wrote:
+ >---
+ >Clayton Zekelman
+ >Managed Network Systems Inc. (MNSi)
+ >344-300 Tecumseh Rd. E.
+ >Windsor, Ontario
+ >N8X 5E8
+ >tel. 519-985-8410
+ >fax. 519-985-8409
+ >_______________________________________________
+ >outages mailing list
+ >outages at outages.org
+ ><https://puck.nether.net/mailman/listinfo/outages>https://puck.nether.net/mailman/listinfo/outages
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.392 / Virus Database: 270.13.43/2281 - Release Date: 
+ >08/04/09 05:57:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/6ecb879d/attachment.html>
+ On Aug 4, 2009, at 9:30 AM, Robert D. Scott wrote:
+ Same down in Miami, FL
+ www.cisco.com.		1942	IN	CNAME	www.cisco.com.akadns.net.
+ www.cisco.com.akadns.net. 43	IN	CNAME	geoprod.cisco.com.akadns.net.
+ geoprod.cisco.com.akadns.net. 43 IN	CNAME	origin-www.cisco.com.
+ origin-www.cisco.com.	1907	IN	A	198.133.219.25
+ traceroute to origin-www.cisco.com (198.133.219.25), 64 hops max, 40  
+ byte packets
+   4  66-240-79-1.ftl.fdn.com (66.240.79.1)  9.842 ms  12.450 ms  9.765  
+ ms
+   5  * * *
+   6  * * *
+   7  * * *
+ Ryan Parrish - Information Technology Manager
+ Freight Logistics 12200 NW 25th Street Suite 105 Miami FL 33182
+ O: 786-235-7800 x 102 F: 786-235-7801 M: 408-966-4673
+ www.freightlogistics.com
+ The information contained in this message may be privileged,  
+ confidential, and protected from disclosure. If the reader of this  
+ message is not the intended recipient, or any employee or agent  
+ responsible for delivering this message to the intended recipient, you  
+ are hereby notified that any dissemination, distribution, or copying  
+ of this communication is strictly prohibited. If you have received  
+ this communication in error, please notify us immediately by replying  
+ to the message and deleting it from your computer. Thank you. Freight  
+ Logistics, Inc.
+ 	<1249394633_64603@surgemail.win>
+ Seeing it down here in the UK as well.
+ rt0:~$ show ip bgp 198.133.219.25
+ % Network not in table
+ Via Level3/Cogent/HE
+ Confirmed from Maryland.  
+ Microsoft Windows XP [Version 5.1.2600]
+ (C) Copyright 1985-2001 Microsoft Corp.
+ C:\>nslookup
+ Default Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+           geoprod.cisco.com.akadns.net
+ C:\>tracert 198.133.219.25
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ over a maximum of 30 hops:
+   1     1 ms    <1 ms    <1 ms  192.168.242.1
+   2     1 ms     2 ms     1 ms  209.251.32.4
+   3     1 ms    <1 ms    <1 ms  10.251.100.2
+   4     1 ms     1 ms     1 ms  10.251.1.1
+   5  201.gigabitethernet3-2.gw5.dca6.alter.net [65.195.230.29]  reports:
+ Destina
+ tion host unreachable.
+ Trace complete.
+ C:\>
+ Bob Roswell
+ System Source
+ broswell at syssrc.com
+ (410) 771-5544 ext 4336
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Robert D. Scott
+ Sent: Tuesday, August 04, 2009 9:31 AM
+ Subject: [outages] Cisco or Akamai
+ nslookup www.cisco.com
+ Server:  hai-dns.cns.ufl.edu
+ Address:  128.227.128.11
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+           geoprod.cisco.com.akadns.net
+ >tracert www.cisco.com
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ We do not have a route for this netblock.
+ Any body else see an issue?
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ http://blogs.cisco.com/news/comments/final_update_ciscocom_outage/
+   Scott
+ On Tue, Aug 4, 2009 at 6:30 AM, Robert D. Scott <robert at ufl.edu> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/a8a10150/attachment-0001.html>
+ 	<f1dedf9c0908040754p32df95c9w72c41a474012b1c7@mail.gmail.com>
+ On Aug 4, 2009, at 5:54 PM, Scott Howard wrote:
+ That's from 2007 isn't it?
+ Patrick.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/1f920632/attachment.html>
+ 	<ADB18AF8-09A5-4E90-9078-9AE24C9D3CB3@psg.com>
+ Yeah.  Looks like the new procedures did not work so well either.
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Patrick Okui
+ Sent: Tuesday, August 04, 2009 11:09 AM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Cisco or Akamai
+ On Aug 4, 2009, at 5:54 PM, Scott Howard wrote:
+ 	http://blogs.cisco.com/news/comments/final_update_ciscocom_outage/
+ That's from 2007 isn't it?
+ Patrick.
+ 	<24BA58C0-3154-4B05-ADEC-1B3B0421390D@freightlogistics.com>
+ I am in Atlanta GA via XO and it is still down for me.
+ Regards
+ Glenn Borowski
+ IT Leader
+ gborowski at iplex.com
+ Mobile: (404) 542-4615
+ Office: (678) 990-7868 x-515
+ Fax: (678) 990-7887
+ IPLEX
+ 11810 Wills Road #100
+ Alpharetta, GA 30009
+ www.iplex.com
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Ryan Parrish
+ Sent: Tuesday, August 04, 2009 9:45 AM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Cisco or Akamai
+ On Aug 4, 2009, at 9:30 AM, Robert D. Scott wrote:
+ Same down in Miami, FL
+ www.cisco.com.		1942	IN	CNAME
+ www.cisco.com.akadns.net.
+ www.cisco.com.akadns.net. 43	IN	CNAME
+ geoprod.cisco.com.akadns.net.
+ geoprod.cisco.com.akadns.net. 43 IN	CNAME	origin-www.cisco.com.
+ origin-www.cisco.com.	1907	IN	A	198.133.219.25
+ traceroute to origin-www.cisco.com (198.133.219.25), 64 hops max, 40  
+ byte packets
+   4  66-240-79-1.ftl.fdn.com (66.240.79.1)  9.842 ms  12.450 ms  9.765  
+ ms
+   5  * * *
+   6  * * *
+   7  * * *
+ Ryan Parrish - Information Technology Manager
+ Freight Logistics 12200 NW 25th Street Suite 105 Miami FL 33182
+ O: 786-235-7800 x 102 F: 786-235-7801 M: 408-966-4673
+ www.freightlogistics.com
+ The information contained in this message may be privileged,  
+ confidential, and protected from disclosure. If the reader of this  
+ message is not the intended recipient, or any employee or agent  
+ responsible for delivering this message to the intended recipient, you  
+ are hereby notified that any dissemination, distribution, or copying  
+ of this communication is strictly prohibited. If you have received  
+ this communication in error, please notify us immediately by replying  
+ to the message and deleting it from your computer. Thank you. Freight  
+ Logistics, Inc.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<601DD5FD848B9C4488A0BAE940CCAD332290D2@ipalph06.SynergeNet.local>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA512
+ Working fine from Denver, CO through Cogent....
+ Glenn Borowski wrote:
+ | I am in Atlanta GA via XO and it is still down for me.
+ - --
+ Chris Stone, MCSE
+ Vice President, CTO
+ AxisInternet, Inc.
+ http://www.axint.net
+ DSL, VoIP, hosting, email filtering, co-location, online backup & more
+ Phone: +1 303 592 2947 x302 (office)  +1 303 570 6947 (cell)
+ - -------------------------------------------------------------------------
+ 	<15BDDC14871D2A49BFCEEEF409EB2983090B4BA1@exchange.syssrcad.syssrc.com>
+ 	<889fd8b20908040758n7007989csa5286fe9e2b6d87e@mail.gmail.com>
+ Just a FYI, I copied and sent that out as well until I realized that blog
+ posting was from August 2007.
+ ----
+ Matthew Huff       | One Manhattanville Rd
+ OTA Management LLC | Purchase, NY 10577
+ http:// <http://www.otaotr.com/> www.ox.com  | Phone: 914-460-4039
+ aim: matthewbhuff  | Fax:   914-460-4139
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of virendra rode
+ Sent: Tuesday, August 04, 2009 10:59 AM
+ Subject: [outages] Fwd: Cisco or Akamai
+ Update off cisco blog:
+ http://blogs.cisco.com/news/comments/final_update_ciscocom_outage/
+ cut and paste for those who like to see text version:
+ FINAL UPDATE:  Cisco.com Outage
+ Service to Cisco.com <http://www.cisco.com/>  has been restored and all
+ applications are now fully operational.  The issue occurred during
+ preventative maintenance of one of our data centers when a human error
+ caused an electrical overload on the systems.  This caused Cisco.com
+ <http://www.cisco.com/>  and other applications to go down.  Because of the
+ severity of the overload, the redundancy measures in some of the
+ applications and power systems were impacted as well, though the system did
+ shut down as designed to protect the people and the equipment. As a result,
+ no data were lost and no one was injured. Cisco has plans already in process
+ to add additional redundancies to increase the resilience of these systems. 
+ Again, we thank our customers and our partners for their patience during the
+ resolution of this issue.
+ regards,
+ /virendra
+ ---------- Forwarded message ----------
+ From: Bob Roswell <broswell at syssrc.com>
+ Date: Tue, Aug 4, 2009 at 6:41 AM
+ Subject: Re: [outages] Cisco or Akamai
+ Confirmed from Maryland.
+ Microsoft Windows XP [Version 5.1.2600]
+ (C) Copyright 1985-2001 Microsoft Corp.
+ C:\>nslookup
+ Default Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+          geoprod.cisco.com.akadns.net
+ C:\>tracert 198.133.219.25
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ over a maximum of 30 hops:
+  1     1 ms    <1 ms    <1 ms  192.168.242.1
+  2     1 ms     2 ms     1 ms  209.251.32.4
+  3     1 ms    <1 ms    <1 ms  10.251.100.2
+  4     1 ms     1 ms     1 ms  10.251.1.1
+  5  201.gigabitethernet3-2.gw5.dca6.alter.net [65.195.230.29]  reports:
+ Destina
+ tion host unreachable.
+ Trace complete.
+ C:\>
+ Bob Roswell
+ System Source
+ broswell at syssrc.com
+ (410) 771-5544 ext 4336
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Robert D. Scott
+ Sent: Tuesday, August 04, 2009 9:31 AM
+ Subject: [outages] Cisco or Akamai
+ nslookup www.cisco.com
+ Server:  hai-dns.cns.ufl.edu
+ Address:  128.227.128.11
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+          geoprod.cisco.com.akadns.net
+ >tracert www.cisco.com
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ We do not have a route for this netblock.
+ Any body else see an issue?
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/63ee1a46/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 2223 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/63ee1a46/attachment-0001.jpe>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: Matthew Huff.vcf
+ Type: application/octet-stream
+ Size: 1595 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/63ee1a46/attachment-0001.obj>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: smime.p7s
+ Type: application/x-pkcs7-signature
+ Size: 4229 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/63ee1a46/attachment-0001.bin>
+ 	<889fd8b20908040758n7007989csa5286fe9e2b6d87e@mail.gmail.com>
+ On 04.08.2009 16:58, virendra rode wrote:
+ which is dated August 09, 2007?
+ cheers,
+ raoul
+ -- 
+ ____________________________________________________________________
+ DI (FH) Raoul Bhatia M.Sc.          email.          r.bhatia at ipax.at
+ Technischer Leiter
+ IPAX - Aloy Bhatia Hava OEG         web.          http://www.ipax.at
+ Barawitzkagasse 10/2/2/11           email.            office at ipax.at
+ 1190 Wien                           tel.               +43 1 3670030
+ FN 277995t HG Wien                  fax.            +43 1 3670030 15
+ ____________________________________________________________________
+ 	<f1dedf9c0908040754p32df95c9w72c41a474012b1c7@mail.gmail.com>
+ That's a two years old news...
+ On Tue, 4 Aug 2009 07:54:32 -0700, Scott Howard <scott at doc.net.au> wrote:
+ 	<15BDDC14871D2A49BFCEEEF409EB2983090B4BA1@exchange.syssrcad.syssrc.com>
+ 	<889fd8b20908040758n7007989csa5286fe9e2b6d87e@mail.gmail.com>
+ It should be pointed out that this BLOG entry is from August 9, 2007
+ (two years ago).
+ - Chris
+ On Tue, Aug 4, 2009 at 10:58 AM, virendra rode<virendra.rode at gmail.com> wrote:
+ >>tracert www.cisco.com
+ 	<15BDDC14871D2A49BFCEEEF409EB2983090B4BA1@exchange.syssrcad.syssrc.com>
+ 	<889fd8b20908040758n7007989csa5286fe9e2b6d87e@mail.gmail.com>
+ 	<483E6B0272B0284BA86D7596C40D29F9D1221281B7@PUR-EXCH07.ox.com>
+ mea culpa.
+ Hopefully cisco will have a more recent update shortly.
+ Stay tuned as I've been told.
+ regards,
+ /virendra
+ On Tue, Aug 4, 2009 at 8:34 AM, Matthew Huff <mhuff at ox.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/bc35ba40/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: image/jpeg
+ Size: 2223 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/bc35ba40/attachment-0001.jpe>
+ 	<15BDDC14871D2A49BFCEEEF409EB2983090B4BA1@exchange.syssrcad.syssrc.com>
+ 	<889fd8b20908040758n7007989csa5286fe9e2b6d87e@mail.gmail.com>
+ On Aug 4, 2009, at 10:58 AM, virendra rode wrote:
+ You forgot the first line on the web page:
+     August 09, 2007
+ I'm guessing it is not related.
+ -- TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+ Cisco or Akamai
+###############################################################
+ 	<15BDDC14871D2A49BFCEEEF409EB2983090B4BA1@exchange.syssrcad.syssrc.com>
+ Update off cisco blog:
+ http://blogs.cisco.com/news/comments/final_update_ciscocom_outage/
+ cut and paste for those who like to see text version:
+ FINAL UPDATE:  Cisco.com Outage
+ Service to Cisco.com <http://www.cisco.com/> has been restored and all
+ applications are now fully operational.  The issue occurred during
+ preventative maintenance of one of our data centers when a human error
+ caused an electrical overload on the systems.  This caused
+ Cisco.com<http://www.cisco.com/>and other applications to go down.
+ Because of the severity of the overload,
+ the redundancy measures in some of the applications and power systems were
+ impacted as well, though the system did shut down as designed to protect the
+ people and the equipment. As a result, no data were lost and no one was
+ injured. Cisco has plans already in process to add additional redundancies
+ to increase the resilience of these systems.
+ Again, we thank our customers and our partners for their patience during the
+ resolution of this issue.
+ regards,
+ /virendra
+ ---------- Forwarded message ----------
+ From: Bob Roswell <broswell at syssrc.com>
+ Date: Tue, Aug 4, 2009 at 6:41 AM
+ Subject: Re: [outages] Cisco or Akamai
+ Confirmed from Maryland.
+ Microsoft Windows XP [Version 5.1.2600]
+ (C) Copyright 1985-2001 Microsoft Corp.
+ C:\>nslookup
+ Default Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Server:  dc.syssrcad.syssrc.com
+ Address:  192.168.242.133
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+          geoprod.cisco.com.akadns.net
+ C:\>tracert 198.133.219.25
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ over a maximum of 30 hops:
+  1     1 ms    <1 ms    <1 ms  192.168.242.1
+  2     1 ms     2 ms     1 ms  209.251.32.4
+  3     1 ms    <1 ms    <1 ms  10.251.100.2
+  4     1 ms     1 ms     1 ms  10.251.1.1
+  5  201.gigabitethernet3-2.gw5.dca6.alter.net [65.195.230.29]  reports:
+ Destina
+ tion host unreachable.
+ Trace complete.
+ C:\>
+ Bob Roswell
+ System Source
+ broswell at syssrc.com
+ (410) 771-5544 ext 4336
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Robert D. Scott
+ Sent: Tuesday, August 04, 2009 9:31 AM
+ Subject: [outages] Cisco or Akamai
+ nslookup www.cisco.com
+ Server:  hai-dns.cns.ufl.edu
+ Address:  128.227.128.11
+ Non-authoritative answer:
+ Name:    origin-www.cisco.com
+ Address:  198.133.219.25
+ Aliases:  www.cisco.com, www.cisco.com.akadns.net
+          geoprod.cisco.com.akadns.net
+ >tracert www.cisco.com
+ Tracing route to origin-www.cisco.com [198.133.219.25]
+ We do not have a route for this netblock.
+ Any body else see an issue?
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Phone Tree
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/3612db2e/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T -> T-Mobile SMS?
+###############################################################
+ Is anyone else seeing problems sending SMS from AT&T to T-Mobile (or
+ other providers)?  When my monitoring system sends a message (via a GSM
+ modem with an AT&T SIM card) "Test page 3", AT&T accepts the message,
+ but I get an SMS back in just a few seconds from 1121611611 that says:
+ 1xxxxxxxxxx Error Invalid Number. Please re-send using a valid 10 digit mobile number or valid short code. Test page 3
+ where xxxxxxxxxx is the 10 digit T-Mobile number I sent a message to.
+ It looks like something on the network is prepending a "1" and then
+ rejecting the message because of the "1".
+ This has been working fine for a while and just quit working today
+ sometime.
+ -- 
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+ On 08/04/2009 01:26 PM, Chris Adams wrote:
+ I just sent an SMS to a T-Mobile phone from my ATT iPhone and had no issues.
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ 	<4A789CBB.4020209@neoverve.com>
+ Not sure if it's related but, I used e-mail -> ATT SMS and my girlfriend 
+ got some of them immediatley while most of them were delayed for a few 
+ hours.  This went on around 11am PDT.
+ Typically, it's instantaneous.  Not sure if the delay was on Google's 
+ SMTP end, ATT's end, or both.
+ Paul Norton wroteth on 8/4/2009 1:40 PM:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Los Angeles Outage
+###############################################################
+ We are receiving all trunks busy on Telepacific PRI in Los Angeles.  Their
+ NOC (877-487-8349 or 213-213-3899) are also failing to recording.
+ We have heard that there is a power outage somewhere in the area South Bay
+ (near LAX).
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090804/c31109ea/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Att wireless outage in burbank ca(lifornia)
+###############################################################
+ No idea how far it extends. All my users are offline.
+ Sent via BlackBerry from T-Mobile
+ Maybe that's due to 40-acre fire burning around suburban Glendale.
+ regards,
+ /virendra
+ On Wed, Aug 5, 2009 at 4:58 PM, <lists at up-south.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090805/d424206d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Twitter down 8/6 AM
+###############################################################
+ Completely; I'm at Worldcon 09 in Montreal, and the hotel's proxy
+ can't even get the server to reply to its squid.
+ I *could* ping and mtr www.twitter.com, earlier, but now I can't, and
+ downforeveryone concurs.
+ elphaba:/home/jra # mtr -r -c 10 www.twitter.com
+ HOST: elphaba                     Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. 172.16.0.1                    0.0%    10    0.3   0.4   0.2   0.6   0.1
+   2. static-68-179-81-65.ptr.tera  0.0%    10  237.7 106.5  18.3 237.7  82.0
+   3. 172.16.218.254                0.0%    10  275.4 167.3  37.1 361.7  98.8
+   4. 10.64.194.13                 10.0%    10  283.4 148.0  72.2 309.7  92.6
+   5. 69.156.255.213                0.0%    10  231.4 126.4  30.0 287.5  85.5
+   6. core4-montreal02_POS6-1.net.  0.0%    10  179.4 104.5  20.2 235.5  65.3
+   7. Ncore3-montreal02_POS0-4-1-0  0.0%    10  167.6 119.2  12.2 323.6  98.3
+   8. newcore1-newyork83_so1-0-0.n  0.0%    10  405.4 182.1  52.8 405.4 107.5
+   9. CORE1-NEWYORK83_POS3-0-0_cor 10.0%    10  353.4 155.5  48.8 353.4  93.0
+  10. Verio-Peering.net.bell.ca     0.0%    10  340.9 153.3  49.1 340.9  97.9
+  11. ae-0.r21.nycmny01.us.bb.gin.  0.0%    10  319.6 156.6  62.1 319.6  87.2
+  12. as-0.r20.asbnva02.us.bb.gin.  0.0%    10  327.4 168.6  98.8 327.4  70.1
+  13. xe-2-3.r00.asbnva02.us.bb.gi  0.0%    10  395.5 164.0  61.5 395.5  95.4
+  14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+ Looks like their upstream borke, to me.
+ Great timing... not that there isn't always *something* going on somewhere.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ It is a DDoS.
+ Jay R. Ashworth wrote:
+ Twitter indicates on their status blog that they are in the process of  
+ fighting off a DoS:
+ http://status.twitter.com/post/157191978/ongoing-denial-of-service-attack
+ Dan
+ On Aug 6, 2009, at 10:10 AM, Jay R. Ashworth wrote:
+ -- 
+ Dan York, Director of Conversations
+ Voxeo Corporation   http://www.voxeo.com  dyork at voxeo.com
+ Phone: +1-407-455-5859    Skype: danyork
+ Join the Voxeo conversation:
+ Blogs: http://blogs.voxeo.com
+ Twitter: http://twitter.com/voxeo  http://twitter.com/danyork
+ Facebook: http://www.facebook.com/voxeo
+ Hello Jay,
+ Have a look here:
+ http://status.twitter.com/post/157191978/ongoing-denial-of-service-attack
+ Cheers,
+ --
+ Christoph Blecker
+ Network Analyst
+ PEER 1
+ 1000-555 West Hastings Street
+ Vancouver, BC, Canada  V6B 4N5
+ 24/7 Support: 1.866.484.2588
+ T: 604.484.2588
+ F: 604.683.4634
+ cblecker at peer1.com
+ http://www.peer1.com
+ NETWORK | CO-LOCATION | MANAGED HOSTING
+ Jay R. Ashworth wrote:
+ Jay R. Ashworth wrote:
+ http://status.twitter.com/post/157191978/ongoing-denial-of-service-attack
+ Hugo
+ 	<4A7B0075.2060403@baylor.edu>
+ There is an article on CNN.com about Twitter being hit by a denial of
+ service attack.
+ Thanks,
+ William Rodriguez
+ Senior Network Administrator
+ BlueBridge Networks, LLC.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of RL Vaughn
+ Sent: Thursday, August 06, 2009 12:10 PM
+ Cc: outages
+ Subject: Re: [outages] Twitter down 8/6 AM
+ It is a DDoS.
+ Jay R. Ashworth wrote:
+ StDev
+ 0.1
+ 82.0
+ 98.8
+ 92.6
+ 85.5
+ 65.3
+ 98.3
+ 107.5
+ 93.0
+ 97.9
+ 87.2
+ 70.1
+ 95.4
+ 0.0
+ somewhere.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<4A7B0075.2060403@baylor.edu>
+ Offtopic..
+ "It's a TRAP!"
+ On Thu, Aug 6, 2009 at 12:10 PM, RL Vaughn <rl_vaughn at baylor.edu> wrote:
+ -- Joel Esler | http://joelesler.net
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090806/64b85b05/attachment.html>
+ Jay,
+ Seems as though Twitter is being Ddos attached right now.
+ http://news.cnet.com/8301-13577_3-10304633-36.html
+ Derek McDaniel
+ Systems Support
+ MAXIMUM Communications, Inc.
+ dmcdaniel at maximumcomm.com
+ 800-589-6299 ext 111
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]On
+ Behalf Of Jay R. Ashworth
+ Sent: Thursday, August 06, 2009 11:10 AM
+ Subject: [outages] Twitter down 8/6 AM
+ Completely; I'm at Worldcon 09 in Montreal, and the hotel's proxy
+ can't even get the server to reply to its squid.
+ I *could* ping and mtr www.twitter.com, earlier, but now I can't, and
+ downforeveryone concurs.
+ elphaba:/home/jra # mtr -r -c 10 www.twitter.com
+ HOST: elphaba                     Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. 172.16.0.1                    0.0%    10    0.3   0.4   0.2   0.6   0.1
+   2. static-68-179-81-65.ptr.tera  0.0%    10  237.7 106.5  18.3 237.7  82.0
+   3. 172.16.218.254                0.0%    10  275.4 167.3  37.1 361.7  98.8
+   4. 10.64.194.13                 10.0%    10  283.4 148.0  72.2 309.7  92.6
+   5. 69.156.255.213                0.0%    10  231.4 126.4  30.0 287.5  85.5
+   6. core4-montreal02_POS6-1.net.  0.0%    10  179.4 104.5  20.2 235.5  65.3
+   7. Ncore3-montreal02_POS0-4-1-0  0.0%    10  167.6 119.2  12.2 323.6  98.3
+   8. newcore1-newyork83_so1-0-0.n  0.0%    10  405.4 182.1  52.8 405.4 107.5
+   9. CORE1-NEWYORK83_POS3-0-0_cor 10.0%    10  353.4 155.5  48.8 353.4  93.0
+  10. Verio-Peering.net.bell.ca     0.0%    10  340.9 153.3  49.1 340.9  97.9
+  11. ae-0.r21.nycmny01.us.bb.gin.  0.0%    10  319.6 156.6  62.1 319.6  87.2
+  12. as-0.r20.asbnva02.us.bb.gin.  0.0%    10  327.4 168.6  98.8 327.4  70.1
+  13. xe-2-3.r00.asbnva02.us.bb.gi  0.0%    10  395.5 164.0  61.5 395.5  95.4
+  14. ???                          100.0    10    0.0   0.0   0.0   0.0   0.0
+ Looks like their upstream borke, to me.
+ Great timing... not that there isn't always *something* going on somewhere.
+ Cheers,
+ -- jra
+ --
+ Jay R. Ashworth                   Baylink
+ jra at baylink.com
+ Designer                     The Things I Think                       RFC
+ 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87
+ e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+ 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ __________ NOD32 4312 (20090806) Information __________
+ This message was checked by NOD32 antivirus system.
+ http://www.eset.com
+###############################################################
+END
+###############################################################
+
+###############################################################
+Nextel roaming to Canada down countrywide
+###############################################################
+ Additionally, I was told last night by a Nextel International rep that the
+ reason my Nextel phone could get SMS (well, ok, MMS) and TCP but not *voice*
+ (DC is unknown; my partner has a crossover phone, and Qchat will not roam to
+ Canada at *all*) is that there's some centralized outage between the two 
+ networks.  My phone says the quite unusual 'nXTL'.
+ I gathered an impression that the problem was something like a breakage
+ between the master Canadian VLR and the HLR at Sprint/Nextel, but the rep 
+ wasn't technical to actually be able to tell me details (I'd be glad to hear
+ some details, if anyone on the list has them).
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google
+###############################################################
+ Is it just me, or is google broken--every blog on their stuff gives a 
+ "we are sorry--spurious request"
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ Actually, I'm seeing the same thing. What's strange, is I'm not even
+ hitting google-related sites (as far as I can tell, perhaps they have
+ some API on their backend).
+ http://pacscilife.blogspot.com/
+ >From one AS i get the sorry page, from another I'm able to surf fine.
+ Doesn't seem to be impacting direct connections to google.com, just
+ clicking out of Gmail, for example.
+ Anyone else seeing this, and what symptoms?
+ - DL
+ On Fri, Aug 7, 2009 at 12:04, Larry Sheldon<LarrySheldon at cox.net> wrote:
+ 	<89258bd40908071235x76eda072y7745eb61dfe62ab5@mail.gmail.com>
+ No problems seen coming from AS209 in minneapolis,mn.
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of dl
+ Sent: Friday, August 07, 2009 2:35 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Google
+ Actually, I'm seeing the same thing. What's strange, is I'm not even hitting google-related sites (as far as I can tell, perhaps they have some API on their backend).
+ http://pacscilife.blogspot.com/
+ >From one AS i get the sorry page, from another I'm able to surf fine.
+ Doesn't seem to be impacting direct connections to google.com, just clicking out of Gmail, for example.
+ Anyone else seeing this, and what symptoms?
+ - DL
+ On Fri, Aug 7, 2009 at 12:04, Larry Sheldon<LarrySheldon at cox.net> wrote:
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Larry Sheldon wrote:
+ not only you
+ *Google* 	
+ Sorry...      
+   We're sorry...
+ ... but your computer or network may be sending automated queries. To 
+ protect our users, we can't process your request right now.
+ See Google Help 
+ <http://www.google.com/support/bin/answer.py?answer=86640> for more 
+ information.
+ ? 2009 Google - Google Home <http://www.google.com>
+ 	<89258bd40908071235x76eda072y7745eb61dfe62ab5@mail.gmail.com>
+ That blog displays fine here (AS 7024)
+ They may be blocking depending upon where they are getting attacked from.
+ Since we aren't a huge consumer network we may not have any bots hitting 
+ them.
+ -bill
+ Pixelgate Networks
+ dl wrote:
+ No issues seen from Los Angeles (AS 701).
+ regards,
+ /virendra
+ On Fri, Aug 7, 2009 at 12:04 PM, Larry Sheldon <LarrySheldon at cox.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090807/d2d44fc7/attachment.html>
+ 	<889fd8b20908071508v1530aa1evb398cb9035419da0@mail.gmail.com>
+ 	<6286FF05EBE33C4596F6C6C23762686702560D88@VS11.EXCHPROD.USA.NET>
+ What does this have to do with the previously reported Google outage?
+ :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Sat, Aug 08, 2009 at 08:54:02PM -0600, Dylan Ebner wrote:
+ We have received that message when performing Google searches before. A quick way to make it go away is to change the NAT/PAT address you use for your workstations.
+ I would be interested in seeing what others find has caused this. The few time it happened at work, I could not find any root cause.
+ ------Original Message------
+ From: William Kern
+ Sender: outages-bounces at outages.org
+ Subject: Re: [outages] Google
+ Sent: Aug 7, 2009 15:53
+ That blog displays fine here (AS 7024)
+ They may be blocking depending upon where they are getting attacked from.
+ Since we aren't a huge consumer network we may not have any bots hitting 
+ them.
+ -bill
+ Pixelgate Networks
+ dl wrote:
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ (Sent via BlackBerry)
+ If you ask Google (via the URL provided) they will eventually get back to
+ you with a time range when they saw the traffic that they detected as
+ "unusual"/automated.
+ Getting back on topic a little, the below blog URL was returning the error
+ here but is now working fine so I suspect they have fixed the problem for
+ some users at least.
+   Scott.
+ On Fri, Aug 7, 2009 at 2:19 PM, Chris Burwell <cburwell at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090807/75e58487/attachment-0001.html>
+ Blogs under DOS attack again?
+ All return
+ "Google 	
+ Sorry...
+ We're sorry...
+ ... but your computer or network may be sending automated queries. To 
+ protect our users, we can't process your request right now.
+ See Google Help for more information."
+ Again.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ Larry Sheldon wrote:
+ Looks like it [was] cleared quickly this time.
+ Appears to be sporadic (again); Blogspot URLs are loading OK from here
+ via AS4323. Was last week's outage a DDoS, or just server goofiness at
+ Big G?
+ -s
+ On Mon, 17 Aug 2009 17:11:24 -0500
+ Larry Sheldon <LarrySheldon at cox.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+embarq in minnesota
+###############################################################
+ 	<889fd8b20908071508v1530aa1evb398cb9035419da0@mail.gmail.com>
+ Embarq customers in minnesota have now been without internet access for
+ almost 24 hours. confirmed this evening with embarq support that they
+ are "waiting for parts" and repair will most likely not be until sunday.
+ Parts? Really Embarq? You need to wait for parts? Are you not a regional
+ ISP that serves at least 250000 people? And isn't the Qwest/Cisco parts
+ depot something like 30 miles away?
+ What I want to know is who at embarq is going to get canned for letting
+ a service contract expire or not having the appropriate spare hardware?
+ P.S. Hey Embarq engineers, BGP was designed so you could have more than
+ one upstream provider. 
+ Dylan
+ ________________________________
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of virendra rode
+ Sent: Friday, August 07, 2009 5:08 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] Google
+ No issues seen from Los Angeles (AS 701).
+ regards,
+ /virendra
+ On Fri, Aug 7, 2009 at 12:04 PM, Larry Sheldon <LarrySheldon at cox.net>
+ wrote:
+ 	Is it just me, or is google broken--every blog on their stuff
+ gives a "we are sorry--spurious request"
+ 	-- 
+ 	Requiescas in pace o email              Two identifying
+ characteristics
+ 	                                            of System
+ Administrators:
+ 	Ex turpi causa non oritur actio        Infallibility, and the
+ ability to
+ 	                                            learn from their
+ mistakes.
+ 	Eppure si rinfresca
+ 	ICBM Targeting Information:
+ 	       http://tinyurl.com/4sqczs
+ 	       http://tinyurl.com/7tp8ml
+ 	_______________________________________________
+ 	outages mailing list
+ 	outages at outages.org
+ 	https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090808/4bec3df7/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ embarq in minnesota
+###############################################################
+ ----- Forwarded Message -----
+ From: "Jay R. Ashworth" <jra at baylink.com>
+ Sent: Sunday, August 9, 2009 11:00:22 AM GMT -05:00 US/Canada Eastern
+ Subject: Re: [outages] embarq in minnesota
+ ----- "Dylan Ebner" <dylan.ebner at crlmed.com> wrote:
+ well, I dunno; that's what I was trying to do with my Nextel posting the
+ other day, and it's *STILL* down up here; on top of which my partner has a
+ CDMA QChat nextel phone and DC doesn't roam for him... *and* while my SMS
+ to the states works fine, all of *his* SMSs in both directions are delayed
+ over half an hour; I've already missed at least one good Worldcon event
+ because for all we pay them every month, they've left us *no* working way
+ to communicate with one another in real time.
+ I'm probably flying home via Lenexa; I really feel the need to get in a suit's
+ face about this; we are *not* paying for this month.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Qwest routing
+###############################################################
+ Anyone have any details on the current qwest to savvis routing issues?  ETR or cause?
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090810/20131a9e/attachment.html>
+ I have a Qwest Internet T1 and a Qwest P2P T1, and neither had issues  
+ today.  I'm in Danbury, CT.
+ Thank you,
+ Mike Hoffman
+ IT Help Desk Analyst
+ Odyssey Logistics & Technology Corporation
+ 39 Old Ridgebury Road
+ A-4
+ Danbury, CT  06810
+ Phone: (203) 448-3872
+ Fax: (203) 448-3901
+ Odyssey Overland LLC
+ 1500 Route 517
+ Suite 300
+ Hackettstown, NJ 07840
+ Phone: (908) 850-4490
+ Fax: (908) 850-3852
+ On Aug 10, 2009, at 17:15, "Blake Pfankuch" <bpfankuch at cpgreeley.com>  
+ wrote:
+ Not seeing any problems in Chicago -- we are peered with both 209 and 3561
+ Blake Pfankuch wrote:
+ -- 
+ http://www.sleepycatz.com
+ sjk at cupacoffee.net
+ fingerprint: 1024D/89420B8E 2001-09-16
+ No one can understand the truth until
+ he drinks of coffee's frothy goodness.
+ ~Sheik Abd-al-Kadir
+ 	<20090810214832.GF1435625@hiwaay.net>
+ Have a look at http://internetpulse.com/ im in denver area, and our routing to some of our local Comcast customers is HORRID.  Timing out like mad, 150-200ms latency where it should be 30-40ms.
+ -----Original Message-----
+ From: Chris Adams [mailto:cmadams at hiwaay.net]
+ Sent: Monday, August 10, 2009 3:49 PM
+ Subject: Re: Qwest routing
+ Once upon a time, Blake Pfankuch <bpfankuch at cpgreeley.com> said:
+ Can you be more specific?  I'm not seeing any problems getting to Savvis
+ on my Qwest circuit.
+ --
+ Chris Adams <cmadams at hiwaay.net>
+ Systems and Network Administrator - HiWAAY Internet Services
+ I don't speak for anybody but myself - that's enough trouble.
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT, Comcast Issues
+###############################################################
+ Did anyone experience issues with ATT and Comcast between 8-9:00 PM on 8/10 ? 
+ There was also some talk about a fiber cut in bay area, but I could not find anything on 
+ google about it. 
+ Mbajwa
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090811/6f7df7bb/attachment.html>
+ I'm a Comcast subscriber in the bay, and I do pretty extensive
+ monitoring of Comcast IP connectivity/reliability (both incoming and
+ outgoing).
+ I witnessed no service interruptions on 2009/08/10 between 2000-2100
+ PDT, and my periodic traceroutes/mtrs show no indication of IP network
+ reconvergence that took place during that time frame.  My IP tests do
+ not utilise Comcast<-->AT&T paths though, only Comcast<-->Level3 or
+ Comcast<-->Abovenet.
+ Packets from my Comcast connection to a destination in Santa Clara
+ normally go from Mountain View -> Oakland -> Sacramento -> San Jose ->
+ Santa Clara.  This is visible in traceroute/mtr.
+ The best place to look for outage reports of this sort is on
+ BroadbandReports/DSLreports.  The below lists are for general forum
+ discussion and direct Comcast-employee-to-customer support, respectively
+ (you won't be able to read the latter posts, but you can see the
+ Topics).
+ http://www.dslreports.com/forum/comcast
+ http://www.dslreports.com/forum/comcastdirect
+ Additionally, my night job involves monitoring quite a few links in and
+ out of the Bay via different transport providers, and nothing was
+ witnessed with AT&T on the night of 2009/08/10.
+ Hope this helps.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 11, 2009 at 07:32:04PM -0700, Monika Bajwa wrote:
+ I didn't notice anything out of the ordinary, but, this is the first  
+ Month that Comcast has
+ been able to achieve one 9 of reliability since my service was  
+ installed in January.
+ No, I'm not exaggerating, they literally are down ~3-4 days each month  
+ until now.
+ Before you get too impressed, they have yet to achieve a second 9 of  
+ reliability,
+ even this month.
+ Owen
+ On Aug 11, 2009, at 7:32 PM, Monika Bajwa wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090812/bd82bd14/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 routing issue
+###############################################################
+ Level 3 had a routing loop problem in San francisco on 8/8-8/9. We had issues with 
+ Comcast customers being able to access some websites. Did anyone?see anything similar ? 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090817/6cce209b/attachment.html>
+ Our texas NMS picked up ingress routing trouble to Level(3) prefixes around
+ 3:00AM PST. Traffic to SFO and SJC from Dallas was headed through London.
+ Level(3) seemed to correct this after about 45 minutes.
+ On Mon, Aug 17, 2009 at 3:41 PM, Monika Bajwa <mbajwa75 at yahoo.com> wrote:
+ -- 
+ Andy Schwabecher
+ Central Host, Inc.
+ andy at centralhost.com
+ +1-877-741-6168 office/fax
+ +1-408-209-1528 cell
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090817/5947cb67/attachment.html>
+ On Tue, Aug 18, 2009 at 8:41 AM, Monika Bajwa <mbajwa75 at yahoo.com> wrote:
+ Yes.  Started at 3:36am Pacific, and ended at 4:12am.
+ Looks like level 3 were advertising their US routes out of London, with
+ latency from non-L3 in San Francisco to multiple Level 3 around 200ms and
+ near 100% packet loss.
+   2  10gigabitethernet1-1.core1.sjc2.he.net (72.52.81.178)  10.484 ms
+ 13.600 ms  4.616 ms
+   3  10gigabitethernet1-3.core1.nyc4.he.net (72.52.92.26)  90.816 ms  86.060
+ ms  79.697 ms
+   4  10gigabitethernet1-2.core1.lon1.he.net (72.52.92.78)  160.023 ms
+ 149.021 ms  157.903 ms
+   5  * * *
+   6  * * *
+   7  * * *
+   Scott.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090818/5a36595e/attachment.html>
+ I saw up to 40% packet-loss on the Comcast network between
+ Sacramento/Portland, for intermittent periods of time between 9AM-3PM
+ PST. It's been stable the past few hours.
+ This was seen both via Level3 and Sprint from my perspective.
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+ On Behalf Of Monika Bajwa
+ Sent: Monday, August 17, 2009 15:42
+ Subject: [outages] Level 3 routing issue
+ Level 3 had a routing loop problem in San francisco on 8/8-8/9. We had
+ issues with 
+ Comcast customers being able to access some websites. Did anyone see
+ anything similar ? 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090817/0132f539/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 Chicago
+###############################################################
+ I'm seeing some minor packet loss traversing Level3 in Chicago.
+ We connect to their network in Detroit, and we're clean until the 
+ first hop into Chicago.
+ Anyone else seeing anything like that?
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+ On Tue, 2009-08-18 at 13:05 -0400, Clayton Zekelman wrote:
+ 	Out of downtown Chicago I see the following:
+  sudo traceroute-nanog www.mnsi.net
+ traceroute to www.mnsi.net (216.8.137.229), 64 hops max, 40 byte packets
+  1  10.10.10.1 (10.10.10.1)  1 ms  7 ms  4 ms
+  2  10.20.0.1 (10.20.0.1)  13 ms  9 ms  7 ms
+  3  vl2.aggr1.chgo.il.rcn.net (207.229.191.130)  8 ms  11 ms  7 ms
+  4  tge3-1.border2.eqnx.il.rcn.net (207.172.19.159)  12 ms  17 ms  15 ms
+  5  te-8-3.car3.Chicago1.Level3.net (4.71.101.73)  9 ms  7 ms  13 ms
+  6  ae-32-52.ebr2.Chicago1.Level3.net (4.68.101.62)  8 ms  13 ms  18 ms
+  7  ae-8-8.car1.Detroit1.Level3.net (4.69.133.241)  14 ms  14 ms  16 ms
+  8  ae-11-11.car2.Detroit1.Level3.net (4.69.133.246)  16 ms  14 ms  18
+ ms
+  9  MANAGED-NET.car2.Detroit1.Level3.net (64.152.144.78)  16 ms  15 ms
+ 17 ms
+ 	L3 looks clean from me to you,or as close as I can get, might the
+ problem be in Detroit? Anyone?
+ 	Richard Golodner
+ Further to the issue below - I'm typically seeing packet loss at hop 
+ 5.  This particular trace doesn't show it though, although there are 
+ timeouts on hop 6.
+    1 br0.win.mnsi.net (216.8.137.193) 0 msec 0 msec 0 msec
+    2 ge-6-12-222.car2.Detroit1.Level3.net (64.152.144.77) 0 msec 4 msec 0 msec
+    3 ae-11-11.car1.Detroit1.Level3.net (4.69.133.245) 4 msec 0 msec 4 msec
+    4 ae-8-8.ebr2.Chicago1.Level3.net (4.69.133.242) 8 msec 4 msec 16 msec
+    5 ae-5.ebr2.Chicago2.Level3.net (4.69.140.194) 8 msec 8 msec 8 msec
+    6  *  *
+      ae-2-2.ebr2.Washington1.Level3.net (4.69.132.70) 32 msec
+    7 ae-72-72.csw2.Washington1.Level3.net (4.69.134.150) 36 msec
+      ae-82-82.csw3.Washington1.Level3.net (4.69.134.154) 36 msec
+      ae-72-72.csw2.Washington1.Level3.net (4.69.134.150) 32 msec
+    8 ae-2-79.edge2.Washington4.Level3.net (4.68.17.83) 28 msec
+      ae-3-89.edge2.Washington4.Level3.net (4.68.17.147) 40 msec
+      ae-1-69.edge2.Washington4.Level3.net (4.68.17.19) 24 msec
+    9 savvis-level3-te.Washington1.Level3.net (4.68.110.102) 32 msec 
+ 28 msec 40 msec
+   10  *  *  *
+   11 cr1-bundle-pos1.NewYork.savvis.net (204.70.196.137) 28 msec *  28 msec
+   12 206.24.199.2 48 msec 32 msec 32 msec
+   13 toroonnldr01.bb.telus.com (154.11.6.71) 32 msec 192 msec 36 msec
+   14 host82.145.115.209.in-addr.arpa (209.115.145.82) 40 msec 40 msec 40 msec
+   15 209.202.116.58 40 msec 48 msec 36 msec
+   16 www.govital.net (209.202.88.24) 36 msec 40 msec 36 
+ msec
+ At 01:05 PM 8/18/2009, Clayton Zekelman wrote:
+ >I'm seeing some minor packet loss traversing Level3 in Chicago.
+ >We connect to their network in Detroit, and we're clean until the 
+ >first hop into Chicago.
+ >Anyone else seeing anything like that?
+ >---
+ >Clayton Zekelman
+ >Managed Network Systems Inc. (MNSi)
+ >344-300 Tecumseh Rd. E.
+ >Windsor, Ontario
+ >N8X 5E8
+ >tel. 519-985-8410
+ >fax. 519-985-8409
+ >_______________________________________________
+ >outages mailing list
+ >outages at outages.org
+ >https://puck.nether.net/mailman/listinfo/outages
+ >No virus found in this incoming message.
+ >Checked by AVG - www.avg.com
+ >Version: 8.5.409 / Virus Database: 270.13.60/2311 - Release Date: 
+ >08/18/09 06:03:00
+ ---
+ Clayton Zekelman
+ Managed Network Systems Inc. (MNSi)
+ 344-300 Tecumseh Rd. E.
+ Windsor, Ontario
+ N8X 5E8
+ tel. 519-985-8410
+ fax. 519-985-8409        
+  <1250616946_2039@surgemail>
+ It would be helpful if you could use something like mtr instead of
+ traceroute in this case.  The below trace could be indicating ICMP
+ de-prioritisation on L3 routers, which is known to be enabled, but could
+ also be an indicator of packet loss starting at hop #5 and "trickling
+ down" through succeeding hops (possibly #10 or #11).
+ mtr --order=LSRNABW can help in diagnosing this.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 18, 2009 at 01:36:58PM -0400, Clayton Zekelman wrote:
+ 	<20090818175024.GA77079@icarus.home.lan>
+ I'm here in Kansas City, KS region and a trace to that IP in Detroit for 
+ Level3 shows this with the flags you have added for mtr. Level3 is just 
+ having a bad week me thinks.
+ fed11.home.lan (0.0.0.0)                               Tue Aug 18 
+ 13:28:42 2009
+ Keys:  Help   Display mode   Restart statistics   Order of fields   quit
+                                         Packets               Pings
+  Host                                 Loss%   Snt   Rcv  Last   Avg  
+ Best  Wrst
+  1. router.home.lan                    0.0%   274   274   0.2   0.2   
+ 0.1   0.3
+  2. ks-76-7-1-1.sta.embarqhsd.net      0.0%   274   274   7.7   8.3   
+ 6.2 114.8
+  3. ks-76-7-255-241.sta.embarqhsd.net  0.0%   274   274   8.4   8.6   
+ 6.1 114.4
+  4. ge-7-19.car1.StLouis1.Level3.net  41.5%   273   159  34.1  26.6  
+ 12.6 213.9
+  5. ae-11-11.car2.StLouis1.Level3.net 47.3%   273   144  12.6  25.9  
+ 12.6 205.6
+  6. ae-4-4.ebr2.Chicago1.Level3.net    1.1%   273   270  19.2  26.4  
+ 18.5 140.8
+  7. ae-8-8.car1.Detroit1.Level3.net    0.0%   273   273  27.8  38.8  
+ 24.1 229.2
+  8. ge-6-12-222.car2.Detroit1.Level3.  0.0%   273   273  26.5  39.1  
+ 24.1 239.0
+ --Brett
+ Jeremy Chadwick wrote:
+ 	<20090818175024.GA77079@icarus.home.lan>
+ 	<4A8AF380.2000604@gmail.com>
+ The packet loss shown at hops #4, #5, and possibly #6 is either ICMP
+ deprioritisation or high CPU utilisation on said routers.  My vote is
+ the lesser, given that it's common these days, and most backbone
+ providers are known to use it (L3, Abovenet, Sprint, Verizon/MCI, and
+ AT&T just to name a few).
+ The 18ms jump between hop #3 and #4 is likely normal due to geographic
+ distance, though I don't know where hop #3 is located; #4 is obviously
+ Missouri.  The same goes for the 12ms increase between #6 and #7
+ If this evidence was presented to Level 3, I can assure you they'd tell
+ you the same thing.  Here's a similar example showing the exact
+ behaviour I describe but within the Comcast network.  Note hop #6:
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1. --------------                0.0%    45    45   0.3   0.4   0.3   2.4
+   2. ???                          100.0    45     0   0.0   0.0   0.0   0.0
+   3. 68.85.191.253                 0.0%    45    45   8.4   8.1   6.7  11.8
+   4. 68.85.154.149                 0.0%    45    45  16.3  13.1   8.9  16.3
+   5. 68.86.90.137                  0.0%    45    45  14.1  13.1  10.9  17.1
+   6. 68.86.85.181                 97.8%    45     1  22.4  22.4  22.4  22.4
+   7. 4.71.118.9                    0.0%    45    45  13.6  14.9  11.4  49.1
+   8. 4.68.18.195                   0.0%    45    45  14.0  26.1  11.5 172.7
+   9. 4.79.219.106                  0.0%    45    45  14.0  14.5  12.4  17.3
+  10. 209.128.95.111                0.0%    45    45  13.5  14.3  12.0  27.8
+  11. 72.20.109.194                 0.0%    45    45  14.0  15.2  12.0  40.0
+  12. 72.20.106.125                 0.0%    45    45  12.7  14.2  12.2  19.4
+ Here's another.  Note hops #7, #8, and #9 (all Cogent), and also note in
+ this example the increased latency at hop #7 and #8 which doesn't
+ continue downwards through later hops:
+ HOST: icarus.home.lan             Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1. --------------                0.0%    45    45   0.4   0.4   0.3   0.4
+   2. ???                          100.0    45     0   0.0   0.0   0.0   0.0
+   3. 68.85.191.253                 0.0%    45    45   6.9   8.1   6.5  12.6
+   4. 68.85.154.149                 0.0%    45    45   9.0  10.0   8.6  12.6
+   5. 68.86.91.225                  0.0%    45    45  11.1  11.9  10.7  13.7
+   6. 68.86.85.78                   0.0%    45    45  12.0  14.3  11.6  42.5
+   7. 154.54.11.105                68.9%    45    14 191.4  26.3  11.9 191.4
+   8. 154.54.28.81                 51.1%    45    22 206.6  37.7  12.9 206.6
+   9. 66.28.4.150                  46.7%    45    24  14.9  16.8  14.5  29.7
+  10. 38.112.39.114                 0.0%    45    45  16.9  17.4  15.4  20.7
+  11. 38.104.134.30                 0.0%    45    45  14.7  18.5  13.9  26.6
+  12. ???                          100.0    45     0   0.0   0.0   0.0   0.0
+ The easiest way to determine if there's a problem is whether or not the
+ loss witnessed at a hop continues down through succeeding hops.  Here's
+ a real life example (IPs removed for security reasons):
+ HOST: ----------------------      Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. ---------------               0.0%    60    6.8   6.0   0.4  85.9  16.1
+   2. ---------------               0.0%    60    1.0  48.1   0.6 320.0  76.4
+   3. 204.70.193.101               86.7%    60   29.3 122.4  23.5 290.8 106.1
+   4. 206.24.227.105               86.7%    60   50.7   9.4   1.3  50.7  17.5
+   5. 204.70.192.53                88.3%    60   15.0  11.3   1.6  15.6   6.6
+   6. 204.70.194.178               88.3%    60   15.3  25.4  15.1  34.7   9.8
+   7. 204.70.192.70                86.7%    60   34.7  40.9  34.6  84.2  17.5
+   8. 204.70.194.18                88.3%    60   35.0  34.9  34.7  35.1   0.1
+   9. 204.70.194.10                88.3%    60   34.9  35.0  34.7  35.6   0.3
+  10. 208.175.175.18               88.3%    60   35.7  35.6  35.2  36.2   0.4
+  11. 216.52.191.11                95.0%    60   35.8  35.7  35.6  35.8   0.1
+  12. ---------------              100.0    60    0.0   0.0   0.0   0.0   0.0
+ What you see here was an issue with SAVVIS.  The root cause was a router
+ of theirs which rebooted unexpectedly.
+ The destination (hop #12) drops ICMP, so 100% loss there was completely
+ normal -- the rest wasn't.  This was determined by comparing the loss to
+ historic data when the issue with SAVVIS wasn't occurring.
+ And one more example -- which just occurred about 10 minutes ago on my
+ home Comcast connection:
+ HOST: ----------------------      Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+   1. ---------------              28.9%    45    32   0.5   0.6   0.3   5.6
+   2. ???                          100.0    45     0   0.0   0.0   0.0   0.0
+   3. 68.85.191.253                28.9%    45    32   9.8  12.4   6.8 134.1
+   4. 68.85.154.149                28.9%    45    32  10.6  10.7   8.7  16.1
+   5. 68.86.90.141                 28.9%    45    32  12.8  13.3  10.7  36.0
+   6. 68.86.85.181                 28.9%    45    32  13.1  14.4  11.7  29.4
+   7. 68.86.86.50                  28.9%    45    32  16.6  17.1  15.3  21.8
+   8. 75.149.228.254               28.9%    45    32  27.2  20.6  14.7  40.3
+   9. 209.58.116.50                28.9%    45    32  28.2  17.3  14.5  34.4
+  10. 216.6.33.6                   28.9%    45    32  17.8  17.2  15.1  23.1
+  11. 144.223.243.21               28.9%    45    32  16.5  17.5  15.9  21.3
+  12. 144.232.8.111                28.9%    45    32  20.0  20.8  19.1  25.5
+  13. 144.232.24.35                28.9%    45    32  23.2  24.3  22.8  28.9
+  14. 144.232.20.60                31.1%    45    31  76.5  78.9  75.5 110.0
+  15. 144.232.20.3                 28.9%    45    32  76.3  76.7  74.9  81.4
+  16. 144.223.34.242               28.9%    45    32  76.6  76.7  74.9  81.7
+  17. 64.127.129.10                28.9%    45    32 107.7  89.0  85.8 107.7
+  18. 96.34.2.9                    28.9%    45    32  87.8  88.3  86.0 100.6
+ What happened here?  Based on my router logs, it appears DHCP expired
+ and numerous daemons on the router were automatically restarted (this is
+ normal in such a circumstance).  It's possible that Comcast's DHCP
+ servers took too long to respond to a renewal and the router chose to
+ down/up the WAN interface, or possibly restart relevant daemons.  Hard
+ to say -- the logging isn't as verbose as I'd like.
+ My cable modem log doesn't indicate LOS nor being rebooted, so this was
+ purely an IP-related issue, or issue with my own equipment.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 18, 2009 at 01:31:28PM -0500, Brett Cooper wrote:
+ 	<20090818175024.GA77079@icarus.home.lan>
+ Is there version of mtr that include support for TCP or UDP types?  A google
+ search didn't reveal anything to me, but would be the best of mtr with the
+ benefits of tcptraceroute.
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Tuesday, August 18, 2009 12:50 PM
+ Subject: Re: [outages] Level3 Chicago
+ It would be helpful if you could use something like mtr instead of
+ traceroute in this case.  The below trace could be indicating ICMP
+ de-prioritisation on L3 routers, which is known to be enabled, but could
+ also be an indicator of packet loss starting at hop #5 and "trickling
+ down" through succeeding hops (possibly #10 or #11).
+ mtr --order=LSRNABW can help in diagnosing this.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 18, 2009 at 01:36:58PM -0400, Clayton Zekelman wrote:
+ msec
+ msec
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<20090818175024.GA77079@icarus.home.lan>
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAVv6Fc0ZQrSbQPApRaHXm2AQAAAAA=@iname.com>
+ The closest thing I know of is PingPlotter for Windows.
+ I'll remind folks that TCP and UDP-based traceroute/mtr-like utilities
+ still rely on ICMP time exceeded (type 11) being sent out to obtain the
+ present path, so if folks are looking for a pure TCP or UDP-based
+ traceroute or equivalent, to avoid dropping of ICMP, they're barking up
+ the wrong tree.  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 18, 2009 at 10:42:14PM -0500, Frank Bulk wrote:
+ 	<1250616946_2039@surgemail>	<20090818175024.GA77079@icarus.home.lan>	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAVv6Fc0ZQrSbQPApRaHXm2AQAAAAA=@iname.com>
+ 	<20090819052048.GA95295@icarus.home.lan>
+ Good point.  Is the ICMP rate-limiting of these largish routers ingress and
+ egress, or only ingress-only?
+ Frank
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Wednesday, August 19, 2009 12:21 AM
+ Subject: Re: [outages] Level3 Chicago
+ The closest thing I know of is PingPlotter for Windows.
+ I'll remind folks that TCP and UDP-based traceroute/mtr-like utilities
+ still rely on ICMP time exceeded (type 11) being sent out to obtain the
+ present path, so if folks are looking for a pure TCP or UDP-based
+ traceroute or equivalent, to avoid dropping of ICMP, they're barking up
+ the wrong tree.  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Tue, Aug 18, 2009 at 10:42:14PM -0500, Frank Bulk wrote:
+ google
+ msec
+ msec
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<20090818175024.GA77079@icarus.home.lan>
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAVv6Fc0ZQrSbQPApRaHXm2AQAAAAA=@iname.com>
+ 	<20090819052048.GA95295@icarus.home.lan>
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxXiZcSuLPQKcl3jcfXi8dAQAAAAA=@iname.com>
+ That's an excellent question -- and one I've always wondered myself.
+ This is purely speculative, but I believe outbound ICMP (e.g. sent from
+ the router to whatever src solicited it) is what's de-prioritised.
+ Someone more familiar with Cisco and Juniper equipment might know for
+ certain.
+ -- 
+ | Jeremy Chadwick                                   jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ On Wed, Aug 19, 2009 at 09:55:40AM -0500, Frank Bulk - iName.com wrote:
+ 	<1250616946_2039@surgemail>	<20090818175024.GA77079@icarus.home.lan>	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAVv6Fc0ZQrSbQPApRaHXm2AQAAAAA=@iname.com>	<20090819052048.GA95295@icarus.home.lan>	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxXiZcSuLPQKcl3jcfXi8dAQAAAAA=@iname.com>
+ 	<20090819150724.GA14042@icarus.home.lan>
+ 'Jeremy Chadwick' wrote:
+ Usually packets destined to the control-plane of the system are
+ prioritized based on criteria. It is better to let routing control
+ protocols (e.g. ospf, bgp, isis) through first than someone pinging or
+ running a traceroute. Packets *through* the router take the normal
+ forwarding path and are not affected by this system.
+ There may be system defaults based on hardware/software, but Cisco has
+ CoPP and I believe Juniper uses a firewall on the lo0 interface (been a
+ while since I touched one) for user-defined rules.
+ --
+ Devon
+ 	<20090818175024.GA77079@icarus.home.lan>
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAVv6Fc0ZQrSbQPApRaHXm2AQAAAAA=@iname.com>
+ 	<20090819052048.GA95295@icarus.home.lan>
+ 	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAAAxXiZcSuLPQKcl3jcfXi8dAQAAAAA=@iname.com>
+ 	<20090819150724.GA14042@icarus.home.lan>
+ 	<4A8C1F5E.4000303@noved.org>
+ Yes, and when pure prioritization is not available, ISPs
+ will use rate limiting too which is one of the ways
+ Level 3 restricts ICMP to the cpu on the core devices.
+ Also, the car device is an edge router so there could be
+ congestion on a customer port too when higher response times
+ are seen on the other side of a hop. Response times that settle
+ could be the control plane/data plane issue or could be once 
+ traffic gets to a far end there's an asymetric path that goes
+ a different return path rather than back across the link seen on 
+ the forward traceroute. All these are why simple pings and 
+ traceroutes don't always tell the story.
+ * Devon True was thought to have said:
+ ---------------------------------------------
+ The packet loss shown at hops #4, #5, and possibly #6 is either ICMP
+ deprioritisation or high CPU utilisation on said routers.  My vote is
+ ---------------------------------------------
+ You could know this if you used tcptraceroute instead: michael.toren.net/code/tcptraceroute
+ There is something similar (but I can't remember the tool name) for micro$loth.
+ scott
+ ----- Original Message ----- 
+ From: "Scott Weeks" 
+ Sent: Tuesday, August 18, 2009 10:55 AM
+ Subject: Re: [outages] Level3 Chicago
+ Windows version is tracetcp.exe
+ http://tracetcp.sourceforge.net/
+ --Michael
+ 	<B554D8F3F37244CBA05E0743642EF088@DELL16>
+ There is also lft  or layer 4 traceroute
+ http://pwhois.org/lft/index.who
+ Richard
+ On Aug 18, 2009, at 2:55 PM, Michael Painter wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+was Level3 Chicago
+###############################################################
+ I know Nlayer has multiple cities with Level3, try doing ping/ 
+ traceroutes using their Looking Glass. I also provided  l3 LG too.
+ http://lg.nlayer.net/
+ http://lg.level3.net/
+ Clayton Zekelman wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet at Connect ISP in Fiji is Down
+###############################################################
+ www.connect.com.fj , Fiji largest ISP is down at the moment. 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090824/a33496e1/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+So, when Twitter goes down
+###############################################################
+ where do you announce it?  :-)
+ downforeveryone agrees; I'm getting 503s from their edge proxies.
+ Time out: 1625EDT
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+     Start a man a fire, and he'll be warm all night.
+      Set a man on fire, and he'll be warm for the rest of his life.
+ On Tue, Aug 25, 2009 at 6:29 AM, Jay R. Ashworth <jra at baylink.com> wrote:
+ http://status.twitter.com/
+   Scott.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090825/872399e7/attachment.html>
+ Jay R. Ashworth wrote:
+ Oh pish posh, Twitter is the perfect web 2.0 application running on an
+ infallible cloud computing service with unlimited scale. Or so I'm told.
+ ~Seth
+ 	<4A930FE1.7030708@rollernet.us>
+ On Aug 24, 2009, at 6:10 PM, Seth Mattinen wrote:
+ Don't forget that it is behind a 'tier one' network.  SIngle homed  
+ behind that network, but tier ones are physically incapable of going  
+ down.
+ Aren't they?
+ -- 
+ TTFN,
+ patrick
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Fiber Cut / Clark and Cowlitz Co WA
+###############################################################
+ Experiencing phone and data outages across both counties this morning.
+ Verizon says it's a fiber cut and they hope to have it fixed by 6 PM local time.
+ They wouldn't provide further details.
+ -A
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google issues this morning ?
+###############################################################
+ Seeing lots of sporadic 'failures' etc very hard to pin down.  Sites not 
+ loading etc.  So far, one common thread is not being able to reach 
+ google-analytics and ilk.  Anyone else seeing anything similar ?
+ --
+ Brandon Applegate - CCIE 10273
+ PGP Key fingerprint:
+ 7407 DC86 AA7B A57F 62D1 A715 3C63 66A1 181E 6996
+ "SH1-0151.  This is the serial number, of our orbital gun."
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Brandon Applegate wrote:
+ - -----------------------------------------
+ Seems to be reachable from time warner (southern california region).
+ vrode at promiscious:~$ traceroute-nanog google.com
+ traceroute to google.com (74.125.67.100), 30 hops max, 40 byte packets
+  1  10.0.1.1 (10.0.1.1)  0.254 ms  0.279 ms  0.189 ms
+  2  10.60.0.1 (10.60.0.1)  8.708 ms  10.139 ms  13.791 ms
+  3  cpe-24-30-162-165.socal.rr.com (24.30.162.165)  9.483 ms  12.644 ms
+  11.422 ms
+  4  * * *
+  5  ae-5-0.cr0.lax00.tbone.rr.com (66.109.6.102)  18.434 ms  15.212 ms
+ 16.031 ms
+  6  ae-0-0.pr0.lax10.tbone.rr.com (66.109.6.133)  16.154 ms  16.723 ms
+ 15.841 ms
+  7  72.14.197.157 (72.14.197.157)  15.986 ms  48.805 ms  15.827 ms
+  8  216.239.46.180 (216.239.46.180)  15.688 ms  16.331 ms  15.872 ms
+  9  216.239.43.125 (216.239.43.125)  68.712 ms  70.694 ms  67.710 ms
+ 10  72.14.239.127 (72.14.239.127)  74.278 ms 72.14.239.131
+ (72.14.239.131)  69.151 ms 72.14.239.127 (72.14.239.127)  70.103 ms
+ 11  64.233.174.46 (64.233.174.46)  72.330 ms 209.85.255.194
+ (209.85.255.194)  76.806 ms  79.466 ms
+ 12  gw-in-f100.google.com (74.125.67.100)  74.919 ms  75.746 ms  70.182 ms
+ mtr results below:
+ Keys:  Help   Display mode   Restart statistics   Order of fields   quit
+             Packets               Pings
+  Host
+           Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. 10.0.1.1
+            0.0%   133    0.1   0.1   0.1   1.2   0.1
+  2. 10.60.0.1
+            0.0%   133   10.8  11.3   7.9  32.7   2.9
+  3. cpe-24-30-162-165.socal.rr.com
+            0.0%   133   10.6  11.3   8.6  54.4   4.2
+  4. ???
+  5. ae-5-0.cr0.lax00.tbone.rr.com
+            0.0%   133   14.1  19.6  13.4  80.0  12.8
+  6. ae-0-0.pr0.lax10.tbone.rr.com
+            0.0%   133   20.3  21.0  13.9 144.2  17.4
+  7. 72.14.197.157
+            0.0%   133   15.7  21.5  14.2 110.5  14.4
+  8. 216.239.46.180
+            0.0%   133   15.6  19.8  14.1  89.8  10.3
+  9. 216.239.43.125
+            0.0%   133  215.8  76.3  66.4 215.8  24.9
+ 10. 72.14.232.213
+            0.0%   133   70.2  78.9  66.6 198.4  25.7
+     72.14.232.215
+ 11. 209.85.253.137
+            0.0%   133   70.7  73.9  67.5  91.1   4.6
+     209.85.253.141
+     209.85.253.133
+     209.85.253.145
+ 12. yx-in-f100.google.com
+            0.0%   132   67.2  68.2  66.3  85.3   2.5
+ regards,
+ /virendra
+ http://www.google.com/appsstatus#hl=en shows no issues. I see no problems
+ here in AS22829.
+ On Wed, Aug 26, 2009 at 10:12, Brandon Applegate <brandon at burn.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20090826/b5d7fa2f/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Level3 - Denver, CO
+###############################################################
+ We have 2 Level3 DS-3 circuits down here in Denver. Anyone else experiencing 
+ Level3 problems in the Denver area?
+ -
+ Chris Stone
+ AxisInternet, Inc.
+ www.axint.net
+ I'm not in Denver but in Fresno, CA and use Unwired Broadband.
+ I did notice around 11:30am PST I had some horrible congestion.  It 
+ appeared to me at the time it was within the Level 3 network.
+ I don't have any other details at the moment.  It seemed to last from 
+ around 10:45am to around 11:45am, so around an hour.
+ Situation is fine now.
+ Chris Stone wroteth on 8/26/2009 12:43 PM:
+ >From L3 looking glass in Chicago to the operators interface:
+ 	ae-31-51.ebr1.Chicago1.Level3.net (4.68.101.30) 12 msec
+     ae-31-55.ebr1.Chicago1.Level3.net (4.68.101.158) 0 msec
+     ae-31-53.ebr1.Chicago1.Level3.net (4.68.101.94) 8 msec
+   2 ae-6.ebr1.Chicago2.Level3.net (4.69.140.190) 4 msec 0 msec 0 msec
+   3 ae-3.ebr2.Denver1.Level3.net (4.69.132.61) 28 msec 36 msec 36 msec
+   4 ae-21-54.car1.Denver1.Level3.net (4.68.107.102) 140 msec
+     ae-21-52.car1.Denver1.Level3.net (4.68.107.38) 148 msec 136 msec
+   5 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 24
+ msec 24 msec
+   6 ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 72 msec 136 msec * 
+   7 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 24
+ msec 24 msec
+   8 ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 28 msec *  212 msec
+   9 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 204 msec
+ 220 msec 88 msec
+  10  *  * 
+     ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 24 msec
+  11 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 24
+ msec 60 msec
+  12 ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 24 msec *  24 msec
+  13 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 24
+ msec 28 msec
+  14 ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 24 msec 24 msec * 
+  15 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 28
+ msec 24 msec
+  16  * 
+     ge-6-1.car1.Denver1.Level3.net (4.68.110.126) 24 msec 24 msec
+  17 ge-7-2-0-303.core04.ari-co.icg.Level3.net (4.68.110.125) 24 msec 24
+ msec 24 msec
+ 	<1251321442.8522.90.camel@Andromeda>
+ Just got word that they have an OC12 down hard in downtown Denver. Can't 
+ tell me why it's down yet - they are dispatching....
+ Richard Golodner wrote:
+ >>From L3 looking glass in Chicago to the operators interface:
+ -- 
+ Chris Stone, MCSE
+ Vice President, CTO
+ AxisInternet, Inc.
+ http://www.axint.net
+ DSL, VoIP, hosting, email filtering, co-location, online backup & more
+ Phone: +1 303 592 2947 x302 (office)  +1 303 570 6947 (cell)
+ -------------------------------------------------------------------------
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cox Telepnone
+###############################################################
+ Can't get into the switch serving Omaha from inside (my telephone lines) 
+ or outside (Verizon cell phone).
+ Dunn o how big or what's broke.  (I also have Cox "Internet" that is 
+ working.)
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ Larry Sheldon wrote:
+ May be a local loop problem.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+ Larry Sheldon wrote:
+ They say it is.
+ Nevermind.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:
+ 	http://tinyurl.com/4sqczs
+ 	http://tinyurl.com/7tp8ml
+###############################################################
+END
+###############################################################
+
+###############################################################
+T-Mobile partial outage in Los Angeles
+###############################################################
+ the Station Fire destroyed equipment on Mt. Luken,
+ T-Mobile is working on a fix,
+ NOTE this is not a complete outage.
+###############################################################
+END
+###############################################################
+
+###############################################################
+for those not in LA:  fire vs. power lines
+###############################################################
+ Hello...
+ FYI for those not seeing the Los Angeles fires on the news constantly.
+ http://www.ladwpnews.com/go/doc/1475/318099/
+ The Station Fire has the potential to cross and affect the Department's
+ 500 KV transmission lines northeast of the Acton area today. These
+ high-voltage power lines are critical to maintaining a steady supply of
+ power to the city, especially as demand for energy rises throughout the
+ day.
+ To make up for the potential loss of power transmission, the LADWP has
+ activated all in-basin power plants in order to generate energy.
+ -- 
+ Christopher McCrory
+  "The guy that keeps the servers running"
+ chrismcc at pricegrabber.com
+  http://www.pricegrabber.com
+ Let's face it, there's no Hollow Earth, no robots, and
+ no 'mute rays.' And even if there were, waxed paper is
+ no defense.  I tried it.  Only tinfoil works.
+###############################################################
+END
+###############################################################
+

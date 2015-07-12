@@ -1,0 +1,4434 @@
+From virendra.rode at outages.org  Mon Nov  1 11:26:14 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 01 Nov 2010 08:26:14 -0700
+Subject: [outages] Fwd: [Outages-discussion] National internet outage in
+ Myanmar enters second week
+Message-ID: <4CCEDC16.50607@outages.org>
+
+-------- Original Message --------
+Subject: [Outages-discussion] National internet outage in Myanmar 
+enters	second week
+Date: Mon, 1 Nov 2010 08:26:40 -0500
+From: Frank Bulk <frnkblk at iname.com>
+Reply-To: frnkblk at iname.com
+Organization: iName.com
+To: <outages-discussion at outages.org>
+
+http://www.thaindian.com/newsportal/world/national-internet-outage-in-myanma
+r-enters-second-week_100452986.html
+
+Does anyone else have more information on this?  How many international POPs
+are in that country?
+
+Frank
+
+
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: Attached Message Part
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/7999528a/attachment.ksh>
+
+From scott at doc.net.au  Mon Nov  1 12:28:55 2010
+From: scott at doc.net.au (Scott Howard)
+Date: Mon, 1 Nov 2010 09:28:55 -0700
+Subject: [outages] Fwd: [Outages-discussion] National internet outage in
+ Myanmar enters second week
+In-Reply-To: <4CCEDC16.50607@outages.org>
+References: <4CCEDC16.50607@outages.org>
+Message-ID: <AANLkTinMHqVMVKXh8BBNhR6qaT=bV7Afitqk5a7PCFLA@mail.gmail.com>
+
+Internet in Burma/Myanmar is very strictly controlled by the "government"
+(ie, the military junta who claims to be the government). From memory, all
+access runs via a single connection, which then feeds through a "firewall"
+which significantly restricts what can be accessed.
+
+However as you'd expect, many people - including most Internet cafes
+throughout the country - have worked out ways around this firewall.  When I
+was there (~2.5 years ago) this generally consisted of using software like
+"Your-Freedom" (http://www.your-freedom.net/) which tunnel the traffic to
+somewhere else in the world - normally Europe.
+
+In less than a week the country will hold the first national elections in
+around 20 years.  It's no secret that these elections will be a farce, and
+the "government" is seriously limiting (if not completely blocking) all
+foreign media access to the country during the election.
+
+So putting 2 and 2 together, my guess is that any Internet problems in Burma
+at the moment are completely deliberate on the part of the "government" in
+an effort to limit communication outside of the country.  If that's the
+case, you can expect it to stay down for at least the next ~ 2 weeks, and
+possibly longer.
+
+(For those that are wondering, name change from "Burma" to "Myanmar" was
+made by the junta many years ago.  As the governments of many countries
+around the world do not consider the junta to be the official government of
+the country, they do not recognize the change, and thus officially still use
+the old name of Burma. Other countries (including the US) do recognize the
+junta as the government of the country, and thus use the new name of Myanmar
+- or more correctly the "Republic of the Union of Myanmar")
+
+  Scott.
+
+
+On Mon, Nov 1, 2010 at 8:26 AM, virendra rode <virendra.rode at outages.org>wrote:
+
+> -------- Original Message --------
+> Subject: [Outages-discussion] National internet outage in Myanmar enters
+>      second week
+> Date: Mon, 1 Nov 2010 08:26:40 -0500
+> From: Frank Bulk <frnkblk at iname.com>
+> Reply-To: frnkblk at iname.com
+> Organization: iName.com
+> To: <outages-discussion at outages.org>
+>
+>
+> http://www.thaindian.com/newsportal/world/national-internet-outage-in-myanma
+> r-enters-second-week_100452986.html
+>
+> Does anyone else have more information on this?  How many international
+> POPs
+> are in that country?
+>
+> Frank
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/f8f520bd/attachment.html>
+
+From virendra.rode at outages.org  Mon Nov  1 16:23:56 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Mon, 01 Nov 2010 13:23:56 -0700
+Subject: [outages] Fwd: [Outages-discussion] Qwest cut in the St Louis area
+Message-ID: <4CCF21DC.8000405@outages.org>
+
+[redirecting to outages@ list]
+
+All,
+
+outages-discussion is meant for post outages (troubleshooting, analysis, 
+post-mortem, etc). related discussion.
+
+Please post current ongoing related outages to outages at outages.org list.
+
+thanks of your attention.
+
+
+regards,
+/virendra
+
+-------- Original Message --------
+Subject: [Outages-discussion] Qwest cut in the St Louis area
+Date: Mon, 01 Nov 2010 15:12:49 -0500
+From: Justin Shore <justin at justinshore.com>
+To: Outages-discussion at outages.org
+
+I lost a DS3 coming out of the St Louis area exactly an hour ago.  The
+Qwest repair line has an automated message reporting a fiber cut in the
+St Louis area.  No word on the actual cause.
+
+Justin
+_______________________________________________
+Outages-discussion mailing list
+Outages-discussion at outages.org
+https://puck.nether.net/mailman/listinfo/outages-discussion
+
+From franck at avonsys.com  Mon Nov  1 22:55:11 2010
+From: franck at avonsys.com (Franck Martin)
+Date: Tue, 2 Nov 2010 14:55:11 +1200 (FJT)
+Subject: [outages] Is www.yahoo.com down?
+Message-ID: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+
+http://downforeveryoneorjustme.com/www.yahoo.com say so 
+
+and I get connection refused when I try. 
+
+
+
+
+Franck Martin 
+http://www.avonsys.com/ 
+http://www.facebook.com/Avonsys 
+twitter: FranckMartin Avonsys 
+
+Check your domain reputation: http://gurl.im/b69d4o 
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101102/65327057/attachment.html>
+
+From jason at weatherserver.net  Mon Nov  1 23:01:11 2010
+From: jason at weatherserver.net (Jason L)
+Date: Mon, 01 Nov 2010 23:01:11 -0400
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <4CCF7EF7.90400@weatherserver.net>
+
+www.yahoo.com does not resolve here on Bell Canada.
+
+Interesting...
+
+On 11/1/2010 10:55 PM, Franck Martin wrote:
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+> Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin <http://twitter.com/FranckMartin> Avonsys 
+> <http://twitter.com/avonsys>
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/ab2c78f8/attachment.html>
+
+From mloftis at wgops.com  Mon Nov  1 23:11:59 2010
+From: mloftis at wgops.com (Michael Loftis)
+Date: Mon, 1 Nov 2010 21:11:59 -0600
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>
+
+Yeah, same here.  Connection refused.
+
+On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com> wrote:
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+> Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin Avonsys
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+From Lonnie.Bozeman at coresite.com  Mon Nov  1 23:14:17 2010
+From: Lonnie.Bozeman at coresite.com (Lonnie Bozeman)
+Date: Mon, 1 Nov 2010 20:14:17 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+
+In Los Angeles? its timing out!
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Franck Martin
+Sent: Monday, November 01, 2010 7:55 PM
+To: outages at outages.org
+Subject: [outages] Is www.yahoo.com down?
+
+ 
+
+http://downforeveryoneorjustme.com/www.yahoo.com say so
+
+and I get connection refused when I try.
+
+
+
+
+Franck Martin
+http://www.avonsys.com/
+http://www.facebook.com/Avonsys
+twitter: FranckMartin <http://twitter.com/FranckMartin>  Avonsys <http://twitter.com/avonsys> 
+
+Check your domain reputation: http://gurl.im/b69d4o
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/b749e097/attachment-0001.html>
+
+From mohan.nanduri at gmail.com  Mon Nov  1 23:22:15 2010
+From: mohan.nanduri at gmail.com (Mohan Nanduri)
+Date: Mon, 1 Nov 2010 23:22:15 -0400
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>
+Message-ID: <AANLkTi=gAZs=kpa4fxVKsKTew6onhLOVAjTVm2yMMu=U@mail.gmail.com>
+
+ping works, cant reach the website though...
+
+C:\Windows\system32>ping www.yahoo.com
+
+Pinging any-fp.wa1.b.yahoo.com [98.136.115.16] with 32 bytes
+Reply from 98.136.115.16: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16: bytes=32 time=11ms TTL=54
+Reply from 98.136.115.16: bytes=32 time=12ms TTL=54
+
+
+On Mon, Nov 1, 2010 at 11:11 PM, Michael Loftis <mloftis at wgops.com> wrote:
+
+> Yeah, same here.  Connection refused.
+>
+> On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com> wrote:
+> > http://downforeveryoneorjustme.com/www.yahoo.com say so
+> >
+> > and I get connection refused when I try.
+> >
+> > Franck Martin
+> > http://www.avonsys.com/
+> > http://www.facebook.com/Avonsys
+> > twitter: FranckMartin Avonsys
+> >
+> > Check your domain reputation: http://gurl.im/b69d4o
+> >
+> >
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/0b994267/attachment.html>
+
+From jayson at peakinter.net  Mon Nov  1 23:23:23 2010
+From: jayson at peakinter.net (Jayson Baker)
+Date: Mon, 1 Nov 2010 21:23:23 -0600
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+Message-ID: <AANLkTi=ASFJs25y2HDdvmoCw5nUyCpWBGZZCN61OCTnU@mail.gmail.com>
+
+Down in Colorado
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+
+On Mon, Nov 1, 2010 at 9:14 PM, Lonnie Bozeman
+<Lonnie.Bozeman at coresite.com>wrote:
+
+>  In Los Angeles? its timing out!
+>
+>
+>
+> *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+> Behalf Of *Franck Martin
+> *Sent:* Monday, November 01, 2010 7:55 PM
+> *To:* outages at outages.org
+> *Subject:* [outages] Is www.yahoo.com down?
+>
+>
+>
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+>
+>   Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin <http://twitter.com/FranckMartin> Avonsys<http://twitter.com/avonsys>
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/06c40df2/attachment.html>
+
+From adamjanzen at hotmail.com  Mon Nov  1 23:24:14 2010
+From: adamjanzen at hotmail.com (Adam Janzen)
+Date: Mon, 1 Nov 2010 23:24:14 -0400
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <SNT107-W14BCC15C50C6F030B1D59BD2490@phx.gbl>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>,
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>,
+ <SNT107-W14BCC15C50C6F030B1D59BD2490@phx.gbl>
+Message-ID: <SNT107-W3609E7E5629F6C99FB759ED2490@phx.gbl>
+
+
+Same here - seems its a DNS issue. Pager went off from one our resolvers not being able to resolve www.yahoo.com (one of the external DNS addresses we check for monitoring).
+..A
+
+
+
+> Date: Mon, 1 Nov 2010 21:11:59 -0600
+> From: mloftis at wgops.com
+> To: franck at avonsys.com
+> CC: outages at outages.org
+> Subject: Re: [outages] Is www.yahoo.com down?
+> 
+> Yeah, same here.  Connection refused.
+> 
+> On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com> wrote:
+> > http://downforeveryoneorjustme.com/www.yahoo.com say so
+> >
+> > and I get connection refused when I try.
+> >
+> > Franck Martin
+> > http://www.avonsys.com/
+> > http://www.facebook.com/Avonsys
+> > twitter: FranckMartin Avonsys
+> >
+> > Check your domain reputation: http://gurl.im/b69d4o
+> >
+> >
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+ 		 	   		  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/28b63f8e/attachment.html>
+
+From jjackson at aninetworks.net  Mon Nov  1 23:23:56 2010
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Mon, 1 Nov 2010 20:23:56 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+Message-ID: <ADE68AFE-BF91-4C20-BEAA-422A8F48BA56@aninetworks.net>
+
+Down here in Dallas Tx over Time Warner.
+
+
+On Nov 1, 2010, at 10:14 PM, Lonnie Bozeman wrote:
+
+In Los Angeles? its timing out!
+
+From: outages-bounces at outages.org<mailto:outages-bounces at outages.org> [mailto:outages-bounces at outages.org] On Behalf Of Franck Martin
+Sent: Monday, November 01, 2010 7:55 PM
+To: outages at outages.org<mailto:outages at outages.org>
+Subject: [outages] Is www.yahoo.com<http://www.yahoo.com> down?
+
+http://downforeveryoneorjustme.com/www.yahoo.com say so
+
+and I get connection refused when I try.
+
+
+Franck Martin
+http://www.avonsys.com/
+http://www.facebook.com/Avonsys
+twitter: FranckMartin<http://twitter.com/FranckMartin> Avonsys<http://twitter.com/avonsys>
+
+Check your domain reputation: http://gurl.im/b69d4o
+
+<ATT00001.c>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/076e415d/attachment.html>
+
+From sanjeev at dcs1.biz  Mon Nov  1 23:25:05 2010
+From: sanjeev at dcs1.biz (Sanjeev Gupta)
+Date: Tue, 2 Nov 2010 11:25:05 +0800
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+Message-ID: <AANLkTimjdat-Yg3kfKd90gy1jOm8XuAiheryoe-pDgEW@mail.gmail.com>
+
+Here, in Singapore,
+
+;; QUESTION SECTION:
+;www.yahoo.com.            IN    A
+
+;; ANSWER SECTION:
+www.yahoo.com.        5    IN    CNAME    fp.wg1.b.yahoo.com.
+fp.wg1.b.yahoo.com.    5    IN    CNAME    any-fp.wa1.b.yahoo.com.
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.92.23
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.92.24
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.92.25
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.92.26
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.122.189
+any-fp.wa1.b.yahoo.com.    5    IN    A    209.191.122.191
+
+
+However, HTTP connects to www.yahoo.com timeout.
+
+-- 
+Sanjeev Gupta
++65 98551208
+Blackberry Messenger? 20F5F059
+<https://puck.nether.net/mailman/listinfo/outages>
+
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101102/505a3ac0/attachment-0001.html>
+
+From jjackson at aninetworks.net  Mon Nov  1 23:25:51 2010
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Mon, 1 Nov 2010 20:25:51 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <AANLkTi=gAZs=kpa4fxVKsKTew6onhLOVAjTVm2yMMu=U@mail.gmail.com>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>
+ <AANLkTi=gAZs=kpa4fxVKsKTew6onhLOVAjTVm2yMMu=U@mail.gmail.com>
+Message-ID: <F9B5F95F-C6D6-4276-BB3B-FD2218066DF4@aninetworks.net>
+
+Showing it back up now.
+On Nov 1, 2010, at 10:22 PM, Mohan Nanduri wrote:
+
+ping works, cant reach the website though...
+
+C:\Windows\system32>ping www.yahoo.com<http://www.yahoo.com/>
+
+Pinging any-fp.wa1.b.yahoo.com<http://any-fp.wa1.b.yahoo.com/> [98.136.115.16] with 32 bytes
+Reply from 98.136.115.16<http://98.136.115.16/>: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16<http://98.136.115.16/>: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16<http://98.136.115.16/>: bytes=32 time=11ms TTL=54
+Reply from 98.136.115.16<http://98.136.115.16/>: bytes=32 time=12ms TTL=54
+
+
+On Mon, Nov 1, 2010 at 11:11 PM, Michael Loftis <mloftis at wgops.com<mailto:mloftis at wgops.com>> wrote:
+Yeah, same here.  Connection refused.
+
+On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com<mailto:franck at avonsys.com>> wrote:
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+> Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin Avonsys
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org<mailto:Outages at outages.org>
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+_______________________________________________
+Outages mailing list
+Outages at outages.org<mailto:Outages at outages.org>
+https://puck.nether.net/mailman/listinfo/outages
+
+<ATT00001.c>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/f0b9dedd/attachment.html>
+
+From JBayer at springcm.com  Mon Nov  1 23:30:27 2010
+From: JBayer at springcm.com (Bayer, Jim)
+Date: Mon, 1 Nov 2010 22:30:27 -0500
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <SNT107-W3609E7E5629F6C99FB759ED2490@phx.gbl>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>,
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>,
+ <SNT107-W14BCC15C50C6F030B1D59BD2490@phx.gbl>
+ <SNT107-W3609E7E5629F6C99FB759ED2490@phx.gbl>
+Message-ID: <8FDB64952D1E304AA0792EBC26B14C6E07EF244056@b5q2r001.office.CM.NET>
+
+Works well from Chicagoland.  (I'm on Ameritech/Yahoo network tho)
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Adam Janzen
+Sent: Monday, November 01, 2010 10:24 PM
+To: outages at outages.org
+Subject: Re: [outages] Is www.yahoo.com down?
+
+Same here - seems its a DNS issue. Pager went off from one our resolvers not being able to resolve www.yahoo.com (one of the external DNS addresses we check for monitoring).
+
+..A
+
+
+
+> Date: Mon, 1 Nov 2010 21:11:59 -0600
+> From: mloftis at wgops.com
+> To: franck at avonsys.com
+> CC: outages at outages.org
+> Subject: Re: [outages] Is www.yahoo.com down?
+>
+> Yeah, same here. Connection refused.
+>
+> On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com> wrote:
+> > http://downforeveryoneorjustme.com/www.yahoo.com say so
+> >
+> > and I get connection refused when I try.
+> >
+> > Franck Martin
+> > http://www.avonsys.com/
+> > http://www.facebook.com/Avonsys
+> > twitter: FranckMartin Avonsys
+> >
+> > Check your domain reputation: http://gurl.im/b69d4o
+> >
+> >
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/f1c2f7f4/attachment.html>
+
+From scott at doc.net.au  Mon Nov  1 23:33:37 2010
+From: scott at doc.net.au (Scott Howard)
+Date: Mon, 1 Nov 2010 20:33:37 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+Message-ID: <AANLkTimuAPDwzJF6aA=w5LZFWEDc39HWQwnSjWKz0V1N@mail.gmail.com>
+
+Working fine for me from a few different providers here in the SF Bay Area,
+but downforeveryoneorjustme.com says it's still down.
+
+  Scott.
+
+
+
+On Mon, Nov 1, 2010 at 7:55 PM, Franck Martin <franck at avonsys.com> wrote:
+
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+> Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin <http://twitter.com/FranckMartin> Avonsys<http://twitter.com/avonsys>
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/889b974a/attachment.html>
+
+From ryan.finnesey at HarrierInvestments.com  Mon Nov  1 23:35:23 2010
+From: ryan.finnesey at HarrierInvestments.com (Ryan Finnesey)
+Date: Mon, 1 Nov 2010 20:35:23 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <AANLkTi=ASFJs25y2HDdvmoCw5nUyCpWBGZZCN61OCTnU@mail.gmail.com>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <FADCAAA19A0B19438B36F3E8FFC6798401399CB3@CRGWESTE2.crgwest.local>
+ <AANLkTi=ASFJs25y2HDdvmoCw5nUyCpWBGZZCN61OCTnU@mail.gmail.com>
+Message-ID: <6EFFEFBAC68377459A2E972105C759EC030F3E6C@EXVBE005-2.exch005intermedia.net>
+
+Working fine in NYC on TWC
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jayson Baker
+Sent: Monday, November 01, 2010 11:23 PM
+To: 
+Subject: Re: [outages] Is www.yahoo.com down?
+
+Down in Colorado
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+On Mon, Nov 1, 2010 at 9:14 PM, Lonnie Bozeman <Lonnie.Bozeman at coresite.com> wrote:
+In Los Angeles... its timing out!
+?
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Franck Martin
+Sent: Monday, November 01, 2010 7:55 PM
+To: outages at outages.org
+Subject: [outages] Is www.yahoo.com down?
+?
+http://downforeveryoneorjustme.com/www.yahoo.com say so
+
+and I get connection refused when I try.
+
+Franck Martin
+http://www.avonsys.com/
+http://www.facebook.com/Avonsys
+twitter: FranckMartin Avonsys
+
+Check your domain reputation: http://gurl.im/b69d4o
+?
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From adamjanzen at hotmail.com  Mon Nov  1 23:36:22 2010
+From: adamjanzen at hotmail.com (Adam Janzen)
+Date: Mon, 1 Nov 2010 23:36:22 -0400
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <F9B5F95F-C6D6-4276-BB3B-FD2218066DF4@aninetworks.net>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>,
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>,
+ <AANLkTi=gAZs=kpa4fxVKsKTew6onhLOVAjTVm2yMMu=U@mail.gmail.com>,
+ <F9B5F95F-C6D6-4276-BB3B-FD2218066DF4@aninetworks.net>
+Message-ID: <SNT107-W23CB6DBA840E36F51C4442D2490@phx.gbl>
+
+
+
+Back up here in Ottawa. 
+..A
+From: jjackson at aninetworks.net
+To: mohan.nanduri at gmail.com
+Date: Mon, 1 Nov 2010 20:25:51 -0700
+CC: outages at outages.org
+Subject: Re: [outages] Is www.yahoo.com down?
+
+
+
+Showing it back up now.  
+On Nov 1, 2010, at 10:22 PM, Mohan Nanduri wrote:ping works, cant reach the website though...
+
+C:\Windows\system32>ping www.yahoo.com
+
+Pinging any-fp.wa1.b.yahoo.com [98.136.115.16] with 32 bytes
+
+Reply from 98.136.115.16: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16: bytes=32 time=13ms TTL=54
+Reply from 98.136.115.16: bytes=32 time=11ms TTL=54
+
+Reply from 98.136.115.16: bytes=32 time=12ms TTL=54
+
+
+On Mon, Nov 1, 2010 at 11:11 PM, Michael Loftis <mloftis at wgops.com> wrote:
+
+Yeah, same here.  Connection refused.
+
+
+
+On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com> wrote:
+
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+
+>
+
+> and I get connection refused when I try.
+
+>
+
+> Franck Martin
+
+> http://www.avonsys.com/
+
+> http://www.facebook.com/Avonsys
+
+> twitter: FranckMartin Avonsys
+
+>
+
+> Check your domain reputation: http://gurl.im/b69d4o
+
+>
+
+>
+
+>
+
+> _______________________________________________
+
+> Outages mailing list
+
+> Outages at outages.org
+
+> https://puck.nether.net/mailman/listinfo/outages
+
+>
+
+>
+
+_______________________________________________
+
+Outages mailing list
+
+Outages at outages.org
+
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+<ATT00001.c>
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages 		 	   		  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/76a35ff3/attachment-0001.html>
+
+From Lonnie.Bozeman at coresite.com  Mon Nov  1 23:35:40 2010
+From: Lonnie.Bozeman at coresite.com (Lonnie Bozeman)
+Date: Mon, 1 Nov 2010 20:35:40 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <F9B5F95F-C6D6-4276-BB3B-FD2218066DF4@aninetworks.net>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <AANLkTi=WNBsNvb6v7GsTVHTN0HL_whiRO4iev_t=GykD@mail.gmail.com>
+ <AANLkTi=gAZs=kpa4fxVKsKTew6onhLOVAjTVm2yMMu=U@mail.gmail.com>
+ <F9B5F95F-C6D6-4276-BB3B-FD2218066DF4@aninetworks.net>
+Message-ID: <FADCAAA19A0B19438B36F3E8FFC6798401399CB4@CRGWESTE2.crgwest.local>
+
+Back up in Los Angeles.
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Joseph Jackson
+Sent: Monday, November 01, 2010 8:26 PM
+To: Mohan Nanduri
+Cc: outages
+Subject: Re: [outages] Is www.yahoo.com down?
+
+ 
+
+Showing it back up now.  
+
+On Nov 1, 2010, at 10:22 PM, Mohan Nanduri wrote:
+
+
+
+
+
+ping works, cant reach the website though...
+
+C:\Windows\system32>ping www.yahoo.com <http://www.yahoo.com/> 
+
+Pinging any-fp.wa1.b.yahoo.com <http://any-fp.wa1.b.yahoo.com/>
+[98.136.115.16] with 32 bytes
+Reply from 98.136.115.16 <http://98.136.115.16/> : bytes=32 time=13ms
+TTL=54
+Reply from 98.136.115.16 <http://98.136.115.16/> : bytes=32 time=13ms
+TTL=54
+Reply from 98.136.115.16 <http://98.136.115.16/> : bytes=32 time=11ms
+TTL=54
+Reply from 98.136.115.16 <http://98.136.115.16/> : bytes=32 time=12ms
+TTL=54
+
+
+
+On Mon, Nov 1, 2010 at 11:11 PM, Michael Loftis <mloftis at wgops.com>
+wrote:
+
+Yeah, same here.  Connection refused.
+
+
+On Mon, Nov 1, 2010 at 8:55 PM, Franck Martin <franck at avonsys.com>
+wrote:
+> http://downforeveryoneorjustme.com/www.yahoo.com say so
+>
+> and I get connection refused when I try.
+>
+> Franck Martin
+> http://www.avonsys.com/
+> http://www.facebook.com/Avonsys
+> twitter: FranckMartin Avonsys
+>
+> Check your domain reputation: http://gurl.im/b69d4o
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+<ATT00001.c>
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101101/980d60fe/attachment.html>
+
+From jof at thejof.com  Mon Nov  1 23:47:23 2010
+From: jof at thejof.com (Jonathan Lassoff)
+Date: Mon, 1 Nov 2010 20:47:23 -0700
+Subject: [outages] Is www.yahoo.com down?
+In-Reply-To: <AANLkTimuAPDwzJF6aA=w5LZFWEDc39HWQwnSjWKz0V1N@mail.gmail.com>
+References: <25933857.304.1288666507304.JavaMail.franck@franck-martins-macbook-pro.local>
+ <AANLkTimuAPDwzJF6aA=w5LZFWEDc39HWQwnSjWKz0V1N@mail.gmail.com>
+Message-ID: <AANLkTim+kS3RewwiXF=tSustJ+tVG=w9YfeKjpmyiE8h@mail.gmail.com>
+
+On Mon, Nov 1, 2010 at 8:33 PM, Scott Howard <scott at doc.net.au> wrote:
+> Working fine for me from a few different providers here in the SF Bay Area,
+> but downforeveryoneorjustme.com says it's still down.
+
+This website really ought to call itself "Down for Google App Engine
+Or Just Me". It's not a good test of reachability.
+
+From jtrooney at nexdlevel.com  Sun Nov  7 08:20:53 2010
+From: jtrooney at nexdlevel.com (Jeff Rooney)
+Date: Sun, 7 Nov 2010 07:20:53 -0600
+Subject: [outages] ATT SMS outages
+Message-ID: <AANLkTimUaDiEgq92oMfhfsViHBC2znSAUdOcypukiPos@mail.gmail.com>
+
+Anyone else feeling an SMS outage in Chicago?
+
+Jeff Rooney
+jtrooney at nexdlevel.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101107/ae93c747/attachment.html>
+
+From JBayer at springcm.com  Sun Nov  7 22:05:35 2010
+From: JBayer at springcm.com (Bayer, Jim)
+Date: Sun, 7 Nov 2010 21:05:35 -0600
+Subject: [outages] ATT SMS outages
+In-Reply-To: <AANLkTimUaDiEgq92oMfhfsViHBC2znSAUdOcypukiPos@mail.gmail.com>
+References: <AANLkTimUaDiEgq92oMfhfsViHBC2znSAUdOcypukiPos@mail.gmail.com>
+Message-ID: <8FDB64952D1E304AA0792EBC26B14C6E07EF244498@b5q2r001.office.CM.NET>
+
+Not in the western suburbs (Downers)
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Jeff Rooney
+Sent: Sunday, November 07, 2010 7:21 AM
+To: outages at outages.org
+Subject: [outages] ATT SMS outages
+
+Anyone else feeling an SMS outage in Chicago?
+
+Jeff Rooney
+jtrooney at nexdlevel.com<mailto:jtrooney at nexdlevel.com>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101107/8685a1d5/attachment.html>
+
+From jared at compuwizz.net  Sun Nov  7 22:25:00 2010
+From: jared at compuwizz.net (Jared Geiger)
+Date: Sun, 7 Nov 2010 22:25:00 -0500
+Subject: [outages] ATT SMS outages
+In-Reply-To: <8FDB64952D1E304AA0792EBC26B14C6E07EF244498@b5q2r001.office.CM.NET>
+References: <AANLkTimUaDiEgq92oMfhfsViHBC2znSAUdOcypukiPos@mail.gmail.com>
+ <8FDB64952D1E304AA0792EBC26B14C6E07EF244498@b5q2r001.office.CM.NET>
+Message-ID: <AANLkTimX5ZgoGy6FodfF0-esEWQ1r388oYM4zP=XrxPY@mail.gmail.com>
+
+Syniverse had issues with their acquired Verisign/Metcalf portion of their
+intercarrier SMS messaging. So any carrier behind VSN to/from would
+experience problems. AT&T and Sprint are the major two behind them. AT&T to
+AT&T messages shouldn't have been affected.
+
+More issues tonight also in SMS. Verizon had issues earlier and now Verisign
+again. Don't expect instant delivery for SMS tonight.
+
+On Sun, Nov 7, 2010 at 10:05 PM, Bayer, Jim <JBayer at springcm.com> wrote:
+
+>  Not in the western suburbs (Downers)
+>
+>
+>
+> *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org] *On
+> Behalf Of *Jeff Rooney
+> *Sent:* Sunday, November 07, 2010 7:21 AM
+> *To:* outages at outages.org
+> *Subject:* [outages] ATT SMS outages
+>
+>
+>
+> Anyone else feeling an SMS outage in Chicago?
+>
+>
+> Jeff Rooney
+> jtrooney at nexdlevel.com
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101107/28abe866/attachment.html>
+
+From jared at compuwizz.net  Mon Nov  8 10:05:59 2010
+From: jared at compuwizz.net (Jared Geiger)
+Date: Mon, 8 Nov 2010 10:05:59 -0500
+Subject: [outages] ATT SMS outages
+In-Reply-To: <AANLkTimX5ZgoGy6FodfF0-esEWQ1r388oYM4zP=XrxPY@mail.gmail.com>
+References: <AANLkTimUaDiEgq92oMfhfsViHBC2znSAUdOcypukiPos@mail.gmail.com>
+ <8FDB64952D1E304AA0792EBC26B14C6E07EF244498@b5q2r001.office.CM.NET>
+ <AANLkTimX5ZgoGy6FodfF0-esEWQ1r388oYM4zP=XrxPY@mail.gmail.com>
+Message-ID: <AANLkTikv-99pqhXMRd-s4wy6PpBL6NK2Lk8cy-sxD=u8@mail.gmail.com>
+
+Just an FYI - Sybase365 has a planned maintenance tonight that will affect
+SMS to/from Verizon, T-Mobile, and Cricket.
+
+It will start at 2AM Eastern Time.
+
+On Sun, Nov 7, 2010 at 10:25 PM, Jared Geiger <jared at compuwizz.net> wrote:
+
+> Syniverse had issues with their acquired Verisign/Metcalf portion of their
+> intercarrier SMS messaging. So any carrier behind VSN to/from would
+> experience problems. AT&T and Sprint are the major two behind them. AT&T to
+> AT&T messages shouldn't have been affected.
+>
+> More issues tonight also in SMS. Verizon had issues earlier and now
+> Verisign again. Don't expect instant delivery for SMS tonight.
+>
+> On Sun, Nov 7, 2010 at 10:05 PM, Bayer, Jim <JBayer at springcm.com> wrote:
+>
+>>  Not in the western suburbs (Downers)
+>>
+>>
+>>
+>> *From:* outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+>> *On Behalf Of *Jeff Rooney
+>> *Sent:* Sunday, November 07, 2010 7:21 AM
+>> *To:* outages at outages.org
+>> *Subject:* [outages] ATT SMS outages
+>>
+>>
+>>
+>> Anyone else feeling an SMS outage in Chicago?
+>>
+>>
+>> Jeff Rooney
+>> jtrooney at nexdlevel.com
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101108/6934c96c/attachment.html>
+
+From virendra.rode at outages.org  Tue Nov  9 12:56:02 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Tue, 09 Nov 2010 09:56:02 -0800
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation Requested.
+Message-ID: <4CD98B32.6030202@outages.org>
+
+Hi -
+
+For folks who haven't taken the survey please do so. So far we have 
+about 1% that have responded.
+
+I would really appreciate your participation and help.
+
+For any further questions, please e-mail your inquiries to 
+admin at outages.org.
+
+regards,
+/virendra
+
+
+-------- Original Message --------
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation Requested.
+Date: Fri, 29 Oct 2010 08:27:40 -0700
+From: virendra rode <virendra.rode at outages.org>
+Reply-To: virendra.rode at outages.org
+To: outages at outages.org <outages at outages.org>
+
+<Apologies for duplicate emails. If you have already participated, thank
+you very much. And for you who have not, please consider doing so.>
+
+We encourage all organizations across global operational community on
+the operational aspects of public-facing networks to participate in the
+survey so we can establish a comprehensive view of what's working and
+how we can improve going forward in the area of critical infrastructure
+outages notification.
+
+The survey is composed of 36 questions and can be completed in about 15
+minutes.
+Also, NO personally (or organizationally) identifiable information will
+be shared in any manner.
+
+Please take a few moments to complete the survey located at:
+https://spreadsheets.google.com/viewform?formkey=dGpvQXgtQjk1eEllcDJJVk94MVR1Y0E6MA
+
+We're grateful for your insight and participation, and welcome your
+feedback and comments.
+
+Grateful Thanks!
+
+regards,
+/virendra
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From larrysheldon at cox.net  Tue Nov  9 13:33:26 2010
+From: larrysheldon at cox.net (Larry Sheldon)
+Date: Tue, 09 Nov 2010 12:33:26 -0600
+Subject: [outages] [Outages-discussion] [ADMIN] OUTAGES.ORG Survey: Your
+ Participation Requested.
+In-Reply-To: <4CD98B32.6030202@outages.org>
+References: <4CD98B32.6030202@outages.org>
+Message-ID: <4CD993F6.4020809@cox.net>
+
+On 11/9/2010 11:56 AM, virendra rode wrote:
+> Hi -
+>
+> For folks who haven't taken the survey please do so. So far we have
+> about 1% that have responded.
+>
+> I would really appreciate your participation and help.
+
+I started to fill it out but as a 
+out-of-work-but-still-interested-in-the-world ex-admin I really could 
+not contribute much, and could not answer some of the questions honestly 
+(and it seems like it nagged at me for leaving blanks).
+so, I should probably be left out of the base.
+>
+> For any further questions, please e-mail your inquiries to
+> admin at outages.org.
+>
+> regards,
+> /virendra
+>
+>
+> -------- Original Message --------
+> Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation
+> Requested.
+> Date: Fri, 29 Oct 2010 08:27:40 -0700
+> From: virendra rode <virendra.rode at outages.org>
+> Reply-To: virendra.rode at outages.org
+> To: outages at outages.org <outages at outages.org>
+>
+> <Apologies for duplicate emails. If you have already participated, thank
+> you very much. And for you who have not, please consider doing so.>
+>
+> We encourage all organizations across global operational community on
+> the operational aspects of public-facing networks to participate in the
+> survey so we can establish a comprehensive view of what's working and
+> how we can improve going forward in the area of critical infrastructure
+> outages notification.
+>
+> The survey is composed of 36 questions and can be completed in about 15
+> minutes.
+> Also, NO personally (or organizationally) identifiable information will
+> be shared in any manner.
+>
+> Please take a few moments to complete the survey located at:
+> https://spreadsheets.google.com/viewform?formkey=dGpvQXgtQjk1eEllcDJJVk94MVR1Y0E6MA
+>
+>
+> We're grateful for your insight and participation, and welcome your
+> feedback and comments.
+>
+> Grateful Thanks!
+>
+> regards,
+> /virendra
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> _______________________________________________
+> Outages-discussion mailing list
+> Outages-discussion at outages.org
+> https://puck.nether.net/mailman/listinfo/outages-discussion
+>
+
+
+From amon at vnl.com  Tue Nov  9 13:51:42 2010
+From: amon at vnl.com (Dale Amon)
+Date: Tue, 9 Nov 2010 13:51:42 -0500
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation
+ Requested.
+In-Reply-To: <4CD98B32.6030202@outages.org>
+References: <4CD98B32.6030202@outages.org>
+Message-ID: <20101109185142.GA5961@vnl.com>
+
+On Tue, Nov 09, 2010 at 09:56:02AM -0800, virendra rode wrote:
+> For folks who haven't taken the survey please do so. So far we have
+> about 1% that have responded.
+> 
+> I would really appreciate your participation and help.
+
+I'm probably not able to give you the right sort of feedback
+as I'm a freelance admin and work with a bunch of small 
+operators, none of which are more than a couple racks each.
+
+The list is useful because I can pass on operational warnings
+to my customer's tech guys.
+
+
+From DStaal at usa.net  Tue Nov  9 16:50:12 2010
+From: DStaal at usa.net (Daniel Staal)
+Date: Tue, 9 Nov 2010 16:50:12 -0500
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation
+	Requested.
+In-Reply-To: <4CD98B32.6030202@outages.org>
+References: <4CD98B32.6030202@outages.org>
+Message-ID: <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+
+
+On Tue, November 9, 2010 12:56 pm, virendra rode wrote:
+> Hi -
+>
+> For folks who haven't taken the survey please do so. So far we have
+> about 1% that have responded.
+>
+> I would really appreciate your participation and help.
+>
+> For any further questions, please e-mail your inquiries to
+> admin at outages.org.
+
+>From looking at the survey, I'm not actually surprised...  The survey
+appears to assume a certain type of organization, where the subscriber to
+this list has a vision of the entire technical stance available to them.
+
+I suspect there are more than a few people here who aren't in that type of
+organization, or who only have a vision of part of their company's
+technical stance, or who aren't allowed to talk about all of it without
+higher-level approval.  I'm in more than one of those categories myself.
+
+Daniel T. Staal
+
+---------------------------------------------------------------
+This email copyright the author.  Unless otherwise noted, you
+are expressly allowed to retransmit, quote, or otherwise use
+the contents for non-commercial purposes.  This copyright will
+expire 5 years after the author's death, or in 30 years,
+whichever is longer, unless such a period is in excess of
+local copyright law.
+---------------------------------------------------------------
+
+
+From jlewis at packetnexus.com  Tue Nov  9 17:03:30 2010
+From: jlewis at packetnexus.com (Jason Lewis)
+Date: Tue, 9 Nov 2010 17:03:30 -0500
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation
+	Requested.
+In-Reply-To: <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+References: <4CD98B32.6030202@outages.org>
+ <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+Message-ID: <AANLkTim5gwbiua1T9uPs091sQOwC56uO8xv_bCsD+WVG@mail.gmail.com>
+
+I imagine there would be more responses if it was completely
+anonymous.  Just the idea of having to put personal/work info into the
+form made me think twice.
+
+jas
+
+From virendra.rode at outages.org  Tue Nov  9 17:13:39 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Tue, 09 Nov 2010 14:13:39 -0800
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation Requested.
+In-Reply-To: <AANLkTim5gwbiua1T9uPs091sQOwC56uO8xv_bCsD+WVG@mail.gmail.com>
+References: <4CD98B32.6030202@outages.org>
+ <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+ <AANLkTim5gwbiua1T9uPs091sQOwC56uO8xv_bCsD+WVG@mail.gmail.com>
+Message-ID: <4CD9C793.9020408@outages.org>
+
+All -
+
+Kindly DO NOT respond to the list.
+
+Trying to minimise the noise :)
+
+
+regards,
+/virendra
+
+From carlos at televolve.com  Tue Nov  9 19:14:42 2010
+From: carlos at televolve.com (Carlos Alvarez)
+Date: Tue, 09 Nov 2010 17:14:42 -0700
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your
+	Participation	Requested.
+In-Reply-To: <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+References: <4CD98B32.6030202@outages.org>
+ <f969b74f47193c30dc9e39ce1d702445.squirrel@www.magehandbook.com>
+Message-ID: <4CD9E3F2.9030604@televolve.com>
+
+
+
+Daniel Staal wrote:
+>  From looking at the survey, I'm not actually surprised...  The survey
+> appears to assume a certain type of organization, where the subscriber to
+> this list has a vision of the entire technical stance available to them.
+
+I run an ITSP, so much of the survey doesn't apply to me.  I'm on the 
+list because some outages affect our customers and it's useful to know 
+before they call.  I know there are others here who work for companies 
+like mine.
+
+
+-- 
+Carlos Alvarez
+TelEvolve
+602-889-3003
+
+
+
+From virendra.rode at outages.org  Tue Nov  9 22:18:58 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Tue, 09 Nov 2010 19:18:58 -0800
+Subject: [outages] [ADMIN] OUTAGES.ORG Survey: Your Participation Requested.
+Message-ID: <4CDA0F22.1040704@outages.org>
+
+Hi -
+
+Based on the feedback, I have made personal (e-mail address) information 
+optional. You now have an option to fill the survey as anonymous.
+
+Again, please do not respond to the list.
+
+
+regards,
+/virendra
+
+
+
+
+From kwallace at pcconnection.com  Wed Nov 10 12:51:56 2010
+From: kwallace at pcconnection.com (Wallace Keith)
+Date: Wed, 10 Nov 2010 12:51:56 -0500
+Subject: [outages] Fiber cut?
+Message-ID: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+
+Is anyone aware of an outage in the Chicago area that might be affecting
+Qwest traffic? Seemed to start around 9:45 eastern
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101110/35c498e9/attachment.html>
+
+From sjk at cupacoffee.net  Wed Nov 10 13:22:49 2010
+From: sjk at cupacoffee.net (sjk)
+Date: Wed, 10 Nov 2010 12:22:49 -0600
+Subject: [outages] Fiber cut?
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+References: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+Message-ID: <4CDAE2F9.5010207@cupacoffee.net>
+
+In Chicago -- backhauled to Qwest IP pop on LaSalle -- no problems here
+
+
+On 11/10/2010 11:51 AM, Wallace Keith wrote:
+> Is anyone aware of an outage in the Chicago area that might be affecting
+> Qwest traffic? Seemed to start around 9:45 eastern
+> 
+>  
+> 
+> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-- 
+http://www.sleepycatz.com
+sjk at cupacoffee.net
+fingerprint: 1024D/89420B8E 2001-09-16
+
+No one can understand the truth until
+he drinks of coffee's frothy goodness.
+~Sheik Abd-al-Kadir
+
+From maddison at lightbound.net  Wed Nov 10 13:31:34 2010
+From: maddison at lightbound.net (Matt Addison)
+Date: Wed, 10 Nov 2010 13:31:34 -0500
+Subject: [outages] Fiber cut?
+In-Reply-To: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+References: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+Message-ID: <DC5B236BCDAABA4C87C86F962FFCC5410313B2AC@exchange.iquest.org>
+
+> Subject: [outages] Fiber cut?
+> 
+> Is anyone aware of an outage in the Chicago area that might be
+> affecting Qwest traffic? Seemed to start around 9:45 eastern
+> 
+
+I lost a circuit from Indianapolis to Chicago around 9:48, vendor
+confirms Qwest has a cut between Chicago and Portage, IN that they're
+still working on isolating.
+
+
+From sethm at rollernet.us  Wed Nov 10 17:59:15 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Wed, 10 Nov 2010 14:59:15 -0800
+Subject: [outages] Fiber cut?
+In-Reply-To: <DC5B236BCDAABA4C87C86F962FFCC5410313B2AC@exchange.iquest.org>
+References: <0E8773C725A1674E9F7B35EABB5EEEB10A74372E@MKA134.pcc.int>
+ <DC5B236BCDAABA4C87C86F962FFCC5410313B2AC@exchange.iquest.org>
+Message-ID: <4CDB23C3.8050207@rollernet.us>
+
+On 11/10/2010 10:31, Matt Addison wrote:
+>> Subject: [outages] Fiber cut?
+>>
+>> Is anyone aware of an outage in the Chicago area that might be
+>> affecting Qwest traffic? Seemed to start around 9:45 eastern
+>>
+> 
+> I lost a circuit from Indianapolis to Chicago around 9:48, vendor
+> confirms Qwest has a cut between Chicago and Portage, IN that they're
+> still working on isolating.
+> 
+
+
+I called Global Crossing for unrelated reasons and they had a
+prerecorded message about issues in the midwest.
+
+~Seth
+
+From Cornelius_Lewis at ahm.honda.com  Wed Nov 10 18:56:52 2010
+From: Cornelius_Lewis at ahm.honda.com (Cornelius_Lewis at ahm.honda.com)
+Date: Wed, 10 Nov 2010 15:56:52 -0800
+Subject: [outages] Fiber cut?
+In-Reply-To: <4CDB23C3.8050207@rollernet.us>
+Message-ID: <OFC6AEAFB6.691D614F-ON882577D7.00836378-882577D7.00838CB8@ahm.honda.com>
+
+I lost a circuit from Ohio to Chicago around 6:48 as well.
+
+Neal Lewis
+
+
+
+                                                                           
+             Seth Mattinen                                                 
+             <sethm at rollernet.                                             
+             us>                                                        To 
+             Sent by:                  outages at outages.org                 
+             outages-bounces at o                                          cc 
+             utages.org                                                    
+                                                                   Subject 
+                                       Re: [outages] Fiber cut?            
+             11/10/2010 02:59                                              
+             PM                                                            
+                                                                           
+                                                                           
+                                                                           
+                                                                           
+
+
+
+
+On 11/10/2010 10:31, Matt Addison wrote:
+>> Subject: [outages] Fiber cut?
+>>
+>> Is anyone aware of an outage in the Chicago area that might be
+>> affecting Qwest traffic? Seemed to start around 9:45 eastern
+>>
+>
+> I lost a circuit from Indianapolis to Chicago around 9:48, vendor
+> confirms Qwest has a cut between Chicago and Portage, IN that they're
+> still working on isolating.
+>
+
+
+I called Global Crossing for unrelated reasons and they had a
+prerecorded message about issues in the midwest.
+
+~Seth
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From nwtech at tele-net.net  Wed Nov 10 19:07:46 2010
+From: nwtech at tele-net.net (Nick White)
+Date: Wed, 10 Nov 2010 16:07:46 -0800
+Subject: [outages] Fiber cut?
+In-Reply-To: <OFC6AEAFB6.691D614F-ON882577D7.00836378-882577D7.00838CB8@ahm.honda.com>
+References: <OFC6AEAFB6.691D614F-ON882577D7.00836378-882577D7.00838CB8@ahm.honda.com>
+Message-ID: <4CDB33D2.4010006@tele-net.net>
+
+Nitel/iNOC tech mentioned earlier "multiple DS3s down in the midwest".
+
+On 11/10/2010 3:56 PM, Cornelius_Lewis at ahm.honda.com wrote:
+> I lost a circuit from Ohio to Chicago around 6:48 as well.
+>
+> Neal Lewis
+>
+>
+>
+>
+>               Seth Mattinen
+>               <sethm at rollernet.
+>               us>                                                         To
+>               Sent by:                  outages at outages.org
+>               outages-bounces at o                                          cc
+>               utages.org
+>                                                                     Subject
+>                                         Re: [outages] Fiber cut?
+>               11/10/2010 02:59
+>               PM
+>
+>
+>
+>
+>
+>
+>
+>
+> On 11/10/2010 10:31, Matt Addison wrote:
+>>> Subject: [outages] Fiber cut?
+>>>
+>>> Is anyone aware of an outage in the Chicago area that might be
+>>> affecting Qwest traffic? Seemed to start around 9:45 eastern
+>>>
+>> I lost a circuit from Indianapolis to Chicago around 9:48, vendor
+>> confirms Qwest has a cut between Chicago and Portage, IN that they're
+>> still working on isolating.
+>>
+>
+> I called Global Crossing for unrelated reasons and they had a
+> prerecorded message about issues in the midwest.
+>
+> ~Seth
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+
+
+From jra at baylink.com  Wed Nov 10 21:04:54 2010
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Wed, 10 Nov 2010 21:04:54 -0500 (EST)
+Subject: [outages] FiOS backbone overload in TPA?
+Message-ID: <7548600.1142.1289441094166.JavaMail.root@benjamin.baylink.com>
+
+I have a customer who has two sites connected by FiOS in Pinellas County,
+FL -- one a new install -- and we seem to be seeing about a 7-8% packet loss
+between the two.
+
+If I flood ping from the new one to 4.2.2.1, 9 hops away, I don't drop a 
+single packets.
+
+If I flood ping from the new one to the old one, at 56 or 1024 bytes, I drop,
+over any appreciable amount of time, nearly exactly the same 7% of packets.
+
+mtr also shows (if I leave it running long enough) 7% drop to that old site,
+with *zero* loss at any of the 3 other hops.
+
+We've had the person whose install that old site is call it in... and he
+tells me that his "inside guy" says there's a master ticket up in this market
+about packet loss in the backbone... but my first tier guys wouldn't admit
+to it.
+
+Anybody know anything?  VoIP is singularly intolerant of packet loss...
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+    Start a man a fire, and he'll be warm all night.
+     Set a man on fire, and he'll be warm for the rest of his life.
+
+From graham.freeman at cernio.com  Fri Nov 12 10:06:16 2010
+From: graham.freeman at cernio.com (Graham Freeman)
+Date: Fri, 12 Nov 2010 15:06:16 +0000
+Subject: [outages] register.com ~50% packet loss
+Message-ID: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+
+
+Starting at about 06:32 (UTC-8), register.com shows signs of being hit with a DDoS.    40-50% packet loss to register.com from my hosts in California (USA), Minnesota (USA), and England.    Likewise at least half of DNS lookups fail.  Operator answering calls at register.com acknowledged problem but could give no ETR.
+
+Graham
+
+
+
+From outages at jdc.parodius.com  Fri Nov 12 10:25:09 2010
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Fri, 12 Nov 2010 07:25:09 -0800
+Subject: [outages] register.com ~50% packet loss
+In-Reply-To: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+References: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+Message-ID: <20101112152509.GA9691@icarus.home.lan>
+
+On Fri, Nov 12, 2010 at 03:06:16PM +0000, Graham Freeman wrote:
+> Starting at about 06:32 (UTC-8), register.com shows signs of being hit
+> with a DDoS.    40-50% packet loss to register.com from my hosts in
+> California (USA), Minnesota (USA), and England.    Likewise at least
+> half of DNS lookups fail.  Operator answering calls at register.com
+> acknowledged problem but could give no ETR.
+
+Is there any actual evidence or confirmation that this is a DoS/DDoS?
+Packet loss isn't necessarily an indicator of such, no matter how many
+alternate paths or peers/routes you have available to you.  It could be
+something as simple as "we have a core router that has gone haywire and
+'Bob' hasn't come into the office yet"...
+
+Just sayin'.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+
+From john at quonix.net  Fri Nov 12 10:34:24 2010
+From: john at quonix.net (John Von Essen)
+Date: Fri, 12 Nov 2010 10:34:24 -0500
+Subject: [outages] register.com ~50% packet loss
+In-Reply-To: <20101112152509.GA9691@icarus.home.lan>
+References: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+ <20101112152509.GA9691@icarus.home.lan>
+Message-ID: <6AA37829-92B4-4292-B936-103D524A3635@quonix.net>
+
+My only comment to failing DNS queries is that last night one of my  
+customers who uses a remote site monitoring tools was getting alot of  
+alerts that there website names weren't resolving.
+
+We have three geographic and network diverse Auth DNS servers, so at  
+the time I couldn't explain it. But if register.com was having issues,  
+especially with DNS, that could be a cause.
+
+-John
+
+
+On Nov 12, 2010, at 10:25 AM, Jeremy Chadwick wrote:
+
+> On Fri, Nov 12, 2010 at 03:06:16PM +0000, Graham Freeman wrote:
+>> Starting at about 06:32 (UTC-8), register.com shows signs of being  
+>> hit
+>> with a DDoS.    40-50% packet loss to register.com from my hosts in
+>> California (USA), Minnesota (USA), and England.    Likewise at least
+>> half of DNS lookups fail.  Operator answering calls at register.com
+>> acknowledged problem but could give no ETR.
+>
+> Is there any actual evidence or confirmation that this is a DoS/DDoS?
+> Packet loss isn't necessarily an indicator of such, no matter how many
+> alternate paths or peers/routes you have available to you.  It could  
+> be
+> something as simple as "we have a core router that has gone haywire  
+> and
+> 'Bob' hasn't come into the office yet"...
+>
+> Just sayin'.
+>
+> -- 
+> | Jeremy Chadwick                                   jdc at parodius.com |
+> | Parodius Networking                       http://www.parodius.com/ |
+> | UNIX Systems Administrator                  Mountain View, CA, USA |
+> | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From bhazard2 at gmail.com  Fri Nov 12 11:14:16 2010
+From: bhazard2 at gmail.com (Bill Hazard)
+Date: Fri, 12 Nov 2010 11:14:16 -0500
+Subject: [outages] register.com ~50% packet loss
+In-Reply-To: <20101112152509.GA9691@icarus.home.lan>
+References: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+ <20101112152509.GA9691@icarus.home.lan>
+Message-ID: <AANLkTik3bCf37839CW33O_Tksyo8YOQoVx1E4SXn0xFB@mail.gmail.com>
+
+I've confirmed that this was a DDoS attack.
+They have a 24x7 NOC and redundant networking systems, but of course
+redundant only goes so far.
+All 6 of their name servers are responding normally for me at the moment.
+I am assuming they have put counter-measures in place.
+(former rcom employee)
+Bill
+
+On Fri, Nov 12, 2010 at 10:25 AM, Jeremy Chadwick
+<outages at jdc.parodius.com> wrote:
+> On Fri, Nov 12, 2010 at 03:06:16PM +0000, Graham Freeman wrote:
+>> Starting at about 06:32 (UTC-8), register.com shows signs of being hit
+>> with a DDoS. ? ?40-50% packet loss to register.com from my hosts in
+>> California (USA), Minnesota (USA), and England. ? ?Likewise at least
+>> half of DNS lookups fail. ?Operator answering calls at register.com
+>> acknowledged problem but could give no ETR.
+>
+> Is there any actual evidence or confirmation that this is a DoS/DDoS?
+> Packet loss isn't necessarily an indicator of such, no matter how many
+> alternate paths or peers/routes you have available to you. ?It could be
+> something as simple as "we have a core router that has gone haywire and
+> 'Bob' hasn't come into the office yet"...
+>
+> Just sayin'.
+>
+> --
+> | Jeremy Chadwick ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? jdc at parodius.com |
+> | Parodius Networking ? ? ? ? ? ? ? ? ? ? ? http://www.parodius.com/ |
+> | UNIX Systems Administrator ? ? ? ? ? ? ? ? ?Mountain View, CA, USA |
+> | Making life hard for others since 1977. ? ? ? ? ? ? ?PGP: 4BD6C0CB |
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From colinj at mx5.org.uk  Sat Nov 13 01:44:40 2010
+From: colinj at mx5.org.uk (Colin Johnston)
+Date: Sat, 13 Nov 2010 06:44:40 +0000
+Subject: [outages] register.com ~50% packet loss
+In-Reply-To: <AANLkTik3bCf37839CW33O_Tksyo8YOQoVx1E4SXn0xFB@mail.gmail.com>
+References: <AE690937-B2DF-4034-8EB7-EA1454149744@cernio.com>
+ <20101112152509.GA9691@icarus.home.lan>
+ <AANLkTik3bCf37839CW33O_Tksyo8YOQoVx1E4SXn0xFB@mail.gmail.com>
+Message-ID: <21CC1C78-7AF4-4882-A45C-00344BDECFE0@mx5.org.uk>
+
+dns still seems down for www.satsig.net
+
+Called the register.com folks in usa and told they have reset their dns servers and are awaiting dns cache timeouts to resolve problems
+
+Any idea from anyone else most appreciated
+
+Colin
+
+On 12 Nov 2010, at 16:14, Bill Hazard wrote:
+
+> I've confirmed that this was a DDoS attack.
+> They have a 24x7 NOC and redundant networking systems, but of course
+> redundant only goes so far.
+> All 6 of their name servers are responding normally for me at the moment.
+> I am assuming they have put counter-measures in place.
+> (former rcom employee)
+> Bill
+> 
+> On Fri, Nov 12, 2010 at 10:25 AM, Jeremy Chadwick
+> <outages at jdc.parodius.com> wrote:
+>> On Fri, Nov 12, 2010 at 03:06:16PM +0000, Graham Freeman wrote:
+>>> Starting at about 06:32 (UTC-8), register.com shows signs of being hit
+>>> with a DDoS.    40-50% packet loss to register.com from my hosts in
+>>> California (USA), Minnesota (USA), and England.    Likewise at least
+>>> half of DNS lookups fail.  Operator answering calls at register.com
+>>> acknowledged problem but could give no ETR.
+>> 
+>> Is there any actual evidence or confirmation that this is a DoS/DDoS?
+>> Packet loss isn't necessarily an indicator of such, no matter how many
+>> alternate paths or peers/routes you have available to you.  It could be
+>> something as simple as "we have a core router that has gone haywire and
+>> 'Bob' hasn't come into the office yet"...
+>> 
+>> Just sayin'.
+>> 
+>> --
+>> | Jeremy Chadwick                                   jdc at parodius.com |
+>> | Parodius Networking                       http://www.parodius.com/ |
+>> | UNIX Systems Administrator                  Mountain View, CA, USA |
+>> | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>> 
+> 
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+From virendra.rode at outages.org  Mon Nov 15 01:23:53 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Sun, 14 Nov 2010 22:23:53 -0800
+Subject: [outages] PacketExchange maintenance for services out of Las Vegas.
+Message-ID: <4CE0D1F9.7060705@outages.org>
+
+PacketExchange will be performing maintenance to replace two fibers that 
+were damaged due to a pole fire. This will last between 08:00 UTC to 
+13:00 UTC on november 15.
+
+
+regards,
+/virendra
+
+From rdobbins at arbor.net  Mon Nov 15 06:59:51 2010
+From: rdobbins at arbor.net (Dobbins, Roland)
+Date: Mon, 15 Nov 2010 11:59:51 +0000
+Subject: [outages] GitHub outage post-mortem - great example of how it
+	should be done.
+Message-ID: <20A8725D-EB8E-4A99-9351-37473B17B7A9@arbor.net>
+
+
+<https://github.com/blog/744-today-s-outage>
+
+-----------------------------------------------------------------------
+Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+
+ 	       Sell your computer and buy a guitar.
+
+
+
+
+
+
+From sil at infiltrated.net  Thu Nov 18 09:51:55 2010
+From: sil at infiltrated.net (J. Oquendo)
+Date: Thu, 18 Nov 2010 09:51:55 -0500
+Subject: [outages] Global Crossing bump
+Message-ID: <4CE53D8B.8000007@infiltrated.net>
+
+
+Is it just me or did something at Global or Level3 go bonkers? I had
+multiple Global customers call me this morning to which routes cannot be
+found.
+
+>From XO's looking glass:
+
+ Type escape sequence to abort.
+ Tracing the route to 208.48.243.xxxx
+ * * *
+   1 ge5-3-0d4.rar2.nyc-ny.us.xo.net (65.106.2.1) 0 msec 0 msec 0 msec
+   2 ge5-3-0d0.rar1.nyc-ny.us.xo.net (65.106.3.97) 0 msec 0 msec 4 msec
+   3 te-3-1-0.rar3.nyc-ny.us.xo.net (65.106.1.18) 0 msec 4 msec 0 msec
+   4 ae0d1.cir1.nyc-ny.us.xo.net (207.88.13.41) 0 msec 0 msec 0 msec
+   5 206.111.13.214.ptr.us.xo.net (206.111.13.214) 0 msec 4 msec 0 msec
+   6   * * * 
+
+>From my machine in TX:
+
+$ tcptraceroute 208.48.243.49
+Selected device em0, address 208.74.xxx.xx, port 39234 for outgoing packets
+Tracing the path to 208.48.243.49 on TCP port 80, 30 hops max
+
+ 3  ge-7-47.car1.Houston1.Level3.net (4.78.9.25)  9.908 ms  9.792 ms 
+9.972 ms
+ 4  ae-2-5.bar1.Houston1.Level3.net (4.69.132.230)  9.995 ms  9.801 ms 
+9.980 ms
+ 5  ae-13-13.ebr1.Dallas1.Level3.net (4.69.137.138)  9.986 ms  15.045
+ms  17.976 ms
+ 6  ae-3-80.edge4.Dallas3.Level3.net (4.69.145.141)  6.757 ms  6.227 ms 
+7.263 ms
+ 7  te2-2-10G.ar5.dal2.gblx.net (64.208.27.9)  9.990 ms  51.661 ms  8.734 ms
+ 8  * * *
+
+34  *^C
+
+>From Level3's looking glass, I can't see Global and the closest I get to
+seeing anything @ Global is from my machine - the interconnect in Dallas.
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+227C 5D35 7DCB 0893 95AA  4771 1DCE 1FD1 5CCD 6B5E
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x5CCD6B5E
+
+
+From ujjval at simplesignal.com  Thu Nov 18 11:21:54 2010
+From: ujjval at simplesignal.com (Ujjval Karihaloo)
+Date: Thu, 18 Nov 2010 08:21:54 -0800
+Subject: [outages] Facebook down?
+Message-ID: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+
+Is Facebook down again?
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/db0cfdef/attachment.html>
+
+From pkranz at unwiredltd.com  Thu Nov 18 11:26:15 2010
+From: pkranz at unwiredltd.com (Peter Kranz)
+Date: Thu, 18 Nov 2010 08:26:15 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+Message-ID: <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+
+Yes and no. Was down even from direct peering connection in Palo Alto, now
+back up again..
+
+ 
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Ujjval Karihaloo
+Sent: Thursday, November 18, 2010 8:22 AM
+To: outages at outages.org
+Subject: [outages] Facebook down?
+
+ 
+
+Is Facebook down again? 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/5110acfe/attachment.html>
+
+From ujjval at simplesignal.com  Thu Nov 18 11:28:47 2010
+From: ujjval at simplesignal.com (Ujjval Karihaloo)
+Date: Thu, 18 Nov 2010 08:28:47 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+Message-ID: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF4@EXMBXCLUS01.citservers.local>
+
+Yes back up again
+From: Peter Kranz [mailto:pkranz at unwiredltd.com]
+Sent: Thursday, November 18, 2010 9:26 AM
+To: Ujjval Karihaloo; outages at outages.org
+Subject: RE: [outages] Facebook down?
+
+Yes and no... Was down even from direct peering connection in Palo Alto, now back up again..
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Ujjval Karihaloo
+Sent: Thursday, November 18, 2010 8:22 AM
+To: outages at outages.org
+Subject: [outages] Facebook down?
+
+Is Facebook down again?
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/ceee48f7/attachment-0001.html>
+
+From john at quonix.net  Thu Nov 18 11:52:30 2010
+From: john at quonix.net (John Von Essen)
+Date: Thu, 18 Nov 2010 11:52:30 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+Message-ID: <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+
+I mentioned this to Virendra in that survey that was sent out, but why  
+do we feel its important to track facebook being up or down?
+
+I find this list to be useful in tracking major IP outages between  
+transit carriers. It goes directly to my NOC pager and all my NOC  
+staff, and many times it has been very useful when people post about  
+an OC-48 cut for ATT, or an XO outage, then our customers call us  
+about issues and we know its not us and their carrier.
+
+I could care less whether or not Facebook is up or down. Facebook  
+doesn't effect the rest of the internet like a Level3 or ATT outage,  
+or or fiber cut in NYC.
+
+If you go to facebook.com and its down, then yes, its down. End of  
+story. They are an endpoint on the internet.
+
+I'm not opposed to other sites being reported. If Google is down,  
+thats big, because Google provides a ton email proxy services.  
+Likewise, the post about register.com being down was very helpful  
+because they provide core DNS services. These sites/networks effect  
+the internet.
+
+But facebook is meaningless from an infrastructure/operations  
+standpoint, and is a complete waste of time to discuss on this list.
+
+
+-John
+
+
+
+
+On Nov 18, 2010, at 11:26 AM, Peter Kranz wrote:
+
+> Yes and no? Was down even from direct peering connection in Palo  
+> Alto, now back up again..
+>
+>
+> From: outages-bounces at outages.org [mailto:outages- 
+> bounces at outages.org] On Behalf Of Ujjval Karihaloo
+> Sent: Thursday, November 18, 2010 8:22 AM
+> To: outages at outages.org
+> Subject: [outages] Facebook down?
+>
+> Is Facebook down again?
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/58bcc57e/attachment.html>
+
+From josh at imaginenetworksllc.com  Thu Nov 18 12:28:07 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 18 Nov 2010 12:28:07 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+Message-ID: <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+
+Some operations do depend on Facebook.
+
+It's good to know when you're running an ISP and customers say the
+Internet is down the same time you know Facebook is down.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Thu, Nov 18, 2010 at 11:52 AM, John Von Essen <john at quonix.net> wrote:
+>
+> I mentioned this to Virendra in that survey that was sent out, but why do we feel its important to track facebook being up or down?
+> I find this list to be useful in tracking major IP outages between transit carriers. It goes directly to my NOC pager and all my NOC staff, and many times it has been very useful when people post about an OC-48 cut for ATT, or an XO outage, then our customers call us about issues and we know its not us and their carrier.
+> I could care less whether or not Facebook is up or down. Facebook doesn't effect the rest of the internet like a Level3 or ATT outage, or or fiber cut in NYC.
+> If you go to facebook.com and its down, then yes, its down. End of story. They are an endpoint on the internet.
+> I'm not opposed to other sites being reported. If Google is down, thats big, because Google provides a ton email proxy services. Likewise, the post about register.com being down was very helpful because they provide core DNS services. These sites/networks effect the internet.
+> But facebook is meaningless from an infrastructure/operations standpoint, and is a complete waste of time to discuss on this list.
+>
+> -John
+>
+>
+>
+> On Nov 18, 2010, at 11:26 AM, Peter Kranz wrote:
+>
+> Yes and no? Was down even from direct peering connection in Palo Alto, now back up again..
+>
+> From:?outages-bounces at outages.org [mailto:outages-bounces at outages.org]?On Behalf Of?Ujjval Karihaloo
+> Sent:?Thursday, November 18, 2010 8:22 AM
+> To:?outages at outages.org
+> Subject:?[outages] Facebook down?
+>
+> Is Facebook down again?
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From john at quonix.net  Thu Nov 18 12:31:11 2010
+From: john at quonix.net (John Von Essen)
+Date: Thu, 18 Nov 2010 12:31:11 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+Message-ID: <D4E89813-AE8B-41A2-84AC-5C6531235996@quonix.net>
+
+Yeah, but you dont need the outages mailing list to determine if  
+facebook is down for your ISP constituents. Just bring up a browser,  
+and if its down, its down! Testing over.
+
+Unlike an Sprint outage in Chicago, there is no easy way for me to  
+test that, but a post on the list helps.
+
+-John
+
+On Nov 18, 2010, at 12:28 PM, Josh Luthman wrote:
+
+> Some operations do depend on Facebook.
+>
+> It's good to know when you're running an ISP and customers say the
+> Internet is down the same time you know Facebook is down.
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+>
+> On Thu, Nov 18, 2010 at 11:52 AM, John Von Essen <john at quonix.net>  
+> wrote:
+>>
+>> I mentioned this to Virendra in that survey that was sent out, but  
+>> why do we feel its important to track facebook being up or down?
+>> I find this list to be useful in tracking major IP outages between  
+>> transit carriers. It goes directly to my NOC pager and all my NOC  
+>> staff, and many times it has been very useful when people post  
+>> about an OC-48 cut for ATT, or an XO outage, then our customers  
+>> call us about issues and we know its not us and their carrier.
+>> I could care less whether or not Facebook is up or down. Facebook  
+>> doesn't effect the rest of the internet like a Level3 or ATT  
+>> outage, or or fiber cut in NYC.
+>> If you go to facebook.com and its down, then yes, its down. End of  
+>> story. They are an endpoint on the internet.
+>> I'm not opposed to other sites being reported. If Google is down,  
+>> thats big, because Google provides a ton email proxy services.  
+>> Likewise, the post about register.com being down was very helpful  
+>> because they provide core DNS services. These sites/networks effect  
+>> the internet.
+>> But facebook is meaningless from an infrastructure/operations  
+>> standpoint, and is a complete waste of time to discuss on this list.
+>>
+>> -John
+>>
+>>
+>>
+>> On Nov 18, 2010, at 11:26 AM, Peter Kranz wrote:
+>>
+>> Yes and no? Was down even from direct peering connection in Palo  
+>> Alto, now back up again..
+>>
+>> From: outages-bounces at outages.org [mailto:outages- 
+>> bounces at outages.org] On Behalf Of Ujjval Karihaloo
+>> Sent: Thursday, November 18, 2010 8:22 AM
+>> To: outages at outages.org
+>> Subject: [outages] Facebook down?
+>>
+>> Is Facebook down again?
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+
+
+
+From carlos at televolve.com  Thu Nov 18 12:35:17 2010
+From: carlos at televolve.com (Carlos Alvarez)
+Date: Thu, 18 Nov 2010 10:35:17 -0700
+Subject: [outages] Facebook down?
+In-Reply-To: <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+Message-ID: <4CE563D5.6010302@televolve.com>
+
+John Von Essen wrote:
+> I mentioned this to Virendra in that survey that was sent out, but why
+> do we feel its important to track facebook being up or down?
+
+Sad as it may be, millions of people think Facebook is "the internet." 
+They use it as their home page and rarely leave.  FB is now one of the 
+top five search engines, because people search there, since it is "the 
+internet" for them.  They use it as their e-mail, their calendar of 
+events, and their contact list.
+
+When FB dies, they call their ISP and report that the internet is down.
+
+-- 
+Carlos Alvarez
+TelEvolve
+602-889-3003
+
+
+
+From surfer at mauigateway.com  Thu Nov 18 12:36:21 2010
+From: surfer at mauigateway.com (Scott Weeks)
+Date: Thu, 18 Nov 2010 09:36:21 -0800
+Subject: [outages] Facebook down?
+Message-ID: <20101118093621.57E99A92@resin12.mta.everyone.net>
+
+
+
+--- josh at imaginenetworksllc.com wrote:
+From: Josh Luthman <josh at imaginenetworksllc.com>
+
+Some operations do depend on Facebook.
+----------------------------------------------
+
+
+Bummer for them.  They need to look into changing their dependencies!
+
+scott
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------
+---------------
+-----------------------
+
+From sil at infiltrated.net  Thu Nov 18 12:36:52 2010
+From: sil at infiltrated.net (J. Oquendo)
+Date: Thu, 18 Nov 2010 12:36:52 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+Message-ID: <4CE56434.2070902@infiltrated.net>
+
+On 11/18/2010 12:28 PM, Josh Luthman wrote:
+> Some operations do depend on Facebook.
+>
+> It's good to know when you're running an ISP and customers say the
+> Internet is down the same time you know Facebook is down.
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+
+Facebook is not the Internet and shouldn't be used as a guideline as to
+whether or not the Internet is down. I feel bad for your operations
+staff if that is your mechanism to determine an outage
+
+Customer: "I can't get to the Internet"
+Support: "You're right, Facebook is down, we'll open a ticket with our
+carrier..."
+
+I wonder what someone in Level3 or Global would tell me if I called and
+told them that... Anyhow, off to Best Buy, trying to find out why when I
+bought this computer I didn't receive the Internet inside the box as
+promised.
+
+-- 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+J. Oquendo
+SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT
+
+"It takes 20 years to build a reputation and five minutes to
+ruin it. If you think about that, you'll do things
+differently." - Warren Buffett
+
+227C 5D35 7DCB 0893 95AA  4771 1DCE 1FD1 5CCD 6B5E
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x5CCD6B5E
+
+
+From josh at imaginenetworksllc.com  Thu Nov 18 12:38:59 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 18 Nov 2010 12:38:59 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <4CE56434.2070902@infiltrated.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+ <4CE56434.2070902@infiltrated.net>
+Message-ID: <AANLkTi=X6qv-cBaj9-LuqAJnCgNzHNmdS4VFfNjB=aYe@mail.gmail.com>
+
+No.  The customer claims "the Internet is down" and the rep knows
+before the call is answered that Facebook is down and has them check
+another website rather then trouble shooting equipment, seeing how
+things are plugged in, etc.
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Thu, Nov 18, 2010 at 12:36 PM, J. Oquendo <sil at infiltrated.net> wrote:
+> On 11/18/2010 12:28 PM, Josh Luthman wrote:
+>> Some operations do depend on Facebook.
+>>
+>> It's good to know when you're running an ISP and customers say the
+>> Internet is down the same time you know Facebook is down.
+>>
+>> Josh Luthman
+>> Office: 937-552-2340
+>> Direct: 937-552-2343
+>> 1100 Wayne St
+>> Suite 1337
+>> Troy, OH 45373
+>
+> Facebook is not the Internet and shouldn't be used as a guideline as to
+> whether or not the Internet is down. I feel bad for your operations
+> staff if that is your mechanism to determine an outage
+>
+> Customer: "I can't get to the Internet"
+> Support: "You're right, Facebook is down, we'll open a ticket with our
+> carrier..."
+>
+> I wonder what someone in Level3 or Global would tell me if I called and
+> told them that... Anyhow, off to Best Buy, trying to find out why when I
+> bought this computer I didn't receive the Internet inside the box as
+> promised.
+>
+> --
+>
+> =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+> J. Oquendo
+> SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT
+>
+> "It takes 20 years to build a reputation and five minutes to
+> ruin it. If you think about that, you'll do things
+> differently." - Warren Buffett
+>
+> 227C 5D35 7DCB 0893 95AA ?4771 1DCE 1FD1 5CCD 6B5E
+> http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x5CCD6B5E
+>
+>
+
+
+From tine at edgecast.com  Thu Nov 18 12:40:22 2010
+From: tine at edgecast.com (Tine Hutchison)
+Date: Thu, 18 Nov 2010 09:40:22 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <4CE563D5.6010302@televolve.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <4CE563D5.6010302@televolve.com>
+Message-ID: <AANLkTik1T9xDOsXrGb5Ne6bACjivwYyf+Tq00VOSeJ6g@mail.gmail.com>
+
+John,
+
+Maybe you could put a filter in your paging scripts that looks for facebook
+and junks the email so you don't get woken up for it?
+
+You can completely solve this problem for yourself.
+
+Tine
+
+
+On Thu, Nov 18, 2010 at 9:35 AM, Carlos Alvarez <carlos at televolve.com>wrote:
+
+> John Von Essen wrote:
+>
+>> I mentioned this to Virendra in that survey that was sent out, but why
+>> do we feel its important to track facebook being up or down?
+>>
+>
+> Sad as it may be, millions of people think Facebook is "the internet." They
+> use it as their home page and rarely leave.  FB is now one of the top five
+> search engines, because people search there, since it is "the internet" for
+> them.  They use it as their e-mail, their calendar of events, and their
+> contact list.
+>
+> When FB dies, they call their ISP and report that the internet is down.
+>
+> --
+> Carlos Alvarez
+> TelEvolve
+> 602-889-3003
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/b813d095/attachment.html>
+
+From jjackson at aninetworks.net  Thu Nov 18 12:39:28 2010
+From: jjackson at aninetworks.net (Joseph Jackson)
+Date: Thu, 18 Nov 2010 09:39:28 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <D4E89813-AE8B-41A2-84AC-5C6531235996@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+ <D4E89813-AE8B-41A2-84AC-5C6531235996@quonix.net>
+Message-ID: <6D497FE8AFD83E49AFADD9114C569F8F06B648E8E9@EXMBX10.exchhosting.com>
+
+Write a rule that deletes anything with facebook in it.  There now you don't have to get upset.
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of John Von Essen
+Sent: Thursday, November 18, 2010 11:31 AM
+To: outages at outages.org
+Subject: Re: [outages] Facebook down?
+
+Yeah, but you dont need the outages mailing list to determine if  
+facebook is down for your ISP constituents. Just bring up a browser,  
+and if its down, its down! Testing over.
+
+Unlike an Sprint outage in Chicago, there is no easy way for me to  
+test that, but a post on the list helps.
+
+-John
+
+On Nov 18, 2010, at 12:28 PM, Josh Luthman wrote:
+
+> Some operations do depend on Facebook.
+>
+> It's good to know when you're running an ISP and customers say the
+> Internet is down the same time you know Facebook is down.
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+>
+> On Thu, Nov 18, 2010 at 11:52 AM, John Von Essen <john at quonix.net>  
+> wrote:
+>>
+>> I mentioned this to Virendra in that survey that was sent out, but  
+>> why do we feel its important to track facebook being up or down?
+>> I find this list to be useful in tracking major IP outages between  
+>> transit carriers. It goes directly to my NOC pager and all my NOC  
+>> staff, and many times it has been very useful when people post  
+>> about an OC-48 cut for ATT, or an XO outage, then our customers  
+>> call us about issues and we know its not us and their carrier.
+>> I could care less whether or not Facebook is up or down. Facebook  
+>> doesn't effect the rest of the internet like a Level3 or ATT  
+>> outage, or or fiber cut in NYC.
+>> If you go to facebook.com and its down, then yes, its down. End of  
+>> story. They are an endpoint on the internet.
+>> I'm not opposed to other sites being reported. If Google is down,  
+>> thats big, because Google provides a ton email proxy services.  
+>> Likewise, the post about register.com being down was very helpful  
+>> because they provide core DNS services. These sites/networks effect  
+>> the internet.
+>> But facebook is meaningless from an infrastructure/operations  
+>> standpoint, and is a complete waste of time to discuss on this list.
+>>
+>> -John
+>>
+>>
+>>
+>> On Nov 18, 2010, at 11:26 AM, Peter Kranz wrote:
+>>
+>> Yes and no... Was down even from direct peering connection in Palo  
+>> Alto, now back up again..
+>>
+>> From: outages-bounces at outages.org [mailto:outages- 
+>> bounces at outages.org] On Behalf Of Ujjval Karihaloo
+>> Sent: Thursday, November 18, 2010 8:22 AM
+>> To: outages at outages.org
+>> Subject: [outages] Facebook down?
+>>
+>> Is Facebook down again?
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From raistlin at tacorp.net  Thu Nov 18 12:54:35 2010
+From: raistlin at tacorp.net (Jason Slagle)
+Date: Thu, 18 Nov 2010 12:54:35 -0500 (EST)
+Subject: [outages] Facebook down?
+In-Reply-To: <4CE563D5.6010302@televolve.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <4CE563D5.6010302@televolve.com>
+Message-ID: <20101118125000.F1155@mail.tacorp.net>
+
+
+My frustration with $bigwebsite dying and this list is that I don't get 
+one post about it.  I get a TON of posts with people basically saying "Me 
+Too" (c) 2010 AOL.
+
+One post that facebook is down is informative - even in the enterprise 
+people will likely get questions about it.  However, everyone responding 
+indicating it's down for them too is less useful.
+
+Jason
+
+From john at quonix.net  Thu Nov 18 12:48:17 2010
+From: john at quonix.net (John Von Essen)
+Date: Thu, 18 Nov 2010 12:48:17 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <4CE563D5.6010302@televolve.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <4CE563D5.6010302@televolve.com>
+Message-ID: <70592F07-0913-4AE6-9E3D-14800356F7C7@quonix.net>
+
+We're talking about average Joe Q Public.
+
+This list is for NOC people, ISP operators - not the average Joe.  
+Thats my point. Why are we wasting cycles on posting facebook  
+outages.  "WE" know that facebook is meaningless, and we know how to  
+determine if its down on its own accord and not related to an internet  
+outage with our carrier.
+
+My point to Virendra is this list is becoming tainted with meaningless  
+posts. If people post garbage all the time, it will no longer be  
+useful to anyone.
+
+So can we stop with these stupid facebook posts. Use your common sense  
+when you post an outage to this list.
+
+
+-John
+
+
+On Nov 18, 2010, at 12:35 PM, Carlos Alvarez wrote:
+
+> John Von Essen wrote:
+>> I mentioned this to Virendra in that survey that was sent out, but  
+>> why
+>> do we feel its important to track facebook being up or down?
+>
+> Sad as it may be, millions of people think Facebook is "the  
+> internet." They use it as their home page and rarely leave.  FB is  
+> now one of the top five search engines, because people search there,  
+> since it is "the internet" for them.  They use it as their e-mail,  
+> their calendar of events, and their contact list.
+>
+> When FB dies, they call their ISP and report that the internet is  
+> down.
+>
+> -- 
+> Carlos Alvarez
+> TelEvolve
+> 602-889-3003
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From drais at icantclick.org  Thu Nov 18 12:51:09 2010
+From: drais at icantclick.org (david raistrick)
+Date: Thu, 18 Nov 2010 12:51:09 -0500 (EST)
+Subject: [outages] Facebook down?
+In-Reply-To: <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+Message-ID: <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+
+On Thu, 18 Nov 2010, John Von Essen wrote:
+
+> I could care less whether or not Facebook is up or down. Facebook doesn't
+> effect the rest of the internet like a Level3 or ATT outage, or or fiber cut
+> in NYC.
+
+I could care less about a fiber cut in NYC.
+
+Please keep your fiber cut emails to yourself, I dont find them 
+appropriate for this list.
+
+
+> I'm not opposed to other sites being reported. If Google is down, thats big,
+> because Google provides a ton email proxy services. Likewise, the post about
+
+funny, facebook provides a lot more services than you (clearly) care to 
+know about as well.
+
+in my ops roll, if facebook is down (either APIs or customer interface) I 
+-DO- want to know, because my job, my company, and my customers, "depend" 
+on it.
+
+
+just because you don't use it doesnt mean others dont.  (hence my comment 
+about the fiber cuts)
+
+
+
+
+--
+david raistrick        http://www.netmeister.org/news/learn2quote.html
+drais at icantclick.org             http://www.expita.com/nomime.html
+
+
+From john at quonix.net  Thu Nov 18 12:54:53 2010
+From: john at quonix.net (John Von Essen)
+Date: Thu, 18 Nov 2010 12:54:53 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+Message-ID: <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+
+Well then... your an idiot.
+
+-John
+
+On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+
+> I could care less about a fiber cut in NYC.
+
+
+From jayson at peakinter.net  Thu Nov 18 13:09:20 2010
+From: jayson at peakinter.net (Jayson Baker)
+Date: Thu, 18 Nov 2010 11:09:20 -0700
+Subject: [outages] Facebook down?
+In-Reply-To: <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+Message-ID: <AANLkTim3Lj6Fnw2yv_Zp=zWQ+VkjxHFh6aoVUYz0MhE-@mail.gmail.com>
+
+OK ENOUGH.  Maybe you could all take your useless bickering off-list.  If
+you get a notice you don't care about then delete it and go on with your
+life.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+
+On Thu, Nov 18, 2010 at 10:54 AM, John Von Essen <john at quonix.net> wrote:
+
+> Well then... your an idiot.
+>
+> -John
+>
+> On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+>
+>  I could care less about a fiber cut in NYC.
+>>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/1b4e5172/attachment.html>
+
+From JMacleod at alentus.com  Thu Nov 18 13:12:44 2010
+From: JMacleod at alentus.com (John Macleod)
+Date: Thu, 18 Nov 2010 11:12:44 -0700
+Subject: [outages] Facebook down?
+Message-ID: <060EDFC2221B014B9504AC06B747F58A499BCC36E1@ex01.alentus.lan>
+
+Now I think this is getting off topic...
+
+Clearly everyone's desire for being part of this list is to address varying operational needs.
+
+Can we all accept this fact and move on?
+
+John
+
+___
+John Macleod
+Alentus UK Limited
+Seymour House
+South Street
+Bromley BR1 1RH
++44.(0)208.315.5800
++44.(0)208.315.5801 (Fax)
+www.alentus.co.uk | www.alentus.com
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Thu Nov 18 10:54:53 2010
+Subject: Re: [outages] Facebook down?
+
+Well then... your an idiot.
+
+-John
+
+On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+
+> I could care less about a fiber cut in NYC.
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+"Please consider the environment before printing this e-mail
+
+This e-mail (and/or any attachment) contains information, which is confidential and intended solely for the attention and use of the named addressee(s). If you are not the intended recipient you must not copy, distribute or use it for any purpose or disclose the contents to any person. If you have received this e-mail in error, please immediately notify the sender. The information contained in this e-mail (and any attachments) is supplied in good faith, but the sender shall not be under any liability in damages or otherwise for any reliance that may be placed upon it by the recipient, nor does it constitute a contract in any way. Any comments or opinions expressed are those of the originator not of Alentus Corporation unless otherwise expressly stated."
+
+
+
+From tim at yocum.org  Thu Nov 18 13:16:25 2010
+From: tim at yocum.org (Tim Yocum)
+Date: Thu, 18 Nov 2010 12:16:25 -0600
+Subject: [outages] Facebook down?
+In-Reply-To: <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+Message-ID: <AANLkTimfWd6xq+PmbWoHzZ9PpjEorHyUMCgpmYgQM3pQ@mail.gmail.com>
+
+On Thu, Nov 18, 2010 at 11:51 AM, david raistrick <drais at icantclick.org> wrote:
+> I could care less about a fiber cut in NYC.
+
+If this is true and not just in jest, you're very much on the wrong list.
+
+Every message that passes through this list has a footer, shown below:
+
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+I encourage everyone to read the above link for clarification on what
+material is expected on the list. As best I can determine, "is
+XYZwebsite down?" does not pass muster. There are other sites for the
+latter: http://www.downforeveryoneorjustme.com/www.facebook.com
+
+For those who may be too busy updating their Facebook status to click
+the above (or below) list description, here's the first paragraph:
+
+"The primary goal of this mailing list ("outages") is for
+outages-reporting that would apply to failures of major communications
+infrastructure components having significant traffic-carrying
+capacity, similar to what FCC provided prior to 9/11 days but they
+seem to have pulled back due to terrorism concerns. Some also believe
+that LEC's and IXC's also like this model as they no longer have to
+air their dirty laundry. Then again, this mailing list is not about
+making anyone look bad, its all about information sharing and keeping
+network operators & end users abreast on the situation as close to
+real-time information as possible in order to assess and respond to
+major outage such as routing voice/data via different carriers which
+may directly or indirectly impact us and our customers. A reliable
+communications network is essential in times of crisis."
+
+...though some end-users may find a Facebook outage to be a "time of
+crisis," I'm fairly certain for operational purposes we can agree that
+it isn't worthy of a thread here -- whether it's a thread of "Me Too!"
+posts or "but it's important to ME!" posts.
+
+Please, let's let this thread burn out and move on with our day.
+
+- Tim
+
+From drais at icantclick.org  Thu Nov 18 14:35:08 2010
+From: drais at icantclick.org (david raistrick)
+Date: Thu, 18 Nov 2010 14:35:08 -0500 (EST)
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTimfWd6xq+PmbWoHzZ9PpjEorHyUMCgpmYgQM3pQ@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <AANLkTimfWd6xq+PmbWoHzZ9PpjEorHyUMCgpmYgQM3pQ@mail.gmail.com>
+Message-ID: <alpine.BSF.2.00.1011181433210.82744@murf.icantclick.org>
+
+On Thu, 18 Nov 2010, Tim Yocum wrote:
+
+> "The primary goal of this mailing list ("outages") is for
+> outages-reporting that would apply to failures of major communications
+> infrastructure components having significant traffic-carrying
+> capacity, similar to what FCC provided prior to 9/11 days but they
+
+
+In other words, 99% of the traffic on this list has always been off topic. 
+When was the last time anyone reported something that actually fits that?
+
+
+--
+david raistrick        http://www.netmeister.org/news/learn2quote.html
+drais at icantclick.org             http://www.expita.com/nomime.html
+
+
+From josh at imaginenetworksllc.com  Thu Nov 18 14:45:05 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 18 Nov 2010 14:45:05 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <alpine.BSF.2.00.1011181433210.82744@murf.icantclick.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <AANLkTimfWd6xq+PmbWoHzZ9PpjEorHyUMCgpmYgQM3pQ@mail.gmail.com>
+ <alpine.BSF.2.00.1011181433210.82744@murf.icantclick.org>
+Message-ID: <AANLkTi=jpYMvUWPASLN9B61TbHqzsF_jEC-uZJGyJMDX@mail.gmail.com>
+
+Can we agree the people that don't like the content posted can either
+unsubscribe or filter the list for the words they don't like (ie:
+facebook, myspace, google)?
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Thu, Nov 18, 2010 at 2:35 PM, david raistrick <drais at icantclick.org> wrote:
+> On Thu, 18 Nov 2010, Tim Yocum wrote:
+>
+>> "The primary goal of this mailing list ("outages") is for
+>> outages-reporting that would apply to failures of major communications
+>> infrastructure components having significant traffic-carrying
+>> capacity, similar to what FCC provided prior to 9/11 days but they
+>
+>
+> In other words, 99% of the traffic on this list has always been off topic.
+> When was the last time anyone reported something that actually fits that?
+>
+>
+> --
+> david raistrick ? ? ? ?http://www.netmeister.org/news/learn2quote.html
+> drais at icantclick.org ? ? ? ? ? ? http://www.expita.com/nomime.html
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From jared at compuwizz.net  Thu Nov 18 15:12:06 2010
+From: jared at compuwizz.net (Jared Geiger)
+Date: Thu, 18 Nov 2010 15:12:06 -0500
+Subject: [outages] Global Crossing bump
+In-Reply-To: <4CE53D8B.8000007@infiltrated.net>
+References: <4CE53D8B.8000007@infiltrated.net>
+Message-ID: <AANLkTinsFOYnciycJDROBCTTBQjQ0YK8v0K1ueak8noF@mail.gmail.com>
+
+Global Crossing had issues yesterday in Ashburn. I wouldn't be surprised if
+they are having problems somewhere else today. This was noted in the
+HE/Global Crossing thread yesterday.
+
+On Thu, Nov 18, 2010 at 9:51 AM, J. Oquendo <sil at infiltrated.net> wrote:
+
+>
+> Is it just me or did something at Global or Level3 go bonkers? I had
+> multiple Global customers call me this morning to which routes cannot be
+> found.
+>
+> From XO's looking glass:
+>
+>  Type escape sequence to abort.
+>  Tracing the route to 208.48.243.xxxx
+>  * * *
+>   1 ge5-3-0d4.rar2.nyc-ny.us.xo.net (65.106.2.1) 0 msec 0 msec 0 msec
+>   2 ge5-3-0d0.rar1.nyc-ny.us.xo.net (65.106.3.97) 0 msec 0 msec 4 msec
+>   3 te-3-1-0.rar3.nyc-ny.us.xo.net (65.106.1.18) 0 msec 4 msec 0 msec
+>   4 ae0d1.cir1.nyc-ny.us.xo.net (207.88.13.41) 0 msec 0 msec 0 msec
+>   5 206.111.13.214.ptr.us.xo.net (206.111.13.214) 0 msec 4 msec 0 msec
+>   6   * * *
+>
+> From my machine in TX:
+>
+> $ tcptraceroute 208.48.243.49
+> Selected device em0, address 208.74.xxx.xx, port 39234 for outgoing packets
+> Tracing the path to 208.48.243.49 on TCP port 80, 30 hops max
+>
+>  3  ge-7-47.car1.Houston1.Level3.net (4.78.9.25)  9.908 ms  9.792 ms
+> 9.972 ms
+>  4  ae-2-5.bar1.Houston1.Level3.net (4.69.132.230)  9.995 ms  9.801 ms
+> 9.980 ms
+>  5  ae-13-13.ebr1.Dallas1.Level3.net (4.69.137.138)  9.986 ms  15.045
+> ms  17.976 ms
+>  6  ae-3-80.edge4.Dallas3.Level3.net (4.69.145.141)  6.757 ms  6.227 ms
+> 7.263 ms
+>  7  te2-2-10G.ar5.dal2.gblx.net (64.208.27.9)  9.990 ms  51.661 ms  8.734
+> ms
+>  8  * * *
+>
+> 34  *^C
+>
+> From Level3's looking glass, I can't see Global and the closest I get to
+> seeing anything @ Global is from my machine - the interconnect in Dallas.
+>
+> --
+>
+> =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+> J. Oquendo
+> SGFA, SGFE, C|EH, CNDA, CHFI, OSCP, CPT
+>
+> "It takes 20 years to build a reputation and five minutes to
+> ruin it. If you think about that, you'll do things
+> differently." - Warren Buffett
+>
+> 227C 5D35 7DCB 0893 95AA  4771 1DCE 1FD1 5CCD 6B5E
+> http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x5CCD6B5E
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/eb4e5b03/attachment-0001.html>
+
+From rsk at gsp.org  Thu Nov 18 16:26:53 2010
+From: rsk at gsp.org (Rich Kulawiec)
+Date: Thu, 18 Nov 2010 16:26:53 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+Message-ID: <20101118212653.GA15243@gsp.org>
+
+On Thu, Nov 18, 2010 at 12:28:07PM -0500, Josh Luthman wrote:
+> Some operations do depend on Facebook.
+
+But why should the rest of us indulge this exceedingly poor choice?
+
+I expect to see traffic on "outages" that discusses Internet/telecom
+infrastructure outages -- that is, fiber cuts, circuit issues, prefix
+snafus, DNS botches, carrier downtime, etc.  I don't expect to see
+traffic about any particular web site, *unless* that traffic is using
+that web site as an example of what the problem is, or as part of a
+symptom report, or to delineate the scope of a problem.  Not Facebook,
+not Google, not Amazon, not eBay -- none of them are important enough
+or will ever be important enough to merit the same level of concern. [1]
+
+Now, I do get that some users out there conflate "Facebook" (or perhaps
+"Google" or some other site) with "the Internet".  That's unfortunate, and
+I really do feel badly for front-line personnel who must deal with these
+people.  But I would rather buy those folks a good bottle of scotch so
+that they can drown their troubles, and keep all that noise off here.
+
+---rsk
+
+[1] Alright, alright, I have just been elbowed and forced to concede
+that an ICanHazCheeseburger outage is equivalent to the Apocalypse, the
+implosion of the sun, the eruption of all Pacific rim volcanoes, and the
+alignment of all 8...9...8...whatever planets all rolled into one.  Fine.
+Report THAT.  But just that one.
+
+From josh at imaginenetworksllc.com  Thu Nov 18 16:39:19 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 18 Nov 2010 16:39:19 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <20101118212653.GA15243@gsp.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+ <20101118212653.GA15243@gsp.org>
+Message-ID: <AANLkTimcMpA+i7poARamXbb_p_03CObzw6U3kQQ7jpHk@mail.gmail.com>
+
+Can I point out there has been way more discussion about a topic less
+desired then the topic itself?
+
+*duck*
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+
+On Thu, Nov 18, 2010 at 4:26 PM, Rich Kulawiec <rsk at gsp.org> wrote:
+> On Thu, Nov 18, 2010 at 12:28:07PM -0500, Josh Luthman wrote:
+>> Some operations do depend on Facebook.
+>
+> But why should the rest of us indulge this exceedingly poor choice?
+>
+> I expect to see traffic on "outages" that discusses Internet/telecom
+> infrastructure outages -- that is, fiber cuts, circuit issues, prefix
+> snafus, DNS botches, carrier downtime, etc. ?I don't expect to see
+> traffic about any particular web site, *unless* that traffic is using
+> that web site as an example of what the problem is, or as part of a
+> symptom report, or to delineate the scope of a problem. ?Not Facebook,
+> not Google, not Amazon, not eBay -- none of them are important enough
+> or will ever be important enough to merit the same level of concern. [1]
+>
+> Now, I do get that some users out there conflate "Facebook" (or perhaps
+> "Google" or some other site) with "the Internet". ?That's unfortunate, and
+> I really do feel badly for front-line personnel who must deal with these
+> people. ?But I would rather buy those folks a good bottle of scotch so
+> that they can drown their troubles, and keep all that noise off here.
+>
+> ---rsk
+>
+> [1] Alright, alright, I have just been elbowed and forced to concede
+> that an ICanHazCheeseburger outage is equivalent to the Apocalypse, the
+> implosion of the sun, the eruption of all Pacific rim volcanoes, and the
+> alignment of all 8...9...8...whatever planets all rolled into one. ?Fine.
+> Report THAT. ?But just that one.
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+
+From larrysheldon at cox.net  Thu Nov 18 16:51:39 2010
+From: larrysheldon at cox.net (Larry Sheldon)
+Date: Thu, 18 Nov 2010 15:51:39 -0600
+Subject: [outages] Facebook down?
+In-Reply-To: <20101118212653.GA15243@gsp.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <AANLkTinWBnTV+xq_cV=U=c9OT6P0M27mG688CT-50kab@mail.gmail.com>
+ <20101118212653.GA15243@gsp.org>
+Message-ID: <4CE59FEB.20302@cox.net>
+
+On 11/18/2010 3:26 PM, Rich Kulawiec wrote:
+> On Thu, Nov 18, 2010 at 12:28:07PM -0500, Josh Luthman wrote:
+>> Some operations do depend on Facebook.
+>
+> But why should the rest of us indulge this exceedingly poor choice?
+
+Because some of you have paying customers who complain (a complaint you 
+want to be prepared to correct without a "wait-while-I-check", 
+credibility destroying delay) that you are not providing connectivity 
+you promised.
+
+Why not go back to NANOG?
+
+I'm getting what NANOG won't supply.
+
+-- 
+Superfluity does not vitiate.
+
+http://lwolt.wordpress.com/
+
+1
+
+From gbonser at seven.com  Thu Nov 18 16:43:13 2010
+From: gbonser at seven.com (George Bonser)
+Date: Thu, 18 Nov 2010 13:43:13 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+Message-ID: <5A6D953473350C4B9995546AFE9939EE0B14CA2F@RWC-EX1.corp.seven.com>
+
+
+
+> On Behalf Of david raistrick
+> Sent: Thursday, November 18, 2010 9:51 AM
+> Subject: Re: [outages] Facebook down?
+> 
+> On Thu, 18 Nov 2010, John Von Essen wrote:
+> 
+> > I could care less whether or not Facebook is up or down. Facebook
+> doesn't
+> > effect the rest of the internet like a Level3 or ATT outage, or or
+> fiber cut
+> > in NYC.
+> 
+> I could care less about a fiber cut in NYC.
+
+The fact is that connectivity to that domain accounts for an increasing
+percentage of end user eyeball traffic and various "spin off" content.
+Those in the business of delivering content to eyeballs know that
+disruption of traffic to the popular content providers are a huge
+complaint generator.  If someplace like twitter or facebook or google is
+unreachable from the perspective of a provider's customers, they are
+going to want to know "is it just me, just my region, is anyone else
+having the problem" so they can get some idea of the scope of the issue
+and have something to tell a customer who might ask about it.
+
+I don't think it is so much because "it's facebook" as it is "my phones
+are ringing and my customers are calling, is this my issue or a general
+issue" sort of thing.
+
+My personal opinion of a site doesn't mean anything in the context of
+providing access to what they want access to.  I am not going to be more
+or less active in sorting out an issue based on my opinion of the site.
+Doing so is simply imposing my choices on other people.  As a provider
+of end user content, that role is best reversed, the customers impose
+their choices on the provider and anyone who doesn't get that isn't long
+in business.
+
+
+
+
+From avleen at gmail.com  Thu Nov 18 16:56:41 2010
+From: avleen at gmail.com (Avleen Vig)
+Date: Thu, 18 Nov 2010 16:56:41 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+Message-ID: <AANLkTimPP4igQX6Cqg+riUDw3ZmYOCHh0fnfLKD68isR@mail.gmail.com>
+
+"You're" an idiot.
+
+And gramatical issues aside, major sites like Facebook being down have
+major business impact.
+That which impacts your business more may or may not align with that
+which impacts my business more.
+
+We can either call this list
+"outages_which_effect_john_von_essen at outages.org", or we can accept
+that on a list called "outages", we will report major outages which
+have far reaching impact.
+
+On Thu, Nov 18, 2010 at 12:54 PM, John Von Essen <john at quonix.net> wrote:
+> Well then... your an idiot.
+>
+> -John
+>
+> On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+>
+>> I could care less about a fiber cut in NYC.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From jayson at peakinter.net  Thu Nov 18 17:00:27 2010
+From: jayson at peakinter.net (Jayson Baker)
+Date: Thu, 18 Nov 2010 15:00:27 -0700
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTimPP4igQX6Cqg+riUDw3ZmYOCHh0fnfLKD68isR@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+ <AANLkTimPP4igQX6Cqg+riUDw3ZmYOCHh0fnfLKD68isR@mail.gmail.com>
+Message-ID: <AANLkTin9+AXUMEp8zv4HgnzeWPiZBocsgetr_0ivOHfi@mail.gmail.com>
+
+Does this really require 30 messages?
+
+Facebook was down.  Deal with it.
+
+Unsubscribe.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+
+On Thu, Nov 18, 2010 at 2:56 PM, Avleen Vig <avleen at gmail.com> wrote:
+
+> "You're" an idiot.
+>
+> And gramatical issues aside, major sites like Facebook being down have
+> major business impact.
+> That which impacts your business more may or may not align with that
+> which impacts my business more.
+>
+> We can either call this list
+> "outages_which_effect_john_von_essen at outages.org", or we can accept
+> that on a list called "outages", we will report major outages which
+> have far reaching impact.
+>
+> On Thu, Nov 18, 2010 at 12:54 PM, John Von Essen <john at quonix.net> wrote:
+> > Well then... your an idiot.
+> >
+> > -John
+> >
+> > On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+> >
+> >> I could care less about a fiber cut in NYC.
+> >
+> > _______________________________________________
+> > Outages mailing list
+> > Outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/fa7ba89b/attachment.html>
+
+From bthomaso at harpercollege.edu  Thu Nov 18 17:01:04 2010
+From: bthomaso at harpercollege.edu (Brian Thomason)
+Date: Thu, 18 Nov 2010 16:01:04 -0600
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTimPP4igQX6Cqg+riUDw3ZmYOCHh0fnfLKD68isR@mail.gmail.com>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <alpine.BSF.2.00.1011181247580.82744@murf.icantclick.org>
+ <CB86ED8E-2D23-4636-8C25-9B6B817F0203@quonix.net>
+ <AANLkTimPP4igQX6Cqg+riUDw3ZmYOCHh0fnfLKD68isR@mail.gmail.com>
+Message-ID: <3E7B329687F1C541A9F1251B3A2A201E08951356@admexchs1.admdom.harpercollege.edu>
+
+"Like sands through the hourglass, so are the days of our lives."  I
+nearly removed myself from this distribution, but now I have to know
+what happens next week.
+
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+On Behalf Of Avleen Vig
+Sent: Thursday, November 18, 2010 3:57 PM
+To: John Von Essen
+Cc: outages at outages.org
+Subject: Re: [outages] Facebook down?
+
+"You're" an idiot.
+
+And gramatical issues aside, major sites like Facebook being down have
+major business impact.
+That which impacts your business more may or may not align with that
+which impacts my business more.
+
+We can either call this list
+"outages_which_effect_john_von_essen at outages.org", or we can accept
+that on a list called "outages", we will report major outages which
+have far reaching impact.
+
+On Thu, Nov 18, 2010 at 12:54 PM, John Von Essen <john at quonix.net>
+wrote:
+> Well then... your an idiot.
+>
+> -John
+>
+> On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+>
+>> I could care less about a fiber cut in NYC.
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From sethm at rollernet.us  Thu Nov 18 17:04:58 2010
+From: sethm at rollernet.us (Seth Mattinen)
+Date: Thu, 18 Nov 2010 14:04:58 -0800
+Subject: [outages] Earthlink/mindspring MX
+Message-ID: <4CE5A30A.4070006@rollernet.us>
+
+
+All of the MX servers for earthlink.com and mindspring.com seem to be
+unreachable; noticed after deferrals tripped the high water mark. I
+tested on an outside DSL connection as well with no response as well.
+
+~Seth
+
+From franck at avonsys.com  Thu Nov 18 17:08:20 2010
+From: franck at avonsys.com (Franck Martin)
+Date: Fri, 19 Nov 2010 10:08:20 +1200 (FJT)
+Subject: [outages] Facebook down?
+In-Reply-To: <3E7B329687F1C541A9F1251B3A2A201E08951356@admexchs1.admdom.harpercollege.edu>
+Message-ID: <6049220.34.1290118100226.JavaMail.franck@franck-martins-macbook-pro.local>
+
+Oh and I noticed this list is only about outages in USA. The rest of the world does not exist...
+
+
+Franck Martin 
+http://www.avonsys.com/ 
+http://www.facebook.com/Avonsys 
+twitter: FranckMartin Avonsys 
+
+Check your domain reputation: http://gurl.im/b69d4o 
+
+
+From nevin at enginehosting.com  Thu Nov 18 17:13:29 2010
+From: nevin at enginehosting.com (nevin at enginehosting.com)
+Date: Thu, 18 Nov 2010 16:13:29 -0600 (CST)
+Subject: [outages] =?utf-8?q?Facebook_down=3F?=
+Message-ID: <1290118409.14812339@192.168.2.227>
+
+
+
+On Thursday, November 18, 2010 3:43pm, "George Bonser" <gbonser at seven.com> said:
+
+> The fact is that connectivity to that domain accounts for an increasing
+> percentage of end user eyeball traffic and various "spin off" content.
+> Those in the business of delivering content to eyeballs know that
+> disruption of traffic to the popular content providers are a huge
+> complaint generator.  If someplace like twitter or facebook or google is
+> unreachable from the perspective of a provider's customers, they are
+> going to want to know "is it just me, just my region, is anyone else
+> having the problem" so they can get some idea of the scope of the issue
+> and have something to tell a customer who might ask about it.
+> 
+> I don't think it is so much because "it's facebook" as it is "my phones
+> are ringing and my customers are calling, is this my issue or a general
+> issue" sort of thing.
+
+If connectivity to major content destinations are important to you, your front-line support staff, and your clients, then if you have multiple points of presence yourself monitor those from multiple points.  If not, use places like www.pingdom.com and www.websitepulse.com with global test locations to give you a broader, faster picture then writing to a mailing list and seeing if others can get to Facebook/Youtube/etc.  
+
+The discussion is slightly different if you come to the outage list saying "Hey we are seeing issues connecting to Facebook from Europe/East coast of US, anyone have news on fiber outages, etc."  Then simply opening a discussion with "facebook seems down, anyone else?" as there are free tools, even at both of the mentioned above, and more are out there, that you could use to test if a site is available, and those tests are real-time and free...
+
+We use 3 different 3rd party monitoring systems using global points to test major points in our network infrastructure along with certain key client sites, and a "sample" site on each of our web clusters.  This gives us the reference point so when a client calls saying "My web site is down" we are not simply looking at local monitoring and saying "yup its all up"  As we can show the client that global locations have no issues accessing them, or that we are seeing issues through a certain region and are investigating, you know on lists like this to see if there are any major fiber cuts reported anywhere...
+
+-- Nevin Lyne
+-- Founder / Director of Technology
+-- EngineHosting.com
+-- 888-576-HOST or 612-234-8964
+
+
+
+
+
+From subscribedlists at derekbodner.com  Thu Nov 18 17:15:29 2010
+From: subscribedlists at derekbodner.com (Derek Bodner)
+Date: Thu, 18 Nov 2010 17:15:29 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <70592F07-0913-4AE6-9E3D-14800356F7C7@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <4CE563D5.6010302@televolve.com>
+ <70592F07-0913-4AE6-9E3D-14800356F7C7@quonix.net>
+Message-ID: <AANLkTikXEy9F=PZ2TdX3wVaSwYw-A6vQ4tdV3jP6Sd-_@mail.gmail.com>
+
+On Thu, Nov 18, 2010 at 12:48 PM, John Von Essen <john at quonix.net> wrote:
+
+> We're talking about average Joe Q Public.
+>
+> This list is for NOC people, ISP operators - not the average Joe. Thats my
+> point. Why are we wasting cycles on posting facebook outages.  "WE" know
+> that facebook is meaningless
+
+
+
+Thousands of companies rely on Facebook's uptime for income.  You might call
+Facebook pointless, but I'm not sure Zynga agrees with that assessment.
+
+Facebook is pointless *for you*.  to Zynga's NOC team, probably less so.
+ Let's not pretend it's pointless for everyone, from irate customers who
+call ISP's complaining that the "internet" is down, to people who use
+Facebook as a contact list/promotional tool/calendar, all the way up to
+multi-million dollar corporations who base a large portion of their revenue
+stream on Facebook's uptime.
+
+
+>
+> My point to Virendra is this list is becoming tainted with meaningless
+> posts. If people post garbage all the time, it will no longer be useful to
+> anyone.
+>
+>
+Far more time has been spent debating the merit of posting about Facebook
+than I've ever spent deleting emails with Facebook in the title, and far
+more time than it would have taken to create an email to filter out facebook
+messages from this list.  We are, after all, NOC people and ISP operators,
+so we have the ability to determine what's important for each and every one
+of us.  Facebook's status may not be important enough for you or I to read
+about, but I don't feel the need to dictate its level of importance to
+others.
+
+-- 
+Derek Bodner
+subscribedlists at derekbodner.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/e14ffff3/attachment.html>
+
+From josh at imaginenetworksllc.com  Thu Nov 18 17:21:36 2010
+From: josh at imaginenetworksllc.com (Josh Luthman)
+Date: Thu, 18 Nov 2010 17:21:36 -0500
+Subject: [outages] Earthlink/mindspring MX
+In-Reply-To: <4CE5A30A.4070006@rollernet.us>
+References: <4CE5A30A.4070006@rollernet.us>
+Message-ID: <AANLkTinR5wMWk75kVtOho1xrA3wMQMBF9NvHJ2PCP_TF@mail.gmail.com>
+
+Using mx1 to mx4.earthlink.net - they echo ping but do not answer 25/tcp at
+209.86.93.226
+
+Josh Luthman
+Office: 937-552-2340
+Direct: 937-552-2343
+1100 Wayne St
+Suite 1337
+Troy, OH 45373
+
+
+On Thu, Nov 18, 2010 at 5:04 PM, Seth Mattinen <sethm at rollernet.us> wrote:
+
+>
+> All of the MX servers for earthlink.com and mindspring.com seem to be
+> unreachable; noticed after deferrals tripped the high water mark. I
+> tested on an outside DSL connection as well with no response as well.
+>
+> ~Seth
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/413c477e/attachment.html>
+
+From wkern at pixelgate.net  Thu Nov 18 17:35:31 2010
+From: wkern at pixelgate.net (William Kern)
+Date: Thu, 18 Nov 2010 14:35:31 -0800
+Subject: [outages] Earthlink/mindspring MX
+In-Reply-To: <AANLkTinR5wMWk75kVtOho1xrA3wMQMBF9NvHJ2PCP_TF@mail.gmail.com>
+References: <4CE5A30A.4070006@rollernet.us>
+ <AANLkTinR5wMWk75kVtOho1xrA3wMQMBF9NvHJ2PCP_TF@mail.gmail.com>
+Message-ID: <4CE5AA33.90709@pixelgate.net>
+
+Just had a customer call in to us as well.
+
+We have lots of backup up Earthlink email.
+
+Sincerely,
+
+W Kern
+Pixelgate Networks
+
+
+On 11/18/2010 2:21 PM, Josh Luthman wrote:
+> Using mx1 to mx4.earthlink.net <http://mx4.earthlink.net> - they echo 
+> ping but do not answer 25/tcp at 209.86.93.226
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+>
+> On Thu, Nov 18, 2010 at 5:04 PM, Seth Mattinen <sethm at rollernet.us 
+> <mailto:sethm at rollernet.us>> wrote:
+>
+>
+>     All of the MX servers for earthlink.com <http://earthlink.com> and
+>     mindspring.com <http://mindspring.com> seem to be
+>     unreachable; noticed after deferrals tripped the high water mark. I
+>     tested on an outside DSL connection as well with no response as well.
+>
+>     ~Seth
+>     _______________________________________________
+>     Outages mailing list
+>     Outages at outages.org <mailto:Outages at outages.org>
+>     https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/433f56e6/attachment.html>
+
+From jlsparks at gmail.com  Thu Nov 18 17:37:49 2010
+From: jlsparks at gmail.com (Jason L. Sparks)
+Date: Thu, 18 Nov 2010 17:37:49 -0500
+Subject: [outages] Earthlink/mindspring MX
+In-Reply-To: <AANLkTinR5wMWk75kVtOho1xrA3wMQMBF9NvHJ2PCP_TF@mail.gmail.com>
+References: <4CE5A30A.4070006@rollernet.us>
+ <AANLkTinR5wMWk75kVtOho1xrA3wMQMBF9NvHJ2PCP_TF@mail.gmail.com>
+Message-ID: <AANLkTi=Ozr-nt0uS_ss6YOkstNg_7DYZ4E15szWP0unJ@mail.gmail.com>
+
+Likewise for me from Verizon @ DCA:
+
+;; QUESTION SECTION:
+;mindspring.com. IN NS
+
+;; ANSWER SECTION:
+mindspring.com. 3600 IN NS scratchy.earthlink.net.
+mindspring.com. 3600 IN NS itchy.earthlink.net.
+
+;; ADDITIONAL SECTION:
+itchy.earthlink.net. 342 IN A 207.69.188.196
+scratchy.earthlink.net. 242 IN A 207.69.188.197
+
+;; Query time: 24 msec
+
+Best,
+~jason
+
+On Thu, Nov 18, 2010 at 5:21 PM, Josh Luthman
+<josh at imaginenetworksllc.com>wrote:
+
+> Using mx1 to mx4.earthlink.net - they echo ping but do not answer 25/tcp
+> at 209.86.93.226
+>
+> Josh Luthman
+> Office: 937-552-2340
+> Direct: 937-552-2343
+> 1100 Wayne St
+> Suite 1337
+> Troy, OH 45373
+>
+>
+>
+> On Thu, Nov 18, 2010 at 5:04 PM, Seth Mattinen <sethm at rollernet.us> wrote:
+>
+>>
+>> All of the MX servers for earthlink.com and mindspring.com seem to be
+>> unreachable; noticed after deferrals tripped the high water mark. I
+>> tested on an outside DSL connection as well with no response as well.
+>>
+>> ~Seth
+>> _______________________________________________
+>> Outages mailing list
+>> Outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/72a9a6cf/attachment-0001.html>
+
+From jay at west.net  Thu Nov 18 18:30:26 2010
+From: jay at west.net (Jay Hennigan)
+Date: Thu, 18 Nov 2010 15:30:26 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+Message-ID: <4CE5B712.8090306@west.net>
+
+On 11/18/10 8:52 AM, John Von Essen wrote:
+> I mentioned this to Virendra in that survey that was sent out, but why
+> do we feel its important to track facebook being up or down?
+
+Because it is a major portal site used by a large number of people.
+
+Case in point, a few years ago, Yahoo suffered a DDoS attack and was for
+all practical purposes unreachable.  "So what, not important"?
+
+Well, it turns out that a substantial number of our customers had Yahoo
+set to their home page.  So our support desk was clobbered with calls
+(and emails, funny...) thinking that *WE* or *the Internet* was down.
+
+> I find this list to be useful in tracking major IP outages between
+> transit carriers. 
+
+As do most of us here.
+
+> It goes directly to my NOC pager and all my NOC staff,
+> and many times it has been very useful when people post about an OC-48
+> cut for ATT, or an XO outage, then our customers call us about issues
+> and we know its not us and their carrier.
+
+It's also very useful when customers call about issues like Facebook
+being down and we know it's not us.
+
+> I could care less whether or not Facebook is up or down. Facebook
+> doesn't effect the rest of the internet like a Level3 or ATT outage, or
+> or fiber cut in NYC.
+
+You and I know that. To a not so insignificant number of our customers,
+Facebook, Yahoo, MSN, EBay, or Google are "the Internet" as far as they
+know.
+
+> If you go to facebook.com and its down, then yes, its down. End of
+> story. They are an endpoint on the internet.
+> 
+> I'm not opposed to other sites being reported. If Google is down, thats
+> big, because Google provides a ton email proxy services. Likewise, the
+> post about register.com being down was very helpful because they provide
+> core DNS services. These sites/networks effect the internet.
+> 
+> But facebook is meaningless from an infrastructure/operations
+> standpoint, and is a complete waste of time to discuss on this list.
+
+Not completely, IMHO.  I grant you that not every website out there
+having a hiccup is worth discussing here.  On the other hand, if there's
+a fiber cut completely severing all connectivity to Papua New Guinea and
+I don't have any customers there or anyone trying to reach them I don't
+particularly rate it high on my individual radar even though it's
+infrastructure and an entire country.  So if it's reported with an
+accurate subject line I'll skip the notice.  I won't complain that I
+don't want to see it here because it doesn't affect me or any of my
+customers.
+
+I agree that Facebook is meaningless from an infrastructure standpoint
+but disagree that it is meaningless from an operations standpoint.
+
+--
+Jay Hennigan - CCIE #7880 - Network Engineering - jay at impulse.net
+Impulse Internet Service  -  http://www.impulse.net/
+Your local telephone and internet company - 805 884-6323 - WB6RDV
+
+From george.herbert at gmail.com  Thu Nov 18 19:11:08 2010
+From: george.herbert at gmail.com (George Herbert)
+Date: Thu, 18 Nov 2010 16:11:08 -0800
+Subject: [outages] Facebook down?
+In-Reply-To: <4CE5B712.8090306@west.net>
+References: <EB7435A0AAA8874F845F4A88F1B39924041CD47AF0@EXMBXCLUS01.citservers.local>
+ <013d01cb873d$52fb8040$f8f280c0$@unwiredltd.com>
+ <ADC966F0-D9CB-4838-A9F4-B015FFA09CAC@quonix.net>
+ <4CE5B712.8090306@west.net>
+Message-ID: <AANLkTi=__s4wcwodaCPvBJNNodhyzJ8qn4HdBuAHz_mQ@mail.gmail.com>
+
+On Thu, Nov 18, 2010 at 3:30 PM, Jay Hennigan <jay at west.net> wrote:
+>[,,,]
+> I agree that Facebook is meaningless from an infrastructure standpoint
+> but disagree that it is meaningless from an operations standpoint.
+
+Seconded.  And if it's not meaningless to your operations, it is to
+many others'.
+
+We can be slightly inclusive here, for sites which are well enough
+known that an outage will be Big News, or we can split the list into a
+bunch of sublists which only contain certain types of outages,
+segregating it so that people who really only truly care about fiber
+and routing can only get fiber and routing outages.  The bandwidth of
+discussion for the non-net/infrastructure stuff is low enough that
+it's not worth getting worked up about and splitting things, for me.
+
+Your mileage may vary, but we've now wasted more bandwidth on list
+arguing about Facebook being relevant than we actually have had
+notifications of website outages over the last year-ish, so I think
+that the point of diminishing returns has vanished behind us in the
+mirror.  If those who object want an infrastructure-only outages list,
+please propose one.  Or apply mail filtering or the D key.
+
+
+-- 
+-george william herbert
+george.herbert at gmail.com
+
+From zhanna at yahoo-inc.com  Thu Nov 18 19:27:47 2010
+From: zhanna at yahoo-inc.com (Zachary Hanna)
+Date: Thu, 18 Nov 2010 16:27:47 -0800
+Subject: [outages] Facebook down?
+Message-ID: <7467ADED9AE3874D8E034169D2152D192C746CB175@SP1-EX07VS02.ds.corp.yahoo.com>
+
+If facebook made a major bad BGP route announcement and wreaked havoc across a bunch of peers, I would see it as more relevant. Or if a DDOS impacted one of their upstream providers.
+
+-zth
+
+Zachary Hanna
+
+----- Original Message -----
+From: outages-bounces at outages.org <outages-bounces at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Thu Nov 18 16:11:08 2010
+Subject: Re: [outages] Facebook down?
+
+On Thu, Nov 18, 2010 at 3:30 PM, Jay Hennigan <jay at west.net> wrote:
+>[,,,]
+> I agree that Facebook is meaningless from an infrastructure standpoint
+> but disagree that it is meaningless from an operations standpoint.
+
+Seconded.  And if it's not meaningless to your operations, it is to
+many others'.
+
+We can be slightly inclusive here, for sites which are well enough
+known that an outage will be Big News, or we can split the list into a
+bunch of sublists which only contain certain types of outages,
+segregating it so that people who really only truly care about fiber
+and routing can only get fiber and routing outages.  The bandwidth of
+discussion for the non-net/infrastructure stuff is low enough that
+it's not worth getting worked up about and splitting things, for me.
+
+Your mileage may vary, but we've now wasted more bandwidth on list
+arguing about Facebook being relevant than we actually have had
+notifications of website outages over the last year-ish, so I think
+that the point of diminishing returns has vanished behind us in the
+mirror.  If those who object want an infrastructure-only outages list,
+please propose one.  Or apply mail filtering or the D key.
+
+
+-- 
+-george william herbert
+george.herbert at gmail.com
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From bradley.bopp at nationalnet.com  Thu Nov 18 19:30:15 2010
+From: bradley.bopp at nationalnet.com (Bradley D. Bopp)
+Date: Thu, 18 Nov 2010 19:30:15 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <AANLkTin9+AXUMEp8zv4HgnzeWPiZBocsgetr_0ivOHfi@mail.gmail.com>
+Message-ID: <C90B2F30.A890%bradley.bopp@nationalnet.com>
+
+I have to agree this is a waste of space here take it off line some of use
+this for useful information.
+
+
+
+
+Bradley D. Bopp
+Director Of  Engineering
+http://www.nationalnet.com
+http://as22384.peeringdb.net
+
+NationalNet is committed to the highest level of Customer Service available
+in the Web Hosting business.  If you have any questions, comments or
+concerns feel free to contact us at 678-247-7000 ext 1 (or toll-free,
+888-4-NATNET).
+  
+
+From:  Jayson Baker <jayson at peakinter.net>
+Date:  Thu, 18 Nov 2010 15:00:27 -0700
+To:  <outages at outages.org>
+Subject:  Re: [outages] Facebook down?
+
+Does this really require 30 messages?
+
+Facebook was down.  Deal with it.
+
+Unsubscribe.
+
+Best Wishes,
+Jayson A. Baker
+Peak Internet
+
+
+On Thu, Nov 18, 2010 at 2:56 PM, Avleen Vig <avleen at gmail.com> wrote:
+> "You're" an idiot.
+> 
+> And gramatical issues aside, major sites like Facebook being down have
+> major business impact.
+> That which impacts your business more may or may not align with that
+> which impacts my business more.
+> 
+> We can either call this list
+> "outages_which_effect_john_von_essen at outages.org", or we can accept
+> that on a list called "outages", we will report major outages which
+> have far reaching impact.
+> 
+> On Thu, Nov 18, 2010 at 12:54 PM, John Von Essen <john at quonix.net> wrote:
+>> > Well then... your an idiot.
+>> >
+>> > -John
+>> >
+>> > On Nov 18, 2010, at 12:51 PM, david raistrick wrote:
+>> >
+>>> >> I could care less about a fiber cut in NYC.
+>> >
+>> > _______________________________________________
+>> > Outages mailing list
+>> > Outages at outages.org
+>> > https://puck.nether.net/mailman/listinfo/outages
+>> >
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+_______________________________________________ Outages mailing list
+Outages at outages.org https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101118/1bb5b972/attachment.html>
+
+From admin at isoc.net  Fri Nov 19 08:03:53 2010
+From: admin at isoc.net (John M. Troher)
+Date: Fri, 19 Nov 2010 08:03:53 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <C90B2F30.A890%bradley.bopp@nationalnet.com>
+References: <AANLkTin9+AXUMEp8zv4HgnzeWPiZBocsgetr_0ivOHfi@mail.gmail.com>
+ <C90B2F30.A890%bradley.bopp@nationalnet.com>
+Message-ID: <03ADEF74C4B1444AAA3BD445EACB4DFA0158EF38@isoc-svr.florence.isoc.net>
+
+Can we just drop members that do not adhere to the charter of this list?
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101119/caccc648/attachment.html>
+
+From patrick at ianai.net  Fri Nov 19 08:44:17 2010
+From: patrick at ianai.net (Patrick W. Gilmore)
+Date: Fri, 19 Nov 2010 08:44:17 -0500
+Subject: [outages] Facebook down?
+In-Reply-To: <03ADEF74C4B1444AAA3BD445EACB4DFA0158EF38@isoc-svr.florence.isoc.net>
+References: <AANLkTin9+AXUMEp8zv4HgnzeWPiZBocsgetr_0ivOHfi@mail.gmail.com>
+ <C90B2F30.A890%bradley.bopp@nationalnet.com>
+ <03ADEF74C4B1444AAA3BD445EACB4DFA0158EF38@isoc-svr.florence.isoc.net>
+Message-ID: <380C8589-70CF-46B2-9984-F5BB2B5566AD@ianai.net>
+
+On Nov 19, 2010, at 8:03 AM, John M. Troher wrote:
+
+> Can we just drop members that do not adhere to the charter of this list?
+
+You mean like posting non-operational questions to outages@ instead of outages-discussion@?
+
+-- 
+TTFN,
+patrick
+
+
+
+From brandon.galbraith at gmail.com  Sat Nov 20 16:50:25 2010
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Sat, 20 Nov 2010 15:50:25 -0600
+Subject: [outages] Comcast Chicago Fiber Cut
+Message-ID: <AANLkTi=Q3dmxtwkKztruqonxCjnV=9oXibap1psnM0se@mail.gmail.com>
+
+Anyone else hear of a Comcast fiber cut in Chicago? Our monitoring is
+showing several client sites down, and they all have Comcast business
+connections in common.
+
+Thanks!
+-brandon
+
+-- 
+Brandon Galbraith
+US Voice: 630.492.0464
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101120/13de585d/attachment.html>
+
+From frnkblk at iname.com  Sat Nov 20 20:06:36 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Sat, 20 Nov 2010 19:06:36 -0600
+Subject: [outages] Comcast Chicago Fiber Cut
+In-Reply-To: <AANLkTi=Q3dmxtwkKztruqonxCjnV=9oXibap1psnM0se@mail.gmail.com>
+References: <AANLkTi=Q3dmxtwkKztruqonxCjnV=9oXibap1psnM0se@mail.gmail.com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACqpwhVvQq7QYnCLvlH+wXSAQAAAAA=@iname.com>
+
+I saw this a few hours ago:
+
+http://stcharles-il.patch.com/articles/comcast-service-out-reason-unknown-at-this-time
+
+ 
+
+Not sure if it?s the same.
+
+ 
+
+Frank
+
+ 
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Brandon Galbraith
+Sent: Saturday, November 20, 2010 3:50 PM
+To: outages
+Subject: [outages] Comcast Chicago Fiber Cut
+
+ 
+
+Anyone else hear of a Comcast fiber cut in Chicago? Our monitoring is showing several client sites down, and they all have Comcast business connections in common.
+
+ 
+
+Thanks!
+
+-brandon
+
+-- 
+Brandon Galbraith
+US Voice: 630.492.0464
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101120/c23f599c/attachment.html>
+
+From brandon.galbraith at gmail.com  Sat Nov 20 20:32:02 2010
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Sat, 20 Nov 2010 19:32:02 -0600
+Subject: [outages] Comcast Chicago Fiber Cut
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACqpwhVvQq7QYnCLvlH+wXSAQAAAAA=@iname.com>
+References: <AANLkTi=Q3dmxtwkKztruqonxCjnV=9oXibap1psnM0se@mail.gmail.com>
+ <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACqpwhVvQq7QYnCLvlH+wXSAQAAAAA=@iname.com>
+Message-ID: <AANLkTimjmnuQ7v4BTajc6xgpCBRsfnMUt8C18SL8AW7b@mail.gmail.com>
+
+It appears to have been resolved.
+On Nov 20, 2010 7:06 PM, "Frank Bulk - iName.com" <frnkblk at iname.com> wrote:
+> I saw this a few hours ago:
+>
+>
+http://stcharles-il.patch.com/articles/comcast-service-out-reason-unknown-at-this-time
+>
+>
+>
+> Not sure if it?s the same.
+>
+>
+>
+> Frank
+>
+>
+>
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Brandon Galbraith
+> Sent: Saturday, November 20, 2010 3:50 PM
+> To: outages
+> Subject: [outages] Comcast Chicago Fiber Cut
+>
+>
+>
+> Anyone else hear of a Comcast fiber cut in Chicago? Our monitoring is
+showing several client sites down, and they all have Comcast business
+connections in common.
+>
+>
+>
+> Thanks!
+>
+> -brandon
+>
+> --
+> Brandon Galbraith
+> US Voice: 630.492.0464
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101120/5382b2d4/attachment.html>
+
+From frnkblk at iname.com  Sun Nov 21 10:07:27 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Sun, 21 Nov 2010 09:07:27 -0600
+Subject: [outages] Comcast Chicago Fiber Cut
+In-Reply-To: <AANLkTimjmnuQ7v4BTajc6xgpCBRsfnMUt8C18SL8AW7b@mail.gmail.com>
+References: <AANLkTi=Q3dmxtwkKztruqonxCjnV=9oXibap1psnM0se@mail.gmail.com>	<!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACqpwhVvQq7QYnCLvlH+wXSAQAAAAA=@iname.com>
+ <AANLkTimjmnuQ7v4BTajc6xgpCBRsfnMUt8C18SL8AW7b@mail.gmail.com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAACtDs6mIhi/R57LJMco0Y8cAQAAAAA=@iname.com>
+
+More here:
+
+http://www.kcchronicle.com/articles/2010/11/20/91341420/index.xml
+
+ 
+
+Frank
+
+ 
+
+From: Brandon Galbraith [mailto:brandon.galbraith at gmail.com] 
+Sent: Saturday, November 20, 2010 7:32 PM
+To: frnkblk at iname.com
+Cc: outages
+Subject: Re: RE: [outages] Comcast Chicago Fiber Cut
+
+ 
+
+It appears to have been resolved.
+
+On Nov 20, 2010 7:06 PM, "Frank Bulk - iName.com" <frnkblk at iname.com> wrote:
+> I saw this a few hours ago:
+> 
+> http://stcharles-il.patch.com/articles/comcast-service-out-reason-unknown-at-this-time
+> 
+> 
+> 
+> Not sure if it?s the same.
+> 
+> 
+> 
+> Frank
+> 
+> 
+> 
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Brandon Galbraith
+> Sent: Saturday, November 20, 2010 3:50 PM
+> To: outages
+> Subject: [outages] Comcast Chicago Fiber Cut
+> 
+> 
+> 
+> Anyone else hear of a Comcast fiber cut in Chicago? Our monitoring is showing several client sites down, and they all have Comcast business connections in common.
+> 
+> 
+> 
+> Thanks!
+> 
+> -brandon
+> 
+> -- 
+> Brandon Galbraith
+> US Voice: 630.492.0464
+> 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101121/d898ae0f/attachment.html>
+
+From robert at ufl.edu  Mon Nov 22 11:43:31 2010
+From: robert at ufl.edu (Scott, Robert D.)
+Date: Mon, 22 Nov 2010 16:43:31 +0000
+Subject: [outages] Level 3 Fiber Cut - So. Florida
+Message-ID: <95373584CA10E7429E1D6B07CF2AD46412FF4E3E@UFEXCH-MBXN04.ad.ufl.edu>
+
+Level 3 has confirmed a fiber cut between Miami and Tampa FL.; more specifically, based on our equipment, between Deem City and Goodno.
+
+Level 3 Master Ticket: 4480302
+
+Robert D. Scott           Robert at ufl.edu
+Senior Network Engineer   352-273-0113 Phone
+CNS - Network Services    352-392-2061 CNS Phone Tree
+University of Florida     352-392-9440 FAX
+Florida Lambda Rail       352-294-3571 FLR NOC
+Gainesville, FL  32611    321-663-0421 Cell
+                          3216630421 at messaging.sprintpcs.com
+
+
+
+
+From aredridel at nbtsc.org  Mon Nov 22 16:37:08 2010
+From: aredridel at nbtsc.org (Aria Stewart)
+Date: Mon, 22 Nov 2010 14:37:08 -0700
+Subject: [outages] Diamondcard.us?
+Message-ID: <A1080804-B075-440A-8C5C-E84CFBAD4AA0@nbtsc.org>
+
+Anyone heard information on why diamondcard.us (VoIP services) is down?
+
+Aria Stewart
+The Internet Company
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 4657 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101122/112cd484/attachment.bin>
+
+From terry at cotendo.com  Wed Nov 24 17:05:49 2010
+From: terry at cotendo.com (Terry Hardie)
+Date: Wed, 24 Nov 2010 14:05:49 -0800
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+Message-ID: <4CED8C3D.3080606@cotendo.com>
+
+Anyone else seeing this? We've shutdown our links with Level 3 in the 
+Ashburn, VA area....
+
+-- 
+Terry Hardie - terry at cotendo.com - +1-510-206-2366
+Cotendo Inc. - www.cotendo.com - Operations Engineer
+Skype: cotendoterry
+
+
+From avleen at gmail.com  Wed Nov 24 17:24:43 2010
+From: avleen at gmail.com (Avleen Vig)
+Date: Wed, 24 Nov 2010 14:24:43 -0800
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+In-Reply-To: <4CED8C3D.3080606@cotendo.com>
+References: <4CED8C3D.3080606@cotendo.com>
+Message-ID: <AANLkTim-YkB3Ta5P7-oiy8nOceZV8_nGGEouoUJPDfWR@mail.gmail.com>
+
+We're also seeing problems in the NJ area.
+
+On Wed, Nov 24, 2010 at 2:05 PM, Terry Hardie <terry at cotendo.com> wrote:
+> Anyone else seeing this? We've shutdown our links with Level 3 in the
+> Ashburn, VA area....
+>
+> --
+> Terry Hardie - terry at cotendo.com - +1-510-206-2366
+> Cotendo Inc. - www.cotendo.com - Operations Engineer
+> Skype: cotendoterry
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From shoemakerp at vectordatasystems.com  Wed Nov 24 17:28:00 2010
+From: shoemakerp at vectordatasystems.com (Patrick Shoemaker)
+Date: Wed, 24 Nov 2010 22:28:00 +0000
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+Message-ID: <763849094-1290637680-cardhu_decombobulator_blackberry.rim.net-818679385-@bda489.bisx.prod.on.blackberry>
+
+Yes, was seeing up to 50% loss on a route through Level3 in DC beginning at 4:52 EST. Seems to have cleared up as of 5:22.
+
+
+------Original Message------
+From: Terry Hardie
+Sender: outages-bounces at outages.org
+To: outages at outages.org
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+Sent: Nov 24, 2010 5:05 PM
+
+Anyone else seeing this? We've shutdown our links with Level 3 in the 
+Ashburn, VA area....
+
+-- 
+Terry Hardie - terry at cotendo.com - +1-510-206-2366
+Cotendo Inc. - www.cotendo.com - Operations Engineer
+Skype: cotendoterry
+
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+Sent from my Cellular One BlackBerry.
+
+From avleen at gmail.com  Wed Nov 24 17:30:49 2010
+From: avleen at gmail.com (Avleen Vig)
+Date: Wed, 24 Nov 2010 14:30:49 -0800
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+In-Reply-To: <AANLkTim-YkB3Ta5P7-oiy8nOceZV8_nGGEouoUJPDfWR@mail.gmail.com>
+References: <4CED8C3D.3080606@cotendo.com>
+ <AANLkTim-YkB3Ta5P7-oiy8nOceZV8_nGGEouoUJPDfWR@mail.gmail.com>
+Message-ID: <AANLkTimtuFzAj2CuN4NiybFRhFWjDNg=WAYYW5ZcWYC5@mail.gmail.com>
+
+On Wed, Nov 24, 2010 at 2:24 PM, Avleen Vig <avleen at gmail.com> wrote:
+> We're also seeing problems in the NJ area.
+
+Looks like facebook is still up though.
+
+From bbridges at ifbyphone.com  Wed Nov 24 17:43:29 2010
+From: bbridges at ifbyphone.com (Brooks Bridges)
+Date: Wed, 24 Nov 2010 16:43:29 -0600
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+In-Reply-To: <AANLkTimtuFzAj2CuN4NiybFRhFWjDNg=WAYYW5ZcWYC5@mail.gmail.com>
+References: <4CED8C3D.3080606@cotendo.com>
+ <AANLkTim-YkB3Ta5P7-oiy8nOceZV8_nGGEouoUJPDfWR@mail.gmail.com>
+ <AANLkTimtuFzAj2CuN4NiybFRhFWjDNg=WAYYW5ZcWYC5@mail.gmail.com>
+Message-ID: <00e201cb8c29$03f867b0$0be93710$@com>
+
+OH THANK GOD YOU TOLD ME!!!11  I was really worried there for a minute...
+
+(yes, that's sarcasm for those of you that have broken meters!)
+
+Brooks R. Bridges
+Telecommunications Manager
+Ifbyphone, Inc.
+Phone: (847) 983-3000
+Fax: (847) 676-6553
+bbridges at ifbyphone.com
+http://www.ifbyphone.com
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of Avleen Vig
+Sent: Wednesday, November 24, 2010 4:31 PM
+To: Terry Hardie
+Cc: outages at outages.org
+Subject: Re: [outages] Big Level 3 loss problem in Washington DC area?
+
+On Wed, Nov 24, 2010 at 2:24 PM, Avleen Vig <avleen at gmail.com> wrote:
+> We're also seeing problems in the NJ area.
+
+Looks like facebook is still up though.
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/x-pkcs7-signature
+Size: 5108 bytes
+Desc: not available
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101124/2178a277/attachment.bin>
+
+From larrysheldon at cox.net  Wed Nov 24 19:24:12 2010
+From: larrysheldon at cox.net (Larry Sheldon)
+Date: Wed, 24 Nov 2010 18:24:12 -0600
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+In-Reply-To: <00e201cb8c29$03f867b0$0be93710$@com>
+References: <4CED8C3D.3080606@cotendo.com>
+ <AANLkTim-YkB3Ta5P7-oiy8nOceZV8_nGGEouoUJPDfWR@mail.gmail.com>
+ <AANLkTimtuFzAj2CuN4NiybFRhFWjDNg=WAYYW5ZcWYC5@mail.gmail.com>
+ <00e201cb8c29$03f867b0$0be93710$@com>
+Message-ID: <4CEDACAC.7050601@cox.net>
+
+On 11/24/2010 4:43 PM, Brooks Bridges wrote:
+
+> (yes, that's sarcasm for those of you that have broken meters!)
+
+I was getting better S/S+R on NANOG
+
+-- 
+Superfluity does not vitiate
+California Civil Code quote-#3537
+
+http://lwolt.wordpress.com/
+1
+
+From virendra.rode at outages.org  Wed Nov 24 19:13:38 2010
+From: virendra.rode at outages.org (virendra rode)
+Date: Wed, 24 Nov 2010 16:13:38 -0800
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+In-Reply-To: <4CED8C3D.3080606@cotendo.com>
+References: <4CED8C3D.3080606@cotendo.com>
+Message-ID: <4CEDAA32.7060200@outages.org>
+
+On 11/24/2010 02:05 PM, Terry Hardie wrote:
+> Anyone else seeing this? We've shutdown our links with Level 3 in the
+> Ashburn, VA area....
+>
+-------------------------------
+Hmm, we had customers calling from Southeast Michigan complaining about 
+slow access and at times high latency via one of our peers which happens 
+to be level3.
+
+It appears problem went away when we looked early afternoon about 
+12:30pm PST.
+
+
+regards,
+/virendra
+
+From billw at waveform.net  Wed Nov 24 19:33:19 2010
+From: billw at waveform.net (Bill Wichers)
+Date: Wed, 24 Nov 2010 19:33:19 -0500
+Subject: [outages] Big Level 3 loss problem in Washington DC area?
+Message-ID: <EE3A1AFB71A1E54BA3D302718EA382F9291595@server1.WaveformTechnology.local>
+
+We're peered w/ level(3) in southeast michigan and didn't notice anything unusual.
+
+Sorry for the too-much-included reply -- this little blackberry is limited in it's editing abilities...
+
+[Sent using Blackberry Messaging]
+
+----- Original Message -----
+From: virendra rode <virendra.rode at outages.org>
+To: outages at outages.org <outages at outages.org>
+Sent: Wed Nov 24 19:13:38 2010
+Subject: Re: [outages] Big Level 3 loss problem in Washington DC area?
+
+On 11/24/2010 02:05 PM, Terry Hardie wrote:
+> Anyone else seeing this? We've shutdown our links with Level 3 in the
+> Ashburn, VA area....
+>
+-------------------------------
+Hmm, we had customers calling from Southeast Michigan complaining about 
+slow access and at times high latency via one of our peers which happens 
+to be level3.
+
+It appears problem went away when we looked early afternoon about 
+12:30pm PST.
+
+
+regards,
+/virendra
+_______________________________________________
+Outages mailing list
+Outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20101124/fb53d08e/attachment-0001.html>
+
+From frnkblk at iname.com  Tue Nov 30 12:57:46 2010
+From: frnkblk at iname.com (Frank Bulk - iName.com)
+Date: Tue, 30 Nov 2010 11:57:46 -0600
+Subject: [outages] Comcast DNS outage on the evening of Sunday, November 28
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADMP4vG2DojTYRPZ3uEdLZyAQAAAAA=@iname.com>
+
+There was all kinds of press coverage about the outage, but not a lot of
+technical detail.  
+
+Based on reports, Comcast Internet customers in Massachusetts, Connecticut,
+Maryland, Virginia, New York, New Hampshire, and parts of Washington, D.C.
+were without access their DNS server(s) from about 8:30 pm Eastern to 11:30
+pm Eastern, though some say it started as early at 8 pm and ended after
+midnight.  NBC was told by a Comcast technician that outages were spread out
+over six states in the Northeast and Mid-Atlantic.  Comcast said that phone
+and CATV customers were not affected.
+
+According to published reports, Comcast was performing regular maintenance
+on their DNS servers and something went wrong.  A Comcast spokesman said on
+Monday that "Last night, our engineers identified a server issue that was
+affecting Internet service in Boston, parts of New England and the
+DC/Beltway areas".
+
+Comcast did not share how many customers were affected.
+
+BTW, did anyone look at http://dns.comcast.net/status.php during this
+outage?
+
+Regards,
+
+Frank
+
+
+From outages at jdc.parodius.com  Tue Nov 30 15:06:16 2010
+From: outages at jdc.parodius.com (Jeremy Chadwick)
+Date: Tue, 30 Nov 2010 12:06:16 -0800
+Subject: [outages] Comcast DNS outage on the evening of Sunday,
+ November 28
+In-Reply-To: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADMP4vG2DojTYRPZ3uEdLZyAQAAAAA=@iname.com>
+References: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAADMP4vG2DojTYRPZ3uEdLZyAQAAAAA=@iname.com>
+Message-ID: <20101130200616.GA56962@icarus.home.lan>
+
+On Tue, Nov 30, 2010 at 11:57:46AM -0600, Frank Bulk - iName.com wrote:
+> There was all kinds of press coverage about the outage, but not a lot of
+> technical detail.  
+> 
+> Based on reports, Comcast Internet customers in Massachusetts, Connecticut,
+> Maryland, Virginia, New York, New Hampshire, and parts of Washington, D.C.
+> were without access their DNS server(s) from about 8:30 pm Eastern to 11:30
+> pm Eastern, though some say it started as early at 8 pm and ended after
+> midnight.  NBC was told by a Comcast technician that outages were spread out
+> over six states in the Northeast and Mid-Atlantic.  Comcast said that phone
+> and CATV customers were not affected.
+> 
+> According to published reports, Comcast was performing regular maintenance
+> on their DNS servers and something went wrong.  A Comcast spokesman said on
+> Monday that "Last night, our engineers identified a server issue that was
+> affecting Internet service in Boston, parts of New England and the
+> DC/Beltway areas".
+> 
+> Comcast did not share how many customers were affected.
+> 
+> BTW, did anyone look at http://dns.comcast.net/status.php during this
+> outage?
+
+Reading material for those who are interested, but no technical
+explanation given either (not surprising; outages like this are often
+kept quiet for some time while the company tries to figure out what
+happened, why, and get impacted customer counts).
+
+http://www.dslreports.com/shownews/Comcast-Suffers-Major-East-Coast-Outage-111568
+
+Depending on Comcast's infrastructure and the nature of the failure (I'm
+on the west coast and witnessed nothing), it might not be possible to
+determine the number of impacted customers.  For example, if I shut off
+one of our primary nameservers (powered it down, shut down named/BIND,
+etc.) I'd have no idea how many people were "impacted"; I'd have to
+speculate based on the number of queries seen against the secondary.
+
+Anyway, all the what-ifs should probably be discussed on outages-discuss
+and not here, but I just wanted to throw that out there.
+
+-- 
+| Jeremy Chadwick                                   jdc at parodius.com |
+| Parodius Networking                       http://www.parodius.com/ |
+| UNIX Systems Administrator                  Mountain View, CA, USA |
+| Making life hard for others since 1977.              PGP: 4BD6C0CB |
+

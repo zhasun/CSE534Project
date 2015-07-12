@@ -1,0 +1,1256 @@
+###############################################################
+T-Mobile Outage NYC
+###############################################################
+  T-Mobile is currently experiencing an outage in New York, inbound and
+ outbound voice traffic is affected. I haven't received an ETR for this
+ yet.
+ -J
+ im working fine on tmo in nyc for voice/bis/sms...
+ On Tue, Sep 2, 2008 at 1:19 PM, Jayson Navitsky <jnavitsky at gmail.com> wrote:
+ 	<c93a55220809021137s58f47232jfbda641827494260@mail.gmail.com>
+ For those of you with COX or a COX Peer, it seems as though COX has shut
+ off ICMP transiting their networks.  I do not have a time yet when this
+ will be fixed.
+ Ryan Werber
+ Sr Network Engineer
+ Epik Networks
+ Irvine, California
+ 	<c93a55220809021137s58f47232jfbda641827494260@mail.gmail.com>
+ 	<4D58C7B4943F874BA4CB5D68A7924060411B0E@Epikserver2.Epik.local>
+ On Tue, Sep 02, 2008 at 04:11:11PM -0400, Ryan Werber wrote:
+ Has anyone confirmed if this affects all ICMP, or just specific ICMP
+ types (e.g. echoreq/echorep)?
+ If they're blocking all ICMP, someone at Cox needs to be fired
+ immediately.
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ 	<20080903030428.GA22465@icarus.home.lan>
+ ICMP traceroute works over my Cox peer in Florida. Ping to a Cox destination
+ also works.
+ C:\Documents and Settings\robert>tracert www.savethewhales.net
+ Tracing route to www.savethewhales.net [64.14.244.60]
+ <snip>
+   6     1 ms     1 ms     1 ms  ip70-169-186-21.ga.at.cox.net
+ [70.169.186.21]
+   7     1 ms     1 ms     1 ms  24.136.46.66
+   8    11 ms    11 ms    11 ms  dukedsrj01-so100.tc.at.cox.net [68.1.15.73]
+   9    27 ms    27 ms    27 ms  ashbbbrj01-as0.r2.as.cox.net [68.1.1.223]
+  10    34 ms    34 ms    34 ms  cr2-tengig0-7-3-0.washington.savvis.net
+ [204.70.197.246]
+ <snip>
+ C:\Documents and Settings\robert>ping  www.savethewhales.net
+ Pinging www.savethewhales.net [64.14.244.60] with 32 bytes of data:
+ Reply from 64.14.244.60: bytes=32 time=86ms TTL=234
+ Reply from 64.14.244.60: bytes=32 time=85ms TTL=234
+ Reply from 64.14.244.60: bytes=32 time=85ms TTL=234
+ Reply from 64.14.244.60: bytes=32 time=85ms TTL=234
+ Ping statistics for 64.14.244.60:
+     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+ Approximate round trip times in milli-seconds:
+     Minimum = 85ms, Maximum = 86ms, Average = 85ms
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Receptionist
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Jeremy Chadwick
+ Sent: Tuesday, September 02, 2008 11:04 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] COX ICMP Filter
+ On Tue, Sep 02, 2008 at 04:11:11PM -0400, Ryan Werber wrote:
+ Has anyone confirmed if this affects all ICMP, or just specific ICMP
+ types (e.g. echoreq/echorep)?
+ If they're blocking all ICMP, someone at Cox needs to be fired
+ immediately.
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<20080903030428.GA22465@icarus.home.lan>
+ >>Has anyone confirmed if this affects all ICMP, or just specific ICMP
+ >>types (e.g. echoreq/echorep)?
+ >>If they're blocking all ICMP, someone at Cox needs to be fired
+ >>immediately.
+ My Cox Rep confirmed that it indeed being blocked at 'several' of their
+ peering points.  I have not got a RFO as of yet, but they are initially
+ blaming it on a "Peering Partner".  My investigation concluded that it
+ was COGENT (as174) that was the peering partner, yet I do not know who
+ exactly was at fault, though it didn't sound like it was Cox from my
+ rep.  They had mentioned that their own monitoring systems were dark due
+ to the outage. They had mentioned it was ALL icmp being affected.
+ This affected traffic regardless of destination or source ip address.
+ Ryan Werber
+ Sr Network Engineer
+ Epik Networks
+ Irvine, California
+###############################################################
+END
+###############################################################
+
+###############################################################
+COX ICMP Filter
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+community real-time BGP hijack notification service
+###############################################################
+ Hi, WatchMy.Net is a new community service to alert you when your prefix
+ has been hijacked, in real-time.
+ Following the discussion on NANOG a couple of weeks ago on what to do if
+ your prefix is hijacked, people mentioned that detection-wise, free
+ services are limited (to certain communities or by not being real-time).
+ The current fully public and free services will alert you with a few
+ hours delay.
+ Over labor day weekend we built a free real-time service. We invite people to 
+ try it out during our beta stage.
+ Register for alerts at:
+ http://www.watchmy.net/
+ We hope you find it useful,
+ Avi Freedman, Andrew Fried && Gadi Evron.
+ How is this different than PHAS?
+ http://phas.netsec.colostate.edu/
+ ------Original Message------
+ From: Gadi Evron
+ Sender: outages-bounces at outages.org
+ Subject: [outages] community real-time BGP hijack notification service
+ Sent: Sep 14, 2008 5:02 AM
+ Hi, WatchMy.Net is a new community service to alert you when your prefix
+ has been hijacked, in real-time.
+ Following the discussion on NANOG a couple of weeks ago on what to do if
+ your prefix is hijacked, people mentioned that detection-wise, free
+ services are limited (to certain communities or by not being real-time).
+ The current fully public and free services will alert you with a few
+ hours delay.
+ Over labor day weekend we built a free real-time service. We invite people to 
+ try it out during our beta stage.
+ Register for alerts at:
+ http://www.watchmy.net/
+ We hope you find it useful,
+ Avi Freedman, Andrew Fried && Gadi Evron.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Sent from my BlackBerry? smartphone with SprintSpeed
+ 	GMT.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Qwest Scheduled Maintenance Notification
+ Circuit Level Customers should be impacted on night 2 of this activity.
+ Start Date / Time:       09/23/08 05:00 GMT
+ End Date / Time:         09/24/08 11:00 GMT
+ Est. Downtime:           Unprotected circuits will be down 5-10 minutes
+ Reason For Maintenance:  DEMAND - Permanent repair from cable cut
+ between Denver and Fraser on 04 September 2008.  The cable is laying on
+ top of the ground and needs to be restored to it's underground
+ configuration so will be properly protected.
+ regards,
+ /virendra
+ On Sun, 14 Sep 2008 blackham at gmail.com wrote:
+ It's real time, unlike phas.
+ Anyway, I thougth the note was relevant, but discussion of the services 
+ themselves can be carried on.. on nanog I suppose?
+ If someone wants to contibute BGP feeds however, feel free to contact me. 
+ :)
+  	Gadi.
+###############################################################
+END
+###############################################################
+
+###############################################################
+openspf.org down?
+###############################################################
+ I've been trying to pull up a page on openspf.org to explain SPF and
+ relaying to a customer who is confused about how SPF works, but I
+ haven't been able to reach it over the last two days. Is it just me, or
+ is it hosted on the Texas coast?
+ ~Seth
+ DNS points to Road Runner address space in Nebraska.  Not sure this is a
+ production class web site.
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Receptionist
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Seth Mattinen
+ Sent: Sunday, September 14, 2008 5:47 PM
+ Subject: [outages] openspf.org down?
+ I've been trying to pull up a page on openspf.org to explain SPF and
+ relaying to a customer who is confused about how SPF works, but I
+ haven't been able to reach it over the last two days. Is it just me, or
+ is it hosted on the Texas coast?
+ ~Seth
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+QWEST SCHEDULED MAINTENANCE NOTIFICATION - 09/23/08 05:00
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+What happened to linuxbox.org?
+###############################################################
+ Any ideas?
+ - ferg
+ Paul Ferguson wrote:
+ Gadi sent a note about maintenance.
+ 	<48D23AFA.1010107@Baylor.edu>
+ At 01:26 PM 9/18/2008, you wrote:
+ >Gadi sent a note about maintenance.
+ He did, but he did that on Saturday... And the down-time would be on 
+ Monday... It's a bit late, if it's 5 days later :-)
+ Righard
+ Date: Sat, 13 Sep 2008 13:15:54 -0500 (CDT)
+ From: Gadi Evron <ge at linuxbox.org>
+ Subject: [mwp] projected down-time
+ [...]
+ As you know, the main linuxbox.org lists are run on a DSL line inTexas
+ since 1997. I am so excited about this working for so long, we kept it
+ there Other lists run on other servers, one of which is kindly hosted by
+ Vix.
+ The DSL line will be down Monday between 8 - noon (Dallas time).
+ Thanks,
+ HOST: 113-253                     Loss%   Snt   Last   Avg  Best  Wrst StDev
+   1. 1-2.vicimarketing.com         0.0%     1    4.8   4.8   4.8   4.8   0.0
+   2. 64.31.159.153                 0.0%     1    4.4   4.4   4.4   4.4   0.0
+   3. ge-6-23-12.car1.Tampa1.Level  0.0%     1   34.0  34.0  34.0  34.0   0.0
+   4. ae-2-5.bar1.Tampa1.Level3.ne  0.0%     1    4.8   4.8   4.8   4.8   0.0
+   5. ae-6-6.ebr2.Atlanta2.Level3.  0.0%     1   23.3  23.3  23.3  23.3   0.0
+   6. ae-73-70.ebr3.Atlanta2.Level  0.0%     1   34.4  34.4  34.4  34.4   0.0
+   7. ae-2.ebr1.Washington1.Level3  0.0%     1   41.9  41.9  41.9  41.9   0.0
+   8. ae-71-71.csw2.Washington1.Le  0.0%     1   48.8  48.8  48.8  48.8   0.0
+   9. ae-73-73.ebr3.Washington1.Le  0.0%     1   48.0  48.0  48.0  48.0   0.0
+  10. ae-3.ebr3.NewYork1.Level3.ne  0.0%     1   49.3  49.3  49.3  49.3   0.0
+  11. ae-83-83.csw3.NewYork1.Level  0.0%     1   45.4  45.4  45.4  45.4   0.0
+  12. ae-81-81.ebr1.NewYork1.Level  0.0%     1   46.8  46.8  46.8  46.8   0.0
+  13. ae-43.ebr2.London1.Level3.ne  0.0%     1  114.6 114.6 114.6 114.6   0.0
+  14. ae-21-52.car1.London1.Level3  0.0%     1  167.2 167.2 167.2 167.2   0.0
+  15. 212.113.16.110                0.0%     1  117.3 117.3 117.3 117.3   0.0
+  16. ae1-0.ams-koo-score-1.intero  0.0%     1  154.5 154.5 154.5 154.5   0.0
+  17. ae1-0.sto-010-score-1.intero  0.0%     1  198.0 198.0 198.0 198.0   0.0
+  18. ae0-0.sto-002-score-1.intero  0.0%     1  152.4 152.4 152.4 152.4   0.0
+  19. 84.233.135.78                 0.0%     1  154.3 154.3 154.3 154.3   0.0
+  20. vlan401.ge0.cr0.sth3.prqinet  0.0%     1  150.5 150.5 150.5 150.5   0.0
+  21. ge0.tr0.sth3.prqinet.net      0.0%     1  152.2 152.2 152.2 152.2   0.0
+  22. ???                          100.0     1    0.0   0.0   0.0   0.0   0.0
+ There was some mumbling, I believe on Slashdot -- which means its 
+ confidence level is 0, of course -- that the FBI was involved in this outage.
+ Anyone willing to admit to anything?
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+              Those who cast the vote decide nothing.
+              Those who count the vote decide everything.
+                -- (Josef Stalin)
+ I cannot ping it from Comcast business in the PacNW (Seattle area).
+ Here is my traceroute:
+ orion at orion:~/tmp$ traceroute 24.155.83.21
+ traceroute to 24.155.83.21 (24.155.83.21), 30 hops max, 38 byte packets
+   1  73.96.188.1 (73.96.188.1)  8.588 ms  8.889 ms  10.040 ms
+   2  GE-2-35-ur01.bremerton.wa.seattle.comcast.net (68.86.98.81)  9.652 ms 
+ 7.049 ms  6.302 ms
+   3  68.86.90.222 (68.86.90.222)  11.830 ms  8.619 ms  8.550 ms
+   4  68.86.90.221 (68.86.90.221)  25.677 ms  14.619 ms  12.397 ms
+   5  pos-0-7-0-0-cr01.sacramento.ca.ibone.comcast.net (68.86.85.197) 
+ 24.869 ms  26.512 ms  25.245 ms
+   6  pos-0-7-0-0-cr01.sanjose.ca.ibone.comcast.net (68.86.85.78)  28.737 ms 
+ 32.160 ms  27.418 ms
+   7  Tenge13-3.br02.sjo01.pccwbtn.net (63.218.179.25)  30.818 ms  31.490 ms 
+ 30.858 ms
+   8  * * *
+ I noticed a post to [funsec] never went through either. Related?
+ Maybe the FBI shut linuxbox.org down when they killed all access
+ to Wikileaks.org - Palin's emails?
+ --
+ Steve
+ Equal bytes for women.
+ On Thu, 18 Sep 2008, Paul Ferguson wrote:
+ 	<Pine.LNX.4.64.0809180108320.31763@mail.pirk.com>
+ 	<Pine.LNX.4.64.0809180108320.31763@mail.pirk.com>
+ On Thu, 18 Sep 2008 01:10:52 PDT, Steve Pirk said:
+ Hand me the tinfoil, will ya? ;)
+ linuxbox.org.           438255  IN      A       24.155.83.21
+ wikileaks.org.          338     IN      A       88.80.13.160
+ % traceroute linuxbox.org
+ traceroute to linuxbox.org (24.155.83.21), 30 hops max, 40 byte packets
+  1  isb-6509-1.vl103.cns.vt.edu (128.173.12.1)  0.426 ms  0.964 ms  1.234 ms
+  2  isb-6509-2.po51.cns.vt.edu (128.173.0.5)  0.980 ms  1.242 ms  0.347 ms
+  3  isb-7606-2.ge1-1.cns.vt.edu (192.70.187.218)  0.596 ms  0.646 ms  0.676 ms
+  4  192.70.187.10 (192.70.187.10)  96.592 ms  96.624 ms  96.654 ms
+  5  te2-1--580.tr01-asbnva01.transitrail.net (137.164.131.177)  94.790 ms  94.885 ms  94.910 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ % traceroute wikileaks.org
+ traceroute to wikileaks.org (88.80.13.160), 30 hops max, 40 byte packets
+  1  isb-6509-1.vl103.cns.vt.edu (128.173.12.1)  2.045 ms  2.158 ms  2.233 ms
+  2  isb-6509-2.po51.cns.vt.edu (128.173.0.5)  17.217 ms  17.316 ms  17.343 ms
+  3  isb-7606-2.ge1-1.cns.vt.edu (192.70.187.218)  0.556 ms  1.126 ms  1.204 ms
+  4  192.70.187.10 (192.70.187.10)  55.259 ms  55.333 ms  55.356 ms
+  5  te2-1--580.tr01-asbnva01.transitrail.net (137.164.131.177)  94.587 ms  94.686 ms  94.718 ms
+  6  cogent-peer.asbnva01.transitrail.net (137.164.130.122)  17.729 ms  8.489 ms  8.536 ms
+  7  te8-2.mpd01.dca02.atlas.cogentco.com (154.54.2.49)  100.146 ms  100.181 ms  100.439 ms
+  8  * te2-4.ccr02.dca01.atlas.cogentco.com (154.54.7.1)  9.519 ms vl3493.ccr02.dca01.atlas.cogentco.com (154.54.7.229)  9.287 ms
+  9  te3-4.ccr02.bos01.atlas.cogentco.com (154.54.6.137)  92.136 ms te3-3.ccr02.jfk02.atlas.cogentco.com (154.54.5.245)  83.313 ms  83.365 ms
+ 10  te2-4.mpd02.lon01.atlas.cogentco.com (130.117.0.45)  87.464 ms te4-1.ccr01.lon01.atlas.cogentco.com (66.28.4.42)  84.744 ms te4-3.mpd02.lon01.atlas.cogentco.com (66.28.4.254)  85.075 ms
+ 11  te3-2.ccr01.ams03.atlas.cogentco.com (130.117.1.117)  98.206 ms te2-7.ccr02.ams03.atlas.cogentco.com (130.117.1.169)  95.090 ms  96.574 ms
+ 12  te1-3.ccr01.dus01.atlas.cogentco.com (130.117.3.86)  106.096 ms te2-7.ccr02.ams03.atlas.cogentco.com (130.117.1.169)  95.327 ms te1-3.ccr01.dus01.atlas.cogentco.com (130.117.3.86)  104.388 ms
+ 13  te3-1.ccr01.ham01.atlas.cogentco.com (130.117.3.209)  104.127 ms  104.176 ms te2-7.ccr02.ams03.atlas.cogentco.com (130.117.1.169)  90.942 ms
+ 14  te2-1.ccr01.ham01.atlas.cogentco.com (130.117.3.129)  104.721 ms te1-1.ccr01.cph01.atlas.cogentco.com (130.117.2.150)  108.321 ms te2-1.ccr01.cph01.atlas.cogentco.com (130.117.3.206)  110.181 ms
+ 15  te2-1.ccr01.ham01.atlas.cogentco.com (130.117.3.129)  100.703 ms te1-1.ccr01.mma01.atlas.cogentco.com (130.117.0.50)  109.020 ms te2-1.ccr01.cph01.atlas.cogentco.com (130.117.3.206)  110.195 ms
+ 16  vlan401.ge0.cr0.sth3.prqinet.net (193.23.57.146)  121.311 ms dcs-data-com.demarc.cogentco.com (149.6.168.10)  124.878 ms te2-1.ccr01.sto01.atlas.cogentco.com (130.117.3.94)  115.792 ms
+ 17  ge0.tr0.sth3.prqinet.net (88.80.5.3)  117.792 ms vlan401.ge0.cr0.sth3.prqinet.net (193.23.57.146)  117.578 ms ge0.tr0.sth3.prqinet.net (88.80.5.3)  119.925 ms
+ 18  ge0.tr0.sth3.prqinet.net (88.80.5.3)  120.560 ms * *
+ 19  * * ge0.tr0.sth3.prqinet.net (88.80.5.3)  118.098 ms
+ 20  * * *
+ 21  * * *
+ 22  * * *
+ Looks like 2 totally separate issues, at least from where I am...
+ (Though if you want more data for the tinfoil-helmet crew, I was *also* for a
+ time unable to reach www.crooksandliars.com via either IPv6 or IPv4... :)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 226 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080918/23b191d9/attachment.bin>
+ 	<Pine.LNX.4.62.0809191647330.3487@linuxbox.org>
+ 	<20080920000229.GA12402@latency.net>
+ On Fri, 19 Sep 2008, Adam Rothschild wrote:
+ >> linuxbox.org is a small box, located in Dallas TX, running behind a
+ >> DSL line. There was an anticipated downtime early Monday after about
+ >> 2 years on the air, which unfortunately was repeated yesterday for
+ >> about 24 hours.
+ Your offer is more than appreciated. I mean that. But we have a few boxes 
+ on very strong links fired up and usable. This one is legacy, and a legacy 
+ to boot.
+ :)
+  	Gadi.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Wikileaks.org down?
+###############################################################
+ 	<20080918152934.GA20911@icarus.home.lan>
+ Jeremy Chadwick wrote:
+ I was just thinking "Why wasn't this posted to NANOG?"
+ 	<20080918152934.GA20911@icarus.home.lan>
+ Jeremy Chadwick wrote:
+ >> HOST: 113-253                     Loss%   Snt   Last   Avg  Best  Wrst StDev
+ >>   1. 1-2.vicimarketing.com         0.0%     1    4.8   4.8   4.8   4.8   0.0
+ >>   2. 64.31.159.153                 0.0%     1    4.4   4.4   4.4   4.4   0.0
+ >>   3. ge-6-23-12.car1.Tampa1.Level  0.0%     1   34.0  34.0  34.0  34.0   0.0
+ >>   4. ae-2-5.bar1.Tampa1.Level3.ne  0.0%     1    4.8   4.8   4.8   4.8   0.0
+ >>   5. ae-6-6.ebr2.Atlanta2.Level3.  0.0%     1   23.3  23.3  23.3  23.3   0.0
+ >>   6. ae-73-70.ebr3.Atlanta2.Level  0.0%     1   34.4  34.4  34.4  34.4   0.0
+ >>   7. ae-2.ebr1.Washington1.Level3  0.0%     1   41.9  41.9  41.9  41.9   0.0
+ >>   8. ae-71-71.csw2.Washington1.Le  0.0%     1   48.8  48.8  48.8  48.8   0.0
+ >>   9. ae-73-73.ebr3.Washington1.Le  0.0%     1   48.0  48.0  48.0  48.0   0.0
+ >>  10. ae-3.ebr3.NewYork1.Level3.ne  0.0%     1   49.3  49.3  49.3  49.3   0.0
+ >>  11. ae-83-83.csw3.NewYork1.Level  0.0%     1   45.4  45.4  45.4  45.4   0.0
+ >>  12. ae-81-81.ebr1.NewYork1.Level  0.0%     1   46.8  46.8  46.8  46.8   0.0
+ >>  13. ae-43.ebr2.London1.Level3.ne  0.0%     1  114.6 114.6 114.6 114.6   0.0
+ >>  14. ae-21-52.car1.London1.Level3  0.0%     1  167.2 167.2 167.2 167.2   0.0
+ >>  15. 212.113.16.110                0.0%     1  117.3 117.3 117.3 117.3   0.0
+ >>  16. ae1-0.ams-koo-score-1.intero  0.0%     1  154.5 154.5 154.5 154.5   0.0
+ >>  17. ae1-0.sto-010-score-1.intero  0.0%     1  198.0 198.0 198.0 198.0   0.0
+ >>  18. ae0-0.sto-002-score-1.intero  0.0%     1  152.4 152.4 152.4 152.4   0.0
+ >>  19. 84.233.135.78                 0.0%     1  154.3 154.3 154.3 154.3   0.0
+ >>  20. vlan401.ge0.cr0.sth3.prqinet  0.0%     1  150.5 150.5 150.5 150.5   0.0
+ >>  21. ge0.tr0.sth3.prqinet.net      0.0%     1  152.2 152.2 152.2 152.2   0.0
+ >>  22. ???                          100.0     1    0.0   0.0   0.0   0.0   0.0
+ >>
+ >> There was some mumbling, I believe on Slashdot -- which means its 
+ >> confidence level is 0, of course -- that the FBI was involved in this outage.
+ Not down for me and it loads fast...
+ ~Seth
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -- RLVaughn <RL_Vaughn at Baylor.edu> wrote:
+ >Paul Ferguson wrote:
+ >> Any ideas?
+ >> 
+ >Gadi sent a note about maintenance.
+ Right, but I thought that was supposed to happened this past
+ Monday? ;-)
+ - - ferg
+ --
+ "Fergie", a.k.a. Paul Ferguson
+  Engineering Architecture for the Internet
+  fergdawg(at)netzero.net
+  ferg's tech blog: http://fergdawg.blogspot.com/
+ On Thu, Sep 18, 2008 at 10:12:58AM -0400, Jay R. Ashworth wrote:
+ The issue you're referring to (re: Slashdot) is with regards to VP
+ candidate Sarah Palin's Yahoo! mailbox being compromised, and contents
+ of that mailbox mailbox being put up on Wikileaks.
+ Numerous news sources have run article on the break-in.
+ Wikileaks is either overloaded or has been shut down by the upstream due
+ to god-knows-what, or by government request.  None of this should come
+ as a surprise under the circumstances, and I'm also somewhat confused
+ why a website going down would be outages at isotf.org worthy.
+ http://blog.wired.com/27bstroke6/2008/09/group-posts-e-m.html
+ http://www.juneauempire.com/stories/091608/sta_333013278.shtml
+ http://www.huffingtonpost.com/2008/09/17/palins-email-account-hack_n_127184.html
+ http://gawker.com/5051193/sarah-palins-personal-emails
+ http://www.wikileaks.org/wiki/Sarah_Palin_Yahoo_inbox_2008
+ -- 
+ | Jeremy Chadwick                                jdc at parodius.com |
+ | Parodius Networking                       http://www.parodius.com/ |
+ | UNIX Systems Administrator                  Mountain View, CA, USA |
+ | Making life hard for others since 1977.              PGP: 4BD6C0CB |
+ ----- "Jeremy Chadwick" <outages at jdc.parodius.com> wrote:
+ Correct.
+ Well, Jeremy, since you didn't notice the Great Renaming of the list... :-)
+ High-profile websites fall under the scope of the list, as I understand it;
+ that's a metaphysical definition, I realize, but I suspect that if Virendra 
+ thinks I need spanked, he'll (or she'll; I'm never sure in non-Murrican 
+ names) spank me.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+              Those who cast the vote decide nothing.
+              Those who count the vote decide everything.
+                -- (Josef Stalin)
+###############################################################
+END
+###############################################################
+
+###############################################################
+whois-servers.net down?
+###############################################################
+ Hello All:
+ Not sure if this is topical, but it appears your friendly unix-style WHOIS is down, at least in Seattle.
+ whois: com.whois-servers.net: hostname nor servname provided, or not known
+  or
+ whois: com.whois-servers.net: Non-recoverable failure in name resolution
+ Regards,
+ Mike
+ --
+ Michael K. Smith - CISSP, GISP
+ Chief Technical Officer - Adhost Internet LLC
+ mksmith at adhost.com
+ w: +1 (206) 404-9500 f: +1 (206) 404-9050
+ PGP: B49A DDF5 8611 27F3  08B9 84BB E61E 38C0 (Key ID: 0x9A96777D)
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: PGP.sig
+ Type: application/pgp-signature
+ Size: 474 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080922/e26e2d7a/attachment.bin>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ On Monday 22 September 2008 12:14:50 pm Michael K. Smith - Adhost wrote:
+ It's fine from here (Denver):
+ [cstone at csmdv ~]$ whois axint.net @com.whois-servers.net
+ [Querying com.whois-servers.net]
+ [com.whois-servers.net]
+ Whois Server Version 2.0
+ Domain names in the .com and .net domains can now be registered
+ with many different competing registrars. Go to http://www.internic.net
+ for detailed information.
+    Domain Name: AXINT.NET
+    Registrar: TUCOWS INC.
+    Whois Server: whois.tucows.com
+    Referral URL: http://domainhelp.opensrs.net
+    Name Server: NS1.AXINT.NET
+    Name Server: NS2.AXINT.NET
+    Name Server: NS3.AXINT.NET
+    Status: clientDeleteProhibited
+    Status: clientTransferProhibited
+    Status: clientUpdateProhibited
+    Updated Date: 12-jun-2008
+    Creation Date: 11-jul-2003
+    Expiration Date: 11-jul-2009
+ >>> Last update of whois database: Mon, 22 Sep 2008 14:27:03 EDT <<<
+ - -- 
+ Chris Stone, MCSE
+ Vice President, CTO
+ AxisInternet, Inc.
+ http://www.axint.net
+ DSL, dialup, hosting, email filtering, co-location, online backup
+ Phone: +1 303 592 2947 x302 (office)  +1 303 570 6947 (cell)
+ - -------------------------------------------------------------------------
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Seems to be reachable from los angeles.
+ regards,
+ /virendra
+ Michael K. Smith - Adhost wrote:
+ We are seeing some issues w/ XO/Savvis peering..
+ Trace from XO to Savvis IP space (64.75.10.151)
+ Keys:  Help   Display mode   Restart statistics   Order of fields   quit
+ Packets               Pings
+  Host                                                                                                  
+ Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1. scrubbed 
+ 0.0%     6    0.6   0.5   0.4   0.6   0.1
+  2. 
+ ip65-44-114-97.z114-44-65.customer.algx.net                                                         
+ 0.0%     6    1.3   1.3   1.2   1.4   0.1
+  3. ???
+ Trace from Savvis to XO IP space (65.44.114.97)
+  1. scrubbed 
+ 0.0%    38    0.4   0.4   0.3   0.5   0.1
+  2. 
+ 64.41.199.129                                                                                       
+ 0.0%    37    1.0  24.0   0.6 330.2  80.4
+  3. 
+ hr1-ge-7-47.santaclarasc5.savvis.net                                                                
+ 0.0%    37    0.7   1.4   0.6  27.3   4.4
+  4. 
+ er1-te-1-0-0.sanjose3equinix.savvis.net                                                             
+ 0.0%    37    0.7   5.2   0.6 140.3  23.2
+  5. 
+ cr1-tenge-0-7-5-0.sanfrancisco.savvis.net                                                           
+ 2.7%    37    2.9   4.0   2.6  16.6   2.5
+  6. 
+ cr2-pos-0-0-3-3.dallas.savvis.net                                                                   
+ 0.0%    37   42.6  43.1  42.3  51.4   1.4
+  7. 
+ dpr1-ge-4-0-0.dallasequinix.savvis.net                                                              
+ 0.0%    37   43.1  44.8  42.9  76.9   6.7
+  8. 
+ er1-te-2-1.dallasequinix.savvis.net                                                                 
+ 0.0%    37   43.3  49.2  42.8 233.6  31.6
+  9. 
+ 208.175.175.90                                                                                      
+ 0.0%    37   43.0  42.8  42.6  43.6   0.2
+ 10. 
+ 65.106.1.102                                                                                       
+ 75.0%    37   43.5  46.5  43.4  62.9   6.3
+ 11. 
+ 65.106.1.101                                                                                        
+ 0.0%    37   43.4  47.8  43.2 112.3  12.5
+ 12. 
+ 65.106.0.41                                                                                         
+ 0.0%    37   57.5  65.1  57.1 177.3  21.0
+ 13. 
+ 65.106.1.73                                                                                         
+ 0.0%    37   57.4  66.5  57.1 162.1  24.2
+ 14. ???
+ Trying to call into XO and they aren't even taking calls, they mention 
+ something about network issues in Spokane. Any ideas as to what is going 
+ on/ETA to fix?
+ --Justin
+ Portions of Cox in Wichita was down from 21:58 to 23:45 this evening. 
+ So far the cause has been attributed to a Foundry switch somewhere in 
+ their network.  I have PtPs between Wichita and a suburb (on Cox's PON 
+ network in Wichita and dropped out of an ONS in the suburb) and a 
+ +100Mbps Internet link to a suburb that when down (terminated on a 7600 
+ in Cox's network and dropped out of the same ONS on the other end).  I 
+ wouldn't have expected them all to cross the same switch but apparently 
+ though somehow do.  As of right now they appear to be up and running again.
+ Justin
+ 	<48D7EC1B.7090401@gmail.com>
+ 	<D161024C-FFB8-431A-820E-586C74F6A10B@sackheads.org>
+ 	<48D81D53.9020204@gmail.com>
+ On Sep 22, 2008, at 6:33 PM, virendra rode wrote:
+ >>
+ >>
+ >> On Sep 22, 2008, at 3:03 PM, virendra rode  
+ >> <virendra.rode at gmail.com> wrote:
+ >>
+ >> Seems to be reachable from los angeles.
+ >>
+ >>
+ >>> If we must play the "it's ok from here" game can we at least be a  
+ >>> little
+ >>> more useful than the typically meaningless geographical-only  
+ >>> comments?
+ I guess I was under verbose.  Except paired with a natural disaster,  
+ geography alone is not a useful "up/down" metric.  "XO in LA" is  
+ useful. "LA" is not.
+###############################################################
+END
+###############################################################
+
+###############################################################
+XO Outage
+###############################################################
+ Also seeing some issues with XO out here:
+ Tracing route to yahoo.com [68.180.206.184]
+ over a maximum of 30 hops:
+   1     2 ms     1 ms     1 ms  10.100.20.1
+   2     2 ms     1 ms     2 ms  sjcisr01-int.wyse.com [10.100.1.15]
+   3     3 ms     2 ms     2 ms  132.237.245.1
+   4     3 ms     3 ms     2 ms  207.88.3.37.ptr.us.xo.net [207.88.3.37]
+   5     7 ms     3 ms     3 ms  p3-0-0.mar2.fremont-ca.us.xo.net [207.88.80.181]
+   6    16 ms     5 ms     3 ms  p4-0-0.rar2.sanjose-ca.us.xo.net [65.106.5.137]
+   7    12 ms    14 ms    11 ms  p6-0-0.rar1.la-ca.us.xo.net [65.106.0.17]
+   8    17 ms    11 ms    11 ms  p0-0-0d0.rar2.la-ca.us.xo.net [65.106.1.50]
+   9    44 ms    50 ms    52 ms  p6-0-0.rar1.dallas-tx.us.xo.net [65.106.0.13]
+  10     *        *        *     Request timed out.
+  11    44 ms    44 ms    44 ms  207.88.12.150.ptr.us.xo.net [207.88.12.150]
+  12    53 ms    85 ms    52 ms  206.111.5.42.ptr.us.xo.net [206.111.5.42]
+ ^C
+ On Mon, Sep 22, 2008 at 2:35 PM, Justin Sharp <sharp at sharpone.net> wrote:
+ I am seeing it on my end also:
+ traceroute: Warning: www.cnn.com has multiple addresses; using 
+ 157.166.224.25
+ traceroute to www.cnn.com (157.166.224.25), 64 hops max, 40 byte packets
+   1  hq-rtr1.genius.local (64.244.66.1)  0.891 ms  0.429 ms  0.449 ms
+   2  ip65-46-253-157.z253-46-65.customer.algx.net (65.46.253.157)  1.856 
+ ms  2.860 ms  1.881 ms
+   3  p3-0-0.mar2.fremont-ca.us.xo.net (207.88.80.181)  16.922 ms  2.041 
+ ms  2.013 ms
+   4  p4-3-0.rar2.sanjose-ca.us.xo.net (65.106.5.161)  2.637 ms  2.192 ms 
+   2.823 ms
+   5  p6-0-0.rar1.la-ca.us.xo.net (65.106.0.17)  10.308 ms  10.258 ms 
+ 10.386 ms
+   6  207.88.13.22.ptr.us.xo.net (207.88.13.22)  10.931 ms  10.535 ms 
+ 10.037 ms
+   7  *^C
+ Justin Sharp wrote:
+ Little late on my part, but yes... XO partitioned for 20-30 mins today. Said it was a peering issue. I'll share the RFO when I get it.  
+ Sent from my BlackBerry? smartphone with SprintSpeed
+ -----Original Message-----
+ From: Paul Norton <paul at neoverve.com>
+ Date: Mon, 22 Sep 2008 14:53:43 
+ Cc: <outages at outages.org>
+ Subject: Re: [outages] XO Outage
+ Seeing outage here in San Diego.
+ On Sep 22, 2008, at 2:35 PM, Justin Sharp wrote:
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Finally got the RFO:
+ Summary: On Monday September 22, 2008 at 4:12 PM all XO Peering Routers were isolated due to a mis-configuration caused by human error.  An XO technician inadvertently ran an incomplete script while attempting to complete non-impacting changes on an SNMP filter.  XO data customers were unable to reach external websites following the scripting push.
+ XO identified the issue immediately and began the process of logging into the Peering routers and corrected the configuration to restore the Peering router connectivity by 5:20 PM.
+ As of this writing, XO operations is implementing a verification screen prior to script launching to ensure that only the intended scripts are being deployed. In addition, all scripting will require a Scheduled Maintenance Request or Repair event.
+ Cause: Inadvertent mis-configuration caused by human error
+ Resolution: XO technicians corrected configuration to restore peering router connectivity.
+ Sent from my BlackBerry? smartphone with SprintSpeed
+ -----Original Message-----
+ From: blackham at gmail.com
+ Date: Tue, 23 Sep 2008 00:41:42 
+ Cc: <outages at outages.org>
+ Subject: Re: [outages] XO Outage
+ Little late on my part, but yes... XO partitioned for 20-30 mins today. Said it was a peering issue. I'll share the RFO when I get it.  
+ Sent from my BlackBerry? smartphone with SprintSpeed
+ -----Original Message-----
+ From: Paul Norton <paul at neoverve.com>
+ Date: Mon, 22 Sep 2008 14:53:43 
+ Cc: <outages at outages.org>
+ Subject: Re: [outages] XO Outage
+ Seeing outage here in San Diego.
+ On Sep 22, 2008, at 2:35 PM, Justin Sharp wrote:
+ -- 
+ Paul Norton
+ Systems Administrator
+ Neoverve - www.neoverve.com
+ Neoverve Blog - http://blog.neoverve.com/
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cox in Wichita
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+Level 3 Service Affecting Maintenance
+###############################################################
+ They keep slipping this window.  Here's the latest copy:
+ Level 3 Communications - Network Change Control (NCC)
+ ***Short Interval Maintenance Advisement***
+ Level 3 Service Affecting Maintenance - GCR# 211163 - Scheduled
+ We have scheduled this Short Interval Network Maintenance Period for:
+ $MYCOMPANY 
+ Start Date & Time: 	Sunday, October 05, 2008    03:00 ET (10/5/2008
+ 07:00 GMT)	
+ End Date & Time: 	Sunday, October 05, 2008    06:00 ET (10/5/2008
+ 10:00 GMT)
+ Reason for Maintenance: 	VENDOR - RESCHEDULE OF 209236- Level 3
+ vendor performing aerial relocation of backbone cable proceeding north to
+ south along N. Orange Ave between the Sarasota substation & Sarasota Main.
+ Location(s):	 Sarasota FL
+ Services Impacted:	 
+ Service Impacted	 Expected Impact	 Duration	
+ Transport - Protected	 Switch Hits	 50 milliseconds	
+ Transport - Unprotected	 Outage	 2 hours	
+ Circuits Impacted: 	
+ Circuit ID	 Service Type	 Order Number	 CustomerCircuitId
+ Impact	
+ $ALL_THE_STUFF_ON_MY_FIBER_TAIL           2 hour outage
+ Comments:	 Clarify Case#: 2835632
+ Contact Information:	 Business Hours:	
+ 	      Monday-Friday 7AM-5PM CT
+       Phone: 800-850-4095 opt 2	
+ 	After Hours:	
+ 	      Phone: 877-453-8353 opt 2 opt 2 opt 1	
+ 	Outside the US:	
+ 	      Phone: 1-720-888-0229
+       E-mail:  <mailto:maint_advisory at level3.com> 	
+ -- 
+ Jay R. Ashworth
+ Network Administrator
+ VICI Marketing, LLC
+ +1 727 451 4974
+###############################################################
+END
+###############################################################
+
+###############################################################
+puck outage this am.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Hi,
+ You may or may not have noticed puck.nether.net (hosting outages.org
+ mailing list)  suffered an outage this am. This was caused due to a file
+ system issue (possible inconsistence state) on a fairly large (1tb)
+ filesystem
+ which caused services on puck to be unresponsive.
+ Many thanks to Jared Mauch in addressing this issue.
+ Like always, appreciate your feedback and your constructive criticism.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+ColoServe Outage
+###############################################################
+ Looks like ColoServe is experiencing a DoS attack which has taken many
+ of its services offline.
+ -matt
+###############################################################
+END
+###############################################################
+
+###############################################################
+T+Mobile data outage from detroit to new england
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ I am informed that there has been data outage from detroit to new england.
+ Can someone confirm this? So far no eta has been given.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+www.house.gov not reachable.
+###############################################################
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Appears to be slashdot effect. Is anyone able to reach it?
+ $ traceroute-nanog www.house.gov
+ traceroute to www.house.gov (143.228.144.184), 30 hops max, 40 byte packets
+  1  * * 192.168.1.1 (192.168.1.1)  0.694 ms
+  2  rrcs-24-43-96-129.west.biz.rr.com (24.43.96.129)  12.547 ms  14.746
+ ms  11.975 ms
+  3  cpe-24-30-162-209.socal.rr.com (24.30.162.209)  13.230 ms  10.382 ms
+  10.428 ms
+  4  tge4-0-2.lsanca4-rtr1.socal.rr.com (24.30.162.233)  15.257 ms
+ 16.641 ms  19.161 ms
+  5  * * *
+  6  te-4-1.car1.Tustin1.Level3.net (4.71.104.157)  21.439 ms
+ te-1-3.car1.Tustin1.Level3.net (4.79.140.37)  18.273 ms
+ te-1-4.car1.Tustin1.Level3.net (4.79.140.1)  18.181 ms
+  7  ae-2-3.bar1.Tustin1.Level3.net (4.69.132.218)  20.702 ms  20.403 ms
+  17.741 ms
+  8  ae-6-6.ebr1.LosAngeles1.Level3.net (4.69.136.202)  21.904 ms  19.457
+ ms  17.880 ms
+  9  ae-81-81.csw3.LosAngeles1.Level3.net (4.69.137.10)  29.696 ms
+ ae-71-71.csw2.LosAngeles1.Level3.net (4.69.137.6)  22.903 ms
+ ae-61-61.csw1.LosAngeles1.Level3.net (4.69.137.2)  39.060 ms
+ 10  ae-4-99.edge1.LosAngeles1.Level3.net (4.68.20.199)  19.504 ms
+ ae-2-79.edge1.LosAngeles1.Level3.net (4.68.20.71)  24.409 ms
+ ae-1-69.edge1.LosAngeles1.Level3.net (4.68.20.7)  20.251 ms
+ 11  192.205.33.225 (192.205.33.225)  98.923 ms
+ level3-gw.la2ca.ip.att.net (192.205.33.229)  18.833 ms 192.205.33.225
+ (192.205.33.225)  17.658 ms
+ 12  tbr2.la2ca.ip.att.net (12.127.3.214)  84.049 ms  83.400 ms  82.004 ms
+ 13  cr2.la2ca.ip.att.net (12.122.19.213)  87.134 ms  83.234 ms  83.367 ms
+ 14  12.122.30.29 (12.122.30.29)  85.060 ms  83.920 ms  82.151 ms
+ 15  cr2.dvmco.ip.att.net (12.122.30.26)  85.061 ms  82.887 ms  82.259 ms
+ 16  * cr1.cgcil.ip.att.net (12.122.31.86)  83.637 ms  82.557 ms
+ 17  cr1.cl2oh.ip.att.net (12.122.2.206)  82.341 ms  83.166 ms  84.391 ms
+ 18  cr2.cl2oh.ip.att.net (12.122.2.126)  84.642 ms  84.020 ms  85.446 ms
+ 19  cr2.phlpa.ip.att.net (12.122.2.210)  199.738 ms  81.896 ms  82.662 ms
+ 20  cr1.wswdc.ip.att.net (12.122.4.54)  84.546 ms  82.374 ms  82.072 ms
+ 21  12.123.10.1 (12.123.10.1)  85.794 ms  83.924 ms  82.481 ms
+ 22  * * *
+ 23  * * *
+ 24  * * *
+ 25  * * *
+ regards,
+ /virendra
+ virendra rode wrote:
+ I don't have full diagnostic skills--it seems to server up a blank page.
+ They apparently block ICMP as current best practice seems to require.
+ Trying 143.228.144.184...
+ Connected to www.house.gov.
+ Escape character is '^]'.
+ GET / HTTP/1.0
+ .
+ HTTP/1.1 200 OK
+ Server: "USHR Webserver Ver 5.4.1"
+ Date: Sun, 28 Sep 2008 22:43:33 GMT
+ Content-type: text/html
+ Connection: close
+ <?xml version="1.0" encoding="iso-8859-1"?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+ <head>
+ <title>United States House of Representatives, 110th Congress, 2nd
+ Session</title>
+ having issues puling up via a browser though...
+ On Sun, Sep 28, 2008 at 6:43 PM, Laurence F. Sheldon, Jr.
+ <LarrySheldon at cox.net> wrote:
+ >> Appears to be slashdot effect. Is anyone able to reach it?
+ 	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ On Sep 28, 2008, at 18:45, Christian Koch wrote:
+ I tried the same and it took a long time to return - perhaps  
+ exceeding a browser timeout.
+ I think virendra called it - load problems.
+ They can call me for an LVS cluster. ;)
+ -Bill
+ -----
+ Bill McGonigle, Owner           Work: 603.448.4440
+ BFC Computing, LLC              Home: 603.448.1668
+ bill at bfccomputing.com		Cell: 603.252.2606
+ http://www.bfccomputing.com/    Page: 603.442.1833
+ Blog: http://blog.bfccomputing.com/
+ VCard: http://bfccomputing.com/vcard/bill.vcf
+ 	<48E00874.4010409@cox.net>	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ 	<2153990A-7592-4AB3-8BB7-2ED3B9ADFB03@gmail.com>
+ Bill McGonigle wrote:
+ >> having issues puling up via a browser though...
+ I guess there is some comfort that there are a few people interested in 
+ the $1.2T Giveaway Bill.
+ Seems like there is a message in the readiness to serve area tho.
+ I expect Obama's office to announce a solution momentarily.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:     http://tinyurl.com/4sqczs
+ 	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Just found out, congress released their draft rescue plan on their website.
+ Just wondering if the bill includes any $$$$ for load-balancers :-)
+ regards,
+ /virendra
+ Christian Koch wrote:
+ >> virendra rode wrote:
+ >>
+ >>> Appears to be slashdot effect. Is anyone able to reach it?
+ >> I don't have full diagnostic skills--it seems to server up a blank page.
+ >>
+ >> They apparently block ICMP as current best practice seems to require.
+ >>
+ >> _______________________________________________
+ >> outages mailing list
+ >> outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ I'm sure its a typical enterprise/government announcement.  No prior communication to IT staff, although they will be required to troubleshoot and fix!  As now it appears "broken", although completely avoidable!
+ Communication and planning - its another foreign policy!
+ --
+ John Macleod
+ CTO
+ Alentus Corporation
+ 28202 Cabot Road
+ Suite 205
+ Laguna Niguel, CA  92677
+ Tel:  +1.877.922.9903
+ DID - US:  +1.949.243.0490
+          UK:  +44.(0)208.819.0350
+ www.alentus.com
+ www.serversfirst.com
+ - Sent via the Alentus Corporate Mobile Messaging System -
+ ----- Original Message -----
+ From: outages-bounces at outages.org <outages-bounces at outages.org>
+ Cc: Laurence F. Sheldon, Jr. <LarrySheldon at cox.net>; outages at outages.org <outages at outages.org>
+ Sent: Sun Sep 28 16:55:25 2008
+ Subject: Re: [outages] www.house.gov not reachable.
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ Just found out, congress released their draft rescue plan on their website.
+ Just wondering if the bill includes any $$$$ for load-balancers :-)
+ regards,
+ /virendra
+ Christian Koch wrote:
+ >> virendra rode wrote:
+ >>
+ >>> Appears to be slashdot effect. Is anyone able to reach it?
+ >> I don't have full diagnostic skills--it seems to server up a blank page.
+ >>
+ >> They apparently block ICMP as current best practice seems to require.
+ >>
+ >> _______________________________________________
+ >> outages mailing list
+ >> outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<48E00B67.5010604@cox.net>
+ Laurence F. Sheldon, Jr. wrote:
+ Comments to blog entry at 
+ http://gatewaypundit.blogspot.com/2008/09/pelosi-reid-corruptocrats-face-nation.html
+ says every site carrying the save-the-bankers-beemer bill is down.
+ 	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ It's fine for me here ?
+ [root at ipv6 /home/risnaini]# tcptraceroute -n www.house.gov
+ Selected device rl0, address 202.159.33.33, port 51633 for outgoing packets
+ Tracing the path to www.house.gov (143.228.144.184) on TCP port 80, 30 
+ hops max
+   1  202.159.33.32 (202.159.33.32)  5.703 ms  9.893 ms  9.962 ms
+   2  202.53.251.145 (202.53.251.145)  9.961 ms  9.967 ms  9.990 ms
+   3  202.53.234.98 (202.53.234.98)  9.960 ms  9.976 ms  9.963 ms
+   4  118.91.224.226 (118.91.224.226)  9.977 ms  9.975 ms  9.986 ms
+   5  202.93.46.212 (202.93.46.212)  98.309 ms  124.895 ms  6.690 ms
+   6  157.130.195.13 (157.130.195.13)  189.902 ms  189.454 ms  188.222 ms
+   7  152.63.54.114 (152.63.54.114)  189.407 ms  188.027 ms  190.503 ms
+   8  152.63.48.6 (152.63.48.6)  190.383 ms  190.442 ms  191.152 ms
+   9  152.63.48.249 (152.63.48.249)  191.514 ms  191.047 ms  234.658 ms
+ 10  192.205.34.185 (192.205.34.185)  264.976 ms  259.146 ms  355.663 ms
+ 11  12.123.13.189 (12.123.13.189)  270.224 ms  270.228 ms  269.604 ms
+ 12  12.122.19.17 (12.122.19.17)  270.191 ms  268.271 ms  270.759 ms
+ 13  12.122.4.122 (12.122.4.122)  269.254 ms  269.937 ms  269.370 ms
+ 14  12.122.2.206 (12.122.2.206)  268.567 ms  270.028 ms  271.254 ms
+ 15  12.122.2.126 (12.122.2.126)  266.867 ms  269.245 ms  266.970 ms
+ 16  12.122.2.210 (12.122.2.210)  269.768 ms  270.364 ms  270.227 ms
+ 17  12.122.4.54 (12.122.4.54)  269.442 ms  269.510 ms  269.872 ms
+ 18  12.123.10.1 (12.123.10.1)  268.465 ms  268.095 ms  269.004 ms
+ 19  * * *
+ 20  * * *
+ 21  143.228.129.13 (143.228.129.13)  277.405 ms  277.642 ms  279.836 ms
+ 22  * 143.228.130.2 (143.228.130.2) 279.245 ms  279.561 ms
+ 23  * * *
+ 24  * * *
+ 25  143.228.144.184 (143.228.144.184) [open]  278.100 ms  278.582 ms 
+ 288.544 ms
+ Christian Koch wrote:
+ >> virendra rode wrote:
+ >>
+ >>> Appears to be slashdot effect. Is anyone able to reach it?
+ >> I don't have full diagnostic skills--it seems to server up a blank page.
+ >>
+ >> They apparently block ICMP as current best practice seems to require.
+ >>
+ >> _______________________________________________
+ >> outages mailing list
+ >> outages at outages.org
+ >> https://puck.nether.net/mailman/listinfo/outages
+ >>
+ 	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ 	<2153990A-7592-4AB3-8BB7-2ED3B9ADFB03@gmail.com>
+ 	<48E00B67.5010604@cox.net>
+ I heard they posted the 700 Bn bail out bill online...
+ --
+ Steve
+ Equal bytes for women.
+ On Sun, 28 Sep 2008, Laurence F. Sheldon, Jr. wrote:
+ >> 
+ >> On Sep 28, 2008, at 18:45, Christian Koch wrote:
+ >> 
+ >>> having issues puling up via a browser though...
+ >> 
+ >> I tried the same and it took a long time to return - perhaps exceeding a 
+ >> browser timeout.
+ >> 
+ >> I think virendra called it - load problems.
+ >> 
+ >> They can call me for an LVS cluster. ;)
+ 	<48E00874.4010409@cox.net>	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ 	<48E0239C.4020506@indo.net.id>
+ a. rahman isnaini r.sutan wrote:
+ Obama must have fixed it.
+ The page loads here now.
+ 	<48E00874.4010409@cox.net>
+ On Sun, 28 Sep 2008 17:43:00 CDT, "Laurence F. Sheldon, Jr." said:
+ Ahem.  Who said "block ICMP' is BCP?  Yes, there's some ICMP things that
+ you probably *should* block if they're to/from untrusted sources, but in
+ particular, host/net unreachable ICMP shouldn't be blocked, and the next
+ site I catch blocking 'Frag Needed' I'm gonna get on a plane and re-educate
+ them with a clue-by-four regarding what they're doing to PMTUD.
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: not available
+ Type: application/pgp-signature
+ Size: 226 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080929/524373f9/attachment.bin>
+ ----- "Valdis Kletnieks" <Valdis.Kletnieks at vt.edu> wrote:
+ The Department Of Homeland Insecurity will put you on their no-route list if
+ they catch you trying to sneak a clue-by-four onto a plane, Valdis.
+ Cheers,
+ -- jra
+ -- 
+ Jay R. Ashworth                   Baylink                      jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+ St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+              Those who cast the vote decide nothing.
+              Those who count the vote decide everything.
+                -- (Josef Stalin)
+ 	<46432.1222706684@turing-police.cc.vt.edu>
+ Valdis.Kletnieks at vt.edu wrote:
+ >> They apparently block ICMP as current best practice seems to require.
+ I wouldn't say it's "best" practice, but it's "common" practice to drop
+ all ICMP traffic.  When I worked for a government contractor a few years
+ ago, we had to fight tooth and nail for them to enable 'Frag Needed' and
+ 'Destination Unreachable' on as many routers/firewalls as possible.
+ Those changes were needed just so we could get to the point of figuring
+ out _why_ the network was broken.  Almost every cisco router or firewall
+ I saw on a government network control started with "any any drop" rule,
+ and ICMP never had an "accept" rule.  Best practice says drop everything
+ and permit what you need, most people don't realize how critical ICMP is.
+ It's been a few years since the "ping death" scares of 1997, do we
+ really need to stop dropping any ICMP traffic anymore?  My home internet
+ connection (AT&T DSL) drops not only ICMP Echo, but traceroute requests
+ as well. I understand that some saturated connections don't want ICMP
+ Echo requests going through, but in this age of fast processors in
+ routers we could rate limit instead of drop.  It's hard to determine an
+ outage is an outage when you can't perform basic connectivity tests.
+  -Carl
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 252 bytes
+ Desc: OpenPGP digital signature
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20080929/979e36b1/attachment.bin>
+ 	<46432.1222706684@turing-police.cc.vt.edu>
+ Valdis.Kletnieks at vt.edu wrote:
+ >> They apparently block ICMP as current best practice seems to require.
+ I've been inactive in the racket for a while but personally think 
+ blocking any ICMP from or to people you want to talk to is a mistake, 
+ but last I heard just about everybody was telling me to block _some_ 
+ ICMP or other for some mythical reason o other.
+ And the more expensive consultants (considering TCO) and most of the 
+ "firewall" experts were telling me to block them all.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:     http://tinyurl.com/4sqczs
+ 	<48E00874.4010409@cox.net>	<46432.1222706684@turing-police.cc.vt.edu>
+ 	<48E11208.9030105@edolnx.net>
+ Carl Perry wrote:
+ Please check the sticker on your sarcasm detector, it may be overdue for 
+ calibration.
+ 	<48E00874.4010409@cox.net>	<46432.1222706684@turing-police.cc.vt.edu>
+ 	<48E119AE.6000303@cox.net>
+ Laurence F. Sheldon, Jr. wrote:
+ And occurs to me now that there are one or two places that operate 
+ routers in RFC 1918 space and some that will not pass traffic that is 
+ sourced in RFC1918 space.
+ -- 
+ Requiescas in pace o email              Two identifying characteristics
+                                               of System Administrators:
+ Ex turpi causa non oritur actio        Infallibility, and the ability to
+                                               learn from their mistakes.
+ Eppure si rinfresca
+ ICBM Targeting Information:     http://tinyurl.com/4sqczs
+ 	<c93a55220809281545y4c0752bgd454e4acc6a987c4@mail.gmail.com>
+ 	<2153990A-7592-4AB3-8BB7-2ED3B9ADFB03@gmail.com>
+ On Sun, Sep 28, 2008 at 18:49, Bill McGonigle <flowerpt at gmail.com> wrote:
+ I wonder if it's load or config issues.
+ I get:
+   "Bad Gateway"
+   "The proxy server received an invalid response from an upstream server."
+ when visiting speaker.house.gov.
+ However judiciary.house.gov and clerk.house.gov come up fine.
+ -Jim P.
+ 	<48E024B2.9010702@cox.net>
+ I heard Al Gore had to be called in. :)
+ Robert D. Scott                 Robert at ufl.edu
+ Senior Network Engineer         352-273-0113 Phone
+ CNS - Network Services          352-392-2061 CNS Receptionist
+ University of Florida           352-392-9440 FAX
+ Florida Lambda Rail             352-294-3571 FLR NOC
+ Gainesville, FL  32611          321-663-0421 Cell
+ -----Original Message-----
+ From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+ Behalf Of Laurence F. Sheldon, Jr.
+ Sent: Sunday, September 28, 2008 8:44 PM
+ Cc: outages at outages.org
+ Subject: Re: [outages] www.house.gov not reachable.
+ a. rahman isnaini r.sutan wrote:
+ Obama must have fixed it.
+ The page loads here now.
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ 	<46432.1222706684@turing-police.cc.vt.edu>
+ 	<48E11208.9030105@edolnx.net>
+ Carl Perry <caperry at edolnx.net> writes:
+ I used to routinely drop ICMP from outside (at a different employer) because of the use at the time of ICMP as a covert communications channel by Loki and similar malware.  ICMP messages were (are) also very useful for mapping services on a network.
+ This was before "stateful" packet inspection on ICMP was commonplace, and before ICMP traffic could be selectively blocked by type.
+ --
+ Jim Goltz <jgoltz at mail.nih.gov>
+###############################################################
+END
+###############################################################
+
+###############################################################
+T+Mobile data outage from detroit to new
+###############################################################
+ 	england]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Re: [outages] T+Mobile data outage from detroit to new england
+ Date: Sun, 28 Sep 2008 19:30:00 -0400
+ From: Rusty Dekema <rdekema at gmail.com>
+ I can confirm that t-mo's gprs/edge service was unavailable approx 25
+ miles west of detroit from approximately midnight last night until
+ sometime after 3 pm today. This is based on my observation of my own
+ t-mo phone; I wasn't keeping a close eye on it or doing any kind of
+ logging of availability.
+ - -Rusty
+ On 9/28/08, virendra rode <virendra.rode at gmail.com> wrote:
+ _______________________________________________
+ outages mailing list
+ outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ - --
+ Sent from Gmail for mobile | mobile.google.com
+ 	england]
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+ - -------- Original Message --------
+ Subject: Re: [outages] T+Mobile data outage from detroit to new england
+ Date: Sun, 28 Sep 2008 19:43:17 -0400
+ From: Jonathan Brockmeier <brockj at hope.edu>
+ <ba72f1210809281609l37f6252cn8f392df0b27f2947 at mail.gmail.com>	
+ <48E00FF5.3080909 at gmail.com>
+ I get connected at gsm not grps or edge, so I would say it is down and
+ their customer service has a message upfront that my area has issues
+ and they are working on having it back soon...
+ Jonathan Brockmeier
+ On 9/28/08, virendra rode <virendra.rode at gmail.com> wrote:
+ >> Yes I can confirm on my t-mobile phone in michgan
+ >> Jonathan Brockmeier
+ >> On 9/28/08, virendra rode <virendra.rode at gmail.com> wrote:
+ >> I am informed that there has been data outage from detroit to new england.
+ >> Can someone confirm this? So far no eta has been given.
+ >> regards,
+ >> /virendra
+ >>>
+ - --
+ Jonathan Brockmeier, CIT
+ Hope College
+ 616-395-7670
+###############################################################
+END
+###############################################################
+
+###############################################################
+qwest issues from seattle?
+###############################################################
+ 	<46432.1222706684@turing-police.cc.vt.edu>
+ 	<48E11208.9030105@edolnx.net>
+ On Sep 29, 2008, at 13:36, Carl Perry wrote:
+ Wouldn't you specifically want source quenches to go through in this  
+ case?
+ The choir concurs. :)
+ -Bill
+ -----
+ Bill McGonigle, Owner           Work: 603.448.4440
+ BFC Computing, LLC              Home: 603.448.1668
+ bill at bfccomputing.com		Cell: 603.252.2606
+ http://www.bfccomputing.com/    Page: 603.442.1833
+ Blog: http://blog.bfccomputing.com/
+ VCard: http://bfccomputing.com/vcard/bill.vcf
+ Anyone else having any problems with qwest(AS209) today?  Their BGP
+ session has bounced twice in the past half hour, and has been down now
+ for about 15 minutes.
+ We're peered with them at 1914 3rd ave, (securities and exchange
+ building- next to the westin) in seattle.  Anyone in the westin having
+ similar issues?
+ Thanks
+ chris
+ Christopher Rogers 
+ Network Engineer - Marchex, Inc
+ w:+1.206.331.3368 m:+1.206.234.1423
+ Qwest has confirmed there are 'ongoing issues in [their] western
+ region.'
+ Naturally they won't give any more details than that.
+ Internal qwest ticket for everyone is 2859983
+ chris
+###############################################################
+END
+###############################################################
+
+###############################################################
+Perhaps this explains why Qwest was having problems...
+###############################################################
+None###############################################################
+END
+###############################################################
+
+###############################################################
+XO Flapping (Las Vegas/Los Angeles)
+###############################################################
+None###############################################################
+END
+###############################################################
+

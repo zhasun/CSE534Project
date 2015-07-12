@@ -1,0 +1,2405 @@
+###############################################################
+Packet Loss Comcast in Chi, IL
+###############################################################
+  Seeing a variable 10-30% packet loss on Comcast/XFinity Illinois area,
+ non-business line
+ I can ping/tracert hop 6 with 100% return over multiple attempts but get
+ packet loss on hop 7 and any targets past that.
+ Ping statistics for 98.139.183.24:
+     Packets: Sent = 25, Received = 20, Lost = 5 (20% loss),
+ Approximate round trip times in milli-seconds:
+     Minimum = 66ms, Maximum = 85ms, Average = 74ms
+   6    25 ms    27 ms    27 ms
+ he-2-1-0-0-cr01.chicago.il.ibone.comcast.net[68.86.91.141]
+   7    74 ms     *        *     23.30.207.254
+   8    71 ms    72 ms    78 ms  4.69.158.234
+   9    78 ms    72 ms    74 ms
+ ae-6-6.ebr2.Washington12.Level3.net[4.69.148.145]
+  10    74 ms    72 ms    70 ms  4.69.202.57
+  11     *        *       73 ms
+ ae-82-82.csw3.Washington1.Level3.net[4.69.134.154]
+  12    70 ms    71 ms    72 ms
+ ae-1-80.edge1.Washington1.Level3.net[4.69.149.141]
+  13    89 ms     *       70 ms  146.82.54.206
+  14     *       73 ms   106 ms  ae-4.pat1.che.yahoo.com [216.115.101.153]
+  15    68 ms    82 ms    82 ms  ae-3.pat2.bfy.yahoo.com [216.115.96.119]
+  16    68 ms    68 ms    68 ms  ae-3.msr1.bf1.yahoo.com [216.115.100.29]
+  17    77 ms    68 ms    70 ms
+ xe-10-0-0.clr1-a-sat.bf1.yahoo.com[98.139.130.17]
+  18     *        *       84 ms  UNKNOWN-98-139-129-X.yahoo.com[98.139.129.175]
+  19    70 ms    82 ms     *     UNKNOWN-98-139-128-X.yahoo.com[98.139.128.93]
+  20    82 ms    64 ms    84 ms  po-15.bas1-7-prd.bf1.yahoo.com[98.139.129.241]
+  21   164 ms    72 ms    71 ms  ir2.fp.vip.bf1.yahoo.com [98.139.183.24]
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131201/bfac49bb/attachment.html>
+ http://www.reddit.com/r/Comcast/comments/1rvt6u/comcast_issues_tonight_sun_1212013/
+ https://twitter.com/search?q=comcast%20outage&src=typd
+ http://downdetector.com/status/comcast-xfinity/map/
+ Lots of reports, I can't find ANY thing official from Comcast...
+ On 2013-12-01 21:50, Michael Cannon wrote:
+ Looks like a fairly sizable fiber cut causing some problems. I don't
+ have many details, but I know that engineers are working on it.
+ John
+ On Sun, Dec 1, 2013 at 8:50 PM, Michael Cannon <m.cannon9802 at gmail.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+TiVo Service Outage?
+###############################################################
+ Anyone seeing TiVo having a service outage where you box cannot connect to
+ the TiVo service?
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131203/f651fcfd/attachment.html>
+ On Dec 04, 2013, at 00:26 , Neil Ticktin <neil-lists at xplain.com> wrote:
+ Yes. Near Boston, MA, USA.
+ -- 
+ TTFN,
+ patrick
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 535 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/15dfc0bc/attachment.sig>
+ On 12/3/2013 at 9:26 PM Neil Ticktin wrote:
+ |Anyone seeing TiVo having a service outage where you box cannot
+ connect to
+ |the TiVo service?
+ |
+  =============
+ For a short period this afternoon (EST, western CT), my TiVo box
+ could not access my account on the TiVo service.  I thought
+ little of it, as short-term (3 to 6 hour) outages are a frequent
+ occurrence (apprx. weekly or every other week) with the TiVo
+ service.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Major DDoS attack against Dash
+###############################################################
+ Was there a major DDoS attack just now against Dash? Calls were failing and
+ the ones that did connect had poor call quality.
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com
+ (W) www.esi-estech.com
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/565665e5/attachment.html>
+ Dude, Bandwidth doesn't need s DDoS attack to have QoS issues.   They just need it to be a day of the week that ends in "-day".
+ ____________________________________________
+ [Description: cid:1299ACAC-5785-4008-ACE6-5B36ABA9ADA4]
+ Michael R Self
+ My PhoneFusion ONE number - 954.644.5000 (office/home/fax/mobile/SMS/VoIP)
+ Disclaimer: If this email isn't for you, get rid of it.
+ From: David Thompson <dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>>
+ Date: Wednesday, December 4, 2013 at 5:40 PM
+ Was there a major DDoS attack just now against Dash? Calls were failing and the ones that did connect had poor call quality.
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>
+ (W) www.esi-estech.com<http://www.esi-estech.com>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/27034392/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[4].png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[4].png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/27034392/attachment-0001.png>
+ We saw problems with level3 as well.  I believe dash uses level3 upstream.
+ On Dec 4, 2013, at 5:44 PM, "David Thompson" <dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>> wrote:
+ Was there a major DDoS attack just now against Dash? Calls were failing and the ones that did connect had poor call quality.
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>
+ (W) www.esi-estech.com<http://www.esi-estech.com>
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/144d6cdf/attachment.html>
+  <CEC5165F.E993%marco207p@gmail.com>
+ Dash Carrier Services, purchased by bandwidth.com.
+ --
+ Patrick Shoemaker
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Joe Sanchez
+ Sent: Wednesday, December 04, 2013 18:27
+ Dash?
+ Dash Financial?
+ Best Regards,
+ Joe Sanchez
+ From: David Thompson <dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>>
+ Date: Wednesday, December 4, 2013 at 4:40 PM
+ Was there a major DDoS attack just now against Dash? Calls were failing and the ones that did connect had poor call quality.
+ David Thompson
+ Network Services Support Technician
+ (O) 858.357.8794
+ (F) 858-225-1882
+ (E) dthompson at esi-estech.com<mailto:dthompson at esi-estech.com>
+ (W) www.esi-estech.com<http://www.esi-estech.com>
+ _______________________________________________ Outages mailing list Outages at outages.org<mailto:Outages at outages.org> https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/5fa5b049/attachment.html>
+  <CEC51B0E.2D9837%michael.self@phonefusion.com>
+ +1 here
+ it amazes me how many people continue to use it even despite this kind of
+ thing
+ On Dec 4, 2013 5:51 PM, "Michael R. Self" <michael.self at phonefusion.com>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/f305c885/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: 8BA9D90C-E39F-4E97-AD72-10F1CAAA20FE[4].png
+ Type: image/png
+ Size: 13394 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/f305c885/attachment-0001.png>
+ Dash?  
+ Dash Financial?
+ Best Regards,
+ Joe Sanchez
+ From:  David Thompson <dthompson at esi-estech.com>
+ Date:  Wednesday, December 4, 2013 at 4:40 PM
+ Was there a major DDoS attack just now against Dash? Calls were failing and
+ the ones that did connect had poor call quality.
+ David Thompson 
+ Network Services Support Technician
+ (O) 858.357.8794 
+ (F) 858-225-1882 
+ (E) dthompson at esi-estech.com <mailto:dthompson at esi-estech.com>
+ (W) www.esi-estech.com <http://www.esi-estech.com>
+ _______________________________________________ Outages mailing list
+ Outages at outages.org https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131204/7b0486e2/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Charter Outage??
+###############################################################
+ I'm seeing more than 50% of our connections with charter offline and
+ almost 100% in the eastern half of the US. Have been hold waiting for
+ a rep for over 40 minutes thus far. This is both Fiber and Cable
+ connections.
+ Anyone else seeing this or have any details? I know some of the areas
+ could be storm related but they all dropped at the same time and in
+ areas on both sides of the storm
+ On Dec 6, 2013 4:30 AM, "Mitch Patterson" <mitpatterson at gmail.com> wrote:
+ Yes.  Atlanta metro area, no storms or bad weather.   Same outage occurred
+ 7 days ago (Black Friday AM).
+ SYNC Timing Synchronization failure - Failed to acquire QAM/QPSK symbol
+ timing;;CM-MAC=xx:xx:xx:xx:xx;CMTS-MAC=00:00:00:00:00
+ Note the CMTS MAC...imo thats indicative of a plant failure.
+ -Jim P.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/e40abae7/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+ Doesn't seem like a plant issue... We are seeing this across the country
+ all at the same time.
+ On Fri, Dec 6, 2013 at 5:12 AM, Jim Popovitch <jimpop at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/ab51d99d/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+ On Dec 6, 2013 5:19 AM, "Mitch Patterson" <mitpatterson at gmail.com> wrote:
+ all at the same time.
+ No doubt.  I just expect to see a CMTS MAC if there is signal in the
+ plant.  Could be a multi-regional CMTS patch fu*kup.
+ -Jim P.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/44802108/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+ I believe my employer uses Charter fiber in Medford Oregon and seems OK currently.
+ Sent from my iPhone 5S.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/4b5a5a3b/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+ On Fri, Dec 6, 2013 at 5:50 AM, aUser <auser at mind.net> wrote:
+ Charter is coming back up in the Atlanta area.  7:15am here, probably
+ just took someone waking up and kicking something. :-)
+ -Jim P.
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+ Yep, seeing most coming up
+ On Dec 6, 2013 7:27 AM, "Jim Popovitch" <jimpop at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/5d814266/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+  <CAPC+kK7iwXgp+n1Y17zwpKpzvS406+QasWtFCSUD7ukZ_P4JtQ@mail.gmail.com>
+ We went down hard for a while on our Charter connections (St. Louis area).
+ Some things are coming back but I believe there are still a lot of issues.
+ -Ross
+ On Fri, Dec 6, 2013 at 6:28 AM, Mitch Patterson <mitpatterson at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/ae3d0db4/attachment-0001.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+  <CAPC+kK7iwXgp+n1Y17zwpKpzvS406+QasWtFCSUD7ukZ_P4JtQ@mail.gmail.com>,
+  <CAOHfa3J+3W4DnA61Fb==d6OH120gDpui5eTLb-rWBYLnuGY3MQ@mail.gmail.com>
+ We lost our charter bgp sessions in Verona WI at 7:14 am.
+ Sent from my phone; disregard quality of message.
+ -----Original Message-----
+ From: Ross Hosman [ross at ruse.is]
+ Received: Friday, 06 Dec 2013, 7:16
+ We went down hard for a while on our Charter connections (St. Louis area). Some things are coming back but I believe there are still a lot of issues.
+ -Ross
+ On Fri, Dec 6, 2013 at 6:28 AM, Mitch Patterson <mitpatterson at gmail.com<mailto:mitpatterson at gmail.com>> wrote:
+ Yep, seeing most coming up
+ On Dec 6, 2013 7:27 AM, "Jim Popovitch" <jimpop at gmail.com<mailto:jimpop at gmail.com>> wrote:
+ On Fri, Dec 6, 2013 at 5:50 AM, aUser <auser at mind.net<mailto:auser at mind.net>> wrote:
+ Charter is coming back up in the Atlanta area.  7:15am here, probably
+ just took someone waking up and kicking something. :-)
+ -Jim P.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/34eae87d/attachment.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+  <CAPC+kK7iwXgp+n1Y17zwpKpzvS406+QasWtFCSUD7ukZ_P4JtQ@mail.gmail.com>
+  <CAOHfa3J+3W4DnA61Fb==d6OH120gDpui5eTLb-rWBYLnuGY3MQ@mail.gmail.com>
+ We're in Verona WI and we received a boatload of helpdesk tickets from our tech services staff members about connectivity problems getting to our customer sites, but zero tickets about any voice problems (Charter is our first-choice outgoing for long distance, which we do a ton of).  I'm thinking that we would've seen tickets about voice problems too if there were any.
+ As soon as we shutdown our Charter BGP sessions, connectivity to our customer sites was restored.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Ross Hosman
+ Sent: Friday, December 06, 2013 7:13 AM
+ Cc: Outages at outages.org
+ We went down hard for a while on our Charter connections (St. Louis area). Some things are coming back but I believe there are still a lot of issues.
+ -Ross
+ On Fri, Dec 6, 2013 at 6:28 AM, Mitch Patterson <mitpatterson at gmail.com<mailto:mitpatterson at gmail.com>> wrote:
+ Yep, seeing most coming up
+ On Dec 6, 2013 7:27 AM, "Jim Popovitch" <jimpop at gmail.com<mailto:jimpop at gmail.com>> wrote:
+ On Fri, Dec 6, 2013 at 5:50 AM, aUser <auser at mind.net<mailto:auser at mind.net>> wrote:
+ Charter is coming back up in the Atlanta area.  7:15am here, probably
+ just took someone waking up and kicking something. :-)
+ -Jim P.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/b1fd3ed4/attachment-0001.html>
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+  <CAPC+kK7iwXgp+n1Y17zwpKpzvS406+QasWtFCSUD7ukZ_P4JtQ@mail.gmail.com>
+  <CAOHfa3J+3W4DnA61Fb==d6OH120gDpui5eTLb-rWBYLnuGY3MQ@mail.gmail.com>
+  <543A393513073D4FA04008261937CFAC9802A3B2@EXCH-MBX-4.epic.com>
+ In Appleton, WI we saw voice outages but our point to point ethernets 
+ stayed stable.  None of our p2p's extend out of the NE Wisconsin area, 
+ however.
+ On Fri, 6 Dec 2013, Jeremy Charles wrote:
+  <CAGfsgR37Gkq_VXVbb3wnQcQ8eBwLWRi3F6LrmJM4pGLukpcCOw@mail.gmail.com>
+  <CAPC+kK5fQCkTVZEoT6a2LOcBJGQDxymYoaqv2WR4DyqWHkNuFA@mail.gmail.com>
+  <CAGfsgR0ehbWmsUHgmst8r6bunV9ynQMtU2p-ArRyuizVCbO=zg@mail.gmail.com>
+  <D81BD761-405E-4A0D-B95C-139B0137346B@mind.net>
+  <CAGfsgR1zwxUW1HvtUoCO6kcDYDwrWu0vyTBdfnhNbO0Si2xixA@mail.gmail.com>
+  <CAPC+kK7iwXgp+n1Y17zwpKpzvS406+QasWtFCSUD7ukZ_P4JtQ@mail.gmail.com>
+  <CAOHfa3J+3W4DnA61Fb==d6OH120gDpui5eTLb-rWBYLnuGY3MQ@mail.gmail.com>
+  <543A393513073D4FA04008261937CFAC9802A3B2@EXCH-MBX-4.epic.com>
+  <alpine.LRH.2.03.1312060841290.17261@new.rr.com>
+ Not sure if this helps or hinders the issue(s) presented:
+ One of our Charter connections (DOCSIS) never lost IP transit between
+ Cleveland, TN and Atlanta, Ga.
+ Circuit (VC) Originates on Charter IP Transit/Transport and arrives via
+ IP-Transit (non-private-peering) in Atlanta.
+ Happy to provide more information, if it's of use to someone while
+ investigating what appears to be a national outage/issue.
+ On Fri, Dec 6, 2013 at 9:43 AM, Paul Thompson <
+ outages at majordomo.thedacare.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/eaf1f883/attachment.html>
+ Correction... Teammate shut down our BGP sessions after calling charter and being told they had "a global BGP issue" and they were manually adding BGP routes to their equipment (not sure what that means).
+ Our traffic and connectivity graphs indicate the problem started around 2am central. My teammate says his home charter internet service was out when he woke up this morning too.
+ Sent from my phone; disregard quality of message.
+ -----Original Message-----
+ From: Jeremy Charles [JCharles at epic.com]
+ Received: Friday, 06 Dec 2013, 7:27
+ We lost our charter bgp sessions in Verona WI at 7:14 am.
+ Sent from my phone; disregard quality of message.
+ -----Original Message-----
+ From: Ross Hosman [ross at ruse.is]
+ Received: Friday, 06 Dec 2013, 7:16
+ We went down hard for a while on our Charter connections (St. Louis area). Some things are coming back but I believe there are still a lot of issues.
+ -Ross
+ On Fri, Dec 6, 2013 at 6:28 AM, Mitch Patterson
+ <mitpatterson at gmail.com> wrote:
+ Yep, seeing most coming up
+ On Dec 6, 2013 7:27 AM, "Jim Popovitch" <jimpop at gmail.com> wrote:
+ On Fri, Dec 6, 2013 at 5:50 AM, aUser <auser at mind.net> wrote:
+ Charter is coming back up in the Atlanta area. 7:15am here, probably
+ just took someone waking up and kicking something. :-)
+ -Jim P.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Sent from my phone; disregard quality of message.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/7f524dc9/attachment.html>
+ I can confirm both the coax and fiber outages in Wausau,Wisconsin. Not
+ being with an ISP or having the fancy lookup tools some of you guys have,
+ our fiber appears to be back up.  We've had clients all over the state
+ rolling up/down beginning early this morning.
+ Is there any word if this is affecting voice services as well?
+ Thanks,
+ Anthony Hook
+ On Fri, Dec 6, 2013 at 7:30 AM, Jeremy Charles <JCharles at epic.com> wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/ba083191/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google DNS
+###############################################################
+ Anybody else having issues with google dns?
+ .....................................
+ *Luke Rockwell*
+ Systems and Support Analyst
+ Information Technology
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/12bfdb0c/attachment.html>
+ My monitoring system is getting responses.  Just asking it a simple A
+ record.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Dec 6, 2013 1:31 PM, "Luke Rockwell" <luke.rockwell at alumni.berkeley.edu>
+ wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/7178d758/attachment.html>
+ On 12/06/13?10:25?-0800, Luke Rockwell wrote:
+ >Anybody else having issues with google dns?
+ No problems here (south central US):
+ $ time dig +short @8.8.8.8 google.com a
+ 74.125.225.226
+ 74.125.225.230
+ 74.125.225.233
+ 74.125.225.238
+ 74.125.225.232
+ 74.125.225.227
+ 74.125.225.225
+ 74.125.225.229
+ 74.125.225.224
+ 74.125.225.231
+ 74.125.225.228
+ real    0m0.077s
+ user    0m0.012s
+ sys     0m0.000s
+ $ time dig +short @8.8.4.4 google.com a
+ 74.125.225.231
+ 74.125.225.229
+ 74.125.225.227
+ 74.125.225.238
+ 74.125.225.224
+ 74.125.225.233
+ 74.125.225.230
+ 74.125.225.226
+ 74.125.225.225
+ 74.125.225.228
+ 74.125.225.232
+ real    0m0.056s
+ user    0m0.012s
+ sys     0m0.000s
+ $ traceroute 8.8.8.8
+ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+   4  olp-67-217-150-202.olp.net (67.217.150.202)  1.758 ms  1.756 ms  1.709
+ ms
+   5  vlan3823.car1.Dallas1.Level3.net (4.59.113.73)  33.776 ms  33.781 ms
+ 33.773 ms
+   6  * * *
+   7  Google-level3-3x10G.Dallas.Level3.net (4.68.70.166)  33.395 ms  36.129
+ ms  36.112 ms
+   8  * * *
+   9  72.14.237.215 (72.14.237.215)  33.802 ms 72.14.237.221 (72.14.237.221)
+ 47.775 ms 72.14.237.215 (72.14.237.215)  34.017 ms
+ 10  209.85.243.178 (209.85.243.178)  41.019 ms 216.239.47.121
+ (216.239.47.121)  41.025 ms  41.115 ms
+ 11  216.239.46.59 (216.239.46.59)  41.332 ms 216.239.46.39 (216.239.46.39)
+ 41.934 ms 216.239.46.59 (216.239.46.59)  41.939 ms
+ 12  * * *
+ 13  google-public-dns-a.google.com (8.8.8.8)  40.401 ms  40.394 ms  40.115
+ ms
+ $ traceroute 8.8.4.4
+ traceroute to 8.8.4.4 (8.8.4.4), 30 hops max, 60 byte packets
+   4  olp-67-217-150-202.olp.net (67.217.150.202)  2.095 ms  2.089 ms  2.083
+ ms
+   5  vlan3823.car1.dallas1.level3.net (4.59.113.73)  33.971 ms  33.972 ms
+ 33.966 ms
+   6  * * *
+   7  google-level3-3x10g.dallas.level3.net (4.68.70.166)  33.683 ms  33.691
+ ms  33.680 ms
+   8  72.14.233.67 (72.14.233.67)  33.840 ms  33.841 ms 72.14.233.65
+ (72.14.233.65)  33.963 ms
+   9  72.14.237.221 (72.14.237.221)  35.000 ms 72.14.237.217 (72.14.237.217)
+ 35.000 ms 72.14.237.219 (72.14.237.219)  35.104 ms
+ 10  209.85.243.178 (209.85.243.178)  41.348 ms  41.352 ms  41.491 ms
+ 11  216.239.46.63 (216.239.46.63)  41.612 ms  41.612 ms 216.239.46.61
+ (216.239.46.61)  41.110 ms
+ 12  * * *
+ 13  google-public-dns-b.google.com (8.8.4.4)  41.055 ms  40.932 ms  40.722
+ ms
+ -- 
+ Dan White
+  <20131206184157.GE6052@dan.olp.net>
+ It is now responding. My routers show it was offline for 5 minutes
+ .....................................
+ *Luke Rockwell*
+ Systems and Support Analyst
+ Information Technology
+ .....................................
+ Cal Alumni Association | UC Berkeley
+ 1 Alumni House, Berkeley, CA 94720
+ *T* 510.900.8196
+ *F* 510.642.6252
+ .....................................
+ *140 Years of Alumni Excellence*
+ *Commitment, Support, Passion*
+ _____________________________________
+ *alumni.berkeley.edu <http://alumni.berkeley.edu/>*
+ _____________________________________
+ *Facebook <https://www.facebook.com/CalAlumni> | LinkedIn
+ <http://www.linkedin.com/groups?gid=70245>*
+ On Fri, Dec 6, 2013 at 10:41 AM, Dan White <dwhite at olp.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/3fe782ad/attachment-0001.html>
+ In the future, a source IP, destination IP (Google has more than one DNS
+ server), and traceroute would be useful.
+ Damian
+ On Fri, Dec 6, 2013 at 10:25 AM, Luke Rockwell <
+ luke.rockwell at alumni.berkeley.edu> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/126069bb/attachment.html>
+  <20131206184157.GE6052@dan.olp.net>
+ On 12/06/13?12:41?-0600, Dan White wrote:
+ >On 12/06/13?10:25?-0800, Luke Rockwell wrote:
+ >>Anybody else having issues with google dns?
+ >No problems here (south central US):
+ >$ time dig +short @8.8.8.8 google.com a
+ >74.125.225.226
+ >74.125.225.230
+ >74.125.225.233
+ >74.125.225.238
+ >74.125.225.232
+ >74.125.225.227
+ >74.125.225.225
+ >74.125.225.229
+ >74.125.225.224
+ >74.125.225.231
+ >74.125.225.228
+ >real    0m0.077s
+ >user    0m0.012s
+ >sys     0m0.000s
+ One of our DNS servers just had incorrect data cached for google.com and
+ www.google.com:
+ dwhite at quark:~$ dig www.google.com
+ ;; QUESTION SECTION:
+ ;www.google.com.            IN  A
+ ;; ANSWER SECTION:
+ www.google.com.     24  IN  A   201.130.208.23
+ www.google.com.     24  IN  A   201.130.208.44
+ www.google.com.     24  IN  A   201.130.208.34
+ www.google.com.     24  IN  A   201.130.208.45
+ www.google.com.     24  IN  A   201.130.208.29
+ www.google.com.     24  IN  A   201.130.208.30
+ www.google.com.     24  IN  A   201.130.208.53
+ www.google.com.     24  IN  A   201.130.208.38
+ www.google.com.     24  IN  A   201.130.208.19
+ www.google.com.     24  IN  A   201.130.208.49
+ www.google.com.     24  IN  A   201.130.208.59
+ www.google.com.     24  IN  A   201.130.208.57
+ www.google.com.     24  IN  A   201.130.208.27
+ www.google.com.     24  IN  A   201.130.208.42
+ www.google.com.     24  IN  A   201.130.208.15
+ After the 24 second cache timeout, the correct (google space) IPs
+ populated:
+ ;; ANSWER SECTION:
+ google.com.     138 IN  A   74.125.227.104
+ google.com.     138 IN  A   74.125.227.100
+ google.com.     138 IN  A   74.125.227.101
+ google.com.     138 IN  A   74.125.227.102
+ google.com.     138 IN  A   74.125.227.105
+ google.com.     138 IN  A   74.125.227.97
+ google.com.     138 IN  A   74.125.227.98
+ google.com.     138 IN  A   74.125.227.110
+ google.com.     138 IN  A   74.125.227.96
+ google.com.     138 IN  A   74.125.227.103
+ google.com.     138 IN  A   74.125.227.99
+ I did not notice this on any other DNS servers.
+ -- 
+ Dan White
+  <20131206184157.GE6052@dan.olp.net> <20131206212708.GI6052@dan.olp.net>
+ Those are valid Google IPs, so this is likely working as intended and you
+ were just temporarily being load-balanced to a different datacenter.  If
+ you're still concerned, please send me more detail off-list.
+ Damian
+ On Fri, Dec 6, 2013 at 1:27 PM, Dan White <dwhite at olp.net> wrote:
+ >>> Anybody else having issues with google dns?
+ >>>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/a18f86af/attachment.html>
+  <20131206184157.GE6052@dan.olp.net>
+  <20131206212708.GI6052@dan.olp.net>
+  <CABSP1Oe154MkNtKdHjjwN4ChfaD-0Gm+x6uNdoU=4OxdW4=B0g@mail.gmail.com>
+ If they are valid Google IPs then your rDNS could do with some updating...
+ 23.208.130.201.in-addr.arpa     name =
+ 201-130-208-23-cable.cybercable.net.mx.
+ inetnum:     201.130.192/18
+ status:      allocated
+ aut-num:     N/A
+ owner:       Cablevision Red, S.A de C.V.
+ ownerid:     MX-CRSC10-LACNIC
+ responsible: Luis Vielma Ordo<F1>es
+ address:     Av. Naciones Unidas, 5526, Col. Vallarta Universidad
+ address:     45110 - Guadalajara - JL
+ country:     MX
+   Scott
+ On Fri, Dec 6, 2013 at 2:14 PM, Damian Menscher <damian at google.com> wrote:
+ >>> On 12/06/13 10:25 -0800, Luke Rockwell wrote:
+ >>>
+ >>>> Anybody else having issues with google dns?
+ >>>>
+ >>>
+ >>> No problems here (south central US):
+ >>>
+ >>> $ time dig +short @8.8.8.8 google.com a
+ >>> 74.125.225.226
+ >>> 74.125.225.230
+ >>> 74.125.225.233
+ >>> 74.125.225.238
+ >>> 74.125.225.232
+ >>> 74.125.225.227
+ >>> 74.125.225.225
+ >>> 74.125.225.229
+ >>> 74.125.225.224
+ >>> 74.125.225.231
+ >>> 74.125.225.228
+ >>>
+ >>> real    0m0.077s
+ >>> user    0m0.012s
+ >>> sys     0m0.000s
+ >>>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/c4853ac9/attachment-0001.html>
+  <20131206184157.GE6052@dan.olp.net>
+  <20131206212708.GI6052@dan.olp.net>
+  <CABSP1Oe154MkNtKdHjjwN4ChfaD-0Gm+x6uNdoU=4OxdW4=B0g@mail.gmail.com>
+ I should have noted that during the time that www.google.com was resolving
+ to 201.130.208.x, access to google.com and youtube.com was unavailable
+ (timeouts within a browser).
+ On 12/06/13?14:14?-0800, Damian Menscher wrote:
+ >Those are valid Google IPs, so this is likely working as intended and you
+ >were just temporarily being load-balanced to a different datacenter.  If
+ >you're still concerned, please send me more detail off-list.
+ >Damian
+ >On Fri, Dec 6, 2013 at 1:27 PM, Dan White <dwhite at olp.net> wrote:
+ >>> On 12/06/13 10:25 -0800, Luke Rockwell wrote:
+ >>>
+ >>>> Anybody else having issues with google dns?
+ >>>>
+ >>>
+ >>> No problems here (south central US):
+ >>>
+ >>> $ time dig +short @8.8.8.8 google.com a
+ >>> 74.125.225.226
+ >>> 74.125.225.230
+ >>> 74.125.225.233
+ >>> 74.125.225.238
+ >>> 74.125.225.232
+ >>> 74.125.225.227
+ >>> 74.125.225.225
+ >>> 74.125.225.229
+ >>> 74.125.225.224
+ >>> 74.125.225.231
+ >>> 74.125.225.228
+ >>>
+ >>> real    0m0.077s
+ >>> user    0m0.012s
+ >>> sys     0m0.000s
+ >>>
+ -- 
+ Dan White
+  <20131206184157.GE6052@dan.olp.net> <20131206212708.GI6052@dan.olp.net>
+  <CABSP1Oe154MkNtKdHjjwN4ChfaD-0Gm+x6uNdoU=4OxdW4=B0g@mail.gmail.com>
+  <CACnPsNU_qsr3YKcE_hO3EKJctA-Y-3OmwFQcmF6Tamf0oNN0cw@mail.gmail.com>
+ On Dec 6, 2013, at 5:17 PM, Scott Howard <scott at doc.net.au> wrote:
+ Unfortunately not all valid Google IPs are actually, um, Google IPs. Some are Google Caches: https://peering.google.com/about/ggc.html
+ For various non-technical, contractual type reasons these are not all documented anywhere publicly?
+ W
+ --
+ "Let's just say that if complete and utter chaos was lightning, he'd be the sort to stand on a hilltop in a thunderstorm wearing wet copper armour and shouting 'All gods are bastards'."
+     -- Rincewind discussing Twoflower (Terry Pratchett, The Colour of Magic)
+  <20131206184157.GE6052@dan.olp.net> <20131206212708.GI6052@dan.olp.net>
+  <CABSP1Oe154MkNtKdHjjwN4ChfaD-0Gm+x6uNdoU=4OxdW4=B0g@mail.gmail.com>
+  <20131206222552.GJ6052@dan.olp.net>
+ Thanks for the additional detail.  The responsible team is investigating
+ what happened.
+ Damian
+ On Fri, Dec 6, 2013 at 2:25 PM, Dan White <dwhite at olp.net> wrote:
+ >>>
+ >>>  On 12/06/13 10:25 -0800, Luke Rockwell wrote:
+ >>>>
+ >>>>  Anybody else having issues with google dns?
+ >>>>>
+ >>>>>
+ >>>> No problems here (south central US):
+ >>>>
+ >>>> $ time dig +short @8.8.8.8 google.com a
+ >>>> 74.125.225.226
+ >>>> 74.125.225.230
+ >>>> 74.125.225.233
+ >>>> 74.125.225.238
+ >>>> 74.125.225.232
+ >>>> 74.125.225.227
+ >>>> 74.125.225.225
+ >>>> 74.125.225.229
+ >>>> 74.125.225.224
+ >>>> 74.125.225.231
+ >>>> 74.125.225.228
+ >>>>
+ >>>> real    0m0.077s
+ >>>> user    0m0.012s
+ >>>> sys     0m0.000s
+ >>>>
+ >>>>
+ >>> One of our DNS servers just had incorrect data cached for google.com and
+ >>> www.google.com:
+ >>>
+ >>> dwhite at quark:~$ dig www.google.com
+ >>>
+ >>> ;; QUESTION SECTION:
+ >>> ;www.google.com.            IN  A
+ >>>
+ >>> ;; ANSWER SECTION:
+ >>> www.google.com.     24  IN  A   201.130.208.23
+ >>> www.google.com.     24  IN  A   201.130.208.44
+ >>> www.google.com.     24  IN  A   201.130.208.34
+ >>> www.google.com.     24  IN  A   201.130.208.45
+ >>> www.google.com.     24  IN  A   201.130.208.29
+ >>> www.google.com.     24  IN  A   201.130.208.30
+ >>> www.google.com.     24  IN  A   201.130.208.53
+ >>> www.google.com.     24  IN  A   201.130.208.38
+ >>> www.google.com.     24  IN  A   201.130.208.19
+ >>> www.google.com.     24  IN  A   201.130.208.49
+ >>> www.google.com.     24  IN  A   201.130.208.59
+ >>> www.google.com.     24  IN  A   201.130.208.57
+ >>> www.google.com.     24  IN  A   201.130.208.27
+ >>> www.google.com.     24  IN  A   201.130.208.42
+ >>> www.google.com.     24  IN  A   201.130.208.15
+ >>>
+ >>> After the 24 second cache timeout, the correct (google space) IPs
+ >>> populated:
+ >>>
+ >>> ;; ANSWER SECTION:
+ >>> google.com.     138 IN  A   74.125.227.104
+ >>> google.com.     138 IN  A   74.125.227.100
+ >>> google.com.     138 IN  A   74.125.227.101
+ >>> google.com.     138 IN  A   74.125.227.102
+ >>> google.com.     138 IN  A   74.125.227.105
+ >>> google.com.     138 IN  A   74.125.227.97
+ >>> google.com.     138 IN  A   74.125.227.98
+ >>> google.com.     138 IN  A   74.125.227.110
+ >>> google.com.     138 IN  A   74.125.227.96
+ >>> google.com.     138 IN  A   74.125.227.103
+ >>> google.com.     138 IN  A   74.125.227.99
+ >>>
+ >>> I did not notice this on any other DNS servers.
+ >>>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/b715fa3f/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Hurricane Electric - Atlanta, Georgia - Outage (ATLNGAMA)
+###############################################################
+ Not sure if this issue has been corrected and/or fully resolved, however,
+ we noted a massive outage with Hurricane Electric starting at 4PM Eastern.
+ Appears as though some BGP connections have re-established themselves for
+ about 25 minutes or so, however we have had a couple of other HE BGP
+ facilities bounce since. Also noted some odd routing that had taken place
+ on the exchange at exactly the same time.
+ Local AS Number: 6939
+   Number of Neighbors Configured: 154, UP: 134
+   Number of Routes Installed: 2302697, Uses 198031942 bytes
+   Number of Routes Advertising to All Neighbors: 19390553 (1677620
+ entries), Uses 80525760 bytes
+   Number of Attribute Entries Installed: 381794, Uses 34361460 bytes
+   Neighbor Address  AS#         State   Time          Rt:Accepted Filtered
+ Sent     ToSend
+   72.14.213.126     15169       ESTAB   0h23m17s      272         0
+  17451    0
+   198.32.132.1      65535       ESTAB   0h23m 9s      0           0
+  44861    0
+   198.32.132.3      6447        ESTAB   0h23m 6s      0           0
+  476159   0
+   198.32.132.10     25975       ESTAB   0h23m 8s      26          2
+  44861    0
+   198.32.132.11     10490       ACTIV   0h24m18s      0           0
+  0        44861
+   198.32.132.12     19151       ESTAB   0h23m 6s      1297        0
+  44861    0
+   198.32.132.13     22653       ESTAB   0h23m14s      13          0
+  44861    0
+   198.32.132.15     19029       ESTAB   0h23m 8s      0           0
+  44861    0
+   198.32.132.16     1784        CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.17     3479        ESTAB   0h23m23s      29          0
+  44861    0
+   198.32.132.19     22773       CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.20     10355       ESTAB   0h23m24s      13          0
+  44861    0
+   198.32.132.21     19158       ESTAB   0h23m 8s      185         0
+  475983   0
+   198.32.132.23     12083       ESTAB   0h23m22s      126         2
+  44861    0
+   198.32.132.25     31800       ESTAB   0h23m 6s      2           0
+  44861    0
+   198.32.132.26     3595        ESTAB   0h23m21s      41          225
+  44861    0
+   198.32.132.28     4181        ESTAB   0h23m 8s      122         0
+  44861    0
+   198.32.132.29     13680       CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.30     3491        ESTAB   0h23m 9s      31836       1
+  44861    0
+   198.32.132.35     4565        ESTAB   0h23m22s      2035        0
+  44861    0
+   198.32.132.36     35985       ESTAB   0h23m 6s      25          0
+  44861    0
+   198.32.132.37     42          ESTAB   0h23m 8s      98          0
+  44861    0
+   198.32.132.39     12989       ESTAB   0h23m23s      1754        16
+ 815      0
+   198.32.132.43     3856        ESTAB   0h23m12s      1           0
+  44861    0
+   198.32.132.45     22384       ESTAB   0h23m 7s      41          0
+  44861    0
+   198.32.132.50     22822       ESTAB   0h23m23s      524         0
+  815      0
+   198.32.132.51     11686       ESTAB   0h23m 7s      51          0
+  44861    0
+   198.32.132.52     2711        ESTAB   0h23m18s      1497        2
+  476472   0
+   198.32.132.54     20081       ESTAB   0h23m20s      22          0
+  44861    0
+   198.32.132.55     32880       ESTAB   0h23m23s      16          0
+  44861    0
+   198.32.132.58     33174       CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.60     40076       ESTAB   0h23m23s      0           0
+  44861    0
+   198.32.132.62     3512        ESTAB   0h23m10s      3           0
+  44861    0
+   198.32.132.65     14793       ESTAB   0h23m20s      175         23
+ 44861    0
+   198.32.132.66     25973       ACTIV   0h24m18s      0           0
+  0        44861
+   198.32.132.68     4436        ESTAB   0h23m23s      12383       0
+  17449    0
+   198.32.132.69     46562       ESTAB   0h23m 6s      123         314
+  44861    0
+   198.32.132.71     13768       ESTAB   0h23m 9s      1188        13
+ 44861    0
+   198.32.132.73     20940       ESTAB   0h23m 5s      20          0
+  17451    0
+   198.32.132.77     22561       ESTAB   0h23m22s      0           0
+  44861    0
+   198.32.132.78     1280        ESTAB   0h23m 9s      53          0
+  44861    0
+   198.32.132.79     6461        ESTAB   0h23m21s      18271       1
+  44861    0
+   198.32.132.80     46925       ESTAB   0h23m 8s      67          0
+  44861    0
+   198.32.132.81     46484       CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.82     10674       ESTAB   0h23m24s      31          0
+  44861    0
+   198.32.132.85     31939       ESTAB   0h23m 7s      4           0
+  44861    0
+   198.32.132.86     15133       ESTAB   0h23m21s      12          0
+  17451    0
+   198.32.132.87     1785        ESTAB   0h23m 7s      547         0
+  44861    0
+   198.32.132.88     33132       ESTAB   0h23m23s      188         0
+  44861    0
+   198.32.132.89     16586       ESTAB   0h23m22s      12          0
+  44861    0
+   198.32.132.90     36351       ESTAB   0h23m23s      470         0
+  17451    0
+   198.32.132.91     15085       ESTAB   0h23m 7s      82          0
+  44861    0
+   198.32.132.94     11758       ESTAB   0h23m 8s      332         0
+  44861    0
+   198.32.132.95     16509       ESTAB   0h23m 6s      5           0
+  17451    0
+   198.32.132.97     13703       ESTAB   0h23m21s      9           0
+  44861    0
+   198.32.132.98     31863       ESTAB   0h23m22s      28          21
+ 44861    0
+   198.32.132.100    15092       ESTAB   0h23m 6s      1           0
+  44861    0
+   198.32.132.101    44654       ESTAB   0h23m22s      16          0
+  44861    0
+   198.32.132.104    32934       ESTAB   0h23m20s      17          0
+  44861    0
+   198.32.132.106    18797       ESTAB   0h23m21s      37          0
+  44861    0
+   198.32.132.108    10302       ESTAB   0h23m 9s      41          0
+  44861    0
+   198.32.132.109    13730       ESTAB   0h23m23s      4           0
+  44861    0
+   198.32.132.110    16276       ESTAB   0h23m 7s      71          0
+  815      0
+   198.32.132.111    13414       ESTAB   0h23m22s      9           0
+  44861    0
+   198.32.132.112    13414       ESTAB   0h23m22s      9           0
+  44861    0
+   198.32.132.113    2906        ESTAB   0h23m21s      1           0
+  815      0
+   198.32.132.114    16700       ESTAB   0h23m22s      7           0
+  44861    0
+   198.32.132.117    8075        ESTAB   0h23m22s      123         0
+  44861    0
+   198.32.132.118    5580        ESTAB   0h23m23s      0           0
+  165      0
+   198.32.132.119    29802       ESTAB   0h23m16s      38          0
+  44861    0
+   198.32.132.121    7029        ESTAB   0h23m19s      3133        0
+  44861    0
+   198.32.132.127    2906        ESTAB   0h23m23s      1           0
+  815      0
+   198.32.132.160    27446       ESTAB   0h23m 8s      20          0
+  44861    0
+   198.32.132.164    19531       ESTAB   0h23m22s      64          8
+  44861    0
+   198.32.132.169    3043        CONN    0h24m18s      0           0
+  0        44861
+   198.32.132.175    9002        ESTAB   0h23m 9s      10105       19
+ 44861    0
+   209.51.161.226    21840       CONN    0h24m18s      0           0
+  0        476159
+   209.51.161.227    21840       CONN    0h24m18s      0           0
+  0        476159
+   209.51.162.130    40756       ESTAB   0h23m 8s      1           0
+  1        0
+   209.51.162.131    40756       ESTAB   0h23m10s      1           0
+  1        0
+   209.51.162.142    18557       CONN    0h24m18s      0           0
+  0        476159
+   209.51.163.98     18474       ESTAB   0h23m34s      8           0
+  476151   0
+   209.51.168.74     40756       CONN    0h24m18s      0           0
+  0        0
+   209.51.168.75     40756       CONN    0h24m18s      0           0
+  0        0
+   209.51.168.94     26801       ESTAB   0h23m36s      15          2
+  476144   0
+   209.51.169.70     36124       ESTAB   0h23m36s      2           0
+  476157   0
+   209.51.175.42     7843        ESTAB   0h23m20s      5034        0
+  44861    0
+   209.51.186.74     36086       ESTAB   0h23m35s      3           0
+  1        0
+   209.51.191.166    21840       ESTAB   0h23m37s      65          19
+ 476115   0
+   213.248.71.65     1299        ESTAB   0h23m13s      451559      11
+ 7830     0
+   213.248.79.69     1299        ESTAB   0h23m 7s      451559      11
+ 7830     0
+   216.66.0.26       21513       ESTAB   0h23m29s      1           0
+  476158   0
+   216.66.0.46       40911       ACTIV   0h24m18s      0           0
+  0        476159
+   216.66.0.50       1280        ESTAB   0h23m27s      54          0
+  477829   0
+   216.66.0.58       20115       ESTAB   0h23m 8s      1949        379
+  44861    0
+   216.66.2.82       2828        ESTAB   0h23m 0s      52764       0
+  44861    0
+   216.66.3.34       16619       ESTAB   0h23m27s      1           0
+  476158   0
+   216.66.3.90       36086       ESTAB   0h23m36s      14          0
+  476150   0
+   216.66.15.50      40756       CONN    0h24m18s      0           0
+  0        0
+   216.66.15.51      40756       CONN    0h24m18s      0           0
+  0        0
+   216.66.24.146     16700       ESTAB   0h23m18s      7           0
+  476152   0
+   216.66.30.78      40911       ESTAB   0h23m27s      40          0
+  476120   0
+   216.66.32.126     36086       CONN    0h24m18s      0           0
+  0        476159
+   216.66.36.2       13760       ESTAB   0h23m 9s      48          6
+  476112   0
+   216.66.36.70      29760       ESTAB   0h23m35s      3           0
+  476157   0
+   216.66.36.94      27446       ESTAB   0h23m27s      25          2
+  476134   0
+   216.66.41.158     54119       ESTAB   0h23m37s      4           0
+  476156   0
+   216.66.43.146     20077       CONN    0h24m18s      0           0
+  0        476159
+   216.66.54.50      53717       ESTAB   0h 9m 8s      2           0
+  476157   0
+   216.66.64.146     54312       CONN    0h24m18s      0           0
+  0        476159
+   216.66.64.150     11096       ESTAB   0h23m18s      129         0
+  476159   0
+   216.66.64.190     53567       ESTAB   0h23m33s      6           0
+  476153   0
+   216.66.68.202     40756       ESTAB   0h23m10s      1           0
+  1        0
+   216.66.68.203     40756       ESTAB   0h23m 8s      1           0
+  1        0
+   216.66.70.30      46925       ESTAB   0h23m34s      28          0
+  476131   0
+   216.218.254.58    10490       ESTAB   0h23m19s      92          25
+ 476068   0
+ Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down
+  State/PfxRcd
+ 2001:*:*:*::* 4  6939 12706356  669239        0    0    0 00:28:10 (NoNeg)
+ 216.66.*.*    4  6939 154576847 1842416 445034692    1    0 00:28:09
+ 476130
+ Kindly,
+ Kraig Beahn
+ L2Networks Corp.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131206/fa05f728/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon Multicast Issue
+###############################################################
+ FYI -
+ It appears Verizon is experiencing multicast issues (routing related) 
+ off their global mpls network.
+ regards,
+ /virendra
+###############################################################
+END
+###############################################################
+
+###############################################################
+Internet and phone broked in Syria
+###############################################################
+ http://www.dailystar.com.lb/News/Middle-East/2013/Dec-09/240436-syria-internet-phones-being-restored-after-outage-tv.ashx
+ Not sure about the scale of the outage...
+ -Sajal
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131210/210ec5d6/attachment.html>
+ .-- My secret spy satellite informs me that at 2013-12-09 9:22 AM  Sajal
+ Kayan wrote:
+ It was a country-wide outage affecting all STE (Syrian
+ Telecommunications Establishment) networks which is 93% of all Syrian
+ prefixes.
+ The Only Syrian prefixes that were still reachable were 7 prefixes via
+ AS24814 ( Syrian Computer Society), connected via Turk Telecom AS2481
+ Services were restored (according to BGP data)  at 12:50 UTC after a 3h
+ 20min outage.
+ Also see:
+ https://twitter.com/bgpmon/status/410000393590939649
+ https://twitter.com/bgpmon/status/410093999739777024
+ Cheers,
+  Andree
+###############################################################
+END
+###############################################################
+
+###############################################################
+Puerto Rico Fiber Cut
+###############################################################
+ We have four private T1's that have been down for coming up on 24 hours now.
+ AT&T tells us there is a large fiber cut and that over 400 fibers are in
+ need of repair.
+ The initial ETTR was around 10:00 AM ET, but that came and went. The new
+ ETTR is 4:00 PM ET.
+ - Chris
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131211/7c30e46d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Issues on Level3 network?
+###############################################################
+ We are seeing quite a lot of packet loss.
+ 2  199.101.162.229 (199.101.162.229)  0.682 ms  0.825 ms  1.099 ms
+  3  108.174.15.6 (108.174.15.6)  0.656 ms  0.649 ms 108.174.15.2 (108.174.15.2)  0.618 ms
+  4  108.174.14.0 (108.174.14.0)  0.554 ms  0.560 ms 108.174.14.8 (108.174.14.8)  1.023 ms
+  5  xe-4-3-0.edge6.LosAngeles1.Level3.net (4.31.58.141)  0.616 ms  0.616 ms  0.609 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ 11  ae-6-6.ebr1.Washington12.Level3.net (4.69.148.106)  137.853 ms * *
+ 12  ae-1-100.ebr2.Washington12.Level3.net (4.69.143.214)  137.443 ms *  137.574 ms
+ 13  * * *
+ 14  ae-42-42.ebr2.London1.Level3.net (4.69.137.69)  137.650 ms * *
+ 15  * * *
+ 16  * ae-228-3604.edge3.London1.Level3.net (4.69.166.158)  137.293 ms *
+ Zaid
+ In addition to your traceroute, could you provide an mtr report or something
+ similar?
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Zaid Ali
+ Kahn
+ Sent: Monday, December 16, 2013 7:24 AM
+ We are seeing quite a lot of packet loss.
+ 2  199.101.162.229 (199.101.162.229)  0.682 ms  0.825 ms  1.099 ms
+  3  108.174.15.6 (108.174.15.6)  0.656 ms  0.649 ms 108.174.15.2
+ (108.174.15.2)  0.618 ms
+  4  108.174.14.0 (108.174.14.0)  0.554 ms  0.560 ms 108.174.14.8
+ (108.174.14.8)  1.023 ms
+  5  xe-4-3-0.edge6.LosAngeles1.Level3.net (4.31.58.141)  0.616 ms  0.616 ms
+ 0.609 ms
+  6  * * *
+  7  * * *
+  8  * * *
+  9  * * *
+ 10  * * *
+ 11  ae-6-6.ebr1.Washington12.Level3.net (4.69.148.106)  137.853 ms * *
+ 12  ae-1-100.ebr2.Washington12.Level3.net (4.69.143.214)  137.443 ms *
+ 137.574 ms
+ 13  * * *
+ 14  ae-42-42.ebr2.London1.Level3.net (4.69.137.69)  137.650 ms * *
+ 15  * * *
+ 16  * ae-228-3604.edge3.London1.Level3.net (4.69.166.158)  137.293 ms *
+ Zaid
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <000001cefa63$1a6d9aa0$4f48cfe0$@iname.com>
+   2. 199.101.162.229               0.0%    10    1.6   0.8   0.6   1.6   0.3
+   3. 108.174.15.6                  0.0%    10    0.9   0.7   0.6   0.9   0.1
+   4. 108.174.14.8                  0.0%    10   25.2  21.9   2.8  49.5  13.4
+   5. xe-7-2-2.edge2.LosAngeles9.L 50.0%    10    0.7   0.7   0.7   0.8   0.0
+   6. vlan60.csw1.LosAngeles1.Leve 60.0%    10  138.0 137.7 137.6 138.0   0.2
+   7. ae-62-62.ebr2.LosAngeles1.Le 50.0%    10  137.8 137.8 137.7 138.0   0.1
+   8. ae-3-3.ebr3.Dallas1.Level3.n 70.0%    10  137.5 137.4 137.4 137.5   0.0
+   9. ae-7-7.ebr3.Atlanta2.Level3. 40.0%    10  137.9 138.0 137.9 138.1   0.1
+  10. ae-63-63.ebr1.Atlanta2.Level 50.0%    10  137.8 138.0 137.8 138.8   0.4
+  11. ae-6-6.ebr1.Washington12.Lev 60.0%    10  137.9 137.9 137.8 137.9   0.1
+  12. ae-1-100.ebr2.Washington12.L 30.0%    10  137.9 137.8 137.7 137.9   0.1
+  13. 4.69.201.61                  70.0%    10  138.1 138.2 138.1 138.3   0.1
+  14. ae-42-42.ebr2.London1.Level3 70.0%    10  140.4 139.7 138.0 140.7   1.5
+  15. ae-57-222.csw2.London1.Level 50.0%    10  138.3 138.6 138.0 140.5   1.1
+  16. ae-225-3601.edge3.London1.Le 33.3%     9  137.9 147.9 137.9 187.3  19.7
+  17. REDBUS-INTE.edge3.London1.Le 44.4%     9  138.2 138.2 138.1 138.3   0.1
+  18. 85.90.238.66                 37.5%     8  138.5 138.5 138.5 138.7   0.1
+  19. ipt-emc-as27822.lon2.telecit 50.0%     8  138.3 138.4 138.3 138.8   0.3
+  20. 85.90.224.174                62.5%     8  138.8 139.0 138.8 139.1   0.2
+  21. mx.bt.lon5.cpcloud.co.uk     50.0%     8  138.0 138.2 138.0 138.4   0.2
+ On Dec 16, 2013, at 5:31 AM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/c8a0b413/attachment.html>
+  <000001cefa63$1a6d9aa0$4f48cfe0$@iname.com>
+  <555F1FF7-3C52-4496-A38F-FFA0C238C918@zaidali.com>
+ Zaid:
+ Thanks.  I tried traceroutes points before and after the Level3 routers and
+ am not seeing that packet loss.  Is it possible the issue is only between
+ your network and Level3?  But I also checked from several Calfornia
+ locations on Level3's lookingglass to 199.101.162.229 and saw no packet loss
+ - if it's a LAG connection, it could be my testing is hitting the wrong LAG
+ member? 
+ Frank
+ From: Zaid Ali Kahn [mailto:zaid at zaidali.com] 
+ Sent: Monday, December 16, 2013 7:48 AM
+ Cc: outages at outages.org
+   2. 199.101.162.229               0.0%    10    1.6   0.8   0.6   1.6   0.3
+   3. 108.174.15.6                  0.0%    10    0.9   0.7   0.6   0.9   0.1
+   4. 108.174.14.8                  0.0%    10   25.2  21.9   2.8  49.5  13.4
+   5. xe-7-2-2.edge2.LosAngeles9.L 50.0%    10    0.7   0.7   0.7   0.8   0.0
+   6. vlan60.csw1.LosAngeles1.Leve 60.0%    10  138.0 137.7 137.6 138.0   0.2
+   7. ae-62-62.ebr2.LosAngeles1.Le 50.0%    10  137.8 137.8 137.7 138.0   0.1
+   8. ae-3-3.ebr3.Dallas1.Level3.n 70.0%    10  137.5 137.4 137.4 137.5   0.0
+   9. ae-7-7.ebr3.Atlanta2.Level3. 40.0%    10  137.9 138.0 137.9 138.1   0.1
+  10. ae-63-63.ebr1.Atlanta2.Level 50.0%    10  137.8 138.0 137.8 138.8   0.4
+  11. ae-6-6.ebr1.Washington12.Lev 60.0%    10  137.9 137.9 137.8 137.9   0.1
+  12. ae-1-100.ebr2.Washington12.L 30.0%    10  137.9 137.8 137.7 137.9   0.1
+  13. 4.69.201.61                  70.0%    10  138.1 138.2 138.1 138.3   0.1
+  14. ae-42-42.ebr2.London1.Level3 70.0%    10  140.4 139.7 138.0 140.7   1.5
+  15. ae-57-222.csw2.London1.Level 50.0%    10  138.3 138.6 138.0 140.5   1.1
+  16. ae-225-3601.edge3.London1.Le 33.3%     9  137.9 147.9 137.9 187.3  19.7
+  17. REDBUS-INTE.edge3.London1.Le 44.4%     9  138.2 138.2 138.1 138.3   0.1
+  18. 85.90.238.66                 37.5%     8  138.5 138.5 138.5 138.7   0.1
+  19. ipt-emc-as27822.lon2.telecit 50.0%     8  138.3 138.4 138.3 138.8   0.3
+  20. 85.90.224.174                62.5%     8  138.8 139.0 138.8 139.1   0.2
+  21. mx.bt.lon5.cpcloud.co.uk <http://cpcloud.co.uk>      50.0%     8  138.0
+ 138.2 138.0 138.4   0.2
+ On Dec 16, 2013, at 5:31 AM, Frank Bulk <frnkblk at iname.com
+ <mailto:frnkblk at iname.com> > wrote:
+ In addition to your traceroute, could you provide an mtr report or something
+ similar?
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org
+ <mailto:bounces at outages.org> ] On Behalf Of Zaid Ali
+ Kahn
+ Sent: Monday, December 16, 2013 7:24 AM
+ We are seeing quite a lot of packet loss.
+ 2  199.101.162.229 (199.101.162.229)  0.682 ms  0.825 ms  1.099 ms
+ 3  108.174.15.6 (108.174.15.6)  0.656 ms  0.649 ms 108.174.15.2
+ (108.174.15.2)  0.618 ms
+ 4  108.174.14.0 (108.174.14.0)  0.554 ms  0.560 ms 108.174.14.8
+ (108.174.14.8)  1.023 ms
+ 5  xe-4-3-0.edge6.LosAngeles1.Level3.net
+ <http://edge6.LosAngeles1.Level3.net>  (4.31.58.141)  0.616 ms  0.616 ms
+ 0.609 ms
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+ 10  * * *
+ 11  ae-6-6.ebr1.Washington12.Level3.net
+ <http://ebr1.Washington12.Level3.net>  (4.69.148.106)  137.853 ms * *
+ 12  ae-1-100.ebr2.Washington12.Level3.net
+ <http://ebr2.Washington12.Level3.net>  (4.69.143.214)  137.443 ms *
+ 137.574 ms
+ 13  * * *
+ 14  ae-42-42.ebr2.London1.Level3.net <http://ebr2.London1.Level3.net>
+ (4.69.137.69)  137.650 ms * *
+ 15  * * *
+ 16  * ae-228-3604.edge3.London1.Level3.net <http://edge3.London1.Level3.net>
+ (4.69.166.158)  137.293 ms *
+ Zaid
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/de3b38a7/attachment-0001.html>
+  <000001cefa63$1a6d9aa0$4f48cfe0$@iname.com>
+  <555F1FF7-3C52-4496-A38F-FFA0C238C918@zaidali.com>
+  <004a01cefa6a$71887a10$54996e30$@iname.com>
+ I got a Level3 confirmation that there was an issue but fixed now. Still waiting on details but I don't see an issue now.
+ Zaid
+ On Dec 16, 2013, at 6:23 AM, Frank Bulk <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/e8b22541/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone else seeing Cisco.com down
+###############################################################
+ Error message says Sorry server is running. I really need on their support site this morning.
+ Yes.
+ SorrySorry Server is running
+ ______________________________________________________________
+ Clayton Dukes
+ ______________________________________________________________
+ On Mon, Dec 16, 2013 at 9:23 AM, Elijah Savage <esavage at digitalrage.org>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/a647dc17/attachment.html>
+ Yes, I get the same message from Phila PA USA. 
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Elijah Savage
+ Sent: Monday, December 16, 2013 9:23 AM
+ Error message says Sorry server is running. I really need on their support site this morning.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ It all just came back up.
+ ----- Original Message -----
+ From: Elijah Savage <esavage at digitalrage.org>
+ Sent: Mon, 16 Dec 2013 09:23:05 -0500 (EST)
+ Error message says Sorry server is running. I really need on their support site this morning.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ And I would be sorry too, if it was my server.
+ I saw the site down approx. 15 minutes ago, but it is back up for me now.
+ Thanks
+ Russell Goings
+ On Mon, Dec 16, 2013 at 9:23 AM, Elijah Savage <esavage at digitalrage.org>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/e8b6deb1/attachment.html>
+  <CAANP6QeM5XWP7xN5U_VufdTd8teT-iMVp1jEBQPaYwnFFQ-VVg@mail.gmail.com>
+ Note that the home page seems to be delivered via Akamai, so unless it's
+ Akamai-wide, we would need the site's IP address(es) that you see from your
+ perspective.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Clayton
+ Dukes
+ Sent: Monday, December 16, 2013 8:22 AM
+ Cc: outages at outages.org
+ Yes.
+ Sorry
+ Sorry Server is running
+ ______________________________________________________________ 
+ Clayton Dukes
+ ______________________________________________________________
+ On Mon, Dec 16, 2013 at 9:23 AM, Elijah Savage <esavage at digitalrage.org
+ <mailto:esavage at digitalrage.org> > wrote:
+ Error message says Sorry server is running. I really need on their support
+ site this morning.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131216/17e6dbd1/attachment.html>
+ On Mon, Dec 16, 2013 at 09:23:05AM -0500,
+  Elijah Savage <esavage at digitalrage.org> wrote 
+  a message of 5 lines which said:
+ Same problem here and, according to Twitter, in other places.
+  <742212160.97796.1387204037082.JavaMail.zimbra@digitalrage.org>
+ On Mon, Dec 16, 2013 at 09:27:17AM -0500,
+  Elijah Savage <esavage at digitalrage.org> wrote 
+  a message of 18 lines which said:
+ They probably run for the contest of the longest DNS CNAME chain:
+ www.cisco.com.		3283 IN	CNAME www.cisco.com.akadns.net.
+ www.cisco.com.akadns.net. 300 IN CNAME wwwds.cisco.com.edgekey.net.
+ wwwds.cisco.com.edgekey.net. 21283 IN CNAME wwwds.cisco.com.edgekey.net.globalredir.akadns.net.
+ wwwds.cisco.com.edgekey.net.globalredir.akadns.net. 3283 IN CNAME e144.dscb.akamaiedge.net.
+ e144.dscb.akamaiedge.net. 20 IN	A 23.38.0.170
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Wallet
+###############################################################
+ I am not able to find a status board for Google Wallet but they appear
+ to be having an issue.
+ Not able to retrieve balance or send funds.
+ I am able to add funds to the account and spend it using the Google wallet card.
+ Issues I have experienced are:
+ >From Desktop
+ -slow loading
+ -We've experienced a temporary problem while retrieving your Wallet
+ Balance. Please reload this page and try again. Dismiss
+ >From Phone
+ We're having a problem
+ "We can't show the info you requested. Sorry about this. It appears
+ we're having an unexpected problem getting you what you need."
+ We're having a problem
+ Please try again later.
+ -- 
+ -Louis
+ I'm seeing the same from my Android OS phone.
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Louis
+ Arsenault
+ Sent: Monday, December 16, 2013 12:56 PM
+ I am not able to find a status board for Google Wallet but they appear
+ to be having an issue.
+ Not able to retrieve balance or send funds.
+ I am able to add funds to the account and spend it using the Google wallet
+ card.
+ Issues I have experienced are:
+ >From Desktop
+ -slow loading
+ -We've experienced a temporary problem while retrieving your Wallet
+ Balance. Please reload this page and try again. Dismiss
+ >From Phone
+ We're having a problem
+ "We can't show the info you requested. Sorry about this. It appears
+ we're having an unexpected problem getting you what you need."
+ We're having a problem
+ Please try again later.
+ -- 
+ -Louis
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+TW telecom DNS in the Charlotte, NC area
+###############################################################
+ >From what I am hearing from co-workers Time Warner T DNS is down in
+ Charlotte, NC.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/c4fedb1f/attachment.html>
+ TuCows is having a outage that should be causing this.
+ ________________________________
+ From: Outages [outages-bounces at outages.org] on behalf of jorgen mourton [backwoods357 at gmail.com]
+ Sent: Tuesday, December 17, 2013 12:53 PM
+ >From what I am hearing from co-workers Time Warner T DNS is down in Charlotte, NC.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/df65afb0/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+tucows down
+###############################################################
+ Yo All!
+ tucows is down.
+ http://www.isitdownrightnow.com/tucows.com.html
+ And they took a lot of domains down with them.
+ RGDS
+ GARY
+ ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/b1f59d0a/attachment.sig>
+ Tucows.com is UP and reachable.
+ The website is probably down just for you...
+ Works for me from my machine, too.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Dec 17, 2013 at 1:31 PM, Gary E. Miller <gem at rellim.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/65181b47/attachment.html>
+ Yo Gary!
+ On Tue, 17 Dec 2013 10:31:16 -0800
+ "Gary E. Miller" <gem at rellim.com> wrote:
+ If course, after waiting an hour to report it, they just came back up.
+ RGDS
+ GARY
+ ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/52d6aca9/attachment.sig>
+  <CAN9qwJ8Qzu5_Wv_7vo=7Bx1t9KUwWYgiu_eYYdXK5q==gU0Cgg@mail.gmail.com>
+ Yo Josh!
+ On Tue, 17 Dec 2013 13:41:11 -0500
+ Josh Luthman <josh at imaginenetworksllc.com> wrote:
+ I tried from 3 different countries, several ISPs, and iidrn.com before 
+ reporting.
+ Because it just came back up after a oue hour+ outage.
+ RGDS
+ GARY
+ ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+ 	gem at rellim.com  Tel:+1(541)382-8588
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 490 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/6f8c0708/attachment.sig>
+ On 12/17/13, 10:31, Gary E. Miller wrote:
+ OpenSRS Status
+ Reseller Control Panels ? Domains services(DNS) ? Degraded
+ http://www.opensrsstatus.com/archives/8995
+###############################################################
+END
+###############################################################
+
+###############################################################
+SPAM:  Re:  tucows down
+###############################################################
+ It's up now... but I saw it down as well on the east coast.
+ ----------------------------------------
+ From: "Josh Luthman" <josh at imaginenetworksllc.com>
+ Sent: Tuesday, December 17, 2013 1:41 PM
+ Cc: "outages at outages.org" <outages at outages.org>
+ Tucows.com is UP and reachable.The website is probably down just for 
+ you...
+ Works for me from my machine, too.  
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373 
+ On Tue, Dec 17, 2013 at 1:31 PM, Gary E. Miller <gem at rellim.com> wrote:
+   Yo All!
+  tucows is down.
+  http://www.isitdownrightnow.com/tucows.com.html
+  And they took a lot of domains down with them.
+  RGDS
+  GARY
+ ---------------------------------------------------------------------------
+  Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+          gem at rellim.com  Tel:+1(541)382-8588
+ _______________________________________________
+  Outages mailing list
+  Outages at outages.org
+  https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/f5c7d4a4/attachment.html>
+ I also received reports of it being down from a hosting company we collocate, who resells OpenSRS. Apparently a DoS. 
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Joe Schoonbeck
+ Sent: Tuesday, December 17, 2013 1:43 PM
+ Cc: outages at outages.org
+ It's up now... but I saw it down as well on the east coast.
+   _____  
+ From: "Josh Luthman" <josh at imaginenetworksllc.com <mailto:josh at imaginenetworksllc.com> >
+ Sent: Tuesday, December 17, 2013 1:41 PM
+ Cc: "outages at outages.org <mailto:outages at outages.org> " <outages at outages.org <mailto:outages at outages.org> >
+ Tucows.com is UP and reachable.
+ The website is probably down just for you...
+ Works for me from my machine, too.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On Tue, Dec 17, 2013 at 1:31 PM, Gary E. Miller <gem at rellim.com <mailto:gem at rellim.com> > wrote:
+ Yo All!
+ tucows is down.
+ http://www.isitdownrightnow.com/tucows.com.html
+ And they took a lot of domains down with them.
+ RGDS
+ GARY
+ ---------------------------------------------------------------------------
+ Gary E. Miller Rellim 109 NW Wilmington Ave., Suite E, Bend, OR 97701
+         gem at rellim.com <mailto:gem at rellim.com>   Tel:+1(541)382-8588 <tel:%2B1%28541%29382-8588> 
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org <mailto:Outages at outages.org> 
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131217/ca9e53ce/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint 4G LTE DNS intermittencies late at night
+###############################################################
+ I have been noticing a *lot*, lately -- one day in three-ish -- that my
+ Sprint 4G phone will, for a lengthy but apparently random period between 0100
+ and 0300EST, lose the ability to resolve DNS names using the resolvers that
+ I am provided by Sprint.
+ I think I reported a version of this before, but hadn't nailed down quite
+ what was going on then.
+ I have since found the SetDNS app, and proved that during these outages --
+ during which FB and Twitter, frex, still worked, because they had internally
+ cached the relevant server IPs, but web browsing would not and neither would 
+ manual DNS lookup with testing tools -- if I used SetDNS to switch to, say,
+ openDNS, then everything immediately started working.
+ If I then disabled SetDNS and rebooted (cause there seems no way to get SetDNS
+ to reset the addresses it found), it immediately broke again.
+ So, is this poorly managed scheduled maintenance on *both* the resolvers
+ that Sprint hands me?
+ Or something else?
+ Anyone else with Sprint LTE (non-Spark) in the Tampa or other markets who
+ can confirm or deny?
+ Cheers,
+ -- jra
+ -- 
+ Make Election Day a federal holiday: http://wh.gov/lBm94  100k sigs by 12/14
+ Jay R. Ashworth                  Baylink                       jra at baylink.com
+ Designer                     The Things I Think                       RFC 2100
+ Ashworth & Associates     http://baylink.pitas.com         2000 Land Rover DII
+ St Petersburg FL USA               #natog                      +1 727 647 1274
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon and Cogent packet loss
+###############################################################
+ Hi Everyone,
+ Since no one has pointed it out yet, it looks like Verizon and Cogent has
+ packet loss on the east half of the US.  Automated performance testing from
+ keynote agents on Verizon connections for $DAYJOB sees this as well.
+ -Grant
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/41a37c8c/attachment.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: Screenshot.png
+ Type: image/png
+ Size: 14435 bytes
+ Desc: not available
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/41a37c8c/attachment.png>
+ Unfortunately this has been going on for many months between Cogent and Cogent's peers. We had to engineer around cogent because anytime one of our users tried to use a VPN to us, it was unusable.  From what I have heard, this is a business not a technical issue and isn't going to be resolved anytime soon. There have been periods where the loss is less, but generally > 0.
+ ----
+ Matthew Huff?            | 1 Manhattanville Rd
+ Director of Operations???| Purchase, NY 10577
+ OTA Management LLC       | Phone: 914-460-4039
+  <483E6B0272B0284BA86D7596C40D29F902212D9D4ECE@PUR-EXCH07.ox.com>
+ Ah ok.  Thanks for the quick reply!  From what I can see in traceroutes,
+ Verizon -> Alter -> telia has issues.
+ Traceroute excerpt:
+   2     1 ms     1 ms     1 ms  500.Serial3-7.GW10.DFW9.ALTER.NET
+ [157.130.150.73]
+   3    59 ms    13 ms     1 ms  0.so-1-0-2.XT3.DFW9.ALTER.NET [152.63.101.130]
+   4    20 ms    21 ms    16 ms  TenGigE0-4-1-0.GW4.DFW13.ALTER.NET
+ [152.63.101.54]
+   5     2 ms     2 ms     2 ms  teliasonera-gw.customer.alter.net
+ [63.65.123.46]
+   6    25 ms    25 ms    25 ms  chi-bb1-link.telia.net [213.248.80.148]
+ On Fri, Dec 20, 2013 at 7:04 AM, Matthew Huff <mhuff at ox.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/3526bca2/attachment-0001.html>
+  <483E6B0272B0284BA86D7596C40D29F902212D9D4ECE@PUR-EXCH07.ox.com>
+  <CAPiURgVC0VEUG8YDy3aZN3TrgXP-qSedH67hH6j3x9zqL1j90g@mail.gmail.com>
+ We have seen this too, particularly through DFW.  Reports I get back 
+ from both sides agree with the "business issue" diagnosis.  As such we 
+ have moved all traffic toward Verizon away from Cogent links.
+ Tnx
+ Chris
+ On 12/20/2013 10:18 AM, Grant Ridder wrote:
+ -- 
+ Chris Griffin                           cgriffin at ufl.edu
+ Sr. Network Engineer - CCNP             Phone: (352) 273-1051
+ CNS - Network Services                  Fax:   (352) 392-9440
+ University of Florida/FLR               Gainesville, FL 32611
+###############################################################
+END
+###############################################################
+
+###############################################################
+goo.gl returning 502
+###############################################################
+ Anyone else experiencing this?
+ -Grant
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/d6a4fd8b/attachment.html>
+ Not experiencing it here (going through AT&T in Northern California)
+ On Fri, Dec 20, 2013 at 9:28 AM, Grant Ridder <shortdudey123 at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/70e30e95/attachment.html>
+ Seems to be working fine for me.
+ Jerry Slagger
+ ________________________________
+ From: Outages [outages-bounces at outages.org] on behalf of Grant Ridder [shortdudey123 at gmail.com]
+ Sent: Friday, December 20, 2013 11:28 AM
+ Anyone else experiencing this?
+ -Grant
+  <E93417D6BB516B4281692A243EF527F39C4857@BSSHDCEXS01.colo.businessuites.com>
+ I am no longer seeing the issue.  (Mountain view ca)
+ On Fri, Dec 20, 2013 at 9:35 AM, Jerry Slagger <
+ Jerry.Slagger at businessuites.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/d59523bf/attachment.html>
+  <E93417D6BB516B4281692A243EF527F39C4857@BSSHDCEXS01.colo.businessuites.com>
+  <CAPiURgXZshHhye+-bfTftaUqqVEjGpexGjSfyDRbiKJsrshiuQ@mail.gmail.com>
+ It seems okay here (Northern Wisconsin):  http://goo.gl/bRXAw
+ Thanks,
+ -Anthony Hook
+ On Fri, Dec 20, 2013 at 11:36 AM, Grant Ridder <shortdudey123 at gmail.com>wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131220/4fbacf3d/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Coinbase down...
+###############################################################
+ Following the stream for a bit, it look like coinbase is experiencing some
+ kind of trouble. Looks like it has been going on for over 3 hours.
+ https://twitter.com/search?q=coinbase&src=typd&f=realtime?
+ -- 
+ Oplerno is built upon empowering faculty and studentsWe want you to found
+ (and fund) Oplerno with
+ us<http://www.indiegogo.com/projects/oplerno-a-new-and-affordable-higher-education?utm_source=email&utm_medium=daniel&utm_content=signaturetext&utm_campaign=indiegogo>
+ [image: Support Us
+ Here]<http://www.indiegogo.com/projects/oplerno-a-new-and-affordable-higher-education?utm_source=email&utm_medium=daniel&utm_content=signaturecta&utm_campaign=indiegogo>
+ -- 
+ Dani?l W. Crompton <daniel.crompton at gmail.com>
+ <http://specialbrands.net/>
+ <http://specialbrands.net/>
+ http://specialbrands.net/
+        <http://twitter.com/webhat>
+ <http://www.facebook.com/webhat><http://plancast.com/webhat><http://www.linkedin.com/in/redhat>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131221/3fcb38bc/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+odd gmail issue.. inet6 ?
+###############################################################
+ I noticed on a couple of our mail servers, delivery to gmail was getting
+ stuck in the outbound queue.  Our MTAs are all sendmail
+ If I hardcode delivery to gmail to 74.125.142.26 via a mailertable
+ entry, mail goes through fine
+ But if let it naturally select the inet6 addr, it hangs
+ Running /var/spool/mqueue/rBLDcRmZ092661 (sequence 1 of 1)
+ <miketancsa at gmail.com>... Connecting to gmail-smtp-in.l.google.com. via
+ esmtp...
+ 220 mx.google.com ESMTP v3si9282987qat.181 - gsmtp
+ >>> EHLO smarthost2.sentex.ca
+ 250-mx.google.com at your service, [2607:f3e0:80:80::2]
+ 250-SIZE 35882577
+ 250-8BITMIME
+ 250-STARTTLS
+ 250-ENHANCEDSTATUSCODES
+ 250-PIPELINING
+ 250 CHUNKING
+ >>> STARTTLS
+ 220 2.0.0 Ready to start TLS
+ The addr is of course reachable. I check the routing and the AS seems
+ legit. The path is 6939 15169
+ traceroute6 to 2607:f8b0:400d:c02::1a (2607:f8b0:400d:c02::1a) from
+ 2607:f3e0:80:80::2, 64 hops max, 12 byte packets
+  1  2607:f3e0:80:80::1  0.585 ms
+  2  toronto-torix-6  0.478 ms
+  3  gw-he.ip6.torontointernetxchange.net  0.995 ms
+  4  2001:478:245:1::6  1.104 ms
+  5  2001:4860::1:0:28  1.684 ms
+  6  2001:4860::8:0:4398  15.514 ms
+  7  2001:4860::8:0:6375  21.308 ms
+  8  2001:4860::8:0:5e9d  37.368 ms
+  9  2001:4860::2:0:3568  28.932 ms
+ 10  *
+ 11  *
+ 12  *
+ 13  qe-in-x1a.1e100.net  28.663 ms
+ I am coming from 2607:f3e0:80:80::2 in the above case
+ tcpdump doesnt show anything obvious and since the payload is not
+ readble I cant see it.  I wonder if there is a way to get sendmail to
+ print out the contents...
+ -- 
+ -------------------
+ Mike Tancsa, tel +1 519 651 3400
+ Sentex Communications, mike at sentex.net
+ Providing Internet services since 1994 www.sentex.net
+ Cambridge, Ontario Canada   http://www.tancsa.com/
+ Of course, 2 min after sending this the problem goes away and mail flows
+ once again :(
+ 	---Mike
+ On 12/21/2013 8:56 AM, Mike Tancsa wrote:
+ >>>> EHLO smarthost2.sentex.ca
+ >>>> STARTTLS
+ -- 
+ -------------------
+ Mike Tancsa, tel +1 519 651 3400
+ Sentex Communications, mike at sentex.net
+ Providing Internet services since 1994 www.sentex.net
+ Cambridge, Ontario Canada   http://www.tancsa.com/
+ For the archives, I should have know this, but to get sendmail to spit
+ out a little more of the exchange, a -d17 would have done the trick.
+ eg  sendmail -q -qRdestuser at gmail.com -v -d17
+ 	---Mike
+ On 12/21/2013 9:01 AM, Mike Tancsa wrote:
+ >>>>> EHLO smarthost2.sentex.ca
+ >>>>> STARTTLS
+ -- 
+ -------------------
+ Mike Tancsa, tel +1 519 651 3400
+ Sentex Communications, mike at sentex.net
+ Providing Internet services since 1994 www.sentex.net
+ Cambridge, Ontario Canada   http://www.tancsa.com/
+###############################################################
+END
+###############################################################
+
+###############################################################
+Comcast residential in bay area
+###############################################################
+ My residential internet on Comcast started having high ping times and
+ packet loss to the internet.   I rebooted my router, and now i have native
+ IPv6 only.  I can not access IPv4 addresses.  Can anyone else in the Bay
+ area on comcast replicate this?
+ -Grant
+ C:\Users\ridderg>tracert 8.8.8.8
+ Tracing route to google-public-dns-a.google.com [8.8.8.8]
+ over a maximum of 30 hops:
+   1     1 ms    <1 ms    <1 ms  192.168.1.1
+   2     *        *        *     Request timed out.
+   3     *        *        *     Request timed out.
+   4     *        *        *     Request timed out.
+   5     *        *        *     Request timed out.
+   6  ^C
+ C:\Users\ridderg>
+ C:\Users\ridderg>ping google.com
+ Pinging google.com [2607:f8b0:4005:802::1005] with 32 bytes of data:
+ Reply from 2607:f8b0:4005:802::1005: time=14ms
+ Reply from 2607:f8b0:4005:802::1005: time=14ms
+ Reply from 2607:f8b0:4005:802::1005: time=14ms
+ Ping statistics for 2607:f8b0:4005:802::1005:
+     Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
+ Approximate round trip times in milli-seconds:
+     Minimum = 14ms, Maximum = 14ms, Average = 14ms
+ Control-C
+ ^C
+ C:\Users\ridderg>ping -4 google.com
+ Pinging google.com [74.125.239.132] with 32 bytes of data:
+ Request timed out.
+ Request timed out.
+ Request timed out.
+ Request timed out.
+ Ping statistics for 74.125.239.132:
+     Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+ C:\Users\ridderg>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131222/4e5fa823/attachment.html>
+ >From Mountain View CA.  I don't do IPv6.  This is to 8.8.8.8 -- looks
+ fine:
+                                                   Packets               Pings
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%    31    31   0.3   0.3   0.2   0.5
+  2. 76.102.12.1                                  0.0%    31    31   8.6   9.0   8.1  13.0
+  3. te-0-2-0-5-ur06.santaclara.ca.sfba.comcast.  0.0%    31    31   8.3  10.7   8.3  14.7
+  4. te-1-1-0-13-ar01.oakland.ca.sfba.comcast.ne  0.0%    30    30  12.4  12.0  10.2  16.8
+  5. be-90-ar01.sfsutro.ca.sfba.comcast.net       0.0%    30    30  12.6  13.2  11.3  17.5
+  6. he-3-9-0-0-cr01.sanjose.ca.ibone.comcast.ne  0.0%    30    30  13.6  15.6  12.8  18.1
+  7. pos-0-2-0-0-pe01.529bryant.ca.ibone.comcast  0.0%    30    30  19.3  18.0  14.1  30.4
+  8. 66.208.228.226                               3.3%    30    29  89.4  45.7  25.7  89.5
+  9. 72.14.232.136                                0.0%    30    30  15.4  16.0  15.0  23.5
+ 10. 209.85.250.60                                3.3%    30    29  15.6  16.8  15.2  29.0
+ 11. 72.14.232.63                                 3.3%    30    29  31.3  32.3  31.1  49.4
+ 12. 72.14.233.200                                0.0%    30    30  34.7  35.0  34.2  40.9
+ 13. 216.239.48.167                               0.0%    30    30  34.5  36.0  34.2  59.1
+ 14. ???
+ 15. google-public-dns-a.google.com               0.0%    30    30  34.4  34.8  34.3  37.0
+ Review of periodic mtrs to my workplace (Campbell) as well as my VPS
+ (southern California) don't show any anomalies either.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sun, Dec 22, 2013 at 09:11:49PM -0800, Grant Ridder wrote:
+  <20131223051628.GA8484@icarus.home.lan>
+ Interesting... I am in Mountain View as well and only have native v6.  No
+ v4 still.
+ On Sun, Dec 22, 2013 at 9:16 PM, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131222/b9e4cbdd/attachment.html>
+  <20131223051628.GA8484@icarus.home.lan>
+  <CAPiURgVud2QYuBX9fweKKtVvpusigu+B8kZRJHCOQAhVOem1vQ@mail.gmail.com>
+ Time to try power-cycling all involved devices.  :-)
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sun, Dec 22, 2013 at 09:17:12PM -0800, Grant Ridder wrote:
+  <20131223051628.GA8484@icarus.home.lan>
+  <CAPiURgVud2QYuBX9fweKKtVvpusigu+B8kZRJHCOQAhVOem1vQ@mail.gmail.com>
+ Hey Grant.
+ I'm on Comcast up just fine on San Carlos, but my friend from up the street is down here now; issues with his comcast connect at home. His IP is in 24/8. I'm in 50.152.135/24. (it's been this way for 1+ year) He can ping his place 20ms from mine, but at the moment, nothing else.
+ Paul Zugnoni
+ From: Grant Ridder <shortdudey123 at gmail.com<mailto:shortdudey123 at gmail.com>>
+ Date: Sunday, December 22, 2013 9:17 PM
+ Cc: "outages at outages.org<mailto:outages at outages.org>" <outages at outages.org<mailto:outages at outages.org>>
+ Interesting... I am in Mountain View as well and only have native v6.  No v4 still.
+ On Sun, Dec 22, 2013 at 9:16 PM, Jeremy Chadwick <jdc at koitsu.org<mailto:jdc at koitsu.org>> wrote:
+ >From Mountain View CA.  I don't do IPv6.  This is to 8.8.8.8 -- looks
+ fine:
+                                                   Packets               Pings
+  Host                                           Loss%   Snt   Rcv  Last   Avg  Best  Wrst
+  1. gw.home.lan                                  0.0%    31    31   0.3   0.3   0.2   0.5
+  2. 76.102.12.1                                  0.0%    31    31   8.6   9.0   8.1  13.0
+  3. te-0-2-0-5-ur06.santaclara.ca.sfba.comcast.  0.0%    31    31   8.3  10.7   8.3  14.7
+  4. te-1-1-0-13-ar01.oakland.ca.sfba.comcast.ne<http://te-1-1-0-13-ar01.oakland.ca.sfba.comcast.ne>  0.0%    30    30  12.4  12.0  10.2  16.8
+  5. be-90-ar01.sfsutro.ca.sfba.comcast.net<http://be-90-ar01.sfsutro.ca.sfba.comcast.net>       0.0%    30    30  12.6  13.2  11.3  17.5
+  6. he-3-9-0-0-cr01.sanjose.ca.ibone.comcast.ne<http://he-3-9-0-0-cr01.sanjose.ca.ibone.comcast.ne>  0.0%    30    30  13.6  15.6  12.8  18.1
+  7. pos-0-2-0-0-pe01.529bryant.ca.ibone.comcast  0.0%    30    30  19.3  18.0  14.1  30.4
+  8. 66.208.228.226                               3.3%    30    29  89.4  45.7  25.7  89.5
+  9. 72.14.232.136                                0.0%    30    30  15.4  16.0  15.0  23.5
+ 10. 209.85.250.60                                3.3%    30    29  15.6  16.8  15.2  29.0
+ 11. 72.14.232.63                                 3.3%    30    29  31.3  32.3  31.1  49.4
+ 12. 72.14.233.200                                0.0%    30    30  34.7  35.0  34.2  40.9
+ 13. 216.239.48.167                               0.0%    30    30  34.5  36.0  34.2  59.1
+ 14. ???
+ 15. google-public-dns-a.google.com<http://google-public-dns-a.google.com>               0.0%    30    30  34.4  34.8  34.3  37.0
+ Review of periodic mtrs to my workplace (Campbell) as well as my VPS
+ (southern California) don't show any anomalies either.
+ --
+ | Jeremy Chadwick                                   jdc at koitsu.org<mailto:jdc at koitsu.org> |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Sun, Dec 22, 2013 at 09:11:49PM -0800, Grant Ridder wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131223/42b99c8c/attachment.html>
+  <20131223051628.GA8484@icarus.home.lan>
+  <CAPiURgVud2QYuBX9fweKKtVvpusigu+B8kZRJHCOQAhVOem1vQ@mail.gmail.com>
+  <20131223051913.GA8557@icarus.home.lan>
+ Already did that :)
+ The issue just recovered on its own.
+ Thanks to those who replied!
+ On Sun, Dec 22, 2013 at 9:19 PM, Jeremy Chadwick <jdc at koitsu.org> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131222/88ae0843/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Megapath/Covad DNS Issues
+###############################################################
+ Seems like some Megapath/Covad DNS servers are non-responsive:
+ 64.105.172.26
+ 64.105.172.27
+ We have dozens of end-users down that utilize these, so they are
+ effectively down.  Anyone from Megapth/Covad alive today?
+ Thanks,
+ -Bobby
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131227/a05a004a/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+AT&T "over saturation" Southwest USA
+###############################################################
+ Passing along the good word from /r/networking
+ "For anyone in the southwest US (specifically anything that goes through
+ southern California, ATT is experiencing an "over saturation" on their
+ network.
+ It appears to be affecting every handoff in the area.
+ Problem nodes: 12.122.x.x
+ Symptoms include dropped packets and 400+ms latency.
+ Internap, Cogent, and Level3 have confirmed tickets opened with ATT NOC.
+ Update: ATT reports it as a DDoS attack that is causing the issue. They are
+ working to mitigate."
+ http://www.reddit.com/r/networking/comments/1u12y9/att_over_saturation_report/
+ I'm outside the affected area so I don't have anything technical to add and
+ wasn't sure if appropriate for me to notify the list.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/4f8334b8/attachment.html>
+ We were told by our provider that it was a Ddos as well.  They said it was
+ mitigated as of about thirty minutes ago.
+ On Dec 30, 2013 11:20 AM, "Michael Cannon" <m.cannon9802 at gmail.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/45c666ec/attachment.html>
+  <CAN3um4xga0oG-dvOznQyzFXZqFi0JcEAyOEPYeuAGTSqz58k1g@mail.gmail.com>
+ My internal testing doesn't show that.
+ I just received word from Internap that they are the target of a DDoS as well. I'm still seeing the same symptoms as reported across all of my upstream providers that hit the ATT network.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Mike Hale
+ Sent: Monday, December 30, 2013 12:42 PM
+ Cc: outages at outages.org
+ We were told by our provider that it was a Ddos as well.  They said it was mitigated as of about thirty minutes ago.
+ On Dec 30, 2013 11:20 AM, "Michael Cannon" <m.cannon9802 at gmail.com<mailto:m.cannon9802 at gmail.com>> wrote:
+ Passing along the good word from /r/networking
+ "For anyone in the southwest US (specifically anything that goes through southern California, ATT is experiencing an "over saturation" on their network.
+ It appears to be affecting every handoff in the area.
+ Problem nodes: 12.122.x.x
+ Symptoms include dropped packets and 400+ms latency.
+ Internap, Cogent, and Level3 have confirmed tickets opened with ATT NOC.
+ Update: ATT reports it as a DDoS attack that is causing the issue. They are working to mitigate."
+ http://www.reddit.com/r/networking/comments/1u12y9/att_over_saturation_report/
+ I'm outside the affected area so I don't have anything technical to add and wasn't sure if appropriate for me to notify the list.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/b019330e/attachment.html>
+  <CAN3um4xga0oG-dvOznQyzFXZqFi0JcEAyOEPYeuAGTSqz58k1g@mail.gmail.com>
+  <37A81A8AFEA76C4C974E4EF7E92C1D18C573C3@GEMINI1>
+ Update 1:13pm Pacific
+ Traffic appears to be normalizing across the area. I'm seeing 50-100ms and no drops at this moment on affected nodes.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bryan Inks
+ Sent: Monday, December 30, 2013 12:48 PM
+ Cc: outages at outages.org
+ My internal testing doesn't show that.
+ I just received word from Internap that they are the target of a DDoS as well. I'm still seeing the same symptoms as reported across all of my upstream providers that hit the ATT network.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Mike Hale
+ Sent: Monday, December 30, 2013 12:42 PM
+ Cc: outages at outages.org<mailto:outages at outages.org>
+ We were told by our provider that it was a Ddos as well.  They said it was mitigated as of about thirty minutes ago.
+ On Dec 30, 2013 11:20 AM, "Michael Cannon" <m.cannon9802 at gmail.com<mailto:m.cannon9802 at gmail.com>> wrote:
+ Passing along the good word from /r/networking
+ "For anyone in the southwest US (specifically anything that goes through southern California, ATT is experiencing an "over saturation" on their network.
+ It appears to be affecting every handoff in the area.
+ Problem nodes: 12.122.x.x
+ Symptoms include dropped packets and 400+ms latency.
+ Internap, Cogent, and Level3 have confirmed tickets opened with ATT NOC.
+ Update: ATT reports it as a DDoS attack that is causing the issue. They are working to mitigate."
+ http://www.reddit.com/r/networking/comments/1u12y9/att_over_saturation_report/
+ I'm outside the affected area so I don't have anything technical to add and wasn't sure if appropriate for me to notify the list.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/c5801279/attachment-0001.html>
+  <CAN3um4xga0oG-dvOznQyzFXZqFi0JcEAyOEPYeuAGTSqz58k1g@mail.gmail.com>
+  <37A81A8AFEA76C4C974E4EF7E92C1D18C573C3@GEMINI1>
+  <sig.007644deb9.37A81A8AFEA76C4C974E4EF7E92C1D18C573F5@GEMINI1>
+ Yup.  We got an email that another attack took place about 1230 and has
+ been mitigated as well.
+ On Dec 30, 2013 1:21 PM, "Bryan Inks" <Binks at keyinfo.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/d04f57b3/attachment.html>
+  <CAN3um4xga0oG-dvOznQyzFXZqFi0JcEAyOEPYeuAGTSqz58k1g@mail.gmail.com>
+  <37A81A8AFEA76C4C974E4EF7E92C1D18C573C3@GEMINI1>
+  <sig.007644deb9.37A81A8AFEA76C4C974E4EF7E92C1D18C573F5@GEMINI1>
+  <CAN3um4z7qpvH-d8ez_=aTdL_H8q9HwK4mKUa+cjQNczUyQSMCQ@mail.gmail.com>
+ At a guess i would say this is most likely the culprit. Stupid kids.
+ http://kotaku.com/hackers-claim-takedown-of-battle-net-league-of-legends-1491906080?utm_campaign=Socialflow_Kotaku_Facebook&utm_source=Kotaku_Facebook&utm_medium=Socialflow
+ --Damian
+ On Tue, Dec 31, 2013 at 5:31 AM, Mike Hale <eyeronic.design at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/d918ce43/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+ATT DoS Attack Affecting Service Primarily in CA
+###############################################################
+ Update: Internap is reporting that they are seeing traffic levels normalize. My tests confirm.
+ Cogent is still experiencing issues with this (average latency 452ms on trace run 1 minute ago).
+ Same with Level3 and XO Communications.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/ee305bd2/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+12-30-2013 - Major Windstream outage in the Wisconsin area today (OC192 fiber kink)
+###############################################################
+ Our circuit is through AT&T, but the LEC is Windstream.
+ "Outage associated with the ATT CNOC Network Advisory for multiple T3 facility failures out of Valley, WI. ATT T3 Group investigated and notified outage to Windstream for further investigation. Per the ATT T3 Group, Windstream restore service and the affected T3 facilities.
+ More details from the linked T3 ticket...Windstream outage affected 193 DS3s in the Wisconsin area.
+ An OC192 affected and, wait for it............Windstream two outages, a kinked fiber in Dousman, WI, and, fiber cut between Platteville and Wisconsin River (Millville), WI.
+ The OC192 issue related to the kinked fiber in Dousman, WI. The fiber cut between Platteville and Wisconsin River (Millville), WI, still ongoing."
+ Ouch.  That'll be down for a while.
+ Matt Bertram
+ Tier II NOC Technician
+ Acuative
+ 8237 Dow Circle
+ Strongsville, Ohio  44136
+ Direct #:        440.202.4547
+ Alternate #:   440.234.9595
+ Fax #:             440.234.9533
+ Email: mbertram at acuative.com<mailto:mmcgeehen at acuative.com>
+ [cid:image006.png at 01CF0551.80769A60]
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0001.html>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image001.png
+ Type: image/png
+ Size: 4898 bytes
+ Desc: image001.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0006.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image002.png
+ Type: image/png
+ Size: 5924 bytes
+ Desc: image002.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0007.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image003.png
+ Type: image/png
+ Size: 4676 bytes
+ Desc: image003.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0008.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image004.png
+ Type: image/png
+ Size: 6685 bytes
+ Desc: image004.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0009.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image005.png
+ Type: image/png
+ Size: 15938 bytes
+ Desc: image005.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0010.png>
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: image006.png
+ Type: image/png
+ Size: 15100 bytes
+ Desc: image006.png
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131230/a36fdc03/attachment-0011.png>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Possible Issues with Level3 - Confirmed Chicago Area, possibly others
+###############################################################
+ Just received a call from a client here in CA. They are seeing bi-directional issues with Level3 in the Chicago area.
+ Approximately 7% packet loss and 70+ms latency.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/cf7dee8b/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+CenturyLink packet loss in Chicago?
+###############################################################
+ Seeing packet loss from Verizon circuits to destinations in Chicago. All starts at CL's router 67.14.8.90 (cer-edge-17.inet.qwest.net<http://cer-edge-17.inet.qwest.net>). Anyone else seeing CL issues in Chicago?
+ D
+ This message and any attachments are intended only for the use of the addressee and may contain information that is privileged and confidential. If the reader of the message is not the intended recipient or an authorized representative of the intended recipient, you are hereby notified that any dissemination of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by e-mail and delete the message and any attachments from your system.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/1a7300b4/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+HostGator issues?
+###############################################################
+ Anyone seeing issues with HostGator?  It appears that they may be having
+ serious problems affecting client servers and even the HostGator phones to
+ find out more.
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/7d71ce6f/attachment.html>
+ >From their Twitter feed (20 minutes ago):
+ "We're aware of network issues affecting some of our clients. We're currently looking into this and we'll have updates available shortly."
+ ?
+ Philip
+ From: Neil Ticktin <neil-lists at xplain.com<mailto:neil-lists at xplain.com>>
+ Date: Tuesday, December 31, 2013 at 12:59 PM
+ Anyone seeing issues with HostGator?  It appears that they may be having serious problems affecting client servers and even the HostGator phones to find out more.
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/0e04737d/attachment.html>
+ The parent company moved HostGator into the BlueHost/HostMonster/FastDomain DC in Provo, UT.
+ Don't know if you saw my conversation with Frank, but the network there (internal included) is currently down.
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Neil Ticktin
+ Sent: Tuesday, December 31, 2013 11:07 AM
+ Anyone seeing issues with HostGator?  It appears that they may be having serious problems affecting client servers and even the HostGator phones to find out more.
+ Thanks!
+ Neil
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/aefa9488/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Bluehost.com outage
+###############################################################
+ We have one customer whose domain is on Bluehost and we can't find their MX
+ record.  The two DNS servers, ns1.bluehost.com and ns2.bluehost.com, are not
+ responding on TCP port 53.  
+ Twitter jabber confirms an issue.
+ Frank
+ Frank,
+ I was just looking into this too as we had a monitor trip on a hosted 
+ domain here who also has DNS at bluehost. It looks like there main site 
+ is also down. (or maybe just not resolving) 
+ http://www.downforeveryoneorjustme.com/BLUEHOST.COM also shows it down.
+ Sincerely,
+ Mark
+ On 12/31/2013 11:26 AM, Frank Bulk wrote:
+  <52C31B3B.1050804@viviotech.net>
+ "FYI we're experiencing a temporary network issue with our data center
+ that's affecting some customers. If that's you stay tuned for updates!"
+ via
+ https://twitter.com/bluehost/status/418092493331509248
+ On Tue, Dec 31, 2013 at 1:30 PM, Mark Keymer <mark at viviotech.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/26a0d922/attachment.html>
+  <52C31B3B.1050804@viviotech.net>
+  <CAOyVerWYNfsK=-rL4NHDQzZWG=cuGLLhMN+s4itToeFTAG-4aQ@mail.gmail.com>
+ Ha, someone's already updated the wiki > http://en.wikipedia.org/wiki/Endurance_International_Group
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Adam
+ Sent: Tuesday, December 31, 2013 1:46 PM
+ "FYI we're experiencing a temporary network issue with our data center that's affecting some customers. If that's you stay tuned for updates!"
+ via
+ https://twitter.com/bluehost/status/418092493331509248
+ On Tue, Dec 31, 2013 at 1:30 PM, Mark Keymer <mark at viviotech.net<mailto:mark at viviotech.net>> wrote:
+ Frank,
+ I was just looking into this too as we had a monitor trip on a hosted domain here who also has DNS at bluehost. It looks like there main site is also down. (or maybe just not resolving) http://www.downforeveryoneorjustme.com/BLUEHOST.COM also shows it down.
+ Sincerely,
+ Mark
+ On 12/31/2013 11:26 AM, Frank Bulk wrote:
+ We have one customer whose domain is on Bluehost and we can't find their MX
+ record.  The two DNS servers, ns1.bluehost.com<http://ns1.bluehost.com> and ns2.bluehost.com<http://ns2.bluehost.com>, are not
+ responding on TCP port 53.
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ The information in this transmittal may be legally privileged, confidential, and/or otherwise protected by law from disclosure, and is intended only for the recipient(s) listed above. If you are neither the intended recipient(s) nor a person responsible for the delivery of this transmittal to the intended recipient(s), you are hereby notified that any distribution or copying of this transmittal is prohibited. If you have received this transmittal in error, please notify Agio LLC immediately at (405) 217-3800 or by return e-mail and take the steps necessary to delete it completely from your computer system. Thank you.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/698a228c/attachment.html>
+  <52C31B3B.1050804@viviotech.net>
+  <CAOyVerWYNfsK=-rL4NHDQzZWG=cuGLLhMN+s4itToeFTAG-4aQ@mail.gmail.com>
+  <4FE390CCE3AAE4499FE8989C48608144718BA675@MBX021-E3-NJ-2.exch021.domain.local>
+ Just to add, multiple sites down here also. Just preaching to the choir I guess.
+ And that's some quick wiki work, dang!
+ Bradley Dupray | Clarus IT Solutions
+ bdupray at clarusinc.com<mailto:bdupray at clarusinc.com>
+ Phone - (949) 302-5228
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bunde, Andrew
+ Sent: Tuesday, December 31, 2013 11:56 AM
+ Ha, someone's already updated the wiki > http://en.wikipedia.org/wiki/Endurance_International_Group
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Adam
+ Sent: Tuesday, December 31, 2013 1:46 PM
+ "FYI we're experiencing a temporary network issue with our data center that's affecting some customers. If that's you stay tuned for updates!"
+ via
+ https://twitter.com/bluehost/status/418092493331509248
+ On Tue, Dec 31, 2013 at 1:30 PM, Mark Keymer <mark at viviotech.net<mailto:mark at viviotech.net>> wrote:
+ Frank,
+ I was just looking into this too as we had a monitor trip on a hosted domain here who also has DNS at bluehost. It looks like there main site is also down. (or maybe just not resolving) http://www.downforeveryoneorjustme.com/BLUEHOST.COM also shows it down.
+ Sincerely,
+ Mark
+ On 12/31/2013 11:26 AM, Frank Bulk wrote:
+ We have one customer whose domain is on Bluehost and we can't find their MX
+ record.  The two DNS servers, ns1.bluehost.com<http://ns1.bluehost.com> and ns2.bluehost.com<http://ns2.bluehost.com>, are not
+ responding on TCP port 53.
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ The information in this transmittal may be legally privileged, confidential, and/or otherwise protected by law from disclosure, and is intended only for the recipient(s) listed above. If you are neither the intended recipient(s) nor a person responsible for the delivery of this transmittal to the intended recipient(s), you are hereby notified that any distribution or copying of this transmittal is prohibited. If you have received this transmittal in error, please notify Agio LLC immediately at (405) 217-3800 or by return e-mail and take the steps necessary to delete it completely from your computer system. Thank you.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20131231/842b95d9/attachment-0001.html>
+ My DNS is externally hosted but my websites hosted on bluehost is returning a blank page.  Not sure if this is related.
+ Grant
+ Sent from my iPhone
+  <82DEAD02-A022-4D03-B3E4-5FC1F1B70015@gmail.com>
+ Yes -- it appears that whatever services Bluehost.com (and the others
+ mentioned in other threads) hosts, is out of service.
+ Frank
+ -----Original Message-----
+ From: Grant Ridder [mailto:shortdudey123 at gmail.com] 
+ Sent: Tuesday, December 31, 2013 1:38 PM
+ Cc: <outages at outages.org>
+ My DNS is externally hosted but my websites hosted on bluehost is returning
+ a blank page.  Not sure if this is related.
+ Grant
+ Sent from my iPhone
+ MX
+ not
+ Just in case my ASSP modification to the subject caused a rejection....
+ Frank,
+ I confirmed with some mates of mine that still work at Bluehost. They're saying it's not just outside DNS that is failing. VPN, etc., is down as well.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Tuesday, December 31, 2013 11:32 AM
+ We have one customer whose domain is on Bluehost and we can't find their MX record.  The two DNS servers, ns1.bluehost.com and ns2.bluehost.com, are not responding on TCP port 53.  
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Thanks.  There's more than one tweet that suggests it's a data center issue
+ that's affecting both Bluehost and Gator.
+ Frank
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Bryan Inks
+ Sent: Tuesday, December 31, 2013 1:48 PM
+ Just in case my ASSP modification to the subject caused a rejection....
+ Frank,
+ I confirmed with some mates of mine that still work at Bluehost. They're
+ saying it's not just outside DNS that is failing. VPN, etc., is down as
+ well.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Tuesday, December 31, 2013 11:32 AM
+ We have one customer whose domain is on Bluehost and we can't find their MX
+ record.  The two DNS servers, ns1.bluehost.com and ns2.bluehost.com, are not
+ responding on TCP port 53.  
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Update from my L3 friend.
+ Their internal network is down. They are currently trying to reach a senior admin to resolve the issue. I won't get full details until my friends get in.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Tuesday, December 31, 2013 11:32 AM
+ We have one customer whose domain is on Bluehost and we can't find their MX record.  The two DNS servers, ns1.bluehost.com and ns2.bluehost.com, are not responding on TCP port 53.  
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+
+###############################################################
+[SPAM]   Bluehost.com outage
+###############################################################
+ Frank,
+ I've just confirmed with some mates that still work there. It's not just their DNS. Employees are saying VPN is down as well.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Frank Bulk
+ Sent: Tuesday, December 31, 2013 11:32 AM
+ We have one customer whose domain is on Bluehost and we can't find their MX record.  The two DNS servers, ns1.bluehost.com and ns2.bluehost.com, are not responding on TCP port 53.  
+ Twitter jabber confirms an issue.
+ Frank
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+###############################################################
+END
+###############################################################
+

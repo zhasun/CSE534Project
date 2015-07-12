@@ -1,0 +1,1158 @@
+From virendra.rode  Mon Jan  1 21:48:42 2007
+From: virendra.rode (virendra rode //)
+Date: Mon, 01 Jan 2007 18:48:42 -0800
+Subject: [Outages] Setback for Asia Internet Repairs Message-ID: <4599C80A.5050604@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Many thanks to Fergie for this link.
+
+
+Via Yahoo! News (AFP).
+
+[snip]
+
+Repairs to Asia's slow Internet, damaged by an earthquake that ripped
+through key undersea data cables, have been postponed because of a major
+fault on a ship sent to the fix the problem.
+
+One of two repair ships that laid anchor in the Luzon Strait between Taiwan
+and the Philippines above the damaged lines experienced a major fault
+Saturday, Hong Kong's Office of the Telecommunications Authority said
+Sunday.
+
+The ship is now in Taiwan and will take about seven days to fix, the
+authority said in a statement, pushing back the estimate for initial
+repairs to one of the cable systems by a week.
+
+[snip]
+
+More:
+http://news.yahoo.com/s/afp/20061231/tc_afp/asiaquakeinternet
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFmcgKpbZvCIJx1bcRAlImAJ918f/4YI0J9fvibAnU8xScrmFsEwCfUnW8
+0WPwblekbE+PezV71ErqNVI=
+=8UUN
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Tue Jan  2 16:10:07 2007
+From: fergdawg (Fergie)
+Date: Tue, 2 Jan 2007 21:10:07 GMT
+Subject: [Outages] Savvis Data Center Suffers Outage Message-ID: <20070102.131014.2521.1821592@webmail51.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070102/c7535049/attachment.diff 
+
+
+From virendra.rode  Tue Jan  2 18:09:43 2007
+From: virendra.rode (virendra rode //)
+Date: Tue, 02 Jan 2007 15:09:43 -0800
+Subject: [Outages] Savvis Data Center Suffers Outage In-Reply-To: <20070102.131014.2521.1821592@webmail51.lax.untd.com>
+References: <20070102.131014.2521.1821592@webmail51.lax.untd.com>
+Message-ID: <459AE637.2030208@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Fergie wrote:
+> Via Web Hosting Industry Review (WHIR).
+> 
+> [snip]
+> 
+> Web hosts residing in the Boston area facility belonging to data center
+> operator SAVVIS said their sites, or their customers' sites, were offline
+> as a result of an outage at the data center that lasted more than five
+> hours Tuesday.
+> 
+> According to customers, the outage was noticed as early as 8:30 a.m.
+> Eastern Time on Tuesday. Official word on the outage came shortly
+> thereafter. A message posted on Web hosting support provider SureSupport's
+> (suresupport.com) Web site at 10:14 a.m. said the site could not be reached
+> due to an uplink problem.
+> 
+> "Please be advised," said the message, "that the SAVVIS data center
+> facility team has reported that the Boston data center is isolated due to a
+> circuit related issue. At this time equipment is not reachable. SAVVIS is
+> working with the local Telco vendor to restore connectivity. An estimated
+> time of resolution is unknown at this time."
+> 
+> The outage continued into the afternoon. Messages posted at 12:30 p.m. and
+> 2:07 p.m. said the SAVVIS team was working with local telco providers to
+> resolve the problem, negotiating new backup lines.
+> 
+> A message posted at 3:04 p.m. said service has been partly restored to the
+> Boston area facility, but warned that packet loss and slower access were
+> likely as the problem was being fully resolved.
+> 
+> [snip]
+> 
+> Link:
+> http://www.thewhir.com/marketwatch/010207_Savvis_Data_Center_Suffers_Outage
+> .cfm
+> 
+> SureSupport:
+> http://www.suresupport.com/savvis.php
+> 
+> - ferg
+> 
+- -----------------------------
+Connectivity matrix is available at. It appears be normal now.
+
+http://ipsla.savvis.net/Matrix.jsp?report=L&region=US-US&refresh=60
+
+
+
+regards,
+/virendra
+
+
+
+
+- --
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFmuY2pbZvCIJx1bcRAt+OAKDUHkV7ZI5ddRcdlBT0szJXf+fE8gCg1bRa
+kU0kItjl8rqnT/8UGlsZHuc=
+=O6AB
+-----END PGP SIGNATURE-----
+
+
+From Michael.Washington  Wed Jan  3 15:10:20 2007
+From: Michael.Washington (Michael.Washington at fitchratings.com)
+Date: Wed, 3 Jan 2007 14:10:20 -0600
+Subject: [Outages] Level3 this morning... Message-ID: <OF9CD61D32.F9CF45DB-ON86257258.006E943C-86257258.006EA352@fitchratings.com>
+
+
+Any other Level3 customers notice or hear about extreme latency issue(s)
+around 10 AM mountain time with westcoast connectivity this morning?
+
+
+______________________________________________________________________
+Confidentiality Notice:  The information in this e-mail and any attachment(s) is confidential and for the use of the addressee(s) only.  If you have received this e-mail in error, please delete this e-mail.  Unauthorized use, reliance, disclosure or copying of the contents of this e-mail, or any similar action, is prohibited.
+
+This email has been scanned by the MessageLabs Email Security System.
+For more information please visit http://www.messagelabs.com/email ______________________________________________________________________
+
+
+From virendra.rode  Wed Jan  3 18:00:32 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 03 Jan 2007 15:00:32 -0800
+Subject: [Outages] In regards to Savvis outage Message-ID: <459C3590.4040505@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://www.pcworld.idg.com.au/index.php/id;87482145
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFnDWQpbZvCIJx1bcRAt0SAKCEIRei4UVrKP0YCKFQQmkwFZ9b8gCfa0JV
+J5PcCawz9zRIYUMwtsZFTO4=
+=qGBX
+-----END PGP SIGNATURE-----
+
+
+From shakeelahmad  Thu Jan  4 03:57:42 2007
+From: shakeelahmad (Shakeel Ahmad)
+Date: Thu, 4 Jan 2007 13:57:42 +0500
+Subject: [Outages] Level3 this morning... In-Reply-To: <OF9CD61D32.F9CF45DB-ON86257258.006E943C-86257258.006EA352@fitchratings.com>
+References: <OF9CD61D32.F9CF45DB-ON86257258.006E943C-86257258.006EA352@fitchratings.com>
+Message-ID: <f9bf28ad0701040057k488367fcsedb26315128fb213@mail.gmail.com>
+
+We did the same as our upstream path from Pakistan to US was via Level3. But
+they were resolved like after 5 hours.
+
+thanks,
+Shakeel
+
+
+On 1/4/07, Michael.Washington at fitchratings.com <
+Michael.Washington at fitchratings.com> wrote:
+>
+>
+> Any other Level3 customers notice or hear about extreme latency issue(s)
+> around 10 AM mountain time with westcoast connectivity this morning?
+>
+>
+> ______________________________________________________________________
+> Confidentiality Notice:  The information in this e-mail and any
+> attachment(s) is confidential and for the use of the addressee(s) only.  If
+> you have received this e-mail in error, please delete this
+> e-mail.  Unauthorized use, reliance, disclosure or copying of the contents
+> of this e-mail, or any similar action, is prohibited.
+>
+> This email has been scanned by the MessageLabs Email Security System.
+> For more information please visit http://www.messagelabs.com/email______________________________________________________________________
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070104/ffcc1132/attachment.htm 
+
+
+From liorlists  Thu Jan  4 16:33:57 2007
+From: liorlists (Lior Cohen)
+Date: Thu, 4 Jan 2007 22:33:57 +0100
+Subject: [Outages] Frankfurt GBLX to savvis NY latency Message-ID: <9a2967260701041333v79feefb3o211309f6b7762cfa@mail.gmail.com>
+
+started about 3 hours ago...
+i can see that only from GBLX frankfurt at the moment, other routes to
+savvis NY works perfect.
+
+www.netnoc.net
+
+
+From liorlists  Thu Jan  4 17:59:32 2007
+From: liorlists (Lior Cohen)
+Date: Thu, 4 Jan 2007 23:59:32 +0100
+Subject: [Outages] Frankfurt GBLX to savvis NY latency In-Reply-To: <9a2967260701041333v79feefb3o211309f6b7762cfa@mail.gmail.com>
+References: <9a2967260701041333v79feefb3o211309f6b7762cfa@mail.gmail.com>
+Message-ID: <9a2967260701041459t641fc51agd3f838b042752c54@mail.gmail.com>
+
+Never mind,
+it's back to normal.
+
+
+
+
+
+> started about 3 hours ago...
+> i can see that only from GBLX frankfurt at the moment, other routes to
+> savvis NY works perfect.
+>
+> www.netnoc.net
+>
+
+
+From virendra.rode  Fri Jan  5 18:24:31 2007
+From: virendra.rode (virendra rode //)
+Date: Fri, 05 Jan 2007 15:24:31 -0800
+Subject: [Outages] Equinix Chicago - outages in some cabinets. Message-ID: <459EDE2F.40603@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Apparently a contractor punched a hole in the roof which caused water to
+leak through the ceiling, causing power outages to one or two cages on
+the 6th floor. It appears to the be contained now.
+
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFnt4vpbZvCIJx1bcRArBFAJoCj3fVZAbFsfAQbmeceaY7ApycMgCfTakx
+p9B+A1ogIf9n6nxXpiDYGBU=
+=K4fl
+-----END PGP SIGNATURE-----
+
+
+From jimpop  Fri Jan  5 20:11:25 2007
+From: jimpop (Jim Popovitch)
+Date: Fri, 05 Jan 2007 20:11:25 -0500
+Subject: [Outages] Equinix Chicago - outages in some cabinets. In-Reply-To: <459EDE2F.40603@gmail.com>
+References: <459EDE2F.40603@gmail.com>
+Message-ID: <1168045885.9652.0.camel@localhost>
+
+On Fri, 2007-01-05 at 15:24 -0800, virendra rode // wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Apparently a contractor punched a hole in the roof...
+
+Just how does one get a backhoe up on the roof these days?
+
+:-)
+
+-Jim P.
+ 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: This is a digitally signed message part
+Url : http://isotf.org/pipermail/outages/attachments/20070105/8b953b3f/attachment.pgp 
+
+
+From LarrySheldon  Fri Jan  5 20:22:15 2007
+From: LarrySheldon (Laurence F. Sheldon, Jr.)
+Date: Fri, 05 Jan 2007 19:22:15 -0600
+Subject: [Outages] Equinix Chicago - outages in some cabinets. In-Reply-To: <1168045885.9652.0.camel@localhost>
+References: <459EDE2F.40603@gmail.com> <1168045885.9652.0.camel@localhost>
+Message-ID: <459EF9C7.7080500@cox.net>
+
+Jim Popovitch wrote:
+
+>>Apparently a contractor punched a hole in the roof...
+> 
+> Just how does one get a backhoe up on the roof these days?
+
+Google is your friend.
+http://www.canada.com/edmontonjournal/news/cityplus/story.html?id=ac68c029-51df-4b5e-8090-e8f2b27aae2b
+http://tinyurl.com/yhovgr
+
+-- 
+Requiescas in pace o email
+
+Ex turpi causa non oritur actio
+
+http://members.cox.net/larrysheldon/
+
+
+
+
+From virendra.rode  Sun Jan  7 13:17:52 2007
+From: virendra.rode (virendra rode //)
+Date: Sun, 07 Jan 2007 10:17:52 -0800
+Subject: [Outages] Cogent issues Message-ID: <45A13950.2020901@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+http://status.cogentco.com/ has a warning.
+
+Also, http://www.internetpulse.net/ showing alerts for cogent.
+
+
+Anyone else noticing any slowness?
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFoTlPpbZvCIJx1bcRAu2cAJ4q+0+67vkcxRiitXbM0ttYl8AUOgCglBaT
+te1WKKgdwisj3e3QvDOEXPY=
+=y7Sq
+-----END PGP SIGNATURE-----
+
+
+From fergdawg  Sun Jan  7 14:05:28 2007
+From: fergdawg (Fergie)
+Date: Sun, 7 Jan 2007 19:05:28 GMT
+Subject: [Outages] Fwd: Anyone have details on MCI outage yesterday Message-ID: <20070107.110558.2671.1848754@webmail11.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070107/3923df1d/attachment.diff 
+
+
+From virendra.rode  Sun Jan  7 15:25:20 2007
+From: virendra.rode (virendra rode //)
+Date: Sun, 07 Jan 2007 12:25:20 -0800
+Subject: [Outages] Fwd: Anyone have details on MCI outage yesterday In-Reply-To: <20070107.110558.2671.1848754@webmail11.lax.untd.com>
+References: <20070107.110558.2671.1848754@webmail11.lax.untd.com>
+Message-ID: <45A15730.5040903@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Fergie wrote:
+> Forwarded from the NANOG list.
+> 
+> FYI,
+- -------------------------
+I thought I heard verizon mentioning that a construction crew trying to
+replace a utility pole north of Stevens Point damaged the cable. The
+problem affected long distance and data transmissions such as fax lines
+and credit card machines.
+
+Not sure if this is related.
+
+
+regards,
+/virendra
+
+
+> 
+> - ferg
+> 
+> [forwarded message]
+> 
+> To: nanog at nanog.org
+> From: Owen DeLong <owen at delong.com>
+> Subject: Anyone have details on MCI outage yesterday
+> Date: Sun, 7 Jan 2007 10:29:01 -0800
+> 
+> 
+> Yesterday, around 10:00 AM Pacific Time 1/5/07, Kwajalein Atoll lost all
+> connectivity to the mainland. We were told this was because MCI "lost 40
+> DS-3s due to someone shooting up a telephone pole in California"
+> 
+> This affected Internet, Telephones (although inbound phone calls to the
+> islands were possible), and television.
+> 
+> Kwajalein access to the mainlaind is via Satellite to Washington  
+> connected to
+> terrestrial link to Georgia.
+> 
+> The outage lasted more than 12 hours.
+> 
+> It seems odd to me in this day and age that:
+> 
+> 	1.	There wasn't a redundant path for these circuits.
+> 
+> 	2.	It took 12 hours to restore or reroute these circuits.
+> 
+> Any details would be appreciated.
+> 
+> Thanks,
+> 
+> Owen
+> 
+> P.S. For those wondering "Where?" There are excellent resources in  
+> Wikipedia, but,
+> the short answer is Kwajalein Atoll is part of the Marshall Islands  
+> and is about the
+> midpoint on a line from Honolulu to Sydney.  About 9N by 165E.
+> 
+> [snip]
+> 
+
+- --
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawg(at)netzero.net
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFoVcvpbZvCIJx1bcRAu2zAJsFiEviHmdD0J9cQyLShdrAmK/VaQCgi0J7
+Y1nQ6qqbi1a6AoAuz20YHAc=
+=kbh1
+-----END PGP SIGNATURE-----
+
+
+From virendra.rode  Sun Jan  7 15:26:17 2007
+From: virendra.rode (virendra rode //)
+Date: Sun, 07 Jan 2007 12:26:17 -0800
+Subject: [Outages] [Fwd: Re:  Cogent issues] Message-ID: <45A15769.1060605@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+fyi.
+
+- -------- Original Message --------
+Subject: Re: [Outages] Cogent issues
+Date: Sun, 07 Jan 2007 19:46:14 +0100
+From: Gaurav Sabharwal <gaurav at inwire.net>
+To: virendra.rode at gmail.com
+References: <45A13950.2020901 at gmail.com>
+
+We are seeing issues with traffic going towards Europe. However within
+US, it is fine.
+
+Regards,
+- - Gaurav
+on 01/07/2007 07:17 PM virendra rode // said the following:
+> http://status.cogentco.com/ has a warning.
+> 
+> Also, http://www.internetpulse.net/ showing alerts for cogent.
+> 
+> 
+> Anyone else noticing any slowness?
+> 
+> 
+> regards,
+> /virendra
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFoVdppbZvCIJx1bcRAsbRAKCloHf30yKTkXMzSR3k6rsL3pt4DgCeIq6q
+qK4HRqN3VTcb8ZLgbp7t6VI=
+=L4/W
+-----END PGP SIGNATURE-----
+
+
+From Anshuman.Kanwar  Sun Jan  7 15:30:44 2007
+From: Anshuman.Kanwar (Anshuman Kanwar)
+Date: Sun, 7 Jan 2007 12:30:44 -0800
+Subject: [Outages] [Fwd: Re:  Cogent issues] In-Reply-To: <45A15769.1060605@gmail.com>
+Message-ID: <633D19B19DA39346BB2B40D09A3D7EA602657F42@sbapexch02.ad.corp.expertcity.com>
+
+ 
+I have been seeing 300ms+ latency from the west coast to
+Europe. Here is what I got from Cogent's help desk:
+
+  -----Original Message-----
+  From: Cogent Help Desk [mailto:support at cogentco.com] 
+  Sent: Sunday, January 07, 2007 9:25 AM PST
+
+  Hello,
+
+  We are currently expierancing latency over our network 
+  due to a failed card. We have shipped a replacement
+card 
+  and expect this issue to be resolved by 4:30pm est.
+
+
+Regards,
+-ansh
+
+
+-----Original Message-----
+From: virendra rode // [mailto:virendra.rode at gmail.com] 
+Sent: Sunday, January 07, 2007 12:26 PM
+To: outages at isotf.org
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+fyi.
+
+- -------- Original Message --------
+Subject: Re: [Outages] Cogent issues
+Date: Sun, 07 Jan 2007 19:46:14 +0100
+From: Gaurav Sabharwal <gaurav at inwire.net>
+To: virendra.rode at gmail.com
+References: <45A13950.2020901 at gmail.com>
+
+We are seeing issues with traffic going towards Europe.
+However within US, it is fine.
+
+Regards,
+- - Gaurav
+on 01/07/2007 07:17 PM virendra rode // said the
+following:
+> http://status.cogentco.com/ has a warning.
+> 
+> Also, http://www.internetpulse.net/ showing alerts for
+cogent.
+> 
+> 
+> Anyone else noticing any slowness?
+> 
+> 
+> regards,
+> /virendra
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla -
+http://enigmail.mozdev.org
+
+iD8DBQFFoVdppbZvCIJx1bcRAsbRAKCloHf30yKTkXMzSR3k6rsL3pt4D
+gCeIq6q
+qK4HRqN3VTcb8ZLgbp7t6VI=
+=L4/W
+-----END PGP SIGNATURE-----
+_______________________________________________
+Outages mailing list
+Outages at isotf.org
+http://isotf.org/mailman/listinfo/outages
+
+
+From owen  Sun Jan  7 18:32:39 2007
+From: owen (Owen DeLong)
+Date: Sun, 7 Jan 2007 15:32:39 -0800
+Subject: [Outages] Fwd: Anyone have details on MCI outage yesterday In-Reply-To: <45A15730.5040903@gmail.com>
+References: <20070107.110558.2671.1848754@webmail11.lax.untd.com>
+	<45A15730.5040903@gmail.com>
+Message-ID: <B150FB7E-2355-4DD7-9C62-244EFBD7BC40@delong.com>
+
+I think the Stevens Point outage is a separate incident:
+
+	1.	They claim all services were restored by 5PM CST, but, our
+		outage lasted until about 01:30 CST.
+
+	2.	We were told that the utility pole in question was in California.
+
+Owen
+
+
+On Jan 7, 2007, at 12:25 PM, virendra rode // wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Fergie wrote:
+>> Forwarded from the NANOG list.
+>>
+>> FYI,
+> - -------------------------
+> I thought I heard verizon mentioning that a construction crew  
+> trying to
+> replace a utility pole north of Stevens Point damaged the cable. The
+> problem affected long distance and data transmissions such as fax  
+> lines
+> and credit card machines.
+>
+> Not sure if this is related.
+>
+>
+> regards,
+> /virendra
+>
+>
+>>
+>> - ferg
+>>
+>> [forwarded message]
+>>
+>> To: nanog at nanog.org
+>> From: Owen DeLong <owen at delong.com>
+>> Subject: Anyone have details on MCI outage yesterday
+>> Date: Sun, 7 Jan 2007 10:29:01 -0800
+>>
+>>
+>> Yesterday, around 10:00 AM Pacific Time 1/5/07, Kwajalein Atoll  
+>> lost all
+>> connectivity to the mainland. We were told this was because MCI  
+>> "lost 40
+>> DS-3s due to someone shooting up a telephone pole in California"
+>>
+>> This affected Internet, Telephones (although inbound phone calls  
+>> to the
+>> islands were possible), and television.
+>>
+>> Kwajalein access to the mainlaind is via Satellite to Washington
+>> connected to
+>> terrestrial link to Georgia.
+>>
+>> The outage lasted more than 12 hours.
+>>
+>> It seems odd to me in this day and age that:
+>>
+>> 	1.	There wasn't a redundant path for these circuits.
+>>
+>> 	2.	It took 12 hours to restore or reroute these circuits.
+>>
+>> Any details would be appreciated.
+>>
+>> Thanks,
+>>
+>> Owen
+>>
+>> P.S. For those wondering "Where?" There are excellent resources in
+>> Wikipedia, but,
+>> the short answer is Kwajalein Atoll is part of the Marshall Islands
+>> and is about the
+>> midpoint on a line from Honolulu to Sydney.  About 9N by 165E.
+>>
+>> [snip]
+>>
+>
+> - --
+> "Fergie", a.k.a. Paul Ferguson
+>  Engineering Architecture for the Internet
+>  fergdawg(at)netzero.net
+>  ferg's tech blog: http://fergdawg.blogspot.com/
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.2.2 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFFoVcvpbZvCIJx1bcRAu2zAJsFiEviHmdD0J9cQyLShdrAmK/VaQCgi0J7
+> Y1nQ6qqbi1a6AoAuz20YHAc=
+> =kbh1
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: smime.p7s
+Type: application/pkcs7-signature
+Size: 2105 bytes
+Desc: not available
+Url : http://isotf.org/pipermail/outages/attachments/20070107/6a9b4834/attachment.bin 
+
+
+From virendra.rode  Wed Jan 10 10:30:17 2007
+From: virendra.rode (virendra rode //)
+Date: Wed, 10 Jan 2007 07:30:17 -0800
+Subject: [Outages] [Fwd: [IP] Asia connectivity outages, from the field] Message-ID: <45A50689.6020508@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Begin forwarded message:
+
+From: "Philip L. Lehman" <p.lehman at iCarnegie.com>
+Date: January 9, 2007 7:00:02 PM EST
+To: dave at farber.net
+
+Dave,
+
+[For IP, if of interest.]
+
+I've been in southern China (Changsha, in Hunan province) since
+Sunday (local time).  My observations have been that network
+connectivity is significantly worse than usual, but is also
+(unsurprisingly) somewhat time-of-day dependent. I have fairly good
+success in the early morning; on the other hand, during evening hours
+(local) it's difficult to connect with servers in the States. There
+are also, of course, dependence on the particular services needed;
+some Internet sites appear to be either better connected or have
+services partly provided out of China, enhancing availability (Google
+is a notable example of good perceived connectivity).  I also suspect
+that the phenomenon includes increased network congestion due to a
+much larger number of retries after failed attempts (to which I find
+myself contributing, for example hitting the refresh button in hopes
+of a better result).
+
+We're hearing that services are up to the "70%" level (could be true,
+could be PR) but that repairs have been delayed by a problem with a
+repair ship and rough weather at sea.
+
+Cheers,
+
+Philip Lehman
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFpQaJpbZvCIJx1bcRAtS6AKDcEbJtxrl+kLcTqsHqlr7IS0zC/ACeOt64
+hXgvrMam7pdUGafVkNTQAhs=
+=0b2k
+-----END PGP SIGNATURE-----
+
+
+From kwallace  Thu Jan 11 16:35:40 2007
+From: kwallace (Wallace Keith)
+Date: Thu, 11 Jan 2007 16:35:40 -0500
+Subject: [Outages] test Message-ID: <153C7BD7A0BE5E4C82C46650FEA9413006CCE66D@MKA46.pcc.int>
+
+Sorry about the noise, just testing
+-Keith
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070111/e7a741ea/attachment.htm 
+
+
+From barry  Fri Jan 12 08:38:03 2007
+From: barry (Barry Fawthrop)
+Date: Fri, 12 Jan 2007 08:38:03 -0500
+Subject: [Outages] Quest Problems in Denver Message-ID: <45A78F3B.7040802@ttienterprises.org>
+
+Hi All
+
+Can other confirm or deny Quest T1 problems in the Devner, CO area?
+Have a T1 Provider that has been dropping links like flies.
+
+Thanks
+Barry
+
+
+From gaurav  Sat Jan 13 12:05:20 2007
+From: gaurav (Gaurav Sabharwal)
+Date: Sat, 13 Jan 2007 18:05:20 +0100
+Subject: [Outages] Cogent to DTAG Message-ID: <45A91150.5040309@inwire.net>
+
+Anybody else noticing network issues with Cogent's connectivity to DTAG 
+in LAX?
+
+8  p6-0.core01.lax04.atlas.cogentco.com (154.54.6.242)  35.209 ms 
+35.227 ms  34.995 ms
+9  dtag.lax01.atlas.cogentco.com (154.54.11.158)  922.306 ms  920.219 ms 
+  899.892 ms
+
+Would appreciate if anybody has any inputs on this.
+
+Regards,
+Gaurav
+
+
+From fergdawg  Mon Jan 15 23:52:09 2007
+From: fergdawg (Fergie)
+Date: Tue, 16 Jan 2007 04:52:09 GMT
+Subject: [Outages] Yet Another Quake Rattles Taipei Message-ID: <20070115.205301.808.1064336@webmail07.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070116/bfdc8460/attachment.diff 
+
+
+From fergdawg  Tue Jan 16 00:11:54 2007
+From: fergdawg (Fergie)
+Date: Tue, 16 Jan 2007 05:11:54 GMT
+Subject: [Outages] Yet Another Quake Rattles Taipei Message-ID: <20070115.211241.808.1064442@webmail07.lax.untd.com>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: http://isotf.org/pipermail/outages/attachments/20070116/bd90a9e8/attachment.diff 
+
+
+From mike.lyon  Tue Jan 16 00:42:01 2007
+From: mike.lyon (Mike Lyon)
+Date: Mon, 15 Jan 2007 21:42:01 -0800
+Subject: [Outages] Yet Another Quake Rattles Taipei In-Reply-To: <20070115.205301.808.1064336@webmail07.lax.untd.com>
+References: <20070115.205301.808.1064336@webmail07.lax.untd.com>
+Message-ID: <1b5c1c150701152142w1fd8c2efode19b1adaa7d346b@mail.gmail.com>
+
+A certain Johnny Cash song comes to mind... As long as the earthquakes
+stay on the Western side of the Ring of Fire I think we'll be OK .
+
+-Mike
+
+
+On 1/15/07, Fergie <fergdawg at netzero.net> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Via The Boston Globe (Reuters).
+>
+> [snip]
+>
+> A moderate earthquake shook Taipei on Tuesday, but it was not immediately
+> clear where the quake was centered. There were no immediate reports of
+> damage.
+>
+> The earthquake occurred around 11:10 a.m. local time (0310 GMT), but it was
+> unclear where the epicenter was or how strong it was.
+>
+> Earthquakes occur frequently in Taiwan, which lies on a seismically active
+> stretch of the Pacific basin.
+>
+> One of Taiwan's worst-recorded quakes occurred in September 1999. Measuring
+> 7.6 on the Richter scale, it killed more than 2,400 people and destroyed or
+> damaged 50,000 buildings.
+>
+> [snip]
+>
+> More:
+> http://www.boston.com/news/world/asia/articles/2007/01/16/quake_rattles_tai
+> pei/
+>
+> It is unclear whether this latest quake had contributed to
+> ongoing connectivity issues in the regions still being felt
+> by the last series of earthquakes last month.
+>
+> - - ferg
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: PGP Desktop 9.5.2 (Build 4075)
+>
+> wj8DBQFFrFnyq1pz9mNUZTMRAto0AKCmeNojVs8DIEAPlna/X3bxL2+m+gCfRan4
+> +cQKyMW6W5nzjSYMs2pXs4c=
+> =ZKHW
+> -----END PGP SIGNATURE-----
+>
+>
+> --
+> "Fergie", a.k.a. Paul Ferguson
+>  Engineering Architecture for the Internet
+>  fergdawg(at)netzero.net
+>  ferg's tech blog: http://fergdawg.blogspot.com/
+>
+> _______________________________________________
+> Outages mailing list
+> Outages at isotf.org
+> http://isotf.org/mailman/listinfo/outages
+>
+
+
+From cmills  Wed Jan 17 18:15:44 2007
+From: cmills (Mills, Charles)
+Date: Wed, 17 Jan 2007 18:15:44 -0500
+Subject: [Outages] Cogent Fiber Cut? Message-ID: <58E0B21FC367B24485855A1DBD96B0BB0953C3E7@adc-prd-exch1.internal.accessdc.com>
+
+Anyone have any details on a fiber cut between Pittsburgh and Dulles, Va
+affecting Cogent and possibly others?
+
+ 
+
+Charles L. Mills
+
+Senior Network Engineer
+
+Access Data Corporation
+
+90 Beta Drive
+
+Pittsburgh, PA 15238
+
+(412) 968-4024
+
+cmills at accessdc.com
+
+Hosting, Colocation, Disaster Recovery Solutions.....
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070117/dc65e2d7/attachment.htm 
+
+
+From paul  Fri Jan 19 14:19:47 2007
+From: paul (Paul Laudanski)
+Date: Fri, 19 Jan 2007 14:19:47 -0500
+Subject: [Outages] Yipes connectivity issues? Message-ID: <0ef901c73bfe$f8e7eef0$3101a8c0@Spanky>
+
+Sprintlink LookingGlass out to 209.213.221.1/32 (also a Yipes) shows an 
+issue too.  I show LGs also for Level3 and Above.net.  All show issues with 
+Yipes routers.
+
+sl-bb20-chi>trace 209.213.221.1
+
+ Type escape sequence to abort.
+ Tracing the route to 209.213.221.1
+
+   1 sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 36 msec
+     sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 20 msec
+     sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 40 msec
+   2 144.232.8.114 124 msec 8 msec 0 msec
+   3 ae-1-53.bbr1.Chicago1.Level3.net (4.68.101.65) [AS 3356] 0 msec 8 msec
+     ae-1-55.bbr1.Chicago1.Level3.net (4.68.101.129) [AS 3356] 4 msec
+   4 so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) [AS 3356] 28 msec 
+60 msec
+     so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 100 msec
+   5 so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) [AS 3356] 32 msec 
+28 msec 148 msec
+   6 unknown.Level3.net (63.209.178.162) [AS 3356] 40 msec 28 msec 44 msec
+   7 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS 6517] 168 msec 24 msec 
+24 msec
+   8 o0-4bd1.phl004bd02.yipes.com (66.54.175.165) [AS 6517] 124 msec 64 msec 
+108 msec
+   9 o0-4bd2.phl005bd02.yipes.com (66.54.175.158) [AS 6517] 32 msec 96 msec 
+104 msec
+  10 209.213.221.1 [AS 6517] 200 msec 44 msec 60 msec
+ sl-bb20-chi>
+
+Out to 66.227.46.1 from Sprint...
+
+sl-bb20-chi>trace 66.227.46.1
+
+ Type escape sequence to abort.
+ Tracing the route to 66.227.46.1
+
+   1 sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 12 msec
+     sl-st20-chi-13-0.sprintlink.net (144.232.20.3) 4 msec
+     sl-st20-chi-12-0.sprintlink.net (144.232.8.219) 8 msec
+   2 144.232.8.114 36 msec 56 msec 68 msec
+   3 ae-1-51.bbr1.Chicago1.Level3.net (4.68.101.1) [AS 3356] 48 msec
+     ae-1-55.bbr1.Chicago1.Level3.net (4.68.101.129) [AS 3356] 20 msec 12 
+msec
+   4 so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 196 msec
+     so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) [AS 3356] 36 msec
+     so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) [AS 3356] 80 msec
+   5 so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) [AS 3356] 28 msec
+     so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) [AS 3356] 68 msec
+     so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) [AS 3356] 228 msec
+   6 unknown.Level3.net (63.209.178.162) [AS 3356] 220 msec 228 msec 48 msec
+   7 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS 6517] 200 msec 212 
+msec 200 msec
+   8 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS 6517] 212 msec 216 
+msec 88 msec
+   9 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS 6517] 32 msec 44 msec 
+168 msec
+  10 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS 6517] 44 msec 132 msec 
+36 msec
+  11  *  *  *
+  12  *
+     66.54.173.62 [AS 6517] 52 msec *
+ sl-bb20-chi>
+
+
+Going thru Above.net:
+
+Router: mpr1.dca2.us.above.net
+Command: traceroute 66.227.46.1
+
+
+
+traceroute to 66.227.46.1 (66.227.46.1), 30 hops max, 40 byte packets
+ 1  so-0-0-0.cr1.dca2.us.above.net (64.125.29.121)  0.568 ms  0.461 ms 
+0.544 ms
+ 2  so-6-0-0.mpr1.iad1.us.above.net (64.125.28.126)  0.826 ms  0.800 ms 
+0.839 ms
+ 3  so-3-0-0.mpr2.iad2.us.above.net (64.125.28.214)  0.974 ms  1.227 ms 
+0.981 ms
+ 4  so-3-0-0.mpr2.iad10.us.above.net (64.125.30.121)  1.414 ms  1.529 ms 
+1.425 ms
+ 5  so-2-0-0.edge2.Washington1.Level3.net (4.68.127.49)  1.559 ms  1.523 ms 
+1.569 ms
+ 6  so-1-1-0.bbr2.Washington1.Level3.net (64.159.3.65)  3.894 ms 
+so-1-1-0.bbr1.Washington1.Level3.net (64.159.3.61)  1.952 ms  1.822 ms
+ 7  so-1-0-0.mp1.Philadelphia1.Level3.net (209.247.8.69)  5.214 ms 
+so-3-0-0.mp2.Philadelphia1.Level3.net (64.159.0.142)  13.817 ms 
+so-1-0-0.mp1.Philadelphia1.Level3.net (209.247.8.69)  5.183 ms
+ 8  so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154)  5.166 ms 
+so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146)  5.330 ms 
+so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154)  5.185 ms
+ 9  unknown.Level3.net (63.209.178.162)  5.468 ms  5.339 ms  5.370 ms
+10  o0-4jp1.phl004bd01.yipes.com (66.54.175.194)  391.775 ms  36.027 ms 
+8.147 ms
+11  o0-4bd1.phl005bd01.yipes.com (66.54.175.162)  67.080 ms  5.905 ms  5.807 
+ms
+12  o4-5bd1.phl038ap01.yipes.com (66.54.175.66)  6.971 ms  7.676 ms  7.276 
+ms
+13  o4-38ap1.phl067ap01.yipes.com (66.54.175.90)  9.894 ms  10.450 ms  9.759 
+ms
+14  * 66.54.173.62 (66.54.173.62)  29.631 ms *
+Show Level 3 (Cincinnati, OH) Traceroute to 66.227.46.1   1 
+so-7-0-0.mp1.Cincinnati1.Level3.net (4.68.124.237) 0 msec 0 msec 0 msec
+  2 so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) 28 msec
+    so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) 28 msec
+    so-3-0-0.mp1.Philadelphia1.Level3.net (64.159.0.141) 28 msec
+  3 so-10-0.hsa1.Philadelphia1.Level3.net (64.159.0.146) 28 msec 28 msec
+    so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) 28 msec
+  4 unknown.Level3.net (63.209.178.162) 32 msec 28 msec 28 msec
+  5 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS6517 {YIPESCOM}] 28 msec 
+28 msec 32 msec
+  6 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS6517 {YIPESCOM}] 28 msec 
+28 msec 160 msec
+  7 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS6517 {YIPESCOM}] 36 msec 
+28 msec 32 msec
+  8 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS6517 {YIPESCOM}] 32 msec 
+40 msec 32 msec
+  9  *
+    66.54.173.62 [AS6517 {YIPESCOM}] 52 msec *
+Show Level 3 (Cincinnati, OH) Traceroute to 65.175.38.1
+
+  1 so-7-0-0.mp1.Cincinnati1.Level3.net (4.68.124.237) 0 msec 4 msec 0 msec
+  2 so-1-0-0.mp2.Philadelphia1.Level3.net (209.247.8.65) 28 msec 28 msec 32 
+msec
+  3 so-11-0.hsa1.Philadelphia1.Level3.net (64.159.0.154) 28 msec 28 msec 28 
+msec
+  4 unknown.Level3.net (63.209.178.162) 28 msec 28 msec 28 msec
+  5 o0-4jp1.phl004bd01.yipes.com (66.54.175.194) [AS6517 {YIPESCOM}] 28 msec 
+32 msec 28 msec
+  6 o0-4bd1.phl005bd01.yipes.com (66.54.175.162) [AS6517 {YIPESCOM}] 28 msec 
+36 msec 196 msec
+  7 o4-5bd1.phl038ap01.yipes.com (66.54.175.66) [AS6517 {YIPESCOM}] 28 msec 
+32 msec 28 msec
+  8 o4-38ap1.phl067ap01.yipes.com (66.54.175.90) [AS6517 {YIPESCOM}] 32 msec 
+32 msec 36 msec
+  9 66.7.133.154 [AS6517 {YIPESCOM}] 32 msec 80 msec 32 msec
+ 10  *  *  *
+
+
+----- Original Message ----- 
+From: "Paul Laudanski" <paul at castlecops.com>
+To: <outages at isotf.org>
+Sent: Friday, January 19, 2007 1:59 PM
+
+
+> Out to:
+>
+> 66.227.46.0/24
+> 65.175.38.0/24
+>
+> It started around 8:30/9AM EST today.  I'm getting consistent packet loss 
+> and high latency.
+>
+> (I won't get replies at the moment...)
+>
+> Paul Laudanski, Microsoft MVP Windows-Security
+> Phish XML Feed: http://www.castlecops.com/article6619.html
+> Phish Takedown: http://castlecops.com/pirt
+> LinkedIn: http://www.linkedin.com/pub/1/49a/17b
+> www.CastleCops.com | de.CastleCops.com | wiki.CastleCops.com
+> 
+
+
+
+From paul  Fri Jan 19 13:59:09 2007
+From: paul (Paul Laudanski)
+Date: Fri, 19 Jan 2007 13:59:09 -0500
+Subject: [Outages] Yipes connectivity issues? Message-ID: <0ef101c73bfb$ecff68a0$3101a8c0@Spanky>
+
+Out to:
+
+66.227.46.0/24
+65.175.38.0/24
+
+It started around 8:30/9AM EST today.  I'm getting consistent packet loss 
+and high latency.
+
+(I won't get replies at the moment...)
+
+Paul Laudanski, Microsoft MVP Windows-Security
+Phish XML Feed: http://www.castlecops.com/article6619.html
+Phish Takedown: http://castlecops.com/pirt
+LinkedIn: http://www.linkedin.com/pub/1/49a/17b
+www.CastleCops.com | de.CastleCops.com | wiki.CastleCops.com
+
+
+
+From maillist  Wed Jan 24 23:12:01 2007
+From: maillist (Adam Greene)
+Date: Wed, 24 Jan 2007 23:12:01 -0500
+Subject: [Outages] ATT West outage? Message-ID: <026701c74036$f6c00720$12140a0a@GINKGO>
+
+Hi,
+
+Does anyone have any news about an ATT outage lasting about 12-18 hours these last two days, which may have affected Yahoo DSL and ATT Citrix service? A company whose server we host started having problems yesterday -- they could apparently establish TCP connections to their server but upon trying to login, the session would simply timeout. It was as if the moment the client computer attempted to establish a second connection to the server with a new source port (but same destination port), the connection was denied. FTP was broken in the same way. Users could authenticate via FTP but were unable to transfer files. 
+
+Company end-users all over the country were having the issue. We think they were connecting via Citrix to the main office in California, then trying to hop over the Internet to the server (located here in NY).
+
+Sounds to me like some kind of firewall issue within ATT somehow.
+
+Any news or insight welcome. 
+
+Best regards,
+Adam
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://isotf.org/pipermail/outages/attachments/20070124/e60993e8/attachment.htm 
+
+

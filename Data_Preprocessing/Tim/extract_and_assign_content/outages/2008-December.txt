@@ -1,0 +1,2459 @@
+From mhuff at ox.com  Tue Dec  2 11:49:36 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Tue, 2 Dec 2008 11:49:36 -0500
+Subject: [outages] Lightpath internet issues?
+In-Reply-To: <2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com><24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+	<2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F91432B45AD9@PUR-EXCH07.ox.com>
+
+It looks like Lightpath was blackholeing us this morning. There is a known outage (master ticket #320475). Anyone else seen or know anything else about this? This is the second time recently we have been blackholed and we are not amused.
+
+----
+Matthew Huff?????? | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+www.ox.com???????  | Phone: 914-460-4039
+aim: matthewbhuff? | Fax:?? 914-460-4139
+
+
+
+
+From tfrancov at xand.com  Tue Dec  2 11:44:22 2008
+From: tfrancov at xand.com (Tony Francovilla)
+Date: Tue, 02 Dec 2008 11:44:22 -0500
+Subject: [outages] Cogent issue?
+Message-ID: <493565E6.4020009@xand.com>
+
+My customers seem to be experiencing problems with Cogent - this is 
+backed up by information at "internethealthreport.com". Does anyone else 
+see this? Is there any more info?
+
+From tfrancov at xand.com  Tue Dec  2 12:13:55 2008
+From: tfrancov at xand.com (Tony Francovilla)
+Date: Tue, 02 Dec 2008 12:13:55 -0500
+Subject: [outages] Lightpath internet issues?
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com>
+	<24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+	<2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+	<483E6B0272B0284BA86D7596C40D29F91432B45AD9@PUR-EXCH07.ox.com>
+Message-ID: <49356CD3.6070801@xand.com>
+
+Yes. It is affecting us, too. The problem seems to be in White Plains, NY.
+
+Matthew Huff wrote:
+> It looks like Lightpath was blackholeing us this morning. There is a known outage (master ticket #320475). Anyone else seen or know anything else about this? This is the second time recently we have been blackholed and we are not amused.
+>
+> ----
+> Matthew Huff       | One Manhattanville Rd
+> OTA Management LLC | Purchase, NY 10577
+> www.ox.com         | Phone: 914-460-4039
+> aim: matthewbhuff  | Fax:   914-460-4139
+>
+>
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>   
+
+From cstone at axint.net  Tue Dec  2 12:20:05 2008
+From: cstone at axint.net (Chris Stone)
+Date: Tue, 2 Dec 2008 10:20:05 -0700
+Subject: [outages] Cogent issue?
+In-Reply-To: <493565E6.4020009@xand.com>
+References: <493565E6.4020009@xand.com>
+Message-ID: <200812021020.05279.cstone@axint.net>
+
+On Tuesday 02 December 2008 9:44:22 am Tony Francovilla wrote:
+> My customers seem to be experiencing problems with Cogent - this is
+> backed up by information at "internethealthreport.com". Does anyone else
+> see this? Is there any more info?
+
+To/From where? Not seeing any problems that I am aware of on our Cogent 
+connection here in downtown Denver,  CO.
+
+
+Chris
+
+From maillist at webjogger.net  Tue Dec  2 14:54:11 2008
+From: maillist at webjogger.net (Adam Greene)
+Date: Tue, 2 Dec 2008 14:54:11 -0500
+Subject: [outages] NY Optonline issues
+Message-ID: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+
+We're experiencing issues receiving packets from Optonline. About 60% packet loss.
+
+96.56.71.26, 69.18.184.146 are a couple example IP addresses.
+
+Have been hearing reports that they are having some kinds of issues in the NY area.
+
+Just a head's up.
+
+Thanks,
+Adam
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081202/219135d5/attachment.html>
+
+From mhuff at ox.com  Tue Dec  2 15:17:39 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Tue, 2 Dec 2008 15:17:39 -0500
+Subject: [outages] NY Optonline issues
+In-Reply-To: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+References: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F91432B45AF4@PUR-EXCH07.ox.com>
+
+It's part of a lightpath outage, master ticket # 320475. There is some issue with their routers in their White Plains POP. No ETR, lightpath has a balloon message asking people to not bother to call support as they are working on it.
+
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Adam Greene
+Sent: Tuesday, December 02, 2008 2:54 PM
+To: outages at outages.org
+Subject: [outages] NY Optonline issues
+
+We're experiencing issues receiving packets from Optonline. About 60% packet loss.
+
+96.56.71.26, 69.18.184.146 are a couple example IP addresses.
+
+Have been hearing reports that they are having some kinds of issues in the NY area.
+
+Just a head's up.
+
+Thanks,
+Adam
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081202/e2d4d3a4/attachment.html>
+
+From vmemaillist at gmail.com  Wed Dec  3 12:07:59 2008
+From: vmemaillist at gmail.com (VM)
+Date: Wed, 3 Dec 2008 12:07:59 -0500
+Subject: [outages] NY Optonline issues
+In-Reply-To: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+References: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+Message-ID: <C73E7B9F-9A57-43E9-A93F-3F156267BE5E@gmail.com>
+
+
+Optimum Online has been having issues affecting many people who are  
+Optimum Online subscribers that I know in the area reporting internet  
+service outages beginning Thursday November 13, 2008.  Although  
+Cablevision customer service does not acknowledge any issues  
+affecting internet service, the field technicians have informed me  
+that the issue is common to the area and they are working to resolve  
+the issue.
+
+
+On Dec 2, 2008, at 2:54 PM, Adam Greene wrote:
+
+> We're experiencing issues receiving packets from Optonline. About  
+> 60% packet loss.
+>
+> 96.56.71.26, 69.18.184.146 are a couple example IP addresses.
+>
+> Have been hearing reports that they are having some kinds of issues  
+> in the NY area.
+>
+> Just a head's up.
+>
+> Thanks,
+> Adam
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081203/f064295a/attachment.html>
+
+From wtan at ezecastle.com  Tue Dec  2 11:52:46 2008
+From: wtan at ezecastle.com (Tan, William)
+Date: Tue, 2 Dec 2008 11:52:46 -0500
+Subject: [outages] Lightpath internet issues?
+In-Reply-To: <483E6B0272B0284BA86D7596C40D29F91432B45AD9@PUR-EXCH07.ox.com>
+References: <5D81F678D9527A46BE806CAD189801EA03E14CD7@moogle.square-enix-usa.com><24177BAABBBEA3499F56E08E16484AAC0270038F@exchange01.fujiesystems.com>
+	<2120391356-1226529971-cardhu_decombobulator_blackberry.rim.net-1025159020-@bxe105.bisx.prod.on.blackberry>
+	<483E6B0272B0284BA86D7596C40D29F91432B45AD9@PUR-EXCH07.ox.com>
+Message-ID: <E10C7302D634FD49AB59FBB5C1CE196B160CDE2FF9@ecimail.eci.corp>
+
+
+Yes.   They have a malfunctioning router in White Plains.
+
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Matthew Huff
+Sent: Tuesday, December 02, 2008 11:50 AM
+To: outages at outages.org
+Subject: [outages] Lightpath internet issues?
+
+It looks like Lightpath was blackholeing us this morning. There is a known outage (master ticket #320475). Anyone else seen or know anything else about this? This is the second time recently we have been blackholed and we are not amused.
+
+----
+Matthew Huff       | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+www.ox.com         | Phone: 914-460-4039
+aim: matthewbhuff  | Fax:   914-460-4139
+
+
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+NOTICE:  The information contained in this transmission is privileged, confidential, and intended only for the use of the individual or entity named above.  If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or the taking of any action in reliance on the contents of this transmission is strictly prohibited.  If you have received this transmission in error, please notify Eze Castle Integration, Inc. by e-mail and destroy the original message and all copies.  Thank you.
+
+
+
+
+From jabley at hopcount.ca  Wed Dec  3 15:40:53 2008
+From: jabley at hopcount.ca (Joe Abley)
+Date: Wed, 3 Dec 2008 15:40:53 -0500
+Subject: [outages] Fwd: [torix/nexxia] Yahoo
+References: <1196AD6C-230A-4A0D-B38A-0D42B119CFE0@teksavvy.com>
+Message-ID: <0A264229-9361-4E2C-B41F-A6CBF6C565B9@hopcount.ca>
+
+Forwarded from a thread on a TorIX list. For many people in Toronto, www.yahoo.com 
+  is not working.
+
+Begin forwarded message:
+
+> From: Joe Abley <jabley at teksavvy.com>
+> Date: 3 December 2008 15:38:01 GMT-05:00
+> To: nexxia at torix.net
+> Subject: Re: [torix/nexxia] Yahoo
+>
+>
+> On 2008-12-03, at 15:34, Paul Stewart wrote:
+>
+>> Wow? yeah, just noticed ? can?t get DNS resolution to any of their  
+>> sites etc?..
+>
+> It looks like a DNS problem, at least at some level.
+>
+> www.yahoo.com is a CNAME (for me) with RDATA www.wa1.b.yahoo.com.
+>
+> wa1.b.yahoo.com is delegated to yf1.yahoo.com and yf2.yahoo.com.
+>
+> Neither yf1.yahoo.com nor yf2.yahoo.com answer for me; my queries  
+> time out.
+>
+>
+> Joe
+>
+
+
+From jasongurtz at npumail.com  Wed Dec  3 15:49:00 2008
+From: jasongurtz at npumail.com (Jason Gurtz)
+Date: Wed, 3 Dec 2008 15:49:00 -0500
+Subject: [outages] Fwd: [torix/nexxia] Yahoo
+In-Reply-To: <0A264229-9361-4E2C-B41F-A6CBF6C565B9@hopcount.ca>
+References: <1196AD6C-230A-4A0D-B38A-0D42B119CFE0@teksavvy.com>
+	<0A264229-9361-4E2C-B41F-A6CBF6C565B9@hopcount.ca>
+Message-ID: <A92EAF652EC423438D55C14C60771C8701087BB7@exchgsrv.nputilities.local>
+
+> Forwarded from a thread on a TorIX list. For many people in Toronto,
+> www.yahoo.com is not working.
+
+Several on NANOG are reporting the same, though it seems to be working for
+some.
+
+~JasonG
+
+-- 
+
+From jabley at hopcount.ca  Wed Dec  3 15:53:27 2008
+From: jabley at hopcount.ca (Joe Abley)
+Date: Wed, 3 Dec 2008 15:53:27 -0500
+Subject: [outages] Fwd: [torix/nexxia] Yahoo
+In-Reply-To: <A92EAF652EC423438D55C14C60771C8701087BB7@exchgsrv.nputilities.local>
+References: <1196AD6C-230A-4A0D-B38A-0D42B119CFE0@teksavvy.com>
+	<0A264229-9361-4E2C-B41F-A6CBF6C565B9@hopcount.ca>
+	<A92EAF652EC423438D55C14C60771C8701087BB7@exchgsrv.nputilities.local>
+Message-ID: <D8A782A0-1E17-4A23-A4FC-F42711605D43@hopcount.ca>
+
+
+On 2008-12-03, at 15:49, Jason Gurtz wrote:
+
+>> Forwarded from a thread on a TorIX list. For many people in Toronto,
+>> www.yahoo.com is not working.
+>
+> Several on NANOG are reporting the same, though it seems to be  
+> working for
+> some.
+
+Perception of brokenness might depend slightly on how recently www.yahoo.com 
+  was cached locally, especially for those who enforce a minimum TTL.
+
+One of the TorIX crew got through to the Yahoo! NOC who told them that  
+there's a known DNS issue on the "east coast". Funny, the Atlantic is  
+a 30 hour drive from here ;)
+
+
+Joe
+
+
+From corqpub at gmail.com  Wed Dec  3 16:52:01 2008
+From: corqpub at gmail.com (L.T. Easterly)
+Date: Wed, 3 Dec 2008 16:52:01 -0500
+Subject: [outages] Fwd: [torix/nexxia] Yahoo
+In-Reply-To: <4cd1e6e30812031350of8dcb2bjf4be38c27132c2ab@mail.gmail.com>
+References: <1196AD6C-230A-4A0D-B38A-0D42B119CFE0@teksavvy.com>
+	<0A264229-9361-4E2C-B41F-A6CBF6C565B9@hopcount.ca>
+	<4cd1e6e30812031350of8dcb2bjf4be38c27132c2ab@mail.gmail.com>
+Message-ID: <4cd1e6e30812031352i457c85ecl54bc87a8252a141@mail.gmail.com>
+
+Multiple users here noted same thing; though the issue had resolved before I
+could run any checks on the routes. Seems ok now from Central Florida.
+
+-- corq
+
+
+>
+> On Wed, Dec 3, 2008 at 3:40 PM, Joe Abley <jabley at hopcount.ca> wrote:
+>
+>> Forwarded from a thread on a TorIX list. For many people in Toronto,
+>> www.yahoo.com is not working.
+>>
+>> Begin forwarded message:
+>>
+>>  From: Joe Abley <jabley at teksavvy.com>
+>>> Date: 3 December 2008 15:38:01 GMT-05:00
+>>> To: nexxia at torix.net
+>>> Subject: Re: [torix/nexxia] Yahoo
+>>>
+>>>
+>>> On 2008-12-03, at 15:34, Paul Stewart wrote:
+>>>
+>>>  Wow? yeah, just noticed ? can't get DNS resolution to any of their sites
+>>>> etc?..
+>>>>
+>>>
+>>> It looks like a DNS problem, at least at some level.
+>>>
+>>> www.yahoo.com is a CNAME (for me) with RDATA www.wa1.b.yahoo.com.
+>>>
+>>> wa1.b.yahoo.com is delegated to yf1.yahoo.com and yf2.yahoo.com.
+>>>
+>>> Neither yf1.yahoo.com nor yf2.yahoo.com answer for me; my queries time
+>>> out.
+>>>
+>>>
+>>> Joe
+>>>
+>>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081203/ca6cb762/attachment.html>
+
+From corqpub at gmail.com  Fri Dec  5 21:27:20 2008
+From: corqpub at gmail.com (L.T. Easterly)
+Date: Fri, 5 Dec 2008 21:27:20 -0500
+Subject: [outages] Central FL Residental Roadrunner
+Message-ID: <4cd1e6e30812051827g191e3e46w84fb27b0887b5b2d@mail.gmail.com>
+
+The WAN IP lease time to my cable modems appear very short, connection
+dropping ya lot, not my usual WAN ip - (I don't pay for a static IP, but I
+have had same IP reassigned months and months at a time.)
+
+Is this indicative of network maintanance adjustments? Should I just ride it
+out? Roadrunner for my area mentions outages 20-30 miles west of me.
+
+Anyone else from Orlando to Volusia vicinity experiencing this?
+
+Thanks.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081205/fa01b033/attachment.html>
+
+From rubanog at yahoo.com  Sat Dec  6 19:34:47 2008
+From: rubanog at yahoo.com (Grace Rubano)
+Date: Sat, 6 Dec 2008 16:34:47 -0800 (PST)
+Subject: [outages] Outage in St. Louis
+References: <4cd1e6e30812051827g191e3e46w84fb27b0887b5b2d@mail.gmail.com>
+Message-ID: <951459.269.qm@web43132.mail.sp1.yahoo.com>
+
+Just thought I'd shoot a quick e-mail (at work, forgive the lack of details). There is a major outage in St. Louse (specifically Hayti and Marston, prob more) due to a water main break that took out a data center in the area. All LEC's systems nearby are down as well including ATT and VZ.
+
+--Grace
+
+
+
+      
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081206/5bac9ae9/attachment.html>
+
+From mhuff at ox.com  Sun Dec  7 18:10:18 2008
+From: mhuff at ox.com (Matthew Huff)
+Date: Sun, 7 Dec 2008 18:10:18 -0500
+Subject: [outages] OC-12 outage in lower manhattan
+In-Reply-To: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+References: <BEA63BCD97B3497F97987B380D89A548@GINKGO>
+Message-ID: <483E6B0272B0284BA86D7596C40D29F914333D0767@PUR-EXCH07.ox.com>
+
+This morning around 9:00 A.M. we lost one of lines to the AMEX. We opened at ticket with AT&T and have been sitting on it all day with limited information and no ETR. We have been told this is part of a power outage dropping an OC-12. Anyone else heard about this or have any info?
+
+----
+Matthew Huff       | One Manhattanville Rd
+OTA Management LLC | Purchase, NY 10577
+www.ox.com         | Phone: 914-460-4039
+aim: matthewbhuff  | Fax:   914-460-4139
+
+From lists at up-south.com  Sun Dec 14 15:56:04 2008
+From: lists at up-south.com (Steve Rieger)
+Date: Sun, 14 Dec 2008 20:56:04 +0000
+Subject: [outages] Sbc in los angeles
+Message-ID: <1494167831-1229288173-cardhu_decombobulator_blackberry.rim.net-1648228403-@bxe325.bisx.prod.on.blackberry>
+
+In burbank to be specific.  Since about 3:45 am pst. 
+
+
+Sent via BlackBerry from T-Mobile
+
+From jra at baylink.com  Thu Dec 18 11:04:32 2008
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 18 Dec 2008 11:04:32 -0500 (EST)
+Subject: [outages] Qwest OC-48 out?
+Message-ID: <7718452.417051229616272811.JavaMail.root@benjamin.vicimarketing.com>
+
+Paul at Airespring tells me Qwest has an OC-48 outage somewhere, which might
+be contributing to call and trunk problems I'm seeing this morning.
+
+Anyone got anything on this?
+
+Cheers,
+-- jra
+
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+             Those who cast the vote decide nothing.
+             Those who count the vote decide everything.
+               -- (Josef Stalin)
+
+
+From jason at fidelityaccess.com  Thu Dec 18 12:01:37 2008
+From: jason at fidelityaccess.com (Jason Gintert)
+Date: Thu, 18 Dec 2008 12:01:37 -0500
+Subject: [outages] Qwest OC-48 out?
+In-Reply-To: <7718452.417051229616272811.JavaMail.root@benjamin.vicimarketing.com>
+Message-ID: <C56FEC21.2C823%jason@fidelityaccess.com>
+
+Jay,
+
+I'm not sure what region you're having trouble in, but Qwest had a tech sent
+to the Cleveland Tandem (CLEVOH62) to replace a piece of transport equipment
+at ~8AM EST.  This dispatch was to repair an OC-48 ring taking errors which
+was affecting many DS1s for us.  I'm not sure if this is related or not, but
+as far as I'm aware, they have resolved the issue and our services are
+restored.
+
+Regards,
+--------
+Jason Gintert
+Director of Network Operations/Engineering
+Fidelity Voice & Data | 23250 Chagrin Blvd, Suite 250 | Beachwood, Ohio
+44122
+P: 216-245-4103
+F: 216-595-0706
+E: jason at fidelityaccess.com
+
+Visit us at http://www.fidelityaccess.com
+
+2008 Inductee to the prestigious Weatherhead 100
+
+
+
+
+> From: "Jay R. Ashworth" <jra at baylink.com>
+> Date: Thu, 18 Dec 2008 11:04:32 -0500 (EST)
+> To: <outages at outages.org>
+> Subject: [outages] Qwest OC-48 out?
+> 
+> Paul at Airespring tells me Qwest has an OC-48 outage somewhere, which might
+> be contributing to call and trunk problems I'm seeing this morning.
+> 
+> Anyone got anything on this?
+> 
+> Cheers,
+> -- jra
+> 
+> -- 
+> Jay R. Ashworth                   Baylink                      jra at baylink.com
+> Designer                     The Things I Think                       RFC 2100
+> Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+> 
+>              Those who cast the vote decide nothing.
+>              Those who count the vote decide everything.
+>                -- (Josef Stalin)
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+From jra at baylink.com  Thu Dec 18 16:03:14 2008
+From: jra at baylink.com (Jay R. Ashworth)
+Date: Thu, 18 Dec 2008 16:03:14 -0500 (EST)
+Subject: [outages] Qwest OC-48 out?
+In-Reply-To: <C56FEC21.2C823%jason@fidelityaccess.com>
+Message-ID: <33186381.421041229634194612.JavaMail.root@benjamin.vicimarketing.com>
+
+----- "Jason Gintert" <jason at fidelityaccess.com> wrote:
+> I'm not sure what region you're having trouble in, but Qwest had a
+> tech sent to the Cleveland Tandem (CLEVOH62) to replace a piece of transport
+> equipment at ~8AM EST.  This dispatch was to repair an OC-48 ring taking errors
+> which was affecting many DS1s for us.  I'm not sure if this is related or
+> not, but as far as I'm aware, they have resolved the issue and our services
+> are restored.
+
+Naw, that won't be my root cause.  I've had half a dozen PRIs flapping, first 
+continuously, then randomly, in West Florida.  I suspect my reseller support
+guy at Airespring, the second or third least competent calltaker I've ever
+spoken to, was merely speculating.
+
+Thanks, though.
+
+Cheers,
+-- jra
+-- 
+Jay R. Ashworth                   Baylink                      jra at baylink.com
+Designer                     The Things I Think                       RFC 2100
+Ashworth & Associates     http://baylink.pitas.com                     '87 e24
+St Petersburg FL USA      http://photo.imageinc.us             +1 727 647 1274
+
+             Those who cast the vote decide nothing.
+             Those who count the vote decide everything.
+               -- (Josef Stalin)
+
+
+From assid at assid.com  Fri Dec 19 09:35:54 2008
+From: assid at assid.com (Satish Alwani)
+Date: Fri, 19 Dec 2008 20:05:54 +0530
+Subject: [outages] Indian Network Slow / Packet Loss
+Message-ID: <494BB14A.5060806@assid.com>
+
+It seems VSNL/Tata amongst other network vendors in india seem to be 
+facing a major network issue. A client of mine who has offices in 
+various other locations confirmed his satellite offices uses airtel and 
+they seem to be facing the same problem. The issue  seems to be only 
+with the international carrier.
+
+Has anyone heard / can shed some light on this? It has been horribly 
+slow with packet losses and latencies in the range of 800ms+ what used 
+to normally be 280, and has been such for the past 8 odd hours that I am 
+aware off.
+
+Regards,
+Satish Alwani
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081219/991c69e5/attachment.html>
+
+From gobbledegeek at gmail.com  Fri Dec 19 10:05:23 2008
+From: gobbledegeek at gmail.com (Gobbledegeek)
+Date: Fri, 19 Dec 2008 20:35:23 +0530
+Subject: [outages] Indian Network Slow / Packet Loss
+Message-ID: <463aea570812190705q5a370a05kf9fe9fcbb0fdd001@mail.gmail.com>
+
+SMW4 submarine cable system failure
+
+--
+
+From gaurav.taparia at gmail.com  Fri Dec 19 10:21:50 2008
+From: gaurav.taparia at gmail.com (Gaurav Taparia)
+Date: Fri, 19 Dec 2008 08:21:50 -0700
+Subject: [outages] Indian Network Slow / Packet Loss
+In-Reply-To: <463aea570812190705q5a370a05kf9fe9fcbb0fdd001@mail.gmail.com>
+References: <463aea570812190705q5a370a05kf9fe9fcbb0fdd001@mail.gmail.com>
+Message-ID: <e812c41b0812190721h270b9dd3q9ff22b487f18f6a@mail.gmail.com>
+
+>From what we have heard, failure on SeaMeaWea3, SeaMeaWea4 and FALCON
+submarine cable system at Alexandria.
+
+Regards,
+
+On Fri, Dec 19, 2008 at 8:05 AM, Gobbledegeek <gobbledegeek at gmail.com>wrote:
+
+> SMW4 submarine cable system failure
+>
+> --
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081219/0359b935/attachment.html>
+
+From derrick at anei.com  Fri Dec 19 12:15:37 2008
+From: derrick at anei.com (Derrick Bennett)
+Date: Fri, 19 Dec 2008 09:15:37 -0800
+Subject: [outages] Indian Network Slow / Packet Loss
+References: <463aea570812190705q5a370a05kf9fe9fcbb0fdd001@mail.gmail.com>
+	<e812c41b0812190721h270b9dd3q9ff22b487f18f6a@mail.gmail.com>
+Message-ID: <2D46D4DC19E28942B057FC4061B47133325C@mail.anei.com>
+
+First Story on it so far. Any additional details would be appreciated.
+ 
+http://www.computerweekly.com/Articles/2008/12/19/234016/cable-damage-disrupts-internet-services.htm
+A sub-sea cable carrying more than 75% of traffic between the Middle East, Europe and America has been damaged.
+
+According to news service Bloomberg, internet and telephone communications <http://www.computerweekly.com/Articles/2008/11/17/233425/internet-service-reaches-for-the-stars-through-the-cloud.htm>  between the Middle East and Europe have been impacted by submarine cable failures <http://www.bloomberg.com/apps/news?pid=newsarchive&sid=aFM6PQsd6i2Q>  between Italy and Egypt in the Mediterranean Sea. 
+
+Bettina Tratz-Ryan, research vice-president at Gartner, said, "Personally, I think this is very dramatic." She said that the disruption in network traffic could impact e-commerce sales during the busiest weekend before Christmas. "It will have a substantial impact."
+
+Tratz-Ryan said, "People take network communications <http://www.computerweekly.com/Articles/2008/02/28/229620/firms-must-build-tight-slas-into-virtual-network-comms.htm>  for granted, but the underlying network <http://www.computerweekly.com/Articles/2008/12/10/233829/taylor-wessing-improves-network-with-geo-fibre.htm>  needs to be secure." 
+ <http://adserver.adtech.de/adlink/289/1437451/0/277/AdId=1998055;BnId=1;itime=706874535;key=IT_industry_research;nodecode=yes;link=http://clk.atdmt.com/OUT/go/122381085/direct/01/706874535/> 
+ <http://reed-cw.grapeshot.co.uk/redirect.cgi?url=http://adserver.adtech.de/adlink/3.0/289/1437451/0/277/ADTECH;loc=300;key=GS_TOPIC> 
+
+Alex Smith, research analyst at Canalys, said, "These type of problems have happened before. Network connects will be re-routed, but connections will be slower."
+
+Interoute was one of the European telco providers to spot the problem. Jonathan Wright, director of wholesale products of UK ISP Interoute, said, "The potential impact of an outage of this size cannot be underestimated - it is like severing a major artery. In a global economy with financial centres based around the world, and an increasing use of outsourced call centres and IT departments, it is essential that companies are confident in their communications networks."
+
+Derrick
+
+________________________________
+
+From: outages-bounces at outages.org on behalf of Gaurav Taparia
+Sent: Fri 12/19/2008 10:21 AM
+To: Gobbledegeek; outages at outages.org
+Subject: Re: [outages] Indian Network Slow / Packet Loss
+
+
+>From what we have heard, failure on SeaMeaWea3, SeaMeaWea4 and FALCON submarine cable system at Alexandria.
+
+Regards,
+
+
+On Fri, Dec 19, 2008 at 8:05 AM, Gobbledegeek <gobbledegeek at gmail.com> wrote:
+
+
+	SMW4 submarine cable system failure
+	
+	--
+	_______________________________________________
+	outages mailing list
+	outages at outages.org
+	https://puck.nether.net/mailman/listinfo/outages
+	
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081219/a74a47af/attachment.html>
+
+From arunrkaushik at gmail.com  Fri Dec 19 12:27:34 2008
+From: arunrkaushik at gmail.com (Arun Kaushik)
+Date: Fri, 19 Dec 2008 22:57:34 +0530
+Subject: [outages] outages Digest, Vol 7, Issue 9
+In-Reply-To: <mailman.9.1229706002.92171.outages@outages.org>
+References: <mailman.9.1229706002.92171.outages@outages.org>
+Message-ID: <12ff90df0812190927u14ae8af0meb19778d7ba089ea@mail.gmail.com>
+
+Dear Friends,
+
+     FYI...
+
+Fault Status: Suspected Problem in SWM3 Segment 8 Fiber pair 2 between
+Alexandria and Mazara. Restoration of restorable bearers is currently in
+progress and non-restorable bearers are down.
+
+Fault Status: FLAG FEA Cable system traffic between Alexandria (Egypt) and
+Palermo (Italy) is affected since 08:06GMT on dated 19th December 2008.
+Reliance Globalcom Marine team closely working with Alexandria & Palermo
+landing stations to investigate the fault and Reliance Globalcom is unable
+provide restoration because other cables SMW3 & SMW4 cables also failed on
+same segment about 07:50 GMT.
+
+SMW4 Repair Status: As a priority, Telecom Egypt to mobilize cable ship for
+repair of SMW4. As per the latest update from Telecom Egypt the Cable ship
+will take 2-3 days from now to reach the cable fault location and start
+localization/repair.
+
+SMW3 Repair Status: No update from concerned MA (TIS).
+FLAG Repair Status: No update from FLAG NOC
+
+
+-- 
+Thanks & Regards,
+Arun Kaushik.
+VSNL , Pune.
+
+
+
+
+
+2008/12/19 <outages-request at outages.org>
+
+> Send outages mailing list submissions to
+>        outages at outages.org
+>
+> To subscribe or unsubscribe via the World Wide Web, visit
+>        https://puck.nether.net/mailman/listinfo/outages
+> or, via email, send a message with subject or body 'help' to
+>        outages-request at outages.org
+>
+> You can reach the person managing the list at
+>        outages-owner at outages.org
+>
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of outages digest..."
+>
+>
+> Today's Topics:
+>
+>   1. Re: Qwest OC-48 out? (Jason Gintert)
+>   2. Re: Qwest OC-48 out? (Jay R. Ashworth)
+>   3. Indian Network Slow / Packet Loss (Satish Alwani)
+>   4. Re: Indian Network Slow / Packet Loss (Gobbledegeek)
+>   5. Re: Indian Network Slow / Packet Loss (Gaurav Taparia)
+>
+>
+> ----------------------------------------------------------------------
+>
+> Message: 1
+> Date: Thu, 18 Dec 2008 12:01:37 -0500
+> From: Jason Gintert <jason at fidelityaccess.com>
+> Subject: Re: [outages] Qwest OC-48 out?
+> To: <outages at outages.org>
+> Message-ID: <C56FEC21.2C823%jason at fidelityaccess.com<C56FEC21.2C823%25jason at fidelityaccess.com>
+> >
+> Content-Type: text/plain;       charset="US-ASCII"
+>
+> Jay,
+>
+> I'm not sure what region you're having trouble in, but Qwest had a tech
+> sent
+> to the Cleveland Tandem (CLEVOH62) to replace a piece of transport
+> equipment
+> at ~8AM EST.  This dispatch was to repair an OC-48 ring taking errors which
+> was affecting many DS1s for us.  I'm not sure if this is related or not,
+> but
+> as far as I'm aware, they have resolved the issue and our services are
+> restored.
+>
+> Regards,
+> --------
+> Jason Gintert
+> Director of Network Operations/Engineering
+> Fidelity Voice & Data | 23250 Chagrin Blvd, Suite 250 | Beachwood, Ohio
+> 44122
+> P: 216-245-4103
+> F: 216-595-0706
+> E: jason at fidelityaccess.com
+>
+> Visit us at http://www.fidelityaccess.com
+>
+> 2008 Inductee to the prestigious Weatherhead 100
+>
+>
+>
+>
+> > From: "Jay R. Ashworth" <jra at baylink.com>
+> > Date: Thu, 18 Dec 2008 11:04:32 -0500 (EST)
+> > To: <outages at outages.org>
+> > Subject: [outages] Qwest OC-48 out?
+> >
+> > Paul at Airespring tells me Qwest has an OC-48 outage somewhere, which
+> might
+> > be contributing to call and trunk problems I'm seeing this morning.
+> >
+> > Anyone got anything on this?
+> >
+> > Cheers,
+> > -- jra
+> >
+> > --
+> > Jay R. Ashworth                   Baylink
+> jra at baylink.com
+> > Designer                     The Things I Think                       RFC
+> 2100
+> > Ashworth & Associates     http://baylink.pitas.com
+> '87 e24
+> > St Petersburg FL USA      http://photo.imageinc.us             +1 727
+> 647 1274
+> >
+> >              Those who cast the vote decide nothing.
+> >              Those who count the vote decide everything.
+> >                -- (Josef Stalin)
+> >
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>
+> ------------------------------
+>
+> Message: 2
+> Date: Thu, 18 Dec 2008 16:03:14 -0500 (EST)
+> From: "Jay R. Ashworth" <jra at baylink.com>
+> Subject: Re: [outages] Qwest OC-48 out?
+> To: outages <outages at outages.org>
+> Message-ID:
+>        <
+> 33186381.421041229634194612.JavaMail.root at benjamin.vicimarketing.com>
+> Content-Type: text/plain; charset=utf-8
+>
+> ----- "Jason Gintert" <jason at fidelityaccess.com> wrote:
+> > I'm not sure what region you're having trouble in, but Qwest had a
+> > tech sent to the Cleveland Tandem (CLEVOH62) to replace a piece of
+> transport
+> > equipment at ~8AM EST.  This dispatch was to repair an OC-48 ring taking
+> errors
+> > which was affecting many DS1s for us.  I'm not sure if this is related or
+> > not, but as far as I'm aware, they have resolved the issue and our
+> services
+> > are restored.
+>
+> Naw, that won't be my root cause.  I've had half a dozen PRIs flapping,
+> first
+> continuously, then randomly, in West Florida.  I suspect my reseller
+> support
+> guy at Airespring, the second or third least competent calltaker I've ever
+> spoken to, was merely speculating.
+>
+> Thanks, though.
+>
+> Cheers,
+> -- jra
+> --
+> Jay R. Ashworth                   Baylink
+> jra at baylink.com
+> Designer                     The Things I Think                       RFC
+> 2100
+> Ashworth & Associates     http://baylink.pitas.com                     '87
+> e24
+> St Petersburg FL USA      http://photo.imageinc.us             +1 727 647
+> 1274
+>
+>             Those who cast the vote decide nothing.
+>             Those who count the vote decide everything.
+>               -- (Josef Stalin)
+>
+>
+>
+> ------------------------------
+>
+> Message: 3
+> Date: Fri, 19 Dec 2008 20:05:54 +0530
+> From: Satish Alwani <assid at assid.com>
+> Subject: [outages] Indian Network Slow / Packet Loss
+> To: outages at outages.org
+> Message-ID: <494BB14A.5060806 at assid.com>
+> Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
+>
+> It seems VSNL/Tata amongst other network vendors in india seem to be
+> facing a major network issue. A client of mine who has offices in
+> various other locations confirmed his satellite offices uses airtel and
+> they seem to be facing the same problem. The issue  seems to be only
+> with the international carrier.
+>
+> Has anyone heard / can shed some light on this? It has been horribly
+> slow with packet losses and latencies in the range of 800ms+ what used
+> to normally be 280, and has been such for the past 8 odd hours that I am
+> aware off.
+>
+> Regards,
+> Satish Alwani
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20081219/991c69e5/attachment-0001.html
+> >
+>
+> ------------------------------
+>
+> Message: 4
+> Date: Fri, 19 Dec 2008 20:35:23 +0530
+> From: Gobbledegeek <gobbledegeek at gmail.com>
+> Subject: Re: [outages] Indian Network Slow / Packet Loss
+> To: outages at outages.org
+> Message-ID:
+>        <463aea570812190705q5a370a05kf9fe9fcbb0fdd001 at mail.gmail.com>
+> Content-Type: text/plain; charset=UTF-8
+>
+> SMW4 submarine cable system failure
+>
+> --
+>
+>
+> ------------------------------
+>
+> Message: 5
+> Date: Fri, 19 Dec 2008 08:21:50 -0700
+> From: "Gaurav Taparia" <gaurav.taparia at gmail.com>
+> Subject: Re: [outages] Indian Network Slow / Packet Loss
+> To: Gobbledegeek <gobbledegeek at gmail.com>, outages at outages.org
+> Message-ID:
+>        <e812c41b0812190721h270b9dd3q9ff22b487f18f6a at mail.gmail.com>
+> Content-Type: text/plain; charset="iso-8859-1"
+>
+> >From what we have heard, failure on SeaMeaWea3, SeaMeaWea4 and FALCON
+> submarine cable system at Alexandria.
+>
+> Regards,
+>
+> On Fri, Dec 19, 2008 at 8:05 AM, Gobbledegeek <gobbledegeek at gmail.com
+> >wrote:
+>
+> > SMW4 submarine cable system failure
+> >
+> > --
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> -------------- next part --------------
+> An HTML attachment was scrubbed...
+> URL: <
+> https://puck.nether.net/pipermail/outages/attachments/20081219/0359b935/attachment-0001.html
+> >
+>
+> ------------------------------
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+> End of outages Digest, Vol 7, Issue 9
+> *************************************
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081219/cf0e6906/attachment-0001.html>
+
+From fergdawgster at gmail.com  Fri Dec 19 13:36:12 2008
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Fri, 19 Dec 2008 10:36:12 -0800
+Subject: [outages] Indian Network Slow / Packet Loss
+In-Reply-To: <494BB14A.5060806@assid.com>
+References: <494BB14A.5060806@assid.com>
+Message-ID: <6cd462c00812191036n33910fd0pf61f1432caa5833c@mail.gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Fri, Dec 19, 2008 at 6:35 AM, Satish Alwani <assid at assid.com> wrote:
+
+> It seems VSNL/Tata amongst other network vendors in india seem to be
+> facing a major network issue. A client of mine who has offices in various
+> other locations confirmed his satellite offices uses airtel and they seem
+> to be facing the same problem. The issue  seems to be only with the
+> international carrier.
+>
+> Has anyone heard / can shed some light on this? It has been horribly slow
+> with packet losses and latencies in the range of 800ms+ what used to
+> normally be 280, and has been such for the past 8 odd hours that I am
+> aware off.
+>
+
+
+Via: http://www.orange.com/en_EN/press/press_releases/cp081219en.html
+
+
+Three undersea cables cut: traffic greatly disturbed between Europe and
+Asia/Near East zone
+Paris, December 19, 2008
+
+    * 3 cables cut this morning (Sea Me We3 partly + Sea Me We4 + FLAG)
+    * France Telecom Marine cable ship about to depart
+
+
+France Telecom observed today that 3 major underwater cables were cut:
+"Sea Me We 4" at 7:28am, "Sea Me We3" at 7:33am and FLAG at 8:06am.
+
+The causes of the cut, which is located in the Mediterranean between Sicily
+and Tunisia, on sections linking Sicily to Egypt, remain unclear.
+
+Most of the B to B traffic between Europe and Asia is rerouted through the
+USA.
+
+Traffic from Europe to Algeria and Tunisia is not affected, but traffic
+from Europe to the Near East and Asia is interrupted to a greater or lesser
+extent (see country list below).
+
+Part of the internet traffic towards R?union is affected as well as 50%
+towards Jordan.
+
+A first appraisal at 7:44 am UTC gave an estimate of the following impact
+on the voice traffic (in percentage of out of service capacity):
+
+- -    Saudi Arabia: 55% out of service
+- -    Djibouti: 71% out of service
+- -    Egypt: 52% out of service
+- -    United Arab Emirates: 68% out of service
+- -    India: 82% out of service
+- -    Lebanon: 16% out of service
+- -    Malaysia: 42% out of service
+- -    Maldives: 100% out of service
+- -    Pakistan: 51% out of service
+- -    Qatar: 73% out of service
+- -    Syria: 36% out of service
+- -    Taiwan: 39% out of service
+- -    Yemen: 38% out of service
+- -    Zambia: 62% out of service
+
+France Telecom immediately alerted one of the two maintenance boats based
+in the Mediterranean area, the "Raymond Croze". This France Telecom
+Marine cable ship based at Seyne-sur-Mer has received its mobilization
+order early this afternoon and will cast off tonight at 3:00 am with 20
+kilometers spare cable on board. It should be on location on Monday morning
+for a relief mission.
+
+Priority will be given to the recovery of the Sea Me We4 cable, then on the
+Sea Me We3.
+
+By December 25th, Sea Me We4 could be operating. By December 31st, the
+situation should be back to normal.
+
+[end]
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFJS+mUq1pz9mNUZTMRAqK2AKDvAHohzpBrrkHOPOGU4fnXZGX6wACg0Iez
+Fm171OqLyARb6aaQfkH5obg=
+=6tLt
+-----END PGP SIGNATURE-----
+
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawgster(at)gmail.com
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+From cdl at asgaard.org  Fri Dec 19 15:26:31 2008
+From: cdl at asgaard.org (Christopher LILJENSTOLPE)
+Date: Fri, 19 Dec 2008 12:26:31 -0800
+Subject: [outages] Indian Network Slow / Packet Loss
+In-Reply-To: <494BB14A.5060806@assid.com>
+References: <494BB14A.5060806@assid.com>
+Message-ID: <7E32B24D-ABB8-4FE1-8808-C3A2A72EA864@asgaard.org>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SMWE[3,4] and FLAG?  cut this morning in the med.  Sorry....
+
+	Chris
+
+On 19 Dec 2008, at 06.35, Satish Alwani wrote:
+
+> It seems VSNL/Tata amongst other network vendors in india seem to be  
+> facing a major network issue. A client of mine who has offices in  
+> various other locations confirmed his satellite offices uses airtel  
+> and they seem to be facing the same problem. The issue  seems to be  
+> only with the international carrier.
+>
+> Has anyone heard / can shed some light on this? It has been horribly  
+> slow with packet losses and latencies in the range of 800ms+ what  
+> used to normally be 280, and has been such for the past 8 odd hours  
+> that I am aware off.
+>
+> Regards,
+> Satish Alwani
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+- ---
+???
+Check my PGP key here:
+http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xCB67593B
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEcBAEBAgAGBQJJTAN4AAoJEGmx2Mt/+Iw/j/0H/j8210+VPSpOKj+juslxGLBs
+/W1sudViXH1Ywcn50GL/vKnKuXnIjF+mcUT+P1JxVoYMcvHybqIw5W9om8WkbbjR
+aEe5iI8wbpsUvRyFw5kYQI+CbGIaqBZmCof3BcQMybv23XKxbxzgk89dLkP/k9sS
+AQoxPgaA/vGvqQ6O+Lqghfws8kbG5++NFkmVS3rJ95jN4CeC3v7YsFmCjCyQSC0e
+0WWU1xIOzoe/Or4CYmtRBLx1KlBwMvUI/3wH8wm3QknsOfjvJq40fwhZ/ZL752jm
+IHptKXDm3fHCGuy7YJxs0YPZTvVKj14bi+AYMLcCan2kjN44FrRax5mgCYOTSZw=
+=KqAZ
+-----END PGP SIGNATURE-----
+
+From itdirector at gmail.com  Sat Dec 20 16:10:27 2008
+From: itdirector at gmail.com (Lori Barfield)
+Date: Sat, 20 Dec 2008 13:10:27 -0800
+Subject: [outages] Indian Network Slow / Packet Loss
+In-Reply-To: <7E32B24D-ABB8-4FE1-8808-C3A2A72EA864@asgaard.org>
+References: <494BB14A.5060806@assid.com>
+	<7E32B24D-ABB8-4FE1-8808-C3A2A72EA864@asgaard.org>
+Message-ID: <c0fc3ae80812201310o508095bdkc583c8c9eea29f67@mail.gmail.com>
+
+repair completion estimates at the bottom:
+
+   http://www.bloomberg.com/apps/news?pid=20601085&sid=ayPbWf_7l17w&refer=europe
+
+articles with good images:
+
+   http://www.circleid.com/posts/20081219_undersea_cables_cuts_europe_asia/
+   http://www.circleid.com/posts/20081219_deja_vu_cables_cut_in_mediterranean/
+
+...lori
+
+From itdirector at gmail.com  Sun Dec 21 20:31:31 2008
+From: itdirector at gmail.com (Lori Barfield)
+Date: Sun, 21 Dec 2008 17:31:31 -0800
+Subject: [outages] mediterranean repairs
+Message-ID: <c0fc3ae80812211731n5f9ba918m23b39c80b4f4c504@mail.gmail.com>
+
+as of sunday noonish [pst?]:
+
+http://www.mail.com/Article.aspx?articlepath=APNews\General-World-News\20081221\ML-Mideast-Internet-Outage.xml&cat=world&subcat=&pageid=1
+
+From frnkblk at iname.com  Tue Dec 23 17:34:31 2008
+From: frnkblk at iname.com (iName.com)
+Date: Tue, 23 Dec 2008 16:34:31 -0600
+Subject: [outages] Yahoo! mail having problems?
+Message-ID: <000101c9654e$9f768950$de639bf0$@com>
+
+Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+	a.mx.mail.yahoo.com[67.195.168.31]
+	c.mx.mail.yahoo.com[216.39.53.3]
+	d.mx.mail.yahoo.com[66.196.82.7]
+	f.mx.mail.yahoo.com[68.142.202.247]
+from the same subnet as the e-mail gateways.
+
+Anyone else having the same?
+
+Frank
+
+
+From Chris.Lauretano at mcmurry.com  Tue Dec 23 17:43:05 2008
+From: Chris.Lauretano at mcmurry.com (Chris Lauretano)
+Date: Tue, 23 Dec 2008 15:43:05 -0700
+Subject: [outages] Yahoo! mail having problems?
+In-Reply-To: <000101c9654e$9f768950$de639bf0$@com>
+Message-ID: <C576B789.2945%chris.lauretano@mcmurry.com>
+
+Yep, experiencing the same here. The only e-mails stuck in the queue are outbound to Yahoo and the number is staggering.
+
+--C. Lauretano
+
+
+On 12/23/08 3:34 PM, "iName.com" <frnkblk at iname.com> wrote:
+
+Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+        a.mx.mail.yahoo.com[67.195.168.31]
+        c.mx.mail.yahoo.com[216.39.53.3]
+        d.mx.mail.yahoo.com[66.196.82.7]
+        f.mx.mail.yahoo.com[68.142.202.247]
+from the same subnet as the e-mail gateways.
+
+Anyone else having the same?
+
+Frank
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From assid at assid.com  Tue Dec 23 17:46:38 2008
+From: assid at assid.com (Satish Alwani)
+Date: Wed, 24 Dec 2008 04:16:38 +0530
+Subject: [outages] Yahoo! mail having problems?
+In-Reply-To: <000101c9654e$9f768950$de639bf0$@com>
+References: <000101c9654e$9f768950$de639bf0$@com>
+Message-ID: <49516A4E.80807@assid.com>
+
+yep, im starting to see yahoos mail server having problems here too with 
+an unable to establish a connection error
+
+
+iName.com wrote, On 2008-12-24 4:04 AM:
+> Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+> getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+> 	a.mx.mail.yahoo.com[67.195.168.31]
+> 	c.mx.mail.yahoo.com[216.39.53.3]
+> 	d.mx.mail.yahoo.com[66.196.82.7]
+> 	f.mx.mail.yahoo.com[68.142.202.247]
+> from the same subnet as the e-mail gateways.
+>
+> Anyone else having the same?
+>
+> Frank
+>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+>
+>   
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081224/d5243005/attachment.html>
+
+From jeffshultz at wvi.com  Tue Dec 23 17:58:40 2008
+From: jeffshultz at wvi.com (Jeff Shultz)
+Date: Tue, 23 Dec 2008 14:58:40 -0800
+Subject: [outages] [Fwd: Re:  Yahoo! mail having problems?]
+Message-ID: <49516D20.8050804@wvi.com>
+
+Misdirected to Nanog....
+
+-------- Original Message --------
+Subject: Re: [outages] Yahoo! mail having problems?
+Date: Tue, 23 Dec 2008 14:47:50 -0800
+From: Jeff Shultz <jeffshultz at wvi.com>
+To: NANOG list <nanog at nanog.org>
+References: <C576B789.2945%chris.lauretano at mcmurry.com>
+
+Apparently they are - 219 of the 304 in the queue are for Yahoo - some
+over 1280 minutes.
+
+Or, as my boss put it when I mentioned that Yahoo was having e-mail
+issues: "What's new?"
+
+
+Chris Lauretano wrote:
+> Yep, experiencing the same here. The only e-mails stuck in the queue are outbound to Yahoo and the number is staggering.
+> 
+> --C. Lauretano
+> 
+> 
+> On 12/23/08 3:34 PM, "iName.com" <frnkblk at iname.com> wrote:
+> 
+> Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+> getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+>         a.mx.mail.yahoo.com[67.195.168.31]
+>         c.mx.mail.yahoo.com[216.39.53.3]
+>         d.mx.mail.yahoo.com[66.196.82.7]
+>         f.mx.mail.yahoo.com[68.142.202.247]
+> from the same subnet as the e-mail gateways.
+> 
+> Anyone else having the same?
+> 
+> Frank
+> 
+
+-- 
+Jeff Shultz
+
+
+From risnaini at indo.net.id  Tue Dec 23 18:12:05 2008
+From: risnaini at indo.net.id (a. rahman isnaini r.sutan)
+Date: Wed, 24 Dec 2008 06:12:05 +0700
+Subject: [outages] Yahoo! mail having problems?
+In-Reply-To: <C576B789.2945%chris.lauretano@mcmurry.com>
+References: <C576B789.2945%chris.lauretano@mcmurry.com>
+Message-ID: <49517045.6050406@indo.net.id>
+
+Yes, outbound.
+Inbound is fine.
+
+a.r. isnaini rangkayo sutan
+
+Chris Lauretano wrote:
+> Yep, experiencing the same here. The only e-mails stuck in the queue are outbound to Yahoo and the number is staggering.
+> 
+> --C. Lauretano
+> 
+> 
+> On 12/23/08 3:34 PM, "iName.com" <frnkblk at iname.com> wrote:
+> 
+> Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+> getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+>         a.mx.mail.yahoo.com[67.195.168.31]
+>         c.mx.mail.yahoo.com[216.39.53.3]
+>         d.mx.mail.yahoo.com[66.196.82.7]
+>         f.mx.mail.yahoo.com[68.142.202.247]
+> from the same subnet as the e-mail gateways.
+> 
+> Anyone else having the same?
+> 
+> Frank
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> 
+
+From frnkblk at iname.com  Tue Dec 23 20:44:36 2008
+From: frnkblk at iname.com (Frank Bulk)
+Date: Tue, 23 Dec 2008 19:44:36 -0600
+Subject: [outages] Yahoo! mail having problems?
+In-Reply-To: <000101c9654e$9f768950$de639bf0$@com>
+References: <000101c9654e$9f768950$de639bf0$@com>
+Message-ID: <!&!AAAAAAAAAAAuAAAAAAAAAKTyXRN5/+lGvU59a+P7CFMBAN6gY+ZG84BMpVQcAbDh1IQAAAATbSgAABAAAABxDxR9BA+sQ4szkerw3pFDAQAAAAA=@iname.com>
+
+By 6:20 pm CST our queue was back to normal levels.
+
+Frank
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On
+Behalf Of iName.com
+Sent: Tuesday, December 23, 2008 4:35 PM
+To: outages at outages.org
+Subject: [outages] Yahoo! mail having problems?
+
+Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+        a.mx.mail.yahoo.com[67.195.168.31]
+        c.mx.mail.yahoo.com[216.39.53.3]
+        d.mx.mail.yahoo.com[66.196.82.7]
+        f.mx.mail.yahoo.com[68.142.202.247]
+from the same subnet as the e-mail gateways.
+
+Anyone else having the same?
+
+Frank
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+From yahoo at jimpop.com  Tue Dec 23 20:59:37 2008
+From: yahoo at jimpop.com (Jim Popovitch)
+Date: Tue, 23 Dec 2008 20:59:37 -0500
+Subject: [outages] Yahoo! mail having problems?
+In-Reply-To: <49517045.6050406@indo.net.id>
+References: <C576B789.2945%chris.lauretano@mcmurry.com>
+	<49517045.6050406@indo.net.id>
+Message-ID: <7ff145960812231759l3a31f232ib43fb65c0e99c85d@mail.gmail.com>
+
+I'm now seeing queued mail for yahoo returning to normal.
+
+-Jim P.
+
+On 2008-12-23, a. rahman isnaini r.sutan <risnaini at indo.net.id> wrote:
+> Yes, outbound.
+> Inbound is fine.
+>
+> a.r. isnaini rangkayo sutan
+>
+> Chris Lauretano wrote:
+>> Yep, experiencing the same here. The only e-mails stuck in the queue are
+>> outbound to Yahoo and the number is staggering.
+>>
+>> --C. Lauretano
+>>
+>>
+>> On 12/23/08 3:34 PM, "iName.com" <frnkblk at iname.com> wrote:
+>>
+>> Our e-mail gateways are backing up with yahoo.com bound e-mail.  I'm only
+>> getting timeouts connecting to Yahoo's e-mail servers.  I've tried these:
+>>         a.mx.mail.yahoo.com[67.195.168.31]
+>>         c.mx.mail.yahoo.com[216.39.53.3]
+>>         d.mx.mail.yahoo.com[66.196.82.7]
+>>         f.mx.mail.yahoo.com[68.142.202.247]
+>> from the same subnet as the e-mail gateways.
+>>
+>> Anyone else having the same?
+>>
+>> Frank
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>> _______________________________________________
+>> outages mailing list
+>> outages at outages.org
+>> https://puck.nether.net/mailman/listinfo/outages
+>>
+>>
+>>
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+
+From brandon.galbraith at gmail.com  Wed Dec 24 17:13:36 2008
+From: brandon.galbraith at gmail.com (Brandon Galbraith)
+Date: Wed, 24 Dec 2008 16:13:36 -0600
+Subject: [outages] Cogent colo 427 S La Salle
+Message-ID: <366100670812241413k6133c78di3f08681f94ae0832@mail.gmail.com>
+
+Not quite an outage, but on its way to being one.
+
+If anyone has equipment at Cogent's 427 S La Salle datacenter in
+Chicago, compressors in each A/C unit have failed, and room temp is
+upwards of 100F. Cogent has been notified but I was not provided with
+a master ticket #.
+
+-brandon
+
+-- 
+Sent from my mobile device
+
+Brandon Galbraith
+Voice: 630.400.6992
+Email: brandon.galbraith at gmail.com
+
+From netgeek at bgp4.net  Thu Dec 25 18:27:46 2008
+From: netgeek at bgp4.net (Janet Sullivan)
+Date: Thu, 25 Dec 2008 15:27:46 -0800
+Subject: [outages] L(3) CHI around noon PST?
+Message-ID: <495416F2.9060102@bgp4.net>
+
+Did anyone else see potential issues on L(3)'s network, possibly around 
+Chicago, around noon PST?  We had about a 10 minute dip in traffic, but 
+it cleared before a full investigation could be done.  Just wondering if 
+someone else saw something...
+
+From amelton at gmail.com  Sun Dec 28 11:43:13 2008
+From: amelton at gmail.com (Andrew Melton)
+Date: Sun, 28 Dec 2008 08:43:13 -0800
+Subject: [outages] Michigan Fiber Cut
+Message-ID: <757bb4910812280843y4d2be971h5cf9921e3f3abeb8@mail.gmail.com>
+
+We lost an SS7 link into MI around 10:30 EST. According to SNET, there
+is a fiber cut in the area affecting multiple signaling links and
+possibly other services as well.
+
+From maillist at webjogger.net  Sun Dec 28 13:15:09 2008
+From: maillist at webjogger.net (Adam Greene)
+Date: Sun, 28 Dec 2008 13:15:09 -0500
+Subject: [outages] major reachability issues?
+Message-ID: <810FE269383D49059C2C1F1BF0877F94@GINKGO>
+
+Hi,
+
+Just noticed some major reachability issues to 192.149.252.76 (www.arin.net), 64.18.8.11 (login.postini.com), www.amazon.com and others. These seem to be independent of any one provider -- I'm seeing them from Time Warner, Level 3, ATT ... some work better than others ... for example, ARIN seems available if the route goes through PNAP.
+
+Is there some kind of major issue happening that others are seeing as well? 
+
+Thanks,
+adam
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081228/6b8f3e96/attachment.html>
+
+From bpfankuch at cpgreeley.com  Sun Dec 28 13:15:57 2008
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sun, 28 Dec 2008 11:15:57 -0700
+Subject: [outages] Level 3 issues
+In-Reply-To: <4957C002.2030001@gmail.com>
+References: <4957BE4A.3080008@zero11.com> <4957C002.2030001@gmail.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540C2B5FE2@CPExchange1.cpgreeley.com>
+
+Ive got connection issues from Colorado to new York on level3 that have been restored, but still nothing from Chicago to Colorado, and way too many other places to list.  Anyone have a ticket number with level3?
+
+-----Original Message-----
+From: Pierre-Henri [mailto:phach34 at gmail.com]
+Sent: Sunday, December 28, 2008 11:06 AM
+To: marco
+Cc: nanog at nanog.org
+Subject: Re: Level 3 issues
+
+marco a ?crit :
+> is anyone having issues with Level3?
+>
+>
+hi,
+theplanet.com and many websites (cnn.com ; amazon.com ; ... ) have not
+been accessible from France (Orange, home connection) for about 30 minutes.
+Don't know if there is a link with your question, but .
+
+
+Pierre-Henri
+
+
+From virendra.rode at gmail.com  Sun Dec 28 13:17:20 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Sun, 28 Dec 2008 10:17:20 -0800
+Subject: [outages] fiber cut - train derailment.
+Message-ID: <4957C2B0.6070906@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Sorry to be vague, but there appears to be a fiber cut due to train
+derailment which is causing issue on qwest and maybe on level3 end as well.
+
+Does anyone have any further insight regarding this?
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJV8KwpbZvCIJx1bcRAqmRAKDQnPM7ARSMNX6v7WAY5Ne0kUqo1ACbBZuy
+p0cYyrs3Kg78pn7RIvLHpdY=
+=GRBp
+-----END PGP SIGNATURE-----
+
+From bpfankuch at cpgreeley.com  Sun Dec 28 13:26:07 2008
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sun, 28 Dec 2008 11:26:07 -0700
+Subject: [outages] major reachability issues?
+In-Reply-To: <810FE269383D49059C2C1F1BF0877F94@GINKGO>
+References: <810FE269383D49059C2C1F1BF0877F94@GINKGO>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540C2B5FE3@CPExchange1.cpgreeley.com>
+
+Please reference the last email I CCed outages on.  That's been floating around on nanog for about 2 hours.  Looks like level 3 is having some backbone issues.  Could be a fun day right?
+
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of Adam Greene
+Sent: Sunday, December 28, 2008 11:15 AM
+To: outages at outages.org
+Subject: [outages] major reachability issues?
+
+Hi,
+
+Just noticed some major reachability issues to 192.149.252.76 (www.arin.net<http://www.arin.net>), 64.18.8.11 (login.postini.com), www.amazon.com<http://www.amazon.com> and others. These seem to be independent of any one provider -- I'm seeing them from Time Warner, Level 3, ATT ... some work better than others ... for example, ARIN seems available if the route goes through PNAP.
+
+Is there some kind of major issue happening that others are seeing as well?
+
+Thanks,
+adam
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081228/e167ac80/attachment.html>
+
+From maillist at webjogger.net  Sun Dec 28 13:29:25 2008
+From: maillist at webjogger.net (Adam Greene)
+Date: Sun, 28 Dec 2008 13:29:25 -0500
+Subject: [outages] major reachability issues?
+Message-ID: <526B65C0B1BB4453848A686A57C1F175@GINKGO>
+
+Update: seems to be Level3 in particular that's having issues, though not sure where ... www.internetpulse.com shows major issues with them.
+  ----- Original Message ----- 
+  From: Adam Greene 
+  To: outages at outages.org 
+  Sent: Sunday, December 28, 2008 1:15 PM
+  Subject: major reachability issues?
+
+
+  Hi,
+
+  Just noticed some major reachability issues to 192.149.252.76 (www.arin.net), 64.18.8.11 (login.postini.com), www.amazon.com and others. These seem to be independent of any one provider -- I'm seeing them from Time Warner, Level 3, ATT ... some work better than others ... for example, ARIN seems available if the route goes through PNAP.
+
+  Is there some kind of major issue happening that others are seeing as well? 
+
+  Thanks,
+  adam
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081228/8d058fb2/attachment.html>
+
+From bpfankuch at cpgreeley.com  Sun Dec 28 13:39:16 2008
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sun, 28 Dec 2008 11:39:16 -0700
+Subject: [outages] fiber cut - train derailment.
+In-Reply-To: <4957C2B0.6070906@gmail.com>
+References: <4957C2B0.6070906@gmail.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540C2B5FE4@CPExchange1.cpgreeley.com>
+
+Unless that train derailment is so new it hasn't hit the news yet, the derailment that I see occurred yesterday.  Network issues were non-existent until 1030 MST.  Level3 is giving scare reports of "issue fixed".  But not confirmed yet.
+
+-----Original Message-----
+From: outages-bounces at outages.org [mailto:outages-bounces at outages.org] On Behalf Of virendra rode
+Sent: Sunday, December 28, 2008 11:17 AM
+To: outages at outages.org
+Subject: [outages] fiber cut - train derailment.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Sorry to be vague, but there appears to be a fiber cut due to train
+derailment which is causing issue on qwest and maybe on level3 end as well.
+
+Does anyone have any further insight regarding this?
+
+
+regards,
+/virendra
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJV8KwpbZvCIJx1bcRAqmRAKDQnPM7ARSMNX6v7WAY5Ne0kUqo1ACbBZuy
+p0cYyrs3Kg78pn7RIvLHpdY=
+=GRBp
+-----END PGP SIGNATURE-----
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+From maillist at webjogger.net  Sun Dec 28 13:47:22 2008
+From: maillist at webjogger.net (Adam Greene)
+Date: Sun, 28 Dec 2008 13:47:22 -0500
+Subject: [outages] Level 3 issues
+References: <4957BE4A.3080008@zero11.com> <4957C002.2030001@gmail.com>
+	<01759D50DC387C45A018FE1817CE27D7540C2B5FE2@CPExchange1.cpgreeley.com>
+Message-ID: <459EBFB21D2D4080B60A2ABC3F9EBB4D@GINKGO>
+
+Yep, I can also report that reachability in the New York area seems to have 
+been restored just a few minutes ago ...
+
+----- Original Message ----- 
+From: "Blake Pfankuch" <bpfankuch at cpgreeley.com>
+To: "Pierre-Henri" <phach34 at gmail.com>; "marco" <marco at zero11.com>
+Cc: <outages at outages.org>; <nanog at nanog.org>
+Sent: Sunday, December 28, 2008 1:15 PM
+Subject: Re: [outages] Level 3 issues
+
+
+Ive got connection issues from Colorado to new York on level3 that have been 
+restored, but still nothing from Chicago to Colorado, and way too many other 
+places to list.  Anyone have a ticket number with level3?
+
+-----Original Message-----
+From: Pierre-Henri [mailto:phach34 at gmail.com]
+Sent: Sunday, December 28, 2008 11:06 AM
+To: marco
+Cc: nanog at nanog.org
+Subject: Re: Level 3 issues
+
+marco a ?crit :
+> is anyone having issues with Level3?
+>
+>
+hi,
+theplanet.com and many websites (cnn.com ; amazon.com ; ... ) have not
+been accessible from France (Orange, home connection) for about 30 minutes.
+Don't know if there is a link with your question, but .
+
+
+Pierre-Henri
+
+_______________________________________________
+outages mailing list
+outages at outages.org
+https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From fergdawgster at gmail.com  Sun Dec 28 14:02:24 2008
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Sun, 28 Dec 2008 11:02:24 -0800
+Subject: [outages] fiber cut - train derailment.
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D7540C2B5FE4@CPExchange1.cpgreeley.com>
+References: <4957C2B0.6070906@gmail.com>
+	<01759D50DC387C45A018FE1817CE27D7540C2B5FE4@CPExchange1.cpgreeley.com>
+Message-ID: <6cd462c00812281102i14441fe2l18d8ca55d417a81@mail.gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Dec 28, 2008 at 10:39 AM, Blake Pfankuch <bpfankuch at cpgreeley.com>
+wrote:
+
+> Unless that train derailment is so new it hasn't hit the news yet, the
+> derailment that I see occurred yesterday.  Network issues were
+> non-existent until 1030 MST.  Level3 is giving scare reports of "issue
+> fixed".  But not confirmed yet.
+>
+
+The only train derailment that I have heard of in the past 24h is in
+"Northern Nevada":
+
+"A freight train derailed in northern Nevada, triggering a bridge collapse
+and major disruptions in rail service on one of the country's main
+east-west lines, Union Pacific officials said."
+
+"The derailment occurred Saturday morning in a remote area along the
+Humboldt River about 10 miles west of Carlin and 260 miles east of Reno, UP
+spokeswoman Zoe Richmond said. "
+
+http://www.mercurynews.com/nationworld/ci_11322908
+
+Caveat: I am not sure this is related to any network outages, etc.
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFJV800q1pz9mNUZTMRAnP4AJ9O2G/vqf89GV/NhDwIPrTWx5YzngCeNMa3
+uAYi3zfMwRKV+ypTj+5iNPo=
+=Nrbt
+-----END PGP SIGNATURE-----
+
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawgster(at)gmail.com
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+From bpfankuch at cpgreeley.com  Sun Dec 28 14:06:01 2008
+From: bpfankuch at cpgreeley.com (Blake Pfankuch)
+Date: Sun, 28 Dec 2008 12:06:01 -0700
+Subject: [outages] fiber cut - train derailment.
+In-Reply-To: <6cd462c00812281102i14441fe2l18d8ca55d417a81@mail.gmail.com>
+References: <4957C2B0.6070906@gmail.com>
+	<01759D50DC387C45A018FE1817CE27D7540C2B5FE4@CPExchange1.cpgreeley.com>
+	<6cd462c00812281102i14441fe2l18d8ca55d417a81@mail.gmail.com>
+Message-ID: <01759D50DC387C45A018FE1817CE27D7540C2B5FE7@CPExchange1.cpgreeley.com>
+
+There was one reported in NY on the 27th.  http://www.nytimes.com/2008/12/27/nyregion/27staten.html?em
+
+At 6:27 a.m., as a four-car train entered the Tottenville station, it struck the iron bumper that sits on the rails. The lead car derailed in the accident, which took place a few dozen yards from the Arthur Kill, the narrow channel that separates Staten Island and New Jersey.
+
+No passengers were on board, and the two crew members on the train were not injured.
+
+
+-----Original Message-----
+From: Paul Ferguson [mailto:fergdawgster at gmail.com]
+Sent: Sunday, December 28, 2008 12:02 PM
+To: Blake Pfankuch
+Cc: virendra.rode at gmail.com; outages at outages.org
+Subject: Re: [outages] fiber cut - train derailment.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Sun, Dec 28, 2008 at 10:39 AM, Blake Pfankuch <bpfankuch at cpgreeley.com>
+wrote:
+
+> Unless that train derailment is so new it hasn't hit the news yet, the
+> derailment that I see occurred yesterday.  Network issues were
+> non-existent until 1030 MST.  Level3 is giving scare reports of "issue
+> fixed".  But not confirmed yet.
+>
+
+The only train derailment that I have heard of in the past 24h is in
+"Northern Nevada":
+
+"A freight train derailed in northern Nevada, triggering a bridge collapse
+and major disruptions in rail service on one of the country's main
+east-west lines, Union Pacific officials said."
+
+"The derailment occurred Saturday morning in a remote area along the
+Humboldt River about 10 miles west of Carlin and 260 miles east of Reno, UP
+spokeswoman Zoe Richmond said. "
+
+http://www.mercurynews.com/nationworld/ci_11322908
+
+Caveat: I am not sure this is related to any network outages, etc.
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFJV800q1pz9mNUZTMRAnP4AJ9O2G/vqf89GV/NhDwIPrTWx5YzngCeNMa3
+uAYi3zfMwRKV+ypTj+5iNPo=
+=Nrbt
+-----END PGP SIGNATURE-----
+
+
+--
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawgster(at)gmail.com
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+From marco at zero11.com  Sun Dec 28 13:21:27 2008
+From: marco at zero11.com (marco)
+Date: Sun, 28 Dec 2008 10:21:27 -0800
+Subject: [outages] Level 3 issues
+In-Reply-To: <01759D50DC387C45A018FE1817CE27D7540C2B5FE2@CPExchange1.cpgreeley.com>
+References: <4957BE4A.3080008@zero11.com> <4957C002.2030001@gmail.com>
+	<01759D50DC387C45A018FE1817CE27D7540C2B5FE2@CPExchange1.cpgreeley.com>
+Message-ID: <4957C3A7.3050603@zero11.com>
+
+Blake Pfankuch wrote:
+> Ive got connection issues from Colorado to new York on level3 that have been restored, but still nothing from Chicago to Colorado, and way too many other places to list.  Anyone have a ticket number with level3?
+>
+> -----Original Message-----
+> From: Pierre-Henri [mailto:phach34 at gmail.com]
+> Sent: Sunday, December 28, 2008 11:06 AM
+> To: marco
+> Cc: nanog at nanog.org
+> Subject: Re: Level 3 issues
+>
+> marco a ?crit :
+>   
+>> is anyone having issues with Level3?
+>>
+>>
+>>     
+> hi,
+> theplanet.com and many websites (cnn.com ; amazon.com ; ... ) have not
+> been accessible from France (Orange, home connection) for about 30 minutes.
+> Don't know if there is a link with your question, but .
+>
+>
+> Pierre-Henri
+>
+>   
+I have a ticket in with L3, their NOC is pretty overwhelmed with phone
+calls.
+
+
+From fergdawgster at gmail.com  Sun Dec 28 18:50:41 2008
+From: fergdawgster at gmail.com (Paul Ferguson)
+Date: Sun, 28 Dec 2008 15:50:41 -0800
+Subject: [outages] Power failure prompts outages for AT&T mobile phone users
+	in Midwest
+Message-ID: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Just saw this:
+
+[snip]
+
+AT&T customers in Chicago have been experiencing disruptions in cell phone
+service throughout the day due to a power failure in Michigan Sunday
+morning.
+
+AT&T spokeswoman Meghan Roskopf, also experiencing service disruption, said
+via email that technicians are working to restore the equipment Sunday
+afternoon.
+
+"At about 9:30 a.m. CST on Dec. 28, a power failure impacted an AT&T
+facility in Bloomfield, MI. This situation has resulted in intermittent
+disruption of mobile services for customers in some Midwest states,"
+Roskopf said in a statement.
+
+"Backup power has subsequently been restored, and AT&T technicians
+currently are working to fully restore the impacted equipment."
+
+At 5 p.m., Roskopf said "a substantial portion of the impacted equipment
+was back in service" and that crews would be working "around the clock" to
+repair the damage.
+
+[snip]
+
+More:
+http://www.suntimes.com/technology/1352464,w-att-service-failures-chicago-1
+22808.article
+
+- - ferg
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGP Desktop 9.6.3 (Build 3017)
+
+wj8DBQFJWBC7q1pz9mNUZTMRAoXBAJ41gAkUJmbdNJT4qHR/LtugIbRGDACgg0zv
+wSv2WgNbB/E3SoJXOl5Ax+8=
+=HZBB
+-----END PGP SIGNATURE-----
+
+-- 
+"Fergie", a.k.a. Paul Ferguson
+ Engineering Architecture for the Internet
+ fergdawgster(at)gmail.com
+ ferg's tech blog: http://fergdawg.blogspot.com/
+
+From jared at puck.nether.net  Mon Dec 29 08:47:09 2008
+From: jared at puck.nether.net (Jared Mauch)
+Date: Mon, 29 Dec 2008 08:47:09 -0500
+Subject: [outages] Power failure prompts outages for AT&T mobile
+	phone	users in Midwest
+In-Reply-To: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+Message-ID: <20081229134709.GA73278@puck.nether.net>
+
+	Things seemed to be better around 8pm last night.  While driving
+to a relatives house, there were widespread areas without cellular
+service on AT&T, and intermittent authentication failures for data
+service.  I was also unable to use WPS and GETS during that time from
+my cellular telephone.
+
+	- Jared
+
+-- 
+Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+
+From rdobbins at cisco.com  Mon Dec 29 09:15:12 2008
+From: rdobbins at cisco.com (Roland Dobbins)
+Date: Mon, 29 Dec 2008 22:15:12 +0800
+Subject: [outages] Power failure prompts outages for AT&T mobile
+	phone	users in Midwest
+In-Reply-To: <20081229134709.GA73278@puck.nether.net>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+	<20081229134709.GA73278@puck.nether.net>
+Message-ID: <6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+
+
+On Dec 29, 2008, at 9:47 PM, Jared Mauch wrote:
+
+> I was also unable to use WPS and GETS during that time from my  
+> cellular telephone.
+
+
+It's probably a good idea to report that to NCS (and good thinking to  
+test it).
+
+-----------------------------------------------------------------------
+Roland Dobbins <rdobbins at cisco.com> // +852.9133.2844 mobile
+
+      All behavior is economic in motivation and/or consequence.
+
+
+
+
+
+From virendra.rode at gmail.com  Mon Dec 29 12:16:34 2008
+From: virendra.rode at gmail.com (virendra rode)
+Date: Mon, 29 Dec 2008 09:16:34 -0800
+Subject: [outages] Power failure prompts outages for AT&T mobile	phone
+ users in Midwest
+In-Reply-To: <6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>	<20081229134709.GA73278@puck.nether.net>
+	<6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+Message-ID: <495905F2.4070900@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Roland Dobbins wrote:
+> 
+> On Dec 29, 2008, at 9:47 PM, Jared Mauch wrote:
+> 
+>> I was also unable to use WPS and GETS during that time from my
+>> cellular telephone.
+> 
+> 
+> It's probably a good idea to report that to NCS (and good thinking to
+> test it).
+- -------------------------
+I thought FCC mandates provider(s) to report widely (~ 30,000 lines, I
+could be off here) affected services to FCC. Not sure if this has changed.
+
+
+regards,
+/virendra
+
+
+> 
+> -----------------------------------------------------------------------
+> Roland Dobbins <rdobbins at cisco.com> // +852.9133.2844 mobile
+> 
+>      All behavior is economic in motivation and/or consequence.
+> 
+> 
+> 
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFJWQXypbZvCIJx1bcRAg0TAJ9gGsBBVQxc6ZDhE0rZrTcbJZaEGQCgsoDF
+zaUnm1mtb9Z7tXhEL+2IMxQ=
+=5ZvI
+-----END PGP SIGNATURE-----
+
+From jared at puck.nether.net  Mon Dec 29 12:44:59 2008
+From: jared at puck.nether.net (Jared Mauch)
+Date: Mon, 29 Dec 2008 12:44:59 -0500
+Subject: [outages] Power failure prompts outages for AT&T mobile
+	phone	users in Midwest
+In-Reply-To: <495905F2.4070900@gmail.com>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+	<20081229134709.GA73278@puck.nether.net>
+	<6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+	<495905F2.4070900@gmail.com>
+Message-ID: <20081229174459.GA39210@puck.nether.net>
+
+On Mon, Dec 29, 2008 at 09:16:34AM -0800, virendra rode wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Roland Dobbins wrote:
+> > 
+> > On Dec 29, 2008, at 9:47 PM, Jared Mauch wrote:
+> > 
+> >> I was also unable to use WPS and GETS during that time from my
+> >> cellular telephone.
+> > 
+> > 
+> > It's probably a good idea to report that to NCS (and good thinking to
+> > test it).
+> - -------------------------
+> I thought FCC mandates provider(s) to report widely (~ 30,000 lines, I
+> could be off here) affected services to FCC. Not sure if this has changed.
+
+	Most of these filings are flagged as confidnetal, so unless you work
+at the carrier or the FCC you are unlikely to get information.
+
+	(outside of NSIE/NSTAC or GAO reports).
+
+	- Jared
+
+-- 
+Jared Mauch  | pgp key available via finger from jared at puck.nether.net
+clue++;      | http://puck.nether.net/~jared/  My statements are only mine.
+
+From jackson.tim at gmail.com  Mon Dec 29 13:16:09 2008
+From: jackson.tim at gmail.com (Tim Jackson)
+Date: Mon, 29 Dec 2008 12:16:09 -0600
+Subject: [outages] Power failure prompts outages for AT&T mobile phone
+	users in Midwest
+In-Reply-To: <495905F2.4070900@gmail.com>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>
+	<20081229134709.GA73278@puck.nether.net>
+	<6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+	<495905F2.4070900@gmail.com>
+Message-ID: <4407932e0812291016r5ee9d08va359aad9ea7d1ae1@mail.gmail.com>
+
+https://www.fcc.gov/nors/outage/bestpractice/BestPractice.cfm
+
+http://www.fcc.gov/pshs/outage/nors_manual.pdf
+
+
+
+On Mon, Dec 29, 2008 at 11:16 AM, virendra rode <virendra.rode at gmail.com>wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Roland Dobbins wrote:
+> >
+> > On Dec 29, 2008, at 9:47 PM, Jared Mauch wrote:
+> >
+> >> I was also unable to use WPS and GETS during that time from my
+> >> cellular telephone.
+> >
+> >
+> > It's probably a good idea to report that to NCS (and good thinking to
+> > test it).
+> - -------------------------
+> I thought FCC mandates provider(s) to report widely (~ 30,000 lines, I
+> could be off here) affected services to FCC. Not sure if this has changed.
+>
+>
+> regards,
+> /virendra
+>
+>
+> >
+> > -----------------------------------------------------------------------
+> > Roland Dobbins <rdobbins at cisco.com> // +852.9133.2844 mobile
+> >
+> >      All behavior is economic in motivation and/or consequence.
+> >
+> >
+> >
+> >
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> >
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.6 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>
+> iD8DBQFJWQXypbZvCIJx1bcRAg0TAJ9gGsBBVQxc6ZDhE0rZrTcbJZaEGQCgsoDF
+> zaUnm1mtb9Z7tXhEL+2IMxQ=
+> =5ZvI
+> -----END PGP SIGNATURE-----
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081229/f1128691/attachment.html>
+
+From franck at avonsys.com  Mon Dec 29 13:25:26 2008
+From: franck at avonsys.com (Franck Martin)
+Date: Tue, 30 Dec 2008 06:25:26 +1200 (FJT)
+Subject: [outages] Internet Outage in Samoa
+Message-ID: <14425109.131230575112853.JavaMail.franck@franck-martins-macbook-pro.local>
+
+
+
+No Internet access during Xmas 	
+
+	
+
+	
+
+
+
+
+
+
+For the last four days ? since Christmas to be exact ? the Samoa Observer has not had access to the Internet. Both the Internet Caf? on Beach Road and the Vaitele editorial office were denied access. 
+Which means updating its website during that time was not possible. 
+The problem is that its Internet host Computer Services Ltd (CSL) has struck some problems of its own. 
+
+Business Development Manager, Dave Main, said three power outages on Christmas Day caused ?massive damage? to their equipment. 
+They have been working virtually non-stop since to restore their system to normal working order. 
+
+As of late afternoon yesterday , three quarters of their system had been restored, Mr Main said. 
+?A lot of things have either been repaired or replaced in the last couple of days,? he said. 
+The last quarter of their system would be restored ?sometime tonight ? (last night). 
+
+
+It required re-establishing the link between a tower to Apia city. 
+?We?re trying to repair one tower with the parts of another. Just bear with us.? 
+So to produce the paper you are now reading, we had to rely on services provided by Clicknet at Saleufi and iPlay at the Nia Mall, to whom we say thank you. 
+
+
+So let?s hope our host?s problems will be sorted out soon.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://puck.nether.net/pipermail/outages/attachments/20081230/a02f21b4/attachment.html>
+
+From michaelfox100 at comcast.net  Mon Dec 29 13:45:53 2008
+From: michaelfox100 at comcast.net (Michael Fox)
+Date: Mon, 29 Dec 2008 12:45:53 -0600
+Subject: [outages] Paetec Outage?
+Message-ID: <1230576353.6274.11.camel@michael-laptop>
+
+We have several dynamic PRI's down in Minnesota, Iowa, Kansas, and
+Texas. Anyone see anything similar?  Customer service is dropping us to
+a fast busy signal. 
+
+Michael
+
+
+From TFox at expertsmi.com  Mon Dec 29 14:04:33 2008
+From: TFox at expertsmi.com (Thomas Fox)
+Date: Mon, 29 Dec 2008 14:04:33 -0500
+Subject: [outages] Paetec Outage?
+In-Reply-To: <1230576353.6274.11.camel@michael-laptop>
+References: <1230576353.6274.11.camel@michael-laptop>
+Message-ID: <D815F63C834B904CB6F4FF2C66C720FE591505@experts0.TechExperts.local>
+
+We're on Paetec/McLeod in Michigan and not having any problems.
+
+
+Thomas Fox, President
+Technology Experts Corp.
+980 South Telegraph Road
+Monroe, Michigan 48161
+Office: (734) 457-5000 * Direct: (734) 241-7591
+Direct Fax: (734) 264-0117
+Web: www.MyTechExperts.com
+Read My Blog: www.ExpertTechTips.com
+
+
+> -----Original Message-----
+> From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> On Behalf Of Michael Fox
+> Sent: Monday, December 29, 2008 1:46 PM
+> To: outages at outages.org
+> Subject: [outages] Paetec Outage?
+> 
+> We have several dynamic PRI's down in Minnesota, Iowa, Kansas, and
+> Texas. Anyone see anything similar?  Customer service is dropping us
+to
+> a fast busy signal.
+> 
+> Michael
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+
+
+
+From TFox at expertsmi.com  Mon Dec 29 15:08:33 2008
+From: TFox at expertsmi.com (Thomas Fox)
+Date: Mon, 29 Dec 2008 15:08:33 -0500
+Subject: [outages] Paetec Outage?
+In-Reply-To: <1230581073.6274.13.camel@michael-laptop>
+References: <1230576353.6274.11.camel@michael-laptop>
+	<D815F63C834B904CB6F4FF2C66C720FE591505@experts0.TechExperts.local>
+	<1230581073.6274.13.camel@michael-laptop>
+Message-ID: <D815F63C834B904CB6F4FF2C66C720FE59150E@experts0.TechExperts.local>
+
+Our service here is dynamic - DYIA.
+
+
+Thomas Fox, President
+Technology Experts Corp.
+980 South Telegraph Road
+Monroe, Michigan 48161
+Office: (734) 457-5000 * Direct: (734) 241-7591
+Direct Fax: (734) 264-0117
+Web: www.MyTechExperts.com
+Read My Blog: www.ExpertTechTips.com
+
+
+
+> -----Original Message-----
+> From: Michael Fox [mailto:michaelfox100 at comcast.net]
+> Sent: Monday, December 29, 2008 3:05 PM
+> To: Thomas Fox
+> Cc: outages at outages.org
+> Subject: RE: [outages] Paetec Outage?
+> 
+> On Mon, 2008-12-29 at 14:04 -0500, Thomas Fox wrote:
+> > We're on Paetec/McLeod in Michigan and not having any problems.
+> >
+> >
+> > Thomas Fox, President
+> > Technology Experts Corp.
+> > 980 South Telegraph Road
+> > Monroe, Michigan 48161
+> > Office: (734) 457-5000 * Direct: (734) 241-7591
+> > Direct Fax: (734) 264-0117
+> > Web: www.MyTechExperts.com
+> > Read My Blog: www.ExpertTechTips.com
+> >
+> >
+> > > -----Original Message-----
+> > > From: outages-bounces at outages.org [mailto:outages-
+> bounces at outages.org]
+> > > On Behalf Of Michael Fox
+> > > Sent: Monday, December 29, 2008 1:46 PM
+> > > To: outages at outages.org
+> > > Subject: [outages] Paetec Outage?
+> > >
+> > > We have several dynamic PRI's down in Minnesota, Iowa, Kansas, and
+> > > Texas. Anyone see anything similar?  Customer service is dropping
+> us
+> > to
+> > > a fast busy signal.
+> > >
+> > > Michael
+> > >
+> > > _______________________________________________
+> > > outages mailing list
+> > > outages at outages.org
+> > > https://puck.nether.net/mailman/listinfo/outages
+> >
+> >
+> >
+> 
+> I was told that it's only affecting their dynamic products.  So,
+> regular
+> PRI's should be fine.  We're still down.
+> 
+> Michael
+
+
+
+
+
+From michaelfox100 at comcast.net  Mon Dec 29 15:04:33 2008
+From: michaelfox100 at comcast.net (Michael Fox)
+Date: Mon, 29 Dec 2008 14:04:33 -0600
+Subject: [outages] Paetec Outage?
+In-Reply-To: <D815F63C834B904CB6F4FF2C66C720FE591505@experts0.TechExperts.local>
+References: <1230576353.6274.11.camel@michael-laptop>
+	<D815F63C834B904CB6F4FF2C66C720FE591505@experts0.TechExperts.local>
+Message-ID: <1230581073.6274.13.camel@michael-laptop>
+
+On Mon, 2008-12-29 at 14:04 -0500, Thomas Fox wrote:
+> We're on Paetec/McLeod in Michigan and not having any problems.
+> 
+> 
+> Thomas Fox, President
+> Technology Experts Corp.
+> 980 South Telegraph Road
+> Monroe, Michigan 48161
+> Office: (734) 457-5000 * Direct: (734) 241-7591
+> Direct Fax: (734) 264-0117
+> Web: www.MyTechExperts.com
+> Read My Blog: www.ExpertTechTips.com
+> 
+> 
+> > -----Original Message-----
+> > From: outages-bounces at outages.org [mailto:outages-bounces at outages.org]
+> > On Behalf Of Michael Fox
+> > Sent: Monday, December 29, 2008 1:46 PM
+> > To: outages at outages.org
+> > Subject: [outages] Paetec Outage?
+> > 
+> > We have several dynamic PRI's down in Minnesota, Iowa, Kansas, and
+> > Texas. Anyone see anything similar?  Customer service is dropping us
+> to
+> > a fast busy signal.
+> > 
+> > Michael
+> > 
+> > _______________________________________________
+> > outages mailing list
+> > outages at outages.org
+> > https://puck.nether.net/mailman/listinfo/outages
+> 
+> 
+> 
+
+I was told that it's only affecting their dynamic products.  So, regular
+PRI's should be fine.  We're still down.
+
+Michael
+
+
+From michaelfox100 at comcast.net  Mon Dec 29 15:52:36 2008
+From: michaelfox100 at comcast.net (Michael Fox)
+Date: Mon, 29 Dec 2008 14:52:36 -0600
+Subject: [outages] Paetec Outage?
+In-Reply-To: <D815F63C834B904CB6F4FF2C66C720FE59150E@experts0.TechExperts.local>
+References: <1230576353.6274.11.camel@michael-laptop>
+	<D815F63C834B904CB6F4FF2C66C720FE591505@experts0.TechExperts.local>
+	<1230581073.6274.13.camel@michael-laptop>
+	<D815F63C834B904CB6F4FF2C66C720FE59150E@experts0.TechExperts.local>
+Message-ID: <1230583956.6274.16.camel@michael-laptop>
+
+On Mon, 2008-12-29 at 15:08 -0500, Thomas Fox wrote:
+> Our service here is dynamic - DYIA.
+> 
+> 
+> Thomas Fox, President
+> Technology Experts Corp.
+> 980 South Telegraph Road
+> Monroe, Michigan 48161
+> Office: (734) 457-5000 * Direct: (734) 241-7591
+> Direct Fax: (734) 264-0117
+> Web: www.MyTechExperts.com
+> Read My Blog: www.ExpertTechTips.com
+> 
+> 
+> 
+> > -----Original Message-----
+> > From: Michael Fox [mailto:michaelfox100 at comcast.net]
+> > Sent: Monday, December 29, 2008 3:05 PM
+> > To: Thomas Fox
+> > Cc: outages at outages.org
+> > Subject: RE: [outages] Paetec Outage?
+> > 
+> > On Mon, 2008-12-29 at 14:04 -0500, Thomas Fox wrote:
+> > > We're on Paetec/McLeod in Michigan and not having any problems.
+> > >
+> > >
+> > > Thomas Fox, President
+> > > Technology Experts Corp.
+> > > 980 South Telegraph Road
+> > > Monroe, Michigan 48161
+> > > Office: (734) 457-5000 * Direct: (734) 241-7591
+> > > Direct Fax: (734) 264-0117
+> > > Web: www.MyTechExperts.com
+> > > Read My Blog: www.ExpertTechTips.com
+> > >
+> > >
+> > > > -----Original Message-----
+> > > > From: outages-bounces at outages.org [mailto:outages-
+> > bounces at outages.org]
+> > > > On Behalf Of Michael Fox
+> > > > Sent: Monday, December 29, 2008 1:46 PM
+> > > > To: outages at outages.org
+> > > > Subject: [outages] Paetec Outage?
+> > > >
+> > > > We have several dynamic PRI's down in Minnesota, Iowa, Kansas, and
+> > > > Texas. Anyone see anything similar?  Customer service is dropping
+> > us
+> > > to
+> > > > a fast busy signal.
+> > > >
+> > > > Michael
+> > > >
+> > > > _______________________________________________
+> > > > outages mailing list
+> > > > outages at outages.org
+> > > > https://puck.nether.net/mailman/listinfo/outages
+> > >
+> > >
+> > >
+> > 
+> > I was told that it's only affecting their dynamic products.  So,
+> > regular
+> > PRI's should be fine.  We're still down.
+> > 
+> > Michael
+> 
+> 
+> 
+> 
+> _______________________________________________
+> outages mailing list
+> outages at outages.org
+> https://puck.nether.net/mailman/listinfo/outages
+
+I just got off the phone with Paetec and they told me the McLeod network
+is having a severe outage. He told me they have not integrated with
+Mcleod yet so they have no visibility into their network to give me an
+ETA or even a ticket number. Apparently it's not affecting everyone
+though.
+
+Michael
+
+
+From rdobbins at cisco.com  Mon Dec 29 21:09:50 2008
+From: rdobbins at cisco.com (Roland Dobbins)
+Date: Tue, 30 Dec 2008 10:09:50 +0800
+Subject: [outages] Power failure prompts outages for AT&T mobile	phone
+	users in Midwest
+In-Reply-To: <495905F2.4070900@gmail.com>
+References: <6cd462c00812281550r77b20c75te986147412b125a4@mail.gmail.com>	<20081229134709.GA73278@puck.nether.net>
+	<6747DA37-BE2B-49AE-8B6D-FF6CC9CFE20D@cisco.com>
+	<495905F2.4070900@gmail.com>
+Message-ID: <53D8A96F-4AE1-476F-8AA0-3CA0C7A18ACF@cisco.com>
+
+
+On Dec 30, 2008, at 1:16 AM, virendra rode wrote:
+
+> I thought FCC mandates provider(s) to report widely (~ 30,000 lines, I
+> could be off here) affected services to FCC.
+
+My comment was specifically about reporting to NCS that GETS wasn't  
+working, sorry for being unclear.
+
+-----------------------------------------------------------------------
+Roland Dobbins <rdobbins at cisco.com> // +852.9133.2844 mobile
+
+      All behavior is economic in motivation and/or consequence.
+
+
+
+
+

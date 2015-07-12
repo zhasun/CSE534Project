@@ -1,0 +1,1047 @@
+###############################################################
+NationalNet/Level3 Fun
+###############################################################
+  I am seeing heavy packet loss passing through Atlanta on Level 3 destined to NationalNet (AS22384).  Actually, 100% packet loss to this specific destination.  Also Internet Pulse is showing some rage for Level3.  Anyone else able to confirm this?  Source within Source is AS13736 and destination within 173.0.75.0/24 (AS22384).  Sourcing from AS7922 traffic looks correct.
+   4    36 ms    36 ms    37 ms  vlan51.ebr1.denver1.level3.net [4.69.147.94]
+   5    36 ms    36 ms    37 ms  ae-2-2.ebr2.dallas1.level3.net [4.69.132.106]
+   6    37 ms    37 ms    37 ms  ae-72-72.csw2.dallas1.level3.net [4.69.151.141]
+   7    37 ms    37 ms    37 ms  ae-73-73.ebr3.dallas1.level3.net [4.69.151.146]
+   8     *        *        *     Request timed out.
+   9    36 ms    36 ms    36 ms  ae-101-101.ebr1.atlanta2.level3.net [4.69.202.65]
+ 10    36 ms    36 ms    36 ms  ae-12-51.car2.atlanta1.level3.net [4.69.150.4]
+ 11    37 ms    37 ms    37 ms  national-net.car2.atlanta1.level3.net [4.78.209.238]
+ 12    37 ms    37 ms    37 ms  gw-10774.tr1-gi0-1.as22384.net [173.0.79.46]
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ Thanks,
+ Blake
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140502/ca65fe49/attachment.html>
+ >From San Jose to 4.78.209.238:
+  6  vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  67.060 ms
+ vlan70.csw2.SanJose1.Level3.net (4.69.152.126)  67.098 ms
+ vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  67.063 ms
+  7  ae-71-71.ebr1.SanJose1.Level3.net (4.69.153.5)  72.058 ms  67.297 ms
+ ae-81-81.ebr1.SanJose1.Level3.net (4.69.153.9)  67.560 ms
+  8  ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  67.172 ms
+ ae-2-2.ebr2.SanJose5.Level3.net (4.69.148.141)  67.488 ms
+ ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  67.236 ms
+  9  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  67.602 ms  67.539 ms
+ ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  74.542 ms
+ 10  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  67.364 ms  67.532 ms
+  67.422 ms
+ 11  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  67.274 ms *  67.155 ms
+ 12  ae-101-101.ebr1.Atlanta2.Level3.net (4.69.202.65)  67.597 ms  67.240 ms
+  67.496 ms
+ 13  ae-101-101.ebr1.Atlanta2.Level3.net (4.69.202.65)  67.105 ms
+ ae-12-51.car2.Atlanta1.Level3.net (4.69.150.4)  67.325 ms  67.155 ms
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ On Fri, May 2, 2014 at 11:03 AM, Blake Pfankuch - Mailing List <
+ blake.mailinglist at pfankuch.me> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140502/87966d29/attachment.html>
+ Not seeing any issues from our BR in Denver:
+   2  vlan51.ebr1.Denver1.Level3.net (4.69.147.94)  35.373 ms  34.757 ms  
+ 34.687 ms
+       MPLS Label=1439 CoS=0 TTL=1 S=1
+   3  ae-2-2.ebr2.Dallas1.Level3.net (4.69.132.106)  35.010 ms  35.003 
+ ms  40.876 ms
+       MPLS Label=1976 CoS=0 TTL=1 S=1
+   4  ae-62-62.csw1.Dallas1.Level3.net (4.69.151.129)  38.421 ms 
+ ae-92-92.csw4.Dallas1.Level3.net (4.69.151.165)  34.655 ms  35.584 ms
+       MPLS Label=1569 CoS=0 TTL=1 S=1
+   5  ae-73-73.ebr3.Dallas1.Level3.net (4.69.151.146)  34.851 ms 
+ ae-93-93.ebr3.Dallas1.Level3.net (4.69.151.170)  35.037 ms 
+ ae-63-63.ebr3.Dallas1.Level3.net (4.69.151.134)  35.334 ms
+       MPLS Label=1983 CoS=0 TTL=1 S=1
+   6  * * *
+   7  ae-101-101.ebr1.Atlanta2.Level3.net (4.69.202.65)  37.238 ms 34.929 
+ ms  34.995 ms
+       MPLS Label=1903 CoS=0 TTL=1 S=1
+   8  ae-12-51.car2.Atlanta1.Level3.net (4.69.150.4)  34.995 ms 34.821 
+ ms  35.084 ms
+   9  National-Net.car2.Atlanta1.Level3.net (4.78.209.238)  44.622 ms 
+ 35.786 ms  35.626 ms
+ 10  gw-10774.tr1-gi0-1.as22384.net (173.0.79.46)  35.782 ms  35.687 ms  
+ 36.125 ms
+ 11  173.0.74.244 (173.0.74.244)  36.831 ms  37.183 ms  37.152 ms
+ Regards,
+ SG
+ On 5/2/2014 9:03 AM, Blake Pfankuch - Mailing List wrote:
+  <5363BB1E.40306@frii.net>
+ It's a specific issue between one of our down steams and Blake network.  Not a network related issue.
+ Regards,
+ Bradley D. Bopp
+ Director Of  Engineering
+ http://www.nationalnet.com
+ http://as22384.peeringdb.net
+ NationalNet is committed to the highest level of Customer Service available in the Web Hosting business.  If you have any questions, comments or concerns feel free to contact us at 678-247-7000 ext 1 (or toll-free, 888-4-NATNET).
+ On May 2, 2014, at May 2, 2014, 11:34 AM, Spencer Gaw <spencerg at frii.net> wrote:
+ -------------- next part --------------
+ A non-text attachment was scrubbed...
+ Name: signature.asc
+ Type: application/pgp-signature
+ Size: 495 bytes
+ Desc: Message signed with OpenPGP using GPGMail
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140502/744b34d0/attachment-0001.sig>
+  <5363BB1E.40306@frii.net>
+ If it helps troubleshooting, no issues going to 173.0.74.244 from 199.66.152.0/21 (AS19754) although we are going via XO (AS2828).
+   2     9 ms     8 ms     9 ms  172.24.128.1
+   3     9 ms     9 ms    12 ms  1825a-cloud-cv60-gw.1825a-rtr0.austin-tx.as19754.liveair.net [199.66.152.129]
+   4    14 ms    16 ms    13 ms  1825a-q303-10g.1950stemmons-rtr0.dallas-tx.as19754.liveair.net [199.66.153.86]
+   5    13 ms    14 ms    14 ms  ge5-0-1d0.cir1.dallas2-tx.us.xo.net [65.47.204.17]
+   6    41 ms    46 ms    45 ms  207.88.14.242.ptr.us.xo.net [207.88.14.242]
+   7    44 ms    44 ms    46 ms  te-4-0-0.rar3.atlanta-ga.us.xo.net [207.88.12.1]
+   8    35 ms    35 ms    34 ms  ae0d0.cir2.atlanta6-ga.us.xo.net [207.88.13.9]
+   9    35 ms    40 ms    35 ms  67.106.215.54.ptr.us.xo.net [67.106.215.54]
+  10    35 ms    35 ms    35 ms  gw-10774.tr1-gi0-1.as22384.net [173.0.79.46]
+  11    38 ms    38 ms    38 ms  173.0.74.244
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Spencer Gaw
+ Sent: Friday, May 2, 2014 10:35 AM
+ Not seeing any issues from our BR in Denver:
+   2  vlan51.ebr1.Denver1.Level3.net (4.69.147.94)  35.373 ms  34.757 ms
+ 34.687 ms
+       MPLS Label=1439 CoS=0 TTL=1 S=1
+   3  ae-2-2.ebr2.Dallas1.Level3.net (4.69.132.106)  35.010 ms  35.003 ms  40.876 ms
+       MPLS Label=1976 CoS=0 TTL=1 S=1
+   4  ae-62-62.csw1.Dallas1.Level3.net (4.69.151.129)  38.421 ms ae-92-92.csw4.Dallas1.Level3.net (4.69.151.165)  34.655 ms  35.584 ms
+       MPLS Label=1569 CoS=0 TTL=1 S=1
+   5  ae-73-73.ebr3.Dallas1.Level3.net (4.69.151.146)  34.851 ms ae-93-93.ebr3.Dallas1.Level3.net (4.69.151.170)  35.037 ms ae-63-63.ebr3.Dallas1.Level3.net (4.69.151.134)  35.334 ms
+       MPLS Label=1983 CoS=0 TTL=1 S=1
+   6  * * *
+   7  ae-101-101.ebr1.Atlanta2.Level3.net (4.69.202.65)  37.238 ms 34.929 ms  34.995 ms
+       MPLS Label=1903 CoS=0 TTL=1 S=1
+   8  ae-12-51.car2.Atlanta1.Level3.net (4.69.150.4)  34.995 ms 34.821 ms  35.084 ms
+   9  National-Net.car2.Atlanta1.Level3.net (4.78.209.238)  44.622 ms
+ 35.786 ms  35.626 ms
+ 10  gw-10774.tr1-gi0-1.as22384.net (173.0.79.46)  35.782 ms  35.687 ms
+ 36.125 ms
+ 11  173.0.74.244 (173.0.74.244)  36.831 ms  37.183 ms  37.152 ms
+ Regards,
+ SG
+ On 5/2/2014 9:03 AM, Blake Pfankuch - Mailing List wrote:
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ Proprietary Information Notice: This message may contain proprietary information that is the property of LiveAir Networks or its clients. Such information may not be shared with outside entities without the prior written consent of LiveAir Networks. If you have received this message in error please destroy it immediately.
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon's IXO/TAP service
+###############################################################
+ All day today I've been getting lots of failures using the Verizon
+ IXO/TAP dial-up service to send text messages with qpage.  Some do get
+ through, but many fail.  Has anyone else noticed this?  Does anyone
+ know how to report this problem to Verizon?
+ May  2 15:33:20 server qpage[20953]: page delivered, id=EBTa1620, from=sender1, to=user3, parts=1
+ ...
+ May  2 16:54:12 server qpage[11241]: connected to remote, service=verizon
+ May  2 16:54:32 server qpage[11241]: no login prompt from verizon
+ May  2 16:55:55 server qpage[17906]: no answer from remote, service=verizon
+ May  2 16:56:24 server qpage[17906]: connected to remote, service=verizon
+ May  2 16:56:44 server qpage[17906]: no login prompt from verizon
+ May  2 16:57:14 server qpage[17906]: connected to remote, service=verizon
+ May  2 16:57:34 server qpage[17906]: no login prompt from verizon
+ May  2 16:57:35 server qpage[27395]: too many retries for user1 in P1399063330.000
+ May  2 16:57:35 server qpage[27395]: too many retries for user2 in P1399063330.000
+ May  2 16:57:35 server qpage[27395]: too many retries for user3 in P1399063330.000
+ May  2 16:57:35 server qpage[27395]: notifying administrator of failed page id=EBUq1630
+ May  2 16:57:35 server qpage[27395]: renaming bad page to B1399063330.000
+ I meant to post the phone number that is failing:
+ 8668230501
+ On Fri, May 02, 2014 at 05:02:54PM -0400, Chuck Anderson wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+AAAA for www.att.net broken?
+###############################################################
+ I monitor ICMPv6 and HTTPv6 access to www.att.net, and starting at 1:26 am
+ Central I started getting no IPv6 address for that host.  (Because of ATT's
+ TTLs the DNS change may have happened earlier but our monitoring system
+ didn't see that).
+ It now has two CNAMEs, neither of which resolves to an IPv6 address.
+ www.att.net used to resolve to 2001:1890:1c01:2::40.  The IPv4 version goes
+ to att.yahoo.com, which does work.
+ If anyone from ATT/Akamai/Yahoo is lurking, could they look into this?
+ Regards,
+ Frank Bulk
+ root at nagios:/tmp# dig AAAA www.att.net
+ ; <<>> DiG 9.7.3 <<>> AAAA www.att.net
+ ;; global options: +cmd
+ ;; Got answer:
+ ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13552
+ ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 0
+ ;; QUESTION SECTION:
+ ;www.att.net.                   IN      AAAA
+ ;; ANSWER SECTION:
+ www.att.net.            180     IN      CNAME   www.att.net.edgekey.net.
+ www.att.net.edgekey.net. 2829   IN      CNAME   e8938.g.akamaiedge.net.
+ ;; AUTHORITY SECTION:
+ g.akamaiedge.net.       640     IN      SOA     n0g.akamaiedge.net.
+ hostmaster.akamai.com. 1399462204 1000 1000 1000 1800
+ ;; Query time: 0 msec
+ ;; SERVER: 127.0.0.1#53(127.0.0.1)
+ ;; WHEN: Wed May  7 06:36:04 2014
+ ;; MSG SIZE  rcvd: 157
+ root at nagios:/tmp#
+###############################################################
+END
+###############################################################
+
+###############################################################
+HE IPv6 tunnel problems
+###############################################################
+ I've been experiencing IPv6 connectivity issues all this week, and had 
+ to disable my tunnel completely last night. Anyone experiencing any 
+ problems with HE IPv6 tunnels?
+ root at alpha:~# traceroute6 ipv6.google.com
+ traceroute to ipv6.google.com (2607:f8b0:4005:802::1002), 30 hops max, 
+ 80 byte packets
+   1  redacted-2.tunnel.tserv1.den1.ipv6.he.net (2001:470:39:223:) 71.129 
+ ms  76.464 ms  76.487 ms
+   2  ge2-19.core1.den1.he.net (2001:470:0:24b::1)  76.536 ms 80.735 ms  
+ 81.544 ms
+   3  10ge4-3.core1.chi1.he.net (2001:470:0:1af::1)  107.123 ms 107.152 
+ ms  107.186 ms
+   4  google-as15169.10gigabitethernet7.switch2.chi1.he.net 
+ (2001:470:0:bf::2)  107.302 ms  114.789 ms  114.014 ms
+   5  2001:4860::1:0:92e (2001:4860::1:0:92e)  112.507 ms  112.537 ms  
+ 130.409 ms
+   6  2001:4860::8:0:5900 (2001:4860::8:0:5900)  120.730 ms 
+ 2001:4860::8:0:5901 (2001:4860::8:0:5901)  91.607 ms *
+   7  2001:4860::8:0:4cde (2001:4860::8:0:4cde)  102.758 ms 
+ 2001:4860::8:0:64da (2001:4860::8:0:64da)  112.617 ms 
+ 2001:4860::8:0:4cde (2001:4860::8:0:4cde)  106.705 ms
+   8  2001:4860::8:0:3427 (2001:4860::8:0:3427)  116.717 ms 
+ 2001:4860::8:0:3426 (2001:4860::8:0:3426)  118.457 ms 
+ 2001:4860::8:0:3427 (2001:4860::8:0:3427)  118.777 ms
+   9  2001:4860::8:0:6117 (2001:4860::8:0:6117)  125.603 ms 
+ 2001:4860::8:0:2cb6 (2001:4860::8:0:2cb6)  123.749 ms 
+ 2001:4860::8:0:6117 (2001:4860::8:0:6117)  125.057 ms
+ 10  2001:4860::1:0:7ea (2001:4860::1:0:7ea)  135.940 ms  138.026 ms  
+ 137.344 ms
+ 11  2001:4860:0:1::693 (2001:4860:0:1::693)  132.675 ms  134.535 ms  
+ 116.313 ms
+ 12  2607:f8b0:4005:802::15 (2607:f8b0:4005:802::15)  118.554 ms 119.782 
+ ms  115.659 ms
+ Denver endpoint in case it wasn't clear from the traceroute. Could you 
+ elaborate on the issues you're seeing?
+ Regards,
+ SG
+ On 5/7/2014 7:27 AM, Joshua M Boniface wrote:
+ The problem I've been seeing is specifically with service connectivity. 
+ I'm on the Toronto, ON tunnel. Pings and traceroutes complete without 
+ any problems, however as soon as services (specifically mail-related, 
+ IMAP and SMTP) were run across the tunnel, they would time out and fail. 
+ I'm just looking to see if anyone else has noticed something similar 
+ over the past few days.
+ On 14-05-07 10:14 AM, Spencer Gaw wrote:
+  <536A4414.6070101@boniface.me>
+ Hmmm, looks like you might be on to something. From HE6in4:
+ root at alpha:~# for i in `dig mx gmail.com +short | cut -d' ' -f2` ; do 
+ printf "%-25s%-25s" "`date '+%x %X'`" "`dig AAAA $i +short`" ; e=`curl 
+ -6 -sSm 5 $i:25 2>&1 >/dev/null`; r=$?; echo "$e $r" ; done
+ 05/07/2014 11:19:09 AM   2607:f8b0:4002:c01::1b   curl: (28) connect() 
+ timed out! 28
+ 05/07/2014 11:19:15 AM   2607:f8b0:400e:c03::1a   curl: (28) connect() 
+ timed out! 28
+ 05/07/2014 11:19:20 AM   2607:f8b0:4001:c03::1a   curl: (28) connect() 
+ timed out! 28
+ 05/07/2014 11:19:25 AM   2607:f8b0:400d:c04::1a   curl: (28) connect() 
+ timed out! 28
+ 05/07/2014 11:19:30 AM   2607:f8b0:400c:c01::1a   curl: (28) connect() 
+ timed out! 28
+ root at test:~# for i in `dig mx gmail.com +short | cut -d' ' -f2` ; do 
+ printf "%-25s%-25s" "`date '+%x %X'`" "`dig AAAA $i +short`" ; e=`curl 
+ -6 -sSm 5 $i:25 2>&1 >/dev/null`; r=$?; echo "$e $r" ; done
+ 05/07/2014 11:14:29 AM   2607:f8b0:4001:c03::1a    0
+ 05/07/2014 11:14:29 AM   2607:f8b0:400d:c04::1a    0
+ 05/07/2014 11:14:29 AM   2607:f8b0:400c:c01::1a    0
+ 05/07/2014 11:14:30 AM   2a00:1450:400c:c05::1b    0
+ 05/07/2014 11:14:30 AM   2a00:1450:4013:c00::1a    0
+ No issues with IPv6 web traffic though. Anyone else seeing this?
+ Regards,
+ SG
+ On 5/7/2014 8:32 AM, Joshua M Boniface wrote:
+ >>> I've been experiencing IPv6 connectivity issues all this week, and 
+ >>> had to disable my tunnel completely last night. Anyone experiencing 
+ >>> any problems with HE IPv6 tunnels?
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+  <536A4414.6070101@boniface.me>
+ Have you emailed into support at he.net?
+ Reid
+ On Wed, May 7, 2014 at 10:32 AM, Joshua M Boniface <joshua at boniface.me>wrote:
+ >>> I've been experiencing IPv6 connectivity issues all this week, and had
+ >>> to disable my tunnel completely last night. Anyone experiencing any
+ >>> problems with HE IPv6 tunnels?
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>>
+ -- 
+ Reid Fishler
+ Director
+ Hurricane Electric
+ +1-510-580-4178
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/6d2f9e1c/attachment.html>
+  <CA+w5D_DdNE9C_VgX5K6tECG1sc2C7GMNynUmso_CvFGR4qvMcQ@mail.gmail.com>
+ I have, and they're mentioning the MTU discovery as well. I'm following 
+ up with them further.
+ On 14-05-07 01:19 PM, Reid Fishler wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/4e7410a3/attachment.html>
+  <536A4414.6070101@boniface.me> <536A6AFA.90006@frii.net>
+ FWIW, through Fremont with a BGP tunnel:
+ bash-3.2$  for i in `dig mx gmail.com +short | cut -d' ' -f2` ; do printf "%-25s%-25s" "`date '+%x %X'`" "`dig AAAA $i +short`" ; e=`curl -6 -sSm 5 $i:25 2>&1 >/dev/null`; r=$?; echo "$e $r"; done
+ 05/07/2014 02:18:32 PM   2607:f8b0:400d:c04::1b    0
+ 05/07/2014 02:18:32 PM   2607:f8b0:400c:c01::1b    0
+ 05/07/2014 02:18:33 PM   2607:f8b0:400e:c03::1a    0
+ 05/07/2014 02:18:33 PM   2607:f8b0:4001:c03::1a    0
+ 05/07/2014 02:18:34 PM   2607:f8b0:4002:c01::1a    0
+ Seems to work OK for me from my home location (2620:0:930::/48 AS1734).
+ Just another datapoint. As Reid mentioned, the folks at support at he.net are in the best position to help you resolve any issues.
+ Owen
+ On May 7, 2014, at 10:18 , Spencer Gaw <spencerg at frii.net> wrote:
+ >>> root at alpha:~# traceroute6 ipv6.google.com
+ >>> traceroute to ipv6.google.com (2607:f8b0:4005:802::1002), 30 hops max, 80 byte packets
+ >>> 1  redacted-2.tunnel.tserv1.den1.ipv6.he.net (2001:470:39:223:) 71.129 ms  76.464 ms  76.487 ms
+ >>> 2  ge2-19.core1.den1.he.net (2001:470:0:24b::1)  76.536 ms 80.735 ms  81.544 ms
+ >>> 3  10ge4-3.core1.chi1.he.net (2001:470:0:1af::1)  107.123 ms 107.152 ms  107.186 ms
+ >>> 4  google-as15169.10gigabitethernet7.switch2.chi1.he.net (2001:470:0:bf::2)  107.302 ms  114.789 ms  114.014 ms
+ >>> 5  2001:4860::1:0:92e (2001:4860::1:0:92e)  112.507 ms  112.537 ms  130.409 ms
+ >>> 6  2001:4860::8:0:5900 (2001:4860::8:0:5900)  120.730 ms 2001:4860::8:0:5901 (2001:4860::8:0:5901)  91.607 ms *
+ >>> 7  2001:4860::8:0:4cde (2001:4860::8:0:4cde)  102.758 ms 2001:4860::8:0:64da (2001:4860::8:0:64da)  112.617 ms 2001:4860::8:0:4cde (2001:4860::8:0:4cde)  106.705 ms
+ >>> 8  2001:4860::8:0:3427 (2001:4860::8:0:3427)  116.717 ms 2001:4860::8:0:3426 (2001:4860::8:0:3426)  118.457 ms 2001:4860::8:0:3427 (2001:4860::8:0:3427)  118.777 ms
+ >>> 9  2001:4860::8:0:6117 (2001:4860::8:0:6117)  125.603 ms 2001:4860::8:0:2cb6 (2001:4860::8:0:2cb6)  123.749 ms 2001:4860::8:0:6117 (2001:4860::8:0:6117)  125.057 ms
+ >>> 10  2001:4860::1:0:7ea (2001:4860::1:0:7ea)  135.940 ms  138.026 ms  137.344 ms
+ >>> 11  2001:4860:0:1::693 (2001:4860:0:1::693)  132.675 ms  134.535 ms  116.313 ms
+ >>> 12  2607:f8b0:4005:802::15 (2607:f8b0:4005:802::15)  118.554 ms 119.782 ms  115.659 ms
+ >>> 
+ >>> Denver endpoint in case it wasn't clear from the traceroute. Could you elaborate on the issues you're seeing?
+ >>> 
+ >>> 
+ >>> Regards,
+ >>> 
+ >>> SG
+ >>> 
+ >>> On 5/7/2014 7:27 AM, Joshua M Boniface wrote:
+ >>>> I've been experiencing IPv6 connectivity issues all this week, and had to disable my tunnel completely last night. Anyone experiencing any problems with HE IPv6 tunnels?
+ >>>> _______________________________________________
+ >>>> Outages mailing list
+ >>>> Outages at outages.org
+ >>>> https://puck.nether.net/mailman/listinfo/outages
+ >>> 
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/9a2ba96a/attachment-0001.html>
+ Yes, through Dallas in particular...to the point where I finally just
+ disabled it.  Tried again a few minutes ago, and the latency is so high and
+ throughput so low that I immediately turned it right back off.
+ Took over a minute to load my Gmail inbox with the tunnel...not sure what
+ the issue is.
+ On Wed, May 7, 2014 at 8:27 AM, Joshua M Boniface <joshua at boniface.me>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/a8e6d4fb/attachment.html>
+  <CAA5Ek4ceTt5-fagyFdROdcpaTQqCu=1i=rFOJHuqRuXJUnstxQ@mail.gmail.com>
+ Tunnel Broker = Tunnel BROKEN (at the moment)
+ On Wed, May 7, 2014 at 5:02 PM, Blair Trosper <blair.trosper at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/e317cd22/attachment.html>
+  <CAA5Ek4ceTt5-fagyFdROdcpaTQqCu=1i=rFOJHuqRuXJUnstxQ@mail.gmail.com>
+  <CAA5Ek4dq6iGyaDW8_ZPjtEG3U2ALSX--bK0GekPu20o8RKtmbA@mail.gmail.com>
+ I don't see any tickets in the queue from you, can you please email in your
+ traceroutes to support at he.net? We would like to try to help you.
+ Reid
+ On Wed, May 7, 2014 at 6:21 PM, Blair Trosper <blair.trosper at gmail.com>wrote:
+ >>> I've been experiencing IPv6 connectivity issues all this week, and had
+ >>> to disable my tunnel completely last night. Anyone experiencing any
+ >>> problems with HE IPv6 tunnels?
+ >>> _______________________________________________
+ >>> Outages mailing list
+ >>> Outages at outages.org
+ >>> https://puck.nether.net/mailman/listinfo/outages
+ >>>
+ -- 
+ Reid Fishler
+ Director
+ Hurricane Electric
+ +1-510-580-4178
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140507/efec2f22/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Anyone else see www.eBay.com down this morning?
+###############################################################
+ Our NAGIOS logs show no response, starting at 4:10 am (Central), and then at
+ 4:39 am it was "Service unavailable" until 6:02 am.
+ Here's a current traceroute and my logs.
+ # tcptraceroute www.ebay.com
+ Selected device eth0.3, address 96.31.0.5, port 44789 for outgoing packets
+ Tracing the path to www.ebay.com (66.135.210.61) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net (96.31.0.254)  0.257 ms  0.282 ms  0.199
+ ms
+  2  sxct.sxcy.mtcnet.net (167.142.156.197)  0.205 ms  0.133 ms  0.137 ms
+  3  premier.sxcy-mlx.fbnt.netins.net (173.215.60.5)  5.358 ms  5.347 ms
+ 6.119 ms
+  4  ins-db1-te-13-2-219.desm.netins.net (167.142.60.157)  9.377 ms  9.357 ms
+ 9.417 ms
+  5  ins-dc1-et-8-2.desm.netins.net (167.142.67.5)  11.021 ms  11.015 ms
+ 10.979 ms
+  6  ins-kc2-po20.kmrr.netins.net (167.142.67.30)  11.040 ms  10.982 ms
+ 10.986 ms
+  7  ins-kc1-po21.kmrr.netins.net (167.142.67.42)  11.027 ms  11.035 ms
+ 11.047 ms
+  8  144.223.35.225  20.473 ms  20.487 ms  20.407 ms
+  9  144.232.11.234  31.934 ms  32.207 ms  31.599 ms
+ 10  144.232.12.139  65.446 ms  43.498 ms  43.081 ms
+ 11  144.232.1.163  41.941 ms  42.019 ms  42.016 ms
+ 12  144.232.11.178  47.854 ms  46.161 ms  47.525 ms
+ 13  sl-payp2-414020-0.sprintlink.net (144.223.244.134)  68.128 ms  68.165 ms
+ 68.201 ms
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  www.ebay.com (66.135.210.61) [open]  89.651 ms  89.725 ms  89.763 ms
+ Host Up[05-09-2014 06:02:52] HOST ALERT: ebay;UP;HARD;1;HTTP OK: HTTP/1.1
+ 200 OK - 86740 bytes in 1.042 second response time
+ Host Down[05-09-2014 04:42:44] HOST ALERT: ebay;DOWN;HARD;4;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.359 second response time
+ Host Down[05-09-2014 04:41:34] HOST ALERT: ebay;DOWN;SOFT;3;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.402 second response time
+ Host Down[05-09-2014 04:40:09] HOST ALERT: ebay;DOWN;SOFT;2;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.301 second response time
+ Host Down[05-09-2014 04:39:00] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7452 bytes in 0.301 second response time
+ Host Up[05-09-2014 04:23:36] HOST ALERT: ebay;UP;SOFT;2;HTTP OK: HTTP/1.1
+ 200 OK - 219100 bytes in 1.908 second response time
+ Host Down[05-09-2014 04:22:26] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL -
+ No data received from host
+ Host Up[05-09-2014 04:12:06] HOST ALERT: ebay;UP;SOFT;2;HTTP OK: HTTP/1.1
+ 200 OK - 231778 bytes in 0.966 second response time
+ Host Down[05-09-2014 04:10:56] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL -
+ No data received from host
+ Working for me.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On May 9, 2014 8:41 AM, "Frank Bulk" <frnkblk at iname.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/ac2049d3/attachment.html>
+  <CAN9qwJ9kevRMkpXvU0Cc1Cz2ZGfy1bK+cLn564kW8q6dyHPJrg@mail.gmail.com>
+ It loaded slowly for me (Dallas area), but it did load.
+ --
+ ERIC HENSON
+ Solutions Architect for Systems Organization
+ PFSweb  |  www.pfsweb.com<http://www.pfsweb.com/>
+ p:  972.881.2900  x3104
+ m: 972.948.3424
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Josh Luthman
+ Sent: Friday, May 09, 2014 8:07 AM
+ Cc: outages at outages.org
+ Working for me.
+ Josh Luthman
+ Office: 937-552-2340
+ Direct: 937-552-2343
+ 1100 Wayne St
+ Suite 1337
+ Troy, OH 45373
+ On May 9, 2014 8:41 AM, "Frank Bulk" <frnkblk at iname.com<mailto:frnkblk at iname.com>> wrote:
+ Our NAGIOS logs show no response, starting at 4:10 am (Central), and then at
+ 4:39 am it was "Service unavailable" until 6:02 am.
+ Here's a current traceroute and my logs.
+ # tcptraceroute www.ebay.com<http://www.ebay.com>
+ Selected device eth0.3, address 96.31.0.5, port 44789 for outgoing packets
+ Tracing the path to www.ebay.com<http://www.ebay.com> (66.135.210.61<tel:%2866.135.210.61>) on TCP port 80 (www), 30
+ hops max
+  1  router-core-inside.mtcnet.net<http://router-core-inside.mtcnet.net> (96.31.0.254)  0.257 ms  0.282 ms  0.199
+ ms
+  2  sxct.sxcy.mtcnet.net<http://sxct.sxcy.mtcnet.net> (167.142.156.197)  0.205 ms  0.133 ms  0.137 ms
+  3  premier.sxcy-mlx.fbnt.netins.net<http://premier.sxcy-mlx.fbnt.netins.net> (173.215.60.5)  5.358 ms  5.347 ms
+ 6.119 ms
+  4  ins-db1-te-13-2-219.desm.netins.net<http://ins-db1-te-13-2-219.desm.netins.net> (167.142.60.157)  9.377 ms  9.357 ms
+ 9.417 ms
+  5  ins-dc1-et-8-2.desm.netins.net<http://ins-dc1-et-8-2.desm.netins.net> (167.142.67.5)  11.021 ms  11.015 ms
+ 10.979 ms
+  6  ins-kc2-po20.kmrr.netins.net<http://ins-kc2-po20.kmrr.netins.net> (167.142.67.30)  11.040 ms  10.982 ms
+ 10.986 ms
+  7  ins-kc1-po21.kmrr.netins.net<http://ins-kc1-po21.kmrr.netins.net> (167.142.67.42)  11.027 ms  11.035 ms
+ 11.047 ms
+  8  144.223.35.225  20.473 ms  20.487 ms  20.407 ms
+  9  144.232.11.234  31.934 ms  32.207 ms  31.599 ms
+ 10  144.232.12.139  65.446 ms  43.498 ms  43.081 ms
+ 11  144.232.1.163  41.941 ms  42.019 ms  42.016 ms
+ 12  144.232.11.178  47.854 ms  46.161 ms  47.525 ms
+ 13  sl-payp2-414020-0.sprintlink.net<http://sl-payp2-414020-0.sprintlink.net> (144.223.244.134)  68.128 ms  68.165 ms
+ 68.201 ms
+ 14  * * *
+ 15  * * *
+ 16  * * *
+ 17  * * *
+ 18  www.ebay.com<http://www.ebay.com> (66.135.210.61<tel:%2866.135.210.61>) [open]  89.651 ms  89.725 ms  89.763 ms
+ Host Up[05-09-2014 06:02:52] HOST ALERT: ebay;UP;HARD;1;HTTP OK: HTTP/1.1
+ 200 OK - 86740 bytes in 1.042 second response time
+ Host Down[05-09-2014 04:42:44] HOST ALERT: ebay;DOWN;HARD;4;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.359 second response time
+ Host Down[05-09-2014 04:41:34] HOST ALERT: ebay;DOWN;SOFT;3;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.402 second response time
+ Host Down[05-09-2014 04:40:09] HOST ALERT: ebay;DOWN;SOFT;2;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7509 bytes in 0.301 second response time
+ Host Down[05-09-2014 04:39:00] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL:
+ HTTP/1.1 503 Service Unavailable - 7452 bytes in 0.301 second response time
+ Host Up[05-09-2014 04:23:36] HOST ALERT: ebay;UP;SOFT;2;HTTP OK: HTTP/1.1
+ 200 OK - 219100 bytes in 1.908 second response time
+ Host Down[05-09-2014 04:22:26] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL -
+ No data received from host
+ Host Up[05-09-2014 04:12:06] HOST ALERT: ebay;UP;SOFT;2;HTTP OK: HTTP/1.1
+ 200 OK - 231778 bytes in 0.966 second response time
+ Host Down[05-09-2014 04:10:56] HOST ALERT: ebay;DOWN;SOFT;1;HTTP CRITICAL -
+ No data received from host
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ ------------------------
+ This email was scanned by BitDefender.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/841620e0/attachment-0001.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Cogent Problem?
+###############################################################
+ Cogent has had a issue for a few days now, causing extreme latency across
+ the network;
+     be2437.ccr21.alb02.atlas.cogentco.com (66.28.4.197)  38.219 ms
+ 10  te0-0-2-0.agr11.alb02.atlas.cogentco.com (154.54.5.161)  37.838 ms
+     te0-0-2-2.agr11.alb02.atlas.cogentco.com (154.54.28.82)  37.968 ms
+     te0-0-2-0.agr11.alb02.atlas.cogentco.com (154.54.5.161)  38.100 ms
+ 11  te0-0-2-0.agr11.alb02.atlas.cogentco.com (154.54.5.161)  4645.684 ms !H
+  4503.251 ms !H
+     te0-0-2-2.agr11.alb02.atlas.cogentco.com (154.54.28.82)  4581.944 ms !H
+ Can anyone verify what is going on?  I called them a few weeks ago so I'm
+ hoping this might hit some admins who work there.
+ --Kyle
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/17a5a57a/attachment.html>
+ I have a 100Mb Cogent fiber line out of downtown Syracuse, NY and are not experiencing any issues.
+ But their tech support has always been pretty good, you should reach out to them again.
+ 2     2 ms     2 ms     1 ms  fa0-3.na11.b017044-0.syr01.atlas.cogentco.com 
+  3    <1 ms    <1 ms    <1 ms  gi1-47.3802.ccr01.syr01.atlas.cogentco.com [38.20.65.121]
+ 4     4 ms     4 ms     4 ms  te0-0-0-16.ccr21.alb02.atlas.cogentco.com [154.54.27.165]
+ 5     7 ms     7 ms     7 ms  be2109.mpd22.jfk02.atlas.cogentco.com [154.54.3.137]
+ 6    14 ms    14 ms    13 ms  be2151.mpd22.dca01.atlas.cogentco.com [154.54.40.73]
+ 7    14 ms    15 ms    15 ms  be2112.ccr41.iad02.atlas.cogentco.com [154.54.5.233]
+ 8    14 ms    14 ms    14 ms  38.88.214.50
+ 9     *       15 ms    15 ms  209.85.252.80
+ 10    15 ms    15 ms    15 ms  72.14.238.175
+ 11    15 ms    14 ms    14 ms  iad23s06-in-f14.1e100.net [74.125.228.46]
+ -Dann
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Kyle Farmer
+ Sent: Friday, May 9, 2014 1:12 PM
+ Cogent has had a issue for a few days now, causing extreme latency across the network;
+     be2437.ccr21.alb02.atlas.cogentco.com <http://be2437.ccr21.alb02.atlas.cogentco.com>  (66.28.4.197)  38.219 ms
+ 10  te0-0-2-0.agr11.alb02.atlas.cogentco.com <http://te0-0-2-0.agr11.alb02.atlas.cogentco.com>  (154.54.5.161)  37.838 ms
+     te0-0-2-2.agr11.alb02.atlas.cogentco.com <http://te0-0-2-2.agr11.alb02.atlas.cogentco.com>  (154.54.28.82)  37.968 ms
+     te0-0-2-0.agr11.alb02.atlas.cogentco.com <http://te0-0-2-0.agr11.alb02.atlas.cogentco.com>  (154.54.5.161)  38.100 ms
+ 11  te0-0-2-0.agr11.alb02.atlas.cogentco.com <http://te0-0-2-0.agr11.alb02.atlas.cogentco.com>  (154.54.5.161)  4645.684 ms !H  4503.251 ms !H
+     te0-0-2-2.agr11.alb02.atlas.cogentco.com <http://te0-0-2-2.agr11.alb02.atlas.cogentco.com>  (154.54.28.82)  4581.944 ms !H
+ Can anyone verify what is going on?  I called them a few weeks ago so I'm hoping this might hit some admins who work there.
+ --Kyle
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/686910a7/attachment.html>
+  <BAY404-EAS346D8A2B8B14E101FB8D77BC480@phx.gbl>
+ Looks good coming out of Denver on our 100mb Cogent connection:
+    2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    10    1.2   1.1   0.8   1.7   0.3
+    3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    10    1.2   7.6   0.8  50.5  15.8
+    4. te0-7-0-5.ccr21.den01.atlas.cogentco.com       0.0%    10    1.7   1.2   1.0   1.7   0.3
+    5. be2129.mpd21.mci01.atlas.cogentco.com          0.0%    10   13.4  13.5  12.8  14.7   0.6
+    6. be2158.ccr41.ord01.atlas.cogentco.com          0.0%    10   25.7  25.7  25.2  25.9   0.2
+    7. be2005.ccr21.ord03.atlas.cogentco.com          0.0%    10   25.9  25.7  25.2  26.4   0.4
+    8. 38.88.204.78                                   0.0%    10   25.5  25.2  24.8  26.1   0.4
+    9. 209.85.254.120                                 0.0%    10   40.7  29.9  25.1  44.8   7.6
+   10. 209.85.254.238                                 0.0%    10   25.6  25.4  25.1  25.7   0.2
+   11. 72.14.232.72                                   0.0%    10   67.0  45.9  43.1  67.0   7.4
+   12. 72.14.236.147                                  0.0%    10   43.4  43.3  43.1  43.6   0.2
+   13. 72.14.238.175                                  0.0%    10   44.0  43.3  42.8  44.0   0.4
+   14. iad23s06-in-f14.1e100.net                      0.0%    10   42.8  42.7  42.2  43.2   0.4
+ Chris
+ On 05/09/2014 11:23 AM, Dann Schuler wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/7881d226/attachment-0001.html>
+ Can you post the full trace route?
+ James Milko
+ Architect, Network Engineering
+ 900 Main Campus Drive
+ Raleigh, NC 27606
+ Bandwidth <http://www.bandwidth.com/business/>
+ o 919.439.1935
+ On Fri, May 9, 2014 at 1:12 PM, Kyle Farmer <bannereddivpool at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/22ba8729/attachment.html>
+ The !H indicates host unreachable.  I'm guessing that some router near the
+ host has a 4.5 second ARP timeout.  It's not a latency issue, but probably
+ an end host issue.
+ On Fri, May 9, 2014 at 11:12 AM, Kyle Farmer <bannereddivpool at gmail.com>wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/fa0f9c5c/attachment.html>
+  <CADb+6TCqtLBM=Li-0Q4ECB-vmoBcCH71SC0Mw9LcbKiV7ntKXg@mail.gmail.com>
+ $ traceroute video.primelink1.com
+ traceroute to video.primelink1.com (38.101.32.14), 64 hops max, 40 byte
+ packets
+  1  199.48.129.177 (199.48.129.177)  0.451 ms  0.619 ms  0.361 ms
+  2  208.79.82.101 (208.79.82.101)  0.428 ms  0.376 ms  0.468 ms
+  3  ge-6-8.car2.Raleigh1.Level3.net (4.71.162.13)  3.732 ms  1.847 ms
+  2.320 ms
+  4  ae-9-9.ebr1.Washington1.Level3.net (4.69.132.178)  7.817 ms  7.624 ms
+  7.572 ms
+  5  ae-91-91.csw4.Washington1.Level3.net (4.69.134.142)  7.578 ms
+     ae-61-61.csw1.Washington1.Level3.net (4.69.134.130)  7.565 ms
+     ae-81-81.csw3.Washington1.Level3.net (4.69.134.138)  7.814 ms
+  6  ae-2-70.edge3.Washington4.Level3.net (4.69.149.82)  7.635 ms
+     ae-4-90.edge3.Washington4.Level3.net (4.69.149.210)  7.400 ms  7.593 ms
+  7  COGENT-COMM.edge3.Washington4.Level3.net (4.68.63.174)  8.157 ms  8.163
+ ms  8.661 ms
+  8  be2177.ccr22.dca01.atlas.cogentco.com (154.54.41.206)  9.385 ms
+     be2113.mpd21.dca01.atlas.cogentco.com (154.54.6.170)  9.258 ms
+     be2177.ccr22.dca01.atlas.cogentco.com (154.54.41.206)  9.237 ms
+  9  be2148.ccr21.jfk02.atlas.cogentco.com (154.54.31.118)  15.374 ms
+  15.926 ms
+     be2149.ccr22.jfk02.atlas.cogentco.com (154.54.31.126)  15.705 ms
+ 10  be2109.ccr21.alb02.atlas.cogentco.com (154.54.3.138)  27.944 ms
+     be2107.ccr21.alb02.atlas.cogentco.com (154.54.3.94)  28.124 ms
+     be2108.ccr21.alb02.atlas.cogentco.com (154.54.3.134)  27.568 ms
+ 11  te0-0-2-2.agr11.alb02.atlas.cogentco.com (154.54.28.82)  28.007 ms
+  28.353 ms
+     te0-0-2-0.agr11.alb02.atlas.cogentco.com (154.54.5.161)  27.332 ms
+ 12  te0-0-2-2.agr11.alb02.atlas.cogentco.com (154.54.28.82)  4653.993 ms !H
+     te0-0-2-0.agr11.alb02.atlas.cogentco.com (154.54.5.161)  4608.391 ms !H
+  4553.602 ms !H
+ $
+ Above is the full traceroute.  What I find is pinging the end route you'll
+ see it jump up to 10000MS and down to 9000MS.  Almost like a bad BGP
+ upstream.
+ On Fri, May 9, 2014 at 2:07 PM, Joel Maslak <jmaslak at antelope.net> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/4c4bec84/attachment.html>
+  <CADb+6TCqtLBM=Li-0Q4ECB-vmoBcCH71SC0Mw9LcbKiV7ntKXg@mail.gmail.com>
+  <CAHjcNN2eCQis01-u2xA0JLxJXCLZJxSDHFVohWPaj8G4mwVs6Q@mail.gmail.com>
+ Here's a trace to that same location over Cogent out of Denver and it all is 
+ fine here - except for the last hop and that's most likely them blocking me:
+    2. fa0-2.na01.b009854-0.den01.atlas.cogentco.com  0.0%    10    1.1   1.2   0.9   2.7   0.5
+    3. vl3509.mag02.den01.atlas.cogentco.com          0.0%    10    1.6  11.8   0.8  96.1  29.9
+    4. te0-7-0-5.ccr21.den01.atlas.cogentco.com       0.0%    10    1.1   1.5   1.1   3.5   0.7
+    5. be2129.mpd21.mci01.atlas.cogentco.com          0.0%    10   12.8  13.2  12.8  13.7   0.3
+    6. be2156.ccr41.ord01.atlas.cogentco.com          0.0%    10   25.8  28.8  24.9  45.6   7.5
+    7. be2079.ccr21.yyz02.atlas.cogentco.com          0.0%    10   40.3  41.1  39.7  47.0   2.2
+    8. be2436.ccr21.alb02.atlas.cogentco.com          0.0%    10   49.2  49.4  48.2  53.3   1.5
+    9. te0-0-2-2.agr11.alb02.atlas.cogentco.com       0.0%    10   48.6  48.4  47.9  50.8   0.9
+   10. ???                                           100.0    10    0.0   0.0   0.0   0.0   0.0
+ Chris
+ On 05/09/2014 12:09 PM, Kyle Farmer wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140509/e9d8b6bd/attachment-0001.html>
+  <CADb+6TCqtLBM=Li-0Q4ECB-vmoBcCH71SC0Mw9LcbKiV7ntKXg@mail.gmail.com>
+  <CAHjcNN2eCQis01-u2xA0JLxJXCLZJxSDHFVohWPaj8G4mwVs6Q@mail.gmail.com>
+ I read this traceroute to indicate two things (return-path would be nice
+ but gotta work with what I got):
+ The routers at hop #11 (I see it varies due to load balancing per
+ packet) claim that the destination, 38.101.32.14, is unreachable (i.e.
+ you are getting back ICMP host-unreach from those routers).  That could
+ mean either they don't have a route for whatever 38.101.32.14 falls
+ under (network-wise), or that the routers are aware that 38.101.32.14
+ isn't reachable/alive (god forbid they have a /32 for it)
+ You might wonder "what's up with hop #11 then 'doing it again' at hop
+ #12?", and the answer is probably that the routers at hop #11 are
+ supposed to have knowledge/reachability of/to 38.101.32.14, but don't
+ (for whatever reason), and are configured by default to punt packets
+ back to another router to try and find a different path (i.e. bouncing
+ between 154.54.28.82 and 154.54.5.161, hoping one can find the thing
+ the other cannot).
+ TL;DR -- You should be talking to both Cogent, as well as whoever
+ maintains this video.primelink1.com service/server/network, to inform
+ them of what's going on.  It's obvious something somewhere is either
+ broken or administratively set to behave this way.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Fri, May 09, 2014 at 02:09:22PM -0400, Kyle Farmer wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Charter SIP Service degradation
+###############################################################
+ Charter Communications is experiencing a voice service degradation on
+ their SIP & PRI circuits. CBNOC indicates this is a nationwide issue.
+ We have been experiencing trouble in northern Michigan since ~13:00
+ ET.
+ Central Wisconsin, can confirm this report as well, however no additional
+ information.
+ On Fri, May 16, 2014 at 1:49 PM, Mitchell Kuch <mitch at basejp.com> wrote:
+ -- 
+ - Anthony Hook
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140516/a85f5cdf/attachment.html>
+ I'm hearing that this Is resolved
+ Sent from my phone, please excuse any typos
+ -----Original Message-----
+ From: Anthony Hook [anthony.hook3 at gmail.com]
+ Received: Friday, 16 May 2014, 3:11PM
+ Central Wisconsin, can confirm this report as well, however no additional information.
+ On Fri, May 16, 2014 at 1:49 PM, Mitchell Kuch <mitch at basejp.com<mailto:mitch at basejp.com>> wrote:
+ Charter Communications is experiencing a voice service degradation on
+ their SIP & PRI circuits. CBNOC indicates this is a nationwide issue.
+ We have been experiencing trouble in northern Michigan since ~13:00
+ ET.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ --
+ - Anthony Hook
+ It looks like it affected service out of their Fitchburg, WI head-end as well.  We have SIP service out of that head-end and we received a rash of helpdesk tickets about voice degradation on calls that we routed via Charter.  Our degraded call times ranged from 11:45 through 13:06 CDT.
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Stephens, Jamie A
+ Sent: Friday, May 16, 2014 2:18 PM
+ Cc: outages at outages.org
+ I'm hearing that this Is resolved
+ Sent from my phone, please excuse any typos
+ -----Original Message-----
+ From: Anthony Hook [anthony.hook3 at gmail.com]
+ Received: Friday, 16 May 2014, 3:11PM
+ Central Wisconsin, can confirm this report as well, however no additional information.
+ On Fri, May 16, 2014 at 1:49 PM, Mitchell Kuch <mitch at basejp.com<mailto:mitch at basejp.com>> wrote:
+ Charter Communications is experiencing a voice service degradation on
+ their SIP & PRI circuits. CBNOC indicates this is a nationwide issue.
+ We have been experiencing trouble in northern Michigan since ~13:00
+ ET.
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org<mailto:Outages at outages.org>
+ https://puck.nether.net/mailman/listinfo/outages
+ --
+ - Anthony Hook
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+  <5cd6f0db68c148e5bbaa50c7e121e22f@verona-exch-1.epic.com>
+ Charter master ticket CIT# 5861904
+ Not resolved.
+ Mitigated at 2:20 ET
+ I've heard: Congested circuits in the St. Louis, MO area resulted in
+ (potentially ongoing) packet loss. Further, call management systems
+ responded to the packet loss by passing calls between backup systems
+ resulting in further degradation and dropped calls.
+ On Fri, May 16, 2014 at 3:56 PM, Jeremy Charles <JCharles at epic.com> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Zayo west coast issues
+###############################################################
+ On-going packet loss issues on Zayo/Above.net in the SF Bay area today
+ continues.. Master ticket for initial outage was likely 456129.. Latest
+ round appears to have caused their MPLS network to bounce point to point
+ circuits in addition to DIA issues.
+ -Peter
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140519/94bf4165/attachment.html>
+ Still ongoing.. Master ticket now 456111
+ Peter Kranz
+ Unwired Ltd
+ From: Peter Kranz [mailto:pkranz at unwiredltd.com] 
+ Sent: Monday, May 19, 2014 3:52 PM
+ On-going packet loss issues on Zayo/Above.net in the SF Bay area today
+ continues.. Master ticket for initial outage was likely 456129.. Latest
+ round appears to have caused their MPLS network to bounce point to point
+ circuits in addition to DIA issues.
+ -Peter
+ Same issue with Zayo here, Oakland CA.
+ -YuriB
+ On Mon, May 19, 2014 at 6:01 PM, Peter Kranz <pkranz at unwiredltd.com> wrote:
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140519/0f14cbff/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+secureserver.net down
+###############################################################
+ We are seeing issues with secureserver.net in the midwest. Symptoms include slow response times, DNS timeouts, and registrar functions seem to be unavailable.  Whois database appears to be impacted as well.  Is anyone else experiencing these symptoms...??
+  Ryan O'Shea | Director of Technology | VCP5 - RHCE
+ [Description: cisp_side_addr]
+ support at cisp.com<mailto:support at cisp.com> | www.cisp.com<http://www.cisp.com/>
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140520/b4d28eb2/attachment.html>
+ I can't hit their website, from Dallas area.
+ --
+ ERIC HENSON
+ Solutions Architect for Systems Organization
+ PFSweb  |  www.pfsweb.com<http://www.pfsweb.com/>
+ p:  972.881.2900  x3104
+ m: 972.948.3424
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of *Network
+ Sent: Monday, May 19, 2014 7:47 PM
+ We are seeing issues with secureserver.net in the midwest. Symptoms include slow response times, DNS timeouts, and registrar functions seem to be unavailable.  Whois database appears to be impacted as well.  Is anyone else experiencing these symptoms...??
+  Ryan O'Shea | Director of Technology | VCP5 - RHCE
+ support at cisp.com<mailto:support at cisp.com> | www.cisp.com<http://www.cisp.com/>
+ ------------------------
+ This email was scanned by BitDefender.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140520/07d70f23/attachment.html>
+  <0A0077825D87834E8E0008F0150350C53647FE14@prodmbx02.pfsweb.com>
+ I'm not sure what site that last two posters are referring to, as no real
+ details are given, but hitting www.secureserver.net
+ <http://www.secureserver.net>  gives me this:
+ C:\Users\Frank Bulk>wget -4 www.secureserver.net
+ --2014-05-19 21:43:56--  http://www.secureserver.net/
+ Resolving www.secureserver.net (www.secureserver.net)... 208.109.4.208
+ Connecting to www.secureserver.net
+ (www.secureserver.net)|208.109.4.208|:80... connected.
+ HTTP request sent, awaiting response... 302 Object moved
+ Location: http://default.secureserver.net/ [following]
+ --2014-05-19 21:43:56--  http://default.secureserver.net/
+ Resolving default.secureserver.net (default.secureserver.net)...
+ 68.178.232.99
+ Connecting to default.secureserver.net
+ (default.secureserver.net)|68.178.232.99|:80... failed: Bad file descriptor.
+ Retrying.
+ --2014-05-19 21:44:17--  (try: 2)  http://default.secureserver.net/
+ Connecting to default.secureserver.net
+ (default.secureserver.net)|68.178.232.99|:80... failed: Bad file descriptor.
+ Retrying.
+ --2014-05-19 21:44:38--  (try: 3)  http://default.secureserver.net/
+ Connecting to default.secureserver.net
+ (default.secureserver.net)|68.178.232.99|:80... failed: Bad file descriptor.
+ Etc.
+ Frank
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Eric Henson
+ Sent: Monday, May 19, 2014 9:30 PM
+ I can't hit their website, from Dallas area.
+ -- 
+ ERIC HENSON
+ Solutions Architect for Systems Organization
+ PFSweb  |   <http://www.pfsweb.com/> www.pfsweb.com
+ p:  972.881.2900  x3104
+ m: 972.948.3424
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of *Network
+ Sent: Monday, May 19, 2014 7:47 PM
+ We are seeing issues with secureserver.net in the midwest. Symptoms include
+ slow response times, DNS timeouts, and registrar functions seem to be
+ unavailable.  Whois database appears to be impacted as well.  Is anyone else
+ experiencing these symptoms...?? 
+  Ryan O'Shea | Director of Technology | VCP5 - RHCE
+  <mailto:support at cisp.com> support at cisp.com |  <http://www.cisp.com/>
+ www.cisp.com
+ ------------------------
+ This email was scanned by BitDefender.
+ ------------------------
+ This email was scanned by BitDefender.
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140519/e82e55be/attachment-0001.html>
+  <0A0077825D87834E8E0008F0150350C53647FE14@prodmbx02.pfsweb.com>
+  <007f01cf73d5$94a4f2a0$bdeed7e0$@iname.com>
+ "Bad file descriptor" could indicate the TCP socket is being abruptly
+ closed by the remote end (server), or probably a timeout; hard to say on
+ Windows (no offence of course).
+ Let's see from *IX:
+ $ curl -L -v http://www.secureserver.net/
+ * Hostname was NOT found in DNS cache
+ *   Trying 208.109.4.208...
+ * Connected to www.secureserver.net (208.109.4.208) port 80 (#0)
+ < HTTP/1.1 302 Object moved
+ < Cache-Control: private
+ < Content-Length: 153
+ < Content-Type: text/html
+ < Location: http://default.secureserver.net/
+ * Server Microsoft-IIS/7.0 is not blacklisted
+ < Server: Microsoft-IIS/7.0
+ < Set-Cookie: ASPSESSIONIDSSAQCARD=OBLEBDKAKDNLKIHLMGNJNADK; path=/
+ < X-Powered-By: ASP.NET
+ < Date: Tue, 20 May 2014 02:50:58 GMT
+ <
+ * Ignoring the response-body
+ * Connection #0 to host www.secureserver.net left intact
+ * Issue another request to this URL: 'http://default.secureserver.net/'
+ * Hostname was NOT found in DNS cache
+ *   Trying 68.178.232.99...
+ ^C
+ And from that point it just sits there -- no response to TCP SYN;
+ tcpdump verification:
+ 19:52:40.518979 IP 192.168.1.51.41206 > 68.178.232.99.80: Flags [S], seq 547856610, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS val 502406310 ecr 0], length 0
+ 19:52:43.518913 IP 192.168.1.51.41206 > 68.178.232.99.80: Flags [S], seq 547856610, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS val 502409310 ecr 0], length 0
+ 19:52:46.718910 IP 192.168.1.51.41206 > 68.178.232.99.80: Flags [S], seq 547856610, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS val 502412510 ecr 0], length 0
+ I have no idea what "proper" behaviour is (i.e. no idea if the HTTP 302
+ is normal, no idea if default.secureserver.net is the normal FQDN
+ redirection destination, no idea if the IPs in question are correct
+ (e.g. DNS hijacking, whatever)), just proving some technical insight.
+ -- 
+ | Jeremy Chadwick                                   jdc at koitsu.org |
+ | UNIX Systems Administrator                http://jdc.koitsu.org/ |
+ | Making life hard for others since 1977.             PGP 4BD6C0CB |
+ On Mon, May 19, 2014 at 09:45:37PM -0500, Frank Bulk wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Google Resolver 8.8.8.8 Selectively responding to RDNS requests
+###############################################################
+ I have a /24 in an Internap colo and use Google Resolver 8.8.8.8 on all my machines. Google will not consistently respond to RDNS lookups from source IP X.X.X.1 but will respond consistently if I change the IP address of the machine to X.X.X.2. I have proven the DNS response is never returned using tcpdump.
+ It's positively not a local networking issue as changing my resolver to 4.2.2.2 (Level 3) while the machine uses X.X.X.1, the RDNS responses arrive without fail.
+ Has anyone else seen this sort of selective response by Google? Do they maintain some sort of black list?
+ On Fri, May 23, 2014 at 03:31:42AM -0400,
+  Blake McKeeby <blake.mckeeby at gmail.com> wrote 
+  a message of 10 lines which said:
+ I would suggest it is probably more load balancing by hashing the
+ source IP address then a black hole.
+  <20140523075609.GA12749@nic.fr>
+ Hmm interesting, good point, never thought of that. 
+ If that is the case, then the conclusion would be that this issue is affecting more than just my X.X.X.1 but rather all source IPs whose hashed value is the same as my X.X.X.1? 
+ On May 23, 2014, at 3:56 AM, Stephane Bortzmeyer <bortzmeyer at nic.fr> wrote:
+  <20140523075609.GA12749@nic.fr>
+  <0A03FDDF-8D74-4145-9641-8A0E20E82E67@gmail.com>
+ On May 23, 2014, at 3:00 PM, Blake McKeeby <blake.mckeeby at gmail.com> wrote:
+ It's unlikely the hashing is that simple.
+ Also, you should check to ensure your .1 isn't being abusive.
+ ----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+                    Equo ne credite, Teucri.
+     		   	  -- Laoco?n
+  <20140523075609.GA12749@nic.fr>
+  <0A03FDDF-8D74-4145-9641-8A0E20E82E67@gmail.com>
+  <6AFEA772-6A8B-4109-8E7F-994AB027E7B7@arbor.net>
+ You should at least be using 8.8.4.4 for some of your queries, does it work?
+ -- 
+ ERIC HENSON
+ Solutions Architect for Systems Organization
+ PFSweb? |? www.pfsweb.com
+ p:? 972.881.2900? x3104
+ m: 972.948.3424
+ -----Original Message-----
+ From: Outages [mailto:outages-bounces at outages.org] On Behalf Of Roland Dobbins
+ Sent: Friday, May 23, 2014 3:26 AM
+ On May 23, 2014, at 3:00 PM, Blake McKeeby <blake.mckeeby at gmail.com> wrote:
+ It's unlikely the hashing is that simple.
+ Also, you should check to ensure your .1 isn't being abusive.
+ ----------------------------------------------------------------------
+ Roland Dobbins <rdobbins at arbor.net> // <http://www.arbornetworks.com>
+                    Equo ne credite, Teucri.
+     		   	  -- Laoco?n
+ _______________________________________________
+ Outages mailing list
+ Outages at outages.org
+ https://puck.nether.net/mailman/listinfo/outages
+ ------------------------
+ This email was scanned by BitDefender.
+ Check out this page and the link from there to the Google Public DNS 
+ User Group or the Issue Tracker for reporting issues:
+ https://developers.google.com/speed/public-dns/docs/using?csw=1#troubleshooting
+ Hope that helps,
+    -Scott
+ On 05/23/2014 03:31 AM, Blake McKeeby wrote:
+  <537F61C2.4060606@sberkman.net>
+ Great, I agree that it is because traffic from x.x.x.1 is taking a different path than x.x.x.2 likely because of a load balancing technique which has some dependency on source ip. I?ve posted the issue in Google?s issue tracker. Thanks for the help! 
+ On May 23, 2014, at 10:57 AM, Scott Berkman <scott at sberkman.net> wrote:
+###############################################################
+END
+###############################################################
+
+###############################################################
+Verizon outage
+###############################################################
+ I've heard problems with Verizon OC12 and loss of power in CO in the McLean, VA / Tysons corner area.
+ This was detected yesterday afternoon and seems to still be a problem with, I know at least Ethernet circuits.
+ Anyone else affected by this?
+ Checking for validity here.
+ Thanks,
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140523/62fd028c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Above.net SF bay area
+###############################################################
+ Looks like problems with Above.net again .. Starting at 9:05AM PST
+ -Peter 
+ -------------- next part --------------
+ An HTML attachment was scrubbed...
+ URL: <https://puck.nether.net/pipermail/outages/attachments/20140523/9e7a263c/attachment.html>
+###############################################################
+END
+###############################################################
+
+###############################################################
+Sprint issue?
+###############################################################
+ I'm hearing second-hand that Sprint is having a "large data outage".  Our
+ wireless carrier's data partner, ClearSky, apparently uses them in some
+ manner.
+ Anyone know anything?  First report I received was just after 9:30 am
+ Central.
+ Regards,
+ Frank Bulk
+###############################################################
+END
+###############################################################
+
